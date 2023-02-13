@@ -141,4 +141,16 @@
     <string name="car_permission_desc_use_car_watchdog">Defnyddio gwarchotgi\u2019r car.</string>
     <string name="trust_device_default_name">Fy Nyfais</string>
     <string name="default_guest_name">Gwestai</string>
+    <string name="factory_reset_now_button">Ailosod Nawr</string>
+    <string name="factory_reset_later_button">Ailosod yn Hwyrach</string>
+    <string name="factory_reset_later_text">Bydd y system gwybodloniant yn ailddechrau y tro nesaf bydd y car yn dechrau.</string>
+    <string name="factory_reset_driving_text">Rhaid parcio\'r car i gychwyn yr ailosod.</string>
+    <string name="resource_overuse_notification_title">Mae <xliff:g name="app_name" example="Maps">^1</xliff:g> yn effeithio ar berfformiad dy system</string>
+    <string name="resource_overuse_notification_text_disable_app">Analluoga\'r ap i wella perfformiad y system. Gellir galluogi\'r ap unwaith eto yn Gosodiadau.</string>
+    <string name="resource_overuse_notification_text_prioritize_app">Blaenoriaethu\'r ap i ddal i ddefnyddio\'r ap.</string>
+    <string name="resource_overuse_notification_text_uninstall_app">Dadosod ap i wella perfformiad y system.</string>
+    <string name="resource_overuse_notification_button_disable_app">Analluogi\'r ap</string>
+    <string name="resource_overuse_notification_button_prioritize_app">Blaenoriaethu\'r ap</string>
+    <string name="resource_overuse_notification_button_uninstall_app">Dadosod yr ap</string>
+    <string name="resource_overuse_toast_disable_app_now">Cafodd <xliff:g name="app_name" example="Maps">^1</xliff:g> ei analluogi. Gellir ei alluogi eto yn Gosodiadau.</string>
 </resources>

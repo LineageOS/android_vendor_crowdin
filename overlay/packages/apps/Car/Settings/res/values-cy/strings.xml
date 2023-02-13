@@ -143,6 +143,7 @@
     <string name="wifi_ap_5G">5.0 GHz</string>
     <string name="wifi_ap_band_select_one">Rhaid dewis o leiaf un band ar gyfer y llecyn Wi\u2011Fi:</string>
     <string name="tether_settings_title_all">Llecyn Wi\u2011Fi a thenynnu</string>
+    <string name="wifi_hotspot_state_off">I ffwrdd</string>
     <string name="wifi_hotspot_auto_off_title">Troi\'r llecyn i ffwrdd yn awtomatig</string>
     <string name="wifi_hotspot_auto_off_summary">Bydd y llecyn Wi\u2011Fi yn troi i ffwrdd os na fydd unrhyw ddyfeisiau wedi\'u cysylltu</string>
     <string name="wifi_ask_enable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi ymlaen</string>
@@ -274,6 +275,7 @@
     <string name="force_stop">Gorfodi stopio</string>
     <string name="force_stop_dialog_title">Gorfodi stopio?</string>
     <string name="force_stop_dialog_text">Os wyt yn gorfodi ap i stopio, mae\'n bosib iddo ymddwyn yn anarferol.</string>
+    <string name="prioritize_app_performance_dialog_action_on">Iawn</string>
     <string name="disable_text">Analluogi</string>
     <string name="enable_text">Galluogi</string>
     <string name="uninstall_text">Dadosod</string>
@@ -288,6 +290,7 @@
     <string name="storage_type_internal">%s yn y storfa fewnol</string>
     <string name="data_usage_summary_title">Defnydd data</string>
     <string name="data_usage_app_summary_title">Defnydd data apiau</string>
+    <string name="app_data_usage_background">Cefndir</string>
     <string name="computing_size">Yn cyfrifo\u2026</string>
     <string name="direct_boot_unaware_dialog_message_car">Noder: Ar ôl ailddechrau, ni all yr ap hwn ddechrau nes bod dy gerbyd wedi ei ddatgloi.</string>
     <string name="assist_and_voice_input_settings">Cymorth a mewnbwn llais</string>
@@ -324,6 +327,7 @@
     <string name="app_link_open_ask">Gofyn pob tro</string>
     <string name="app_link_open_never">Peidio ag agor yn yr ap hwn</string>
     <string name="app_launch_supported_domain_urls_title">Dolenni a gefnogir</string>
+    <string name="apps_settings_title">Apiau</string>
     <string name="special_access">Mynediad arbennig yr ap</string>
     <string name="show_system">Dangos apiau system</string>
     <string name="hide_system">Cuddio apiau system</string>
@@ -347,6 +351,7 @@
     <string name="location_settings_recent_requests_empty_message">Dim ceisiau diweddar am leoliad</string>
     <string name="location_settings_app_permissions_title">Caniatâd lefel apiau</string>
     <string name="location_settings_services_title">Gwasanaethau Lleoliad</string>
+    <string name="microphone_no_recent_access">Dim apiau diweddar</string>
     <string name="microphone_settings_loading_app_permission_stats">Yn llwytho\u2026</string>
     <string name="system_setting_title">System</string>
     <string name="system_update_settings_title">Diweddariadau system</string>
@@ -586,5 +591,12 @@
     <string name="assistant_and_voice_use_screenshot_title">Defnyddio sgrinlun</string>
     <string name="enterprise_privacy_none">Dim</string>
     <string name="enterprise_privacy_enterprise_set_default_apps">Apiau rhagosodedig</string>
+    <string name="captions_settings_off">I ffwrdd</string>
+    <string name="captions_settings_on">Ymlaen</string>
+    <string name="captions_text_style_title">Arddull capsiynau</string>
+    <string name="captions_settings_text_style_white_on_black">Gwyn ar ddu</string>
+    <string name="captions_settings_text_style_black_on_white">Du ar wyn</string>
+    <string name="captions_settings_text_style_yellow_on_black">Melyn ar ddu</string>
+    <string name="captions_settings_text_style_yellow_on_blue">Melyn ar las</string>
     <string name="screen_reader_description_title">Gosodiadau</string>
 </resources>

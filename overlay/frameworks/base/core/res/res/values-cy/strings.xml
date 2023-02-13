@@ -258,7 +258,7 @@ O ganlyniad, cafodd dy broffil gwaith a\'r data perthnasol eu dileu. Cysyllta â
     <string name="global_action_logout">Diweddu sesiwn</string>
     <string name="global_action_screenshot">Sgrinlun</string>
     <string name="bugreport_title">Adroddiad Gwall</string>
-    <string name="bugreport_message">Bydd hyn yn casglu gwybodaeth am gyflwr presennol dy ddyfais i\'w hanfon fel neges e-bost.  Mi gymerith ychydig o amser o ddechrau\'r adroddiad gwall nes bod ei fod yn barod i\'w anfon, felly bu\'n bwyllog.</string>
+    <string name="bugreport_message">Bydd hyn yn casglu gwybodaeth am gyflwr presennol dy ddyfais i\'w hanfon fel neges e-bost.  Mi gymerith ychydig o amser o gychwyn yr adroddiad gwall nes bod ei fod yn barod i\'w anfon, felly bu\'n bwyllog.</string>
     <string name="bugreport_option_interactive_title">Adroddiad rhyngweithiol</string>
     <string name="bugreport_option_interactive_summary">Dylid defnyddio hwn fel rheol.
 Mae\'n dy alluogi i dracio cynnydd yr adroddiad, ychwanegu rhagor o wybodaeth am y broblem, a thynnu sgrinluniau.
@@ -419,7 +419,7 @@ ar y gweill ar dy ddyfais ac i reoli\'r galwadau hyn.</string>
     <string name="permlab_writeSettings">addasu gosodiadau\'r system</string>
     <string name="permdesc_writeSettings">Mae\'n caniatáu yr ap i addasu gosodiadau data\'r system. Gall apiau maleisus llygru ffurfweddiad y system.</string>
     <string name="permlab_receiveBootCompleted">rhedeg wrth gychwyn</string>
-    <string name="permdesc_receiveBootCompleted" product="tablet">Mae\'n caniatáu yr ap i fedru dechrau ei hun cyn gynted â bod y system wedi cychwyn. Gall hyn olygu ei fod yn cymryd hirach i\'r llechen dechrau ac wrth redeg o hyd gallai\'r ap arafu\'r llechen yn gyffredinol.</string>
+    <string name="permdesc_receiveBootCompleted" product="tablet">Mae\'n caniatáu yr ap i fedru dechrau ei hun cyn gynted â bod y system wedi cychwyn. Gall hyn olygu ei fod yn cymryd hirach i\'r llechen cychwyn ac wrth redeg o hyd gallai\'r ap arafu\'r llechen yn gyffredinol.</string>
     <string name="permdesc_receiveBootCompleted" product="tv">Mae\'n caniatáu yr ap i fedru dechrau ei hun cyn gynted â bod y system wedi cychwyn. Gall hyn olygu ei fod yn cymryd hirach i\'r ddyfais Android TV dechrau ac wrth redeg o hyd gallai\'r ap arafu\'r ddyfais yn gyffredinol.</string>
     <string name="permdesc_receiveBootCompleted" product="default">Mae\'n caniatáu yr ap i fedru dechrau ei hun cyn gynted â bod y system wedi cychwyn. Gall hyn olygu ei fod yn cymryd hirach i\'r ffôn dechrau ac wrth redeg o hyd gallai\'r ap arafu\'r ffôn yn gyffredinol.</string>
     <string name="permlab_broadcastSticky">anfon darllediad gludiog</string>
@@ -1292,7 +1292,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="editTextMenuTitle">Gweithredoedd testun</string>
     <string name="low_internal_storage_view_title">Yn rhedeg yn brin o le storio</string>
     <string name="low_internal_storage_view_text">Mae\'n bosib na fydd rhai swyddogaethau system yn gweithio</string>
-    <string name="low_internal_storage_view_text_no_boot">Does dim digon o le ar gyfer y system. Rhaid sicrhau bod o leiaf 250MB yn rhydd yna gellir ail-ddechrau.</string>
+    <string name="low_internal_storage_view_text_no_boot">Does dim digon o le ar gyfer y system. Rhaid sicrhau bod o leiaf 250MB yn rhydd yna gellir ailgychwyn.</string>
     <string name="app_running_notification_title">Mae <xliff:g id="app_name">%1$s</xliff:g> yn rhedeg.</string>
     <string name="app_running_notification_text">Tapia am ragor o wybodaeth neu i stopio\'r ap.</string>
     <string name="ok">Iawn</string>
@@ -1346,7 +1346,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="aerr_restart">Agor yr ap eto</string>
     <string name="aerr_report">Anfon adborth</string>
     <string name="aerr_close">Cau</string>
-    <string name="aerr_mute">Distewi nes bydd y ddyfais yn ail-ddechrau</string>
+    <string name="aerr_mute">Distewi nes bydd y ddyfais yn ailgychwyn</string>
     <string name="aerr_wait">Aros</string>
     <string name="aerr_close_app">Cau\'r ap</string>
     <string name="anr_activity_application">Dyw <xliff:g id="application">%2$s</xliff:g> ddim yn ymateb</string>
@@ -1382,7 +1382,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="app_upgrading_toast">Mae <xliff:g id="application">%1$s </xliff:g>yn uwchraddio\u2026</string>
     <string name="android_upgrading_apk">Yn optimeiddio ap <xliff:g id="number" example="123">%1$d</xliff:g> o <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
     <string name="android_preparing_apk">Yn paratoi <xliff:g id="appname">%1$s</xliff:g>...</string>
-    <string name="android_upgrading_starting_apps">Yn dechrau apiau...</string>
+    <string name="android_upgrading_starting_apps">Yn cychwyn apiau...</string>
     <string name="android_upgrading_complete">Yn cwblhau pethau...</string>
     <string name="fp_enrollment_powerbutton_intent_title">Troi\'r sgrin i ffwrdd?</string>
     <string name="fp_enrollment_powerbutton_intent_message">Wrth osod ôl dy fys, pwyswyd y botwm Pŵer.\n\nMae hyn fel arfer yn troi\'r sgrin i ffwrdd.</string>
@@ -1462,7 +1462,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="sms_short_code_confirm_always_allow">Caniatáu Bob Tro</string>
     <string name="sms_short_code_confirm_never_allow">Caniatáu Byth</string>
     <string name="sim_removed_title">Tynnwyd y cerdyn SIM</string>
-    <string name="sim_removed_message">Ni fydd y rhwydwaith symudol ar gael nes dy fod yn ail-ddechrau gyda cherdyn SIM dilys wedi ei osod.</string>
+    <string name="sim_removed_message">Ni fydd y rhwydwaith symudol ar gael nes dy fod yn ailgychwyn gyda cherdyn SIM dilys wedi ei osod.</string>
     <string name="sim_done_button">Iawn</string>
     <string name="sim_added_title">Ychwanegwyd cerdyn SIM</string>
     <string name="sim_added_message">Ailgychwyna dy ddyfais i gael mynediad at y rhwydwaith symudol.</string>
@@ -2191,7 +2191,7 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="unpin_specific_target">Dadbinio <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
     <string name="app_info">Gwybodaeth am yr ap</string>
     <string name="negative_duration">\u2212<xliff:g id="time" example="1:14">%1$s</xliff:g></string>
-    <string name="demo_starting_message">Yn dechrau\'r modd arddangos\u2026</string>
+    <string name="demo_starting_message">Yn cychwyn y modd arddangos\u2026</string>
     <string name="demo_restarting_message">Yn ailosod y ddyfais\u2026</string>
     <string name="suspended_widget_accessibility">Analluogwyd <xliff:g id="label" example="Calendar">%1$s</xliff:g></string>
     <string name="conference_call">Galwad Grŵp</string>
