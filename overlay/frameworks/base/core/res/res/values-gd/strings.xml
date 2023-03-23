@@ -1551,6 +1551,7 @@
     <string name="ime_action_default">Cuir an gnìomh</string>
     <string name="dial_number_using">Fònaig an àireamh\nle <xliff:g id="number" example="555">%s</xliff:g></string>
     <string name="create_contact_using">Cruthaich neach-aithne\nle <xliff:g id="number" example="555">%s</xliff:g></string>
+    <string-array translatable="false" name="carrier_properties"/>
     <string name="grant_credentials_permission_message_header">Tha aplacaid no dhà ag iarraidh cead inntrigeadh dhan chunntas agad an-dràsta agus san àm ri teachd.</string>
     <string name="grant_credentials_permission_message_footer">A bheil thu airson an t-iarrtas seo a cheadachadh?</string>
     <string name="grant_permissions_header_text">Iarrtas inntrigidh</string>

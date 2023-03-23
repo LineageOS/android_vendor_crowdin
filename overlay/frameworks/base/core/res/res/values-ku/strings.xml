@@ -816,6 +816,7 @@
     <string name="ime_action_default">بەجێهێنان</string>
     <string name="dial_number_using">ژمارە بگرە\nبە بەکارهێنانی <xliff:g id="number" example="555">%s</xliff:g></string>
     <string name="create_contact_using">دروستکردنی ناو\nبەهۆی <xliff:g id="number" example="555">%s</xliff:g></string>
+    <string-array translatable="false" name="carrier_properties"/>
     <string name="grant_credentials_permission_message_header">یەک یان چەند بەرنامەی ناوبراو داوای ڕێگەپێدان ئەکەن بۆ دەسی پێ گەیشتنی ئەژمێرەکەت، ئێستا و لە داهاتوودا.</string>
     <string name="grant_credentials_permission_message_footer">ئەتەوێ ڕێگە بدەیت بەم داواکارییە؟</string>
     <string name="grant_permissions_header_text">داواکردنی ڕێگەپێدان</string>

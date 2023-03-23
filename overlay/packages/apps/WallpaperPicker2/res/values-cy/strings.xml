@@ -105,4 +105,6 @@
     <string name="accessibility_customize_shown">Addasu wedi\'i ddangos</string>
     <string name="accessibility_info_hidden">Gwybodaeth wedi\'i guddio</string>
     <string name="accessibility_info_shown">Gwybodaeth wedi\'i ddangos</string>
+    <string name="lock_screen_tab">Sgrin cloi</string>
+    <string name="home_screen_tab">Sgrin gartref</string>
 </resources>
