@@ -836,6 +836,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="ime_action_default">Ausféieren</string>
     <string name="dial_number_using">Nummer\nmat <xliff:g id="number" example="555">%s</xliff:g> auswielen</string>
     <string name="create_contact_using">Neie Kontakt\nmat <xliff:g id="number" example="555">%s</xliff:g> erstellen</string>
+    <string-array translatable="false" name="carrier_properties"/>
     <string name="grant_credentials_permission_message_header">Dës Appe brauchen eng Berechtegung fir elo an an Zukunft op däi Kont zouzegräifen.</string>
     <string name="grant_credentials_permission_message_footer">Wëlls du dës Ufro erlaben?</string>
     <string name="grant_permissions_header_text">Zougrëffsufro</string>

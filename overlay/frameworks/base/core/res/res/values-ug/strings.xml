@@ -746,6 +746,7 @@
     <string name="ime_action_default">ئىجرا قىل</string>
     <string name="dial_number_using"><xliff:g id="NUMBER">%s</xliff:g> دا نومۇر بۇرا</string>
     <string name="create_contact_using"><xliff:g id="NUMBER">%s</xliff:g> دا ئالاقەداش قۇر</string>
+    <string-array translatable="false" name="carrier_properties"/>
     <string name="grant_credentials_permission_message_header">تۆۋەندىكى بىر ياكى بىرقانچە ئەپ سىزنىڭ ھىساباتىڭىزنى زىيارەت قىلىش ھوقۇقىنى تەلەپ قىلىۋاتىدۇ.</string>
     <string name="grant_credentials_permission_message_footer">بۇ ئىلتىماسقا يول قويامسىز؟</string>
     <string name="grant_permissions_header_text">ئىلتىماسقا يول قوي</string>
