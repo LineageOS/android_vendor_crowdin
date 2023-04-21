@@ -68,6 +68,7 @@
         <item>Mawr</item>
         <item>Mwyaf</item>
     </string-array>
+    <string-array name="system_app_packages" translatable="false"/>
     <string-array name="wifi_peap_phase2_entries">
         <item>Dim</item>
         <item>MSCHAPV2</item>
@@ -80,4 +81,5 @@
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="customized_ignored_system_alert_window_packages" translatable="false"/>
 </resources>

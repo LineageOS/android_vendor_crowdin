@@ -70,4 +70,5 @@
         <item>Pink</item>
         <item>Naranxa</item>
     </string-array>
+    <string-array name="allowlist_hide_summary_in_battery_usage" translatable="false"/>
 </resources>

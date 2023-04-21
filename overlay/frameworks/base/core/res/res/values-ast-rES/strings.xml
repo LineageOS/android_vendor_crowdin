@@ -1595,6 +1595,7 @@
     <string name="ime_action_default">Executar</string>
     <string name="dial_number_using">Marcar el númberu\ncon «<xliff:g id="number" example="555">%s</xliff:g>»</string>
     <string name="create_contact_using">Crear un contautu\ncon «<xliff:g id="number" example="555">%s</xliff:g>»</string>
+    <string-array translatable="false" name="carrier_properties"/>
     <string name="grant_credentials_permission_message_header">Les aplicaciones siguientes soliciten permisu p\'acceder a la cuenta, agora y nel futuru.</string>
     <string name="grant_credentials_permission_message_footer">¿Quies permitir esta solicitú?</string>
     <string name="grant_permissions_header_text">Solicitú d\'accesu</string>
