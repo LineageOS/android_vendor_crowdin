@@ -427,6 +427,7 @@
     <string name="ime_action_done">Immed</string>
     <string name="ime_action_previous">Win iɛeddan</string>
     <string name="ime_action_default">Sselkem</string>
+    <string-array translatable="false" name="carrier_properties"/>
     <string name="allow">Sireg</string>
     <string name="deny">Aggi</string>
     <string name="sync_binding_label">Amtawi</string>
