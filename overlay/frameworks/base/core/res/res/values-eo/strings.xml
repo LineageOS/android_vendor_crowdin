@@ -143,6 +143,7 @@
     <string name="ime_action_go">Ek</string>
     <string name="ime_action_search">Serĉi</string>
     <string name="ime_action_send">Sendi</string>
+    <string-array translatable="false" name="carrier_properties"/>
     <string name="allow">Permesi</string>
     <string name="deny">Malpermesi</string>
     <string name="accessibility_binding_label">Alirebleco</string>
