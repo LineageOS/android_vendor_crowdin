@@ -487,8 +487,8 @@
     <string name="accessibility_status_bar_hotspot">Llecyn Wi-Fi</string>
     <string name="accessibility_managed_profile">Proffil gwaith</string>
     <string name="tuner_warning_title">Yn hwyl i rai ond nid i bawb</string>
-    <string name="tuner_warning">Mae Tiwniwr Rhyngwyneb y System yn rhoi dulliau ychwanegol i addasu rhyngwyneb defnyddiwr Android. Gall rhai nodweddion arbrofol cael eu haddasu, torri neu ddiflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
-    <string name="tuner_persistent_warning">Gall rhai nodweddion arbrofol cael eu haddasu, torri neu ddiflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
+    <string name="tuner_warning">Mae Tiwniwr Rhyngwyneb y System yn rhoi dulliau ychwanegol i addasu rhyngwyneb defnyddiwr Android. Gall rhai nodweddion arbrofol cael eu haddasu, torri neu diflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
+    <string name="tuner_persistent_warning">Gall rhai nodweddion arbrofol cael eu haddasu, torri neu diflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
     <string name="got_it">Deall yn iawn</string>
     <string name="tuner_toast">Llongyfarchiadau! Mae Tiwniwr Rhyngwyneb y System wedi ei ychwanegu i\'r Gosodiadau.</string>
     <string name="remove_from_settings">Tynnu o\'r Gosodiadau</string>
@@ -529,7 +529,7 @@
     <string name="notification_conversation_summary_low">Dim sain na dirgryniad ac mae\'n ymddangos yn is yn yr adran sgwrsio</string>
     <string name="notification_channel_summary_default">Gall ganu neu ddirgrynu yn seiliedig ar osodiadau\'r ffôn</string>
     <string name="notification_channel_summary_default_with_bubbles">Gall ganu neu ddirgrynu yn dibynnu ar osodiadau\'r ffôn. Mae sgyrsiau gan <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> fel swigod yn rhagosodedig.</string>
-    <string name="notification_channel_summary_automatic">Cael y system i bennu a ddylai\'r hysbysiad hwn wneud sain neu ddirgrynu</string>
+    <string name="notification_channel_summary_automatic">Cael y system i bennu a ddylai\'r hysbysiad hwn wneud sain neu dirgrynu</string>
     <string name="notification_channel_summary_automatic_alerted">&lt;b&gt;Statws:&lt;/b&gt; Wedi\'i codi i Rhagosodiad</string>
     <string name="notification_channel_summary_automatic_silenced">&lt;b&gt;Statws:&lt;/b&gt; Wedi\'i ddisgyn i Tawel</string>
     <string name="notification_channel_summary_automatic_promoted">&lt;b&gt;Statws:&lt;/b&gt; Wedi\'i Osod yn Uwch</string>
