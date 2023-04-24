@@ -18,8 +18,8 @@
     <string name="no_hfp">        I gwblhau dy alwad, rhaid cysylltu dy ffôn â dy gar trwy Bluetooth.
     </string>
     <string name="bluetooth_unavailable">Nid yw Bluetooth ar gael.</string>
-    <string name="bluetooth_disabled">I wneud neu dderbyn galwadau, tro Bluetooth ymlaen.</string>
-    <string name="bluetooth_unpaired">O wneud neu dderbyn galwadau, para dy ffôn â\'r car.</string>
+    <string name="bluetooth_disabled">I wneud neu derbyn galwadau, tro Bluetooth ymlaen.</string>
+    <string name="bluetooth_unpaired">I wneud neu derbyn galwadau, para dy ffôn â\'r car.</string>
     <string name="connect_bluetooth_button_text">Cysylltu â Bluetooth</string>
     <string name="emergency_button_text">Argyfwng</string>
     <string name="emergency_call_description">Galwad brys</string>
@@ -100,4 +100,5 @@
     <string name="dialing_disabled_warning">Deialu wedi\'i analluogi</string>
     <string name="restricted_dialing_mode_label">Rhwystrir defnydd o\'r pad deialu tra\'n gyrru</string>
     <string name="comma_delimiter">,\u0020</string>
+    <string name="sms_notification_text">Yn anfon SMS</string>
 </resources>
