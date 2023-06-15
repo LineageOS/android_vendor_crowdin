@@ -855,7 +855,7 @@
     <string name="person_available">Ar gael</string>
     <string name="battery_state_unknown_notification_title">Problem darllen dy fesurydd batri</string>
     <string name="battery_state_unknown_notification_text">Tapia am ragor o wybodaeth</string>
-    <string name="qs_alarm_tile_no_alarm">DIm larwm wedi\'i osod</string>
+    <string name="qs_alarm_tile_no_alarm">Dim larwm wedi\'i osod</string>
     <string name="accessibility_fingerprint_label">Synhwyrydd ôl bys</string>
     <string name="accessibility_authenticate_hint">dilysu</string>
     <string name="accessibility_enter_hint">rho ddyfais</string>
