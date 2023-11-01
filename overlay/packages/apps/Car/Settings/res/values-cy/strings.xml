@@ -780,5 +780,6 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="captions_settings_text_style_black_on_white">Du ar wyn</string>
     <string name="captions_settings_text_style_yellow_on_black">Melyn ar ddu</string>
     <string name="captions_settings_text_style_yellow_on_blue">Melyn ar las</string>
+    <string name="screen_reader_settings_off">I ffwrdd</string>
     <string name="screen_reader_description_title">Gosodiadau</string>
 </resources>

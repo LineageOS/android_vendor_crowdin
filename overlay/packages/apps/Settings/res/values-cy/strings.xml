@@ -3686,6 +3686,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="app_and_notification_dashboard_summary">Apiau diweddar, apiau rhagosodedig</string>
     <string name="notification_settings_work_profile">Does dim mynediad at hysbysiadau apiau yn y proffil gwaith.</string>
     <string name="account_dashboard_title">Cyfrineiriau a chyfrifon</string>
+    <string name="account_dashboard_default_summary">Cyfrinair wedi\'i gofio, awtolenwi, cyfrifon a gysonwyd</string>
     <string name="app_default_dashboard_title">Apiau rhagosodedig</string>
     <string name="system_dashboard_summary">Ieithoedd, ystumiau, amser, cadw wrth gefn</string>
     <string name="search_results_title">Gosodiadau</string>
@@ -5134,6 +5135,8 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="swipe_up_to_switch_apps_summary">I newid rhwng apiau, llusga i fyny o\u2019r botwm Cartref. I weld pob ap, llusga i fyny eto. I fynd nôl, tapia\u2019r botwm nôl.</string>
     <string name="swipe_up_to_switch_apps_suggestion_title">Rho gynnig ar y botwm Cartref newydd</string>
     <string name="swipe_up_to_switch_apps_suggestion_summary">Troi\'r ystum newydd ymlaen i newid rhwng apiau</string>
+    <string name="emergency_settings_preference_title">Diogelwch ac argyfwng</string>
+    <string name="emergency_dashboard_summary">SOS argyfwng, gwybodaeth feddygol, rhybuddion</string>
     <string name="edge_to_edge_navigation_title">Llywio ag ystumiau</string>
     <string name="edge_to_edge_navigation_summary">I fynd Gartref, llusga i fyny o waelod y sgrin. I newid rhwng apiau, llusga i fyny o\u2019r gwaelod, dal, yna gollwng. I fynd nôl, llusga o\u2019r ymyl chwith neu dde.</string>
     <string name="legacy_navigation_title">Llywio 3-botwm</string>
