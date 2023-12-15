@@ -643,6 +643,24 @@
     <string name="phone_in_ecm_notification_title">Modd Galwad Nôl mewn Argyfwng</string>
     <string name="phone_in_ecm_call_notification_text">Analluogwyd cysylltiad data</string>
     <string name="phone_in_ecm_notification_complete_time">Dim cysylltiad data tan <xliff:g id="completeTime">%s</xliff:g></string>
+    <string name="alert_dialog_exit_ecm"> {count, plural,
+        =1 {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am un funud. Tra yn y modd hon, ni ellir defnyddio unrhyw apiau sy\'n defnyddio cysylltiad data. Wyt ti am adael nawr?}
+        zero {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munudau. Tra yn y modd hon, ni ellir defnyddio unrhyw apiau sy\'n defnyddio cysylltiad data. Wyt ti am adael nawr?}
+        two {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s funud. Tra yn y modd hon, ni ellir defnyddio unrhyw apiau sy\'n defnyddio cysylltiad data. Wyt ti am adael nawr?}
+        few {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munud. Tra yn y modd hon, ni ellir defnyddio unrhyw apiau sy\'n defnyddio cysylltiad data. Wyt ti am adael nawr?}
+        many {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munud. Tra yn y modd hon, ni ellir defnyddio unrhyw apiau sy\'n defnyddio cysylltiad data. Wyt ti am adael nawr?}
+        other {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munud. Tra yn y modd hon, ni ellir defnyddio unrhyw apiau sy\'n defnyddio cysylltiad data. Wyt ti am adael nawr?}
+        }
+    </string>
+    <string name="alert_dialog_not_avaialble_in_ecm"> {count, plural,
+        =1 {Dyw\'r weithred honno ddim ar gael tra bod y ffôn yn y modd Galwad nôl mewn Argyfwng. Bydd y ffôn yn y modd hon am un funud. Wyt ti am adael nawr?}
+        zero {Dyw\'r weithred honno ddim ar gael tra bod y ffôn yn y modd Galwad nôl mewn Argyfwng. Bydd y ffôn yn y modd hon am %s munudau. Wyt ti am adael nawr?}
+        two {Dyw\'r weithred honno ddim ar gael tra bod y ffôn yn y modd Galwad nôl mewn Argyfwng. Bydd y ffôn yn y modd hon am %s munud. Wyt ti am adael nawr?}
+        few {Dyw\'r weithred honno ddim ar gael tra bod y ffôn yn y modd Galwad nôl mewn Argyfwng. Bydd y ffôn yn y modd hon am %s munud. Wyt ti am adael nawr?}
+        many {Dyw\'r weithred honno ddim ar gael tra bod y ffôn yn y modd Galwad nôl mewn Argyfwng. Bydd y ffôn yn y modd hon am %s munud. Wyt ti am adael nawr?}
+        other {Dyw\'r weithred honno ddim ar gael tra bod y ffôn yn y modd Galwad nôl mewn Argyfwng. Bydd y ffôn yn y modd hon am %s munud. Wyt ti am adael nawr?}
+        }
+    </string>
     <string name="alert_dialog_in_ecm_call">Dyw\'r weithred honno ddim ar gael ar ganol galwad brys.</string>
     <string name="progress_dialog_exiting_ecm">Yn gadael Modd Galwad Nôl mewn Argyfwng</string>
     <string name="alert_dialog_yes">Gadael</string>
@@ -650,6 +668,15 @@
     <string name="alert_dialog_dismiss">Gwrthod</string>
     <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">Mae\'r ffôn ym modd galwad nôl mewn argyfwng.</string>
     <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Hyd at <xliff:g id="date">%s</xliff:g></string>
+    <string name="alert_dialog_exit_ecm_without_data_restriction_hint"> {count, plural,
+        =1 {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am un funud. Wyt ti am adael nawr?}
+        zero {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munudau. Wyt ti am adael nawr?}
+        two {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s funud. Wyt ti am adael nawr?}
+        few {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munud. Wyt ti am adael nawr?}
+        many {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munud. Wyt ti am adael nawr?}
+        other {Bydd y ffôn yn y modd Galwad nôl mewn Argyfwng am %s munud. Wyt ti am adael nawr?}
+        }
+    </string>
     <string name="voicemail_provider">Gwasanaeth</string>
     <string name="voicemail_settings">Gosod</string>
     <string name="voicemail_number_not_set">&lt;Heb ei osod&gt;</string>
