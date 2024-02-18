@@ -527,13 +527,13 @@
         <item quantity="one">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir bheag a bhith ’na bhroinn</item>
         <item quantity="two">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir bheag a bhith ’na bhroinn</item>
         <item quantity="few">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litrichean beaga a bhith ’na bhroinn</item>
-        <item quantity="other">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir beag a bhith ’na bhroinn</item>
+        <item quantity="other">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir bheag a bhith ’na bhroinn</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase">
         <item quantity="one">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir mhòr a bhith ’na bhroinn</item>
         <item quantity="two">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir mhòr a bhith ’na bhroinn</item>
         <item quantity="few">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litrichean mòra a bhith ’na bhroinn</item>
-        <item quantity="other">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir mòr a bhith ’na bhroinn</item>
+        <item quantity="other">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> litir mhòr a bhith ’na bhroinn</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric">
         <item quantity="one">Feumaidh co-dhiù <xliff:g id="count" example="3">%d</xliff:g> àireamh a bhith ’na bhroinn</item>
@@ -1583,7 +1583,7 @@
     <string name="mobile_unknown_sim_operator" translatable="true">Gnìomharaiche SIM nach aithne dhuinn</string>
     <string name="mobile_no_provisioning_url">Chan aithne dhuinn làrach-lìn solair aig <xliff:g id="operator">%1$s</xliff:g></string>
     <string name="mobile_insert_sim_card" translatable="true">Cuir a-steach cairt SIM is ath-thòisich</string>
-    <string name="mobile_connect_to_internet" translatable="true">Dèan ceangal gun eadar-lìon</string>
+    <string name="mobile_connect_to_internet" translatable="true">Ceangail ris an eadar-lìon</string>
     <string name="location_category_recent_location_requests">Iarrtasan ionaid o chionn goirid</string>
     <string name="location_recent_location_requests_see_all">Seall na h-uile</string>
     <string name="location_category_location_services">Seirbheisean ionaid</string>

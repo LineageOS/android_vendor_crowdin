@@ -79,6 +79,7 @@
     <string name="ethernet_tether_checkbox_text">Tethering per ethernet</string>
     <string name="tethering_footer_info">Usa\'l puntu Wi\u2011Fi y el tethering pa fornir internet a otros preseos pente la to conexón de datos móviles. Les aplicaciones tamién puen crear un puntu Wi\u2011Fi pa compartir conteníu colos preseos cercanos.</string>
     <string name="tethering_footer_info_sta_ap_concurrency">Usa\'l puntu Wi\u2011Fi y el tethering pa fornir internet a otros preseos pente la to conexón de datos móviles o de Wi\u2011Fi. Les aplicaciones tamién puen crear un puntu Wi\u2011Fi pa compartir conteníu colos preseos cercanos.</string>
+    <string name="mobile_insert_sim_card" translatable="true">Inxerta una tarxeta SIM y reanicia\'l preséu</string>
     <string name="mobile_connect_to_internet" translatable="true">Conéctate a internet</string>
     <string name="location_category_recent_location_access">Accesu recién</string>
     <string name="lockpassword_forgot_password">¿Escaeciesti la contraseña?</string>

@@ -674,6 +674,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="fingerprint_acquired_imager_dirty_alt">Lìmpia su sensore e torra a proare</string>
     <string name="fingerprint_acquired_too_fast">Preme cun firmesa su sensore</string>
     <string name="fingerprint_acquired_too_slow">Su pòddighe s\'est mòvidu tropu a bellu. Torra a proare.</string>
+    <string name="fingerprint_acquired_power_press">Rilevada pressione in su butone de allughidura</string>
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Imprenta non reconnota</string>
     <string name="fingerprint_udfps_error_not_match">Imprenta non reconnota</string>
@@ -690,6 +691,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="fingerprint_error_no_fingerprints">Peruna imprenta registrada.</string>
     <string name="fingerprint_error_hw_not_present">Custu dispositivu non tenet unu sensore de imprenta de pòddighe.</string>
     <string name="fingerprint_error_security_update_required">Sensore disabilitadu in manera temporànea.</string>
+    <string name="fingerprint_error_power_pressed">Butone de allughidura prèmidu</string>
     <string name="fingerprint_name_template">Pòddighe <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string-array name="fingerprint_error_vendor"/>
     <string name="fingerprint_icon_content_description">Icona de imprenta de pòddighe</string>
@@ -716,6 +718,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="face_acquired_dark_glasses_detected">@string/face_acquired_dark_glasses_detected_alt</string>
     <string name="face_acquired_mouth_covering_detected">@string/face_acquired_mouth_covering_detected_alt</string>
     <string name="face_acquired_recalibrate_alt">Impossìbile creare su modellu de sa cara tua. Torra a proare.</string>
+    <string name="face_acquired_dark_glasses_detected_alt">Ullieras iscuras rilevadas. Sa cara tua depet èssere visìbile de su totu.</string>
     <string-array name="face_acquired_vendor"/>
     <string name="face_error_hw_not_available">Impossìbile verificare sa cara. S\'hardware no est disponìbile.</string>
     <string name="face_error_no_space">Impossìbile archiviare datos noos de cara. Cantzella·nde una betza antis.</string>
@@ -1203,6 +1206,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="years">annos</string>
     <string name="now_string_shortest">immoe</string>
     <string name="duration_minutes_shortest">        <xliff:g id="count">%d</xliff:g>m
+    </string>
+    <string name="duration_hours_shortest">        <xliff:g id="count">%d</xliff:g>h
     </string>
     <string name="duration_days_shortest">       <xliff:g id="count">%d</xliff:g>d
     </string>
