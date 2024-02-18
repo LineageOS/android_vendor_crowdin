@@ -1174,6 +1174,6 @@
     <string name="sound_settings_title">Sun</string>
     <string name="power_and_energy">Alimentazion e energjie</string>
     <string name="power_on_behavior">Compuartament al impiament</string>
-    <string name="reset_options_title">Ristabilìs</string>
+    <string name="reset_options_title">Ripristinament</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Codiç di associazion ethernet</string>
 </resources>

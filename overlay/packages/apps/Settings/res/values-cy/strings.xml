@@ -1350,6 +1350,8 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="auto_rotate_option_on">Ymlaen</string>
     <string name="auto_rotate_option_face_based">Ymlaen - Ar sail wyneb</string>
     <string name="auto_rotate_switch_face_based">Synhwyro Wynebau</string>
+    <string name="auto_rotate_screen_summary" product="default">Addasu gorweddiad y sgrin yn awtomatig wrth symud dy ffôn rhwng darlun a thirlun</string>
+    <string name="auto_rotate_screen_summary" product="tablet">Addasu gorweddiad y sgrin yn awtomatig wrth symud dy lechen rhwng darlun a thirlun</string>
     <string name="auto_rotate_link_a11y">Dysgu rhagor am troi yn awtomatig</string>
     <string name="screen_resolution_title">Cydraniad sgrin</string>
     <string name="screen_resolution_option_highest">Cydraniad llawn</string>
@@ -1865,8 +1867,8 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="network_settings_title">Rhwydwaith symudol</string>
     <string name="manage_mobile_plan_title" translatable="true">Cynllun ffôn symudol</string>
     <string name="sms_application_title" translatable="true">Ap SMS</string>
-    <string name="sms_change_default_dialog_title" translatable="true">Newid ap SMS?</string>
-    <string name="sms_change_default_dialog_text" translatable="true">Defnyddio <xliff:g id="new_app">%1$s</xliff:g> yn lle <xliff:g id="current_app">%2$s</xliff:g> fel dy ap SMS?</string>
+    <string name="sms_change_default_dialog_title" translatable="true">Newid apiau SMS?</string>
+    <string name="sms_change_default_dialog_text" translatable="true">Defnyddio <xliff:g id="new_app">%1$s</xliff:g> yn lle <xliff:g id="current_app">%2$s</xliff:g> fel yr ap SMS?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true">Defnyddio <xliff:g id="new_app">%s</xliff:g> fel dy ap SMS?</string>
     <string name="network_scorer_picker_title">Sgoriwr rhwydweithiau</string>
     <string name="network_scorer_picker_none_preference">Dim</string>
@@ -2020,8 +2022,14 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="lockpassword_strong_auth_required_work_pin">Am ddiogelwch ychwanegol, rho dy PIN gwaith</string>
     <string name="lockpassword_strong_auth_required_work_password">Am ddiogelwch ychwanegol, rho dy gyfrinair gwaith</string>
     <string name="lockpassword_confirm_your_pattern_details_frp" product="default">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy batrwm blaenorol.</string>
+    <string name="lockpassword_confirm_your_pattern_details_frp" product="tablet">Ailosodwyd dy lechen i\u2019r gosodiadau ffatri. I ddefnyddio\u2019r llechen hon, rho dy batrwm blaenorol.</string>
+    <string name="lockpassword_confirm_your_pattern_details_frp" product="device">Ailosodwyd dy ddyfais i\u2019r gosodiadau ffatri. I ddefnyddio\u2019r ddyfais hon, rho dy batrwm blaenorol.</string>
     <string name="lockpassword_confirm_your_pin_details_frp" product="default">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy PIN blaenorol.</string>
+    <string name="lockpassword_confirm_your_pin_details_frp" product="tablet">Ailosodwyd dy lechen i\u2019r gosodiadau ffatri. I ddefnyddio\u2019r llechen hon, rho dy PIN blaenorol.</string>
+    <string name="lockpassword_confirm_your_pin_details_frp" product="device">Ailosodwyd dy ddyfais i\u2019r gosodiadau ffatri. I ddefnyddio\u2019r ddyfais hon, rho dy PIN blaenorol.</string>
     <string name="lockpassword_confirm_your_password_details_frp" product="default">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy gyfrinair blaenorol.</string>
+    <string name="lockpassword_confirm_your_password_details_frp" product="tablet">Ailosodwyd dy lechen i\u2019r gosodiadau ffatri. I ddefnyddio\u2019r llechen hon, rho dy gyfrinair blaenorol.</string>
+    <string name="lockpassword_confirm_your_password_details_frp" product="device">Ailosodwyd dy ddyfais i\u2019r gosodiadau ffatri. I ddefnyddio\u2019r ddyfais hon, rho dy gyfrinair blaenorol.</string>
     <string name="lockpassword_confirm_your_pattern_header_frp">Cadarnhau\'r patrwm</string>
     <string name="lockpassword_confirm_your_pin_header_frp">Dilysu PIN</string>
     <string name="lockpassword_confirm_your_password_header_frp">Cadarnhau\'r cyfrinair</string>
@@ -2376,12 +2384,26 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="accessibility_screen_magnification_navbar_title">Chwyddo gyda llwybr byr</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture">Chwyddo gyda llwybr byr a thap triphlyg</string>
     <string name="accessibility_introduction_title">Ynghylch <xliff:g id="service" example="Select to Speak">%1$s</xliff:g></string>
+    <string name="accessibility_text_reading_options_title">Maint a thestun dangosydd</string>
     <string name="accessibility_text_reading_reset_button_title">Ailosod gosodiadau</string>
     <string name="accessibility_text_reading_confirm_dialog_reset_button">Ailosod</string>
     <string name="accessibility_screen_option">Dewisiadau</string>
     <string name="accessibility_preference_magnification_summary">Chwyddo i mewn ar y sgrin</string>
     <string name="accessibility_screen_magnification_short_summary">Tapio 3 gwaith i chwyddo</string>
     <string name="accessibility_screen_magnification_navbar_short_summary">Tapia botwm i chwyddo</string>
+    <string name="accessibility_screen_magnification_summary"><![CDATA[        <b>I chwyddo i mewn:</b><br/>
+        {0,number,integer}. Defnyddia\u2019r bysell brys i ddechrau chwyddo<br/>
+        {1,number,integer}. Tapia\u2019r sgrin<br/>
+        {2,number,integer}. Llusga dau fys i symud o amgylch y sgrin<br/>
+        {3,number,integer}. Pinsia gyda dau fys i addasu\u2019r chwyddo<br/>
+        {4,number,integer}. Defnyddia\u2019r bysell brys i stopio chwyddo<br/><br/>
+        <b>I chwyddo i mewn dros dro:</b><br/>
+        {0,number,integer}. Sicrha bod dy fath o chwyddo wedi\u2019 osod i sgrin lawn<br/>
+        {1,number,integer}. Defnyddia\u2019r bysell brys i ddechrau chwyddo<br/>
+        {2,number,integer}. Cyffyrdda a dal unrhyw le ar y sgrin<br/>
+        {3,number,integer}. Llusga fys o amgylch y sgrin<br/>
+        {4,number,integer}. Coda\u2019r bys i stopio chwyddo</1>
+        ]]></string>
     <string name="accessibility_screen_magnification_navbar_summary">Tra bod chwyddhad ymlaen, gellir chwyddo i mewn ar y sgrin.\n\n<b>I chwyddo</b>, dechrau chwyddhad, yna tapio unryw le ar y y sgrin.\n<ul><li>Llusgo dau fys i sgrolio</li>\n<li>Pinsio dau fys i addasu\'r chwyddo</li></ul>\n\n<b>I chwyddo dros dro</b>, dechrau chwyddhad, yna cyffwrdd a dal unrhyw le ar y sgrin.\n<ul><li>Llusgo i symud o gwmpas y sgrin</li>\n<li>Codi\'r bys i chwyddo allan</li></ul>\n\nNi ellir chwyddo i mewn ar y bysellfwrdd na\'r bar llywio.</string>
     <string name="accessibility_tutorial_pager">Tudalen <xliff:g id="current_page" example="2">%1$d</xliff:g> o <xliff:g id="num_pages" example="3">%2$d</xliff:g></string>
     <string name="accessibility_tutorial_dialog_title_button">Defnyddio\'r botwm hygyrchedd i\'w agor</string>
@@ -2483,6 +2505,8 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="accessibility_service_primary_switch_title">Defnyddio <xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g></string>
     <string name="accessibility_service_primary_open_title">Agor <xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g></string>
     <string name="accessibility_quick_settings_tooltip_dismiss">Diystyru</string>
+    <string name="accessibility_daltonizer_about_intro_text" product="default">Addasu sut mae lliwiau yn ymddangos ar dy ffôn</string>
+    <string name="accessibility_daltonizer_about_intro_text" product="tablet">Addasu sut mae lliwiau yn ymddangos ar dy lechen</string>
     <string name="accessibility_daltonizer_primary_switch_title">Defnyddio cywiriad lliw</string>
     <string name="accessibility_daltonizer_shortcut_title">Llwybr byr i gywiro lliwiau</string>
     <string name="accessibility_daltonizer_about_title">Ynghylch cywiro lliwiau</string>
@@ -5145,6 +5169,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="do_disclosure_with_name">Rheolir y ddyfais hon gan <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>.</string>
     <string name="learn_more">Dysgu mwy</string>
     <string name="financed_privacy_developer_options">Defnyddio dewisiadau datblygwyr</string>
+    <string name="financed_privacy_factory_reset">Ailosod dy ddyfais i fel yr oedd wrth adael y ffatri</string>
     <plurals name="default_camera_app_title">
         <item quantity="zero">Apiau camera</item>
         <item quantity="one">Ap camera</item>
