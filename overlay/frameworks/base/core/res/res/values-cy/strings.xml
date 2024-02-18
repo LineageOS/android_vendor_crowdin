@@ -47,7 +47,7 @@
     <string name="invalidPuk">Rho PUK sy\'n 8 digid neu hirach.</string>
     <string name="needPuk">Mae dy gerdyn SIM wedi\'i gloi gyda PUK. Rho\'r cod PUK i\'w ddatgloi.</string>
     <string name="needPuk2">Rho PUK2 i ddad-rwystro dy gerdyn SIM.</string>
-    <string name="enablePin">Anlwyddiannus. Galluoga Clo SIM/RUIM.</string>
+    <string name="enablePin">Aflwyddiannus. Galluoga Clo SIM/RUIM.</string>
     <plurals name="pinpuk_attempts">
         <item quantity="zero">Mae gennyt <xliff:g id="number">%d</xliff:g> ceisiadau yn weddill cyn i\'r SIM cael ei gloi.</item>
         <item quantity="one">Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill cyn i\'r SIM cael ei gloi.</item>

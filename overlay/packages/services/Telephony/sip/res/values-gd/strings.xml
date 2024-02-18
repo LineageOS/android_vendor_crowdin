@@ -72,7 +72,7 @@
     <string name="no_internet_available">Thoir sùil air a’ cheangal agad ris an eadar-lìon mus cuir thu gairm SIP.</string>
     <string name="no_wifi_available">Feumaidh tu ceangal ti lìonra WiFi airson gairm SIP (cleachd na roghainnean “Uèirleas ⁊ lìonra”).</string>
     <string name="no_voip">Chan eil taic ri gairmean SIP</string>
-    <string translatable="true" name="sip_system_decide">Fèin-obrachail</string>
+    <string translatable="true" name="sip_system_decide">Gu fèin-obrachail</string>
     <string translatable="true" name="sip_always_send_keepalive">Cuir an-còmhnaidh</string>
     <string name="sip_connection_service_label">Gairmean SIP ’na bhroinn</string>
 </resources>

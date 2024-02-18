@@ -1882,8 +1882,8 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="network_settings_title">Rhwydwaith symudol</string>
     <string name="manage_mobile_plan_title" translatable="true">Cynllun ffôn symudol</string>
     <string name="sms_application_title" translatable="true">Ap SMS</string>
-    <string name="sms_change_default_dialog_title" translatable="true">Newid ap SMS?</string>
-    <string name="sms_change_default_dialog_text" translatable="true">Defnyddio <xliff:g id="new_app">%1$s</xliff:g> yn lle <xliff:g id="current_app">%2$s</xliff:g> fel dy ap SMS?</string>
+    <string name="sms_change_default_dialog_title" translatable="true">Newid apiau SMS?</string>
+    <string name="sms_change_default_dialog_text" translatable="true">Defnyddio <xliff:g id="new_app">%1$s</xliff:g> yn lle <xliff:g id="current_app">%2$s</xliff:g> fel yr ap SMS?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true">Defnyddio <xliff:g id="new_app">%s</xliff:g> fel dy ap SMS?</string>
     <string name="network_scorer_picker_title">Sgoriwr rhwydweithiau</string>
     <string name="network_scorer_picker_none_preference">Dim</string>
