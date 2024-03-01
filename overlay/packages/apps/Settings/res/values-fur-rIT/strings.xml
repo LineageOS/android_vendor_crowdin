@@ -2453,7 +2453,7 @@
     <string name="select_to_speak_summary">Tocje i elements sul schermi par scoltâ la lôr leture a dute vôs</string>
     <string name="accessibility_captioning_title">Preferencis sottitui</string>
     <string name="accessibility_captioning_about_title">Informazions su preferencis dai sottitui</string>
-    <string name="accessibility_captioning_footer_learn_more_content_description">Scuvierç di plui su lis preferencis relativisa ai sottitui</string>
+    <string name="accessibility_captioning_footer_learn_more_content_description">Scuvierç di plui su lis preferencis relativis ai sottitui</string>
     <string name="accessibility_screen_magnification_title">Ingrandiment</string>
     <string name="accessibility_screen_magnification_shortcut_title">Scurte pal ingrandiment</string>
     <string name="accessibility_screen_magnification_follow_typing_title">Ingrandìs scriture</string>
@@ -3800,7 +3800,7 @@
         <item quantity="other">Mostre %d elements platâts</item>
     </plurals>
     <string name="network_dashboard_title">Rêt e internet</string>
-    <string name="network_dashboard_summary_mobile">Mobil, Wi\u2011Fi, pont di acès</string>
+    <string name="network_dashboard_summary_mobile">Mobile, Wi\u2011Fi, pont di acès</string>
     <string name="network_dashboard_summary_no_mobile">Wi\u2011Fi, pont di acès</string>
     <string name="connected_devices_dashboard_title">Dispositîfs conetûts</string>
     <string name="connected_devices_dashboard_default_summary">Bluetooth, associazion</string>
@@ -5275,7 +5275,7 @@
     <string name="gesture_not_supported_positive_button">Cambie aplicazion predefinide pe schermade iniziâl</string>
     <string name="assistant_gesture_category_title">Assistent digjitâl</string>
     <string name="assistant_corner_gesture_title">Scor par clamâ l\'assistent</string>
-    <string name="assistant_corner_gesture_summary">Scor in sù di un angul in bas par clamâ la aplicazions dal assistent digjitâl.</string>
+    <string name="assistant_corner_gesture_summary">Scor in sù di un cjanton in bas par clamâ la aplicazions dal assistent digjitâl.</string>
     <string name="assistant_long_press_home_gesture_title">Ten fracât Inizi pal assitent</string>
     <string name="assistant_long_press_home_gesture_summary">Frache e ten fracâ il boton di Inizi par clamâ la aplicazion dal assistent.</string>
     <string name="information_label">Informazions</string>
@@ -5694,9 +5694,9 @@
     <string name="mobile_network_not_in_range">Fûr puartade</string>
     <string name="mobile_network_list_add_more">Zonte altris</string>
     <string name="mobile_network_active_sim">Atîf / SIM</string>
-    <string name="mobile_network_inactive_sim">No atîf / SIM</string>
+    <string name="mobile_network_inactive_sim">Inatîf / SIM</string>
     <string name="mobile_network_active_esim">Atîf / SIM discjariade</string>
-    <string name="mobile_network_inactive_esim">No atîf / SIM discjariade</string>
+    <string name="mobile_network_inactive_esim">Inatîf / SIM discjariade</string>
     <string name="mobile_network_sim_name">Non e colôr SIM</string>
     <string name="mobile_network_sim_name_label">Non</string>
     <string name="mobile_network_sim_color_label">Colôr (doprât des aplic. compatibilis)</string>
@@ -5974,7 +5974,7 @@
     <string name="calls_sms_temp_unavailable">Pal moment no disponibil</string>
     <string name="calls_sms_no_sim">Nissune SIM</string>
     <string name="network_and_internet_preferences_title">Preferencis di rêt</string>
-    <string name="keywords_internet">conession di rêt, internet, wireless, cence fîi, dâts, wifi, wi-fi, celulâr, mobil, operadôr telefonic, 4g, 3g, 2g, lte</string>
+    <string name="keywords_internet">conession di rêt, internet, wireless, cence fîi, dâts, wifi, wi-fi, celulâr, mobile, operadôr telefonic, 4g, 3g, 2g, lte</string>
     <string name="turn_on_wifi">Ative Wi\u2011Fi</string>
     <string name="turn_off_wifi">Disative il Wi\u2011Fi</string>
     <string name="reset_your_internet_title">Ristabilî la conession a internet?</string>
@@ -5993,7 +5993,7 @@
     <string name="downloaded_sim_category_title">SIM DISCJARIADE</string>
     <string name="downloaded_sims_category_title">SIMS DISCJARIADIS</string>
     <string name="sim_category_active_sim">Ative</string>
-    <string name="sim_category_inactive_sim">No ative</string>
+    <string name="sim_category_inactive_sim">Inativis</string>
     <string name="sim_category_default_active_sim">\u0020/ Predefinide par <xliff:g name="default_sim_config" example=" / Default for calls">%1$s</xliff:g></string>
     <string name="default_active_sim_calls">clamadis</string>
     <string name="default_active_sim_sms">SMS</string>

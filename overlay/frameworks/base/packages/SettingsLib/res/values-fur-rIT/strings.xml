@@ -678,7 +678,7 @@
     <string name="allow_turn_screen_on">Permet di impiâ il schermi</string>
     <string name="allow_turn_screen_on_description">Permet a une aplicazion di impiâ il schermi. Se chest permès al ven concedût, la aplicazion e podarès impiâ il schermi a cualsisei ore cence la tô autorizazion esplicite.</string>
     <string name="bt_le_audio_broadcast_dialog_title">Interompi la trasmission di <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>
-    <string name="bt_le_audio_broadcast_dialog_sub_title">Se tu trasmetis <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g> o tu cambis la jessude, la trasmission corinte si interomparà</string>
+    <string name="bt_le_audio_broadcast_dialog_sub_title">Se tu trasmetis <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g> o tu cambiis la jessude, la trasmission corinte si interomparà</string>
     <string name="bt_le_audio_broadcast_dialog_switch_app">Trasmeti <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g></string>
     <string name="bt_le_audio_broadcast_dialog_different_output">Cambie jessude</string>
     <string name="back_navigation_animation">Animazions preditivis par Indaûr</string>
