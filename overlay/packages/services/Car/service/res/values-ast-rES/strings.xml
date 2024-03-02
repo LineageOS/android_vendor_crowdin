@@ -14,9 +14,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="exit_button">Atrás</string>
-    <string name="exit_button_close_application">Zarrar l\'aplicación</string>
-    <string name="exit_button_go_back">Atrás</string>
     <string name="importance_default">Importancia predeterminada</string>
     <string name="importance_high">Importancia alta</string>
     <string name="factory_reset_notification_button">Más</string>

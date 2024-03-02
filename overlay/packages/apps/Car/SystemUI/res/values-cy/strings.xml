@@ -19,5 +19,6 @@
     <string name="hvac_max_text">Mwy.</string>
     <string name="fan_speed_off">I FFWRDD</string>
     <string name="hvac_temperature_off">I FFWRDD</string>
+    <string name="mic_privacy_chip_apps_using_mic_suffix">Mae <xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g> yn defnyddio\u2019r meicroffon</string>
     <string name="mic_privacy_chip_dialog_ok">Iawn</string>
 </resources>
