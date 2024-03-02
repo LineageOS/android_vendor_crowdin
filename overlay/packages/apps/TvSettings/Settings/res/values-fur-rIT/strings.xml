@@ -392,7 +392,6 @@
     <string name="about_preference">Informazions</string>
     <string name="device_name">Non dal dispositîf</string>
     <string name="restart_button_label">Torne invie</string>
-    <string name="shutdown_button_label">Distude</string>
     <string name="about_legal_info">Informazions legâls</string>
     <string name="about_legal_license">Licencis open source di tiercis parts</string>
     <string name="about_terms_of_service">Notis legâls di Google</string>
@@ -790,7 +789,6 @@
     <string name="system_hdmi_optimization">Otimizazion HDMI</string>
     <string name="system_reboot_confirm">Tornâ a inviâ daurman?</string>
     <string name="system_desc_reboot_confirm">Par inzornâ cheste impostazion, al è necessari tornâ a inviâ il dispositîf</string>
-    <string name="system_shutdown_confirm">Distudâ daurman?</string>
     <string name="system_never_check">No sta controlâ mai</string>
     <string name="system_check_for_drm_content_only">Controle dome pai contignûts DRM</string>
     <string name="system_always_check">Controle simpri</string>
