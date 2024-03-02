@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="dock_alignment_slow_charging" product="default">Coloca bien el preséu na base pa cargalu más rápido</string>
     <string name="dock_alignment_not_charging" product="default">Coloca bien el preséu na base pa cargalu ensin filos</string>
-    <string name="inattentive_sleep_warning_message" product="tv">El preséu d\'Android TV va apagase pronto. Primi un botón pa que siga prendíu.</string>
+    <string name="inattentive_sleep_warning_message" product="tv">El preséu Android TV va apagase pronto. Primi un botón pa que siga prendíu.</string>
     <string name="inattentive_sleep_warning_message" product="default">El preséu va apagase pronto. Primi un botón pa que siga prendíu.</string>
     <string name="kg_invalid_confirm_pin_hint" product="default">Los códigos PIN nun concasen</string>
     <string name="kg_failed_attempts_almost_at_wipe" product="tablet">       Tentesti de desbloquiar incorreutamente la tableta <xliff:g id="number">%1$d</xliff:g> vegaes.

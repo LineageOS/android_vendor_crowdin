@@ -21,6 +21,7 @@
     <string name="deny">Gwrthod</string>
     <string name="confirmation_turn_on">Troi ymlaen</string>
     <string name="device_info_default">Anhysybys</string>
+    <string name="device_info_protected_single_press">Tapio i ddangos gwybodaeth</string>
     <string name="show_dev_on">Rwyt bellach â mynediad fel datblygwr!</string>
     <string name="show_dev_already">Dim angen; rwyt eisoes yn ddatblygwr.</string>
     <string name="dev_settings_disabled_warning">Galluoga opsiynau datblygwyr yn gyntaf.</string>
@@ -98,6 +99,7 @@
     <string name="connected_device_previously_connected_screen_title">Wedi\u2019u cysylltu yn y gorffennol</string>
     <string name="connected_device_bluetooth_turned_on_toast">Bluetooth wedi\'i droi ymlaen</string>
     <string name="previous_connected_see_all">Gweld y cyfan</string>
+    <string name="stylus_default_notes_summary_work"><xliff:g id="app_name" example="Mail">%s</xliff:g> (Proffil gwaith)</string>
     <string name="date_and_time">Dyddiad ac amser</string>
     <string name="proxy_settings_title">Procsi</string>
     <string name="proxy_clear_text">Clirio</string>
@@ -134,6 +136,7 @@
     <string name="desc_no_available_supported_locale">Dyw dewis iaith yr ap hwn ddim ar gael yn Gosodiadau.</string>
     <string name="desc_app_locale_disclaimer">Gall fod yr iaith yn wahanol i\u2019r ieithoedd ar gael yn yr ap. Dyw rhai apiau ddim yn cefnogi\u2019r gosodiad hwn.</string>
     <string name="button_label_confirmation_of_system_locale_change">Newid</string>
+    <string name="title_unavailable_locale">%s dim ar gael</string>
     <string name="default_string_of_regional_preference">Defnyddio\'r rhagosodiad</string>
     <string name="dlg_remove_locales_message">Caiff testun ei ddangos mewn iaith arall.</string>
     <string name="dlg_remove_locales_error_title">Nid yw\'n bosib tynnu pob un iaith.</string>
@@ -880,6 +883,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="kernel_version">Fersiwn cnewyllyn</string>
     <string name="build_number">Rhif adeiledd</string>
     <string name="module_version">Diweddariad system Google Play</string>
+    <string name="battery_info">Gwybodaeth batri</string>
     <string name="device_info_not_available">Dim ar gael</string>
     <string name="storage_settings">Storfa</string>
     <string name="storage_settings_for_app">Storfa a storfa dros dro</string>
