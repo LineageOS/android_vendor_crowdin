@@ -24,6 +24,9 @@
     <string name="install_done">Instalóse l\'aplicación.</string>
     <string name="install_confirm_question">¿Quies instalar esta aplicación?</string>
     <string name="install_confirm_question_update">¿Quies anovar esta aplicación?</string>
+    <string name="install_confirm_question_update_owner_reminder" product="tablet">¿Quies anovar esta aplicación con «<xliff:g id="new_update_owner">%1$s</xliff:g>»?\n\nEsta aplicación suel recibir anovamientos de: <xliff:g id="existing_update_owner">%2$s</xliff:g>. Al anovar dende un orixe diferente, pues recibir anovamientos dende cualesquier orixe na tableta. Ye posible que la funcionalidá de l\'aplicación camude.</string>
+    <string name="install_confirm_question_update_owner_reminder" product="tv">¿Quies anovar esta aplicación con «<xliff:g id="new_update_owner">%1$s</xliff:g>»?\n\nEsta aplicación suel recibir anovamientos de: <xliff:g id="existing_update_owner">%2$s</xliff:g>. Al anovar dende un orixe diferente, pues recibir anovamientos dende cualesquier orixe na TV. Ye posible que la funcionalidá de l\'aplicación camude.</string>
+    <string name="install_confirm_question_update_owner_reminder" product="default">¿Quies anovar esta aplicación con «<xliff:g id="new_update_owner">%1$s</xliff:g>»?\n\nEsta aplicación suel recibir anovamientos de: <xliff:g id="existing_update_owner">%2$s</xliff:g>. Al anovar dende un orixe diferente, pues recibir anovamientos dende cualesquier orixe nel teléfonu. Ye posible que la funcionalidá de l\'aplicación camude.</string>
     <string name="install_failed">L\'aplicación nun s\'instaló.</string>
     <string name="install_failed_blocked">Bloquióse la instalación del paquete.</string>
     <string name="install_failed_conflict">L\'aplicación nun s\'instaló darréu que\'l paquete tien conflictos con unu esistente.</string>
@@ -44,6 +47,7 @@
         desconocíes</string>
     <string name="install_apps_user_restriction_dlg_text">Esti usuariu nun tien permisu pa instalar aplicaciones</string>
     <string name="ok">D\'acuerdu</string>
+    <string name="update_anyway">Anovar de toes toes</string>
     <string name="manage_applications">Xestionar aplics.</string>
     <string name="out_of_space_dlg_title">Ensin espaciu</string>
     <string name="out_of_space_dlg_text">«<xliff:g id="app_name">%1$s</xliff:g>» nun se pudo instalar. Llibera espaciu y volvi tentalo.</string>
@@ -63,14 +67,18 @@
     <string name="uninstall_update_text">¿Quies trocar la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos.</string>
     <string name="uninstall_update_text_multiuser">¿Quies trocar la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos. Esto afeuta a tolos usuarios del preséu, incluyíos los que tengan perfiles llaborales.</string>
     <string name="uninstall_keep_data">Caltener <xliff:g id="size" example="1.5MB">%1$s</xliff:g> de datos de l\'aplicación.</string>
+    <string name="uninstall_application_text_current_user_clone_profile">¿Quies desaniciar esta aplicación?</string>
+    <string name="uninstall_application_text_with_clone_instance">¿Quies desinstalar esta aplicación? Tamién va desaniciase\'l clon de: <xliff:g id="package_label">%1$s</xliff:g>.</string>
     <string name="uninstalling_notification_channel">Desinstalaciones n\'execución</string>
     <string name="uninstall_failure_notification_channel">Desinstalaciones fallíes</string>
     <string name="uninstalling">Desinstalando\u2026</string>
     <string name="uninstalling_app">Desinstalando «<xliff:g id="package_label">%1$s</xliff:g>»\u2026</string>
     <string name="uninstall_done">La desinstalación finó.</string>
     <string name="uninstall_done_app">Desinstalóse «<xliff:g id="package_label">%1$s</xliff:g>»</string>
+    <string name="uninstall_done_clone_app">Desanicióse\'l clon de: <xliff:g id="package_label">%1$s</xliff:g></string>
     <string name="uninstall_failed">Hebo un fallu na desinstalación.</string>
     <string name="uninstall_failed_app">Hebo un fallu al desinstalar «<xliff:g id="package_label">%1$s</xliff:g>».</string>
+    <string name="uninstalling_cloned_app">Desaniciando\'l clon de: <xliff:g id="package_label">%1$s</xliff:g>\u2026</string>
     <string name="uninstall_failed_device_policy_manager">Nun se pue desinstalar l\'aplicación
         activa del alministrador del preséu</string>
     <string name="uninstall_failed_device_policy_manager_of_user">Nun se pue desinstalar l\'aplicación
@@ -109,6 +117,7 @@
         de cualesquier dañu que se produza al preséu o de la
         perda de datos que resulte del usu de l\'aplicación.
     </string>
+    <string name="cloned_app_label">Clon de: <xliff:g id="package_label">%1$s</xliff:g></string>
     <string name="anonymous_source_continue">Siguir</string>
     <string name="external_sources_settings">Axustes</string>
     <string name="wear_app_channel">Des/instalación d\'aplicaciones de Wear</string>
