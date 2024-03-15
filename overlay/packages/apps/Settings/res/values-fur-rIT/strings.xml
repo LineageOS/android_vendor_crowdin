@@ -1577,7 +1577,7 @@
     <string name="select_to_speak_summary">Tocje i elements sul schermi par scoltâ la lôr leture a dute vôs</string>
     <string name="accessibility_captioning_title">Preferencis sottitui</string>
     <string name="accessibility_captioning_about_title">Informazions su preferencis dai sottitui</string>
-    <string name="accessibility_captioning_footer_learn_more_content_description">Scuvierç di plui su lis preferencis relativisa ai sottitui</string>
+    <string name="accessibility_captioning_footer_learn_more_content_description">Scuvierç di plui su lis preferencis relativis ai sottitui</string>
     <string name="accessibility_screen_magnification_title">Ingrandiment</string>
     <string name="accessibility_screen_magnification_shortcut_title">Scurte pal ingrandiment</string>
     <string name="accessibility_screen_magnification_follow_typing_title">Ingrandìs scriture</string>
@@ -2579,7 +2579,7 @@
     <string name="sim_selection_channel_title">Selezion de SIM</string>
     <string name="dashboard_title">Impostazions</string>
     <string name="network_dashboard_title">Rêt e internet</string>
-    <string name="network_dashboard_summary_mobile">Mobil, Wi\u2011Fi, pont di acès</string>
+    <string name="network_dashboard_summary_mobile">Mobile, Wi\u2011Fi, pont di acès</string>
     <string name="network_dashboard_summary_no_mobile">Wi\u2011Fi, pont di acès</string>
     <string name="connected_devices_dashboard_title">Dispositîfs conetûts</string>
     <string name="connected_devices_dashboard_default_summary">Bluetooth, associazion</string>
@@ -3662,7 +3662,7 @@
     <string name="keywords_system_navigation">navigazion di sisteme, navigazion a 2 botons, navigazion a 3 botons, navigazion a mots, scoriment</string>
     <string name="assistant_gesture_category_title">Assistent digjitâl</string>
     <string name="assistant_corner_gesture_title">Scor par clamâ l\'assistent</string>
-    <string name="assistant_corner_gesture_summary">Scor in sù di un angul in bas par clamâ la aplicazions dal assistent digjitâl.</string>
+    <string name="assistant_corner_gesture_summary">Scor in sù di un cjanton in bas par clamâ la aplicazions dal assistent digjitâl.</string>
     <string name="assistant_long_press_home_gesture_title">Ten fracât Inizi pal assitent</string>
     <string name="assistant_long_press_home_gesture_summary">Frache e ten fracâ il boton di Inizi par clamâ la aplicazion dal assistent.</string>
     <string name="low_label">Basse</string>
@@ -3770,10 +3770,10 @@
     <string name="blocked_by_restricted_settings_content">Pe tô sigurece, pal moment cheste impostazions no je disponibile.</string>
     <string name="financed_privacy_settings">Informazions sul dispositîf finanziât</string>
     <string name="financed_privacy_restrictions_category">Se il to dispositîf al è finanziât, no tu puedis:</string>
-    <string name="financed_privacy_install_apps">Instale aplicazions che a rivin di difûr dal Play Store</string>
-    <string name="financed_privacy_safe_mode">Torne invie il dispositîf in modalitât sigure</string>
-    <string name="financed_privacy_multi_users">Zonte plui utents al to dispositîf</string>
-    <string name="financed_privacy_config_date_time">Cambie date, ore e fûs oraris</string>
+    <string name="financed_privacy_install_apps">Instalâ aplicazions che a rivin di difûr dal Play Store</string>
+    <string name="financed_privacy_safe_mode">Tornâ a inviâ il dispositîf in modalitât sigure</string>
+    <string name="financed_privacy_multi_users">Zontâ plui utents al to dispositîf</string>
+    <string name="financed_privacy_config_date_time">Cambiâ date, ore e fûs oraris</string>
     <string name="financed_privacy_developer_options">Dopre opzions svilupadôr</string>
     <string name="financed_privacy_credit_provider_capabilities_category">Il to furnidôr di credit al pues:</string>
     <string name="financed_privacy_IMEI">Acedi al to numar IMEI</string>
@@ -3980,7 +3980,7 @@
     <string name="mobile_data_off">Dâts mobii disativâts</string>
     <string name="subscription_available">Disponibile</string>
     <string name="mobile_network_active_sim">Atîf / SIM</string>
-    <string name="mobile_network_inactive_sim">No atîf / SIM</string>
+    <string name="mobile_network_inactive_sim">Inatîf / SIM</string>
     <string name="mobile_network_sim_name">Non e colôr SIM</string>
     <string name="mobile_network_sim_name_label">Non</string>
     <string name="mobile_network_sim_color_label">Colôr (doprât des aplic. compatibilis)</string>
@@ -4197,7 +4197,7 @@
     <string name="calls_sms_temp_unavailable">Pal moment no disponibil</string>
     <string name="calls_sms_no_sim">Nissune SIM</string>
     <string name="network_and_internet_preferences_title">Preferencis di rêt</string>
-    <string name="keywords_internet">conession di rêt, internet, wireless, cence fîi, dâts, wifi, wi-fi, celulâr, mobil, operadôr telefonic, 4g, 3g, 2g, lte</string>
+    <string name="keywords_internet">conession di rêt, internet, wireless, cence fîi, dâts, wifi, wi-fi, celulâr, mobile, operadôr telefonic, 4g, 3g, 2g, lte</string>
     <string name="reset_your_internet_title">Ristabilî la conession a internet?</string>
     <string name="resetting_internet_text">Daûr a ripristinâ la conession a internet\u2026</string>
     <string name="fix_connectivity">Risolf i problemis di conession</string>
@@ -4208,7 +4208,7 @@
     <string name="carrier_wifi_network_title">Rêt W+</string>
     <string name="sim_category_title">SIM</string>
     <string name="sim_category_active_sim">Ative</string>
-    <string name="sim_category_inactive_sim">No ative</string>
+    <string name="sim_category_inactive_sim">Inativis</string>
     <string name="sim_category_default_active_sim">\u0020/ Predefinide par <xliff:g name="default_sim_config" example=" / Default for calls">%1$s</xliff:g></string>
     <string name="default_active_sim_calls">clamadis</string>
     <string name="default_active_sim_sms">SMS</string>
