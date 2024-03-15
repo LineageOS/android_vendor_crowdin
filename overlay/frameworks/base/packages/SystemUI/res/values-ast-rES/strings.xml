@@ -360,12 +360,12 @@ prioridá</string>
     <string name="accessibility_status_bar_hotspot">Puntu Wi-Fi</string>
     <string name="accessibility_managed_profile">Perfil llaboral</string>
     <string name="tuner_warning_title">Diversión namás pa dalgunes persones</string>
-    <string name="tuner_warning">«Afinador de la IU del sistema» ufre más formes d\'axustar y personalizar la interfaz d\'usuariu d\'Android. Estes carauterístiques esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
-    <string name="tuner_persistent_warning">Estes carauterístiques esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
+    <string name="tuner_warning">«Afinador de la IU del sistema» ufre más formes d\'axustar y personalizar la interfaz d\'usuariu d\'Android. Estes funciones esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
+    <string name="tuner_persistent_warning">Estes funciones esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
     <string name="got_it">Entendílo</string>
     <string name="tuner_toast">¡Norabona! Amestóse «Afinador de la IU del sistema» a «Axustes»</string>
     <string name="remove_from_settings">Quitar d\'«Axustes»</string>
-    <string name="remove_from_settings_prompt">¿Quies quitar «Afinador de la IU del sistema» d\'«Axustes» y dexar d\'usar toles sos carauterístiques?</string>
+    <string name="remove_from_settings_prompt">¿Quies quitar «Afinador de la IU del sistema» d\'«Axustes» y dexar d\'usar toles sos funciones?</string>
     <string name="enable_bluetooth_title">¿Quies habilitar el Bluetooth?</string>
     <string name="enable_bluetooth_message">Pa conectar el tecláu a la tableta, primero tienes d\'habilitar el Bluetooth.</string>
     <string name="enable_bluetooth_confirmation_ok">Habilitar</string>
@@ -591,9 +591,12 @@ prioridá</string>
     <string name="auto_saver_text">Activa la función si prevés que la batería pue escosar</string>
     <string name="no_auto_saver_action">Non, gracies</string>
     <string name="heap_dump_tile_name">Volquiar pila SysUI</string>
+    <string name="ongoing_privacy_dialog_a11y_title">N\'usu</string>
     <string name="ongoing_privacy_chip_content_multiple_apps">Aplicaciones que tán usando: <xliff:g id="types_list" example="camera, location">%s</xliff:g>.</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
     <string name="ongoing_privacy_dialog_last_separator">\u0020y\u0020</string>
+    <string name="ongoing_privacy_dialog_attribution_label">(<xliff:g id="attribution_label" example="For Wallet">%s</xliff:g>)</string>
+    <string name="ongoing_privacy_dialog_attribution_proxy_label">(<xliff:g id="attribution_label" example="For Wallet">%1$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Maps, and Assistant">%2$s</xliff:g>)</string>
     <string name="privacy_type_camera">cámara</string>
     <string name="privacy_type_location">llocalización</string>
     <string name="privacy_type_microphone">micrófonu</string>
@@ -633,6 +636,7 @@ prioridá</string>
     <string name="controls_dialog_remove">Quitar</string>
     <string name="controls_dialog_message">«<xliff:g id="app" example="System UI">%s</xliff:g>» suxer esti control</string>
     <string name="controls_settings_dialog_neutral_button">Non, gracies</string>
+    <string name="controls_settings_dialog_positive_button">Sí</string>
     <string name="controls_pin_use_alphanumeric">El PIN contién lletres o símbolos</string>
     <string name="controls_pin_verify">Verifica «<xliff:g id="device" example="Backdoor lock">%s</xliff:g>»</string>
     <string name="controls_pin_wrong">El PIN ye incorreutu</string>
@@ -648,6 +652,8 @@ prioridá</string>
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> de <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
     <string name="controls_media_button_play">Reproducir</string>
     <string name="controls_media_button_pause">Posar</string>
+    <string name="controls_media_button_prev">Pista anterior</string>
+    <string name="controls_media_button_next">Pista siguiente</string>
     <string name="controls_media_smartspace_rec_title">Reproducir</string>
     <string name="media_transfer_undo">Desfacer</string>
     <string name="controls_error_timeout">Inactivu. Revisa l\'aplicación</string>
@@ -663,6 +669,7 @@ prioridá</string>
     <string name="media_output_dialog_group">Grupu</string>
     <string name="media_output_dialog_single_device">Esbillóse 1 preséu</string>
     <string name="media_output_dialog_multiple_devices">Esbilláronse <xliff:g id="count" example="2">%1$d</xliff:g> preseos</string>
+    <string name="media_output_dialog_accessibility_seekbar">Volume</string>
     <string name="media_output_end_session_dialog_stop">Parar</string>
     <string name="media_output_broadcast_dialog_save">Guardar</string>
     <string name="select_conversation_title">Widgets de conversación</string>
