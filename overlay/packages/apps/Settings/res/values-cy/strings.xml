@@ -449,6 +449,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Caniatáu datgloi ag ôl bys</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Defnyddio ôl dy fys</string>
     <string name="security_settings_fingerprint_enroll_introduction_v2_message" product="tablet">Defnyddio ôl dy fys i ddatgloi dy lechen neu i ddilysu mai ti sy\u2019n ei defnyddio, fel pan fyddi\u2019n mewngofnodi i apiau neu\u2019n cadarnhau taliadau.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_v2_message" product="device">Defnyddio ôl dy fys i ddatgloi dy ddyfais neu i ddilysu mai ti sy\u2019n ei ddefnyddio, fel pan fyddi\u2019n mewngofnodi i apiau neu\u2019n cadarnhau taliadau.</string>
     <string name="security_settings_fingerprint_enroll_introduction_v2_message" product="default">Defnyddio ôl dy fys i ddatgloi dy ffôn neu i ddilysu mai ti sy\u2019n ei ddefnyddio, fel pan fyddi\u2019n mewngofnodi i apiau neu\u2019n cadarnhau taliadau.</string>
     <string name="security_settings_fingerprint_enroll_introduction_consent_message" product="default">Caniatáu i dy blentyn defnyddio ôl ei fys i ddatgloi ei ffôn neu dilysu mai nhw sydd yn ei ddefnyddio. Mae hyn yn digwydd wrth iddyn nhw fewngofnodi i apiau, cymeradwyo taliadau, a mwy.</string>
     <string name="security_settings_fingerprint_enroll_introduction_consent_message" product="tablet">Caniatáu i dy blentyn defnyddio ôl ei fys i ddatgloi ei lechen neu dilysu mai nhw sydd yn ei ddefnyddio. Mae hyn yn digwydd wrth iddyn nhw fewngofnodi i apiau, cymeradwyo taliadau, a mwy.</string>
@@ -469,6 +470,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_1">Cofia</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_1" product="default">Gall ddefnyddio ôl dy fys i ddatgloi dy ffôn fod yn llai diogel na PIN neu batrwm cryf</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_1" product="tablet">Gall ddefnyddio ôl dy fys i ddatgloi dy lechen fod yn llai diogel na PIN neu batrwm cryf</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_1" product="device">Gall ddefnyddio ôl dy fys i ddatgloi dy ddyfais fod yn llai diogel na PIN neu batrwm cryf</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_2">Sut mae\'n gweithio</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Mae Datgloi ag Ôl Bys yn creu model unigryw o ôl dy fys i ddilysu mai ti sydd yno. I greu\u2019r model hwn ar ddechrau, rhaid cymryd lluniau o ôl dy fys o wahanol fannau.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Mae Datgloi ag Ôl Bys yn creu model unigryw o ôl bys dy blentyn i ddilysu mai nhw sydd yno. I greu\u2019r model hwn ar ddechrau, rhaid cymryd lluniau o\'r ôl bys o wahanol fannau.</string>
@@ -2482,8 +2484,8 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="accessibility_control_timeout_footer_learn_more_content_description">Dysgu rhagor am amser i weithredu (terfyn amser hygyrchedd)</string>
     <string name="accessibility_control_timeout_preference_title">Cyfnod i weithredu</string>
     <string name="accessibility_long_press_timeout_preference_title">Oediad cyffwrdd a dal</string>
-    <string name="accessibility_display_inversion_preference_title">Gwrthdroad lliwiau</string>
-    <string name="accessibility_display_inversion_switch_title">Defnyddio gwrthdroad lliwiau</string>
+    <string name="accessibility_display_inversion_preference_title">Gwrthdroi lliwiau</string>
+    <string name="accessibility_display_inversion_switch_title">Defnyddio gwrthdroi lliwiau</string>
     <string name="accessibility_display_inversion_shortcut_title">Llwybr byr i wrthdroi lliwiau</string>
     <string name="accessibility_autoclick_preference_title">Awtoglicio (amser trigo)</string>
     <string name="accessibility_autoclick_short_title">Byr</string>

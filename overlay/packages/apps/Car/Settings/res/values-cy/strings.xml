@@ -426,6 +426,7 @@
     <string name="location_driver_assistance_toggle_off_summary">Ni all apiau cymorth gyrrwr gael mynediad at dy leoliad</string>
     <string name="location_driver_assistance_toggle_off_warning">Os wyt yn troi hwn i ffwrdd, bydd apiau cymorth gyrrwr sy\u2019n ddibynol ar wybodaeth lleoliad yn cael eu hanalluogi</string>
     <string name="location_no_recent_access">Dim apiau diweddar</string>
+    <string name="driver_assistance_label"><xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Cymorth gyrrwr</string>
     <string name="location_driver_assistance_privacy_policy_button_text">Polisi preifatrwydd</string>
     <string name="location_settings_app_permissions_title">Caniatâd lefel apiau</string>
     <string name="location_settings_services_title">Gwasanaethau Lleoliad</string>

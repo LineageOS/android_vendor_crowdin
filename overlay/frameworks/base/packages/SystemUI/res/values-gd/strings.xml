@@ -26,7 +26,7 @@
     <string name="battery_saver_confirmation_title_generic">Mu chaomhnaiche a’ bhataraidh</string>
     <string name="battery_saver_confirmation_ok">Cuir air</string>
     <string name="battery_saver_start_action">Cuir air</string>
-    <string name="battery_saver_dismiss_action">Cha chuir mi seo an comas</string>
+    <string name="battery_saver_dismiss_action">Cha phrìnich mi seo</string>
     <string name="status_bar_settings_auto_rotation">Cuairtich an sgrìn gu fèin-obrachail</string>
     <string name="usb_device_permission_prompt">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> inntrigeadh?</string>
     <string name="usb_device_permission_prompt_warn">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> inntrigeadh?\nCha d’ fhuair an aplacaid seo cead clàraidh ach b’ urrainn dhi fuaim a ghlacadh leis an uidheam USB seo.</string>
@@ -577,7 +577,7 @@ Leibheil 0</b>
     <string name="mobile_data_disable_title">An cuir thu dheth dàta mobile?</string>
     <string name="mobile_data_disable_message">Cha bhi cothrom agad air dàta no an t-eadar-lìon slighe <xliff:g id="carrier" example="T-Mobile">%s</xliff:g>. Chan fhaigh thu an t-eadar-lìon ach slighe WiFi.</string>
     <string name="mobile_data_disable_message_default_carrier">a’ ghiùlanair agad</string>
-    <string name="auto_data_switch_dialog_negative_button">Cha chuir mi seo an comas</string>
+    <string name="auto_data_switch_dialog_negative_button">Cha phrìnich mi seo</string>
     <string name="touch_filtered_warning">Air sgàth ’s gu bheil aplacaid a’ falach iarrtas air cead, chan urrainn
         do ghleus nan roghainnean an fhreagairt agad a dhearbhadh.</string>
     <string name="slice_permission_title">A bheil thu airson cead a thoirt dha <xliff:g id="app" example="Example App">%1$s</xliff:g> ach an seall e slisean dhe <xliff:g id="app_2" example="Other Example App">%2$s</xliff:g>?</string>
@@ -625,7 +625,7 @@ Leibheil 0</b>
     <string name="controls_dialog_ok">Cuir ris</string>
     <string name="controls_dialog_remove">Thoir air falbh</string>
     <string name="controls_dialog_message">’Ga mholadh le <xliff:g id="app" example="System UI">%s</xliff:g></string>
-    <string name="controls_settings_dialog_neutral_button">Cha chuir mi seo an comas</string>
+    <string name="controls_settings_dialog_neutral_button">Cha phrìnich mi seo</string>
     <string name="controls_pin_use_alphanumeric">Tha litrichean no samhlaidhean sa PIN</string>
     <string name="controls_pin_verify">Dearbh <xliff:g id="device" example="Backdoor lock">%s</xliff:g></string>
     <string name="controls_pin_wrong">PIN ceàrr</string>

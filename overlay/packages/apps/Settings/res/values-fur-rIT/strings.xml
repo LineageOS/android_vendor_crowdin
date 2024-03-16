@@ -5421,10 +5421,10 @@
     <string name="financed_privacy_settings">Informazions sul dispositîf finanziât</string>
     <string name="financed_privacy_intro">Il to furnidôr di credit al pues cambiâ impostazions e instalâ software su chest dispositîf.\n\nSe tu saltis un paiament, il dispositîf al vignarà blocât.\n\nPar vê plui informazions, contate il to furnidôr di credit.</string>
     <string name="financed_privacy_restrictions_category">Se il to dispositîf al è finanziât, no tu puedis:</string>
-    <string name="financed_privacy_install_apps">Instale aplicazions che a rivin di difûr dal Play Store</string>
-    <string name="financed_privacy_safe_mode">Torne invie il dispositîf in modalitât sigure</string>
-    <string name="financed_privacy_multi_users">Zonte plui utents al to dispositîf</string>
-    <string name="financed_privacy_config_date_time">Cambie date, ore e fûs oraris</string>
+    <string name="financed_privacy_install_apps">Instalâ aplicazions che a rivin di difûr dal Play Store</string>
+    <string name="financed_privacy_safe_mode">Tornâ a inviâ il dispositîf in modalitât sigure</string>
+    <string name="financed_privacy_multi_users">Zontâ plui utents al to dispositîf</string>
+    <string name="financed_privacy_config_date_time">Cambiâ date, ore e fûs oraris</string>
     <string name="financed_privacy_developer_options">Dopre opzions svilupadôr</string>
     <string name="financed_privacy_credit_provider_capabilities_category">Il to furnidôr di credit al pues:</string>
     <string name="financed_privacy_IMEI">Acedi al to numar IMEI</string>
