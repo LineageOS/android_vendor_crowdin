@@ -44,6 +44,7 @@
         cognossudis</string>
     <string name="install_apps_user_restriction_dlg_text">Chest utent nol à i permès par instalâ aplicazions</string>
     <string name="ok">Va ben</string>
+    <string name="update_anyway">Inzorne distès</string>
     <string name="manage_applications">Gjestìs aplicazions</string>
     <string name="out_of_space_dlg_title">Spazi esaurît</string>
     <string name="out_of_space_dlg_text">Nol è stât pussibil instalâ <xliff:g id="app_name">%1$s</xliff:g>. Libere un pôc di spazi e torne prove.</string>
@@ -64,14 +65,18 @@
     <string name="uninstall_update_text">Sostituî cheste aplicazion cu la version di fabriche? Ducj i dâts a vignaran gjavâts.</string>
     <string name="uninstall_update_text_multiuser">Sostituî cheste aplicazion cu la version di fabriche? Ducj i dâts a vignaran gjavâts. Chest al rivuarde ducj i utents di chest dispositîf, includûts chei cui profîi di lavôr.</string>
     <string name="uninstall_keep_data">Ten <xliff:g id="size" example="1.5MB">%1$s</xliff:g> di dâts di aplicazion.</string>
+    <string name="uninstall_application_text_current_user_clone_profile">Desideristu eliminâ cheste aplicazion?</string>
+    <string name="uninstall_application_text_with_clone_instance">Desideristu disinstalâ cheste aplicazion? Al vignarà eliminât ancje il clon di <xliff:g id="package_label">%1$s</xliff:g>.</string>
     <string name="uninstalling_notification_channel">Disinstalazions in esecuzion</string>
     <string name="uninstall_failure_notification_channel">Disinstalazions falidis</string>
     <string name="uninstalling">Daûr a disinstalâ\u2026</string>
     <string name="uninstalling_app">Daûr a disinstalâ <xliff:g id="package_label">%1$s</xliff:g>\u2026</string>
     <string name="uninstall_done">Disinstalazion completade.</string>
     <string name="uninstall_done_app"><xliff:g id="package_label">%1$s</xliff:g> disinstalât</string>
+    <string name="uninstall_done_clone_app">Clon di <xliff:g id="package_label">%1$s</xliff:g> eliminât</string>
     <string name="uninstall_failed">Disinstalazion lade strucje.</string>
     <string name="uninstall_failed_app">Disinstalazion di <xliff:g id="package_label">%1$s</xliff:g> lade strucje.</string>
+    <string name="uninstalling_cloned_app">Daûr a eliminâ il clon di <xliff:g id="package_label">%1$s</xliff:g>\u2026</string>
     <string name="uninstall_failed_device_policy_manager">Impussibil disinstalâ: il pachet al è un
         aministradôr di dispositîf atîf</string>
     <string name="uninstall_failed_device_policy_manager_of_user">Impussibil disinstalâ. Il pachet al è aminist.
@@ -86,12 +91,11 @@
     <string name="manage_users">Gjestìs utents</string>
     <string name="uninstall_failed_msg">Nol è stât pussibil disinstalâ <xliff:g id="app_name">%1$s</xliff:g>.</string>
     <string name="Parse_error_dlg_text">Al è vignût fûr un probleme tal analizâ il pachet.</string>
-    <string name="wear_not_allowed_dlg_title">Android Wear</string>
-    <string name="wear_not_allowed_dlg_text">Lis azions Instale/Disinstale no son supuartadis su Wear.</string>
     <string name="message_staging">Preparazion de aplicazion…</string>
     <string name="app_name_unknown">No cognossût</string>
     <string name="untrusted_external_source_warning" product="tablet">Pe tô sigurece, pal moment il to tablet nol à i permès par instalâ aplicazions no cognossudis di cheste origjin. Tu puedis cambiâ cheste opzion tes Impostazions.</string>
     <string name="untrusted_external_source_warning" product="tv">Pe tô sigurece, pal moment la tô TV no à i permès par instalâ aplicazions no cognossudis di cheste origjin. Tu puedis cambiâ cheste opzion tes Impostazions.</string>
+    <string name="untrusted_external_source_warning" product="watch">Pe tô sigurece, pal moment il to orloi nol à i permès par instalâ aplicazions no cognossudis di cheste origjin. Tu puedis cambiâ cheste opzion tes Impostazions.</string>
     <string name="untrusted_external_source_warning" product="default">Pe tô sigurece, pal moment il to telefon nol à i permès par instalâ aplicazions no cognossudis di cheste origjin. Tu puedis cambiâ cheste opzion tes Impostazions.</string>
     <string name="anonymous_source_warning" product="default">        Il to telefon e i tiei dâts personâi a son plui vulnerabii
         ai atacs di aplicazions no cognossudis. Se tu instalis cheste
@@ -108,10 +112,13 @@
         aplicazion tu acetis di jessi responsabil di eventuâi dams
         ae tô TV o de eventuâl pierdite di dâts dovude al lôr ûs.
     </string>
+    <string name="cloned_app_label">Clon di <xliff:g id="package_label">%1$s</xliff:g></string>
     <string name="anonymous_source_continue">Continue</string>
     <string name="external_sources_settings">Impostazions</string>
     <string name="wear_app_channel">Instalazion/disinstalazion aplicaz. wear</string>
     <string name="app_installed_notification_channel_description">Notifiche di aplicazion instalade</string>
     <string name="notification_installation_success_message">Instalade cun sucès</string>
     <string name="notification_installation_success_status">Aplicazion \u201c<xliff:g id="appname" example="Package Installer">%1$s</xliff:g>\u201d instalade cun sucès</string>
+    <string name="unarchive_action_required_continue">Continue</string>
+    <string name="unarchive_settings_button">Impostazions</string>
 </resources>

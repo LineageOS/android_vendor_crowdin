@@ -89,6 +89,11 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>Dopre la aplicazion predefinide</item>
+        <item>Riprodûs sul aparât acustic</item>
+        <item>Riprodûs su la casse dal telefon</item>
+    </string-array>
     <string-array name="wifi_signal">
         <item>Scjarse</item>
         <item>Scjarse</item>
@@ -490,4 +495,19 @@
         <item>625000</item>
         <item>1875000</item>
         </string-array>
+    <string-array name="temperature_units">
+        <item>default</item>
+        <item>celsius</item>
+        <item>fahrenhe</item>
+    </string-array>
+    <string-array name="first_day_of_week">
+        <item>default</item>
+        <item>sun</item>
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
+    </string-array>
 </resources>
