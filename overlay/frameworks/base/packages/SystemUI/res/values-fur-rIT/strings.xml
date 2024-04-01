@@ -345,9 +345,9 @@
     <string name="keyguard_face_successful_unlock_alt1">Muse ricognossude</string>
     <string-array name="udfps_accessibility_touch_hints">
         <item>Môf a çampe</item>
-        <item>Môf in jù</item>
+        <item>Môf injù</item>
         <item>Môf a diestre</item>
-        <item>Môf in sù</item>
+        <item>Môf insù</item>
     </string-array>
     <string name="keyguard_retry">Scor in sù par tornâ a provâ</string>
     <string name="require_unlock_for_nfc">Sbloche par doprâ il NFC</string>
@@ -834,8 +834,8 @@
     <string name="magnification_controls_title">Controi barcon di ingrandiment</string>
     <string name="accessibility_control_zoom_in">Ingrandìs</string>
     <string name="accessibility_control_zoom_out">Impiçulìs</string>
-    <string name="accessibility_control_move_up">Môf in sù</string>
-    <string name="accessibility_control_move_down">Môf in jù</string>
+    <string name="accessibility_control_move_up">Môf insù</string>
+    <string name="accessibility_control_move_down">Môf injù</string>
     <string name="accessibility_control_move_left">Môf a çampe</string>
     <string name="accessibility_control_move_right">Môf a diestre</string>
     <string name="magnification_mode_switch_description">Comutazion ingrandiment</string>
