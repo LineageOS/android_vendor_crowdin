@@ -16,6 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="uid_label">Supuarts multimediâi</string>
     <string name="storage_description">Archiviazion locâl</string>
+    <string name="picker_app_label">Seletôr multimedia</string>
     <string name="artist_label">Artist</string>
     <string name="unknown">No cognossût</string>
     <string name="root_images">Imagjins</string>
@@ -48,6 +49,9 @@
     <string name="picker_settings_selection_message">Dopre il multimedia in cloud di</string>
     <string name="picker_settings_no_provider">Nissun</string>
     <string name="picker_settings_toast_error">Impussibil cambiâ cumò la app multimedia in cloud.</string>
+    <string name="picker_sync_notification_channel">Seletôr multimedia</string>
+    <string name="picker_sync_notification_title">Seletôr multimedia</string>
+    <string name="picker_sync_notification_text">Daûr a sincronizâ i contignûts multimediâi…</string>
     <string name="add">Zonte</string>
     <string name="deselect">Deselezione</string>
     <string name="deselected">Deselezionât</string>
@@ -81,6 +85,7 @@
     }</string>
     <string name="picker_add_button_multi_select">Zonte (<xliff:g id="count" example="42">^1</xliff:g>)</string>
     <string name="picker_add_button_multi_select_permissions">Permet (<xliff:g id="count" example="42">^1</xliff:g>)</string>
+    <string name="picker_add_button_allow_none_option">No sta consintî fotos</string>
     <string name="picker_category_camera">Fotocjamare</string>
     <string name="picker_category_downloads">Discjariâts</string>
     <string name="picker_category_favorites">Preferîts</string>
@@ -101,6 +106,7 @@
     <string name="picker_error_dialog_body">Controle la conession a internet e torne prove</string>
     <string name="picker_error_dialog_positive_action">Torne prove</string>
     <string name="not_selected">element no selezionât</string>
+    <string name="preloading_dialog_title">"Daûr a prontâ i contignûts multimediâi selezionâts"</string>
     <string name="preloading_progress_message"><xliff:g id="number_preloaded">%1$d</xliff:g> di <xliff:g id="number_total">%2$d</xliff:g> pronts</string>
     <string name="preloading_cancel_button">Anule</string>
     <string name="picker_banner_cloud_first_time_available_title">Cumò includudis lis fotos di backup</string>
@@ -115,6 +121,7 @@
     <string name="picker_banner_cloud_choose_app_button">Sielç aplicazion</string>
     <string name="picker_banner_cloud_choose_account_button">Sielç account</string>
     <string name="picker_banner_cloud_change_account_button">Cambie account</string>
+    <string name="picker_loading_photos_message">Daûr a recuperâ dutis lis tôs fotos</string>
     <string name="permission_write_audio"> {count, plural,
         one {}=1    {Permeti a <xliff:g id="app_name" example="Gmail">^1</xliff:g> di modificâ chest file audio?}
         other {Permeti a <xliff:g id="app_name" example="Gmail">^1</xliff:g> di modificâ <xliff:g id="count" example="42">^2</xliff:g> files audio?}
@@ -254,4 +261,7 @@
     <string name="safety_protection_icon_label">Protezion di sigurece</string>
     <string name="transcode_alert_channel">Avîs Transcodifiche Native</string>
     <string name="transcode_progress_channel">Avanzament Transcodifiche Native</string>
+    <string name="dialog_error_message">Torne prove plui tart. Il tôs fotos a saran disponibilis une volte risolt il probleme.</string>
+    <string name="dialog_error_title">Impussibil cjariâ cualchi foto</string>
+    <string name="dialog_button_text">Capît</string>
 </resources>

@@ -898,6 +898,7 @@
     <string name="radio_info_dds">ID secondari de SIM dâts predefinide:</string>
     <string name="radio_info_dl_kbps">Largjece di bande DL (kbps):</string>
     <string name="radio_info_ul_kbps">Largjece di bande UL (kbps):</string>
+    <string name="radio_info_phy_chan_config">Configurazions canâl fisic:</string>
     <string name="radio_info_cell_info_refresh_rate">Frecuence di inzornament des informazions su lis celis:</string>
     <string name="radio_info_cellinfo_label">Informazions su la misurazion di dutis lis celis:</string>
     <string name="radio_info_gprs_service_label">Servizi dâts:</string>

@@ -68,7 +68,10 @@
     <string name="bluetooth_active_battery_level">Atîf, <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie</string>
     <string name="bluetooth_active_battery_level_untethered">Atîf, Ç: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g></string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie</string>
+    <string name="tv_bluetooth_battery_level">Batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
     <string name="bluetooth_battery_level_untethered">Ç: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_left">Çampe <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_right">Diestre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Atîf</string>
     <string name="bluetooth_saved_device">Salvât</string>
     <string name="bluetooth_hearing_aid_left_active">Ative, dome a çampe</string>
@@ -79,6 +82,8 @@
     <string name="bluetooth_profile_opp">Trasferiment files</string>
     <string name="bluetooth_profile_hid">Dispositîf di input</string>
     <string name="bluetooth_profile_pan">Acès a internet</string>
+    <string name="bluetooth_profile_pbap">Permet l\'acès a contats e cronologjie clamadis</string>
+    <string name="bluetooth_profile_pbap_summary">Lis informazions a vignaran dopradis pai anuncis di clamade e altri</string>
     <string name="bluetooth_profile_pan_nap">Condivision conession internet</string>
     <string name="bluetooth_profile_map">Messaçs di test</string>
     <string name="bluetooth_profile_sap">Acès ae SIM</string>
@@ -127,6 +132,7 @@
     <string name="accessibility_wifi_two_bars">Segnâl wifi a dôs sbaris.</string>
     <string name="accessibility_wifi_three_bars">Segnâl wifi a trê sbaris.</string>
     <string name="accessibility_wifi_signal_full">Segnâl wifi al massim.</string>
+    <string name="accessibility_wifi_other_device">Colegât al to dispositîf.</string>
     <string name="accessibility_wifi_security_type_none">Rêt vierte</string>
     <string name="accessibility_wifi_security_type_secured">Rêt sigure</string>
     <string name="process_kernel_label">SO Android</string>
@@ -199,6 +205,7 @@
     <string name="choose_profile">Sielç un profîl</string>
     <string name="category_personal">Personâl</string>
     <string name="category_work">Lavôr</string>
+    <string name="category_private">Privât</string>
     <string name="category_clone">Clon</string>
     <string name="development_settings_title">Opzions pal svilupadôr</string>
     <string name="development_settings_enable">Abilite lis opzions pal svilupadôr</string>
@@ -419,6 +426,9 @@
     <string name="transcode_default">Presupon che lis aplicazions a supuartin i formâts modernis</string>
     <string name="transcode_notification">Mostre lis notifichis di transcodifiche</string>
     <string name="transcode_disable_cache">Disative la cache di transcodifiche</string>
+    <string name="widevine_settings_title">Impostazions Widevine</string>
+    <string name="force_l3_fallback_title">Sfuarce repeç L3</string>
+    <string name="force_l3_fallback_summary">Selezione di sfuarçâ il repeç L3</string>
     <string name="runningservices_settings_title">Servizis in esecuzion</string>
     <string name="runningservices_settings_summary">Visualize e controle i servizis al moment in esecuzion</string>
     <string name="select_webview_provider_title">Implementazion WebView</string>
@@ -509,6 +519,11 @@
     <string name="ims_reg_status_not_registered">"No regjistrât"</string>
     <string name="status_unavailable">No disponibil</string>
     <string name="wifi_status_mac_randomized">La direzion MAC e je casuâl</string>
+    <string name="wifi_tether_connected_summary">        {count, plural,
+            one {}=1    {1 dispositîf conetût}
+            other {# dispositîfs conetûts}
+        }
+    </string>
     <string name="accessibility_manual_zen_more_time">Plui timp.</string>
     <string name="accessibility_manual_zen_less_time">Mancul timp.</string>
     <string name="cancel">Anule</string>
@@ -540,6 +555,7 @@
     <string name="time_unit_just_now">Juste cumò</string>
     <string name="media_transfer_this_device_name" product="default">Chest telefon</string>
     <string name="media_transfer_this_device_name" product="tablet">Chest tablet</string>
+    <string name="media_transfer_this_device_name" product="tv">@string/tv_media_transfer_default</string>
     <string name="media_transfer_dock_speaker_device_name">Casse cun base</string>
     <string name="media_transfer_external_device_name">Dispositîf esterni</string>
     <string name="media_transfer_default_device_name">Dispositîf colegât</string>
@@ -551,6 +567,14 @@
     <string name="media_output_status_device_in_low_power_mode">Svee il dispositîf par riprodusi achì</string>
     <string name="media_output_status_unauthorized">Dispositîf no aprovât pe riproduzion</string>
     <string name="media_output_status_track_unsupported">Impussibil riprodusi chest contignût multimediâl achì</string>
+    <string name="tv_media_transfer_connected">Conetût</string>
+    <string name="tv_media_transfer_arc_fallback_title">ARC HDMI</string>
+    <string name="tv_media_transfer_earc_fallback_title">eARC HDMI</string>
+    <string name="tv_media_transfer_arc_subtitle">Colegât vie ARC</string>
+    <string name="tv_media_transfer_earc_subtitle">Colegât vie eARC</string>
+    <string name="tv_media_transfer_default">Predefinît de TV</string>
+    <string name="tv_media_transfer_hdmi">Jessude HDMI</string>
+    <string name="tv_media_transfer_internal_speakers">Cassis internis</string>
     <string name="profile_connect_timeout_subtext">Probleme di conession. Distude il dispositîf e torne impiilu</string>
     <string name="media_transfer_wired_device_name">Dispositîf audio cun fîl</string>
     <string name="help_label">Jutori e valutazions</string>
@@ -684,4 +708,8 @@
     <string name="back_navigation_animation_summary">Ative lis animazions di sisteme pal mot Indaûr preditîf.</string>
     <string name="back_navigation_animation_dialog">Cheste impostazion e ative lis animazions di sisteme pal mot Indaûr preditîf. E domande di meti il metodi \"enableOnBackInvokedCallback\" a true tal file manifest di dutis lis aplicazions.</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g> %%</string>
+    <string name="not_specified">No specificât</string>
+    <string name="neuter">Neutri</string>
+    <string name="feminine">Feminin</string>
+    <string name="masculine">Maschîl</string>
 </resources>

@@ -172,10 +172,14 @@
     <string name="wifi_ap_2G">2,4 GHz</string>
     <string name="wifi_ap_5G">5 GHz</string>
     <string name="wifi_ap_band_select_one">Sielç almancul une bande pal pont di acès Wi\u2011Fi:</string>
+    <string name="tether_settings_title_all">Pont di acès Wi\u2011Fi</string>
     <string name="hotspot_settings_title">Pont di acès</string>
+    <string name="wifi_hotspot_switch_title">Dopre pont di acès Wi\u2011Fi</string>
     <string name="wifi_hotspot_state_off">Off</string>
     <string name="wifi_hotspot_auto_off_title">Disative il pont di acès in automatic</string>
     <string name="wifi_hotspot_auto_off_summary">Il pont di acès Wi\u2011Fi si distudarà se nol è colegât nissun dispositîf.</string>
+    <string name="wifi_hotspot_qr_code_text">Scansione chest codiç QR par jentrâ in \u0022%s\u0022</string>
+    <string name="wifi_hotspot_qr_code_password_text">Password dal pont di acès: %s</string>
     <string name="wifi_ask_enable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> al vûl ativâ il Wi-Fi</string>
     <string name="wifi_ask_disable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> al vûl disativâ il Wi-Fi</string>
     <string name="wifi_error">Erôr</string>
@@ -186,6 +190,7 @@
     <string name="network_connection_connect_successful">Conession lade a bon fin</string>
     <string name="network_connection_request_dialog_showall">Mostre dutis</string>
     <string name="progress_scanning">Daûr a cirî</string>
+    <string name="connected_settings_title">Dispositîfs conetûts</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
     <string name="bluetooth_toggle_title">Dopre Bluetooth</string>
     <string name="bluetooth_device">Dispositîf cence non</string>
@@ -333,6 +338,7 @@
     <string name="app_disable_dialog_positive">Disative aplicazion</string>
     <string name="not_installed">No instalât par chest profîl</string>
     <string name="permissions_label">Permès</string>
+    <string name="app_info_all_services_label">Ducj i servizis</string>
     <string name="notifications_label">Notifichis</string>
     <string name="storage_application_label">Spazi di archiviazion e cache</string>
     <string name="prioritize_app_performance_label">Prioritât aes prestazions des aplicazions</string>
@@ -863,6 +869,7 @@
     <string name="qc_display_brightness">Luminositât dal schermi</string>
     <string name="qc_bluetooth_off_devices_info">Par viodi i tiei dispositîfs, ative il Bluetooth</string>
     <string name="qc_bluetooth_on_no_devices_info">Par associâ un dispositîf, vierç lis impostazions dal Bluetooth</string>
+    <string name="qc_ui_mode_title">Teme</string>
     <string name="device_admin_add_title">Aministradôr di sisteme dal infotainment</string>
     <string name="device_admin_activated_apps">Aplicazions ativadis</string>
     <string name="device_admin_deactivated_apps">Aplicazions disativadis</string>

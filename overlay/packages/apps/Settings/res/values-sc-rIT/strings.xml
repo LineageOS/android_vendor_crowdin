@@ -385,6 +385,7 @@
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary">Bluetooth</string>
     <string name="keywords_time_format">Imprea su formadu 24 oras</string>
     <string name="keywords_sounds_and_notifications_interruptions">no no istorbes, firma, firmare, pàusa</string>
+    <string name="keywords_color_temperature">colore, temperadura, D65, D73, biancu, grogu, biaitu, callente, friu</string>
     <string name="keywords_hotspot_tethering">ancoràgiu web usb, ancoràgiu web bluetooth, puntu de atzessu wifi</string>
     <string name="notification_ringtone_title">Sonu de notìfica predefinidu</string>
     <string name="notification_sound_default">Sonu de notìfica predefinidu</string>

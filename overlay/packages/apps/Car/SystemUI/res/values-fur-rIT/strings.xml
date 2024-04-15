@@ -121,5 +121,9 @@
     <string name="car_keyguard_enter_your_pin">Inserìs il to PIN</string>
     <string name="car_keyguard_enter_your_pattern">Inserìs la tô cumbinazion</string>
     <string name="car_keyguard_enter_your_password">Inserìs la tô password</string>
+    <string name="backspace_key">Tast cancele indaûr</string>
+    <string name="enter_key">Tast invie</string>
+    <string name="user_tos_activity_intent">intent:#Intent;action=com.android.car.SHOW_USER_TOS_ACTIVITY;B.show_value_prop=false;end</string>
     <string name="back_btn">Indaûr</string>
+    <string name="fullscreen">Plen schermi</string>
 </resources>

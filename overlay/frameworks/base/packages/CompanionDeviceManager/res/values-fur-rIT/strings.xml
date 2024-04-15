@@ -49,12 +49,23 @@
     <string name="permission_microphone">Microfon</string>
     <string name="permission_call_logs">Regjistris clamadis</string>
     <string name="permission_nearby_devices">Dispositîfs dongje</string>
+    <string name="permission_media_routing_control">Cambie jessude multimediâl</string>
     <string name="permission_storage">Fotos e multimedia</string>
     <string name="permission_notifications">Notifichis</string>
     <string name="permission_app_streaming">Aplicazions</string>
     <string name="permission_nearby_device_streaming">Trasmissions</string>
+    <string name="permission_phone_summary">Fâ e gjestî clamadis telefonichis</string>
+    <string name="permission_call_logs_summary">Lei e scrivi il regjistri des clamadis telefonichis</string>
+    <string name="permission_sms_summary">Manda e viodi messaçs SMS</string>
+    <string name="permission_contacts_summary">Acedi ai tiei contats</string>
+    <string name="permission_calendar_summary">Acedi al to calendari</string>
+    <string name="permission_microphone_summary">Regjistrâ audio</string>
+    <string name="permission_nearby_devices_summary">Cjatâ, conetisi e determinâ la posizion relative dai dispositîfs dongje</string>
+    <string name="permission_notification_listener_access_summary">Lei dutis lis notifichis, includudis lis informazions come contats, messaçs e fotos</string>
+    <string name="permission_notifications_summary">\u2022 Lei dutis lis notifichis, includudis lis informazions come i contats, i messaçs e lis fotos&lt;br/&gt;\u2022 Mandâ notifichis&lt;br/&gt;&lt;br/&gt;In cualsisei moment tu puedis gjestî la facoltât di cheste aplicazion di lei e mandâ notifichis in Impostazions &gt; Notifichis.</string>
     <string name="permission_app_streaming_summary">Trasmet lis aplicazions dal to telefon</string>
     <string name="permission_nearby_device_streaming_summary">Trasmeti aplicazions e altris funzions di sisteme dal to telefon</string>
+    <string name="permission_media_routing_control_summary">Acedi a une liste di dispositîfs disponibii e controlâ chel che al trasmet audio o video di altris aplicazions</string>
     <string name="device_type" product="default">telefon</string>
     <string name="device_type" product="tablet">tablet</string>
 </resources>

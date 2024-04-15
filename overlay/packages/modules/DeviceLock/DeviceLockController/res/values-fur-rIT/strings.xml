@@ -50,7 +50,9 @@
     <string name="device_provided_by_provider">Chest dispositîf al è furnît di <xliff:g id="provider name">%1$s</xliff:g></string>
     <string name="download_kiosk_app">La aplicazion Kiosk e vignarà discjariade e instalade in automatic</string>
     <string name="install_kiosk_app_secondary_user">La aplicazion Kiosk e vignarà instalade par chest utent</string>
+    <string name="restrict_device_if_missing_payment"><xliff:g id="provider name">%1$s</xliff:g> al pues limitâ il dispositîf se tu mancjis un paiament. Pai detais, viôt i <xliff:g id="terms_and_conditions_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>Tiermins e condizions<xliff:g id="terms_and_conditions_link_end">&lt;/a&gt;</xliff:g>.</string>
     <string name="restrict_device_if_dont_make_payment"><xliff:g id="provider name">%1$s</xliff:g> al pues limitâ chest dispositîf se no tu fasis i paiaments necessaris. Pai detais, viôt i <xliff:g id="terms_and_conditions_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>Tiermins e condizions<xliff:g id="terms_and_conditions_link_end">&lt;/a&gt;</xliff:g>.</string>
+    <string name="contact_provider_for_help">Par jutori, <xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>contate <xliff:g id="provider name">%1$s</xliff:g><xliff:g id="support_link_end">&lt;/a&gt;</xliff:g>.</string>
     <string name="previous">Indaûr</string>
     <string name="next">Indevant</string>
     <string name="start">Scomence</string>
@@ -60,6 +62,7 @@
     <string name="header_icon_content_description">Informazions</string>
     <string name="provision_info_item_icon_content_description">Informazions di furniment</string>
     <string name="enroll_your_device_header">Regjistre il to dispositîf</string>
+    <string name="enroll_your_device_financing_subheader">Cumò tu puedis regjistrâ il to dispositîf tal program finanziari di <xliff:g id="provider name">%1$s</xliff:g></string>
     <string name="enroll_your_device_subsidy_subheader">Cumò tu puedis regjistrâ il to dispositîf tal program di sussidi di <xliff:g id="provider name">%1$s</xliff:g></string>
     <string name="subsidy_program_header">Tu stâs partecipant al program di sussidi di <xliff:g id="provider name">%1$s</xliff:g></string>
     <string name="device_enrollment_header_text">Regjistrazion dispositîf</string>
@@ -80,6 +83,8 @@
     <string name="settings_banner_body"><xliff:g id="provider name">%1$s</xliff:g> al pues cambiâ lis impostazions su chest dispositîf</string>
     <string name="settings_banner_button">Plui informazions</string>
     <string name="settings_screen_title">Informazions sul dispositîf finanziât</string>
+    <string name="settings_intro_device_financing"><xliff:g id="provider name">%1$s</xliff:g> al pues cambiâ lis impostazions e instalâla aplicazion Kiosk sul dispositîf.\n\nSe tu saltis un paiament, <xliff:g id="provider name">%1$s</xliff:g> al pues limitâ il to dispositîf.\n\nPar savênt di plui, contate <xliff:g id="provider name">%1$s</xliff:g>.</string>
+    <string name="settings_intro_device_subsidy"><xliff:g id="provider name">%1$s</xliff:g> al pues cambiâ lis impostazions e instalâ la aplicazion Kiosk sul dispositîf.\n\n<xliff:g id="provider name">%1$s</xliff:g> al podarès ancje limitâ chest dispositîf se tu saltis un paiament o tu smetis di doprâ la SIM di <xliff:g id="provider name">%1$s</xliff:g>.\n\nPar savênt di plui, contate <xliff:g id="provider name">%1$s</xliff:g>.</string>
     <string name="settings_intro_preference_key">settings_intro_preference_key</string>
     <string name="settings_restrictions_category">Fintant che no tu âs paiât il to dispositîf, no tu puedis:</string>
     <string name="settings_restrictions_category_preference_key">settings_restrictions_category_preference_key</string>
@@ -113,11 +118,20 @@
     <string name="settings_restrictions_removed_preference_key">settings_restrictions_removed_preference_key</string>
     <string name="settings_uninstall_kiosk_app">Tu puedis disinstalâ la aplicazion <xliff:g id="kiosk_app">%1$s</xliff:g></string>
     <string name="settings_uninstall_kiosk_app_preference_key">settings_uninstall_kiosk_app_preference_key</string>
+    <string name="settings_support_category">Par vê jutori:</string>
+    <string name="settings_support_category_preference_key">settings_support_category_preference_key</string>
+    <string name="settings_contact_provider"><xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>Contate <xliff:g id="provider name">%1$s</xliff:g><xliff:g id="support_link_end">&lt;/a&gt;</xliff:g></string>
+    <string name="settings_contact_provider_preference_key">settings_contact_provider_preference_key</string>
     <string name="provision_notification_channel_name">Furnidure</string>
     <string name="device_reset_in_days_notification_title">        {count, plural,
             one {}=1    {Il dispositîf si azerarà ca di 1 dì}
             other {Il dispositîf si azerarà ca di # dîs}
         }
     </string>
+    <string name="device_reset_timer_notification_title">Il dispositîf si ripristinarà ca di <xliff:g id="timer">%s</xliff:g></string>
     <string name="device_reset_notification_content">A vignaran eliminâts ducj i dâts dal dispositîf. Par jutori tal regjistrâ il to dispositîf, contate <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="provisioning_failed">La provision dal finanziament no je lade a bon fin</string>
+    <string name="click_to_contact_financier">Fâs clic achì pes manieris par contatâ il to finanziadôr. <xliff:g id="support_url_start">&lt;a href=\"%1$s\"&gt;</xliff:g>Plui informazions<xliff:g id="support_url_end">&lt;/a&gt;</xliff:g></string>
+    <string name="exit">Jes</string>
+    <string name="retry">Torne prove</string>
 </resources>

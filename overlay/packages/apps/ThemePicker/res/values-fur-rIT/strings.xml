@@ -101,6 +101,7 @@
     <string name="accessibility_custom_color_title">Colôr personalizât</string>
     <string name="accessibility_custom_shape_title">Forme personalizade</string>
     <string name="accessibility_custom_name_title">Non di stîl personalizât</string>
+    <string name="accessibility_clock_slider_description">Intensitât dai colôrs</string>
     <string name="mode_title" msgid="1000319159005403986">Teme scûr</string>
     <string name="mode_disabled_msg" msgid="1926077857799715086">Disativât in mût temporani par vie dal sparagn energjetic</string>
     <string name="mode_changed">Teme cambiât</string>

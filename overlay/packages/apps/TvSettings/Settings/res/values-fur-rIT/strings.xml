@@ -67,6 +67,7 @@
     <string name="privacy_app_settings_category">Impostazions aplicazion</string>
     <string name="privacy_category_summary">Posizion, utilizazion e diagnostiche, publicitât</string>
     <string name="add_account">Zonte account</string>
+    <string name="unknown_account">Account no cognossût</string>
     <string name="account_header_remove_account">Gjave account</string>
     <string name="account_sync">Sielç aplicazions sincronizadis</string>
     <string name="sync_now">Sincronize cumò</string>
@@ -252,6 +253,18 @@
     <string name="font_scale_preview_text_title" translation_description="Translate manually. No not adopt any copyrighted material for translation.">        Il maraveôs mâc di Oz
     </string>
     <string name="font_scale_preview_text_subtitle">        Cjapitul 11: La maraveose citât di smeralt di Oz</string>
+    <string name="font_scale_preview_text_body">        Ancje cui voi protets dai ocjâi verts Dorothy i siei amîs sul moment a restarin inceadis dal sflandôr de maraveose citât.
+        Dilunc des stradis a jerin bielis cjasis e dutis a jerin costruidis cun marmul vert e tampiestadis dapardut cun smeralts slusints.
+        A cjaminarin sore di un paviment dal stes marmul vert e là che i blocs si univin a jerin riis di smeralts, incassâts un dongje di chel altri, e slusints te lûs dal soreli.
+        I veris dai barcons a jerin di veri vert; ancje il cîl parsore de citât al veve une tinte verde, e verts a jerin i rais dal soreli.
+        \n\nE jere tante int, oms, feminis e fruts, che a cjaminavin ator, cun vistîts di colôr vert e a vevin piels sul verdulin.
+        A cjalavin Dorothy e la sô strambe compagnie cun voi maraveâts e i fruts a scjamavin ducj par platâsi daûr des maris cuant che a viodevin il leon; ma nissun ur cjacarave.
+        Te strade a jerin tancj negozis e Dorothy e viodè che dut là dentri al jere vert.
+        Caramelis verdis e pop-corn vert a vignivin vendûts, e cussì ancje scarpis verdis, cjapiei verts e vistîts verts di ogni sorte.
+        Intun puest un om al stave vendint limonade verde e cuant che i fruts le compravin Dorothy e podè viodi che a paiavin cun becins verts.
+        \n\nAl someave che no fossin ni cjavai ni animâi di ogni sorte; i oms a puartavin la robe ator in piçui cjaruçs verts, che a sburtavin.
+        Ducj a someavin contents e prospars.
+    </string>
     <string name="hdr_format_selection_title">Selezion formât</string>
     <string name="hdr_format_selection_auto_title">Automatiche</string>
     <string name="hdr_format_selection_manual_title">Manuâl</string>
@@ -348,6 +361,7 @@
     <string name="bluetooth_connected_status">Conetût</string>
     <string name="bluetooth_disconnected_status">Disconetût</string>
     <string name="bluetooth_empty_list_user_restricted">No tu âs i permès par cambiâ lis impostazions Bluetooth.</string>
+    <string name="bluetooth_toggle_active_audio_output_title">Doprâ pal audio de TV</string>
     <string name="send_feedback">Mande coment</string>
     <string name="launch_help">Centri di assistence</string>
     <string name="system_cast">Google Cast</string>
@@ -874,6 +888,7 @@
     <string name="system_accessibility_status">Ative</string>
     <string name="system_accessibility_config">Configurazion</string>
     <string name="system_accessibility_service_on_confirm_title">Doprâ <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
+    <string name="system_accessibility_service_on_confirm_desc"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> al rivarà a lei il schermi, a visualizâ contignûts sore di altris aplicazions, a segnâsi lis tôs interazions cu lis aplicazions o i sensôrs e a interagjî cu lis aplicazions par to cont.</string>
     <string name="system_accessibility_service_off_confirm_title">Fermâ <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
     <string name="system_accessibility_service_off_confirm_desc">Selezionant Va ben tu interomparâs <xliff:g id="service" example="TalkBack">%1$s</xliff:g>.</string>
     <string name="system_accessibility_tts_output">Sintesi vocâl</string>
@@ -1053,7 +1068,13 @@
     <string name="restricted_profile_customize_restrictions">Personalize limitazions</string>
     <string name="restricted_profile_configure_apps_description_loading">Un moment\u2026</string>
     <string name="restricted_profile_change_password_title">Cambie pin</string>
+    <string name="restricted_profile_create_preference_screen">Creâ profîl cun limitazions?</string>
+    <string name="restricted_profile_already_created_placeholder">Za creât</string>
     <string name="restricted_profile_skip_action">Salte</string>
+    <string name="restricted_profile_create_pin_action">Cree PIN</string>
+    <string name="restricted_profile_enter_preference_screen">Jentrâ tal profîl limitât?</string>
+    <string name="restricted_profile_enter_not_found_placeholder">Nissun profîl cun limitazions</string>
+    <string name="restricted_profile_enter_already_entered_placeholder">Za jentrât</string>
     <string name="restriction_description"><xliff:g id="description">%1$s</xliff:g>\n<xliff:g id="value">%2$s</xliff:g></string>
     <string name="app_sees_restricted_accounts_and_controlled_by">Cheste aplicazion e pues acedi ai tiei accounts. Controlade di <xliff:g id="app">%1$s</xliff:g></string>
     <string name="pin_enter_unlock_channel">Inserìs il PIN par cjalâ chest canâl</string>
@@ -1284,6 +1305,8 @@
     <string name="network_connection_connect_successful">Conession lade a bon fin</string>
     <string name="network_connection_request_dialog_showall">Mostre dutis</string>
     <string name="progress_scanning">Daûr a cirî</string>
+    <string name="add_account_intent_not_available_dialog_message">Impussibil recuperâ dal autenticadôr l\'intent di zonte dal account.</string>
+    <string name="add_account_failed_dialog_message">Impussibil zontâ l\'account o il gjenar di account nol è disponibil.</string>
     <string name="channels_and_inputs_title">Canâi e jentradis</string>
     <string name="channels_and_inputs_summary">Canâi, jentradis esternis</string>
     <string name="channels_settings_title">Canâi</string>
@@ -1301,4 +1324,9 @@
     <string name="energy_mode_enables">E ative:</string>
     <string name="energy_mode_eco_hint">Viôt che cheste modalitât e podarès aumentâ il consum energjetic dal dispositîf.</string>
     <string name="energy_modes_confirmation_title">Ative \"<xliff:g id="energyModeName" example="Essential network features">%s</xliff:g>\"</string>
+    <string name="settings_find_my_remote_title">Cjate il gno telecomant</string>
+    <string name="settings_find_my_remote_description">Riprodûs un sun par localizâ il to telecomant Google TV se nol è tal so puest</string>
+    <string name="find_my_remote_slice_description">Frache il boton daûr dal to Google TV par riprodusi un sun sul telecomant par 30 seconts. Cheste operazion e funzione dome cui controi dal telecomant Google TV supuartâts.\n\nPar interompi il sun, frache un boton sul telecomant.</string>
+    <string name="find_my_remote_integration_hint">Cuant che Cjate il gno telecomant al è ativât, tu puedis riprodusi un sun par cjatâ il to telecomant Google TV se nol è tal so puest.</string>
+    <string name="find_my_remote_play_sound">Riprodûs sun</string>
 </resources>

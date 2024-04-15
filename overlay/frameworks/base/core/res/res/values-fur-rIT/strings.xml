@@ -309,6 +309,7 @@
     <string name="notification_channel_foreground_service">Aplicazions che a consumin batarie</string>
     <string name="notification_channel_accessibility_magnification">Ingrandiment</string>
     <string name="notification_channel_accessibility_security_policy">Utilizazion acès facilitât</string>
+    <string name="notification_channel_display">Schermi</string>
     <string name="foreground_service_app_in_background"><xliff:g id="app_name">%1$s</xliff:g> e sta
         consumant batarie</string>
     <string name="foreground_service_apps_in_background"><xliff:g id="number">%1$d</xliff:g> aplicazions
@@ -596,6 +597,8 @@
     <string name="permdesc_systemCamera">Cheste aplicazion cun privileçs o di sisteme e pues fâ fotos e regjistrâ videos doprant une fotocjamare di sisteme cuant che e vûl. E à bisugne ancje che la aplicazion e vedi il permès android.permission.CAMERA</string>
     <string name="permlab_cameraOpenCloseListener">Al permet a une aplicazion o servizi di ricevi clamadis di rispueste in merit ai dispositîfs di fotocjamare che a son vierts o sierâts.</string>
     <string name="permdesc_cameraOpenCloseListener">Cheste aplicazion e pues ricevi clamadis di rispueste cuant che cualsisei dispositîf di fotocjamare al ven viert (di cuale aplicazion) o sierât.</string>
+    <string name="permlab_cameraHeadlessSystemUser">Permet a une aplicazion o a un servizi di acedi ae fotocjamare come utent di sisteme cence visôr.</string>
+    <string name="permdesc_cameraHeadlessSystemUser">Cheste aplicazion e pues acedi ae fotocjamare come utent di sisteme cence visôr.</string>
     <string name="permlab_vibrate">controlâ la vibrazion</string>
     <string name="permdesc_vibrate">Al permet ae aplicazion di controlâ la vibrazion.</string>
     <string name="permdesc_vibrator_state">Al permet ae aplicazion di acedi al stât de vibrazion.</string>
@@ -738,6 +741,9 @@
     <string name="permlab_nfc">controlâ il NFC</string>
     <string name="permdesc_nfc">Al permet ae aplicazion di comunicâ
       cu lis etichetis, lis cjartis e i letôrs di Near Field Communication (NFC).</string>
+    <string name="permlab_nfcTransactionEvent">Event di transazion Secure Element</string>
+    <string name="permdesc_nfcTransactionEvent">Al permet ae aplicazion di ricevi informazion su
+      transazions che a sucedin suntun Secure Element.</string>
     <string name="permlab_disableKeyguard">disativâ il to bloc dal schermi</string>
     <string name="permdesc_disableKeyguard">Al permet ae aplicazion di disativâ il
       bloc dai tascj e cualsisei protezion associade aes passwords. P.e. il telefon
@@ -2037,6 +2043,9 @@
         cun une aplicazion o un sensôr hardware e interagjî cun aplicazions al to puest.</string>
     <string name="accessibility_dialog_button_allow">Permet</string>
     <string name="accessibility_dialog_button_deny">Dinee</string>
+    <string name="accessibility_dialog_button_uninstall">Disinstale</string>
+    <string name="accessibility_dialog_touch_filtered_warning">Une aplicazion e sta blocant la richieste
+        di permès in mût di impedî la verifiche de tô rispueste.</string>
     <string name="accessibility_select_shortcut_menu_title">Tocje une funzion par scomençâ a doprâle:</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Sielç lis funzions di doprâ cul boton
         di acès facilitât
@@ -2201,6 +2210,7 @@
     <string name="managed_profile_label_badge_2"><xliff:g id="label" example="Email">%1$s</xliff:g> di lavôr 2</string>
     <string name="managed_profile_label_badge_3"><xliff:g id="label" example="Email">%1$s</xliff:g> di lavôr 3</string>
     <string name="clone_profile_label_badge"><xliff:g id="label" example="Messenger">%1$s</xliff:g> clon</string>
+    <string name="private_profile_label_badge"><xliff:g id="label" example="Messenger">%1$s</xliff:g> privât</string>
     <string name="time_placeholder">--</string>
     <string name="radial_numbers_typeface">sans-serif</string>
     <string name="sans_serif">sans-serif</string>
@@ -2272,6 +2282,8 @@
     <string name="zen_mode_default_weekends_name">Fin setemane</string>
     <string name="zen_mode_default_events_name">Event</string>
     <string name="zen_mode_default_every_night_name">In polse</string>
+    <string name="zen_mode_implicit_trigger_description">Gjestît di <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="zen_mode_implicit_activated">On</string>
     <string name="zen_mode_implicit_deactivated">Off</string>
     <string name="muted_by"><xliff:g id="third_party">%1$s</xliff:g> al sta cidinant cualchi sun</string>
     <string name="system_error_wipe_data">Il to dispositîf al à un probleme interni e al podarès jessi instabil fintremai che no tu fasis un ripristinament dai dâts di fabriche.</string>
@@ -2336,6 +2348,7 @@
     <string name="app_blocked_message">        In chest moment <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> nol è disponibil.
     </string>
     <string name="app_streaming_blocked_title"><xliff:g id="activity" example="Permission dialog">%1$s</xliff:g> no disponibil</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Richieste di permès soprimude</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">Fotocjamare no disponibile</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Continue sul telefon</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">Microfon no disponibil</string>
@@ -2346,6 +2359,9 @@
     <string name="app_streaming_blocked_message" product="tv">In chest moment nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to dispositîf Android TV.</string>
     <string name="app_streaming_blocked_message" product="tablet">In chest moment nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to tablet.</string>
     <string name="app_streaming_blocked_message" product="default">In chest moment nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to telefon.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="tv">Cheste aplicazion e sta domandant altris permès, ma nol è pussibil concedi i permès intune session trasmetude. Concêt prime il permès sul to dispositîf Android TV.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="tablet">Cheste aplicazion e sta domandant altris permès, ma nol è pussibil concedi i permès intune session trasmetude. Concêt prime il permès sul to tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="default">Cheste aplicazion e sta domandant altris permès, ma nol è pussibil concedi i permès intune session trasmetude. Concêt prime il permès sul to telefon.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tv">Cheste aplicazion e domande plui sigurece. Prove sul to dispositîf Android TV.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tablet">Cheste aplicazion e domande plui sigurece. Prove sul to tablet.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="default">Cheste aplicazion e domande plui sigurece. Prove sul to telefon.</string>
@@ -2407,6 +2423,7 @@
     <string name="autofill_update_title">Inzornâ in <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
     <string name="autofill_update_title_with_type">Inzornâ <xliff:g id="type" example="Credit Card">%1$s</xliff:g> in <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
     <string name="autofill_update_title_with_2types">Inzornâ <xliff:g id="type" example="Password">%1$s</xliff:g> e <xliff:g id="type" example="Credit Card">%2$s</xliff:g> in <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
+    <string name="autofill_update_title_with_3types">Inzornâ chescj elements in <b><xliff:g id="label" example="MyPass">%4$s</xliff:g></b>: <xliff:g id="type" example="Username">%1$s</xliff:g>, <xliff:g id="type" example="Password">%2$s</xliff:g> e <xliff:g id="type" example="Credit Card">%3$s</xliff:g>?</string>
     <string name="autofill_save_yes">Salve</string>
     <string name="autofill_save_no">No graciis</string>
     <string name="autofill_save_notnow">No cumò</string>
@@ -2706,6 +2723,9 @@
     <string name="permdesc_startForegroundServicesFromBackground">Al permet a une aplicazion di acompagnament di inviâ servizis in prin plan dal sotfont.</string>
     <string name="mic_access_on_toast">Il microfon al è disponibil</string>
     <string name="mic_access_off_toast">Il microfon al è blocât</string>
+    <string name="connected_display_unavailable_notification_title">Impussibil spielâ il schermi</string>
+    <string name="connected_display_unavailable_notification_content">Dopre un altri fîl e torne prove</string>
+    <string name="connected_display_thermally_unavailable_notification_content">Il to dispositîf al è masse cjalt e nol pues spielâ il schermi fintremai che no si sfrede</string>
     <string name="concurrent_display_notification_name">Dopli schermi</string>
     <string name="concurrent_display_notification_active_title">Il dopli schermi al è atîf</string>
     <string name="concurrent_display_notification_active_content">Utilizazion di ducj i doi i schermis de bande di <xliff:g id="app_name" example="Camera app">%1$s</xliff:g> par mostrâ il contignût</string>
@@ -2722,5 +2742,11 @@
     <string name="keyboard_layout_notification_more_than_three_selected_message">Disposizion de tastiere metude a <xliff:g id="layout_1" example="English (US)">%1$s</xliff:g>, <xliff:g id="layout_2" example="English (US)">%2$s</xliff:g>, <xliff:g id="layout_3" example="French">%3$s</xliff:g>\u2026 Tocje par cambiâ.</string>
     <string name="keyboard_layout_notification_multiple_selected_title">Tastieris fisichis configuradis</string>
     <string name="keyboard_layout_notification_multiple_selected_message">Tocje par viodi lis tastieris</string>
+    <string name="profile_label_private">Privât</string>
+    <string name="profile_label_clone">Clon</string>
     <string name="profile_label_work">Lavôr</string>
+    <string name="profile_label_work_2">Lavôr 2</string>
+    <string name="profile_label_work_3">Lavôr 3</string>
+    <string name="profile_label_test">Prove</string>
+    <string name="profile_label_communal">In comun</string>
 </resources>

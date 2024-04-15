@@ -34,6 +34,7 @@
     <string name="notification_recents">Resints</string>
     <string name="notification_older">Notifichis mancul resintis</string>
     <string name="empty_notification_header">Nissune notifiche</string>
+    <string name="collapse_group">Mostre di mancul</string>
     <string name="show_more_from_app">Altris <xliff:g id="count">%1$d</xliff:g> di <xliff:g id="app">%2$s</xliff:g></string>
     <string name="show_count_more">Mostre ancjemò <xliff:g id="count">%d</xliff:g></string>
     <plurals name="message_unshown_count">

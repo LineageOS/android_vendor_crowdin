@@ -510,4 +510,15 @@
         <item>fri</item>
         <item>sat</item>
     </string-array>
+    <string-array name="terms_of_address_unsupported_locales">
+        <item>fr-CA</item>
+        </string-array>
+    <string-array name="terms_of_address_supported_languages">
+        <item>fr</item>
+        </string-array>
+    <string-array name="notification_polite_options">
+        <item>@string/notification_polite_all_apps</item>
+        <item>@string/notification_polite_conversations</item>
+        <item>@string/notification_polite_disabled</item>
+    </string-array>
 </resources>

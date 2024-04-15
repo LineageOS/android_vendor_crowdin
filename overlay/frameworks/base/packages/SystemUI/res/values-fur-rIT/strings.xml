@@ -55,6 +55,7 @@
     <string name="hdmi_cec_set_menu_language_description">Rivade di un altri dispositîf la richieste di cambiâ la lenghe di sisteme</string>
     <string name="hdmi_cec_set_menu_language_accept">Cambie lenghe</string>
     <string name="hdmi_cec_set_menu_language_decline">Ten la lenghe corinte</string>
+    <string name="share_wifi_button_text">Condivît Wi\u2011Fi</string>
     <string name="wifi_debugging_title">Permeti il debug wireless su cheste rêt?</string>
     <string name="wifi_debugging_message">Non de rêt (SSID)\n<xliff:g id="ssid" example="My wifi">%1$s</xliff:g>\n\nDirezion Wi\u2011Fi (BSSID)\n<xliff:g id="bssid" example="AB:CD:EF:12:34:56">%2$s</xliff:g></string>
     <string name="wifi_debugging_always">Permet simpri su cheste rêt</string>
@@ -73,6 +74,7 @@
     <string name="screenshot_saving_work_profile_title">Daûr a salvâ la schermade sul profîl di lavôr\u2026</string>
     <string name="screenshot_saved_title">Schermade salvade</string>
     <string name="screenshot_failed_title">Impussibil salvâ la schermade</string>
+    <string name="screenshot_failed_external_display_indication">Schermi esterni</string>
     <string name="screenshot_failed_to_save_user_locked_text">Prime di podê salvâ une schermade al è necessari che il dispositîf al sedi sblocât</string>
     <string name="screenshot_failed_to_save_unknown_text">Torne prove a caturâ la schermade</string>
     <string name="screenshot_failed_to_save_text">Impussibil salvâ la schermade</string>
@@ -157,6 +159,7 @@
     <string name="biometric_dialog_wrong_pattern">Cumbinazion sbaliade</string>
     <string name="biometric_dialog_wrong_password">Password sbaliade</string>
     <string name="biometric_dialog_credential_too_many_attempts">Masse tentatîfs sbaliâts.\nTorne prove ca di <xliff:g id="number">%d</xliff:g> seconts.</string>
+    <string name="work_challenge_emergency_button_text">Emergjence</string>
     <string name="biometric_dialog_credential_attempts_before_wipe">Torne prove. Tentatîf <xliff:g id="attempts" example="1">%1$d</xliff:g> di <xliff:g id="max_attempts" example="3">%2$d</xliff:g>.</string>
     <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">I tiei dâts a vignaran eliminâts</string>
     <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Se al prossim tentatîf tu inserissis une cumbinazion sbaliade, i dâts di chest dispositîf a vignaran eliminâts.</string>
@@ -190,6 +193,10 @@
     <string name="keyguard_suggest_fingerprint">Dopre l\'impront</string>
     <string name="keyguard_face_unlock_unavailable">Sbloc cu la muse no disponibil</string>
     <string name="accessibility_bluetooth_connected">Bluetooth colegât.</string>
+    <string name="accessibility_bluetooth_device_icon">Icone dispositîf bluetooth</string>
+    <string name="accessibility_bluetooth_device_settings_gear">Fâs clic par configurâ i detais dal dispositîf</string>
+    <string name="accessibility_bluetooth_device_settings_see_all">Fâs clic par viodi ducj i dispositîfs</string>
+    <string name="accessibility_bluetooth_device_settings_pair_new_device">Fâs clic par associâ un gnûf dispositîf</string>
     <string name="accessibility_battery_unknown">Percentuâl di batarie no cognossude.</string>
     <string name="accessibility_bluetooth_name">Colegât a <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
     <string name="accessibility_cast_name">Colegât a <xliff:g id="cast" example="TV">%s</xliff:g>.</string>
@@ -244,9 +251,14 @@
     <string name="quick_settings_dnd_label">No Sta Disturbâ</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Nissun dispositîf associât diponibil</string>
+    <string name="quick_settings_bluetooth_tile_subtitle">Tocje par coneti o disconeti un dispositîf </string>
     <string name="pair_new_bluetooth_devices">Associe gnûf dispositîf</string>
     <string name="see_all_bluetooth_devices">Viôt dutis</string>
+    <string name="turn_on_bluetooth">Dopre Bluetooth</string>
     <string name="quick_settings_bluetooth_device_connected">Conetût</string>
+    <string name="quick_settings_bluetooth_device_saved">Salvât</string>
+    <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">disconet</string>
+    <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">ative</string>
     <string name="quick_settings_bluetooth_secondary_label_battery_level"><xliff:g id="battery_level_as_percentage">%s</xliff:g> di batarie</string>
     <string name="quick_settings_bluetooth_secondary_label_audio">Audio</string>
     <string name="quick_settings_bluetooth_secondary_label_headset">Scufis</string>
@@ -273,6 +285,7 @@
     <string name="quick_settings_casting">In trasmission</string>
     <string name="quick_settings_cast_device_default_name">Dispositîf cence non</string>
     <string name="quick_settings_cast_detail_empty_text">Nissun dispositîf disponibil</string>
+    <string name="quick_settings_cast_no_network">Nissune conession Wi\u2011Fi o Ethernet</string>
     <string name="quick_settings_brightness_dialog_title">Luminositât</string>
     <string name="quick_settings_inversion_label">Inversion dai colôrs</string>
     <string name="quick_settings_color_correction_label">Corezion dai colôrs</string>
@@ -320,12 +333,15 @@
     <string name="quick_settings_screen_record_label">Regjistrazion schermi</string>
     <string name="quick_settings_screen_record_start">Scomence</string>
     <string name="quick_settings_screen_record_stop">Ferme</string>
+    <string name="qs_record_issue_label">Probleme di regjistrazion</string>
     <string name="qs_record_issue_start">Scomence</string>
     <string name="qs_record_issue_stop">Ferme</string>
+    <string name="qs_record_issue_dropdown_header">Cuale part de esperience dal dispositîf e ven tocjade?</string>
+    <string name="qs_record_issue_dropdown_prompt">Selezione il gjenar di probleme</string>
     <string name="qs_record_issue_dropdown_screenrecord">Regjistrazion schermi</string>
     <string-array name="qs_record_issue_types">
-        <item>Performance</item>
-        <item>User Interface</item>
+        <item>Prestazions</item>
+        <item>Interface utent</item>
         <item>Batarie</item>
     </string-array>
     <string name="quick_settings_onehanded_label">Modalitât a une man</string>
@@ -418,7 +434,10 @@
     <string name="keyguard_indication_charging_time_fast"><xliff:g id="percentage">%2$s</xliff:g> • In ricjarie rapide • Plene ca di <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_slowly"><xliff:g id="percentage">%2$s</xliff:g> • In ricjarie lente • Plene ca di <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_dock"><xliff:g id="percentage" example="20%">%2$s</xliff:g> • Ricjarie • Plene ca di <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
+    <string name="communal_tutorial_indicator_text">Scor a çampe par scomençâ il seminari comunitari</string>
+    <string name="button_to_open_widget_editor">Vierç l\'editôr di widget</string>
     <string name="button_to_remove_widget">Gjave</string>
+    <string name="hub_mode_add_widget_button_text">Zonte widget</string>
     <string name="hub_mode_editing_exit_button_text">Fat</string>
     <string name="accessibility_multi_user_switch_switcher">Cambie utent</string>
     <string name="accessibility_multi_user_list_switcher">menù a tirâ jù</string>
@@ -692,6 +711,10 @@
     <string name="keyboard_key_button_template">Boton <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Inizi</string>
     <string name="keyboard_key_back">Indaûr</string>
+    <string name="keyboard_key_dpad_up">Frece in sù</string>
+    <string name="keyboard_key_dpad_down">Frece in jù</string>
+    <string name="keyboard_key_dpad_left">Freçe a çampe</string>
+    <string name="keyboard_key_dpad_right">Frece a diestre</string>
     <string name="keyboard_key_dpad_center">Centri</string>
     <string name="keyboard_key_tab">Tab</string>
     <string name="keyboard_key_space">Spazi</string>
@@ -719,6 +742,8 @@
     <string name="keyboard_shortcut_group_system_notifications">Notifichis</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Scurtis di tastiere</string>
     <string name="keyboard_shortcut_group_system_switch_input">Cambie disposizion de tastiere</string>
+    <string name="keyboard_shortcut_join">o</string>
+    <string name="keyboard_shortcut_clear_text">Nete la domande de ricercje</string>
     <string name="keyboard_shortcut_search_list_title">Scurtis</string>
     <string name="keyboard_shortcut_search_list_hint">Cîr scurtis</string>
     <string name="keyboard_shortcut_search_list_no_result">Nissune scurte cjatade</string>
@@ -726,13 +751,37 @@
     <string name="keyboard_shortcut_search_category_input">Input</string>
     <string name="keyboard_shortcut_search_category_open_apps">Vierç aplicazions</string>
     <string name="keyboard_shortcut_search_category_current_app">Aplicazion atuâl</string>
+    <string name="keyboard_shortcut_a11y_show_search_results">Daûr a mostrâ i risultâts de ricercje</string>
+    <string name="keyboard_shortcut_a11y_filter_system">Daûr a mostrâ lis scurtis di sisteme</string>
+    <string name="keyboard_shortcut_a11y_filter_input">Daûr a mostrâ lis scurtis di imission</string>
+    <string name="keyboard_shortcut_a11y_filter_open_apps">Daûr a mostrâ lis scurtis che a vierzin aplicazions</string>
+    <string name="keyboard_shortcut_a11y_filter_current_app">Daûr a mostrâ lis scurtis par cheste aplicazion</string>
+    <string name="group_system_access_notification_shade">Viôt notifichis</string>
+    <string name="group_system_full_screenshot">Caturâ schermade</string>
+    <string name="group_system_access_system_app_shortcuts">Mostrâ scurtis</string>
+    <string name="group_system_go_back">Tone indaûr</string>
+    <string name="group_system_access_home_screen">Torne ae schermade di inizi</string>
+    <string name="group_system_overview_open_apps">Viôt lis aplicazions resintis</string>
+    <string name="group_system_cycle_forward">Scor indenant in cicli tra lis aplicazions resintis</string>
+    <string name="group_system_cycle_back">Scor indaûr in cicli tra lis aplicazions resintis</string>
+    <string name="group_system_access_all_apps_search">Vierç la liste di aplicazions</string>
+    <string name="group_system_hide_reshow_taskbar">Mostrâ la sbare des ativitâts</string>
     <string name="group_system_access_system_settings">Vierç lis impostazions</string>
+    <string name="group_system_access_google_assistant">Vierç l\'assistent</string>
     <string name="group_system_lock_screen">Bloc dal schermi</string>
+    <string name="group_system_quick_memo">Vierç lis notis</string>
     <string name="keyboard_shortcut_group_system_multitasking">Multitasking di sisteme</string>
+    <string name="system_multitasking_rhs">Jentre in modalitât schermi dividût cun cheste aplicazion a diestre</string>
+    <string name="system_multitasking_lhs">Jentre in modalitât schermi dividût cun cheste aplicazion a çampe</string>
+    <string name="system_multitasking_full_screen">Passe dal schermi dividût al plen schermi</string>
+    <string name="system_multitasking_replace">Dilunc la modalitât schermi dividût: sostituìs une aplic. cuntune altre</string>
     <string name="keyboard_shortcut_group_input">Input</string>
+    <string name="input_switch_input_language_next">Passe ae lenghe sucessive</string>
+    <string name="input_switch_input_language_previous">Passe ae lenghe precedente</string>
     <string name="input_access_emoji">Acedi ai emoji</string>
     <string name="input_access_voice_typing">Acedi ae scriture vocâl</string>
     <string name="keyboard_shortcut_group_applications">Aplicazions</string>
+    <string name="keyboard_shortcut_group_applications_assist">Assistent</string>
     <string name="keyboard_shortcut_group_applications_browser">Navigadôr</string>
     <string name="keyboard_shortcut_group_applications_contacts">Contats</string>
     <string name="keyboard_shortcut_group_applications_email">E-mail</string>
@@ -1231,9 +1280,14 @@
     <string name="camera_and_microphone_blocked_dream_overlay_content_description">Fotocjamare e microfon blocâts</string>
     <string name="microphone_blocked_dream_overlay_content_description">Microfon blocât</string>
     <string name="priority_mode_dream_overlay_content_description">Modalitât prioritât ative</string>
+    <string name="assistant_attention_content_description">Rilevade presince utent</string>
     <string name="set_default_notes_app_toast_content">Stabilìs in Impostazions la aplicazion pes notis predefinide</string>
     <string name="install_app">Instale aplicazion</string>
+    <string name="connected_display_dialog_start_mirroring">Spielâ su schermi esterni?</string>
+    <string name="connected_display_dialog_dual_display_stop_warning">E vignarà interote ogni ativitât in schermi dopli che cumò e je in esecuzion</string>
+    <string name="mirror_display">Spiele schermi</string>
     <string name="dismiss_dialog">Scarte</string>
+    <string name="connected_display_icon_desc">Schermi colegât</string>
     <string name="privacy_dialog_title">Microfon e fotocjamare</string>
     <string name="privacy_dialog_summary">Utilizazion resinte des aplicazions</string>
     <string name="privacy_dialog_more_button">Viôt i acès resints</string>
@@ -1252,4 +1306,6 @@
     <string name="privacy_dialog_recent_app_usage_1">Doprât di resint di <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
     <string name="privacy_dialog_active_app_usage_2">In ûs di <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
     <string name="privacy_dialog_recent_app_usage_2">Doprât di resint di <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
+    <string name="keyboard_backlight_dialog_title">Iluminazion di daûr de tastiere</string>
+    <string name="keyboard_backlight_value">Nivel %1$d di %2$d</string>
 </resources>

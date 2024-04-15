@@ -30,6 +30,9 @@
     <string name="connected_apps_one_app_connected_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens with one app connected. [CHAR_LIMIT=NONE]"><xliff:g id="num_apps_connected" example="1">%1$s</xliff:g> aplicazion e à acès</string>
     <string name="connected_apps_button_no_permissions_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens, when no apps are connected. [CHAR_LIMIT=NONE]">Nissun</string>
     <string name="entry_details_title" description="Label for a screen that list an entry details. [CHAR_LIMIT=40]">Detais de vôs</string>
+    <string name="backup_title" description="Label for a button that takes the user to backup settings. [CHAR_LIMIT=40]">Backup</string>
+    <string name="data_sources_and_priority_title" description="Label for a button that takes the user to app priority settings. [CHAR_LIMIT=40]">Sorzint dâts e prioritât</string>
+    <string name="set_units_title" description="Label for a button that takes the user to unit settings. [CHAR_LIMIT=40]">Stabilìs unitâts</string>
     <string name="recent_access_header" description="Header for section showing apps that have recently accessed health data [CHAR_LIMIT=NONE]">Acès resint</string>
     <string name="no_recent_access" description="Header for section showing apps that have recently accessed health data [CHAR_LIMIT=NONE]">Nissune aplicazion e à doprât Conession salût di resint</string>
     <string name="show_recent_access_entries_button_title" description="Label on a button leading to another screen showing all the writes and reads performed by connected apps in the last 24 hours. [CHAR LIMIT=50]">Viôt ducj i acès resints</string>
@@ -74,6 +77,9 @@
     <string name="permgroupdesc_health" description="Description of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=100]">acedi ai tiei dâts su la salût</string>
     <string name="permlab_readCaloriesBurned" description="Title of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=30]">Lei lis caloriis brusadis</string>
     <string name="permdesc_readCaloriesBurned" description="Description of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=100]">Al permet ae aplicazion di lei lis caloriis brusadis</string>
+    <string name="background_read_uppercase_label" description="Uppercase label used to show background reading permission. [CHAR_LIMIT=50]">Leture in sotfont</string>
+    <string name="background_read_lowercase_label" description="Lowercase label used to show background reading permission. [CHAR_LIMIT=50]">leture in sotfont</string>
+    <string name="background_read_description" description="Content description for switch that enables permissions for reading health data in the background  [CHAR_LIMIT=50]">Lei i dâts su la salût in sotfont</string>
     <string name="active_calories_burned_uppercase_label" description="Uppercase label used to show the user's active calories burned data [CHAR_LIMIT=50]">Caloriis ativis brusadis</string>
     <string name="active_calories_burned_lowercase_label" description="Lowercase label used to show the user's active calories burned data [CHAR_LIMIT=50]">caloriis ativis brusadis</string>
     <string name="active_calories_burned_read_content_description" description="Content description for switch that enables permissions for reading the user's active calories burned data [CHAR_LIMIT=NONE]">Lei lis caloriis ativis brusadis</string>
@@ -86,6 +92,7 @@
     <string name="exercise_route_lowercase_label" description="Lowercase label used to show the user's exercise route [CHAR_LIMIT=50]">percors di esercizi</string>
     <string name="exercise_route_write_content_description" description="Content description for switch that enables permissions for writing the user's exercise route [CHAR_LIMIT=NONE]">Scrivi il percors di esercizi</string>
     <string name="exercise_route_read_content_description" description="Content description for switch that enables permissions for reading the user's exercise route [CHAR_LIMIT=NONE]">Lei il percors di esercizi</string>
+    <string name="exercise_routes_all_read_content_description" description="Content description for switch that enables permissions for reading all user's exercise routes [CHAR_LIMIT=NONE]">Lei ducj i percors di esercizi</string>
     <string name="distance_uppercase_label" description="Uppercase label used to show the user's distance data [CHAR_LIMIT=50]">Distance</string>
     <string name="distance_lowercase_label" description="Lowercase label used to show the user's distance data [CHAR_LIMIT=50]">distance</string>
     <string name="distance_read_content_description" description="Content description for switch that enables permissions for reading the user's distance data [CHAR_LIMIT=NONE]">Lei la distance</string>
@@ -263,6 +270,7 @@
     <string name="permissions_disconnect_all_dialog_message" description="Text informing the user that all apps will no longer be able to read or write data after the permissions have been removed. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]">Nissune des tôs aplicazions a rivaran a acedi o a zontâ gnûfs dâts a Conession salût. Cheste operazion no elimine i dâts esistents.\n\nCheste operazion no larà a tocjâ altris permès che cheste aplicazion e podarès vê, come posizion, fotocjamare o microfon.</string>
     <string name="permissions_disconnect_all_dialog_disconnect" description="Label for dialog button to confirm removal of all permissions for all apps [CHAR_LIMIT=20]">Gjave dut</string>
     <string name="manage_permissions_manage_app_header" description="Title shown for section to manage app [CHAR_LIMIT=40]">Gjestìs aplicazion</string>
+    <string name="see_app_data" description="Label of a button that opens the app data screen. [CHAR_LIMIT=40]">Viodi dâts de aplicazion</string>
     <string name="delete_app_data" description="Label of a button that deletes data written by given app. [CHAR_LIMIT=40]">Elimine dâts di aplicazion</string>
     <string name="inactive_apps_section_title" description="Title shown for section of inactive apps [CHAR_LIMIT=40]">Aplicazions inativis</string>
     <string name="inactive_apps_section_message" description="Description text shown in the inactive apps section that explains what inactive apps are [CHAR_LIMIT=NONE]">Chestis aplicazions no àn plui l\'acès, ma a àn ancjemò dâts archiviâts in Conession salût</string>
@@ -283,6 +291,7 @@
     <string name="denied_apps_dialog_title" description="Title of a dialog that provides information about apps with permissions removed by Health Connect. [CHAR_LIMIT=NONE]">Parcè Conession salût gjavial i permès des aplicazions?</string>
     <string name="denied_apps_dialog_message" description="Label of a button that opens a page with more details about denied apps. [CHAR_LIMIT=NONE]">Se une aplicazion e je sospindude o gjavade di Google Play, Conession salût al gjave in automatic i siei permès.\n\nChest al vûl dî che la aplicazion no rivarà plui a acedi ai dâts archiviâts in Conession salût. Se prime cheste aplicazion e à scrit dâts, e ven fûr te liste des aplicazions inativis.</string>
     <string name="denied_apps_dialog_got_it_button" description="Label of a button that closes the dialog. [CHAR_LIMIT=40]">Capît</string>
+    <string name="onboarding_title" description="Label used to show the title of onboarding page when user opens Health Connect app for the fist time">Scomence a doprâ Conession salût</string>
     <string name="onboarding_description" description="Content description of Health Connect app on the onboarding page">Conession salût al archivie i tiei dâts su salût e forme fisiche e e semplifiche la sincronizazion di diviersis aplicazions sul telefon</string>
     <string name="share_data" description="Label used to show how the user can share data with apps">Condivît i dâts cu lis tôs aplicazions</string>
     <string name="share_data_description" description="Content description for how the user can share data with apps">Sielç cuai dâts che ogni aplicazion e pues lei o scrivi su Conession salût</string>
@@ -778,5 +787,26 @@
     <string name="migration_complete_notification_title" description="Title of notification shown to the user when migration is complete">Integrazion di Conession salût completade</string>
     <string name="migration_complete_notification_action" description="Action of notification shown to the user when migration is complete">Vierç</string>
     <string name="migration_whats_new_dialog_title" description="Title of dialog shown to the user after migration is done, informing them how to access the Health Connect module.">Novitâts</string>
+    <string name="migration_whats_new_dialog_content" description="Content of dialog shown to the user after migration is done, informing them how to access the Health Connect module.">Cumò tu puedis acedi a Conession salût da lis tôs impostazions. Disinstale la aplicazion Conession salût cuant che tu vûs par liberâ spazi di archiviazion.</string>
     <string name="migration_whats_new_dialog_button" description="Button of dialog shown to the user after migration is done, informing them how to access the Health Connect module.">Capît</string>
+    <string name="data_totals_header" description="Header for section showing cards with data type totals [CHAR_LIMIT=70]">Totâi dâts</string>
+    <string name="app_sources_header" description="Header for section showing apps contributing to the shown totals [CHAR_LIMIT=70]">Sorzints di aplicazion</string>
+    <string name="data_sources_footer" description="Footer note explaining how app sources work [CHAR_LIMIT=NONE]">Zonte sorzints di aplicazion ae liste par viodi trop che i totâi dai dâts a cambiin. La rimozion di une aplicazion di cheste liste e interomparà il so contribût ai totâi, ma e varà ancjemò il permès di scriture.</string>
+    <string name="data_sources_empty_state" description="Text for the empty state of the data sources screen explaining why there are no apps shown [CHAR_LIMIT=NONE]">Nissune sorzint di aplicazion</string>
+    <string name="data_sources_empty_state_footer" description="Text for the footer of the empty state of the data sources screen [CHAR_LIMIT=NONE]">Une volte dâts ae aplicazion i permès di scriture ai dâts di <xliff:g example="activity" id="category_name">%1$s</xliff:g>, lis sorzints a vignaran fûr achì.</string>
+    <string name="data_sources_help_link" description="Text for helper link in the data sources screen taking the user to an article about how sources and prioritization work [CHAR_LIMIT=NONE]">Cemût che lis sorzints e la prioritât a funzionin</string>
+    <string name="data_sources_add_app" description="Title for preference in the data sources screen used to add an app to the list of data sources [CHAR_LIMIT=NONE]">Zonte une aplicazion</string>
+    <string name="edit_data_sources" description="Menu option for adding or removing apps from the app sources list">Modifiche sorzints di aplicazion</string>
+    <string name="default_app_summary" description="Text for an app on the priority list that is the device default app for health connect data [CHAR_LIMIT=50]">Predefinît dal dispositîf</string>
+    <string name="app_data_title" description="Title of screen that shows the data of a certain app. [CHAR_LIMIT=50]">Dâts aplicazion</string>
+    <string name="no_data_footer" description="Footer displayed on the empty data browse screen if no data has been written to Health Connect. [CHAR_LIMIT=NONE]">I dâts des aplicazions cun acès a Conession salût a vignaran fûr achì</string>
+    <string name="date_picker_day" description="Dropdown option that indicates that one day's worth of data is displayed. [CHAR_LIMIT=50]">Dì</string>
+    <string name="date_picker_week" description="Dropdown option that indicates that one week's worth of data is displayed. [CHAR_LIMIT=50]">Setemane</string>
+    <string name="date_picker_month" description="Dropdown option that indicates that one month's worth of data is displayed. [CHAR_LIMIT=50]">Mês</string>
+    <string name="this_week_header" description="Header in the list of dataentries to differentiate between entries from this week and last week. [CHAR LIMIT=50]">Cheste setemane</string>
+    <string name="last_week_header" description="Header in the list of data entries to differentiate between entries from this week and last week. [CHAR LIMIT=50]">Ultime setemane</string>
+    <string name="this_month_header" description="Header in the list of data entries to differentiate between entries from this month and last month. [CHAR LIMIT=50]">Chest mês</string>
+    <string name="last_month_header" description="Header in the list of data entries to differentiate between entries from this month and last month. [CHAR LIMIT=50]">Ultin mês</string>
+    <string name="tab_entries" description="Tab that navigates to the data entries screen. [CHAR_LIMIT=50]">Vôs</string>
+    <string name="tab_access" description="Tab that navigates to the screen that shows which apps have access to the given data type. [CHAR_LIMIT=50]">Acès</string>
 </resources>
