@@ -227,6 +227,7 @@
     <string name="keyboard_shortcut_group_system_notifications">Notìficas</string>
     <string name="tuner_time">Ora</string>
     <string name="accessibility_qs_edit_tile_start_add">Agiunghe casella</string>
+    <string name="thermal_shutdown_dialog_message">Su telèfonu tuo fiat tropu callente e s\'est dèpidu torrare a aviare. Immoe est funtzionende in manera normale.\n\nSu telèfonu si podet callentare tropu si:\t• Impreas aplicatziones chi consumant risorsas a botu (comente a giogos, vìdeos o aplicatziones de navigatzione)\n\t• Iscàrrigas o càrrigas archìvios mannos\n\t• Impreas su telèfonu in temperaduras artas</string>
     <string name="tuner_menu">Menù</string>
     <string name="app_info">Informatziones de s\'aplicatzione</string>
     <string name="auto_data_switch_dialog_negative_button">No, gràtzias</string>
