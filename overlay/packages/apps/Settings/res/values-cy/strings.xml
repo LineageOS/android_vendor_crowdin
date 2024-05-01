@@ -487,6 +487,8 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="security_settings_fingerprint_v2_enroll_acquire_too_fast">Coda dy fys ar ôl teimlo dirgryniad</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_too_bright">Symuda i fan llai disglair a cheisio eto</string>
     <string name="security_settings_fingerprint_v2_enroll_error_max_attempts">Rwyt wedi cyrraedd y nifer mwyaf o gynigion a ganiateir</string>
+    <string name="biometric_settings_intro_with_fingerprint">Gellir datgloi gyda dy oriawr pan nad yw dy ôl bys wedi ei adnabod.</string>
+    <string name="biometric_settings_intro_with_face">Gellir datgloi gyda dy oriawr pan nad yw dy wyneb wedi ei adnabod.</string>
     <string name="security_settings_activeunlock_biometric_setup">Gosod</string>
     <string name="security_settings_biometric_preference_title">Datgloi ag Wyneb ac Ôl Bys</string>
     <string name="security_settings_work_biometric_preference_title">Datgloi Gwyneg ac Ôl Bys ar gyfer gwaith</string>
@@ -1453,6 +1455,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="dark_ui_summary_on_auto_mode_never">Ni fydd byth yn troi i ffwrdd yn awtomatig</string>
     <string name="dark_ui_summary_on_auto_mode_auto">Bydd yn troi ymlaen yn awtomatig gyda\'r wawr</string>
     <string name="dark_ui_summary_on_auto_mode_custom">Bydd yn troi i ffwrdd yn awtomatig am <xliff:g name="time" example="10 PM">%1$s</xliff:g>.</string>
+    <string name="dark_ui_summary_on_auto_mode_custom_bedtime">Bydd yn troi i ffwrdd yn awtomatig ar ôl amser gwely</string>
     <string name="dark_ui_activation_on_custom">Troi ymlaen nes <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <string name="dark_ui_activation_off_custom">Troi i ffwrdd nes <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <string name="dark_ui_text">Mae\u2019r thema dywyll yn defnyddio cefndir du i helpu\u2019r batri byw yn hirach ar rai sgriniau. Mae amserlenni sgrin dywyll yn aros i droi ymlaen nes bod dy sgrin i ffwrdd.</string>

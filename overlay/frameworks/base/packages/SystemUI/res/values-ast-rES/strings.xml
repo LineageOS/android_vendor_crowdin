@@ -540,7 +540,7 @@ prioridá</string>
     <string name="thermal_shutdown_dialog_help_text">Ver los pasos de curiáu</string>
     <string name="high_temp_title">El teléfonu ta caleciendo</string>
     <string name="high_temp_notif_message">Dalgunes funciones puen tar llendaes mentanto\'l teléfonu esfrez.\nToca pa consiguir más información</string>
-    <string name="high_temp_dialog_message">El teléfonu va tentar d\'esfrecese automáticamente. Vas poder siguir usando\'l preséu mas pue funcionar más lentu.\n\nNamás que\'l telefonu esfreza, va funcionar con normalidá.</string>
+    <string name="high_temp_dialog_message">El teléfonu va tentar d\'esfrecese automáticamente. Vas poder siguir usando\'l preséu mas pue funcionar más despacio.\n\nNamás que\'l telefonu esfreza, va funcionar con normalidá.</string>
     <string name="high_temp_dialog_help_text">Ver los pasos de curiáu</string>
     <string name="high_temp_alarm_help_care_steps">Ver los pasos de curiáu</string>
     <string name="lockscreen_shortcut_left">Atayu de la esquierda</string>

@@ -269,9 +269,9 @@
         Quiciabes s\'omitan les seiciones menos usaes que rican más tiempu pa crear l\'informe.</string>
     <string name="bugreport_option_full_title">Informe completu</string>
     <string name="bugreport_option_full_summary">Usa esta opción pa que la interferencia del sistema seya
-        mínima cuando\'l preséu nun respuenda o vaiga lentu, o cuando precises toles
-        seiciones del informe. Nun permite qu\'introduzas más detalles o faigas más
-        captures de pantalla.</string>
+        mínima cuando\'l preséu nun respuenda o vaiga despacio o cuando precises
+        toles seiciones del informe. Nun permite qu\'introduzas más detalles o faigas
+        más captures de pantalla.</string>
     <string name="bugreport_countdown">{count, plural,
         one {}=1 {Va facese una captura de pantalla pal informe de fallos en # segundu.}
         other {Va facese una captura de pantalla pal informe de fallos en # segundos.}
@@ -490,12 +490,12 @@
     </string>
     <string name="permdesc_broadcastSticky" product="tv">Permite que l\'aplicación
     unvie tresmisiones permanentes que se caltienen dempués de que termine la
-    tresmisión. Un usu escesivu d\'esto pue facer qu\'Android TV vaiga lentu o seya
+    tresmisión. Un usu escesivu d\'esto pue facer qu\'Android TV vaiga despacio o seya
     inestable al facer que s\'use muncha memoria.
     </string>
     <string name="permdesc_broadcastSticky" product="default">Permite que l\'aplicación
     unvie tresmisiones permanentes que se caltienen dempués de que termine la
-    tresmisión. Un usu escesivu d\'esto pue facer que\'l teléfonu vaiga lentu o seya
+    tresmisión. Un usu escesivu d\'esto pue facer que\'l teléfonu vaiga despacio o seya
     inestable al facer que s\'use muncha memoria.</string>
     <string name="permlab_readContacts">llectura de los contautos</string>
     <string name="permdesc_readContacts" product="tablet">Permite que l\'aplicación llea los datos de los contautos atroxaos na tableta.
