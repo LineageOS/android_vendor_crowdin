@@ -271,9 +271,9 @@
         Quiciabes s\'omitan les seiciones menos usaes que rican más tiempu pa crear l\'informe.</string>
     <string name="bugreport_option_full_title">Informe completu</string>
     <string name="bugreport_option_full_summary">Usa esta opción pa que la interferencia del sistema seya
-        mínima cuando\'l preséu nun respuenda o vaiga lentu, o cuando precises toles
-        seiciones del informe. Nun permite qu\'introduzas más detalles o faigas más
-        captures de pantalla.</string>
+        mínima cuando\'l preséu nun respuenda o vaiga despacio o cuando precises
+        toles seiciones del informe. Nun permite qu\'introduzas más detalles o faigas
+        más captures de pantalla.</string>
     <string name="bugreport_countdown">{count, plural,
         one {}=1 {Va facese una captura de pantalla pal informe de fallos en # segundu.}
         other {Va facese una captura de pantalla pal informe de fallos en # segundos.}
@@ -312,6 +312,7 @@
     <string name="notification_channel_foreground_service">Aplicaciones que gasten enerxía</string>
     <string name="notification_channel_accessibility_magnification">Aumentu</string>
     <string name="notification_channel_accessibility_security_policy">Usu de l\'accesibilidá</string>
+    <string name="notification_channel_display">Pantalla</string>
     <string name="foreground_service_app_in_background">«<xliff:g id="app_name">%1$s</xliff:g>»
         ta gastando enerxía</string>
     <string name="foreground_service_apps_in_background"><xliff:g id="number">%1$d</xliff:g>
@@ -524,12 +525,12 @@
     </string>
     <string name="permdesc_broadcastSticky" product="tv">Permite que l\'aplicación
     unvie tresmisiones permanentes que se caltienen dempués de que termine la
-    tresmisión. Un usu escesivu d\'esto pue facer qu\'Android TV vaiga lentu o seya
+    tresmisión. Un usu escesivu d\'esto pue facer qu\'Android TV vaiga despacio o seya
     inestable al facer que s\'use muncha memoria.
     </string>
     <string name="permdesc_broadcastSticky" product="default">Permite que l\'aplicación
     unvie tresmisiones permanentes que se caltienen dempués de que termine la
-    tresmisión. Un usu escesivu d\'esto pue facer que\'l teléfonu vaiga lentu o seya
+    tresmisión. Un usu escesivu d\'esto pue facer que\'l teléfonu vaiga despacio o seya
     inestable al facer que s\'use muncha memoria.</string>
     <string name="permlab_readContacts">llectura de los contautos</string>
     <string name="permdesc_readContacts" product="tablet">Permite que l\'aplicación llea los datos de los contautos atroxaos na tableta.
@@ -603,6 +604,8 @@
     <string name="permdesc_systemCamera">Esta aplicación del sistema o con privilexos pue facer semeyes y grabar vídeos cola cámara del sistema en cualesquier momentu. L\'aplicación tamién ha tener el permisu android.permission.CAMERA pa facelo</string>
     <string name="permlab_cameraOpenCloseListener">Permite qu\'una aplicación o serviciu reciba llamaes de retornu de los preseos de cámara que s\'abran o se zarren.</string>
     <string name="permdesc_cameraOpenCloseListener">Esta aplicación pue recibir llamaes de retornu de los preseos de cámara que s\'abran o se zarren pente l\'aplicación en cuestión.</string>
+    <string name="permlab_cameraHeadlessSystemUser">Permite qu\'una aplicación o un serviciu acceda a la cámara como usuariu del sistema ensin interfaz gráfica.</string>
+    <string name="permdesc_cameraHeadlessSystemUser">Esta aplicación pue acceder a la cámara como usuariu del sistema ensin interfaz gráfica.</string>
     <string name="permlab_vibrate">control de la vibración</string>
     <string name="permdesc_vibrate">Permite que l\'aplicación controle\'l vibrador.</string>
     <string name="permdesc_vibrator_state">Permite que l\'aplicación acceda al estáu del vibrador.</string>
@@ -746,6 +749,9 @@
     <string name="permlab_nfc">control del NFC</string>
     <string name="permdesc_nfc">Permite que l\'aplicación se comunique
       coles etiquetes, colos llectores y coles tarxetes de NFC.</string>
+    <string name="permlab_nfcTransactionEvent">Eventu de transaición d\'un elementu seguru</string>
+    <string name="permdesc_nfcTransactionEvent">Permite que l\'aplicación reciba información
+      tocante a les trasaiciones que pasen nun elementu seguru.</string>
     <string name="permlab_disableKeyguard">desactivación del bloquéu de pantalla</string>
     <string name="permdesc_disableKeyguard">Permite que l\'aplicación desactive\'l
       bloquéu de tecles y cualesquier proteición asociada a les contraseñes.
@@ -2046,6 +2052,9 @@
     </string>
     <string name="accessibility_dialog_button_allow">Permitir</string>
     <string name="accessibility_dialog_button_deny">Negar</string>
+    <string name="accessibility_dialog_button_uninstall">Desinstalar</string>
+    <string name="accessibility_dialog_touch_filtered_warning">Hai una aplicación que ta anubriendo la solicitú
+        de permisu, polo que nun se pue verificar la to rempuesta.</string>
     <string name="accessibility_select_shortcut_menu_title">Toca una función pa comenzar a usala:</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Escueyi qué funciones usar
         col botón «Accesibilidá»
@@ -2210,6 +2219,7 @@
     <string name="managed_profile_label_badge_2">2u «<xliff:g id="label" example="Email">%1$s</xliff:g>» del trabayu</string>
     <string name="managed_profile_label_badge_3">3r «<xliff:g id="label" example="Email">%1$s</xliff:g>» del trabayu</string>
     <string name="clone_profile_label_badge">Clon de: <xliff:g id="label" example="Messenger">%1$s</xliff:g></string>
+    <string name="private_profile_label_badge">«<xliff:g id="label" example="Messenger">%1$s</xliff:g>» priváu</string>
     <string name="time_placeholder">--</string>
     <string name="radial_numbers_typeface">sans-serif</string>
     <string name="sans_serif">sans-serif</string>
@@ -2281,6 +2291,8 @@
     <string name="zen_mode_default_weekends_name">Fin de selmana</string>
     <string name="zen_mode_default_events_name">Eventu</string>
     <string name="zen_mode_default_every_night_name">Dormiendo</string>
+    <string name="zen_mode_implicit_trigger_description">Regla xestionada por «<xliff:g id="app_name">%1$s</xliff:g>»</string>
+    <string name="zen_mode_implicit_activated">Sí</string>
     <string name="zen_mode_implicit_deactivated">Desactivaes</string>
     <string name="muted_by">«<xliff:g id="third_party">%1$s</xliff:g>» ta desactivando dalgunos soníos</string>
     <string name="system_error_wipe_data">Hai un problema internu col preséu y pue que funcione de forma inestable hasta que lu reafites.</string>
@@ -2345,6 +2357,7 @@
     <string name="app_blocked_message">        Nesti momentu, «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» nun ta disponible.
     </string>
     <string name="app_streaming_blocked_title">«<xliff:g id="activity" example="Permission dialog">%1$s</xliff:g>» nun ta disponible</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Anulóse la solicitú de permisu</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">La cámara nun ta disponible</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Sigue nel teléfonu</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">El micrófonu nun ta disponible</string>
@@ -2355,6 +2368,9 @@
     <string name="app_streaming_blocked_message" product="tv">Nesti momentu, nun se pue acceder a esti conteníu en: <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prueba nel preséu Android TV.</string>
     <string name="app_streaming_blocked_message" product="tablet">Nesti momentu, nun se pue acceder a esti conteníu en: <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prueba na tableta.</string>
     <string name="app_streaming_blocked_message" product="default">Nesti momentu, nun se pue acceder a esti conteníu en: <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prueba nel teléfonu.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="tv">Esta aplicación ta solicitando permisos adicionales, mas nun se puen conceder nuna sesión d\'emisión. Primero concede\'l permisu n\'Android TV.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="tablet">Esta aplicación ta solicitando permisos adicionales, mas nun se puen conceder nuna sesión d\'emisión. Primero concede\'l permisu na tableta.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="default">Esta aplicación ta solicitando permisos adicionales, mas nun se puen conceder nuna sesión d\'emisión. Primero concede\'l permisu nel teléfonu.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tv">Esta aplicación solicita más seguranza. Prueba nel preséu Android TV.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tablet">Esta aplicación solicita más seguranza. Prueba na tableta.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="default">Esta aplicación solicita más seguranza. Prueba nel teléfonu.</string>
@@ -2416,6 +2432,7 @@
     <string name="autofill_update_title">¿Quies anovar el conteníu de: <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
     <string name="autofill_update_title_with_type">¿Quies anovar «<xliff:g id="type" example="Credit Card">%1$s</xliff:g>» de: <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
     <string name="autofill_update_title_with_2types">¿Quies anovar «<xliff:g id="type" example="Password">%1$s</xliff:g>» y «<xliff:g id="type" example="Credit Card">%2$s</xliff:g>» de: <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
+    <string name="autofill_update_title_with_3types">¿Quies anovar «<xliff:g id="type" example="Username">%1$s</xliff:g>», «<xliff:g id="type" example="Password">%2$s</xliff:g>» y «<xliff:g id="type" example="Credit Card">%3$s</xliff:g>» en: <b><xliff:g id="label" example="MyPass">%4$s</xliff:g></b>?</string>
     <string name="autofill_save_yes">Guardar</string>
     <string name="autofill_save_no">Non, gracies</string>
     <string name="autofill_save_notnow">Agora non</string>
@@ -2714,6 +2731,9 @@
     <string name="permdesc_startForegroundServicesFromBackground">Permite qu\'una aplicación complementaria anicie servicios en primer planu dende\'l segundu planu.</string>
     <string name="mic_access_on_toast">El micrófonu ta disponible</string>
     <string name="mic_access_off_toast">El micrófonu ta bloquiáu</string>
+    <string name="connected_display_unavailable_notification_title">Nun se pue espeyar la pantalla</string>
+    <string name="connected_display_unavailable_notification_content">Usa otru cable y volvi probar</string>
+    <string name="connected_display_thermally_unavailable_notification_content">El preséu ta mui caliente y nun pue espeyar la pantalla hasta que nun esfreza</string>
     <string name="concurrent_display_notification_name">Pantalla dual</string>
     <string name="concurrent_display_notification_active_title">La pantalla dual ta activada</string>
     <string name="concurrent_display_notification_active_content">«<xliff:g id="app_name" example="Camera app">%1$s</xliff:g>» ta usando dambes pantalles p\'amosar el conteníu</string>
@@ -2730,5 +2750,11 @@
     <string name="keyboard_layout_notification_more_than_three_selected_message">La distribución del tecláu afitóse a «<xliff:g id="layout_1" example="English (US)">%1$s</xliff:g>», «<xliff:g id="layout_2" example="English (US)">%2$s</xliff:g>», «<xliff:g id="layout_3" example="French">%3$s</xliff:g>». Toca pa camudala.</string>
     <string name="keyboard_layout_notification_multiple_selected_title">Teclaos físicos configuraos</string>
     <string name="keyboard_layout_notification_multiple_selected_message">Toca pa ver los teclaos</string>
+    <string name="profile_label_private">Priváu</string>
+    <string name="profile_label_clone">Clon</string>
     <string name="profile_label_work">Trabayu</string>
+    <string name="profile_label_work_2">Trabayu 2</string>
+    <string name="profile_label_work_3">Trabayu 3</string>
+    <string name="profile_label_test">Prueba</string>
+    <string name="profile_label_communal">Comunal</string>
 </resources>

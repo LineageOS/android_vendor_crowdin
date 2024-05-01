@@ -839,6 +839,7 @@
     <string name="dark_ui_summary_on_auto_mode_never">Ni fydd byth yn troi i ffwrdd yn awtomatig</string>
     <string name="dark_ui_summary_on_auto_mode_auto">Bydd yn troi ymlaen yn awtomatig gyda\'r wawr</string>
     <string name="dark_ui_summary_on_auto_mode_custom">Bydd yn troi i ffwrdd yn awtomatig am <xliff:g name="time" example="10 PM">%1$s</xliff:g>.</string>
+    <string name="dark_ui_summary_on_auto_mode_custom_bedtime">Bydd yn troi i ffwrdd yn awtomatig ar ôl amser gwely</string>
     <string name="dark_ui_text">Mae\u2019r thema dywyll yn defnyddio cefndir du i helpu\u2019r batri byw yn hirach ar rai sgriniau. Mae amserlenni sgrin dywyll yn aros i droi ymlaen nes bod dy sgrin i ffwrdd.</string>
     <string name="screen_timeout">Terfyn amser y sgrin</string>
     <string name="screen_timeout_summary">Ar ôl <xliff:g id="sleep_description">%1$s</xliff:g> heb weithgaredd</string>

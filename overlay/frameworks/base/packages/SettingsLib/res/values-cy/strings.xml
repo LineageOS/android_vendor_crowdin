@@ -454,7 +454,7 @@
     <string name="battery_info_status_unknown">Anhysybys</string>
     <string name="battery_info_status_charging">Yn gwefru</string>
     <string name="battery_info_status_charging_fast">Yn gwefru\'n gyflym</string>
-    <string name="battery_info_status_charging_slow">Yn gwefru\'n araf</string>
+    <string name="battery_info_status_charging_slow">Yn gwefru\u2019n araf</string>
     <string name="battery_info_status_charging_wireless">Yn gwefru\'n ddi-wifr</string>
     <string name="battery_info_status_charging_dock">Yn gwefru</string>
     <string name="battery_info_status_discharging">Dim yn gwefru</string>

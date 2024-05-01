@@ -75,7 +75,10 @@
     <string name="bluetooth_active_battery_level">N\'activo, <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de batería</string>
     <string name="bluetooth_active_battery_level_untethered">N\'activo. E: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de batería, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de batería</string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de batería</string>
+    <string name="tv_bluetooth_battery_level">Batería: <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
     <string name="bluetooth_battery_level_untethered">E: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de batería, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de batería</string>
+    <string name="bluetooth_battery_level_untethered_left">Llau esquierdu: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_right">Llau derechu: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">N\'activo</string>
     <string name="bluetooth_saved_device">Guardóse</string>
     <string name="bluetooth_profile_a2dp">Audiu multimedia</string>
@@ -83,6 +86,8 @@
     <string name="bluetooth_profile_opp">Tresferencia de ficheros</string>
     <string name="bluetooth_profile_hid">Preséu d\'entrada</string>
     <string name="bluetooth_profile_pan">Accesu a internet</string>
+    <string name="bluetooth_profile_pbap">Permitir l\'accesu a los contautos y al historial de llamaes</string>
+    <string name="bluetooth_profile_pbap_summary">La información va usase pa los avisos de llamaes y más</string>
     <string name="bluetooth_profile_pan_nap">Compartición de la conexón a internet</string>
     <string name="bluetooth_profile_map">Mensaxes de testu</string>
     <string name="bluetooth_profile_sap">Accesu a la SIM</string>
@@ -129,6 +134,7 @@
     <string name="accessibility_wifi_two_bars">Señal Wi-Fi: dos barres.</string>
     <string name="accessibility_wifi_three_bars">Señal Wi-Fi: trés barres.</string>
     <string name="accessibility_wifi_signal_full">Señal Wi-Fi al máximu.</string>
+    <string name="accessibility_wifi_other_device">Conectóse al to preséu.</string>
     <string name="accessibility_wifi_security_type_none">Rede abierta</string>
     <string name="accessibility_wifi_security_type_secured">Rede segura</string>
     <string name="process_kernel_label">SO Android</string>
@@ -201,6 +207,7 @@
     <string name="choose_profile">Escoyeta d\'un perfil</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Llaboral</string>
+    <string name="category_private">Priváu</string>
     <string name="category_clone">Clonación</string>
     <string name="development_settings_title">Opciones pa desendolcadores</string>
     <string name="development_settings_enable">Activar les opciones pa desendolcadores</string>
@@ -414,6 +421,9 @@
     <string name="inactive_app_active_summary">Aplicación activa. Toca p\'alternar.</string>
     <string name="standby_bucket_summary">Estáu de l\'aplicación
         n\'espera: <xliff:g id="bucket">%s</xliff:g></string>
+    <string name="widevine_settings_title">Configuración de Widevine</string>
+    <string name="force_l3_fallback_title">Forciar l\'alternativa L3</string>
+    <string name="force_l3_fallback_summary">Seleiciona pa forciar l\'alternativa L3</string>
     <string name="runningservices_settings_title">Servicios n\'execución</string>
     <string name="runningservices_settings_summary">Visualiza y controla los servicios n\'execución</string>
     <string name="select_webview_provider_title">Implementación de WebView</string>
@@ -492,6 +502,11 @@
     <string name="ims_reg_status_not_registered">"Nun se rexistró"</string>
     <string name="status_unavailable">Nun ta disponible</string>
     <string name="wifi_status_mac_randomized">La direición MAC esbillase al debalu</string>
+    <string name="wifi_tether_connected_summary">        {count, plural,
+            one {}=1    {Conectóse 1 preséu}
+            other {Conectáronse # preseos}
+        }
+    </string>
     <string name="accessibility_manual_zen_more_time">Más tiempu.</string>
     <string name="accessibility_manual_zen_less_time">Menos tiempu.</string>
     <string name="cancel">Encaboxar</string>
@@ -514,6 +529,7 @@
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
     <string name="time_unit_just_now">Puramente agora</string>
     <string name="media_transfer_this_device_name" product="default">Esti teléfonu</string>
+    <string name="media_transfer_this_device_name" product="tv">@string/tv_media_transfer_default</string>
     <string name="media_transfer_dock_speaker_device_name">Altavoces de la base</string>
     <string name="media_transfer_external_device_name">Preséu esternu</string>
     <string name="media_transfer_default_device_name">Preséu conectáu</string>
@@ -525,6 +541,14 @@
     <string name="media_output_status_device_in_low_power_mode">Esconsoña\'l preséu pa reproducir equí</string>
     <string name="media_output_status_unauthorized">El preséu nun tien l\'aprobación pa reproducir</string>
     <string name="media_output_status_track_unsupported">Equí nun se pue reproducir esti conteníu multimedia</string>
+    <string name="tv_media_transfer_connected">Conectóse</string>
+    <string name="tv_media_transfer_arc_fallback_title">HDMI ARC</string>
+    <string name="tv_media_transfer_earc_fallback_title">HDMI eARC</string>
+    <string name="tv_media_transfer_arc_subtitle">Conectóse per ARC</string>
+    <string name="tv_media_transfer_earc_subtitle">Conectóse per eARC</string>
+    <string name="tv_media_transfer_default">Salida predeterminada de la TV</string>
+    <string name="tv_media_transfer_hdmi">Salida HDMI</string>
+    <string name="tv_media_transfer_internal_speakers">Altavoces internos</string>
     <string name="profile_connect_timeout_subtext">Hebo un problema al conectar. Apaga y volvi prender el preséu</string>
     <string name="media_transfer_wired_device_name">Preséu d\'audiu con cable</string>
     <string name="help_label">Ayuda y opiniones</string>
@@ -591,4 +615,8 @@
     <string name="data_connection_carrier_wifi">W+</string>
     <string name="keyboard_layout_default_label">Por defeutu</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g>%%</string>
+    <string name="not_specified">Nun s\'especificó</string>
+    <string name="neuter">Neutru</string>
+    <string name="feminine">Femenín</string>
+    <string name="masculine">Masculín</string>
 </resources>

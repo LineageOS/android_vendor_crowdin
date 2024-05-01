@@ -30,9 +30,4 @@
     <string name="picker_category_videos">@string/root_videos</string>
     <string name="picker_photo">Semeya</string>
     <string name="picker_gif">GIF</string>
-    <string name="preloading_cancel_button">Encaboxar</string>
-    <string name="transcode_denied">«<xliff:g id="app_name" example="File manager">%s</xliff:g>» nun pue procesar los ficheros multimedia</string>
-    <string name="transcode_processing">Procesando\'l conteníu multimedia…</string>
-    <string name="transcode_cancel">Encaboxar</string>
-    <string name="transcode_wait">Esperar</string>
 </resources>

@@ -45,10 +45,21 @@
     <string name="permission_microphone">Micrófonu</string>
     <string name="permission_call_logs">Rexistru de llamaes</string>
     <string name="permission_nearby_devices">Preseos cercanos</string>
+    <string name="permission_media_routing_control">Camuda la salida multimedia</string>
     <string name="permission_notifications">Avisos</string>
     <string name="permission_app_streaming">Aplicaciones</string>
     <string name="permission_nearby_device_streaming">Emisión</string>
+    <string name="permission_phone_summary">Fai y xestiona llamaes de teléfonu</string>
+    <string name="permission_call_logs_summary">Llee y escribe nel rexistru de llamaes del teléfonu</string>
+    <string name="permission_sms_summary">Unvia y visualiza mensaxes SMS</string>
+    <string name="permission_contacts_summary">Accede a los contautos</string>
+    <string name="permission_calendar_summary">Accede al calendariu</string>
+    <string name="permission_microphone_summary">Graba l\'audiu</string>
+    <string name="permission_nearby_devices_summary">Determina la posición relativa de los preseos cercanos, atópalos y conéctase a ellos</string>
+    <string name="permission_notification_listener_access_summary">Llee tolos avisos, incluyida información como contautos, mensaxes y semeyes</string>
+    <string name="permission_notifications_summary">\u2022 Llectura de tolos avisos, incluyida información como contautos, mensaxes y semeyes&lt;br/&gt;\u2022 Unviu d\'avisos&lt;br/&gt;&lt;br/&gt;En Configuración &gt; Avisos, pues xestionar en cualesquier momentu la capacidá d\'esta aplicación pa lleer y unviar avisos.</string>
     <string name="permission_nearby_device_streaming_summary">Emite aplicaciones y otres funciones del sistema dende\'l teléfonu</string>
+    <string name="permission_media_routing_control_summary">Accede a la llista de preseos disponibles y controla cuálu emite o tresmite audiu o videu dende otres aplicaciones</string>
     <string name="device_type" product="default">teléfonu</string>
     <string name="device_type" product="tablet">tableta</string>
 </resources>
