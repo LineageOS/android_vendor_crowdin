@@ -30,4 +30,8 @@
     <string name="picker_category_videos">@string/root_videos</string>
     <string name="picker_photo">Semeya</string>
     <string name="picker_gif">GIF</string>
+    <string name="permission_delete_image"> {count, plural,
+        one {}=1    {¿Quies permitir a «&lt;xliff:g id="app_name" example="Gmail"&gt;^1&lt;/xliff:g&gt;» que desanicie esta semeya?}
+        other {¿Quies permitir a «&lt;xliff:g id="app_name" example="Gmail"&gt;^1&lt;/xliff:g&gt;» que desanicie &lt;xliff:g id="count" example="42"&gt;^2/xliff:g&gt; semeyes?}
+    }</string>
 </resources>

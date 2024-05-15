@@ -83,7 +83,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="bluetooth_lock_voice_dialing">Cloi deialu llais</string>
     <string name="bluetooth_lock_voice_dialing_summary">Rhwystro defnydd o\'r deialydd Bluetooth tra bod y sgrin wedi\'i chloi</string>
     <string name="bluetooth_devices">Dyfeisiau Bluetooth</string>
-    <string name="bluetooth_device_name">Enw\'r ddyfais</string>
+    <string name="bluetooth_device_name">Enw\u2019r ddyfais</string>
     <string name="bluetooth_device_details">Gosodiadau\'r ddyfais</string>
     <string name="bluetooth_profile_details">Gosodiadau proffil</string>
     <string name="bluetooth_name_not_set">Dim enw wedi\'i osod; yn defnyddio enw\'r cyfrif</string>
@@ -858,7 +858,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="bluetooth_quick_toggle_summary">Troi Bluetooth ymlaen</string>
     <string name="bluetooth_settings">Bluetooth</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
-    <string name="bluetooth_settings_summary">Rheoli cysylltiadau, gosod enw\'r ddyfais, a\'r dulliau canfod</string>
+    <string name="bluetooth_settings_summary">Rheoli cysylltiadau, gosod enw\u2019r ddyfais, a\u2019r dulliau canfod</string>
     <string name="bluetooth_pairing_request">Paru â <xliff:g id="device_name">%1$s</xliff:g>?</string>
     <string name="bluetooth_pairing_key_msg">Cod paru Bluetooth</string>
     <string name="bluetooth_enter_passkey_msg">Rho\'r cod paru</string>
@@ -900,6 +900,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="bluetooth_connect_failed">Methwyd â chysylltu. Rho gynnig arall arni.</string>
     <string name="device_details_title">Manylion y ddyfais</string>
     <string name="bluetooth_device_mac_address">Cyfeiriad Bluetooth y ddyfais: <xliff:g id="address">%1$s</xliff:g></string>
+    <string name="bluetooth_multuple_devices_mac_address">Cyfeiriad Bluetooth y ddyfais:\n<xliff:g id="address">%1$s</xliff:g></string>
     <string name="bluetooth_unpair_dialog_title">Anghofio\'r ddyfais?</string>
     <string name="remove_association_button">Tynnu cydgysylltiad</string>
     <string name="bluetooth_companion_app_remove_association_dialog_title">Datgysylltu\'r Ap?</string>
@@ -4759,7 +4760,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="condition_expand_show">Dangos</string>
     <string name="condition_expand_hide">Cuddio</string>
     <string name="condition_hotspot_title">Llecyn Wi\u2011Fi ymlaen</string>
-    <string name="condition_airplane_title">Mae\'r modd awyren ymlaen</string>
+    <string name="condition_airplane_title">Mae modd awyren ymlaen</string>
     <string name="condition_airplane_summary">Rhwydweithiau dim ar gael</string>
     <string name="condition_zen_title">Mae Dim Tarfu ymlaen</string>
     <string name="condition_zen_summary_phone_muted">Ffôn yn ddistaw</string>
@@ -5316,7 +5317,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="disabled_dependent_setting_summary">Yn ddibynnol ar osodiad arall</string>
     <string name="unknown_unavailability_setting_summary">Gosodiad ddim ar gael</string>
     <string name="my_device_info_account_preference_title">Cyfrif</string>
-    <string name="my_device_info_device_name_preference_title">Enw\'r ddyfais</string>
+    <string name="my_device_info_device_name_preference_title">Enw\u2019r ddyfais</string>
     <string name="my_device_info_basic_info_category_title">Gwybodaeth sylfaenol</string>
     <string name="my_device_info_legal_category_title">Cyfreithiol a rheoliadol</string>
     <string name="my_device_info_device_details_category_title">Manylion y ddyfais</string>
