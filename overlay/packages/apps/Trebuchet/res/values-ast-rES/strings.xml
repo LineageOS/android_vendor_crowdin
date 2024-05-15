@@ -17,7 +17,18 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="save_app_pair">Guardar la pareya d\'aplicaciones</string>
     <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
+    <string name="widget_category_note_taking">Toma de notes</string>
+    <string name="app_pair_name_format">Pareya d\'aplicaciones: «<xliff:g id="app1" example="Chrome">%1$s</xliff:g>» y «<xliff:g id="app2" example="YouTube">%2$s</xliff:g>»</string>
+    <string name="edit_home_screen">Editar la pantalla d\'aniciu</string>
+    <string name="work_apps_paused_info_body">Nun vas recibir nengún avisu de les aplicaciones llaborales</string>
+    <string name="work_apps_paused_telephony_unavailable_body">Nun vas recibir nenguna llamada de teléfonu, mensaxes de testu nin avisos de les aplicaciones llaborales</string>
+    <string name="work_apps_enable_btn_text">Volver activar</string>
     <string name="private_space_label">Espaciu priváu</string>
+    <string name="ps_container_title">Priváu</string>
     <string name="ps_container_settings">Configuración del espaciu priváu</string>
+    <string name="ps_container_lock_unlock_button">Des/bloquiar l\'espaciu priváu</string>
+    <string name="ps_container_transition">Cambiar al espaciu priváu</string>
+    <string name="bubble_bar_overflow_description">Menú adicional</string>
 </resources>

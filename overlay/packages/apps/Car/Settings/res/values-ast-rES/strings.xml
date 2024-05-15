@@ -15,7 +15,57 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_label">Configuración</string>
+    <string name="mobile_network_active_esim">Serviciu activu/eSIM</string>
+    <string name="mobile_network_inactive_esim">Serviciu inactivu/eSIM</string>
+    <string name="tether_settings_title_all">Puntu Wi\u2011Fi</string>
+    <string name="wifi_hotspot_switch_title">Usar el puntu Wi\u2011Fi</string>
+    <string name="wifi_hotspot_qr_code_text">Escania esti códigu QR pa xunite a «%s»</string>
+    <string name="wifi_hotspot_qr_code_password_text">Contraseña del puntu Wi\u2011Fi: %s</string>
+    <string name="connected_settings_title">Preseos conectaos</string>
+    <string name="bluetooth_bonded_phone_toggle_content_description">Teléfonu</string>
+    <string name="force_stop">Parar l\'aplicación</string>
+    <string name="force_stop_dialog_title">¿Quies parar l\'aplicación?</string>
     <string name="force_stop_success_toast_text">        «<xliff:g id="app_name" example="Radio">%1$s</xliff:g>» paró.
     </string>
+    <string name="app_info_all_services_label">Tolos servicios</string>
+    <string name="location_toggle_summary">        Usa la llocalización del coche con cualesquier aplicación qu\u2019especificares.
+    </string>
+    <string name="adas_location_toggle_popup_summary">        Esta opción nun se pue camudar y el fabricante del coche desactivóla.
+    </string>
+    <string name="adas_location_toggle_title">        Funciones que t\'ayuden a conducir
+    </string>
+    <string name="adas_location_toggle_summary">        Permite que les funciones integraes, y aprobaes pol fabricante del vehículu,
+        accedan a la llocalización del coche.
+    </string>
+    <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Asistencia al conductor \u2022
+        Rique l\'accesu
+    </string>
+    <string name="location_adas_apps_list_title">        Funciones que t\'ayuden a conducir
+    </string>
     <string name="location_driver_assistance_privacy_policy_button_text">Política</string>
+    <string name="location_settings_app_permissions_summary">        Xestiona los permisos de les aplicaciones individualmente
+    </string>
+    <string name="location_access_settings_title">Accesu a la llocalización</string>
+    <string name="location_access_settings_summary">        Escueyi si les aplicaciones puen acceder a la llocalización del coche
+    </string>
+    <string name="location_access_disclaimer_summary">        Ye posible que\'l fabricante del vehículu entá tenga accesu a la llocalización del coche.
+        Pues revisar les sos polítiques pa consiguir más información.
+    </string>
+    <string name="location_adas_app_info_summary">        Estes funciones integraes riquen l\'accesu a la llocalización del coche p\'asistite na
+        conducción.\n\nConoz más tocante a cómo les aplicaciones usen los datos de llocalización
+        revisando la so política de privacidá.
+    </string>
+    <string name="system_update_settings_title">Anovamientos del sistema</string>
+    <string name="restart_infotainment_system_title">Reaniciar el sistema d\'información y entretenimentu</string>
+    <string name="restart_infotainment_system_dialog_text">El reaniciu del sistema d\'información y entretenimientu pue tardar unos minutos. ¿Quies siguir?</string>
+    <string name="reset_network_title">Reafitar el Wi\u2011Fi y el Bluetooth</string>
+    <string name="reset_network_desc">Esta aición va reafitar la configuración del Wi\u2011Fi y el Bluetooth, y va desaniciar l\'historial de:</string>
+    <string name="reset_network_item_wifi"><li>les redes Wi\u2011Fi y les sos contraseñes</li></string>
+    <string name="reset_network_item_bluetooth"><li>los teléfonos y otros preseos Bluetooth a los que te conectares</li></string>
+    <string name="restricted_for_passenger">Solicita al conductor que camude la opción</string>
+    <string name="restricted_for_driver">Nun pues facer esta aición</string>
+    <string name="cannot_remove_driver_profile">Esti perfil tien la sesión aniciada como conductor. Volvi tentalo cuando\'l perfil nun tea nesi mou.</string>
+    <string name="qc_ui_mode_title">Estilu</string>
+    <string name="screen_reader_description_title">Configuración</string>
 </resources>

@@ -86,6 +86,7 @@
     <string name="bluetooth_profile_opp">Trosglwyddo ffeiliau</string>
     <string name="bluetooth_profile_hid">Dyfeisiau mewnbwn</string>
     <string name="bluetooth_profile_pan">Mynediad at y rhyngrwyd</string>
+    <string name="bluetooth_profile_pbap">Caniatáu mynediad at gysylltiadau a hanes galwadau</string>
     <string name="bluetooth_profile_pan_nap">Rhannu cysylltiad i\'r rhyngrwyd</string>
     <string name="bluetooth_profile_map">Negeseuon Testun</string>
     <string name="bluetooth_profile_sap">Mynediad SIM</string>

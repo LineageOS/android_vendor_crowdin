@@ -70,6 +70,7 @@
     <string name="uninstall_application_text_all_users">¿Quies desinstalar esta aplicación pa <b>tolos</b>
         usuarios? L\'aplicación y los sos datos van desaniciase pa <b>tolos</b> usuarios del preséu.</string>
     <string name="uninstall_application_text_user">¿Quies desinstalar esta aplicación pal usuariu «<xliff:g id="username">%1$s</xliff:g>»?</string>
+    <string name="uninstall_application_text_current_user_work_profile">¿Quies desinstalar esta aplicación del perfil llaboral?</string>
     <string name="uninstall_update_text">¿Quies trocar la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos.</string>
     <string name="uninstall_update_text_multiuser">¿Quies trocar la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos. Esto afeuta a tolos usuarios del preséu, incluyíos los que tengan perfiles llaborales.</string>
     <string name="uninstall_keep_data">Caltener <xliff:g id="size" example="1.5MB">%1$s</xliff:g> de datos de l\'aplicación.</string>
@@ -125,7 +126,7 @@
     <string name="cloned_app_label">Clon de: <xliff:g id="package_label">%1$s</xliff:g></string>
     <string name="archiving_app_label">¿Quies archivar «<xliff:g id="package_label">%1$s</xliff:g>»?</string>
     <string name="anonymous_source_continue">Siguir</string>
-    <string name="external_sources_settings">Axustes</string>
+    <string name="external_sources_settings">Configuración</string>
     <string name="wear_app_channel">Des/instalación d\'aplicaciones de Wear</string>
     <string name="app_installed_notification_channel_description">Avisu d\'aplicación instalada</string>
     <string name="notification_installation_success_message">Instalóse correutamente</string>
@@ -158,6 +159,6 @@
     </string>
     <string name="unarchive_action_required_continue">Siguir</string>
     <string name="unarchive_clear_storage_button">Borrar l\'almacenamientu</string>
-    <string name="unarchive_settings_button">Axustes</string>
+    <string name="unarchive_settings_button">Configuración</string>
     <string name="close">Zarrar</string>
 </resources>

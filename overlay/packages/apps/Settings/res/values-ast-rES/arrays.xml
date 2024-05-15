@@ -18,27 +18,16 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="temperature_units">
-        <item>default</item>
-        <item>celsius</item>
-        <item>fahrenhe</item>
+    <string-array name="eap_ocsp_type" translatable="true">
+        <item>Nun verificar</item>
+        <item>Solicitar l\'estáu\'l certificáu</item>
+        <item>Riquir l\'estáu\'l certificáu</item>
     </string-array>
-    <string-array name="first_day_of_week">
-        <item>default</item>
-        <item>sun</item>
-        <item>mon</item>
-        <item>tue</item>
-        <item>wed</item>
-        <item>thu</item>
-        <item>fri</item>
-        <item>sat</item>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>Usar la configuración predeterminada de l\'aplicación</item>
+        <item>Reproducir nel audífonu</item>
+        <item>Reproducir nel altavoz del teléfonu</item>
     </string-array>
-    <string-array name="terms_of_address_unsupported_locales">
-        <item>fr-CA</item>
-        </string-array>
-    <string-array name="terms_of_address_supported_languages">
-        <item>fr</item>
-        </string-array>
     <string-array name="notification_polite_options">
         <item>@string/notification_polite_all_apps</item>
         <item>@string/notification_polite_conversations</item>
