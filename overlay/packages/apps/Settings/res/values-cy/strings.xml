@@ -4056,6 +4056,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="notification_listener_disable_warning_confirm">Troi i ffwrdd</string>
     <string name="notification_listener_disable_warning_cancel">Diddymu</string>
     <string name="notification_listener_type_title">Mathau o hysbysiadau a chaniateir</string>
+    <string name="notif_type_ongoing">Amser real</string>
     <string name="notif_type_conversation">Sgyrsiau</string>
     <string name="notif_type_alerting">Hysbysiadau</string>
     <string name="notif_type_silent">Distaw</string>

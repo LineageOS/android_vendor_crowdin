@@ -18,4 +18,17 @@
     <string name="additional_gsm_call_settings">Configuración adicional</string>
     <string name="additional_gsm_call_settings_with_label">Configuración adicional (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
     <string name="call_settings_with_label">Configuración (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
+    <string name="alert_dialog_exit_ecm"> {count, plural,
+        </string>
+    <string name="alert_dialog_not_avaialble_in_ecm"> {count, plural,
+        </string>
+    <string name="alert_dialog_exit_ecm_without_data_restriction_hint"> {count, plural,
+        </string>
+    <string name="callFailed_too_many_calls">Nun se pue la llamada porque yá hai dos en cursu. Desconecta una d\'elles o mezles nuna conferencia enantes de facer otra llamada.</string>
+    <string name="removable_esim_string">Predeterminar la eSIM estrayible</string>
+    <string name="radio_info_override_network_type_label">Anulación del tipu de rede:</string>
+    <string name="radio_info_endc_available">EN-DC disponible (NSA):</string>
+    <string name="radio_info_dcnr_restricted">DCNR torgada (NSA):</string>
+    <string name="radio_info_nr_available">NR disponible (NSA):</string>
+    <string name="radio_info_nr_state">Estáu de NR (NSA):</string>
 </resources>
