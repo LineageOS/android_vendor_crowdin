@@ -397,6 +397,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="default">Caniatáu i dy blentyn defnyddio ei wyneb i ddatgloi ei ffôn</string>
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="tablet">Caniatáu i dy blentyn defnyddio ei wyneb i ddatgloi ei lechen</string>
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="device">Caniatáu i dy blentyn defnyddio ei wyneb i ddatgloi ei ddyfais</string>
+    <string name="security_settings_face_enroll_introduction_consent_message" product="default">Gall ddefnyddio wyneb dy blentyn i ddatgloi eu ffôn fod yn ddull llai diogel na phatrwm neu PIN cryf.</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled">Defnyddia dy wyneb i ddatgloi dy ffôn neu i awdurdodi taliadau.\n\nNoder: Ni ellir defnyddio dy wyneb i ddatgloi\u2019r ddyfais hon. Am ragor o wybodaeth, cysyllta â gweinyddwr dy sefydliad.</string>
     <string name="security_settings_face_enroll_introduction_message_setup">Defnyddia dy wyneb i ddatgloi dy ffôn, caniatáu taliadau, neu mewngofnodi i apiau.</string>
     <string name="security_settings_face_enroll_repeat_title">Rho dy wyneb yn y cylch</string>
@@ -1696,6 +1697,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
 \n\u2022 Bydd rhai apiau ddim yn gweithio\'n gywir.
 \n\u2022 Cadwa\'r ddyfais wedi\'i gwefru.
     </string>
+    <string name="storage_wizard_ready_external_body">Gallet ddechrau defnyddio dy <xliff:g id="name" example="SD card">^1</xliff:g></string>
     <string name="storage_wizard_move_confirm_title">Symud <xliff:g id="app" example="Calculator">^1</xliff:g></string>
     <string name="storage_wizard_move_confirm_body">Bydd symud <xliff:g id="app" example="Calculator">^1</xliff:g> a\'i ddata i <xliff:g id="name" example="SD card">^2</xliff:g> ond yn cymryd ychydig funudau. Ni fyddi\'n medru defnyddio\'r ap nes bod y trosglwyddo wedi ei gwblhau.\n\nPaid â thynnu <xliff:g id="name" example="SD card">^2</xliff:g> nes bod y trosglwyddo wedi ei gwblhau.</string>
     <string name="storage_wizard_move_unlock">I symud data mae angen datgloi\'r defnyddiwr <xliff:g id="app" example="Joey">^1</xliff:g>.</string>
@@ -1970,6 +1972,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="module_license_title">Trwyddedau diweddariad system Google Play</string>
     <string name="terms_title">Telerau ac amodau</string>
     <string name="webview_license_title">Trwydded system WebView</string>
+    <string name="wallpaper_attributions">Clod papur wal</string>
     <string name="wallpaper_attributions_values">Darparwyr delweddau lleoren:\©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
     <string name="settings_manual_activity_title">Â llaw</string>
     <string name="settings_manual_activity_unavailable">Mae yna broblem wrth lwytho\'r llawlyfr.</string>
@@ -2060,6 +2063,8 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="lockpattern_settings_enable_title">Angen patrwm</string>
     <string name="lockpattern_settings_enable_summary">Rhaid llunio\'r patrwm i ddatgloi\'r sgrin</string>
     <string name="lockpattern_settings_enable_visible_pattern_title">Dangos y patrwm</string>
+    <string name="lockpattern_settings_enhanced_pin_privacy_title">Preifatrwydd PIN uwch</string>
+    <string name="lockpattern_settings_enhanced_pin_privacy_summary">Analluogi animeiddiadau wrth roi\u2019r PIN</string>
     <string name="lockpattern_settings_enable_visible_pattern_title_profile">Gwneud patrwm proffil yn weladwy</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">Dirgrynu wrth dapio</string>
     <string name="lockpattern_settings_enable_power_button_instantly_locks">Botwm pŵer yn cloi ar unwaith</string>
@@ -2368,6 +2373,7 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="accessibility_captioning_footer_learn_more_content_description">Dysgu mwy am ddewisiadau capsiynau</string>
     <string name="accessibility_screen_magnification_title">Chwyddo</string>
     <string name="accessibility_screen_magnification_shortcut_title">Llwybr byr at chwyddiad</string>
+    <string name="accessibility_screen_magnification_follow_typing_title">Chwyddo teipio</string>
     <string name="accessibility_screen_magnification_about_title">Ynghylch chwyddiad</string>
     <string name="accessibility_screen_magnification_footer_learn_more_content_description">Dysgu mwy am chwyddiad</string>
     <string name="accessibility_magnification_mode_title">Math o chwyddiad</string>
@@ -3461,6 +3467,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="apps_with_restrictions_settings_button">Ehangu\'r gosodiadau ar gyfer yr ap</string>
     <string name="nfc_payment_settings_title">Taliadau di-gyffwrdd</string>
     <string name="nfc_more_details">Dysgu mwy</string>
+    <string name="nfc_default_payment_workapp_confirmation_message_2">bydd angen rhoi PIN, patrwm neu gyfrinair dy waith os oes gen ti un.</string>
     <string name="nfc_payment_how_it_works">Sut mae\'n gweithio</string>
     <string name="nfc_payment_no_apps">Tala gyda dy ffôn mewn siopau</string>
     <string name="nfc_payment_default">Ap talu arferol</string>
@@ -3695,6 +3702,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="keywords_hotspot_tethering">tenynnu USB, tenyn USB, rhwymo bluetooth, bluetooth, llecyn, wifi hotspot, llecyn wifi, llecyn wi-fi, wi-fi hotspot</string>
     <string name="keywords_touch_vibration">haptics, habtig, habtigau, dirgrynu, sgrin, dangosydd, sensitifrwydd</string>
     <string name="keywords_ring_vibration">haptics, habtig, habtigau, dirgrynu, ffôn, ffon, galw, galwad, galwadau, sensitifrwydd, canu</string>
+    <string name="keywords_ramping_ringer_vibration">haptig, habtig, haptic, haptics, habtigau, habtigs, haptigs, ffôn, ffon, ffonio, galw, canu, graddol, raddol</string>
     <string name="keywords_battery_saver_sticky">arbedwr batri, sticky, gludog, gludiog, arbed pwer, arbed pŵer, batri</string>
     <string name="keywords_battery_saver_schedule">arfer, amserlen, arbedwr batri, arbedwr pŵer, batri, awtomatig, canran</string>
     <string name="keywords_enhance_4g_lte">volte, galwadau uwch, galwadau 4g, galw 4g</string>
@@ -3774,6 +3782,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="zen_mode_restrict_notifications_mute_footer">Pan fydd hysbysiadau yn cyrraedd, ni fydd dy ffôn yn gwneud sain nac yn dirgrynu.</string>
     <string name="zen_mode_restrict_notifications_hide">Dim sain na dangos hysybysiadau</string>
     <string name="zen_mode_restrict_notifications_hide_summary">Ni fyddi\u2019n gweld na chlywed hysbysiadau</string>
+    <string name="zen_mode_restrict_notifications_hide_footer">Ni fydd dy ffôn yn dangos, dirgrynnu na gwneud sain ar gyfer hysbysiadau newydd na rhai sy\u2019n bodoli. Cofia y bydd hysbysiadau hanfodol i statws a gweithredoedd y ddyfais yn dal i ymddangos.\n\nPan fydd Dim Tarfu yn cael ei droi i ffwrdd, ceir hyd i hysbysiadau wedi eu methu wrth lusgo i lawr o frig y sgrîn.</string>
     <string name="zen_mode_restrict_notifications_custom">Addasedig</string>
     <string name="zen_mode_restrict_notifications_enable_custom">Galluogi gosodiad dy hun</string>
     <string name="zen_mode_restrict_notifications_disable_custom">Tynnu\'r gosodiad addasedig</string>
@@ -4347,6 +4356,19 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="screen_pinning_switch_off_text">I ffwrdd</string>
     <string name="screen_pinning_title">Pinio apiau</string>
     <string name="app_pinning_intro">Mae pinio apiau yn dy ganiatáu i gadw\u2019r ap cyfredol mewn golwg nes dy fod yn ei ddadbinio. Gellir ddefnyddio\u2019r nodwedd hon, er enghraifft, i adael i ffrind rwyt yn ymddiried ynddynt i chwarae gêm benodol.</string>
+    <string name="screen_pinning_description">        Pan fo ap wedi\u2019i binio, mae\u2019n bosib i\u2019r ap wed\u2019i binio agor apiau eraill a chael mynediad at ddata personol.
+        \n\nI ddefnyddio pinio apiau:
+        \t\n1. Troi pinio apiau ymlaen
+        \t\n2. Agor Trosolwg
+        \t\n3. Tapio eicon yr ap ar frig y sgrin, yna tapio Pinio
+    </string>
+    <string name="screen_pinning_guest_user_description">        Pan fo ap wedi\u2019i binio, mae\u2019n bosib i\u2019r ap wed\u2019i binio agor apiau eraill a chael mynediad at ddata personol.
+        \n\nOs wyt eisiau rhannu dy ddyfais yn ddiogel gyda rhywun, ceisia ddefnyddio defnyddiwr gwestai yn lle.
+        \n\nI ddefnyddio pinio apiau:
+        \t\n1. Troi pinio apiau ymlaen
+        \t\n2. Agor Trosolwg
+        \t\n3. Tapio eicon yr ap ar frig y sgrin, yna tapio Pinio
+    </string>
     <string name="screen_pinning_dialog_message">        Pan fo ap wedi\'i binio:
         \n\n\u2022\t\tGall fod data personol yn hygyrch
         \n\t\t(megis cysylltiadau a chynnwys e-bost)
@@ -5175,8 +5197,15 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="do_disclosure_generic">Rheolir y ddyfais hon gan dy sefydliad.</string>
     <string name="do_disclosure_with_name">Rheolir y ddyfais hon gan <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>.</string>
     <string name="learn_more">Dysgu mwy</string>
+    <string name="financed_privacy_intro">Gall dy ddarparwr credyd newid gosodiadau a gosod meddalwedd ar y ddyfais hon.\n\nOs wyt ti\u2019n methu taliad, caiff dy ddyfais ei chloi.\n\nI ddysgu rhagor, cysyllta â dy ddarparwr credyd.</string>
     <string name="financed_privacy_developer_options">Defnyddio dewisiadau datblygwyr</string>
+    <string name="financed_privacy_credit_provider_capabilities_category">Gall dy ddarparwr credyd:</string>
+    <string name="financed_privacy_IMEI">Cael mynediad at dy rif IMEI</string>
     <string name="financed_privacy_factory_reset">Ailosod dy ddyfais i fel yr oedd wrth adael y ffatri</string>
+    <string name="financed_privacy_locked_mode_category">Os yw dy ddyfais wedi\u2019i chloi, gellir ei defnyddio dim ond i:</string>
+    <string name="financed_privacy_allowlisted_apps">Cael mynediad at apiau y caniateir gan y darparwr credyd</string>
+    <string name="financed_privacy_restrictions_removed">Caiff pob rhwystriad ei dynnu o\u2019r ddyfais</string>
+    <string name="financed_privacy_uninstall_creditor_app">Gellir ddadosod ap y credydwr</string>
     <plurals name="default_camera_app_title">
         <item quantity="zero">Apiau camera</item>
         <item quantity="one">Ap camera</item>
@@ -5789,6 +5818,9 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="bluetooth_connect_access_dialog_positive">Cysylltu</string>
     <string name="tare_on">Ymlaen</string>
     <string name="tare_off">I ffwrdd</string>
+    <string name="tare_balances">Gweddillion</string>
+    <string name="tare_initial_consumption_limit">Cyfyngiad Treuliant Dechreuol</string>
+    <string name="tare_actions_ctp">Gweithredoedd (Cost i Gynhyrchu)</string>
     <string-array name="tare_modifiers_subfactors">
         <item>Yn gwefru</item>
         <item>Doze</item>
