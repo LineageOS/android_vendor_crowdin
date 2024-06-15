@@ -46,7 +46,7 @@
     <string name="stylus_default_notes_summary_work"><xliff:g id="app_name" example="Mail">%s</xliff:g> (perfil llaboral)</string>
     <string name="stylus_textfield_handwriting">Escritura nos campos de testu</string>
     <string name="stylus_ignore_button">Inorar los calcos de los botones del llapiceru</string>
-    <string name="stylus_connected_devices_title">Llápiceru</string>
+    <string name="stylus_connected_devices_title">Llapiceru</string>
     <string name="audio_sharing_title">Compartición del audiu</string>
     <string name="audio_sharing_switch_title">Compartir l\'audiu</string>
     <string name="calls_and_alarms_device_title">Llamaes y alarmes</string>
