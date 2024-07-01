@@ -1555,7 +1555,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="device_status_summary" product="tablet">Statws y batri, rhwydwaith a gwybodaeth arall</string>
     <string name="device_status_summary" product="default">Rhif ffôn, signal, ayyb.</string>
     <string name="storage_settings">Storfa</string>
-    <string name="storage_settings_for_app">Storfa a storfa dros dro</string>
+    <string name="storage_settings_for_app">Storfa a chof dros dro</string>
     <string name="storage_usb_settings">Storfa</string>
     <string name="storage_settings_title">Gosodiadau storfa</string>
     <string name="storage_settings_summary" product="nosdcard">Dadfowntio storfa USB, gweld storfa ar gael</string>
@@ -1611,7 +1611,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="memory_dcim_usage">Lluniau, fideos</string>
     <string name="memory_music_usage">Sain (cerddoriaeth, tonau caniad, podlediadau, ayyb)</string>
     <string name="memory_media_misc_usage">Ffeiliau eraill</string>
-    <string name="memory_media_cache_usage">Data wedi\'i guddstorio</string>
+    <string name="memory_media_cache_usage">Data yn y cof dros dro</string>
     <string name="sd_eject" product="nosdcard">Dadfowntio storfa y rhennir</string>
     <string name="sd_eject" product="default">Dadfowntio cerdyn SD</string>
     <string name="sd_eject_summary" product="nosdcard">Dadfowntio\'r storfa USB mewnol</string>
@@ -2113,9 +2113,9 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="auto_launch_label_generic">Rhagosodiadau</string>
     <string name="screen_compatibility_label">Cytunedd sgrin</string>
     <string name="permissions_label">Caniatâd</string>
-    <string name="cache_header_label">Cuddstôr</string>
-    <string name="clear_cache_btn_text">Clirio\'r cuddstôr</string>
-    <string name="cache_size_label">Cuddstôr</string>
+    <string name="cache_header_label">Cof dros dro</string>
+    <string name="clear_cache_btn_text">Clirio\u2019r cof dros dro</string>
+    <string name="cache_size_label">Cof dros dro</string>
     <plurals name="uri_permissions_text">
         <item quantity="zero">%d eitemau</item>
         <item quantity="one">1 eitem</item>
@@ -2153,7 +2153,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="sort_order_recent_notification">Mwyaf diweddar</string>
     <string name="sort_order_frequent_notification">Mwyaf aml</string>
     <string name="show_running_services">Dangos gwasanaethau sy\'n rhedeg</string>
-    <string name="show_background_processes">Dangos prosesau wedi\'u cuddstorio</string>
+    <string name="show_background_processes">Dangos prosesau yn y cof dros dro</string>
     <string name="default_emergency_app">Ap mewn Argyfwng</string>
     <string name="reset_app_preferences">Ailosod dewisiadau apiau</string>
     <string name="reset_app_preferences_title">Ailosod dewisiadau apiau?</string>
@@ -2162,7 +2162,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="filter">Hidlydd</string>
     <string name="filter_dlg_title">Dewis opsiynau hidlydd</string>
     <string name="filter_apps_all">Pob ap</string>
-    <string name="filter_apps_disabled">Apiau wedi\'u analluogi</string>
+    <string name="filter_apps_disabled">Apiau wedi\u2019u analluogi</string>
     <string name="filter_apps_third_party">Wedi eu lawrlwytho</string>
     <string name="filter_apps_running">Yn rhedeg</string>
     <string name="filter_apps_onsdcard" product="nosdcard">Storfa USB</string>
@@ -2211,7 +2211,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="storageuse_settings_title">Defnydd o\'r storfa</string>
     <string name="storageuse_settings_summary">Gweld defnydd apiau o\'r storfa</string>
     <string name="service_restarting">Yn ailgychwyn</string>
-    <string name="cached">Prosesau cefndir wedi\'u cuddstorio</string>
+    <string name="cached">Prosesau cefndir yn y cof dros dro</string>
     <string name="no_running_services">Dim byd yn rhedeg.</string>
     <string name="service_started_by_app">Dechreuwyd gan ap.</string>
     <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
@@ -2235,7 +2235,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="running_processes_header_apps_prefix">Apiau</string>
     <string name="running_processes_header_free_prefix">Rhydd</string>
     <string name="running_processes_header_used_prefix">Defnyddiwyd</string>
-    <string name="running_processes_header_cached_prefix">Cuddstoriwyd</string>
+    <string name="running_processes_header_cached_prefix">Yn y cof dros dro</string>
     <string name="running_processes_header_ram"><xliff:g id="ram">%1$s</xliff:g> o RAM</string>
     <string name="runningservicedetails_settings_title">Ap yn rhedeg</string>
     <string name="no_services">Dim yn weithredol</string>
@@ -2756,6 +2756,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="history_details_title">Manylion hanes</string>
     <string name="advanced_battery_preference_title">Defnydd batri</string>
     <string name="advanced_battery_preference_summary_with_hours">Gweld defnydd y 24 awr ddiwethaf</string>
+    <string name="battery_details_title">Defnydd batri yr ap</string>
     <string name="details_subtitle">Manylion defnydd</string>
     <string name="controls_subtitle">Addasu defnydd pŵer</string>
     <string name="packages_subtitle">Pecynnau wedi\'u cynnwys</string>
@@ -3025,12 +3026,12 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
         <xliff:g id="timeDuration">%2$s</xliff:g></string>
     <string name="process_stats_type_background">Cefndir</string>
     <string name="process_stats_type_foreground">Blaendir</string>
-    <string name="process_stats_type_cached">Cuddstoriwyd</string>
+    <string name="process_stats_type_cached">Yn y cof dros dro</string>
     <string name="process_stats_os_label">Android OS</string>
     <string name="process_stats_os_native">Brodorol</string>
     <string name="process_stats_os_kernel">Cnewyllyn</string>
     <string name="process_stats_os_zram">Z-Ram</string>
-    <string name="process_stats_os_cache">Cuddstorau</string>
+    <string name="process_stats_os_cache">Cof dros dro</string>
     <string name="process_stats_ram_use">Defnydd RAM</string>
     <string name="process_stats_bg_ram_use">Defnydd RAM (cefndir)</string>
     <string name="process_stats_run_time">Amser rhedeg</string>
@@ -3049,7 +3050,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="menu_proc_stats_type">Math o ystadegau</string>
     <string name="menu_proc_stats_type_background">Cefndir</string>
     <string name="menu_proc_stats_type_foreground">Blaendir</string>
-    <string name="menu_proc_stats_type_cached">Cuddstoriwyd</string>
+    <string name="menu_proc_stats_type_cached">Yn y cof dros dro</string>
     <string name="voice_input_output_settings">Mewnbwn ac allbwn llais</string>
     <string name="voice_input_output_settings_title">Gosodiadau mewnbwn ac allbwn llais</string>
     <string name="voice_search_settings_title">Chwilio â llais</string>
@@ -4489,8 +4490,11 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
         <item quantity="many"><xliff:g id="count" example="1">%d</xliff:g> ap heb eu defnyddio</item>
         <item quantity="other"><xliff:g id="count" example="1">%d</xliff:g> ap heb eu defnyddio</item>
     </plurals>
+    <string name="unused_apps_category">Gosodiadau ap heb eu defnyddio</string>
+    <string name="unused_apps_switch">Seibio gweithgaredd yr ap os heb ei ddefnyddio</string>
+    <string name="unused_apps_switch_summary">Tynnu caniatâd, dileu ffeiliau dros dro, a stopio hysbysiadau</string>
     <string name="filter_all_apps">Pob ap</string>
-    <string name="filter_enabled_apps">Apiau wedi eu gosod</string>
+    <string name="filter_enabled_apps">Apiau wedi\u2019u gosod</string>
     <string name="filter_instant_apps">Apiau ar unwaith</string>
     <string name="filter_notif_all_apps">Apiau: Pob un</string>
     <string name="filter_notif_blocked_apps">Wedi\'u troi i ffwrdd</string>
@@ -5117,7 +5121,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="web_action_enable_summary">Agor dolenni mewn apiau, hyd yn oed os nad ydynt wedi\'u gosod</string>
     <string name="web_action_section_title">Apiau ar unwaith</string>
     <string name="instant_apps_settings">Dewisiadau Apiau ar Unwaith</string>
-    <string name="domain_url_section_title">Apiau wedi eu gosod</string>
+    <string name="domain_url_section_title">Apiau wedi\u2019u gosod</string>
     <string name="automatic_storage_manager_activation_warning">Mae dy storfa bellach yn cael ei reoli gan y rheolydd storfa</string>
     <string name="account_for_section_header">Cyfrifon ar gyfer <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
     <string name="configure_section_header">Ffurfweddu</string>
@@ -5683,7 +5687,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="no_5g_in_dsds_text" product="default">Tra\'n defnyddio dau SIM, bydd y ffôn hwn wedi\'i gyfyngu i 4G. <annotation id="url">Dysgu rhagor</annotation></string>
     <string name="no_5g_in_dsds_text" product="tablet">Tra\'n defnyddio dau SIM, bydd y llechen hon wedi\'i gyfyngu i 4G. <annotation id="url">Dysgu rhagor</annotation></string>
     <string name="no_5g_in_dsds_text" product="device">Tra\'n defnyddio dau SIM, bydd y ddyfais hon wedi\'i gyfyngu i 4G. <annotation id="url">Dysgu rhagor</annotation></string>
-    <string name="cached_apps_freezer">Atal dros dro gweithrediadau apiau\'r cuddstôr</string>
+    <string name="cached_apps_freezer">Atal dros dro gweithrediadau apiau yn y cof dros dro</string>
     <string name="overlay_settings_title">Caniatáu troshaenau sgrin ar Gosodiadau</string>
     <string name="overlay_settings_summary">Caniatáu i apiau sy\'n gallu ymddangos dros apiau eraill i droslunio sgriniau Gosodiadau</string>
     <string name="media_controls_title">Cyfryngau</string>

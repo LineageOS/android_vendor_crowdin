@@ -211,9 +211,9 @@
     <string name="printing_disabled_by">«<xliff:g id="owner_app">%s</xliff:g>» desactivó la imprentación.</string>
     <string name="personal_apps_suspension_title">Activa\'l perfil llaboral</string>
     <string name="personal_apps_suspension_text">        Les aplicaciones personales tán bloquiaes hasta qu\'actives el perfil llaboral</string>
-    <string name="personal_apps_suspension_soon_text">        Les aplicaciones van bloquiase\'l <xliff:g id="date" example="May 29">%1$s</xliff:g> a la
-        hora: <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. L\'alministrador de TI nun permite
-        que\'l perfill llaboral quede desactiváu más de
+    <string name="personal_apps_suspension_soon_text">        Les aplicaciones personales van bloquiase\'l <xliff:g id="date" example="May 29">%1$s
+        </xliff:g> a la hora: <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. L\'alministrador de
+        TI nun permite que\'l perfill llaboral quede desactiváu más de
         <xliff:g id="number" example="3">%3$d</xliff:g> díes.
     </string>
     <string name="personal_apps_suspended_turn_profile_on">Activar</string>
@@ -411,7 +411,7 @@
         del preséu cuando se reciba un espardimientu móvil d\'emerxencia.</string>
     <string name="permlab_manageOngoingCalls">xestión de llamaes en cursu</string>
     <string name="permdesc_manageOngoingCalls">Permite qu\'una aplicación vea los detalles de les
-         llamaes en cursu del preséu ya que controle
+         llamaes en cursu del preséu y que controle
          eses llamaes.</string>
     <string name="permlab_readCellBroadcasts">llectura de los mensaxes d\'espardimientu móvil</string>
     <string name="permdesc_readCellBroadcasts">Permite que l\'aplicación llea
@@ -693,7 +693,7 @@
       configuración del Bluetooth del teléfonu y faiga y acepte
       conexones colos preseos empareyaos.</string>
     <string name="permlab_bluetooth_scan">descubrimientu de preseos Bluetooth cercanos y empareyamientu con ellos</string>
-    <string name="permdesc_bluetooth_scan" product="default">Permite que l\'aplicación descubra ya s\'empareye con preseos Bluetooth cercanos</string>
+    <string name="permdesc_bluetooth_scan" product="default">Permite que l\'aplicación descubra y s\'empareye con preseos Bluetooth cercanos</string>
     <string name="permlab_bluetooth_connect">conexón con preseos Bluetooth empareyaos</string>
     <string name="permdesc_bluetooth_connect" product="default">Permite que l\'aplicación se conecte a los preseos Bluetooth empareyaos</string>
     <string name="permlab_bluetooth_advertise">avisos a preseos Bluetooth cercanos</string>
@@ -2217,8 +2217,8 @@
     <string name="package_updated_device_owner">L\'alministrador anovó l\'aplicación</string>
     <string name="package_deleted_device_owner">L\'alministrador desanició l\'aplicación</string>
     <string name="confirm_battery_saver">OK</string>
-    <string name="battery_saver_description_with_learn_more">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones ya dalgunes conexones a la rede.</string>
-    <string name="battery_saver_description">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones ya dalgunes conexones a la rede.</string>
+    <string name="battery_saver_description_with_learn_more">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones y dalgunes conexones a la rede.</string>
+    <string name="battery_saver_description">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones y dalgunes conexones a la rede.</string>
     <string name="data_saver_description">P\'ayudar a amenorgar l\'usu de datos, «Aforrador de datos» evita que les aplicaciones unvien y reciban datos en segundu planu. L\'aplicación que teas usando pue acceder a los datos, mas quiciabes lo faiga con menos frecuencia. Esto quier dicir, por exemplu, que les imáxenes nun van amosase hasta que calques nelles.</string>
     <string name="data_saver_enable_title">¿Quies activar «Aforrador de datos»?</string>
     <string name="data_saver_enable_button">Activar</string>
@@ -2557,7 +2557,7 @@
     <string name="resolver_turn_on_work_apps">El perfil llaboral ta en posa</string>
     <string name="resolver_switch_on_work">Toca p\'activar</string>
     <string name="resolver_no_work_apps_available">Nun hai nenguna aplicación llaboral</string>
-    <string name="resolver_no_personal_apps_available">No personal apps</string>
+    <string name="resolver_no_personal_apps_available">Nun hai nenguna aplicación personal</string>
     <string name="miniresolver_open_in_personal">¿Quies abrir «<xliff:g id="app" example="YouTube">%s</xliff:g>» nel perfil personal?</string>
     <string name="miniresolver_open_in_work">¿Quies abrir «<xliff:g id="app" example="YouTube">%s</xliff:g>» nel perfil llaboral?</string>
     <string name="miniresolver_use_personal_browser">Usar el restolador personal</string>
@@ -2676,7 +2676,7 @@
     <string name="dismiss_action">Escartar</string>
     <string name="sensor_privacy_start_use_mic_notification_content_title">Desbloquia\'l micrófonu de la cámara</string>
     <string name="sensor_privacy_start_use_camera_notification_content_title">Desbloquia la cámara del preséu</string>
-    <string name="sensor_privacy_start_use_notification_content_text">Pa &lt;b&gt;<xliff:g id="app" example="Gmail">%s</xliff:g>&lt;/b&gt; ya pa toles aplicaciones ya tolos servicios</string>
+    <string name="sensor_privacy_start_use_notification_content_text">Pa &lt;b&gt;<xliff:g id="app" example="Gmail">%s</xliff:g>&lt;/b&gt; y pa toles aplicaciones y tolos servicios</string>
     <string name="sensor_privacy_start_use_dialog_turn_on_button">Desbloquiar</string>
     <string name="sensor_privacy_notification_channel_label">Privacidá de los sensores</string>
     <string name="splash_screen_view_icon_description">Iconu de l\'aplicación</string>

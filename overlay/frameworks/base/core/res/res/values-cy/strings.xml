@@ -428,7 +428,7 @@ ar y gweill ar dy ddyfais ac i reoli\'r galwadau hyn.</string>
     <string name="permlab_foregroundService">dim gwasanaeth blaendir</string>
     <string name="permdesc_foregroundService">Mae\'n caniatáu yr ap i wneud defnydd o wasanaethau blaendir.</string>
     <string name="permlab_getPackageSize">mesur storfa\'r ap</string>
-    <string name="permdesc_getPackageSize">Mae\'n caniatáu yr ap i adfer ei god, data a meintiau cof dros dro.</string>
+    <string name="permdesc_getPackageSize">Mae\u2019n caniatáu yr ap i adfer ei god, data a meintiau cof dros dro.</string>
     <string name="permlab_writeSettings">addasu gosodiadau\'r system</string>
     <string name="permdesc_writeSettings">Mae\'n caniatáu yr ap i addasu gosodiadau data\'r system. Gall apiau maleisus llygru ffurfweddiad y system.</string>
     <string name="permlab_receiveBootCompleted">rhedeg wrth gychwyn</string>
