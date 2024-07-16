@@ -17,5 +17,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_label">Configuración</string>
     <string name="system_update_settings_title">Anovamientos del sistema</string>
+    <string name="show_dev_countdown">        {count, plural,
+            =1    {Tas a # calcu d\'activar la configuración pa desendolcadores.}
+            other {Tas a # calcos d\'activar la configuración pa desendolcadores.}
+        }
+    </string>
     <string name="screen_reader_description_title">Configuración</string>
 </resources>

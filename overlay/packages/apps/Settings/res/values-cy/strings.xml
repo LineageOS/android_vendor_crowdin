@@ -1433,7 +1433,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="night_display_summary_on_auto_mode_custom">Bydd yn troi i ffwrdd yn awtomatig am <xliff:g name="time" example="10 PM">%1$s</xliff:g>.</string>
     <string name="night_display_summary_on_auto_mode_twilight">Bydd yn troi ymlaen yn awtomatig gyda\'r wawr</string>
     <string name="night_display_activation_on_manual">Troi ymlaen nawr</string>
-    <string name="night_display_activation_off_manual">Troi i ffwrdd nawr</string>
+    <string name="night_display_activation_off_manual">Diffodd nawr</string>
     <string name="night_display_activation_on_twilight">Troi ymlaen nes iddi fachlud</string>
     <string name="night_display_activation_off_twilight">Troi i ffwrdd nes iddi wawrio</string>
     <string name="night_display_activation_on_custom">Troi ymlaen nes <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
@@ -1442,7 +1442,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="twilight_mode_location_off_dialog_message">Mae angen lleoliad dyfais i bennu amseroedd eich machlud a chodiad haul.</string>
     <string name="twilight_mode_launch_location">Gosodiadau lleoliad</string>
     <string name="dark_ui_activation_on_manual">Troi ymlaen nawr</string>
-    <string name="dark_ui_activation_off_manual">Troi i ffwrdd nawr</string>
+    <string name="dark_ui_activation_off_manual">Diffodd nawr</string>
     <string name="dark_ui_activation_on_auto">Troi ymlaen nes iddi fachlud</string>
     <string name="dark_ui_activation_off_auto">Troi i ffwrdd nes iddi wawrio</string>
     <string name="dark_ui_title">Modd Tywyll</string>
@@ -3812,7 +3812,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="zen_mode_add">Ychwanegu</string>
     <string name="zen_mode_enable_dialog_turn_on">Troi ymlaen</string>
     <string name="zen_mode_button_turn_on">Troi ymlaen nawr</string>
-    <string name="zen_mode_button_turn_off">Troi i ffwrdd nawr</string>
+    <string name="zen_mode_button_turn_off">Diffodd nawr</string>
     <string name="zen_mode_settings_dnd_manual_end_time">Mae Dim Tarfu ymlaen nes <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g></string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Bydd Dim Tarfu yn aros ymlaen nes dy fod yn ei droi i ffwrdd</string>
     <string name="zen_mode_settings_dnd_automatic_rule">Cafodd Dim Tarfu ei droi ymlaen yn awtomatig gan amserlen (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>
@@ -4927,7 +4927,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="battery_saver_off_scheduled_summary">Bydd yn troi ymlaen ar <xliff:g id="battery_percentage" example="15%">%1$s</xliff:g></string>
     <string name="battery_saver_off_summary">I ffwrdd</string>
     <string name="battery_saver_button_turn_on">Troi ymlaen nawr</string>
-    <string name="battery_saver_button_turn_off">Troi i ffwrdd nawr</string>
+    <string name="battery_saver_button_turn_off">Diffodd nawr</string>
     <string name="not_battery_optimizing">Dim yn defnyddio optimeiddiad batri</string>
     <string name="filter_battery_unrestricted_title">Dim cyfyngu</string>
     <string name="filter_battery_optimized_title">Defnydd optimaidd</string>
@@ -5778,7 +5778,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="wireless_debugging_main_switch_title">Defnyddio dadfygio di\u2011wifr</string>
     <string name="graphics_driver_main_switch_title">Defnyddio dewisiadau gyrrwr graffig</string>
     <string name="battery_saver_main_switch_title">Defnyddio arbedwr batri</string>
-    <string name="do_not_disturb_main_switch_title_on">Troi i ffwrdd nawr</string>
+    <string name="do_not_disturb_main_switch_title_on">Diffodd nawr</string>
     <string name="do_not_disturb_main_switch_title_off">Troi ymlaen nawr</string>
     <string name="night_light_main_switch_title">Defnyddio Golau Nos</string>
     <string name="nfc_main_switch_title">Defnyddio NFC</string>
