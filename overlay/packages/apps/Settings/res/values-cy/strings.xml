@@ -833,7 +833,7 @@
     <string name="twilight_mode_location_off_dialog_message">Mae angen lleoliad dyfais i bennu amseroedd eich machlud a chodiad haul.</string>
     <string name="twilight_mode_launch_location">Gosodiadau lleoliad</string>
     <string name="dark_ui_activation_on_manual">Troi ymlaen nawr</string>
-    <string name="dark_ui_activation_off_manual">Troi i ffwrdd nawr</string>
+    <string name="dark_ui_activation_off_manual">Diffodd nawr</string>
     <string name="dark_ui_activation_on_auto">Troi ymlaen nes iddi fachlud</string>
     <string name="dark_ui_activation_off_auto">Troi i ffwrdd nes iddi wawrio</string>
     <string name="dark_ui_title">Modd Tywyll</string>
@@ -2501,7 +2501,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="zen_mode_add">Ychwanegu</string>
     <string name="zen_mode_enable_dialog_turn_on">Troi ymlaen</string>
     <string name="zen_mode_button_turn_on">Troi ymlaen nawr</string>
-    <string name="zen_mode_button_turn_off">Troi i ffwrdd nawr</string>
+    <string name="zen_mode_button_turn_off">Diffodd nawr</string>
     <string name="zen_mode_settings_dnd_manual_end_time">Mae Dim Tarfu ymlaen nes <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g></string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Bydd Dim Tarfu yn aros ymlaen nes dy fod yn ei droi i ffwrdd</string>
     <string name="zen_mode_settings_dnd_automatic_rule">Cafodd Dim Tarfu ei droi ymlaen yn awtomatig gan amserlen (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>

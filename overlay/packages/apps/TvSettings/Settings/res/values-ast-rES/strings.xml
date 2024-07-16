@@ -61,6 +61,11 @@
     <string name="resolution_display_mode">        <xliff:g id="resolution" example="1080p, 4k etc">%1$s</xliff:g>
         (<xliff:g id="refresh-rate" example="60, 59.94 etc">%2$s</xliff:g> Hz)</string>
     <string name="hdr_capability">- %1$s</string>
+    <string name="show_dev_countdown"> {count, plural,
+        =1    {Tas a # calcu d\'activar la configuración pa desendolcadores.}
+        other {Tas a # calcos d\'activar la configuración pa desendolcadores.}
+        }
+    </string>
     <string name="mic_remote_toggle_title">Accesu al micrófonu del mandu</string>
     <string name="accessibility_screen_readers_category_title">Llectores de pantalla</string>
     <string name="accessibility_interaction_controls_category_title">Controles d\'interación</string>
