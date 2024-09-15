@@ -2799,6 +2799,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="history_details_title">Manylion hanes</string>
     <string name="advanced_battery_preference_title">Defnydd batri</string>
     <string name="advanced_battery_preference_summary_with_hours">Gweld defnydd y 24 awr ddiwethaf</string>
+    <string name="advanced_battery_preference_summary">Gweld defnydd ers gwefru\u2019n llawn diwethaf</string>
     <string name="battery_details_title">Defnydd batri\u2019r ap</string>
     <string name="details_subtitle">Manylion defnydd</string>
     <string name="controls_subtitle">Addasu defnydd pŵer</string>
@@ -3056,7 +3057,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="battery_saver_turn_on_automatically_pct">pan fo <xliff:g id="percent">%1$s</xliff:g> o fatri</string>
     <string name="battery_percentage">Canran batri</string>
     <string name="battery_percentage_description">Dangos canran batri yn y bar statws</string>
-    <string name="battery_usage_chart_graph_hint_last_full_charge">Lefel batri ers gwefru\n2019n llawn diwethaf</string>
+    <string name="battery_usage_chart_graph_hint_last_full_charge">Lefel batri ers gwefru\u2019n llawn diwethaf</string>
     <string name="battery_usage_chart_graph_hint">Lefel batri y 24 awr ddiwethaf</string>
     <string name="battery_app_usage">Defnydd apiau ers gwefru\u2019n llawn diwethaf</string>
     <string name="battery_app_usage_for_past_24">Defnydd yr ap dros y 24 awr ddiwethaf</string>

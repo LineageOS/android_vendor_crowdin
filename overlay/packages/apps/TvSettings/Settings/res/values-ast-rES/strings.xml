@@ -23,5 +23,6 @@
         other {Tas a # calcos d\'activar la configuración pa desendolcadores.}
         }
     </string>
+    <string name="system_desc_verify_apps_over_usb">Comprueba les aplicaciones instalaes per ADB/ADT pa detectar comportamientos dañibles</string>
     <string name="restricted_profile_configure_title">Configuración</string>
 </resources>

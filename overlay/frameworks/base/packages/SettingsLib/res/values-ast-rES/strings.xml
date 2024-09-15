@@ -194,7 +194,7 @@
         <item>Hiperrápida</item>
         <item>La más rápida</item>
     </string-array>
-    <string name="choose_profile">Escoyeta d\'un perfil</string>
+    <string name="choose_profile">Seleición d\'un perfil</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Llaboral</string>
     <string name="development_settings_title">Opciones pa desendolcadores</string>
@@ -237,7 +237,7 @@
     <string name="keywords_adb_wireless">adb, depuración, depurar, desendolcar, desendolcu</string>
     <string name="bugreport_in_power">Atayu «Informe de fallos»</string>
     <string name="bugreport_in_power_summary">Amuesa un botón nel menú d\'apagáu pa crear un informe de fallos</string>
-    <string name="keep_screen_on">Pantalla encesa siempres</string>
+    <string name="keep_screen_on">Pantalla encesa siempre</string>
     <string name="keep_screen_on_summary">La pantalla nun duerme enxamás mentanto\'l preséu ta cargando</string>
     <string name="bt_hci_snoop_log">Activar el rexistru de busca HCI Bluetooth</string>
     <string name="bt_hci_snoop_log_summary">Captura los paquetes de Bluetooth (alterna\'l Bluetooth dempués de camudar esta opción).</string>
@@ -252,7 +252,7 @@
     <string name="wifi_display_certification">Certificación de visualización ensin filos</string>
     <string name="wifi_verbose_logging">Activar el rexistru detalláu de la Wi\u2011Fi</string>
     <string name="wifi_scan_throttling">Llende de la busca de redes Wi\u2011Fi</string>
-    <string name="mobile_data_always_on">Datos móviles activaos siempres</string>
+    <string name="mobile_data_always_on">Datos móviles activaos siempre</string>
     <string name="tethering_hardware_offload">Aceleración per hardware pal tethering</string>
     <string name="bluetooth_show_devices_without_names">Amosar los preseos Bluetooth ensin el nome</string>
     <string name="bluetooth_disable_absolute_volume">Desactivar el volume absolutu</string>
@@ -298,17 +298,17 @@
     <string name="allow_mock_location">Permitir la llocalización ficticia</string>
     <string name="allow_mock_location_summary">Permite la llocalización ficticia</string>
     <string name="debug_view_attributes">Inspeición d\'atributos de visualización</string>
-    <string name="mobile_data_always_on_summary">Caltién los datos móviles siempres activos, magar que la Wi\u2011Fi tea activada (pa cambiar rápido de rede).</string>
+    <string name="mobile_data_always_on_summary">Caltién los datos móviles siempre activos, magar que la Wi\u2011Fi tea activada (pa cambiar rápido de rede).</string>
     <string name="tethering_hardware_offload_summary">Si ta disponible, usa l\'aceleración per hardware pal tethering</string>
     <string name="adb_warning_title">¿Quies permitir la depuración per USB?</string>
     <string name="adb_warning_message">La depuración per USB ta diseñada namás p\'actividaes de desendolcu. Úsala pa copiar datos ente un ordenador y esti preséu, pa instalar aplicaciones nel preséu ensin avisar y pa lleer los datos del rexistru.</string>
     <string name="adbwifi_warning_title">¿Quies permitir la depuración ensin filos?</string>
     <string name="adbwifi_warning_message">La depuración ensin filos ta diseñada namás p\'actividaes de desendolcu. Úsala pa copiar datos ente un ordenador y esti preséu, pa instalar aplicaciones nel preséu ensin avisar y pa lleer los datos del rexistru.</string>
     <string name="adb_keys_warning_message">¿Quies revocar l\'accesu a la depuración per USB de tolos ordenadores qu\'autoricesti anteriormente?</string>
-    <string name="dev_settings_warning_title">¿Quies permitir la configuración de desendolcu?</string>
+    <string name="dev_settings_warning_title">¿Quies permitir la configuración pa desendolcadores?</string>
     <string name="dev_settings_warning_message">Estes opciones tán diseñaes namás pa programar.  Puen causar que\'l preséu y les aplicaciones que contenga s\'estropien o funcionen mal.</string>
     <string name="verify_apps_over_usb_title">Verificar aplicaciones per USB</string>
-    <string name="verify_apps_over_usb_summary">Comprueba les aplicaciones instalaes per ADB/ADT pa detectar comportamientos peligrosos.</string>
+    <string name="verify_apps_over_usb_summary">Comprueba les aplicaciones instalaes per ADB/ADT pa detectar comportamientos dañibles.</string>
     <string name="bluetooth_show_devices_without_names_summary">Los preseos Bluetooth van apaecer ensin el nome (namás la direición MAC)</string>
     <string name="bluetooth_disable_absolute_volume_summary">Desactiva la función del volume absolutu del Bluetooth nel casu d\'haber problemes colos preseos remotos, como un volume peraltu o una falta de control.</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Activa la pila de funciones de Bluetooth «Gabeldorsche».</string>
@@ -347,7 +347,7 @@
     <string name="show_hw_layers_updates_summary">Relluma en verde les capes del hardware cuando s\'anueven</string>
     <string name="debug_hw_overdraw">Depurar superposiciones de GPU</string>
     <string name="disable_overlays">Desact. superposiciones del HW</string>
-    <string name="disable_overlays_summary">Usa siempres la GPU pa la composición de pantalla</string>
+    <string name="disable_overlays_summary">Usa siempre la GPU pa la composición de pantalla</string>
     <string name="simulate_color_space">Simular l\'espaciu de color</string>
     <string name="enable_opengl_traces_title">Activar el siguimientu d\'OpenGL</string>
     <string name="usb_audio_disable_routing">Desact. l\'encam. del audiu USB</string>
@@ -504,7 +504,7 @@
     <string name="alarm_template">Hora: <xliff:g id="when" example="7:00 AM">%1$s</xliff:g></string>
     <string name="alarm_template_far">Día: <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
     <string name="zen_mode_duration_settings_title">Duración</string>
-    <string name="zen_mode_duration_always_prompt_title">Entrugar siempres</string>
+    <string name="zen_mode_duration_always_prompt_title">Entrugar siempre</string>
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
     <string name="time_unit_just_now">Puramente agora</string>
     <string name="media_transfer_this_device_name" product="default">Esti teléfonu</string>

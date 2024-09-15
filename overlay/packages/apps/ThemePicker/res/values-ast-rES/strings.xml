@@ -57,7 +57,7 @@
     <string name="keyguard_quick_affordance_none_selected">Nada</string>
     <string name="notifications_section_title">Avisos</string>
     <string name="show_notifications_on_lock_screen">Amosar los avisos na pantalla de bloquéu</string>
-    <string name="hide_notifications_on_lock_screen">Anubrir los avisos na pantalla de bloquéu</string>
+    <string name="hide_notifications_on_lock_screen">Esconder los avisos na pantalla de bloquéu</string>
     <string name="more_settings_section_title">Más opciones</string>
     <string name="more_settings_section_description">Testu na pantalla de bloquéu, «En reproducción» y más</string>
     <string name="more_colors">Más colores</string>

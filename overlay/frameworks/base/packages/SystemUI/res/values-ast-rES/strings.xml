@@ -41,11 +41,11 @@
     <string name="usb_accessory_uri_prompt">Nun hai aplicaciones instalaes que funcionen con esti accesoriu USB. Más información: <xliff:g id="URL">%1$s</xliff:g></string>
     <string name="title_usb_accessory">Accesoriu USB</string>
     <string name="label_view">Ver</string>
-    <string name="always_use_device">Abrir siempres «<xliff:g id="application">%1$s</xliff:g>» cuando se conecte «<xliff:g id="usb_device">%2$s</xliff:g>»</string>
-    <string name="always_use_accessory">Abrir siempres «<xliff:g id="application">%1$s</xliff:g>» cuando se conecte «<xliff:g id="usb_accessory">%2$s</xliff:g>»</string>
+    <string name="always_use_device">Abrir siempre «<xliff:g id="application">%1$s</xliff:g>» cuando se conecte «<xliff:g id="usb_device">%2$s</xliff:g>»</string>
+    <string name="always_use_accessory">Abrir siempre «<xliff:g id="application">%1$s</xliff:g>» cuando se conecte «<xliff:g id="usb_accessory">%2$s</xliff:g>»</string>
     <string name="usb_debugging_title">¿Quies permitir la depuración per USB?</string>
     <string name="usb_debugging_message">La buelga de la clave RSA del ordenador ye: \n<xliff:g id="fingerprint">%1$s</xliff:g></string>
-    <string name="usb_debugging_always">Permitir siempres dende esti ordenador</string>
+    <string name="usb_debugging_always">Permitir siempre dende esti ordenador</string>
     <string name="usb_debugging_allow">Permitir</string>
     <string name="usb_debugging_secondary_user_title">Depuración per USB non permitida</string>
     <string name="usb_debugging_secondary_user_message">L\'usuariu que tien la sesión aniciada nel preséu nun pue activar la depuración per USB. Pa usar esta función, cambia al usuariu principal.</string>
@@ -55,7 +55,7 @@
     <string name="hdmi_cec_set_menu_language_decline">Caltener l\'actual</string>
     <string name="wifi_debugging_title">¿Quies permitir la depuración ensin filos nesta rede?</string>
     <string name="wifi_debugging_message">Nome de la rede (SSID)\n<xliff:g id="ssid" example="My wifi">%1$s</xliff:g>\n\nDireición Wi\u2011Fi (BSSID)\n<xliff:g id="bssid" example="AB:CD:EF:12:34:56">%2$s</xliff:g></string>
-    <string name="wifi_debugging_always">Permitir siempres nesta rede</string>
+    <string name="wifi_debugging_always">Permitir siempre nesta rede</string>
     <string name="wifi_debugging_allow">Permitir</string>
     <string name="wifi_debugging_secondary_user_title">Nun se permite la depuración ensin filos</string>
     <string name="wifi_debugging_secondary_user_message">L\u2019usuariu que tien la sesión aniciada nel preséu nun pue activar la depuración ensin filos. Pa usar esta función, cambia al usuariu principal.</string>
@@ -489,10 +489,10 @@ prioridá</string>
         \n\n<b>Nivel 5</b>
         \n- Los avisos apaecen no cimero de la llista d\'avisos
         \n- Los avisos puen interrumpir la pantalla completa
-        \n- Los avisos previsualícense siempres
+        \n- Los avisos previsualícense siempre
         \n\n<b>Nivel 4</b>
         \n- Los avisos nun puen interrumpir la pantalla completa
-        \n- Los avisos previsualícense siempres
+        \n- Los avisos previsualícense siempre
         \n\n<b>Nivel 3</b>
         \n- Los avisos nun puen interrumpir la pantalla completa
         \n- Los avisos enxamás se previsualicen
@@ -639,7 +639,7 @@ prioridá</string>
         <item>Nun amosar esti iconu</item>
     </string-array>
     <string-array name="battery_options">
-        <item>Amosar siempres el porcentaxe</item>
+        <item>Amosar siempre el porcentaxe</item>
         <item>Amosar el porcentaxe al cargar (por defeutu)</item>
         <item>Nun amosar esti iconu</item>
     </string-array>
@@ -794,8 +794,7 @@ prioridá</string>
     <string name="controls_structure_tooltip">Esliza pa ver más</string>
     <string name="controls_seeding_in_progress">Cargando les recomendaciones</string>
     <string name="controls_media_title">Multimedia</string>
-    <string name="controls_media_close_session">¿Anubrir el control multimedia de l\'aplic. «<xliff:g id="app_name" example="YouTube Music">%1$s</xliff:g>»?</string>
-    <string name="controls_media_dismiss_button">Anubrir</string>
+    <string name="controls_media_dismiss_button">Esconder</string>
     <string name="controls_media_resume">Siguir</string>
     <string name="controls_media_settings_button">Configuración</string>
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> de <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
