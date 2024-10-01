@@ -14,8 +14,23 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="back">Atrás</string>
     <string name="available">Disponible</string>
     <string name="blocked">Bloquióse</string>
+    <string name="uninstall_or_disable">Desinstalar o desactivar</string>
+    <string name="app_not_found_dlg_title">Nun s\'atopó l\'aplicación</string>
+    <string name="grant_dialog_button_deny">Nun permitir</string>
+    <string name="grant_dialog_button_more_info">Más información</string>
+    <string name="grant_dialog_button_dismiss">Escartar</string>
+    <string name="grant_dialog_button_allow">Permitir</string>
+    <string name="grant_dialog_button_allow_foreground">Mentanto s\'usa l\'aplicación</string>
+    <string name="grant_dialog_button_allow_one_time">Namás esta vegada</string>
+    <string name="grant_dialog_button_allow_all_files">Permitir la xestión de tolos ficheros</string>
+    <string name="grant_dialog_button_allow_media_only">Permitir l\'accesu al conteníu multimedia</string>
+    <string name="app_permissions_breadcrumb">Aplicaciones</string>
+    <string name="review_permission_decisions">Decisiones tomaes apocayá</string>
+    <string name="review_permission_decisions_view_all">Ver toles decisiones tomaes apocayá tocante a los permisos</string>
+    <string name="review_permission_decisions_empty">Nun se tomó nenguna decisión recién tocante a los permisos</string>
     <string name="auto_permission_manager_summary">Xestiona l\'accesu a los datos del calendariu, de los rexistros de llamaes y más</string>
     <string name="granted_permission_decision">Concediesti a «<xliff:g id="app_name" example="Google Maps">%1$s</xliff:g>» l\'accesu a «<xliff:g id="permission_name" example="contacts">%2$s</xliff:g>»</string>
     <string name="denied_permission_decision">Neguesti a «<xliff:g id="app_name" example="Google Maps">%1$s</xliff:g>» l\'accesu a «<xliff:g id="permission_name" example="contacts">%2$s</xliff:g>»</string>
@@ -34,6 +49,8 @@
     <string name="menu_show_24_hours_data">Amosar les últimes 24 hores</string>
     <string name="deny_read_media_visual_warning">Esta aplicación diseñóse pa una versión antigua d\'Android. Si-y niegues l\'accesu a les semeyes y los vídeos, tamién vas nega-y l\'accesu a la música y otros ficheros d\'audiu.</string>
     <string name="deny_read_media_aural_warning">Esta aplicación diseñóse pa una versión antigua d\'Android. Si-y niegues l\'accesu a la música y otros ficheros d\'audiu, tamién vas nega-y l\'accesu a les semeyes y los vídeos.</string>
+    <string name="loading">Cargando\u2026</string>
+    <string name="wear_not_allowed_dlg_title">Android Wear</string>
     <string name="auto_permission_usage_summary">Ver qué aplicaciones usaron los permisos apocayá</string>
     <string name="permission_group_usage_subtitle_7d">Cronoloxía de cuándo usaron les aplicaciones el permisu «<xliff:g id="permgroup" example="Location">%1$s</xliff:g>» nos últimos 7 díes</string>
     <string name="manage_permission_summary">Controla l\'accesu de les aplicaciones a «<xliff:g id="permgroup" example="Location">%1$s</xliff:g>»</string>
@@ -58,6 +75,13 @@
         one {}=1      {Permisu usáu por 1 aplicación}
         other   {Permisu usáu por # aplicaciones}
     }</string>
+    <string name="item_separator">,\u0020</string>
+    <string name="permission_history_category_today">Güei</string>
+    <string name="permission_history_category_yesterday">Ayeri</string>
+    <string name="app_permission_button_allow">Permitir</string>
+    <string name="app_permission_button_allow_all_files">Permitir la xestión de tolos ficheros</string>
+    <string name="precise_image_description">Llocalización exauta</string>
+    <string name="approximate_image_description">Llocalización aproximada</string>
     <string name="unused_apps_category_title">Configuración d\'aplic. non usaes</string>
     <string name="unused_apps_label_v2">Posar l\'actividá l\'aplicación si nun s\'usa</string>
     <string name="unused_apps_summary">Quita los permisos, desanicia los ficheros temporales y para los avisos</string>
@@ -82,8 +106,8 @@
         other   {# segundos}
     }</string>
     <string name="unused_apps_notification_title">{count, plural,
-        one {}=1      {# aplicación ensin usar}
-        other   {# aplicaciones ensin usar}
+        one {}=1      {# aplicación que nun s\'usa}
+        other   {# aplicaciones que nun s\'usen}
     }</string>
     <string name="post_drive_permission_decision_reminder_title">Comprobar los permisos de recién</string>
     <string name="post_drive_permission_decision_reminder_summary_1_app_1_permission">Mentanto conduces, concediesti a «<xliff:g id="app" example="Waze">%1$s</xliff:g>» l\'accesu a «<xliff:g id="permission" example="location">%2$s</xliff:g>»</string>
@@ -94,17 +118,31 @@
         other   {Mentanto conducíes, concediesti l\'accesu a <xliff:g id="app" example="Waze">%1$s</xliff:g> y # aplicaciones más}
         }</string>
     <string name="go_to_settings">Dir a Configuración</string>
+    <string name="notification_listener_reminder_notification_title">Revisar l\'aplicación con accesu al detector d\'avisos</string>
+    <string name="notification_listener_reminder_notification_title_plural">{count, plural,
+        one {}=1      {Revisa l\'aplicación con accesu al detector d\'avisos}
+        other   {Revisa les aplicaciones con accesu al detector d\'avisos}
+        }</string>
     <string name="notification_listener_reminder_notification_content">«<xliff:g id="app_name" example="Gmail">%s</xliff:g>» pue lleer tolos avisos.</string>
     <string name="notification_listener_reminder_notification_content_plural">{count, plural,
         one {}=1      {«<xliff:g id="app_name" example="Gmail">%s</xliff:g>» pue lleer tolos avisos.}
         other   {# aplicaciones puen lleer tolos avisos.}
         }</string>
+    <string name="permission_subtitle_all_files">Tolos ficheros</string>
+    <string name="permission_subtitle_background">Permítese siempre</string>
     <string name="app_perms_7d_access">Últimu accesu: <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> (<xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g>)</string>
+    <string name="app_perms_content_provider_7d">Accesu demientres los últimos 7 díes</string>
     <string name="app_perms_7d_access_background">Últimu accesu: <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> (<xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g>) \u2022 Permítese tol tiempu</string>
+    <string name="app_perms_content_provider_7d_background">Accesu demientres los últimos 7 díes \u2022 Permitióse tol tiempu</string>
     <string name="app_perms_7d_access_media_only">Últimu accesu: <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> (<xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g>) \u2022 Conteníu multimedia</string>
+    <string name="app_perms_content_provider_7d_media_only">Accesu demientres los últimos 7 díes \u2022 Conteníu multimedia</string>
     <string name="app_perms_7d_access_all_files">Últimu accesu: <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> (<xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g>) \u2022 Tolos ficheros</string>
+    <string name="app_perms_content_provider_7d_all_files">Accesu demientres los últimos 7 díes \u2022 Tolos ficheros</string>
     <string name="settings">Configuración</string>
+    <string name="role_browser_short_label">Aplicación de restolador</string>
+    <string name="role_dialer_short_label">Aplicación de teléfonu</string>
     <string name="role_dialer_request_description">Esta aplicación va poder acceder a la cámara, a los contautos, al mircrófonu, a los SMS y al teléfonu</string>
+    <string name="role_sms_short_label">Aplicación de SMS</string>
     <string name="role_sms_request_description">Esta aplicación va poder acceder a los ficheros y al conteníu multimedia, a la cámara, a los contautos, al mircrófonu, a los SMS, al teléfonu</string>
     <string name="role_automotive_navigation_label">Aplicación de navegación predeterminada</string>
     <string name="role_automotive_navigation_short_label">Aplicación de navegación</string>
@@ -112,15 +150,41 @@
     <string name="role_automotive_navigation_request_title">¿Quies predeterminar l\'aplicación de navegación «<xliff:g id="app_name" example="Super Navigation">%1$s</xliff:g>»?</string>
     <string name="role_app_streaming_description">«<xliff:g id="app_name" example="Cross-Device Communciation">%1$s</xliff:g>» va poder interactuar colos avisos y emitir aplicaciones al preséu conectáu.</string>
     <string name="role_companion_device_computer_description">Esti serviciu comparte\'l conteníu multimedia y los avisos del teléfonu con otros preseos.</string>
+    <string name="other_use">Otros usos:</string>
+    <string name="ongoing_usage_dialog_title_mic">Usu recién del micrófonu</string>
+    <string name="ongoing_usage_dialog_title_camera">Usu recién de la cámara</string>
+    <string name="ongoing_usage_dialog_title_mic_camera">Usu recién del micrófonu y la cámara</string>
+    <string name="ongoing_usage_dialog_separator">,\u0020</string>
+    <string name="ongoing_usage_dialog_last_separator">\u0020y\u0020</string>
+    <string name="permgroup_list_microphone_and_camera">Micrófonu y cámara</string>
     <string name="settings_button">Configuración</string>
+    <string name="home_missing_work_profile_support">Nun ye compatible col perfil llaboral</string>
+    <string name="incident_report_dialog_intro">El sistema detectó un problema.</string>
+    <string name="incident_report_dialog_allow_label">Permitir</string>
+    <string name="incident_report_dialog_deny_label">Negar</string>
     <string name="adjust_user_sensitive_title">Configuración avanzada</string>
     <string name="menu_adjust_user_sensitive">Configuración avanzada</string>
+    <string name="permgrouprequest_contacts">¿Quies permitir a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a los contautos?</string>
+    <string name="permgrouprequest_location">¿Quies permitir a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda la llocalización d\u2019esti preséu?</string>
+    <string name="permgrouprequest_coarselocation">¿Quies permitir a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a la llocalización aproximada d\'esti preséu?</string>
+    <string name="permgrouprequest_finelocation_imagetext">Exauta</string>
+    <string name="permgrouprequest_coarselocation_imagetext">Aproximada</string>
+    <string name="permgrouprequest_calendar">¿Quies permitir a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda al calendariu?</string>
+    <string name="permgrouprequest_sms">¿Quies permitir a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'unvie y vea mensaxes SMS?</string>
     <string name="permgrouprequest_storage_q_to_s">¿Quies permitir a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a les &lt;b&gt;semeyes, vídeos, música, y ficheros d\'audiu&lt;/b&gt; d\'esti preséu?</string>
     <string name="permgrouprequest_storage_pre_q">¿Quies permitir a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a les &lt;b&gt;semeyes, vídeos, música, y otros ficheros&lt;/b&gt; d\'esti preséu?</string>
     <string name="permgrouprequest_read_media_aural">¿Quies permitir a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a los ficheros de música y d\'audiu del preséu?</string>
     <string name="permgrouprequest_read_media_visual">¿Quies permitir a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a les semeyes y vídeos d\'esti preséu?</string>
+    <string name="permgrouprequest_activityRecognition">¿Quies permitir a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a la to actividá física?</string>
+    <string name="permgrouprequest_calllog">¿Quies permitir a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda al rexistru de llamaes del teléfonu?</string>
     <string name="permgroupupgraderequestdetail_sensors">Esta aplicación quier acceder a los datos de los sensores de les tos constantes vitales tol tiempu, hasta cuando nun la uses. Pa facer esti cambéu, <annotation id="link">vete a la configuración</annotation></string>
     <string name="permgroupbackgroundrequest_sensors">¿Quies permitir a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a los datos de los sensores de les tos constantes vitales?</string>
@@ -128,6 +192,15 @@
     <string name="permgroupupgraderequest_sensors">¿Quies siguir permitiendo a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; qu\'acceda a los datos de los sensores corporales mentanto ta n\'usu?</string>
     <string name="permgrouprequest_notifications">¿Quies permitir a 
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; que t\'unvie avisos?</string>
+    <string name="auto_granted_permission_notification_body">L\'alministrador de TI permite a «<xliff:g id="app_name" example="Gmail">%s</xliff:g>» qu\'acceda a la to llocalización</string>
+    <string name="other_permissions_label">Otros permisos</string>
+    <string name="not_used_permissions_label">Permisu usáu pol sistema</string>
+    <string name="not_used_permissions_description">Permisos usaos namás poles aplicaciones del sistema.</string>
+    <string name="additional_permissions_label">Permisos adicionales</string>
+    <string name="additional_permissions_description">Permisos definíos poles aplicaciones.</string>
+    <string name="privdash_label_camera">Cámara</string>
+    <string name="privdash_label_microphone">Micrófonu</string>
+    <string name="privdash_label_location">Llocalización</string>
     <string name="privdash_label_7d">Los últimos\n7 díes</string>
     <string name="exempt_mic_camera_info_label">L\'aplicación «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» ta protexida por Android. Como los tos datos se procesen nesti preséu, l\'usu\'l permisu d\'esta aplicación nun s\'amuesa na barra d\'estáu nin nel panel de privacidá. </string>
     <string name="exempt_info_label">L\'aplicación «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» ta protexida por Android. Como los tos datos se procesen nesti preséu, l\'usu\'l permisu d\'esta aplicación nun s\'amuesa nel panel de privacidá. </string>
@@ -139,6 +212,7 @@
     <string name="blocked_sensor_button_label">Camudar</string>
     <string name="safety_center_dashboard_page_title">Seguranza y privacidá</string>
     <string name="safety_center_rescan_button">Analizar</string>
+    <string name="safety_center_issue_card_dismiss_button">Escartar</string>
     <string name="security_settings">Configuración de seguranza</string>
     <string name="sensor_permissions_qs">Permisos de los sensores</string>
     <string name="privacy_controls_qs">Controles de privacidá</string>
@@ -150,16 +224,17 @@
     <string name="manage_service_qs">Xestionar el serviciu</string>
     <string name="manage_permissions_qs">Xestionar los permisos</string>
     <string name="active_call_usage_qs">N\'usu por una llamada de teléfonu</string>
-    <string name="recent_call_usage_qs">Usáu de recién nuna llamada de teléfonu</string>
+    <string name="recent_call_usage_qs">Usáu apocayá nuna llamada de teléfonu</string>
     <string name="active_app_usage_qs">N\'usu por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>»</string>
-    <string name="recent_app_usage_qs">Usáu de recién por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>»</string>
+    <string name="recent_app_usage_qs">Usáu apocayá por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>»</string>
     <string name="active_app_usage_1_qs">N\'usu por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
-    <string name="recent_app_usage_1_qs">Usáu de recién por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
+    <string name="recent_app_usage_1_qs">Usáu apocayá por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
     <string name="active_app_usage_2_qs">N\'usu por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
-    <string name="recent_app_usage_2_qs">Usáu de recién por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> »(<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
+    <string name="recent_app_usage_2_qs">Usáu apocayá por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> »(<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
     <string name="safety_privacy_qs_tile_title">Seguranza y privacidá</string>
     <string name="safety_privacy_qs_tile_subtitle">Comprobar l\'estáu</string>
     <string name="media_confirm_dialog_positive_button">Confirmar</string>
+    <string name="media_confirm_dialog_negative_button">Atrás</string>
     <string name="media_confirm_dialog_title_a_to_p_aural_allow">Tamién va permitise l\'accesu a otros ficheros</string>
     <string name="media_confirm_dialog_title_a_to_p_aural_deny">Tampoco va permitise l\'accesu a otros ficheros</string>
     <string name="media_confirm_dialog_title_a_to_p_visual_allow">Tamién va permitise l\'accesu a otros ficheros</string>

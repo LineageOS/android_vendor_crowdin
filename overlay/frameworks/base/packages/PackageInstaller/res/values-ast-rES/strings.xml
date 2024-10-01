@@ -51,7 +51,7 @@
     <string name="app_not_found_dlg_text"> Nun s\'atopó l\'aplicación na llista d\'aplicaciones instalaes.</string>
     <string name="user_is_not_allowed_dlg_title">Ensin permisu</string>
     <string name="user_is_not_allowed_dlg_text">L\'usuariu actual nun tien permisu pa facer esta desinstalación.</string>
-    <string name="generic_error_dlg_title">Fallu</string>
+    <string name="generic_error_dlg_title">Error</string>
     <string name="generic_error_dlg_text">Nun se pudo desinstalar l\'aplicación.</string>
     <string name="uninstall_application_title">Desinstalación d\'aplicación</string>
     <string name="uninstall_update_title">Desinstalación d\'anovamientu</string>
@@ -61,8 +61,8 @@
         usuarios? L\'aplicación y los sos datos van desaniciase pa <b>tolos</b> usuarios del preséu.</string>
     <string name="uninstall_application_text_user">¿Quies desinstalar esta aplicación pal usuariu «<xliff:g id="username">%1$s</xliff:g>»?</string>
     <string name="uninstall_application_text_current_user_work_profile">¿Quies desinstalar esta aplicación del perfil llaboral?</string>
-    <string name="uninstall_update_text">¿Quies trocar la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos.</string>
-    <string name="uninstall_update_text_multiuser">¿Quies trocar la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos. Esto afeuta a tolos usuarios del preséu, incluyíos los que tengan perfiles llaborales.</string>
+    <string name="uninstall_update_text">¿Quies sustituyir la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos.</string>
+    <string name="uninstall_update_text_multiuser">¿Quies sustituyir la versión d\'esta aplicación pola de fábrica? Van desaniciase tolos datos. Esto afeuta a tolos usuarios del preséu, incluyíos los que tengan perfiles llaborales.</string>
     <string name="uninstall_keep_data">Caltener <xliff:g id="size" example="1.5MB">%1$s</xliff:g> de datos de l\'aplicación.</string>
     <string name="uninstalling_notification_channel">Desinstalaciones n\'execución</string>
     <string name="uninstall_failure_notification_channel">Desinstalaciones fallíes</string>
@@ -92,6 +92,9 @@
     <string name="wear_not_allowed_dlg_text">Les aiciones de des/instalación nun son compatibles en Wear.</string>
     <string name="message_staging">Tresnando l\'aplicación…</string>
     <string name="app_name_unknown">Nome desconocíu</string>
+    <string name="untrusted_external_source_warning" product="tablet">Por seguranza, la tableta nun permite instalar aplicaciones desconocíes d\'esta fonte. Pues camudar esti comportamientu en Configuración.</string>
+    <string name="untrusted_external_source_warning" product="tv">Por seguranza, la TV nun permite instalar aplicaciones desconocíes d\'esta fonte. Pues camudar esti comportamientu en Configuración.</string>
+    <string name="untrusted_external_source_warning" product="default">Por seguranza, el teléfonu nun permite instalar aplicaciones desconocíes d\'esta fonte. Pues camudar esti comportamientu en Configuración.</string>
     <string name="anonymous_source_warning" product="default">        Los datos personales y los del teléfonu son más
         vulnerables a los ataques d\'aplicaciones desconocíes.
         Al instalar esta aplicación, aceptes que yes responsable

@@ -351,6 +351,7 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="auto_revoke_preference_summary">Tynnwyd caniatâd yn ôl i warchod dy breifatrwydd</string>
     <string name="background_location_access_reminder_notification_title">Cafodd <xliff:g id="app_name" example="Gmail">%s</xliff:g> dy leoliad wrth redeg yn y cefndir</string>
     <string name="background_location_access_reminder_notification_content">Gall yr ap hwn gael gwybod dy leoliad o hyd. Tapia i newid hyn.</string>
+    <string name="notification_listener_reminder_notification_title">Adolygu ap gyda mynediad at wrandäwr hysbysiadau</string>
     <string name="notification_listener_reminder_notification_title_plural"> {count, plural,
         =1 {Adolygu ap gyda mynediad at wrandawr hysbysiadau}
         other {Adolygu apiau gyda mynediad at wrandawr hysbysiadau}

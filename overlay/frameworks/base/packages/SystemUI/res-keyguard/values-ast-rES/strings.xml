@@ -47,7 +47,7 @@
     <string name="keyboardview_keycode_delete">Desaniciar</string>
     <string name="disable_carrier_button_text">Desactivar la eSIM</string>
     <string name="error_disable_esim_title">Nun se pue desactivar la eSIM</string>
-    <string name="error_disable_esim_msg">La eSIM nun se pue desactivar pola mor d\'un fallu.</string>
+    <string name="error_disable_esim_msg">La eSIM nun se pue desactivar pola mor d\'un error.</string>
     <string name="keyboardview_keycode_enter">Retornu</string>
     <string name="kg_wrong_pattern">El patrón ye incorreutu</string>
     <string name="kg_wrong_password">La contraseña ye incorreuta</string>
@@ -90,9 +90,9 @@
     <string name="kg_password_puk_failed">¡La operación col PUK de la SIM falló!</string>
     <string name="accessibility_ime_switch_button" msgid="5032926134740456424">Botón «Cambiar el métodu d\'entrada»</string>
     <string name="airplane_mode">Mou avión</string>
-    <string name="kg_prompt_reason_restart_pattern">Tienes de dibuxar el patrón darréu de reaniciar el preséu</string>
-    <string name="kg_prompt_reason_restart_pin">Tienes d\'introducir el PIN darréu de reaniciar el preséu</string>
-    <string name="kg_prompt_reason_restart_password">Tienes d\'introducir la contraseña darréu de reaniciar el preséu</string>
+    <string name="kg_prompt_reason_restart_pattern">Tienes de dibuxar el patrón dempués de reaniciar el preséu</string>
+    <string name="kg_prompt_reason_restart_pin">Tienes d\'introducir el PIN dempués de reaniciar el preséu</string>
+    <string name="kg_prompt_reason_restart_password">Tienes d\'introducir la contraseña dempués de reaniciar el preséu</string>
     <string name="kg_prompt_reason_timeout_pattern">Pa más seguranza, usa\'l patrón</string>
     <string name="kg_prompt_reason_timeout_pin">Pa más seguranza, usa\'l PIN</string>
     <string name="kg_prompt_reason_timeout_password">Pa más seguranza, usa la contraseña</string>

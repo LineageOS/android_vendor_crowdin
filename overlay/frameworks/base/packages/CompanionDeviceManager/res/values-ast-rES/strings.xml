@@ -17,10 +17,11 @@
     <string name="app_label">Xestor de preseos complementarios</string>
     <string name="confirmation_title">Permitir a &lt;strong&gt;<xliff:g id="app_name" example="GMS">%1$s</xliff:g>&lt;/strong&gt; qu\'acceda al preséu &lt;strong&gt;<xliff:g id="device_name" example="ASUS ZenWatch 2">%2$s</xliff:g>&lt;/strong&gt;</string>
     <string name="profile_name_watch">reló</string>
-    <string name="summary_watch">Esta aplicación ye necesaria pa xestionar «<xliff:g id="device_name" example="My Watch">%1$s</xliff:g>». «<xliff:g id="app_name" example="Android Wear">%2$s</xliff:g>» va poder interactuar colos avisos y acceder a los permisos de Teléfonu, SMS, Contautos, Calendariu, Rexistros de llamaes y Preseos cercanos.</string>
+    <string name="chooser_title">Escueyi un preséu «<xliff:g id="profile_name" example="watch">%1$s</xliff:g>» pa xestionalu con &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%2$s</xliff:g>&lt;/strong&gt;</string>
+    <string name="summary_watch">Esta aplicación ye necesaria pa xestionar «<xliff:g id="device_name" example="My Watch">%1$s</xliff:g>». «<xliff:g id="app_name" example="Android Wear">%2$s</xliff:g>» va poder interactuar colos avisos y acceder a los permisos de Teléfonu, SMS, Contautos, Calendariu, Rexistros de llamaes y Preseos próximos.</string>
     <string name="permission_apps">Aplicaciones</string>
     <string name="permission_apps_summary">Emite les aplicaciones del teléfonu</string>
-    <string name="title_app_streaming">¿Quies permitir que l\'aplicación «&lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt;» acceda a esta información del teléfonu?</string>
+    <string name="title_app_streaming">¿Quies permitir a «&lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt;» qu\'acceda a esta información del teléfonu?</string>
     <string name="helper_title_app_streaming">Servicios multipreséu</string>
     <string name="helper_summary_app_streaming">«<xliff:g id="app_name" example="GMS">%1$s</xliff:g>» ta solicitando permisu en nome del preséu «<xliff:g id="device_type" example="Chromebook">%2$s</xliff:g>» pa emitir aplicaciones ente preseos</string>
     <string name="title_computer">Permitir a &lt;strong&gt;<xliff:g id="app_name" example="GMS">%1$s</xliff:g>&lt;/strong&gt; qu\'acceda a esta información del teléfonu</string>
