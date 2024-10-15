@@ -23,6 +23,7 @@
     <string name="desc_const_e">Rhif Euler</string>
     <string name="desc_const_pi">pi</string>
     <string name="desc_dec_point">pwynt</string>
+    <string name="desc_paren">parenthesis</string>
     <string name="desc_lparen">cromfach chwith</string>
     <string name="desc_rparen">cromfach dde</string>
     <string name="desc_fun_cos">cosine</string>

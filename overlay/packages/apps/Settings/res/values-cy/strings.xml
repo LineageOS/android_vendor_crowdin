@@ -659,6 +659,8 @@
     <string name="wifi_ip_settings">Gosodiadau IP</string>
     <string name="wifi_privacy_settings">Preifatrwydd</string>
     <string name="wifi_privacy_device_name_settings">Enw\u2019r ddyfais</string>
+    <string name="wifi_privacy_send_device_name_toggle_title">Anfon enw dyfais</string>
+    <string name="wifi_privacy_send_device_name_toggle_summary">Rhannu enw\u2019r ddyfais hon gyda\u2019r rhwydwaith</string>
     <string name="wifi_subscription">Tanysgrifiad</string>
     <string name="wifi_subscription_summary">Gweld neu newid tanysgrifiad</string>
     <string name="wifi_privacy_settings_ephemeral_summary">MAC ar hap</string>
@@ -4230,4 +4232,5 @@ wrth adael modd gwestai</string>
     <string name="show_captions_enabled">Ymlaen</string>
     <string name="live_caption_disabled">I ffwrdd</string>
     <string name="live_caption_enabled">Ymlaen</string>
+    <string name="about_phone_device_name_warning">Mae enw dy ddyfais yn weladwy i apiau rwyt wedi eu gosod. Mae\'n bosib y bydd hefyd yn weladwy i eraill pan fyddi yn cysylltu â dyfeisiau Bluetooth, yn cysylltu â rhwydwaith Wi-Fi neu\'n creu llecyn Wi-Fi.</string>
 </resources>

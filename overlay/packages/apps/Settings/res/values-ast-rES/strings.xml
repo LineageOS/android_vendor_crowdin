@@ -108,6 +108,7 @@
     <string name="locale_not_translated">Nun ta disponible como llingua del sistema</string>
     <string name="settings_label">Configuración</string>
     <string name="settings_label_launcher">Configuración</string>
+    <string name="wireless_networks_settings_title">Conexones ensin filos y redes</string>
     <string name="zone_info_footer_first_sentence">Usa «<xliff:g id="offset_and_name" example="Pacific Time (GMT-08:00)">%1$s</xliff:g>». <xliff:g id="second_sentence" example="Pacific Daylight Time starts on Mar 11 2018.">%2$s</xliff:g></string>
     <string name="zone_info_footer_second_sentence"><xliff:g id="dst_time_type" example="Pacific Daylight Time">%1$s</xliff:g> comienza\'l <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
     <string name="location_settings_summary_location_on">{count, plural,

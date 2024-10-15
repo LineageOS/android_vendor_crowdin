@@ -58,6 +58,7 @@
     <string name="deny_read_media_visual_warning">Esta aplicación diseñóse pa una versión antigua d\'Android. Si-y niegues l\'accesu a les semeyes y los vídeos, tamién vas nega-y l\'accesu a la música y otros ficheros d\'audiu.</string>
     <string name="deny_read_media_aural_warning">Esta aplicación diseñóse pa una versión antigua d\'Android. Si-y niegues l\'accesu a la música y otros ficheros d\'audiu, tamién vas nega-y l\'accesu a les semeyes y los vídeos.</string>
     <string name="loading">Cargando\u2026</string>
+    <string name="all_permissions">Tolos permisos</string>
     <string name="auto_permission_usage_summary">Ver qué aplicaciones usaron los permisos apocayá</string>
     <string name="permission_group_usage_subtitle_7d">Cronoloxía de cuándo usaron les aplicaciones el permisu «<xliff:g id="permgroup" example="Location">%1$s</xliff:g>» nos últimos 7 díes</string>
     <string name="learn_more_content_description">Saber más tocante a «<xliff:g id="permgroup" example="Location">%1$s</xliff:g>»</string>
