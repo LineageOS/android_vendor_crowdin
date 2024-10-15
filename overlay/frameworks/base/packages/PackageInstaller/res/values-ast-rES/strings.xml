@@ -70,8 +70,8 @@
     <string name="uninstalling_app">Desinstalando «<xliff:g id="package_label">%1$s</xliff:g>»\u2026</string>
     <string name="uninstall_done">La desinstalación finó.</string>
     <string name="uninstall_done_app">Desinstalóse «<xliff:g id="package_label">%1$s</xliff:g>»</string>
-    <string name="uninstall_failed">Hebo un fallu na desinstalación.</string>
-    <string name="uninstall_failed_app">Hebo un fallu al desinstalar «<xliff:g id="package_label">%1$s</xliff:g>».</string>
+    <string name="uninstall_failed">La desinstalación nun se fizo correutemente.</string>
+    <string name="uninstall_failed_app">La desinstalación de l\'aplicación «<xliff:g id="package_label">%1$s</xliff:g>» nun se fizo correutamente.</string>
     <string name="uninstall_failed_device_policy_manager">Nun se pue desinstalar l\'aplicación
         activa del alministrador del preséu</string>
     <string name="uninstall_failed_device_policy_manager_of_user">Nun se pue desinstalar l\'aplicación

@@ -18,6 +18,7 @@
         <item quantity="one">Tas a <xliff:g id="step_count">%1$d</xliff:g> calcu d\'activar la configuración pa desendolcadores.</item>
         <item quantity="other">Tas a <xliff:g id="step_count">%1$d</xliff:g> calcos d\'activar la configuración pa desendolcadores.</item>
     </plurals>
+    <string name="header_category_wireless_networks">Conexones ensin filos y redes</string>
     <string name="smart_rotate_text_headline">La deteición facial usa la cámara d\'alantre p\'ameyorar la precisión del voltéu automáticu. Les imáxenes enxamás s\'atroxen nin s\'unvien a Google.</string>
     <string name="bluetooth_pair_right_ear_button">Empareyar derechu</string>
     <string name="bluetooth_pair_left_ear_button">Empareyar esquierdu</string>
@@ -39,6 +40,7 @@
     <string name="desc_app_locale_selection_supported">Equí namás apaecen les aplicaciones que seya compatibles cola seleición de llingua</string>
     <string name="settings_label">Configuración</string>
     <string name="settings_label_launcher">Configuración</string>
+    <string name="wireless_networks_settings_title">Conexones ensin filos y redes</string>
     <string name="safety_center_title">Seguranza y privacidá</string>
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="default">Permite que\'l fíu/a de to use la cara pa desbloquiar el teléfonu</string>
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="tablet">Permite que\'l fíu/a de to use la cara pa desbloquiar la tableta</string>
