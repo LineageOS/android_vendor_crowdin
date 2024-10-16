@@ -228,11 +228,11 @@
     <string name="adb_wireless_device_details_title">Detalles del preséu</string>
     <string name="adb_device_forget">Escaecer</string>
     <string name="adb_device_fingerprint_title_format">Buelga del preséu: <xliff:g id="fingerprint_param" example="a1:b2:c3:d4:e5:f6">%1$s</xliff:g></string>
-    <string name="adb_wireless_connection_failed_title">Hebo un fallu cola conexón</string>
+    <string name="adb_wireless_connection_failed_title">La conexón nun foi correuta</string>
     <string name="adb_wireless_connection_failed_message">Asegúrate de que conectesti «<xliff:g id="device_name" example="Bob\'s Macbook">%1$s</xliff:g>» a la rede correuta</string>
     <string name="adb_pairing_device_dialog_title">Empareyamientu col preséu</string>
     <string name="adb_pairing_device_dialog_pairing_code_label">Códigu d\'empareyamientu Wi\u2011Fi</string>
-    <string name="adb_pairing_device_dialog_failed_title">Hebo un fallu al empareyar</string>
+    <string name="adb_pairing_device_dialog_failed_title">L\'empareyamientu nun se fizo correutamente</string>
     <string name="adb_pairing_device_dialog_failed_msg">Asegúrate de que\'l preséu ta conectáu a la mesma rede.</string>
     <string name="adb_wireless_qrcode_summary">Empareya\'l preséu per Wi\u2011Fi pente l\'escanéu d\'un códigu QR</string>
     <string name="adb_wireless_verifying_qrcode_text">Empareyando\'l preséu\u2026</string>

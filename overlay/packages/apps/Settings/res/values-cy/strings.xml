@@ -659,6 +659,8 @@
     <string name="wifi_ip_settings">Gosodiadau IP</string>
     <string name="wifi_privacy_settings">Preifatrwydd</string>
     <string name="wifi_privacy_device_name_settings">Enw\u2019r ddyfais</string>
+    <string name="wifi_privacy_send_device_name_toggle_title">Anfon enw dyfais</string>
+    <string name="wifi_privacy_send_device_name_toggle_summary">Rhannu enw\u2019r ddyfais hon gyda\u2019r rhwydwaith</string>
     <string name="wifi_subscription">Tanysgrifiad</string>
     <string name="wifi_subscription_summary">Gweld neu newid tanysgrifiad</string>
     <string name="wifi_privacy_settings_ephemeral_summary">MAC ar hap</string>
@@ -980,6 +982,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="storage_settings_for_app">Storfa a chof dros dro</string>
     <string name="storage_settings_title">Gosodiadau storfa</string>
     <string name="status_eid">EID</string>
+    <string name="imei_multi_sim_primary">IMEI (slot sim <xliff:g id="imei_slot_id_primary">%1$d</xliff:g>) (prif)</string>
     <string name="view_saved_network">I weld, dewisa rwydwaith wedi\'i gadw</string>
     <string name="status_imei">IMEI</string>
     <string name="status_imei_sv">IMEI SV</string>
@@ -987,6 +990,8 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
     <string name="status_prl_version">Fersiwn PRL</string>
+    <string name="meid_multi_sim">MEID (slot sim <xliff:g id="meid_slot_id">%1$d</xliff:g>)</string>
+    <string name="meid_multi_sim_primary">MEID (slot sim <xliff:g id="meid_slot_id_primary">%1$d</xliff:g>) (prif)</string>
     <string name="scanning_status_text_on">Ymlaen</string>
     <string name="scanning_status_text_off">I ffwrdd</string>
     <string name="status_meid_number">MEID</string>
@@ -3453,6 +3458,8 @@ wrth adael modd gwestai</string>
     <string name="app_battery_usage_title">Defnydd batri\u2019r ap</string>
     <string name="app_battery_usage_summary">Gosod defnydd batri ar gyfer apiau</string>
     <string name="battery_tips_card_dismiss_button">Deall yn iawn</string>
+    <string name="battery_tips_apps_summary_always_high_in_foreground">Defnyddiodd <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> mwy o fatri tra yn y blaendir</string>
+    <string name="battery_tips_apps_summary_higher_than_usual_in_foreground">Defnyddiodd <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> mwy o fatri nag arfer tra yn y blaendir</string>
     <string name="filter_battery_unrestricted_title">Dim cyfyngu</string>
     <string name="filter_battery_optimized_title">Defnydd optimaidd</string>
     <string name="filter_battery_restricted_title">Wedi\'i rhwystro</string>
@@ -4230,4 +4237,5 @@ wrth adael modd gwestai</string>
     <string name="show_captions_enabled">Ymlaen</string>
     <string name="live_caption_disabled">I ffwrdd</string>
     <string name="live_caption_enabled">Ymlaen</string>
+    <string name="about_phone_device_name_warning">Mae enw dy ddyfais yn weladwy i apiau rwyt wedi eu gosod. Mae\'n bosib y bydd hefyd yn weladwy i eraill pan fyddi yn cysylltu â dyfeisiau Bluetooth, yn cysylltu â rhwydwaith Wi-Fi neu\'n creu llecyn Wi-Fi.</string>
 </resources>
