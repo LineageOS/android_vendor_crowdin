@@ -369,7 +369,6 @@
     <string name="private_space_biometric_summary">Tapia i\'w osod</string>
     <string name="private_space_category_ways_to_unlock">Dulliau i ddatgloi</string>
     <string name="private_space_screen_lock_summary">Yr un fath a chlo sgrin y ddyfais</string>
-    <string name="private_space_auto_lock_never">Byth</string>
     <string name="privatespace_hide_off_summary">I ffwrdd</string>
     <string name="privatespace_hide_on_summary">Ymlaen</string>
     <string name="private_space_category_system">System</string>

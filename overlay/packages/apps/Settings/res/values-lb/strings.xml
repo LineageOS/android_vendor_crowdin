@@ -126,7 +126,6 @@
     <string name="fingerprint_enroll_button_next">Weider</string>
     <string name="security_header">Sécherheet</string>
     <string name="work_profile_category_header">Aarbechtsprofil</string>
-    <string name="private_space_auto_lock_never">Ni</string>
     <string name="privatespace_hide_off_summary">Aus</string>
     <string name="privatespace_hide_on_summary">Un</string>
     <string name="private_space_category_system">System</string>

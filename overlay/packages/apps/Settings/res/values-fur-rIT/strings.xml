@@ -564,7 +564,6 @@
     <string name="private_space_auto_lock_page_summary">Tu puedis blocâ in automatic il to spazi privât se no tu dopris il dispositîf par un ciert periodi di timp</string>
     <string name="private_space_auto_lock_every_time">Ogni volte che il dispositîf si bloche</string>
     <string name="private_space_auto_lock_after_inactivity">Dopo 5 minût di inativitât</string>
-    <string name="private_space_auto_lock_never">Mai</string>
     <string name="private_space_hide_title">Plate se blocât</string>
     <string name="privatespace_hide_page_title">Plate spazi privât se blocât</string>
     <string name="privatespace_hide_page_summary">Par no fâ savê a chei altris che tu âs un spazi privât sul to dispositîf, tu puedis platâlu de liste des tôs aplicazions</string>

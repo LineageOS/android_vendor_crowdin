@@ -265,7 +265,6 @@
     <string name="work_profile_category_header">Pròifil na h-obrach</string>
     <string name="private_space_biometric_summary">Thoir gnogag gus a shuidheachadh</string>
     <string name="private_space_screen_lock_summary">Mar glas sgrìn an uidheim</string>
-    <string name="private_space_auto_lock_never">Chan ann idir</string>
     <string name="privatespace_hide_off_summary">Dheth</string>
     <string name="privatespace_hide_on_summary">Air</string>
     <string name="private_space_category_system">An siostam</string>
