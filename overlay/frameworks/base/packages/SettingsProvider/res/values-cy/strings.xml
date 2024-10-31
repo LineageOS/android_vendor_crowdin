@@ -18,6 +18,4 @@
 -->
 <resources>
     <string name="app_label">Storfa Gosodiadau</string>
-    <string name="wifi_softap_config_change">Newidiwyd y gosodiadau llecyn</string>
-    <string name="wifi_softap_config_change_summary">Tapia i weld manylion</string>
 </resources>

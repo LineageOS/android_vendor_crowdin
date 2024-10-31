@@ -50,4 +50,6 @@
     <string name="tag_dispatch_failed">Chan eil aplacaid ann a chuireas taic ris an taga NFC seo</string>
     <string name="nfc_blocking_alert_title">Dh’fhaoidte gu bheil NFC ’ga bhacadh</string>
     <string name="nfc_blocking_alert_message">Thoir gnogag airson fiosrachaidh air mar a chàraicheas tu seo.</string>
+    <string name="enable_nfc_yes">Tha</string>
+    <string name="enable_nfc_no">Chan eil</string>
 </resources>

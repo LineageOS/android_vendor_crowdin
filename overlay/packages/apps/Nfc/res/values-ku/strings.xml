@@ -22,4 +22,6 @@
     <string name="pay_with">ناساندن له‌گه‌ڵ</string>
     <string name="complete_with">ته‌واوکردن له‌گه‌ڵ</string>
     <string name="default_pay_app_removed">تۆ خزمه‌تگوزاری په‌سه‌ند ده‌که‌یت بۆ تاپ وamp; ناساندن سڕدرایه‌وه‌. یه‌کێکی تر؟</string>
+    <string name="enable_nfc_yes">بەڵێ</string>
+    <string name="enable_nfc_no">نا</string>
 </resources>

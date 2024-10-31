@@ -141,8 +141,6 @@
     <string name="wifi_ap_2G">2.4 GHz</string>
     <string name="wifi_ap_5G">5.0 GHz</string>
     <string name="wifi_ap_band_select_one">Tagh bann no dhà airson WiFi hotspot:</string>
-    <string name="wifi_hotspot_auto_off_title">Cuir an hotspot dheth gu fèin-obrachail</string>
-    <string name="wifi_hotspot_auto_off_summary">Thèid an WiFi hotspot a chur dheth gu fèin-obrachail mur eil uidheam ceangailte ris</string>
     <string name="wifi_ask_enable">Tha <xliff:g id="requester" example="FancyApp">%s</xliff:g> airson WiFi a chur air</string>
     <string name="wifi_ask_disable">Tha <xliff:g id="requester" example="FancyApp">%s</xliff:g> airson WiFi a chur dheth</string>
     <string name="wifi_error">Mearachd</string>
@@ -299,12 +297,12 @@
     <string name="app_list_preference_none">Chan eil gin</string>
     <string name="default_app_selected_app">Air a thaghadh</string>
     <string name="assistant_security_warning">Leughaidh an cuidiche fiosrachadh mu na h-aplacaidean a tha ’gan cleachdadh air an t-siostam agad, a’ gabhail a-staigh am fiosrachadh a chì thu air an sgrìn no a ghabhas inntrigeadh am broinn nan aplacaidean fhèin.</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Dèan cinnteach gu bheil earbsa agad san aplacaid seo</b>
+    <string name="autofill_confirmation_message">        <b>Dèan cinnteach gu bheil earbsa agad san aplacaid seo</b>
         <br/>
         <br/>
         Cleachdaidh <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> na tha air an sgrìn agad
         airson faighinn a-mach dè ghabhas fhèin-lìonadh.
-        ]]></string>
+        </string>
     <string name="autofill_add_service">Cuir seirbheis ris</string>
     <string name="app_launch_domain_links_title">Fosgladh cheanglaichean</string>
     <string name="domain_url_section_title">Aplacaidean stàlaichte</string>
@@ -332,7 +330,6 @@
     <string name="notification_listener_revoke_warning_summary">Ma chuireas tu dheth inntrigeadh nam brathan airson <xliff:g id="notification_listener_name">%1$s</xliff:g>, dh’fhaoidte gun dèid inntrigeadh gu “Na bris a-steach orm” a chur dheth cuideachd.</string>
     <string name="notification_listener_revoke_warning_confirm">Cuir dheth</string>
     <string name="notification_listener_revoke_warning_cancel">Sguir dheth</string>
-    <string name="premium_sms_access_title">Inntrigeadh dha Premium SMS</string>
     <string name="premium_sms_access_description">Dh’fhaoidte gun èirich cosgaisean an lùib Premium SMS a chì thu air bile a’ ghiùlanair agad. Ma bheir thu cead do dh’aplacaid, ’s urrainn dhut Premium SMS a chur leis an aplacaid ud.</string>
     <string name="usage_access_title">Inntrigeadh dhan chleachdadh</string>
     <string name="usage_access_description">Leigidh inntrigeadh dhan chleachdadh le aplacaid gun tracaich i dè na h-aplacaidean eile a chleachdas tu agus dè cho tric, co math ris a’ ghiùlanair agad, na roghainnean cànain agad is mion-fhiosrachadh eile.</string>
@@ -487,6 +484,7 @@
     <string name="sync_button_sync_cancel">Sguir dhen t-sioncronachadh</string>
     <string name="sync_is_failing">Tha duilgheadasan aig an t-sioncronachadh an-dràsta. Bidh e air ais a dh’aithghearr.</string>
     <string name="privacy_settings_title">Prìobhaideachd</string>
+    <string name="permission_grant_ask">Faighnich dhìom gach turas</string>
     <string name="security_settings_title">Tèarainteachd</string>
     <string name="security_settings_subtitle">Glas na sgrìn</string>
     <string name="security_lock_none">Gun ghlas</string>

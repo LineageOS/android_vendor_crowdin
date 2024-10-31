@@ -985,6 +985,7 @@
     <string name="restr_pin_try_later">دواتر دووبارە هەوڵبدە</string>
     <string name="confirm_battery_saver">باشه‌</string>
     <string name="zen_mode_feature_name">مەمشێوێنە</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="floating_toolbar_open_overflow_description">بەربژاردەی زیاتر</string>
     <string name="call_notification_decline_action">ڕەتکردنەوە</string>
     <string name="locale_search_menu">گەڕان</string>
@@ -1002,4 +1003,5 @@
     <string name="accessibility_system_action_back_label">گەڕانەوە</string>
     <string name="resolver_work_tab">کار</string>
     <string name="profile_label_work">کار</string>
+    <string name="biometric_dangling_notification_action_not_now">ئێستا نا</string>
 </resources>

@@ -1039,6 +1039,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="zen_mode_until">Bis <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="toolbar_collapse_description">Zouklappen</string>
     <string name="zen_mode_feature_name">Net stéieren</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="system_error_wipe_data">Mat dengem Apparat ass en interne Problem opgetrueden. Wann e sech instabil behuelt muss du en op d\'Wierksastellungen zrécksetzen.</string>
     <string name="system_error_manufacturer">Mat dengem Apparat ass en interne Problem opgetrueden. Kontaktéier däin Hiersteller fir méi Detailer.</string>
     <string name="expand_button_content_description_expanded">Zouklappen</string>
@@ -1064,4 +1065,5 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="accessibility_system_action_back_label">Zréck</string>
     <string name="resolver_work_tab">Aarbecht</string>
     <string name="profile_label_work">Aarbecht</string>
+    <string name="biometric_dangling_notification_action_not_now">Net elo</string>
 </resources>

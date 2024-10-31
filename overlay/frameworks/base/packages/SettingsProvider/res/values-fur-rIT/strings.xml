@@ -18,6 +18,4 @@
 -->
 <resources>
     <string name="app_label">Archiviazion impostazions</string>
-    <string name="wifi_softap_config_change">Lis impostazions pal pont di acès a son stadis cambiadis</string>
-    <string name="wifi_softap_config_change_summary">Tocje par viodi i detais</string>
 </resources>

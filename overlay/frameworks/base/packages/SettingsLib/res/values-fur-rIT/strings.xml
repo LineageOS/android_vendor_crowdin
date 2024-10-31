@@ -65,18 +65,12 @@
     <string name="bluetooth_connected_no_headset_battery_level">Conetût (cence telefon), batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Conetût (cence multimedia), batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Conetût (cence telefon o multimedia), batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
-    <string name="bluetooth_active_battery_level">Atîf, <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie</string>
-    <string name="bluetooth_active_battery_level_untethered">Atîf, Ç: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g></string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie</string>
     <string name="tv_bluetooth_battery_level">Batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
-    <string name="bluetooth_battery_level_untethered">Ç: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g></string>
-    <string name="bluetooth_battery_level_untethered_left">Çampe <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
-    <string name="bluetooth_battery_level_untethered_right">Diestre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="tv_bluetooth_battery_level_untethered_left">Çampe <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="tv_bluetooth_battery_level_untethered_right">Diestre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Atîf</string>
     <string name="bluetooth_saved_device">Salvât</string>
-    <string name="bluetooth_hearing_aid_left_active">Ative, dome a çampe</string>
-    <string name="bluetooth_hearing_aid_right_active">Ative, dome a diestre</string>
-    <string name="bluetooth_hearing_aid_left_and_right_active">Ative, a çampe e a diestre</string>
     <string name="bluetooth_profile_a2dp">Audio multimedia</string>
     <string name="bluetooth_profile_headset">Clamadis telefonichis</string>
     <string name="bluetooth_profile_opp">Trasferiment files</string>
@@ -427,9 +421,6 @@
     <string name="transcode_default">Presupon che lis aplicazions a supuartin i formâts modernis</string>
     <string name="transcode_notification">Mostre lis notifichis di transcodifiche</string>
     <string name="transcode_disable_cache">Disative la cache di transcodifiche</string>
-    <string name="widevine_settings_title">Impostazions Widevine</string>
-    <string name="force_l3_fallback_title">Sfuarce repeç L3</string>
-    <string name="force_l3_fallback_summary">Selezione di sfuarçâ il repeç L3</string>
     <string name="runningservices_settings_title">Servizis in esecuzion</string>
     <string name="runningservices_settings_summary">Visualize e controle i servizis al moment in esecuzion</string>
     <string name="select_webview_provider_title">Implementazion WebView</string>
@@ -484,6 +475,7 @@
     <string name="battery_info_status_full">Cjame</string>
     <string name="battery_info_status_full_charged">Cjarie completade</string>
     <string name="battery_info_status_charging_on_hold">Ricjarie in spiete</string>
+    <string name="battery_info_status_charging_v2">In cjarie</string>
     <string name="disabled_by_admin_summary_text">Controlât dal aministradôr</string>
     <string name="disabled_by_app_ops_text">Controlade midiant impostazion cun restrizions</string>
     <string name="disabled">Disativade</string>
@@ -624,7 +616,6 @@
     <string name="add_user_failed">Nol è stât pussibil creâ un gnûf utent</string>
     <string name="add_guest_failed">Nol è stât pussibil creâ un gnûf ospit</string>
     <string name="user_nickname">Sorenon</string>
-    <string name="edit_user_info_message">Il to non e la tô imagjin a saran visibii a ducj chei che a dopraran chest dispositîf.</string>
     <string name="user_add_user">Zonte utent</string>
     <string name="guest_new_guest">Zonte ospit</string>
     <string name="guest_exit_guest">Gjave ospit</string>
@@ -655,8 +646,6 @@
     <string name="guest_notification_non_ephemeral">Tu puedis salvâ o eliminâ la tô ativitât ae jessude</string>
     <string name="guest_notification_non_ephemeral_non_first_login">Azere o elimine la ativitât
         de session cumò, o tu puedis salvâ o eliminâ la ativitât ae jessude</string>
-    <string name="user_image_take_photo">Fâs une foto</string>
-    <string name="user_image_choose_photo">Sielç une imagjin</string>
     <string name="user_image_photo_selector">Selezione foto</string>
     <string name="failed_attempts_now_wiping_device">Masse tentatîfs sbaliâts. I dâts di chest dispositîf a vignaran eliminâts.</string>
     <string name="failed_attempts_now_wiping_user">Masse tentatîfs sbaliâts. Chest utent al vignarà eliminât.</string>
@@ -698,12 +687,9 @@
     <string name="accessibility_ethernet_disconnected">Ethernet discolegât.</string>
     <string name="accessibility_ethernet_connected">Ethernet.</string>
     <string name="accessibility_no_calling">Clamadis no disponibilis.</string>
-    <string name="avatar_picker_title">Sielç une imagjin di profîl</string>
-    <string name="default_user_icon_description">Icone dal utent predefinide</string>
     <string name="physical_keyboard_title">Tastiere fisiche</string>
     <string name="keyboard_layout_dialog_title">Sielç disposizion de tastiere</string>
     <string name="keyboard_layout_default_label">Predefinît</string>
-    <string name="turn_screen_on_title">Impie il schermi</string>
     <string name="allow_turn_screen_on">Permet di impiâ il schermi</string>
     <string name="allow_turn_screen_on_description">Permet a une aplicazion di impiâ il schermi. Se chest permès al ven concedût, la aplicazion e podarès impiâ il schermi a cualsisei ore cence la tô autorizazion esplicite.</string>
     <string name="bt_le_audio_broadcast_dialog_title">Interompi la trasmission di <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>

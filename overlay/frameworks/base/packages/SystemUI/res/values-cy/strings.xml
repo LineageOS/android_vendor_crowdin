@@ -79,6 +79,7 @@
     <string name="screenshot_blocked_by_admin">Mae tynnu sgrinluniau wedi\'i rwystro gan dy weinyddwr TG</string>
     <string name="screenshot_edit_label">Golygu</string>
     <string name="screenshot_edit_description">Golygu\u2019r sgrinlun</string>
+    <string name="screenshot_share_label">Rhannu</string>
     <string name="screenshot_share_description">Rhannu\u2019r sgrinlun</string>
     <string name="screenshot_scroll_label">Cipio mwy</string>
     <string name="screenshot_dismiss_description">Cau\'r sgrinlun</string>
@@ -115,6 +116,8 @@
     <string name="screenrecord_save_text">Tapia i weld</string>
     <string name="screenrecord_save_error">Gwall cadw recordiad sgrin</string>
     <string name="screenrecord_start_error">Gwall wrth gychwyn recordio\'r sgrin</string>
+    <string name="cast_to_other_device_stop_dialog_button">Stopio taflu</string>
+    <string name="close_dialog_button">Cau</string>
     <string name="issuerecord_share_label">Rhannu</string>
     <string name="issuerecord_save_text">Tapia i weld</string>
     <string name="immersive_cling_positive">Deall yn iawn</string>
@@ -147,6 +150,7 @@
     <string name="biometric_dialog_tap_confirm_with_face_alt_2">Wedi adnabod wyneb. Pwysa i barhau.</string>
     <string name="biometric_dialog_tap_confirm_with_face_alt_3">Wedi adnabod wyneb. Pwysa\u2019r eicon datgloi i barhau.</string>
     <string name="biometric_dialog_authenticated">Dilyswyd</string>
+    <string name="biometric_dialog_cancel_authentication">Diddymu Dilysiad</string>
     <string name="biometric_dialog_use_pin">Defnyddio PIN</string>
     <string name="biometric_dialog_use_pattern">Defnyddio patrwm</string>
     <string name="biometric_dialog_use_password">Defnyddio cyfrinair</string>
@@ -154,6 +158,7 @@
     <string name="biometric_dialog_wrong_pattern">Patrwm anghywir</string>
     <string name="biometric_dialog_wrong_password">Cyfrinair anghywir</string>
     <string name="biometric_dialog_credential_too_many_attempts">Gormod o ymdrechion anghywir.\nRho gynnig arall arni ymhen <xliff:g id="number">%d</xliff:g> eiliad.</string>
+    <string name="work_challenge_emergency_button_text">Argyfwng</string>
     <string name="biometric_dialog_credential_attempts_before_wipe">Ceisio eto. Ymgais <xliff:g id="attempts" example="1">%1$d</xliff:g> o <xliff:g id="max_attempts" example="3">%2$d</xliff:g>.</string>
     <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Caiff dy ddata ei ddileu</string>
     <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Os fyddi wedi rhoi\'r patrwm anghywir ar yr ymgais nesaf, bydd data\'r ddyfais hon yn cael ei ddileu.</string>
@@ -166,6 +171,19 @@
     <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Os fyddi wedi rhoi\'r PIN anghywir ar yr ymgais nesaf, bydd data\'r ddyfais hon yn cael ei dileu.</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Os fyddi wedi rhoi\'r cyfrinair anghywir ar yr ymgais nesaf, bydd data\'r ddyfais hon yn cael ei dileu.</string>
     <string name="biometric_re_enroll_dialog_confirm">Gosod</string>
+    <string name="biometric_re_enroll_dialog_cancel">Dim nawr</string>
+    <string name="biometric_re_enroll_notification_content">Mae angen hwn i wella diogelwch a pherfformiad</string>
+    <string name="fingerprint_re_enroll_notification_title">Gosod Datgloi ag Ôl Bys eto</string>
+    <string name="fingerprint_re_enroll_notification_name">Datgloi ag Ôl Bys</string>
+    <string name="fingerprint_re_enroll_dialog_title">Gosod Datgloi ag Ôl Bys</string>
+    <string name="fingerprint_re_enroll_dialog_content">I osod Datgloi ag Ôl Bys eto, caiff delweddau a modelau cyfredol dy olion bysedd eu dileu.\n\nAr ôl iddynt gael eu dileu, bydd rhaid gosod Datgloi ag Ôl Bys eto i ddefnyddio dy ôl bys i ddatgloi dy ffôn neu gadarnhau mai ti sy\u2019n ei defnyddio.</string>
+    <string name="fingerprint_re_enroll_dialog_content_singular">I osod Datgloi ag Ôl Bys eto, caiff delweddau a model cyfredol dy ôl bys eu dileu.\n\nAr ôl iddynt gael eu dileu, bydd rhaid gosod Datgloi ag Ôl Bys eto i ddefnyddio dy ôl bys i ddatgloi dy ffôn neu gadarnhau mai ti sy\u2019n ei defnyddio.</string>
+    <string name="fingerprint_reenroll_failure_dialog_content">Methwyd gosod datgloi ag ôl bys. Cer i\u2019r Gosodiadau i geisio eto.</string>
+    <string name="face_re_enroll_notification_title">Gosod Datgloi ag Wyneb eto</string>
+    <string name="face_re_enroll_notification_name">Datgloi ag Wyneb</string>
+    <string name="face_re_enroll_dialog_title">Gosod Datgloi ag Wyneb</string>
+    <string name="face_re_enroll_dialog_content">I osod Datgloi ag Wyneb eto, caiff model cyfredol dy wyneb ei ddileu.\n\nBydd rhaid gosod Datgloi ag Wyneb eto i ddefnyddio dy wyneb i ddatgloi dy ffôn.</string>
+    <string name="face_reenroll_failure_dialog_content">Methwyd gosod datgloi ag wyneb. Cer i\u2019r Gosodiadau i geisio eto.</string>
     <string name="fingerprint_dialog_touch_sensor">Cyffyrdda\'r synhwyrydd ôl bys</string>
     <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="keyguard_suggest_fingerprint">Defnyddo ôl bys yn lle</string>
@@ -252,7 +270,6 @@
     <string name="quick_settings_networks_unavailable">Rhwydweithiau dim ar gael</string>
     <string name="quick_settings_wifi_detail_empty_text">Dim rhwydweithiau Wi-Fi ar gael</string>
     <string name="quick_settings_wifi_secondary_label_transient">Yn troi ymlaen…</string>
-    <string name="quick_settings_cast_title">Bwrw\'r Sgrin</string>
     <string name="quick_settings_casting">Yn bwrw</string>
     <string name="quick_settings_cast_device_default_name">Dyfais dienw</string>
     <string name="quick_settings_cast_detail_empty_text">Dim dyfeisiau ar gael</string>
@@ -307,12 +324,8 @@
     <string name="qs_record_issue_start">Dechrau</string>
     <string name="qs_record_issue_stop">Stopio</string>
     <string name="qs_record_issue_dropdown_screenrecord">Recordio\u2019r sgrin</string>
-    <string-array name="qs_record_issue_types">
-        <item>Performance</item>
-        <item>User Interface</item>
-        <item>Batri</item>
-    </string-array>
     <string name="quick_settings_onehanded_label">Modd un llaw</string>
+    <string name="quick_settings_pair_hearing_devices">Paru â dyfais newydd</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">Dadrwystro meicroffon y ddyfais?</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">Dadrwystro camera\u2019r dyfais?</string>
     <string name="sensor_privacy_start_use_mic_camera_dialog_title">Dadrwystro camera a meicroffon y ddyfais?</string>
@@ -379,6 +392,7 @@
     <string name="cta_tile_button_to_dismiss">Diystyru</string>
     <string name="button_to_remove_widget">Tynnu</string>
     <string name="hub_mode_editing_exit_button_text">Cwblhau</string>
+    <string name="button_text_to_open_settings">Agor gosodiadau</string>
     <string name="accessibility_multi_user_switch_switcher">Newid defnyddiwr</string>
     <string name="accessibility_multi_user_list_switcher">dewislen tynnu i lawr</string>
     <string name="guest_exit_guest_dialog_message">Caiff holl apiau a data\'r sesiwn hon eu dileu.</string>
@@ -506,12 +520,14 @@
     <string name="volume_stream_content_description_mute">%1$s. Tapia i\'w distewi. Mae\'n bosib bydd gwasanaethau hygyrchedd yn cael eu distewi.</string>
     <string name="volume_stream_content_description_vibrate_a11y">%1$s. Tapia i\'w osod i ddirgrynu.</string>
     <string name="volume_stream_content_description_mute_a11y">%1$s. Tapia i ddistewi.</string>
+    <string name="volume_panel_spatial_audio_off">I ffwrdd</string>
     <string name="volume_ringer_change">Tapia i newid modd canu</string>
     <string name="volume_ringer_hint_mute">distewi</string>
     <string name="volume_ringer_hint_unmute">dad-distewi</string>
     <string name="volume_ringer_hint_vibrate">dirgrynu</string>
     <string name="volume_dialog_title">Rheolaeth sain %s</string>
     <string name="volume_dialog_ringer_guidance_ring">Ni fydd unrhyw alwadau na hysbysiadau yn canu (<xliff:g id="volume level" example="56">%1$s</xliff:g>)</string>
+    <string name="volume_panel_hint_vibrate">dirgrynu</string>
     <string name="system_ui_tuner">Tiwniwr Rhyngwyneb y System</string>
     <string name="status_bar">Bar statws</string>
     <string name="demo_mode">Modd arddangos y system mewn siopau</string>
@@ -608,7 +624,6 @@
     <string name="keyboard_key_button_template">Botwm <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Cartref</string>
     <string name="keyboard_key_back">Nôl</string>
-    <string name="keyboard_key_dpad_center">Canol</string>
     <string name="keyboard_key_tab">Tab</string>
     <string name="keyboard_key_space">Bwlch</string>
     <string name="keyboard_key_enter">Bysell \'Enter\'</string>
@@ -635,6 +650,7 @@
     <string name="keyboard_shortcut_group_system_notifications">Hysbysiadau</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Bysellau Brys</string>
     <string name="keyboard_shortcut_group_system_switch_input">Newid gosodiad y bysellfwrdd</string>
+    <string name="keyboard_shortcut_search_list_title">Bysellau Brys</string>
     <string name="keyboard_shortcut_search_category_system">System</string>
     <string name="keyboard_shortcut_search_category_input">Mewnbwn</string>
     <string name="group_system_access_system_settings">Agor gosodiadau</string>
@@ -1076,7 +1092,6 @@ many {Mae # ap yn weithredol}
     <string name="rear_display_unfolded_bottom_sheet_description">Am gydranaid uwch, fflipia\'r ffôn</string>
     <string name="rear_display_accessibility_folded_animation">Dyfais blygadwy\'n cael ei dat-blygu</string>
     <string name="rear_display_accessibility_unfolded_animation">Dyfais blygadwy\'n cael ei fflipio</string>
-    <string name="stylus_battery_low_percentage"><xliff:g id="percentage" example="16%">%s</xliff:g> o fatri\u2019n weddill</string>
     <string name="stylus_battery_low_subtitle">Cysyllta dy ysgrifbin at wefrydd</string>
     <string name="stylus_battery_low">Batri ysgrifbin yn isel</string>
     <string name="video_camera">Camera fideo</string>
@@ -1086,8 +1101,11 @@ many {Mae # ap yn weithredol}
     <string name="camera_blocked_dream_overlay_content_description">Camera wedi\u2019i rwystro</string>
     <string name="camera_and_microphone_blocked_dream_overlay_content_description">Camera a meicroffon wedi\u2019u rhwystro</string>
     <string name="microphone_blocked_dream_overlay_content_description">Meicroffon wedi\u2019i rwystro</string>
-    <string name="priority_mode_dream_overlay_content_description">Modd blaenoriaeth ymlaen</string>
     <string name="dismiss_dialog">Diystyru</string>
     <string name="privacy_dialog_done_button">Cwblhau</string>
     <string name="privacy_dialog_collapse_action">Lleihau</string>
+    <string name="shortcut_helper_category_system">System</string>
+    <string name="shortcut_helper_category_input">Mewnbwn</string>
+    <string name="shortcut_helper_category_a11y">Hygyrchedd</string>
+    <string name="touchpad_tutorial_done_button">Cwblhau</string>
 </resources>

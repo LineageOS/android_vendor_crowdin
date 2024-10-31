@@ -82,7 +82,6 @@
     <string name="NetworkPreferenceSwitchTitle">Impussibil cjapâ la rêt mobile</string>
     <string name="NetworkPreferenceSwitchSummary">Prove a cambiâ la rêt preferide. Tocje par cambiâ.</string>
     <string name="EmergencyCallWarningTitle">Clamadis di emergjence no disponibilis</string>
-    <string name="EmergencyCallWarningSummary">Impussibil fâ clamadis di emergjence vie Wi\u2011Fi</string>
     <string name="notification_channel_network_alert">Alertis</string>
     <string name="notification_channel_call_forward">Deviazion clamadis</string>
     <string name="notification_channel_emergency_callback">Modalitât de clamade di rispueste pe emergjence</string>
@@ -149,16 +148,8 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> dopo <xliff:g id="time_delay">{2}</xliff:g> seconts</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: no mandât indevant</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: no mandât indevant</string>
-    <string name="scCellularNetworkSecurityTitle">Sigurece de rêt celulâr</string>
-    <string name="scCellularNetworkSecuritySummary">Controle lis impostazions</string>
-    <string name="scIdentifierDisclosureIssueTitle">Acès al identificadôr dal dispositîf</string>
-    <string name="scIdentifierDisclosureIssueSummary">Une rêt su la conession <xliff:g id="disclosure_network">%4$s</xliff:g> e à regjistrât l\'identificadôr univoc (IMSI) dal to dispositîf par <xliff:g id="disclosure_count">%1$d</xliff:g> voltis te dade di timp tra: <xliff:g id="disclosure_window_start_time">%2$tr</xliff:g> e: <xliff:g id="disclosure_window_end_time">%3$tr</xliff:g>.</string>
-    <string name="scNullCipherIssueEncryptedTitle">Conession cifrade a: <xliff:g id="network_name">%1$s</xliff:g></string>
-    <string name="scNullCipherIssueEncryptedSummary">Cumò tu âs stabilît une conession a une rêt mobile plui sigure.</string>
-    <string name="scNullCipherIssueNonEncryptedTitle">Conession cence cifradure a: <xliff:g id="network_name">%1$s</xliff:g></string>
-    <string name="scNullCipherIssueNonEncryptedSummary">Tu stâs intune rêt celulâr cence cifradure. Lis tôs clamadis, i messaçs e i dâts a puedin vignî intercetâts.</string>
-    <string name="scNullCipherIssueActionSettings">Impostazions sigurece rêt mobile</string>
     <string name="scNullCipherIssueActionLearnMore">Plui informazions</string>
+    <string name="scNullCipherIssueActionGotIt">Capît</string>
     <string name="fcComplete">Codiç di funzion complet.</string>
     <string name="fcError">Probleme di conession o codiç di funzion no valit.</string>
     <string name="httpErrorOk">Va ben</string>
@@ -299,6 +290,7 @@
     <string name="global_action_voice_assist">Assistence vocâl</string>
     <string name="global_action_lockdown">Bloche</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="notification_compact_heads_up_reply">Rispuint</string>
     <string name="notification_hidden_text">Gnove notifiche</string>
     <string name="notification_channel_physical_keyboard">Tastiere fisiche</string>
     <string name="notification_channel_security">Sigurece</string>
@@ -819,7 +811,6 @@
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Impront no ricognossût</string>
     <string name="fingerprint_udfps_error_not_match">Impront no ricognossût</string>
-    <string name="fingerprint_dialog_use_fingerprint_instead">Impussibil ricognossi la muse. Dopre l\'impront.</string>
     <string name="fingerprint_authenticated">Impront digjitâl autenticade</string>
     <string name="face_authenticated_no_confirmation_required">Muse autenticade</string>
     <string name="face_authenticated_confirmation_required">Muse autenticade, frache conferme</string>
@@ -2213,7 +2204,6 @@
     <string name="restr_pin_error_too_short">Il PIN al è masse curt. Al scugne vê almancul 4 cifris.</string>
     <string name="restr_pin_try_later">Torne prove plui tart</string>
     <string name="immersive_cling_title">Daûr a viodi a plen schermi</string>
-    <string name="immersive_cling_description">Par lâ fûr, di parsore scor in jù.</string>
     <string name="immersive_cling_positive">Capît</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Volte par viodi miôr</string>
     <string name="display_rotation_camera_compat_toast_in_multi_window">Vierç <xliff:g id="name" example="MyApp">%s</xliff:g> a plen schermi par viodi miôr</string>
@@ -2239,7 +2229,6 @@
     <string name="lock_to_app_unlock_pin">Domande il PIN prime di molâ</string>
     <string name="lock_to_app_unlock_pattern">Domande une cumbinazion di sbloc prime di molâ</string>
     <string name="lock_to_app_unlock_password">Domande une password prime di molâ</string>
-    <string name="package_installed_device_owner">Instalât dal to aministradôr</string>
     <string name="package_updated_device_owner">Inzornât dal to aministradôr</string>
     <string name="package_deleted_device_owner">Eliminât dal to aministradôr</string>
     <string name="confirm_battery_saver">Va ben</string>
@@ -2304,6 +2293,7 @@
     <string name="zen_mode_implicit_trigger_description">Gjestît di <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="zen_mode_implicit_activated">On</string>
     <string name="zen_mode_implicit_deactivated">Off</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="muted_by"><xliff:g id="third_party">%1$s</xliff:g> al sta cidinant cualchi sun</string>
     <string name="system_error_wipe_data">Il to dispositîf al à un probleme interni e al podarès jessi instabil fintremai che no tu fasis un ripristinament dai dâts di fabriche.</string>
     <string name="system_error_manufacturer">Il to dispositîf al à un probleme interni. Contate il produtôr pai detais.</string>
@@ -2569,7 +2559,6 @@
     <string name="accessibility_system_action_dpad_left_label">D-pad - Çampe</string>
     <string name="accessibility_system_action_dpad_right_label">D-pad - Diestre</string>
     <string name="accessibility_system_action_dpad_center_label">D-pad - Centri</string>
-    <string name="accessibility_freeform_caption">Sbare dal titul di <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="as_app_forced_to_restricted_bucket">        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> al è stât metût tal seglot LIMITÂTS (RESTRICTED)</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">al/e à mandât une imagjin</string>
@@ -2773,8 +2762,13 @@
     <string name="profile_label_work_3">Lavôr 3</string>
     <string name="profile_label_test">Prove</string>
     <string name="profile_label_communal">In comun</string>
+    <string name="accessibility_label_managed_profile">Profîl di lavôr</string>
+    <string name="accessibility_label_clone_profile">Clon</string>
+    <string name="accessibility_label_communal_profile">In comun</string>
     <string name="satellite_notification_title">Conetût in automatic al satelit</string>
     <string name="satellite_notification_summary">Tu puedis mandâ e ricevi messaçs cence une rêt celulâr o Wi-Fi</string>
     <string name="satellite_notification_open_message">Vierç messaçs</string>
     <string name="satellite_notification_how_it_works">Cemût funzionial?</string>
+    <string name="biometric_dangling_notification_action_set_up">Configure</string>
+    <string name="biometric_dangling_notification_action_not_now">No cumò</string>
 </resources>

@@ -101,13 +101,13 @@
     <string name="security_settings_title">Sécherheet</string>
     <string name="disabled_by_administrator_summary">Net disponibel</string>
     <string name="security_settings_face_enroll_introduction_cancel">Ofbriechen</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks">Nee Merci</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Net elo</string>
     <string name="security_settings_face_enroll_introduction_more">Méi</string>
     <string name="security_settings_face_enroll_enrolling_skip">Iwwersprangen</string>
     <string name="security_settings_face_enroll_dialog_ok">OK</string>
     <string name="security_settings_face_enroll_done">Fäerdeg</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Ofbriechen</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Nee Merci</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Net elo</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">Net elo</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Weider</string>
     <string name="security_settings_remoteauth_enroll_introduction_more">Méi</string>
@@ -126,9 +126,8 @@
     <string name="fingerprint_enroll_button_next">Weider</string>
     <string name="security_header">Sécherheet</string>
     <string name="work_profile_category_header">Aarbechtsprofil</string>
-    <string name="private_space_auto_lock_never">Ni</string>
-    <string name="privatespace_hide_off_summary">Aus</string>
-    <string name="privatespace_hide_on_summary">Un</string>
+    <string name="private_space_hide_off_summary">Aus</string>
+    <string name="private_space_hide_on_summary">Un</string>
     <string name="private_space_category_system">System</string>
     <string name="private_space_delete_button_label">Läschen</string>
     <string name="no_device_lock_cancel">Ofbriechen</string>
@@ -324,12 +323,12 @@
     <string name="status_wifi_mac_address">WLAN-MAC-Adress</string>
     <string name="status_bt_address">Bluetooth-Adress</string>
     <string name="status_serial_number">Seriennummer</string>
-    <string name="status_up_time">Betribszäit</string>
     <string name="battery_cycle_count_not_available">Net disponibel</string>
     <string name="memory_calculating_size">Gëtt berechent\u2026</string>
     <string name="storage_menu_rename">Ëmbenennen</string>
     <string name="storage_menu_forget">Vergiessen</string>
     <string name="storage_other_users">Aner Benotzer</string>
+    <string name="storage_system_label">System</string>
     <string name="storage_wizard_slow_v2_continue">Weider</string>
     <string name="battery_status_title">Akkustatus</string>
     <string name="battery_level_title">Akkuniveau</string>
@@ -598,6 +597,7 @@
     <string name="display_category_title">Usiicht</string>
     <string name="color_contrast_preview">Virschau</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">Ofbriechen</string>
+    <string name="accessibility_tutorial_dialog_configure_software_shortcut_type">Méi Optiounen</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Erweidert</string>
     <string name="accessibility_button_location_title">Standuert</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Héich-Kontrasträichen Text</string>
@@ -745,6 +745,8 @@
     <string name="vpn_settings_title">VPN</string>
     <string name="adaptive_connectivity_switch_on">Un</string>
     <string name="adaptive_connectivity_switch_off">Aus</string>
+    <string name="cellular_security_notifications">Notifikatiounen</string>
+    <string name="cellular_security_settings_encryption_title">Verschlësselung</string>
     <string name="credentials_title">Umeldungsdatespäicher</string>
     <string name="credentials_reset">Zouganksdate läschen</string>
     <string name="credentials_reset_summary">All d\'Zertifikater läschen</string>
@@ -986,6 +988,8 @@
     <string name="spatial_summary_off">Aus</string>
     <string name="zen_mode_schedule_delete">Läschen</string>
     <string name="zen_mode_rule_name_edit">Änneren</string>
+    <string name="zen_mode_automatic_trigger_title">Automatesch uschalten</string>
+    <string name="mode_display_settings_title">Schiermastellungen</string>
     <string name="zen_mode_block_effect_summary_none">Ni</string>
     <string name="zen_mode_no_exceptions">Ouni</string>
     <string name="zen_mode_add">Dobäisetzen</string>
@@ -1041,9 +1045,13 @@
     <string name="zen_mode_media_list_first">Medien</string>
     <string name="zen_mode_system">Beréierungstéin</string>
     <string name="zen_mode_system_list_first">Beréierungstéin</string>
+    <string name="zen_mode_apps_title">Appen</string>
+    <string name="zen_mode_apps_none_apps">Ouni</string>
+    <string name="zen_mode_apps_all_apps">All</string>
     <string name="zen_mode_bypassing_apps_title">Appen</string>
     <string name="zen_mode_start_time">Startzäit</string>
     <string name="zen_mode_end_time">Schlusszäit</string>
+    <string name="zen_mode_action_change_name">Ëmbenennen</string>
     <string name="suggestion_button_close">Zoumaachen</string>
     <string name="device_feedback">Feedback iwwer dësen Apparat schécken</string>
     <string name="switch_on_text">Un</string>
@@ -1124,9 +1132,11 @@
     <string name="sim_action_no_thanks">Nee Merci</string>
     <string name="sim_action_cancel">Ofbriechen</string>
     <string name="primary_sim_calls_title">Uriff</string>
+    <string name="sim_onboarding_close">Zoumaachen</string>
     <string name="sim_onboarding_next">Weider</string>
     <string name="mobile_network_phone_number_title">Telefonsnummer</string>
     <string name="wifi_warning_return_button">OK</string>
+    <string name="bluetooth_header_battery_content_description">Akku</string>
     <string name="privacy_controls_title">Steierelementer</string>
     <string name="contextual_card_dismiss_remove">Ewechhuelen</string>
     <string name="wfc_disclaimer_location_title_text">Standuert</string>
@@ -1156,7 +1166,7 @@
     </string-array>
     <string name="tare_dialog_confirm_button_title">Bestätegen</string>
     <string name="dream_preview_button_title">Virschau</string>
-    <string name="bluetooth_details_audio_device_type_unknown">Onbekannt</string>
+    <string name="bluetooth_details_audio_device_type_unknown">Net gesat</string>
     <string name="flash_notifications_summary_off">Aus</string>
     <string name="flash_notifications_preview">Virschau</string>
     <string name="screen_flash_color_blue">Blo</string>
@@ -1183,4 +1193,17 @@
     <string name="show_captions_enabled">Un</string>
     <string name="live_caption_disabled">Aus</string>
     <string name="live_caption_enabled">Un</string>
+    <string name="audio_sharing_stream_name_title">Numm</string>
+    <string name="audio_sharing_stream_password_title">Passwuert</string>
+    <string name="audio_sharing_summary_on">Un</string>
+    <string name="audio_sharing_summary_off">Aus</string>
+    <string name="audio_sharing_no_thanks_button_label">Nee Merci</string>
+    <string name="audio_sharing_close_button_label">Zoumaachen</string>
+    <string name="audio_sharing_settings_button_label">Astellungen</string>
+    <string name="audio_sharing_connect_button_label">Connectéieren</string>
+    <string name="audio_streams_disconnect">Deconnectéieren</string>
+    <string name="audio_streams_connect">Connectéieren</string>
+    <string name="audio_streams_connecting_summary">Connectioun gëtt hiergestallt\u2026</string>
+    <string name="audio_streams_dialog_close">Zoumaachen</string>
+    <string name="audio_streams_dialog_learn_more">Méi gewuer ginn</string>
 </resources>

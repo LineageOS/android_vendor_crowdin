@@ -5,4 +5,6 @@
     <string name="pair_no">Uhu</string>
     <string name="wifi_connect">Qqen</string>
     <string name="status_wifi_connected">Iqqen</string>
+    <string name="enable_nfc_yes">Ih</string>
+    <string name="enable_nfc_no">Uhu</string>
 </resources>

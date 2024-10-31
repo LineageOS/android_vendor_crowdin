@@ -54,4 +54,6 @@
     <string name="nfc_blocking_alert_message">Tapia i ddysgu sut i\'w drwsio.</string>
     <string name="nfc_logging_alert_title">Mae data NFC yn cael ei recordio</string>
     <string name="nfc_logging_alert_message">Tapia i stopio recordio</string>
+    <string name="enable_nfc_yes">Iawn</string>
+    <string name="enable_nfc_no">Na</string>
 </resources>

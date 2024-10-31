@@ -81,6 +81,13 @@
         <item>Ri làimh</item>
         <item>Ro fhad air falbh</item>
     </string-array>
+    <string-array name="bt_stack_log_level_entries">
+        <item>Briathrach</item>
+        <item>Dì-bhugachadh</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Error</item>
+    </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Cleachd bun-roghainn an t-siostaim: <xliff:g id="default_bluetooth_max_connected_audio_devices">%1$d</xliff:g></item>
         <item>1</item>
@@ -390,7 +397,7 @@
         <item>Dèilig ris mar fhear neo-mheadaraichte</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
-        <item>Cleachd MAC tuaireamach (bun-roghainn)</item>
+        <item>Use randomized MAC</item>
         <item>Cleachd MAC an uidheim</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
@@ -462,4 +469,5 @@
         <item>After 1 minute</item>
         <item>After 5 minutes</item>
     </string-array>
+    <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>

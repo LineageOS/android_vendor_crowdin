@@ -21,6 +21,7 @@
     <string name="brightness">Nivel di luminositât</string>
     <string name="auto_brightness_title">Luminositât adative</string>
     <string name="auto_brightness_summary">La luminositât dal schermi si adate al ambient </string>
+    <string name="theme_toggle_title">Teme</string>
     <string name="condition_night_display_title">La lûs noturne e je ative</string>
     <string name="network_and_internet">Rêt e internet</string>
     <string name="mobile_network_settings">Rêt mobile</string>
@@ -176,8 +177,6 @@
     <string name="hotspot_settings_title">Pont di acès</string>
     <string name="wifi_hotspot_switch_title">Dopre pont di acès Wi\u2011Fi</string>
     <string name="wifi_hotspot_state_off">Off</string>
-    <string name="wifi_hotspot_auto_off_title">Disative il pont di acès in automatic</string>
-    <string name="wifi_hotspot_auto_off_summary">Il pont di acès Wi\u2011Fi si distudarà se nol è colegât nissun dispositîf.</string>
     <string name="wifi_hotspot_qr_code_text">Scansione chest codiç QR par jentrâ in \u0022%s\u0022</string>
     <string name="wifi_hotspot_qr_code_password_text">Password dal pont di acès: %s</string>
     <string name="wifi_ask_enable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> al vûl ativâ il Wi-Fi</string>
@@ -386,12 +385,12 @@
     <string name="app_list_preference_none">Nissune</string>
     <string name="default_app_selected_app">Selezionade</string>
     <string name="assistant_security_warning">L\'assistent al rivarà a lei lis informazions su lis aplicazions in ûs sul sisteme, includudis lis informazions visibilis su schermi o acessibilis dentri des aplicazions.</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message">        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> al dopre ce che al è
         sul schermi par determinâ ce che al pues compilâ in automatic.
-        ]]></string>
+        </string>
     <string name="autofill_add_service">Zonte servizi</string>
     <string name="app_launch_domain_links_title">Viertidure dai colegaments</string>
     <string name="domain_url_section_title">Aplicazions instaladis</string>
@@ -436,7 +435,6 @@
     <string name="notification_listener_revoke_warning_cancel">Anule</string>
     <string name="performance_impacting_apps_description">Chestis aplicazions a influissin in mût negatîf su lis prestazions dal sisteme e a ur è stat impedît di zirâ in sotfont.\nDa prioritât a aplicazion al permet la utilizazion de aplicazion in sotfont e al permet di gjavâle di cheste liste.</string>
     <string name="performance_impacting_apps_button_label">Da prioritât a aplicazion</string>
-    <string name="premium_sms_access_title">Acès a SMS premium</string>
     <string name="premium_sms_access_description">I SMS Premium a podaressin costâti bêçs che a vignaran zontâts aes boletis dal to operadôr. Se tu ativis il permès par une aplicazion, ti rivarâs a doprâle par mandâ SMS premium.</string>
     <string name="usage_access_title">Acès ai dâts di utilizazion</string>
     <string name="usage_access_description">L\'acès ai dâts di utilizazion al permès a une aplicazion di tignî di voli cualis altris aplicazions tu dopris e trop dispès, e ancje il to operadôr, lis impostazions de lenghe e altris detais.</string>
@@ -706,27 +704,9 @@
     <string name="action_unavailable">Cheste azion no je disponibile pal to profîl</string>
     <string name="camera_access_settings_title">Acès ae fotocjamare</string>
     <string name="camera_access_settings_summary">Sielç se lis aplicazions a puedin acedi aes fotocjamaris de machine</string>
-    <string name="camera_access_radio_group_title">Dopre lis fotocjamaris de machine cun:</string>
-    <string name="camera_access_radio_any_app_title">Cualsisei aplicazion</string>
-    <string name="camera_access_radio_any_app_summary">Dutis lis aplicazions che a puedin acedi ae tô fotocjamare</string>
-    <string name="camera_access_radio_no_apps_title">Nissune aplicazion</string>
-    <string name="camera_access_radio_no_apps_summary">Nissune des tôs aplicazions</string>
-    <string name="camera_access_radio_helpful_apps_title">Aplicazions che ti judin te vuide</string>
-    <string name="camera_access_radio_helpful_apps_summary">Aplicazions che ti assistin cun robis come mostrâ i tiei dintors cuant che tu parchis</string>
-    <string name="camera_access_radio_required_apps_title">Dome aplicazions domandadis</string>
-    <string name="camera_access_radio_required_apps_summary">Dome lis aplicazions domandadis dal to produtôr de machine</string>
-    <string name="camera_access_radio_helpful_required_apps_title">Aplicazions che ti judin te vuide</string>
-    <string name="camera_access_radio_helpful_required_apps_summary">Aplicazions che ti assistin cun robis come il mostrâ i dintors cuant che tu parchis e aplicazions domandadis</string>
-    <string name="camera_helpful_apps_list_title">Aplicazions che ti judin te vuide</string>
-    <string name="camera_helpful_apps_list_summary">Chestis aplicazions a puedin acedi ae tô fotocjamare par judâti cu la vuide</string>
-    <string name="camera_required_apps_list_title">Aplicazions domandadis</string>
-    <string name="camera_required_apps_list_summary">Chestis aplicazions a son necessaris par fâ funzionâ in sigurece la tô machine</string>
-    <string name="camera_privacy_policy_button_text">Politiche</string>
-    <string name="camera_access_disclaimer_summary">        Il produtôr de tô machine al podarès distès rivâ a acedi ae fotocjamare de tô machine. Tu puedis
-        esaminâ lis lôr politichis par vê plui informazions.
-    </string>
-    <string name="camera_privacy_policy_info_summary">        Scuvierç di plui su cemût che ogni aplicazion e dopre la tô fotocjamare tornant a esaminâ lis sôs politichis su la riservatece.
-    </string>
+    <string name="required_apps_group_title">Aplicazions domandadis</string>
+    <string name="required_apps_privacy_policy_button_text">Politiche</string>
+    <string name="permission_grant_ask">Domande ogni volte</string>
     <string name="security_settings_title">Sigurece</string>
     <string name="security_settings_subtitle">Bloc schermi</string>
     <string name="security_lock_none">Nissun</string>

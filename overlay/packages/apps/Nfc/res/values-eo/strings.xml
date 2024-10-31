@@ -3,4 +3,5 @@
     <string name="cancel">Nuligi</string>
     <string name="device">aparato</string>
     <string name="pair_yes">Jes</string>
+    <string name="enable_nfc_yes">Jes</string>
 </resources>

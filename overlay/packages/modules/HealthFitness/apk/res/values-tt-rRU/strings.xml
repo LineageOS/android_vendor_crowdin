@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2022 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="data_type_separator" description="Separator (comma and whitespace in English) for a potentially long list of data type names listed in data access entry, as in 'Write: Steps, Distance, Calories'. [CHAR_LIMIT=NONE]">,\u0020</string>
+    <string name="select_all_apps_title" description="Title shown for clearing filters. [CHAR_LIMIT=40]">Барлык кушымталар</string>
+    <string name="elapsed_time_placeholder" description="Value to represent time for un realistic data input.">--:--</string>
+    <string name="day_duration" translation_description="Days duration representation [CHAR LIMIT=8]"><xliff:g example="2 days" id="days">%1$s</xliff:g></string>
+    <string name="vitamin_a" description="Vitamin A, also known as retinol, is key for good vision, a healthy immune system, and cell growth. [CHAR LIMIT=50]">A витамины</string>
+    <string name="vitamin_b12" description="Vitamin B12, also known as cobalamin, is a water-soluble vitamin involved in metabolism. [CHAR LIMIT=50]">B12 витамины</string>
+    <string name="vitamin_b6" description="Vitamin B6 is one of the B vitamins, and thus an essential nutrient. [CHAR LIMIT=50]">B6 витамины</string>
+    <string name="vitamin_c" description="Vitamin C is a water-soluble vitamin found in various foods and sold as a dietary supplement. [CHAR LIMIT=50]">C витамины</string>
+    <string name="vitamin_d" description="Vitamin D helps regulate the amount of calcium and phosphate in the body. [CHAR LIMIT=50]">D витамины</string>
+    <string name="vitamin_e" description="Vitamin E is an important fat-soluble nutrient. It's a powerful antioxidant and is needed for immune health and cellular signaling in your body. [CHAR LIMIT=50]">E витамины</string>
+    <string name="vitamin_k" description="Vitamin K is a group of vitamins that the body needs for blood clotting, helping wounds to heal. [CHAR LIMIT=50]">K витамины</string>
+    <string name="stone_pound_short_label" translation_description="Weight in stone and pounds. Example: 9st 2lb. [ICU][CHAR LIMIT=60]">{stone_part} {pound_part}</string>
+    <string name="stone_pound_long_label" translation_description="Weight in stone and pounds representation used by accessibility. Example: 9 stone, 2 pounds. [ICU][CHAR LIMIT=60]">{stone_part} {pound_part}</string>
+    <string name="temperature_celsius" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural, =1 {1℃} other {#℃}}</string>
+    <string name="temperature_kelvin" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural, =1 {1K} other {#K}}</string>
+    <string name="temperature_fahrenheit" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural, =1 {1℉} other {#℉}}</string>
+    <string name="temperatureDelta_celsius" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural, =1 {{formattedValue}℃} other {{formattedValue}℃}}</string>
+    <string name="temperatureDelta_fahrenheit" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural, =1 {{formattedValue}℉} other {{formattedValue}℉}}</string>
+    <string name="temperatureDelta_kelvin" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural, =1 {{formattedValue}K} other {{formattedValue}K}}</string>
+    <string name="percent" description="Percentage value with unit. [ICU SYNTAX][CHAR LIMIT=80]" formatted="false">{value, plural, =1 {1%} other {#%}}</string>
+</resources>

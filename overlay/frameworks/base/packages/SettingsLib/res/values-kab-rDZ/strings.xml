@@ -95,6 +95,7 @@
     <string name="battery_info_status_unknown">Arussin</string>
     <string name="battery_info_status_charging">Ittɛemmiṛ</string>
     <string name="battery_info_status_charging_dock">Ittɛemmiṛ</string>
+    <string name="battery_info_status_charging_v2">Ittɛemmiṛ</string>
     <string name="disabled">Insa</string>
     <string name="external_source_trusted">Ittwasireg</string>
     <string name="external_source_untrusted">Ur ittwasireg ara</string>

@@ -90,10 +90,12 @@
     <string name="security_settings_title">بىخەتەرلىك</string>
     <string name="disabled_by_administrator_summary">ئىشلەتكىلى بولمايدۇ</string>
     <string name="security_settings_face_enroll_introduction_cancel">ۋاز كەچ</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">ھازىرچە ياق</string>
     <string name="security_settings_face_enroll_enrolling_skip">ئاتلا</string>
     <string name="security_settings_face_enroll_dialog_ok">جەزملە</string>
     <string name="security_settings_face_enroll_done">تامام</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">ۋاز كەچ</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">ھازىرچە ياق</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">ھازىرچە ياق</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">داۋاملاشتۇر</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">ۋاز كەچ</string>
@@ -109,8 +111,8 @@
     <string name="security_settings_fingerprint_enroll_done">تامام</string>
     <string name="fingerprint_enroll_button_next">كېيىنكى</string>
     <string name="security_header">بىخەتەرلىك</string>
-    <string name="privatespace_hide_off_summary">تاقاق</string>
-    <string name="privatespace_hide_on_summary">ئوچۇق</string>
+    <string name="private_space_hide_off_summary">تاقاق</string>
+    <string name="private_space_hide_on_summary">ئوچۇق</string>
     <string name="private_space_delete_button_label">ئۆچۈر</string>
     <string name="no_device_lock_cancel">ۋاز كەچ</string>
     <string name="private_space_cancel_label">ۋاز كەچ</string>
@@ -283,7 +285,6 @@
     <string name="status_wifi_mac_address">Wi-Fi MAC ئادرېسى</string>
     <string name="status_bt_address">كۆكچىش ئادرېسى</string>
     <string name="status_serial_number">تەرتىپ نومۇرى</string>
-    <string name="status_up_time">ئىشلىگەن ۋاقتى</string>
     <string name="battery_cycle_count_not_available">ئىشلەتكىلى بولمايدۇ</string>
     <string name="memory_calculating_size">ھېسابلاۋاتىدۇ…</string>
     <string name="storage_menu_rename">ئات ئۆزگەرت</string>
@@ -532,6 +533,7 @@
     <string name="display_category_title">ئېكران</string>
     <string name="color_contrast_preview">ئالدىن كۆزەت</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">ۋاز كەچ</string>
+    <string name="accessibility_tutorial_dialog_configure_software_shortcut_type">تېخىمۇ كۆپ تاللانما</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">ئالىي</string>
     <string name="accessibility_button_location_title">ئورنى</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">ئېكران چوڭايتىش ھالىتىنى ئۆزلۈكىدىن يېڭىلا</string>
@@ -653,6 +655,8 @@
     <string name="vpn_settings_title">VPN</string>
     <string name="adaptive_connectivity_switch_on">ئوچۇق</string>
     <string name="adaptive_connectivity_switch_off">تاقاق</string>
+    <string name="cellular_security_notifications">ئۇقتۇرۇشلار</string>
+    <string name="cellular_security_settings_encryption_title">شىفىرلاش</string>
     <string name="credentials_title">ئىسپاتلىق ساقلاش</string>
     <string name="credentials_reset">ئىسپاتلارنى تازىلا</string>
     <string name="credentials_reset_summary">ھەممە گۇۋاھنامەلەرنى چىقىرىۋەت</string>
@@ -832,6 +836,7 @@
     <string name="spatial_summary_off">تاقاق</string>
     <string name="zen_mode_schedule_delete">ئۆچۈر</string>
     <string name="zen_mode_rule_name_edit">تەھرىر</string>
+    <string name="mode_display_settings_title">كۆرسىتىش تەڭشەكلەر</string>
     <string name="zen_mode_no_exceptions">يوق</string>
     <string name="zen_mode_add">قوش</string>
     <string name="zen_mode_sound_summary_on">ئوچۇق</string>
@@ -865,7 +870,10 @@
     <string name="zen_mode_alarms">قوڭغۇراقلىق سائەت</string>
     <string name="zen_mode_alarms_list_first">قوڭغۇراقلىق سائەت</string>
     <string name="zen_mode_media_list_first">ۋاستە</string>
+    <string name="zen_mode_apps_none_apps">يوق</string>
+    <string name="zen_mode_apps_all_apps">ھەممىسى</string>
     <string name="zen_mode_bypassing_apps_title">ئەپلەر</string>
+    <string name="zen_mode_action_change_name">ئات ئۆزگەرت</string>
     <string name="suggestion_button_close">تاقاش</string>
     <string name="nfc_setting_on">ئوچۇق</string>
     <string name="nfc_setting_off">تاقاق</string>
@@ -921,8 +929,10 @@
     <string name="sim_action_yes">ھەئە</string>
     <string name="sim_action_reboot">قايتا قوزغات</string>
     <string name="sim_action_cancel">ۋاز كەچ</string>
+    <string name="sim_onboarding_close">تاقاش</string>
     <string name="sim_onboarding_next">كېيىنكى</string>
     <string name="wifi_warning_return_button">جەزملە</string>
+    <string name="bluetooth_header_battery_content_description">توكدان</string>
     <string name="privacy_controls_title">تىزگىنلەشلەر</string>
     <string name="contextual_card_dismiss_remove">چىقىرىۋەت</string>
     <string name="wfc_disclaimer_location_title_text">ئورنى</string>
@@ -946,7 +956,7 @@
     </string-array>
     <string name="tare_dialog_confirm_button_title">جەزملە</string>
     <string name="dream_preview_button_title">ئالدىن كۆزەت</string>
-    <string name="bluetooth_details_audio_device_type_unknown">يوچۇن</string>
+    <string name="bluetooth_details_audio_device_type_unknown">تەڭشەلمىگەن</string>
     <string name="flash_notifications_summary_off">تاقاق</string>
     <string name="flash_notifications_preview">ئالدىن كۆزەت</string>
     <string name="screen_flash_color_blue">كۆك</string>
@@ -972,4 +982,15 @@
     <string name="show_captions_enabled">ئوچۇق</string>
     <string name="live_caption_disabled">تاقاق</string>
     <string name="live_caption_enabled">ئوچۇق</string>
+    <string name="audio_sharing_stream_password_title">ئىم</string>
+    <string name="audio_sharing_summary_on">ئوچۇق</string>
+    <string name="audio_sharing_summary_off">تاقاق</string>
+    <string name="audio_sharing_close_button_label">تاقاش</string>
+    <string name="audio_sharing_settings_button_label">تەڭشەكلەر</string>
+    <string name="audio_sharing_connect_button_label">باغلان</string>
+    <string name="audio_streams_disconnect">ئۈز</string>
+    <string name="audio_streams_connect">باغلان</string>
+    <string name="audio_streams_connecting_summary">باغلىنىۋاتىدۇ…</string>
+    <string name="audio_streams_dialog_close">تاقاش</string>
+    <string name="audio_streams_dialog_learn_more">تەپسىلات بىلدۈرگۈسى</string>
 </resources>

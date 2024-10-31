@@ -65,10 +65,7 @@
     <string name="bluetooth_connected_no_headset_battery_level">Ceangailte (gun fhòn), bataraidh <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Ceangailte (gun mheadhanan), bataraidh <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Ceangailte (gun fhòn no meadhanan), bataraidh <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
-    <string name="bluetooth_active_battery_level">Gnìomhach, <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> a bhataraidh</string>
-    <string name="bluetooth_active_battery_level_untethered">Gnìomhach, Clì: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> dhen bhataraidh, Deas: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> dhen bhataraidh</string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> a bhataraidh</string>
-    <string name="bluetooth_battery_level_untethered">Clì: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> dhen bhataraidh, Deas: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> dhen bhataraidh</string>
     <string name="bluetooth_active_no_battery_level">Gnìomhach</string>
     <string name="bluetooth_saved_device">Air a shàbhaladh</string>
     <string name="bluetooth_profile_a2dp">Fuaim nam meadhanan</string>
@@ -435,6 +432,7 @@
     <string name="battery_info_status_charging_slow">\'Ga theàirrdseadh gu mall</string>
     <string name="battery_info_status_charging_dock">’Ga theàirrdseadh</string>
     <string name="battery_info_status_discharging">Chan eil e ’ga theàirrdseadh</string>
+    <string name="battery_info_status_charging_v2">’Ga theàirrdseadh</string>
     <string name="disabled_by_admin_summary_text">Fo smachd rianaire</string>
     <string name="disabled">À comas</string>
     <string name="external_source_trusted">Ceadaichte</string>

@@ -68,4 +68,5 @@
     <string name="something_went_wrong">Oich! Chaidh rudeigin ceàrr.</string>
     <string name="theme_preview_icons_section_title">Dathan / Ìomhaigheagan</string>
     <string name="style_info_description">Ro-shealladh air a’ chruth-chlò, na h-ìomhaigheagan, cruth nan aplacaidean is nan dathan</string>
+    <string name="color_contrast_default_title">Bun-roghainn</string>
 </resources>

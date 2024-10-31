@@ -31,7 +31,6 @@
     <string name="widgets_full_sheet_search_bar_hint">Lorg</string>
     <string name="widgets_full_sheet_personal_tab">Pearsanta</string>
     <string name="widgets_full_sheet_work_tab">Obair</string>
-    <string name="widget_education_close_button">Tha mi agaibh</string>
     <string name="all_apps_search_bar_hint">Lorg aplacaidean</string>
     <string name="all_apps_loading_message">A’ luchdadh nan aplacaidean…</string>
     <string name="all_apps_no_search_results">Cha do lorg sinn aplacaid le “<xliff:g id="query" example="Android">%1$s</xliff:g>%1$s”</string>
@@ -114,4 +113,5 @@
     <string name="work_profile_edu_accept">Tha mi agaibh</string>
     <string name="work_apps_paused_edu_accept">Tha mi agaibh</string>
     <string name="remote_action_failed">Dh’fhàillig: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
+    <string name="ps_add_button_label">Stàlaich</string>
 </resources>

@@ -29,6 +29,7 @@
     <string name="battery_saver_confirmation_ok">Activar</string>
     <string name="battery_saver_start_action">Activar</string>
     <string name="battery_saver_dismiss_action">Non, gracies</string>
+    <string name="standard_battery_saver_text">Estándar</string>
     <string name="status_bar_settings_auto_rotation">Voltéu de pantalla automáticu</string>
     <string name="usb_device_permission_prompt">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
     <string name="usb_device_permission_prompt_warn">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nA esta aplicación nun se-y concedió\'l permisu de grabación, mas podría capturar audiu pente esti preséu USB.</string>
@@ -83,6 +84,7 @@
     <string name="screenshot_blocked_by_admin">L\'alministrador de TI bloquió la fechura de captures de pantalla</string>
     <string name="screenshot_edit_label">Editar</string>
     <string name="screenshot_edit_description">Editar la captura de pantalla</string>
+    <string name="screenshot_share_label">Compartir</string>
     <string name="screenshot_share_description">Compartir la captura de pantalla</string>
     <string name="screenshot_scroll_label">Capturar más</string>
     <string name="screenshot_dismiss_description">Escartar la captura de pantalla</string>
@@ -119,6 +121,8 @@
     <string name="screenrecord_save_text">Toca pa vela</string>
     <string name="screenrecord_save_error">Hebo un error al guardar la grabación de pantalla</string>
     <string name="screenrecord_start_error">Hebo un error al aniciar la grabación de pantalla</string>
+    <string name="cast_to_other_device_stop_dialog_button">Dexar de tresmitir</string>
+    <string name="close_dialog_button">Zarrar</string>
     <string name="issuerecord_title">Rexistrador de problemes</string>
     <string name="issuerecord_background_processing_label">Procesando\'l rexistru\'l problema</string>
     <string name="issuerecord_channel_description">Avisu en cursu d\'una sesión de recoyida de problemes</string>
@@ -129,7 +133,6 @@
     <string name="issuerecord_save_error">Hebo un error al guardar el rexistru\'l problema</string>
     <string name="issuerecord_start_error">Hebo un error al aniciar el rexistru\'l problema</string>
     <string name="immersive_cling_title">Visualización a pantalla completa</string>
-    <string name="immersive_cling_description">Pa colar, esliza\'l deu dende lo baxero a lo cimero.</string>
     <string name="immersive_cling_positive">Entendílo</string>
     <string name="accessibility_back">Atrás</string>
     <string name="accessibility_home">Aniciu</string>
@@ -225,7 +228,7 @@
     <string name="accessibility_desc_notification_shade">Área d\'avisos.</string>
     <string name="accessibility_desc_quick_settings">Configuración rápida.</string>
     <string name="accessibility_desc_qs_notification_shade">Configuración rápida y área d\'avisos.</string>
-    <string name="accessibility_desc_lock_screen">Pantalla de bloquéu.</string>
+    <string name="accessibility_desc_lock_screen">Pantalla de bloquéu</string>
     <string name="accessibility_desc_work_lock">Pantalla de bloquéu del perfil llaboral</string>
     <string name="accessibility_desc_close">Zarrar</string>
     <string name="accessibility_quick_settings_dnd_none_on">silenciu total</string>
@@ -266,8 +269,7 @@
     <string name="quick_settings_bluetooth_device_saved">Guardóse</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">desconectar</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">activar</string>
-    <string name="turn_on_bluetooth_auto_tomorrow">Volver activar automáticamente mañana</string>
-    <string name="turn_on_bluetooth_auto_info">Funciones como Quick Share, Atopar el preséu y la llocalización del preséu usen el Bluetooth</string>
+    <string name="quick_settings_bluetooth_audio_sharing_button_sharing">Compartiendo l\'audiu</string>
     <string name="quick_settings_bluetooth_secondary_label_battery_level"><xliff:g id="battery_level_as_percentage">%s</xliff:g> de batería</string>
     <string name="quick_settings_bluetooth_secondary_label_audio">Audiu</string>
     <string name="quick_settings_bluetooth_secondary_label_headset">Cascos</string>
@@ -290,7 +292,7 @@
     <string name="quick_settings_networks_unavailable">Redes non disponibles</string>
     <string name="quick_settings_wifi_detail_empty_text">Nun hai redes Wi-Fi disponibles</string>
     <string name="quick_settings_wifi_secondary_label_transient">Habilitando…</string>
-    <string name="quick_settings_cast_title">Tresmisión de la pantalla</string>
+    <string name="quick_settings_cast_title">Tresmisión</string>
     <string name="quick_settings_casting">En tresmisión</string>
     <string name="quick_settings_cast_device_default_name">Preséu ensin nome</string>
     <string name="quick_settings_cast_detail_empty_text">Nun hai nengún preséu disponible</string>
@@ -348,16 +350,12 @@
     <string name="qs_record_issue_dropdown_header">¿Cuál foi\'l problema na esperiencia col preséu?</string>
     <string name="qs_record_issue_dropdown_prompt">Seleiciona\'l tipu de problema</string>
     <string name="qs_record_issue_dropdown_screenrecord">Grabación de pantalla</string>
-    <string-array name="qs_record_issue_types">
-        <item>Rindimientu</item>
-        <item>Interfaz d\'usuariu</item>
-        <item>Batería</item>
-    </string-array>
+    <string name="performance">Rindimientu</string>
+    <string name="user_interface">Interfaz d\'usuariu</string>
     <string name="quick_settings_onehanded_label">Mou d\'una mano</string>
-    <string name="quick_settings_contrast_label">Contraste</string>
-    <string name="quick_settings_contrast_standard">Estándar</string>
-    <string name="quick_settings_contrast_medium">Mediu</string>
-    <string name="quick_settings_contrast_high">Altu</string>
+    <string name="quick_settings_pair_hearing_devices">Empareyar un preséu nuevu</string>
+    <string name="accessibility_hearing_device_pair_new_device">Calca pa empareyar un preséu nuevu</string>
+    <string name="live_caption_title">Sotítulos en tiempu real</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">¿Quies desbloquiar el micrófonu del preséu?</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">¿Quies desbloquiar la cámara del preséu?</string>
     <string name="sensor_privacy_start_use_mic_camera_dialog_title">¿Quies desbloquiar la cámara y el micrófonu?</string>
@@ -458,6 +456,8 @@ prioridá</string>
     <string name="button_to_remove_widget">Quitar</string>
     <string name="hub_mode_add_widget_button_text">Amestar un widget</string>
     <string name="hub_mode_editing_exit_button_text">Fecho</string>
+    <string name="button_text_to_open_settings">Abrir la configuración</string>
+    <string name="accessibility_action_label_edit_widgets">Personalizar los widgets</string>
     <string name="accessibility_multi_user_switch_switcher">Cambiar d\'usuariu</string>
     <string name="accessibility_multi_user_list_switcher">menú desplegable</string>
     <string name="guest_exit_guest_dialog_message">Van desaniciase toles aplicaciones y tolos datos d\'esta sesión.</string>
@@ -514,7 +514,7 @@ prioridá</string>
     <string name="accessibility_notification_section_header_gentle_clear_all">Quitar tolos avisos silenciosos</string>
     <string name="dnd_suppressing_shade_text">El mou «Nun molestar» posó los avisos</string>
     <string name="media_projection_action_text">Aniciar agora</string>
-    <string name="empty_shade_text">Nun hai avisos</string>
+    <string name="empty_shade_text">Nun hai nengún avisu</string>
     <string name="no_unseen_notif_text">Nun hai nengún avisu nuevu</string>
     <string name="unlock_to_see_notif_text">Desbloquia pa ver los avisos anteriores</string>
     <string name="quick_settings_disclosure_parental_controls">To pá/ma xestionen esti preséu</string>
@@ -559,7 +559,6 @@ prioridá</string>
     <string name="monitoring_description_parental_controls">To pá/ma xestionen esti preséu, y puen ver y xestionar información como les aplicaciones qu\'uses, la llocalización y el tiempu d\'usu.</string>
     <string name="legacy_vpn_name">VPN</string>
     <string name="keyguard_indication_trust_unlocked">TrustAgent desbloquió\'l preséu</string>
-    <string name="kg_prompt_after_adaptive_auth_lock">Proteición antirrobu\nPreséu bloquiáu, milenta intentos incorreutos</string>
     <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
     <string name="accessibility_volume_settings">Configuración del soníu</string>
     <string name="volume_odi_captions_tip">Trescripción automática</string>
@@ -612,12 +611,14 @@ prioridá</string>
     <string name="volume_stream_content_description_vibrate_a11y">%1$s. Toca p\'afitar la vibración.</string>
     <string name="volume_stream_content_description_mute_a11y">%1$s. Toca pa desactivar el soníu.</string>
     <string name="volume_panel_noise_control_title">Control del ruíu</string>
+    <string name="volume_panel_spatial_audio_off">Non</string>
     <string name="volume_ringer_change">Toca pa camudar el mou del timbre</string>
     <string name="volume_ringer_hint_mute">desactivar el soníu</string>
     <string name="volume_ringer_hint_unmute">activar el soníu</string>
     <string name="volume_ringer_hint_vibrate">vibrar</string>
     <string name="volume_dialog_title">Controles de volume de: %s</string>
     <string name="volume_dialog_ringer_guidance_ring">Les llamaes y los avisos van sonar (<xliff:g id="volume level" example="56">%1$s</xliff:g>)</string>
+    <string name="volume_panel_hint_vibrate">vibrar</string>
     <string name="media_output_label_title">Reproduciendo «<xliff:g id="label" example="Music Player">%s</xliff:g>» en</string>
     <string name="media_output_title_without_playing">Va reproducise en</string>
     <string name="system_ui_tuner">Afinador de la IU del sistema</string>
@@ -720,11 +721,6 @@ prioridá</string>
     <string name="keyboard_key_button_template">Botón «<xliff:g id="name">%1$s</xliff:g>»</string>
     <string name="keyboard_key_home">Aniciu</string>
     <string name="keyboard_key_back">Atrás</string>
-    <string name="keyboard_key_dpad_up">Flecha arriba</string>
-    <string name="keyboard_key_dpad_down">Flecha abaxo</string>
-    <string name="keyboard_key_dpad_left">Flecha esquierda</string>
-    <string name="keyboard_key_dpad_right">Flecha derecha</string>
-    <string name="keyboard_key_dpad_center">Centru</string>
     <string name="keyboard_key_tab">Tabulador</string>
     <string name="keyboard_key_space">Espaciu</string>
     <string name="keyboard_key_enter">Retornu</string>
@@ -753,7 +749,7 @@ prioridá</string>
     <string name="keyboard_shortcut_group_system_switch_input">Cambiar la distribución del tecláu</string>
     <string name="keyboard_shortcut_join">o</string>
     <string name="keyboard_shortcut_clear_text">Borrar la consulta de busca</string>
-    <string name="keyboard_shortcut_search_list_title">Atayos</string>
+    <string name="keyboard_shortcut_search_list_title">Atayos del tecláu</string>
     <string name="keyboard_shortcut_search_list_hint">Buscar atayos</string>
     <string name="keyboard_shortcut_search_list_no_result">Nun s\'atopó nengún atayu</string>
     <string name="keyboard_shortcut_search_category_system">Sistema</string>
@@ -778,9 +774,6 @@ prioridá</string>
     <string name="group_system_access_google_assistant">Abrir l\'asistente</string>
     <string name="group_system_lock_screen">Pantalla de bloquéu</string>
     <string name="group_system_quick_memo">Crear una nota</string>
-    <string name="keyboard_shortcut_group_system_multitasking">Multixera del sistema</string>
-    <string name="system_multitasking_rhs">Activar la pantalla dixebrada cola aplicación actual a la derecha</string>
-    <string name="system_multitasking_lhs">Activar la pantalla dixebrada cola aplicación actual a la esquierda</string>
     <string name="system_multitasking_full_screen">Cambiar de la pantalla dixebrada a la completa</string>
     <string name="system_multitasking_replace">Demientres la pantalla dixebrada: sustituyir una aplicación con otra</string>
     <string name="keyboard_shortcut_group_input">Entrada</string>
@@ -1083,7 +1076,7 @@ prioridá</string>
     <string name="media_move_closer_to_start_cast">Avera\'l preséu a «<xliff:g id="deviceName" example="My Tablet">%1$s</xliff:g>» pa reproducir el conteníu ehí</string>
     <string name="media_move_closer_to_end_cast">Pa reproducir equí, avera\'l preséu a «<xliff:g id="deviceName" example="tablet">%1$s</xliff:g>»</string>
     <string name="media_transfer_playing_different_device">Reproduciendo en: <xliff:g id="deviceName" example="My Tablet">%1$s</xliff:g></string>
-    <string name="media_transfer_failed">Asocedió daqué malo. Volvi tentalo.</string>
+    <string name="media_transfer_failed">Prodúxose un error. Volvi tentalo.</string>
     <string name="media_transfer_loading">Cargando</string>
     <string name="media_ttt_default_device_type">tableta</string>
     <string name="media_transfer_receiver_content_description_unknown_app">Tresmitiendo\'l conteníu multimedia</string>
@@ -1175,7 +1168,7 @@ prioridá</string>
     <string name="accessibility_enter_hint">acceder al preséu</string>
     <string name="keyguard_try_fingerprint">Usa la buelga p\'abrir</string>
     <string name="accessibility_fingerprint_bouncer">Ye obligatorio autenticase. Toca\'l sensor de buelgues p\'autenticate.</string>
-    <string name="ongoing_phone_call_content_description">Llamada telefónica entrante</string>
+    <string name="ongoing_phone_call_content_description">Llamada telefónica en cursu</string>
     <string name="mobile_data_settings_title">Datos móviles</string>
     <string name="mobile_data_connection_active">Conectóse</string>
     <string name="mobile_data_temp_connection_active">Conexón temporal</string>
@@ -1270,7 +1263,6 @@ prioridá</string>
     <string name="rear_display_accessibility_unfolded_animation">Preséu plegable que voltia</string>
     <string name="quick_settings_rotation_posture_folded">preséu plegáu</string>
     <string name="quick_settings_rotation_posture_unfolded">preséu desplegáu</string>
-    <string name="stylus_battery_low_percentage">Queda un <xliff:g id="percentage" example="16%">%s</xliff:g> de batería</string>
     <string name="stylus_battery_low_subtitle">Conecta\'l llapiceru a un cargador</string>
     <string name="stylus_battery_low">El llapiceru tien poca batería</string>
     <string name="video_camera">Cámara de videu</string>
@@ -1285,7 +1277,6 @@ prioridá</string>
     <string name="camera_blocked_dream_overlay_content_description">La cámara ta bloquiada</string>
     <string name="camera_and_microphone_blocked_dream_overlay_content_description">La cámara y el micrófonu tán bloquiaos</string>
     <string name="microphone_blocked_dream_overlay_content_description">El micrófonu ta bloquiáu</string>
-    <string name="priority_mode_dream_overlay_content_description">El mou de prioridá ta activáu</string>
     <string name="assistant_attention_content_description">Detectóse la presencia d\'usuarios</string>
     <string name="set_default_notes_app_toast_content">Predetermina l\'aplicación de notes en Configuración</string>
     <string name="install_app">Instalar l\'aplicación</string>
@@ -1305,7 +1296,7 @@ prioridá</string>
     <string name="privacy_dialog_close_app_message">Zarróse l\'aplicación «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>»</string>
     <string name="privacy_dialog_manage_service">Xestionar el serviciu</string>
     <string name="privacy_dialog_manage_permissions">Xestionar l\'accesu</string>
-    <string name="privacy_dialog_active_call_usage">N\'usu por una llamada de teléfonu</string>
+    <string name="privacy_dialog_active_call_usage">N\'usu por una llamada telefónica</string>
     <string name="privacy_dialog_recent_call_usage">Usóse apocayá nuna llamada telefónica</string>
     <string name="privacy_dialog_active_app_usage">N\'usu por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>»</string>
     <string name="privacy_dialog_recent_app_usage">Usáu apocayá por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>»</string>
@@ -1313,6 +1304,12 @@ prioridá</string>
     <string name="privacy_dialog_recent_app_usage_1">Usáu apocayá por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
     <string name="privacy_dialog_active_app_usage_2">N\'usu por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
     <string name="privacy_dialog_recent_app_usage_2">Usáu apocayá por «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
+    <string name="shortcut_helper_category_system">Sistema</string>
+    <string name="shortcut_helper_category_input">Entrada</string>
+    <string name="shortcut_helper_category_a11y">Accesibilidá</string>
+    <string name="shortcut_helper_search_placeholder">Buscar atayos</string>
+    <string name="shortcut_helper_key_combinations_or_separator">o</string>
+    <string name="touchpad_tutorial_done_button">Fecho</string>
     <string name="keyboard_backlight_dialog_title">Retroilluminación del tecláu</string>
     <string name="keyboard_backlight_value">Nivel %1$d de %2$d</string>
     <string name="home_controls_dream_label">Controles domóticos</string>

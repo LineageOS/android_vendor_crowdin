@@ -557,7 +557,6 @@
     <string name="incall_error_supp_service_hold">Methu â rhoi galwadau i aros.</string>
     <string name="incall_error_wfc_only_no_wireless_network">Cysyllta â rhwydwaith di-wifr i wneud galwad.</string>
     <string name="incall_error_promote_wfc">Galluoga galwadau Wi-Fi er mwyn gwneud galwad.</string>
-    <string name="incall_error_satellite_enabled">Analluoga modd lloeren i wneud galwad.</string>
     <string name="emergency_information_hint">Gwybodaeth mewn argyfwng</string>
     <string name="emergency_information_owner_hint">Perchennog</string>
     <string name="emergency_information_confirm_hint">Tapi eto i weld gwybodaeth</string>

@@ -166,8 +166,6 @@
     <string name="hotspot_settings_title">Llecyn Wi-Fi</string>
     <string name="wifi_hotspot_switch_title">Defnyddio llecyn Wi\u2011Fi</string>
     <string name="wifi_hotspot_state_off">I ffwrdd</string>
-    <string name="wifi_hotspot_auto_off_title">Troi\'r llecyn i ffwrdd yn awtomatig</string>
-    <string name="wifi_hotspot_auto_off_summary">Bydd y llecyn Wi\u2011Fi yn troi i ffwrdd os na fydd unrhyw ddyfeisiau wedi\'u cysylltu</string>
     <string name="wifi_hotspot_qr_code_text">Sgania\u2019r cod QR hwn i ymuno â \u0022%s\u0022</string>
     <string name="wifi_hotspot_qr_code_password_text">Cyfrinair llecyn: %s</string>
     <string name="wifi_ask_enable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi ymlaen</string>
@@ -372,13 +370,13 @@
     <string name="app_list_preference_none">Dim</string>
     <string name="default_app_selected_app">Wedi\'u dewis</string>
     <string name="assistant_security_warning">Bydd y cynorthwyydd yn medru darllen gwybodaeth am yr apiau mewn defnydd ar dy system, gan gynnwys gwybodaeth sy\'n weledol ar dy sgrin neu ar gael o fewn yr apiau.</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
+    <string name="autofill_confirmation_message">        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> yn defnyddio\'r
         hyn sydd ar dy sgrin i benderfynu pa bethau gellir
         eu llenwi yn awtomatig.
-        ]]></string>
+        </string>
     <string name="autofill_add_service">Ychwanegu gwasanaeth</string>
     <string name="app_launch_domain_links_title">Agor dolenni</string>
     <string name="domain_url_section_title">Apiau wedi\u2019u gosod</string>
@@ -422,7 +420,6 @@
     <string name="notification_listener_revoke_warning_cancel">Diddymu</string>
     <string name="performance_impacting_apps_description">Mae\u2019r apiau hyn yn cael dylanwad negatif ar berfformiad y system ac wedi eu rhwystro rhag rhedeg yn y cefndir.\nBlaenoriaetha ap i ganiatáu defnydd yn y cefndir a\u2019i dynnu o\u2019r rhestr hon.</string>
     <string name="performance_impacting_apps_button_label">Blaenoriaethu ap</string>
-    <string name="premium_sms_access_title">Mynediad SMS premiwm</string>
     <string name="premium_sms_access_description">Gall SMS Premiwm gostio arian i ti a bydd yn ymddangos ar filiau dy ddarparwr gwasanaeth symudol. Os wyt ti\'n rhoi caniatâd i ap, mi fydd yn bosib iti anfon SMS Premiwm gyda\'r ap hwnnw.</string>
     <string name="usage_access_title">Mynediad at ddefnydd</string>
     <string name="usage_access_description">Mae mynediad defnydd yn caniatáu ap i ddilyn pa apiau eraill wyt yn eu defnyddio a pha mor aml, yn ogystal â dy ddarparwr gwasanaeth, iaith y system a manylion eraill.</string>
@@ -648,6 +645,8 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="vehicle_data_delete_user_title">Dileu dy broffil</string>
     <string name="vehicle_data_delete_user_summary">Dileu dy broffil a chyfrifon o\'r system gwybodloniant</string>
     <string name="action_unavailable">Dyw\'r weithred hon ddim ar gael ar dy broffil</string>
+    <string name="required_apps_privacy_policy_button_text">Polisi</string>
+    <string name="permission_grant_ask">Gofyn pob tro</string>
     <string name="security_settings_title">Diogelwch</string>
     <string name="security_settings_subtitle">Clo sgrin</string>
     <string name="security_lock_none">Dim</string>

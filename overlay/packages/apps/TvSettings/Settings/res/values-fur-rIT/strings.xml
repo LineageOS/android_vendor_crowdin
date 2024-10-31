@@ -43,7 +43,6 @@
     <string name="header_category_personal">Personâls</string>
     <string name="connect_to_network">Conet ae rêt</string>
     <string name="add_an_account">Zonte un account</string>
-    <string name="accounts_category_title">Accounts e acès</string>
     <string name="accounts_category_summary_no_account">Nissun account</string>
     <string name="accounts_category_summary"> {count, plural,
         one {}=1    {# account}
@@ -175,9 +174,6 @@
     </string>
     <string name="preferred_dynamic_range_title">Interval dinamic preferît</string>
     <string name="preferred_dynamic_range_selection_system_title">Conversion preferide dal sisteme</string>
-    <string name="preferred_dynamic_range_selection_system_desc">Lasse che il sisteme al gjestissi la conversion
-        dai formâts
-    </string>
     <string name="preferred_dynamic_range_selection_system_summary">Se cheste opzion e je selezionade,
         il sisteme al determinarà un interval dinamic adat di inviâ al to schermi e al convertirà
         i contignûts a chest interval dinamic, daûr di ce che al covente.</string>
@@ -1006,12 +1002,12 @@
     <string name="title_current_autofill_service">Servizi di compilazion automatiche atuâl</string>
     <string name="title_select_autofill_service">Selezione servizi di compilazion automatiche</string>
     <string name="autofill_none">Nissun</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message">        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Password service">%1$s</xliff:g> al dopre ce che
         al è sul to schermi par determinâ ce che al pues jessi compilât in automatic.
-        ]]></string>
+        </string>
     <string name="computing_size">Elaborazion\u2026</string>
     <string name="title_select_wifi_network">Selezione la tô rêt Wi-Fi</string>
     <string name="accessories_wifi_display_rename_device">Cambie non</string>
@@ -1330,6 +1326,5 @@
     <string name="settings_find_my_remote_title">Cjate il gno telecomant</string>
     <string name="settings_find_my_remote_description">Riprodûs un sun par localizâ il to telecomant Google TV se nol è tal so puest</string>
     <string name="find_my_remote_slice_description">Al è un boton sul to Google TV che tu puedis fracâ par riprodusi un sun sul telecomant par 30 seconts. Cheste operazion e funzione dome sui controi dal telecomant di Google TV.\n\nPar interompi il sun, frache un boton sul telecomant.</string>
-    <string name="find_my_remote_integration_hint">Cuant che Cjate il gno telecomant al è ativât, tu puedis riprodusi un sun par cjatâ il to telecomant Google TV se nol è tal so puest.</string>
     <string name="find_my_remote_play_sound">Riprodûs sun</string>
 </resources>

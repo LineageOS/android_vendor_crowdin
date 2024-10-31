@@ -22,4 +22,6 @@
     <string name="pay_with">پۇل تاپشۇرۇش ئۇسۇلى:</string>
     <string name="complete_with">تۆۋەندىكى ئەپتە تاماملايدۇ:</string>
     <string name="default_pay_app_removed">چېكىپلا پۇل تۆلەيدىغان ئالدىنلىق مۇلازىمىتى چىقىرىۋېتىلگەن، باشقىسىنى تاللامسىز؟</string>
+    <string name="enable_nfc_yes">ھەئە</string>
+    <string name="enable_nfc_no">ياق</string>
 </resources>

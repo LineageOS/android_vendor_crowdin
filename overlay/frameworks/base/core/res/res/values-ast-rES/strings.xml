@@ -79,10 +79,9 @@
     <string name="RestrictedOnAllVoiceTitle">Nun hai serviciu de llamaes de voz o d\'emerxencia</string>
     <string name="RestrictedStateContent">La operadora desactivó temporalmente\'l serviciu</string>
     <string name="RestrictedStateContentMsimTemplate">La operadora desactivó temporalmente\'l serviciu pa la SIM <xliff:g id="simNumber" example="1">%d</xliff:g></string>
-    <string name="NetworkPreferenceSwitchTitle">Nun se pue algamar la rede móvil</string>
+    <string name="NetworkPreferenceSwitchTitle">Nun se pue acceder a la rede móvil</string>
     <string name="NetworkPreferenceSwitchSummary">Prueba a camudar la rede preferida. Toca pa camudala.</string>
     <string name="EmergencyCallWarningTitle">Les llamaes d\'emerxencia nun tán disponibles</string>
-    <string name="EmergencyCallWarningSummary">Nun se puen facer llamaes d\'emerxencia per Wi\u2011Fi</string>
     <string name="notification_channel_network_alert">Alertes</string>
     <string name="notification_channel_call_forward">Esvíu de llamaes</string>
     <string name="notification_channel_emergency_callback">Mou de retornu de llamaes d\'emerxencia</string>
@@ -92,7 +91,7 @@
     <string name="notification_channel_wfc">Llamaes per Wi-Fi</string>
     <string name="notification_channel_sim">Estáu de la SIM</string>
     <string name="notification_channel_sim_high_prio">Avisos prioritarios de la SIM</string>
-    <string name="peerTtyModeFull">L\'otru preséu solicitó\'l mou TTY FULL</string>
+    <string name="peerTtyModeFull">L\'otru preséu solicitó\'l mou FULL de TTY</string>
     <string name="peerTtyModeHco">L\'otru preséu solicitó\'l mou TTY HCO</string>
     <string name="peerTtyModeVco">L\'otru preséu solicitó\'l mou TTY VCO</string>
     <string name="peerTtyModeOff">L\'otru preséu solicitó\'l mou TTY OFF</string>
@@ -149,16 +148,8 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> dempués de <xliff:g id="time_delay">{2}</xliff:g> segundos</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
-    <string name="scCellularNetworkSecurityTitle">Seguranza de les redes móviles</string>
-    <string name="scCellularNetworkSecuritySummary">Revisa la configuración</string>
-    <string name="scIdentifierDisclosureIssueTitle">Accedióse al identificador del preséu</string>
-    <string name="scIdentifierDisclosureIssueSummary">Un rede de la conexón «<xliff:g id="disclosure_network">%4$s</xliff:g>» rexistró l\'identificador únicu del preséu (IMSI) <xliff:g id="disclosure_count">%1$d</xliff:g> vegaes nun periodu de tiempu que trescurre dende <xliff:g id="disclosure_window_start_time">%2$tr</xliff:g> hasta <xliff:g id="disclosure_window_end_time">%3$tr</xliff:g></string>
-    <string name="scNullCipherIssueEncryptedTitle">Conexón cifrada a «<xliff:g id="network_name">%1$s</xliff:g>»</string>
-    <string name="scNullCipherIssueEncryptedSummary">Conectéstite a una rede más segura.</string>
-    <string name="scNullCipherIssueNonEncryptedTitle">Conexón non cifrada a «<xliff:g id="network_name">%1$s</xliff:g>»</string>
-    <string name="scNullCipherIssueNonEncryptedSummary">Conectéstite a una rede móvil que nun ta cifrada. Los datos, les llamaes y los mensaxes son susceptibles a que los interceuten.</string>
-    <string name="scNullCipherIssueActionSettings">Configuración de seguranza de les redes móviles</string>
     <string name="scNullCipherIssueActionLearnMore">Saber más</string>
+    <string name="scNullCipherIssueActionGotIt">Entendílo</string>
     <string name="fcComplete">Códigu de función completu.</string>
     <string name="fcError">Hebo un problema de conexón o\'l códigu de función nun ye válidu.</string>
     <string name="httpErrorOk">OK</string>
@@ -301,7 +292,8 @@
     <string name="global_action_assist">Asistencia</string>
     <string name="global_action_voice_assist">Asist. per voz</string>
     <string name="global_action_lockdown">Bloquiar</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="notification_compact_heads_up_reply">Responder</string>
     <string name="notification_hidden_text">Avisu nuevu</string>
     <string name="notification_channel_physical_keyboard">Tecláu físicu</string>
     <string name="notification_channel_security">Seguranza</string>
@@ -425,8 +417,7 @@
         del preséu cuando se reciba un espardimientu móvil d\'emerxencia.</string>
     <string name="permlab_manageOngoingCalls">xestión de llamaes en cursu</string>
     <string name="permdesc_manageOngoingCalls">Permite qu\'una aplicación vea los detalles de les
-         llamaes en cursu del preséu y que controle
-         eses llamaes.</string>
+         llamaes en cursu del preséu y les controle.</string>
     <string name="permlab_accessLastKnownCellId">accesu a la última identidá móvil conocida</string>
     <string name="permdesc_accessLastKnownCellId">Permite qu\'una aplicación acceda a la
         última identidá móvil conocida que
@@ -830,7 +821,6 @@
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Nun se reconoció la buelga</string>
     <string name="fingerprint_udfps_error_not_match">Nun se reconoció la buelga</string>
-    <string name="fingerprint_dialog_use_fingerprint_instead">Nun se pue reconocer la cara. Usa la buelga.</string>
     <string name="fingerprint_authenticated">Autenticóse la buelga</string>
     <string name="face_authenticated_no_confirmation_required">Autenticóse la cara</string>
     <string name="face_authenticated_confirmation_required">Autenticóse la cara, primi «Confirmar»</string>
@@ -853,7 +843,7 @@
     <string name="fingerprint_dialog_default_subtitle">Pa siguir, usa la buelga</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Pa siguir, usa la buelga o\'l bloquéu de pantalla</string>
     <string-array name="fingerprint_error_vendor"/>
-    <string name="fingerprint_error_vendor_unknown">Asocedió daqué malo. Volvi tentalo.</string>
+    <string name="fingerprint_error_vendor_unknown">Prodúxose un error. Volvi tentalo.</string>
     <string name="fingerprint_icon_content_description">Iconu de buelga</string>
     <string name="device_unlock_notification_name">Desbloquéu del preséu</string>
     <string name="alternative_unlock_setup_notification_title">Prueba otra forma de desbloquiar</string>
@@ -908,7 +898,7 @@
     <string name="face_dialog_default_subtitle">Usa la cara pa siguir</string>
     <string name="face_or_screen_lock_dialog_default_subtitle">Pa siguir, usa la cara o\'l bloquéu de pantalla</string>
     <string-array name="face_error_vendor"/>
-    <string name="face_error_vendor_unknown">Asocedió daqué malo. Volvi tentalo.</string>
+    <string name="face_error_vendor_unknown">Prodúxose un error. Volvi tentalo.</string>
     <string name="face_icon_content_description">Iconu facial</string>
     <string name="permlab_readSyncSettings">llectura de la configuración de sincronización</string>
     <string name="permdesc_readSyncSettings">Permite que l\'aplicación llea la configuración de sincronización d\'una cuenta. Por exemplu, esto pue determinar si l\'aplicación Persones ta sincronizada con una cuenta.</string>
@@ -1094,7 +1084,7 @@
     <string name="phoneTypeCallback">Retornu de llamaes</string>
     <string name="phoneTypeCar">Coche</string>
     <string name="phoneTypeCompanyMain">Teléfonu principal d\'empresa</string>
-    <string name="phoneTypeIsdn">ISDN</string>
+    <string name="phoneTypeIsdn">RDSI</string>
     <string name="phoneTypeMain">Teléfonu principal</string>
     <string name="phoneTypeOtherFax">Otru fax</string>
     <string name="phoneTypeRadio">Radioteléfonu</string>
@@ -1763,7 +1753,7 @@
     <string name="ext_media_status_mounted_ro">Namás de llectura</string>
     <string name="ext_media_status_bad_removal">Estráxose ensin seguranza</string>
     <string name="ext_media_status_unmountable">Toyóse</string>
-    <string name="ext_media_status_unsupported">Nun ye compatible</string>
+    <string name="ext_media_status_unsupported">Ye incompatible</string>
     <string name="ext_media_status_ejecting">Espulsando\u2026</string>
     <string name="ext_media_status_formatting">Formatiando\u2026</string>
     <string name="ext_media_status_missing">Nun s\'inxertó</string>
@@ -2032,7 +2022,7 @@
     </string>
     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
     <string name="kg_reordering_delete_drop_target_text">Quitar</string>
-    <string name="safe_media_volume_warning" product="default">       ¿Quies xubir el volume penriba del nivel aconseyáu?\n\nSentir l\'audiu a volume altu demientres munchu tiempu pue dañar l\'audición.
+    <string name="safe_media_volume_warning" product="default">       ¿Quies xubir el volume penriba del nivel aconseyáu?\n\nEscuchar l\'audiu a volume altu demientres munchu tiempu pue dañar l\'audición.
     </string>
     <string name="csd_dose_reached_warning" product="default">        \"¿Quies siguir escuchando a un volume eleváu?\n\nEl volume de los auriculares tuvo altu más tiempu del aconseyáu, lo que pue dañar l\'audición.\"
     </string>
@@ -2218,7 +2208,6 @@
     <string name="restr_pin_error_too_short">El PIN ye percurtiu. Ha ser de polo menos 4 díxitos.</string>
     <string name="restr_pin_try_later">Volvi tentalo dempués</string>
     <string name="immersive_cling_title">Vista a pantalla completa</string>
-    <string name="immersive_cling_description">Pa colar, esliza dende lo baxero hasta lo cimero.</string>
     <string name="immersive_cling_positive">Entendílo</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Voltia la pantalla p\'ameyorar la visualización</string>
     <string name="display_rotation_camera_compat_toast_in_multi_window">Abri «<xliff:g id="name" example="MyApp">%s</xliff:g>» a pantalla completa p\'ameyorar la visualización</string>
@@ -2238,7 +2227,6 @@
     <string name="lock_to_app_unlock_pin">Pidir el PIN enantes de lliberar</string>
     <string name="lock_to_app_unlock_pattern">Pidir el patrón de desbloquéu enantes de lliberar</string>
     <string name="lock_to_app_unlock_password">Pidir la contraseña enantes de lliberar</string>
-    <string name="package_installed_device_owner">L\'alministrador instaló l\'aplicación</string>
     <string name="package_updated_device_owner">L\'alministrador anovó l\'aplicación</string>
     <string name="package_deleted_device_owner">L\'alministrador desanició l\'aplicación</string>
     <string name="confirm_battery_saver">OK</string>
@@ -2292,7 +2280,7 @@
     <string name="zen_mode_alarm">Hasta: <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (alarma siguiente)</string>
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
     <string name="zen_mode_forever_dnd">Hasta que desactives el mou «Nun molestar»</string>
-    <string name="zen_mode_rule_name_combination"><xliff:g id="first" example="Weeknights">%1$s</xliff:g>/<xliff:g id="rest" example="Meetings">%2$s</xliff:g></string>
+    <string name="zen_mode_rule_name_combination"><xliff:g id="first" example="Weeknights">%1$s</xliff:g> / <xliff:g id="rest" example="Meetings">%2$s</xliff:g></string>
     <string name="toolbar_collapse_description">Contrayer</string>
     <string name="zen_mode_feature_name">Nun molestar</string>
     <string name="zen_mode_downtime_feature_name">Tiempu d\'inactividá</string>
@@ -2303,6 +2291,7 @@
     <string name="zen_mode_implicit_trigger_description">Regla xestionada por «<xliff:g id="app_name">%1$s</xliff:g>»</string>
     <string name="zen_mode_implicit_activated">Sí</string>
     <string name="zen_mode_implicit_deactivated">Desactivaes</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="muted_by">«<xliff:g id="third_party">%1$s</xliff:g>» ta desactivando dalgunos soníos</string>
     <string name="system_error_wipe_data">Hai un problema internu col preséu y pue que funcione de forma inestable hasta que lu reafites.</string>
     <string name="system_error_manufacturer">Hai un problema internu col preséu. Ponte en contautu col fabricante pa consiguir más información.</string>
@@ -2567,7 +2556,6 @@
     <string name="accessibility_system_action_dpad_left_label">Cruceta direicional: esquierda</string>
     <string name="accessibility_system_action_dpad_right_label">Cruceta direicional: derecha</string>
     <string name="accessibility_system_action_dpad_center_label">Cruceta direicional: centru</string>
-    <string name="accessibility_freeform_caption">Barra de sotítulos de: <xliff:g id="app_name">%1$s</xliff:g>.</string>
     <string name="as_app_forced_to_restricted_bucket">        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> incluyóse nel grupu TÓRGASE</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">unvió una imaxe</string>
@@ -2770,8 +2758,13 @@
     <string name="profile_label_work_3">Trabayu 3</string>
     <string name="profile_label_test">Prueba</string>
     <string name="profile_label_communal">Comunal</string>
+    <string name="accessibility_label_managed_profile">Perfil llaboral</string>
+    <string name="accessibility_label_clone_profile">Clon</string>
+    <string name="accessibility_label_communal_profile">Comunal</string>
     <string name="satellite_notification_title">Conectóse automáticamente a un satélite</string>
     <string name="satellite_notification_summary">Pues unviar y recibir mensaxes ensin una rede móvil o Wi-Fi</string>
     <string name="satellite_notification_open_message">Abrir l\'aplicación Mensaxes</string>
     <string name="satellite_notification_how_it_works">Cómo funciona</string>
+    <string name="biometric_dangling_notification_action_set_up">Configurar</string>
+    <string name="biometric_dangling_notification_action_not_now">Agora non</string>
 </resources>

@@ -131,6 +131,9 @@
     <string name="kg_prompt_reason_timeout_pattern">Am ddiogelwch ychwanegol, defnyddia batrwm yn lle</string>
     <string name="kg_prompt_reason_timeout_pin">Am ddiogelwch ychwanegol, defnyddia PIN yn lle</string>
     <string name="kg_prompt_reason_timeout_password">Am ddiogelwch ychwanegol, defnyddia gyfrinair yn lle</string>
+    <string name="kg_prompt_added_security_pin">Rhaid rhoi\'r PIN fel cam diogelwch ychwanegol</string>
+    <string name="kg_prompt_added_security_pattern">Rhaid rhoi\'r patrwm fel cam diogelwch ychwanegol</string>
+    <string name="kg_prompt_added_security_password">Rhaid rhoi\'r cyfrinair fel cam diogelwch ychwanegol</string>
     <string name="kg_prompt_reason_device_admin">Cafodd y ddyfais ei chloi gan weinyddwr</string>
     <string name="kg_prompt_reason_user_request">Cafodd y ddyfais ei chloi gan rywun.</string>
     <string name="kg_face_not_recognized">Dim yn ei adnabod</string>

@@ -33,4 +33,5 @@
         <item>Reproducir nel audífonu</item>
         <item>Reproducir nel altavoz del teléfonu</item>
     </string-array>
+    <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>

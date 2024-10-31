@@ -86,7 +86,6 @@
     <string name="NetworkPreferenceSwitchTitle">Methu â chysylltu â rhwydweithiau symudol</string>
     <string name="NetworkPreferenceSwitchSummary">Rho gynnig ar newid dy rwydwaith a ffafrir. Tapia i\'w newid.</string>
     <string name="EmergencyCallWarningTitle">Dyw galwadau brys ddim ar gael</string>
-    <string name="EmergencyCallWarningSummary">Methu â gwneud galwadau brys dros Wi\u2011Fi</string>
     <string name="notification_channel_network_alert">Rhybuddion</string>
     <string name="notification_channel_call_forward">Dargyfeirio galwadau</string>
     <string name="notification_channel_emergency_callback">Modd Galwad Nôl mewn Argyfwng</string>
@@ -153,16 +152,8 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> ar ôl <xliff:g id="time_delay">{2}</xliff:g> eiliad</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: Heb ei dargyfeirio</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: Heb ei dargyfeirio</string>
-    <string name="scCellularNetworkSecurityTitle">Diogelwch rhwydwaith symudol</string>
-    <string name="scCellularNetworkSecuritySummary">Adolygu gosodiadau</string>
-    <string name="scIdentifierDisclosureIssueTitle">Mynediad wedi bod at adnabyddydd y ddyfais</string>
-    <string name="scIdentifierDisclosureIssueSummary">Bu i rwydwaith ar y cysylltiad <xliff:g id="disclosure_network">%4$s</xliff:g> gadw cofnod o adnabyddydd unigryw (IMSI) dy ddyfais <xliff:g id="disclosure_count">%1$d</xliff:g> o droeon yn y cyfnod rhwng <xliff:g id="disclosure_window_start_time">%2$tr</xliff:g> a <xliff:g id="disclosure_window_end_time">%3$tr</xliff:g></string>
-    <string name="scNullCipherIssueEncryptedTitle">Cysylltiad wedi\u2019i amgryptio i <xliff:g id="network_name">%1$s</xliff:g></string>
-    <string name="scNullCipherIssueEncryptedSummary">Rwyt nawr wedi cysylltu â rhwydwaith symudol mwy diogel</string>
-    <string name="scNullCipherIssueNonEncryptedTitle">Cysylltiad heb ei amgryptio i <xliff:g id="network_name">%1$s</xliff:g></string>
-    <string name="scNullCipherIssueNonEncryptedSummary">Rwyt wedi cysylltu â rhwydwaith symudol heb ei amgryptio. Bydd dy alwadau, negeseuon, a data mewn peryg o gael eu rhyng-gipio.</string>
-    <string name="scNullCipherIssueActionSettings">Gosodiadau diogelwch symudol</string>
     <string name="scNullCipherIssueActionLearnMore">Dysgu mwy</string>
+    <string name="scNullCipherIssueActionGotIt">Deall yn iawn</string>
     <string name="fcComplete">Cod nodwedd yn gyflawn.</string>
     <string name="fcError">Problem cysylltu neu god nodwedd annilys.</string>
     <string name="httpErrorOk">Iawn</string>
@@ -304,6 +295,7 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="global_action_voice_assist">Cymorth Llais</string>
     <string name="global_action_lockdown">Cloi lawr</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="notification_compact_heads_up_reply">Ateb</string>
     <string name="notification_hidden_text">Hysbysiad newydd</string>
     <string name="notification_channel_physical_keyboard">Bysellfwrdd corfforol</string>
     <string name="notification_channel_security">Diogelwch</string>
@@ -688,7 +680,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Heb adnabod yr ôl bys</string>
     <string name="fingerprint_udfps_error_not_match">Heb adnabod yr ôl bys</string>
-    <string name="fingerprint_dialog_use_fingerprint_instead">Methu adnabod wyneb. Defnyddia ôl bys yn lle.</string>
     <string name="fingerprint_authenticated">Dilyswyd yr ôl bys</string>
     <string name="face_authenticated_no_confirmation_required">Dilyswyd y wyneb</string>
     <string name="face_authenticated_confirmation_required">Dilyswyd y wyneb; Rhaid ei gadarnhau</string>
@@ -2015,7 +2006,6 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="restr_pin_error_too_short">Mae\'r PIN yn rhy fyr. Mae\'n rhaid bod o leiaf 4 digid.</string>
     <string name="restr_pin_try_later">Rho gynnig arall arni\'n hwyrach</string>
     <string name="immersive_cling_title">Yn gweld sgrin lawn</string>
-    <string name="immersive_cling_description">I adael, llusga i lawr o\'r top.</string>
     <string name="immersive_cling_positive">Deall yn iawn</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Tro am olwg gwell</string>
     <string name="display_rotation_camera_compat_toast_in_multi_window">Agora <xliff:g id="name" example="MyApp">%s</xliff:g> mewn sgrin llawn am olwg gwell</string>
@@ -2041,7 +2031,6 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="lock_to_app_unlock_pin">Gofyn am PIN cyn dadbinio</string>
     <string name="lock_to_app_unlock_pattern">Gofyn am batrwm datgloi cyn dadbinio</string>
     <string name="lock_to_app_unlock_password">Gofyn am gyfrinair cyn dadbinio</string>
-    <string name="package_installed_device_owner">Gosodwyd gan dy weinyddwr</string>
     <string name="package_updated_device_owner">Diweddarwyd gan dy weinyddwr</string>
     <string name="package_deleted_device_owner">Dileuwyd gan dy weinyddwr</string>
     <string name="confirm_battery_saver">Iawn</string>
@@ -2130,6 +2119,7 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="zen_mode_implicit_trigger_description">Rheolir gan <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="zen_mode_implicit_activated">Ymlaen</string>
     <string name="zen_mode_implicit_deactivated">I ffwrdd</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="muted_by">Mae <xliff:g id="third_party">%1$s</xliff:g> yn distewi rhai seiniau</string>
     <string name="system_error_wipe_data">Mae yna broblem fewnol gyda dy ddyfais ac mae\'n bosib y bydd yn ansefydlog oni bai dy fod yn ail-osod i fel yr oedd yn gadael y ffatri.</string>
     <string name="system_error_manufacturer">Mae yna broblem fewnol gyda dy ddyfais. Cysyllta â\'r gwneuthurwr am fanylion.</string>
@@ -2394,7 +2384,6 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="accessibility_system_action_dpad_left_label">PadD Chwith</string>
     <string name="accessibility_system_action_dpad_right_label">PadD Dde</string>
     <string name="accessibility_system_action_dpad_center_label">PadD Canol</string>
-    <string name="accessibility_freeform_caption">Bar capsiwn <xliff:g id="app_name">%1$s</xliff:g>.</string>
     <string name="as_app_forced_to_restricted_bucket"><xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> has been put into the RESTRICTED bucket</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">anfon delwedd</string>
@@ -2604,8 +2593,13 @@ yn llwyddiannus.</string>
     <string name="profile_label_work_3">Gwaith 3</string>
     <string name="profile_label_test">Prawf</string>
     <string name="profile_label_communal">Cymunedol</string>
+    <string name="accessibility_label_managed_profile">Proffil gwaith</string>
+    <string name="accessibility_label_clone_profile">Clôn</string>
+    <string name="accessibility_label_communal_profile">Cymunedol</string>
     <string name="satellite_notification_title">Awto-gysylltu i lloeren</string>
     <string name="satellite_notification_summary">Gellir anfon a derbyn negeseuon heb rwydwaith symudon na Wi-Fi</string>
     <string name="satellite_notification_open_message">Agor Negeseuon</string>
     <string name="satellite_notification_how_it_works">Sut mae\u2019n gweithio</string>
+    <string name="biometric_dangling_notification_action_set_up">Gosod</string>
+    <string name="biometric_dangling_notification_action_not_now">Dim nawr</string>
 </resources>

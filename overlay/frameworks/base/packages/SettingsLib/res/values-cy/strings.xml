@@ -72,18 +72,12 @@
     <string name="bluetooth_connected_no_headset_battery_level">Wedi cysylltu (dim ffôn), batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Wedi cysylltu (dim cyfryngau), batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Wedi cysylltu (dim ffôn na chyfryngau), batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
-    <string name="bluetooth_active_battery_level">Yn weithredol, <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batri</string>
-    <string name="bluetooth_active_battery_level_untethered">Gweithredol, Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batri, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batri</string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batri</string>
     <string name="tv_bluetooth_battery_level">Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
-    <string name="bluetooth_battery_level_untethered">Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batri, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batri</string>
-    <string name="bluetooth_battery_level_untethered_left">Chwith <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
-    <string name="bluetooth_battery_level_untethered_right">De <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="tv_bluetooth_battery_level_untethered_left">Chwith <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="tv_bluetooth_battery_level_untethered_right">De <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Gweithredol</string>
     <string name="bluetooth_saved_device">Wedi ei gofio</string>
-    <string name="bluetooth_hearing_aid_left_active">Gweithredol, chwith yn unig</string>
-    <string name="bluetooth_hearing_aid_right_active">Gweithredol, dde yn unig</string>
-    <string name="bluetooth_hearing_aid_left_and_right_active">Gweithredol, dde a chwith</string>
     <string name="bluetooth_profile_a2dp">Sain cyfryngau</string>
     <string name="bluetooth_profile_headset">Galwadau ffôn</string>
     <string name="bluetooth_profile_opp">Trosglwyddo ffeiliau</string>
@@ -427,9 +421,6 @@
     <string name="transcode_default">Tybio fod apiau yn cefnogi fformatau modern</string>
     <string name="transcode_notification">Dangos hysbysiadau trawsgodio</string>
     <string name="transcode_disable_cache">Analluogi cof dros dro trawsgodio</string>
-    <string name="widevine_settings_title">Gosodiadau Widevine</string>
-    <string name="force_l3_fallback_title">Gorfodi disgyn nôl i L3</string>
-    <string name="force_l3_fallback_summary">Dewisa i orfodi disgyn yn ôl i L3</string>
     <string name="runningservices_settings_title">Gwasanaethau\'n rhedeg</string>
     <string name="runningservices_settings_summary">Gweld a rheoli gwasanaethau sy\'n rhedeg ar hyn o bryd</string>
     <string name="select_webview_provider_title">Rhoi WebView ar waith</string>
@@ -484,6 +475,7 @@
     <string name="battery_info_status_full">Wedi gwefru</string>
     <string name="battery_info_status_full_charged">Wedi Gwefru\u2019n Llawn</string>
     <string name="battery_info_status_charging_on_hold">Gwefru wedi\u2019i seibio</string>
+    <string name="battery_info_status_charging_v2">Yn gwefru</string>
     <string name="disabled_by_admin_summary_text">Rheolir gan weinyddwr</string>
     <string name="disabled_by_app_ops_text">Rheolir gan Osodiad Cyfyngedig</string>
     <string name="disabled">Wedi\'i analluogi</string>
@@ -623,7 +615,6 @@
     <string name="add_user_failed">Methwyd â chreu defnyddiwr newydd</string>
     <string name="add_guest_failed">Methwyd â chreu gwesti newydd</string>
     <string name="user_nickname">Llysenw</string>
-    <string name="edit_user_info_message">Bydd dy enw a dy lun yn weladwy i unrhyw un sy\'n defnyddio\'r ddyfais hon.</string>
     <string name="user_add_user">Ychwanegu defnyddiwr</string>
     <string name="guest_new_guest">Ychwanegu gwestai</string>
     <string name="guest_exit_guest">Tynnu gwestai</string>
@@ -654,8 +645,6 @@ newydd ac yn dileu holl apiau a data\u2019r sesiwn cyfredol</string>
     <string name="guest_notification_non_ephemeral">Gellir cadw neu dileu dy weithgaredd wrth adael</string>
     <string name="guest_notification_non_ephemeral_non_first_login">Ailosoda i ddileu gweithgaredd sesiwn
 nawr, neu gellir ei gadw a dileu gweithgaredd wrth adael</string>
-    <string name="user_image_take_photo">Tynnu llun</string>
-    <string name="user_image_choose_photo">Dewisa ddelwedd</string>
     <string name="user_image_photo_selector">Dewis y llun</string>
     <string name="failed_attempts_now_wiping_device">Gormod o ymdrechion anghywir. Caiff data\'r ddyfais hon ei ddileu.</string>
     <string name="failed_attempts_now_wiping_user">Gormod o ymdrechion anghywir. Caiff y defnyddiwr hwn ei ddileu.</string>
@@ -697,12 +686,9 @@ nawr, neu gellir ei gadw a dileu gweithgaredd wrth adael</string>
     <string name="accessibility_ethernet_disconnected">Ether-rwyd heb gysylltu.</string>
     <string name="accessibility_ethernet_connected">Ether-rwyd.</string>
     <string name="accessibility_no_calling">Dim galw.</string>
-    <string name="avatar_picker_title">Dewis llun proffil</string>
-    <string name="default_user_icon_description">Eicon defnyddiwr rhagosodedig</string>
     <string name="physical_keyboard_title">Bysellfwrdd corfforol</string>
     <string name="keyboard_layout_dialog_title">Dewis gosodiad bysellfwrdd</string>
     <string name="keyboard_layout_default_label">Arferol</string>
-    <string name="turn_screen_on_title">Troi\'r sgrin ymlaen</string>
     <string name="allow_turn_screen_on">Caniatáu troi\'r sgrin ymlaen</string>
     <string name="allow_turn_screen_on_description">Ychwanegu ap i droi\u2019r sgrin ymlaen. Os rhoddir, bydd yr ap yn gallu troi\u2019r sgrin ymlaen unrhyw bryd heb i ti fod wedi dewis gwneud.</string>
     <string name="bt_le_audio_broadcast_dialog_title">Stopio darlledu <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>

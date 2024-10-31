@@ -49,7 +49,6 @@
     <string name="accessibility_ringer_silent">Schellmodus \"Roueg\".</string>
     <string name="accessibility_desc_notification_shade">Notifikatiounsläischt.</string>
     <string name="accessibility_desc_quick_settings">Séier Astellungen.</string>
-    <string name="accessibility_desc_lock_screen">Schierm spären.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth un.</string>
     <string name="accessibility_quick_settings_alarm">Alarm gesat fir <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_more_time">Méi Zäit.</string>
@@ -135,4 +134,5 @@
     <string name="mobile_data_connection_active">Verbonnen</string>
     <string name="clipboard_edit_text_done">Fäerdeg</string>
     <string name="privacy_dialog_done_button">Fäerdeg</string>
+    <string name="touchpad_tutorial_done_button">Fäerdeg</string>
 </resources>

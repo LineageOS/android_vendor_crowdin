@@ -17,6 +17,7 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="close_dialog_button">Fermi</string>
     <string name="accessibility_phone_button">Telefono</string>
     <string name="cancel">Nuligi</string>
     <string name="accessibility_airplane_mode">Aviadila reĝimo.</string>

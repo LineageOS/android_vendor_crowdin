@@ -125,6 +125,9 @@
     <string name="kg_prompt_reason_timeout_pattern">Pa más seguranza, usa\'l patrón</string>
     <string name="kg_prompt_reason_timeout_pin">Pa más seguranza, usa\'l PIN</string>
     <string name="kg_prompt_reason_timeout_password">Pa más seguranza, usa la contraseña</string>
+    <string name="kg_prompt_added_security_pin">Tienes d\'introducir el PIN pa tener más seguranza</string>
+    <string name="kg_prompt_added_security_pattern">Tienes de dibuxar el patrón pa tener más seguranza</string>
+    <string name="kg_prompt_added_security_password">Tienes d\'introducir la contraseña pa tener más seguranza</string>
     <string name="kg_prompt_reason_device_admin">L\'alministrador bloquió\'l preséu</string>
     <string name="kg_prompt_reason_user_request">El preséu bloquióse manualmente</string>
     <string name="kg_face_not_recognized">Nun se reconoz</string>

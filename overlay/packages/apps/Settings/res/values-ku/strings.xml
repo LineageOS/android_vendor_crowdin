@@ -90,10 +90,12 @@
     <string name="security_settings_title">پاراستن</string>
     <string name="disabled_by_administrator_summary">لەکارە نیە</string>
     <string name="security_settings_face_enroll_introduction_cancel">لابردن</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">ئێستا نا</string>
     <string name="security_settings_face_enroll_enrolling_skip">تێپەڕاندن</string>
     <string name="security_settings_face_enroll_dialog_ok">OK</string>
     <string name="security_settings_face_enroll_done">ئه‌نجام درا</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">لابردن</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">ئێستا نا</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">ئێستا نا</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">بەردەوامبون</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">لابردن</string>
@@ -109,8 +111,8 @@
     <string name="security_settings_fingerprint_enroll_done">ئه‌نجام درا</string>
     <string name="fingerprint_enroll_button_next">دواتر</string>
     <string name="security_header">پاراستن</string>
-    <string name="privatespace_hide_off_summary">کوژاندنەوە</string>
-    <string name="privatespace_hide_on_summary">چالاککردن</string>
+    <string name="private_space_hide_off_summary">کوژاندنەوە</string>
+    <string name="private_space_hide_on_summary">چالاککردن</string>
     <string name="private_space_delete_button_label">سڕینه‌وه‌</string>
     <string name="no_device_lock_cancel">لابردن</string>
     <string name="private_space_cancel_label">لابردن</string>
@@ -285,7 +287,6 @@
     <string name="status_wifi_mac_address">ماک ئەدرێسی ئامێرەکەت</string>
     <string name="status_bt_address">ناونیشانی بلوتوس</string>
     <string name="status_serial_number">زنجیرە ژمارە</string>
-    <string name="status_up_time">کاتی بەرز</string>
     <string name="battery_cycle_count_not_available">بەر دەست نیە</string>
     <string name="memory_calculating_size">لێکدانەوە\u2026</string>
     <string name="storage_menu_rename">ناوگۆڕین</string>
@@ -541,6 +542,7 @@
     <string name="display_category_title">شاشە</string>
     <string name="color_contrast_preview">دەرخستن</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">لابردن</string>
+    <string name="accessibility_tutorial_dialog_configure_software_shortcut_type">بەربژاردەی زیاتر</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">پەرەسەندوو</string>
     <string name="accessibility_button_location_title">ناوچه‌</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">خۆکارانە
@@ -666,6 +668,8 @@
     <string name="vpn_settings_title">VPN</string>
     <string name="adaptive_connectivity_switch_on">چالاککردن</string>
     <string name="adaptive_connectivity_switch_off">کوژاندنەوە</string>
+    <string name="cellular_security_notifications">ئاگادارییه‌کان</string>
+    <string name="cellular_security_settings_encryption_title">نهێنیکاری</string>
     <string name="credentials_title">بیرگەی بەڵگەنامە</string>
     <string name="credentials_reset">پاکردنەوەی بەڵگەنامە</string>
     <string name="credentials_reset_summary">سڕینەوەی هەموو بڕوانامەکان</string>
@@ -847,6 +851,7 @@
     <string name="spatial_summary_off">کوژاندنەوە</string>
     <string name="zen_mode_schedule_delete">سڕینه‌وه‌</string>
     <string name="zen_mode_rule_name_edit">دەستکاری</string>
+    <string name="mode_display_settings_title">ڕێکخستنەکانی پێشانگا</string>
     <string name="zen_mode_no_exceptions">هیچ</string>
     <string name="zen_mode_add">زیادکردن</string>
     <string name="zen_mode_sound_summary_on">چالاککردن</string>
@@ -880,7 +885,10 @@
     <string name="zen_mode_alarms">وریاکەرەوەکان</string>
     <string name="zen_mode_alarms_list_first">وریاکەرەوەکان</string>
     <string name="zen_mode_media_list_first">ڕاگه‌یێنه‌کان</string>
+    <string name="zen_mode_apps_none_apps">هیچ</string>
+    <string name="zen_mode_apps_all_apps">هەموو</string>
     <string name="zen_mode_bypassing_apps_title">بەرنامەکان</string>
+    <string name="zen_mode_action_change_name">ناوگۆڕین</string>
     <string name="nfc_setting_on">چالاککردن</string>
     <string name="nfc_setting_off">کوژاندنەوە</string>
     <string name="screen_pinning_switch_on_text">چالاککردن</string>
@@ -938,6 +946,7 @@
     <string name="sim_action_cancel">لابردن</string>
     <string name="sim_onboarding_next">دواتر</string>
     <string name="wifi_warning_return_button">OK</string>
+    <string name="bluetooth_header_battery_content_description">باتری</string>
     <string name="privacy_controls_title">کۆنترۆڵ</string>
     <string name="contextual_card_dismiss_remove">لابردن</string>
     <string name="wfc_disclaimer_location_title_text">ناوچه‌</string>
@@ -961,7 +970,7 @@
     </string-array>
     <string name="tare_dialog_confirm_button_title">دلنیاکردنەوە</string>
     <string name="dream_preview_button_title">دەرخستن</string>
-    <string name="bluetooth_details_audio_device_type_unknown">نەناسراو</string>
+    <string name="bluetooth_details_audio_device_type_unknown">دانەنراوە</string>
     <string name="flash_notifications_summary_off">کوژاندنەوە</string>
     <string name="flash_notifications_preview">دەرخستن</string>
     <string name="screen_flash_color_blue">شین</string>
@@ -987,4 +996,13 @@
     <string name="show_captions_enabled">چالاککردن</string>
     <string name="live_caption_disabled">کوژاندنەوە</string>
     <string name="live_caption_enabled">چالاککردن</string>
+    <string name="audio_sharing_stream_password_title">وشه‌ی نهێنی</string>
+    <string name="audio_sharing_summary_on">چالاککردن</string>
+    <string name="audio_sharing_summary_off">کوژاندنەوە</string>
+    <string name="audio_sharing_settings_button_label">ڕێکخستنه‌کان</string>
+    <string name="audio_sharing_connect_button_label">گرێدان</string>
+    <string name="audio_streams_disconnect">پچڕاندنی پەیوەندی</string>
+    <string name="audio_streams_connect">گرێدان</string>
+    <string name="audio_streams_connecting_summary">بەستنەوە\u2026</string>
+    <string name="audio_streams_dialog_learn_more">زیاتر بزانە</string>
 </resources>

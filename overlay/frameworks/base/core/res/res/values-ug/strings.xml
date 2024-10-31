@@ -924,6 +924,7 @@
     <string name="restr_pin_try_later">سەل تۇرۇپ قايتا سىناڭ</string>
     <string name="confirm_battery_saver">جەزملە</string>
     <string name="zen_mode_feature_name">ئاۋارە قىلماڭ</string>
+    <string name="zen_mode_trigger_summary_divider_text">« ،»</string>
     <string name="floating_toolbar_open_overflow_description">تېخىمۇ كۆپ تاللانما</string>
     <string name="call_notification_decline_action">قوشۇلما</string>
     <string name="locale_search_menu">ئىزدە</string>
@@ -941,4 +942,5 @@
     <string name="accessibility_system_action_back_label">قايت</string>
     <string name="resolver_work_tab">ئىش</string>
     <string name="profile_label_work">ئىش</string>
+    <string name="biometric_dangling_notification_action_not_now">ھازىرچە ياق</string>
 </resources>

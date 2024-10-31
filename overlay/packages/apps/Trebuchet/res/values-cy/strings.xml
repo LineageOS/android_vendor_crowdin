@@ -40,12 +40,6 @@
     <string name="add_to_home_screen">Ychwanegu at y sgrin gartref</string>
     <string name="added_to_home_screen_accessibility_text">Ychwanegwyd teclyn <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> i\'r sgrin Gartref</string>
     <string name="suggested_widgets_header_title">Awgrymiadau</string>
-    <string name="productivity_widget_recommendation_category_label">Dy Hanfodion Dyddiol</string>
-    <string name="news_widget_recommendation_category_label">Newyddion Ar Dy Gyfer</string>
-    <string name="social_and_entertainment_widget_recommendation_category_label">Dy Barth Ymlacio</string>
-    <string name="fitness_widget_recommendation_category_label">Cyflawna Dy Amcanion Ffitrwydd </string>
-    <string name="weather_widget_recommendation_category_label">Dalia Blaen ar y Gaeaf</string>
-    <string name="others_widget_recommendation_category_label">Posib Byddet Hefyd yn Hoffi</string>
     <string name="widget_picker_right_pane_accessibility_title">Teclynnau <xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> ar y dde, chwilio a dewisiadau ar y chwith</string>
     <string name="widgets_count">        {count, plural, zero {} one {# teclyn} two {# declyn} few {# theclyn} many {# theclyn} =1{# teclyn} other{# teclyn}}
     </string>
@@ -61,10 +55,7 @@
     <string name="widgets_full_sheet_work_tab">Gwaith</string>
     <string name="widget_category_conversations">Sgyrsiau</string>
     <string name="widget_category_note_taking">Cymryd nodiadau</string>
-    <string name="widget_education_header">Gwybodaeth ddefnyddiol ar flaenau dy fysedd</string>
-    <string name="widget_education_content">I gael gwybodaeth heb agor apiau, gellir ychwanegu teclynnau at y sgrin gartref</string>
     <string name="reconfigurable_widget_education_tip">Tapia i newid gosodiadau teclyn</string>
-    <string name="widget_education_close_button">Deall yn iawn</string>
     <string name="widget_reconfigure_button_content_description">Newid gosodiadau teclyn</string>
     <string name="all_apps_search_bar_hint">Chwilio apiau</string>
     <string name="all_apps_loading_message">Yn llwytho apiau…</string>
@@ -140,7 +131,6 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="app_installing_title">Yn gosod <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> yn gyflawn</string>
     <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> yn lawrlwytho, <xliff:g id="progress" example="30%">%2$s</xliff:g> yn gyflawn</string>
     <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> yn disgwyl i\'w osod</string>
-    <string name="app_archived_title">Archifwyd <xliff:g id="name" example="Messenger">%1$s</xliff:g>. Tapia i lawrlwytho.</string>
     <string name="dialog_update_title">Angen diweddaru\u2019r ap</string>
     <string name="dialog_update_message">Ni ellir diweddaru eicon yr ap hwn. Gellir ei ddiweddaru dy hun i ail-alluogi\i2019r llwybr byr hwn neu tynnu\u2019r eicon.</string>
     <string name="dialog_update">Diweddaru</string>
@@ -188,13 +178,10 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="developer_options_filter_hint">Hidlydd</string>
     <string name="remote_action_failed">Methiant: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
     <string name="private_space_label">Gofod preifat</string>
-    <string name="private_space_secondary_label">Cadwa apiau preifat wedi\u2019u cloi a\u2019u cuddio</string>
     <string name="ps_container_title">Preifat</string>
     <string name="ps_container_settings">Gosodiadau Gofod Preifat</string>
-    <string name="ps_container_lock_unlock_button">Cloi/Datgloi Gofod Preifat</string>
     <string name="ps_container_lock_title">Cloi</string>
     <string name="ps_container_transition">Trawsnewid Gofod Preifat</string>
-    <string name="ps_add_button_label">Gosod apiau</string>
+    <string name="ps_add_button_label">Gosod</string>
     <string name="ps_add_button_content_description">Gosod apiau i\u2019r Gofod Preifat</string>
-    <string name="bubble_bar_overflow_description">Gorlif</string>
 </resources>

@@ -127,6 +127,7 @@
     <string name="error_message_title">Eraro</string>
     <string name="write_fail_reason_cancelled">Nuligita</string>
     <string name="reason_unknown">nekonata</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="locale_search_menu">Serĉi</string>
     <string name="app_category_accessibility">Alirebleco</string>
     <string name="time_picker_hour_label">horo</string>

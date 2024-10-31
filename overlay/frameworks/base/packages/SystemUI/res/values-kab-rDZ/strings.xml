@@ -30,12 +30,14 @@
     <string name="global_action_screenshot">Tuṭṭfa n wegdil</string>
     <string name="screenshot_saving_title">Asekles n tuṭṭfa n ugdil\u2026</string>
     <string name="screenshot_edit_label">Ẓreg</string>
+    <string name="screenshot_share_label">Bḍu</string>
     <string name="screenrecord_title">Amaklas n ugdil</string>
     <string name="screenrecord_audio_label">Sekles imesli</string>
     <string name="screenrecord_mic_label">Asawaḍ</string>
     <string name="screenrecord_continue">Bdu</string>
     <string name="screenrecord_stop_label">Seḥbes</string>
     <string name="screenrecord_share_label">Bḍu</string>
+    <string name="close_dialog_button">Mdel</string>
     <string name="issuerecord_share_label">Bḍu</string>
     <string name="immersive_cling_positive">Awi-t</string>
     <string name="accessibility_back">Ar deffir</string>
@@ -60,7 +62,7 @@
     <string name="cell_data_off">Insa</string>
     <string name="accessibility_airplane_mode">Askar asafag.</string>
     <string name="accessibility_desc_quick_settings">Iɣewwaṛen iruraden.</string>
-    <string name="accessibility_desc_lock_screen">Agdil usewḥel.</string>
+    <string name="accessibility_desc_lock_screen">Agdil usewḥel</string>
     <string name="accessibility_desc_close">Mdel</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth irmed.</string>
     <string name="accessibility_quick_settings_more_time">Ugar n wakud.</string>
@@ -85,11 +87,6 @@
     <string name="quick_settings_screen_record_stop">Seḥbes</string>
     <string name="qs_record_issue_start">Bdu</string>
     <string name="qs_record_issue_stop">Seḥbes</string>
-    <string-array name="qs_record_issue_types">
-        <item>Performance</item>
-        <item>User Interface</item>
-        <item>Aẓru</item>
-    </string-array>
     <string name="zen_priority_customize_button">Sagen</string>
     <string name="interruption_level_none">Tasusmi taččurant</string>
     <string name="interruption_level_priority">Tazwart kan</string>
@@ -98,6 +95,7 @@
     <string name="cta_tile_button_to_dismiss">Suref</string>
     <string name="button_to_remove_widget">Kkes</string>
     <string name="hub_mode_editing_exit_button_text">Immed</string>
+    <string name="button_text_to_open_settings">Ldi iγewwaṛen</string>
     <string name="accessibility_multi_user_switch_switcher">Beddel aseqdac</string>
     <string name="guest_wipe_session_wipe">Ales tanekra</string>
     <string name="user_remove_user_remove">Kkes</string>
@@ -124,7 +122,9 @@
     <string name="volume_ringer_status_normal">Aṭenṭen</string>
     <string name="volume_ringer_status_vibrate">Senhez</string>
     <string name="volume_ringer_status_silent">Sens asawad</string>
+    <string name="volume_panel_spatial_audio_off">Insa</string>
     <string name="volume_ringer_hint_vibrate">senhez</string>
+    <string name="volume_panel_hint_vibrate">senhez</string>
     <string name="status_bar">Afeggag n waddad</string>
     <string name="status_bar_alarm">Teṭentunt</string>
     <string name="status_bar_airplane">Askar asafag</string>
@@ -141,7 +141,6 @@
     <string name="battery_detail_switch_title">Aḥraz n uẓru</string>
     <string name="keyboard_key_home">Agdil agejdan</string>
     <string name="keyboard_key_back">Ar deffir</string>
-    <string name="keyboard_key_dpad_center">Alemmas</string>
     <string name="keyboard_key_tab">Tabulation</string>
     <string name="keyboard_key_space">Espace</string>
     <string name="keyboard_key_enter">Entrée</string>
@@ -163,6 +162,7 @@
     <string name="keyboard_shortcut_group_system_back">Ar deffir</string>
     <string name="keyboard_shortcut_group_system_notifications">Ilɣa</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Inegzumen n unasiw</string>
+    <string name="keyboard_shortcut_search_list_title">Inegzumen n unasiw</string>
     <string name="keyboard_shortcut_search_category_system">Anagraw</string>
     <string name="keyboard_shortcut_search_category_input">Anekcum</string>
     <string name="group_system_access_system_settings">Ldi iγewwaṛen</string>
@@ -260,4 +260,8 @@
     <string name="dismiss_dialog">Suref</string>
     <string name="privacy_dialog_done_button">Immed</string>
     <string name="privacy_dialog_collapse_action">Ḍfes</string>
+    <string name="shortcut_helper_category_system">Anagraw</string>
+    <string name="shortcut_helper_category_input">Anekcum</string>
+    <string name="shortcut_helper_category_a11y">Tuffart</string>
+    <string name="touchpad_tutorial_done_button">Immed</string>
 </resources>

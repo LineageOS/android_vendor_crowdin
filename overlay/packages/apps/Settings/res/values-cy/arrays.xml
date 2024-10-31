@@ -81,6 +81,13 @@
         <item>Ar gael</item>
         <item>Allan-o-amrediad</item>
     </string-array>
+    <string-array name="bt_stack_log_level_entries">
+        <item>Geiriog</item>
+        <item>Dadfygio</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Error</item>
+    </string-array>
     <string-array name="bluetooth_leaudio_mode">
         <item>Analluogwyd</item>
         <item>Unicast</item>
@@ -403,7 +410,7 @@
         <item>Trin fel heb ei mesur</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
-        <item>Defnyddio MAC ar hap (rhagosodiad)</item>
+        <item>Use randomized MAC</item>
         <item>Defnyddio MAC y ddyfais</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
@@ -479,4 +486,5 @@
         <item>Ar ôl 1 munud</item>
         <item>Ar ôl 5 munud</item>
     </string-array>
+    <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>

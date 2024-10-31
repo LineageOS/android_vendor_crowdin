@@ -556,5 +556,5 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="perm_toggle_description">Ar gyfer apiau a gwasanaethau</string>
     <string name="safety_label_changes_gear_description">Gosodiadau</string>
     <string name="enhanced_confirmation_dialog_learn_more">Dysgu mwy</string>
-    <string name="enhanced_confirmation_dialog_ok">Deall yn iawn</string>
+    <string name="enhanced_confirmation_dialog_ok">Iawn</string>
 </resources>

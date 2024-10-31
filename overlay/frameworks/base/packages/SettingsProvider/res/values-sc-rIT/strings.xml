@@ -18,6 +18,4 @@
 -->
 <resources>
     <string name="app_label">Archiviatzione de impostatziones</string>
-    <string name="wifi_softap_config_change">Is cunfiguratziones de su puntu de atzessu sunt cambiadas</string>
-    <string name="wifi_softap_config_change_summary">Toca pro bìdere is detàllios</string>
 </resources>

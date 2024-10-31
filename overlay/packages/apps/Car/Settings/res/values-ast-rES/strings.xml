@@ -16,8 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_label">Configuración</string>
-    <string name="mobile_network_active_esim">Serviciu activu/eSIM</string>
-    <string name="mobile_network_inactive_esim">Serviciu inactivu/eSIM</string>
+    <string name="theme_toggle_title">Estilu</string>
+    <string name="mobile_network_active_esim">Serviciu activu / eSIM</string>
+    <string name="mobile_network_inactive_esim">Serviciu inactivu / eSIM</string>
     <string name="wifi_network_state_switch_subtitle">Atopar y conectase a redes Wi\u2011Fi</string>
     <string name="tether_settings_title_all">Puntu Wi\u2011Fi</string>
     <string name="wifi_hotspot_switch_title">Usar el puntu Wi\u2011Fi</string>
@@ -95,27 +96,8 @@
     <string name="mute_camera_summary">Controla l\'accesu de les aplicaciones a les cámares</string>
     <string name="camera_access_settings_title">Accesu a la cámara</string>
     <string name="camera_access_settings_summary">Escueyi si les aplicaciones puen acceder a les cámares del coche</string>
-    <string name="camera_access_radio_group_title">Usar les cámares del coche con:</string>
-    <string name="camera_access_radio_any_app_title">Cualesquier aplicación</string>
-    <string name="camera_access_radio_any_app_summary">Cualesquier aplicación que-y dieres permisu p\'acceder a la cámara</string>
-    <string name="camera_access_radio_no_apps_title">Ensin aplicaciones</string>
-    <string name="camera_access_radio_no_apps_summary">Nenguna aplicación</string>
-    <string name="camera_access_radio_helpful_apps_title">Aplicaciones que t\'ayuden a conducir</string>
-    <string name="camera_access_radio_helpful_apps_summary">Aplicaciones que t\'asisten con coses como la visualización de la redolada al aparcar</string>
-    <string name="camera_access_radio_required_apps_title">Namás aplicaciones obligatories</string>
-    <string name="camera_access_radio_required_apps_summary">Namás les aplicaciones que rica\'l fabricante del coche</string>
-    <string name="camera_access_radio_helpful_required_apps_title">Aplicaciones que t\'ayuden a conducir</string>
-    <string name="camera_access_radio_helpful_required_apps_summary">Aplicaciones que t\'asisten con coses como la visualización de la redolada al aparcar y coles aplicaciones obligatories</string>
-    <string name="camera_helpful_apps_list_title">Aplicaciones que t\'ayuden a conducir</string>
-    <string name="camera_helpful_apps_list_summary">Estes aplicaciones puen acceder a la cámara p\'asistite cola conducción</string>
-    <string name="camera_required_apps_list_title">Aplicaciones obligatories</string>
-    <string name="camera_required_apps_list_summary">Estes aplicaciones son necesaries pa que\'l coche funcione con seguranza</string>
-    <string name="camera_privacy_policy_button_text">Política</string>
-    <string name="camera_access_disclaimer_summary">        Ye posible que\'l fabricante del coche pueda siguir accediendo a la cámara del coche.
-        Pues revisar les sos polítiques pa consiguir más información.
-    </string>
-    <string name="camera_privacy_policy_info_summary">        Conoz más tocante a cómo les aplicaciones usen la cámara revisando les sos polítiques de privacidá.
-    </string>
+    <string name="required_apps_group_title">Aplicaciones obligatories</string>
+    <string name="required_apps_privacy_policy_button_text">Política</string>
     <string name="locktype_unavailable">Esti tipu de bloquéu nun ta disponible.</string>
     <string name="do_not_allow">Nun permitir</string>
     <string name="restricted_for_passenger">Solicita al conductor que camude la opción</string>

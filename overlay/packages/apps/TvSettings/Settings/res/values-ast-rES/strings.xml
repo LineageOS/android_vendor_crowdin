@@ -42,9 +42,6 @@
     <string name="preferred_dynamic_range_title">Intervalu dinámicu preferíu</string>
     <string name="preferred_dynamic_range_selection_system_title">Conversión preferida pol sistema
             </string>
-    <string name="preferred_dynamic_range_selection_system_desc">Dexa que\'l sistema xestione la
-        conversión del formatu
-    </string>
     <string name="preferred_dynamic_range_selection_system_summary">Cuando esta opción ta seleicionada,
         el sistema determina un intervalu dinámicu afayadizu pa unvialu a la pantalla y convertir
         el conteníu a esti intervalu dinámicu si ye necesario.
@@ -296,6 +293,5 @@
     <string name="settings_find_my_remote_title">Atopar el mandu</string>
     <string name="settings_find_my_remote_description">Reproduz un soníu p\'atopar el mandu de Google TV si nun sabes ónde ta</string>
     <string name="find_my_remote_slice_description">Hai un botón nel preséu de Google TV que pues primir pa reproducir un soníu nel mandu demientres 30 segundos. Esta función namás funciona colos mandos de Google TV compatibles.\n\nPa parar el soníu, primi cualesquier botón del mandu.</string>
-    <string name="find_my_remote_integration_hint">Cuando la opción «Atopar el mandu» ta activada, pues reproducir un soníu pa llocalizar el mandu de Google TV si nun sabes ónde ta.</string>
     <string name="find_my_remote_play_sound">Reproducir un soníu</string>
 </resources>

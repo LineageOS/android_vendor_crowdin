@@ -557,7 +557,6 @@
     <string name="incall_error_supp_service_hold">Impussibil meti in spiete lis clamadis.</string>
     <string name="incall_error_wfc_only_no_wireless_network">Conetiti a une rêt cence fîi par fa une clamade.</string>
     <string name="incall_error_promote_wfc">Ative lis clamadis Wi-Fi par fâ une clamade.</string>
-    <string name="incall_error_satellite_enabled">Disative modalitât satelit par fâ une clamade.</string>
     <string name="emergency_information_hint">Informazions di emergjence</string>
     <string name="emergency_information_owner_hint">Proprietari</string>
     <string name="emergency_information_confirm_hint">Tocje di gnûf par viodi lis informazions</string>

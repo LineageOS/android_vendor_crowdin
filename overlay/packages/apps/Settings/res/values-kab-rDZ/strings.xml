@@ -87,7 +87,7 @@
     <string name="security_settings_face_enroll_education_start">Bdu</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Uγal γer deffir</string>
     <string name="security_settings_face_enroll_introduction_cancel">Sefsex</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks">Uhu tannemmit</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Mačči tura</string>
     <string name="security_settings_face_enroll_introduction_more">Ugar</string>
     <string name="security_settings_face_enroll_enrolling_skip">Zgel</string>
     <string name="security_settings_face_enroll_dialog_ok">IH</string>
@@ -95,7 +95,7 @@
     <string name="security_settings_fingerprint">Adsil umḍin</string>
     <string name="security_settings_fingerprint_preference_title">Adsil umḍin</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Sefsex</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Uhu tannemmit</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Mačči tura</string>
     <string name="security_settings_activeunlock_biometric_setup">Sebded</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">Mačči tura</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Kemmel</string>
@@ -117,8 +117,8 @@
     <string name="fingerprint_enroll_button_next">Γer zdat</string>
     <string name="security_header">Taγellist</string>
     <string name="privacy_header">Tabaḍnit</string>
-    <string name="private_space_auto_lock_never">Weṛǧin</string>
-    <string name="privatespace_hide_off_summary">Insa</string>
+    <string name="private_space_hide_off_summary">Insa</string>
+    <string name="private_space_hide_dialog_button">Gziɣ</string>
     <string name="private_space_category_system">Anagraw</string>
     <string name="private_space_delete_button_label">Kkes</string>
     <string name="no_device_lock_cancel">Sefsex</string>
@@ -128,7 +128,7 @@
     <string name="private_space_retry_signin_title">Qqen</string>
     <string name="private_space_skip_login_label">Mačči tura</string>
     <string name="private_space_continue_login_label">Kemmel</string>
-    <string name="private_space_gaia_education_got_it">Gziɣ</string>
+    <string name="private_space_category_hide">Ffer</string>
     <string name="encryption_settings_title">Awgelhen</string>
     <string name="encrypted_summary">Yettwawgelhen</string>
     <string name="unlock_set_unlock_launch_picker_title">Aseḍru n wegdil</string>
@@ -255,6 +255,7 @@
     <string name="storage_menu_forget">Ttu</string>
     <string name="storage_menu_set_up">Sebded</string>
     <string name="storage_menu_manage">Sefrek aḥraz</string>
+    <string name="storage_system_label">Anagraw</string>
     <string name="storage_wizard_slow_v2_start_over">Ales tanekra</string>
     <string name="storage_wizard_slow_v2_continue">Kemmel</string>
     <string name="apn_not_set">Ur ittwasbadu ara</string>
@@ -390,6 +391,7 @@
     <string name="accessibility_text_reading_confirm_dialog_reset_button">Wennez</string>
     <string name="accessibility_screen_option">Iɣewwaṛen</string>
     <string name="accessibility_tutorial_dialog_button">Gziɣ</string>
+    <string name="accessibility_tutorial_dialog_configure_software_shortcut_type">Ugar n iɣewwaṛen</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Talqayt</string>
     <string name="accessibility_button_location_title">Adig</string>
     <string name="accessibility_toggle_primary_balance_title">Balance audio</string>
@@ -416,6 +418,7 @@
     <string name="accessibility_summary_shortcut_disabled">Insa</string>
     <string name="accessibility_summary_state_disabled">Insa</string>
     <string name="daltonizer_mode_grayscale_title">Tifesniwin n umliɣdi</string>
+    <string name="daltonizer_saturation_title">Intensité</string>
     <string name="reduce_bright_colors_intensity_preference_title">Intensité</string>
     <string name="accessibility_menu_item_settings">Iɣewwaṛen</string>
     <string name="accessibility_feature_state_off">Insa</string>
@@ -480,6 +483,8 @@
     <string name="tts_reset">Wennez</string>
     <string name="tts_play">Urar</string>
     <string name="adaptive_connectivity_switch_off">Insa</string>
+    <string name="cellular_security_notifications">Ilɣa</string>
+    <string name="cellular_security_settings_encryption_title">Awgelhen</string>
     <string name="advanced_security_title">Talqayt</string>
     <string name="request_manage_credentials_allow">Sireg</string>
     <string name="no_certificate_management_app">Ula yiwen</string>
@@ -570,8 +575,11 @@
     <string name="zen_mode_rule_name_edit">Ẓreg</string>
     <string name="zen_mode_automation_settings_page_title">Planifications</string>
     <string name="zen_mode_automatic_rule_settings_page_title">Planification</string>
+    <string name="zen_mode_set_calendar_category_title">Planification</string>
+    <string name="zen_mode_set_schedule_link">Planification</string>
     <string name="zen_mode_schedule_category_title">Planification</string>
     <string name="zen_mode_schedule_title">Planification</string>
+    <string name="mode_grayscale_title">Tifesniwin n umliɣdi</string>
     <string name="zen_mode_restrict_notifications_custom">Udmawan</string>
     <string name="zen_mode_block_effect_summary_none">Weṛǧin</string>
     <string name="zen_mode_no_exceptions">Ula yiwen</string>
@@ -642,9 +650,13 @@
     <string name="zen_mode_events">Tidyanin n tsmektit</string>
     <string name="zen_mode_events_list">tidyanin</string>
     <string name="zen_mode_events_list_first">Tidyanin</string>
+    <string name="zen_mode_apps_title">Isnasen</string>
+    <string name="zen_mode_apps_none_apps">Ula yiwen</string>
+    <string name="zen_mode_apps_all_apps">Tous</string>
     <string name="zen_mode_bypassing_apps_title">Isnasen</string>
     <string name="zen_mode_start_time">Temps de début</string>
     <string name="zen_mode_end_time">Asrag n tagara</string>
+    <string name="zen_mode_action_change_name">Snifel isem</string>
     <string name="suggestion_button_close">Mdel</string>
     <string name="switch_off_text">Insa</string>
     <string name="nfc_setting_off">Insa</string>
@@ -717,6 +729,7 @@
     <string name="storage_images">Tugniwin</string>
     <string name="storage_videos">Tividyutin</string>
     <string name="storage_audio">Imesli</string>
+    <string name="storage_other">Wiyaḍ</string>
     <string name="storage_apps">Isnasen</string>
     <string name="storage_system">Anagraw</string>
     <string name="launch_instant_app">Ldi</string>
@@ -759,7 +772,7 @@
     <string name="sim_action_cancel">Sefsex</string>
     <string name="sim_action_turn_off">Sens</string>
     <string name="primary_sim_calls_title">Appels</string>
-    <string name="sim_onboarding_setup">Sebded</string>
+    <string name="sim_onboarding_close">Mdel</string>
     <string name="sim_onboarding_next">Γer zdat</string>
     <string name="mobile_network_phone_number_title">Uṭṭun n tiliɣri</string>
     <string name="erase_sim_confirm_button">Effacer</string>
@@ -769,6 +782,7 @@
     <string name="network_connection_request_dialog_showall">Sken meṛṛa</string>
     <string name="bluetooth_left_name">Azelmad</string>
     <string name="bluetooth_right_name">Ayeffus</string>
+    <string name="bluetooth_header_battery_content_description">Aẓru</string>
     <string name="privacy_dashboard_title">Tabaḍnit</string>
     <string name="privacy_controls_title">Contrôles</string>
     <string name="contextual_card_dismiss_remove">Kkes</string>
@@ -806,7 +820,7 @@
     </string-array>
     <string name="tare_dialog_confirm_button_title">Sentem</string>
     <string name="dream_preview_button_title">Timeẓriwt</string>
-    <string name="bluetooth_details_audio_device_type_unknown">Arussin</string>
+    <string name="bluetooth_details_audio_device_type_unknown">Ur ittwasbadu ara</string>
     <string name="bluetooth_details_audio_device_type_other">Wiyaḍ</string>
     <string name="bluetooth_find_broadcast_button_scan">Semḍen tangalt QR</string>
     <string name="find_broadcast_password_dialog_password_error">Awal n uɛeddi d armeɣtu</string>
@@ -833,4 +847,18 @@
     <string name="autoclick_disabled">Insa</string>
     <string name="show_captions_disabled">Insa</string>
     <string name="live_caption_disabled">Insa</string>
+    <string name="audio_sharing_stream_name_title">Isem</string>
+    <string name="audio_sharing_stream_password_title">Awal uffir</string>
+    <string name="audio_sharing_summary_off">Insa</string>
+    <string name="audio_sharing_no_thanks_button_label">Uhu tannemmit</string>
+    <string name="audio_sharing_close_button_label">Mdel</string>
+    <string name="audio_sharing_settings_button_label">Iγewwaṛen</string>
+    <string name="audio_sharing_connect_button_label">Qqen</string>
+    <string name="audio_streams_disconnect">Ffeɣ</string>
+    <string name="audio_streams_connect">Qqen</string>
+    <string name="audio_streams_connecting_summary">Tuqna\u2026</string>
+    <string name="audio_streams_dialog_close">Mdel</string>
+    <string name="audio_streams_dialog_retry">Ɛreḍ tikkelt nniḍen</string>
+    <string name="audio_streams_dialog_learn_more">Issin ugar</string>
+    <string name="audio_streams_main_page_scan_qr_code_title">Semḍen tangalt QR</string>
 </resources>

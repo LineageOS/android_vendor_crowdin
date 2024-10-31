@@ -39,4 +39,6 @@
     <string name="prompt_connect_to_network">Mam Netzwierk <xliff:g id="network_ssid">%1$s</xliff:g> connectéieren?</string>
     <string name="beam_requires_nfc_enabled">Fir Android Beam ze benotze muss NFC aktivéiert sinn. Wëlls du NFC elo aktivéieren?</string>
     <string name="android_beam">Android Beam</string>
+    <string name="enable_nfc_yes">Jo</string>
+    <string name="enable_nfc_no">Nee</string>
 </resources>

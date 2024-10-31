@@ -77,7 +77,6 @@
     <string name="NetworkPreferenceSwitchTitle">Cha ruig sinn an lìonra mobile</string>
     <string name="NetworkPreferenceSwitchSummary">Feuch an atharraich thu an lìonra as annsa leat. Thoir gnogag gus atharrachadh.</string>
     <string name="EmergencyCallWarningTitle">Chan eil gairmean-èiginn ri làimh</string>
-    <string name="EmergencyCallWarningSummary">Chan urrainn dhut gairm-èiginn a dhèanamh slighe WiFi</string>
     <string name="notification_channel_network_alert">Rabhaidhean</string>
     <string name="notification_channel_call_forward">Sìneadh air adhart ghairmean</string>
     <string name="notification_channel_emergency_callback">Modh gairm-èiginn air ais</string>
@@ -143,6 +142,7 @@
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: Gun sìneadh air adhart</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: Gun sìneadh air adhart</string>
     <string name="scNullCipherIssueActionLearnMore">Barrachd fiosrachaidh</string>
+    <string name="scNullCipherIssueActionGotIt">Tha mi agaibh</string>
     <string name="fcComplete">Tha còd a’ ghleusa coileanta.</string>
     <string name="fcError">Tha duilgheadas leis a’ cheangal no tha còd a’ ghleusa mì-dhligheach.</string>
     <string name="httpErrorOk">Ceart ma-thà</string>
@@ -264,6 +264,7 @@
     <string name="global_action_voice_assist">Taic gutha</string>
     <string name="global_action_lockdown">Glasadh</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="notification_compact_heads_up_reply">Freagair</string>
     <string name="notification_hidden_text">Brath ùr</string>
     <string name="notification_channel_physical_keyboard">Am meur-chlàr fiosaigeach</string>
     <string name="notification_channel_security">Tèarainteachd</string>
@@ -1812,7 +1813,6 @@
     <string name="restr_pin_error_too_short">Tha am PIN ro ghoirid. Feumaidh co-dhiù 4 àireamhan a bhith ann.</string>
     <string name="restr_pin_try_later">Feuch ris a-rithist an ceann greis</string>
     <string name="immersive_cling_title">’Ga shealltainn air an làn-sgrìn</string>
-    <string name="immersive_cling_description">Airson am modh fhàgail, grad-shlaighd sìos on bhàrr.</string>
     <string name="immersive_cling_positive">Tha mi agaibh</string>
     <string name="done_label">Deiseil</string>
     <string name="hour_picker_description">Sleamhnaiche cearcallach nan uairean</string>
@@ -1834,7 +1834,6 @@
     <string name="lock_to_app_unlock_pin">Iarr PIN ron dhì-phrìneachadh</string>
     <string name="lock_to_app_unlock_pattern">Iarr pàtran neo-ghlasaidh ron dhì-phrìneachadh</string>
     <string name="lock_to_app_unlock_password">Iarr facal-faire ron dhì-phrìneachadh</string>
-    <string name="package_installed_device_owner">Chaidh a stàladh leis an rianaire agad</string>
     <string name="package_updated_device_owner">Chaidh ùrachadh leis an rianaire agad</string>
     <string name="package_deleted_device_owner">Chaidh a sguabadh às leis an rianaire agad</string>
     <string name="confirm_battery_saver">Ceart ma-thà</string>
@@ -1854,6 +1853,7 @@
     <string name="zen_mode_default_events_name">Tachartas</string>
     <string name="zen_mode_default_every_night_name">’Na chadal</string>
     <string name="zen_mode_implicit_deactivated">Dheth</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="muted_by">Tha <xliff:g id="third_party">%1$s</xliff:g> a’ mùchadh cuid a dh’fhuaimean</string>
     <string name="system_error_wipe_data">Tha mearachd inntearnail aig an uidheam agad is dh’fhaoidte gum bi e cugallach gus an ath-shuidhich thu air bun-roghainnean an fhactaraidh e.</string>
     <string name="system_error_manufacturer">Tha mearachd inntearnail aig an uidheam agad. Cuir fios gun dèanadair agad airson mion-fhiosrachadh.</string>
@@ -2047,7 +2047,6 @@
     <string name="accessibility_system_action_on_screen_a11y_shortcut_label">Ath-ghoirid na so-ruigsinneachd air an sgrìn</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label">Roghnaichear ath-ghoirid na so-ruigsinneachd air an sgrìn</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Ath-ghoirid na so-ruigsinneachd</string>
-    <string name="accessibility_freeform_caption">Bàr fho-thiotalan aig <xliff:g id="app_name">%1$s</xliff:g>.</string>
     <string name="as_app_forced_to_restricted_bucket">        Chaidh <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> a chur dhan bhucaid RESTRICTED</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">chaidh dealbh a chur</string>
@@ -2170,4 +2169,7 @@ na seirbheise.</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_SUCCESS">Chaidh a’ ghlas a thoirt far fo-sheata an lìonraidh airson solaraiche na seirbheise.</string>
     <string name="device_state_notification_turn_off_button">Cuir dheth</string>
     <string name="profile_label_work">Obair</string>
+    <string name="accessibility_label_managed_profile">Pròifil na h-obrach</string>
+    <string name="biometric_dangling_notification_action_set_up">Suidhich</string>
+    <string name="biometric_dangling_notification_action_not_now">Chan ann an-dràsta</string>
 </resources>

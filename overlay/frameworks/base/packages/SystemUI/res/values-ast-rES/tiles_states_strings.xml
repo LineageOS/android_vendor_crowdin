@@ -180,4 +180,9 @@
         <item>Non</item>
         <item>Sí</item>
     </string-array>
+    <string-array name="tile_states_hearing_devices">
+        <item>Nun ta disponible</item>
+        <item>Non</item>
+        <item>Sí</item>
+    </string-array>
 </resources>

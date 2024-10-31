@@ -45,7 +45,6 @@
     <string name="accessibility_ringer_silent">بێدەنگ زەنگ.</string>
     <string name="accessibility_desc_notification_shade">سێبەری تێبینی.</string>
     <string name="accessibility_desc_quick_settings">خێرا ڕێکخستن.</string>
-    <string name="accessibility_desc_lock_screen">قوفڵکردنی ڕوونما.</string>
     <string name="accessibility_quick_settings_bluetooth_on">چالاکردنی بلوتوس.</string>
     <string name="accessibility_quick_settings_alarm">دانانی بیرخەرەوە بۆ <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_more_time">کاتی زیاتر.</string>

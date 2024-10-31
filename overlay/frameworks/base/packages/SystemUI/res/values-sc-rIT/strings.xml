@@ -57,6 +57,7 @@
     <string name="screenrecord_ongoing_screen_and_audio">Registratzione de s\'ischermu e de s\'àudio</string>
     <string name="screenrecord_taps_label">Ammustra is tocos in s\'ischermu</string>
     <string name="screenrecord_start_error">Errore in s\'aviada de sa registratzione de s\'ischermu</string>
+    <string name="close_dialog_button">Serra</string>
     <string name="immersive_cling_positive">AB</string>
     <string name="accessibility_back">In segus</string>
     <string name="accessibility_home">Pàgina printzipale</string>
@@ -100,7 +101,6 @@
     <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_desc_notification_shade">Àrea de notìficas.</string>
     <string name="accessibility_desc_quick_settings">Impostatziones lestras.</string>
-    <string name="accessibility_desc_lock_screen">Bloca s\'ischermu.</string>
     <string name="accessibility_desc_close">Serra</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth ativadu.</string>
     <string name="accessibility_quick_settings_alarm">Isvèllia impostada pro <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>.</string>
@@ -251,4 +251,5 @@
     <string name="call_from_work_profile_close">Annulla</string>
     <string name="privacy_dialog_done_button">Fatu</string>
     <string name="privacy_dialog_collapse_action">Cuntrae</string>
+    <string name="touchpad_tutorial_done_button">Fatu</string>
 </resources>

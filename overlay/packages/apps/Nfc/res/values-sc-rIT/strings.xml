@@ -39,4 +39,6 @@
     <string name="prompt_connect_to_network">Ti boles collegare a sa rete <xliff:g id="network_ssid">%1$s</xliff:g>?</string>
     <string name="beam_requires_nfc_enabled">Android Beam rechedet su NFC pro èssere ativadu. Ddu boles ativare?</string>
     <string name="android_beam">Android Beam</string>
+    <string name="enable_nfc_yes">Eja</string>
+    <string name="enable_nfc_no">Nono</string>
 </resources>
