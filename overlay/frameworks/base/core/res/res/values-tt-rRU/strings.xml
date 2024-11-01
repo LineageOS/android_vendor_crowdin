@@ -38,11 +38,14 @@
     <plurals name="pinpuk_attempts">
         <item quantity="other">SIM картасы бикләнгәнче <xliff:g id="number">%d</xliff:g> омтылышыгыз калды.</item>
     </plurals>
+    <string name="CwMmi">Шалтыратуны көтү</string>
+    <string name="BaMmi">Шалтыратуны тыю</string>
     <string name="CnipMmi">Шалтыратучы номер күренә</string>
     <string name="CnirMmi">Шалтыратучы номер күренми</string>
     <string name="ThreeWCMmi">Өч яклы шалтырату</string>
     <string name="RuacMmi">Теләнмәгән бәйләнчек шалтыратуларны кире кагу</string>
     <string name="notification_channel_mobile_data_status">Мобиль челтәр халәте</string>
+    <string name="notification_channel_sim">SIM-карта халәте</string>
     <string name="roamingText0">Роуминг билгесе кабызылган</string>
     <string name="roamingText1">Роуминг билгесе сүндерелгән</string>
     <string name="roamingText2">Роуминг билгесе җемелди</string>
@@ -60,6 +63,7 @@
     <string name="httpErrorFile">Файлны ачып булмый.</string>
     <string name="httpErrorFileNotFound">Соратылган файлны табып булмый.</string>
     <string name="httpErrorTooManyRequests">Артык күп соратулар эшкәртелә. Соңрак кабатлап карагыз.</string>
+    <string name="contentServiceSyncNotificationTitle">Синхронлаштырып булмый</string>
     <string name="low_memory" product="tablet">Планшетта урын юк. Урынны бушату өчен, кайбер файлларны бетерегез.</string>
     <string name="low_memory" product="watch">Сәгатьтә урын юк. Урынны бушату өчен, кайбер файлларны бетерегез.</string>
     <string name="low_memory" product="tv">Android TV\'да урын юк. Урынны бушату өчен, кайбер файлларны бетерегез.</string>
@@ -82,8 +86,10 @@
         блокланачак. Сезнең ИТ администраторы эш профилегезне <xliff:g id="number" example="3">%3$d</xliff:g> көннән артыкка         
         сүндерергә рөхсәт итми.
     </string>
+    <string name="personal_apps_suspended_turn_profile_on">Кабызу</string>
     <string name="global_action_logout">Сессияне тәмамлау</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="notification_channel_vpn">VPN халәте</string>
     <string name="notification_channel_usb">USB тоташуы</string>
     <string name="notification_channel_heavy_weight_app">Эшләүче кушымта</string>
     <string name="notification_channel_foreground_service">Батарея ашаучы кушымталар</string>
@@ -101,6 +107,7 @@
     <string name="permgrouplab_sms">SMS</string>
     <string name="permgroupdesc_sms">SMS\'ларны җибәрү һәм уку</string>
     <string name="permgroupdesc_microphone">тавыш яздыру</string>
+    <string name="permgrouplab_activityRecognition">Физик активлык</string>
     <string name="permgroupdesc_activityRecognition">сезнең физик активлыкны карау</string>
     <string name="permgroupdesc_camera">фото ясау һәм видео яздыру</string>
     <string name="permgrouplab_nearby_devices">Якындагы җайланмалар</string>
@@ -108,6 +115,7 @@
     <string name="permgrouplab_calllog">Шалтыратулар журналы</string>
     <string name="permgroupdesc_calllog">телефон шалтыратулары журналын уку һәм яздыру</string>
     <string name="permgroupdesc_phone">телефоннан шалтырату һәм аны идарә итү</string>
+    <string name="permgrouplab_sensors">Тән датчиклары</string>
     <string name="permgroupdesc_sensors">гомер өчен мөһим күрсәткечләрегез турындагы датчиклардан файдалану</string>
     <string name="capability_title_canRetrieveWindowContent">Тәрәз эчендәге әйберләрне карау</string>
     <string name="capability_title_canTakeScreenshot">Скриншот ясау</string>
@@ -177,14 +185,18 @@
     <string name="data_usage_restricted_body">Чикләүне бетерү өчен басыгыз.</string>
     <string name="ssl_certificate">Иминлек сертификаты</string>
     <string name="ssl_certificate_is_valid">Бу яраклы сертификат.</string>
+    <string name="issued_to">Кемгә бирелгән:</string>
     <string name="org_name">Оешма:</string>
     <string name="org_unit">Оештыру бүлеге:</string>
+    <string name="issued_by">Бирүче:</string>
     <string name="validity_period">Рөхсәт ителү:</string>
+    <string name="issued_on">Кайчанга кадәр бирелгән:</string>
     <string name="serial_number">Серия номеры:</string>
     <string name="fingerprints">Бармак эзләре:</string>
     <string name="activity_chooser_view_dialog_title_default">Гамәл сайлау</string>
     <string name="sending">Җибәрү\u2026</string>
     <string name="launchBrowserDefault">Браузерны ачаргамы?</string>
+    <string name="SetupCallDefault">Шалтыратуны алыргамы?</string>
     <string name="activity_resolver_use_once">Бер тапкыр гына</string>
     <string name="activity_resolver_work_profiles_support">%1$s эш профиле белән эшләми</string>
     <string name="default_audio_route_id">default_audio_route</string>
@@ -317,14 +329,72 @@
     <string name="zen_mode_rule_name_combination"><xliff:g id="first" example="Weeknights">%1$s</xliff:g> / <xliff:g id="rest" example="Meetings">%2$s</xliff:g></string>
     <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="notification_work_profile_content_description">Эш профиле</string>
+    <string name="notification_verified_content_description">Расланган</string>
+    <string name="floating_toolbar_open_overflow_description">Күбрәк көйләүләр</string>
     <string name="notification_inbox_ellipsis">\u2026</string>
     <string name="notification_messaging_title_template"><xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g></string>
+    <string name="call_notification_hang_up_action">Кую</string>
     <string name="call_notification_incoming_text">Керүче шалтырату</string>
     <string name="call_notification_ongoing_text">Чыгучы шалтырату</string>
+    <string name="default_notification_channel_label">Категориясез</string>
+    <string name="importance_from_user">Сез бу искәртүләрнең мөһимлеген билгеләдегез.</string>
+    <string name="importance_from_person">Кешеләр җәлеп ителгәнгә күрә, бу мөһим.</string>
+    <string name="notification_history_title_placeholder">Кушымтаның махсус искәртүе</string>
+    <string name="language_selection_title">Тел өстәү</string>
+    <string name="country_selection_title">Төбәк көйләүләре</string>
+    <string name="language_picker_section_suggested">Тәкъдим ителә</string>
+    <string name="language_picker_regions_section_suggested">Тәкъдим ителә</string>
+    <string name="language_picker_section_all">Барлык телләр</string>
+    <string name="region_picker_section_all">Барлык төбәкләр</string>
+    <string name="app_suspended_title">Кушымтаны кабызып булмый</string>
+    <string name="app_suspended_default_message">        Хәзерге вакытта <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> кушымтасын кабызып булмый. Моны <xliff:g id="app_name" example="Settings">%2$s</xliff:g> аша идарә итеп була.
+    </string>
+    <string name="app_suspended_unsuspend_message">Кушымтаны паузадан алу</string>
+    <string name="app_blocked_title">Кушымтаны кабызып булмый</string>
+    <string name="app_blocked_message">        Хәзерге вакытта <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> кушымтасын кабызып булмый.
+    </string>
+    <string name="deprecated_target_sdk_app_store">Яңартуны тикшерү</string>
+    <string name="new_sms_notification_content">Карау өчен SMS кушымтасын ачу</string>
+    <string name="profile_encrypted_title">Кайбер мөмкинлекләр чикләнелә ала</string>
+    <string name="profile_encrypted_detail">Эш профиле бикләнгән</string>
+    <string name="profile_encrypted_message">Эш профилен биктән алу өчен басыгыз</string>
     <string name="negative_duration">\u2212<xliff:g id="time" example="1:14">%1$s</xliff:g></string>
+    <string name="autofill_save_type_payment_card">түләү картасы</string>
+    <string name="autofill_save_type_email_address">почта адресы</string>
     <string name="popup_window_default_title">Калкучы тәрәз</string>
     <string name="slice_more_content">+ <xliff:g id="number" example="5">%1$d</xliff:g></string>
+    <string name="harmful_app_warning_uninstall">БЕТЕРҮ</string>
+    <string name="harmful_app_warning_open_anyway">БАРЫБЕР АЧУ</string>
+    <string name="harmful_app_warning_title">Зарарлы кушымта табылды</string>
+    <string name="volume_dialog_ringer_guidance_vibrate">Шалтырату һәм искәртүләр дерелдәячәк</string>
+    <string name="volume_dialog_ringer_guidance_silent">Шалтырату һәм искәртүләр тавышсыз булачак</string>
+    <string name="zen_upgrade_notification_visd_title">Яңа: «Борчымау» режимы искәртүләрне яшерә</string>
+    <string name="zen_upgrade_notification_visd_content">Күбрәк белү һәм үзгәртү өчен басыгыз.</string>
+    <string name="zen_upgrade_notification_content">Нәрсә блокланганын тикшерү өчен басыгыз.</string>
+    <string name="notification_appops_overlay_active">экраныгызда башка кушымталар өстеннән күрсәтелә</string>
+    <string name="notification_feedback_indicator">Кайтаваз бирегез</string>
+    <string name="notification_feedback_indicator_alerted">Бу искәртү гадәтигә күчерелде. Кайтаваз бирү өчен басыгыз.</string>
+    <string name="notification_feedback_indicator_silenced">Бу искәртү тавышсызга күчерелде. Кайтаваз бирү өчен басыгыз.</string>
+    <string name="notification_feedback_indicator_promoted">Бу искәртү югарырак рейтинг алды. Кайтаваз бирү өчен басыгыз.</string>
+    <string name="notification_feedback_indicator_demoted">Бу искәртү түбәнрәк рейтинг алды. Кайтаваз бирү өчен басыгыз.</string>
+    <string name="battery_saver_notification_channel_name">Батарея саклагыч</string>
+    <string name="battery_saver_off_notification_title">Батарея саклагыч сүндерелде</string>
+    <string name="mime_type_compressed">Архив</string>
+    <string name="mime_type_spreadsheet">Таблица</string>
+    <string name="mime_type_spreadsheet_ext"><xliff:g id="extension" example="PDF">%1$s</xliff:g> таблицасы</string>
+    <string name="mime_type_presentation">Презентация</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="unread_convo_overflow"><xliff:g id="max_unread_count" example="99">%1$d</xliff:g>+</string>
+    <string name="resolver_no_work_apps_available">Эш кушымталары юк</string>
+    <string name="resolver_no_personal_apps_available">Шәхси кушымталар юк</string>
+    <string name="miniresolver_use_personal_browser">Шәхси браузерны куллану</string>
+    <string name="miniresolver_use_work_browser">Эш браузерын куллану</string>
+    <string name="turn_on_magnification_settings_action">Көйләүләрдә кабызу</string>
+    <string name="sensor_privacy_start_use_camera_notification_content_title">Җайланма камерасын блоктан алу</string>
+    <string name="sensor_privacy_start_use_notification_content_text"><xliff:g id="app" example="Gmail">%s</xliff:g> һәм барлык кушымта һәм хезмәтләр өчен</string>
+    <string name="sensor_privacy_start_use_dialog_turn_on_button">Блоктан алу</string>
+    <string name="splash_screen_view_icon_description">Кушымта тамгасы</string>
+    <string name="view_and_control_notification_title">Рөхсәт көйләүләрен тикшерү</string>
+    <string name="ui_translation_accessibility_translation_finished">Хәбәр <xliff:g id="from_language" example="English">%1$s</xliff:g> теленнән <xliff:g id="to_language" example="French">%2$s</xliff:g> теленә тәрҗемә ителде.</string>
     <string name="accessibility_label_managed_profile">Эш профиле</string>
 </resources>
