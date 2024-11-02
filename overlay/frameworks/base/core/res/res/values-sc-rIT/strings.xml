@@ -301,6 +301,7 @@
     <string name="notification_channel_heavy_weight_app">Aplicatzione in esecutzione</string>
     <string name="notification_channel_foreground_service">Aplicatziones chi consumint sa bateria</string>
     <string name="notification_channel_accessibility_magnification">Crèschida</string>
+    <string name="notification_channel_accessibility_security_policy">Impreu de s\'atzessibilidade</string>
     <string name="foreground_service_app_in_background">«<xliff:g id="app_name">%1$s</xliff:g>»
         est consuminde bateria</string>
     <string name="foreground_service_apps_in_background"><xliff:g id="number">%1$d</xliff:g> aplicatziones
@@ -1095,6 +1096,27 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="autofill_address_summary_name_format">$1$2$3</string>
     <string name="autofill_address_summary_separator">,\u0020</string>
     <string name="autofill_address_summary_format">$1$2$3</string>
+    <string name="autofill_attention_ignored_re">attention|attn</string>
+    <string name="autofill_region_ignored_re">province|region|other</string>
+    <string name="autofill_company_re">company|business|organization|organisation|department</string>
+    <string name="autofill_address_line_1_re">address.?line|address1|addr1|street</string>
+    <string name="autofill_address_line_1_label_re">address</string>
+    <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit</string>
+    <string name="autofill_address_line_3_re">address.?line3|address3|addr3|street|line3</string>
+    <string name="autofill_country_re">country|location</string>
+    <string name="autofill_zip_code_re">zip|postal|post code|pcode|^1z$</string>
+    <string name="autofill_zip_4_re">zip|^-$|post2</string>
+    <string name="autofill_city_re">city|town</string>
+    <string name="autofill_state_re">state|county|region|province</string>
+    <string name="autofill_address_type_same_as_re">same as</string>
+    <string name="autofill_address_type_use_my_re">use my</string>
+    <string name="autofill_billing_designator_re">bill</string>
+    <string name="autofill_shipping_designator_re">ship</string>
+    <string name="autofill_email_re">e.?mail</string>
+    <string name="autofill_username_re">user.?name|user.?id</string>
+    <string name="autofill_name_re">^name|full.?name|your.?name|customer.?name|firstandlastname</string>
+    <string name="autofill_name_specific_re">^name</string>
+    <string name="autofill_first_name_re">irst.*name|initials|fname|first$</string>
     <string name="autofill_area_code_re">area.*code|acode|area</string>
     <string name="autofill_phone_prefix_re">prefix</string>
     <string name="autofill_phone_suffix_re">suffix</string>
@@ -1340,6 +1362,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="android_upgrading_starting_apps">Aviende aplicatziones.</string>
     <string name="android_upgrading_complete">Agabbende s\'aviu</string>
     <string name="fp_power_button_enrollment_button_text">Disativa</string>
+    <string name="fp_power_button_bp_positive_button">Istuda s\'ischermu</string>
     <string name="fp_power_button_bp_negative_button">Sighi</string>
     <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> in esecutzione</string>
     <string name="heavy_weight_notification_detail">Toca pro torrare a su giogu</string>

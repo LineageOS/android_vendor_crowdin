@@ -21,4 +21,5 @@
     <string name="camera_id_back_desc">Cámara d\'atrás</string>
     <string name="camera_id_front_desc">Cámara d\'alantre</string>
     <string name="pref_category_general">Configuración xeneral</string>
+    <string name="confirm_button_text">D\'ACUERDU</string>
 </resources>

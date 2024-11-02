@@ -2653,13 +2653,13 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="accessibility_display_inversion_switch_title">Defnyddio gwrthdroi lliwiau</string>
     <string name="accessibility_display_inversion_shortcut_title">Llwybr byr i wrthdroi lliwiau</string>
     <string name="accessibility_display_inversion_preference_intro_text">Mae gwrthdroi lliwiau yn troi sgrin olau yn dywyll. Mae hefyd yn troi sgrin dywyll yn olau.</string>
-    <string name="accessibility_display_inversion_preference_subtitle"><![CDATA[<b>Sylwch</b><br/>
+    <string name="accessibility_display_inversion_preference_subtitle"><b>Sylwch</b><br/>
         <ol>
             <li>\u00a0Bydd lliwiau yn newid mewn delweddau a chyfryngau</li>
             <li>\u00a0Mae gwrthdroi lliwiau yn gweithio ym mhob ap</li>
             <li>\u00a0I ddangos cefndir tywyll, gellir ddefnyddio\u2019r Thema Dywyll yn lle</li>
         </ol>
-        ]]></string>
+        </string>
     <string name="accessibility_autoclick_preference_title">Awtoglicio (amser trigo)</string>
     <string name="accessibility_autoclick_intro_text">Gellir gosod llygoden wedi\u2019i chysylltu i glicio\u2019n awtomatig pan fo\u2019r pwyntydd yn stopio symud am gyfnod penodol o amser</string>
     <string name="accessibility_autoclick_description">Gall awtoglicio fod o help os yw clicio\u2019r llygoden yn anodd</string>
@@ -2765,18 +2765,18 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="reduce_bright_colors_preference_summary" product="default">Pylu\u2019r sgrin yn is na disgleirdeb lleiaf dy ffôn</string>
     <string name="reduce_bright_colors_preference_summary" product="tablet">Pylu\u2019r sgrin yn is na disgleirdeb lleiaf dy lechen</string>
     <string name="reduce_bright_colors_preference_intro_text">Gwneud dy sgrin yn llai disglair fel bod darllen yn fwy cyfforddus</string>
-    <string name="reduce_bright_colors_preference_subtitle" product="default"><![CDATA[Gall pylu ychwanegol fod yn ddefnyddio pan fod:
+    <string name="reduce_bright_colors_preference_subtitle" product="default">Gall pylu ychwanegol fod yn ddefnyddio pan fod:
         <ol>
             <li>\u00a0Lefel disgleirdeb isaf dy ffôn yn dal i fod yn rhy ddisglair</li>
             <li>\u00a0Rwyt yn defnyddio dy ffôn mewn mannau tywyll, fel gyda\u2019r nos neu mewn ystafell dywyll cyn cysgu</li>
         </ol>
-        ]]></string>
-    <string name="reduce_bright_colors_preference_subtitle" product="tablet"><![CDATA[Gall pylu ychwanegol fod yn ddefnyddio pan fod:
+        </string>
+    <string name="reduce_bright_colors_preference_subtitle" product="tablet">Gall pylu ychwanegol fod yn ddefnyddio pan fod:
         <ol>
             <li>\u00a0Lefel disgleirdeb isaf dy lechen yn dal i fod yn rhy ddisglair</li>
             <li>\u00a0Rwyt yn defnyddio dy lechen mewn mannau tywyll, fel gyda\u2019r nos neu mewn ystafell dywyll cyn cysgu</li>
         </ol>
-        ]]></string>
+        </string>
     <string name="reduce_bright_colors_intensity_preference_title">Tanbeidrwydd</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
         <item quantity="zero">Byr (<xliff:g id="click_delay_label" example="200">%1$s</xliff:g> eiliadau)</item>
@@ -5641,13 +5641,13 @@ wrth adael modd gwestai</string>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> cyfrinair</item>
     </plurals>
     <string name="autofill_keywords">awto, llenwi, awtolenwi, cyfrinair</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
+    <string name="autofill_confirmation_message">        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> yn defnyddio\'r
         hyn sydd ar dy sgrin i benderfynu pa bethau gellir
         eu llenwi yn awtomatig.
-        ]]></string>
+        </string>
     <string name="debug_autofill_category">Awtolenwi</string>
     <string name="autofill_logging_level_title">Lefel logio</string>
     <string name="autofill_max_partitions">Nifer mwyaf o geisiadau y sesiwn</string>
