@@ -1718,13 +1718,13 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="accessibility_display_inversion_switch_title">Defnyddio gwrthdroi lliwiau</string>
     <string name="accessibility_display_inversion_shortcut_title">Llwybr byr i wrthdroi lliwiau</string>
     <string name="accessibility_display_inversion_preference_intro_text">Mae gwrthdroi lliwiau yn troi sgrin olau yn dywyll. Mae hefyd yn troi sgrin dywyll yn olau.</string>
-    <string name="accessibility_display_inversion_preference_subtitle"><![CDATA[<b>Sylwch</b><br/>
+    <string name="accessibility_display_inversion_preference_subtitle"><b>Sylwch</b><br/>
         <ol>
             <li>\u00a0Bydd lliwiau yn newid mewn delweddau a chyfryngau</li>
             <li>\u00a0Mae gwrthdroi lliwiau yn gweithio ym mhob ap</li>
             <li>\u00a0I ddangos cefndir tywyll, gellir ddefnyddio\u2019r Thema Dywyll yn lle</li>
         </ol>
-        ]]></string>
+        </string>
     <string name="accessibility_autoclick_preference_title">Awtoglicio (amser trigo)</string>
     <string name="accessibility_autoclick_intro_text">Gellir gosod llygoden wedi\u2019i chysylltu i glicio\u2019n awtomatig pan fo\u2019r pwyntydd yn stopio symud am gyfnod penodol o amser</string>
     <string name="accessibility_autoclick_description">Gall awtoglicio fod o help os yw clicio\u2019r llygoden yn anodd</string>
@@ -3687,13 +3687,13 @@ wrth adael modd gwestai</string>
     <string name="autofill_keywords">awto, llenwi, awtolenwi, cyfrinair</string>
     <string name="credman_button_change">Newid</string>
     <string name="credman_button_open">Agor</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
+    <string name="autofill_confirmation_message">        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> yn defnyddio\'r
         hyn sydd ar dy sgrin i benderfynu pa bethau gellir
         eu llenwi yn awtomatig.
-        ]]></string>
+        </string>
     <string name="credman_picker_title">Dy ddewis gwasanaeth dewisol ar gyfer cyfrineiriau, cyfrinallweddi ac awto-lenwi</string>
     <string name="account_dashboard_title_with_passkeys">Cyfrineiriau, cyfrinallweddi ac awto-lenwi</string>
     <string name="credman_confirmation_turn_off_positive_button">Troi i ffwrdd</string>

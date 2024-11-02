@@ -168,9 +168,9 @@
     <string name="security_settings_fingerprint_enroll_error_unable_to_process_message">Pues volver probar agora o configurar la buelga dempués.</string>
     <string name="security_settings_fingerprint_enroll_error_dialog_title">Escosó\'l tiempu pa configurar la buelga</string>
     <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message_setup">Pues configurar la buelga dempués en Configuración.</string>
-    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message_setup">Asocedió daqué malo. Pues configurar la buelga dempués en Configuración.</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message_setup">Prodúxose un error. Pues configurar la buelga dempués en Configuración.</string>
     <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message">Pues configurar la buelga dempués.</string>
-    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">Asocedió daqué malo. Pues configurar la buelga dempués.</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">Prodúxose un error. Pues configurar la buelga dempués.</string>
     <string name="security_settings_fingerprint_bad_calibration_title">Nun se pue usar el sensor de buelgues</string>
     <string name="security_settings_fingerprint_bad_calibration">Visita un fornidor de reparaciones.</string>
     <string name="more_security_privacy_settings">Más seguranza y privacidá</string>
@@ -348,7 +348,7 @@
     <string name="accessibility_text_reading_conversation_message_1">¿Vas facer daqué esta fin de selmana?</string>
     <string name="accessibility_text_reading_conversation_message_2">Voi dir pa la playa, ¿Quies venir?</string>
     <string name="accessibility_screen_magnification_intro_text">Avera aína\'l conteníu de la pantalla p\'agrandalu</string>
-    <string name="accessibility_screen_magnification_summary"><![CDATA[        <b>P\'averar:</b><br/>
+    <string name="accessibility_screen_magnification_summary">        <b>P\'averar:</b><br/>
         {0,number,integer}. Usa l\'atayu p\'aniciar l\'aumentu<br/>
         {1,number,integer}. Toca la pantalla<br/>
         {2,number,integer}. Arrastra 2 deos pa movete pela pantalla<br/>
@@ -360,7 +360,7 @@
         {2,number,integer}. Ten primío en cualesquier parte de la pantalla<br/>
         {3,number,integer}. Arrastra\'l deu pa movete pela pantalla<br/>
         {4,number,integer}. Llevanta\'l deu pa dexar d\'aumentar
-        ]]></string>
+        </string>
     <string name="accessibility_button_intro_text">Accedi aína a les funciones d\'accesibilidá dende cualesquier pantalla</string>
     <string name="accessibility_disable_animations_summary">Amenorga\'l movimientu na pantalla</string>
     <string name="accessibility_vibration_settings_title">Vibración y función háptica</string>
@@ -486,22 +486,22 @@
     }</string>
     <string name="credman_keywords">datos, datu, clave d\'accesu, contraseña</string>
     <string name="credman_autofill_keywords">rellenar, rellenu automáticu, rellenar automáticamente, datos, datu, clave d\'accesu, contraseña</string>
-    <string name="credman_autofill_confirmation_message"><![CDATA[        <b>¿Quies usar «<xliff:g id="app_name" example="Provider">%1$s</xliff:g>»?</b>
+    <string name="credman_autofill_confirmation_message">        <b>¿Quies usar «<xliff:g id="app_name" example="Provider">%1$s</xliff:g>»?</b>
         <br/>
         <br/>
         Dende esti momentu, les contraseñes, les claves d\'accesu y demás información va
         guardase equí. Ye posible que\'l fornidor «<xliff:g id="app_name" example="Provider">%1$s</xliff:g>»
         use lo qu\'apaeza na pantalla pa determinar lo que se pue rellenar automáticamente.
-        ]]></string>
+        </string>
     <string name="credman_confirmation_message_title">¿Quies desactivar «%1$s»?</string>
-    <string name="credman_confirmation_message"><![CDATA[        <b>¿Quies desactivar esti serviciu?</b>
+    <string name="credman_confirmation_message">        <b>¿Quies desactivar esti serviciu?</b>
         <br/>
         <br/>
         Cuando anicies la sesión, nun se va rellenar la información guardada (contraseñes,
         claves d\'accesu métodos de pagu, etc). Pa usar la información guardada, escueyi una
         contraseña, un serviciu de datos o una clave d\'accesu.
         
-        ]]></string>
+        </string>
     <string name="account_dashboard_title_with_passkeys">Contraseñes, claves y rellenu automáticu</string>
     <string name="credman_enable_confirmation_message_title">¿Quies usar «%1$s»?</string>
     <string name="credman_enable_confirmation_message">«%1$s» usa lo qu\'apaez na pantalla pa determinar qué se pue rellenar automáticamente.</string>
@@ -511,8 +511,8 @@
     <string name="stylus_handwriting">Escritura con llapiceru</string>
     <string name="stylus_handwriting_summary">Cuando s\'activa esta opción, el métodu d\'entrada actual recibe l\'eventu de movientu del llapiceru si s\'enfoca un editor.</string>
     <string name="my_device_info_account_preference_summary">%d cuentes</string>
-    <string name="mobile_network_active_esim">Serviciu activu/eSIM</string>
-    <string name="mobile_network_inactive_esim">Serviciu inactivu/eSIM</string>
+    <string name="mobile_network_active_esim">Serviciu activu / eSIM</string>
+    <string name="mobile_network_inactive_esim">Serviciu inactivu / eSIM</string>
     <string name="mobile_network_use_sim_on">Usar esta SIM</string>
     <string name="mobile_network_disable_sim_explanation">        Pa desactivar esta SIM, estrái la tarxeta SIM
     </string>

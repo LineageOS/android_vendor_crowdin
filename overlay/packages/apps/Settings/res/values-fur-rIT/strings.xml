@@ -2145,7 +2145,7 @@
     <string name="accessibility_screen_magnification_short_summary">Tocje 3 voltis par fâ il zoom</string>
     <string name="accessibility_screen_magnification_navbar_short_summary">Tocje un boton par fâ il zoom</string>
     <string name="accessibility_screen_magnification_intro_text">Aumente subit il zoom su schermi par ingrandî il contignût</string>
-    <string name="accessibility_screen_magnification_summary"><![CDATA[        <b>Par ingrandî:</b><br/>
+    <string name="accessibility_screen_magnification_summary">        <b>Par ingrandî:</b><br/>
         {0,number,integer}. Dopre la scurte par scomençâ l\'ingrandiment<br/>
         {1,number,integer}. Tocje il schermi<br/>
         {2,number,integer}. Strissine 2 dêts par spostâti ator pal schermi<br/>
@@ -2157,7 +2157,7 @@
         {2,number,integer}. Tocje e ten fracât di cualchi bande sul schermi<br/>
         {3,number,integer}. Strissine il dêt par spostâti ator pal schermi<br/>
         {4,number,integer}. Alce il dêt par interompi l\'ingrandiment
-        ]]></string>
+        </string>
     <string name="accessibility_screen_magnification_navbar_summary">Cuant che l\'ingrandiment al è ativât, tu puedis aumentâ il zoom sul schermi.\n\n<b>Par fâ il zoom</b>, invie l\'ingrandiment, duncje tocje il schermi dulà che tu vûs.\n<ul><li>Strissine 2 o plui dêts par scori</li>\n<li>Pice cun 2 o plui dêts par justâ il zoom</li></ul>\n\n<b>Par fâ un zoom temporani</b>, invie l\'ingrandiment, duncje tocje e ten fracât il schermi dulà che tu vûs.\n<ul><li>Strissine par spostâti ator pal schermi</li>\n<li>Alce il dêt par lâ fûr dal zoom</li></ul>\n\nNo tu puedis aumentâ il zoom su la tastiere o su la sbare di navigazion.</string>
     <string name="accessibility_tutorial_pager">Pagjine <xliff:g id="current_page" example="2">%1$d</xliff:g> di <xliff:g id="num_pages" example="3">%2$d</xliff:g></string>
     <string name="accessibility_tutorial_dialog_title_button">Dopre il boton dal acès facilitât par vierzi</string>
@@ -2213,16 +2213,16 @@
     <string name="accessibility_button_gesture_footer_learn_more_content_description">Scuvierç di plui sul boton e sul mot dal acès facilitât</string>
     <string name="accessibility_button_intro">Al ven doprât il boton di acès facilitât. Il mot nol è disponibil cu la navigazion a 3 botons.</string>
     <string name="accessibility_button_summary">Rive in mût rapit aes funzions di acès facilitât</string>
-    <string name="accessibility_button_gesture_description"><![CDATA[        <b>Par scomençâ</b><br/>
+    <string name="accessibility_button_gesture_description">        <b>Par scomençâ</b><br/>
         {0,number,integer}. Va tes impostazions di acès facilitât<br/>
         {1,number,integer}. Selezione une funzion e tocje la scurte<br/>
         {2,number,integer}. Sielç se tu desideris doprâun boton o un mot par acedi ae funzion<br/>
-        ]]></string>
-    <string name="accessibility_button_description"><![CDATA[        <b>Par scomençâ</b><br/>
+        </string>
+    <string name="accessibility_button_description">        <b>Par scomençâ</b><br/>
         {0,number,integer}. Va tes impostazions di acès facilitât<br/>
         {1,number,integer}. Selezione une funzion e tocje la scurte<br/>
         {2,number,integer}. Sielç il boton par acedi ae funzion<br/>
-        ]]></string>
+        </string>
     <string name="accessibility_button_or_gesture_title">Dopre boton o mot</string>
     <string name="accessibility_button_location_title">Gjeolocalizazion</string>
     <string name="accessibility_button_size_title">Dimension</string>
@@ -2265,13 +2265,13 @@
     <string name="accessibility_display_inversion_switch_title">Dopre la inversion dai colôrs</string>
     <string name="accessibility_display_inversion_shortcut_title">Scurte pe inversion dai colôrs</string>
     <string name="accessibility_display_inversion_preference_intro_text">La inversion dai colôrs e rint scuris lis schermadis claris e claris lis schermadis scuris.</string>
-    <string name="accessibility_display_inversion_preference_subtitle"><![CDATA[<b>Ten iniments</b><br/>
+    <string name="accessibility_display_inversion_preference_subtitle"><b>Ten iniments</b><br/>
         <ol>
             <li>\u00a0Tai contignûts multimediâi e tes imagjins i colôrs a cambiaran</li>
             <li>\u00a0La inversion dai colôrs e funzione su dutis lis aplicazions</li>
             <li>\u00a0Par visualizâ un fonts scûr, al è pussibil doprâ in alternative il teme scûr</li>
         </ol>
-        ]]></string>
+        </string>
     <string name="accessibility_action_label_panel_slice">jentrâ tes impostazions</string>
     <string name="accessibility_autoclick_preference_title">Clic automatic (timp di stasi)</string>
     <string name="accessibility_autoclick_about_title">Informazions sul clic automatic (timp di stasi)</string>
@@ -4711,41 +4711,41 @@
     <string name="credman_button_change">Cambie</string>
     <string name="credman_button_open">Vierç</string>
     <string name="credman_app_list_preference_none">Nissun selezionât</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message">        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> al dopre ce che al è
         sul schermi par determinâ ce che al pues compilâ in automatic.
-        ]]></string>
-    <string name="credman_autofill_confirmation_message"><![CDATA[        <b>Doprâ <xliff:g id="app_name" example="Provider">%1$s</xliff:g>\?</b>
+        </string>
+    <string name="credman_autofill_confirmation_message">        <b>Doprâ <xliff:g id="app_name" example="Provider">%1$s</xliff:g>\?</b>
         <br/>
         <br/>
         Tacant di cumò, a vignaran salvadis achì gnovis passwords, passkeys e altris informazions.
         <xliff:g id="app_name" example="Provider">%1$s</xliff:g> al podarès doprâ ce che al
         è sul to schermi par determinâ ce che al pues compilâ in automatic.
-        ]]></string>
+        </string>
     <string name="credman_picker_title">Servizi preferît par passwords, passkeys e compilazion automatiche</string>
     <string name="credman_confirmation_message_title">Disativâ %1$s\?</string>
-    <string name="credman_confirmation_message"><![CDATA[        <b>Disativâ chest servizi?</b>
+    <string name="credman_confirmation_message">        <b>Disativâ chest servizi?</b>
         <br/>
         <br/>
         Lis informazions salvadis come passwords, passkeys, metodis di paiament e altris informazions no vignaran compiladis
         cuant che tu fasis un acès. Par doprâ lis tôs informazions salvadis, sielç une
         password, passkey o servizi dâts.
-        ]]></string>
+        </string>
     <string name="account_dashboard_title_with_passkeys">Passwords, passkeys e compilazion automatiche</string>
-    <string name="credman_confirmation_message_new_ui"><![CDATA[        <b>Disativâ ducj i servizis?</b>
+    <string name="credman_confirmation_message_new_ui">        <b>Disativâ ducj i servizis?</b>
         <br/>
         <br/>
         Passwords, passkeys e altris informazions salvadis no saran disponibilis pe compilazions automatiche al acès
-        ]]></string>
-    <string name="credman_autofill_confirmation_message_new_ui"><![CDATA[        <b>Cambiâ il servizi preferît a <xliff:g id="app_name" example="Provider">%1$s</xliff:g>\?</b>
+        </string>
+    <string name="credman_autofill_confirmation_message_new_ui">        <b>Cambiâ il servizi preferît a <xliff:g id="app_name" example="Provider">%1$s</xliff:g>\?</b>
         <br/>
         <br/>
         Lis gnovis passwords, passkeys e altris informazions a vignaran salvadis achì di cumò indevant.
         Al è pussibil che <xliff:g id="app_name" example="Provider">%1$s</xliff:g> al dopri ce 
         che al è sul to schermi par determinâ ce che al pues compilâ
-        ]]></string>
+        </string>
     <string name="credman_enable_confirmation_message_title">Doprâ %1$s\?</string>
     <string name="credman_confirmation_turn_off_positive_button">Disative</string>
     <string name="credman_confirmation_change_provider_positive_button">Cambie</string>

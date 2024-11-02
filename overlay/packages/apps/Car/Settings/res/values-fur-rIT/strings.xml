@@ -386,12 +386,12 @@
     <string name="app_list_preference_none">Nissune</string>
     <string name="default_app_selected_app">Selezionade</string>
     <string name="assistant_security_warning">L\'assistent al rivarà a lei lis informazions su lis aplicazions in ûs sul sisteme, includudis lis informazions visibilis su schermi o acessibilis dentri des aplicazions.</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message">        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> al dopre ce che al è
         sul schermi par determinâ ce che al pues compilâ in automatic.
-        ]]></string>
+        </string>
     <string name="autofill_add_service">Zonte servizi</string>
     <string name="app_launch_domain_links_title">Viertidure dai colegaments</string>
     <string name="domain_url_section_title">Aplicazions instaladis</string>

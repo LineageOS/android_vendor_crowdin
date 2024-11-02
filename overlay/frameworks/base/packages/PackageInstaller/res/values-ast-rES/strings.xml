@@ -141,7 +141,7 @@
     <string name="unarchive_error_offline_title">Nun tienes conexón a internet</string>
     <string name="unarchive_error_offline_body">        Pa restaurar esta aplicación, comprueba la conexón a internet y volvi tentalo
     </string>
-    <string name="unarchive_error_generic_title">Asocedió daqué malo</string>
+    <string name="unarchive_error_generic_title">Prodúxose un error</string>
     <string name="unarchive_error_generic_body">        Hebo un problema al tentar de restaurar esta aplicación
     </string>
     <string name="unarchive_error_storage_title">Nun hai abondu almacenamientu</string>
