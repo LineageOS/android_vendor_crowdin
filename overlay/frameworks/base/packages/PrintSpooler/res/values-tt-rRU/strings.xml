@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="more_options_button">Күбрәк көйләүләр</string>
+    <string name="label_destination">Билгеләнү урыны</string>
     <string name="label_copies">Копияләр саны</string>
     <string name="label_copies_summary">Копияләр саны:</string>
     <string name="label_paper_size">Кәгазь зурлыгы</string>
@@ -30,4 +31,16 @@
     <string name="savetopdf_button">PDF\'ка саклау</string>
     <string name="add_print_service_label">Хезмәт өстәү</string>
     <string name="printer_extended_description_template"><xliff:g id="print_service_label" example="Canon Print Service">%1$s</xliff:g> - <xliff:g id="printer_description" example="Printer under the stairs">%2$s</xliff:g></string>
+    <string name="could_not_create_file">Файлны ясап булмады</string>
+    <string name="select_to_add_printers">Принтерны өстәү өчен сайлагыз</string>
+    <string name="enable_print_service">Кабызу өчен сайлагыз</string>
+    <string name="enabled_services_title">Кабызылган хезмәтләр</string>
+    <string name="recommended_services_title">Киңәш ителгән хезмәтләр</string>
+    <string name="disabled_services_title">Сүндерелгән хезмәтләр</string>
+    <string name="all_services_title">Барлык хезмәтләр</string>
+    <string name="no_connection_to_printer">Принтер тоташмаган</string>
+    <string-array name="color_mode_labels">
+        <item>Кара &amp; ак</item>
+        <item>Color</item>
+    </string-array>
 </resources>

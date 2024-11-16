@@ -30,10 +30,12 @@
     <string name="contact_editor_title_existing_contact">Контактны үзгәртү</string>
     <string name="account_sim">SIM</string>
     <string name="label_sip_address">SIP</string>
+    <string name="import_from_sim_summary_fmt">SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
     <string name="exporting_contact_failed_title">Экспортлап булмады</string>
     <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> <xliff:g id="source" example="Google Talk">%2$s</xliff:g> аша</string>
     <string name="letter_tile_letter_font_family">sans-serif-medium</string>
     <string name="search_font_family">sans-serif</string>
     <string name="call_subject_limit"><xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g></string>
     <string name="call_subject_type_and_number"><xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g></string>
+    <string name="single_sim_display_label">SIM</string>
 </resources>

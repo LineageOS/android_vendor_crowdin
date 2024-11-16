@@ -15,4 +15,5 @@
 -->
 <resources>
     <string name="prefs_camera_id_key">camera.id</string>
+    <string name="prefs_front_camera_id_key">front.camera.id</string>
 </resources>

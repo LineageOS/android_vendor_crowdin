@@ -21,6 +21,7 @@
     <string name="notification_separator">\u0020\u0020</string>
     <string name="notification_ticker_separator">:\u0020</string>
     <string name="notification_space_separator">\u0020\u0020</string>
+    <string name="one_on_one_incoming_successful_message_prefix"><xliff:g id="sender">%1$s</xliff:g> хәбәре: <xliff:g id="message">%2$s</xliff:g>. Вакыт: <xliff:g id="time">%3$s</xliff:g>.</string>
     <string name="mms_messaging_category_pref_title">MMS</string>
     <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
     <string name="sim_label">SIM:\u0020</string>
@@ -30,5 +31,10 @@
     <string name="plus_n">+%d</string>
     <string name="conversation_list_item_view_sent_from_other_prefix"><xliff:g id="firstNameOfSender">%s</xliff:g>:\u0020</string>
     <string name="mms_text">MMS</string>
+    <string name="apn_apn">APN</string>
+    <string name="apn_mmsc">MMSC</string>
+    <string name="apn_mcc">MCC</string>
+    <string name="apn_mnc">MNC</string>
+    <string name="sim_specific_settings">\"<xliff:g id="sim_name">%s</xliff:g>\" SIM</string>
     <string name="link_display_format"><xliff:g id="text">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
 </resources>

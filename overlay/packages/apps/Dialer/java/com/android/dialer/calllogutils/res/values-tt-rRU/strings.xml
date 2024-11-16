@@ -15,6 +15,7 @@
  ~ limitations under the License
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="type_incoming_video">Керүче видеошалтырату</string>
   <string name="a11y_call_duration_format">    <xliff:g id="minutes">%1$d</xliff:g> <xliff:g id="minutes_translation">%2$s</xliff:g> <xliff:g id="seconds">%3$d</xliff:g> <xliff:g id="seconds_translation">%4$s</xliff:g>
   </string>
   <string name="a11y_call_duration_short_format">    <xliff:g id="seconds">%1$d</xliff:g> <xliff:g id="seconds_translation">%2$s</xliff:g>

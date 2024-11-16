@@ -19,4 +19,6 @@
     <string name="printer_low_on_toner">Тонер әз</string>
     <string name="printer_description">%1$s – %2$s</string>
     <string name="no_printer_found">Бу адрес буенча принтер табылмады</string>
+    <string name="recommendation_install_summary">Урнаштыру өчен сайлау</string>
+    <string name="recommendation_enable_summary">Кабызу өчен сайлау</string>
 </resources>

@@ -69,6 +69,10 @@
         <item>"6"</item>
         <item>"7"</item>
     </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
     <string-array name="cdma_subscription_values">
         <item>"0"</item>
         <item>"1"</item>
@@ -76,8 +80,15 @@
     <string name="menu_add">Контакт өстәү</string>
     <string name="menu_edit">Контактны үзгәртү</string>
     <string name="enter_pin_text">SIM картаның PIN коды:</string>
+    <string name="enter_pin2_text">PIN2</string>
     <string name="notification_voicemail_title_count">Яңа тавышлы хат (<xliff:g id="count">%d</xliff:g>)</string>
     <string name="description_concat_format">%1$s, %2$s</string>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
     <string name="call_settings_title_font_family">sans-serif-light</string>
     <string name="pstn_connection_service_label">Эчке SIM карталар</string>
     <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
@@ -86,12 +97,19 @@
     <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="mobile_data_status_roaming_turned_off_subtext">Мәгълүмат роумингы сүндерелгән</string>
     <string name="mobile_data_status_roaming_turned_on_subtext">Мәгълүмат роумингы кабызылган</string>
+    <string name="supp_service_incoming_calls_barred">Керүче шалтыратулар тыелган.</string>
+    <string name="radioInfo_menu_getIMS">IMS хезмәтенең халәте</string>
     <string name="radioInfo_phone_ringing">Шалтырату</string>
     <string name="radioInfo_display_dbm">dBm</string>
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
+    <string name="radio_info_cell_info_refresh_rate">Кәрәз турында мәгълүматны яңарту ешлыгы:</string>
+    <string name="radio_info_imei_label">IMEI:</string>
+    <string name="radio_info_imsi_label">IMSI:</string>
     <string name="radio_info_message_waiting_label">Хәбәр көтү:</string>
     <string name="radio_info_data_network_type_label">Мәгълүмат челтәре төре:</string>
+    <string name="radio_info_smsc_label">SMSC:</string>
+    <string name="radio_info_toggle_dns_check_label">DNS тикшерүне сүндерү/кабызу</string>
     <string name="oem_radio_info_label">OEM\'га бәйле мәгълүмат/көйләүләр</string>
 </resources>

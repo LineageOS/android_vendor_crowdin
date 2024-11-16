@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="confirmation_title_glasses">&lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; кушымтасына &lt;strong&gt;<xliff:g id="device_name" example="Glasses">%2$s</xliff:g>&lt;/strong&gt; җайланмасын идарә итәргә рөхсәт итәсезме?</string>
     <string name="consent_no">Рөхсәт итмәү</string>
     <string name="permission_sms">SMS</string>
 </resources>

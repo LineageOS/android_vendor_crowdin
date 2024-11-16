@@ -35,6 +35,11 @@
         <item>@string/wifi_security_wpa2</item>
         <item>@string/wifi_security_none</item>
     </string-array>
+    <string-array name="bluetooth_leaudio_mode">
+        <item>Disabled</item>
+        <item>Unicast</item>
+        <item>Unicast and Broadcast</item>
+    </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Use System Default: 
             <xliff:g id="default_bluetooth_max_connected_audio_devices">%1$d</xliff:g>
@@ -45,11 +50,25 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
     <string-array name="wifi_ttls_phase2_entries">
         <item>PAP</item>
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP or CHAP</item>
     </string-array>
     <string-array name="apn_protocol_entries">
         <item>IPv4</item>
@@ -142,6 +161,17 @@
         <item>run in background</item>
         <item>accessibility volume</item>
     </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Default</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
     <string-array name="captioning_opacity_selector_titles">
         <item>25%</item>
         <item>50%</item>
@@ -199,6 +229,10 @@
         <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
         <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
     <string-array name="enhanced_4g_lte_mode_title_variant">
         <item>@string/enhanced_4g_lte_mode_title</item>
         <item>@string/enhanced_4g_lte_mode_title_advanced_calling</item>
@@ -226,6 +260,21 @@
         <item>625000</item>
         <item>1875000</item>
         </string-array>
+    <string-array name="temperature_units">
+        <item>default</item>
+        <item>celsius</item>
+        <item>fahrenhe</item>
+    </string-array>
+    <string-array name="first_day_of_week">
+        <item>default</item>
+        <item>sun</item>
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
+    </string-array>
     <string-array name="terms_of_address_unsupported_locales">
         <item>fr-CA</item>
         </string-array>

@@ -18,4 +18,5 @@
         <item>VPN and apps</item>
         <item>Wi-Fi</item>
     </string-array>
+    <string name="wifi_sim_config_text">SIM: %s\n</string>
 </resources>
