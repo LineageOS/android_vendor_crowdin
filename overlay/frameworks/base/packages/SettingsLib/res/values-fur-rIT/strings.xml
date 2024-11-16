@@ -65,12 +65,34 @@
     <string name="bluetooth_connected_no_headset_battery_level">Conetût (cence telefon), batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Conetût (cence multimedia), batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Conetût (cence telefon o multimedia), batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_active_battery_level">Atîf. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_active_battery_level_untethered">Atîf. Ç: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_active_battery_level_untethered_left">Atîf. Ç: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_active_battery_level_untethered_right">Atîf. D: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> di batarie.</string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie</string>
     <string name="tv_bluetooth_battery_level">Batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered">Ç: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_battery_level_untethered_left">Çampe: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> di batarie</string>
+    <string name="bluetooth_battery_level_untethered_right">Diestre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> di batarie</string>
     <string name="tv_bluetooth_battery_level_untethered_left">Çampe <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="tv_bluetooth_battery_level_untethered_right">Diestre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Atîf</string>
     <string name="bluetooth_saved_device">Salvât</string>
+    <string name="bluetooth_hearing_aid_left_active">Atîf (nome a çampe)</string>
+    <string name="bluetooth_hearing_aid_right_active">Atîf (nome a diestre)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_active">Atîf (a çampe e a drete)</string>
+    <string name="bluetooth_active_media_only_battery_level">Atîf (dome multimedia). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_active_media_only_battery_level_untethered">Atîf (dome multimedia). Ç: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_battery_level_lea_support">Colegât (al supuarte la condivision audio). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_battery_level_untethered_lea_support">Colegât (al supuarte la condivision audio). Ç: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_battery_level_untethered_left_lea_support">Colegât (al supuarte la condivision audio). Çampe: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_battery_level_untethered_right_lea_support">Colegât (al supuarte la condivision audio). Diestre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> di batarie.</string>
+    <string name="bluetooth_no_battery_level_lea_support">Colegât (al supuarte la condivision audio)</string>
+    <string name="bluetooth_active_media_only_no_battery_level">Atîf (nome multimedia)</string>
+    <string name="bluetooth_saved_device_lea_support">Al supuarte la condivision audio</string>
+    <string name="bluetooth_hearing_aid_media_only_left_active">Atîf (dome multimedia), nome a çampe</string>
+    <string name="bluetooth_hearing_aid_media_only_right_active">Atîf (dome multimedia), nome a diestre</string>
+    <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Atîf (dome multimedia), a çampe e a drete</string>
     <string name="bluetooth_profile_a2dp">Audio multimedia</string>
     <string name="bluetooth_profile_headset">Clamadis telefonichis</string>
     <string name="bluetooth_profile_opp">Trasferiment files</string>
@@ -464,6 +486,10 @@
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> pe ricjarie complete</string>
     <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Ricjarie otimizade</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> - In cjarie</string>
+    <string name="power_fast_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="status">%2$s</xliff:g> - Plene pes <xliff:g id="time">%3$s</xliff:g></string>
+    <string name="power_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - Ricjarie complete pes <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_remaining_charging_duration_only_v2">Ricjarie complete pes <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_remaining_fast_charging_duration_only_v2">Plene pes <xliff:g id="time">%1$s</xliff:g></string>
     <string name="battery_info_status_unknown">No cognossût</string>
     <string name="battery_info_status_charging">In cjarie</string>
     <string name="battery_info_status_charging_fast">Ricjarie rapide</string>
@@ -476,6 +502,7 @@
     <string name="battery_info_status_full_charged">Cjarie completade</string>
     <string name="battery_info_status_charging_on_hold">Ricjarie in spiete</string>
     <string name="battery_info_status_charging_v2">In cjarie</string>
+    <string name="battery_info_status_charging_fast_v2">Ricjarie rapide</string>
     <string name="disabled_by_admin_summary_text">Controlât dal aministradôr</string>
     <string name="disabled_by_app_ops_text">Controlade midiant impostazion cun restrizions</string>
     <string name="disabled">Disativade</string>
@@ -616,6 +643,7 @@
     <string name="add_user_failed">Nol è stât pussibil creâ un gnûf utent</string>
     <string name="add_guest_failed">Nol è stât pussibil creâ un gnûf ospit</string>
     <string name="user_nickname">Sorenon</string>
+    <string name="edit_user_info_message">Il non e la imagjin che tu sielzis a saran visibii a ducj chei che a doprin chest dispositîf.</string>
     <string name="user_add_user">Zonte utent</string>
     <string name="guest_new_guest">Zonte ospit</string>
     <string name="guest_exit_guest">Gjave ospit</string>
@@ -690,6 +718,7 @@
     <string name="physical_keyboard_title">Tastiere fisiche</string>
     <string name="keyboard_layout_dialog_title">Sielç disposizion de tastiere</string>
     <string name="keyboard_layout_default_label">Predefinît</string>
+    <string name="turn_screen_on_title">Control par ativâ il schermi</string>
     <string name="allow_turn_screen_on">Permet di impiâ il schermi</string>
     <string name="allow_turn_screen_on_description">Permet a une aplicazion di impiâ il schermi. Se chest permès al ven concedût, la aplicazion e podarès impiâ il schermi a cualsisei ore cence la tô autorizazion esplicite.</string>
     <string name="bt_le_audio_broadcast_dialog_title">Interompi la trasmission di <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>
@@ -704,4 +733,5 @@
     <string name="neuter">Neutri</string>
     <string name="feminine">Feminin</string>
     <string name="masculine">Maschîl</string>
+    <string name="system_update_settings_list_item_title">Inzornaments di sisteme</string>
 </resources>

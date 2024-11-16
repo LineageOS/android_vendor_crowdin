@@ -82,6 +82,7 @@
     <string name="NetworkPreferenceSwitchTitle">Nun se pue acceder a la rede móvil</string>
     <string name="NetworkPreferenceSwitchSummary">Prueba a camudar la rede preferida. Toca pa camudala.</string>
     <string name="EmergencyCallWarningTitle">Les llamaes d\'emerxencia nun tán disponibles</string>
+    <string name="EmergencyCallWarningSummary">Les llamaes d\'emerxencia riquen una rede móvil</string>
     <string name="notification_channel_network_alert">Alertes</string>
     <string name="notification_channel_call_forward">Esvíu de llamaes</string>
     <string name="notification_channel_emergency_callback">Mou de retornu de llamaes d\'emerxencia</string>
@@ -190,6 +191,7 @@
     <string name="work_profile_deleted_description_dpm_wipe">El perfil llaboral yá nun ta disponible nesti preséu</string>
     <string name="work_profile_deleted_reason_maximum_password_failure">Introduxesti mal la contraseña milenta vegaes</string>
     <string name="device_ownership_relinquished">L\'alministrador arrenunció al preséu pa usu personal</string>
+    <string name="private_space_deleted_by_admin_details">La to organización nun permite los espacios privaos nesti preséu xestionáu.</string>
     <string name="network_logging_notification_title">El preséu ta xestionáu</string>
     <string name="network_logging_notification_text">La to organización xestiona esti preséu y pue supervisar el tránsitu de la rede. Toca pa ver los detalles.</string>
     <string name="location_changed_notification_title">Les aplicaciones puen acceder a la to llocalización</string>
@@ -821,6 +823,7 @@
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Nun se reconoció la buelga</string>
     <string name="fingerprint_udfps_error_not_match">Nun se reconoció la buelga</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Nun se reconoció la cara. Usa la buelga.</string>
     <string name="fingerprint_authenticated">Autenticóse la buelga</string>
     <string name="face_authenticated_no_confirmation_required">Autenticóse la cara</string>
     <string name="face_authenticated_confirmation_required">Autenticóse la cara, primi «Confirmar»</string>
@@ -2759,8 +2762,10 @@
     <string name="profile_label_test">Prueba</string>
     <string name="profile_label_communal">Comunal</string>
     <string name="accessibility_label_managed_profile">Perfil llaboral</string>
+    <string name="accessibility_label_private_profile">Espaciu priváu</string>
     <string name="accessibility_label_clone_profile">Clon</string>
     <string name="accessibility_label_communal_profile">Comunal</string>
+    <string name="private_space_biometric_prompt_title">Espaciu priváu</string>
     <string name="satellite_notification_title">Conectóse automáticamente a un satélite</string>
     <string name="satellite_notification_summary">Pues unviar y recibir mensaxes ensin una rede móvil o Wi-Fi</string>
     <string name="satellite_notification_open_message">Abrir l\'aplicación Mensaxes</string>

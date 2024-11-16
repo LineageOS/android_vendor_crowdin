@@ -15,6 +15,11 @@
   ~ limitations under the License.
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="audio_channel_mono">моно</string>
+    <string name="edit_channels_group_by_hd_sd">HD/SD</string>
+    <string name="edit_channels_group_divider_for_hd">HD</string>
+    <string name="edit_channels_group_divider_for_sd">SD</string>
     <string name="option_rating_none">Юк</string>
+    <string name="input_banner_v2_input_label_format"><xliff:g example="HDMI 1" id="label">%1$s</xliff:g> · <xliff:g example="Play Station" id="custom_label">%2$s</xliff:g></string>
     <string name="intro_title">@string/app_name</string>
 </resources>

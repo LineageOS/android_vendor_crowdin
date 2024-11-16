@@ -190,6 +190,7 @@
     <string name="private_space_lockscreen_title">¿Quies escoyer otru bloquéu pal espaciu priváu?</string>
     <string name="private_space_use_screenlock_label">Usar el bloquéu de pantalla</string>
     <string name="private_space_set_lock_label">Escoyer otru bloquéu</string>
+    <string name="private_space_wait_screen_title">Un segundín\u2026</string>
     <string name="private_space_success_title">¡Acabesti!</string>
     <string name="private_space_access_text">P\'atopar l\'espaciu priváu, vete a la llista d\'aplicaciones y desplázate p\'abaxo</string>
     <string name="private_space_scrolldown_to_access">Desplázate p\'abaxo p\'atopar l\'espaciu priváu</string>
@@ -241,6 +242,7 @@
       one {}=1      {1 soscripción}
       other   {# soscripciones}
     }</string>
+    <string name="wifi_certificate_summary_system">Certificáu del sistema</string>
     <string name="hotspot_device_details_internet_source">Fonte d\'internet</string>
     <string name="hotspot_connection_strength">Intensidá de la conexón</string>
     <string name="wifi_hotspot_speed_title">Velocidá y compatibilidá</string>
@@ -323,7 +325,7 @@
     <string name="accessibility_text_reading_conversation_message_1">¿Vas facer daqué esta fin de selmana?</string>
     <string name="accessibility_text_reading_conversation_message_2">Voi dir pa la playa, ¿Quies venir?</string>
     <string name="accessibility_screen_magnification_intro_text">Avera aína\'l conteníu de la pantalla p\'agrandalu</string>
-    <string name="accessibility_screen_magnification_summary">        <b>P\'averar:</b><br/>
+    <string name="accessibility_screen_magnification_summary"><![CDATA[        <b>P\'averar:</b><br/>
         {0,number,integer}. Usa l\'atayu p\'aniciar l\'aumentu<br/>
         {1,number,integer}. Toca la pantalla<br/>
         {2,number,integer}. Arrastra 2 deos pa movete pela pantalla<br/>
@@ -335,7 +337,7 @@
         {2,number,integer}. Ten primío en cualesquier parte de la pantalla<br/>
         {3,number,integer}. Arrastra\'l deu pa movete pela pantalla<br/>
         {4,number,integer}. Llevanta\'l deu pa dexar d\'aumentar
-        </string>
+        ]]></string>
     <string name="accessibility_button_intro_text">Accedi aína a les funciones d\'accesibilidá dende cualesquier pantalla</string>
     <string name="accessibility_disable_animations_summary">Amenorga\'l movimientu na pantalla</string>
     <string name="accessibility_vibration_settings_title">Vibración y función háptica</string>
@@ -456,28 +458,31 @@
     <string name="blocked_by_restricted_settings_title">Opción restrinxida</string>
     <string name="financed_privacy_intro">El fornidor de creitos pue camudar la configuración ya instalar software nesti preséu demientres la configuración.\n\nSi falta un pagu, el fornidor de creitos pue bloquiar el preséu y camuda-y la configuración.\n\nPa saber más, ponte en contautu col fornidor de creitos.</string>
     <string name="financed_privacy_fully_paid_category">Namás que pagues l\'importe total:</string>
+    <string name="storage_documents">Documentos</string>
+    <string name="storage_os_name">Android <xliff:g id="version" example="8">%s</xliff:g></string>
+    <string name="storage_temporary_files">Ficheros temporales del sistema</string>
     <string name="autofill_passwords_count">{count, plural,
       one {}=1      {# contraseña}
       other   {# contraseñes}
     }</string>
     <string name="credman_keywords">datos, datu, clave d\'accesu, contraseña</string>
     <string name="credman_autofill_keywords">rellenar, rellenu automáticu, rellenar automáticamente, datos, datu, clave d\'accesu, contraseña</string>
-    <string name="credman_autofill_confirmation_message">        <b>¿Quies usar «<xliff:g id="app_name" example="Provider">%1$s</xliff:g>»?</b>
+    <string name="credman_autofill_confirmation_message"><![CDATA[        <b>¿Quies usar «<xliff:g id="app_name" example="Provider">%1$s</xliff:g>»?</b>
         <br/>
         <br/>
         Dende esti momentu, les contraseñes, les claves d\'accesu y demás información va
         guardase equí. Ye posible que\'l fornidor «<xliff:g id="app_name" example="Provider">%1$s</xliff:g>»
         use lo qu\'apaeza na pantalla pa determinar lo que se pue rellenar automáticamente.
-        </string>
+        ]]></string>
     <string name="credman_confirmation_message_title">¿Quies desactivar «%1$s»?</string>
-    <string name="credman_confirmation_message">        <b>¿Quies desactivar esti serviciu?</b>
+    <string name="credman_confirmation_message"><![CDATA[        <b>¿Quies desactivar esti serviciu?</b>
         <br/>
         <br/>
         Cuando anicies la sesión, nun se va rellenar la información guardada (contraseñes,
         claves d\'accesu métodos de pagu, etc). Pa usar la información guardada, escueyi una
         contraseña, un serviciu de datos o una clave d\'accesu.
         
-        </string>
+        ]]></string>
     <string name="credman_enable_confirmation_message_title">¿Quies usar «%1$s»?</string>
     <string name="credman_enable_confirmation_message">«%1$s» usa lo qu\'apaez na pantalla pa determinar qué se pue rellenar automáticamente.</string>
     <string name="credman_error_message_title">Llende de contraseñes, claves d\'accesu y servicios de datos</string>

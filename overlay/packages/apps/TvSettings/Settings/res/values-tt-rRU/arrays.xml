@@ -31,6 +31,11 @@
         <item>75%</item>
         <item>100%</item>
     </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>None</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
     <string-array name="wifi_phase2_entries">
         <item>None</item>
         <item>PAP</item>

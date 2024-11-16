@@ -473,6 +473,7 @@
     <string name="battery_info_status_full_charged">Carga completa</string>
     <string name="battery_info_status_charging_on_hold">Carga n\'espera</string>
     <string name="battery_info_status_charging_v2">En carga</string>
+    <string name="battery_info_status_charging_fast_v2">Carga rápida</string>
     <string name="disabled_by_admin_summary_text">Opción controlada pol alministrador</string>
     <string name="disabled_by_app_ops_text">Preferencia controlada poles opciones restrinxíes</string>
     <string name="disabled">Desactivóse</string>
@@ -699,4 +700,5 @@
     <string name="neuter">Neutru</string>
     <string name="feminine">Femenín</string>
     <string name="masculine">Masculín</string>
+    <string name="system_update_settings_list_item_title">Anovamientos del sistema</string>
 </resources>

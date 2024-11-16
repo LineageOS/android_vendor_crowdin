@@ -121,6 +121,8 @@
     <string name="screenrecord_save_text">Toca pa vela</string>
     <string name="screenrecord_save_error">Hebo un error al guardar la grabación de pantalla</string>
     <string name="screenrecord_start_error">Hebo un error al aniciar la grabación de pantalla</string>
+    <string name="screenrecord_stop_dialog_button">Dexar de grabar</string>
+    <string name="share_to_app_stop_dialog_title">¿Quies dexar de compartir la pantalla?</string>
     <string name="cast_to_other_device_stop_dialog_button">Dexar de tresmitir</string>
     <string name="close_dialog_button">Zarrar</string>
     <string name="issuerecord_title">Rexistrador de problemes</string>
@@ -164,6 +166,7 @@
     <string name="biometric_dialog_tap_confirm_with_face_alt_3">Reconocióse la cara. Primi l\'iconu de desbloquéu pa siguir.</string>
     <string name="biometric_dialog_authenticated">Autenticóse</string>
     <string name="biometric_dialog_cancel_authentication">Encaboxar l\'autenticación</string>
+    <string name="biometric_dialog_content_view_more_options_button">Más opciones</string>
     <string name="biometric_dialog_use_pin">Usar el PIN</string>
     <string name="biometric_dialog_use_pattern">Usar el patrón</string>
     <string name="biometric_dialog_use_password">Usar la contraseña</string>
@@ -868,6 +871,7 @@ prioridá</string>
     <string name="accessibility_quick_settings_power_menu">Menú d\'apagáu</string>
     <string name="accessibility_quick_settings_page">Páxina <xliff:g name="current_page" example="1">%1$d</xliff:g> de <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
     <string name="tuner_lock_screen">Pantalla de bloquéu</string>
+    <string name="shutdown_progress">Apagando\u2026</string>
     <string name="thermal_shutdown_dialog_help_text">Ver los pasos de curiáu</string>
     <string name="high_temp_dialog_help_text">Ver los pasos de curiáu</string>
     <string name="high_temp_alarm_title">Desconecta\'l preséu</string>

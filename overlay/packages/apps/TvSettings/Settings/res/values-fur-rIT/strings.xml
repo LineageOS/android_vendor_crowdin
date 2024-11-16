@@ -1002,12 +1002,12 @@
     <string name="title_current_autofill_service">Servizi di compilazion automatiche atuâl</string>
     <string name="title_select_autofill_service">Selezione servizi di compilazion automatiche</string>
     <string name="autofill_none">Nissun</string>
-    <string name="autofill_confirmation_message">        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Password service">%1$s</xliff:g> al dopre ce che
         al è sul to schermi par determinâ ce che al pues jessi compilât in automatic.
-        </string>
+        ]]></string>
     <string name="computing_size">Elaborazion\u2026</string>
     <string name="title_select_wifi_network">Selezione la tô rêt Wi-Fi</string>
     <string name="accessories_wifi_display_rename_device">Cambie non</string>

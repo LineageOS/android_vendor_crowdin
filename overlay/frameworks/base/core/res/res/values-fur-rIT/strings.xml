@@ -82,6 +82,7 @@
     <string name="NetworkPreferenceSwitchTitle">Impussibil cjapâ la rêt mobile</string>
     <string name="NetworkPreferenceSwitchSummary">Prove a cambiâ la rêt preferide. Tocje par cambiâ.</string>
     <string name="EmergencyCallWarningTitle">Clamadis di emergjence no disponibilis</string>
+    <string name="EmergencyCallWarningSummary">Lis clamadis di emergjence a àn bisugne di une rêt mobile</string>
     <string name="notification_channel_network_alert">Alertis</string>
     <string name="notification_channel_call_forward">Deviazion clamadis</string>
     <string name="notification_channel_emergency_callback">Modalitât de clamade di rispueste pe emergjence</string>
@@ -148,6 +149,17 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> dopo <xliff:g id="time_delay">{2}</xliff:g> seconts</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: no mandât indevant</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: no mandât indevant</string>
+    <string name="scCellularNetworkSecurityTitle">Sigurece de rêt mobile</string>
+    <string name="scCellularNetworkSecuritySummary">Cifradure, notifichis par rêts cence cifradure</string>
+    <string name="scIdentifierDisclosureIssueTitle">Device ID accessed</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification">Aes <xliff:g id="disclosure_time">%1$s</xliff:g>, une rêt tai contors e à regjistrât l\'ID univoc dal to dispositîf (IMSI o IMEI) intant che e vegnive doprade la tô SIM <xliff:g id="disclosure_network">%2$s</xliff:g></string>
+    <string name="scIdentifierDisclosureIssueSummary">Aes <xliff:g id="disclosure_time">%1$s</xliff:g>, une rêt tai contors e à regjistrât l\'ID univoc dal to dispositîf (IMSI o IMEI) intant che e vignive doprade la tô SIM <xliff:g id="disclosure_network">%2$s</xliff:g>.\n\nChest al significhe che la tô posizion, la tô ativitiât o la tô identitât a son stadis regjistradis. Cheste e je une pratiche comune ma e podarès rapresentâ un probleme pes personis atentis ae lôr riservatece.</string>
+    <string name="scNullCipherIssueEncryptedTitle">Conetût ae rêt cifrade <xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="scNullCipherIssueEncryptedSummary">Cumò la conession de SIM <xliff:g id="network_name">%1$s</xliff:g> e je plui sigure</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Conetût a rêt cence cifradure</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Clamadis, messaçs e dâts in chest moment a son plui vulnerabii intant che e ven doprade la tô SIM<xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="scNullCipherIssueNonEncryptedSummary">Clamadis, messaçs e dâts in chest moment a son plui vulnerabii intant che e ven doprade la tô SIM<xliff:g id="network_name">%1$s</xliff:g>\n\nTu ricevarâs une altre notifiche cuant che la tô conession e tornarà cifrade.</string>
+    <string name="scNullCipherIssueActionSettings">Impostazions di sigurece pe rêt mobile</string>
     <string name="scNullCipherIssueActionLearnMore">Plui informazions</string>
     <string name="scNullCipherIssueActionGotIt">Capît</string>
     <string name="fcComplete">Codiç di funzion complet.</string>
@@ -190,6 +202,8 @@
     <string name="work_profile_deleted_description_dpm_wipe">Il to profîl di lavôr nol è plui disponibil su chest dispositîf</string>
     <string name="work_profile_deleted_reason_maximum_password_failure">Masse tentatîfs pe password</string>
     <string name="device_ownership_relinquished">L\'aministradôr al à rinunziât al dispositîf par ûs personâl</string>
+    <string name="private_space_deleted_by_admin">Spazi privât gjavât</string>
+    <string name="private_space_deleted_by_admin_details">La tô organizazion no permet spazis privâts su chest dispositîf gjestît.</string>
     <string name="network_logging_notification_title">Il dispositîf al è gjestît</string>
     <string name="network_logging_notification_text">La tô organizazion e gjestìs chest dispositîf e e podarès controlâ il trafic di rêt. Tocje pai detais.</string>
     <string name="location_changed_notification_title">Lis aplicazions a puedin acedi ae tô posizion</string>
@@ -377,6 +391,7 @@
     <string name="capability_title_canTakeScreenshot">Caturâ schermadis</string>
     <string name="capability_desc_canTakeScreenshot">Al pues caturâ une videade dal schermi.</string>
     <string name="dream_preview_title"><xliff:g id="dream_name" example="Clock">%1$s</xliff:g> in anteprime</string>
+    <string name="dream_accessibility_action_click">ignore</string>
     <string name="permlab_statusBar">disativâ o modificâ la sbare di stât</string>
     <string name="permdesc_statusBar">Al permet ae aplicazion di disativâ la sbare di stât o zontâ e gjavâ iconis di sisteme.</string>
     <string name="permlab_statusBarService">jessi la sbare di stât</string>
@@ -811,6 +826,7 @@
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Impront no ricognossût</string>
     <string name="fingerprint_udfps_error_not_match">Impront no ricognossût</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Muse no ricognossude. Dopre l\'impront.</string>
     <string name="fingerprint_authenticated">Impront digjitâl autenticade</string>
     <string name="face_authenticated_no_confirmation_required">Muse autenticade</string>
     <string name="face_authenticated_confirmation_required">Muse autenticade, frache conferme</string>
@@ -1432,6 +1448,8 @@
     <string name="deleteText">Elimine</string>
     <string name="inputMethod">Metodi di imission</string>
     <string name="editTextMenuTitle">Azions dal test</string>
+    <string name="error_handwriting_unsupported">La caligrafie no je supuartade in chest cjamp</string>
+    <string name="error_handwriting_unsupported_password">La caligrafie no je supuartade tai cjamps des passwords</string>
     <string name="input_method_nav_back_button_desc">Indaûr</string>
     <string name="input_method_ime_switch_button_desc">Cambie metodi di imission</string>
     <string name="low_internal_storage_view_title">Spazi di archiviazion in esauriment</string>
@@ -2204,6 +2222,7 @@
     <string name="restr_pin_error_too_short">Il PIN al è masse curt. Al scugne vê almancul 4 cifris.</string>
     <string name="restr_pin_try_later">Torne prove plui tart</string>
     <string name="immersive_cling_title">Daûr a viodi a plen schermi</string>
+    <string name="immersive_cling_description">Par lâ fûr, scor in jù partint de part superiôr dal schermi</string>
     <string name="immersive_cling_positive">Capît</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Volte par viodi miôr</string>
     <string name="display_rotation_camera_compat_toast_in_multi_window">Vierç <xliff:g id="name" example="MyApp">%s</xliff:g> a plen schermi par viodi miôr</string>
@@ -2229,6 +2248,7 @@
     <string name="lock_to_app_unlock_pin">Domande il PIN prime di molâ</string>
     <string name="lock_to_app_unlock_pattern">Domande une cumbinazion di sbloc prime di molâ</string>
     <string name="lock_to_app_unlock_password">Domande une password prime di molâ</string>
+    <string name="package_installed_device_owner">Instalât dal to aministradôr.\nVa tes impostazions par viodi i permès concedûts</string>
     <string name="package_updated_device_owner">Inzornât dal to aministradôr</string>
     <string name="package_deleted_device_owner">Eliminât dal to aministradôr</string>
     <string name="confirm_battery_saver">Va ben</string>
@@ -2294,6 +2314,8 @@
     <string name="zen_mode_implicit_activated">On</string>
     <string name="zen_mode_implicit_deactivated">Off</string>
     <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
+    <string name="zen_mode_trigger_summary_range_symbol_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> - <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_event_calendar_any">Ducj i calendaris</string>
     <string name="muted_by"><xliff:g id="third_party">%1$s</xliff:g> al sta cidinant cualchi sun</string>
     <string name="system_error_wipe_data">Il to dispositîf al à un probleme interni e al podarès jessi instabil fintremai che no tu fasis un ripristinament dai dâts di fabriche.</string>
     <string name="system_error_manufacturer">Il to dispositîf al à un probleme interni. Contate il produtôr pai detais.</string>
@@ -2505,9 +2527,11 @@
     <string name="nas_upgrade_notification_disable_action">Disative</string>
     <string name="nas_upgrade_notification_learn_more_action">Plui informazions</string>
     <string name="nas_upgrade_notification_learn_more_content">In Android 12 lis notifichis avanzadis a àn sostituît lis notifichis adativis di Android. Cheste funzionalitât e mostre lis azions e lis rispuestis sugjeridis e e organize lis tôs notifichis.\n\nLis notifichis avanzadis a puedin acedi ai contignûts des notifichis, includudis lis informazions personâls come i nons dai contats e i messaçs. Cheste funzion e pues ancje scartâ o rispuindi aes notifichis, come par esempli rispuindi aes clamadis telefonichis e controlâ il No Sta Disturbâ.</string>
-    <string name="dynamic_mode_notification_channel_name">Notifiche di informazion de modalitât Routine</string>
+    <string name="dynamic_mode_notification_channel_name">Notifiche di informazion de modalitât Dran dran</string>
     <string name="dynamic_mode_notification_title">Sparagn energjetic ativât</string>
     <string name="dynamic_mode_notification_summary">Daûr a ridusi il consum di batarie par sprolungjâ la durade de batarie</string>
+    <string name="dynamic_mode_notification_title_v2">Il sparagn energjetic al è atîf</string>
+    <string name="dynamic_mode_notification_summary_v2">Il sparagn energjetic al è atîf par sprolungjâ la durade de batarie</string>
     <string name="battery_saver_notification_channel_name">Sparagn energjetic</string>
     <string name="battery_saver_off_notification_title">Sparagn energjetic disativât</string>
     <string name="battery_saver_charged_notification_summary" product="default">Il telefon al à avonde batarie. Lis funzionalitâts no son plui limitadis.</string>
@@ -2585,6 +2609,8 @@
     <string name="miniresolver_switch_to_work">Passâ ae aplicazion di lavôr?</string>
     <string name="miniresolver_call_information">La tô organizazion ti permet di fâ clamadis dome cu lis aplicazions di lavôr</string>
     <string name="miniresolver_sms_information">La tô organizazion ti permet di mandâ messaçs dome cu lis aplicazions di lavôr</string>
+    <string name="miniresolver_private_space_phone_information">"De tô aplicazion personâl Telefon tu puedis nome fâ clamadis. Lis clamadis fatis cu la aplicazion personâl di Telefon a vignaran zontadis ae tô cronologjie personâl des clamadis."</string>
+    <string name="miniresolver_private_space_messages_information">"De tô aplicazion personâl Messaçs tu puedis nome mandâ messaçs SMS."</string>
     <string name="miniresolver_use_personal_browser">Dopre il navigadôr personâl</string>
     <string name="miniresolver_use_work_browser">Dopre il navigadôr di lavôr</string>
     <string name="miniresolver_call">Clame</string>
@@ -2738,7 +2764,7 @@
     <string name="mic_access_off_toast">Il microfon al è blocât</string>
     <string name="connected_display_unavailable_notification_title">Impussibil spielâ il schermi</string>
     <string name="connected_display_unavailable_notification_content">Dopre un altri fîl e torne prove</string>
-    <string name="connected_display_thermally_unavailable_notification_content">Il to dispositîf al è masse cjalt e nol pues spielâ il schermi fintremai che no si sfrede</string>
+    <string name="connected_display_thermally_unavailable_notification_content">Il to dispositîf al è masse cjalt e nol pues spieglâ il schermi fintremai che no si sfrede</string>
     <string name="concurrent_display_notification_name">Dopli schermi</string>
     <string name="concurrent_display_notification_active_title">Il dopli schermi al è atîf</string>
     <string name="concurrent_display_notification_active_content">Utilizazion di ducj i doi i schermis de bande di <xliff:g id="app_name" example="Camera app">%1$s</xliff:g> par mostrâ il contignût</string>
@@ -2763,12 +2789,24 @@
     <string name="profile_label_test">Prove</string>
     <string name="profile_label_communal">In comun</string>
     <string name="accessibility_label_managed_profile">Profîl di lavôr</string>
+    <string name="accessibility_label_private_profile">Spazi privât</string>
     <string name="accessibility_label_clone_profile">Clon</string>
     <string name="accessibility_label_communal_profile">In comun</string>
+    <string name="private_space_biometric_prompt_title">Spazi privât</string>
+    <string name="redacted_notification_message">Contignûts sensibii de notifiche platâts</string>
+    <string name="screen_not_shared_sensitive_content">Contignûts de aplicazion platâts de condivision dal schermi par sigurece</string>
     <string name="satellite_notification_title">Conetût in automatic al satelit</string>
     <string name="satellite_notification_summary">Tu puedis mandâ e ricevi messaçs cence une rêt celulâr o Wi-Fi</string>
     <string name="satellite_notification_open_message">Vierç messaçs</string>
     <string name="satellite_notification_how_it_works">Cemût funzionial?</string>
+    <string name="unarchival_session_app_label">In spiete...</string>
+    <string name="fingerprint_dangling_notification_title">Torne configure il sbloc cul impront</string>
+    <string name="fingerprint_dangling_notification_msg_1">Nol è plui pussibil ricognossi <xliff:g id="fingerprint">%s</xliff:g>.</string>
+    <string name="fingerprint_dangling_notification_msg_2">Nol è plui pussibil ricognossi <xliff:g id="fingerprint">%1$s</xliff:g> e <xliff:g id="fingerprint">%2$s</xliff:g>.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1">Nol è plui pussibil ricognossi <xliff:g id="fingerprint">%s</xliff:g>. Torne configure il sbloc cul impront.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2">Nol è plui pussibil ricognossi <xliff:g id="fingerprint">%1$s</xliff:g> e <xliff:g id="fingerprint">%2$s</xliff:g>. Torne configure il sbloc cul impront.</string>
+    <string name="face_dangling_notification_title">Torne configure il sbloc cu la muse</string>
+    <string name="face_dangling_notification_msg">Nol è plui pussibil ricognossi il to model di muse. Torne configure il sbloc cu la muse.</string>
     <string name="biometric_dangling_notification_action_set_up">Configure</string>
     <string name="biometric_dangling_notification_action_not_now">No cumò</string>
 </resources>

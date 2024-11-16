@@ -49,4 +49,10 @@
     <string name="keyboard_layout_belarusian">Bielorusse</string>
     <string name="keyboard_layout_mongolian">Mongule</string>
     <string name="keyboard_layout_georgian">Gjeorgjiane</string>
+    <string name="keyboard_layout_thai_kedmanee">Tailandese (Kedmanee)</string>
+    <string name="keyboard_layout_thai_pattachote">Tailandese (Pattachote)</string>
+    <string name="keyboard_layout_serbian_latin">Serbe (Latine)</string>
+    <string name="keyboard_layout_montenegrin_latin">Montenegrine (Latine)</string>
+    <string name="keyboard_layout_serbian_cyrillic">Serbe (Ciriliche)</string>
+    <string name="keyboard_layout_montenegrin_cyrillic">Montenegrine (Ciriliche)</string>
 </resources>

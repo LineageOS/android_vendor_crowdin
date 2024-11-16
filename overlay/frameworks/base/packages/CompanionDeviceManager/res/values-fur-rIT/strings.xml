@@ -24,12 +24,17 @@
     <string name="profile_name_glasses">dispositîf</string>
     <string name="summary_glasses">Cheste aplicazion e varà il permès par acedi a chescj permès sul to <xliff:g id="device_name" example="phone">%1$s</xliff:g></string>
     <string name="title_app_streaming">Permet a &lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt; di acedi a cheste informazion dal to telefon</string>
+    <string name="title_app_streaming_with_mirroring">Permeti a &lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt; di trasmeti lis aplicazions dal to telefon?</string>
+    <string name="summary_app_streaming">%1$s al rivarà a acedi a dut ce che al è visibil o ce che al ven riprodot sul telefon, includûts audio, fotos, passwords e messaçs.&lt;br/&gt;&lt;br/&gt;%1$s al rivarà a trasmeti aplicazions fintant che no tu gjavis l\'acès a chest permès.</string>
     <string name="helper_title_app_streaming">Servizis inter-dispositîfs</string>
     <string name="helper_summary_app_streaming"><xliff:g id="app_name" example="GMS">%1$s</xliff:g> e sta domandant il permès, par cont dal to <xliff:g id="display_name" example="Chromebook">%2$s</xliff:g>, par trasmeti aplicazions tra i tiei dispositîfs</string>
+    <string name="helper_summary_app_streaming_with_mirroring"><xliff:g id="app_name" example="GMS">%1$s</xliff:g> al sta domandant il permès par cont dal to <xliff:g id="display_name" example="Chromebook">%2$s</xliff:g> par visualizâ e trasmeti aplicazions tra i tiei dispositîfs</string>
     <string name="title_computer">Permet a &lt;strong&gt;<xliff:g id="app_name" example="GMS">%1$s</xliff:g>&lt;/strong&gt; di acedi a cheste informazion dal to telefon</string>
     <string name="helper_title_computer">Servizis Google Play</string>
     <string name="helper_summary_computer"><xliff:g id="app_name" example="GMS">%1$s</xliff:g> al sta domandant il permès, par cont dal to <xliff:g id="display_name" example="Chromebook">%2$s</xliff:g>, par acedi aes fotos, files multimediâi e notifichis dal to telefon</string>
     <string name="title_nearby_device_streaming">Permeti a &lt;strong&gt;<xliff:g id="device_name" example="NearbyStreamer">%1$s</xliff:g>&lt;/strong&gt; di fâ cheste azion?</string>
+    <string name="title_nearby_device_streaming_with_mirroring">Permeti a &lt;strong&gt;<xliff:g id="device_name" example="NearbyStreamer">%1$s</xliff:g>&lt;/strong&gt; di trasmeti lis aplicazions e lis funzionalitâts di sisteme dal to telefon?</string>
+    <string name="summary_nearby_device_streaming">%1$s al rivarà a acedi a dut ce che al è visibil o ce che al ven riprodot sul to telefon, includûts audio, fotos, informazions di paiament, passwords e messaçs.&lt;br/&gt;&lt;br/&gt;%1$s al rivarà a trasmeti aplicazions e funzionalitâts di sisteme fintant che no tu gjavis l\'acès a chest permès.</string>
     <string name="helper_summary_nearby_device_streaming">La aplicazion <xliff:g id="app_name" example="NearbyStreamerApp">%1$s</xliff:g> e sta domandant un permès par cont dal to <xliff:g id="device_name" example="NearbyDevice">%2$s</xliff:g> par trasmeti aplicazions e altris funzionalitâts di sisteme ai dispositîfs tai contors</string>
     <string name="profile_name_generic">dispositîf</string>
     <string name="summary_generic">Cheste aplicazion e rivarà a sincronizâ informazions, come il non di cualchidun che al clame, tra il to telefon e il dispositîf sielt</string>

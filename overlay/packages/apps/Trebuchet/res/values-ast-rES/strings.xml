@@ -39,6 +39,7 @@
     <string name="add_to_home_screen">Amestar a la pantalla d\'aniciu</string>
     <string name="added_to_home_screen_accessibility_text">Amestóse\'l widget «<xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>» a la pantalla d\'aniciu</string>
     <string name="suggested_widgets_header_title">Suxerencies</string>
+    <string name="entertainment_widget_recommendation_category_label">Entretenimientu</string>
     <string name="widget_picker_right_pane_accessibility_title">Los widgets de l\'aplicación «<xliff:g id="selected_header" example="Calendar">%1$s</xliff:g>» tán a la derecha, la busca y les opciones a la esquierda</string>
     <string name="widgets_count">        {count, plural, =1{# widget} other{# widgets}}
     </string>
