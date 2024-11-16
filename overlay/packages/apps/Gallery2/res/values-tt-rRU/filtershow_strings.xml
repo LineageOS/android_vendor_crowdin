@@ -16,6 +16,7 @@
 <resources>
     <string name="original_picture_text">@string/original</string>
     <string name="original">Оригинал</string>
+    <string name="x">x</string>
     <string name="history_original">@string/original</string>
     <string name="aspect1to1_effect">1:1</string>
     <string name="aspect4to3_effect">4:3</string>
@@ -25,6 +26,8 @@
     <string name="aspect7to5_effect">7:5</string>
     <string name="aspect9to16_effect">16:9</string>
     <string name="aspectOriginal_effect">@string/original</string>
+    <string name="curves_channel_rgb">RGB</string>
     <string name="state_panel_original">Оригинал</string>
     <string name="filtershow_version_original">Оригинал</string>
+    <string name="filtershow_exif_iso">ISO</string>
 </resources>

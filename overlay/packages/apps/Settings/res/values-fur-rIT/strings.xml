@@ -2501,7 +2501,7 @@
     <string name="accessibility_screen_magnification_short_summary">Tocje 3 voltis par fâ il zoom</string>
     <string name="accessibility_screen_magnification_navbar_short_summary">Tocje un boton par fâ il zoom</string>
     <string name="accessibility_screen_magnification_intro_text">Aumente subit il zoom su schermi par ingrandî il contignût</string>
-    <string name="accessibility_screen_magnification_summary">        <b>Par ingrandî:</b><br/>
+    <string name="accessibility_screen_magnification_summary"><![CDATA[        <b>Par ingrandî:</b><br/>
         {0,number,integer}. Dopre la scurte par scomençâ l\'ingrandiment<br/>
         {1,number,integer}. Tocje il schermi<br/>
         {2,number,integer}. Strissine 2 dêts par spostâti ator pal schermi<br/>
@@ -2513,7 +2513,7 @@
         {2,number,integer}. Tocje e ten fracât di cualchi bande sul schermi<br/>
         {3,number,integer}. Strissine il dêt par spostâti ator pal schermi<br/>
         {4,number,integer}. Alce il dêt par interompi l\'ingrandiment
-        </string>
+        ]]></string>
     <string name="accessibility_screen_magnification_navbar_summary">Cuant che l\'ingrandiment al è ativât, tu puedis aumentâ il zoom sul schermi.\n\n<b>Par fâ il zoom</b>, invie l\'ingrandiment, duncje tocje il schermi dulà che tu vûs.\n<ul><li>Strissine 2 o plui dêts par scori</li>\n<li>Pice cun 2 o plui dêts par justâ il zoom</li></ul>\n\n<b>Par fâ un zoom temporani</b>, invie l\'ingrandiment, duncje tocje e ten fracât il schermi dulà che tu vûs.\n<ul><li>Strissine par spostâti ator pal schermi</li>\n<li>Alce il dêt par lâ fûr dal zoom</li></ul>\n\nNo tu puedis aumentâ il zoom su la tastiere o su la sbare di navigazion.</string>
     <string name="accessibility_tutorial_pager">Pagjine <xliff:g id="current_page" example="2">%1$d</xliff:g> di <xliff:g id="num_pages" example="3">%2$d</xliff:g></string>
     <string name="accessibility_tutorial_dialog_title_button">Dopre il boton dal acès facilitât par vierzi</string>
@@ -2604,13 +2604,13 @@
     <string name="accessibility_display_inversion_switch_title">Dopre la inversion dai colôrs</string>
     <string name="accessibility_display_inversion_shortcut_title">Scurte pe inversion dai colôrs</string>
     <string name="accessibility_display_inversion_preference_intro_text">La inversion dai colôrs e rint scuris lis schermadis claris e claris lis schermadis scuris.</string>
-    <string name="accessibility_display_inversion_preference_subtitle"><b>Ten iniments</b><br/>
+    <string name="accessibility_display_inversion_preference_subtitle"><![CDATA[<b>Ten iniments</b><br/>
         <ol>
             <li>\u00a0Tai contignûts multimediâi e tes imagjins i colôrs a cambiaran</li>
             <li>\u00a0La inversion dai colôrs e funzione su dutis lis aplicazions</li>
             <li>\u00a0Par visualizâ un fonts scûr, al è pussibil doprâ in alternative il teme scûr</li>
         </ol>
-        </string>
+        ]]></string>
     <string name="accessibility_autoclick_preference_title">Clic automatic (timp di stasi)</string>
     <string name="accessibility_autoclick_about_title">Informazions sul clic automatic (timp di stasi)</string>
     <string name="accessibility_autoclick_footer_learn_more_content_description">Scuvierç di plui sul clic automatic (timp di stasi)</string>
@@ -2714,18 +2714,18 @@
     <string name="reduce_bright_colors_preference_summary" product="default">Diminuìs ancjemò di plui la luminositât minime dal schermi dal telefon</string>
     <string name="reduce_bright_colors_preference_summary" product="tablet">Diminuìs ancjemò di plui la luminositât minime dal schermi dal tablet</string>
     <string name="reduce_bright_colors_preference_intro_text">Ridûs la lûs dal schermi par facilitâ la leture</string>
-    <string name="reduce_bright_colors_preference_subtitle" product="default">La atenuazion extra e pues jessi utile cuant che:
+    <string name="reduce_bright_colors_preference_subtitle" product="default"><![CDATA[La atenuazion extra e pues jessi utile cuant che:
         <ol>
             <li>\u00a0La luminositât minime predefinide dal to telefon e je masse lusorose</li>
             <li>\u00a0Tu stâs doprant il telefon tal scûr, come di gnot o intune stanzie scure prime di lâ a durmî</li>
         </ol>
-        </string>
-    <string name="reduce_bright_colors_preference_subtitle" product="tablet">La atenuazion extra e pues jessi utile cuant che:
+        ]]></string>
+    <string name="reduce_bright_colors_preference_subtitle" product="tablet"><![CDATA[La atenuazion extra e pues jessi utile cuant che:
         <ol>
             <li>\u00a0La luminositât minime predefinide dal to tablet e je masse lusorose</li>
             <li>\u00a0Tu stâs doprant il tablet tal scûr, come di gnot o intune stanzie scure prime di lâ a durmî</li>
         </ol>
-        </string>
+        ]]></string>
     <string name="reduce_bright_colors_intensity_preference_title">Intensitât</string>
     <string name="reduce_bright_colors_intensity_start_label">Mancul luminôs</string>
     <string name="reduce_bright_colors_intensity_end_label">Plui luminôs</string>
@@ -3840,7 +3840,7 @@
     <string name="keywords_display_night_display">atenuazion schermi, gnot, tonalitât, turni di gnot, luminositât, colôr schermi, colôr</string>
     <string name="keywords_display_wallpaper">fonts, fondâl, personalize, personalize schermi</string>
     <string name="keywords_display_font_size">dimension test</string>
-    <string name="keywords_display_cast_screen">proiezion, trasmission, spielâ il schermi, condivision schermi, spielâ, scondivît schermi, trasmission schermi</string>
+    <string name="keywords_display_cast_screen">proiezion, trasmission, spieglâ il schermi, condivision schermi, spieglâ, condividi schermi, trasmission schermi</string>
     <string name="keywords_storage">spazi, disc, disc fis, utilizazion dispositîf</string>
     <string name="keywords_battery">consum energjetic, ricjarie</string>
     <string name="keywords_battery_usage">visualizâ utilizazion batarie, utilizazion batarie, consum di energjie</string>
@@ -5491,12 +5491,12 @@
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> passwords</item>
     </plurals>
     <string name="autofill_keywords">automatic, completament, compilazion, completament automatic, password</string>
-    <string name="autofill_confirmation_message">        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> al dopre ce che al è
         sul schermi par determinâ ce che al pues compilâ in automatic.
-        </string>
+        ]]></string>
     <string name="debug_autofill_category">Compilazion automatiche</string>
     <string name="autofill_logging_level_title">Nivel di regjistrazion</string>
     <string name="autofill_max_partitions">Numar massim di richiestis par session</string>

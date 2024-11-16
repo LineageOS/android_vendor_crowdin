@@ -16,10 +16,21 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="iso">ISO</string>
     <string name="error_media_storage_failure">Фотогызны яки видеогызны саклаганда проблема килеп чыкты.</string>
     <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
+    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_hdr_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_label">HDR</string>
+    <string name="pref_video_quality_entry_qcif">QCIF</string>
+    <string name="pref_video_quality_entry_cif">CIF</string>
+    <string name="pref_video_quality_entry_480p">SD 480p</string>
+    <string name="pref_video_quality_entry_720p">HD 720p</string>
+    <string name="pref_video_quality_entry_1080p">HD 1080p</string>
+    <string name="pref_video_quality_entry_qvga">QVGA</string>
+    <string name="pref_video_quality_entry_2160p">UHD 4K</string>
     <string name="pref_boolean_false">0</string>
     <string name="pref_boolean_true">1</string>
 </resources>

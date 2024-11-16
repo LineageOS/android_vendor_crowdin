@@ -106,7 +106,7 @@
     <string name="accessibility_text_reading_conversation_message_1">¿Vas facer daqué esta fin de selmana?</string>
     <string name="accessibility_text_reading_conversation_message_2">Voi dir pa la playa, ¿Quies venir?</string>
     <string name="accessibility_screen_magnification_intro_text">Avera aína\'l conteníu de la pantalla p\'agrandalu</string>
-    <string name="accessibility_screen_magnification_summary">        <b>P\'averar:</b><br/>
+    <string name="accessibility_screen_magnification_summary"><![CDATA[        <b>P\'averar:</b><br/>
         {0,number,integer}. Usa l\'atayu p\'aniciar l\'aumentu<br/>
         {1,number,integer}. Toca la pantalla<br/>
         {2,number,integer}. Arrastra 2 deos pa movete pela pantalla<br/>
@@ -118,7 +118,7 @@
         {2,number,integer}. Ten primío en cualesquier parte de la pantalla<br/>
         {3,number,integer}. Arrastra\'l deu pa movete pela pantalla<br/>
         {4,number,integer}. Llevanta\'l deu pa dexar d\'aumentar
-        </string>
+        ]]></string>
     <string name="accessibility_button_intro_text">Accedi aína a les funciones d\'accesibilidá dende cualesquier pantalla</string>
     <string name="accessibility_button_gesture_description"><b>Pa comenzar</b>\n1. Vete a la configuración d\'accesibilidá\n2. Seleiciona una función y toca l\'atayu\n3. Escueyi si quies usar un botón o un xestu p\'acceder a la función.</string>
     <string name="accessibility_button_description"><b>Pa comenzar</b>\n1. Vete a la configuración d\'accesibilidá\n2. Seleiciona una función y toca l\'atayu\n3. Escueyi\'l botón p\'acceder a la función.</string>

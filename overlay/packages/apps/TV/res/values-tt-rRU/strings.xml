@@ -15,6 +15,10 @@
   ~ limitations under the License.
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="audio_channel_mono">моно</string>
+    <string name="edit_channels_group_by_hd_sd">HD/SD</string>
+    <string name="edit_channels_group_divider_for_hd">HD</string>
+    <string name="edit_channels_group_divider_for_sd">SD</string>
     <string name="option_rating_none">Юк</string>
     <string name="intro_title">@string/app_name</string>
 </resources>

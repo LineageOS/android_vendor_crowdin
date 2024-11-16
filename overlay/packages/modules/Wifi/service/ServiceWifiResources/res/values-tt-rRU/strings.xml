@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_p2p_show_pin_message">PIN: </string>
     <string-array name="wifi_eap_error_message_code_32756_carrier_overrides">
         <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g></item>
     </string-array>

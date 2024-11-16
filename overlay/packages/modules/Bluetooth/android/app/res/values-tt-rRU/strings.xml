@@ -15,4 +15,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="bt_share_picker_label">Bluetooth</string>
+    <string name="incoming_file_confirm_Notification_title">Керүче файл</string>
 </resources>
