@@ -34,8 +34,10 @@
     <string name="not_encrypted_summary" product="default">Телефон шифрланмаган</string>
     <string name="encryption_and_credential_settings_summary" product="tablet">Җайланма шифрланган</string>
     <string name="not_encrypted_summary" product="tablet">Җайланма шифрланмаган</string>
+    <string name="unlock_set_unlock_launch_picker_title">Бик экраны</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_mode_pin">PIN</string>
+    <string name="unlock_set_unlock_mode_password">Серсүз</string>
     <string name="bluetooth_quick_toggle_title">Bluetooth</string>
     <string name="bluetooth_settings">Bluetooth</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
@@ -60,8 +62,13 @@
         <item>Wi-Fi</item>
         <item>Mobile</item>
     </string-array>
+    <string name="auto_rotate_option_off">Сүндерелгән</string>
     <string name="screen_resolution_summary_high">1080p FHD+</string>
     <string name="screen_resolution_summary_highest">1440p QHD+</string>
+    <string name="sim_lock_settings_summary_off">Сүндерелгән</string>
+    <string name="sim_enter_pin">SIM картаның PIN коды</string>
+    <string name="sim_change_pin">SIM картаның PIN коды</string>
+    <string name="sim_pins_dont_match">PIN кодлары туры килми</string>
     <string name="status_imei">IMEI</string>
     <string name="status_imei_sv">IMEI SV</string>
     <string name="status_iccid">ICCID</string>
@@ -83,6 +90,8 @@
     <string name="tether_settings_summary_bluetooth_and_ethernet">Bluetooth, Ethernet</string>
     <string name="tether_settings_summary_usb_and_bluetooth_and_ethernet">USB, Bluetooth, Ethernet</string>
     <string name="usb_title">USB</string>
+    <string name="lockpassword_confirm_passwords_dont_match">Серсүзләр туры килми</string>
+    <string name="lockpassword_confirm_pins_dont_match">PIN кодлары туры килми</string>
     <string name="join_two_unrelated_items"><xliff:g id="first_item">%1$s</xliff:g>, <xliff:g id="second_item">%2$s</xliff:g></string>
     <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
     <string name="memory">RAM</string>
@@ -130,6 +139,7 @@
     <string name="keywords_systemui_theme">караңгы тема, төнге тема</string>
     <string name="zen_mode_summary_combination"><xliff:g id="mode" example="Priority only">%1$s</xliff:g>: <xliff:g id="exit condition" example="Until you turn this off">%2$s</xliff:g></string>
     <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
+    <string name="lock_screen_notifications_title">Шәхсилек</string>
     <string name="notification_listener_not_allowed">Тыелган</string>
     <string name="zen_mode_rule_summary_provider_combination"><xliff:g id="package" example="Condition Provider App">%1$s</xliff:g>\n<xliff:g id="summary" example="On / Alarms only">%2$s</xliff:g></string>
     <string name="summary_divider_text">,\u0020</string>
