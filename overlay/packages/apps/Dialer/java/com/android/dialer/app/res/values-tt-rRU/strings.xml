@@ -40,7 +40,11 @@
   <string name="voicemailCallLogToday">@string/call_log_header_today</string>
   <string name="voicemailDurationFormat"><xliff:g example="10" id="minutes">%1$02d</xliff:g>:<xliff:g example="20" id="seconds">%2$02d</xliff:g></string>
   <string name="voicemailCallLogDateTimeFormatWithDuration"><xliff:g example="Jul 25, 2014 at 2:49PM" id="dateAndTime">%1$s</xliff:g> \u2022 <xliff:g example="01:22" id="duration">%2$s</xliff:g></string>
+  <string name="call_log_activity_title" tools:ignore="UnusedResources">Шалтырату тарихы</string>
   <string name="call_log_missed_title">Алынмаганнар</string>
+  <string name="search_shortcut_make_video_call">Видеошалтырату</string>
+  <string name="call_log_action_send_message">Хат җибәрү</string>
+  <string name="call_log_action_share_voicemail">Җибәрү…</string>
   <string name="description_read_voicemail"><xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g> тавышлы хаты, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
   <string name="voicemail_speaker_on">Динамикны кабызу.</string>
   <string name="voicemail_speaker_off">Динамикны cүндерү.</string>
@@ -49,4 +53,7 @@
   <string name="vibrate_on_ring_title">\"Шалтыратканда да дерелдәү</string>
   <string name="respond_via_sms_setting_title">Тиз җаваплар</string>
   <string name="manage_blocked_numbers_label">Блокланган номерлар</string>
+  <string name="call_log_action_block_number">Номерны блоклау</string>
+  <string name="call_log_action_remove_spam">Спам түгел</string>
+  <string name="call_log_action_unblock_number">Номерны блоктан алу</string>
 </resources>
