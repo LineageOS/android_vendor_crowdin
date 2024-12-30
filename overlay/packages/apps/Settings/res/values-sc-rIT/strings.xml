@@ -373,7 +373,7 @@
     <string name="dock_settings_title">Impostatziones de sa base</string>
     <string name="dock_audio_settings_title">Àudio</string>
     <string name="dock_audio_summary_desk">Impostatziones de sa base de s\'iscrivania</string>
-    <string name="dock_audio_summary_car">Impostatziones de sa base de sa màchina</string>
+    <string name="dock_audio_summary_car">Cunfiguratziones de sa base de sa vetura</string>
     <string name="dock_audio_summary_none" product="tablet">Tauledda non collegada</string>
     <string name="dock_audio_summary_none" product="default">Telèfonu non collegadu</string>
     <string name="dock_audio_summary_unknown">Impostatziones de sa base collegada</string>
