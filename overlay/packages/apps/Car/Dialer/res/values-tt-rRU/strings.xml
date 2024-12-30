@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_disabled">Шалтырату һәм аны кабул итү өчен, Bluetooth\'ны кабызыгыз.</string>
+    <string name="connect_bluetooth_button_text">Bluetooth\'ка тоташу</string>
+    <string name="audio_route_vehicle">Машина динамиклары</string>
+    <string name="audio_route_phone_speaker">Телефон динамигы</string>
+    <string name="call_history_title">Соңгылары</string>
+    <string name="favorites_title">Сайланмалар</string>
+    <string name="tab_config_default_value">@string/tab_config_call_history</string>
+    <string name="call_logs_empty">Соңгылар юк</string>
+    <string name="available_after_sync">Синхронлаштырганнан соң килеп чыгачаклар. Телефоныгызда контактларны уртаклашырга рөхсәт итүегездә инаныгыз.</string>
+    <string name="favorites_empty">Сайланмалар юк</string>
+    <string name="no_favorites_added">Сез сайланмалар өстәмәдегез әле</string>
+    <string name="add_favorite_button">Сайланма өстәү</string>
+    <string name="search_title">Контактлар эзләү</string>
+    <string name="search_hint">Контактлар эзләү</string>
+    <string name="select_number_dialog_title">Телефон номерын сайлау</string>
+    <string name="primary_number_description">        <xliff:g id="label" example="Mobile">%1$s</xliff:g>
+        \", гадәти\"
+    </string>
+    <string name="phone_favorites">Сайланмалар</string>
+    <string name="missed_call_notification_channel_name">Алынмаган шалтырату искәртүе</string>
+    <plurals name="notification_missed_call">
+        <item quantity="other">Алынмаган шалтырату(<xliff:g id="number" example="2">%1$d</xliff:g>)
+        </item>
+    </plurals>
+    <string name="onhold_call_separator">•</string>
+    <string name="pref_start_page_title">Башлау экраны</string>
+    <string name="sort_order_title">Контакт тәртибе</string>
+    <string name="pref_connected_phone_title">Тоташкан телефон </string>
+    <string name="pref_show_fullscreen_active_call_ui_title">Баручы шалтырату</string>
+    <string name="given_name_first_title">Исем</string>
+    <string name="family_name_first_title">Фамилия</string>
+    <string name="sort_order_default_value">@string/given_name_first_key</string>
+    <string name="ongoing_conf_title_format">%1$s (%2$d) -\u0020</string>
+    <string name="dialing_disabled_warning">Шалтырату сүндерелгән</string>
+    <string name="comma_delimiter">,\u0020</string>
+</resources>

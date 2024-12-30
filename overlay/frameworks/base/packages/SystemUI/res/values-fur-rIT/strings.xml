@@ -659,14 +659,14 @@
     </string-array>
     <string name="tuner_low_priority">Mostre lis iconis des notifichis a basse prioritât</string>
     <string name="other">Altri</string>
-    <string name="accessibility_qs_edit_remove_tile_action">gjavâ il tessel</string>
-    <string name="accessibility_qs_edit_tile_add_action">Zontâ la tessare ae fin</string>
-    <string name="accessibility_qs_edit_tile_start_move">Sposte il tessel</string>
-    <string name="accessibility_qs_edit_tile_start_add">Zonte tessel</string>
+    <string name="accessibility_qs_edit_remove_tile_action">gjavâ il tassel</string>
+    <string name="accessibility_qs_edit_tile_add_action">zontâ il tassel ae fin</string>
+    <string name="accessibility_qs_edit_tile_start_move">Sposte il tassel</string>
+    <string name="accessibility_qs_edit_tile_start_add">Zonte tassel</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Sposte ae posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_add_to_position">Zonte te posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_position">Posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
-    <string name="accessibility_qs_edit_tile_added">Tessel zontât</string>
+    <string name="accessibility_qs_edit_tile_added">Tassel zontât</string>
     <string name="accessibility_qs_edit_tile_removed">Tassel gjavât</string>
     <string name="accessibility_desc_quick_settings_edit">Editôr di impostazions rapidis.</string>
     <string name="accessibility_desc_notification_icon">Notifichis <xliff:g name="app_name" example="Gmail">%1$s</xliff:g>: <xliff:g name="notification_text" example="5 new messages">%2$s</xliff:g></string>
@@ -762,8 +762,8 @@
     <string name="magnification_controls_title">Controi barcon di ingrandiment</string>
     <string name="accessibility_control_zoom_in">Ingrandìs</string>
     <string name="accessibility_control_zoom_out">Impiçulìs</string>
-    <string name="accessibility_control_move_up">Môf in sù</string>
-    <string name="accessibility_control_move_down">Môf in jù</string>
+    <string name="accessibility_control_move_up">Môf insù</string>
+    <string name="accessibility_control_move_down">Môf injù</string>
     <string name="accessibility_control_move_left">Môf a çampe</string>
     <string name="accessibility_control_move_right">Môf a diestre</string>
     <string name="magnification_mode_switch_description">Comutazion ingrandiment</string>

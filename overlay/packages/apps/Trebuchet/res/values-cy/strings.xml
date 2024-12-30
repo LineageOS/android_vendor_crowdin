@@ -80,9 +80,9 @@
     <string name="permlab_install_shortcut">gosod llwybrau byr</string>
     <string name="permdesc_install_shortcut">Mae\'n caniatáu ap i ychwanegu llwybrau byr heb ymyrraeth defnyddiwr.</string>
     <string name="permlab_read_settings">darllen llwybrau byr a gosodiadau Cartref</string>
-    <string name="permdesc_read_settings">Mae\'n caniatáu yr ap i ddarllen gosodiadau a llwybrau byr yn Cartref.</string>
+    <string name="permdesc_read_settings">Mae\'n caniatáu\'r ap i ddarllen gosodiadau a llwybrau byr yn Cartref.</string>
     <string name="permlab_write_settings">ysgrifennu llwybrau byr a gosodiadau Cartref</string>
-    <string name="permdesc_write_settings">Mae\'n caniatáu yr ap i newid y gosodiadau a llwybrau byr yn Cartref.</string>
+    <string name="permdesc_write_settings">Mae\'n caniatáu\'r ap i newid y gosodiadau a llwybrau byr yn Cartref.</string>
     <string name="msg_no_phone_permission">Dyw <xliff:g id="app_name" example="Launcher3">%1$s</xliff:g> ddim yn cael gwneud galwadau.</string>
     <string name="gadget_error_text">Methu llwytho\'r teclyn</string>
     <string name="gadget_setup_text">Gosodiadau teclyn</string>

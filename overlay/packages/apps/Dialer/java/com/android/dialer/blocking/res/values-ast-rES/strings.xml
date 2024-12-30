@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="migrate_blocked_numbers_dialog_title">Bloquéu nuevu y simplificáu</string>
+  <string name="migrate_blocked_numbers_dialog_message">Pa protexete meyor, l\'aplicación Teléfonu tien de camudar cómo funciona\'l bloquéu. Vas dexar de recibir llamaes y mensaxes SMS de los númberos que teas bloquiando, y ye posible qu\'estos númberos se compartan con otres aplicaciones.</string>
+  <string name="migrate_blocked_numbers_dialog_allow_button">Permitir</string>
+  <string name="old_block_number_confirmation_title">    ¿Quies bloquiar el <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?
+  </string>
+  <string name="block_number_confirmation_message_vvm">    Van bloquiase les llamaes d\'esti númberu y van desaniciase automáticamente los mensaxes del buzón de voz.
+  </string>
+  <string name="block_number_confirmation_message_no_vvm">    Van bloquiase les llamaes d\'esti númberu, mas ye posible que\'l llamador siga pudiendo unviate mensaxes al buzón de voz.
+  </string>
+  <string name="block_number_confirmation_message_new_filtering">    Yá nun vas recibir más llamaes o mensaxes SMS d\'esti númberu.</string>
+  <string name="block_number_ok">BLOQUIAR</string>
+  <string name="unblock_number_confirmation_title">    ¿Quies desbloquiar el <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?
+  </string>
+  <string name="unblock_number_ok">DESBLOQUIAR</string>
+  <string name="invalidNumber">    El <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> ye inválidu.
+  </string>
+  <string name="snackbar_number_blocked">    Bloquióse\'l <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
+  </string>
+  <string name="snackbar_number_unblocked">    Desbloquióse\'l <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
+  </string>
+  <string name="send_to_voicemail_import_failed">La importación falló</string>
+  <string name="call_blocking_disabled_notification_title">    El bloquéu de llamaes desactivóse 48 hores
+  </string>
+  <string name="call_blocking_disabled_notification_text">        Desactivóse porque se fizo una llamada d\'emerxencia.
+  </string>
+</resources>

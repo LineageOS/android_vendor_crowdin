@@ -14,5 +14,65 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string translatable="true" name="sip_system_decide">N\'automático</string>
+    <string name="sip_settings">Configuración de SIP</string>
+    <string name="sip_accounts">Cuentes SIP</string>
+    <string name="sip_accounts_title">Cuentes</string>
+    <string name="sip_receive_calls">Recibir llamaes</string>
+    <string name="sip_receive_calls_summary">Consume más batería</string>
+    <string name="sip_call_options_title">Usar el sistema de llamaes SIP</string>
+    <string name="sip_call_options_wifi_only_title">Usar el sistema de llamaes SIP (namás per Wi-Fi)</string>
+    <string name="sip_call_options_entry_1">Pa toles llamaes cuando la rede de datos tea disponible</string>
+    <string name="sip_call_options_entry_2">Namás pa llamaes SIP</string>
+    <string name="sip_call_options_wifi_only_entry_1">Pa toles llamaes</string>
+    <string name="add_sip_account">Amestar una cuenta</string>
+    <string name="remove_sip_account">Quitar la cuenta</string>
+    <string name="sip_account_list">Cuentes SIP</string>
+    <string name="saving_account">Guardando la cuenta\u2026</string>
+    <string name="removing_account">Quitando la cuenta\u2026</string>
+    <string name="sip_menu_save">Guardar</string>
+    <string name="sip_menu_discard">Escartar</string>
+    <string name="alert_dialog_close">Zarru del perfil</string>
+    <string name="alert_dialog_ok">D\'acuerdu</string>
+    <string name="close_profile">Zarrar</string>
+    <string name="registration_status_checking_status">Comprobando l\'estáu…</string>
+    <string name="registration_status_registering">Rexistrando\u2026</string>
+    <string name="registration_status_still_trying">Siguimos tentándolo\u2026</string>
+    <string name="registration_status_not_receiving">Nun se reciben llamaes.</string>
+    <string name="registration_status_no_data">Paró\'l rexistru de la cuenta porque nun hai conexón a internet.</string>
+    <string name="registration_status_no_wifi_data">Paró\'l rexistru de la cuenta porque nun hai conexón Wi-Fi.</string>
+    <string name="registration_status_not_running">El rexistru de la cuenta nun se fizo correutamente.</string>
+    <string name="registration_status_done">Recíbense llamaes.</string>
+    <string name="registration_status_failed_try_later">El rexistru de la cuenta nun se fizo correutamente: (<xliff:g id="registration_error_message" example="timed out">%s</xliff:g>). Va volver tentase dempués</string>
+    <string name="registration_status_invalid_credentials">El rexistru de la cuenta nun se fizo correutamente: el nome d\'usuariu o la contraseña son incorreutos.</string>
+    <string name="registration_status_server_unreachable">El rexistru de la cuenta nun se fizo correutamente: comprueba\'l nome del sirvidor.</string>
+    <string name="third_party_account_summary">L\'aplicación «<xliff:g id="account_owner" example="Google Talk">%s</xliff:g>» ta usando esta cuenta.</string>
+    <string name="sip_edit_title">Detalles de la cuenta SIP</string>
+    <string name="sip_edit_new_title">Detalles de la cuenta SIP</string>
+    <string name="domain_address_title">Sirvidor</string>
+    <string name="username_title">Nome d\'usuariu</string>
+    <string name="password_title">Contraseña</string>
+    <string name="display_name_title">Nome visible</string>
+    <string name="proxy_address_title">Direición de proxy saliente</string>
+    <string name="port_title">Númberu de puertu</string>
+    <string name="transport_title">Tipu de tresporte</string>
+    <string name="send_keepalive_title">Unviar paquete de conexón permanente</string>
+    <string name="advanced_settings">Configuración opcional</string>
+    <string name="auth_username_title">Nome d\'usuariu pa l\'autenticación</string>
+    <string name="auth_username_summary">Nome d\'usuariu usáu pa l\'autenticación</string>
+    <string name="default_preference_summary_username">&lt;Nun se configuró&gt;</string>
+    <string name="default_preference_summary_password">&lt;Nun se configuró&gt;</string>
+    <string name="default_preference_summary_domain_address">&lt;Nun se configuró&gt;</string>
+    <string name="display_name_summary">&lt;Igual que\'l nome d\'usuariu&gt;</string>
+    <string name="optional_summary">&lt;Opcional&gt;</string>
+    <string name="advanced_settings_show">▷ Toca equí p\'amosar too</string>
+    <string name="advanced_settings_hide">▽ Toca equí pa esconder too</string>
+    <string name="all_empty_alert">Introduz los datos de la cuenta SIP nueva.</string>
+    <string name="empty_alert">El campu «<xliff:g id="input_field_name" example="Username, Password...">%s</xliff:g>» ye obligatoriu y nun se pue dexar baleru.</string>
+    <string name="not_a_valid_port">El númberu de puertu habría tar ente 1000 y 65534.</string>
+    <string name="no_internet_available">Pa facer llamaes SIP, comprueba la conexón a internet primero.</string>
+    <string name="no_wifi_available">Tienes de conectate a una rede Wi-Fi pa facer llamaes SIP (usa la configuración de «Conexones ensin filos y redes»).</string>
+    <string name="no_voip">Les llamaes SIP nun son compatibles</string>
+    <string translatable="true" name="sip_system_decide">Automáticu</string>
+    <string translatable="true" name="sip_always_send_keepalive">Unviar siempre</string>
+    <string name="sip_connection_service_label">Llamaes SIP integraes</string>
 </resources>
