@@ -292,7 +292,7 @@
     <string name="notification_hidden_text">Notìfica noa</string>
     <string name="notification_channel_physical_keyboard">Tecladu fìsicu</string>
     <string name="notification_channel_security">Seguresa</string>
-    <string name="notification_channel_car_mode">Modalidade de màchina</string>
+    <string name="notification_channel_car_mode">Modalidade de vetura</string>
     <string name="notification_channel_account">Istadu de su contu</string>
     <string name="notification_channel_developer">Messàgios dae s\'iscuadra de isvilupu</string>
     <string name="notification_channel_developer_important">Messàgios importantes dae s\'isvilupu</string>
@@ -597,11 +597,11 @@ Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is ap
     <string name="permdesc_acceptHandovers">Permitet a s\'aplicatzione de sighire una mutida cumintzada in un\'àtera aplicatzione.</string>
     <string name="permlab_readPhoneNumbers">lèghere nùmeros de telèfonu</string>
     <string name="permdesc_readPhoneNumbers">Permitit chi s\'aplicatzione atzedat a is nùmeros de telèfonu de su dispositivu.</string>
-    <string name="permlab_wakeLock" product="automotive">mantènnere s\'ischermu de sa màchina allutu </string>
+    <string name="permlab_wakeLock" product="automotive">mantènnere s\'ischermu de sa vetura allutu</string>
     <string name="permlab_wakeLock" product="tablet">impedire chi sa tauledda s\'assèliet</string>
     <string name="permlab_wakeLock" product="tv">impedit chi su dispositivu Android TV s\'asselit</string>
     <string name="permlab_wakeLock" product="default">impedire chi su telèfonu s\'assèliet</string>
-    <string name="permdesc_wakeLock" product="automotive">Permitit a s\'aplicatzione de mantènnere s\'ischermu de sa màchina allutu.</string>
+    <string name="permdesc_wakeLock" product="automotive">Permitit a s\'aplicatzione de mantènnere allutu s\'ischermu de sa vetura.</string>
     <string name="permdesc_wakeLock" product="tablet">Permitit a s\'aplicatzione de impedire chi sa tauledda s\'assèliet.</string>
     <string name="permdesc_wakeLock" product="tv">Permitit a s\'aplicatzione de impedire chi su dispositivu Android TV s\'assèliet.</string>
     <string name="permdesc_wakeLock" product="default">Permitit a s\'aplicatzione de impedire chi su telèfonu s\'assèliet.</string>
