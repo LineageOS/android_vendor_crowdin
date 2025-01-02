@@ -615,6 +615,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="inputMethod">Method fir anzeginn</string>
     <string name="editTextMenuTitle">Textaktiounen</string>
     <string name="input_method_nav_back_button_desc">Zréck</string>
+    <string name="input_method_switcher_settings_button">Astellungen</string>
     <string name="low_internal_storage_view_title">De Späicher huet geschwë keng Plaz méi</string>
     <string name="low_internal_storage_view_text">E puer Systemfunktioune funktionéiere vläicht net</string>
     <string name="low_internal_storage_view_text_no_boot">Net genuch Späicher fir de System. Stell sécher, datt s de 250MB fräi Späicherplaz hues a start nei.</string>
@@ -1066,4 +1067,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="resolver_work_tab">Aarbecht</string>
     <string name="profile_label_work">Aarbecht</string>
     <string name="biometric_dangling_notification_action_not_now">Net elo</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Kalenner</string>
 </resources>

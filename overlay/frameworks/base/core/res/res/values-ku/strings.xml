@@ -1004,4 +1004,6 @@
     <string name="resolver_work_tab">کار</string>
     <string name="profile_label_work">کار</string>
     <string name="biometric_dangling_notification_action_not_now">ئێستا نا</string>
+    <string name="keyboard_shortcut_group_applications_sms">کورتەنامە</string>
+    <string name="keyboard_shortcut_group_applications_calendar">ڕۆژمێر</string>
 </resources>

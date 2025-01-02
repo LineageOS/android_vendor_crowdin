@@ -197,6 +197,7 @@
     <string-array name="fingerprint_error_vendor"/>
     <string-array name="face_acquired_vendor"/>
     <string-array name="face_error_vendor"/>
+    <string name="input_method_switcher_settings_button">Sétingan</string>
     <string name="ringtone_unknown">Teu dipikanyaho</string>
     <string name="confirm_battery_saver">Okéh</string>
     <string name="zen_mode_implicit_deactivated">Pareum</string>
@@ -205,4 +206,7 @@
     <string name="notification_appops_microphone_active">Mikrofon</string>
     <string name="nas_upgrade_notification_enable_action">Okéh</string>
     <string name="resolver_personal_tab">Pribadi</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Kontak</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Kalénder</string>
 </resources>

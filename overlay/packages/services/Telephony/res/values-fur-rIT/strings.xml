@@ -929,7 +929,6 @@
     <string name="radio_info_smsc_label">SMSC:</string>
     <string name="radio_info_smsc_update_label">Inzorne</string>
     <string name="radio_info_smsc_refresh_label">Inzorne</string>
-    <string name="radio_info_toggle_dns_check_label">Comute control DNS</string>
     <string name="oem_radio_info_label">Info/impostazions specifichis OEM</string>
     <string name="radio_info_endc_available">EN-DC disponibil (NSA):</string>
     <string name="radio_info_dcnr_restricted">DCNR limitât (NSA):</string>

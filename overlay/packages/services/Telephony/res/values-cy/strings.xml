@@ -913,7 +913,6 @@
     <string name="radio_info_smsc_label">SMSC:</string>
     <string name="radio_info_smsc_update_label">Diweddaru</string>
     <string name="radio_info_smsc_refresh_label">Ail-lwytho</string>
-    <string name="radio_info_toggle_dns_check_label">Toglo Gwiriad DNS</string>
     <string name="oem_radio_info_label">Gwybodaeth/Gosodiadau penodol i OEM</string>
     <string name="radio_info_endc_available">EN-DC Ar gael (NSA):</string>
     <string name="radio_info_dcnr_restricted">DCNR Wedi\u2019i rwystro (NSA):</string>

@@ -29,7 +29,7 @@
     <string name="action_split">Partzi</string>
     <string name="toast_split_select_app">Toca un\'àtera aplicatzione pro impreare s\'ischermu partzidu</string>
     <string name="toast_contextual_split_select_app">Issèbera un\'àtera aplicatzione pro impreare s\'ischermu partzidu</string>
-    <string name="toast_split_select_app_cancel"><b>Annulla</b></string>
+    <string name="toast_split_select_app_cancel">Annulla</string>
     <string name="toast_split_select_cont_desc">Essi dae sa seletzione de s\'ischermu partzidu</string>
     <string name="toast_split_app_unsupported">Issèbera un\'àtera aplicatzione pro impreare s\'ischermu partzidu</string>
     <string name="blocked_by_policy">Custa atzione no est permìtida dae s\'aplicatzione o dae s\'organizatzione tua</string>

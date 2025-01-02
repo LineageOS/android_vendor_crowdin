@@ -87,4 +87,19 @@
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="a11y_delay_before_repeat_entries">
+        <item>Standard</item>
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+    </string-array>
+    <string-array name="a11y_repeat_rate_entries">
+        <item>Standard</item>
+        <item>Slow</item>
+        <item>Fast</item>
+    </string-array>
+    <string-array name="backlight_modes">
+        <item>Ni</item>
+        <item>Standard</item>
+        <item>Scheduled</item>
+    </string-array>
 </resources>

@@ -372,7 +372,6 @@
     <string name="force_resizable_activities">Spàrr air gun gabh gnìomhachdan ath-mheudachadh</string>
     <string name="force_resizable_activities_summary">Cuir comas air gach gnìomhachd gun gabh a meud atharrachadh a chùm iomadh uinneige, ge b’ e dè na luachan sa mhanifest.</string>
     <string name="enable_freeform_support">Cuir an comas uinneagan le cruth saor</string>
-    <string name="enable_freeform_support_summary">Cuir an comas taic do dh’uinneagan deuchainneil le cruth saor.</string>
     <string name="local_backup_password_title">Facal-faire nan lethbhreacan-glèidhidh desktop</string>
     <string name="local_backup_password_summary_none">Chan eil lethbhreacan-glèidhidh slàn a’ desktop ’gan dìon aig an àm seo</string>
     <string name="local_backup_password_summary_change">Thoir gnogag a dh’atharrachadh no a thoirt air falbh am facal-faire airson lethbhreacan-glèidhidh slàn a’ desktop</string>
@@ -532,7 +531,8 @@
     <string name="cached_apps_freezer_disabled">À comas</string>
     <string name="cached_apps_freezer_enabled">An comas</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Feumaidh tu an t-uidheam agad ath-thòiseachadh gus an t-atharrachadh seo a chur an sàs. Ath-thòisich an-dràsta no sguir dheth.</string>
-    <string name="media_transfer_wired_usb_device_name">Cluais-fhòn uèirichte</string>
+    <string name="media_transfer_wired_headphone_name">Cluais-fhòn uèirichte</string>
+    <string name="media_transfer_headphone_name">Cluais-fhòn</string>
     <string name="wifi_hotspot_switch_off_text">Dheth</string>
     <string name="keyboard_layout_default_label">Bun-roghainn</string>
 </resources>

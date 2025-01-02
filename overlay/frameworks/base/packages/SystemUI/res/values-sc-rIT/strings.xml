@@ -47,7 +47,6 @@
     <string name="screenshot_preview_description">Previsualizatzione de sa catura de ischermu</string>
     <string name="screenrecord_title">Registratzione de s\'ischermu</string>
     <string name="screenrecord_background_processing_label">Esecutende sa registratzione de s\'ischermu</string>
-    <string name="screenrecord_permission_dialog_title">Boles cumintzare sa registratzione?</string>
     <string name="screenrecord_audio_label">Registra àudio</string>
     <string name="screenrecord_device_audio_label">Àudio de su dispositivu</string>
     <string name="screenrecord_device_audio_description">Sonu dae su dispositivu, comente mùsica, mutidas e tonos</string>
@@ -143,6 +142,9 @@
     <string name="quick_settings_cellular_detail_data_used"><xliff:g id="data_used" example="2.0 GB">%s</xliff:g> impreados</string>
     <string name="quick_settings_cellular_detail_data_limit"><xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> lìmite</string>
     <string name="quick_settings_cellular_detail_data_warning"><xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> avisu</string>
+    <string name="zen_modes_dialog_done">Fatu</string>
+    <string name="zen_modes_dialog_settings">Impostatziones</string>
+    <string name="zen_mode_set_up">Cunfigura</string>
     <string name="zen_priority_customize_button">Personaliza</string>
     <string name="zen_silence_introduction">Custu blocat TOTU is sonos, vibratziones, incluidu dae isvèllias, mùsica, vìdeos, e giogos.</string>
     <string name="do_disclosure_generic">Custu dispositivu est de propiedade de s\'organizatzione tua</string>
@@ -160,6 +162,7 @@
     <string name="cta_tile_button_to_open_widget_editor">Personaliza</string>
     <string name="button_to_remove_widget">Boga</string>
     <string name="hub_mode_editing_exit_button_text">Fatu</string>
+    <string name="communal_widgets_disclaimer_button">AB</string>
     <string name="accessibility_multi_user_switch_switcher">Càmbia utente</string>
     <string name="guest_exit_guest_dialog_message">Totu is aplicatziones e datos in custa sessione ant a èssere cantzellados.</string>
     <string name="guest_wipe_session_message">Boles sighire sa sessione tua?</string>

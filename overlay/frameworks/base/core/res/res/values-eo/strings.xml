@@ -82,6 +82,7 @@
     <string name="paste">Alglui</string>
     <string name="delete">Forigi</string>
     <string name="deleteText">Forigi</string>
+    <string name="input_method_switcher_settings_button">Agordoj</string>
     <string name="cancel">Nuligi</string>
     <string name="no">Nuligi</string>
     <string name="loading">Ŝarĝado\u2026</string>
@@ -136,4 +137,6 @@
     <string name="notification_app_name_system">Sistemo</string>
     <string name="notification_app_name_settings">Agordoj</string>
     <string name="notification_appops_microphone_active">Mikrofono</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Kontaktoj</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Kalendaro</string>
 </resources>

@@ -24,6 +24,7 @@
     <string name="clock_settings_title">Colôr e dimension dal orloi</string>
     <string name="clock_color_and_size_title">Colôr e dimension dal orloi</string>
     <string name="clock_color_and_size_description"><xliff:g name="color">%1$s</xliff:g>, <xliff:g name="size">%2$s</xliff:g></string>
+    <string name="clock_style">Stîl</string>
     <string name="clock_color">Colôr</string>
     <string name="clock_color_red">Ros</string>
     <string name="clock_color_orange">Naranç</string>

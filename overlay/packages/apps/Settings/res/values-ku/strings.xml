@@ -96,6 +96,8 @@
     <string name="security_settings_face_enroll_done">ئه‌نجام درا</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">لابردن</string>
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks">ئێستا نا</string>
+    <string name="identity_check_biometric_error_cancel">لابردن</string>
+    <string name="identity_check_biometric_error_ok">OK</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">ئێستا نا</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">بەردەوامبون</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">لابردن</string>
@@ -148,7 +150,11 @@
     <string name="bluetooth_device_context_connect">گرێدان</string>
     <string name="bluetooth_device_context_disconnect">پچڕاندنی پەیوەندی</string>
     <string name="bluetooth_device_context_pair_connect">جووت بوون وamp; بەستنەوە</string>
+    <string name="bluetooth_key_missing_cancel">لابردن</string>
     <string name="nfc_reboot_dialog_confirm">ده‌ستپێكردنه‌وه‌</string>
+    <string name="external_display_on">چالاککردن</string>
+    <string name="external_display_off">کوژاندنەوە</string>
+    <string name="external_display_more_options_title">بەربژاردەی زیاتر</string>
     <string name="wifi_display_enable_menu_item">کارپێکردنی نیشاندانی وایه‌رلێس</string>
     <string name="wifi_display_no_devices_found">هیچ ئامێرێکی نزیک نه‌دۆزرایه‌وه‌.</string>
     <string name="wifi_display_status_connecting">په‌یوه‌ندی ده‌کات</string>
@@ -493,6 +499,9 @@
     <string name="physical_keyboard_title">تەختەکلیلی فیزیکی</string>
     <string name="keyboard_default_layout">بنێڕه‌ت</string>
     <string name="trackpad_pointer_speed">خێرایی خاڵەر</string>
+    <string name="pointer_stroke_style_name_white">سپی</string>
+    <string name="pointer_stroke_style_name_black">ڕەش</string>
+    <string name="pointer_stroke_style_name_none">هیچ</string>
     <string name="gesture_button_skip">تێپەڕاندن</string>
     <string name="gesture_button_next">دواتر</string>
     <string name="gesture_button_restart">ده‌ستپێكردنه‌وه‌</string>
@@ -849,7 +858,11 @@
     <string name="notification_ringtone_title">دەنگی ئاگادارکردنەوەی بنەڕەت</string>
     <string name="notification_sound_default">دەنگی ئاگادارکردنەوەی بنەڕەت</string>
     <string name="spatial_summary_off">کوژاندنەوە</string>
+    <string name="spatial_audio_multi_toggle_off">کوژاندنەوە</string>
+    <string name="zen_mode_disabled_needs_setup">دانەنراوە</string>
     <string name="zen_mode_schedule_delete">سڕینه‌وه‌</string>
+    <string name="zen_mode_menu_rename_mode">ناوگۆڕین</string>
+    <string name="zen_mode_menu_delete_mode">سڕینه‌وه‌</string>
     <string name="zen_mode_rule_name_edit">دەستکاری</string>
     <string name="mode_display_settings_title">ڕێکخستنەکانی پێشانگا</string>
     <string name="zen_mode_no_exceptions">هیچ</string>
@@ -886,9 +899,11 @@
     <string name="zen_mode_alarms_list_first">وریاکەرەوەکان</string>
     <string name="zen_mode_media_list_first">ڕاگه‌یێنه‌کان</string>
     <string name="zen_mode_apps_none_apps">هیچ</string>
-    <string name="zen_mode_apps_all_apps">هەموو</string>
+    <string name="zen_mode_apps_calculating">لێکدانەوە\u2026</string>
     <string name="zen_mode_bypassing_apps_title">بەرنامەکان</string>
-    <string name="zen_mode_action_change_name">ناوگۆڕین</string>
+    <string name="zen_mode_trigger_title_generic">ڕێکخستنی بەرنامەکان</string>
+    <string name="zen_mode_action_disable">لەکارخستن</string>
+    <string name="zen_mode_action_enable">چالاککردن</string>
     <string name="nfc_setting_on">چالاککردن</string>
     <string name="nfc_setting_off">کوژاندنەوە</string>
     <string name="screen_pinning_switch_on_text">چالاککردن</string>
@@ -960,15 +975,6 @@
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
     <string name="next_page_content_description">دواتر</string>
     <string name="bluetooth_connect_access_dialog_positive">گرێدان</string>
-    <string name="tare_on">چالاککردن</string>
-    <string name="tare_off">کوژاندنەوە</string>
-    <string-array name="tare_modifiers_subfactors">
-        <item>بارگاویکردنەوە</item>
-        <item>Doze</item>
-        <item>Power Save Mode</item>
-        <item>Process State</item>
-    </string-array>
-    <string name="tare_dialog_confirm_button_title">دلنیاکردنەوە</string>
     <string name="dream_preview_button_title">دەرخستن</string>
     <string name="bluetooth_details_audio_device_type_unknown">دانەنراوە</string>
     <string name="flash_notifications_summary_off">کوژاندنەوە</string>
@@ -979,7 +985,7 @@
     <string name="screen_flash_color_yellow">زەرد</string>
     <string name="screen_flash_color_red">سور</string>
     <string name="screen_flash_color_magenta">سووری ئەرخەوانی</string>
-    <string name="color_selector_dialog_done">ئه‌نجام درا</string>
+    <string name="color_selector_dialog_save">پاشەکەوتکردن</string>
     <string name="color_selector_dialog_cancel">لابردن</string>
     <string name="contrast_default">بنێڕه‌ت</string>
     <string name="contrast_medium">ناوه‌ندی</string>

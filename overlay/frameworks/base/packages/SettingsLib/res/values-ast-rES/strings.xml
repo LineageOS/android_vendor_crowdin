@@ -389,7 +389,6 @@
     <string name="force_resizable_activities">Forciar l\'axuste\'l tamañu les actividaes</string>
     <string name="force_resizable_activities_summary">Permite axustar el tamañu de toles actividaes pal mou multiventana, independientemente de los valores del «manifest».</string>
     <string name="enable_freeform_support">Activar les ventanes de formatu llibre</string>
-    <string name="enable_freeform_support_summary">Activa la compatibilidá coles ventanes de formatu llibre esperimentales.</string>
     <string name="local_backup_password_title">Contraseña pa copies d\'ordenador</string>
     <string name="local_backup_password_summary_none">Les copies de seguranza completes nun tán protexíes</string>
     <string name="local_backup_password_summary_change">Toca pa camudar o quitar la contraseña pa les copies de seguranza completes del ordenador</string>
@@ -459,7 +458,7 @@
     <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> pa completar la carga</string>
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> pa completar la carga</string>
-    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Carga optimizada</string>
+    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Posóse la carga pa protexer la batería</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> - En carga</string>
     <string name="battery_info_status_unknown">Desconozse</string>
     <string name="battery_info_status_charging">En carga</string>
@@ -652,7 +651,8 @@
     <string name="cached_apps_freezer_disabled">Desactivóse</string>
     <string name="cached_apps_freezer_enabled">Activóse</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Tienes de reaniciar el preséu p\'aplicar esti cambéu. Failo agora o encaboxa.</string>
-    <string name="media_transfer_wired_usb_device_name">Auriculares con cable</string>
+    <string name="media_transfer_wired_headphone_name">Auriculares con cable</string>
+    <string name="media_transfer_headphone_name">Auriculares</string>
     <string name="wifi_hotspot_switch_on_text">Sí</string>
     <string name="wifi_hotspot_switch_off_text">Non</string>
     <string name="carrier_network_change_mode">Cambéu de la rede de la operadora</string>

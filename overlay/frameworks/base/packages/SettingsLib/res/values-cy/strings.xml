@@ -393,7 +393,6 @@
     <string name="force_resizable_activities">Gorfodi gweithgareddau i fod yn ailfeintiol</string>
     <string name="force_resizable_activities_summary">Gwneud pob gweithgaredd yn ailfeintiol ar gyfer aml-ffenestr, beth bynnag eu gwerth maniffest.</string>
     <string name="enable_freeform_support">Galluogi ffenestri ffurfrydd</string>
-    <string name="enable_freeform_support_summary">Galluogi cefnogaeth ar gyfer ffenestri ffurfrydd arbrofol.</string>
     <string name="local_backup_password_title">Cyfrinair cadw wrth gefn i gyfrifiadur</string>
     <string name="local_backup_password_summary_none">Dyw copïau llawn wrth gefn i gyfrifiadur ddim yn cael eu diogelu ar hyn o bryd.</string>
     <string name="local_backup_password_summary_change">Tapia i newid neu dynnu\'r cyfrinair ar gyfer cadw popeth wrth gefn ar gyfrifiadur.</string>
@@ -462,7 +461,7 @@
     <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> nes yn llawn</string>
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> nes yn llawn</string>
-    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Gwefru wedi\u2019i optimeiddio</string>
+    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Gwefru wedi\u2019i seibio i warchod y batri</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> - Yn gwefru</string>
     <string name="battery_info_status_unknown">Anhysybys</string>
     <string name="battery_info_status_charging">Yn gwefru</string>
@@ -654,7 +653,8 @@ nawr, neu gellir ei gadw a dileu gweithgaredd wrth adael</string>
     <string name="cached_apps_freezer_disabled">Wedi\'i analluogi</string>
     <string name="cached_apps_freezer_enabled">Galluogwyd</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Rhaid ailgychwyn dy ddyfais er mwyn i\'r newid hwn fod yn berthnasol. Ailgychwyna nawr neu diddymu.</string>
-    <string name="media_transfer_wired_usb_device_name">Clustffonau gwifr</string>
+    <string name="media_transfer_wired_headphone_name">Clustffonau gwifr</string>
+    <string name="media_transfer_headphone_name">Clustffonau</string>
     <string name="wifi_hotspot_switch_on_text">Ymlaen</string>
     <string name="wifi_hotspot_switch_off_text">I ffwrdd</string>
     <string name="carrier_network_change_mode">Newid rhwydwaith darparwr</string>

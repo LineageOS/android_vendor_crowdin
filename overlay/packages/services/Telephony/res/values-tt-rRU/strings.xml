@@ -110,6 +110,5 @@
     <string name="radio_info_message_waiting_label">Хәбәр көтү:</string>
     <string name="radio_info_data_network_type_label">Мәгълүмат челтәре төре:</string>
     <string name="radio_info_smsc_label">SMSC:</string>
-    <string name="radio_info_toggle_dns_check_label">DNS тикшерүне сүндерү/кабызу</string>
     <string name="oem_radio_info_label">OEM\'га бәйле мәгълүмат/көйләүләр</string>
 </resources>

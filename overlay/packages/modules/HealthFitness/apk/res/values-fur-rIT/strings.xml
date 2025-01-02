@@ -18,7 +18,6 @@
     <string name="app_label" description="Label shown on the system app launcher. Note: Health Connect is the brand. [CHAR_LIMIT=40]">Conession salût</string>
     <string name="health_connect_summary" description="Health connect summary, which describes what user can do when they click Health Connect">Gjestìs l\'acès de aplicazion ai dâts su la salût</string>
     <string name="permissions_and_data_header" description="Header for section listing actions for showing connected apps permissions and data screens [CHAR LIMIT=NONE] ">Permès e dâts</string>
-    <string name="home_subtitle" description="Description on the home screen of the app. [CHAR_LIMIT=NONE]">Gjestìs i dâts de salût e de forme fisiche sul to telefon e controle cualis aplicazions che ju doprin</string>
     <string name="data_title" description="Label for a button that takes the user to the data management screens. [CHAR_LIMIT=40]">Dâts e acès</string>
     <string name="all_categories_title" description="Title of a screen that lists all health data categories. [CHAR_LIMIT=40]">Dutis lis categoriis</string>
     <string name="see_all_categories" description="Label for a button that takes the user to the all categories screens. [CHAR_LIMIT=40]">Viôt dutis lis categoriis</string>
@@ -30,6 +29,7 @@
     <string name="connected_apps_one_app_connected_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens with one app connected. [CHAR_LIMIT=NONE]"><xliff:g id="num_apps_connected" example="1">%1$s</xliff:g> aplicazion e à acès</string>
     <string name="connected_apps_button_no_permissions_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens, when no apps are connected. [CHAR_LIMIT=NONE]">Nissun</string>
     <string name="entry_details_title" description="Label for a screen that list an entry details. [CHAR_LIMIT=40]">Detais de vôs</string>
+    <string name="browse_data_title" description="Label for button that allows the user to browse data [CHAR_LIMIT=NONE]">Esplore dâts</string>
     <string name="backup_title" description="Label for a button that takes the user to backup settings. [CHAR_LIMIT=40]">Backup</string>
     <string name="data_sources_and_priority_title" description="Label for a button that takes the user to app priority settings. [CHAR_LIMIT=40]">Sorzint dâts e prioritât</string>
     <string name="set_units_title" description="Label for a button that takes the user to unit settings. [CHAR_LIMIT=40]">Stabilìs unitâts</string>
@@ -66,7 +66,6 @@
     <string name="can_read" description="Section title that refers to apps with read permission for given permission type. [CHAR_LIMIT=50]">Al pues lei <xliff:g id="permission_type" example="heart rate">%s</xliff:g></string>
     <string name="can_write" description="Section title that refers to apps with write permission for given permission type. [CHAR_LIMIT=50]">Al pues scrivi <xliff:g id="permission_type" example="heart rate">%s</xliff:g></string>
     <string name="inactive_apps" description="Section title that refers to apps that are inactive in Health Connect. [CHAR_LIMIT=50]">Aplicazions inativis</string>
-    <string name="inactive_apps_message" description="Description of the inactive apps section. [CHAR_LIMIT=NONE]">Chestis aplicazions no puedin plui scrivi <xliff:g id="data_type" example="heart rate">%s</xliff:g>, ma a puedin ancjemò vê dâts archiviâts in Conession salût</string>
     <string name="data_access_empty_message" description="Message shown if there is no app to display on this page [CHAR_LIMIT=NONE]">Lis aplicazions no puedin plui lei o scrivi <xliff:g id="data_type" example="heart rate">%1$s</xliff:g> e no son plui presints dâts di <xliff:g id="data_type_2" example="heart rate">%2$s</xliff:g> archiviâts in Conession salût</string>
     <string name="data_access_exercise_description" description="Description of data access for the exercise data type [CHAR_LIMIT=NONE]">Chescj dâts a includin informazions come timp in ativitât, gjenar di esercizis, zîrs, ripetizions, sessions o braçadis nadant</string>
     <string name="data_access_sleep_description" description="Description of data access for the sleep data type [CHAR_LIMIT=NONE]">Chescj dâts a includin informazions come lis fasis di polse e lis sessions di polse</string>
@@ -254,6 +253,7 @@
     <string name="permissions_disconnect_dialog_title" description="Title for dialog asking the user to confirm they want to remove all permissions for an app [CHAR_LIMIT=40]">Gjavâ ducj i permès?</string>
     <string name="permissions_disconnect_dialog_disconnect" description="Label for dialog button to confirm removal of all permissions for an app [CHAR_LIMIT=20]">Gjave dut</string>
     <string name="permissions_disconnect_dialog_checkbox" description="Text of a checkbox to decide whether to delete or not all data written by the app that is being disconnected by the user. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]">Elimine di Conession salût ancje i dâts di <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g></string>
+    <string name="disconnect_all_health_permissions_title" description="Title for dialog asking user to confirm they want to remove all health permissions for an app [CHAR_LIMIT=60]">Gjavâ ducj i permès?</string>
     <string name="navigation_next_day" description="Content description for button that changes the current data view to the next day [CHAR_LIMIT=NONE]">Dì sucessîf</string>
     <string name="navigation_selected_day" description="Content description for button that contains selected day. [CHAR_LIMIT=NONE]">Dì selezionât</string>
     <string name="navigation_previous_day" description="Content description for button that changes the current data view to the previous day [CHAR_LIMIT=NONE]">Dì precedent</string>
@@ -296,22 +296,31 @@
     <string name="denied_apps_dialog_message" description="Label of a button that opens a page with more details about denied apps. [CHAR_LIMIT=NONE]">Se une aplicazion e je sospindude o gjavade di Google Play, Conession salût al gjave in automatic i siei permès.\n\nChest al vûl dî che la aplicazion no rivarà plui a acedi ai dâts archiviâts in Conession salût. Se prime cheste aplicazion e à scrit dâts, e ven fûr te liste des aplicazions inativis.</string>
     <string name="denied_apps_dialog_got_it_button" description="Label of a button that closes the dialog. [CHAR_LIMIT=40]">Capît</string>
     <string name="export_file_access_error_banner_button" description="Button of banner prompting the user to set up the scheduled export again due to the lost file access. [CHAR LIMIT=50]">Configure</string>
-    <string name="backup_and_restore_footer_link_text" description="Link text displayed in the footer to allow the user to navigate to further information about the export feature. [CHAR_LIMIT=40]">Plui informazions</string>
+    <string name="import_version_mismatch_error_banner_button" description="Button of banner prompting the user to update the mainline module due to the version mismatch error. [CHAR LIMIT=50]">Inzorne daurman</string>
+    <string name="import_other_error_banner_button" description="Button of banner prompting the user to try the import again due to certain error. [CHAR LIMIT=50]">Torne prove</string>
     <string name="automatic_export_off" description="Text indicates the state of the automatic export is off. [CHAR_LIMIT=40]">Off</string>
-    <string name="choose_frequency_category" description="Category name to indicate that customers can update the scheduled export frequency below. [CHAR_LIMIT=40]">Sielç la frecuence</string>
-    <string name="choose_frequency" description="Title of the 'choose frequency' screen where users can select the data saving frequency. [CHAR_LIMIT=40]">Sielç la frecuence</string>
-    <string name="choose_frequency_description" description="Description of the data export frequency. [CHAR_LIMIT=NONE]">Tu puedis sielzi di salvâ i dâts une volte sole, o configurâ in mût che a vegnin salvâts in automatic a dadis di timp regolârs.</string>
     <string name="frequency_daily" description="Label used to show that the automatic export frequency is set as daily. [CHAR_LIMIT=40]">Ogni dì</string>
     <string name="frequency_weekly" description="Label used to show that the automatic export frequency is set as weekly. [CHAR_LIMIT=40]">Ogni setemane</string>
     <string name="frequency_monthly" description="Label used to show that the automatic export frequency is set as monthly. [CHAR_LIMIT=40]">Ogni mês</string>
+    <string name="import_confirmation_dialog_cancel_button" description="Text on a button that cancels the file import process if the user chooses not to import the selected file. [CHAR_LIMIT=40]">Anule</string>
+    <string name="import_notification_import_in_progress_title" description="Title text of notification displayed when import is in progress. [CHAR_LIMIT=NONE]">Ripristinament di Conession salût in cors</string>
+    <string name="import_in_progress_toast_text" description="Toast text displayed when import is in progress. [CHAR_LIMIT=40]">Ripristinament in cors</string>
+    <string name="import_notification_error_more_space_needed_title" description="Title text of notification displayed when import fails due to needing additional space. [CHAR_LIMIT=NONE]">Al covente plui spazi</string>
+    <string name="import_notification_update_now_intent_button" description="Button text on notification that triggers an update of Health Connect. [CHAR_LIMIT=40]">Inzorne daurman</string>
+    <string name="import_notification_try_again_intent_button" description="Button text on notification that restarts the import process. [CHAR_LIMIT=40]">Torne prove</string>
+    <string name="import_notification_open_intent_button" description="Button text on notification that returns the user to the Export-Import section of Health Connect to see their completed import. [CHAR_LIMIT=40]">Vierç</string>
+    <string name="import_notification_free_up_space_intent_button" description="Button text on notification that lets the user open their cloud storage provider to delete/move files to create space. [CHAR_LIMIT=40]">Libere spazi</string>
+    <string name="export_notification_error_more_space_needed_title" description="Title text of notification displayed when export fails due to needing additional space. [CHAR_LIMIT=NONE]">Al covente plui spazi</string>
+    <string name="export_notification_set_up_intent_button" description="Button text on notification that restarts the export setup flow. [CHAR_LIMIT=40]">Configure</string>
+    <string name="export_notification_free_up_space_intent_button" description="Button text on notification that lets the user open their cloud provider to delete/move files to create space. [CHAR_LIMIT=40]">Libere spazi</string>
     <string name="export_back_button" descrption="Text on a button that navigates back to the previous screen of the data saving setup flow. [CHAR_LIMIT=40]">Indaûr</string>
     <string name="export_next_button" descrption="Text on a button that navigates to the next screen of the data saving setup flow. [CHAR_LIMIT=40]">Indevant</string>
+    <string name="export_cancel_button" descrption="Text on a button that cancels the data export setup flow. [CHAR_LIMIT=40]">Anule</string>
     <string name="import_cancel_button" description="Text on a button that navigates back to the backup and restore home page. [CHAR_LIMIT=40]">Anule</string>
     <string name="import_next_button" descrption="Text on a button that navigates to the next screen of the data restoration flow. [CHAR_LIMIT=40]">Indevant</string>
     <string name="export_import_choose_account_cancel_button" description="Text on a button that cancels the user picking an account to export data to or import data from. [CHAR_LIMIT=40]">Anule</string>
     <string name="export_import_choose_account_done_button" description="Text on a button that confirms the account for the user to export data to or import data from. [CHAR_LIMIT=40]">Fat</string>
     <string name="onboarding_title" description="Label used to show the title of onboarding page when user opens Health Connect app for the fist time">Scomence a doprâ Conession salût</string>
-    <string name="onboarding_description" description="Content description of Health Connect app on the onboarding page">Conession salût al archivie i tiei dâts su salût e forme fisiche e e semplifiche la sincronizazion di diviersis aplicazions sul telefon</string>
     <string name="share_data" description="Label used to show how the user can share data with apps">Condivît i dâts cu lis tôs aplicazions</string>
     <string name="share_data_description" description="Content description for how the user can share data with apps">Sielç cuai dâts che ogni aplicazion e pues lei o scrivi su Conession salût</string>
     <string name="manage_your_settings" description="Label used to show how the user can manage settings and privacy">Gjestìs lis impostazions e la riservatece</string>
@@ -319,7 +328,6 @@
     <string name="onboarding_go_back_button_text" description="Content description for button to exit from onboarding page">Tone indaûr</string>
     <string name="onboarding_get_started_button_text" description="Content description for button to get started with Health Connect app">Scomence</string>
     <string name="delete_button_content_description" description="Content description of a button that starts the deletion flow. [CHAR_LIMIT=50]">Elimine dâts</string>
-    <string name="time_range_title" description="Window title where user can choose the time range for data deletion. [CHAR_LIMIT=50]">Sielç i dâts di eliminâ</string>
     <string name="time_range_next_button" description="Label of a button that navigates to the next window of the deletion flow. [CHAR_LIMIT=50]">Indevant</string>
     <string name="time_range_message_all" description="Description explaining that this data deletion user activity is permanent. [CHAR_LIMIT=NONE]">Chest al eliminarà par simpri ducj i dâts zontâts in Conession salût tal periodi sielt</string>
     <string name="time_range_message_data_type" description="Description explaining that this data deletion user activity is permanent. [CHAR_LIMIT=NONE]">Chest al eliminarà par simpri i dâts di <xliff:g id="data_type" example="heart rate">%s</xliff:g> zontâts in Conession salût tal periodi sielt</string>
@@ -347,15 +355,12 @@
     <string name="confirming_question_app_data_one_month" description="Description of what permanent deletion of data written by given app from the lat 30 days means. [CHAR_LIMIT=NONE]">Eliminâ par simpri i dâts di <xliff:g id="app_data" example="Strava">%s</xliff:g> dai ultins 30 dîs?</string>
     <string name="confirming_question_app_remove_all_permissions" description="Message of a check box that gives the user an option to remove all permissions from an app they're deleting data from. [CHAR_LIMIT=NONE]">Gjave di Conession salût ancje ducj i permès di <xliff:g id="app_with_permissions" example="Strava">%s</xliff:g></string>
     <string name="confirming_question_data_type_from_app_all" description="Description of what permanent deletion of given data type written by given app means. [CHAR_LIMIT=NONE]">Eliminâ par simpri ducj i dâts di <xliff:g id="data_type" example="heart rate">%1$s</xliff:g> zontâts di <xliff:g id="app_data" example="Strava">%2$s</xliff:g>?</string>
-    <string name="confirming_question_single_entry" description="Description of what permanent deletion of a single data point means. [CHAR_LIMIT=NONE]">Eliminâ par simpri cheste vôs?</string>
     <string name="confirming_question_message" description="Description of what permanent deletion of some data means. [CHAR_LIMIT=NONE]">Lis aplicazions colegadis no rivaran plui a acedi a chescj dâts di Conession salût</string>
-    <string name="confirming_question_message_menstruation" description="Description of what menstruation entries this action will delete [CHAR_LIMIT=NONE]">Chest al eliminarà dutis lis vôs di mestruazion dai <xliff:g example="22 January 2022" id="start_date">%1$s</xliff:g> ai <xliff:g example="22 January 2022" id="end_date">%2$s</xliff:g>.</string>
     <string name="confirming_question_delete_button" description="Label of a button that deletes data. [CHAR_LIMIT=50]">Elimine</string>
     <string name="confirming_question_go_back_button" description="Label of a button that goes back to the previous dialog. [CHAR_LIMIT=50]">Tone indaûr</string>
     <string name="delete_dialog_success_got_it_button" description="Label of a button that dismisses the pop-up window. [CHAR_LIMIT=50]">Fat</string>
     <string name="delete_dialog_failure_close_button" description="Label of a button that closes the window. [CHAR_LIMIT=50]">Siere</string>
-    <string name="delete_dialog_success_title" description="Title of the confirmation window of successful data deletion. [CHAR_LIMIT=50]">Dâts eliminâts</string>
-    <string name="delete_dialog_success_message" description="A message that confirms successful data deletion. [CHAR_LIMIT=NONE]">Chescj dâts no son plui archiviâts in Conession salût.</string>
+    <string name="delete_dialog_done_button" description="Positive button of the confirmation window of successful data deletion. [CHAR_LIMIT=50]">Fat</string>
     <string name="delete_progress_indicator" description="Label of a message on a loading page with a progress bar during data deletion. [CHAR_LIMIT=100]">Daûr a eliminâ i tiei dâts</string>
     <string name="delete_dialog_failure_title" description="Title of the window that nforms the user about failed data deletion. [CHAR_LIMIT=50]">Impussibil eliminâ i dâts</string>
     <string name="delete_dialog_failure_message" description="A message that informs the user about failed data deletion. [CHAR_LIMIT=NONE]">Alc al è lât strucj e Conession salût nol rive a eliminâ i tiei dâts</string>
@@ -528,6 +533,8 @@
     <string name="sleep_stage_light" description="Light sleep stage throughout the sleep session. [CHAR LIMIT=50]">sium lizêr</string>
     <string name="sleep_stage_deep" description="Deep sleep stage throughout the sleep session. [CHAR LIMIT=50]">sium profont</string>
     <string name="sleep_stage_unknown" description="Unknown sleep stage throughout the sleep session. [CHAR LIMIT=50]">no cognossût</string>
+    <string name="mindfulness_type_meditation" description="Mindfulness session type: Meditation. [CHAR LIMIT=20]">Meditazion</string>
+    <string name="mindfulness_type_other" description="Mindfulness session type: Other. [CHAR LIMIT=20]">Altri</string>
     <string name="minute_duration" translation_description="minute duration representation [CHAR LIMIT=8]"><xliff:g id="minute" example="1">%1$s</xliff:g>m</string>
     <string name="hour_minute_duration_short" translation_description="Hour and minute time duration representation [CHAR LIMIT=8]"><xliff:g id="hour" example="1">%1$s</xliff:g>h <xliff:g id="min" example="31">%2$s</xliff:g>m</string>
     <string name="hour_duration" translation_description="hour duration representation [CHAR LIMIT=8]"><xliff:g id="hour" example="1">%1$s</xliff:g>h</string>
@@ -712,10 +719,6 @@
     one {}=1{Auto-eliminâ i dâts dopo # mês?}
     other{Auto-eliminâ i dâts dopo # mês?}
   }</string>
-    <string name="confirming_message_x_months" description="Description to explain what auto-deleting data older than x months means. [CHAR_LIMIT=NONE]">{count, plural,
-    one {}=1{Conession salût al eliminarà in automatic i gnûfs dâts dopo # mês. La configurazion di cheste opzion e puartarà ancje ae eliminazion dai dâts esistents plui vecjos di # mês.}
-    other{Conession salût al eliminarà in automatic i gnûfs dâts dopo # mês. La configurazion di cheste opzion e puartarà ancje ae eliminazion dai dâts esistents plui vecjos di # mês.}
-  }</string>
     <string name="set_auto_delete_button" description="Label of a button that sets the chosen auto-delete setting. [CHAR_LIMIT=50]">Stabilìs auto-eliminazion</string>
     <string name="deletion_started_title" description="Title of a dialog that lets the user know about some existing data being deleted. [CHAR_LIMIT=50]">I dâts esistents a vignaran eliminâts</string>
     <string name="deletion_started_x_months" description="Description explaining what deleting data older than x months means and when the changes will be visible. [CHAR_LIMIT=NONE]">{count, plural,
@@ -843,4 +846,7 @@
     <string name="last_month_header" description="Header in the list of data entries to differentiate between entries from this month and last month. [CHAR LIMIT=50]">Ultin mês</string>
     <string name="tab_entries" description="Tab that navigates to the data entries screen. [CHAR_LIMIT=50]">Vôs</string>
     <string name="tab_access" description="Tab that navigates to the screen that shows which apps have access to the given data type. [CHAR_LIMIT=50]">Acès</string>
+    <string name="start_using_hc_set_up_button" description="Button that takes users to the connected apps page, for banner shown when users have not connected their first fitness app">Configure</string>
+    <string name="connect_more_apps_set_up_button" description="Button that takes users to the connected apps page, for banner shown when users have not connected their second fitness app">Configure</string>
+    <string name="one_entry_selected_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete the selected entry">Eliminâ par simpri cheste vôs?</string>
 </resources>

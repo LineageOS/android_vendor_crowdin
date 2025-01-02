@@ -70,7 +70,6 @@
     <string name="screenrecord_title">Clàradair na sgrìn</string>
     <string name="screenrecord_background_processing_label">A’ pròiseasadh clàradh sgrìn</string>
     <string name="screenrecord_channel_description">Brath air seisean clàradh sgìn a’ dol air adhart</string>
-    <string name="screenrecord_permission_dialog_title">An tòisich thu air clàradh?</string>
     <string name="screenrecord_audio_label">Clàraich fuaim</string>
     <string name="screenrecord_device_audio_label">Fuaim an uidheim</string>
     <string name="screenrecord_device_audio_description">Fuaim on uidheam agad, a leithid ceòl, gairmean is seirmean</string>
@@ -231,6 +230,11 @@
     <string name="qs_record_issue_stop">Cuir stad air</string>
     <string name="quick_settings_pair_hearing_devices">Paidhrich uidheam ùr</string>
     <string name="quick_step_accessibility_toggle_overview">Toglaich am foir-shealladh</string>
+    <string name="zen_modes_dialog_done">Deiseil</string>
+    <string name="zen_modes_dialog_settings">Roghainnean</string>
+    <string name="zen_mode_on">Air</string>
+    <string name="zen_mode_off">Dheth</string>
+    <string name="zen_mode_set_up">Suidhich</string>
     <string name="zen_priority_introduction">Cha dèid briseadh a-steach ort le fuaimean no crith ach o chaismeachdan, cuimhneachain no tachartasan agus on luchd-ghairm a shònraicheas tu. Cluinnidh tu fhathast na thaghas tu fhèin, a’ gabhail a-staigh ceòl, videothan is geamannan.</string>
     <string name="zen_alarms_introduction">Cha dèid briseadh a-steach ort le fuaimean no crith ach o chaismeachdan. Cluinnidh tu fhathast na thaghas tu fhèin, a’ gabhail a-staigh ceòl, videothan is geamannan.</string>
     <string name="zen_priority_customize_button">Gnàthaich</string>
@@ -256,6 +260,7 @@
     <string name="button_to_remove_widget">Thoir air falbh</string>
     <string name="hub_mode_editing_exit_button_text">Deiseil</string>
     <string name="button_text_to_open_settings">Fosgail na roghainnean</string>
+    <string name="communal_widgets_disclaimer_button">Tha mi agaibh</string>
     <string name="accessibility_multi_user_switch_switcher">Geàrr leum gu cleachdaiche eile</string>
     <string name="guest_exit_guest_dialog_message">Thèid a h-uile aplacaid is dàta san t-seisean seo a sguabadh às.</string>
     <string name="guest_wipe_session_title">Fàilte air ais, aoigh!</string>
@@ -270,8 +275,8 @@
     <string name="media_projection_dialog_warning">Gheibh <xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> cothrom air fiosrachadh dìomhair sam bith a thèid a shealltainn air an sgrìn no a chluich on uidheam agad fhad ’s a bhios tu ri clàradh no tilgeil. Tha seo a’ gabhail a-staigh fiosrachadh dìomhair mar fhaclan-faire, fiosrachadh pàighidh, dealbhan, teachdaireachdan is fuaim a chluicheas tu.</string>
     <string name="media_projection_sys_service_dialog_title">An tòisich thu air clàradh no tilgeil?</string>
     <string name="media_projection_sys_service_dialog_warning">Gheibh an t-seirbheis a tha a’ solar a’ ghleusa seo cothrom air fiosrachadh dìomhair sam bith a thèid a shealltainn air an sgrìn no a chluich on uidheam agad fhad ’s a bhios tu ri clàradh no tilgeil. Tha seo a’ gabhail a-staigh fiosrachadh dìomhair mar fhaclan-faire, fiosrachadh pàighidh, dealbhan, teachdaireachdan is fuaim a chluicheas tu.</string>
-    <string name="media_projection_entry_app_permission_dialog_continue">Toiseach</string>
     <string name="media_projection_entry_generic_permission_dialog_continue">Toiseach</string>
+    <string name="media_projection_entry_generic_permission_dialog_continue_single_app">Air adhart</string>
     <string name="clear_all_notifications_text">Falamhaich na h-uile</string>
     <string name="manage_notifications_text">Stiùirich</string>
     <string name="manage_notifications_history_text">Eachdraidh</string>
@@ -383,7 +388,6 @@
     <string name="inline_turn_off_notifications">Cuir na brathan dheth</string>
     <string name="notification_silence_title">Tostach</string>
     <string name="notification_channel_summary_low">Gun fhuaim no crith</string>
-    <string name="notification_conversation_summary_low">Gun fhuaim no crith agus nochdaidh e nas ìsle ann an earrann nan còmhraidhean</string>
     <string name="notification_priority_title">Prìomhachais</string>
     <string name="no_shortcut">Cha chuir <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> taic ri gleusan còmhraidh</string>
     <string name="notification_unblockable_desc">Chan urrainn dhuinn na brathan seo atharrachadh.</string>
@@ -645,6 +649,7 @@
     <string name="media_output_dialog_group">Buidheann</string>
     <string name="media_output_dialog_single_device">Chaidh 1 uidheam a thaghadh</string>
     <string name="media_output_dialog_multiple_devices">Chaidh <xliff:g id="count" example="2">%1$d</xliff:g> uidheam(an) a thaghadh</string>
+    <string name="media_input_group_title">Ion-chur</string>
     <string name="media_output_end_session_dialog_stop">Cuir stad air</string>
     <string name="media_output_broadcast_dialog_save">Sàbhail</string>
     <string name="battery_state_unknown_notification_title">Mearachd a’ leughadh inneal-tomhais a’ bhataraidh agad</string>
@@ -666,4 +671,5 @@
     <string name="shortcut_helper_category_input">Ion-chur</string>
     <string name="shortcut_helper_category_a11y">So-ruigsinneachd</string>
     <string name="touchpad_tutorial_done_button">Deiseil</string>
+    <string name="volume_undo_action">Neo-dhèan</string>
 </resources>

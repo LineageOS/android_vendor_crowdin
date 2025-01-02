@@ -849,6 +849,7 @@
     <string name="accessibility_shortcut_enable">Abilite scurte di acès facilitât</string>
     <string name="accessibility_shortcut_service">Servizi de scurte</string>
     <string name="accessibility_shortcut_description">Se la scurte e je ative, tu puedis fracâ ducj i doi i botons indaûr e jù par 3 seconts par inviâ une funzion di acès facilitât.</string>
+    <string name="accessibility_key_repeat_info">Valôr predefinît</string>
     <string name="accessibility_captions">Sottitui</string>
     <string name="accessibility_captions_description">Impostazions pe soreposizion dal test dai sottitui sul video</string>
     <string name="captions_display">Visualizazion</string>

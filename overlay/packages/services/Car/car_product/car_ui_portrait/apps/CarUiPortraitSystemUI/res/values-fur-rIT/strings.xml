@@ -17,7 +17,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="default_sensor_string">N/D</string>
     <string name="task_view_not_ready_message">Par plasê spiete che il sisteme si cjami</string>
-    <string name="current_profile_subtitle">Profîl corint</string>
     <string name="loading_welcome_message">AAOS</string>
     <string name="loading_action_button_text">Continue</string>
     <string name="hvac_panel_header">Controi pe comoditât</string>

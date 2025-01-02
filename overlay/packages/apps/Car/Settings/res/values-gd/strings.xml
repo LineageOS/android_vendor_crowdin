@@ -297,12 +297,12 @@
     <string name="app_list_preference_none">Chan eil gin</string>
     <string name="default_app_selected_app">Air a thaghadh</string>
     <string name="assistant_security_warning">Leughaidh an cuidiche fiosrachadh mu na h-aplacaidean a tha ’gan cleachdadh air an t-siostam agad, a’ gabhail a-staigh am fiosrachadh a chì thu air an sgrìn no a ghabhas inntrigeadh am broinn nan aplacaidean fhèin.</string>
-    <string name="autofill_confirmation_message">        <b>Dèan cinnteach gu bheil earbsa agad san aplacaid seo</b>
+    <string name="autofill_confirmation_message"><![CDATA[        <b>Dèan cinnteach gu bheil earbsa agad san aplacaid seo</b>
         <br/>
         <br/>
         Cleachdaidh <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> na tha air an sgrìn agad
         airson faighinn a-mach dè ghabhas fhèin-lìonadh.
-        </string>
+        ]]></string>
     <string name="autofill_add_service">Cuir seirbheis ris</string>
     <string name="app_launch_domain_links_title">Fosgladh cheanglaichean</string>
     <string name="domain_url_section_title">Aplacaidean stàlaichte</string>
@@ -406,7 +406,6 @@
     <string name="date_time_24hour_title">Fòrmat 24 uair a thìde</string>
     <string name="date_time_24hour">Cleachd fòrmat 24 uair a thìde</string>
     <string name="date_time_set_time_title">Àm</string>
-    <string name="date_time_set_time">Suidhich an t-àm</string>
     <string name="date_time_set_timezone_title">Roinn-tìde</string>
     <string name="date_time_set_timezone">Tagh roinn-tìde</string>
     <string name="date_time_set_date_title">Ceann-là</string>
@@ -415,6 +414,7 @@
     <string name="zone_list_menu_sort_by_timezone">Seòrsaich a-rèir na roinn-tìde</string>
     <string name="date_picker_title">Ceann-là</string>
     <string name="time_picker_title">Àm</string>
+    <string name="auto_local_time_dialog_negative_button_text">Air adhart</string>
     <string name="user_admin">Rianaire</string>
     <string name="signed_in_admin_user">Air clàradh a-steach mar rianaire</string>
     <string name="grant_admin_permissions_button_text">Dèan rianaire dheth</string>

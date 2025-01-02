@@ -141,6 +141,7 @@
     <string name="reset_network_complete_toast">Челтәр көйләүләре ташлатылды</string>
     <string name="reset_app_pref_title">Кушымта көйләүләрен ташлату</string>
     <string name="reset_app_pref_button_text">Кушымталарны ташлату</string>
+    <string name="auto_local_time_dialog_negative_button_text">Дәвам итү</string>
     <string name="confirm_grant_admin">Әйе, идарәче итеп кую</string>
     <string name="create_user_permission_title">Яңа профильләр ясау</string>
     <string name="outgoing_calls_permission_title">Шалтырата алу</string>

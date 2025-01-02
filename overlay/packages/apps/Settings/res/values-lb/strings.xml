@@ -108,6 +108,8 @@
     <string name="security_settings_face_enroll_done">Fäerdeg</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Ofbriechen</string>
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Net elo</string>
+    <string name="identity_check_biometric_error_cancel">Ofbriechen</string>
+    <string name="identity_check_biometric_error_ok">OK</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">Net elo</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Weider</string>
     <string name="security_settings_remoteauth_enroll_introduction_more">Méi</string>
@@ -169,7 +171,11 @@
     <string name="bluetooth_device_context_connect">Connectéieren</string>
     <string name="bluetooth_device_context_disconnect">Deconnectéieren</string>
     <string name="bluetooth_device_context_pair_connect">Koppelen a connectéieren</string>
+    <string name="bluetooth_key_missing_cancel">Ofbriechen</string>
     <string name="nfc_reboot_dialog_confirm">Nei starten</string>
+    <string name="external_display_on">Un</string>
+    <string name="external_display_off">Aus</string>
+    <string name="external_display_more_options_title">Méi Optiounen</string>
     <string name="wifi_display_enable_menu_item">Kabellose Schierm aktivéieren</string>
     <string name="wifi_display_no_devices_found">Keng Apparater an der Géigend fonnt.</string>
     <string name="wifi_display_status_connecting">Connectéieren</string>
@@ -548,6 +554,9 @@
     <string name="physical_keyboard_title">Physesch Tastatur</string>
     <string name="keyboard_default_layout">Standard</string>
     <string name="trackpad_pointer_speed">Mausgeschwindegkeet</string>
+    <string name="pointer_stroke_style_name_white">Wäiss</string>
+    <string name="pointer_stroke_style_name_black">Schwaarz</string>
+    <string name="pointer_stroke_style_name_none">Ouni</string>
     <string name="gesture_button_skip">Iwwersprangen</string>
     <string name="gesture_button_next">Weider</string>
     <string name="gesture_button_restart">Nei starten</string>
@@ -986,9 +995,12 @@
     <string name="dock_audio_media_disabled">All d\'Téin</string>
     <string name="dock_audio_media_enabled">Just Medientéin</string>
     <string name="spatial_summary_off">Aus</string>
+    <string name="spatial_audio_multi_toggle_off">Aus</string>
+    <string name="zen_mode_disabled_needs_setup">Net gesat</string>
     <string name="zen_mode_schedule_delete">Läschen</string>
+    <string name="zen_mode_menu_rename_mode">Ëmbenennen</string>
+    <string name="zen_mode_menu_delete_mode">Läschen</string>
     <string name="zen_mode_rule_name_edit">Änneren</string>
-    <string name="zen_mode_automatic_trigger_title">Automatesch uschalten</string>
     <string name="mode_display_settings_title">Schiermastellungen</string>
     <string name="zen_mode_block_effect_summary_none">Ni</string>
     <string name="zen_mode_no_exceptions">Ouni</string>
@@ -1047,11 +1059,13 @@
     <string name="zen_mode_system_list_first">Beréierungstéin</string>
     <string name="zen_mode_apps_title">Appen</string>
     <string name="zen_mode_apps_none_apps">Ouni</string>
-    <string name="zen_mode_apps_all_apps">All</string>
+    <string name="zen_mode_apps_calculating">Gëtt berechent\u2026</string>
     <string name="zen_mode_bypassing_apps_title">Appen</string>
     <string name="zen_mode_start_time">Startzäit</string>
     <string name="zen_mode_end_time">Schlusszäit</string>
-    <string name="zen_mode_action_change_name">Ëmbenennen</string>
+    <string name="zen_mode_trigger_title_generic">App-Astellungen</string>
+    <string name="zen_mode_action_disable">Desaktivéieren</string>
+    <string name="zen_mode_action_enable">Aktivéieren</string>
     <string name="suggestion_button_close">Zoumaachen</string>
     <string name="device_feedback">Feedback iwwer dësen Apparat schécken</string>
     <string name="switch_on_text">Un</string>
@@ -1156,15 +1170,6 @@
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
     <string name="next_page_content_description">Weider</string>
     <string name="bluetooth_connect_access_dialog_positive">Connectéieren</string>
-    <string name="tare_on">Un</string>
-    <string name="tare_off">Aus</string>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Gëtt opgelueden</item>
-        <item>Doze</item>
-        <item>Power Save Mode</item>
-        <item>Process State</item>
-    </string-array>
-    <string name="tare_dialog_confirm_button_title">Bestätegen</string>
     <string name="dream_preview_button_title">Virschau</string>
     <string name="bluetooth_details_audio_device_type_unknown">Net gesat</string>
     <string name="flash_notifications_summary_off">Aus</string>
@@ -1176,7 +1181,7 @@
     <string name="screen_flash_color_orange">Orange</string>
     <string name="screen_flash_color_red">Rout</string>
     <string name="screen_flash_color_magenta">Magenta</string>
-    <string name="color_selector_dialog_done">Fäerdeg</string>
+    <string name="color_selector_dialog_save">Späicheren</string>
     <string name="color_selector_dialog_cancel">Ofbriechen</string>
     <string name="contrast_default">Standard</string>
     <string name="contrast_medium">Mëttel</string>

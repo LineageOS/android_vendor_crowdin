@@ -370,13 +370,13 @@
     <string name="app_list_preference_none">Dim</string>
     <string name="default_app_selected_app">Wedi\'u dewis</string>
     <string name="assistant_security_warning">Bydd y cynorthwyydd yn medru darllen gwybodaeth am yr apiau mewn defnydd ar dy system, gan gynnwys gwybodaeth sy\'n weledol ar dy sgrin neu ar gael o fewn yr apiau.</string>
-    <string name="autofill_confirmation_message">        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
+    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> yn defnyddio\'r
         hyn sydd ar dy sgrin i benderfynu pa bethau gellir
         eu llenwi yn awtomatig.
-        </string>
+        ]]></string>
     <string name="autofill_add_service">Ychwanegu gwasanaeth</string>
     <string name="app_launch_domain_links_title">Agor dolenni</string>
     <string name="domain_url_section_title">Apiau wedi\u2019u gosod</string>
@@ -529,7 +529,6 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="date_time_24hour_title">Fformat 24\u2011awr</string>
     <string name="date_time_24hour">Defnyddio fformat 24 awr</string>
     <string name="date_time_set_time_title">Amser</string>
-    <string name="date_time_set_time">Gosod yr amser</string>
     <string name="date_time_set_timezone_title">Cylchfa amser</string>
     <string name="date_time_set_timezone">Dewis cylchfa amser</string>
     <string name="date_time_set_date_title">Dyddiad</string>
@@ -538,6 +537,7 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="zone_list_menu_sort_by_timezone">Trefnu yn ôl cylchfa amser</string>
     <string name="date_picker_title">Dyddiad</string>
     <string name="time_picker_title">Amser</string>
+    <string name="auto_local_time_dialog_negative_button_text">Parhau</string>
     <string name="user_admin">Gweinyddwr</string>
     <string name="signed_in_admin_user">Wedi mewngofnodi fel gweinyddwr</string>
     <string name="grant_admin_permissions_button_text">Gwneud yn Weinyddwr</string>

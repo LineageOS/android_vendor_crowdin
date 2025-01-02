@@ -96,6 +96,8 @@
     <string name="security_settings_face_enroll_done">تامام</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">ۋاز كەچ</string>
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks">ھازىرچە ياق</string>
+    <string name="identity_check_biometric_error_cancel">ۋاز كەچ</string>
+    <string name="identity_check_biometric_error_ok">جەزملە</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">ھازىرچە ياق</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">داۋاملاشتۇر</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">ۋاز كەچ</string>
@@ -147,7 +149,11 @@
     <string name="bluetooth_device_context_connect">باغلان</string>
     <string name="bluetooth_device_context_disconnect">ئۈز</string>
     <string name="bluetooth_device_context_pair_connect">جۈپلەپ باغلا</string>
+    <string name="bluetooth_key_missing_cancel">ۋاز كەچ</string>
     <string name="nfc_reboot_dialog_confirm">قايتا قوزغات</string>
+    <string name="external_display_on">ئوچۇق</string>
+    <string name="external_display_off">تاقاق</string>
+    <string name="external_display_more_options_title">تېخىمۇ كۆپ تاللانما</string>
     <string name="wifi_display_enable_menu_item">سىمسىز ئېكراننى قوزغات</string>
     <string name="wifi_display_no_devices_found">ئەتراپتا سىمسىز كۆرسىتىش ئۈسكۈنىسى تېپىلمىدى.\"</string>
     <string name="wifi_display_status_connecting">باغلىنىۋاتىدۇ</string>
@@ -484,6 +490,9 @@
     <string name="physical_keyboard_title">فىزىكىلىق ھەرپتاختا</string>
     <string name="keyboard_default_layout">كۆڭۈلدىكى</string>
     <string name="trackpad_pointer_speed">ئىسترېلكا سۈرئىتى</string>
+    <string name="pointer_stroke_style_name_white">ئاق</string>
+    <string name="pointer_stroke_style_name_black">قارا</string>
+    <string name="pointer_stroke_style_name_none">يوق</string>
     <string name="gesture_button_skip">ئاتلا</string>
     <string name="gesture_button_next">كېيىنكى</string>
     <string name="gesture_button_restart">قايتا قوزغات</string>
@@ -834,7 +843,11 @@
     <string name="notification_ringtone_title">كۆڭۈلدىكى ئۇقتۇرۇش ئاۋازى</string>
     <string name="notification_sound_default">كۆڭۈلدىكى ئۇقتۇرۇش ئاۋازى</string>
     <string name="spatial_summary_off">تاقاق</string>
+    <string name="spatial_audio_multi_toggle_off">تاقاق</string>
+    <string name="zen_mode_disabled_needs_setup">تەڭشەلمىگەن</string>
     <string name="zen_mode_schedule_delete">ئۆچۈر</string>
+    <string name="zen_mode_menu_rename_mode">ئات ئۆزگەرت</string>
+    <string name="zen_mode_menu_delete_mode">ئۆچۈر</string>
     <string name="zen_mode_rule_name_edit">تەھرىر</string>
     <string name="mode_display_settings_title">كۆرسىتىش تەڭشەكلەر</string>
     <string name="zen_mode_no_exceptions">يوق</string>
@@ -871,9 +884,11 @@
     <string name="zen_mode_alarms_list_first">قوڭغۇراقلىق سائەت</string>
     <string name="zen_mode_media_list_first">ۋاستە</string>
     <string name="zen_mode_apps_none_apps">يوق</string>
-    <string name="zen_mode_apps_all_apps">ھەممىسى</string>
+    <string name="zen_mode_apps_calculating">ھېسابلاۋاتىدۇ…</string>
     <string name="zen_mode_bypassing_apps_title">ئەپلەر</string>
-    <string name="zen_mode_action_change_name">ئات ئۆزگەرت</string>
+    <string name="zen_mode_trigger_title_generic">ئەپ تەڭشەك</string>
+    <string name="zen_mode_action_disable">چەكلە</string>
+    <string name="zen_mode_action_enable">قوزغات</string>
     <string name="suggestion_button_close">تاقاش</string>
     <string name="nfc_setting_on">ئوچۇق</string>
     <string name="nfc_setting_off">تاقاق</string>
@@ -946,15 +961,6 @@
     <string name="smart_forwarding_missing_alert_dialog_text">جەزملە</string>
     <string name="next_page_content_description">كېيىنكى</string>
     <string name="bluetooth_connect_access_dialog_positive">باغلان</string>
-    <string name="tare_on">ئوچۇق</string>
-    <string name="tare_off">تاقاق</string>
-    <string-array name="tare_modifiers_subfactors">
-        <item>توكلاۋاتىدۇ</item>
-        <item>Doze</item>
-        <item>Power Save Mode</item>
-        <item>Process State</item>
-    </string-array>
-    <string name="tare_dialog_confirm_button_title">جەزملە</string>
     <string name="dream_preview_button_title">ئالدىن كۆزەت</string>
     <string name="bluetooth_details_audio_device_type_unknown">تەڭشەلمىگەن</string>
     <string name="flash_notifications_summary_off">تاقاق</string>
@@ -965,7 +971,7 @@
     <string name="screen_flash_color_yellow">سېرىق</string>
     <string name="screen_flash_color_red">قىزىل</string>
     <string name="screen_flash_color_magenta">ئاچ قىزىل</string>
-    <string name="color_selector_dialog_done">تامام</string>
+    <string name="color_selector_dialog_save">ساقلا</string>
     <string name="color_selector_dialog_cancel">ۋاز كەچ</string>
     <string name="contrast_default">كۆڭۈلدىكى</string>
     <string name="contrast_medium">ئوتتۇرا</string>

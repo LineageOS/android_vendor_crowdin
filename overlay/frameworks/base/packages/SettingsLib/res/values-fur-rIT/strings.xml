@@ -414,7 +414,6 @@
     <string name="force_resizable_activities">Sfuarce la pussibilitât di ridimensionâ lis ativitâts</string>
     <string name="force_resizable_activities_summary">Fâs in mût che dutis lis ativitâts si podedin ridimensionâ pai barcons multiplis, in mût indipendent dai valôrs dal manifest.</string>
     <string name="enable_freeform_support">Abilite i barcons a forme libare</string>
-    <string name="enable_freeform_support_summary">Abilite il supuart pai barcons a forme libare sperimentâi.</string>
     <string name="local_backup_password_title">Password backup computer</string>
     <string name="local_backup_password_summary_none">I backups complets dal computer locâl al moment no son protets</string>
     <string name="local_backup_password_summary_change">Tocje par cambiâ o gjavâla password pai backups complets dal computer</string>
@@ -484,7 +483,7 @@
     <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> pe ricjarie complete</string>
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> pe ricjarie complete</string>
-    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Ricjarie otimizade</string>
+    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Ricjarie in spiete par protezi la batarie</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> - In cjarie</string>
     <string name="power_fast_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="status">%2$s</xliff:g> - Plene pes <xliff:g id="time">%3$s</xliff:g></string>
     <string name="power_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - Ricjarie complete pes <xliff:g id="time">%2$s</xliff:g></string>
@@ -683,7 +682,8 @@
     <string name="cached_apps_freezer_disabled">Disativât</string>
     <string name="cached_apps_freezer_enabled">Atîf</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Tu scugnis tornâ a inviâ il dispositîf par aplicâ cheste modifiche. Torne invie cumò o anule.</string>
-    <string name="media_transfer_wired_usb_device_name">Scufis cun fîl</string>
+    <string name="media_transfer_wired_headphone_name">Scufis cun fîl</string>
+    <string name="media_transfer_headphone_name">Scufis</string>
     <string name="wifi_hotspot_switch_on_text">On</string>
     <string name="wifi_hotspot_switch_off_text">Off</string>
     <string name="carrier_network_change_mode">Cambi dal operadôr di rêt</string>

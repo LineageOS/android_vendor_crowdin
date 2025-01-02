@@ -24,6 +24,7 @@
     <string name="clock_settings_title">Lliw a maint cloc</string>
     <string name="clock_color_and_size_title">Lliw a maint cloc</string>
     <string name="clock_color_and_size_description"><xliff:g name="color">%1$s</xliff:g>, <xliff:g name="size">%2$s</xliff:g></string>
+    <string name="clock_style">Arddull</string>
     <string name="clock_color">Lliw</string>
     <string name="clock_color_red">Coch</string>
     <string name="clock_color_orange">Oren</string>

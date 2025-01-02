@@ -87,6 +87,11 @@
     <string name="quick_settings_screen_record_stop">Seḥbes</string>
     <string name="qs_record_issue_start">Bdu</string>
     <string name="qs_record_issue_stop">Seḥbes</string>
+    <string name="zen_modes_dialog_done">Immed</string>
+    <string name="zen_modes_dialog_settings">Iɣewwaṛen</string>
+    <string name="zen_mode_on">Irmed</string>
+    <string name="zen_mode_off">Insa</string>
+    <string name="zen_mode_set_up">Sebded</string>
     <string name="zen_priority_customize_button">Sagen</string>
     <string name="interruption_level_none">Tasusmi taččurant</string>
     <string name="interruption_level_priority">Tazwart kan</string>
@@ -96,11 +101,12 @@
     <string name="button_to_remove_widget">Kkes</string>
     <string name="hub_mode_editing_exit_button_text">Immed</string>
     <string name="button_text_to_open_settings">Ldi iγewwaṛen</string>
+    <string name="communal_widgets_disclaimer_button">Awi-t</string>
     <string name="accessibility_multi_user_switch_switcher">Beddel aseqdac</string>
     <string name="guest_wipe_session_wipe">Ales tanekra</string>
     <string name="user_remove_user_remove">Kkes</string>
-    <string name="media_projection_entry_app_permission_dialog_continue">Bdu</string>
     <string name="media_projection_entry_generic_permission_dialog_continue">Bdu</string>
+    <string name="media_projection_entry_generic_permission_dialog_continue_single_app">Uḍfiṛ</string>
     <string name="clear_all_notifications_text">Sfeḍ akk</string>
     <string name="manage_notifications_text">Sefrek</string>
     <string name="manage_notifications_history_text">Amazray</string>
@@ -246,6 +252,7 @@
     <string name="media_transfer_undo">Err-d</string>
     <string name="controls_error_removed">Ur yettwaf ara</string>
     <string name="media_output_dialog_group">Agraw</string>
+    <string name="media_input_group_title">Anekcum</string>
     <string name="media_output_end_session_dialog_stop">Seḥbes</string>
     <string name="media_output_broadcast_dialog_save">Sekles</string>
     <string name="mobile_data_settings_title">Isefka izirazen</string>
@@ -264,4 +271,5 @@
     <string name="shortcut_helper_category_input">Anekcum</string>
     <string name="shortcut_helper_category_a11y">Tuffart</string>
     <string name="touchpad_tutorial_done_button">Immed</string>
+    <string name="volume_undo_action">Err-d</string>
 </resources>

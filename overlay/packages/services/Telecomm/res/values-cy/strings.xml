@@ -101,7 +101,6 @@
     <string name="answering_ends_other_managed_video_call">Bydd ateb yn dod a dy alwad fideo presennol i ben.</string>
     <string name="answer_incoming_call">Ateb</string>
     <string name="decline_incoming_call">Gwrthod</string>
-    <string name="cant_call_due_to_no_supported_service">Ni ellir gwneud y galwad am nad oes unrhyw gyfrifon galw sy\u2019n cefnogi\u2019r math hwn o alwad.</string>
     <string name="cant_call_due_to_ongoing_call">Ni ellir wneud yr alwad oherwydd dy alwad <xliff:g id="other_call">%1$s</xliff:g>.</string>
     <string name="cant_call_due_to_ongoing_calls">Ni ellir wneud yr alwad oherwydd dy alwadau <xliff:g id="other_call">%1$s</xliff:g>.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Ni ellir gwneud galwad tra bod galwad ar y gweill mewn ap arall.</string>

@@ -59,7 +59,6 @@
     <string name="desc_no_available_supported_locale">La seleición de llingua pa esta aplicación nun ta disponible dende Configuración</string>
     <string name="desc_app_locale_disclaimer">Ye posible que la llingua nun concase coles disponibles na aplicación. Dalgunes aplicaciones nun son compatibles con esta opción.</string>
     <string name="desc_app_locale_selection_supported">Afita la llingua de cada aplicación.</string>
-    <string name="desc_introduction_of_language_picker">El sistema, les aplicaciones y los sitios web usen la primer llingua compatible de les tos llingües preferíes.</string>
     <string name="desc_notice_of_language_picker">Pa seleicionar una llingua pa cada aplicación, vete a la configuración de la llingua de les aplicaciones</string>
     <string name="desc_locale_helper_footer_general">Saber más tocante a les llingües de les aplicaciones</string>
     <string name="title_change_system_locale">¿Quies camudar la llingua del sistema a «%s»?</string>
@@ -141,7 +140,6 @@
     <string name="security_settings_remoteauth_settings_learn_more">Saber más tocante al desbloquéu col reló</string>
     <string name="security_settings_remoteauth_settings_register_new_authenticator">Amestar un reló</string>
     <string name="security_settings_remoteauth_settings_remove_device">Quitar el reló</string>
-    <string name="security_settings_biometric_preference_title">Desbloquéu facial y cola buelga</string>
     <string name="biometric_settings_category_use_face_fingerprint">Usa la cara o la buelga pa</string>
     <string name="biometric_settings_add_face_in_split_mode_title">Nun pues configurar el desbloquéu facial</string>
     <string name="biometric_settings_add_face_in_split_mode_message">Cola de la pantalla dixebrada pa configurar el desbloquéu facial</string>
@@ -231,6 +229,9 @@
       other   {Ha contener polo menos # díxitos}
     }</string>
     <string name="bluetooth_device_keyboard_settings_preference_title">Configuración del tecláu</string>
+    <string name="bluetooth_device_more_settings_preference_title">Más opciones</string>
+    <string name="device_details_more_settings">Más opciones</string>
+    <string name="external_display_standard_rotation">Estándar</string>
     <string name="wifi_allow_wep_networks">Permitir les redes WEP</string>
     <string name="wifi_allow_wep_networks_summary">WEP ye un protocolu de seguranza antiguu que ye menos seguru</string>
     <string name="wifi_allow_wep_networks_summary_carrier_not_allow">La operadora nun permite les redes WEP porque son menos segures</string>
@@ -421,6 +422,8 @@
     <string name="spatial_summary_on_one">Sí / <xliff:g id="output device" example="Phone speaker">%1$s</xliff:g></string>
     <string name="spatial_summary_on_two">Sí / <xliff:g id="output device" example="Phone speaker">%1$s</xliff:g> y <xliff:g id="output device" example="Wired headphones">%2$s</xliff:g></string>
     <string name="spatial_audio_footer_title">Tamién pues activar l\'audiu espacial pa los preseos Bluetooth.</string>
+    <string name="spatial_audio_multi_toggle_title">Audiu espacial</string>
+    <string name="mode_device_effects_title">Más opciones</string>
     <string name="zen_onboarding_settings">Configuración</string>
     <string name="lock_screen_notifications_interstitial_message">¿Qué quies qu\'amuese la pantalla de bloquéu?</string>
     <string name="nls_feature_read_title">Lleer los avisos</string>
@@ -531,32 +534,6 @@
     <string name="bluetooth_sim_card_access_notification_content">Un preséu quier acceder a la SIM. Toca pa ver los detalles.</string>
     <string name="bluetooth_sim_card_access_dialog_title">¿Quies permitir l\'accesu a la SIM?</string>
     <string name="bluetooth_sim_card_access_dialog_content">Un preséu Bluetooth, «<xliff:g id="device_name" example="My device">%1$s</xliff:g>», quier acceder a los datos de la SIM. Esto inclúi los contautos.\n\nMentanto tea conectáu, «<xliff:g id="device_name" example="My device">%2$s</xliff:g>» va recibir llamaes feches al <xliff:g id="phone_number" example="0912345678">%3$s</xliff:g></string>
-    <string name="tare_revert">Restaurar la config. predeterminada</string>
-    <string name="tare_settings_reverted_toast">Restauróse la config. predeterminada</string>
-    <string name="tare_max_satiated_balance">Saldu máximu cola carga completa</string>
-    <string name="tare_balances">Saldos</string>
-    <string name="tare_consumption_limits">Llendes de consumu</string>
-    <string name="tare_initial_consumption_limit">Llende de consumu inicial</string>
-    <string name="tare_max_consumption_limit">Llende de consumu máxima</string>
-    <string name="tare_modifiers">Modificadores</string>
-    <string name="tare_actions_ctp">Aiciones (costu de producción)</string>
-    <string name="tare_actions_base_price">Aiciones (preciu base)</string>
-    <string name="tare_rewards_instantaneous">Recompenses per cada eventu</string>
-    <string name="tare_rewards_ongoing">Recompenses per cada segundu del eventu</string>
-    <string name="tare_rewards_max">Númberu máximu de recompenses per día</string>
-    <string name="tare_app_install">Instalación de l\'aplicación</string>
-    <string name="tare_top_activity">Actividá principal</string>
-    <string name="tare_notification_seen">Avisu vistu</string>
-    <string name="tare_notification_seen_15_min">Avisu vistu nel plazu de 15 minutos</string>
-    <string name="tare_notification_interaction">Interaición con un avisu</string>
-    <string name="tare_widget_interaction">Interaición con un widget</string>
-    <string name="tare_other_interaction">Otra interaición del usuariu</string>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Charging</item>
-        <item>Doze</item>
-        <item>Mou d\'aforru d\'enerxía</item>
-        <item>Estáu del procesu</item>
-    </string-array>
     <string name="dream_picker_category">Seleición d\'un curiapantalles</string>
     <string name="dream_complications_toggle_title">Amosar información adicional</string>
     <string name="dream_complications_toggle_summary">Amuesa elementos como la hora, el clima o otra información nel curiapantalles</string>

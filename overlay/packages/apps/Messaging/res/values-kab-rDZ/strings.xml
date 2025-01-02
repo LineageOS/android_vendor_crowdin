@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2015 The Android Open Source Project
+    Copyright (C) 2024 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -19,9 +20,6 @@
     <string name="share_intent_label">Tamyazent</string>
     <string name="action_settings">Iɣewwaṛen</string>
     <string name="sendButtonContentDescription">Azen izen</string>
-    <string name="help_and_feedback_activity_label">Tallelt</string>
-    <string name="welcome">Ansuf</string>
-    <string name="skip">Zgel</string>
     <string name="next_with_arrow">Uḍfir &gt;</string>
     <string name="next">Uḍfiṛ</string>
     <string name="exit">Ffeγ</string>
@@ -44,11 +42,8 @@
     </plurals>
     <string name="save">Sekles</string>
     <string name="enter_phone_number_hint">Uṭṭun n tiliγri</string>
-    <string name="ignore">Ignorer</string>
-    <string name="message_status_failed">Yerreẓ</string>
     <string name="message_status_download">Nnal akken ad tessidreḍ</string>
     <string name="delivered_status_content_description">Yawweḍ</string>
-    <string name="start_conversation">Bdu</string>
     <string name="back">Tuγalin</string>
     <string name="action_menu_show_archived">Yeɣber</string>
     <string name="action_delete">Kkes</string>
@@ -83,17 +78,13 @@
     </plurals>
     <string name="settings_activity_title">Iγewwaṛen</string>
     <string name="archived_activity_title">Yeɣber</string>
-    <string name="action_close">Mdel</string>
     <string name="mms_messaging_category_pref_title">MMS</string>
     <string name="advanced_category_pref_title">Talqayt</string>
     <string name="debug_category_pref_title">Seγtu</string>
     <string name="notifications_pref_title">Ilɣa</string>
-    <string name="silent_ringtone">Ulac sut</string>
-    <string name="blocked_pref_title">Yettusewḥel</string>
     <string name="unknown_phone_number_pref_display_value">Arussin</string>
     <string name="message_context_menu_copy_text">Nɣel aḍris</string>
     <string name="message_context_menu_view_details">Beqqeḍ ifatusen</string>
-    <string name="message_context_menu_delete_message">Kkes</string>
     <string name="message_context_menu_forward_message">Ɣer zdat</string>
     <string name="message_details_title">Talqayt n yizen</string>
     <string name="multimedia_message">Izen n wallalen n umidyat</string>
@@ -106,8 +97,6 @@
     <string name="action_debug_options">Seɣtu</string>
     <string name="general_settings_title">Amatu</string>
     <string name="compose_message_view_hint_text">Azen izen</string>
-    <string name="menu_send_feedback">Azen-d tikti i:</string>
-    <string name="subtitle_format_for_version_number">Lqem %1$s</string>
     <string name="menu_license">Turagin n uɣbalu yeldin</string>
     <string name="notifications_enabled_conversation_pref_title">Ilɣa</string>
     <string name="add_contact_confirmation">Rnu anermis</string>
@@ -115,7 +104,6 @@
     <string name="conversation_message_view_subject_text">Ahil :\u0020</string>
     <string name="vcard_detail_birthday_label">Azemz n tlalit</string>
     <string name="vcard_detail_notes_label">Tizmilin</string>
-    <string name="reply_activity_title">Err</string>
     <string name="plus_one">+1</string>
     <string name="plus_n">+%d</string>
     <string name="requires_default_sms_change_button">Senfel</string>
@@ -137,12 +125,6 @@
     <string name="message_image_content_description">Tugna</string>
     <string name="share_new_message">Izen amaynut</string>
     <string name="share_cancel">Sefsex</string>
-    <string name="apn_not_set">Ur ittwasbadu ara</string>
-    <string name="apn_name">Isem</string>
-    <string name="menu_save_apn">Sekles</string>
-    <string name="menu_discard_apn_change">Ignorer</string>
-    <string name="menu_restore_default_apn">Ales awennez ar iɣewwaren imezwar</string>
-    <string name="untitled_apn">War azwel</string>
     <string name="copy_to_clipboard">Nγel</string>
     <string name="general_settings">Amatu</string>
     <string name="advanced_settings">Talqayt</string>
@@ -152,7 +134,6 @@
     <string name="secondary_user_new_message_ticker">Izen amaynut.</string>
     <string name="widget_title_content_description">Tamyazent</string>
     <string name="widget_conversation_name">Tamyazent</string>
-    <string name="widget_new_message_content_description">Izen amaynut</string>
     <string name="conversation_deleted">Adiwenni yettwakkes</string>
     <string name="update_destination_blocked">Yettusewḥel</string>
     <string name="attachment_chooser_selection"><xliff:g id="count">%d</xliff:g> ittwafernen</string>

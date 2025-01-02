@@ -95,7 +95,7 @@
     <string name="action_split">Divît</string>
     <string name="toast_split_select_app">Tocje une altre aplicazion par doprâ il schermi dividût</string>
     <string name="toast_contextual_split_select_app">Sielç une altre aplicazion par doprâ il schermi dividût</string>
-    <string name="toast_split_select_app_cancel"><b>Anule</b></string>
+    <string name="toast_split_select_app_cancel">Anule</string>
     <string name="toast_split_select_cont_desc">Jes de selezion pal schermi dividût</string>
     <string name="toast_split_app_unsupported">Sielç une altre aplicazion par doprâ il schermi dividût</string>
     <string name="blocked_by_policy">Cheste azion no je consintude de aplicazion de tô organizazion</string>
@@ -131,9 +131,5 @@
     <string name="taskbar_divider_a11y_title">Divisôr de sbare des ativitâts</string>
     <string name="move_drop_target_top_or_left">Sposte in alt/çampe</string>
     <string name="move_drop_target_bottom_or_right">Sposte in bas/diestre</string>
-    <string name="quick_switch_overflow">{count, plural,
-            one {}=1{Mostre # altre aplicazion.}
-            other{Mostre altris # aplicazions.}
-        }</string>
     <string name="quick_switch_split_task"><xliff:g id="app_name_1" example="Chrome">%1$s</xliff:g> e <xliff:g id="app_name_2" example="Gmail">%2$s</xliff:g></string>
 </resources>

@@ -97,6 +97,9 @@
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Sefsex</string>
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Mačči tura</string>
     <string name="security_settings_activeunlock_biometric_setup">Sebded</string>
+    <string name="identity_check_biometric_error_cancel">Sefsex</string>
+    <string name="identity_check_biometric_error_ok">IH</string>
+    <string name="identity_check_lockout_error_lock_screen">Agdil usewḥel</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">Mačči tura</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Kemmel</string>
     <string name="security_settings_remoteauth_enroll_introduction_more">Ugar</string>
@@ -148,7 +151,10 @@
     <string name="bluetooth_device_context_connect">Qqen</string>
     <string name="bluetooth_device_context_disconnect">Ffeɣ</string>
     <string name="bluetooth_scan_change">Senfel</string>
+    <string name="bluetooth_key_missing_cancel">Sefsex</string>
     <string name="nfc_reboot_dialog_confirm">Ales tanekra</string>
+    <string name="external_display_off">Insa</string>
+    <string name="external_display_more_options_title">Ugar n iɣewwaṛen</string>
     <string name="wifi_display_settings_title">Transtypage</string>
     <string name="wifi_display_status_connecting">Tuqqna ɣer</string>
     <string name="wifi_display_status_connected">Iqqen</string>
@@ -348,6 +354,9 @@
     <string name="keyboard_shortcuts_helper">Inegzumen n unasiw</string>
     <string name="keyboard_default_layout">Akk-a kan</string>
     <string name="trackpad_pointer_speed">Arured n uneqqaḍ</string>
+    <string name="pointer_stroke_style_name_white">Amellal</string>
+    <string name="pointer_stroke_style_name_black">Aberkan</string>
+    <string name="pointer_stroke_style_name_none">Ula yiwen</string>
     <string name="gesture_title_go_back">Uγal γer deffir</string>
     <string name="gesture_button_skip">Zgel</string>
     <string name="gesture_button_next">Γer zdat</string>
@@ -570,12 +579,18 @@
     <string name="ringtone_title">Taṭenṭant n tiliγri</string>
     <string name="emergency_tone_silent">Sgugem</string>
     <string name="spatial_summary_off">Insa</string>
+    <string name="spatial_audio_multi_toggle_off">Insa</string>
+    <string name="zen_mode_select_schedule_calendar">Tidyanin n tsmektit</string>
+    <string name="zen_mode_disabled_needs_setup">Ur ittwasbadu ara</string>
+    <string name="zen_mode_new_option_custom">Udmawan</string>
+    <string name="zen_mode_action_deactivate">Sens</string>
     <string name="zen_mode_automation_settings_title">Planifications</string>
     <string name="zen_mode_schedule_delete">Kkes</string>
+    <string name="zen_mode_menu_rename_mode">Snifel isem</string>
+    <string name="zen_mode_menu_delete_mode">Kkes</string>
     <string name="zen_mode_rule_name_edit">Ẓreg</string>
     <string name="zen_mode_automation_settings_page_title">Planifications</string>
     <string name="zen_mode_automatic_rule_settings_page_title">Planification</string>
-    <string name="zen_mode_set_calendar_category_title">Planification</string>
     <string name="zen_mode_set_schedule_link">Planification</string>
     <string name="zen_mode_schedule_category_title">Planification</string>
     <string name="zen_mode_schedule_title">Planification</string>
@@ -652,11 +667,13 @@
     <string name="zen_mode_events_list_first">Tidyanin</string>
     <string name="zen_mode_apps_title">Isnasen</string>
     <string name="zen_mode_apps_none_apps">Ula yiwen</string>
-    <string name="zen_mode_apps_all_apps">Tous</string>
     <string name="zen_mode_bypassing_apps_title">Isnasen</string>
     <string name="zen_mode_start_time">Temps de début</string>
     <string name="zen_mode_end_time">Asrag n tagara</string>
-    <string name="zen_mode_action_change_name">Snifel isem</string>
+    <string name="zen_mode_trigger_title_schedule_calendar">Tidyanin n tsmektit</string>
+    <string name="zen_mode_trigger_title_generic">Iɣewwaṛen</string>
+    <string name="zen_mode_action_disable">Ssens</string>
+    <string name="zen_mode_action_enable">Rmed</string>
     <string name="suggestion_button_close">Mdel</string>
     <string name="switch_off_text">Insa</string>
     <string name="nfc_setting_off">Insa</string>
@@ -811,14 +828,6 @@
     <string name="smart_forwarding_missing_alert_dialog_text">IH</string>
     <string name="next_page_content_description">Γer zdat</string>
     <string name="bluetooth_connect_access_dialog_positive">Qqen</string>
-    <string name="tare_off">Insa</string>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Ittɛemmiṛ</item>
-        <item>Doze</item>
-        <item>Power Save Mode</item>
-        <item>Process State</item>
-    </string-array>
-    <string name="tare_dialog_confirm_button_title">Sentem</string>
     <string name="dream_preview_button_title">Timeẓriwt</string>
     <string name="bluetooth_details_audio_device_type_unknown">Ur ittwasbadu ara</string>
     <string name="bluetooth_details_audio_device_type_other">Wiyaḍ</string>
@@ -834,7 +843,7 @@
     <string name="screen_flash_color_orange">Ačinawi</string>
     <string name="screen_flash_color_red">Azeggaɣ</string>
     <string name="screen_flash_color_magenta">_Magenta:</string>
-    <string name="color_selector_dialog_done">Immed</string>
+    <string name="color_selector_dialog_save">Sekles</string>
     <string name="color_selector_dialog_cancel">Sefsex</string>
     <string name="contrast_default">Akk-a kan</string>
     <string name="contrast_medium">Alemmas</string>

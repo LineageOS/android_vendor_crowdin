@@ -1452,6 +1452,7 @@
     <string name="error_handwriting_unsupported_password">La caligrafie no je supuartade tai cjamps des passwords</string>
     <string name="input_method_nav_back_button_desc">Indaûr</string>
     <string name="input_method_ime_switch_button_desc">Cambie metodi di imission</string>
+    <string name="input_method_switcher_settings_button">Impostazions</string>
     <string name="low_internal_storage_view_title">Spazi di archiviazion in esauriment</string>
     <string name="low_internal_storage_view_text">Al è pussibil che cualchi funzionalitât di sisteme no funzioni.</string>
     <string name="low_internal_storage_view_text_no_boot">No vonde spazi di archiviazion pal sisteme. Controle di vê 250MB di spazi libar e torne invie.</string>
@@ -2078,9 +2079,6 @@
     <string name="accessibility_edit_shortcut_menu_button_title">Sielç lis funzions di doprâ cul boton
         di acès facilitât
     </string>
-    <string name="accessibility_edit_shortcut_menu_volume_title">Sielç lis funzions di doprâ cu la
-        scurte dai tascj dal volum
-    </string>
     <string name="accessibility_uncheck_legacy_item_warning">        <xliff:g id="service_name" example="TalkBack">%s</xliff:g> al è stât disativât</string>
     <string name="edit_accessibility_shortcut_menu_button">Modifiche scurtis</string>
     <string name="done_accessibility_shortcut_menu_button">Fat</string>
@@ -2094,12 +2092,6 @@
     <string name="accessibility_shortcut_enabling_service">Tignûts fracâts i tascj dal volum. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> ativât.</string>
     <string name="accessibility_shortcut_disabling_service">Tignûts fracâts i tascj dal volum. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> disativât.</string>
     <string name="accessibility_shortcut_spoken_feedback">Mole i tascj dal volum. Par ativâ<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>, frache e ten fracât di gnûf ducj i doi i tascj dal volum par 3 seconts.</string>
-    <string name="accessibility_button_prompt_text">Sielç une funzion di doprâ cuant che tu tocjis il boton pal acès facilitât:</string>
-    <string name="accessibility_gesture_prompt_text">Sielç une funzion di doprâ cul mot pal acès facilitât (scori in sù dal bas dal schermi cun doi dêts):</string>
-    <string name="accessibility_gesture_3finger_prompt_text">Sielç une funzion di doprâ cul mot pal acès facilitât (scori in sù dal bas dal schermi cun trê dêts):</string>
-    <string name="accessibility_button_instructional_text">Par passâ di une funzion a chê altre, tocje e ten fracât il boton pal acès facilitât.</string>
-    <string name="accessibility_gesture_instructional_text">Par passâ di une funzion a chê altre, scor in sù cun doi dêts e manten i dêts sul schermi.</string>
-    <string name="accessibility_gesture_3finger_instructional_text">Par passâ di une funzion a chê altre, scor in sù cun trê dêts e manten i dêts sul schermi.</string>
     <string name="accessibility_magnification_chooser_text">Ingrandiment</string>
     <string name="user_switched">Utent atuâl <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="user_switching_message">Daûr a passâ a <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
@@ -2809,4 +2801,7 @@
     <string name="face_dangling_notification_msg">Nol è plui pussibil ricognossi il to model di muse. Torne configure il sbloc cu la muse.</string>
     <string name="biometric_dangling_notification_action_set_up">Configure</string>
     <string name="biometric_dangling_notification_action_not_now">No cumò</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Contats</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Calendari</string>
 </resources>

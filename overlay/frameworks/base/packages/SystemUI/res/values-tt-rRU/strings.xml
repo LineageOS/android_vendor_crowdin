@@ -22,7 +22,6 @@
     <string name="invalid_charger_text">Җайланмагыз белән барган коргычны кулланыгыз</string>
     <string name="battery_saver_confirmation_title">Батарея саклагычны кабызыргамы?</string>
     <string name="status_bar_settings_auto_rotation">Экран үзе борылу</string>
-    <string name="screenrecord_permission_dialog_title">Яздыра башларгамы?</string>
     <string name="screenrecord_audio_label">Аудио яздыру</string>
     <string name="screenrecord_ongoing_screen_only">Экранны яздыру</string>
     <string name="screenrecord_ongoing_screen_and_audio">Экран һәм тавышны яздыру</string>
@@ -88,7 +87,6 @@
     <string name="media_output_dialog_volume_percentage"><xliff:g id="percentage" example="10">%1$d</xliff:g>%%</string>
     <string name="messages_count_overflow_indicator"><xliff:g id="number" example="7">%d</xliff:g>+</string>
     <string name="new_notification_text_content_description"><xliff:g id="name" example="Anna">%1$s</xliff:g> хәбәр җибәрде: <xliff:g id="notification" example="Hey! How is your day going">%2$s</xliff:g></string>
-    <string name="preference_summary_default_combination"><xliff:g id="state" example="Connected">%1$s</xliff:g> / <xliff:g id="networkMode" example="LTE">%2$s</xliff:g></string>
     <string name="turn_on_wifi">Wi\u2011Fi</string>
     <string name="clipboard_text_hidden">Карау өчен басыгыз</string>
     <string name="dream_overlay_weather_complication_desc">        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>

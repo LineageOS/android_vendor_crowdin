@@ -899,7 +899,6 @@
     <string name="radio_info_smsc_label">SMSC:</string>
     <string name="radio_info_smsc_update_label">Ùraich</string>
     <string name="radio_info_smsc_refresh_label">Ath-nuadhaich</string>
-    <string name="radio_info_toggle_dns_check_label">Toglaich dearbhadh an DNS</string>
     <string name="oem_radio_info_label">Fiosrachadh/Roghainnean sònraichte an OEM</string>
     <string name="radio_info_nr_frequency">Tricead NR:</string>
     <string name="band_mode_title">Suidhich modh bann rèidio</string>

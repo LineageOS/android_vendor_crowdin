@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="theme_title">Stoidhle</string>
+    <string name="clock_style">Stoidhle</string>
     <string name="clock_color">Dath</string>
     <string name="apply_theme_btn">Cuir an sàs</string>
     <string name="edit_custom_theme_lbl">Thoir gnogag gus a dheasachadh</string>

@@ -122,13 +122,7 @@
     <string name="transfer_menu_clear">Nete de liste</string>
     <string name="transfer_clear_dlg_title">Nete</string>
     <string name="bluetooth_a2dp_sink_queue_name">Cumò in riproduzion</string>
-    <string name="bluetooth_map_settings_save">Salve</string>
-    <string name="bluetooth_map_settings_cancel">Anule</string>
-    <string name="bluetooth_map_settings_intro">Selezione i accounts che tu desideris condividi midiant il Bluetooth. Tu varâs istès di acetâ cualsisei acès ai accounts tal conetiti.</string>
-    <string name="bluetooth_map_settings_count">Spazis disponibii:</string>
     <string name="bluetooth_map_settings_app_icon">Icone de aplicazion</string>
-    <string name="bluetooth_map_settings_title">Impostazions de condivision dai messaçs Bluetooth</string>
-    <string name="bluetooth_map_settings_no_account_slots_left">Impussibil selezionâ l\'account. 0 spazis disponibii</string>
     <string name="bluetooth_connected">Audio Bluetooth colegât</string>
     <string name="bluetooth_disconnected">Audio Bluetooth discolegât</string>
     <string name="a2dp_sink_mbs_label">Audio Bluetooth</string>

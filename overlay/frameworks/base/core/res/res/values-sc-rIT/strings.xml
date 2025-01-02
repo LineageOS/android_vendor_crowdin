@@ -285,7 +285,7 @@
     <string name="notification_hidden_text">Notìfica noa</string>
     <string name="notification_channel_physical_keyboard">Tecladu fìsicu</string>
     <string name="notification_channel_security">Seguresa</string>
-    <string name="notification_channel_car_mode">Modalidade de màchina</string>
+    <string name="notification_channel_car_mode">Modalidade de vetura</string>
     <string name="notification_channel_account">Istadu de su contu</string>
     <string name="notification_channel_developer">Messàgios dae s\'iscuadra de isvilupu</string>
     <string name="notification_channel_developer_important">Messàgios importantes dae s\'isvilupu</string>
@@ -590,11 +590,11 @@ Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is ap
     <string name="permdesc_acceptHandovers">Permitet a s\'aplicatzione de sighire una mutida cumintzada in un\'àtera aplicatzione.</string>
     <string name="permlab_readPhoneNumbers">lèghere nùmeros de telèfonu</string>
     <string name="permdesc_readPhoneNumbers">Permitit chi s\'aplicatzione atzedat a is nùmeros de telèfonu de su dispositivu.</string>
-    <string name="permlab_wakeLock" product="automotive">mantènnere s\'ischermu de sa màchina allutu </string>
+    <string name="permlab_wakeLock" product="automotive">mantènnere s\'ischermu de sa vetura allutu</string>
     <string name="permlab_wakeLock" product="tablet">impedire chi sa tauledda s\'assèliet</string>
     <string name="permlab_wakeLock" product="tv">impedit chi su dispositivu Android TV s\'asselit</string>
     <string name="permlab_wakeLock" product="default">impedire chi su telèfonu s\'assèliet</string>
-    <string name="permdesc_wakeLock" product="automotive">Permitit a s\'aplicatzione de mantènnere s\'ischermu de sa màchina allutu.</string>
+    <string name="permdesc_wakeLock" product="automotive">Permitit a s\'aplicatzione de mantènnere allutu s\'ischermu de sa vetura.</string>
     <string name="permdesc_wakeLock" product="tablet">Permitit a s\'aplicatzione de impedire chi sa tauledda s\'assèliet.</string>
     <string name="permdesc_wakeLock" product="tv">Permitit a s\'aplicatzione de impedire chi su dispositivu Android TV s\'assèliet.</string>
     <string name="permdesc_wakeLock" product="default">Permitit a s\'aplicatzione de impedire chi su telèfonu s\'assèliet.</string>
@@ -1237,6 +1237,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="editTextMenuTitle">Atziones de su testu</string>
     <string name="input_method_nav_back_button_desc">In segus</string>
     <string name="input_method_ime_switch_button_desc">Càmbia mètodu de intrada</string>
+    <string name="input_method_switcher_settings_button">Cunfiguratziones</string>
     <string name="low_internal_storage_view_title">Su logu pro s\'archiviatzione est acabbende</string>
     <string name="low_internal_storage_view_text">Carchi funtzionalidade de sistema diat pòdere non funtzionare</string>
     <string name="low_internal_storage_view_text_no_boot">Non b\'at bastante logu pro su sistema. Segura·ti de tènnere 250MB de logu e torra a aviare.</string>
@@ -1723,7 +1724,6 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="color_inversion_feature_name">Inversione de colores</string>
     <string name="color_correction_feature_name">Curretzione de colores</string>
     <string name="hearing_aids_feature_name">Cùfias</string>
-    <string name="accessibility_button_prompt_text">Sèbera una funtzione de impreare cando tocas su butone de atzessibilidade:</string>
     <string name="accessibility_magnification_chooser_text">Crèschida</string>
     <string name="user_switched">Utente atuale <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="user_switching_message">Passende a <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
@@ -2121,4 +2121,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="satellite_notification_how_it_works">Comente funtzionat?</string>
     <string name="biometric_dangling_notification_action_set_up">Imposta</string>
     <string name="biometric_dangling_notification_action_not_now">No immoe</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Cuntatos</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Calendàriu</string>
 </resources>

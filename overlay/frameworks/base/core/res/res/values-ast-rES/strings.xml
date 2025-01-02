@@ -1443,6 +1443,7 @@
     <string name="editTextMenuTitle">Aiciones del testu</string>
     <string name="input_method_nav_back_button_desc">Atrás</string>
     <string name="input_method_ime_switch_button_desc">Cambiar el métodu d\'introducción de testu</string>
+    <string name="input_method_switcher_settings_button">Configuración</string>
     <string name="low_internal_storage_view_title">L\'espaciu d\'almacenamientu ta escosando</string>
     <string name="low_internal_storage_view_text">Quiciabes dalgunes funciones del sistema nun funcionen</string>
     <string name="low_internal_storage_view_text_no_boot">Nun hai abondu almacenamientu pal sistema. Asegúrate de que tienes 250 MB d\'espaciu llibre y reanicia.</string>
@@ -2067,9 +2068,6 @@
     <string name="accessibility_edit_shortcut_menu_button_title">Escueyi qué funciones usar
         col botón «Accesibilidá»
     </string>
-    <string name="accessibility_edit_shortcut_menu_volume_title">Escueyi qué funciones usar
-        col atayu de les tecles del volume
-    </string>
     <string name="accessibility_uncheck_legacy_item_warning">        «<xliff:g id="service_name" example="TalkBack">%s</xliff:g>» desactivóse</string>
     <string name="edit_accessibility_shortcut_menu_button">Editar los atayos</string>
     <string name="done_accessibility_shortcut_menu_button">Fecho</string>
@@ -2083,12 +2081,6 @@
     <string name="accessibility_shortcut_enabling_service">Tuviéronse primíes les tecles del volume. Activóse «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>».</string>
     <string name="accessibility_shortcut_disabling_service">Tuviéronse primíes les tecles del volume. Desactivóse «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>».</string>
     <string name="accessibility_shortcut_spoken_feedback">Suelta los botones del volume. P\'activar el serviciu «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>», volvi tener primíos los dos botones del volume demientres 3 segundos.</string>
-    <string name="accessibility_button_prompt_text">Escueyi la función que va usase cuando toques el botón d\'accesibilidá:</string>
-    <string name="accessibility_gesture_prompt_text">Escueyi la función que va usase pal xestu d\'accesibilidá (esliza dende lo baxero a lo cimero de la pantalla con dos deos):</string>
-    <string name="accessibility_gesture_3finger_prompt_text">Escueyi la función que va usase pal xestu d\'accesibilidá (esliza dende lo baxero a lo cimero de la pantalla con trés deos):</string>
-    <string name="accessibility_button_instructional_text">Pa cambiar de función, ten primíu\'l botón d\'accesibilidá.</string>
-    <string name="accessibility_gesture_instructional_text">Pa cambiar de función, esliza p\'arriba con dos deos y ten primida la pantalla.</string>
-    <string name="accessibility_gesture_3finger_instructional_text">Pa cambiar de función, esliza p\'arriba con trés deos y ten primida la pantalla.</string>
     <string name="accessibility_magnification_chooser_text">Agrandamientu</string>
     <string name="user_switched">Usuariu actual: <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="user_switching_message">Cambiando a «<xliff:g id="name" example="Bob">%1$s</xliff:g>»\u2026</string>
@@ -2772,4 +2764,7 @@
     <string name="satellite_notification_how_it_works">Cómo funciona</string>
     <string name="biometric_dangling_notification_action_set_up">Configurar</string>
     <string name="biometric_dangling_notification_action_not_now">Agora non</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Contautos</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Calendariu</string>
 </resources>

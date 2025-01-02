@@ -97,10 +97,7 @@
     <string name="screenrecord_title">Recordydd Sgrin</string>
     <string name="screenrecord_background_processing_label">Prosesu recordiad sgrin</string>
     <string name="screenrecord_channel_description">Hysbysiad i ddangos bod y sgrin yn cael ei recordio</string>
-    <string name="screenrecord_permission_dialog_title">Dechrau recordio?</string>
-    <string name="screenrecord_permission_dialog_warning_entire_screen">Wrth i ti recordio, mae gan Android fynediad at unrhyw beth sy\u2019n weledol ar dy sgrin neu\u2019n chwarae ar dy ddyfais, felly bydda\u2019n ofalus gyda phethau fel cyfrineiriau, manylion talu, negeseuon, lluniau, a sain a fideo.</string>
-    <string name="screenrecord_permission_dialog_warning_single_app">Wrth i ti recordio ap, mae gan Android fynediad at unrhyw beth sy\u2019n weledol ar dy sgrin neu\u2019n chwarae ar dy ddyfais, felly bydda\u2019n ofalus gyda phethau fel cyfrineiriau, manylion talu, negeseuon, lluniau, a sain a fideo.</string>
-    <string name="screenrecord_permission_dialog_continue">Dechrau recordio</string>
+    <string name="screenrecord_permission_dialog_option_text_entire_screen">Recordio\u2019r sgrin gyfan</string>
     <string name="screenrecord_audio_label">Recordio sain</string>
     <string name="screenrecord_device_audio_label">Sain dyfais</string>
     <string name="screenrecord_device_audio_description">Sain o dy ddyfais, megis cerddoriaeth, galwadau a thonau canu</string>
@@ -352,6 +349,11 @@
     </string>
     <string name="media_seamless_other_device">Dyfais arall</string>
     <string name="quick_step_accessibility_toggle_overview">Toglo Trosolwg</string>
+    <string name="zen_modes_dialog_done">Cwblhau</string>
+    <string name="zen_modes_dialog_settings">Gosodiadau</string>
+    <string name="zen_mode_on">Ymlaen</string>
+    <string name="zen_mode_off">I ffwrdd</string>
+    <string name="zen_mode_set_up">Gosod</string>
     <string name="zen_priority_introduction">Ni chei dy boeni gan synau na dirgrynu, ond am larymau, hysbysiadau atgoffa, digwyddiadau a galwyr rwyt wedi eu dewis yn benodol. Mi fyddi\'n dal i glywed unrhyw beth rwyt yn dewis chwarae, megis cerddoriaeth, fideos a gemau.</string>
     <string name="zen_alarms_introduction">Ni chei dy boeni gan synau na dirgrynu, ond am larymau. Mi fyddi\'n dal i glywed unrhyw beth rwyt yn dewis chwarae, megis cerddoriaeth, fideos a gemau.</string>
     <string name="zen_priority_customize_button">Addasu</string>
@@ -393,6 +395,7 @@
     <string name="button_to_remove_widget">Tynnu</string>
     <string name="hub_mode_editing_exit_button_text">Cwblhau</string>
     <string name="button_text_to_open_settings">Agor gosodiadau</string>
+    <string name="communal_widgets_disclaimer_button">Deall yn iawn</string>
     <string name="accessibility_multi_user_switch_switcher">Newid defnyddiwr</string>
     <string name="accessibility_multi_user_list_switcher">dewislen tynnu i lawr</string>
     <string name="guest_exit_guest_dialog_message">Caiff holl apiau a data\'r sesiwn hon eu dileu.</string>
@@ -416,11 +419,9 @@
     <string name="media_projection_dialog_warning">Bydd gan <xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> fynediad at y holl wybodaeth sy\'n weladwy ar dy sgrin neu a chwaraeir o dy ddyfais wrth recordio neu daflu. Mae hyn yn cynnwys gwybodaeth fel cyfrineiriau, manylion talu, lluniau, negeseuon, a sain rwyt ti\'n eu chwarae.</string>
     <string name="media_projection_sys_service_dialog_title">Dechrau recordio neu daflu?</string>
     <string name="media_projection_sys_service_dialog_warning">Bydd gan y gwasanaeth sy\'n darparu\'r swyddogaeth hon fynediad at y holl wybodaeth sy\'n weladwy ar dy sgrin neu a chwaraeir o dy ddyfais wrth recordio neu daflu. Mae hyn yn cynnwys gwybodaeth fel cyfrineiriau, manylion talu, lluniau, negeseuon, a sain rwyt ti\'n eu chwarae.</string>
-    <string name="screen_share_permission_dialog_option_entire_screen">Sgrin gyfan</string>
-    <string name="screen_share_permission_dialog_option_single_app">Ap unigol</string>
-    <string name="screen_share_permission_app_selector_title">Rhannu neu recordio ap</string>
-    <string name="media_projection_entry_app_permission_dialog_continue">Dechrau</string>
+    <string name="screen_share_generic_app_selector_title">Rhannu neu recordio ap</string>
     <string name="media_projection_entry_generic_permission_dialog_continue">Dechrau</string>
+    <string name="media_projection_entry_generic_permission_dialog_continue_single_app">Nesaf</string>
     <string name="screen_capturing_disabled_by_policy_dialog_title">Rhwystrwyd gan dy weinyddwr TG</string>
     <string name="screen_capturing_disabled_by_policy_dialog_description">Analluogwyd cymryd sgrinluniau gan bolisi\u2019r ddyfais</string>
     <string name="clear_all_notifications_text">Clirio\'r cwbl</string>
@@ -570,7 +571,6 @@
     <string name="notification_silence_title">Distaw</string>
     <string name="notification_automatic_title">Awtomatig</string>
     <string name="notification_channel_summary_low">Dim sain na dirgryniad</string>
-    <string name="notification_conversation_summary_low">Dim sain na dirgryniad ac mae\'n ymddangos yn is yn yr adran sgwrsio</string>
     <string name="notification_channel_summary_default">Gall ganu neu ddirgrynu yn dibynnu ar osodiadau\u2019r ddyfais</string>
     <string name="notification_channel_summary_default_with_bubbles">Gall ganu neu ddirgrynu yn dibynnu ar osodiadau\u2019r ddyfais. Mae sgyrsiau gan <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> fel swigod yn rhagosodedig.</string>
     <string name="notification_channel_summary_automatic">Cael y system i bennu a ddylai\u2019r hysbysiad hwn wneud sain neu dirgrynu</string>
@@ -947,6 +947,7 @@ two {Ychwanegwyd # reolydd.}
     <string name="media_output_dialog_volume_percentage"><xliff:g id="percentage" example="10">%1$d</xliff:g>%%</string>
     <string name="media_output_group_title_speakers_and_displays">Seinyddion a Dangosyddion</string>
     <string name="media_output_group_title_suggested_device">Dyfeisiau a Awgrymir</string>
+    <string name="media_input_group_title">Mewnbwn</string>
     <string name="media_output_end_session_dialog_stop">Stopio</string>
     <string name="media_output_first_broadcast_title">Sut mae darlledu\u2019n gweithio</string>
     <string name="media_output_broadcast">Darlledu</string>
@@ -1008,7 +1009,6 @@ two {Ychwanegwyd # reolydd.}
     <string name="accessibility_fingerprint_bouncer">Angen dilysu. Cyffyrdda\u2019r synhwyrydd ôl bys i ddilysu.</string>
     <string name="ongoing_phone_call_content_description">Galwad ffôn ar y gweill</string>
     <string name="mobile_data_settings_title">Data symudol</string>
-    <string name="preference_summary_default_combination"><xliff:g id="state" example="Connected">%1$s</xliff:g> / <xliff:g id="networkMode" example="LTE">%2$s</xliff:g></string>
     <string name="mobile_data_connection_active">Wedi cysylltu</string>
     <string name="mobile_data_temp_connection_active">Cysylltwyd dros dro</string>
     <string name="mobile_data_poor_connection">Cysylltiad gwael</string>
@@ -1108,4 +1108,5 @@ many {Mae # ap yn weithredol}
     <string name="shortcut_helper_category_input">Mewnbwn</string>
     <string name="shortcut_helper_category_a11y">Hygyrchedd</string>
     <string name="touchpad_tutorial_done_button">Cwblhau</string>
+    <string name="volume_undo_action">Dad-wneud</string>
 </resources>

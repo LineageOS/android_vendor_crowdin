@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2023 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_label">Serviciu de cámara web</string>
+    <string name="hq_warning_dialog_content_2"><b><u>ALVERTENCIA:</u></b> l\'usu prollongáu a temperatures altes pue tener un efeutu adversu na vida útil de la batería d\'esti preséu.</string>
+    <string name="list_item_text_back_camera">Cámara d\'atrás</string>
+    <string name="list_item_text_front_camera">Cámara d\'alantre</string>
+    <string name="list_item_text_standard_camera">Cámara estándar</string>
+    <string name="list_item_text_wide_angle_camera">Cámara gran angular</string>
+    <string name="list_item_text_ultra_wide_camera">Cámara ultra gran angular</string>
+    <string name="list_item_text_other_camera">Otra cámara</string>
+</resources>

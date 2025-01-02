@@ -1115,6 +1115,7 @@
     <string name="inputMethod">Modh an ion-chuir</string>
     <string name="editTextMenuTitle">Gnìomhan teacsa</string>
     <string name="input_method_nav_back_button_desc">Air ais</string>
+    <string name="input_method_switcher_settings_button">Roghainnean</string>
     <string name="low_internal_storage_view_title">Tha an stòras gann</string>
     <string name="low_internal_storage_view_text">Dh’fhaoidte nach obair gach gleus an t-siostaim mar bu chòir</string>
     <string name="low_internal_storage_view_text_no_boot">Cha fhoghainn an stòras dhan t-siostam. Dèan cinnteach gu bheil 250MB a dh’àite saor agad is ath-thòisich.</string>
@@ -1688,9 +1689,6 @@
     <string name="accessibility_edit_shortcut_menu_button_title">Tagh na gleusan a chleachdas tu le
         putan na so-ruigsinneachd
     </string>
-    <string name="accessibility_edit_shortcut_menu_volume_title">Tagh na gleusan a chleachdas tu le
-        ath-ghoirid putanan àirde na fuaime
-    </string>
     <string name="accessibility_uncheck_legacy_item_warning">        Chaidh <xliff:g id="service_name" example="TalkBack">%s</xliff:g> a chur dheth</string>
     <string name="edit_accessibility_shortcut_menu_button">Deasaich na h-ath-ghoiridean</string>
     <string name="done_accessibility_shortcut_menu_button">Deiseil</string>
@@ -1698,12 +1696,6 @@
     <string name="leave_accessibility_shortcut_on">Cleachd an ath-ghoirid</string>
     <string name="accessibility_shortcut_enabling_service">Chùm thu iuchraichean àirde na fuaime sìos. Chaidh <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> a chur air.</string>
     <string name="accessibility_shortcut_disabling_service">Chùm thu iuchraichean àirde na fuaime sìos. Chaidh <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> a chur dheth.</string>
-    <string name="accessibility_button_prompt_text">Tagh an gleus a chleachdas tu nuair a bheir thu gnogag air putan na so-ruigsinneachd:</string>
-    <string name="accessibility_gesture_prompt_text">Tagh an gleus ri chleachdadh le gluasad na so-ruigsinneachd (grad-shlaighd suas le dà chorrag o bhonn na sgrìn):</string>
-    <string name="accessibility_gesture_3finger_prompt_text">Tagh an gleus ri chleachdadh le gluasad na so-ruigsinneachd (grad-shlaighd suas le trì corragan o bhonn na sgrìn):</string>
-    <string name="accessibility_button_instructional_text">Airson leum a ghearradh o ghleus gu gleus, suath ris ⁊ cùm sìos putan na so-ruigsinneachd.</string>
-    <string name="accessibility_gesture_instructional_text">Airson leum a ghearradh o ghleus gu gleus, grad-shlaighd suas le dà chorrag agus cùm sìos iad.</string>
-    <string name="accessibility_gesture_3finger_instructional_text">Airson leum a ghearradh o ghleus gu gleus, grad-shlaighd suas le trì corragan agus cùm sìos iad.</string>
     <string name="accessibility_magnification_chooser_text">Meudachadh</string>
     <string name="user_switched">Cleachdaiche làithreach <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="user_switching_message">A’ gearradh leum gu <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
@@ -2172,4 +2164,7 @@ na seirbheise.</string>
     <string name="accessibility_label_managed_profile">Pròifil na h-obrach</string>
     <string name="biometric_dangling_notification_action_set_up">Suidhich</string>
     <string name="biometric_dangling_notification_action_not_now">Chan ann an-dràsta</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Luchd-aithne</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Mìosachan</string>
 </resources>

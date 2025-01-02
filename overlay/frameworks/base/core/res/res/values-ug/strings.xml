@@ -943,4 +943,6 @@
     <string name="resolver_work_tab">ئىش</string>
     <string name="profile_label_work">ئىش</string>
     <string name="biometric_dangling_notification_action_not_now">ھازىرچە ياق</string>
+    <string name="keyboard_shortcut_group_applications_sms">قىسقا ئۇچۇر</string>
+    <string name="keyboard_shortcut_group_applications_calendar">يىلنامە</string>
 </resources>

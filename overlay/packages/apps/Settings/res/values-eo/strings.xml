@@ -36,6 +36,7 @@
     <string name="location_settings_title">Loko</string>
     <string name="security_settings_face_enroll_introduction_cancel">Nuligi</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Nuligi</string>
+    <string name="identity_check_biometric_error_cancel">Nuligi</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">Nuligi</string>
     <string name="cancel_lock_screen_dialog_button_label">Nuligi</string>
     <string name="security_settings_fingerprint_enroll_dialog_name_label">Nomo</string>
@@ -50,6 +51,7 @@
     <string name="lockpattern_tutorial_cancel_label">Nuligi</string>
     <string name="bluetooth_device_context_connect">Konekti</string>
     <string name="bluetooth_device_context_disconnect">Malkonekti</string>
+    <string name="bluetooth_key_missing_cancel">Nuligi</string>
     <string name="wifi_display_options_name">Nomo</string>
     <string name="wifi_password">Pasvorto</string>
     <string name="wifi_connect">Konekti</string>
@@ -138,6 +140,7 @@
     <string name="dashboard_title">Agordoj</string>
     <string name="keywords_printing">presilo</string>
     <string name="zen_mode_schedule_delete">Forigi</string>
+    <string name="zen_mode_menu_delete_mode">Forigi</string>
     <string name="zen_mode_rule_name_edit">Redakti</string>
     <string name="zen_mode_block_effect_summary_none">Neniam</string>
     <string name="zen_mode_add">Aldoni</string>
@@ -176,6 +179,7 @@
     <string name="wifi_disconnect_button_text">Malkonekti</string>
     <string name="apps_dashboard_title">Aplikaĵoj</string>
     <string name="bluetooth_connect_access_dialog_positive">Konekti</string>
+    <string name="color_selector_dialog_save">Konservi</string>
     <string name="color_selector_dialog_cancel">Nuligi</string>
     <string name="audio_sharing_stream_name_title">Nomo</string>
     <string name="audio_sharing_stream_password_title">Pasvorto</string>

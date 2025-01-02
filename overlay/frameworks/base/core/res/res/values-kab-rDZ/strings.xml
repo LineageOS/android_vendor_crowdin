@@ -339,6 +339,7 @@
     <string name="addToDictionary">Rnu ar umawal</string>
     <string name="deleteText">Kkes</string>
     <string name="input_method_nav_back_button_desc">Tuɣalin</string>
+    <string name="input_method_switcher_settings_button">Iɣewwaṛen</string>
     <string name="ok">IH</string>
     <string name="cancel">Sefsex</string>
     <string name="yes">IH</string>
@@ -587,4 +588,7 @@
     <string name="profile_label_work">Axeddim</string>
     <string name="biometric_dangling_notification_action_set_up">Sebded</string>
     <string name="biometric_dangling_notification_action_not_now">Mačči tura</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Inermisen</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Awitay</string>
 </resources>

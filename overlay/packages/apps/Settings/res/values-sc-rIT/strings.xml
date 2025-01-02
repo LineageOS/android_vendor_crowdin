@@ -89,6 +89,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Annulla</string>
     <string name="setup_fingerprint_enroll_skip_title">Boles brincare s\'imprenta digitale?</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Pro sa configuratzione de s\'imprenta de pòddighes nce bolet isceti unu minutu o duos. Si dda brincas, podes agiùnghere s\'imprenta tua prus a tardu in sa cunfiguratzione.</string>
+    <string name="identity_check_biometric_error_cancel">Annulla</string>
+    <string name="identity_check_biometric_error_ok">AB</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Sighi</string>
     <string name="security_settings_remoteauth_enroll_introduction_more">Àteru</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">Annulla</string>
@@ -140,6 +142,8 @@
     <string name="bluetooth_device_context_connect">Connete</string>
     <string name="bluetooth_device_context_disconnect">Disconnete</string>
     <string name="bluetooth_device_context_pair_connect">Assòtzia e connete</string>
+    <string name="bluetooth_key_missing_cancel">Annulla</string>
+    <string name="external_display_more_options_title">Àteras optziones</string>
     <string name="wifi_display_settings_title">Trasmissione</string>
     <string name="wifi_display_enable_menu_item">Ativa s\'ischermu chene filos</string>
     <string name="wifi_display_no_devices_found">Perunu dispositivu acanta agatadu.</string>
@@ -349,6 +353,7 @@
         In generale non b\'at resone pro ddu firmare.</string>
     <string name="keyboard_settings">Tecladu</string>
     <string name="language_empty_list_user_restricted">Non tenes su permissu de cambiare sa limba de su dispositivu.</string>
+    <string name="pointer_stroke_style_name_none">Perunu</string>
     <string name="trackpad_notifications_title">Notìficas</string>
     <string name="modifier_keys_cancel">Annulla</string>
     <string name="audio_category_title">Àudio</string>
@@ -395,6 +400,8 @@
     <string name="keywords_hotspot_tethering">ancoràgiu web usb, ancoràgiu web bluetooth, puntu de atzessu wifi</string>
     <string name="notification_ringtone_title">Sonu de notìfica predefinidu</string>
     <string name="notification_sound_default">Sonu de notìfica predefinidu</string>
+    <string name="zen_mode_disabled_needs_setup">No impostadu</string>
+    <string name="zen_mode_menu_rename_mode">Torra a numenare</string>
     <string name="zen_mode_restrict_notifications_mute_footer">Cando is notìficas arribant, su telèfonu no at a sonare o vibrare.</string>
     <string name="zen_mode_restrict_notifications_hide_summary">No as a bìdere o intèndere notìficas</string>
     <string name="zen_mode_no_exceptions">Perunu</string>
@@ -427,7 +434,8 @@
     <string name="zen_mode_media_list_first">Cuntenutos multimediales</string>
     <string name="zen_mode_apps_none_apps">Perunu</string>
     <string name="zen_mode_bypassing_apps_title">Aplicatziones</string>
-    <string name="zen_mode_action_change_name">Torra a numenare</string>
+    <string name="zen_mode_action_disable">Disativa</string>
+    <string name="zen_mode_action_enable">Ativa</string>
     <string name="suggestion_button_close">Serra</string>
     <string name="restr_pin_enter_admin_pin">Inserta su PIN de s\'amministradore</string>
     <string name="app_launch_dialog_ok">AB</string>
@@ -486,6 +494,7 @@
     <string name="bluetooth_details_audio_device_type_unknown">No impostadu</string>
     <string name="bluetooth_details_audio_device_type_other">Àteru</string>
     <string name="find_broadcast_password_dialog_password_error">Crae isballiada</string>
+    <string name="color_selector_dialog_save">Sarva</string>
     <string name="color_selector_dialog_cancel">Annulla</string>
     <string name="contrast_medium">Mesanu</string>
     <string name="audio_sharing_stream_name_title">Nùmene</string>

@@ -584,7 +584,6 @@
     <string name="date_time_24hour_title">Formât 24 oris</string>
     <string name="date_time_24hour">Dopre formât 24 oris</string>
     <string name="date_time_set_time_title">Ore</string>
-    <string name="date_time_set_time">Configure ore</string>
     <string name="date_time_set_timezone_title">Fûs orari</string>
     <string name="date_time_set_timezone">Selezione fûs orari</string>
     <string name="date_time_set_date_title">Date</string>
@@ -593,6 +592,7 @@
     <string name="zone_list_menu_sort_by_timezone">Ordene par fûs orari</string>
     <string name="date_picker_title">Date</string>
     <string name="time_picker_title">Orari</string>
+    <string name="auto_local_time_dialog_negative_button_text">Continue</string>
     <string name="user_admin">Aministradôr</string>
     <string name="signed_in_admin_user">Jentrât come aministradôr</string>
     <string name="grant_admin_permissions_title">Concedi i permès di aministradôr?</string>
