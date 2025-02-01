@@ -124,23 +124,31 @@
     <string name="custom_input_style_already_exists">"Yá esiste'l mesmu estilu d'entrada: <xliff:g id="INPUT_STYLE_NAME" example="English (Dvorak)">%s</xliff:g>"</string>
     <string name="prefs_keypress_vibration_duration_settings">Duración de la vibración al primir tecles</string>
     <string name="prefs_keypress_sound_volume_settings">Volume del soníu al primir tecles</string>
+    <string name="prefs_enable_emoji_alt_physical_key">Emojis pal tecláu físicu</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary">La tecla Alt física amuesa la paleta d\'emojis</string>
+    <string name="button_default">Reafitar</string>
     <string name="setup_welcome_title">"Afáyate en <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
     <string name="setup_welcome_additional_description">con escritura xestual</string>
     <string name="setup_start_action">Comenzar</string>
     <string name="setup_next_action">Pasu siguiente</string>
+    <string name="setup_steps_title">"Configuración de: <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
     <string name="setup_step1_instruction">"Marca «<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>» na configuración de Llingües y entrada. Esta aición va autorizar la so execución nel preséu."</string>
     <string name="setup_step1_finished_instruction">"«<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>» yá s'activó na configuración de Llingües y entrada, polo qu'esti pasu yá ta fechu. ¡Al siguiente!"</string>
     <string name="setup_step1_action">Activar en Configuración</string>
     <string name="setup_step3_title">"¡Norabona, yá acabesti!"</string>
+    <string name="setup_finish_action">Fecho</string>
     <string name="show_setup_wizard_icon">Amosar l\'iconu de l\'aplicación</string>
     <string name="show_setup_wizard_icon_summary">Amuesa l\'iconu de l\'aplicación nel llanzador d\'aplicaciones</string>
     <string name="app_name">Fornidor de diccionarios</string>
     <string name="dictionary_provider_name">Fornidor de diccionarios</string>
     <string name="dictionary_service_name">Serviciu de diccionarios</string>
     <string name="dictionary_settings_title">Diccionarios complementarios</string>
+    <string name="dictionary_install_over_metered_network_prompt">Tien un diccionariu disponible</string>
     <string name="dictionary_settings_summary">Configuración pa los diccionarios</string>
     <string name="user_dictionaries">Diccionarios d\'usuariu</string>
     <string name="default_user_dict_pref_name">Diccionariu d\'usuariu</string>
+    <string name="dictionary_downloading">En descarga</string>
+    <string name="dictionary_installed">Instalóse</string>
     <string name="check_for_updates_now">Anovar</string>
     <string name="message_loading">Cargando…</string>
     <string name="main_dict_description">Diccionariu principal</string>

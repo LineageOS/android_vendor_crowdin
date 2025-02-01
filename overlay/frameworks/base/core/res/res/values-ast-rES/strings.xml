@@ -191,6 +191,7 @@
     <string name="work_profile_deleted_description_dpm_wipe">El perfil llaboral yá nun ta disponible nesti preséu</string>
     <string name="work_profile_deleted_reason_maximum_password_failure">Introduxesti mal la contraseña milenta vegaes</string>
     <string name="device_ownership_relinquished">L\'alministrador arrenunció al preséu pa usu personal</string>
+    <string name="private_space_deleted_by_admin">Quitóse l\'espaciu priváu</string>
     <string name="private_space_deleted_by_admin_details">La to organización nun permite los espacios privaos nesti preséu xestionáu.</string>
     <string name="network_logging_notification_title">El preséu ta xestionáu</string>
     <string name="network_logging_notification_text">La to organización xestiona esti preséu y pue supervisar el tránsitu de la rede. Toca pa ver los detalles.</string>
@@ -2082,6 +2083,8 @@
     <string name="accessibility_shortcut_disabling_service">Tuviéronse primíes les tecles del volume. Desactivóse «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>».</string>
     <string name="accessibility_shortcut_spoken_feedback">Suelta los botones del volume. P\'activar el serviciu «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>», volvi tener primíos los dos botones del volume demientres 3 segundos.</string>
     <string name="accessibility_button_instructional_text">Esta función va abrise la próxima vegada que toques el botón d\'accesibilidá</string>
+    <string name="accessibility_gesture_instructional_text">Esta función va abrise la próxima vegada qu\'uses esti atayu. Esliza p\'arriba con 2 deos dende lo baxero de la pantalla y quítalos aína.</string>
+    <string name="accessibility_gesture_3finger_instructional_text">Esta función va abrise la próxima vegada qu\'uses esti atayu. Esliza p\'arriba con 3 deos dende lo baxero de la pantalla y quítalos aína.</string>
     <string name="accessibility_magnification_chooser_text">Agrandamientu</string>
     <string name="user_switched">Usuariu actual: <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="user_switching_message">Cambiando a «<xliff:g id="name" example="Bob">%1$s</xliff:g>»\u2026</string>
@@ -2223,6 +2226,7 @@
     <string name="lock_to_app_unlock_pin">Pidir el PIN enantes de lliberar</string>
     <string name="lock_to_app_unlock_pattern">Pidir el patrón de desbloquéu enantes de lliberar</string>
     <string name="lock_to_app_unlock_password">Pidir la contraseña enantes de lliberar</string>
+    <string name="package_installed_device_owner">L\'alministrador instaló l\'aplicación.\nVe a la configuración pa ver los permisos concedíos</string>
     <string name="package_updated_device_owner">L\'alministrador anovó l\'aplicación</string>
     <string name="package_deleted_device_owner">L\'alministrador desanició l\'aplicación</string>
     <string name="confirm_battery_saver">OK</string>

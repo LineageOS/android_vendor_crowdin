@@ -59,7 +59,7 @@
     <string name="desc_no_available_supported_locale">La seleición de llingua pa esta aplicación nun ta disponible dende Configuración</string>
     <string name="desc_app_locale_disclaimer">Ye posible que la llingua nun concase coles disponibles na aplicación. Dalgunes aplicaciones nun son compatibles con esta opción.</string>
     <string name="desc_app_locale_selection_supported">Afita la llingua de cada aplicación.</string>
-    <string name="desc_notice_of_language_picker">Pa seleicionar una llingua pa cada aplicación, vete a la configuración de la llingua de les aplicaciones</string>
+    <string name="desc_notice_of_language_picker">Pa seleicionar una llingua pa cada aplicación, ve a la configuración de la llingua de les aplicaciones</string>
     <string name="desc_locale_helper_footer_general">Saber más tocante a les llingües de les aplicaciones</string>
     <string name="title_change_system_locale">¿Quies camudar la llingua del sistema a «%s»?</string>
     <string name="title_system_locale_addition">¿Quies amestar «%s» a les llingües preferíes?</string>
@@ -190,7 +190,7 @@
     <string name="private_space_set_lock_label">Escoyer otru bloquéu</string>
     <string name="private_space_wait_screen_title">Un segundín\u2026</string>
     <string name="private_space_success_title">¡Acabesti!</string>
-    <string name="private_space_access_text">P\'atopar l\'espaciu priváu, vete a la llista d\'aplicaciones y desplázate p\'abaxo</string>
+    <string name="private_space_access_text">P\'atopar l\'espaciu priváu, ve a la llista d\'aplicaciones y desplázate p\'abaxo</string>
     <string name="private_space_scrolldown_to_access">Desplázate p\'abaxo p\'atopar l\'espaciu priváu</string>
     <string name="private_space_lock_setup_title">Seleición d\'un bloquéu pal espaciu priváu</string>
     <string name="private_space_lock_setup_description">Pues desbloquiar l\'espaciu priváu cola buelga. Por seguranza, esta opción rique un bloquéu secundariu.</string>
