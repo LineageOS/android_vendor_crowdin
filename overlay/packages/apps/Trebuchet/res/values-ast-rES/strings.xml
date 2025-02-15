@@ -118,7 +118,7 @@
     <string name="app_pair_name_format">Pareya d\'aplicaciones: «<xliff:g id="app1" example="Chrome">%1$s</xliff:g>» y «<xliff:g id="app2" example="YouTube">%2$s</xliff:g>»</string>
     <string name="styles_wallpaper_button_text">Fondu de pantalla y estilu</string>
     <string name="edit_home_screen">Editar la pantalla d\'aniciu</string>
-    <string name="settings_button_text">Config. pant. d\'aniciu</string>
+    <string name="settings_button_text">Configuración d\'Aniciu</string>
     <string name="msg_disabled_by_admin">L\'alministrador desactivó la función</string>
     <string name="allow_rotation_title">Permitir el voltéu de la pantalla d\'aniciu</string>
     <string name="allow_rotation_desc">Cuando se voltia\'l preséu</string>
@@ -198,5 +198,5 @@
     <string name="ps_container_transition">Cambiar al espaciu priváu</string>
     <string name="ps_add_button_label">Instalar aplicaciones</string>
     <string name="ps_add_button_content_description">Instalar aplicaciones nel espaciu priváu</string>
-    <string name="bubble_bar_overflow_description">Menú adicional</string>
+    <string name="bubble_bar_overflow_description">Menú flotante</string>
 </resources>

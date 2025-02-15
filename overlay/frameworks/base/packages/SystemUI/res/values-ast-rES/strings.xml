@@ -56,12 +56,12 @@
     <string name="hdmi_cec_set_menu_language_accept">Camudar la llingua</string>
     <string name="hdmi_cec_set_menu_language_decline">Caltener l\'actual</string>
     <string name="share_wifi_button_text">Compartir la Wi\u2011Fi</string>
-    <string name="wifi_debugging_title">¿Quies permitir la depuración ensin filos nesta rede?</string>
+    <string name="wifi_debugging_title">¿Quies permitir la depuración ensin fillo nesta rede?</string>
     <string name="wifi_debugging_message">Nome de la rede (SSID)\n<xliff:g id="ssid" example="My wifi">%1$s</xliff:g>\n\nDireición Wi\u2011Fi (BSSID)\n<xliff:g id="bssid" example="AB:CD:EF:12:34:56">%2$s</xliff:g></string>
     <string name="wifi_debugging_always">Permitir siempre nesta rede</string>
     <string name="wifi_debugging_allow">Permitir</string>
-    <string name="wifi_debugging_secondary_user_title">Nun se permite la depuración ensin filos</string>
-    <string name="wifi_debugging_secondary_user_message">L\u2019usuariu que tien la sesión aniciada nesti preséu nun pue activar la depuración ensin filos. Pa usar esta función, cambia al usuariu alministrador.</string>
+    <string name="wifi_debugging_secondary_user_title">Nun se permite la depuración ensin fillo</string>
+    <string name="wifi_debugging_secondary_user_message">L\u2019usuariu que tien la sesión aniciada nesti preséu nun pue activar la depuración ensin fillo. Pa usar esta función, cambia al usuariu alministrador.</string>
     <string name="usb_contaminant_title">El puertu USB ta inhabilitáu</string>
     <string name="usb_contaminant_message">Pa protexer el preséu de líquidu o porquería, inhabilitóse\u2019l puertu USB y nun va detectar nengún accesoriu.\n\nCuando yá se pueda volver usar el puertu USB, va apaecer un avisu.</string>
     <string name="usb_port_enabled">Habilitóse\'l puertu USB pa detectar cargadores y accesorios</string>
@@ -357,7 +357,7 @@
     <string name="quick_settings_contrast_label">Contraste</string>
     <string name="quick_settings_contrast_standard">Estándar</string>
     <string name="quick_settings_contrast_medium">Mediu</string>
-    <string name="quick_settings_contrast_high">Altu</string>
+    <string name="quick_settings_contrast_high">Fuerte</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">¿Quies desbloquiar el micrófonu del preséu?</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">¿Quies desbloquiar la cámara del preséu?</string>
     <string name="sensor_privacy_start_use_mic_camera_dialog_title">¿Quies desbloquiar la cámara y el micrófonu?</string>
@@ -441,7 +441,7 @@
     <string name="interruption_level_priority_twoline">Namás con\n
 prioridá</string>
     <string name="interruption_level_alarms_twoline">Namás\nalarmes</string>
-    <string name="keyguard_indication_charging_time_wireless"><xliff:g id="percentage">%2$s</xliff:g> • En carga, ensin filos • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
+    <string name="keyguard_indication_charging_time_wireless"><xliff:g id="percentage">%2$s</xliff:g> • En carga, ensin filo • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
     <string name="keyguard_indication_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • En carga • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
     <string name="keyguard_indication_charging_time_fast"><xliff:g id="percentage">%2$s</xliff:g> • En carga, rápida • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
     <string name="keyguard_indication_charging_time_slowly"><xliff:g id="percentage">%2$s</xliff:g> • En carga, lenta • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
@@ -571,7 +571,7 @@ prioridá</string>
     <string name="volume_panel_dialog_settings_button">Configuración</string>
     <string name="volume_panel_captioning_title">Sotítulos en tiempu real</string>
     <string name="csd_lowered_title" product="default">El volume baxó a un nivel más seguru</string>
-    <string name="csd_system_lowered_text" product="default">El volume de los auriculares tuvo altu más tiempu del aconseyáu</string>
+    <string name="csd_system_lowered_text" product="default">El volume de los auriculares tuvo fuerte más tiempu del aconseyáu</string>
     <string name="csd_500_system_lowered_text" product="default">El volume de los auriculares superó la llende segura d\'esta selmana</string>
     <string name="csd_button_keep_listening" product="default">Siguir escuchando</string>
     <string name="csd_button_lower_volume" product="default">Baxar el volume</string>
@@ -640,7 +640,7 @@ prioridá</string>
     <string name="status_bar_work">Perfil llaboral</string>
     <string name="status_bar_airplane">Mou avión</string>
     <string name="zen_alarm_warning_indef">Nun vas sentir la próxima alarma (<xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>) sacante que desactives esta opción enantes</string>
-    <string name="zen_alarm_warning">Nun vas sentir la próxima alarma (<xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>)</string>
+    <string name="zen_alarm_warning">Nun vas escuchar la próxima alarma (<xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>)</string>
     <string name="alarm_template">Hora: <xliff:g id="when" example="7:00 AM">%1$s</xliff:g></string>
     <string name="alarm_template_far">Día: <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
     <string name="accessibility_status_bar_hotspot">Puntu Wi-Fi</string>
@@ -924,7 +924,7 @@ prioridá</string>
     <string name="mobile_data_disable_message">Nun vas tener accesu a los datos nin a internet pente «<xliff:g id="carrier" example="T-Mobile">%s</xliff:g>». La conexón a internet namás va tar disponible per Wi-Fi.</string>
     <string name="mobile_data_disable_message_default_carrier">la to operadora</string>
     <string name="auto_data_switch_disable_title">¿Quies volver a «<xliff:g id="carrier" example="T-Mobile">%s</xliff:g>»?</string>
-    <string name="auto_data_switch_disable_message">Los datos móviles nun van cambiar automáticamente en función de la disponibilidá</string>
+    <string name="auto_data_switch_disable_message">Los datos móviles nun van cambiar automáticamente según la disponibilidá</string>
     <string name="auto_data_switch_dialog_negative_button">Non, gracies</string>
     <string name="auto_data_switch_dialog_positive_button">Sï, cambiar</string>
     <string name="touch_filtered_warning">Pola mor d\'una aplicación que bloquia la solicitú de
@@ -1105,7 +1105,7 @@ prioridá</string>
     <string name="media_output_dialog_multiple_devices">Seleicionáronse <xliff:g id="count" example="2">%1$d</xliff:g> preseos</string>
     <string name="media_output_dialog_disconnected">(desconectóse)</string>
     <string name="media_output_dialog_connect_failed">Nun se pue cambiar. Toca pa volver tentalo.</string>
-    <string name="media_output_dialog_pairing_new">Conexón d\'un preséu</string>
+    <string name="media_output_dialog_pairing_new">Conectar un preséu</string>
     <string name="media_output_dialog_launch_app_text">Pa tresmitir esta sesión, abri l\'aplicación.</string>
     <string name="media_output_dialog_unknown_launch_app_name">Aplicación desconocida</string>
     <string name="media_output_dialog_button_stop_casting">Dexar de tresmitir</string>
@@ -1152,7 +1152,7 @@ prioridá</string>
     <string name="new_story_status">Historia nueva</string>
     <string name="new_story_status_content_description">«<xliff:g id="name" example="Anna">%1$s</xliff:g>» compartió una historia nueva</string>
     <string name="video_status">Viendo</string>
-    <string name="audio_status">Sintiendo</string>
+    <string name="audio_status">Escuchando</string>
     <string name="game_status">Reproduciendo</string>
     <string name="empty_user_name">Collacios</string>
     <string name="empty_status">¿Falamos pela nueche?</string>

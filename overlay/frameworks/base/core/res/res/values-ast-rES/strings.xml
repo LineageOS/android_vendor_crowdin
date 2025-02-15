@@ -234,8 +234,8 @@
     <string name="power_dialog" product="tv">Opciones d\'Android TV</string>
     <string name="power_dialog" product="default">Opciones del teléfonu</string>
     <string name="silent_mode">Mou silenciosu</string>
-    <string name="turn_on_radio">Activar la conexón ensin filos</string>
-    <string name="turn_off_radio">Desactivar la conexón ensin filos</string>
+    <string name="turn_on_radio">Activar la conexón ensin fillo</string>
+    <string name="turn_off_radio">Desactivar la conexón ensin fillo</string>
     <string name="screen_lock">Bloquiar la pantalla</string>
     <string name="power_off">Apagar</string>
     <string name="silent_mode_silent">Timbre desactiváu</string>
@@ -358,7 +358,7 @@
     <string name="permgrouplab_camera">Cámara</string>
     <string name="permgroupdesc_camera">fechura d\'imáxenes y grabación de vídeos</string>
     <string name="permgrouplab_nearby_devices">Preseos próximos</string>
-    <string name="permgroupdesc_nearby_devices">descubrimientu de preseos y conexón con ellos</string>
+    <string name="permgroupdesc_nearby_devices">descubrimientu de preseos próximos y conexón con ellos</string>
     <string name="permgrouplab_calllog">Rexistru de llamaes</string>
     <string name="permgroupdesc_calllog">llectura y escritura nel rexistru de llamaes telefóniques</string>
     <string name="permgrouplab_phone">Teléfonu</string>
@@ -777,7 +777,7 @@
       llamada telefónica entrante y vuelve activalu cuando fine esa llamada.</string>
     <string name="permlab_requestPasswordComplexity">solicitú de la complexidá del bloquéu de pantalla</string>
     <string name="permdesc_requestPasswordComplexity">Permite que l\'aplicación sepa\'l
-        nivel de complexidá del bloquéu (altu, mediu, baxu o nengún), qu\'indica la llongura de les
+        nivel de complexidá del bloquéu (altu, medianu, baxu o nengún), qu\'indica la llongura de les
         contraseñes y el tipu de bloquéu de pantalla posibles. L\'aplicación tamién pue suxerir que
         los usuarios anueven el bloquéu de pantalla a un nivel determináu, mas estos puen inorar
         estes recomendaciones. Decátate que\'l bloquéu de pantalla nun s\'atroxa como testu ensin
@@ -958,7 +958,7 @@
     <string name="permlab_invokeCarrierSetup">invocación de l\'aplicación de configuración fornida pola operadora</string>
     <string name="permdesc_invokeCarrierSetup">Permite que\'l titular invoque l\'aplicación de configuración fornida pola operadora. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
     <string name="permlab_accessNetworkConditions">conocimientu de les observaciones tocante a les condiciones de la rede</string>
-    <string name="permdesc_accessNetworkConditions">Permite que l\'aplicación conoza les observaciones de les condiciones de la rede. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
+    <string name="permdesc_accessNetworkConditions">Permite qu\'una aplicación conoza les observaciones de les condiciones de la rede. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
     <string name="permlab_setInputCalibration">cambéu de la calibración del preséu d\'entrada</string>
     <string name="permdesc_setInputCalibration">Permite que l\'aplicación modifique los parámetros de calibración de la pantalla táctil. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
     <string name="permlab_accessDrmCertificates">accesu a los certificaos DRM</string>
@@ -1183,7 +1183,7 @@
     <string name="lockscreen_missing_sim_instructions_long">Falta la SIM o nun se pue lleer. Amiesta una.</string>
     <string name="lockscreen_permanent_disabled_sim_message_short">La SIM quedó inutilizable.</string>
     <string name="lockscreen_permanent_disabled_sim_instructions">La SIM inhabilitóse dafechu.\n
-    Ponte en contautu col fornidor de servicios ensin filos pa consiguir otra.</string>
+    Ponte en contautu col fornidor de servicios ensin fillo pa consiguir otra.</string>
     <string name="lockscreen_transport_prev_description">Pista anterior</string>
     <string name="lockscreen_transport_next_description">Pista siguiente</string>
     <string name="lockscreen_transport_pause_description">Posar</string>
@@ -1683,9 +1683,9 @@
     <string name="adb_active_notification_title">Depuración per USB</string>
     <string name="adb_active_notification_message">Toca pa desactivar la depuración per USB</string>
     <string name="adb_active_notification_message" product="tv">Seleiciona esti avisu pa desactivar la depuración per USB.</string>
-    <string name="adbwifi_active_notification_title">Depuración ensin filos conectada</string>
-    <string name="adbwifi_active_notification_message">Toca pa desactivar la depuración ensin filos</string>
-    <string name="adbwifi_active_notification_message" product="tv">Seleiciona esti avisu pa desactivar la depuración ensin filos.</string>
+    <string name="adbwifi_active_notification_title">Depuración ensin fillo conectada</string>
+    <string name="adbwifi_active_notification_message">Toca pa desactivar la depuración ensin fillo</string>
+    <string name="adbwifi_active_notification_message" product="tv">Seleiciona esti avisu pa desactivar la depuración ensin fillo.</string>
     <string name="test_harness_mode_notification_title">Mou «Prueba Harness» activáu</string>
     <string name="test_harness_mode_notification_message">Reafita\'l preséu pa desactivar el mou «Prueba Harness».</string>
     <string name="console_running_notification_title">Consola de serie activada</string>
@@ -1942,7 +1942,7 @@
     <string name="default_audio_route_name_usb">USB</string>
     <string name="default_audio_route_category_name">Sistema</string>
     <string name="bluetooth_a2dp_audio_route_name">Audiu per Bluetooth</string>
-    <string name="wireless_display_route_description">Pantalla ensin filos</string>
+    <string name="wireless_display_route_description">Pantalla ensin fillo</string>
     <string name="media_route_button_content_description">Tresmitir</string>
     <string name="media_route_chooser_title">Conexón al preséu</string>
     <string name="media_route_chooser_title_for_remote_display">Tresmisión de la pantalla al preséu</string>
@@ -2031,11 +2031,11 @@
     </string>
     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
     <string name="kg_reordering_delete_drop_target_text">Quitar</string>
-    <string name="safe_media_volume_warning" product="default">       ¿Quies xubir el volume penriba del nivel aconseyáu?\n\nEscuchar l\'audiu a volume altu demientres munchu tiempu pue dañar l\'audición.
+    <string name="safe_media_volume_warning" product="default">       ¿Quies poner el volume más fuerte del nivel aconseyáu?\n\nEscuchar l\'audiu a volume fuerte demientres munchu tiempu pue dañar l\'audición.
     </string>
-    <string name="csd_dose_reached_warning" product="default">        \"¿Quies siguir escuchando a un volume eleváu?\n\nEl volume de los auriculares tuvo altu más tiempu del aconseyáu, lo que pue dañar l\'audición.\"
+    <string name="csd_dose_reached_warning" product="default">        \"¿Quies siguir escuchando a un volume fuerte?\n\nEl volume de los auriculares tuvo fuerte más tiempu del aconseyáu, lo que pue dañar l\'audición.\"
     </string>
-    <string name="csd_momentary_exposure_warning" product="default">        \"Detectóse un soníu fuerte\n\nEl volume de los auriculares tuvo más altu de lo aconseyao, lo que pue dañar l\'audición.\"
+    <string name="csd_momentary_exposure_warning" product="default">        \"Detectóse un soníu fuerte\n\nEl volume de los auriculares tuvo más fuerte de lo aconseyao, lo que pue dañar l\'audición.\"
     </string>
     <string name="accessibility_shortcut_warning_dialog_title">¿Quies usar l\'atayu «Accesibilidá»?</string>
     <string name="accessibility_shortcut_toogle_warning">        Cuando l\'atayu ta activáu, primi los botones del volume demientres 3 segundos
@@ -2070,10 +2070,10 @@
     <string name="accessibility_dialog_touch_filtered_warning">Hai una aplicación que ta escondiendo la solicitú
         de permisu, polo que nun se pue verificar la to rempuesta.</string>
     <string name="accessibility_select_shortcut_menu_title">Toca una función pa comenzar a usala:</string>
-    <string name="accessibility_edit_shortcut_menu_button_title">Escueyi qué funciones usar
+    <string name="accessibility_edit_shortcut_menu_button_title">Escueyi qué funciones van usase
         col botón «Accesibilidá»
     </string>
-    <string name="accessibility_edit_shortcut_menu_volume_title">Escueyi qué funciones usar
+    <string name="accessibility_edit_shortcut_menu_volume_title">Escueyi qué funciones van usase
         col atayu de les tecles del volume
     </string>
     <string name="accessibility_uncheck_legacy_item_warning">        «<xliff:g id="service_name" example="TalkBack">%s</xliff:g>» desactivóse</string>
@@ -2459,9 +2459,9 @@
     <string name="autofill_save_type_generic_card">tarxeta</string>
     <string name="autofill_save_type_username">nome d\'usuariu</string>
     <string name="autofill_save_type_email_address">direición de corréu electrónicu</string>
-    <string name="etws_primary_default_message_earthquake">Mantén la calma y busca refuxu cierca.</string>
+    <string name="etws_primary_default_message_earthquake">Mantén la calma y busca refuxu cerca.</string>
     <string name="etws_primary_default_message_tsunami">Marcha nel intre de les marines y les riberes, y busca llugares más seguros como terrenos elevaos.</string>
-    <string name="etws_primary_default_message_earthquake_and_tsunami">Mantén la calma y busca refuxu cierca.</string>
+    <string name="etws_primary_default_message_earthquake_and_tsunami">Mantén la calma y busca refuxu cerca.</string>
     <string name="etws_primary_default_message_test">Prueba de mensaxes d\'emerxencia</string>
     <string name="notification_reply_button_accessibility">Responder</string>
     <string name="mmcc_authentication_reject">Refugóse la SIM pal serviciu de voz</string>
@@ -2514,7 +2514,7 @@
     <string name="nas_upgrade_notification_learn_more_content">Los avisos ameyoraos sustituyeron los avisos adautables n\'Android 12. Esta función amuesa aiciones y rempuestes suxeríes, y organiza los avisos.\n\nLos avisos ameyoraos puen acceder al conteníu de los avisos, incluyida la información personal como\'l nome y los mensaxes de los contautos. Esta función tamién pue escartar o responder a los avisos, como les llamaes telefóniques y controlar el mou «Nun molestar».</string>
     <string name="dynamic_mode_notification_channel_name">Avisu d\'información del mou Rutina</string>
     <string name="dynamic_mode_notification_title">Activóse l\'aforrador d\'enerxía</string>
-    <string name="dynamic_mode_notification_summary">Ta amenorgándose l\'usu de la batería p\'aumentar la so duración</string>
+    <string name="dynamic_mode_notification_summary">Ta amenorgándose l\'usu de la batería pa prollongar la so duración</string>
     <string name="battery_saver_notification_channel_name">Aforrador d\'enerxía</string>
     <string name="battery_saver_off_notification_title">Desactivóse l\'aforrador d\'enerxía</string>
     <string name="battery_saver_charged_notification_summary" product="default">El teléfonu yá cargó abondo. Les funciones yá nun tán torgaes.</string>

@@ -30,7 +30,7 @@
     <string name="helper_title_computer">Servicios de Google Play</string>
     <string name="helper_summary_computer">«<xliff:g id="app_name" example="GMS">%1$s</xliff:g>» ta solicitanto permisu en nome del preséu «<xliff:g id="display_name" example="Chromebook">%2$s</xliff:g>» p\'acceder al conteníu multimedia y los avisos del teléfonu</string>
     <string name="title_nearby_device_streaming">¿Quies permitir que\'l preséu &lt;strong&gt;<xliff:g id="device_name" example="NearbyStreamer">%1$s</xliff:g>&lt;/strong&gt; faiga esta aición?</string>
-    <string name="helper_summary_nearby_device_streaming">«<xliff:g id="app_name" example="NearbyStreamerApp">%1$s</xliff:g>» ta solicitanto permisu en nome del preséu «<xliff:g id="device_name" example="NearbyDevice">%2$s</xliff:g>» pa emitir aplicaciones y otres funciones del sistema a los preseos próximos</string>
+    <string name="helper_summary_nearby_device_streaming">«<xliff:g id="app_name" example="NearbyStreamerApp">%1$s</xliff:g>» ta solicitando permisu en nome del preséu «<xliff:g id="device_name" example="NearbyDevice">%2$s</xliff:g>» pa emitir aplicaciones y otres funciones del sistema a los preseos próximos</string>
     <string name="profile_name_generic">preséu</string>
     <string name="summary_generic">Esta aplicación va ser a sincronizar información, como\'l nome de los llamadores, ente\'l teléfonu y el preséu escoyíu</string>
     <string name="consent_yes">Permitir</string>

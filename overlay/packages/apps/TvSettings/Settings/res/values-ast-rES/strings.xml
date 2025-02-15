@@ -123,6 +123,7 @@
     <string name="bluetooth_ir_entry_title">Configurar los botones del mandu</string>
     <string name="bluetooth_ir_entry_subtitle">Controla\'l volume, l\'encendíu, la entrada de TVs, receutores y barres de soníu</string>
     <string name="bluetooth_toggle_active_audio_output_title">Usar pal audiu de la TV</string>
+    <string name="system_developer_options">Opciones pa desendolcadores</string>
     <string name="enterprise_privacy_number_packages_lower_bound"> {count, plural,
         one {}=1    {# aplicación como mínimu}
         other {# aplicaciones como mínimu}
@@ -210,6 +211,7 @@
     <string name="accessibility_interaction_controls_category_title">Controles d\'interación</string>
     <string name="accessibility_audio_and_onscreen_text_category_title">Audiu y testu na pantalla</string>
     <string name="accessibility_experimental_category_title">Esperimental</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title">Testu de contraste fuerte</string>
     <string name="accessibility_toggle_bold_text_preference_title">Testu en negrina</string>
     <string name="accessibility_color_correction">Correición del color</string>
     <string name="color_correction_usage">Usar la correición del color</string>
@@ -251,6 +253,8 @@
     <string name="restricted_profile_enter_preference_screen">¿Acceder al perfil torgáu?</string>
     <string name="restricted_profile_enter_not_found_placeholder">Nun hai nengún perfil torgáu</string>
     <string name="restricted_profile_enter_already_entered_placeholder">Yá s\'accedió</string>
+    <string name="device_apps_app_management_force_stop">Forciar la parada</string>
+    <string name="device_apps_app_management_force_stop_desc">Si forcies la parada d\'una aplicación, ye posible que nun funcione bien.</string>
     <string name="unused_apps">Aplicaciones que nun s\'usen</string>
     <string name="device_energy_saver_timeout_description"><xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
     <string name="device_energy_saver_confirmation_title">Confirmación de la opción d\'alimentación y enerxía</string>

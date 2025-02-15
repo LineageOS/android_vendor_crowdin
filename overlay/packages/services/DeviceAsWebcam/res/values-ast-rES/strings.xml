@@ -40,5 +40,5 @@
     <string name="list_item_text_telephoto_camera">Cámara con teleoxetivu</string>
     <string name="list_item_text_other_camera">Otra cámara</string>
     <string name="list_item_text_unknown_camera">Cámara desconocida</string>
-    <string name="camera_options_list_description">Opciones de cámara disponible</string>
+    <string name="camera_options_list_description">Opciones de cámara disponibles</string>
 </resources>
