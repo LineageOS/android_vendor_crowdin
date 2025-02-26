@@ -158,7 +158,7 @@
     <string name="message_coordinates">Cyfesurynnau:</string>
     <string name="maximum_waiting_time">Terfyn amser aros:</string>
     <string name="seconds">eiliadau</string>
-    <string name="message_copied">Neges wedi\'i chopio</string>
+    <string name="message_copied">Neges wedi\u2019i chopïo</string>
     <string name="notification_cb_settings_changed_title">Gosodiadau wedi\'u newid gan y darparwr gwasanaeth</string>
     <string name="notification_cb_settings_changed_text">Tapia i weld gosodiadau rhybuddion argyfwng</string>
 </resources>

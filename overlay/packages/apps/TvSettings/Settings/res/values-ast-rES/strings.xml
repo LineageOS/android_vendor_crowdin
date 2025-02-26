@@ -14,45 +14,27 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="surround_sound_format_dts_uhd">DTS-UHD</string>
-    <string name="surround_sound_format_dolby_mat">Dolby Atmos con Dolby TrueHD</string>
-    <string name="surround_sound_format_dolby_truehd">Dolby TrueHD</string>
-    <string name="surround_sound_format_e_ac3_joc">Dolby Atmos con Dolby Digital Plus</string>
-    <string name="surround_sound_supported_title">FORMATOS COMPATIBLES</string>
-    <string name="surround_sound_unsupported_title">FORMATOS INCOMPATIBLES</string>
-    <string name="hdmi_cec_settings_title">HDMI-CEC</string>
-    <string name="font_scale_sample_text_title">Testu d\'exemplu</string>
-    <string name="hdr_format_supported_title">FORMATOS COMPATIBLES</string>
-    <string name="hdr_format_unsupported_title">FORMATOS INCOMPATIBLES</string>
-    <string name="hdr_format_hdr10">HDR10</string>
-    <string name="hdr_format_hlg">HLG</string>
-    <string name="hdr_format_hdr10plus">HDR10+</string>
-    <string name="hdr_format_dolby_vision">Dolby Vision</string>
-    <string name="bluetooth_toggle_title">Bluetooth</string>
-    <string name="bluetooth_known_devices_category">Accesorios</string>
-    <string name="bluetooth_official_remote_category">Mandu</string>
-    <string name="number_of_device_admins_none">Nun hai nenguna aplicación activa</string>
-    <plurals name="enterprise_privacy_number_packages">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> aplicación</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> aplicaciones</item>
+    <string name="settings_app_name">Configuración</string>
+    <string name="launcher_settings_app_name">Configuración</string>
+    <string name="general_action_yes">Sí</string>
+    <string name="general_action_no">Non</string>
+    <string name="header_category_suggestions">Suxerencies</string>
+    <string name="header_category_quick_settings">Configuración rápida</string>
+    <string name="header_category_general_settings">Configuración xeneral</string>
+    <string name="font_scale_preview_text_body">«Asturies» ye’l nome que güei se da a la comunidá autónoma del Principáu d’Asturies. El territoriu que llamaron asina na documentación medieval apaez delles vegaes como Asturies y otres como Asturias acordies colos vezos dialeutales de la so xente. Por embargu, el nome emplegáu na actualidá ye una adautación del documentáu de vieyo como Asturia que, según pescanciamos, habría entendese como referencia más llarga a tol país de los ástures. El porqué d’esti nome deberíase nun primer momentu al d’un importante ríu al oriente del país onde corría L’Esla, lo mesmo que más al norte y tamién al este otra corriente documentada na Edá Media, Estola, identifícase col nuesu actual Seya.\n\nYe posible que del nome prerromanu d’eses agües venga’l términu d’ástures con que los romanos se referiríen a la xente de les sos orielles y, darréu, a ún de los pueblos prellatinos d’Hispania, l’últimu que conquistare Roma na Península. Les referencies que se facíen a esti pueblu unes vegaes yeren direutes, otres pente medies d’axetivos o antropónimos.</string>
+    <string name="system_developer_options">Opciones pa desendolcadores</string>
+    <plurals name="show_dev_countdown">
+        <item quantity="one">Tas a <xliff:g id="step_count">%1$d</xliff:g> calcu d\'activar la configuración pa desendolcadores.</item>
+        <item quantity="other">Tas a <xliff:g id="step_count">%1$d</xliff:g> calcos d\'activar la configuración pa desendolcadores.</item>
     </plurals>
-    <string name="enterprise_privacy_input_method">Tecláu predetermináu</string>
-    <string name="do_disclosure_generic">La to organización xestiona esti preséu.</string>
-    <string name="do_disclosure_with_name">«<xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>» xestiona esti preséu.</string>
-    <string name="about_version">Versión del SO d\'Android TV</string>
-    <string name="about_build">Compilación del SO d\'Android TV</string>
-    <string name="ssl_ca_cert_warning">La rede pue tar supervisada</string>
-    <string name="done_button">Fecho</string>
-    <string name="wifi_setting_other_options_add_network_via_easyconnect">Conexón rápida</string>
-    <string name="wifi_setting_other_options_add_network_via_easyconnect_info_summary">        La conexón rápida ayúdate a conectate aína a redes Wi-Fi pente l\'escanéu d\'un códigu QR nel teléfonu.
+    <string name="accessibility_toggle_high_text_contrast_preference_title">Testu de contraste fuerte</string>
+    <string name="system_desc_verify_apps_over_usb">Comprueba les aplicaciones instalaes per ADB/ADT pa detectar comportamientos dañibles</string>
+    <string name="restricted_profile_configure_title">Configuración</string>
+    <string name="device_apps_app_management_force_stop">Forciar la parada</string>
+    <string name="device_apps_app_management_force_stop_desc">Si forcies la parada d\'una aplicación, ye posible que nun funcione bien.</string>
+    <string name="alarms_and_reminders_description">        Permite que les aplicaciones configuren alarmes y programen aiciones a hores determinaes.
+        Esti permisu dexa que les aplicaciones s\'executen en segundu planu y, polo tanto, ye posible
+        que consuman más batería.\n\nSi esti permisu ta desactiváu, les alarmes esistentes y los eventos
+        programaos a hores determinaos nun van funcionar.
     </string>
-    <string name="storage_dcim_usage">Semeyes y vídeos</string>
-    <string name="microphone">Micrófonu</string>
-    <string name="camera">Cámara</string>
-    <string name="admin_support_more_info">Más detalles</string>
-    <string name="remove_and_uninstall_device_admin">Desactivar y desinstalar</string>
-    <string name="channels_and_inputs_title">Canales y entraes</string>
-    <string name="channels_settings_title">Canales</string>
-    <string name="external_inputs_settings_title">Entraes esternes</string>
-    <string name="power_and_energy">Potencia y enerxía</string>
 </resources>

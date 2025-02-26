@@ -14,6 +14,5 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="notification_incoming_call_join_number">        Llamada entrante * <xliff:g id="phone_number" example="511">%1$s</xliff:g>
-    </string>
+    <string name="setting_title">Configuración</string>
 </resources>

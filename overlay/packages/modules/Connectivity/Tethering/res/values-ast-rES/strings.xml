@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="tethered_notification_title">Tethering o puntu Wi-Fi activos</string>
+    <string name="tethered_notification_title">Tethering o puntu Wi-Fi activu</string>
     <string name="tethered_notification_message">Toca pa configurar.</string>
     <string name="disable_tether_notification_title">El tethering ta desactiváu</string>
     <string name="disable_tether_notification_message">Ponte en contautu col alministrador pa consiguir más información</string>

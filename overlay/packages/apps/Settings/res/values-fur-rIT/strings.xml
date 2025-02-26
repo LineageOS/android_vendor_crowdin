@@ -226,8 +226,8 @@
     <string name="dlg_remove_locales_error_title">Impussibil gjavâ dutis lis lenghis</string>
     <string name="dlg_remove_locales_error_message">Ten almancul une lenghe preferide</string>
     <string name="locale_not_translated">Al è pussibil che no sedi disponibile in cualchi aplicazion</string>
-    <string name="action_drag_label_move_up">Môf in sù</string>
-    <string name="action_drag_label_move_down">Môf in jù</string>
+    <string name="action_drag_label_move_up">Môf insù</string>
+    <string name="action_drag_label_move_down">Môf injù</string>
     <string name="action_drag_label_move_top">Môf insom</string>
     <string name="action_drag_label_move_bottom">Môf da pît</string>
     <string name="action_drag_label_remove">Gjave la lenghe</string>
@@ -994,7 +994,7 @@
     <string name="wifi_configure_settings_preference_summary_wakeup_off">Il Wi\u2011Fi no si ative in automatic</string>
     <string name="wifi_access_points">Rêts Wi\u2011Fi</string>
     <string name="wifi_menu_more_options">Altris opzions</string>
-    <string name="wifi_menu_p2p">Wi\u2011Fi Direct</string>
+    <string name="wifi_menu_p2p">Wi\u2011Fi Diret</string>
     <string name="wifi_menu_scan">Scansione</string>
     <string name="wifi_menu_advanced">Avanzadis</string>
     <string name="wifi_menu_configure">Configure</string>
@@ -1176,7 +1176,7 @@
     <string name="wifi_type_11AX">Wi\u2011Fi 6</string>
     <string name="wifi_type_11AC">Wi\u2011Fi 5</string>
     <string name="wifi_type_11N">Wi\u2011Fi 4</string>
-    <string name="wifi_p2p_settings_title">Wi\u2011Fi Direct</string>
+    <string name="wifi_p2p_settings_title">Wi\u2011Fi Diret</string>
     <string name="wifi_p2p_device_info">Informazions dispositîf</string>
     <string name="wifi_p2p_persist_network">Visiti cheste conession</string>
     <string name="wifi_p2p_menu_search">Cîr dispositîfs</string>
@@ -3692,7 +3692,7 @@
     <string name="keywords_display_night_display">atenuazion schermi, gnot, tonalitât, turni di gnot, luminositât, colôr schermi, colôr</string>
     <string name="keywords_display_wallpaper">fonts, fondâl, personalize, personalize schermi</string>
     <string name="keywords_display_font_size">dimension test</string>
-    <string name="keywords_display_cast_screen">proiezion, trasmission, spielâ il schermi, condivision schermi, spielâ, scondivît schermi, trasmission schermi</string>
+    <string name="keywords_display_cast_screen">proiezion, trasmission, spieglâ il schermi, condivision schermi, spieglâ, condividi schermi, trasmission schermi</string>
     <string name="keywords_storage">spazi, disc, disc fis, utilizazion dispositîf</string>
     <string name="keywords_battery">consum energjetic, ricjarie</string>
     <string name="keywords_battery_usage">visualizâ utilizazion batarie, utilizazion batarie, consum di energjie</string>

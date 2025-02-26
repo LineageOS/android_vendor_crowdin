@@ -129,7 +129,7 @@
   <string name="call_log_action_set_up_video">Gosod galwadau fideo</string>
   <string name="call_log_action_invite_video">Gwahodd i alwad fideo</string>
   <string name="call_log_action_send_message">Anfon neges</string>
-  <string name="call_log_action_details">Manylion yr alwad</string>
+  <string name="call_log_action_details">Manylion galwad</string>
   <string name="call_log_action_share_voicemail">Anfon at …</string>
   <string name="call_log_action_call">        Galw <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>

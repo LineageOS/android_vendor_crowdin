@@ -14,5 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Llaveru</string>
+    <string name="title_select_cert">Seleición d\'un certificáu</string>
+    <string name="requesting_application">L\'aplicación «%s» solicitó un certificáu. La seleición d\'un certificáu va permitir que l\'aplicación use esta identidá colos sirvidores agora y nel futuru.</string>
+    <string name="requesting_server">L\'aplicación identificó al sirvidor solicitante como «%s», mas namás habríes permitir que l\'aplicación acceda al certificáu si t\'enfotes nella.</string>
+    <string name="install_new_cert_message">Pues instalar certificaos dende un ficheru PKCS#12 con estensión %1$s o %2$s allugáu nel almacenamientu esternu.</string>
+    <string name="allow_button">Seleicionar</string>
+    <string name="deny_button">Negar</string>
     <string name="loading_certs_message">«%s» ta buscando un certificáu…</string>
 </resources>
