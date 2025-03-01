@@ -960,8 +960,19 @@
         <item quantity="one"><xliff:g id="count">%d</xliff:g> aplicazion</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> aplicazions</item>
     </plurals>
+    <string name="enterprise_privacy_network_logs">Regjistri sul trafic di rêt plui resint</string>
+    <string name="enterprise_privacy_bug_reports">Segnalazion di erôr plui resinte</string>
+    <string name="enterprise_privacy_security_logs">Regjistri di sigurece plui resint</string>
     <string name="enterprise_privacy_none">Nissune</string>
+    <string name="enterprise_privacy_enterprise_installed_packages">Aplicazions instaladis</string>
+    <string name="enterprise_privacy_location_access">Autorizazions di localizazion</string>
+    <string name="enterprise_privacy_microphone_access">Autorizazions al microfon</string>
+    <string name="enterprise_privacy_camera_access">Autorizazions ae fotocjamare</string>
     <string name="enterprise_privacy_enterprise_set_default_apps">Aplicazions predefinidis</string>
+    <string name="enterprise_privacy_input_method">Tastiere predefinide</string>
+    <string name="enterprise_privacy_input_method_name">Met a <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
+    <string name="enterprise_privacy_global_http_proxy">Proxy HTTP globâl stabilît</string>
+    <string name="enterprise_privacy_ca_certs_personal">Credenziâls atendibilis tal to profîl personâl</string>
     <string name="enterprise_privacy_device_access_desc">        <li>L\'aministradôr al pues blocâ il sisteme di infotainment e ristabilî la password</li>\n
         <li>L\'aministradôr al pues eliminâ dâts sul sisteme di infotainment</li>
     </string>

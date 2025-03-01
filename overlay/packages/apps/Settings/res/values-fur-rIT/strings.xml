@@ -931,7 +931,7 @@
     <string name="wifi_settings_wep_networks_button_allow">Permet WEP</string>
     <string name="wifi_settings_ssid_block_button_close">Siere</string>
     <string name="wifi_settings_wep_networks_disconnect_title">Disconetisi di <xliff:g id="name">%1$s</xliff:g>?</string>
-    <string name="wifi_settings_wep_networks_disconnect_summary">Tu sês colegât a une rêt WEP. Se tu blochis chestis rêts, tu vignarâs disconetût/disconetude.</string>
+    <string name="wifi_settings_wep_networks_disconnect_summary">Tu sês colegât/colegade a une rêt WEP. Se tu blochis chestis rêts, tu vignarâs disconetût/disconetude.</string>
     <string name="wifi_show_advanced">Opzions avanzadis</string>
     <string name="wifi_advanced_toggle_description">Opzions avanzadis de liste a tende</string>
     <string name="wifi_advanced_toggle_description_collapsed">slargje</string>
@@ -2075,7 +2075,7 @@
     <string name="color_contrast_preview_email_send_date">2 dîs indaûr</string>
     <string name="color_contrast_preview_email_badge">Tornâ a contatâ?</string>
     <string name="color_contrast_preview_email_title">Rapuârt de trasfierte</string>
-    <string name="color_contrast_preview_email_body">Per vê altre assistence, contate \nme o Eline. Chest rapuart al sarà</string>
+    <string name="color_contrast_preview_email_body">Par vê altre assistence, contate \nme o Eline. Chest rapuart al sarà</string>
     <string name="color_contrast_preview_email_attachment_name">Spesis client</string>
     <string name="accessibility_turn_screen_darker_title">Scurìs il schermi</string>
     <string name="interaction_control_category_title">Controi di interazion</string>

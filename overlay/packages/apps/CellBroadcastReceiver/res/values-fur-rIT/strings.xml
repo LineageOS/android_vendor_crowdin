@@ -136,6 +136,7 @@
     <string name="cmas_opt_out_button_no">No</string>
     <string name="cb_list_activity_title">"Cronologjie alertis di emergjence"</string>
     <string name="action_delete">Elimine</string>
+    <string name="action_detail_info">Mostre in detai</string>
     <string-array name="alert_reminder_interval_entries">
         <item>Une volte</item>
         <item>Ogni 2 minûts</item>
