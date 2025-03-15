@@ -111,8 +111,11 @@
     <string name="private_space_continue_login_label">Sighi</string>
     <string name="fingerprint_intro_error_max">As agiuntu su nùmeru màssimu de imprentas</string>
     <string name="fingerprint_intro_error_unknown">Non podes agiùnghere àteras imprentas</string>
+    <string name="fingerprint_delete_title">Cantzella \'<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>\'</string>
+    <string name="no_screen_lock_issue_notification_text">Pro tènnere prus seguresa, cunfigura unu PIN, una secuèntzia o una crae pro custu dispositivu.</string>
     <string name="lock_settings_picker_title">Sèbera blocu de ischermu</string>
     <string name="lock_settings_picker_biometric_message">Sèbera su mètodu de còpia de su blocu de ischermu</string>
+    <string name="lock_settings_picker_admin_restricted_personal_message">Si t\'iscaresses su blocu de ischermu, s\'amministratzione IT tua ddu podet torrare a cunfigurare.</string>
     <string name="unlock_set_unlock_launch_picker_title">Blocu de ischermu</string>
     <string name="unlock_set_unlock_off_title">Perunu</string>
     <string name="unlock_set_unlock_none_title">Iscurre</string>
@@ -340,6 +343,7 @@
     <string name="invalid_size_value">No at fatu a carculare sa mannària de su pachete.</string>
     <string name="does_not_exist">S\'aplicatzione no esistit.</string>
     <string name="invalid_location">Sa positzione de s\'installatzione no est bàlida.</string>
+    <string name="system_package">Is atualizatziones de sistema non faghet a ddas installare in mèdios esternos.</string>
     <string name="heavy_weight_stop_description">Custa aplicatzione si podet firmare
         in seguresa. Si dda firmas, dias pòdere pèrdere unu pagu de su traballu de immoe.</string>
     <string name="background_process_stop_description">Custu est unu protzessu
@@ -354,8 +358,18 @@
     <string name="accessibility_magnification_triple_tap_warning_negative_button">Annulla</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Connoschèntzia avantzada</string>
     <string name="accessibility_button_location_title">Positzione</string>
+    <string name="accessibility_toggle_primary_mono_summary">Cumbina is canales cando reprodues àudio</string>
+    <string name="accessibility_autoclick_default_title">Incarcu automàticu disativadu</string>
     <string name="accessibility_autoclick_medium_title">Mesanu</string>
+    <string name="accessibility_vibration_settings_title">Vibratzione e tocu</string>
+    <string name="accessibility_vibration_settings_summary">Controlla s\'intensidade de sa vibratzione pro impreos diferentes</string>
+    <string name="accessibility_vibration_setting_disabled_for_silent_mode_summary">Cunfiguratzione disativada ca su dispositivu est postu a sa muda</string>
     <string name="accessibility_call_vibration_category_title">Mutidas</string>
+    <string name="accessibility_notification_alarm_vibration_category_title">Notìficas e isvèllias</string>
+    <string name="accessibility_interactive_haptics_category_title">Tocu interativu</string>
+    <string name="accessibility_vibration_primary_switch_title">Imprea sa vibratzione e su tocu</string>
+    <string name="accessibility_alarm_vibration_title">Vibratzione de s\'isvèllia</string>
+    <string name="accessibility_media_vibration_title">Vibratzione de is cuntenutos multimediales</string>
     <string name="captioning_more_options_title">Àteras optziones</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Sighi</string>
     <string name="accessibility_dialog_button_allow">Permite</string>
@@ -366,6 +380,7 @@
     <string name="process_network_tethering">Ancoràgiu web</string>
     <string name="process_stats_os_kernel">Nùcleu</string>
     <string name="tts_install_voices_cancel">Annulla</string>
+    <string name="tts_play">Reprodue</string>
     <string name="ca_certificate">Tzertificadu CA</string>
     <string name="request_manage_credentials_allow">Permite</string>
     <string name="no_certificate_management_app">Perunu</string>
@@ -443,6 +458,8 @@
     <string name="admin_device_owner_message">S\'amministradore tuo podet monitorare e gestire aplicatziones e datos
         assotziados cun custu dispositivu, incluende impostatziones, permissos, atzessu 
         corporativu, atividade de rete, e informatziones subra sa positzione de su dispositivu.</string>
+    <string name="fingerprint_swipe_for_notifications_title">Iscurre s\'imprenta digitale pro is notìficas</string>
+    <string name="fingerprint_gesture_screen_title">Iscurre s\'imprenta digitale</string>
     <string name="enterprise_privacy_header">Pro frunire s\'atzessu a is datos de traballu, s\'organizatzione diat pòdere modificare is impostatziones e installare su programma in su dispositivu.\n\nPro àteros detàllios, cuntata s\'amministradore de s\'organizatzione tua.</string>
     <string name="enterprise_privacy_exposure_changes_category">Càmbios fatos dae s\'amministradore de s\'organizatzione</string>
     <string name="enterprise_privacy_none">Perunu</string>
@@ -456,6 +473,8 @@
     <string name="storage_system">Sistema</string>
     <string name="location_category">Positzione</string>
     <string name="show_operator_name_title">Nùmene de sa rete</string>
+    <string name="media_output_title">Reprodue cuntenutos multimediales cun</string>
+    <string name="media_output_label_title">Reprodue <xliff:g id="label" example="Music Player">%s</xliff:g> in</string>
     <string name="network_disconnected">Disconnètidu</string>
     <string name="network_connected">Collegadu</string>
     <string name="wifi_no_related_sim_card">Perunu</string>
