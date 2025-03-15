@@ -138,7 +138,7 @@
     <string name="current_permissions_category">Permès atuâi</string>
     <string name="message_staging">Preparazion de aplicazion…</string>
     <string name="app_name_unknown">No cognossût</string>
-    <string name="permission_usage_title">Panel di control de riservatece</string>
+    <string name="permission_usage_title">Cruscot de riservatece</string>
     <string name="auto_permission_usage_summary">Viôt lis aplicazions che di resint a àn doprât permès</string>
     <string name="permission_group_usage_title">Utilizazion di <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
     <string name="perm_usage_adv_info_title">Viôt altris permès</string>
@@ -655,7 +655,7 @@ Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in r�
     <string name="privdash_label_24h">Ultimis 24 oris</string>
     <string name="privdash_label_7d">Ultins\n7 dîs</string>
     <string name="exempt_mic_camera_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al è protet di Android. Par vie che i tiei dâts a vegnin elaborâts su chest dispositîf, la utilizazion dai permès di cheste aplicazion no ven mostrade te sbare di stât o sul panel di control de riservatece. </string>
-    <string name="exempt_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al è protet di Android. Par vie che i tiei dâts a vegnin elaborâts su chest dispositîf, la utilizazion dai permès di cheste aplicazion no ven mostrade sul panel di control de riservatece. </string>
+    <string name="exempt_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al è protet di Android. Par vie che i tiei dâts a vegnin elaborâts su chest dispositîf, la utilizazion dai permès di cheste aplicazion no ven mostrade sul cruscot de riservatece. </string>
     <string name="blocked_camera_title">La fotocjamare dal dispositîf e je blocade</string>
     <string name="blocked_microphone_title">Il microfon dal dispositîf al è blocât</string>
     <string name="blocked_location_title">La posizion dal dispositîf e je disativade</string>
