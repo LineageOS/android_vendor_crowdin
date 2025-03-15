@@ -193,6 +193,7 @@
     <string name="screen_pinning_exit">Aplicatzione isblocada</string>
     <string name="stream_alarm">Isvèllia</string>
     <string name="stream_bluetooth_sco">Bluetooth</string>
+    <string name="media_output_label_title">Reproduende <xliff:g id="label" example="Music Player">%s</xliff:g> in</string>
     <string name="system_ui_tuner">Afinadore de s\'IU de sistema</string>
     <string name="status_bar">Istanca de istadu</string>
     <string name="enable_demo_mode">Ativa sa modalidade demo</string>
@@ -244,10 +245,16 @@
     <string name="controls_media_dismiss_button">Cua</string>
     <string name="controls_media_resume">Torra a cumintzare</string>
     <string name="controls_media_settings_button">Impostatziones</string>
+    <string name="controls_media_playing_item_description"><xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> de <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> s\'est reproduende dae <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
+    <string name="controls_media_button_play">Reprodue</string>
+    <string name="controls_media_smartspace_rec_title">Reprodue</string>
+    <string name="controls_media_smartspace_rec_item_description">Reprodue <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> de <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> dae <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
+    <string name="controls_media_smartspace_rec_item_no_artist_description">Reprodue <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> dae <xliff:g id="app_label" example="Spotify">%2$s</xliff:g></string>
     <string name="mobile_data_connection_active">Connètidu</string>
     <string name="qs_tile_request_dialog_add">Agiunghe casella</string>
     <string name="clipboard_edit_text_done">Fatu</string>
     <string name="rear_display_bottom_sheet_cancel">Annulla</string>
+    <string name="rear_display_accessibility_folded_animation">Dispositivu serràbile chi s\'est aberende</string>
     <string name="call_from_work_profile_close">Annulla</string>
     <string name="privacy_dialog_done_button">Fatu</string>
     <string name="privacy_dialog_collapse_action">Cuntrae</string>

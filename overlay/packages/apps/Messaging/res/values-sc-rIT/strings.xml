@@ -185,6 +185,7 @@
         <item quantity="one">Iscarta alligongiadu </item>
         <item quantity="other">Iscarta alligongiados</item>
     </plurals>
+    <string name="audio_play_content_description">Reprodue alligongiadu àudio</string>
     <string name="audio_pause_content_description">Pàusa</string>
     <string name="group_conversation_description">Tzarrada cun <xliff:g id="participants">%s</xliff:g></string>
     <string name="delete_subject_content_description">Cantzella sugetu</string>

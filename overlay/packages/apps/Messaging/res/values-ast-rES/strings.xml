@@ -18,10 +18,14 @@
     <string name="app_name">Mensaxería</string>
     <string name="share_intent_label">Mensaxería</string>
     <string name="action_settings">Configuración</string>
+    <string name="help_and_feedback_activity_label">Ayuda</string>
     <string name="settings_with_arrow">Configuración &gt;</string>
     <string name="settings">Configuración</string>
     <string name="contact_picker_all_contacts_tab_title">Tolos contautos</string>
+    <string name="contact_picker_hint_text">Calca p\'abrir la llista de contautos d\'esti preséu</string>
     <string name="action_share">Compartir</string>
+    <string name="posted_just_now">"Puramente agora"</string>
+    <string name="posted_now">"Agora"</string>
     <string name="message_status_sending">Unviando…</string>
     <string name="message_status_downloading">Baxando…</string>
     <string name="service_not_activated">El serviciu nun ta activáu na rede</string>
