@@ -1231,7 +1231,7 @@
     <string name="picture_in_picture_app_detail_switch">Permet picture-in-picture</string>
     <string name="picture_in_picture_empty_text">Nissune aplicazion instalade e supuarte il Picture-in-picture</string>
     <string name="picture_in_picture_app_detail_summary">Permet aes aplicazions di creâ barcons picture-in-picture intant che la aplicazion e je vierte o dopo che tu le lassis (par esempli, par continuâ a viodi un video).  Chest barcon al ven visualizât sore di altris aplicazions che tu dopris.</string>
-    <string name="alarms_and_reminders_description">        Permet aes aplicazions di configurâ sveis e programâ azions a timp.
+    <string name="alarms_and_reminders_description">        Permet aes aplicazions di pontâ sveis e programâ azions a timp.
         Chest al permet aes aplicazions di zirâ in sotfont, che al podarès consumâ plui energjie.\n\nSe chest permès
         al è disativât, lis sveis esistentis e i events a orari programâts de aplicazion no funzionaran.
     </string>

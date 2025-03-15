@@ -4069,7 +4069,7 @@
     <string name="runtime_permissions_summary_no_permissions_granted">Nissun permès concedût</string>
     <string name="runtime_permissions_summary_no_permissions_requested">Nissun permès domandât</string>
     <string name="runtime_permissions_summary_control_app_access">Controle l\'acès des aplicazions ai tiei dâts</string>
-    <string name="permissions_usage_title">Panel di control de riservatece</string>
+    <string name="permissions_usage_title">Cruscot de riservatece</string>
     <string name="permissions_usage_summary">Mostre lis aplicazions che di resint a àn doprât permès</string>
     <string name="unused_apps">Aplicazions no dopradis</string>
     <string name="unused_apps_summary">{count, plural,
