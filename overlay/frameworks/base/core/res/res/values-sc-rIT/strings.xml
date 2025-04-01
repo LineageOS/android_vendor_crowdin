@@ -1738,6 +1738,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="leave_accessibility_shortcut_on">Imprea su curtziadòrgiu</string>
     <string name="color_inversion_feature_name">Inversione de colores</string>
     <string name="color_correction_feature_name">Curretzione de colores</string>
+    <string name="reduce_bright_colors_feature_name">Iscuridade additzionale</string>
     <string name="hearing_aids_feature_name">Cùfias</string>
     <string name="accessibility_button_prompt_text">Sèbera una funtzione de impreare cando tocas su butone de atzessibilidade:</string>
     <string name="accessibility_magnification_chooser_text">Crèschida</string>

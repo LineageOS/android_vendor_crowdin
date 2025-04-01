@@ -15,6 +15,59 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="whichApplication">Complete la azion doprant</string>
+    <string name="whichApplicationNamed">Complete la azion doprant <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichApplicationLabel">Complete la azion</string>
+    <string name="whichViewApplication">Vierç cun</string>
+    <string name="whichViewApplicationNamed">Vierç cun <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichViewApplicationLabel">Vierç</string>
+    <string name="whichOpenHostLinksWith">Vierç i colegaments <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> cun</string>
+    <string name="whichOpenLinksWith">Vierç i colegaments cun</string>
+    <string name="whichOpenLinksWithApp">Vierç i colegaments cun <xliff:g id="application" example="Chrome">%1$s</xliff:g></string>
+    <string name="whichOpenHostLinksWithApp">Vierç i colegaments <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> cun <xliff:g id="application" example="Chrome">%2$s</xliff:g></string>
+    <string name="whichGiveAccessToApplicationLabel">Consint acès</string>
+    <string name="whichEditApplication">Modifiche cun</string>
+    <string name="whichEditApplicationNamed">Modifiche cun <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichEditApplicationLabel">Modifiche</string>
+    <string name="whichSendApplication">Condivît</string>
+    <string name="whichSendApplicationNamed">Condivît cun <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichSendApplicationLabel">Condivît</string>
+    <string name="whichSendToApplication">Mande doprant</string>
+    <string name="whichSendToApplicationNamed">Mande doprant <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichSendToApplicationLabel">Mande</string>
+    <string name="whichHomeApplication">Selezione une aplicazion pal inizi</string>
+    <string name="whichHomeApplicationNamed">Dopre <xliff:g id="app" example="YouTube">%1$s</xliff:g> tant che pagjine di inizi</string>
+    <string name="whichHomeApplicationLabel">Cature imagjin</string>
+    <string name="whichImageCaptureApplication">Cature imagjin cun</string>
+    <string name="whichImageCaptureApplicationNamed">Cature imagjin cun <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichImageCaptureApplicationLabel">Cature imagjin</string>
+    <string name="use_a_different_app">Dopre une altre aplicazion</string>
+    <string name="chooseActivity">Sielç une azion</string>
+    <string name="noApplications">Nissune aplicazion e pues eseguî cheste azion.</string>
+    <string name="forward_intent_to_owner">Tu stâs doprant cheste aplicazion fûr dal to profîl di lavôr</string>
+    <string name="forward_intent_to_work">Tu stâs doprant cheste aplicazion tal to profîl di lavôr</string>
+    <string name="activity_resolver_use_always">Simpri</string>
+    <string name="activity_resolver_use_once">Dome une volte</string>
+    <string name="activity_resolver_work_profiles_support"><xliff:g id="app" example="YouTube">%1$s</xliff:g> nol supuarte il profîl di lavôr</string>
+    <string name="pin_specific_target">Fisse <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
+    <string name="unpin_specific_target">Mole <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
+    <string name="screenshot_edit">Modifiche</string>
+    <string name="other_files">{count, plural,
+        one {}=1    {+ # file}
+        other {+ # files}
+    }
+    </string>
+    <string name="more_files">{count, plural,
+        one {}=1    {+ # altri file}
+        other {+ altris # files}
+        }
+    </string>
+    <string name="sharing_text">Condivision dal test</string>
+    <string name="sharing_link">Condivision dal colegament</string>
+    <string name="sharing_images">{count, plural,
+        one {}=1    {Condivision de imagjin}
+        other {Condivision di # imagjins}
+    }
+    </string>
     <string name="sharing_videos">{count, plural,
         one {}=1    {Daûr a condividi un video}
         other {Daûr a condividi # videos}
