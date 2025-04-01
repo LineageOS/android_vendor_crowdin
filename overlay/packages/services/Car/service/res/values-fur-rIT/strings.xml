@@ -218,6 +218,10 @@
     <string name="car_permission_desc_read_windshield_wipers">Al permet di lei i neteveris de machine.</string>
     <string name="car_permission_label_control_windshield_wipers">controlâ i neteveris de machine</string>
     <string name="car_permission_desc_control_windshield_wipers">Al permet di controlâ i neteveris de machine.</string>
+    <string name="car_permission_label_manage_display_compatibility">gjestî i pachets in modalitât compatibile cul schermi</string>
+    <string name="car_permission_desc_manage_display_compatibility">gjestî i pachets in modalitât compatibile cul schermi.</string>
+    <string name="car_permission_label_bind_app_card_provider">associâ ai furnidôrs di cjartis des aplicazions</string>
+    <string name="car_permission_desc_bind_app_card_provider">associâ ai furnidôrs di cjartis des aplicazions.</string>
     <string name="car_permission_label_manage_remote_device">monitorâ il stât des zonis dai
         passizîrs te machine e lis aplicazions \"peer\" (aplicazions cul stes non di pachet dal clamant)
         instaladis in chês zonis, e gjestî la alimentazion di chês zonis.</string>

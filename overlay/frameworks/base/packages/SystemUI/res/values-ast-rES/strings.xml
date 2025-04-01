@@ -108,6 +108,8 @@
     <string name="screenrecord_permission_dialog_title">¿Quies grabar la pantalla?</string>
     <string name="screenrecord_permission_dialog_option_text_single_app">Grabar una aplicación</string>
     <string name="screenrecord_permission_dialog_option_text_entire_screen">Grabar tola pantalla</string>
+    <string name="screenrecord_permission_dialog_warning_entire_screen">Cuando grabes tola pantalla, grábase tolo que s\'amuese nella. Poro, ten curiáu coles contraseñes, los detalles de pagos, los mensaxes, les semeyes, l\'audiu y los vídeos.</string>
+    <string name="screenrecord_permission_dialog_warning_single_app">Cuando grabes una aplicación, grábase tolo que s\'amuese o se reproduza nella. Poro, ten curiáu coles contraseñes, los detalles de pagos, los mensaxes, les semeyes, l\'audiu y los vídeos.</string>
     <string name="screenrecord_permission_dialog_continue_entire_screen">Grabar la pantalla</string>
     <string name="screenrecord_app_selector_title">Escueyi una aplicación pa grabar</string>
     <string name="screenrecord_audio_label">Grabar l\'audiu</string>
