@@ -109,22 +109,9 @@
     <string name="wifi_certificate_summary_pinning">Teastas a phinniú</string>
     <string name="wep_network_less_secure_warning_title">Úsáideann an líonra seo prótacal slándála níos sine ar a dtugtar WEP, atá chomh slán</string>
     <string name="server_name_title">Ainm freastalaí</string>
-    <string name="auto_brightness_content_description_title">Maidir le gile oiriúnaitheach</string>
     <string name="dark_ui_summary_off_auto_mode_modes">Cuirfear ar siúl é nuair a thosóidh <xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
     <string name="dark_ui_summary_on_auto_mode_modes">Múchfar é nuair a chríochnóidh<xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
-    <string name="dark_ui_modes_footer_summary">{count, plural, offset:2
-    one {}
-    two {{modh_1}, {modh_2}, agus # eile a ghníomhaíonn an téama dorcha freisin}
-    few {{modh_1}, {modh_2}, agus # eile a ghníomhaíonn an téama dorcha freisin}
-    many {{modh_1}, {modh_2}, agus # eile a ghníomhaíonn an téama dorcha freisin}
-    =0    {Is féidir le modhanna an téama dorcha a ghníomhachtú freisin}
-    =1    {Gníomhaíonn {modh_1} an téama dorcha freisin}
-    =2    {{modh_1} agus {modh_2} a ghníomhaíonn an téama dorcha freisin}
-    =3    {{modh_1}, {modh_2}, agus {modh_3} a ghníomhaíonn an téama dorcha freisin}
-    other {{modh_1}, {modh_2}, agus # eile a ghníomhaíonn an téama dorcha freisin}
-}</string>
     <string name="dark_ui_modes_footer_action">Socruithe mód</string>
-    <string name="even_dimmer_display_title">Fiú Níos Maolaí</string>
     <string name="sim_preferred_message">Is é <xliff:g id="new_sim">%1$s</xliff:g> do phríomh SIM anois</string>
     <string name="status_eid">E​ID</string>
     <string name="eid_multi_sim">E​ID (sliotán sim <xliff:g id="eid_slot_id">%1$d</xliff:g>)</string>
@@ -140,7 +127,6 @@
     <string name="private_profile_location_switch_title">Suíomh le haghaidh spás príobháideach</string>
     <string name="app_install_details_different_initiating_package_summary">Suiteáilte aip ó <xliff:g id="app_store1">%1$s</xliff:g> (trí <xliff:g id="app_store2">%2$s</xliff:g>)</string>
     <string name="mouse_keys">Eochracha luch</string>
-    <string name="mouse_keys_summary">Bain úsáid as an méarchlár fisiciúil a rialú ar an luch.</string>
     <string name="trackpad_tap_dragging_title">Tapáil ag tarraingt</string>
     <string name="trackpad_tap_dragging_summary">Tapáil agus tarraing do mhéar ar an tadhaill chun rudaí a bhogadh</string>
     <string name="trackpad_bottom_right_tap_title">Cliceáil ag bun ar dheis</string>
@@ -199,53 +185,13 @@
     <string name="accessibility_tutorial_dialog_message_volume">Chun an ghné seo a úsáid, brúigh agus coinnigh an dá eochair toirte</string>
     <string name="accessibility_tutorial_dialog_tripletap_instruction">Chun formhéadú a thosú agus a stopadh, tapáil go tapa ar an scáileán %1$d uair</string>
     <string name="accessibility_tutorial_dialog_twofinger_doubletap_instruction">Chun formhéadú a thosú agus a stopadh, tapáil go tapa ar an scáileán faoi dhó le méara %1$d</string>
-    <string name="accessibility_tutorial_dialog_message_quick_setting">{count, plural,
-      one {}
-      two {Chun an ghné seo a úsáid, scuab síos ó bharr do scáileáin le # mhéar. Ansin, aimsigh an tíl {featureName}.}
-      few {Chun an ghné seo a úsáid, scuab síos ó bharr do scáileáin le # mhéar. Ansin, aimsigh an tíl {featureName}.}
-      many {Chun an ghné seo a úsáid, scuab síos ó bharr do scáileáin le # méara. Ansin, aimsigh an tíl {featureName}.}
-      =1    {Chun an ghné seo a úsáid, scuab síos ó bharr do scáileáin. Ansin, aimsigh an tíl {featureName}.}
-      other {Chun an ghné seo a úsáid, scuab síos ó bharr do scáileáin le # méara. Ansin, aimsigh an tíl {featureName}.}
-}</string>
     <string name="accessibility_tutorial_dialog_shortcut_unavailable_in_suw">Beidh an t-aicearra seo ar fáil tar éis duit socrú feiste a chríochnú.</string>
-    <string name="accessibility_tutorial_dialog_gesture_shortcut_instruction">{count, plural,
-      one {}
-      two {Chun an ghné seo a úsáid, scuab suas le # mhéar ó bhun do scáileáin.}
-      few {Chun an ghné seo a úsáid, scuab suas le # mhéar ó bhun do scáileáin.}
-      many {Chun an ghné seo a úsáid, scuab suas le # méara ó bhun do scáileáin.}
-      =1    {Chun an ghné seo a úsáid, scuab suas ó bhun do scáileáin.}
-      other {Chun an ghné seo a úsáid, scuab suas le # méara ó bhun do scáileáin.}
-}</string>
     <string name="accessibility_tutorial_dialog_link_button">Saincheapadh cnaipe</string>
     <string name="accessibility_shortcut_edit_summary_software">cnaipe inrochtaineachta</string>
     <string name="accessibility_shortcut_edit_summary_software_gesture">chomhartha inrochtaineachta</string>
     <string name="accessibility_shortcut_edit_dialog_summary_floating_button">Tapáil ar an gcnaipe ar snámh</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software">Tapáil an cnaipe inrochtaineachta <xliff:g id="accessibility_icon" example="[Icon]"> %s</xliff:g> ag bun do scáileáin. Chun aistriú idir gnéithe, déan teagmháil &amp; coinnigh an cnaipe inrochtaineachta.</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_gesture">{count, plural,
-      one {}
-      two {Scuab suas le # mhéar ó bhun do scáileáin. Chun athrú idir gnéithe, scuab suas le # mhéar agus coinnigh síos.}
-      few {Scuab suas le # mhéar ó bhun do scáileáin. Chun athrú idir gnéithe, scuab suas le # mhéar agus coinnigh síos.}
-      many {Scuab suas le # méara ó bhun do scáileáin. Chun athrú idir gnéithe, scuab suas le # méara agus coinnigh síos.}
-      =1    {Scuab suas ó bhun do scáileáin. Chun athrú idir gnéithe, scuab suas agus coinnigh síos.}
-      other {Scuab suas le # méara ó bhun do scáileáin. Chun athrú idir gnéithe, scuab suas le # méara agus coinnigh síos.}
-}</string>
     <string name="accessibility_shortcut_edit_dialog_title_quick_settings">Socruithe Tapa</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_quick_settings">{count, plural,
-      one {}
-      two {Scuab síos le # mhéar ó bharr do scáileáin.}
-      few {Scuab síos le # mhéar ó bharr do scáileáin.}
-      many {Scuab síos le # méara ó bharr do scáileáin.}
-      =1    {Scuab síos ó bharr do scáileáin.}
-      other {Scuab síos le # méara ó bharr do scáileáin.}
-}</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_quick_settings_suw">{count, plural,
-      one {}
-      two {Scuab síos le # mhéar ó bharr do scáileáin. Beidh an giorracht seo ar fáil tar éis duit socrú an ghléis a chríochnú.}
-      few {Scuab síos le # mhéar ó bharr do scáileáin. Beidh an giorracht seo ar fáil tar éis duit socrú an ghléis a chríochnú.}
-      many {Scuab síos le # méara ó bharr do scáileáin. Beidh an giorracht seo ar fáil tar éis duit socrú an ghléis a chríochnú.}
-      =1    {Scuab síos ó bharr do scáileáin. Beidh an giorracht seo ar fáil tar éis duit socrú an ghléis a chríochnú.}
-      other {Scuab síos le # méara ó bharr do scáileáin. Beidh an giorracht seo ar fáil tar éis duit socrú an ghléis a chríochnú.}
-}</string>
     <string name="accessibility_feature_shortcut_setting_summary_quick_settings">Socruithe Tapa</string>
     <string name="accessibility_shortcut_edit_dialog_title_hardware">Eochracha toirt</string>
     <string name="accessibility_shortcut_hardware_keyword">eochracha toirt</string>
@@ -295,26 +241,6 @@
     <string name="zen_mode_select_schedule_title">Sceideal bunaithe ar</string>
     <string name="zen_mode_select_schedule_time">Lá agus am</string>
     <string name="zen_mode_select_schedule_time_example">\"9:00 r.n. - 5:00 i.n. i rith na seachtaine\"</string>
-    <string name="zen_modes_summary_some_active">{count, plural, offset:2
-    one {}
-    two {{modh_1}, {modh_2}, agus # eile atá gníomhach}
-    few {{modh_1}, {modh_2}, agus # eile atá gníomhach}
-    many {{modh_1}, {modh_2}, agus # eile atá gníomhach}
-    =0    {}
-    =1    {{modh_1} atá gníomhach}
-    =2    {{modh_1} agus {modh_2} atá gníomhach}
-    =3    {{modh_1}, {modh_2}, agus {modh_3} atá gníomhach}
-    other {{modh_1}, {modh_2}, agus # eile atá gníomhach}
-}</string>
-    <string name="zen_modes_summary_none_active">{count, plural,
-    one {}
-    two {is féidir le # mhodh casadh air go huathoibríoch}
-    few {is féidir le # mhodh casadh air go huathoibríoch}
-    many {is féidir le # mhodh casadh air go huathoibríoch}
-    =0    {}
-    =1    {is féidir le 1 mhodh casadh air go huathoibríoch}
-    other {is féidir le # mhodh casadh air go huathoibríoch}
-}</string>
     <string name="zen_mode_active_text">AR</string>
     <string name="zen_mode_new_title">Cruthaigh mód</string>
     <string name="zen_mode_not_found_text">Mód gan aimsiú</string>
@@ -427,14 +353,6 @@
     <string name="full_screen_intent_title">Fógraí lánscáileáin</string>
     <string name="permit_full_screen_intent">Ceadaigh fógraí lánscáileáin ón aip seo</string>
     <string name="operator_warning">Féadfaidh cuntasaíocht sonraí iompróra a bheith difriúil ó chuntasaíocht gléasanna</string>
-    <string name="data_saver_unrestricted_summary">{count, plural,
-      one {}
-      two {# aip ceadaithe sonraí soghluaiste neamhtheoranta a úsáid nuair a bhíonn Coigilt Sonraí ar siúl.}
-      few {# aip ceadaithe sonraí soghluaiste neamhtheoranta a úsáid nuair a bhíonn Coigilt Sonraí ar siúl.}
-      many {# aip ceadaithe sonraí soghluaiste neamhtheoranta a úsáid nuair a bhíonn Coigilt Sonraí ar siúl.}
-      =1    {1 aip ceadaithe sonraí soghluaiste neamhtheoranta a úsáid nuair a bhíonn Coigilt Sonraí ar siúl.}
-      other {# aip ceadaithe sonraí soghluaiste neamhtheoranta a úsáid nuair a bhíonn Coigilt Sonraí ar siúl.}
-}</string>
     <string name="unrestricted_data_saver">Sonraí soghluaiste neamhtheoranta</string>
     <string name="unrestricted_app_title">Úsáid sonraí soghluaiste gan srian</string>
     <string name="unrestricted_app_summary">Ceadaigh rochtain neamhshrianta ar shonraí soghluaiste nuair a bhíonn an Sábháil Sonraí ar siúl</string>
@@ -451,7 +369,6 @@
     <string name="media_output_audio_sharing">Fuaime a roinnt</string>
     <string name="satellite_setting_disabled_summary">Seol agus faigh teachtaireachtaí téacs le satailíte. Nach bhfuil san áireamh le do chuntas.</string>
     <string name="summary_add_satellite_setting">Tuilleadh Eolais</string>
-    <string name="satellite_setting_summary_more_information">Féadfaidh teachtaireachtaí satailíte níos faide a thógáil agus níl sé ar fáil ach i roinnt ré D\'fhéadfadh an aimsir agus struchtúir áirithe difear do nasc satailíte. Tá glaoch trí satailíte ar fáil. D\'fhéadfadh glaonna éigeandála nascadh fós. \n\n B\'fhéidir go dtógfaidh sé roinnt ama chun athruithe cuntais a thaispeáint i Socruithe. Déan teagmháil le d\'iompróir le haghaidh sonraí.</string>
     <string name="satellite_warning_dialog_title">Ní féidir <xliff:g id="function" example="bluetooth">%1$s</xliff:g> a chur ar siúl</string>
     <string name="satellite_warning_dialog_content">Chun <xliff:g id="function" example="bluetooth">%1$s</xliff:g> a chasadh air, déan deireadh leis an nasc satailíte ar dtús</string>
     <string name="sim_onboarding_dialog_starting_title">Socraigh do roghanna SIM</string>

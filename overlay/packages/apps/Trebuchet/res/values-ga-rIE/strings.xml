@@ -34,7 +34,6 @@
     <string name="widget_add_button_content_description">Cuir <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> giuirléid</string>
     <string name="uninstall_private_system_shortcut_label">Díshuiteáil an aip</string>
     <string name="bubble">Mboilgeog</string>
-    <string name="app_archived_title">Tá <xliff:g id="name" example="Messenger">%1$s</xliff:g> sa chartlann. Tapáil chun é a íoslódáil agus a chur ar ais.</string>
     <string name="private_space_secondary_label">Tapáil chun a shocrú nó a oscailt</string>
     <string name="ps_container_unlock_button_content_description">Príobháideach, díghlasáilte.</string>
     <string name="ps_container_lock_button_content_description">Príobháideach, faoi ghlas.</string>

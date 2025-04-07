@@ -16,7 +16,5 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="hdmi_cec_on_active_source_lost_title">An bhfuil tú fós ag féachaint?</string>
-    <string name="hdmi_cec_on_active_source_lost_description">Dúirt an teilifís linn go dtaispeánfaidh sé ionchur eile. Roghnaigh rogha amháin chun an gléas seo a choinneáil ina dhúiseacht.</string>
-    <string name="hdmi_cec_on_active_source_lost_ok">Tá</string>
     <string name="hdmi_cec_on_active_source_lost_do_not_show">Ná cuir ceist arís</string>
 </resources>

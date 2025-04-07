@@ -1379,6 +1379,10 @@
     </string>
     <string name="duration_years_shortest_future">        ca di <xliff:g id="count">%d</xliff:g> a
     </string>
+    <string name="duration_days_medium">       <xliff:g id="count">%d</xliff:g> d
+    </string>
+    <string name="duration_days_medium_future">        ca di <xliff:g example="1" id="count">%d</xliff:g> d
+    </string>
     <string name="duration_minutes_relative">{count, plural,
         one {}=1 {# minût indaûr}
         other {# minûts indaûr}
@@ -2512,11 +2516,6 @@
     <string name="volume_dialog_ringer_guidance_vibrate">Clamadis e notifichis a vibraran</string>
     <string name="volume_dialog_ringer_guidance_silent">Clamadis e notifichis a saran cidinadis</string>
     <string name="notification_channel_system_changes">Modifichis di sisteme</string>
-    <string name="notification_channel_do_not_disturb">No Sta Disturbâ</string>
-    <string name="zen_upgrade_notification_visd_title">Novitât: No Sta Disturbâ al sta platant lis notifichis</string>
-    <string name="zen_upgrade_notification_visd_content">Tocje par savê di plui e modificâ.</string>
-    <string name="zen_upgrade_notification_title">No Sta Disturbâ al è stât modificât</string>
-    <string name="zen_upgrade_notification_content">Tocje par controlâ ce che al è blocât.</string>
     <string name="review_notification_settings_title">Controle impostazions des notifichis</string>
     <string name="review_notification_settings_text">A partî di Android 13, lis aplicazions che tu instalis a àn bisugne dal to permès par mandâ notifichis. Tocje par cambiâ chest permès pes aplicazions esistentis.</string>
     <string name="review_notification_settings_remind_me_action">Visimi plui tart</string>
@@ -2813,6 +2812,7 @@
     <string name="satellite_notification_manual_summary">Mande e ricêf messaçs cence doprâ une rêt mobile o une conession Wi-Fi</string>
     <string name="satellite_notification_open_message">Vierç messaçs</string>
     <string name="satellite_notification_how_it_works">Cemût funzionial?</string>
+    <string name="satellite_manual_selection_state_popup_ok">Ative</string>
     <string name="unarchival_session_app_label">In spiete...</string>
     <string name="fingerprint_dangling_notification_title">Torne configure il sbloc cul impront</string>
     <string name="fingerprint_dangling_notification_msg_1">Nol è plui pussibil ricognossi <xliff:g id="fingerprint">%s</xliff:g>.</string>

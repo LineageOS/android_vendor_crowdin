@@ -57,11 +57,7 @@
     <string name="zen_mode_settings_title">Ná Cuir isteach</string>
     <string name="zen_mode_starred_contacts_empty_name">(Gan ainm)</string>
     <string name="media_transfer_this_device_name_desktop">an ríomhaire seo (inmheánach)</string>
-    <string name="media_transfer_internal_mic">Micreafón (inmheánach)</string>
     <string name="edit_user_info_message">Beidh an t-ainm agus an pictiúr a roghnaíonn tú le feiceáil ag aon duine a úsáideann an gléas seo.</string>
-    <string name="media_transfer_usb_speaker_name">Cainteoir USB</string>
-    <string name="media_transfer_wired_device_mic_name">Jack mic</string>
-    <string name="media_transfer_usb_device_mic_name">Micreafón USB</string>
     <string name="turn_screen_on_title">Rialú cas-ar an scáileáin</string>
     <string name="system_update_settings_list_item_title">Nuashonruithe Córais</string>
 </resources>

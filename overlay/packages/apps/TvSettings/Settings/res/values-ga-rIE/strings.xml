@@ -19,8 +19,6 @@
     <string name="accounts_category_title">Cuntais &amp; Próifílí</string>
     <string name="privacy_device_lock_settings_title">Glasáil Gléas</string>
     <string name="unplug_ethernet_to_use_wifi">Díphlugáil Ethernet chun Wi-Fi a úsáid</string>
-    <string name="preferred_dynamic_range_selection_system_desc">Ligeann sé don chóras an fhormáid a bhainistiú
- comhshó</string>
     <string name="bounce_key_title">Eochracha Bounce</string>
     <string name="bounce_key_description">Roghnaigh an t-am is fearr leat</string>
     <string name="bounce_key_detailed">Déanann cianda neamhaird ar bhrúnna eochracha arís agus arís eile</string>
