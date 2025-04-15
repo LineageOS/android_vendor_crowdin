@@ -4805,8 +4805,7 @@
     <string name="satellite_setting_title">Messaçs vie satelit</string>
     <string name="satellite_setting_enabled_summary">Mande e ricêf messaçs di test vie satelit. Includût cul to account.</string>
     <string name="satellite_setting_disabled_summary">Mande e ricêf messaçs di test vie satelit. No includût cul to account.</string>
-    <string name="title_about_satellite_setting">Tu puedis mandâ e ricevi messaçs di test vie satelit come part di un account <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> idoni.</string>
-    <string name="category_title_your_satellite_plan">Il to plan <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g></string>
+    <string name="title_have_satellite_plan">I messaçs vie satelit a son includûts cul to account</string>
     <string name="title_no_satellite_plan">I messaçs vie satelit no son includûts cul to account</string>
     <string name="summary_add_satellite_setting">Plui informazions</string>
     <string name="category_name_how_it_works">Cemût funzionial?</string>

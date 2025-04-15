@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2009 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,11 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="download_line5">Comhad a ghlacadh…</string>
-    <string name="upload_line5">Comhad á sheoladh…</string>
-    <string name="enabling_progress_title">Fan go fóill…</string>
-    <string name="enabling_progress_content">Ag casadh ar Bluetooth…</string>
-    <string name="bluetooth_enabled_auto_on_title">Chuir Bluetooth ar siúl arís</string>
-    <string name="bluetooth_enabled_auto_on_message">Is féidir leat é seo a athrú am ar bith sna Socruithe</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="move_contacts_to_default_account_dialog_title">Boles sincronizare is cuntatos esistentes?</string>
+    <string name="move_contacts_to_default_account_dialog_message">Podes sincronizare %1$s pro segurare su ripristinu in %2$s (%3$s)</string>
 </resources>

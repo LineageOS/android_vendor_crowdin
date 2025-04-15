@@ -359,6 +359,7 @@
     <string name="device_details_more_settings">Más opciones</string>
     <string name="nfc_reboot_dialog_title">¿Quies reaniciar el preséu?</string>
     <string name="external_display_settings_title">Pantalla esterna</string>
+    <string name="builtin_display_settings_category">Pantalla integrada</string>
     <string name="external_display_use_title">Usar la pantalla esterna</string>
     <string name="external_display_resolution_settings_title">Resolución de la pantalla</string>
     <string name="external_display_not_found">La pantalla esterna ta desconectada</string>
@@ -1096,7 +1097,7 @@
     <string name="register_automatically">Rexistru automáticu\u2026</string>
     <string name="roaming_alert_title">¿Quies permitir el roaming de datos?</string>
     <string name="satellite_setting_title">Mensaxería per satélite</string>
-    <string name="category_title_your_satellite_plan">El to plan de la operadora «<xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g>»</string>
+    <string name="title_have_satellite_plan">La mensaxería per satélite inclúise na cuenta</string>
     <string name="title_no_satellite_plan">La mensaxería per satélite nun s\'inclúi na cuenta</string>
     <string name="category_name_how_it_works">Cómo funciona</string>
     <string name="title_supported_service">Dempués de que\'l teléfonu se conecte a un satélite</string>
