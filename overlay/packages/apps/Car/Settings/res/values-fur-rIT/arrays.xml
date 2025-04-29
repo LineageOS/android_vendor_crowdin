@@ -16,8 +16,11 @@
 -->
 <resources>
     <string-array name="premium_sms_access_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>Domande</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>No sta permeti mai</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>Permet simpri</item>
     </string-array>
 </resources>

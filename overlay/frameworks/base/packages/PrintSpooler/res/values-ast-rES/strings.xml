@@ -92,16 +92,23 @@
     <string name="print_service_security_warning_summary">Quiciabes el documentu pase pente unu
          o más sirvidores hasta la imprentadora.</string>
     <string-array name="color_mode_labels">
+        <!-- Color mode label: Monochrome color scheme, e.g. one color is used. [CHAR LIMIT=20] -->
         <item>Blancu y prietu</item>
+        <!-- Color mode label: Color color scheme, e.g. many colors are used. [CHAR LIMIT=20] -->
         <item>Color</item>
     </string-array>
     <string-array name="duplex_mode_labels">
+        <!-- Duplex mode label: No duplex supported. [CHAR LIMIT=20] -->
         <item>Nada</item>
+        <!-- Duplex mode label: Turn page sideways along the long edge like a book. [CHAR LIMIT=20] -->
         <item>Berbesu llongu</item>
+        <!-- Duplex mode label: Turn page upwards along the short edge like a notepad. [CHAR LIMIT=20] -->
         <item>Berbesu curtiu</item>
     </string-array>
     <string-array name="orientation_labels">
+        <!-- Orientation label: Portrait page orientation. [CHAR LIMIT=30] -->
         <item>Vertical</item>
+        <!-- Orientation label: Landscape page orientation [CHAR LIMIT=30] -->
         <item>Horizontal</item>
     </string-array>
     <string name="print_write_error_message">Nun se pudo escribir nel ficheru</string>

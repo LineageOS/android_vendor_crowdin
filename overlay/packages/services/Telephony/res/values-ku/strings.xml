@@ -113,8 +113,11 @@
     <string name="close_dialog">باشه‌</string>
     <string name="change_num">بەڕۆژکردن</string>
     <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
         <item>تۆڕی بنەڕەت</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
         <item>شاردنەوەی ژمارە</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
         <item>پیشاندانی ژمارە</item>
     </string-array>
     <string name="vm_changed">ژمارەی دەنگنامە گۆڕدرا.</string>
@@ -300,7 +303,11 @@
     <string name="cdma_system_select_summary">گۆڕینی شێوازی ڕومینگی CDMA</string>
     <string name="cdma_system_select_dialogtitle">دیاریکردنی سیستەم</string>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>تەنیا ماڵەوە</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>خۆکارانه‌</item>
     </string-array>
     <string name="cdma_subscription_title">بەشداریکردن لە CDMA</string>

@@ -37,17 +37,21 @@
     <string name="alarm_missed_text"><xliff:g id="alarm_time">%1$s</xliff:g> – <xliff:g id="alarm_label">%2$s</xliff:g></string>
     <string name="alarm_alert_snoozed_text">Na dhùsal</string>
     <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
         <item quantity="one"><xliff:g id="number" example="7">%d</xliff:g> mhion</item>
         <item quantity="two"><xliff:g id="number" example="7">%d</xliff:g> mhion</item>
         <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> mion</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> mion</item>
     </plurals>
     <string name="alarm_alert_off_text">Tha a’ chaismeachd dheth</string>
     <string name="alarm_alert_snooze_text">Dèan dùsal</string>
     <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
         <item quantity="one">’Na dhùsal fad <xliff:g id="minutes">%d</xliff:g> mhionaid.</item>
         <item quantity="two">’Na dhùsal fad <xliff:g id="minutes">%d</xliff:g> mhionaid.</item>
         <item quantity="few">’Na dhùsal fad <xliff:g id="minutes">%d</xliff:g> mionaidean.</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other">’Na dhùsal fad <xliff:g id="minutes">%d</xliff:g> mionaid.</item>
     </plurals>
     <string name="alarm_alert_snooze_until">A’ dèanamh dùsal gu ruige <xliff:g id="time">%s</xliff:g></string>
@@ -77,39 +81,51 @@
         <item>Gheibh thu caismeachd <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> ’s <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
     </string-array>
     <plurals name="days">
+        <!-- Duration for one day -->
         <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> latha</item>
         <item quantity="two"><xliff:g id="number" example="7">%s</xliff:g> latha</item>
         <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> làithean</item>
+        <!-- Duration for more than one day -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> latha</item>
     </plurals>
     <plurals name="hours">
+        <!-- Duration for one hour -->
         <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> uair a thìde</item>
         <item quantity="two"><xliff:g id="number" example="7">%s</xliff:g> uair a thìde</item>
         <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> uairean a thìde</item>
+        <!-- Duration for more than one hour -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> uair a thìde</item>
     </plurals>
     <plurals name="hours_short">
+        <!-- Duration for one hour [CHAR LIMIT=8] -->
         <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> u</item>
         <item quantity="two"><xliff:g id="number" example="7">%s</xliff:g> u</item>
         <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> u</item>
+        <!-- Duration for more than one hour [CHAR LIMIT=8]-->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> u</item>
     </plurals>
     <plurals name="minutes">
+        <!-- Duration for one minute -->
         <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> mhionaid</item>
         <item quantity="two"><xliff:g id="number" example="7">%s</xliff:g> mhionaid</item>
         <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> mionaidean</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> mionaid</item>
     </plurals>
     <plurals name="minutes_short">
+        <!-- Duration for one minute [CHAR LIMIT=8] -->
         <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> m</item>
         <item quantity="two"><xliff:g id="number" example="7">%s</xliff:g> m</item>
         <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> m</item>
+        <!-- Duration for more than one minute [CHAR LIMIT=8] -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> m</item>
     </plurals>
     <plurals name="seconds">
+        <!-- Duration for one second -->
         <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> diog</item>
         <item quantity="two"><xliff:g id="number" example="7">%s</xliff:g> dhiog</item>
         <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> diogan</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> diog</item>
     </plurals>
     <string name="every_day">Gach latha</string>
@@ -122,9 +138,11 @@
     <string name="crescendo_duration_title">Àrdaich an fhuaim mean air mhean</string>
     <string name="auto_silence_title">Cuir ’na thost às dèidh </string>
     <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
         <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> mhionaid</item>
         <item quantity="two"><xliff:g id="formatted_number" example="7">%s</xliff:g> mhionaid</item>
         <item quantity="few"><xliff:g id="formatted_number" example="7">%s</xliff:g> mionaidean</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> mionaid</item>
     </plurals>
     <string name="auto_silence_never">Chan ann idir</string>

@@ -39,17 +39,29 @@
         <item>30 خوله‌ک</item>
     </string-array>
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>گه‌ڕان\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>په‌یوه‌ندکردن\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>دڵنیاکردنه‌وه‌\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>به‌ده‌ستهێنانی IP ناونیشانی \u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>په‌یوه‌ستکرا</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>به‌سه‌رچوو</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>بێپه‌یوه‌ندکردنی\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>پچڕا</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>سه‌رکه‌وتوونه‌بوو</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>بلۆکرا</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>دورخستنه‌وه‌ی په‌یوه‌ندی کز</item>
     </string-array>
     <string-array name="wifi_p2p_status">
@@ -84,12 +96,17 @@
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
         <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
         <item>Static</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
         <item>هیچ</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
         <item>ده‌ستی</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Proxy Auto-Config</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -263,13 +280,19 @@
         <item>Accessibility volume</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>کورت</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>ناوه‌ند</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>درێژ</item>
     </string-array>
     <string-array name="long_press_timeout_selector_list_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>کورت</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>ناوه‌ند</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>درێژ</item>
     </string-array>
     <string-array name="captioning_typeface_selector_titles">
@@ -301,27 +324,43 @@
         <item>گه‌وره‌</item>
     </string-array>
     <string-array name="vpn_proxy_settings">
+        <!-- No HTTP proxy is used for the current VPN [CHAR LIMIT=25] -->
         <item>هیچ</item>
+        <!-- Manual HTTP proxy settings are used for the current VPN [CHAR LIMIT=25] -->
         <item>ده‌ستی</item>
     </string-array>
     <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
         <item>پچڕا</item>
+        <!-- Status message when VPN is initializing. -->
         <item>سه‌ره‌تایکردن\u2026</item>
+        <!-- Status message when VPN is connecting. -->
         <item>بەستنەوە\u2026</item>
+        <!-- Status message when VPN is connected. -->
         <item>په‌یوه‌ستکرا</item>
+        <!-- Status message when VPN is timeout. -->
         <item>کاتی ته‌واوبوون</item>
+        <!-- Status message when VPN is failed. -->
         <item>سه‌رکه‌وتوو نه‌بوو</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>پرسیار</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>هه‌رگیز ڕێگه‌ مه‌ده‌</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>هه‌میشه‌ ڕێگه‌ بده‌</item>
     </string-array>
     <string-array name="ram_states">
+        <!-- Normal desired memory state. -->
         <item>ئاسایی</item>
+        <!-- Moderate memory state, not as good as normal. -->
         <item>Moderate</item>
+        <!-- Memory is running low. -->
         <item>Low</item>
+        <!-- Memory is critical. -->
         <item>Critical</item>
+        <!-- Unknown memory state -->
         <item>\?</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
@@ -330,7 +369,11 @@
         <item>Verbose</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Home only</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Automatic</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -361,6 +404,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
+        <!-- Global includes NR/LTE/CDMA/EvDo/GSM/WCDMA -->
         <item>Global</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>

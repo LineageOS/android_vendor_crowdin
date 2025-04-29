@@ -151,8 +151,11 @@
     <string name="disable">Disative</string>
     <string name="change_num">Inzorne</string>
     <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
         <item>Predefinît de rêt</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
         <item>Plate numar</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
         <item>Mostre numar</item>
     </string-array>
     <string name="vm_changed">Numar de segretarie cambiât.</string>
@@ -275,8 +278,11 @@
     <string name="enhanced_4g_lte_mode_summary">Dopre i servizis LTE par miorâ la vôs e altris comunicazions (conseât)</string>
     <string name="enhanced_4g_lte_mode_summary_o2">Dopre i servizis 4G par miorâ la vôs e altris comunicazions (conseât)</string>
     <string-array name="enhanced_4g_lte_mode_sumary_variant">
+        <!-- 0: Default -->
         <item>@string/enhanced_4g_lte_mode_summary</item>
+        <!-- 1: Verizon -->
         <item>@string/enhanced_4g_lte_mode_summary</item>
+        <!-- 2: O2 UK -->
         <item>@string/enhanced_4g_lte_mode_summary_o2</item>
     </string-array>
     <string name="data_enabled">Dâts ativâts</string>
@@ -421,7 +427,11 @@
     <string name="cdma_system_select_summary">Cambie la modalitât di roaming CDMA</string>
     <string name="cdma_system_select_dialogtitle">Selezion sisteme</string>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Dome domestiche</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Automatiche</item>
     </string-array>
     <string name="cdma_subscription_title">Abonament CDMA</string>
@@ -652,9 +662,17 @@
     <string name="phone_in_ecm_call_notification_text">Conession dâts disabilitade</string>
     <string name="phone_in_ecm_notification_complete_time">Nissune conession dâts fin ae ore: <xliff:g id="completeTime">%s</xliff:g></string>
     <string name="alert_dialog_exit_ecm"> {count, plural,
-        </string>
+        <!-- number of minutes is one -->
+        =1    {Il telefon al sarà in modalitât clamade di rispueste pe emergjence par un minût. Intant che tu sês in cheste modalitât nol sarà pussibil doprâ nissune aplicazion che e dopre une conession dâts. Desideristu la fûr daurman?}
+        <!-- number of minutes is not equal to one -->
+        other {Il telefon al sarà in modalitât clamade di rispueste pe emergjence par %s minûts. Intant che tu sês in cheste modalitât nol sarà pussibil doprâ nissune aplicazion che e dopre une conession dâts. Desideristu la fûr daurman?}
+    }</string>
     <string name="alert_dialog_not_avaialble_in_ecm"> {count, plural,
-        </string>
+        <!-- number of minutes is one -->
+        =1    {La azion selezionade no je disponibile intant che si è in modalitât clamade di rispueste pe emergjence. Il telefon al sarà in cheste modalitât par un minût. Desideristu lâ fûr daurman?}
+        <!-- number of minutes is not equal to one -->
+        other {La azion selezionade no je disponibile intant che si è in modalitât clamade di rispueste pe emergjence. Il telefon al sarà in cheste modalitât par %s minûts. Desideristu lâ fûr daurman?}
+    }</string>
     <string name="alert_dialog_in_ecm_call">La azion selezionade no je disponibile intant di une clamade di emergjence.</string>
     <string name="progress_dialog_exiting_ecm">Daûr a lâ fûr de modalitât di clamade di rispueste di emergjence</string>
     <string name="alert_dialog_yes">Sì</string>
@@ -663,7 +681,11 @@
     <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">Il telefon al è in modalitât di clamade di rispueste di emergjence.</string>
     <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Sin <xliff:g id="completeTime">%s</xliff:g></string>
     <string name="alert_dialog_exit_ecm_without_data_restriction_hint"> {count, plural,
-        </string>
+        <!-- number of minutes is one -->
+        =1    {Il telefon al sarà in modalitât clamade di rispueste pe emergjence  par un minût.\nDesideristu lâ fûr daurman?}
+        <!-- number of minutes is not equal to one -->
+        other {Il telefon al sarà in modalitât clamade di rispueste pe emergjence  par %s minûts.\nDesideristu lâ fûr daurman?}
+    }</string>
     <string name="voicemail_provider">Servizi</string>
     <string name="voicemail_settings">Configurazion</string>
     <string name="voicemail_number_not_set">&lt;No configurât&gt;</string>

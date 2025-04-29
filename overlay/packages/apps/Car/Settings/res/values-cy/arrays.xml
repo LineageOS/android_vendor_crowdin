@@ -16,8 +16,11 @@
 -->
 <resources>
     <string-array name="premium_sms_access_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>Gofyn</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>Caniatáu Byth</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>Caniatáu Bob Tro</item>
     </string-array>
 </resources>

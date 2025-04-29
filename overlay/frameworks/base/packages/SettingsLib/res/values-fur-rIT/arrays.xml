@@ -19,31 +19,55 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Daûr a cirî\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>Daûr a conetisi\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Daûr a autenticâsi\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>Daûr a otignî la direzion IP\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Conetût</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Sospindût</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>Daûr a disconetisi\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Disconetût</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Falît</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Blocât</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Daûr a evitâ in mût temporani la conession scjarse</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Daûr a cirî\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
         <item>Daûr a conetisi a <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
         <item>Daûr a autenticâsi cun <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
         <item>Daûr a otignî une direzion IP di <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
         <item>Conetût a <xliff:g id="network_name">%1$s</xliff:g></item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Sospindût</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
         <item>Daûr a disconetisi di <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Disconetût</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Falît</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Blocât</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Daûr a evitâ in mût temporani la conession scjarse</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
@@ -163,9 +187,13 @@
         <item>Miôr risultât (velocitât di trasmission adative)</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
+        <!-- Status message when the device is not Active. -->
         <item/>
+        <!-- Status message when the device is Active for Media and Phone. -->
         <item>, atîf</item>
+        <!-- Status message when the device is Active for Media only. -->
         <item>, atîf (multimedia)</item>
+        <!-- Status message when the device is Active for Phone only. -->
         <item>, atîf (telefon)</item>
     </string-array>
     <string-array name="select_logd_size_titles">

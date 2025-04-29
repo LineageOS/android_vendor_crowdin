@@ -247,6 +247,7 @@
     <string name="failed_loading_vcard">No at fatu a carrigare ischeda cuntatu</string>
     <string name="vcard_tap_hint">Visualiza ischeda cuntatu</string>
     <plurals name="vcard_multiple_display_name">
+        <!-- quantity="one" is not needed by the app, but it keeps the translation pipeline happy. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> cuntatu</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> cuntatos</item>
     </plurals>

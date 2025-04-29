@@ -287,15 +287,27 @@
     <string name="ota_try_again">Retentar</string>
     <string name="ota_next">Siguiente</string>
     <string name="alert_dialog_exit_ecm"> {count, plural,
-        </string>
+        <!-- number of minutes is one -->
+        =1    {El teléfonu va tar nel mou de retornu de llamaes d\'emerxencia demientres un minutu. Mentanto tea nesti mou, nun pues usar nenguna aplicación qu\'use la conexón de datos móviles. ¿Quies colar agora?}
+        <!-- number of minutes is not equal to one -->
+        other {El teléfonu va tar nel mou de retornu de llamaes d\'emerxencia demientres %s minutos. Mentanto tea nesti mou, nun pues usar nenguna aplicación qu\'use la conexón de datos móviles. ¿Quies colar agora?}
+    }</string>
     <string name="alert_dialog_not_avaialble_in_ecm"> {count, plural,
-        </string>
+        <!-- number of minutes is one -->
+        =1    {L\'aición seleicionada nun ta disponible mentanto tas nel mou de retornu de llamaes. El teléfonu va tar nesti mou demientres un minutu. ¿Quies colar agora?}
+        <!-- number of minutes is not equal to one -->
+        other {L\'aición seleicionada nun ta disponible mentanto tas nel mou de retornu de llamaes. El teléfonu va tar nesti mou demientres %s minutos. ¿Quies colar agora?}
+    }</string>
     <string name="alert_dialog_yes">Sí</string>
     <string name="alert_dialog_no">Non</string>
     <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">El teléfonu ta nel mou de retornu de llamaes d\'emerxencia</string>
     <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Hasta la hora: <xliff:g id="completeTime">%s</xliff:g></string>
     <string name="alert_dialog_exit_ecm_without_data_restriction_hint"> {count, plural,
-        </string>
+        <!-- number of minutes is one -->
+        =1    {El teléfonu va tar nel mou de retornu de llamaes d\'emerxencia demientres un minutu.\n¿Quies colar agora?}
+        <!-- number of minutes is not equal to one -->
+        other {El teléfonu va tar nel mou de retornu de llamaes d\'emerxencia demientres %s minutos.\n¿Quies colar agora?}
+    }</string>
     <string name="voicemail_provider">Serviciu</string>
     <string name="voicemail_settings">Configuración</string>
     <string name="pane_title_emergency_dialpad">Tecláu d\'emerxencia</string>

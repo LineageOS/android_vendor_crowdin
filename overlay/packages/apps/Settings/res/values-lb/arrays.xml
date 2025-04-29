@@ -39,17 +39,29 @@
         <item>30 Minutten</item>
     </string-array>
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Scan leeft\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>Connectioun gëtt hiergestallt\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Authentifizéierung\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>IP-Adress gëtt ofgeruff\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Connectéiert</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Ugehalen</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>Connectioun gëtt getrennt\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Deconnectéiert</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Net erfollegräich</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Blockéiert</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Schlecht Internetconnectioun gëtt temporär ignoréiert</item>
     </string-array>
     <string-array name="wifi_p2p_status">
@@ -80,12 +92,17 @@
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
         <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
         <item>Statesch</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Keen</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
         <item>Manuell</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Auto-Proxy-Konfiguratioun</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -259,13 +276,19 @@
         <item>Accessibility volume</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Kuerz</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Mëttel</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Laang</item>
     </string-array>
     <string-array name="long_press_timeout_selector_list_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Kuerz</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Mëttel</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Laang</item>
     </string-array>
     <string-array name="captioning_typeface_selector_titles">
@@ -313,27 +336,43 @@
         <item>Grouss</item>
     </string-array>
     <string-array name="vpn_proxy_settings">
+        <!-- No HTTP proxy is used for the current VPN [CHAR LIMIT=25] -->
         <item>None</item>
+        <!-- Manual HTTP proxy settings are used for the current VPN [CHAR LIMIT=25] -->
         <item>Manuell</item>
     </string-array>
     <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
         <item>Deconnectéiert</item>
+        <!-- Status message when VPN is initializing. -->
         <item>Gëtt Initialiséiert\u2026</item>
+        <!-- Status message when VPN is connecting. -->
         <item>Gëtt connectéiert\u2026</item>
+        <!-- Status message when VPN is connected. -->
         <item>Verbonnen</item>
+        <!-- Status message when VPN is timeout. -->
         <item>Timeout</item>
+        <!-- Status message when VPN is failed. -->
         <item>Net erfollegräich</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>Froen</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>Ni erlaben</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>Ëmmer erlaben</item>
     </string-array>
     <string-array name="ram_states">
+        <!-- Normal desired memory state. -->
         <item>Normal</item>
+        <!-- Moderate memory state, not as good as normal. -->
         <item>Moderat</item>
+        <!-- Memory is running low. -->
         <item>Niddreg</item>
+        <!-- Memory is critical. -->
         <item>Kritesch</item>
+        <!-- Unknown memory state -->
         <item>\?</item>
     </string-array>
     <string-array name="color_picker">
@@ -350,7 +389,11 @@
         <item>Verbose</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Home only</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Automatesch</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -381,6 +424,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
+        <!-- Global includes NR/LTE/CDMA/EvDo/GSM/WCDMA -->
         <item>Global</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>

@@ -28,14 +28,21 @@
         <item>30 munud</item>
     </string-array>
     <string-array name="dark_ui_scheduler_preference_titles">
+        <!-- 0: None -->
         <item>@string/dark_ui_auto_mode_never</item>
+        <!-- 1: Custom -->
         <item>@string/dark_ui_auto_mode_custom</item>
+        <!-- 2: Auto -->
         <item>@string/dark_ui_auto_mode_auto</item>
     </string-array>
     <string-array name="dark_ui_scheduler_with_bedtime_preference_titles">
+        <!-- 0: None -->
         <item>@string/dark_ui_auto_mode_never</item>
+        <!-- 1: Custom -->
         <item>@string/dark_ui_auto_mode_custom</item>
+        <!-- 2: Auto -->
         <item>@string/dark_ui_auto_mode_auto</item>
+        <!-- 3: Bedtime -->
         <item>@string/dark_ui_auto_mode_custom_bedtime</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
@@ -50,23 +57,39 @@
         <item>30 munud</item>
     </string-array>
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Yn sganio\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>Yn cysylltu\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Yn dilysu\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>Yn cael cyfeiriad IP\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Wedi cysylltu</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Wedi\'i atal</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>Yn datgysylltu\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Heb gysylltu</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Aflwyddiannus</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Wedi\'i rhwystro</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Yn osgoi cysylltiad gwael am y tro</item>
     </string-array>
     <string-array name="wifi_tether_security">
+        <!-- Do not translate. -->
         <item>@string/wifi_security_sae</item>
+        <!-- Do not translate. -->
         <item>@string/wifi_security_psk_sae</item>
+        <!-- Do not translate. -->
         <item>@string/wifi_security_wpa2</item>
+        <!-- Do not translate. -->
         <item>@string/wifi_security_none</item>
     </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
@@ -89,8 +112,11 @@
         <item>Error</item>
     </string-array>
     <string-array name="bluetooth_leaudio_mode">
+        <!-- Do not translate. -->
         <item>Analluogwyd</item>
+        <!-- Do not translate. -->
         <item>Unicast</item>
+        <!-- Do not translate. -->
         <item>Unicast and Broadcast</item>
     </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
@@ -119,12 +145,17 @@
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
         <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
         <item>Statig</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Dim</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
         <item>Â llaw</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Awto-Ffurfweddu Procsi</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -298,13 +329,19 @@
         <item>Uchder sain hygyrchedd</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Byr</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Canolig</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Hir</item>
     </string-array>
     <string-array name="long_press_timeout_selector_list_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Byr</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Canolig</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Hir</item>
     </string-array>
     <string-array name="captioning_typeface_selector_titles">
@@ -360,27 +397,43 @@
         <item>maỽr</item>
     </string-array>
     <string-array name="vpn_proxy_settings">
+        <!-- No HTTP proxy is used for the current VPN [CHAR LIMIT=25] -->
         <item>Dim</item>
+        <!-- Manual HTTP proxy settings are used for the current VPN [CHAR LIMIT=25] -->
         <item>Â llaw</item>
     </string-array>
     <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
         <item>Heb gysylltu</item>
+        <!-- Status message when VPN is initializing. -->
         <item>Yn ymgychwyn\u2026</item>
+        <!-- Status message when VPN is connecting. -->
         <item>Yn cysylltu\u2026</item>
+        <!-- Status message when VPN is connected. -->
         <item>Wedi cysylltu</item>
+        <!-- Status message when VPN is timeout. -->
         <item>Terfyn amser</item>
+        <!-- Status message when VPN is failed. -->
         <item>Aflwyddiannus</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>Gofyn</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>Caniatáu Byth</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>Caniatáu Bob Tro</item>
     </string-array>
     <string-array name="ram_states">
+        <!-- Normal desired memory state. -->
         <item>Arferol</item>
+        <!-- Moderate memory state, not as good as normal. -->
         <item>Cymedrol</item>
+        <!-- Memory is running low. -->
         <item>Isel</item>
+        <!-- Memory is critical. -->
         <item>Critigol</item>
+        <!-- Unknown memory state -->
         <item>\?</item>
     </string-array>
     <string-array name="color_picker">
@@ -423,7 +476,11 @@
         <item>Geiriog</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Cartref yn unig</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Awtomatig</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -454,6 +511,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
+        <!-- Global includes NR/LTE/CDMA/EvDo/GSM/WCDMA -->
         <item>Byd-eang</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
@@ -467,14 +525,21 @@
         <item>NV</item>
     </string-array>
     <string-array name="enhanced_4g_lte_mode_title_variant">
+        <!-- 0: Default -->
         <item>@string/enhanced_4g_lte_mode_title</item>
+        <!-- 1: Verizon -->
         <item>@string/enhanced_4g_lte_mode_title_advanced_calling</item>
+        <!-- 2: All carriers who want 4G -->
         <item>@string/enhanced_4g_lte_mode_title_4g_calling</item>
     </string-array>
     <string-array name="rtt_setting_mode">
+        <!-- 0: Invalid value -->
         <item/>
+        <!-- 1:  Not visible -->
         <item>@string/rtt_settings_no_visible</item>
+        <!-- 2:  Visible during call -->
         <item>@string/rtt_settings_visible_during_call</item>
+        <!-- 3:  Always visible -->
         <item>@string/rtt_settings_always_visible</item>
     </string-array>
     <string-array name="nfc_payment_favor">

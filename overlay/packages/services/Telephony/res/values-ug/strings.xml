@@ -65,8 +65,11 @@
     <string name="fdn_check_failure">تېلېفون ئەپنىڭ مۇقىم نومۇر بۇراش تەڭشىكىنى قوزغاتتىڭىز. شۇڭلاشقا نومۇر بۇراش بىلەن مۇناسىۋەتلىك قىسمەن ئىقتىدارى ئىشلىمەيدۇ.</string>
     <string name="radio_off_error">ئالدى بىلەن سىمسىز ئالاقىنى ئېچىپ ئاندىن بۇ تەڭشەكلەرنى كۆرۈڭ.</string>
     <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
         <item>تور كۆڭۈلدىكى تەڭشىكى</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
         <item>نومۇرنى يوشۇر</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
         <item>نومۇرنى كۆرسەت</item>
     </string-array>
     <string name="vm_changed">ئۈنخەت نومۇرى ئۆزگەردى.</string>
@@ -236,7 +239,11 @@
     <string name="cdma_system_select_title">سىستېما تاللاش</string>
     <string name="cdma_system_select_summary">CDMA كەزمە ھالەتنى ئۆزگەرت</string>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>يەرلىك تورلا</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Automatic</item>
     </string-array>
     <string name="cdma_subscription_title">CDMA مۇشتەرى</string>

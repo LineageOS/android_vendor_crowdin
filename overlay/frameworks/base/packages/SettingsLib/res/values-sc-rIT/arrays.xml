@@ -19,31 +19,55 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Iscansionende\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>Connetende·si\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Autentichende\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>Otenende s\'indiritzu IP\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Connètidu</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Suspesu</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>Iscolleghende·si\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Disconnètidu</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Errore</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Blocadu</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Pro immoe evitende sa connessione dèbile</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Iscansionende\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
         <item>Connetende·si a <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
         <item>Autentichende cun <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
         <item>Otenende s\'indiritzu IP dae <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
         <item>Collegadu a <xliff:g id="network_name">%1$s</xliff:g></item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Suspesu</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
         <item>Iscolleghende·si dae <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Disconnètidu</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Errore</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Blocadu</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Pro immoe evitende sa connessione dèbile</item>
     </string-array>
     <string-array name="hdcp_checking_titles">

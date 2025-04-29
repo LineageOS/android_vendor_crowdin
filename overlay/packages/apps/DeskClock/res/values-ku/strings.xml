@@ -24,7 +24,9 @@
     <string name="alarm_missed_title">ئاگادارکه‌ره‌وه‌ی ونبوو</string>
     <string name="alarm_alert_snooze_text">سووکه‌ نوستن</string>
     <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
         <item quantity="one">سوکه‌نوستن بۆ یه‌ک خوله‌ک.</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other">سوکه‌ نوستن بۆ <xliff:g id="minutes">%d</xliff:g> خوله‌ک.</item>
     </plurals>
     <string name="alarm_alert_snooze_until">سووکه‌ نوستن تا <xliff:g id="time">%s</xliff:g></string>

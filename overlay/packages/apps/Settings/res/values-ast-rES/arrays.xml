@@ -39,17 +39,29 @@
         <item>30 minutos</item>
     </string-array>
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Buscando\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>Conectando\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Autenticando\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>Obtaining IP address\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Conectóse</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Suspended</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>Desconectando\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Disconnected</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Unsuccessful</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Blocked</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Temporarily avoiding poor connection</item>
     </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
@@ -65,8 +77,11 @@
         <item>Error</item>
     </string-array>
     <string-array name="bluetooth_leaudio_mode">
+        <!-- Do not translate. -->
         <item>Desactivóse</item>
+        <!-- Do not translate. -->
         <item>Monoemisión</item>
+        <!-- Do not translate. -->
         <item>Monoemisión y emisión</item>
     </string-array>
     <string-array name="bluetooth_audio_routing_titles">
@@ -223,11 +238,17 @@
         <item>Xestu</item>
     </string-array>
     <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
         <item>Disconnected</item>
+        <!-- Status message when VPN is initializing. -->
         <item>Initializing\u2026</item>
+        <!-- Status message when VPN is connecting. -->
         <item>Conectando\u2026</item>
+        <!-- Status message when VPN is connected. -->
         <item>Connected</item>
+        <!-- Status message when VPN is timeout. -->
         <item>Timeout</item>
+        <!-- Status message when VPN is failed. -->
         <item>Unsuccessful</item>
     </string-array>
     <string-array name="color_picker">
@@ -278,6 +299,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
+        <!-- Global includes NR/LTE/CDMA/EvDo/GSM/WCDMA -->
         <item>Global</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
@@ -297,6 +319,7 @@
     </string-array>
     <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="zen_mode_icon_options_descriptions">
+        <!-- Work/Study/Meetings -->
         <item>Maletín</item>
         <item>Edificiu clásicu</item>
         <item>Bloque de pisos</item>
@@ -305,6 +328,7 @@
         <item>Bombilla</item>
         <item>Calendariu</item>
         <item>Nun molestar</item>
+        <!-- Sports -->
         <item>Persona que corre</item>
         <item>Golf</item>
         <item>Mancuerna</item>
@@ -312,6 +336,7 @@
         <item>Persona que fai senderismu</item>
         <item>Persona qu\'arrefunde una pelota</item>
         <item>Persona que da una patada</item>
+        <!-- Leisure -->
         <item>Mandu de xuegu</item>
         <item>Paleta de colores d\'un artista</item>
         <item>Falopu</item>
@@ -320,16 +345,19 @@
         <item>Piano</item>
         <item>Rollu de película</item>
         <item>Llibru</item>
+        <!-- Wellbeing -->
         <item>Flor de lotu</item>
         <item>Mente d\'una persona</item>
         <item>Auriculares</item>
         <item>TV</item>
+        <!-- Other activities -->
         <item>Tren</item>
         <item>Coche</item>
         <item>Forqueta y cuchiellu</item>
         <item>Carru de comprar</item>
         <item>Guaḥe</item>
         <item>Pata d\'un animal</item>
+        <!-- Generic / abstract -->
         <item>Insinia d\'estrella</item>
         <item>Dos persones</item>
         <item>Estrella</item>

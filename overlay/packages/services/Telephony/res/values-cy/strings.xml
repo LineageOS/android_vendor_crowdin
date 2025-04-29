@@ -150,8 +150,11 @@
     <string name="disable">Troi i ffwrdd</string>
     <string name="change_num">Diweddaru</string>
     <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
         <item>Rhagosodiad y rhwydwaith</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
         <item>Cuddio\'r rhif</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
         <item>Dangos y rhif</item>
     </string-array>
     <string name="vm_changed">Wedi newid rhif lleisbost.</string>
@@ -274,8 +277,11 @@
     <string name="enhanced_4g_lte_mode_summary">Defnyddio gwasanaethau LTE i wella llais a chyfathrebu arall (argymhellir)</string>
     <string name="enhanced_4g_lte_mode_summary_o2">Defnyddia wasanaethau 4G i wella llais a chyfathrebiadau eraill (argymhellir)</string>
     <string-array name="enhanced_4g_lte_mode_sumary_variant">
+        <!-- 0: Default -->
         <item>@string/enhanced_4g_lte_mode_summary</item>
+        <!-- 1: Verizon -->
         <item>@string/enhanced_4g_lte_mode_summary</item>
+        <!-- 2: O2 UK -->
         <item>@string/enhanced_4g_lte_mode_summary_o2</item>
     </string-array>
     <string name="data_enabled">Galluogwyd data</string>
@@ -420,7 +426,11 @@
     <string name="cdma_system_select_summary">Newid modd crwydro CDMA</string>
     <string name="cdma_system_select_dialogtitle">Dewis system</string>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Cartref yn unig</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Awtomatig</item>
     </string-array>
     <string name="cdma_subscription_title">Tanysgrifiad CDMA</string>

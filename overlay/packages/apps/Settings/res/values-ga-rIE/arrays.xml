@@ -41,16 +41,21 @@
     <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="terms_of_address_supported_languages">
         <item>fr</item>
+        <!-- French -->
         <item>es</item>
+        <!-- Spanish -->
         <item>it</item>
+        <!-- Italian -->
         <item>de</item>
-        </string-array>
+        <!-- German -->
+    </string-array>
     <string-array name="private_space_auto_lock_options">
         <item>@string/private_space_auto_lock_every_time</item>
         <item>@string/private_space_auto_lock_after_inactivity</item>
         <item>@string/private_space_auto_lock_after_device_restart</item>
     </string-array>
     <string-array name="zen_mode_icon_options_descriptions">
+        <!-- Work/Study/Meetings -->
         <item>Mála cáipéisí</item>
         <item>Foirgneamh clasaiceach</item>
         <item>Foirgneamh árasán</item>
@@ -59,6 +64,7 @@
         <item>bolgán solais</item>
         <item>Féilire</item>
         <item>Ná Cuir isteach</item>
+        <!-- Sports -->
         <item>Duine ag rith</item>
         <item>Gailf</item>
         <item>Tromán giomnáisiam</item>
@@ -66,6 +72,7 @@
         <item>Duine ag siúlóireacht</item>
         <item>Duine ag caitheamh liathróide</item>
         <item>Duine ag ciceáil</item>
+        <!-- Leisure -->
         <item>Rialaitheoir cluiche</item>
         <item>Pailéad dathanna ealaíontóir</item>
         <item>Cáithnínísneachta</item>
@@ -74,16 +81,19 @@
         <item>Pianó</item>
         <item>Ríl scannán</item>
         <item>Leabhar</item>
+        <!-- Wellbeing -->
         <item>Bláth Lotus</item>
         <item>Intinn an duine </item>
         <item>Cluasáin</item>
         <item>Teilifís</item>
+        <!-- Other activities -->
         <item>Traein</item>
         <item>Carr</item>
         <item>Forc agus scian</item>
         <item>Cart siopadóireacht</item>
         <item>Leanbh</item>
         <item>Lapa ainmhithe</item>
+        <!-- Generic / abstract -->
         <item>Suaitheantas réalta</item>
         <item>Beirt daoine</item>
         <item>Réalt</item>

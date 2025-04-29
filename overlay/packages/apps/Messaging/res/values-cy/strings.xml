@@ -394,6 +394,7 @@
     <string name="vcard_tap_hint">Gweld cerdyn cyswllt</string>
     <plurals name="vcard_multiple_display_name">
         <item quantity="zero"><xliff:g id="count">%d</xliff:g> cysylltiadau</item>
+        <!-- quantity="one" is not needed by the app, but it keeps the translation pipeline happy. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> cyswllt</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> gyswllt</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> chyswllt</item>

@@ -40,7 +40,9 @@
     <string name="all_services_title">Барлык хезмәтләр</string>
     <string name="no_connection_to_printer">Принтер тоташмаган</string>
     <string-array name="color_mode_labels">
+        <!-- Color mode label: Monochrome color scheme, e.g. one color is used. [CHAR LIMIT=20] -->
         <item>Кара &amp; ак</item>
+        <!-- Color mode label: Color color scheme, e.g. many colors are used. [CHAR LIMIT=20] -->
         <item>Color</item>
     </string-array>
 </resources>

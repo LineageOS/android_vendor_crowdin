@@ -96,16 +96,23 @@
     <string name="print_service_security_warning_summary">Dh’fhaoidte gun dèid an sgrìobhainn agad tro fhrithealaiche no dhà
          air a slighe dhan chlò-bhualadair.</string>
     <string-array name="color_mode_labels">
+        <!-- Color mode label: Monochrome color scheme, e.g. one color is used. [CHAR LIMIT=20] -->
         <item>Dubh ⁊ geal</item>
+        <!-- Color mode label: Color color scheme, e.g. many colors are used. [CHAR LIMIT=20] -->
         <item>Dath</item>
     </string-array>
     <string-array name="duplex_mode_labels">
+        <!-- Duplex mode label: No duplex supported. [CHAR LIMIT=20] -->
         <item>Chan eil gin</item>
+        <!-- Duplex mode label: Turn page sideways along the long edge like a book. [CHAR LIMIT=20] -->
         <item>An oir fhada</item>
+        <!-- Duplex mode label: Turn page upwards along the short edge like a notepad. [CHAR LIMIT=20] -->
         <item>An oir ghoirid</item>
     </string-array>
     <string-array name="orientation_labels">
+        <!-- Orientation label: Portrait page orientation. [CHAR LIMIT=30] -->
         <item>Portraid</item>
+        <!-- Orientation label: Landscape page orientation [CHAR LIMIT=30] -->
         <item>Cruth-tìre</item>
     </string-array>
     <string name="print_write_error_message">Cha b’ urrainn dhuinn sgrìobhadh dhan fhaidhle</string>

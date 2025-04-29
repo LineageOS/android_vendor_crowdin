@@ -26,13 +26,17 @@
     <string name="alarm_missed_title">Verpasste Wecker</string>
     <string name="alarm_alert_snoozed_text">Genäipt</string>
     <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
         <item quantity="one">1 Min.</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> Min.</item>
     </plurals>
     <string name="alarm_alert_off_text">Wecker aus</string>
     <string name="alarm_alert_snooze_text">Näipen</string>
     <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
         <item quantity="one">Näipe fir 1 Minutt.</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other">Näipe fir <xliff:g id="minutes">%d</xliff:g> Minutten.</item>
     </plurals>
     <string name="alarm_alert_snooze_until">Näipe bis <xliff:g id="time">%s</xliff:g></string>

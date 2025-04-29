@@ -26,13 +26,17 @@
     <string name="alarm_missed_title">Isvèllia pèrdida</string>
     <string name="alarm_alert_snoozed_text">Post-posta</string>
     <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
         <item quantity="one">1 min</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
     </plurals>
     <string name="alarm_alert_off_text">Isvèllia disativada</string>
     <string name="alarm_alert_snooze_text">Post-pone</string>
     <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
         <item quantity="one">Post-ponende pro 1 minutu.</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other">Post-ponende pro <xliff:g id="minutes">%d</xliff:g> minutos.</item>
     </plurals>
     <string name="alarm_alert_snooze_until">Post-ponende finas a is <xliff:g id="time">%s</xliff:g></string>
@@ -50,15 +54,21 @@
         <item>Isvèllia impostada pro <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> dae immoe.</item>
     </string-array>
     <plurals name="days">
+        <!-- Duration for one day -->
         <item quantity="one">1 die</item>
+        <!-- Duration for more than one day -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> dies</item>
     </plurals>
     <plurals name="hours">
+        <!-- Duration for one hour -->
         <item quantity="one">1 ora</item>
+        <!-- Duration for more than one hour -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> oras</item>
     </plurals>
     <plurals name="minutes">
+        <!-- Duration for one minute -->
         <item quantity="one">1 minutu</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minutos</item>
     </plurals>
     <string name="every_day">Cada die</string>
@@ -69,7 +79,9 @@
     <string name="snooze_duration_title">Longària de post-ponimentu</string>
     <string name="auto_silence_title">A sa muda a pustis de</string>
     <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
         <item quantity="one">1 minutu</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> minutos</item>
     </plurals>
     <string name="auto_silence_never">Mai</string>

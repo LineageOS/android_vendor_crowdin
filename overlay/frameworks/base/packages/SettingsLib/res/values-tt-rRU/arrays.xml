@@ -69,9 +69,13 @@
         <item>Opus</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
+        <!-- Status message when the device is not Active. -->
         <item/>
+        <!-- Status message when the device is Active for Media and Phone. -->
         <item>, актив</item>
+        <!-- Status message when the device is Active for Media only. -->
         <item>, актив (медиа)</item>
+        <!-- Status message when the device is Active for Phone only. -->
         <item>, актив (телефон)</item>
     </string-array>
     <string-array name="select_logd_size_titles">

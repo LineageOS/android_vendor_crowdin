@@ -696,9 +696,13 @@
     <string name="select_device_name_title">Tagh ainm air a’ <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> agad</string>
     <string name="select_device_name_description">Thoir ainm air an uidheam agad ach an aithnich thu e nuair a bhios tu ri tilgeil no a’ ceangal ris o uidheaman eile.</string>
     <string-array name="rooms">
+        <!-- [CHAR LIMIT=40] -->
         <item>TBh Android</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>TBh an t-seòmair-shuidhe</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>TBh an t-seòmair theaghlaich</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>TBh an t-seòmair-chadail</item>
     </string-array>
     <string name="custom_room">Cuir a-steach ainm gnàthaichte…</string>

@@ -117,8 +117,11 @@
     <string name="disable">Ausschalten</string>
     <string name="change_num">Aktualiséieren</string>
     <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
         <item>Netzwierkstandard</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
         <item>Nummer verstoppen</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
         <item>Nummer uweisen</item>
     </string-array>
     <string name="vm_changed">Mailbox-Nummer geännert.</string>
@@ -304,7 +307,11 @@
     <string name="cdma_system_select_summary">Den CDMA-Roamingmodus änneren</string>
     <string name="cdma_system_select_dialogtitle">Auswiel duerch de System</string>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Just Doheem</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Automatesch</item>
     </string-array>
     <string name="cdma_subscription_title">CDMA-Abonnement</string>

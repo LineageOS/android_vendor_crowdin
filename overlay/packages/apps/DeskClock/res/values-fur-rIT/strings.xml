@@ -37,13 +37,17 @@
     <string name="alarm_missed_text"><xliff:g id="alarm_time">%1$s</xliff:g> - <xliff:g id="alarm_label">%2$s</xliff:g></string>
     <string name="alarm_alert_snoozed_text">Posticipade</string>
     <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
         <item quantity="one">1 min</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
     </plurals>
     <string name="alarm_alert_off_text">Svee disativade</string>
     <string name="alarm_alert_snooze_text">Posticipe</string>
     <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
         <item quantity="one">Posticipazion di 1 minût.</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other">Posticipazion di <xliff:g id="minutes">%d</xliff:g> minûts.</item>
     </plurals>
     <string name="alarm_alert_snooze_until">Posticipazion fin aes <xliff:g id="time">%s</xliff:g></string>
@@ -73,27 +77,39 @@
         <item>Svee ca di <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
     </string-array>
     <plurals name="days">
+        <!-- Duration for one day -->
         <item quantity="one">1 dì</item>
+        <!-- Duration for more than one day -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> dîs</item>
     </plurals>
     <plurals name="hours">
+        <!-- Duration for one hour -->
         <item quantity="one">1 ore</item>
+        <!-- Duration for more than one hour -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> oris</item>
     </plurals>
     <plurals name="hours_short">
+        <!-- Duration for one hour [CHAR LIMIT=8] -->
         <item quantity="one">1 h</item>
+        <!-- Duration for more than one hour [CHAR LIMIT=8]-->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> h</item>
     </plurals>
     <plurals name="minutes">
+        <!-- Duration for one minute -->
         <item quantity="one">1 minût</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minûts</item>
     </plurals>
     <plurals name="minutes_short">
+        <!-- Duration for one minute [CHAR LIMIT=8] -->
         <item quantity="one">1 min</item>
+        <!-- Duration for more than one minute [CHAR LIMIT=8] -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> min</item>
     </plurals>
     <plurals name="seconds">
+        <!-- Duration for one second -->
         <item quantity="one">1 secont</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> seconts</item>
     </plurals>
     <string name="every_day">Ogni dì</string>
@@ -106,7 +122,9 @@
     <string name="crescendo_duration_title">Aumente man man il volum</string>
     <string name="auto_silence_title">Cidine dopo</string>
     <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
         <item quantity="one">1 minût</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> minûts</item>
     </plurals>
     <string name="auto_silence_never">Mai</string>

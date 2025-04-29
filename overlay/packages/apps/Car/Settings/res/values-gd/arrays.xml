@@ -16,8 +16,11 @@
 -->
 <resources>
     <string-array name="premium_sms_access_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>Faighnich</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>Na ceadaich idir</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>Ceadaich an-còmhnaidh</item>
     </string-array>
 </resources>

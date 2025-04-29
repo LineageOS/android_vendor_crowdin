@@ -52,9 +52,13 @@
     <string name="restriction_description"><xliff:g id="description">%1$s</xliff:g>\n<xliff:g id="value">%2$s</xliff:g></string>
     <string name="device_energy_saver_timeout_description"><xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
     <string-array name="rooms">
+        <!-- [CHAR LIMIT=40] -->
         <item>Android TV</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>Залдагы телевизор</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>Кунак бүлмәсендәге телевизор</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>Йокы бүлмәсендәге телевизор</item>
     </string-array>
     <string name="app_permission_summary_not_allowed">Тыелган</string>

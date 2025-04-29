@@ -65,11 +65,15 @@
     <string name="no_connection_to_printer">پەیوەست نییە بە چاپکەرەوە</string>
     <string name="reason_unknown">نەناسراو</string>
     <string-array name="color_mode_labels">
+        <!-- Color mode label: Monochrome color scheme, e.g. one color is used. [CHAR LIMIT=20] -->
         <item>رەش وamp; سپی</item>
+        <!-- Color mode label: Color color scheme, e.g. many colors are used. [CHAR LIMIT=20] -->
         <item>ڕەنگ</item>
     </string-array>
     <string-array name="orientation_labels">
+        <!-- Orientation label: Portrait page orientation. [CHAR LIMIT=30] -->
         <item>وێنەی شێوە</item>
+        <!-- Orientation label: Landscape page orientation [CHAR LIMIT=30] -->
         <item>وێنەی سروشت</item>
     </string-array>
     <string name="print_write_error_message">ناتوانرێت فایلێک بنوسرێت</string>

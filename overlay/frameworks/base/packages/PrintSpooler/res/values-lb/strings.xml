@@ -69,11 +69,15 @@
     <string name="no_connection_to_printer">Keng Connectioun mam Drécker</string>
     <string name="reason_unknown">onbekannt</string>
     <string-array name="color_mode_labels">
+        <!-- Color mode label: Monochrome color scheme, e.g. one color is used. [CHAR LIMIT=20] -->
         <item>Schwaarz &amp; Wäiss</item>
+        <!-- Color mode label: Color color scheme, e.g. many colors are used. [CHAR LIMIT=20] -->
         <item>Faarf</item>
     </string-array>
     <string-array name="orientation_labels">
+        <!-- Orientation label: Portrait page orientation. [CHAR LIMIT=30] -->
         <item>Héichformat</item>
+        <!-- Orientation label: Landscape page orientation [CHAR LIMIT=30] -->
         <item>Breetformat</item>
     </string-array>
     <string name="print_write_error_message">Feeler beim Schreiwen an de Fichier</string>

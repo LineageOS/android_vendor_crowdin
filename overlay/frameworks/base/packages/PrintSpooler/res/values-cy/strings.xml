@@ -96,16 +96,23 @@
     <string name="print_service_security_warning_title">Defnyddio <xliff:g id="service" example="My Print Service">%1$s</xliff:g>?</string>
     <string name="print_service_security_warning_summary">Mae\'n bosib bydd dy ddogfen yn pasio trwy fwy nag un gweinydd ar ei ffordd i\'r argraffydd.</string>
     <string-array name="color_mode_labels">
+        <!-- Color mode label: Monochrome color scheme, e.g. one color is used. [CHAR LIMIT=20] -->
         <item>Du a Gwyn</item>
+        <!-- Color mode label: Color color scheme, e.g. many colors are used. [CHAR LIMIT=20] -->
         <item>Lliw</item>
     </string-array>
     <string-array name="duplex_mode_labels">
+        <!-- Duplex mode label: No duplex supported. [CHAR LIMIT=20] -->
         <item>Dim</item>
+        <!-- Duplex mode label: Turn page sideways along the long edge like a book. [CHAR LIMIT=20] -->
         <item>Ymyl hir</item>
+        <!-- Duplex mode label: Turn page upwards along the short edge like a notepad. [CHAR LIMIT=20] -->
         <item>Ymyl byr</item>
     </string-array>
     <string-array name="orientation_labels">
+        <!-- Orientation label: Portrait page orientation. [CHAR LIMIT=30] -->
         <item>Portread</item>
+        <!-- Orientation label: Landscape page orientation [CHAR LIMIT=30] -->
         <item>Tirlun</item>
     </string-array>
     <string name="print_write_error_message">Methwyd ag ysgrifennu i\'r ffeil</string>

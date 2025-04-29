@@ -143,8 +143,11 @@
     <string name="disable">Cuir dheth</string>
     <string name="change_num">Ùraich</string>
     <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
         <item>Bun-roghainn an lìonraidh</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
         <item>Falaich an àireamh</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
         <item>Seall an àireamh</item>
     </string-array>
     <string name="vm_changed">Chaidh àireamh a’ phuist-ghutha atharrachadh.</string>
@@ -267,8 +270,11 @@
     <string name="enhanced_4g_lte_mode_summary">Cleachd seirbheisean LTE airson a’ ghuth is conaltradh eile a leasachadh (mholamaid seo)</string>
     <string name="enhanced_4g_lte_mode_summary_o2">Cleachd seirbheisean 4G airson a’ ghuth is conaltradh eile a leasachadh (mholamaid seo)</string>
     <string-array name="enhanced_4g_lte_mode_sumary_variant">
+        <!-- 0: Default -->
         <item>@string/enhanced_4g_lte_mode_summary</item>
+        <!-- 1: Verizon -->
         <item>@string/enhanced_4g_lte_mode_summary</item>
+        <!-- 2: O2 UK -->
         <item>@string/enhanced_4g_lte_mode_summary_o2</item>
     </string-array>
     <string name="data_enabled">Tha an dàta an comas</string>
@@ -409,7 +415,11 @@
     <string name="cdma_system_select_summary">Atharraich modh CDMA air fàrsan</string>
     <string name="cdma_system_select_dialogtitle">Taghadh an t-siostaim</string>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Aig an dachaigh a-mhàin</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Gu fèin-obrachail</item>
     </string-array>
     <string name="cdma_subscription_title">Fo-sgrìobhadh CDMA</string>

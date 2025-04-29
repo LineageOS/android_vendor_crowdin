@@ -50,8 +50,11 @@
     <string name="disable">Sens</string>
     <string name="change_num">Lqem</string>
     <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
         <item>Network default</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
         <item>Ffer uṭṭun</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
         <item>Sken uṭṭun</item>
     </string-array>
     <string name="network_select_title">Aẓeṭṭa</string>
@@ -131,7 +134,11 @@
     <string name="enable_disable_advertisements">Adellel</string>
     <string name="network_global">Amatu</string>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Home only</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Awurman</item>
     </string-array>
     <string-array name="cdma_subscription_values">

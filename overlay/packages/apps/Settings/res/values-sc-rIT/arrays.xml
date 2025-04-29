@@ -39,23 +39,39 @@
         <item>30 minutos</item>
     </string-array>
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Iscansionende\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>Connetende·si\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Autentichende\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>Otenende s\'indiritzu IP\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Connètidu</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Suspesu</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>Iscolleghende·si\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Disconnètidu</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Errore</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Blocadu</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Pro immoe evitende sa connessione dèbile</item>
     </string-array>
     <string-array name="wifi_tether_security">
+        <!-- Do not translate. -->
         <item>@string/wifi_security_sae</item>
+        <!-- Do not translate. -->
         <item>@string/wifi_security_psk_sae</item>
+        <!-- Do not translate. -->
         <item>@string/wifi_security_wpa2</item>
+        <!-- Do not translate. -->
         <item>@string/wifi_security_none</item>
     </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
@@ -85,12 +101,17 @@
         <item>Bona meda</item>
     </string-array>
     <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
         <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
         <item>Istàtica</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Perunu</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
         <item>Manuale</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Cunfiguratzione automàtica</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -258,13 +279,19 @@
         <item>Accessibility volume</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Curtza</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Mesana</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Longa</item>
     </string-array>
     <string-array name="long_press_timeout_selector_list_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Curtza</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Mesana</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Longa</item>
     </string-array>
     <string-array name="captioning_typeface_selector_titles">
@@ -304,27 +331,43 @@
         <item>Mannu</item>
     </string-array>
     <string-array name="vpn_proxy_settings">
+        <!-- No HTTP proxy is used for the current VPN [CHAR LIMIT=25] -->
         <item>Perunu</item>
+        <!-- Manual HTTP proxy settings are used for the current VPN [CHAR LIMIT=25] -->
         <item>Manuale</item>
     </string-array>
     <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
         <item>Disconnètidu</item>
+        <!-- Status message when VPN is initializing. -->
         <item>Initzializende\u2026</item>
+        <!-- Status message when VPN is connecting. -->
         <item>Connetende·si\u2026</item>
+        <!-- Status message when VPN is connected. -->
         <item>Connètidu</item>
+        <!-- Status message when VPN is timeout. -->
         <item>Agabbadu su tempus</item>
+        <!-- Status message when VPN is failed. -->
         <item>Errore</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>Pedi</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>Non permitas mai</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>Permite semper</item>
     </string-array>
     <string-array name="ram_states">
+        <!-- Normal desired memory state. -->
         <item>Normale</item>
+        <!-- Moderate memory state, not as good as normal. -->
         <item>Moderadu</item>
+        <!-- Memory is running low. -->
         <item>Bàsciu</item>
+        <!-- Memory is critical. -->
         <item>Crìticu</item>
+        <!-- Unknown memory state -->
         <item>\?</item>
     </string-array>
     <string-array name="color_picker">
@@ -349,7 +392,11 @@
         <item>Verbose</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Home only</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Automàticu</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -380,6 +427,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
+        <!-- Global includes NR/LTE/CDMA/EvDo/GSM/WCDMA -->
         <item>Global</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
@@ -395,6 +443,7 @@
     </string-array>
     <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="zen_mode_icon_options_descriptions">
+        <!-- Work/Study/Meetings -->
         <item>Briefcase</item>
         <item>Classical building</item>
         <item>Apartment building</item>
@@ -403,6 +452,7 @@
         <item>Lampadina</item>
         <item>Calendar</item>
         <item>Do Not Disturb</item>
+        <!-- Sports -->
         <item>Person running</item>
         <item>Golf</item>
         <item>Gym dumbbell</item>
@@ -410,6 +460,7 @@
         <item>Persona faghende escursiones</item>
         <item>Persona tirende una bòcia</item>
         <item>Person kicking</item>
+        <!-- Leisure -->
         <item>Game controller</item>
         <item>Artist color palette</item>
         <item>Frocu de nie</item>
@@ -418,16 +469,19 @@
         <item>Piano</item>
         <item>Film reel</item>
         <item>Book</item>
+        <!-- Wellbeing -->
         <item>Frore de lotus</item>
         <item>Person\'s mind</item>
         <item>Headphones</item>
         <item>TV</item>
+        <!-- Other activities -->
         <item>Trenu</item>
         <item>Màchina</item>
         <item>Frochita e gurteddu</item>
         <item>Carretos de s\'ispesa</item>
         <item>Child</item>
         <item>Branca de un\'animale</item>
+        <!-- Generic / abstract -->
         <item>Distintivu de isteddu</item>
         <item>Duas persones</item>
         <item>Isteddu</item>

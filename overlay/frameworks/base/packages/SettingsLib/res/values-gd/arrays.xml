@@ -19,31 +19,55 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>’Ga sganadh\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>’Ga cheangal…</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>’Ga dhearbhadh\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>A’ faighinn seòladh IP…</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Ceangailte</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>’Na dhàil</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>A’ briseadh a’ cheangail\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Gun cheangal</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Cha deach leis</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Chaidh a bhacadh</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>A’ seachnadh droch-cheangal gu sealach</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>’Ga sganadh\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
         <item>A’ ceangal ri <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
         <item>A’ dearbhadh le <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
         <item>A’ faighinn seòladh IP o <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
         <item>Ceangailte ri <xliff:g id="network_name">%1$s</xliff:g></item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>’Na dhàil</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
         <item>A’ briseadh a’ cheangail ri <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Gun cheangal</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Cha deach leis</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Chaidh a bhacadh</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>A’ seachnadh droch-cheangal gu sealach</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
@@ -152,9 +176,13 @@
         <item>Oidhirp as fheàrr (reat bhiodan co-fhreagrach)</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
+        <!-- Status message when the device is not Active. -->
         <item/>
+        <!-- Status message when the device is Active for Media and Phone. -->
         <item>, gnìomhach</item>
+        <!-- Status message when the device is Active for Media only. -->
         <item>, gnìomhach (mheadhanan)</item>
+        <!-- Status message when the device is Active for Phone only. -->
         <item>, gnìomhach (fòn)</item>
     </string-array>
     <string-array name="select_logd_size_titles">

@@ -872,9 +872,13 @@
     <string name="select_device_name_title">Dewisa enw ar gyfer dy <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g></string>
     <string name="select_device_name_description">Gall rhoi enw i\'r ddyfais helpu ei hadnabod wrth fwrw neu gysylltu â hi o ddyfeisiau eraill.</string>
     <string-array name="rooms">
+        <!-- [CHAR LIMIT=40] -->
         <item>Teledu Android</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>Teledu Ystafell Fyw</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>Teledu Ystafell Teulu</item>
+        <!-- [CHAR LIMIT=40] -->
         <item>Teledu ystafell gwely</item>
     </string-array>
     <string name="custom_room">Rho enw ystafell dy hun…</string>

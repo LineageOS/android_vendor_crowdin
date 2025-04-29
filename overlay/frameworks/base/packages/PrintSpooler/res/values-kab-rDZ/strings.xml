@@ -31,16 +31,23 @@
     <string name="restart">Ales tanekra</string>
     <string name="reason_unknown">arussin</string>
     <string-array name="color_mode_labels">
+        <!-- Color mode label: Monochrome color scheme, e.g. one color is used. [CHAR LIMIT=20] -->
         <item>Black &amp; White</item>
+        <!-- Color mode label: Color color scheme, e.g. many colors are used. [CHAR LIMIT=20] -->
         <item>Ini</item>
     </string-array>
     <string-array name="duplex_mode_labels">
+        <!-- Duplex mode label: No duplex supported. [CHAR LIMIT=20] -->
         <item>Ulac</item>
+        <!-- Duplex mode label: Turn page sideways along the long edge like a book. [CHAR LIMIT=20] -->
         <item>Long edge</item>
+        <!-- Duplex mode label: Turn page upwards along the short edge like a notepad. [CHAR LIMIT=20] -->
         <item>Short edge</item>
     </string-array>
     <string-array name="orientation_labels">
+        <!-- Orientation label: Portrait page orientation. [CHAR LIMIT=30] -->
         <item>S teɣzi</item>
+        <!-- Orientation label: Landscape page orientation [CHAR LIMIT=30] -->
         <item>S tehri</item>
     </string-array>
     <string name="print_error_retry">Ɛref̣ tikelt-nniḍen</string>

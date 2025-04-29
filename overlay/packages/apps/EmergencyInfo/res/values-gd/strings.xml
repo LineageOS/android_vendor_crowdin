@@ -55,14 +55,23 @@
         <item>@string/unknown_blood_type</item>
     </string-array>
     <string-array name="blood_type_values">
+        <!-- Do not translate -->
         <item>0+</item>
+        <!-- Do not translate -->
         <item>O-</item>
+        <!-- Do not translate -->
         <item>A+</item>
+        <!-- Do not translate -->
         <item>A-</item>
+        <!-- Do not translate -->
         <item>B+</item>
+        <!-- Do not translate -->
         <item>B-</item>
+        <!-- Do not translate -->
         <item>AB+</item>
+        <!-- Do not translate -->
         <item>AB-</item>
+        <!-- Do not translate -->
         <item>H/H</item>
         <item/>
     </string-array>
@@ -106,7 +115,9 @@
         <item>@string/unknown_organ_donor</item>
     </string-array>
     <string-array name="organ_donor_values">
+        <!-- Do not translate -->
         <item>Yes</item>
+        <!-- Do not translate -->
         <item>No</item>
         <item/>
     </string-array>

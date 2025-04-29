@@ -33,14 +33,20 @@
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>None</item>
+        <!-- Do not translate. -->
         <item>MSCHAPV2</item>
+        <!-- Do not translate. -->
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_phase2_entries">
         <item>None</item>
+        <!-- Do not translate. -->
         <item>PAP</item>
+        <!-- Do not translate. -->
         <item>MSCHAP</item>
+        <!-- Do not translate. -->
         <item>MSCHAPV2</item>
+        <!-- Do not translate. -->
         <item>GTC</item>
     </string-array>
     <string-array name="volume_change_entry_values">

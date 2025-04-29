@@ -21,13 +21,17 @@
     <string name="alarm_tomorrow">Morgaŭ</string>
     <string name="alarm_today">Hodiaŭ</string>
     <plurals name="days">
+        <!-- Duration for one day -->
         <item quantity="one">1 tago</item>
+        <!-- Duration for more than one day -->
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> tagoj</item>
     </plurals>
     <string name="day_concat">", "</string>
     <string name="settings">Agordoj</string>
     <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
         <item quantity="one">1 minuto</item>
+        <!-- Duration for more than one minute -->
         <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> minutoj</item>
     </plurals>
     <string name="auto_silence_never">Neniam</string>

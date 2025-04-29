@@ -39,17 +39,29 @@
         <item>30 n tisdatin</item>
     </string-array>
     <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
         <item/>
+        <!-- Status message of Wi-Fi when it is scanning. -->
         <item>Scanning\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
         <item>Tuqna\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Authenticating\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
         <item>Obtaining IP address\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
         <item>Yeqqen</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
         <item>Yewḥel</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
         <item>Disconnecting\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
         <item>Ur yeqqin ara</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
         <item>Unsuccessful</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
         <item>Yettusewḥel</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
         <item>Temporarily avoiding poor connection</item>
     </string-array>
     <string-array name="wifi_p2p_status">
@@ -91,12 +103,17 @@
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
         <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
         <item>Static</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Ulac</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
         <item>S ufus</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
         <item>Proxy Auto-Config</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -270,13 +287,19 @@
         <item>Accessibility volume</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Awezlan</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Alemmas</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Aɣezfan</item>
     </string-array>
     <string-array name="long_press_timeout_selector_list_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
         <item>Awezlan</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
         <item>Alemmas</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
         <item>Aɣezfan</item>
     </string-array>
     <string-array name="captioning_typeface_selector_titles">
@@ -324,27 +347,43 @@
         <item>Hraw</item>
     </string-array>
     <string-array name="vpn_proxy_settings">
+        <!-- No HTTP proxy is used for the current VPN [CHAR LIMIT=25] -->
         <item>Ula yiwen</item>
+        <!-- Manual HTTP proxy settings are used for the current VPN [CHAR LIMIT=25] -->
         <item>S ufus</item>
     </string-array>
     <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
         <item>Ur yeqqin ara</item>
+        <!-- Status message when VPN is initializing. -->
         <item>Awennez\u2026</item>
+        <!-- Status message when VPN is connecting. -->
         <item>Tuqna\u2026</item>
+        <!-- Status message when VPN is connected. -->
         <item>Yeqqen</item>
+        <!-- Status message when VPN is timeout. -->
         <item>Amenḍar</item>
+        <!-- Status message when VPN is failed. -->
         <item>Unsuccessful</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
+        <!-- Ask user before sending to premium SMS short code. -->
         <item>Ssuter</item>
+        <!-- Never allow app to send to premium SMS short code. -->
         <item>Never allow</item>
+        <!-- Always allow app to send to premium SMS short code. -->
         <item>Always allow</item>
     </string-array>
     <string-array name="ram_states">
+        <!-- Normal desired memory state. -->
         <item>Amagnu</item>
+        <!-- Moderate memory state, not as good as normal. -->
         <item>Sektem</item>
+        <!-- Memory is running low. -->
         <item>Faible</item>
+        <!-- Memory is critical. -->
         <item>Uzɣin</item>
+        <!-- Unknown memory state -->
         <item>\?</item>
     </string-array>
     <string-array name="color_picker">
@@ -365,7 +404,11 @@
         <item>Verbose</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
         <item>Home only</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
         <item>Awurman</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -396,6 +439,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
+        <!-- Global includes NR/LTE/CDMA/EvDo/GSM/WCDMA -->
         <item>Amatu</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>

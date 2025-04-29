@@ -66,6 +66,7 @@
     <string name="sim_slot_identifier">SIM <xliff:g id="sim_slot_number">%s</xliff:g></string>
     <string name="conversation_message_view_subject_text">Asuntu:\u0020</string>
     <plurals name="vcard_multiple_display_name">
+        <!-- quantity="one" is not needed by the app, but it keeps the translation pipeline happy. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> contautu</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> contautos</item>
     </plurals>

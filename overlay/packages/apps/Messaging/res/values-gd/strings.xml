@@ -353,6 +353,7 @@
     <string name="failed_loading_vcard">Cha b’ urrainn dhuinn a’ chairt-chonaltraidh a luchdadh</string>
     <string name="vcard_tap_hint">Seall a’ chairt-chonaltraidh</string>
     <plurals name="vcard_multiple_display_name">
+        <!-- quantity="one" is not needed by the app, but it keeps the translation pipeline happy. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> neach-aithne</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> luchd-aithne</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> luchd-aithne</item>
