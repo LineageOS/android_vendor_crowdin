@@ -831,10 +831,10 @@
     <string name="right_keycode">Codiç dal tast di diestre</string>
     <string name="left_icon">Icone di çampe</string>
     <string name="right_icon">Icone di diestre</string>
-    <string name="drag_to_add_tiles">Ten fracât e strissine par zontâ i tassei</string>
-    <string name="drag_to_rearrange_tiles">Ten fracât e strissine par rangjâ i tassei</string>
+    <string name="drag_to_add_tiles">Ten fracât e strissine par zontâ ricuadris</string>
+    <string name="drag_to_rearrange_tiles">Ten fracât e strissine par rangjâ i ricuadris</string>
     <string name="drag_to_remove_tiles">Strissine achì par gjavâ</string>
-    <string name="drag_to_remove_disabled">Ti coventin almancul <xliff:g id="min_num_tiles" example="6">%1$d</xliff:g> tassei</string>
+    <string name="drag_to_remove_disabled">Ti coventin almancul <xliff:g id="min_num_tiles" example="6">%1$d</xliff:g> schedis</string>
     <string name="qs_edit">Modifiche</string>
     <string name="tuner_time">Ore</string>
     <string-array name="clock_options">
@@ -849,15 +849,15 @@
     </string-array>
     <string name="tuner_low_priority">Mostre lis iconis des notifichis a basse prioritât</string>
     <string name="other">Altri</string>
-    <string name="accessibility_qs_edit_remove_tile_action">gjavâ il tassel</string>
-    <string name="accessibility_qs_edit_tile_add_action">zontâ il tassel ae fin</string>
-    <string name="accessibility_qs_edit_tile_start_move">Sposte il tassel</string>
-    <string name="accessibility_qs_edit_tile_start_add">Zonte tassel</string>
+    <string name="accessibility_qs_edit_remove_tile_action">gjavâ il ricuadri</string>
+    <string name="accessibility_qs_edit_tile_add_action">zontâ il ricuadri ae fin</string>
+    <string name="accessibility_qs_edit_tile_start_move">Sposte il ricuadri</string>
+    <string name="accessibility_qs_edit_tile_start_add">Zonte ricuadri</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Sposte ae posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_add_to_position">Zonte te posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_position">Posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
-    <string name="accessibility_qs_edit_tile_added">Tassel zontât</string>
-    <string name="accessibility_qs_edit_tile_removed">Tassel gjavât</string>
+    <string name="accessibility_qs_edit_tile_added">Ricuadri zontât</string>
+    <string name="accessibility_qs_edit_tile_removed">Ricuadri gjavât</string>
     <string name="accessibility_desc_quick_settings_edit">Editôr di impostazions rapidis.</string>
     <string name="accessibility_desc_notification_icon">Notifichis <xliff:g name="app_name" example="Gmail">%1$s</xliff:g>: <xliff:g name="notification_text" example="5 new messages">%2$s</xliff:g></string>
     <string name="accessibility_quick_settings_settings">Vierç lis impostazions.</string>
@@ -1194,9 +1194,9 @@
     <string name="to_switch_networks_disconnect_ethernet">Par cambiâ rêts, disconet l\'ethernet</string>
     <string name="wifi_scan_notify_message">Par miorâ la esperience di ûs dal dispositîf, lis aplicazions e i servizis a podaran ancjemò scansionâ in cualsisei moment lis rêts Wi\u2011Fi, ancje cuant che il Wi\u2011Fi al è disativât. Tu puedis cambiâ cheste opzion tes impostazions di scansion dal Wi\u2011Fi. <annotation id="link">Cambie</annotation></string>
     <string name="turn_off_airplane_mode">Disative modalitât avion</string>
-    <string name="qs_tile_request_dialog_text"><xliff:g id="appName" example="Fake App">%1$s</xliff:g> al vûl zontâ chest tassel tes impostazions rapidis</string>
-    <string name="qs_tile_request_dialog_add">Zonte tassel</string>
-    <string name="qs_tile_request_dialog_not_add">No sta zontâ tassel</string>
+    <string name="qs_tile_request_dialog_text"><xliff:g id="appName" example="Fake App">%1$s</xliff:g> al vûl zontâ chest ricuadri tes impostazions rapidis</string>
+    <string name="qs_tile_request_dialog_add">Zonte ricuadri</string>
+    <string name="qs_tile_request_dialog_not_add">No sta zontâlu</string>
     <string name="qs_user_switch_dialog_title">Selezione utent</string>
     <string name="fgs_manager_footer_label">{count, plural,
         one {}=1 {# aplicazion ative}

@@ -570,7 +570,7 @@
     <string name="privatespace_hide_page_summary">Par no fâ savê a chei altris che tu âs un spazi privât sul to dispositîf, tu puedis platâlu de liste des tôs aplicazions</string>
     <string name="privatespace_access_header">Acès a spazi privât cuant che al è platât</string>
     <string name="privatespace_search_description">De tô liste des aplicazions, scrîf \"spazi privât\" te sbare di ricercje</string>
-    <string name="privatespace_tap_tile_description">Tocje il tassel spazi privât</string>
+    <string name="privatespace_tap_tile_description">Tocje il ricuadri spazi privât</string>
     <string name="privatespace_unlock_description">Sbloche il to spazi privât</string>
     <string name="privatespace_hide_off_summary">Off</string>
     <string name="privatespace_hide_on_summary">On</string>
