@@ -1970,6 +1970,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="usb_mtp_launch_notification_title">Connètidu  a <xliff:g id="product_name">%1$s</xliff:g></string>
     <string name="negative_duration">\u2212<xliff:g id="time" example="1:14">%1$s</xliff:g></string>
     <string name="suspended_widget_accessibility"><xliff:g id="label" example="Calendar">%1$s</xliff:g> disativadu</string>
+    <string name="app_category_news">Novas e rivistas</string>
     <string name="app_category_productivity">Produtividade</string>
     <string name="app_category_accessibility">Atzessibilidade</string>
     <string name="device_storage_monitor_notification_channel">Memòria de su dispositivu</string>
