@@ -72,11 +72,11 @@
     <string name="bluetooth_devices_card_off_summary">Tapia i\'w droi ymlaen</string>
     <string name="device_picker">Dewisa ddyfais Bluetooth</string>
     <string name="bluetooth_ask_enablement">Mae <xliff:g id="app_name">%1$s</xliff:g> eisiau troi Bluetooth ymlaen</string>
-    <string name="bluetooth_ask_disablement">Mae <xliff:g id="app_name">%1$s</xliff:g> eisiau troi Bluetooth i ffwrdd</string>
+    <string name="bluetooth_ask_disablement">Mae <xliff:g id="app_name">%1$s</xliff:g> eisiau diffodd Bluetooth.</string>
     <string name="bluetooth_ask_enablement_no_name">Mae ap eisiau troi Bluetooth ymlaen</string>
-    <string name="bluetooth_ask_disablement_no_name">Mae ap eisiau troi Bluetooth i ffwrdd</string>
+    <string name="bluetooth_ask_disablement_no_name">Mae ap eisiau diffodd Bluetooth</string>
     <string name="bluetooth_turning_on">"Yn troi Bluetooth ymlaen\u2026"</string>
-    <string name="bluetooth_turning_off">"Yn troi Bluetooth i ffwrdd\u2026"</string>
+    <string name="bluetooth_turning_off">"Yn diffodd Bluetooth\u2026"</string>
     <string name="bluetooth_connection_permission_request">"Cais cysylltiad Bluetooth"</string>
     <string name="bluetooth_phonebook_request">"Cais mynediad at lyfr ffôn"</string>
     <string name="bluetooth_map_request">"Cais mynediad at negeseuon"</string>
@@ -579,7 +579,7 @@
     <string name="rx_link_speed"><xliff:g id="Receive link speed" example="54 Mbps">%1$d</xliff:g> Mb/e</string>
     <string name="link_speed"><xliff:g id="Link speed" example="54 Mbps">%1$d</xliff:g> Mb/e</string>
     <string name="wifi_ask_enable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi ymlaen</string>
-    <string name="wifi_ask_disable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi i ffwrdd</string>
+    <string name="wifi_ask_disable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau diffodd Wi-Fi</string>
     <string name="art_verifier_for_debuggable_title">Gwireddu codfeitiau apiau gellir eu dadfygio</string>
     <string name="art_verifier_for_debuggable_summary">Caniatáu ART i wireddu codfeitiau apiau gellir eu dadfygio</string>
     <string name="show_refresh_rate">Dangos cyfradd adnewyddu</string>
@@ -596,7 +596,7 @@
     <string name="wifi_settings_category">Gosodiadau Wi\u2011Fi</string>
     <string name="wifi_select_network">Dewisa Wi\u2011Fi</string>
     <string name="wifi_starting">Yn troi Wi-Fi ymlaen\u2026</string>
-    <string name="wifi_stopping">Yn troi Wi-Fi i ffwrdd\u2026</string>
+    <string name="wifi_stopping">Yn diffodd Wi-Fi\u2026</string>
     <string name="wifi_error">Gwall</string>
     <string name="wifi_sap_no_channel_error">Dyw band 5 GHz ddim ar gael yn y wlad hon</string>
     <string name="wifi_in_airplane_mode">Yn modd Awyren</string>
@@ -1864,7 +1864,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="accessibility_service_action_perform_description">Gall tracio dy ryngweithiadau gydag ap neu galedwedd synhwyro a rhyngweithio gydag ap ar dy ran.</string>
     <string name="accessibility_dialog_button_allow">Caniatáu</string>
     <string name="accessibility_dialog_button_deny">Gwrthod</string>
-    <string name="accessibility_dialog_button_stop">Troi i ffwrdd</string>
+    <string name="accessibility_dialog_button_stop">Diffodd</string>
     <string name="accessibility_no_services_installed">Dim gwasanaeth wedi\'i osod</string>
     <string name="accessibility_no_service_selected">Dim gwasanaeth wedi\'i ddewis</string>
     <string name="accessibility_service_default_description">Dim disgrifiad wedi\'i gynnig.</string>
@@ -2535,6 +2535,7 @@ wrth adael modd gwestai</string>
     <string name="app_and_notification_dashboard_summary">Apiau diweddar, apiau rhagosodedig</string>
     <string name="notification_settings_work_profile">Does dim mynediad at hysbysiadau apiau yn y proffil gwaith.</string>
     <string name="account_dashboard_title">Cyfrineiriau a chyfrifon</string>
+    <string name="account_dashboard_default_summary">Awgrymiadau ar gyfer mewngofnodi ac awto-lenwi</string>
     <string name="app_default_dashboard_title">Apiau rhagosodedig</string>
     <string name="system_dashboard_summary">Ieithoedd, ystumiau, amser, cadw wrth gefn</string>
     <string name="keywords_wifi">wifi, wi-fi, cysylltiad rhwydwaith, rhyngrwyd, di-wifr, data, wi fi, cysylltiad, rhwydwaith, di-wifr, di wifr, network</string>
@@ -2568,7 +2569,7 @@ wrth adael modd gwestai</string>
     <string name="keywords_factory_data_reset">weipio, clirio, dileu, ailosod, dadosod, ffatri, tynnu</string>
     <string name="keywords_printing">argraffydd</string>
     <string name="keywords_sounds">speaker beep, speaker, volume, mute, silence, audio, music, haptic, vibrator, vibrate, seinydd, sain, mudo, tawel, sŵn, swn, dirgrynu, ysgwyd, dirgrynnydd, dirgrynydd, cyffwrdd, cyffyrddiadol</string>
-    <string name="keywords_sounds_and_notifications_interruptions">dim tarfu, tarfu, ymyrryd, torriad</string>
+    <string name="keywords_sounds_and_notifications_interruptions">paid â tharfu, tarfu, ymyrryd, torriad</string>
     <string name="keywords_app">RAM</string>
     <string name="keywords_location">gerllaw, lleol, agos, cyfagos, lleoliad, hanes, adrodd, GPS</string>
     <string name="keywords_accounts">account, add an account, work profile, add account, remove, delete, cyfrif, creu cyfrif, ychwanegu cyfrif, proffil gwaith, tynnu cyfrif, tynnu, dileu</string>
@@ -2633,7 +2634,7 @@ wrth adael modd gwestai</string>
     <string name="keywords_add_language">ychwanegu iaith</string>
     <string name="keywords_font_size">maint testun, print bras, ffont mawr, testun mawr, golwg isel, nam ar y golwg, nam golwg, gwneud testun yn fwy, cynyddu maint testun, ffont mwy</string>
     <string name="keywords_keyboard_vibration">keyboard, bysellau, bysellfwrdd, haptics, vibrate, habtig, haptic, habtigau, cyffwrdd, cyffyrddiadol,  dirgrynnu, dirgryniad, </string>
-    <string name="sound_dashboard_summary">Uchder sain, dirgrynu, Dim Tarfu</string>
+    <string name="sound_dashboard_summary">Uchder sain, dirgrynu, Paid â Tharfu</string>
     <string name="media_volume_option_title">Uchder sain cyfryngau</string>
     <string name="remote_media_volume_option_title">Uchder sain bwrw</string>
     <string name="call_volume_option_title">Uchder sain galwadau</string>
@@ -2676,10 +2677,10 @@ wrth adael modd gwestai</string>
             other {# 1 amserlen wedi\'u gosod}
         }
     </string>
-    <string name="zen_mode_settings_title">Dim Tarfu</string>
+    <string name="zen_mode_settings_title">Paid â Tharfu</string>
     <string name="zen_mode_settings_summary">Cael hysbysiadau dim ond gan bobol ac apiau pwysig</string>
     <string name="zen_mode_slice_subtitle">Cyfyngu ymyriadau</string>
-    <string name="zen_mode_settings_turn_on_dialog_title">Troi Dim Tarfu ymlaen</string>
+    <string name="zen_mode_settings_turn_on_dialog_title">Troi Paid â Tharfu ymlaen</string>
     <string name="zen_mode_behavior_alarms_only">Gall sain larymau a chyfryngau torri ar draws</string>
     <string name="zen_mode_automation_settings_title">Amserlenni</string>
     <string name="zen_mode_delete_automatic_rules">Dileu amserlenni</string>
@@ -2689,7 +2690,7 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_automatic_rule_settings_page_title">Amserlen</string>
     <string name="zen_mode_schedule_category_title">Amserlen</string>
     <string name="zen_mode_automation_suggestion_title">Distewi\'r ffôn ar adegau penodol</string>
-    <string name="zen_mode_automation_suggestion_summary">Gosod rheolau Dim Tarfu</string>
+    <string name="zen_mode_automation_suggestion_summary">Gosod rheolau Paid â Tharfu</string>
     <string name="zen_mode_schedule_title">Amserlen</string>
     <string name="zen_mode_use_automatic_rule">Defnyddio amserlen</string>
     <string name="zen_mode_summary_combination"><xliff:g id="mode" example="Priority only">%1$s</xliff:g>: <xliff:g id="exit condition" example="Until you turn this off">%2$s</xliff:g></string>
@@ -2697,13 +2698,13 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_visual_interruptions_settings_title">Rhwystro hysbysiadau gweledol</string>
     <string name="zen_mode_visual_signals_settings_subtitle">Caniatáu signalau gweledol</string>
     <string name="zen_mode_restrict_notifications_title">Dangos dewisiadau ar gyfer hysbysiadau cudd</string>
-    <string name="zen_mode_restrict_notifications_category">Tra bod Dim Tarfu ymlaen</string>
+    <string name="zen_mode_restrict_notifications_category">Tra bod Paid â Tharfu ymlaen</string>
     <string name="zen_mode_restrict_notifications_mute">Dim sain gan hysbysiadau</string>
     <string name="zen_mode_restrict_notifications_mute_summary">Mi fyddi\'n gweld hysbysiadau ar dy sgrin</string>
     <string name="zen_mode_restrict_notifications_mute_footer">Pan fydd hysbysiadau yn cyrraedd, ni fydd dy ffôn yn gwneud sain nac yn dirgrynu.</string>
     <string name="zen_mode_restrict_notifications_hide">Dim sain na dangos hysybysiadau</string>
     <string name="zen_mode_restrict_notifications_hide_summary">Ni fyddi\u2019n gweld na chlywed hysbysiadau</string>
-    <string name="zen_mode_restrict_notifications_hide_footer">Ni fydd dy ffôn yn dangos, dirgrynnu na gwneud sain ar gyfer hysbysiadau newydd na rhai sy\u2019n bodoli. Cofia y bydd hysbysiadau hanfodol i statws a gweithredoedd y ddyfais yn dal i ymddangos.\n\nPan fydd Dim Tarfu yn cael ei droi i ffwrdd, ceir hyd i hysbysiadau wedi eu methu wrth lusgo i lawr o frig y sgrîn.</string>
+    <string name="zen_mode_restrict_notifications_hide_footer">Ni fydd dy ffôn yn dangos, dirgrynnu na gwneud sain ar gyfer hysbysiadau newydd na rhai sy\u2019n bodoli. Cofia y bydd hysbysiadau hanfodol i statws a gweithredoedd y ddyfais yn dal i ymddangos.\n\nPan fydd Paid â Tharfu yn cael ei droi i ffwrdd, ceir hyd i hysbysiadau wedi eu methu wrth lusgo i lawr o frig y sgrîn.</string>
     <string name="zen_mode_restrict_notifications_custom">Addasedig</string>
     <string name="zen_mode_restrict_notifications_enable_custom">Galluogi gosodiad dy hun</string>
     <string name="zen_mode_restrict_notifications_disable_custom">Tynnu\'r gosodiad addasedig</string>
@@ -2734,11 +2735,11 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_enable_dialog_turn_on">Troi ymlaen</string>
     <string name="zen_mode_button_turn_on">Troi ymlaen nawr</string>
     <string name="zen_mode_button_turn_off">Diffodd nawr</string>
-    <string name="zen_mode_settings_dnd_manual_end_time">Mae Dim Tarfu ymlaen nes <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g></string>
-    <string name="zen_mode_settings_dnd_manual_indefinite">Bydd Dim Tarfu yn aros ymlaen nes dy fod yn ei droi i ffwrdd</string>
-    <string name="zen_mode_settings_dnd_automatic_rule">Cafodd Dim Tarfu ei droi ymlaen yn awtomatig gan amserlen (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>
-    <string name="zen_mode_settings_dnd_automatic_rule_app">Cafodd Dim Tarfu ei droi ymlaen yn awtomatig gan ap (<xliff:g id="app_name" example="Android Services">%s</xliff:g>)</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer">Mae Dim Tarfu ymlaen am <xliff:g id="rule_names" example="Sleeping and Work">%s</xliff:g> gyda gosodiadau dy hun.</string>
+    <string name="zen_mode_settings_dnd_manual_end_time">Mae Paid â Tharfu ymlaen nes <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g></string>
+    <string name="zen_mode_settings_dnd_manual_indefinite">Bydd Paid â Tharfu yn aros ymlaen nes dy fod yn ei droi i ffwrdd</string>
+    <string name="zen_mode_settings_dnd_automatic_rule">Cafodd Paid â Tharfu ei droi ymlaen yn awtomatig gan amserlen (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>
+    <string name="zen_mode_settings_dnd_automatic_rule_app">Cafodd Paid â Tharfu ei droi ymlaen yn awtomatig gan ap (<xliff:g id="app_name" example="Android Services">%s</xliff:g>)</string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer">Mae Paid â Tharfu ymlaen am <xliff:g id="rule_names" example="Sleeping and Work">%s</xliff:g> gyda gosodiadau dy hun.</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Gweld dy osodiadau dy hun</annotation></string>
     <string name="zen_interruption_level_priority">Blaenoriaeth yn unig</string>
     <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
@@ -2761,28 +2762,28 @@ wrth adael modd gwestai</string>
             other {I ffwrdd / Gall # amserlen troi ymlaen yn awtomatig}
         }
     </string>
-    <string name="zen_category_behavior">Pa bethau all dorri ar draws Dim Tarfu</string>
+    <string name="zen_category_behavior">Pa bethau all dorri ar draws Paid â Tharfu</string>
     <string name="zen_category_people">Pobol</string>
     <string name="zen_category_apps">Apiau</string>
     <string name="zen_category_exceptions">Larymau a hysbysiadau eraill</string>
     <string name="zen_category_schedule">Amserlenni</string>
     <string name="zen_category_duration">Hyd ar gyfer Gosodiadau Cyflym</string>
     <string name="zen_settings_general">Cyffredinol</string>
-    <string name="zen_sound_footer">Pan fydd Dim Tarfu ymlaen, caiff sain a dirgrynu eu distewi, ond am yr eitemau rwyt yn eu caniatáu uchod.</string>
+    <string name="zen_sound_footer">Pan fydd Paid â Tharfu ymlaen, caiff sain a dirgrynu eu distewi, ond am yr eitemau rwyt yn eu caniatáu uchod.</string>
     <string name="zen_custom_settings_dialog_title">Dy osodiadau dy hun</string>
     <string name="zen_custom_settings_dialog_review_schedule">Adolygu\u2019r amserlen</string>
     <string name="zen_custom_settings_dialog_ok">Deall yn iawn</string>
     <string name="zen_custom_settings_notifications_header">Hysbysiadau</string>
     <string name="zen_custom_settings_duration_header">Hyd</string>
     <string name="zen_msg_event_reminder_title">Negeseuon, digwyddiadau ac atgoffa</string>
-    <string name="zen_msg_event_reminder_footer">Pan fydd Dim Tarfu ymlaen, caiff negeseuon, hysbysiadau a digwyddiadau eu distewi, ond am yr eitemau rwyt yn eu caniatáu uchod. Gellir addasu gosodiadau negeseuon i alluogi dy ffrindiau, dy deulu neu dy gysylltiadau eraill i dy gyrraedd di.</string>
+    <string name="zen_msg_event_reminder_footer">Pan fydd Paid â Tharfu ymlaen, caiff negeseuon, hysbysiadau a digwyddiadau eu distewi, ond am yr eitemau rwyt yn eu caniatáu uchod. Gellir addasu gosodiadau negeseuon i alluogi dy ffrindiau, dy deulu neu dy gysylltiadau eraill i dy gyrraedd di.</string>
     <string name="zen_onboarding_ok">Iawn</string>
     <string name="zen_onboarding_settings">Gosodiadau</string>
     <string name="zen_onboarding_new_setting_title">Dim sain na dangos hysybysiadau</string>
     <string name="zen_onboarding_current_setting_title">Dim sain gan hysbysiadau</string>
     <string name="zen_onboarding_new_setting_summary">Ni fyddi yn gweld na chlywed hysbysiadau. Caniateir galwadau oddi wrth gysylltiadau serennog a rhai sy\'n galw\'n aml.</string>
     <string name="zen_onboarding_current_setting_summary">(Gosodiad cyfredol)</string>
-    <string name="zen_onboarding_dnd_visual_disturbances_header">Newid gosodiadau hysbysiadau Dim Tarfu?</string>
+    <string name="zen_onboarding_dnd_visual_disturbances_header">Newid gosodiadau hysbysiadau Paid â Tharfu?</string>
     <string name="sound_work_settings">Seiniau proffil gwaith</string>
     <string name="work_use_personal_sounds_title">Defnyddio seiniau proffil personol</string>
     <string name="work_use_personal_sounds_summary">Defnyddio\'r un seiniau a dy broffil personol</string>
@@ -2922,7 +2923,7 @@ wrth adael modd gwestai</string>
         Mae\'r nodwedd hon yn dangos gweithredoedd ac atebion wedi\'u hawgrymu ac yn trefnu dy hysbysiadau.
         \n\nGall hysbysiadau gwell cael mynediad at gynnwys hysbysiadau, gan gynnwys gwybodaeth bersonol
         fel negeseuon ac enwau cysylltiadau. Gall y nodwedd hon hefyd diddymu neu ateb hysbysiadau,
-        fel ateb galwadau ffôn a rheoli Dim Tarfu.
+        fel ateb galwadau ffôn a rheoli Paid â Tharfu.
     </string>
     <string name="notification_listener_security_warning_title">Caniatáu i <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> gael mynediad at hysbysiadau?</string>
     <string name="nls_feature_read_title">Darllen dy hysbysiadau</string>
@@ -2930,8 +2931,8 @@ wrth adael modd gwestai</string>
     <string name="nls_feature_reply_title">Ateb negeseuon</string>
     <string name="nls_feature_reply_summary">Gall ateb negeseuon a gweithredu botymau mewn hysbysiadau, gan gynnwys cysgu neu wrthod hysbysiadau ac ateb galwadau ffôn.</string>
     <string name="nls_feature_settings_title">Newid gosodiadau</string>
-    <string name="nls_feature_settings_summary">Gall troi Dim Tarfu ymlaen ac i ffwrdd a newid gosodiadau cysylltiedig.</string>
-    <string name="notification_listener_disable_warning_summary">Os fyddi\'n gwrthod mynediad <xliff:g id="notification_listener_name">%1$s</xliff:g> at hysbysiadau, mae\'n bosib y bydd mynediad at Dim Tarfu hefyd yn cael ei wrthod.
+    <string name="nls_feature_settings_summary">Gall troi Paid â Tharfu ymlaen ac i ffwrdd a newid gosodiadau cysylltiedig.</string>
+    <string name="notification_listener_disable_warning_summary">Os fyddi\'n gwrthod mynediad <xliff:g id="notification_listener_name">%1$s</xliff:g> at hysbysiadau, mae\'n bosib y bydd mynediad at Paid â Tharfu hefyd yn cael ei wrthod.
     </string>
     <string name="notification_listener_disable_warning_confirm">Troi i ffwrdd</string>
     <string name="notification_listener_disable_warning_cancel">Diddymu</string>
@@ -2976,9 +2977,9 @@ wrth adael modd gwestai</string>
     <string name="interact_across_profiles_install_work_app_title">I gysylltu\'r apiau hyn, gosoda <xliff:g id="name" example="Calendar">%1$s</xliff:g> yn dy broffil gwaith</string>
     <string name="interact_across_profiles_install_personal_app_title">I gysylltu\'r apiau hyn, gosoda <xliff:g id="name" example="Calendar">%1$s</xliff:g> yn dy broffil personol</string>
     <string name="interact_across_profiles_install_app_summary">Tapia i gael yr ap</string>
-    <string name="manage_zen_access_title">Mynediad at Dim Tarfu</string>
-    <string name="zen_access_detail_switch">Caniatáu Dim Tarfu</string>
-    <string name="zen_access_empty_text">Does dim apiau wedi gofyn caniatâd am fynediad at Dim Tarfu</string>
+    <string name="manage_zen_access_title">Mynediad at Paid â Tharfu</string>
+    <string name="zen_access_detail_switch">Caniatáu Paid â Tharfu</string>
+    <string name="zen_access_empty_text">Does dim apiau wedi gofyn caniatâd am fynediad at Paid â Tharfu</string>
     <string name="app_notifications_off_desc">Nid wyt wedi caniatáu hysbysiadau o\'r ap hwn</string>
     <string name="channel_notifications_off_desc">Ar dy gais, mae Android yn rhwystro\'r categori hwn o hysbysiadau rhag ymddangos ar y ddyfais hon</string>
     <string name="channel_group_notifications_off_desc">Ar dy gais, mae Android yn rhwystro\'r grŵp hwn o hysbysiadau rhag ymddangos ar y ddyfais hon</string>
@@ -2993,8 +2994,8 @@ wrth adael modd gwestai</string>
     <string name="notification_content_block_summary">Peidio byth â dangos hysbysiadau yn y cysgod neu ar ddyfeisiau wedi\'u cysylltu</string>
     <string name="notification_badge_title">Caniatáu dot hysbysiadau</string>
     <string name="notification_channel_badge_title">Dangos dot hysbysiadau</string>
-    <string name="app_notification_override_dnd_title">Anwybyddu Dim Tarfu</string>
-    <string name="app_notification_override_dnd_summary">Caniatau i\'r hysbysiadau hyn barhau i darfu tra bod Dim Tarfu ymlaen</string>
+    <string name="app_notification_override_dnd_title">Anwybyddu Paid â Tharfu</string>
+    <string name="app_notification_override_dnd_summary">Caniatau i\'r hysbysiadau hyn barhau i darfu tra bod Paid â Tharfu ymlaen</string>
     <string name="app_notification_visibility_override_title">Sgrin cloi</string>
     <string name="app_notifications_dialog_done">Iawn</string>
     <string name="notification_show_lights_title">Golau ysbeidiol</string>
@@ -3010,9 +3011,9 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_choose_rule_type">Dewis math amserlen</string>
     <string name="zen_mode_delete_rule_confirmation">Dileu\'r rheol \u201c<xliff:g id="rule" example="Weekends">%1$s</xliff:g>\u201d?</string>
     <string name="zen_mode_delete_rule_button">Dileu</string>
-    <string name="zen_mode_app_set_behavior">Ni ellir newid y gosodiadau hyn ar hyn o bryd. Mae ap (<xliff:g id="app_name" example="Android Services">%1$s</xliff:g>) wedi troi Dim Tarfu ymlaen yn awtomatig a gydag ymddygiad addasedig.\"</string>
-    <string name="zen_mode_unknown_app_set_behavior">Ni ellir newid y gosodiadau hyn ar hyn o bryd. Mae ap wedi troi Dim Tarfu ymlaen yn awtomatig a gydag ymddygiad addasedig.\"</string>
-    <string name="zen_mode_qs_set_behavior">Ni ellir newid y gosodiadau hyn ar hyn o bryd. Cafodd Dim Tarfu ei droi ymlaen gydag ymddygiad wedi\'i addasu.\"</string>
+    <string name="zen_mode_app_set_behavior">Ni ellir newid y gosodiadau hyn ar hyn o bryd. Mae ap (<xliff:g id="app_name" example="Android Services">%1$s</xliff:g>) wedi troi Paid â Tharfu ymlaen yn awtomatig a gydag ymddygiad addasedig.\"</string>
+    <string name="zen_mode_unknown_app_set_behavior">Ni ellir newid y gosodiadau hyn ar hyn o bryd. Mae ap wedi troi Paid â Tharfu ymlaen yn awtomatig a gydag ymddygiad addasedig.\"</string>
+    <string name="zen_mode_qs_set_behavior">Ni ellir newid y gosodiadau hyn ar hyn o bryd. Cafodd Paid â Tharfu ei droi ymlaen gydag ymddygiad wedi\'i addasu.\"</string>
     <string name="zen_schedule_rule_type_name">Amser</string>
     <string name="zen_event_rule_type_name">Digwyddiad</string>
     <string name="zen_mode_event_rule_calendar">Yn ystod digwyddiadau am</string>
@@ -3028,7 +3029,7 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_schedule_rule_days_none">Dim</string>
     <string name="zen_mode_schedule_alarm_title">Gall larwm gor-reoli\'r amser diwedd</string>
     <string name="zen_mode_schedule_alarm_summary">Mae\u2019r amserlen yn troi i ffwrdd pan mae larwm yn canu</string>
-    <string name="zen_mode_custom_behavior_title">Ymddygiad Dim Tarfu</string>
+    <string name="zen_mode_custom_behavior_title">Ymddygiad Paid â Tharfu</string>
     <string name="zen_mode_custom_behavior_summary_default">Defnyddio gosodiadau rhagosodedig</string>
     <string name="zen_mode_custom_behavior_summary">Creu dy osodiadau dy hun ar gyfer yr amserlen hon</string>
     <string name="zen_mode_custom_behavior_category_title">Am \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019</string>
@@ -3298,11 +3299,11 @@ wrth adael modd gwestai</string>
     <string name="running_frequency">Amlder</string>
     <string name="memory_maximum_usage">Defnydd mwyaf</string>
     <string name="no_data_usage">Dim data wedi\'i ddefnyddio</string>
-    <string name="zen_access_warning_dialog_title">Caniatáu mynediad at Dim Tarfu gan <xliff:g id="app" example="Tasker">%1$s</xliff:g>?</string>
-    <string name="zen_access_warning_dialog_summary">Bydd gan yr ap y gallu i droi Dim Tarfu ymlaen ac i ffwrdd ac i wneud newidiadau i osodiadau perthnasol.</string>
+    <string name="zen_access_warning_dialog_title">Caniatáu mynediad at Paid â Tharfu gan <xliff:g id="app" example="Tasker">%1$s</xliff:g>?</string>
+    <string name="zen_access_warning_dialog_summary">Bydd gan yr ap y gallu i droi Paid â Tharfu ymlaen ac i ffwrdd ac i wneud newidiadau i osodiadau perthnasol.</string>
     <string name="zen_access_disabled_package_warning">Rhaid aros ymlaen am fod mynediad at hysbysiadau ymlaen</string>
-    <string name="zen_access_revoke_warning_dialog_title">Gwrthod mynediad <xliff:g id="app" example="Tasker">%1$s</xliff:g> at Dim Tarfu?</string>
-    <string name="zen_access_revoke_warning_dialog_summary">Bydd pob rheol Dim Tarfu a sefydlwyd gan yr ap hwn yn cael ei thynnu.</string>
+    <string name="zen_access_revoke_warning_dialog_title">Gwrthod mynediad <xliff:g id="app" example="Tasker">%1$s</xliff:g> at Paid â Tharfu?</string>
+    <string name="zen_access_revoke_warning_dialog_summary">Bydd pob rheol Paid â Tharfu a sefydlwyd gan yr ap hwn yn cael ei thynnu.</string>
     <string name="ignore_optimizations_on">Peidio â ffurfweddu</string>
     <string name="ignore_optimizations_off">Optimeiddio</string>
     <string name="ignore_optimizations_on_desc">Gall defnyddio mwy o bŵer dy fatri. Ni fydd yr ap bellach wedi\'i rhwystro rhag defnyddio\'r batri yn y cefndir.</string>
@@ -3373,7 +3374,7 @@ wrth adael modd gwestai</string>
     <string name="condition_hotspot_title">Llecyn Wi\u2011Fi ymlaen</string>
     <string name="condition_airplane_title">Mae modd awyren ymlaen</string>
     <string name="condition_airplane_summary">Rhwydweithiau dim ar gael</string>
-    <string name="condition_zen_title">Mae Dim Tarfu ymlaen</string>
+    <string name="condition_zen_title">Mae Paid â Tharfu ymlaen</string>
     <string name="condition_zen_summary_phone_muted">Ffôn yn ddistaw</string>
     <string name="condition_zen_summary_with_exceptions">Gydag eithriadau</string>
     <string name="condition_battery_title">Mae\'r arbedwr batri ymlaen.</string>
@@ -3696,7 +3697,7 @@ wrth adael modd gwestai</string>
         ]]></string>
     <string name="credman_picker_title">Dy ddewis gwasanaeth dewisol ar gyfer cyfrineiriau, cyfrinallweddi ac awto-lenwi</string>
     <string name="account_dashboard_title_with_passkeys">Cyfrineiriau, cyfrinallweddi ac awto-lenwi</string>
-    <string name="credman_confirmation_turn_off_positive_button">Troi i ffwrdd</string>
+    <string name="credman_confirmation_turn_off_positive_button">Diffodd</string>
     <string name="credman_confirmation_change_provider_positive_button">Newid</string>
     <string name="credman_error_message_title">Cyfrineiriau, cyfrinallweddi, a therfyn gwasanaethau data</string>
     <string name="credman_confirmation_message_positive_button">Troi i ffwrdd</string>
@@ -3720,7 +3721,7 @@ wrth adael modd gwestai</string>
     <string name="show_operator_name_summary">Dangos enw\'r rhwydwaith yn y bar statws</string>
     <string name="install_type_instant">Ap ar unwaith</string>
     <string name="automatic_storage_manager_deactivation_warning">Troi\'r rheolydd storfa i ffwrdd?</string>
-    <string name="zen_suggestion_title">Diweddaru Dim Tarfu</string>
+    <string name="zen_suggestion_title">Diweddaru Paid â Tharfu</string>
     <string name="zen_suggestion_summary">Seibio hysbysiadau er mwyn canolbwyntio</string>
     <string name="disabled_feature">Nodwedd dim ar gael</string>
     <string name="disabled_feature_reason_slow_down_phone">Mae\u2019r nodwed hon wedi\u2019i throi i ffwrdd am ei bod yn arafu dy ffôn</string>
@@ -3891,7 +3892,7 @@ wrth adael modd gwestai</string>
     <string name="sim_action_switch_sub_dialog_carrier_list_item_for_turning_off">Troi <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> i ffwrdd</string>
     <string name="sim_action_switch_sub_dialog_info_outline_for_turning_off">Dyw troi cerdyn SIM i ffwrdd ddim yn canslo gwasanaeth y SIM hwnnw</string>
     <string name="privileged_action_disable_sub_dialog_title">Troi <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> i ffwrdd?</string>
-    <string name="privileged_action_disable_sub_dialog_title_without_carrier">Troi\'r SIM i ffwrdd?</string>
+    <string name="privileged_action_disable_sub_dialog_title_without_carrier">Diffodd y SIM?</string>
     <string name="privileged_action_disable_sub_dialog_progress">Yn troi\'r SIM i ffwrdd<xliff:g id="ellipsis" example="...">…</xliff:g></string>
     <string name="sim_action_enable_dsds_title">Defnyddio dau SIM?</string>
     <string name="sim_action_enable_dsds_text">Gall y ddyfais hon cael dau SIM yn weithredol ar yr un pryd. I barhau gydag un SIM ar y pryd, dewisa \"Dim diolch\".</string>
@@ -3901,7 +3902,7 @@ wrth adael modd gwestai</string>
     <string name="sim_action_no_thanks">Dim diolch</string>
     <string name="sim_action_cancel">Diddymu</string>
     <string name="sim_switch_button">Newid</string>
-    <string name="sim_action_turn_off">Troi i ffwrdd</string>
+    <string name="sim_action_turn_off">Diffodd</string>
     <string name="dsds_activation_failure_title">Methu â gweithredu\'r SIM</string>
     <string name="dsds_activation_failure_body_msg2">Rho gynnig ar droi\'r SIM ymlaen eto. Os yw\'r broblem yn parhau, ail-ddechreua dy ddyfais.</string>
     <string name="primary_sim_calls_title">Galwadau</string>
@@ -4013,7 +4014,7 @@ wrth adael modd gwestai</string>
         <item quantity="many"><xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g></item>
         <item quantity="other"><xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g></item>
     </plurals>
-    <string name="volte_5G_limited_title">Troi VoLTE i ffwrdd?</string>
+    <string name="volte_5G_limited_title">Diffodd VoLTE?</string>
     <string name="volte_5G_limited_text">Mae hyn hefyd yn troi dy gysylltiad 5g i ffwrdd.\nYn ystod galwad llais, ni fydd yn bosib defnyddio\u2019r rhyngrwyd a bydd rhai apiau ddim yn gweithio.</string>
     <string name="cached_apps_freezer">Atal dros dro gweithrediadau apiau yn y cof dros dro</string>
     <string name="blob_never_expires_text">Byth yn dod i ben.</string>

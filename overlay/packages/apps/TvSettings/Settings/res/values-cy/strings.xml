@@ -178,7 +178,7 @@
     <string name="bluetooth_device_disconnected_toast">%1$s wedi\u2019i datgysylltu</string>
     <string name="connected_devices_slice_pref_title">Botymau rheoli ac ategolion</string>
     <string name="bluetooth_toggle_title">Bluetooth</string>
-    <string name="bluetooth_toggle_confirmation_dialog_title">Troi Bluetooth i ffwrdd</string>
+    <string name="bluetooth_toggle_confirmation_dialog_title">Diffodd Bluetooth</string>
     <string name="bluetooth_official_remote_category">Botymau Rheoli</string>
     <string name="bluetooth_official_remote_entry_title">Gosodiadau botymau rheoli</string>
     <string name="bluetooth_ir_entry_title">Gosod botymau o bellter</string>
