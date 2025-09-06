@@ -16,6 +16,23 @@
       "message": "Just waiting on crowdin to run",
       "revId": "74263b417bea4ae695e7ac6800578628bcbcb04f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "769872b9_85323895",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-06T07:10:23Z",
+      "side": 1,
+      "message": "eh, there\u0027s precedent to doing this prior to crowdin setup.",
+      "revId": "74263b417bea4ae695e7ac6800578628bcbcb04f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
