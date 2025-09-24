@@ -96,6 +96,7 @@
     <string name="security_settings_fingerprint">Imprenta de is pòddighes</string>
     <string name="security_settings_fingerprint_preference_title">Imprenta de is pòddighes</string>
     <string name="fingerprint_add_title">Agiunghe un\'imprenta pòddighe</string>
+    <string name="security_settings_fingerprint_preference_summary_none_new">Agiunghe un\'imprenta pòddighe</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Imprea s\'imprenta tua de pòddighes pro isblocare su telèfono o aprovare is còmporas.\n\nNota: non podes impreare s\'imprenta digitale pro isblocare custu dispositivu. Pro àteras informatziones, cuntata a s\'amministradore de s\'organizatzione tua.</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Annulla</string>
     <string name="setup_fingerprint_enroll_skip_title">Boles brincare s\'imprenta digitale?</string>
@@ -153,7 +154,7 @@
      una crae reghente</string>
     <string name="lockpattern_tutorial_cancel_label">Annulla</string>
     <string name="lockpattern_tutorial_continue_label">Imbeniente</string>
-    <string name="manage_device_admin">Aplicatziones pro amministrare su dispositivu</string>
+    <string name="manage_device_admin">Amministradore de su dispositivu</string>
     <string name="disabled_because_no_backup_security">Pro dd\'impreare, imposta unu blocu de ischermu</string>
     <string name="manage_trust_agents_summary">Perunu</string>
     <string name="bluetooth_settings">Bluetooth</string>
@@ -164,6 +165,7 @@
     <string name="bluetooth_device_context_disconnect">Disconnete</string>
     <string name="bluetooth_device_context_pair_connect">Assòtzia e connete</string>
     <string name="bluetooth_key_missing_cancel">Annulla</string>
+    <string name="bluetooth_key_missing_close">Serra</string>
     <string name="wifi_display_settings_title">Trasmissione</string>
     <string name="wifi_display_enable_menu_item">Ativa s\'ischermu chene filos</string>
     <string name="wifi_display_no_devices_found">Perunu dispositivu acanta agatadu.</string>
@@ -183,7 +185,6 @@
     <string name="wifi_empty_list_user_restricted">Non tenes is permissos pro cambiare sa rete Wi\u2011Fi.</string>
     <string name="wifi_settings_ssid_block_button_close">Serra</string>
     <string name="wifi_show_advanced">Sèberos avantzados</string>
-    <string name="wifi_ssid">Nùmene de sa rete</string>
     <string name="wifi_ssid_hint">Inserta sa SSID</string>
     <string name="wifi_security">Seguresa</string>
     <string name="wifi_signal">Potèntzia de su signale</string>
@@ -199,7 +200,6 @@
     <string name="wifi_eap_user_cert">Tzertificadu de utente</string>
     <string name="wifi_eap_identity">Identidade</string>
     <string name="wifi_eap_anonymous">Identidade anònima</string>
-    <string name="wifi_password">Crae</string>
     <string name="wifi_show_password">Mustra crae</string>
     <string name="wifi_ap_choose_2G">Banda de 2.4 GHz</string>
     <string name="wifi_ip_settings">Impostatziones IP</string>
@@ -280,6 +280,7 @@
     <string name="storage_wizard_slow_v2_continue">Sighi</string>
     <string name="battery_status_title">Istadu bateria</string>
     <string name="battery_level_title">Livellu bateria</string>
+    <string name="when_to_show_hubmode_charging">Cando est carrighende</string>
     <string name="apn_not_set">No impostadu</string>
     <string name="apn_not_set_for_mvno">No impostadu</string>
     <string name="apn_name">Nùmene</string>
@@ -311,8 +312,8 @@
     <string name="tether_settings_summary_hotspot_off_tether_on">Ancoràgiu web</string>
     <string name="usb_tethering_button_text">Ancoràgiu web USB</string>
     <string name="bluetooth_tether_checkbox_text">Ancoràgiu web Bluetooth</string>
+    <string name="ethernet_ip_address">Indiritzu IP</string>
     <string name="ethernet_tether_checkbox_text">Ancoràgiu web de s\'ethernet</string>
-    <string name="tethering_footer_info">Imprea su puntu de atzessu Wi-Fi e s\'ancoràgiu web pro frunire ìnternet a àteros dispositivos tràmite sa connessione de datos. Is aplicatziones podent creare puru unu puntu de atzessu Wi-Fi pro cumpartzire cuntenutos cun dispositivos a curtzu.</string>
     <string name="tethering_footer_info_sta_ap_concurrency">Imprea su puntu de atzessu Wi-Fi e s\'ancoràgiu web pro frunire ìnternet a àteros dispositivos tràmite Wi\u2011Fi o sa connessione de datos. Is aplicatziones podent creare puru unu puntu de atzessu Wi-Fi pro cumpartzire cuntenutos cun dispositivos a curtzu.</string>
     <string name="tethering_help_button_text">Agiudu</string>
     <string name="sms_application_title" translatable="true">Aplicatzione de SMS</string>
@@ -329,6 +330,7 @@
     <string name="location_services_preference_title">Servìtzios de positzione</string>
     <string name="location_services_screen_title">Servìtzios de positzione</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">Annulla</string>
+    <string name="time_notifications_title">Notìficas</string>
     <string name="legal_information">Informatziones legales</string>
     <string name="manual">A manu</string>
     <string name="copyright_title">Deretos de autore</string>
@@ -369,7 +371,6 @@
     <string name="pointer_fill_style_purple_button">Càmbia su colore de su cursore a tanadu</string>
     <string name="pointer_stroke_style">Colore de bratzada de su cursore</string>
     <string name="pointer_stroke_style_name_none">Perunu</string>
-    <string name="trackpad_notifications_title">Notìficas</string>
     <string name="modifier_keys_cancel">Annulla</string>
     <string name="keyboard_a11y_settings">Atzessibilidade de su tecladu fìsicu</string>
     <string name="audio_category_title">Àudio</string>
@@ -422,13 +423,13 @@
     <string name="ca_certificate">Tzertificadu CA</string>
     <string name="request_manage_credentials_allow">Permite</string>
     <string name="no_certificate_management_app">Perunu</string>
+    <string name="select_device_admin_msg">Amministradore de su dispositivu</string>
     <string name="device_admin_add_title">Amministradore de su dispositivu</string>
     <string name="adding_profile_owner_warning">Sighende s\'utèntzia tua dd\'at a gestire 
         s\'amministradore tuo chi diat pòdere archiviare datos assotziados, a bandas de is
         personales.\n\nS\'amministradore tuo est capassu de monitoreare e gestire impostatziones, atzessu, aplicatziones
         e datos assotziados cun custu utente, incluende atividades de rete e 
         informatziones subra de sa positzione de su dispositivu tuo.</string>
-    <string name="admin_more_details">Àteras informatziones</string>
     <string name="managed_profile_not_available_label">Su profilu de traballu no est a disponimentu ancora</string>
     <string name="data_roaming_enable_mobile">Àteros gestores</string>
     <string name="vpn_disconnected_summary">Perunu</string>
@@ -484,13 +485,10 @@
     <string name="app_launch_dialog_ok">AB</string>
     <string name="app_launch_dialog_cancel">Annulla</string>
     <string name="notifications_label">Notìficas</string>
-    <string name="usage_access_description">S\'atzessu a s\'impreu cunsentit a un\'aplicatzione de monitorare cales aplicatziones est impreende e cantu a s\'ispissu, e fintzas chi est s\'operadore telefònicu tuo, is impostatzione de sa limba e àteros detàllios.</string>
     <string name="usb_use_tethering">Ancoràgiu web USB</string>
     <string name="usb_pref">USB</string>
     <string name="usb_summary_tether">Ancoràgiu web USB</string>
     <string name="usb_summary_tether_power">Ancoràgiu web e alimentatzione USB</string>
-    <string name="work_profile_usage_access_warning">Sa disativatzione a s\'atzessu de s\'impreu pro custa aplicatzione non
-        prevenit s\'amministradore tuo dae su de mantènnere su rastru de s\'impreu de datos pro is aplicatziones in su profilu de traballu tuo</string>
     <string name="admin_profile_owner_message">S\'amministradore tuo podet monitorare e gestire aplicatziones e datos
         assotziados cun custu dispositivu, incluende impostatziones, permissos, atzessu 
         corporativu, atividade de rete, e informatziones subra sa positzione de su dispositivu.</string>
@@ -500,9 +498,9 @@
     <string name="admin_device_owner_message">S\'amministradore tuo podet monitorare e gestire aplicatziones e datos
         assotziados cun custu dispositivu, incluende impostatziones, permissos, atzessu 
         corporativu, atividade de rete, e informatziones subra sa positzione de su dispositivu.</string>
+    <string name="disabled_by_advanced_protection_help_button_title">Impostatziones</string>
     <string name="operator_warning">Is datos de s\'operadore podent èssere diferentes dae sa contabilidade de su dispositivu</string>
-    <string name="double_tap_power_camera_action_title">Aberi sa càmera</string>
-    <string name="double_tap_power_camera_action_summary">Atzede a sa càmera</string>
+    <string name="double_tap_power_camera_action_summary">Aberi sa càmera</string>
     <string name="fingerprint_swipe_for_notifications_title">Iscurre s\'imprenta digitale pro is notìficas</string>
     <string name="fingerprint_gesture_screen_title">Iscurre s\'imprenta digitale</string>
     <string name="enterprise_privacy_header">Pro frunire s\'atzessu a is datos de traballu, s\'organizatzione diat pòdere modificare is impostatziones e installare su programma in su dispositivu.\n\nPro àteros detàllios, cuntata s\'amministradore de s\'organizatzione tua.</string>
@@ -541,6 +539,9 @@
     <string name="mobile_data_connection_active">Collegadu</string>
     <string name="apps_dashboard_title">Aplicatziones</string>
     <string name="smart_forwarding_missing_alert_dialog_text">AB</string>
+    <string name="virtual_device_connected">Collegadu</string>
+    <string name="virtual_device_disconnected">Disconnètidu</string>
+    <string name="virtual_device_forget_dialog_confirm_button">Iscaresse·ti</string>
     <string name="bluetooth_connect_access_dialog_positive">Connete</string>
     <string name="bluetooth_details_audio_device_type_unknown">No impostadu</string>
     <string name="bluetooth_details_audio_device_type_other">Àteru</string>

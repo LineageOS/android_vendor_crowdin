@@ -86,7 +86,6 @@
     <string name="widgets_list">Liosta nan Widgets</string>
     <string name="widgets_list_closed">Chaidh liosta nan Widgets a dhùnadh</string>
     <string name="action_move_here">Gluais an nì an-seo</string>
-    <string name="item_added_to_workspace">Chaidh an nì a chur ris an sgrìn dachaigh</string>
     <string name="item_removed">Chaidh an nì a thoirt air falbh</string>
     <string name="undo">Neo-dhèan</string>
     <string name="action_move">Gluais an nì</string>

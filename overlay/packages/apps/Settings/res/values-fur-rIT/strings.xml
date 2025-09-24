@@ -81,6 +81,8 @@
     <string name="bluetooth_hearing_aids_presets">Pre-configurazion</string>
     <string name="bluetooth_hearing_aids_presets_empty_list_message">Il to audiolic nol à programât nissune pre-configurazion</string>
     <string name="bluetooth_hearing_aids_presets_error">Impussibil inzornâ la pre-configurazion</string>
+    <string name="bluetooth_ambient_volume_control_left">Çampe</string>
+    <string name="bluetooth_ambient_volume_control_right">Diestre</string>
     <string name="bluetooth_audio_routing_title">Jessude audio</string>
     <string name="bluetooth_audio_routing_about_title">Informazions su jessude audio</string>
     <string name="bluetooth_audio_routing_summary">Indrece i suns al to dispositîf pe scolte o ae casse dal telefon</string>
@@ -149,11 +151,9 @@
     <string name="date_and_time">Date e ore</string>
     <string name="proxy_settings_title">Proxy</string>
     <string name="proxy_clear_text">Nete</string>
-    <string name="proxy_port_label">Puarte dal proxy</string>
     <string name="proxy_exclusionlist_label">Evite il proxy par</string>
     <string name="proxy_defaultView_text">Ripristine valôrs predefinîts</string>
     <string name="proxy_action_text">Fat</string>
-    <string name="proxy_hostname_label">Non host dal proxy</string>
     <string name="proxy_error">Atenzion</string>
     <string name="proxy_error_dismiss">Va ben</string>
     <string name="proxy_error_invalid_host">Il non host che tu âs scrit nol è valit.</string>
@@ -168,6 +168,9 @@
     <string name="ping_test_label">Eseguìs la prove ping</string>
     <string name="skip_label">Salte</string>
     <string name="next_label">Indenant</string>
+    <string name="region_picker_preference_title">Regjon</string>
+    <string name="suggested_region_title">Sugjeridis</string>
+    <string name="all_supported_region_title">Dutis lis regjons</string>
     <string name="language_picker_title">Lenghis</string>
     <string name="language_picker_category_title">Ordin des lenghis preferidis</string>
     <string name="desc_current_default_language">Lenghe di sisteme</string>
@@ -192,7 +195,6 @@
     <string name="desc_introduction_of_language_picker">Il dispositîf, lis aplicazions e i sîts web a doprin la prime lenghe supuartade di chês che tu âs te liste des lenghis preferidis.\n\nTantis aplicazions a dopraran ancje la regjon de tô lenghe preferide pai formâts di datis, numars e unitâts di misure. Par cambiâ la tô regjon, zonte une lenghe, dopo sielç la regjon preferide.</string>
     <string name="desc_notice_of_language_picker">Par selezionâ une lenghe par ogni aplicazion, va tes impostazions de lenghe de aplicazion.</string>
     <string name="desc_locale_helper_footer_general">Plui informazions su lis lenghis des aplicazions</string>
-    <string name="title_change_system_locale">Cambiâ la lenghe di sisteme a %s ?</string>
     <string name="title_system_locale_addition">Zontâ %s aes lenghis preferidis?</string>
     <string name="desc_system_locale_addition">Chest al permet a aplicazsions e sîts web di savê che tu preferissis ancje cheste lenghe.</string>
     <string name="desc_notice_device_locale_settings_change">A cambiaran lis impostazions dal dispositîf e lis preferencis regjonâls.</string>
@@ -202,7 +204,6 @@
     <string name="locale_search_menu">Ricercje</string>
     <string name="language_selection_title">Zonte une lenghe</string>
     <string name="country_selection_title">Preference de regjon</string>
-    <string name="search_language_hint">Scrîf il non de lenghe</string>
     <string name="more_language_settings_category">Altris impostazions pe lenghe</string>
     <string name="regional_preferences_title">Preferencis regjonâls</string>
     <string name="regional_preferences_summary">Stabilìs preferencis su unitâts e numars</string>
@@ -383,12 +384,14 @@
     <string name="security_settings_fingerprint_preference_title">Impront digjitâl</string>
     <string name="security_settings_fingerprint_settings_preferences_category">Cuant che tu dopris il sbloc cul impront</string>
     <string name="security_settings_work_fingerprint_preference_title">Impront pal lavôr</string>
+    <string name="security_settings_work_fingerprint_preference_title_new">Impront pal lavôr</string>
     <string name="fingerprint_add_title">Zonte impront</string>
     <string name="security_settings_fingerprint_preference_summary">{count, plural,
         one {}=1      {Impront zontât}
         other   {# impronts zontâts}
         }</string>
     <string name="security_settings_fingerprint_preference_summary_none">Configurazion necessarie</string>
+    <string name="security_settings_fingerprint_preference_summary_none_new">Zonte impront</string>
     <string name="security_settings_fingerprint_enroll_introduction_title">Stabilìs il to impront</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Permet il sbloc cul impront</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Dopre il to impront digjitâl</string>
@@ -843,7 +846,7 @@
     <string name="lockpassword_credential_changed">Il bloc schermi al è za stât cambiât. Torne prove cul gnûf bloc schermi.</string>
     <string name="lockpattern_tutorial_cancel_label">Anule</string>
     <string name="lockpattern_tutorial_continue_label">Indenant</string>
-    <string name="manage_device_admin">Aplicazions di aministrazion dal dispositîf</string>
+    <string name="manage_device_admin">Aministrazion dal dispositîf</string>
     <string name="number_of_device_admins_none">Nissune aplicazion ative</string>
     <string name="number_of_device_admins">{count, plural,
         one {}=1      {# aplicazion ative}
@@ -881,10 +884,9 @@
     <string name="bluetooth_scanning_on_info_message">Cuant che il Bluetooth al ven ativât, il to dispositîf al pues comunicâ cun altris dispositîfs Bluetooth che a son dongje.\n\nPar miorâ la esperience di utilizazion dal dispositîf, aplicazions e servizis a podaran continuâ a scansionâ dispositîfs dongje in cualsisei moment, ancje cuant che il Bluetooth al ven distudât. Cheste pussibilitât e pues vignî doprade, par esempli, par miorâ lis funzions e i servizis basâts su la posizion. Tu puedis cambiâ cheste configurazion intes impostazions di scansionament dal Bluetooth.</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available">Cuant che il Bluetooth al è atîf, il to dispositîf al pues comunicâ cun altris dispositîfs Bluetooth tai contors. Funzionalitâts come la condivision svelte e cjate il gno dispositîfa doprin il Bluetooth.\n\nAplicazions e servizis a podaran distès cirî tai contors dispositîfs in cualsisei moment, ancje cuant che il Bluetooth al è disativât. Chest al è util, par esempli, par miorâ funzionalitâts e servizis basâts su la posizion. Tu puedis cambiâ cheste opzion tes impostazions di scansion dal Bluetooth.</string>
     <string name="bluetooth_scan_change">Cambie</string>
-    <string name="bluetooth_key_missing_title"><xliff:g id="device_name">%1$s</xliff:g> no conetût</string>
-    <string name="bluetooth_key_missing_message">Pe tô sigurece, dismentee chest dispositîf e dopo torne associlu</string>
     <string name="bluetooth_key_missing_forget">Dismentee dispositîf</string>
     <string name="bluetooth_key_missing_cancel">Anule</string>
+    <string name="bluetooth_key_missing_close">Siere</string>
     <string name="device_details_title">Detais dispositîf</string>
     <string name="bluetooth_device_keyboard_settings_preference_title">Impostazions tastiere</string>
     <string name="bluetooth_device_more_settings_preference_title">Altris impostazions</string>
@@ -897,6 +899,7 @@
     <string name="bluetooth_companion_app_remove_association_dialog_title">Disconeti la aplicazion?</string>
     <string name="bluetooth_companion_app_body">La aplicazion <xliff:g id="app_name" example="App Name">%1$s</xliff:g> no si conetarà plui al to <xliff:g id="device_name" example="Device Name">%2$s</xliff:g></string>
     <string name="device_details_leaudio_toggle_summary">Sperimentâl. Al miore la cualitât audio.</string>
+    <string name="device_details_battery">Batarie</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Dismentee dispositîf</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button">Disconet aplicazion</string>
     <string name="device_details_more_settings">Altris impostazions</string>
@@ -1011,7 +1014,6 @@
     <string name="wifi_show_advanced">Opzions avanzadis</string>
     <string name="wifi_advanced_toggle_description">Opzions avanzadis de liste a tende</string>
     <string name="wifi_advanced_toggle_description_collapsed">slargje</string>
-    <string name="wifi_ssid">Non de rêt</string>
     <string name="wifi_ssid_hint">Inserìs il SSID</string>
     <string name="wifi_security">Sigurece</string>
     <string name="wifi_hidden_network">Rêt platade</string>
@@ -1034,7 +1036,6 @@
     <string name="wifi_eap_user_cert">Certificât utent</string>
     <string name="wifi_eap_identity">Identitât</string>
     <string name="wifi_eap_anonymous">Identitât anonime</string>
-    <string name="wifi_password">Password</string>
     <string name="wifi_show_password">Mostre password</string>
     <string name="wifi_ap_choose_2G">Bande a 2,4 GHz</string>
     <string name="wifi_ap_prefer_5G">Bande a 5 GHz preferide</string>
@@ -1270,7 +1271,6 @@
     <string name="screen_resolution_option_high">Alte risoluzion</string>
     <string name="screen_resolution_option_full">Risoluzion massime</string>
     <string name="screen_resolution_footer">La massime risoluzion e dopre plui batarie. Al è pussibil che la modifiche de risoluzion e causi il tornâ a inviâsi di cualchi aplicazion.</string>
-    <string name="screen_resolution_selected_a11y">Selezionade</string>
     <string name="color_mode_title">Colôrs</string>
     <string name="color_mode_option_natural">Naturâi</string>
     <string name="color_mode_option_boosted">Miorâts</string>
@@ -1354,8 +1354,6 @@
         }
     </string>
     <string name="dark_ui_modes_footer_action">Impostazions modalitâts</string>
-    <string name="even_dimmer_display_title">Atenuazion extra</string>
-    <string name="even_dimmer_display_summary">Permet al dispositîf di sbassâ ancjemò di plui la luminositât</string>
     <string name="screen_timeout">Distudament schermi</string>
     <string name="screen_timeout_summary">Dopo <xliff:g id="timeout_description">%1$s</xliff:g> di inativitât</string>
     <string name="screen_timeout_summary_not_set">No configurât</string>
@@ -1445,9 +1443,6 @@
     <string name="storage_settings_for_app">Spazi di archiviazion e cache</string>
     <string name="storage_settings_title">Impostazions memorie</string>
     <string name="status_eid">E​ID</string>
-    <string name="eid_multi_sim">E​ID (fressure sim <xliff:g id="eid_slot_id">%1$d</xliff:g>)</string>
-    <string name="imei_multi_sim">IMEI (fressure sim <xliff:g id="imei_slot_id">%1$d</xliff:g>)</string>
-    <string name="imei_multi_sim_primary">IMEI (fressure sim <xliff:g id="imei_slot_id_primary">%1$d</xliff:g>) (primarie)</string>
     <string name="view_saved_network">Par visualizâle, sielç la rêt salvade</string>
     <string name="status_imei">IMEI</string>
     <string name="status_imei_sv">IMEI SV</string>
@@ -1455,8 +1450,6 @@
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
     <string name="status_prl_version">Version PRL</string>
-    <string name="meid_multi_sim">MEID (fressure sim <xliff:g id="meid_slot_id">%1$d</xliff:g>)</string>
-    <string name="meid_multi_sim_primary">MEID (fressure sim <xliff:g id="meid_slot_id_primary">%1$d</xliff:g>) (primarie)</string>
     <string name="scanning_status_text_on">On</string>
     <string name="scanning_status_text_off">Off</string>
     <string name="status_meid_number">MEID</string>
@@ -1568,7 +1561,9 @@
     <string name="battery_level_title">Nivel de batarie</string>
     <string name="communal_settings_title">Comunis</string>
     <string name="communal_settings_summary">Impostazion comunis</string>
-    <string name="satellite_setting">Messaçs vie satelit</string>
+    <string name="when_to_show_hubmode_never">Mai</string>
+    <string name="when_to_show_hubmode_charging">Intant de ricjarie</string>
+    <string name="when_to_show_hubmode_docked">Se inserît te base</string>
     <string name="apn_settings">APNs</string>
     <string name="apn_edit">Modifiche pont di acès</string>
     <string name="apn_add">Zonte pont di acès</string>
@@ -1675,8 +1670,10 @@
     <string name="tether_preference_summary_off">Off</string>
     <string name="usb_tethering_button_text">Tethering USB</string>
     <string name="bluetooth_tether_checkbox_text">Tethering Bluetooth</string>
+    <string name="ethernet_ip_address">Direzion IP</string>
+    <string name="rx_ethernet_speed">Velocitât di ricezion</string>
+    <string name="ethernet_network_usage">Utilizazion de rêt</string>
     <string name="ethernet_tether_checkbox_text">Tethering Ethernet </string>
-    <string name="tethering_footer_info">Dopre il pont di acès e il tethering par puartâ internet su altris dispositîfs midiant la tô conession dâts mobii. Lis aplicazions a puedin ancje creâ un pont di acès par condividi contignûts cui dispositîfs tai contors.</string>
     <string name="tethering_footer_info_sta_ap_concurrency">Dopre il pont di acès e il tethering par puartâ internet su altris dispositîfs midiant la tô conession dâts mobii o il to Wi\u2011Fi. Lis aplicazions a puedin ancje creâ un pont di acès par condividi contignûts cui dispositîfs tai contors.</string>
     <string name="tethering_help_button_text">Jutori</string>
     <string name="network_settings_title">Rêt mobile</string>
@@ -1722,6 +1719,7 @@
     <string name="location_time_zone_detection_not_supported">Il rilevament dal fûs orari in base ae posizion nol è supuartât</string>
     <string name="location_time_zone_detection_not_allowed">Lis modifichis dal rilevament dal fûs orari in base ae posizion no son consintudis</string>
     <string name="location_time_zone_detection_auto_is_on">Se la posizion dal to dispositîf e je disponibile, e podarès vignî doprade par stabilî il fûs orari</string>
+    <string name="time_notifications_title">Notifichis</string>
     <string name="about_settings_summary">Visualize informazions legâls, stât, version dal software</string>
     <string name="legal_information">Informazions legâls</string>
     <string name="manual">Manuâl</string>
@@ -2042,33 +2040,20 @@
     <string name="physical_keyboard_title">Tastiere fisiche</string>
     <string name="physical_keyboard_layout_picker_title">Seletôr disposizion di tastiere fisiche</string>
     <string name="bounce_keys">Tascj sbalçâts</string>
-    <string name="bounce_keys_summary">La tastiere e ignore lis pressions ripetudis besvelt dal stes tast </string>
-    <string name="bounce_keys_dialog_title">Nivel di soiâr pai tascj sbalçâts</string>
-    <string name="bounce_keys_dialog_subtitle">Sielç par trop timp che la tô tastiere e à di ignorâ lis pressions ripetudis di tascj</string>
-    <string name="input_setting_keys_dialog_option_200">0,2s</string>
-    <string name="input_setting_keys_dialog_option_400">0,4s</string>
-    <string name="input_setting_keys_dialog_option_600">0,6s</string>
+    <string name="input_setting_keys_dialog_option_200">0.2 seconts</string>
+    <string name="input_setting_keys_dialog_option_600">0.6 seconts</string>
     <string name="input_setting_keys_custom_title">Personalizât</string>
     <string name="input_setting_keys_custom_value">valôr personalizât</string>
     <string name="slow_keys">Tascj lents</string>
-    <string name="slow_keys_summary">Juste il timp di rispueste pe pression di un tast</string>
     <string name="sticky_keys">Tascj tacadiçs</string>
     <string name="sticky_keys_summary">Pes scurtis, frache un tast par volte invezit che tignî fracâts jù ducj i tascj necessaris</string>
     <string name="mouse_keys">Tascj pal mouse</string>
     <string name="mouse_keys_main_title">Dopre tascj pal mouse</string>
     <string name="mouse_keys_summary">Dopre la tastiere par controlâ il pontadôr</string>
-    <string name="mouse_reverse_vertical_scrolling">Scoriment invertît dal mouse</string>
+    <string name="mouse_reverse_vertical_scrolling">Scoriment invertît</string>
     <string name="mouse_reverse_vertical_scrolling_summary">Scor in sù par spostâ in jù la pagjine</string>
-    <string name="mouse_swap_primary_button">Scambie i botons di çampe e diestre</string>
     <string name="mouse_swap_primary_button_summary">Dopre il boton di çampe dal mouse come che al fos il diestri</string>
     <string name="mouse_key_main_page_title">Tascj mouse par <xliff:g id="keyboard name" example="my keyboard">%s</xliff:g></string>
-    <string name="mouse_keys_directional_summary">Dopre i tascj \“<xliff:g id="directional_label" example="7,8,9,u,o,j,k,l">%s</xliff:g>\” par spostâ il pontadôr dal mouse</string>
-    <string name="mouse_keys_click_summary">Dopre il tast \“<xliff:g id="click_label" example="i">%s</xliff:g>\” par fâ clic cul boton primari dal mouse</string>
-    <string name="mouse_keys_press_hold_summary">Dopre il tast \“<xliff:g id="press_hold_label" example="m">%s</xliff:g>\” par fracâ e tignî fracât il boton primari dal mouse</string>
-    <string name="mouse_keys_release_summary">Dopre il tast \“<xliff:g id="release_label" example=",">%s</xliff:g>\” par molâ il boton primari dal mouse</string>
-    <string name="mouse_keys_toggle_scroll_summary">Dopre il tast \“<xliff:g id="release_label_1" example=".">%1$s</xliff:g>\” par comutâ la modalitât di scoriment. Chest al fasarà in mût che i tascj \“<xliff:g id="release_label_2" example="8, k, o, u">%2$s</xliff:g>\” a fasedin scori la viodude in sù, jù, çampe e drete</string>
-    <string name="mouse_keys_release2_summary">Dopre il tast \“<xliff:g id="release_2_label" example="/">%s</xliff:g>\” par fâ clic cul boton secondari dal mouse</string>
-    <string name="keyboard_shortcuts_helper">Scurtis di tastiere</string>
     <string name="keyboard_shortcuts_helper_summary">Mostre la liste des scurtis</string>
     <string name="language_and_input_for_work_category_title">Tastieris e struments dal profîl di lavôr</string>
     <string name="virtual_keyboards_for_work_title">Tastiere su schermi pal lavôr</string>
@@ -2078,16 +2063,12 @@
     <string name="mouse_settings">Mouse</string>
     <string name="trackpad_settings_summary">Veloctât pontadôr, mots</string>
     <string name="trackpad_tap_to_click">Tocje par fâ clic</string>
-    <string name="trackpad_tap_dragging_title">Strissinament cun tocjade</string>
-    <string name="trackpad_tap_dragging_summary">Tocje e strissine il dêt sul touchpad par spostâ i ogjets</string>
     <string name="trackpad_touchpad_gesture_title">Mots dal touchpad</string>
     <string name="trackpad_touchpad_gesture_summary">Personalize i singui mots di navigazion dal touchpad</string>
     <string name="trackpad_reverse_scrolling_title">Scoriment invertît</string>
     <string name="trackpad_reverse_scrolling_summary">Il contignût si sposte in sù cuant che tu scoris in jù</string>
     <string name="trackpad_bottom_right_tap_title">Clic in bas a diestre</string>
     <string name="trackpad_bottom_right_tap_summary">Clic tal cjanton bas di diestre dal touchpad par altris opzions</string>
-    <string name="trackpad_pointer_speed">Velocitât dal pontadôr</string>
-    <string name="three_finger_tap_preference_title">Dopre tocjade a trê dêts</string>
     <string name="pointer_fill_style">Colôr dal pontadôr</string>
     <string name="pointer_fill_style_black_button">Cambie il stîl di jemplament dal pontadôr a neri</string>
     <string name="pointer_fill_style_green_button">Cambie il stîl di jemplament dal pontadôr a vert</string>
@@ -2102,7 +2083,6 @@
     <string name="trackpad_touch_gesture">Impare i mots dal touchpad</string>
     <string name="keywords_touchpad">trackpad, mouse, touchpad, cursôr, scori, clic di diestre, clic, pontadôr</string>
     <string name="keywords_trackpad_bottom_right_tap">clic diestri, tocjade</string>
-    <string name="three_finger_tap_middle_click">Clic di mieç</string>
     <string name="three_finger_tap_launch_gemini">Invie assistent</string>
     <string name="three_finger_tap_go_home">Va al Inizi</string>
     <string name="three_finger_tap_go_back">Tone indaûr</string>
@@ -2121,16 +2101,6 @@
     <string name="gesture_button_next">Indenant</string>
     <string name="gesture_button_restart">Torne invie</string>
     <string name="gesture_button_done">Fat</string>
-    <string name="trackpad_go_back_title">Tone indaûr</string>
-    <string name="trackpad_go_back_summary">Scor a çampe o a diestre cun trê dêts</string>
-    <string name="trackpad_go_home_title">Va al Inizi</string>
-    <string name="trackpad_go_home_summary">Scor in sù cun trê dêts</string>
-    <string name="trackpad_recent_apps_title">Aplicazions resintis</string>
-    <string name="trackpad_recent_apps_summary">Scor in sù cun trê dêts, dopo ten fracât</string>
-    <string name="trackpad_notifications_title">Notifichis</string>
-    <string name="trackpad_notifications_summary">Scor in jù cun trê dêts</string>
-    <string name="trackpad_switch_apps_title">Cambie aplicazions</string>
-    <string name="trackpad_switch_apps_summary">Scor a çampe o a diestre cun cuatri dêts</string>
     <string name="modifier_keys_settings">Tascj modificadôrs</string>
     <string name="modifier_keys_settings_summary">Cambie il compuartament dai tascj</string>
     <string name="modifier_keys_reset_title">Ripristine dut</string>
@@ -2152,8 +2122,8 @@
     <string name="automatic_keyboard_layout_label">Automatiche: <xliff:g id="layout_label" example="English(US)">%s</xliff:g></string>
     <string name="user_selected_keyboard_layout_label">Selezionade dal utent: <xliff:g id="layout_label" example="English(US)">%s</xliff:g></string>
     <string name="speech_category_title">Vôs</string>
+    <string name="speech_preference_title">Vôs</string>
     <string name="pointer_speed">Velocitât dal pontadôr</string>
-    <string name="pointer_scale">Scjale dal pontadôr</string>
     <string name="pointer_scale_decrease_content_description">Diminuìs scjale dal pontadôr</string>
     <string name="pointer_scale_increase_content_description">Incrès scjale dal pontadôr</string>
     <string name="pointer_scale_keywords">scjale, dimension, Scjale dal pontadôr, Dimension dal pontadôr, pontadôr dal mouse plui grant, visibil</string>
@@ -2217,9 +2187,7 @@
     <string name="general_category_title">Gjenerâls</string>
     <string name="display_category_title">Visualizazion</string>
     <string name="accessibility_color_and_motion_title">Colôr e moviment</string>
-    <string name="accessibility_pointer_and_touchpad_title">Acessibilitât dal pontadôr e dal touchpad</string>
-    <string name="accessibility_pointer_and_touchpad_summary">Colôr dal pontadôr, dimension dal pontadôr e altri</string>
-    <string name="accessibility_pointer_color_customization_title">Personalizazion colôr dal pontadôr</string>
+    <string name="accessibility_touchpad_title">Touchpad</string>
     <string name="accessibility_color_contrast_title">Contrast colôrs</string>
     <string name="accessibility_color_contrast_intro">Un contrast elevât al fâs risaltâ di plui test, botons e iconis. Sielç il contrast plui adat a te.</string>
     <string name="color_contrast_note">Al è pussibil che cualchi aplicazion no sopuarti dutis lis impostazions sul contrast par test e colôrs.</string>
@@ -2235,6 +2203,8 @@
     <string name="interaction_control_category_title">Controi di interazion</string>
     <string name="accessibility_tap_assistance_title">Controi basâts sul timp</string>
     <string name="accessibility_system_controls_title">Controi di sisteme</string>
+    <string name="accessibility_feedback_title">Opinion</string>
+    <string name="accessibility_send_feedback_title">Mande coment</string>
     <string name="user_installed_services_category_title">Aplicazions discjariadis</string>
     <string name="experimental_category_title">Sperimentâls</string>
     <string name="feature_flags_dashboard_title">Opzions di funzionalitât</string>
@@ -2437,15 +2407,10 @@
     <string name="accessibility_button_disabled_button_mode_summary">No disponibil intant che e ven doprade la modalitât boton de sbare di navigazion.</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Test a contrast elevât</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary">Cambie il colôr dal test a neri o blanc. Al massimize il contrast cul fonts.</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title">Massimize contrast test</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary">Zonte un fonts blanc o neri tor ator dal test par aumentâ il contrast</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Inzornament automatic ingrandiment</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Inzorne ingrandiment su transizions di aplicazions</string>
     <string name="accessibility_power_button_ends_call_prerefence_title">Bute jù clamade cul boton impiament</string>
-    <string name="accessibility_toggle_large_pointer_icon_title">Pontadôr mouse grant</string>
-    <string name="accessibility_toggle_large_pointer_icon_summary">Rint plui visibil il pontadôr dal mouse</string>
-    <string name="accessibility_force_invert_title">Rint scuris dutis lis aplicazions</string>
-    <string name="accessibility_force_invert_summary">Si apliche aes aplicazions cence il lôr personâl teme scûr. Al è pussibil che cualchi aplicazion e presenti problemis di visualizazion, come colôrs invertîts.</string>
     <string name="accessibility_disable_animations">Gjave animazions</string>
     <string name="accessibility_disable_animations_summary">Ridûs il moviment sul schermi</string>
     <string name="accessibility_toggle_primary_mono_title">Audio in formât mono</string>
@@ -2477,7 +2442,6 @@
         </ol>
         ]]></string>
     <string name="accessibility_action_label_panel_slice">jentrâ tes impostazions</string>
-    <string name="accessibility_autoclick_preference_title">Clic automatic (timp di stasi)</string>
     <string name="accessibility_autoclick_about_title">Informazions sul clic automatic (timp di stasi)</string>
     <string name="accessibility_autoclick_footer_learn_more_content_description">Scuvierç di plui sul clic automatic (timp di stasi)</string>
     <string name="accessibility_autoclick_intro_text">Tu puedis configurâ un mouse colegât par fâ in mût che al fasi clic in automatic cuant che il cursôr al reste fer par un determinât periodi di timp</string>
@@ -2561,7 +2525,6 @@
     <string name="accessibility_hac_mode_title">Compatibilitât aparâts acustics</string>
     <string name="accessibility_hac_mode_summary">Miore la compatibilitât cun bobinis telefonichis e ridûs il rumôr</string>
     <string name="accessibility_hearing_device_about_title">Informazions su dispositîfs pe scolte</string>
-    <string name="accessibility_hearing_device_footer_summary">Par cjatâ altris dispositîfs di scolte che no son supuartâts di ASHA o LE Audio, tocje <b>Associe gnûf dispositîf</b> &gt; <b>Viôt altris dispositîfs</b></string>
     <string name="accessibility_hearing_device_pairing_page_title">Associe disp. pe scolte</string>
     <string name="accessibility_hearing_device_pairing_intro">Tu puedis associâ dispositîfs di scolte ASHA e LE audio su cheste pagjine. Controle che il to dispositîf pe scolte al sedi impiât e pront pe associazion.</string>
     <string name="accessibility_found_hearing_devices">Disp. pe scolte disponibii</string>
@@ -2889,7 +2852,7 @@
     <string name="battery_usage_timestamps_hyphen"><xliff:g id="from_timestamp">%1$s</xliff:g> - <xliff:g id="to_timestamp">%2$s</xliff:g></string>
     <string name="battery_usage_timestamps_content_description">Di <xliff:g id="from_timestamp">%1$s</xliff:g> a <xliff:g id="to_timestamp">%2$s</xliff:g></string>
     <string name="battery_usage_day_and_hour"><xliff:g id="day">%1$s</xliff:g> <xliff:g id="hour">%2$s</xliff:g></string>
-    <string name="battery_usage_time_info_and_battery_level"><xliff:g id="time_info" example="Battery usage for Monday 6 AM - 8 AM">%1$s</xliff:g> <xliff:g id="battery_level" example="Battery level percentage from 83% to 59%">%2$s</xliff:g></string>
+    <string name="battery_chart_slot_status_selected">Selezionade</string>
     <string name="battery_usage_chart">Grafic de utilizazion de batarie</string>
     <string name="daily_battery_usage_chart">Grafic zornalîr de utilizazion de batarie</string>
     <string name="hourly_battery_usage_chart">Grafic orari de utilizazion de batarie</string>
@@ -3005,7 +2968,6 @@
     <string name="credentials_reset_hint">Gjavâ ducj i contignûts?</string>
     <string name="credentials_erased">Memorie credenziâls scancelade.</string>
     <string name="credentials_not_erased">Impuss. scancelâ mem. credenz.</string>
-    <string name="usage_access_title">Aplicaz. cun acès dâts utiliz.</string>
     <string name="ca_certificate">Certificât CA</string>
     <string name="user_certificate">Certificât utent par VPN e aplicazion</string>
     <string name="wifi_certificate">Certificât Wi\u2011Fi</string>
@@ -3052,7 +3014,7 @@
     <string name="remove_device_admin">Disative cheste aplicazion di aministrazion dal dispositîf</string>
     <string name="uninstall_device_admin">Disinstale aplicazion</string>
     <string name="remove_and_uninstall_device_admin">Disative e disinstale</string>
-    <string name="select_device_admin_msg">Aplicazions di aministrazion dal dispositîf</string>
+    <string name="select_device_admin_msg">Aministrazion dal dispositîf</string>
     <string name="no_device_admins">Nissune aplicazion di aministrazion dal dispositîf disponibile</string>
     <string name="no_trust_agents">Nissun agjent di fiducie disponibil</string>
     <string name="add_device_admin_msg">Ativâ la aplicazion di aministrazion dal dispositîf?</string>
@@ -3074,7 +3036,6 @@
         acès, aplicazions e dâts associâts a chest utent, includudis lis ativitâts in rêt e lis
         informazions su la posizion dal to dispositîf.</string>
     <string name="admin_disabled_other_options">Lis altris opzions a son disativadis dal to aministradôr</string>
-    <string name="admin_more_details">Plui informazions</string>
     <string name="notification_log_title">Regjistri notifichis</string>
     <string name="notification_history_title">Cronologjie des notifichis</string>
     <string name="notification_history_today">Ultimis %d oris</string>
@@ -3178,17 +3139,11 @@
     <string name="data_usage_uninstalled_apps_users">Aplicazions e utents gjavâts</string>
     <string name="wifi_metered_title">Utilizazion de rêt</string>
     <string name="data_usage_metered_yes">A consum</string>
-    <string name="vpn_name">Non</string>
     <string name="vpn_type">Gjenar</string>
-    <string name="vpn_server">Direzion servidôr</string>
-    <string name="vpn_ipsec_identifier">Identificadôr IPSec</string>
-    <string name="vpn_ipsec_secret">Clâf pre-condividude IPSec</string>
     <string name="vpn_ipsec_user_cert">Certificât utent IPSec</string>
     <string name="vpn_ipsec_ca_cert">Certificât CA IPSec</string>
     <string name="vpn_ipsec_server_cert">Certificât servidôr IPSec</string>
     <string name="vpn_show_options">Mostre opzions avanzadis</string>
-    <string name="vpn_username">Non utent</string>
-    <string name="vpn_password">Password</string>
     <string name="vpn_save_login">Salve informazions account</string>
     <string name="vpn_not_used">(no doprât)</string>
     <string name="vpn_no_ca_cert">(no sta verificâ il servidôr)</string>
@@ -3439,7 +3394,6 @@
     <string name="color_orange">Naranç</string>
     <string name="color_purple">Viole</string>
     <string name="sim_status_title">Stât de SIM</string>
-    <string name="sim_status_title_sim_slot">Stât de SIM (fressure sim %1$d)</string>
     <string name="sim_signal_strength"><xliff:g id="dbm">%1$d</xliff:g> dBm <xliff:g id="asu">%2$d</xliff:g> asu</string>
     <string name="sim_notification_title">Il tôs SIMs a son cambiadis</string>
     <string name="sim_notification_summary">Tocje par configurâ</string>
@@ -3854,6 +3808,9 @@
     <string name="snooze_options_title">Permet di posticipâ lis notifichis</string>
     <string name="notification_badging_title">Indicadôr di notifiche su la icone de aplicazion</string>
     <string name="notification_bundles">Pacs di notifichis</string>
+    <string name="notification_summarization_on">On</string>
+    <string name="notification_summarization_off">Off</string>
+    <string name="notification_summarization_manage_excluded_apps">Gjestìs aplicazions</string>
     <string name="notification_bubbles_title">Bufulis</string>
     <string name="bubbles_app_toggle_title">Bufulis</string>
     <string name="bubbles_conversation_toggle_title">Met te bufule cheste conversazion</string>
@@ -3886,9 +3843,6 @@
     <string name="unseen_notifs_lock_screen">Sul bloc schermi mostre nome lis gnovis notifichis</string>
     <string name="unseen_notifs_lock_screen_summary">Gjave in automatic dal bloc schermi lis notifichis za visualizadis</string>
     <string name="lock_screen_notifs_show_full_list">Liste complete</string>
-    <string name="lock_screen_notifs_full_list_desc">Il posizionament predefinît atuâl al è une tasse complete di scansiis e notifichis.</string>
-    <string name="lock_screen_notifs_show_compact">Compatis</string>
-    <string name="lock_screen_notifs_compact_desc">Lis gnovis notifichis a vegnin strenzudis intune scansie sul to bloc schermi.</string>
     <string name="lock_screen_notifs_title">Notifichis su la schermade di bloc</string>
     <string name="lock_screen_notifs_show_all_summary">Mostre conversazions, notifichis predefinidis e cuietis</string>
     <string name="lock_screen_notifs_show_all">Mostre conversazions, notifichis predefinidis e cuietis</string>
@@ -3906,10 +3860,6 @@
     <string name="lock_screen_notifications_summary_show_profile">Mostre ducj i contignûts des notifichis di lavôr</string>
     <string name="lock_screen_notifications_summary_hide_profile">Plate ducj i contignûts sensibii di lavôr</string>
     <string name="lock_screen_notifications_interstitial_message_profile">Cuant che il dispositîf al è blocât, cemût desideristu visualizâ lis notifichis dal profîl?</string>
-    <string name="lock_screen_notification_hide_seen_title">Plate notifichis viodudis</string>
-    <string name="lock_screen_notification_hide_seen_summary">Lis notifichis viodudis a vegnin gjavadis de schermade di bloc</string>
-    <string name="lock_screen_notification_hide_silent_title">Plate notifichis cuietis</string>
-    <string name="lock_screen_notification_hide_silent_summary">Lis notifichis cuietis e lis conversazions a vegnin gjavadis de scharmade di bloc.</string>
     <string name="lock_screen_notifications_interstitial_title_profile">Notifichis dal profîl</string>
     <string name="notifications_title">Notifichis</string>
     <string name="app_notifications_title">Notifichis des aplicazions</string>
@@ -3996,8 +3946,6 @@
     <string name="nls_feature_settings_title">Cambiâ lis impostazions</string>
     <string name="nls_feature_settings_summary">Al pues ativâ o disativâ il No Sta Disturbâ e cambiâ lis relativis impostazions.</string>
     <string name="nls_feature_modes_settings_summary">Al pues gjestî e ativâ lis modalitâts e cambiâ lis relativis impostazions.</string>
-    <string name="notification_listener_disable_warning_summary">        Se tu disativis l\'acès aes notifichis a <xliff:g id="notification_listener_name">%1$s</xliff:g>, al vignarà disativât ancje l\'acès al No Sta Disturbâ.
-    </string>
     <string name="notification_listener_disable_modes_warning_summary">        Se tu disativis l\'acès aes notifichis par <xliff:g id="notification_listener_name">%1$s</xliff:g>, al è pussibil che al vegni disativât ancje l\'acès aes modalitâts.
     </string>
     <string name="notification_listener_disable_warning_confirm">Disative</string>
@@ -4020,8 +3968,6 @@
     <string name="notif_listener_more_settings_desc">Altris impostazions a son disponibilis dentri di cheste aplicazion</string>
     <string name="notification_polite_title">Disfredament notifichis</string>
     <string name="notification_polite_main_control_title">Dopre il disfredament notifichis</string>
-    <string name="notification_polite_description">Cuant che tu ricevis tantis notifichis in pôc timp, il to dispositîf al sbassarà il lôr volum e al ridusarà i avîs par un massim di 2 minûts. Clamadis, sveis e conversazions prioritariis no vegnin tocjadis.
-        \n\nAl è pussibil cjatâ lis notifichis ricevudis intant dal timp di disfredament tirant jù de part superiôr dal schermi la tende.</string>
     <string name="notification_polite_work">Apliche ai profîi di lavôr</string>
     <string name="notification_polite_work_summary">Apliche aes aplicazions dal profîl di lavôr</string>
     <string name="notification_bundle_title">Notifichis in tasse</string>
@@ -4069,9 +4015,7 @@
     <string name="interact_across_profiles_install_work_app_title">Par colegâ chestis aplicazions, instale <xliff:g id="name" example="Calendar">%1$s</xliff:g> tal to profîl di lavôr</string>
     <string name="interact_across_profiles_install_personal_app_title">Par colegâ chestis aplicazions, instale <xliff:g id="name" example="Calendar">%1$s</xliff:g> tal to profîl personâl</string>
     <string name="interact_across_profiles_install_app_summary">Tocje par otignî la aplicazion</string>
-    <string name="manage_zen_access_title">Acès a No Sta Disturbâ</string>
     <string name="zen_access_detail_switch">Permet No Sta Disturbâ</string>
-    <string name="zen_access_empty_text">Nissune aplicazion e à domandât l\'acès al No Sta Disturbâ</string>
     <string name="manage_zen_modes_access_title">Acès aes modalitâts</string>
     <string name="zen_modes_access_detail_switch">Permet l\'acès aes modalitâts</string>
     <string name="zen_modes_access_empty_text">Nissune aplicazion instalade e à domandât l\'acès aes modalitâts</string>
@@ -4079,7 +4023,7 @@
     <string name="channel_notifications_off_desc">A tô richieste, Android al sta blocant lis notifichis di cheste categorie dal vignî fûr su chest dispositîf</string>
     <string name="channel_group_notifications_off_desc">A tô richieste, Android al sta blocant lis notifichis di chest grup dal vignî fûr su chest dispositîf</string>
     <string name="app_notifications_not_send_desc">Cheste aplicazion no mande notifichis</string>
-    <string name="notification_channels">Categoriis</string>
+    <string name="app_notification_settings">Impostazions aplicazions</string>
     <string name="notification_channels_other">Altri</string>
     <string name="no_channels">Cheste aplicazion no à publicât nissune notifiche</string>
     <string name="no_recent_channels">Mostre categoriis no dopradis</string>
@@ -4464,10 +4408,7 @@
     <string name="default_phone_title">Aplicazion di telefon</string>
     <string name="system_app">(Sisteme)</string>
     <string name="apps_storage">Archiviazion aplicazions</string>
-    <string name="usage_access">Acès ai dâts di utilizazion</string>
-    <string name="permit_usage_access">Permet l\'acès ai dâts di utilizazion</string>
     <string name="time_spent_in_app_pref_title">Timp di utilizazion</string>
-    <string name="usage_access_description">L\'acès ai dâts di utilizazion al permès a une aplicazion di tignî di voli cualis altris aplicazions tu dopris e trop dispès, e ancje il to operadôr, lis impostazions de lenghe e altris detais.</string>
     <string name="memory_settings_title">Memorie</string>
     <string name="always_running">Simpri ative (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
     <string name="sometimes_running">Ative ogni tant (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
@@ -4479,8 +4420,6 @@
     <string name="high_power_off">Utilizazion batarie otimizade</string>
     <string name="high_power_system">Otimizazion de batarie no disponibile</string>
     <string name="high_power_prompt_title">Lassâ che lis aplicazions a ziredin simpri in sotfont?</string>
-    <string name="high_power_prompt_body">        Permetint a <xliff:g id="app_name" example="Settings">%1$s</xliff:g> di continuâ a zirâ in sotfont tu podaressis slungjâ la durade de batarie.
-        \n\nTu puedis cambiâ cheste impostazion plui indenant di Impostazions &gt; Aplicazions.</string>
     <string name="battery_summary">De ultime ricjarie, doprât il <xliff:g id="percentage" example="2">%1$s</xliff:g></string>
     <string name="battery_summary_24hr">Utilizazion tes ultimis 24 oris: <xliff:g id="percentage" example="2">%1$s</xliff:g></string>
     <string name="no_battery_summary">Nissune utilizazion de batarie de ultime ricjarie</string>
@@ -4569,7 +4508,6 @@
     <string name="ignore_optimizations_on_desc">La batarie e podarès discjariâsi prime. La aplicazion no sarà plui limitade tal doprâ la batarie in sotfont.</string>
     <string name="ignore_optimizations_off_desc">Opzion racomandade par vê une durade plui grande de batarie.</string>
     <string name="app_list_preference_none">Nissune</string>
-    <string name="work_profile_usage_access_warning">La disativazion dal acès ai dâts di utilizazion par cheste aplicazion no impedirà al to aministradôr di monitorâ la utilizazion dai dâts pes aplicazions tal to profîl di lavôr</string>
     <string name="draw_overlay">Mostre sore altris aplicazions</string>
     <string name="system_alert_window_settings">Mostre sore altris aplicazions</string>
     <string name="permit_draw_overlay">Permet di mostrâ sore di altris aplicazions</string>
@@ -4617,7 +4555,7 @@
     <string name="disconnected">No conetût</string>
     <string name="keyboard_disconnected">No colegade</string>
     <string name="apps_summary"><xliff:g id="count" example="24">%1$d</xliff:g> aplicazions instaladis</string>
-    <string name="storage_summary">Doprât: <xliff:g id="percentage" example="54%">%1$s</xliff:g> - Libars: <xliff:g id="free_space" example="32GB">%2$s</xliff:g></string>
+    <string name="storage_toplevel_summary">Doprât: <xliff:g id="percentage" example="54%">%1$s</xliff:g> - Libars: <xliff:g id="free_space" example="32GB">%2$s</xliff:g></string>
     <string name="display_dashboard_summary">Teme scûr, dimension caratar, luminositât</string>
     <string name="memory_summary">Ûs medi di <xliff:g id="used_memory" example="1.7GB">%1$s</xliff:g> di memorie su <xliff:g id="total_memory" example="2GB">%2$s</xliff:g></string>
     <string name="users_summary">Jentrât come <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
@@ -4647,6 +4585,7 @@
         la ativitât in rêt e lis informazions su la posizion dal dispositîf.</string>
     <string name="admin_financed_message">L\'aministradôr dal dispositîf al podarès rivâ a acedi ai dâts
         associâts a chest dispositîf, gjestî aplicazions e cambiâ lis impostazions di chest dispositîf.</string>
+    <string name="disabled_by_advanced_protection_help_button_title">Impostazions</string>
     <string name="condition_turn_off">Disative</string>
     <string name="condition_turn_on">Ative</string>
     <string name="condition_expand_show">Mostre</string>
@@ -4849,13 +4788,9 @@
     <string name="gesture_preference_title">Mots</string>
     <string name="double_tap_power_for_camera_title">Vierç daurman la fotocjamare</string>
     <string name="double_tap_power_for_camera_summary">Par vierzi daurman la fotocjamare, frache il boton di impiament dôs voltis. Al funzione di cualsisei schermade.</string>
-    <string name="double_tap_power_title">Tocje dôs voltis il boton di impiament</string>
-    <string name="double_tap_power_enabled">Dopre dôs tocjadis</string>
-    <string name="double_tap_power_target_action_category">Tocje dôs voltis il boton di impiament</string>
-    <string name="double_tap_power_camera_action_title">Vierç fotocjamare</string>
-    <string name="double_tap_power_camera_action_summary">Acedi ae fotocjamare</string>
-    <string name="double_tap_power_wallet_action_title">Vierç Tacuin</string>
-    <string name="double_tap_power_wallet_action_summary">Acedi al Tacuin</string>
+    <string name="double_tap_power_camera_action_title">Fotocjamare</string>
+    <string name="double_tap_power_camera_action_summary">Vierç fotocjamare</string>
+    <string name="double_tap_power_wallet_action_summary">Vierç Tacuin</string>
     <string name="double_twist_for_camera_mode_title">Cambie fotocjamare pal selfie</string>
     <string name="system_navigation_title">Modalitât navigazion</string>
     <string name="swipe_up_to_switch_apps_title">Navigazion a 2 botons</string>
@@ -4866,7 +4801,6 @@
     <string name="edge_to_edge_navigation_summary">Par lâ ae schermade iniziâl, scor in sù dal bas dal schermi. Par cambiâ aplicazions, scor in sù dal bas, ten fracât e dopo mole. Par lâ indaûr, scor dal ôr di çampe o di diestre.</string>
     <string name="legacy_navigation_title">Navigazion a 3 botons</string>
     <string name="legacy_navigation_summary">Lâ indaûr, schermade di inizi e cambiâ aplicazions cui botons te part basse dal schermi.</string>
-    <string name="nav_tutorial_button_description">Boton di Scomence lezion su la navigazion a mots. Dople tocjade par ativâ.</string>
     <string name="keywords_system_navigation">navigazion di sisteme, navigazion a 2 botons, navigazion a 3 botons, navigazion a mots, scoriment</string>
     <string name="assistant_gesture_category_title">Assistent digjitâl</string>
     <string name="assistant_corner_gesture_title">Scor par clamâ l\'assistent</string>
@@ -5285,7 +5219,6 @@
     <string name="mobile_network_inactive_sim">Inatîf / SIM</string>
     <string name="mobile_network_active_esim">Atîf / eSIM</string>
     <string name="mobile_network_inactive_esim">Inatîf / eSIM</string>
-    <string name="mobile_network_sim_name">Non e colôr SIM</string>
     <string name="mobile_network_sim_name_label">Non</string>
     <string name="mobile_network_sim_color_label">Colôr (doprât des aplic. compatibilis)</string>
     <string name="mobile_network_sim_name_rename">Salve</string>
@@ -5313,12 +5246,10 @@
     <string name="roaming_alert_title">Permeti il roaming dai dâts?</string>
     <string name="roaming_check_price_warning">Verifiche i coscj cul to operadôr di rêt.</string>
     <string name="mobile_network_mode_error">Modalitât di rêt <xliff:g id="networkModeId" example="0">%1$d</xliff:g> no valide. Ignore.</string>
-    <string name="satellite_setting_title">Messaçs vie satelit</string>
+    <string name="satellite_setting">Conession satelitâr</string>
     <string name="satellite_setting_enabled_summary">Mande e ricêf messaçs di test vie satelit. Includût cul to account.</string>
     <string name="satellite_setting_disabled_summary">Mande e ricêf messaçs di test vie satelit. No includût cul to account.</string>
     <string name="keywords_satellite_setting">Messaçs vie satelit, conession vie satelit</string>
-    <string name="category_name_about_satellite_messaging">Informazions su <xliff:g id="subject" example="satellite messaging">%1$s</xliff:g></string>
-    <string name="title_about_satellite_setting">Tu puedis mandâ e ricevi messaçs di test vie satelit cuntun account <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> idoni.</string>
     <string name="category_title_your_satellite_plan">Il to account <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g></string>
     <string name="title_have_satellite_plan">I messaçs vie satelit a son includûts cul to account</string>
     <string name="title_no_satellite_plan">I messaçs vie satelit no son includûts cul to account</string>
@@ -5332,11 +5263,9 @@
     <string name="title_supported_service_for_manual_type">Va daûr dai passaçs par conetiti a un satelit</string>
     <string name="summary_supported_service">Tu puedis mandâ messaçs a ducj, includûts i servizis di emergjence. Il to telefon al tornarà a conetisi a une rêt mobile cuant che e sarà disponibile.</string>
     <string name="summary_supported_service_for_manual_type">Dopo che il to telefon al è colegâ, tu puedis mandâ messaçs a ducj, includûts i servizis di emergjence.</string>
-    <string name="satellite_setting_summary_more_information">La conession satelitâr e podarès jessi plui lente e e je disponibile nome in ciertis zonis. Il timp meteorologjic e cualchi edifici al podarès influî su la conession. Lis clamadis vie satelit no son disponibilis. In ogni câs lis clamadis di emergjence a puedin conetisi.\n\nAl è pussibil che al passi un pôc di timp prime che lis modifichis al account a vegnin fûr tes Impostazions. Contate <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> pai detais.</string>
-    <string name="more_about_satellite_messaging">Plui informazions su <xliff:g id="subject" example="satellite messaging">%1$s</xliff:g></string>
+    <string name="satellite_footer_content_section_0">Ten iniments</string>
     <string name="satellite_warning_dialog_title">Ativazion <xliff:g id="function" example="bluetooth">%1$s</xliff:g> impussibile</string>
     <string name="satellite_warning_dialog_content"><xliff:g id="function" example="bluetooth">%1$s</xliff:g>: pe ativazion, prime termine la conession satelitâr</string>
-    <string name="category_title_satellite_connectivity">Conession satelitâr</string>
     <string name="title_satellite_setting_connectivity">Conession satelitâr</string>
     <string name="description_satellite_setting_connectivity">conession satelitâr</string>
     <string name="description_satellite_setting_messaging">messaçs vie satelit</string>
@@ -5428,7 +5357,6 @@
     <string name="switch_sim_dialog_no_switch_text">Par doprâ i dâts mobii, lis funzions di clamade e i SMS intun secont moment, va in impostazions di rêt</string>
     <string name="sim_card_label">SIM</string>
     <string name="erase_sim_dialog_title">Scancelâ cheste eSIM?</string>
-    <string name="erase_sim_dialog_text">Chest al gjave di chest dispositîf i servizis di <xliff:g id="carrier_name_a" example="Google Fi">%1$s</xliff:g>, ma il to plan di <xliff:g id="carrier_name_b" example="Google Fi">%1$s</xliff:g> nol sarà anulât.</string>
     <string name="erase_sim_confirm_button">Elimine</string>
     <string name="erasing_sim">Daûr a scancelâ la eSIM…</string>
     <string name="erase_sim_fail_title">Impussibil scancelâ la eSIM</string>
@@ -5513,67 +5441,12 @@
     <string name="work_policy_privacy_settings">Informazions su lis politichis dal to lavôr</string>
     <string name="work_policy_privacy_settings_summary">Impostazions gjestidis dal to aministradôr di IT</string>
     <string name="track_frame_time_keywords">GPU</string>
-    <string name="enable_16k_pages">Invie cun 16KB di page size</string>
-    <string name="enable_16k_pages_summary">Invie dispositîf cun kernel par 16KB di page size</string>
-    <string name="confirm_enable_16k_pages_title">Passe de modalitât a 4KB ae modalitât 16KB</string>
-    <string name="confirm_enable_16k_pages_text">Tu sês te modalitât indipendente rispiet ae pagjine, che e zire cuntun kernel a 4KB e tu stâs passant ae modalitât 16KB.
-        Nol è pussibil garantî la integritât dal software in cheste modalitât e, intant che il bootloader al è sblocât, i dâts archiviâts sul telefon a son a risi.
-        Cheste operazion e tornarà a inviâ il dispositîf. Cualchi funzionalitât e vignarà disativade in chestis modalitâts, duncje al è pussibil che cualchi aplicazion no funzioni.
-        Par puartâ indaûr il dispositîf ae modalitât di produzion, tu scugnarâs tornâ a passâ ae modalitât 4KB e blocâ il bootloader,
-        che al ripristinarà il dispositîf aes impostazions di fabriche. Dopo che il dispositîf si è inviât cun sucès in Android, disative il sbloc OEM tes Opzions par svilupadôr.</string>
-    <string name="confirm_enable_4k_pages_title">Passe de modalitât a 16KB ae modalitât 4KB</string>
-    <string name="confirm_enable_4k_pages_text">Tu sês te modalitât indipendente rispiet ae pagjine, che e zire cuntun kernel a 16KB e tu stâs passant ae modalitât 4KB.
-        Nol è pussibil garantî la integritât dal software in cheste modalitât e, intant che il bootloader al è sblocât, i dâts archiviâts sul telefon a son a risi.
-        Cheste operazion e tornarà a inviâ il dispositîf. Cualchi funzionalitât e vignarà disativade in chestis modalitâts, duncje al è pussibil che cualchi aplicazion no funzioni.
-        Par puartâ indaûr il dispositîf ae modalitât di produzion, tu scugnarâs blocâ il bootloader,
-        che al ripristinarà il dispositîf aes impostazions di fabriche. Dopo che il dispositîf si è inviât cun sucès in Android, disative il sbloc OEM tes Opzions par svilupadôr.</string>
-    <string name="toast_16k_update_failed_text">Nol è stât pussibil inzornâ il kernel cul kernel compatibil cun 16KB di pagjinis.</string>
     <string name="progress_16k_ota_title">Daûr a aplicâ la modifiche</string>
-    <string name="confirm_format_ext4_title">Tornâ a formatâ il dispositîf a ext4? (necessari pe modalitât 16KB)</string>
-    <string name="confirm_format_ext4_text">Al è necessari convertî la partizion dâts di chest dispositîf a ext4 prime di doprâ la opzion par svilupadôr 16KB.
-        Nol è pussibil garantî la integritât dal software in cheste modalitât e, intant che il bootloader al è sblocât, i dâts archiviâts sul telefon a son a risi.
-        La ativazion de opzion 16KB e varà bisugne di ancjemò un gnûf inviament dopo di chest. Une volte che tu sarâs in cheste modalitât, tu podarâs lâ e tornâ tra lis modalitâts 4KB e 16KB cuntun singul gnûf inviament.
-        In chestis modalitâts cualchi funzionalitât e vignarà disativade, duncje al è pussibil che cualchi aplicazion no funzioni. Par puartâ indaûr il dispositîf ae modalitât di produzion, tu scugnarâs tornâ a passâ ae modalitât 4KB e blocâ il bootloader,
-        chest al ripristinarà il dispositîf aes impostazions di fabriche. Dopo che il dispositîf si è inviât cun sucès in Android, disative il sbloc OEM tes Opzions par svilupadôr.
-        Il dispositîf al vignarà netât fûr e, dopo de conferme, il filesystem al deventarà ext4. Ae fin di cheste operazion, torne indaûr a ativâ di gnûf i 16 KB.
-    </string>
     <string name="confirm_ext4_button_text">Scancele ducj i dâts</string>
     <string name="format_ext4_failure_toast">Impussibil tornâ a formatâ a ext4 netant fûr i dâts de partizion.</string>
     <string name="confirm_oem_unlock_for_16k_title">Necessari sbloc dal bootloader</string>
-    <string name="confirm_oem_unlock_for_16k_text">Chest dispositîf al scugne vê il bootloader sblocât prime di podê doprâ la opzion par svilupadôrs 16KB.
-        Nol è pussibil garantî la integritât dal software in cheste modalitât e, intant che il bootloader al è sblocât, i dâts archiviâts sul telefon a son a risi.
-        Ativant la modalitât 16KB, dutis lis impostazions e i dâts dai utents a vignaran netâts vie. Une volte che il bootloader al è sblocât, la ativazion de opzion 16KB e varà bisugne di 2 gnûfs inviaments.
-        Une volte che tu sês in cheste modalitât, tu puedis lâ e tornâ tra lis modalitâts 4KB e 16KB cuntun singul gnûf inviament. In chestis modalitâts cualchi funzionlitât e vignarà disativade,
-        duncje al è pussibil che cualchi aplicazion no funzioni. Par puartâ indaûr il dispositîf ae modalitât di produzion, tu varâs di tornâ ae modalitât 4KB e dopo blocâ il bootloader/OEM dal dispositîf (che al ripristinarà lis impostazions di fabriche).
-        Sbloche il bootloader e torne prove. Tu puedis viodi lis istruzions par savê cemût fâ cheste operazion su
-        &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;
-    </string>
-    <string name="page_agnostic_4k_pages_title">Doprât in modalitât 4 KB indipendente rispiet ae pagjine</string>
-    <string name="page_agnostic_4k_pages_text_short">Tu sês te modalitât 4KB de modalitât indipendente rispiet ae pagjine. In cheste modalitât nol è pussibil garantî la integritât dal software,
-        e, intant che il bootloader al è sblocât, ducj i dâts memorizâts sul telefon a son a risi. In chestis modalitâts, cualchi funzionalitât e sarà disativade, duncje al è pussibil che cualchi aplicazion no funzioni.
-        Par podê tornâ a jentrâ te modalitât di produzion, tu scugnis blocâ il bootloader dal dispositîf. Tocje par savê di plui.</string>
-    <string name="page_agnostic_4k_pages_text">Tu sês te modalitât 4KB de modalitât indipendente rispiet ae pagjine. In cheste modalitât nol è pussibil garantî la integritât dal software,
-        e, intant che il bootloader al è sblocât, ducj i dâts memorizâts sul telefon a son a risi. In chestis modalitâts, cualchi funzionalitât e sarà disativade, duncje al è pussibil che cualchi aplicazion no funzioni.
-        Par podê tornâ a jentrâ te modalitât di produzion, tu scugnis blocâ il bootloader dal dispositîf. Chest al puartarà indaûr il dispositîf aes impostazions di fabriche e lu ripristinarà aes impostazions di produzion.
-        Dopo che il dispositîf si sarà inviât cun sucès in Android, disative il sbloc OEM tes Opzions par svilupadôr.
-        Se il dispositîf nol rive a inviâsi in Android o nol è stabil, torne scrîf il dispositîf cu la ultime imagjin di fabriche di
-        &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;
-        o dopre &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt;
-        e selezione \'Wipe Device\', \'Lock Bootloader\' e \'Force Flash all partitions\'.</string>
-    <string name="page_agnostic_16k_pages_title">Doprât in modalitât 16KB indipendente rispiet ae pagjine</string>
-    <string name="page_agnostic_16k_pages_text_short">Tu sês te modalitât a 16 kB de modalitât indipendente rispiet ae pagjine (page-agnostic). Nol è pussibil garantî la integritât dal software in cheste modalitât e i dâts memorizâts sul telefon a son a risi fintremai che il bootloader al è sblocât. In cheste modalitât cualchi funzionalitât e vignarà disativade, duncje al è pussibil che cualchi aplicazion no funzioni. Par tornâ ae modalitât di produzion, tu scugnis tornâ ae modalitât a 4 kB e blocâ il bootloader dal dispositîf. Tocje par lei di plui in merit.</string>
-    <string name="page_agnostic_16k_pages_text">Tu sês te modalitât 16KB de modalitât indipendente rispiet ae pagjine (page-agnostic). In cheste modalitât nol è pussibil garantî la integritât dal software,
-        e, intant che il bootloader al è sblocât, ducj i dâts memorizâts sul telefon a son a risi. In chestis modalitâts, cualchi funzionalitât e sarà disativade, duncje al è pussibil che cualchi aplicazion no funzioni.
-        Par podê tornâ a jentrâ te modalitât di produzion, tu scugnis tornâ ae modalitât 4KB e dopo blocâ il bootloader dal dispositîf. Chest al puartarà indaûr il dispositîf aes impostazions di fabriche e lu ripristinarà aes impostazions di produzion.
-        Dopo che il dispositîf si sarà inviât cun sucès in Android, disative il sbloc OEM tes Opzions par svilupadôr.
-        Se il dispositîf nol rive a inviâsi in Android o nol è stabil, torne scrîf il dispositîf cu la ultime imagjin di fabriche di
-        &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;
-        o dopre &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt;
-        e selezione \'Wipe Device\', \'Lock Bootloader\' e \'Force Flash all partitions\'.</string>
-    <string name="page_agnostic_notification_channel_name">Modalitât 16KB indipendente de pagjine</string>
     <string name="page_agnostic_notification_action">Lei dut</string>
     <string name="enable_16k_app_compat_title">Eseguìs aplicazions cu la modalitât compatibile pe dimension de pagjine</string>
-    <string name="enable_16k_app_compat_details">La aplicazions e vignarà eseguide in modalitât compatibile pe dimension de pagjine su dispositîf 16KB se comutât.</string>
     <string name="bug_report_handler_title">Gjestôr segnalazion erôrs</string>
     <string name="bug_report_handler_picker_footer_text">Al determine la aplicazion che e gjestìs la scurte pe segnalazion erôrs sul to dispositîf</string>
     <string name="personal_profile_app_subtext">Personâl</string>
@@ -5625,8 +5498,6 @@
     <string name="media_controls_resume_description">Par ripiâ daurman la riproduzion, il riprodutôr multimediâl al reste viert tes Impostazions rapidis</string>
     <string name="media_controls_lockscreen_title">Mostre contignûts multimediâi te schermade di bloc</string>
     <string name="media_controls_lockscreen_description">Par ripiâ daurman la riproduzion, il riprodutôr multimediâl al reste viert te schermade di bloc</string>
-    <string name="media_controls_recommendations_title">Mostre conseis dal assistent su contignûts multimediâi</string>
-    <string name="media_controls_recommendations_description">In base aes tôs ativitâts</string>
     <string name="media_controls_hide_player">Plate riprodutôr</string>
     <string name="media_controls_show_player">Mostre riprodutôr</string>
     <string name="keywords_media_controls">contingûts multimediâi</string>
@@ -5720,8 +5591,6 @@
     <string name="smart_forwarding_input_mdn_dialog_title">Inserìs il numar di telefon</string>
     <string name="smart_forwarding_missing_mdn_text">Al mancje il numar di telefon.</string>
     <string name="smart_forwarding_missing_alert_dialog_text">Va ben</string>
-    <string name="enable_2g_title">Permet il 2G</string>
-    <string name="enable_2g_summary">Il 2G al è mancul sigûr, ma al podarès miorâ la tô conession in cualchi lûc. Pes clamadis di emergjence, il 2G al è simpri consintût.</string>
     <string name="enable_2g_summary_disabled_carrier"><xliff:g id="carrier_name_2g" example="Google Fi">%1$s</xliff:g> al à bisugne che il 2G al sedi disponibil</string>
     <string name="require_cellular_encryption_title">Permet nome rêts cifradis</string>
     <string name="require_cellular_encryption_summary">Chest al è plui sigûr ma al podarès limitâ la conession di rêt mobile in cualchi lûc. Lis clamadis di emergjence a saran simpri consintudis.</string>
@@ -5730,6 +5599,10 @@
     <string name="show_clip_access_notification_summary">Mostre un messaç cuant che lis aplicazions a doprin test, imagjins o altris contignûts che tu âs copiâts</string>
     <string name="all_apps">Dutis lis aplicazions</string>
     <string name="request_manage_bluetooth_permission_dont_allow">No sta permeti</string>
+    <string name="virtual_device_connected">Conetût</string>
+    <string name="virtual_device_disconnected">Disconetût</string>
+    <string name="virtual_device_details_title">Detais dispositîf</string>
+    <string name="virtual_device_forget_dialog_confirm_button">Dismentee</string>
     <string name="uwb_settings_title">Bande ultra-largje (UWB)</string>
     <string name="uwb_settings_summary">E jude a identificâ la posizion relative dai dispositîfs tai contors che a àn la UWB</string>
     <string name="uwb_settings_summary_airplane_mode">Disative la modalitât avion par doprâ UWB</string>
@@ -5841,12 +5714,6 @@
     <string name="user_aspect_ratio_4_3">4:3</string>
     <string name="user_aspect_ratio_option_a11y"><xliff:g id="numerator">%1$s</xliff:g> par <xliff:g id="denominator">%2$s</xliff:g></string>
     <string name="app_aspect_ratio_footer">Cuant che tu cambiis lis proporzions la aplicazion si tornarà a inviâ. Tu podaressis pierdi lis modifichis che no son stadis salvadis. Al è pussibil che cualchi aplicazion no sedi otimizade par ciertis proporzions.</string>
-    <string name="aspect_ratio_experimental_title">Proporzions (sperimentâl)</string>
-    <string name="aspect_ratio_experiment_title">Proporzions (esperiment)</string>
-    <string name="aspect_ratio_labs_title">Proporzions (laboratoris)</string>
-    <string name="aspect_ratio_experimental_label">Sperimentâls</string>
-    <string name="aspect_ratio_experiment_label">Esperiment</string>
-    <string name="aspect_ratio_labs_label">Laboratoris</string>
     <string name="accessibility_fingerprint_label">Sensôr di impronts digjitâi</string>
     <string name="flash_notifications_title">Notifichis lamp</string>
     <string name="flash_notifications_about_title">Informazions su notifichis lamp</string>
@@ -5971,6 +5838,7 @@
     <string name="audio_sharing_retry_dialog_content">Alc al è lât strucj. Torne prove.</string>
     <string name="audio_sharing_incompatible_dialog_title">Impussibil condividi l\'audio cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
     <string name="audio_sharing_incompatible_dialog_content">La condivision audio e funzione dome cu lis scufis che a supuartin l\'Audio LE</string>
+    <string name="audio_sharing_turn_off_button_label">Disative</string>
     <string name="audio_streams_category_title">Conetiti a un flus audio LE</string>
     <string name="audio_streams_pref_title">Flus audio tai contors</string>
     <string name="audio_streams_title">Flus audio</string>
@@ -5997,9 +5865,9 @@
     <string name="audio_streams_dialog_learn_more">Plui informazions</string>
     <string name="audio_streams_dialog_cannot_play">Impussibil riprodusi il flus audio su <xliff:g example="LE headset" id="device_name">%1$s</xliff:g></string>
     <string name="audio_streams_listening_now">Cumò in scolte</string>
-    <string name="audio_streams_present_now">In pause dal host</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text">Ferme di scoltâ</string>
     <string name="audio_streams_dialog_no_le_device_title">Conet scufis compatibilis</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button">Disative</string>
     <string name="audio_streams_dialog_no_le_device_button">Conet un dispositîf</string>
     <string name="audio_streams_detail_page_title">Detais flus audio</string>
     <string name="audio_streams_qr_code_page_title">Codiç QR dal flus audio</string>
@@ -6022,14 +5890,13 @@
     <string name="keywords_contacts_storage">contats, archiviazion, account</string>
     <string name="contacts_storage_settings_title">Archiviazion contats</string>
     <string name="contacts_storage_device_only_preference_label">Nome dispositîf</string>
-    <string name="contacts_storage_device_only_preference_summary">I gnûfs contats no vignaran sincronizâts sui accounts</string>
     <string name="contacts_storage_selection_message">I contats a vignaran salvâts sul to dispositîf e sincronizâts sul to account tant che impostazion predefinide</string>
     <string name="contacts_storage_set_default_account_error_message">Erôr tal stabilî l\'account predefinît</string>
     <string name="contacts_storage_no_account_set_summary">Nissun predefinît stabilît</string>
     <string name="contacts_storage_local_account_summary">Nome dispositîf</string>
-    <string name="contacts_storage_account_title">Dispositîf e %1$s</string>
     <string name="contacts_storage_first_time_add_account_message">Zonte un account par scomençâ</string>
     <string name="contacts_storage_account_category_title">Dulà salvâ i contats</string>
     <string name="search_gesture_feature_title">Cercli par cirî</string>
     <string name="search_gesture_feature_summary">Tocje e ten fracât il boton di Inizi o la mantie di navigazion par cirî doprant il contignût sul to schermi.</string>
+    <string name="supervision_change_pin_preference_title">Cambie PIN</string>
 </resources>

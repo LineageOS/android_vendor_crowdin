@@ -51,11 +51,7 @@
     <string name="dream_accessibility_action_click">dhíbhe</string>
     <string name="permlab_ranging">suíomh coibhneasta idir feistí in aice láimhe a chinneadh</string>
     <string name="permdesc_ranging">Lig don aip suíomh coibhneasta idir gléasanna in aice láimhe a chinneadh</string>
-    <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_dialog_use_fingerprint_instead">Ní aithnítear aghaidh. Úsáid méarlorg ina ionad.</string>
-    <string-array name="fingerprint_error_vendor"/>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string name="duration_minutes_shortest_past">        <xliff:g id="count">%d</xliff:g>n ó shin
     </string>
     <string name="duration_hours_shortest_past">        <xliff:g id="count">%d</xliff:g>u ó shin

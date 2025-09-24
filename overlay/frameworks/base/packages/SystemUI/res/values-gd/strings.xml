@@ -127,6 +127,7 @@
     <string name="biometric_re_enroll_dialog_confirm">Suidhich</string>
     <string name="fingerprint_dialog_touch_sensor">Suath ri mothaichear nan lorgan-meòir</string>
     <string name="accessibility_bluetooth_connected">Chaidh Bluetooth a cheangal.</string>
+    <string name="accessibility_bluetooth_device_settings_pair_new_device">Paidhrich uidheam ùr</string>
     <string name="accessibility_battery_unknown">Chan eil fhios dè cho làn ’s a tha am bataraidh.</string>
     <string name="accessibility_bluetooth_name">Ceangailte ri <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
     <string name="accessibility_cast_name">Ceangailte ri <xliff:g id="cast" example="TV">%s</xliff:g>.</string>
@@ -229,6 +230,9 @@
     <string name="qs_record_issue_start">Toiseach</string>
     <string name="qs_record_issue_stop">Cuir stad air</string>
     <string name="quick_settings_pair_hearing_devices">Paidhrich uidheam ùr</string>
+    <string name="hearing_devices_ambient_control_left">Clì</string>
+    <string name="hearing_devices_ambient_control_right">Deas</string>
+    <string name="hearing_devices_settings_button">Roghainnean</string>
     <string name="quick_step_accessibility_toggle_overview">Toglaich am foir-shealladh</string>
     <string name="zen_modes_dialog_done">Deiseil</string>
     <string name="zen_modes_dialog_settings">Roghainnean</string>
@@ -260,7 +264,6 @@
     <string name="hub_mode_editing_exit_button_text">Deiseil</string>
     <string name="button_text_to_open_settings">Fosgail na roghainnean</string>
     <string name="communal_widgets_disclaimer_button">Tha mi agaibh</string>
-    <string name="glanceable_hub_lockscreen_affordance_action_button_label">Roghainnean</string>
     <string name="accessibility_multi_user_switch_switcher">Geàrr leum gu cleachdaiche eile</string>
     <string name="guest_exit_guest_dialog_message">Thèid a h-uile aplacaid is dàta san t-seisean seo a sguabadh às.</string>
     <string name="guest_wipe_session_title">Fàilte air ais, aoigh!</string>
@@ -386,11 +389,11 @@
     <string name="enable_bluetooth_confirmation_ok">Cuir air</string>
     <string name="inline_done_button">Deiseil</string>
     <string name="inline_ok_button">Cuir an sàs</string>
-    <string name="inline_turn_off_notifications">Cuir na brathan dheth</string>
     <string name="notification_silence_title">Tostach</string>
     <string name="notification_channel_summary_low">Gun fhuaim no crith</string>
     <string name="notification_priority_title">Prìomhachais</string>
     <string name="no_shortcut">Cha chuir <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> taic ri gleusan còmhraidh</string>
+    <string name="notification_inline_dismiss">Leig seachad</string>
     <string name="notification_unblockable_desc">Chan urrainn dhuinn na brathan seo atharrachadh.</string>
     <string name="notification_multichannel_desc">Cha ghabh am buidheann de bhrathan seo rèiteachadh an-seo</string>
     <string name="notification_delegate_header">Brath le progsaidh</string>
@@ -436,7 +439,6 @@
     <string name="keyboard_shortcut_group_system_back">Air ais</string>
     <string name="keyboard_shortcut_group_system_notifications">Brathan</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Ath-ghoiridean a’ mheur-chlàir</string>
-    <string name="keyboard_shortcut_group_system_switch_input">Atharraich co-dhealbhachd a’ mheur-chlàir</string>
     <string name="keyboard_shortcut_search_list_title">Ath-ghoiridean a’ mheur-chlàir</string>
     <string name="keyboard_shortcut_search_category_system">An siostam</string>
     <string name="keyboard_shortcut_search_category_input">Ion-chur</string>
@@ -505,9 +507,7 @@
     <string name="tuner_low_priority">Seall ìomhaigheagan nam brathan le prìomhachas ìosal</string>
     <string name="other">Roghainnean eile</string>
     <string name="accessibility_qs_edit_remove_tile_action">thoir an leacag air falbh</string>
-    <string name="accessibility_qs_edit_tile_add_action">cuir leacag ris an deireadh</string>
     <string name="accessibility_qs_edit_tile_start_move">Gluais an leacag</string>
-    <string name="accessibility_qs_edit_tile_start_add">Cuir leacag ris</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Gluais gu <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_add_to_position">Cuir ri ionad <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_position">Ionad <xliff:g id="position" example="5">%1$d</xliff:g></string>
@@ -519,7 +519,6 @@
     <string name="accessibility_quick_settings_user">Chlàraich thu a-steach mar <xliff:g name="user" example="John">%s</xliff:g></string>
     <string name="data_connection_no_internet">Gun eadar-lìon</string>
     <string name="accessibility_quick_settings_open_settings">Fosgail roghainnean <xliff:g name="page" example="Bluetooth">%s</xliff:g>.</string>
-    <string name="accessibility_quick_settings_edit">Deasaich òrdugh nan roghainnean.</string>
     <string name="accessibility_quick_settings_page">Duilleag <xliff:g name="current_page" example="1">%1$d</xliff:g> à <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
     <string name="tuner_lock_screen">An sgrìn-ghlasaidh</string>
     <string name="thermal_shutdown_dialog_help_text">Seall ceumannan a’ chùraim</string>
@@ -631,7 +630,6 @@
     <string name="controls_seeding_in_progress">A’ luchdadh nam molaidhean</string>
     <string name="controls_media_title">Meadhanan</string>
     <string name="controls_media_dismiss_button">Cuir am falach</string>
-    <string name="controls_media_resume">Lean air</string>
     <string name="controls_media_settings_button">Roghainnean</string>
     <string name="controls_media_button_play">Cluich</string>
     <string name="controls_media_button_pause">Cuir ’na stad</string>
@@ -669,6 +667,7 @@
     <string name="privacy_dialog_done_button">Deiseil</string>
     <string name="privacy_dialog_collapse_action">Co-theannaich</string>
     <string name="shortcut_helper_category_system">An siostam</string>
+    <string name="shortcutHelper_category_accessibility">So-ruigsinneachd</string>
     <string name="shortcut_helper_category_input">Ion-chur</string>
     <string name="shortcut_helper_category_a11y">So-ruigsinneachd</string>
     <string name="shortcut_helper_customize_button_text">Gnàthaich</string>
@@ -677,5 +676,6 @@
     <string name="shortcut_helper_customize_dialog_remove_button_label">Thoir air falbh</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Sguir dheth</string>
     <string name="touchpad_tutorial_done_button">Deiseil</string>
+    <string name="touchpad_tutorial_next_button">Air adhart</string>
     <string name="volume_undo_action">Neo-dhèan</string>
 </resources>

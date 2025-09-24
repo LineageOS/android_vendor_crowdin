@@ -18,11 +18,6 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="eap_ocsp_type" translatable="true">
-        <item>Ná fíoraigh</item>
-        <item>Iarr stádas deimhnithe</item>
-        <item>A cheangal ar stádas teastais</item>
-    </string-array>
     <string-array name="bt_stack_log_level_entries">
         <item>Verbose</item>
         <item>Debug</item>
@@ -38,7 +33,6 @@
         <item>Seol ainm an ghléis chuig an líonra</item>
         <item>Ná seol ainm an ghléis chuig an líonra</item>
     </string-array>
-    <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="terms_of_address_supported_languages">
         <item>fr</item>
         <item>es</item>
@@ -92,5 +86,4 @@
         <item>Leath-ghealach</item>
         <item>Clog</item>
     </string-array>
-    <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>

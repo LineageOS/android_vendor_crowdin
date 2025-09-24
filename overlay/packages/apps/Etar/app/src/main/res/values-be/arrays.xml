@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="reminder_methods_labels">
+        <item>Апавяшчэнне</item>
+        <item>Электронная пошта</item>
+        <item>SMS</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Locale default</item>
+        <item>Субота</item>
+        <item>Нядзеля</item>
+        <item>Панядзелак</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>No response</item>
+        <item>Так</item>
+        <item>Магчыма</item>
+        <item>Не</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Only this event</item>
+        <item>Гэта і будучыя падзеі</item>
+        <item>Усе падзеі</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Дзень</item>
+        <item>Тыдзень</item>
+        <item>Месяц</item>
+        <item>Расклад</item>
+    </string-array>
+    <string-array name="timezone_rename_labels">
+        <item>"Аўстралійскі цэнтральны час - NT"</item>
+        <item>"Аўстралійскі цэнтральны час - SA"</item>
+        <item>"Усходнеаўстрал. час - Квінсленд"</item>
+        <item>"Ўсходнеаўстралійскі час - NSW"</item>
+        <item>"Горны стандарт. час - Досан-Крык"</item>
+        <item>"Цэнтр. стандарт. час - Саскачэван"</item>
+        <item>"Усходні стандарт. час - Ацікакан"</item>
+        <item>"Атлантычны станд. час - Квебек"</item>
+        <item>"Гавайска-алеуцкі час - Гаваі"</item>
+        <item>"Гавайска-алеуцкі час - Аляска"</item>
+        <item>"Стандартны ціхаакіянскі час - Метлакатла"</item>
+        <item>"Горны стандартны час - Арызона"</item>
+        <item>"Ціхаакіянскі час - Баха Каліфорнія"</item>
+        <item>"Горны час - Чыўаўа"</item>
+        <item>"Цэнтральны час - Тамаулипас"</item>
+        <item>"Горны час - Санора"</item>
+        <item>"Усходнеафрыканскі час"</item>
+        <item>"Атлантычны стандартны час"</item>
+        <item>"Атлантычны стандартны час"</item>
+        <item>"Усходнееўрапейскі час"</item>
+        <item>"Калінінградскі час"</item>
+        <item>"Амазонка – Рандонія"</item>
+        <item>"Бразіліа - Пара"</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>"Сінт-Мартен"</item>
+        <item>"Карыбскія Нідэрланды"</item>
+        <item>"Кюрасаа"</item>
+        <item>"Паўднёвы Судан"</item>
+    </string-array>
+</resources>
