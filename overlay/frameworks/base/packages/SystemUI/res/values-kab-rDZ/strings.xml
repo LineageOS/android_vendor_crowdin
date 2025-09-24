@@ -87,6 +87,9 @@
     <string name="quick_settings_screen_record_stop">Seḥbes</string>
     <string name="qs_record_issue_start">Bdu</string>
     <string name="qs_record_issue_stop">Seḥbes</string>
+    <string name="hearing_devices_ambient_control_left">Azelmad</string>
+    <string name="hearing_devices_ambient_control_right">Ayeffus</string>
+    <string name="hearing_devices_settings_button">Iɣewwaṛen</string>
     <string name="zen_modes_dialog_done">Immed</string>
     <string name="zen_modes_dialog_settings">Iɣewwaṛen</string>
     <string name="zen_mode_on">Irmed</string>
@@ -101,7 +104,6 @@
     <string name="hub_mode_editing_exit_button_text">Immed</string>
     <string name="button_text_to_open_settings">Ldi iγewwaṛen</string>
     <string name="communal_widgets_disclaimer_button">Awi-t</string>
-    <string name="glanceable_hub_lockscreen_affordance_action_button_label">Iɣewwaṛen</string>
     <string name="accessibility_multi_user_switch_switcher">Beddel aseqdac</string>
     <string name="guest_wipe_session_wipe">Ales tanekra</string>
     <string name="user_remove_user_remove">Kkes</string>
@@ -141,6 +143,7 @@
     <string name="inline_ok_button">Snes</string>
     <string name="notification_silence_title">Ulac sut</string>
     <string name="notification_priority_title">Tazwart</string>
+    <string name="notification_inline_dismiss">Suref</string>
     <string name="see_more_title">Wali ugar</string>
     <string name="notification_more_settings">Iγewwaṛen nniḍen</string>
     <string name="notification_app_settings">Sagen</string>
@@ -245,7 +248,6 @@
     <string name="controls_settings_dialog_neutral_button">Uhu tannemmit</string>
     <string name="controls_pin_instructions">Sekcem PIN</string>
     <string name="controls_media_dismiss_button">Ffer</string>
-    <string name="controls_media_resume">Kemmel</string>
     <string name="controls_media_settings_button">Iɣewwaṛen</string>
     <string name="controls_media_button_play">Urar</string>
     <string name="controls_media_button_pause">Steɛfu</string>
@@ -269,6 +271,7 @@
     <string name="privacy_dialog_done_button">Immed</string>
     <string name="privacy_dialog_collapse_action">Ḍfes</string>
     <string name="shortcut_helper_category_system">Anagraw</string>
+    <string name="shortcutHelper_category_accessibility">Tuffart</string>
     <string name="shortcut_helper_category_input">Anekcum</string>
     <string name="shortcut_helper_category_a11y">Tuffart</string>
     <string name="shortcut_helper_customize_button_text">Sagen</string>
@@ -277,5 +280,6 @@
     <string name="shortcut_helper_customize_dialog_remove_button_label">Kkes</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Sefsex</string>
     <string name="touchpad_tutorial_done_button">Immed</string>
+    <string name="touchpad_tutorial_next_button">Uḍfiṛ</string>
     <string name="volume_undo_action">Err-d</string>
 </resources>

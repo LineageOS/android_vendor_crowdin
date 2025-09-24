@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:keep="@color/sud_system_*">
   <string name="provisioning_error_title">Oops!</string>
   <string name="company_controls_workspace">S\'organizatzione tua controllat custu profilu e ddu mantenet a su seguru. Tue controllas totu su restu de su dispositivu.</string>
   <string name="company_controls_device">S\'organizatzione tua at a controllare custu dispositivu e ddu mantènnere seguru.</string>

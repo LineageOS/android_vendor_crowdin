@@ -139,7 +139,6 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="widgets_list_closed">Rhestr teclynnau wedi\'i chau</string>
     <string name="action_add_to_workspace">Ychwanegu at y sgrin gartref</string>
     <string name="action_move_here">Symud yr eitem yma</string>
-    <string name="item_added_to_workspace">Ychwanegwyd yr item i\'r sgrin gartref</string>
     <string name="item_removed">Tynnwyd yr eitem</string>
     <string name="undo">Dadwneud</string>
     <string name="action_move">Symud eitem</string>

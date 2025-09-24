@@ -87,7 +87,6 @@
     <string name="power_bluetooth">Bluetooth</string>
     <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
     <string name="battery_usage_day_and_hour"><xliff:g id="day">%1$s</xliff:g> <xliff:g id="hour">%2$s</xliff:g></string>
-    <string name="battery_usage_time_info_and_battery_level"><xliff:g id="time_info" example="Battery usage for Monday 6 AM - 8 AM">%1$s</xliff:g> <xliff:g id="battery_level" example="Battery level percentage from 83% to 59%">%2$s</xliff:g></string>
     <string name="battery_usage_less_than_percent">&lt; <xliff:g id="percentage">%1$s</xliff:g></string>
     <string name="process_stats_os_zram">Z-Ram</string>
     <string name="vpn_settings_title">VPN</string>

@@ -168,10 +168,6 @@
     <string name="permlab_recordAudio">asekles n imesla</string>
     <string name="permlab_readPhoneNumbers">ɣeṛ uṭṭunen n tiliɣri</string>
     <string name="permlab_setWallpaper">sbadu tugna n ugilal</string>
-    <string-array name="fingerprint_acquired_vendor"/>
-    <string-array name="fingerprint_error_vendor"/>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string name="permlab_accessNotifications">kcem ar ilɣa</string>
     <string name="policylab_forceLock">Sekkeṛ agdil</string>
     <string-array name="phoneTypes">
@@ -471,7 +467,9 @@
     <string name="accessibility_dialog_button_allow">Sireg</string>
     <string name="accessibility_dialog_button_deny">Aggi</string>
     <string name="done_accessibility_shortcut_menu_button">Immed</string>
+    <string name="hearing_device_status_loading">Asali</string>
     <string name="accessibility_magnification_chooser_text">Asemɣer</string>
+    <string name="hearing_device_notification_settings_button">Iɣewwaṛen</string>
     <string name="owner_name" msgid="3879126011135546571">Bab</string>
     <string name="error_message_title">Erreur</string>
     <string name="revoke">Ḥwi</string>
@@ -555,6 +553,7 @@
     <string name="accessibility_system_action_notifications_label">Ilɣa</string>
     <string name="accessibility_system_action_lock_screen_label">Sekkeṛ agdil</string>
     <string name="accessibility_system_action_screenshot_label">Tuṭṭfa n wegdil</string>
+    <string name="accessibility_autoclick_pause">Steɛfu</string>
     <string name="conversation_title_fallback_one_to_one">Asqerdec</string>
     <string name="resolver_personal_tab">Udmawan</string>
     <string name="resolver_work_tab">Axeddim</string>

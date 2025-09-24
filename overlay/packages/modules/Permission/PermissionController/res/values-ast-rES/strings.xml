@@ -144,6 +144,7 @@
     <string name="app_permission_location_accuracy_subtitle">Cuando la llocalización exauta ta desactivada, les aplicaciones puen acceder a la llocalización aproximada</string>
     <string name="app_permission_footer_app_permissions_link">Ver tolos permisos de: <xliff:g id="app" example="Maps">%1$s</xliff:g></string>
     <string name="app_permission_footer_permission_apps_link">Ver toles aplicaciones con esti permisu</string>
+    <string name="app_permission_settings_button">Configuración</string>
     <string name="assistant_mic_label">Amosar l\'usu del micrófonu del asistente</string>
     <string name="unused_apps_category_title">Configuración d\'aplicaciones non usaes</string>
     <string name="unused_apps_label_v2">Posar l\'actividá l\'aplicación si nun s\'usa</string>

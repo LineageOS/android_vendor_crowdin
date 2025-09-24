@@ -24,12 +24,6 @@
     <string name="local_invisible_directory">Otru direutoriu</string>
     <string name="voicemail_from_column">"Mensaxe de voz de: "</string>
     <string name="move_contacts_to_default_account_dialog_title">¿Quies sincronizar los contautos esistentes?</string>
-    <string name="move_contacts_to_default_account_dialog_message">Pues sincornizar %1$s p\'asegurate de que s\'atroxen nuna copia de seguranza en: %2$s (%3$s)</string>
-    <string name="movable_contacts_count"> {contacts_count, plural,
-        one {}=1    {# contautu esistente}
-        other {# contautos esistentes}
-        }
-    </string>
     <string name="move_contacts_to_default_account_dialog_sync_button_text">Sincronizar</string>
     <string name="move_contacts_to_default_account_dialog_cancel_button_text">Nun sincronizar</string>
     <string name="debug_dump_title">Copia de la base de datos de los contautos</string>

@@ -110,8 +110,6 @@
     <string name="screenrecord_channel_description">Notifiche continue di une session di regjistrazion dal schermi</string>
     <string name="screenrecord_permission_dialog_title">Regjistrâ il to schermi?</string>
     <string name="screenrecord_permission_dialog_option_text_single_app">Regjistre une aplicazion</string>
-    <string name="screenrecord_permission_dialog_option_text_entire_screen">Regjistre dut il schermi</string>
-    <string name="screenrecord_permission_dialog_option_text_entire_screen_for_display">Regjistrâ dut il schermi: %s</string>
     <string name="screenrecord_permission_dialog_warning_entire_screen">Cuant che tu regjistris il schermi intîr, dut ce che al è sul schermi al ven regjistrât. Duncje sta atent a robis come passwords, detais di paiament, messaçs, fotos, audio e video.</string>
     <string name="screenrecord_permission_dialog_warning_single_app">Cuant che tu regjistris une aplicazion, dut che al ven mostrât o riprodot in chê aplicazion al vignarà regjistrât. Duncje sta atent a robis come passwords, detais di paiament, messaçs, fotos, audio e video.</string>
     <string name="screenrecord_permission_dialog_continue_entire_screen">Regjistre schermi</string>
@@ -243,8 +241,7 @@
     <string name="accessibility_bluetooth_connected">Bluetooth colegât.</string>
     <string name="accessibility_bluetooth_device_icon">Icone dispositîf bluetooth</string>
     <string name="accessibility_bluetooth_device_settings_gear">Fâs clic par configurâ i detais dal dispositîf</string>
-    <string name="accessibility_bluetooth_device_settings_see_all">Fâs clic par viodi ducj i dispositîfs</string>
-    <string name="accessibility_bluetooth_device_settings_pair_new_device">Fâs clic par associâ un gnûf dispositîf</string>
+    <string name="accessibility_bluetooth_device_settings_pair_new_device">Associe gnûf dispositîf</string>
     <string name="accessibility_battery_unknown">Percentuâl di batarie no cognossude.</string>
     <string name="accessibility_bluetooth_name">Colegât a <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
     <string name="accessibility_cast_name">Colegât a <xliff:g id="cast" example="TV">%s</xliff:g>.</string>
@@ -326,8 +323,6 @@
     <string name="quick_settings_bluetooth_secondary_label_input">Input</string>
     <string name="quick_settings_bluetooth_secondary_label_hearing_aids">Aparâts acustics</string>
     <string name="quick_settings_bluetooth_secondary_label_transient">Daûr a ativâ…</string>
-    <string name="quick_settings_brightness_unable_adjust_msg">Impussibil regolâ la luminositât parcè che e\n
-ven controlade de aplicazion in prin plan</string>
     <string name="quick_settings_rotation_unlocked_label">Rotazion automatiche</string>
     <string name="accessibility_quick_settings_rotation">Rotazion automatiche schermi</string>
     <string name="quick_settings_location_label">Posizion</string>
@@ -419,8 +414,11 @@ ven controlade de aplicazion in prin plan</string>
     <string name="hearing_devices_presets_error">Impussibil inzornâ la pre-configurazion</string>
     <string name="hearing_devices_preset_label">Pre-configurazion</string>
     <string name="hearing_devices_spinner_item_selected">Selezionât</string>
+    <string name="hearing_devices_ambient_control_left">Çampe</string>
+    <string name="hearing_devices_ambient_control_right">Diestre</string>
     <string name="hearing_devices_tools_label">Struments</string>
     <string name="quick_settings_hearing_devices_live_caption_title">Sottitui in timp reâl</string>
+    <string name="hearing_devices_settings_button">Impostazions</string>
     <string name="quick_settings_notes_label">Note</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">Sblocâ il microfon dal dispositîf?</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">Sblocâ la fotocjamare dal dispositîf?</string>
@@ -557,9 +555,6 @@ ven controlade de aplicazion in prin plan</string>
     <string name="communal_widgets_disclaimer_title">Widgets de schermade di bloc</string>
     <string name="communal_widgets_disclaimer_text">Par vierzi une aplicazion doprant un widget, tu varâs di verificâ la tô identitât. Sore, ten iniments che ducj a puedin viodiju, ancje cuant che il tablet al è blocât. Cualchi widget nol è pensât pe tô schermade di bloc e nol è sigûr zontâju achì.</string>
     <string name="communal_widgets_disclaimer_button">Capît</string>
-    <string name="glanceable_hub_lockscreen_affordance_label">Widgets</string>
-    <string name="glanceable_hub_lockscreen_affordance_disabled_text">Par zontâ la scurte \"Widgets\", controle che \"Mostre widgets te schermade di bloc\" al sedi ativât tes impostazions.</string>
-    <string name="glanceable_hub_lockscreen_affordance_action_button_label">Impostazions</string>
     <string name="accessibility_glanceable_hub_to_dream_button">Mostre boton dal salve-schermi</string>
     <string name="accessibility_multi_user_switch_switcher">Cambie utent</string>
     <string name="accessibility_multi_user_list_switcher">menù a tirâ jù</string>
@@ -791,7 +786,6 @@ ven controlade de aplicazion in prin plan</string>
     <string name="accessibility_status_bar_satellite_good_connection">Satelit, conession buine</string>
     <string name="accessibility_status_bar_satellite_available">Satelit, conession disponibile</string>
     <string name="satellite_connected_carrier_text">SOS di satelit</string>
-    <string name="satellite_emergency_only_carrier_text">Clamadis di emergjence o SOS</string>
     <string name="accessibility_managed_profile">Profîl di lavôr</string>
     <string name="tuner_warning_title">Divertent par cualchidun ma no par ducj</string>
     <string name="tuner_warning">Afinadôr de IU dal sisteme ti da plui manieris par modificâ e personalizâ la interface utent di Android. Chestis funzions sperimentâls a puedin cambiâ, interompisi o sparî tes prossimis versions. Continue cun cautele.</string>
@@ -806,7 +800,7 @@ ven controlade de aplicazion in prin plan</string>
     <string name="rotation_lock_camera_rotation_on">On - Basade su la muse</string>
     <string name="inline_done_button">Fat</string>
     <string name="inline_ok_button">Apliche</string>
-    <string name="inline_turn_off_notifications">Disative lis notifichis</string>
+    <string name="inline_turn_off_notifications">Disative</string>
     <string name="notification_silence_title">Cidin</string>
     <string name="notification_alert_title">Predefinide</string>
     <string name="notification_automatic_title">Automatic</string>
@@ -825,7 +819,7 @@ ven controlade de aplicazion in prin plan</string>
     <string name="notification_channel_summary_priority_all">E ven mostrade insom aes notifichis des conversazions e come imagjin di profîl te schermade di bloc, e ven fûr come bufule, e interomp il No Sta Disturbâ</string>
     <string name="notification_priority_title">Prioritât</string>
     <string name="no_shortcut"><xliff:g id="app_name" example="YouTube">%1$s</xliff:g> nol supuarte lis funzions di conversazion</string>
-    <string name="notification_guts_bundle_feedback">Dâ une rispueste al pac di notifichis</string>
+    <string name="notification_inline_dismiss">Scarte</string>
     <string name="notification_unblockable_desc">Nol è pussibil modificâ chestis notifichis.</string>
     <string name="notification_unblockable_call_desc">Nol è pussibil modificâ lis notifichis di clamade.</string>
     <string name="notification_multichannel_desc">Nol è pussibil confgurâ achì chest grup di notifichis</string>
@@ -889,7 +883,6 @@ ven controlade de aplicazion in prin plan</string>
     <string name="keyboard_shortcut_group_system_back">Indaûr</string>
     <string name="keyboard_shortcut_group_system_notifications">Notifichis</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Scurtis di tastiere</string>
-    <string name="keyboard_shortcut_group_system_switch_input">Cambie disposizion de tastiere</string>
     <string name="keyboard_shortcut_join">o</string>
     <string name="keyboard_shortcut_clear_text">Nete la domande de ricercje</string>
     <string name="keyboard_shortcut_search_list_title">Scurtis di tastiere</string>
@@ -914,13 +907,11 @@ ven controlade de aplicazion in prin plan</string>
     <string name="group_system_cycle_back">Scor indaûr in cicli tra lis aplicazions resintis</string>
     <string name="group_system_access_all_apps_search">Vierç la liste di aplicazions</string>
     <string name="group_system_access_system_settings">Vierç lis impostazions</string>
-    <string name="group_system_access_google_assistant">Vierç l\'assistent</string>
     <string name="group_system_lock_screen">Bloc dal schermi</string>
     <string name="group_system_quick_memo">Cjape une note</string>
     <string name="keyboard_shortcut_group_system_multitasking">Multitasking</string>
     <string name="system_multitasking_rhs">Dopre il schermi dividût cu la aplicazion a diestre</string>
     <string name="system_multitasking_lhs">Dopre il schermi dividût cu la aplicazion a çampe</string>
-    <string name="system_multitasking_full_screen">Passe a plen schermi</string>
     <string name="system_multitasking_splitscreen_focus_rhs">Passe ae aplicazion a diestre o sot intant che tu dopris il schermi dividût</string>
     <string name="system_multitasking_splitscreen_focus_lhs">Passe ae aplicazion a çampe o parsore intant che tu dopris il schermi dividût</string>
     <string name="system_multitasking_replace">Dilunc la modalitât schermi dividût: sostituìs une aplic. cuntune altre</string>
@@ -1000,9 +991,7 @@ ven controlade de aplicazion in prin plan</string>
     <string name="tuner_low_priority">Mostre lis iconis des notifichis a basse prioritât</string>
     <string name="other">Altri</string>
     <string name="accessibility_qs_edit_remove_tile_action">gjavâ il ricuadri</string>
-    <string name="accessibility_qs_edit_tile_add_action">zontâ il ricuadri ae fin</string>
     <string name="accessibility_qs_edit_tile_start_move">Sposte il ricuadri</string>
-    <string name="accessibility_qs_edit_tile_start_add">Zonte ricuadri</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Sposte ae posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_add_to_position">Zonte te posizion <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibilit_qs_edit_tile_add_move_invalid_position">Posizion no valide.</string>
@@ -1018,11 +1007,9 @@ ven controlade de aplicazion in prin plan</string>
     <string name="accessibility_quick_settings_choose_user_action">sielzi l\'utent</string>
     <string name="data_connection_no_internet">Cence internet</string>
     <string name="accessibility_quick_settings_open_settings">Vierç lis impostazions <xliff:g name="page" example="Bluetooth">%s</xliff:g>.</string>
-    <string name="accessibility_quick_settings_edit">Modifiche l\'ordin des impostazions.</string>
     <string name="accessibility_quick_settings_power_menu">Menù di impiament</string>
     <string name="accessibility_quick_settings_page">Pagjine <xliff:g name="current_page" example="1">%1$d</xliff:g> di <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
     <string name="tuner_lock_screen">Bloc dal schermi</string>
-    <string name="finder_active">Tu puedis cjatâ chest telefon cun “Cjate il gno dispositîf” ancje cuant che al è distudât</string>
     <string name="shutdown_progress">Daûr a distudâ\u2026</string>
     <string name="thermal_shutdown_dialog_help_text">Viôt i passaçs di atenzion</string>
     <string name="high_temp_dialog_help_text">Viôt i passaçs di atenzion</string>
@@ -1215,7 +1202,6 @@ ven controlade de aplicazion in prin plan</string>
     <string name="controls_media_close_session">Platâ chest control multimediâl par <xliff:g id="app_name" example="Foo Music App">%1$s</xliff:g>?</string>
     <string name="controls_media_active_session">Nol è pussibil platâ la session multimediâl atuâl.</string>
     <string name="controls_media_dismiss_button">Plate</string>
-    <string name="controls_media_resume">Ripie</string>
     <string name="controls_media_settings_button">Impostazions</string>
     <string name="controls_media_playing_item_description">La cjançon <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> di <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> e je in riproduzion di <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> di <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
@@ -1257,7 +1243,6 @@ ven controlade de aplicazion in prin plan</string>
     <string name="media_output_dialog_disconnected">(disconetût)</string>
     <string name="media_output_dialog_connect_failed">Impussibil cambiâ. Tocje par tornâ a provâ.</string>
     <string name="media_output_dialog_pairing_new">Conet un dispositîf</string>
-    <string name="media_output_dialog_launch_app_text">Par trasmeti cheste session, vierç la aplicazion.</string>
     <string name="media_output_dialog_unknown_launch_app_name">Aplicazion no cognossude</string>
     <string name="media_output_dialog_button_stop_casting">Ferme la trasmission</string>
     <string name="media_output_dialog_accessibility_title">Dispositîfs disponibii pe jessude audio.</string>
@@ -1331,7 +1316,6 @@ ven controlade de aplicazion in prin plan</string>
     <string name="accessibility_enter_hint">acedi al dispositîf</string>
     <string name="keyguard_try_fingerprint">Dopre l\'impront par vierzi</string>
     <string name="accessibility_fingerprint_bouncer">Autenticazion necessarie. Tocje il sensôr di impronts digjitâi par autenticâti.</string>
-    <string name="ongoing_phone_call_content_description">Telefonade in cors</string>
     <string name="mobile_data_settings_title">Dâts mobii</string>
     <string name="mobile_data_connection_active">Conetût</string>
     <string name="mobile_data_temp_connection_active">Conetude in mût temporani</string>
@@ -1482,15 +1466,14 @@ ven controlade de aplicazion in prin plan</string>
     <string name="shortcut_helper_category_system_apps">Aplicazions di sisteme</string>
     <string name="shortcut_helper_category_multitasking">Multitasking</string>
     <string name="shortcutHelper_category_split_screen">Divît schermi</string>
+    <string name="shortcutHelper_category_accessibility">Acès facilitât</string>
     <string name="shortcut_helper_category_input">Input</string>
     <string name="shortcut_helper_category_app_shortcuts">Scurtis par aplicazions</string>
     <string name="shortcut_helper_category_current_app_shortcuts">Aplicazion corinte</string>
     <string name="shortcut_helper_category_a11y">Acès facilitât</string>
     <string name="shortcut_helper_title">Scurtis di tastiere</string>
-    <string name="shortcut_helper_customize_mode_title">Personalize scurtis di tastiere</string>
     <string name="shortcut_customize_mode_remove_shortcut_dialog_title">Gjavâ la scurte?</string>
     <string name="shortcut_customize_mode_reset_shortcut_dialog_title">Tornâ ai valôrs predefinîts?</string>
-    <string name="shortcut_customize_mode_add_shortcut_description">Frache un tast par assegnâ la scurte</string>
     <string name="shortcut_customize_mode_remove_shortcut_description">Cheste operazion e eliminarà par simpri la tô scurte personalizade.</string>
     <string name="shortcut_customize_mode_reset_shortcut_description">Cheste operazion e eliminarà par simpri dutis lis tôs scurtis personalizadis.</string>
     <string name="shortcut_helper_search_placeholder">Cîr scurtis</string>
@@ -1512,7 +1495,6 @@ ven controlade de aplicazion in prin plan</string>
     <string name="shortcut_helper_customize_dialog_reset_button_label">Sì, ripristine</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Anule</string>
     <string name="shortcut_helper_add_shortcut_dialog_placeholder">Frache un tast</string>
-    <string name="shortcut_customizer_key_combination_in_use_error_message">La cumbinazion di tascj e je za doprade. Prove cuntun altri tast.</string>
     <string name="shortcut_customizer_generic_error_message">Impussibil configurâ la scurte.</string>
     <string name="shortcut_helper_plus_symbol">+</string>
     <string name="launch_keyboard_tutorial_notification_title">Navighe doprant la tastiere</string>
@@ -1525,6 +1507,7 @@ ven controlade de aplicazion in prin plan</string>
     <string name="touchpad_tutorial_home_gesture_button">Va al Inizi</string>
     <string name="touchpad_tutorial_recent_apps_gesture_button">Viôt lis aplicazions resintis</string>
     <string name="touchpad_tutorial_done_button">Fat</string>
+    <string name="touchpad_tutorial_next_button">Sucessîf</string>
     <string name="touchpad_back_gesture_action_title">Tone indaûr</string>
     <string name="touchpad_back_gesture_guidance">Scor a çampe o a drete doprant trê dêts sul touchpad</string>
     <string name="touchpad_back_gesture_success_title">Ben fate!</string>
@@ -1537,6 +1520,7 @@ ven controlade de aplicazion in prin plan</string>
     <string name="touchpad_recent_apps_gesture_guidance">Scor in sù e ten fracât doprant trê dêts sul touchpad</string>
     <string name="touchpad_recent_apps_gesture_success_title">Biel lavôr!</string>
     <string name="touchpad_recent_apps_gesture_success_body">Tu âs completât il mot par viodi lis aplicazions resintis</string>
+    <string name="touchpad_switch_apps_gesture_success_title">Biel lavôr!</string>
     <string name="tutorial_action_key_title">Viôt dutis lis aplicazions</string>
     <string name="tutorial_action_key_guidance">Frache il tast azion su la tastiere</string>
     <string name="tutorial_action_key_success_title">Ben fate!</string>
@@ -1552,7 +1536,7 @@ ven controlade de aplicazion in prin plan</string>
     <string name="overview_edu_toast_content">Par viodi lis aplicazions resintis, scor in sù e ten fracât cun trê dêts sul touchpad</string>
     <string name="all_apps_edu_toast_content">Par viodi dutis lis tôs aplicazions, frache il tast di azion te tastiere</string>
     <string name="redacted_notification_single_line_title">Redizude</string>
-    <string name="redacted_notification_single_line_text">Sbloche par viodi</string>
+    <string name="public_notification_single_line_text">Sbloche par viodi</string>
     <string name="contextual_education_dialog_title">Istruzion contestuâl</string>
     <string name="back_edu_notification_title">Dopre il touchpad par lâ indaûr</string>
     <string name="back_edu_notification_content">Scor a çampe o a diestre doprant trê dêts. Tocje par imparâ altris mots.</string>

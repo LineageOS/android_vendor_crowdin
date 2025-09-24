@@ -52,11 +52,9 @@
     <string name="bluetooth_disable_hw_offload_dialog_cancel">ۋاز كەچ</string>
     <string name="proxy_settings_title">ۋاكالەتچى</string>
     <string name="proxy_clear_text">تازىلا</string>
-    <string name="proxy_port_label">ۋاكالەتچى ئېغىزى</string>
     <string name="proxy_exclusionlist_label">تۆۋەندىكىلەر ۋاكالەتچىدىن ئاتلايدۇ</string>
     <string name="proxy_defaultView_text">كۆڭۈلدىكىگە قايتۇر</string>
     <string name="proxy_action_text">تامام</string>
-    <string name="proxy_hostname_label">ۋاكالەتچى مۇلازىمېتىر ئاتى</string>
     <string name="proxy_error">دىققەت</string>
     <string name="proxy_error_dismiss">جەزملە</string>
     <string name="proxy_error_empty_port">سىز ئېغىز سۆز بۆلىكىنى تولدۇرۇشىڭىز لازىم.</string>
@@ -151,6 +149,8 @@
     <string name="bluetooth_device_context_disconnect">ئۈز</string>
     <string name="bluetooth_device_context_pair_connect">جۈپلەپ باغلا</string>
     <string name="bluetooth_key_missing_cancel">ۋاز كەچ</string>
+    <string name="bluetooth_key_missing_close">تاقاش</string>
+    <string name="device_details_battery">توكدان</string>
     <string name="nfc_reboot_dialog_confirm">قايتا قوزغات</string>
     <string name="external_display_on">ئوچۇق</string>
     <string name="external_display_off">تاقاق</string>
@@ -193,7 +193,6 @@
     <string name="wifi_eap_user_cert">ئىشلەتكۈچى گۇۋاھنامىسى</string>
     <string name="wifi_eap_identity">كىملىك</string>
     <string name="wifi_eap_anonymous">ئاتسىز كىملىك</string>
-    <string name="wifi_password">ئىم</string>
     <string name="wifi_show_password">ئىم كۆرسەت</string>
     <string name="wifi_ip_settings">IP تەڭشەك</string>
     <string name="wifi_privacy_device_name_settings">ئۈسكۈنە ئاتى</string>
@@ -300,6 +299,8 @@
     <string name="storage_wizard_slow_v2_continue">داۋاملاشتۇر</string>
     <string name="battery_status_title">توكدان ھالىتى</string>
     <string name="battery_level_title">توكدان دەرىجىسى</string>
+    <string name="when_to_show_hubmode_charging">توكلاۋاتقاندا</string>
+    <string name="when_to_show_hubmode_docked">لەڭگەرلەنگەندە</string>
     <string name="apn_settings">APN</string>
     <string name="apn_edit">زىيارەت نۇقتىسى تەھرىر</string>
     <string name="apn_not_set">تەڭشەلمىگەن</string>
@@ -347,6 +348,7 @@
     <string name="tether_preference_summary_off">تاقاق</string>
     <string name="usb_tethering_button_text">USB ھەمبەھىر</string>
     <string name="bluetooth_tether_checkbox_text">كۆكچىش ھەمبەھىر</string>
+    <string name="ethernet_ip_address">IP ئادرېس</string>
     <string name="tethering_help_button_text">ياردەم</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true"><xliff:g id="NEW_APP">%s</xliff:g> نى قىسقا ئۇچۇر ئەپى قىلىپ ئىشلىتەمسىز؟</string>
     <string name="location_category_recent_location_requests">يېقىنقى ئورۇن ئۇچۇر ئىلتىماسى</string>
@@ -356,6 +358,7 @@
     <string name="location_services_preference_title">ئورۇن مۇلازىمەتلىرى</string>
     <string name="location_services_screen_title">ئورۇن مۇلازىمەتلىرى</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">ۋاز كەچ</string>
+    <string name="time_notifications_title">ئۇقتۇرۇشلار</string>
     <string name="about_settings_summary">قانۇن ئۇچۇرى، ھالىتى، يۇمشاق دېتال نەشرىنى كۆرسەت</string>
     <string name="legal_information">قانۇن ئۇچۇرى</string>
     <string name="copyright_title">نەشر ھوقوقى</string>
@@ -486,7 +489,6 @@
     <string name="keyboard_a11y_category">قوشۇمچە ئىقتىدار</string>
     <string name="physical_keyboard_title">فىزىكىلىق ھەرپتاختا</string>
     <string name="keyboard_default_layout">كۆڭۈلدىكى</string>
-    <string name="trackpad_pointer_speed">ئىسترېلكا سۈرئىتى</string>
     <string name="pointer_stroke_style_name_white">ئاق</string>
     <string name="pointer_stroke_style_name_black">قارا</string>
     <string name="pointer_stroke_style_name_none">يوق</string>
@@ -494,7 +496,6 @@
     <string name="gesture_button_next">كېيىنكى</string>
     <string name="gesture_button_restart">قايتا قوزغات</string>
     <string name="gesture_button_done">تامام</string>
-    <string name="trackpad_notifications_title">ئۇقتۇرۇشلار</string>
     <string name="modifier_keys_default_summary">كۆڭۈلدىكى</string>
     <string name="modifier_keys_done">تامام</string>
     <string name="modifier_keys_cancel">ۋاز كەچ</string>
@@ -682,7 +683,6 @@
     <string name="auto_restore_summary">بىر ئەپ قايتا ئورنىتىلغاندا زاپاسلانغان تەڭشەك ۋە سانلىق مەلۇماتلار ئۆزلۈكىدىن ئەسلىگە كەلتۈرۈلىدۇ</string>
     <string name="backup_configure_account_default_summary">نۆۋەتتە زاپاسلايدىغان سانلىق مەلۇماتنى ساقلايدىغان ھېسابات يوق</string>
     <string name="backup_erase_dialog_message">سىز Wi-Fi ئىم، خەتكۈچلەر، باشقا تەڭشەكلەر ۋە ئەپ سانلىق مەلۇماتلىرىڭىزنى زاپاسلاشنى توختىتىپ، Google مۇلازىمېتىردىكى بارلىق قوشۇمچە نۇسخىسىنى ئۆچۈرەمسىز؟</string>
-    <string name="admin_more_details">تەپسىلات بىلدۈرگۈسى</string>
     <string name="sound_category_call_ringtone_vibrate_title">چاقىرىش ئاۋازى ۋە تىترەش</string>
     <string name="wifi_setup_detail">تور تەپسىلاتى</string>
     <string name="accessibility_sync_enabled">قەدەمداش قوزغىتىلدى</string>
@@ -749,17 +749,11 @@
     <string name="data_usage_limit_dialog_title">سانلىق مەلۇمات ئىشلىتىشنى چەكلەۋاتىدۇ</string>
     <string name="data_usage_uninstalled_apps">چىقىرىۋېتىلگەن ئەپلەر</string>
     <string name="data_usage_uninstalled_apps_users">چىقىرىۋەتكەن ئەپ ۋە ئىشلەتكۈچىلەر</string>
-    <string name="vpn_name">ئاتى</string>
     <string name="vpn_type">تۈرى</string>
-    <string name="vpn_server">مۇلازىمېتىر ئادرىسى</string>
-    <string name="vpn_ipsec_identifier">IPSec بەلگىسى</string>
-    <string name="vpn_ipsec_secret">IPSec ئالدىن ھەمبەھىر شىفىرلىق ئاچقۇچى</string>
     <string name="vpn_ipsec_user_cert">IPSec ئىشلەتكۈچى گۇۋاھنامىسى</string>
     <string name="vpn_ipsec_ca_cert">IPSec CA گۇۋاھنامىسى</string>
     <string name="vpn_ipsec_server_cert">IPSec مۇلازىمىتىر گۇۋاھنامىسى</string>
     <string name="vpn_show_options">ئالىي تاللانما كۆرسەت</string>
-    <string name="vpn_username">ئىشلەتكۈچى ئاتى</string>
-    <string name="vpn_password">ئىم</string>
     <string name="vpn_save_login">ھېسابات ئۇچۇرىنى ساقلا</string>
     <string name="vpn_not_used">(ئىشلىتىلمىگەن)</string>
     <string name="vpn_no_server_cert">(مۇلازىمىتىردىن قوبۇللىدى)</string>
@@ -854,6 +848,9 @@
     <string name="zen_custom_settings_duration_header">داۋاملىشىش ۋاقتى</string>
     <string name="work_sync_dialog_yes">جەزملە</string>
     <string name="configure_notification_settings">ئۇقتۇرۇشلار</string>
+    <string name="notification_summarization_on">ئوچۇق</string>
+    <string name="notification_summarization_off">تاقاق</string>
+    <string name="notification_summarization_manage_excluded_apps">ئەپ باشقۇرۇش</string>
     <string name="bubbles_feature_disabled_button_cancel">ۋاز كەچ</string>
     <string name="notifications_title">ئۇقتۇرۇشلار</string>
     <string name="clear">تازىلا</string>
@@ -867,6 +864,7 @@
     <string name="interact_across_profiles_summary_not_allowed">باغلانمىدى</string>
     <string name="interact_across_profiles_switch_enabled">باغلاندى</string>
     <string name="interact_across_profiles_consent_dialog_permissions_title">ھوقۇقلار</string>
+    <string name="app_notification_settings">ئەپ تەڭشەك</string>
     <string name="notification_content_block_title">ئۇقتۇرۇشنى كۆرسەت</string>
     <string name="notification_channel_sound_title">ئاۋاز</string>
     <string name="zen_mode_delete_rule_button">ئۆچۈر</string>
@@ -907,6 +905,7 @@
     <string name="screen_zoom_preview_title">ئالدىن كۆزەت</string>
     <string name="disconnected">باغلانمىدى</string>
     <string name="keyboard_disconnected">باغلانمىدى</string>
+    <string name="disabled_by_advanced_protection_help_button_title">تەڭشەكلەر</string>
     <string name="ethernet">دائىرىلىك تور</string>
     <string name="configure">سەپلىمە</string>
     <string name="data_saver_on">ئوچۇق</string>
@@ -955,6 +954,9 @@
     <string name="mobile_data_connection_active">باغلاندى</string>
     <string name="apps_dashboard_title">ئەپلەر</string>
     <string name="smart_forwarding_missing_alert_dialog_text">جەزملە</string>
+    <string name="virtual_device_connected">باغلاندى</string>
+    <string name="virtual_device_disconnected">ئۈزۈلدى</string>
+    <string name="virtual_device_forget_dialog_confirm_button">ئەستە تۇتما</string>
     <string name="next_page_content_description">كېيىنكى</string>
     <string name="bluetooth_connect_access_dialog_positive">باغلان</string>
     <string name="dream_preview_button_title">ئالدىن كۆزەت</string>
@@ -995,4 +997,5 @@
     <string name="audio_streams_connecting_summary">باغلىنىۋاتىدۇ…</string>
     <string name="audio_streams_dialog_close">تاقاش</string>
     <string name="audio_streams_dialog_learn_more">تەپسىلات بىلدۈرگۈسى</string>
+    <string name="supervision_change_pin_preference_title">PIN ئۆزگەرت</string>
 </resources>

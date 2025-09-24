@@ -35,12 +35,6 @@
         <item>Meánach (50%)</item>
         <item>Ard (80%)</item>
     </string-array>
-    <string-array name="volume_change_entry_values">
-        <item>0</item>
-        <item>0.2</item>
-        <item>0.5</item>
-        <item>0.8</item>
-    </string-array>
     <string-array name="backlight_modes">
         <item>Never</item>
         <item>Caighdeánach</item>

@@ -80,6 +80,8 @@
     <string name="proxy_error_dismiss">D\'acuerdu</string>
     <string name="skip_label">Saltar</string>
     <string name="next_label">Siguiente</string>
+    <string name="region_picker_preference_title">Rexón</string>
+    <string name="all_supported_region_title">Toles rexones</string>
     <string name="language_picker_title">Llingües</string>
     <string name="language_picker_category_title">Orde de les llingües preferíes</string>
     <string name="desc_current_default_language">Llingua del sistema</string>
@@ -98,7 +100,6 @@
     <string name="desc_introduction_of_language_picker">El preséu, les aplicaciones y los sitios web usen la primer llingua compatible de la llista de llingües preferíes.\n\nMunches aplicaciones tamién usen la rexón de la llingua preferida pa dar formatu a les dates, los númberos y les unidaes. Pa camudar la to rexón, amiesta una llingua y escueyi la rexón que prefieres.</string>
     <string name="desc_notice_of_language_picker">Pa seleicionar una llingua pa cada aplicación, ve a la configuración de la llingua de les aplicaciones</string>
     <string name="desc_locale_helper_footer_general">Saber más tocante a les llingües de les aplicaciones</string>
-    <string name="title_change_system_locale">¿Quies camudar la llingua del sistema a «%s»?</string>
     <string name="title_system_locale_addition">¿Quies amestar «%s» a les llingües preferíes?</string>
     <string name="desc_system_locale_addition">Esta aición permite que les aplicaciones y los sitios web sepan que tamién prefieres esta llingua.</string>
     <string name="desc_notice_device_locale_settings_change">La configuración y les preferencies rexonales del preséu van camudar</string>
@@ -359,9 +360,11 @@
     <string name="lockpattern_tutorial_continue_label">Siguiente</string>
     <string name="manage_trust_agents">Axentes d\'enfotu</string>
     <string name="bluetooth_enable_alphanumeric_pin">El PIN contién lletres o símbolos.</string>
+    <string name="bluetooth_key_missing_close">Zarrar</string>
     <string name="bluetooth_device_keyboard_settings_preference_title">Configuración del tecláu</string>
     <string name="bluetooth_device_more_settings_preference_title">Más opciones</string>
     <string name="bluetooth_unpair_dialog_title">¿Quies escaecer el preséu?</string>
+    <string name="device_details_battery">Batería</string>
     <string name="device_details_more_settings">Más opciones</string>
     <string name="nfc_reboot_dialog_title">¿Quies reaniciar el preséu?</string>
     <string name="external_display_settings_title">Pantalla esterna</string>
@@ -401,7 +404,6 @@
     <string name="wifi_eap_domain">Dominiu</string>
     <string name="wifi_eap_identity">Identidá</string>
     <string name="wifi_eap_anonymous">Identidá anónima</string>
-    <string name="wifi_password">Contraseña</string>
     <string name="wifi_ap_choose_2G">Banda de 2,4 GHz</string>
     <string name="wifi_privacy_settings">Privacidá</string>
     <string name="wifi_subscription">Soscripción</string>
@@ -494,11 +496,14 @@
     <string name="storage_wizard_ready_v2_external_body">Pues comenzar a usar l\'almacenamientu «<xliff:g id="name" example="SD card">^1</xliff:g>»</string>
     <string name="storage_wizard_ready_v2_internal_body">Pues comenzar a usar l\'almacenamientu «<xliff:g id="name" example="SD card">^1</xliff:g>»</string>
     <string name="storage_wizard_ready_v2_internal_moved_body">Pues comenzar a usar l\'almacenamientu «<xliff:g id="name" example="SD card">^1</xliff:g>»</string>
-    <string name="satellite_setting">Mensaxería per satélite</string>
+    <string name="when_to_show_hubmode_never">Enxamás</string>
     <string name="menu_save">Guardar</string>
     <string name="error_apn_type_empty">El tipu d\'APN nun pue tar baleru.</string>
     <string name="reset_private_space_delete_title">Desaniciar l\'espaciu priváu</string>
     <string name="usb_tethering_button_text">Tethering per USB</string>
+    <string name="ethernet_ip_address">Direición IP</string>
+    <string name="rx_ethernet_speed">Velocidá del enllaz de receición</string>
+    <string name="ethernet_network_usage">Usu de la rede</string>
     <string name="tethering_help_button_text">Ayuda</string>
     <string name="sms_application_title" translatable="true">Aplicación de SMS</string>
     <string name="sms_change_default_dialog_title" translatable="true">¿Quies camudar l\'aplicación de SMS?</string>
@@ -508,6 +513,7 @@
     <string name="location_time_zone_detection_status_title">Nun se pue afitar automáticamente\'l fusu horariu</string>
     <string name="location_time_zone_detection_status_summary_blocked_by_settings">La llocalización o los sos servicios tán desactivaos</string>
     <string name="location_time_zone_provider_fix_dialog_ok_button">Igualo</string>
+    <string name="time_notifications_title">Avisos</string>
     <string name="lockpassword_forgot_password">¿Escaeciesti la contraseña?</string>
     <string name="lockpassword_forgot_pattern">¿Escaeciesti\'l patrón?</string>
     <string name="lockpassword_forgot_pin">¿Escaeciesti\'l PIN?</string>
@@ -562,17 +568,17 @@
     <string name="keyboard_options_category">Opciones</string>
     <string name="keyboard_a11y_category">Accesibilidá</string>
     <string name="physical_keyboard_title">Tecláu físicu</string>
+    <string name="input_setting_keys_dialog_option_200">0,2 segundos</string>
+    <string name="input_setting_keys_dialog_option_600">0,6 segundos</string>
     <string name="mouse_keys">Tecles pal mur</string>
+    <string name="mouse_reverse_vertical_scrolling">Desplazamientu inversu</string>
     <string name="trackpad_settings">Panel táctil</string>
     <string name="trackpad_mouse_settings">Panel táctil y mur</string>
     <string name="mouse_settings">Mur</string>
-    <string name="trackpad_tap_dragging_title">Arrastrar al tocar</string>
-    <string name="trackpad_tap_dragging_summary">Toca y arrastra\'l deu pel panel táctil pa mover oxetos</string>
     <string name="trackpad_touchpad_gesture_title">Xestos del panel táctil</string>
     <string name="trackpad_touchpad_gesture_summary">Personaliza los xestos de navegación del panel táctil</string>
     <string name="trackpad_reverse_scrolling_title">Desplazamientu inversu</string>
     <string name="trackpad_reverse_scrolling_summary">El conteníu muévese p\'arriba cuando te desplaces p\'abaxo</string>
-    <string name="trackpad_pointer_speed">Velocidá del punteru</string>
     <string name="pointer_fill_style">Color del punteru</string>
     <string name="pointer_stroke_style_name_white">Blancu</string>
     <string name="pointer_stroke_style_name_black">Prietu</string>
@@ -583,8 +589,6 @@
     <string name="gesture_button_skip">Saltar</string>
     <string name="gesture_button_next">Siguiente</string>
     <string name="gesture_button_done">Fecho</string>
-    <string name="trackpad_go_back_title">Dir p\'atrás</string>
-    <string name="trackpad_notifications_title">Avisos</string>
     <string name="modifier_keys_done">Fecho</string>
     <string name="keyboard_a11y_settings">Accesibilidá del tecláu físicu</string>
     <string name="pointer_speed">Velocidá del punteru</string>
@@ -603,8 +607,7 @@
     <string name="captions_category_title">Sotítulos</string>
     <string name="audio_category_title">Audiu</string>
     <string name="accessibility_color_and_motion_title">Color y movimentu</string>
-    <string name="accessibility_pointer_and_touchpad_title">Accesibilidá del punteru y del panel táctil</string>
-    <string name="accessibility_pointer_color_customization_title">Personalización del color del punteru</string>
+    <string name="accessibility_touchpad_title">Panel táctil</string>
     <string name="accessibility_screen_magnification_title">Agrandamientu</string>
     <string name="accessibility_screen_magnification_follow_typing_title">Agrandar al teclexar</string>
     <string name="accessibility_screen_magnification_always_on_unavailable_summary">Nun ta disponible mentanto namás s\'agranda parte de la pantalla</string>
@@ -780,8 +783,6 @@
     <string name="data_usage_enable_4g">Datos 4G</string>
     <string name="data_roaming_enable_mobile">Roaming</string>
     <string name="wifi_metered_title">Usu de la rede</string>
-    <string name="vpn_username">Nome d\'usuariu</string>
-    <string name="vpn_password">Contraseña</string>
     <string name="vpn_cancel">Encaboxar</string>
     <string name="vpn_done">Escartar</string>
     <string name="vpn_save">Guardar</string>
@@ -909,7 +910,6 @@
     <string name="notif_listener_more_settings">Más opciones</string>
     <string name="zen_modes_access_detail_switch">Permitir l\'accesu a los moos</string>
     <string name="app_notifications_not_send_desc">Esta aplicación nun unvia avisos</string>
-    <string name="notification_channels">Categoríes</string>
     <string name="app_notifications_dialog_done">Fecho</string>
     <string name="notification_vibrate_title">Vibración</string>
     <string name="notification_channel_sound_title">Soníu</string>
@@ -975,6 +975,7 @@
     <string name="admin_profile_owner_message">L\'alministrador pue supervisar y xestionar les aplicaciones
         y los datos asociaos al perfil llaboral, como la configuración, los permisos, l\'accesu
         corporativu, l\'actividá na rede y la información de llocalización del preséu.</string>
+    <string name="disabled_by_advanced_protection_help_button_title">Configuración</string>
     <string name="condition_bg_data_title">Aforrador de datos</string>
     <string name="color_temperature_toast">P\'aplicar el cambéu de color, apaga la pantalla</string>
     <string name="non_carrier_data_usage">Usu de datos ensin rede móvil</string>
@@ -1001,6 +1002,7 @@
     <string name="notification_log_channel">canal</string>
     <string name="managed_profile_settings_footer">Cuando les aplicaciones llaborales tán desactivaes, pósense y nun pues acceder a elles nin te puen unviar avisos</string>
     <string name="gesture_preference_title">Xestos</string>
+    <string name="double_tap_power_camera_action_title">Cámara</string>
     <string name="system_navigation_title">Mou de navegación</string>
     <string name="assistant_gesture_category_title">Asistente dixital</string>
     <string name="button_navigation_settings_activity_title">Navegación pente botones</string>
@@ -1129,7 +1131,6 @@
     <string name="cdma_subscription_dialogtitle">soscripción</string>
     <string name="register_automatically">Rexistru automáticu\u2026</string>
     <string name="roaming_alert_title">¿Quies permitir el roaming de datos?</string>
-    <string name="satellite_setting_title">Mensaxería per satélite</string>
     <string name="title_have_satellite_plan">La mensaxería per satélite inclúise na cuenta</string>
     <string name="title_no_satellite_plan">La mensaxería per satélite nun s\'inclúi na cuenta</string>
     <string name="category_name_how_it_works">Cómo funciona</string>
@@ -1198,10 +1199,10 @@
     <string name="category_name_color">Color</string>
     <string name="smart_forwarding_ongoing_text">Anovando la configuración…</string>
     <string name="smart_forwarding_failed_text">Error de la rede o la SIM.</string>
-    <string name="enable_2g_summary">La teunoloxía 2G ye menos segura mas pue ameyorar la conexón en dalgunos llugares. Pa les llamaes d\'emerxencia siempre se permite esta teunoloxía.</string>
     <string name="enable_2g_summary_disabled_carrier">«<xliff:g id="carrier_name_2g" example="Google Fi">%1$s</xliff:g>» rique la teunoloxía 2G pa tar disponible</string>
     <string name="app_info_all_services_label">Tolos servicios</string>
     <string name="all_apps">Toles aplicaciones</string>
+    <string name="virtual_device_forget_dialog_confirm_button">Escaecer</string>
     <string name="mic_toggle_title">Accesu al micrófonu</string>
     <string name="next_page_content_description">Siguiente</string>
     <string name="bluetooth_sim_card_access_notification_content">Un preséu quier acceder a la SIM. Toca pa ver los detalles.</string>
@@ -1243,11 +1244,6 @@
     <string name="user_aspect_ratio_16_9">16:9</string>
     <string name="user_aspect_ratio_3_2">3:2</string>
     <string name="user_aspect_ratio_4_3">4:3</string>
-    <string name="aspect_ratio_experimental_title">Proporción del aspeutu (esperimental)</string>
-    <string name="aspect_ratio_experiment_title">Proporción del aspeutu (esperimentu)</string>
-    <string name="aspect_ratio_labs_title">Proporción del aspeutu (labs)</string>
-    <string name="aspect_ratio_experiment_label">Esperimentu</string>
-    <string name="aspect_ratio_labs_label">Labs</string>
     <string name="accessibility_fingerprint_label">Sensor de buelgues</string>
     <string name="flash_notifications_summary_on_camera">Sí / Flax de la cámara</string>
     <string name="flash_notifications_summary_on_screen">Sí / Flax de la pantalla</string>

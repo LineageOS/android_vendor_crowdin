@@ -246,6 +246,7 @@
     <string name="app_permission_header_with_device_name">Acès a <xliff:g id="perm" example="camera">%1$s</xliff:g> par cheste aplicazion su <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
     <string name="app_permission_footer_app_permissions_link">Viôt ducj i permès di <xliff:g id="app" example="Maps">%1$s</xliff:g></string>
     <string name="app_permission_footer_permission_apps_link">Viôt dutis lis aplicazions cun chest permès</string>
+    <string name="app_permission_settings_button">Impostazions</string>
     <string name="assistant_mic_label">Mostre utilizazion dal microfon dal assistent</string>
     <string name="unused_apps_category_title">Impostazions aplicazions no dopradis</string>
     <string name="auto_revoke_label">Gjave i permès se la aplicazion no ven doprade</string>
@@ -522,9 +523,6 @@
     <string name="incident_report_notification_text"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al desidere cjariâ in rêt informazions di debug.</string>
     <string name="incident_report_dialog_title">Condividi i dâts di debug?</string>
     <string name="incident_report_dialog_intro">Il sisteme al à rilevât un probleme.</string>
-    <string name="incident_report_dialog_text">"<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al sta domandant di cjariâ in rêt une segnalazion di erôr di chest dispositîf fate in date <xliff:g id="date" example="December 26, 2018">%2$s</xliff:g> ae ore <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Lis segnalazion di erôr a includin informazions personâls sul to dispositîf o regjistradis des aplicazions, par esempli, nons utent, dâts di posizion, identificadôrs dal dispositîf e informazions di rêt. Condivît lis segnalazions di erôr, cun chestis informazions, dome cun personis e aplicazions atendibilis.
-
-Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in rêt une segnalazion di erôr?"</string>
     <string name="incident_report_error_dialog_text">"Al è capitât un erôr te elaborazion de segnalazion di erôr par <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>. Duncje la condivision dai dâts detaiâts di debug e je stade dineade. Nus displâs pe interuzion."</string>
     <string name="incident_report_dialog_allow_label">Permet</string>
     <string name="incident_report_dialog_deny_label">Dinee</string>

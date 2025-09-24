@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="timezone_rename_labels">
+        <item>"Australijsko centralno – sever"</item>
+        <item>"Australijsko centralno – jug"</item>
+        <item>"Istočnoaustralijsko – Kvinsland"</item>
+        <item>"Istočnoaustr. – Novi Južni Vels"</item>
+        <item>"Planinsko standard. – Doson Krik"</item>
+        <item>"Central. standardno – Saskačevan"</item>
+        <item>"Istočno standardno – Atikokan"</item>
+        <item>"Atlansko standardno – Kvebek"</item>
+        <item>"Havajsko-aleutsko – Havaji"</item>
+        <item>"Havajsko-aleutsko – Aljaska"</item>
+        <item>"Pacifik, standardno – Metlakatla"</item>
+        <item>"Planinsko standardno – Arizona"</item>
+        <item>"Pacifik – Donja Kalifornija"</item>
+        <item>"Planinsko – Čihuahua"</item>
+        <item>"Centralno – Tamaulipas"</item>
+        <item>"Planinsko – Sonora"</item>
+        <item>"Istočnoafričko vreme"</item>
+        <item>"Atlansko standardno vreme"</item>
+        <item>"Atlansko standardno vreme"</item>
+        <item>"Istočnoevropsko vreme"</item>
+        <item>"Kalinjingradsko vreme"</item>
+        <item>"Amazon – Rondonija"</item>
+        <item>"Brazilija – Para"</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>"Sveti Martin"</item>
+        <item>"Karipska Holandija"</item>
+        <item>"Kurasao"</item>
+        <item>"Južni Sudan"</item>
+    </string-array>
+</resources>

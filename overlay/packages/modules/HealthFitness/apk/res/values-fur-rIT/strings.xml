@@ -37,6 +37,10 @@
     <string name="browse_data_title" description="Label for button that allows the user to browse data [CHAR_LIMIT=NONE]">Esplore dâts</string>
     <string name="browse_data_subtitle" description="Description for button that allows the user to browse data [CHAR_LIMIT=NONE]">Viôt i dâts e cualis aplicazions che a puedin acediur</string>
     <string name="manage_data_summary" description="Summary for the manage data preference. [CHAR_LIMIT=NONE]">Eliminazion automatiche, sorzints dâts, backup e ripristinament</string>
+    <string name="settings_manage_permission" description="Label for manage permissions in Settings. [CHAR_LIMIT=40]">Conession salût</string>
+    <string name="settings_combined_permissions" description="Label for view detailed fitness and medical permissions in Settings. [CHAR_LIMIT=40]">Conession salût</string>
+    <string name="settings_fitness_permissions" description="Label for view detailed fitness permissions in Settings. [CHAR_LIMIT=40]">Conession salût</string>
+    <string name="settings_medical_permissions" description="Label for view detailed medical permissions in Settings. [CHAR_LIMIT=40]">Conession salût</string>
     <string name="backup_title" description="Label for a button that takes the user to backup settings. [CHAR_LIMIT=40]">Backup</string>
     <string name="data_sources_and_priority_title" description="Label for a button that takes the user to app priority settings. [CHAR_LIMIT=40]">Sorzint dâts e prioritât</string>
     <string name="set_units_title" description="Label for a button that takes the user to unit settings. [CHAR_LIMIT=40]">Stabilìs unitâts</string>
@@ -359,12 +363,14 @@
     <string name="request_permissions_allow" description="Label for button to allow an app to have the selected permissions for the user's data [CHAR_LIMIT=20]">Permet</string>
     <string name="request_permissions_allow_all" description="Label for button to allow an app to have the selected permissions for the user's data [CHAR_LIMIT=20]">Permet dut</string>
     <string name="request_permissions_dont_allow" description="Label for button to allow an app to have the selected permissions for the user's data [CHAR_LIMIT=20]">No sta permeti</string>
-    <string name="request_permissions_data_access_type_read_write" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues lei o scrivi su Conession salût</string>
-    <string name="request_permissions_data_access_type_read" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues lei di Conession salût</string>
-    <string name="request_permissions_data_access_type_write" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues scrivi su Conession salût</string>
+    <string name="request_fitness_permissions_data_access_type_read_write" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues lei o scrivi su Conession salût</string>
+    <string name="request_fitness_permissions_data_access_type_read" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues lei di Conession salût</string>
+    <string name="request_fitness_permissions_data_access_type_write" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues scrivi su Conession salût</string>
+    <string name="request_medical_permissions_data_access_type_read_write" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues lei o scrivi su Conession salût</string>
+    <string name="request_medical_permissions_data_access_type_read" description="Text asking the user to select permissions for an app. [CHAR_LIMIT=NONE]">Sielç i dâts che cheste aplicazion e pues lei di Conession salût</string>
     <string name="request_permissions_header_time_frame_desc" description="Text describing the time frame of data which an app will be able to access. [CHAR_LIMIT=NONE]">Se tu concedis l\'acès ae leture, la aplicazion e podarà lei i gnûfs dâts e i dâts dai ultins 30 dîs</string>
     <string name="request_permissions_header_time_frame_history_desc" description="Text describing the time frame of data which an app with history read permission will be able to access. [CHAR_LIMIT=NONE]">Se tu concedis l\'acès ae leture, la aplicazion e rivarà a lei i dâts gnûfs e chei vecjos</string>
-    <string name="request_permissions_header_title" description="Title for screen to give permissions to an app to read or write users data. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]">Permeti a <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> di acedi a Conession salût?</string>
+    <string name="request_fitness_permissions_header_title" description="Title for screen to give permissions to an app to read or write users data. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]">Permeti a <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> di acedi a Conession salût?</string>
     <string name="request_permissions_with_medical_header_title" description="Title for screen to give permissions to an app which also has medical permissions to read or write users fitness data. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]">Permeti a <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> di acedi ai dâts di forme fisiche e benstâ?</string>
     <string name="request_permissions_rationale" description="Text informing the user that data they share with an app is covered by that app's data privacy policy. Has a link to the app's privacy policy. [CHAR_LIMIT=NONE]">Tu puedis scuvierzi cemût che <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> al gjestìs i tiei dâts te lôr <xliff:g example="privacy policy" id="privacy_policy_link">%2$s</xliff:g></string>
     <string name="request_permissions_privacy_policy" description="Link text that open's a third party app's data privacy policy [CHAR_LIMIT=NONE]">normis su la riservatece</string>
@@ -388,7 +394,6 @@
     <string name="navigation_selected_day" description="Content description for button that contains selected day. [CHAR_LIMIT=NONE]">Dì selezionât</string>
     <string name="navigation_previous_day" description="Content description for button that changes the current data view to the previous day [CHAR_LIMIT=NONE]">Dì precedent</string>
     <string name="default_error" description="Label shown when a user initiated action fails (e.g. deleting data) [CHAR_LIMIT=NONE]">Alc al è lât strucj. Torne prove.</string>
-    <string name="unkwown_resource" description="Label shown when a medical data cannot be identified [CHAR_LIMIT=NONE]">Risorse no cognossude</string>
     <string name="raw_fhir_open_bracket" description="Content description for the open curly bracket character and a prefix before that which is usually a space. [CHAR_LIMIT=50]"><xliff:g example=" " id="prefix">%1$s</xliff:g>Parentesi vierte. </string>
     <string name="raw_fhir_closed_bracket" description="Content description for the closed curly bracket character. [CHAR_LIMIT=50]"><xliff:g example=" " id="prefix">%1$s</xliff:g>Parentesi sierade. </string>
     <string name="raw_fhir_field_value" description="Content description for a field and a corresponding value from a JSON file, starting with a prexif which is usually a space. [CHAR_LIMIT=50]"><xliff:g example=" " id="prefix">%1$s</xliff:g> Cjamp <xliff:g example="name" id="field">%2$s</xliff:g> Valôr </string>
@@ -420,7 +425,6 @@
     <string name="manage_permissions_learn_more" description="Link text that open's a third party app's data privacy policy [CHAR_LIMIT=NONE]">Lei lis normis su la riservatece</string>
     <string name="app_perms_content_provider_24h" description="Summary for showing the last access text for content provider permissions [CHAR LIMIT=70]">Acès fat tes ultimis 24 oris</string>
     <string name="app_access_title" description="Title of screen for a user to manage the health and fitness data a particular app has access to [CHAR_LIMIT=40]">Acès des aplicazions</string>
-    <string name="connected_apps_empty_list_section_title" description="Title of section when there are no connected apps">In chest moment no tu âs nissune aplicazion compatibile instalade</string>
     <string name="additional_access_label" description="Label of a button that opens additional permissions access for an app. [CHAR_LIMIT=40]">Acès adizionâi</string>
     <string name="removed_additional_permissions_toast" description="Message letting the user know that additional permissions have also been removed for this app">Permès adizionâl gjavât par cheste aplicazion</string>
     <string name="permissions_header" description="Title shown for section that lists permissions. [CHAR_LIMIT=40]">Permès</string>
@@ -519,10 +523,6 @@
     <string name="export_import_go_to_play_store_text" description="Link text taking the user to the Play Store so they can install cloud storage apps to export data to or import data from. [CHAR_LIMIT=NONE]">Va sul Play Store</string>
     <string name="onboarding_title" description="Label used to show the title of onboarding page when user opens Health Connect app for the fist time">Scomence a doprâ Conession salût</string>
     <string name="onboarding_description" description="Content description of Health Connect app on the onboarding page">Conession salût al archivie i tiei dâts su salût e forme fisiche e e semplifiche la sincronizazion di diviersis aplicazions sul dispositîf</string>
-    <string name="share_data" description="Label used to show how the user can share data with apps">Condivît i dâts cu lis tôs aplicazions</string>
-    <string name="share_data_description" description="Content description for how the user can share data with apps">Sielç cuai dâts che ogni aplicazion e pues lei o scrivi su Conession salût</string>
-    <string name="manage_your_settings" description="Label used to show how the user can manage settings and privacy">Gjestìs lis impostazions e la riservatece</string>
-    <string name="manage_your_settings_description" description="Content description for how the user can change app permissions and manage data">Cambie i permès des aplicazions e gjestìs i tiei dâts cuant che tu vûs</string>
     <string name="onboarding_go_back_button_text" description="Content description for button to exit from onboarding page">Tone indaûr</string>
     <string name="onboarding_get_started_button_text" description="Content description for button to get started with Health Connect app">Scomence</string>
     <string name="delete_button_content_description" description="Content description of a button that starts the deletion flow. [CHAR_LIMIT=50]">Elimine dâts</string>
@@ -1085,6 +1085,8 @@
     <string name="data_sources_add_app" description="Title for preference in the data sources screen used to add an app to the list of data sources [CHAR_LIMIT=NONE]">Zonte une aplicazion</string>
     <string name="edit_data_sources" description="Menu option for adding or removing apps from the app sources list">Modifiche sorzints di aplicazion</string>
     <string name="default_app_summary" description="Text for an app on the priority list that is the device default app for health connect data [CHAR_LIMIT=50]">Predefinît dal dispositîf</string>
+    <string name="move_up" description="Menu option for moving an app up in the app sources list">Môf insù</string>
+    <string name="move_down" description="Menu option for moving an app down in the app sources list">Môf injù</string>
     <string name="app_data_title" description="Title of screen that shows the data of a certain app. [CHAR_LIMIT=50]">Dâts aplicazion</string>
     <string name="date_picker_day" description="Dropdown option that indicates that one day's worth of data is displayed. [CHAR_LIMIT=50]">Dì</string>
     <string name="date_picker_week" description="Dropdown option that indicates that one week's worth of data is displayed. [CHAR_LIMIT=50]">Setemane</string>
@@ -1127,19 +1129,14 @@
     <string name="some_app_entries_selected_month_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete selected app entries from the selected month">Eliminâ par simpri lis vôs selezionadis di <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> pal <xliff:g example="22 Jan 2022" id="selected_date_range">%2$s</xliff:g>?</string>
     <string name="one_app_entry_selected_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete the selected app entry">Eliminâ par simpri cheste vôs di <xliff:g example="Run Tracker" id="app_name">%s</xliff:g>?</string>
     <string name="off">Off</string>
-    <string name="request_permissions_allow_all_the_time" description="Label for button to allow an app to read health data in background.">Permet par dut il timp</string>
+    <string name="request_permissions_allow_all_the_time" description="Label for button to allow an app to read health data in background.">Simpri</string>
     <string name="request_permissions_allow_selected" description="Label for button to allow an app to have the selected permissions for the user's data [CHAR_LIMIT=20]">Permet selezionâts</string>
     <string name="request_permissions_while_using_the_app" description="Label for button to deny an app from reading health data in background.">Intant che tu dopris la aplicazion</string>
     <string name="request_permissions_deny_all" description="Label for button to deny an app to have all the requested permissions for the user's data [CHAR_LIMIT=20]">Dinee dut</string>
     <string name="wear_allow_app_access_fitness_and_wellness_data" description="Title shown for allowing fitness permissions.">Permeti a <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> di acedi ai dâts di forme fisiche e benstâ?</string>
-    <string name="wear_request_multiple_data_type_permissions" description="Subtitle shown for allowing multiple fitness permissions. "><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> al sta domandant l\'acès a <xliff:g id="data_types" example="Heart rate, Skin temp">%2$s</xliff:g>.\n\nSielç se permeti dut o controlâju un par un.</string>
-    <string name="wear_request_single_data_type_permission" description="Title shown for allowing single fitness permission. ">Permeti a <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> di acedi a <xliff:g id="data_type" example="heart rate">%2$s</xliff:g>?</string>
     <string name="fitness_and_wellness" description="Title to display fitness and wellness permissions.">Forme fisiche e benstâ</string>
-    <string name="view_permissions_all_the_time" description="Text to allow an app to read health data in background.">simpri</string>
-    <string name="view_permissions_while_in_use" description="Text to allow an app to read health data in foreground.">intant che tu lu dopris</string>
     <string name="view_permissions_all_the_time_cap" description="Label for button to allow an app to read health data in background.">Simpri</string>
-    <string name="view_permissions_while_in_use_cap" description="Label for button to allow an app to read health data in foreground.">Intant che tu lu dopris</string>
-    <string name="view_permissions_mode" description="Text to allow an app to read health data in foreground or background."><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> al pues acedi <xliff:g id="allow_mode" example="all the time">%2$s</xliff:g> a ducj i tiei dâts di forme fisiche e benstâ</string>
+    <string name="view_permissions_while_in_use_cap" description="Label for button to allow an app to read health data in foreground.">Intant che tu dopris la aplicazion</string>
     <string name="allowed_to_access" description="Text to display view permission mode (all the time or while in use).">Acès consintût</string>
     <string name="allowed_to_read" description="Subtitle to display which permissions are allowed">Leture concedude</string>
     <string name="give_permission_prompt" description="Text to display what permissions are allowed.">Chescj permès a dan a <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> l\'acès ai dâts dai sensôrs dal to dispositîf.</string>

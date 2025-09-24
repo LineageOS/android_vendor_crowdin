@@ -543,6 +543,7 @@
     <string name="disabled_by_admin_summary_text">Controlât dal aministradôr</string>
     <string name="disabled_by_app_ops_text">Controlade midiant impostazion cun restrizions</string>
     <string name="disabled">Disativade</string>
+    <string name="enabled">Atîf</string>
     <string name="external_source_trusted">Consintude</string>
     <string name="external_source_untrusted">No consintude</string>
     <string name="install_other_apps">Instale aplicazions no cognossudis</string>

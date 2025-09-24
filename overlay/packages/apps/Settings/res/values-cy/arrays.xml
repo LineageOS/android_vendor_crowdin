@@ -486,7 +486,6 @@
         <item>Ar ôl 1 munud</item>
         <item>Ar ôl 5 munud</item>
     </string-array>
-    <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="zen_mode_icon_options_descriptions">
         <item>Briefcase</item>
         <item>Classical building</item>
@@ -529,5 +528,4 @@
         <item>Half-moon</item>
         <item>Clock</item>
     </string-array>
-    <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>
