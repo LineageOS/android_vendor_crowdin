@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="printer_low_on_ink">Язу карасы әз</string>
     <string name="printer_low_on_toner">Тонер әз</string>
     <string name="printer_description">%1$s – %2$s</string>

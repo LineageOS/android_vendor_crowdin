@@ -677,7 +677,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="fingerprint_acquired_power_press">Synhwyrwyd pwyso botwm pŵer</string>
     <string name="fingerprint_acquired_try_adjusting">Ceisia\'i addasu</string>
     <string name="fingerprint_acquired_immobile">Newidia leoliad dy fys fymryn pob tro</string>
-    <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Heb adnabod yr ôl bys</string>
     <string name="fingerprint_udfps_error_not_match">Heb adnabod yr ôl bys</string>
     <string name="fingerprint_authenticated">Dilyswyd yr ôl bys</string>
@@ -701,7 +700,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Defnyddio ôl bys neu glo sgrin</string>
     <string name="fingerprint_dialog_default_subtitle">Defnyddia dy ôl bys i barhau</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Defnyddia dy ôl bys neu glo sgrin i barhau</string>
-    <string-array name="fingerprint_error_vendor"/>
     <string name="fingerprint_error_vendor_unknown">Aeth rhywbeth o\'i le. Rho gynnig arall arni.</string>
     <string name="fingerprint_icon_content_description">Eicon ôl bys</string>
     <string name="device_unlock_notification_name">Datgloi\u2019r ddyfais</string>
@@ -738,7 +736,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="face_acquired_recalibrate_alt">Methu creu model dy wyneb. Rho gynnig arall arni.</string>
     <string name="face_acquired_dark_glasses_detected_alt">Wedi synhwyro sbectol dywyll. Rhaid gweld dy holl wyneb.</string>
     <string name="face_acquired_mouth_covering_detected_alt">Wedi synhwyro gorchudd wyneb. Rhaid gweld dy holl wyneb.</string>
-    <string-array name="face_acquired_vendor"/>
     <string name="face_error_hw_not_available">Methu dilysu\u2019r wyneb. Caledwedd dim ar gael.</string>
     <string name="face_error_timeout">Rhoi gynnig eto ar Ddatgloi ag Wyneb</string>
     <string name="face_error_no_space">Methu â storio data wyneb newydd. Rhaid yn gyntaf dileu hen un.</string>
@@ -756,7 +753,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="face_or_screen_lock_app_setting_name">Defnyddio wyneb neu sgrin cloi</string>
     <string name="face_dialog_default_subtitle">Defnyddia dy wyneb i barhau</string>
     <string name="face_or_screen_lock_dialog_default_subtitle">Defnyddia dy wyneb neu sgrin cloi i barhau</string>
-    <string-array name="face_error_vendor"/>
     <string name="face_error_vendor_unknown">Aeth rhywbeth o\'i le. Rho gynnig arall arni.</string>
     <string name="face_icon_content_description">Eicon wyneb</string>
     <string name="permlab_readSyncSettings">darllen gosodiadau cysoni</string>
@@ -1879,11 +1875,13 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="one_handed_mode_feature_name">Modd Un-Llaw</string>
     <string name="reduce_bright_colors_feature_name">Pŵl iawn</string>
     <string name="hearing_aids_feature_name">Dyfeisiau cymorth clyw</string>
+    <string name="hearing_device_status_loading">Yn llwytho</string>
     <string name="accessibility_shortcut_enabling_service">Botymau sain wedi eu dal. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> wedi ei droi ymlaen.</string>
     <string name="accessibility_shortcut_disabling_service">Botymau sain wedi eu dal. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> wedi ei droi i ffwrdd.</string>
     <string name="accessibility_shortcut_spoken_feedback">Gollynga\u2019r botymau sain. I droi <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> ymlaen, pwysa a dal y ddau fotwm sain i lawr eto am 3 eiliad.</string>
     <string name="accessibility_magnification_chooser_text">Chwyddo</string>
-    <string name="user_switched">Defnyddiwr cyfredol <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
+    <string name="hearing_device_notification_switch_button">Newid</string>
+    <string name="hearing_device_notification_settings_button">Gosodiadau</string>
     <string name="user_switching_message">Yn newid i <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
     <string name="user_logging_out_message">Yn allgofnodi <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
     <string name="owner_name" msgid="3879126011135546571">Perchennog</string>
@@ -2029,7 +2027,6 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="lock_to_app_unlock_pin">Gofyn am PIN cyn dadbinio</string>
     <string name="lock_to_app_unlock_pattern">Gofyn am batrwm datgloi cyn dadbinio</string>
     <string name="lock_to_app_unlock_password">Gofyn am gyfrinair cyn dadbinio</string>
-    <string name="package_updated_device_owner">Diweddarwyd gan dy weinyddwr</string>
     <string name="package_deleted_device_owner">Dileuwyd gan dy weinyddwr</string>
     <string name="confirm_battery_saver">Iawn</string>
     <string name="battery_saver_description_with_learn_more">Mae Arbedwr Batri yn troi\'r thema Tywyll ymlaen ac yn cyfyngu neu\'n diffodd gweithrediadau yn y cefndir, rhai effeithiau gweledol, nodweddion penodol, a rhai cysylltiadau rhwydwaith.</string>
@@ -2378,6 +2375,7 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="accessibility_system_action_dpad_left_label">PadD Chwith</string>
     <string name="accessibility_system_action_dpad_right_label">PadD Dde</string>
     <string name="accessibility_system_action_dpad_center_label">PadD Canol</string>
+    <string name="accessibility_autoclick_pause">Saib</string>
     <string name="as_app_forced_to_restricted_bucket"><xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> has been put into the RESTRICTED bucket</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">anfon delwedd</string>

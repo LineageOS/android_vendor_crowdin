@@ -28,21 +28,33 @@
     <string name="bluetooth_hearing_aid_left_active">Gníomhach (ar chlé amháin)</string>
     <string name="bluetooth_hearing_aid_right_active">Gníomhach (ar dheis amháin)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Gníomhach (ar chlé agus ar dheis)</string>
+    <string name="bluetooth_hearing_device_ambient_error">Níorbh fhéidir an timpeallacht a nuashonrú</string>
     <string name="bluetooth_active_media_only_battery_level">Gníomhach (na meáin amháin). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_active_media_only_battery_level_untethered">Gníomhach (na meáin amháin). L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
+    <string name="bluetooth_guest_battery_level">Gléas aoi. Ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_guest_battery_level_untethered">Gléas aoi. C: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
+    <string name="bluetooth_guest_media_only_battery_level">Gléas aoi (meáin amháin). Ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_guest_media_only_battery_level_untethered">Gléas aoi (meáin amháin). C: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_battery_level_lea_support">Ceangailte (tacaíonn sé le comhroinnt fuaime). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_battery_level_untethered_lea_support">Ceangailte (tacaíonn sé le comhroinnt fuaime). L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> R: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_battery_level_untethered_left_lea_support">Ceangailte (tacaíonn sé le comhroinnt fuaime). Ar chlé: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_battery_level_untethered_right_lea_support">Ceangailte (tacaíonn sé le comhroinnt fuaime). Ar dheis: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_no_battery_level_lea_support">Ceangailte (tacaíonn sé le comhroinnt fuaime)</string>
+    <string name="bluetooth_guest_battery_level_lea_support">Gléas aoi (tacaíonn sé le comhroinnt fuaime). Ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_guest_battery_level_untethered_lea_support">Gléas aoi (tacaíonn sé le comhroinnt fuaime). C: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
+    <string name="bluetooth_guest_no_battery_level_lea_support">Gléas aoi (tacaíonn sé le comhroinnt fuaime)</string>
     <string name="bluetooth_active_media_only_no_battery_level">Gníomhach (meáin amháin)</string>
+    <string name="bluetooth_guest_no_battery_level">Gléas aoi</string>
+    <string name="bluetooth_guest_media_only_no_battery_level">Gléas aoi (meáin amháin)</string>
     <string name="bluetooth_saved_device_lea_support">Tacaíonn sé le comhroinnt fuaime</string>
+    <string name="bluetooth_guest_saved_device_lea_support">Gléas aoi. Tacaíonn sé le comhroinnt fuaime.</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Gníomhach (na meáin amháin), fágtha amháin</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Gníomhach (meán amháin), dheis amháin</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Gníomhach (meáin amháin), ar chlé agus ar dheis</string>
     <string name="enable_linux_terminal_title">Timpeallacht forbartha linux</string>
     <string name="enable_linux_terminal_summary">(Turgnamhach) Rith teirminéal Linux ar Android</string>
     <string name="disable_linux_terminal_disclaimer">Má dhíchumasaítear tú, déanfar sonraí teirminéil Linux a ghlanadh</string>
+    <string name="window_management_category">Bainistíocht Fuinneog</string>
     <string name="touchpad_visualizer">Taispeáin ionchur touchpad</string>
     <string name="touchpad_visualizer_summary">Forleagan scáileáin a thaispeánann sonraí ionchuir touchpad agus gothaí aitheanta</string>
     <string name="enable_verbose_vendor_logging_checkbox">Díchumasaigh tar éis lá amháin</string>
@@ -51,11 +63,16 @@
     <string name="verbose_vendor_logging_notification_action">Cumasaigh ar feadh lá amháin eile</string>
     <string name="verbose_vendor_logging_preference_summary_will_disable">Díchumasaithe tar éis lá amháin</string>
     <string name="verbose_vendor_logging_preference_summary_on">Cumasaithe ar feadh tréimhse éiginnte</string>
+    <string name="shade_display_awareness_title">Suíomh taispeána scátha</string>
+    <string name="webview_launch_devtools_title">Uirlisí Forbróra WebView</string>
+    <string name="webview_launch_devtools_no_package">Níor aimsíodh pacáiste WebView.</string>
+    <string name="webview_launch_devtools_no_activity">Níorbh fhéidir DevTools a sheoladh.</string>
     <string name="power_fast_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="status">%2$s</xliff:g> - Iomlán faoi <xliff:g id="time">%3$s</xliff:g></string>
     <string name="power_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - Muirear go hiomlán ag <xliff:g id="time">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only_v2">Muirear go hiomlán ag <xliff:g id="time">%1$s</xliff:g></string>
     <string name="power_remaining_fast_charging_duration_only_v2">Iomlán faoi <xliff:g id="time">%1$s</xliff:g></string>
     <string name="battery_info_status_charging_fast_v2">Muirearú tapa</string>
+    <string name="disabled_in_phone_call_text">Gan a bheith ar fáil le linn glaonna</string>
     <string name="zen_mode_do_not_disturb_name">Ná Cuir isteach</string>
     <string name="zen_mode_settings_title">Ná Cuir isteach</string>
     <string name="zen_mode_starred_contacts_empty_name">(Gan ainm)</string>
@@ -66,6 +83,7 @@
     <string name="media_transfer_aux_line_name">AUX</string>
     <string name="tv_media_transfer_internal_speakers">Cainteoir ionsuite</string>
     <string name="tv_media_transfer_hdmi_title">Fuaime Teilifíse</string>
+    <string name="bluetooth_key_missing_subtext">Ní féidir ceangal</string>
     <string name="edit_user_info_message">Beidh an t-ainm agus an pictiúr a roghnaíonn tú le feiceáil ag aon duine a úsáideann an gléas seo.</string>
     <string name="media_transfer_headphone_name">Fuaime sreangaithe</string>
     <string name="media_transfer_usb_audio_name">Fuaime USB</string>

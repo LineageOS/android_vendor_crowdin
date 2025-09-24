@@ -153,12 +153,8 @@
     <string name="permdesc_answerPhoneCalls">Кушымтага керүче шалтыратуларга җавап бирергә рөхсәт бирә.</string>
     <string name="permlab_receiveSms">текстлы хәбәрләр (SMS) алу</string>
     <string name="permlab_receiveWapPush">текстлы хәбәрләр (WAP) алу</string>
-    <string-array name="fingerprint_acquired_vendor"/>
-    <string-array name="fingerprint_error_vendor"/>
     <string name="face_acquired_dark_glasses_detected">@string/face_acquired_dark_glasses_detected_alt</string>
     <string name="face_acquired_mouth_covering_detected">@string/face_acquired_mouth_covering_detected_alt</string>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string-array name="phoneTypes">
         <item>Home</item>
         <item>Mobile</item>
@@ -279,6 +275,7 @@
     <string name="leave_accessibility_shortcut_on">Тизтөймәне куллану</string>
     <string name="one_handed_mode_feature_name">Бер куллы режим</string>
     <string name="reduce_bright_colors_feature_name">Бик тонык</string>
+    <string name="hearing_device_notification_settings_button">Көйләүләр</string>
     <string name="mediasize_iso_a0">ISO A0</string>
     <string name="mediasize_iso_a1">ISO A1</string>
     <string name="mediasize_iso_a2">ISO A2</string>
@@ -394,7 +391,6 @@
     <string name="date_picker_month_typeface">sans-serif-medium</string>
     <string name="date_picker_day_of_week_typeface">sans-serif-medium</string>
     <string name="date_picker_day_typeface">sans-serif-medium</string>
-    <string name="package_updated_device_owner">Администраторыгыз тарафыннан яңартылды</string>
     <string name="package_deleted_device_owner">Администраторыгыз тарафыннан бетерелде</string>
     <string name="zen_mode_rule_name_combination"><xliff:g id="first" example="Weeknights">%1$s</xliff:g> / <xliff:g id="rest" example="Meetings">%2$s</xliff:g></string>
     <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>

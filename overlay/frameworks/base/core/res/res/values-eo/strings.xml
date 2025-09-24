@@ -37,10 +37,6 @@
     <string name="permgrouplab_phone">Telefono</string>
     <string name="permlab_killBackgroundProcesses">fermi aliajn aplikaĵojn</string>
     <string name="permlab_readContacts">legi viajn kontaktojn</string>
-    <string-array name="fingerprint_acquired_vendor"/>
-    <string-array name="fingerprint_error_vendor"/>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string name="phoneTypeCustom">Propra</string>
     <string name="eventTypeCustom">Propra</string>
     <string name="eventTypeBirthday">Naskiĝtago</string>
@@ -124,6 +120,7 @@
     <string name="kg_reordering_delete_drop_target_text">Forigi</string>
     <string name="accessibility_dialog_button_allow">Permesi</string>
     <string name="accessibility_dialog_button_deny">Malpermesi</string>
+    <string name="hearing_device_notification_settings_button">Agordoj</string>
     <string name="owner_name" msgid="3879126011135546571">Posedanto</string>
     <string name="error_message_title">Eraro</string>
     <string name="write_fail_reason_cancelled">Nuligita</string>

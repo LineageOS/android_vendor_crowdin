@@ -59,7 +59,7 @@
         <item>@string/wifi_security_none</item>
     </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
-        <item>Non verìfiches</item>
+        <item>Do not verify</item>
         <item>Pedi s\'istadu de su tzertificadu</item>
         <item>Pedi s\'istadu de su tzertificadu</item>
     </string-array>
@@ -393,7 +393,6 @@
         <item>After 1 minute</item>
         <item>After 5 minutes</item>
     </string-array>
-    <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="zen_mode_icon_options_descriptions">
         <item>Briefcase</item>
         <item>Classical building</item>
@@ -436,5 +435,4 @@
         <item>Half-moon</item>
         <item>Clock</item>
     </string-array>
-    <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>

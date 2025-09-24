@@ -54,7 +54,6 @@
     <string name="bluetooth_device_context_disconnect">Malkonekti</string>
     <string name="bluetooth_key_missing_cancel">Nuligi</string>
     <string name="wifi_display_options_name">Nomo</string>
-    <string name="wifi_password">Pasvorto</string>
     <string name="wifi_connect">Konekti</string>
     <string name="wifi_forget">Forgesi</string>
     <string name="wifi_save">Konservi</string>
@@ -66,6 +65,7 @@
     <string name="status_imei_sv">IMEI SV</string>
     <string name="status_operator">Reto</string>
     <string name="storage_system_label">Sistemo</string>
+    <string name="when_to_show_hubmode_never">Neniam</string>
     <string name="apn_name">Nomo</string>
     <string name="apn_user">Uzantnomo</string>
     <string name="apn_password">Pasvorto</string>
@@ -73,6 +73,7 @@
     <string name="menu_save">Konservi</string>
     <string name="menu_cancel">Nuligi</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">Nuligi</string>
+    <string name="time_notifications_title">Sciigoj</string>
     <string name="uninstall_text">Malinstali</string>
     <string name="install_text">Instali</string>
     <string name="unknown">Nekonata</string>
@@ -87,7 +88,6 @@
     <string name="spellchecker_quick_settings">Agordoj</string>
     <string name="spellchecker_language">Lingvo</string>
     <string name="keyboard_a11y_category">Alirebleco</string>
-    <string name="trackpad_notifications_title">Sciigoj</string>
     <string name="modifier_keys_cancel">Nuligi</string>
     <string name="user_dict_settings_add_menu_title">Aldoni</string>
     <string name="user_dict_settings_add_locale_option_name">Lingvo:</string>
@@ -122,9 +122,6 @@
     <string name="delete">Forigi</string>
     <string name="data_usage_uninstalled_apps">Forigitaj aplikaĵoj</string>
     <string name="data_usage_uninstalled_apps_users">Forigitaj aplikaĵoj kaj uzantoj</string>
-    <string name="vpn_name">Nomo</string>
-    <string name="vpn_username">Uzantnomo</string>
-    <string name="vpn_password">Pasvorto</string>
     <string name="vpn_cancel">Nuligi</string>
     <string name="vpn_save">Konservi</string>
     <string name="vpn_disconnect">Malkonekti</string>
@@ -166,6 +163,7 @@
     <string name="app_launch_dialog_cancel">Nuligi</string>
     <string name="app_launch_supported_links_add">Aldoni</string>
     <string name="notifications_label">Sciigoj</string>
+    <string name="disabled_by_advanced_protection_help_button_title">Agordoj</string>
     <string name="storage_apps">Aplikaĵoj</string>
     <string name="storage_system">Sistemo</string>
     <string name="location_category">Loko</string>

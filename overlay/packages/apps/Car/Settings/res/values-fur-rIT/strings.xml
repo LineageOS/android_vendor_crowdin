@@ -313,14 +313,11 @@
     <string name="units_unit_name_millivolt">Milivolt</string>
     <string name="units_unit_name_milliwatts">Miliwatt</string>
     <string name="units_unit_name_ampere_hour">Ampere-ore</string>
-    <string name="units_unit_name_kilowatt_hour">Chilowattore</string>
     <string name="units_unit_name_psi">Lire par once cuadrade</string>
     <string name="units_unit_name_miles_per_hour">Miis orariis</string>
     <string name="units_unit_name_kilometers_per_hour">Chilometris oraris</string>
     <string name="units_unit_name_bar">Bar</string>
     <string name="units_unit_name_degrees">Grâts</string>
-    <string name="units_unit_name_kilowatt_per_hundred_miles">Chilowatt par cent miis</string>
-    <string name="units_unit_name_kilowatt_per_hundred_kilometers">Chilowatt par cent chilometris</string>
     <string name="units_unit_name_miles_per_gallon_us">Miis par galon (US)</string>
     <string name="units_unit_name_miles_per_gallon_uk">Miis par galon (UK)</string>
     <string name="units_unit_name_kilometers_per_liter">Chilometris par litri</string>
@@ -427,6 +424,7 @@
     <string name="app_link_open_ask">Domande ogni volte</string>
     <string name="app_link_open_never">No sta vierzi in cheste aplicazion</string>
     <string name="app_launch_supported_domain_urls_title">Colegaments supuartâts</string>
+    <string name="opening_links_supported_links_title">Colegaments supuartâts</string>
     <string name="apps_settings_title">Aplicazions</string>
     <string name="apps_recently_opened">Vierzudis di resint</string>
     <string name="apps_view_all_apps_title">Viôt dutis e %1$d lis aplicazions</string>
@@ -450,16 +448,12 @@
     <string name="notification_listener_security_warning_title">Permeti l\'acès aes notifichis a <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
     <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> al rivarà a lei dutis lis notifichis, includudis lis informazions personâls come nons di contats e il test dai messaçsche tu ricevis. Al rivarà ancje a scartâ notifichis o ativâ i botons di azions contignûts tes notifichis.\n\nChest al darà ancje la pussibilitât ae aplicazion di ativâ o disativâ il No Sta Disturbâ e cambiâ lis relativis impostazions.
     </string>
-    <string name="notification_listener_revoke_warning_summary">Se tu disativis l\'acès aes notifichis a <xliff:g id="notification_listener_name">%1$s</xliff:g>, al vignarà disativât ancje l\'acès al No Sta Disturbâ.
-    </string>
     <string name="notification_listener_revoke_warning_confirm">Disative</string>
     <string name="notification_listener_revoke_warning_cancel">Anule</string>
     <string name="performance_impacting_apps_description">Chestis aplicazions a influissin in mût negatîf su lis prestazions dal sisteme e a ur è stat impedît di zirâ in sotfont.\nDa prioritât a aplicazion al permet la utilizazion de aplicazion in sotfont e al permet di gjavâle di cheste liste.</string>
     <string name="performance_impacting_apps_button_label">Da prioritât a aplicazion</string>
     <string name="premium_sms_access_title">SMS premium</string>
     <string name="premium_sms_access_description">I SMS Premium a podaressin costâti bêçs che a vignaran zontâts aes boletis dal to operadôr. Se tu ativis il permès par une aplicazion, ti rivarâs a doprâle par mandâ SMS premium.</string>
-    <string name="usage_access_title">Acès ai dâts di utilizazion</string>
-    <string name="usage_access_description">L\'acès ai dâts di utilizazion al permès a une aplicazion di tignî di voli cualis altris aplicazions tu dopris e trop dispès, e ancje il to operadôr, lis impostazions de lenghe e altris detais.</string>
     <string name="wifi_control_title">Control dal Wi-Fi</string>
     <string name="wifi_control_description">Il control dal Wi-Fi al permet a une aplicazion di ativâ o disativâ il Wi-Fi, scansionâ e conetiti a rêts Wi-Fi, zontâ o gjavâ rêts o inviâ un pont di acès dome-locâl.</string>
     <string name="more_special_access_title">Altri</string>

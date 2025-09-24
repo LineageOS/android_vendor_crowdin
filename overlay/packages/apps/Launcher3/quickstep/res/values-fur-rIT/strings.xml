@@ -25,7 +25,6 @@
     <string name="accessibility_app_usage_settings">Impostazions utilizazion aplicazion</string>
     <string name="recents_clear_all">Nete dut</string>
     <string name="accessibility_recent_apps">Aplicazions resintis</string>
-    <string name="task_view_closed">Ativitât sierade</string>
     <string name="task_contents_description_with_remaining_time"><xliff:g id="task_description" example="GMail">%1$s</xliff:g>, <xliff:g id="remaining_time" example="7 minutes left today">%2$s</xliff:g></string>
     <string name="shorter_duration_less_than_one_minute">&lt; 1 minût</string>
     <string name="time_left_for_app">Vuê a mancjin: <xliff:g id="time" example="7 minutes">%1$s</xliff:g></string>
@@ -55,7 +54,6 @@
     <string name="back_gesture_tutorial_confirm_subtitle">Par cambiâ la sensibilitât dal mot indaûr, va in Impostazions</string>
     <string name="back_gesture_intro_title">Scor par tornâ indaûr</string>
     <string name="back_gesture_intro_subtitle">Par tornâ indaûr ae ultime schermade, scor partint di çampe o di diestre fintal mieç dal schermi.</string>
-    <string name="back_gesture_spoken_intro_subtitle">Par tornâ indaûr ae ultime schermade, scor cun 2 dêts partint di çampe o di diestre fintal mieç dal schermi.</string>
     <string name="back_gesture_tutorial_title">Tone indaûr</string>
     <string name="back_gesture_tutorial_subtitle">Scor partint di çampe o di diestre fintal mieç dal schermi</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Viôt di scori in sù partint dal ôr inferiôr dal schermi</string>
@@ -65,7 +63,6 @@
     <string name="home_gesture_feedback_complete_without_follow_up">Tu âs completât il mot par lâ ae schermade iniziâl</string>
     <string name="home_gesture_intro_title">Scor par lâ ae schermade iniziâl</string>
     <string name="home_gesture_intro_subtitle">Scor in sù partint dal bas dal schermi. Chest mot ti puarte simpri ae tô schermade di Inizi.</string>
-    <string name="home_gesture_spoken_intro_subtitle">Scor in sù cun 2 dêts partint dal bas dal schermi. Chest mot ti puarte simpri ae schermade di Inizi.</string>
     <string name="home_gesture_tutorial_title">Va al Inizi</string>
     <string name="home_gesture_tutorial_subtitle">Scor in sù partint dal bas dal schermi</string>
     <string name="home_gesture_tutorial_success">Biel lavôr!</string>
@@ -76,7 +73,6 @@
     <string name="overview_gesture_feedback_complete_without_follow_up">Tu âs completât il mot par passâ di une aplicazion a chê altre</string>
     <string name="overview_gesture_intro_title">Scor par cambiâ aplicazions</string>
     <string name="overview_gesture_intro_subtitle">Par passâ di une aplicazion a chê altre, scor in sù partint dal bas dal schermi, ten fracât e mole.</string>
-    <string name="overview_gesture_spoken_intro_subtitle">Par cambiâ aplicazions, scor in sù cun 2 dêts partint dal bas dal schermi, ten fracât e dopo mole.</string>
     <string name="overview_gesture_tutorial_title">Passâ di une aplicazion a chê altre</string>
     <string name="overview_gesture_tutorial_subtitle">Scor in sù partint dal bas dal schermi, ten fracât e dopo mole</string>
     <string name="overview_gesture_tutorial_success">Ben fate!</string>
@@ -131,8 +127,6 @@
     <string name="taskbar_a11y_shown_title">Sbare des ativitâts mostrade</string>
     <string name="taskbar_a11y_shown_with_bubbles_left_title">Sbare e bufulis mostr. a çampe</string>
     <string name="taskbar_a11y_shown_with_bubbles_right_title">Sbare e bufulis mostr. a drete</string>
-    <string name="taskbar_a11y_hidden_title">Sbare des ativitâts platade</string>
-    <string name="taskbar_a11y_hidden_with_bubbles_title">Sbare app e bufulis platadis</string>
     <string name="taskbar_phone_a11y_title">Sbare di navigazion</string>
     <string name="always_show_taskbar">Mostre simpri sbare ativitâts</string>
     <string name="change_navigation_mode">Cambie modalitât di navigazion</string>

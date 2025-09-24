@@ -36,7 +36,6 @@
     <string name="header_category_general_settings">Impostazions gjenerâls</string>
     <string name="dismiss_suggestion">Scarte il sugjeriment</string>
     <string name="hotwording_title">Rilevament di \"OK Google\"</string>
-    <string name="hotwording_summary">Cjacare cul assistent di Google cuant che tu vûs</string>
     <string name="screen_reader_service_title">Talkback\u0020(letôr di schermi)</string>
     <string name="screen_reader_summary">TalkBack e je une funzionalitât di acès facilitât dal letôr di schermi che e jude i utents cun disabilitâts visivis leint a vôs alte test, elements dai menûs e altris elements che a son sul schermi. Al è pussibil ancje configurâlu ancje pe utilizazion cu la scurte pal acès facilitât.</string>
     <string name="header_category_device">Dispositîf</string>
@@ -65,7 +64,6 @@
     <string name="privacy_device_settings_category">Impostazions dispositîf</string>
     <string name="privacy_account_settings_category">Impostazions account</string>
     <string name="privacy_device_lock_settings_title">Bloc dispositîf</string>
-    <string name="privacy_assistant_settings_title">Assistent di Google</string>
     <string name="privacy_purchases_settings_title">Paiament e compris</string>
     <string name="privacy_app_settings_category">Impostazions aplicazion</string>
     <string name="privacy_category_summary">Posizion, utilizazion e diagnostiche, publicitât</string>
@@ -366,8 +364,6 @@
     <string name="connected_devices_slice_pref_title">Telecomants e acessoris</string>
     <string name="bluetooth_toggle_title">Bluetooth</string>
     <string name="bluetooth_toggle_confirmation_dialog_title">Disative Bluetooth</string>
-    <string name="bluetooth_toggle_confirmation_dialog_summary">No tu rivarâs a acedi
-        al assistent di Google dal telecomant intant che il Bluetooth al è disativât.</string>
     <string name="bluetooth_pair_accessory">Associe l\'acessori</string>
     <string name="bluetooth_known_devices_category">Acessoris</string>
     <string name="bluetooth_official_remote_category">Telecomant</string>
@@ -410,7 +406,6 @@
     <string name="no_device_admins">Nissune aplicazion di aministrazion dal dispositîf disponibile</string>
     <string name="security_enable_widgets_disabled_summary">Disativâts dal aministradôr</string>
     <string name="disabled_by_administrator_summary">No disponibil</string>
-    <string name="manage_device_admin">Aplicazions di aministrazion dal dispositîf</string>
     <string name="number_of_device_admins_none">Nissune aplicazion ative</string>
     <string name="unlock_set_unlock_disabled_summary">Disativât dal aministradôr, de politiche di criptografie o
         dal archivi des credenziâls</string>
@@ -801,22 +796,8 @@
         sposte l\'interutôr pe riservatece dal dispositîf su la posizion di fotocjamare ative.</string>
     <string name="mic_toggle_info_title">Acès al microfon:
         <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
-    <string name="mic_toggle_info_content">Se ativât, dutis lis aplicazions e i servizis cul permès par
-        acedi al microfon a rivaran a doprâlu.\n\nSe disativât, nissune aplicazion o servizi al rivarà
-        a acedi al microfon. Ma tu tu rivarâs distès a fevelâ cun Google Assistant
-        fracant il boton dal assistent sul telecomant.\n\nI dispositîfs audio che a doprin protocoi personalizâts pe
-        comunicazion cu la TV no son tocjâts di cheste impostazion.
-    </string>
     <string name="mic_remote_toggle_on_info_title">Microfon ativât sul telecomant</string>
-    <string name="mic_remote_toggle_on_info_content">Google Assistant al rive a acedi al
-        microfon sul telecomant. Tu rivarâs a fevelâ cul assistent fracant il boton di Google
-        Assistant sul telecomant.
-    </string>
     <string name="mic_remote_toggle_off_info_title">Microfon disativât sul telecomant</string>
-    <string name="mic_remote_toggle_off_info_content">No tu rivarâs a fevelâ cun Google Assistant
-        doprant il telecomant. Par rivâ a doprâ il boton di Google Assistant, ative l\'acès al
-        microfon.
-    </string>
     <string name="camera_toggle_info_title">Acès ae fotocjamare:
         <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
     <string name="camera_toggle_info_content">Se cheste opzion e ven ativade, dutis lis aplicazions e i servizis autorizâts
@@ -1203,7 +1184,6 @@
     <string name="device_energy_saver_validation_attentive">Il temporizadôr \"Se atîf\" al à di sei plui lunc dal temporizadôr \"Se inatîf\"</string>
     <string name="limit_network_in_standby_toggle_title">Limite la conession di rêt se in pause</string>
     <string name="limit_network_in_standby_toggle_summary">Al dopre mancul energjie in modalitât in pause (standby)</string>
-    <string name="limit_network_in_standby_toggle_info">La TV e vignarà disconetude de rêt se in modalitât in pause (standby), gjavant il câs de ricezion di inzornaments automatics. Chest al podarès diminuî il consum energjetic de TV, dut câs al significhe che no tu rivarâs a doprâ funzions come Cast e Google Assistant intant che e je in pause.</string>
     <string name="limit_network_in_standby_confirm_title">Permet la conession di rêt se in pause</string>
     <string name="limit_network_in_standby_confirm_message">Consintint la conession di rêt se in pause, tu aumentarâs il consum di energjie in modalitât pause (standby).</string>
     <string name="backup_configure_account_default_summary">In chest moment nisun account al sta memorizant i dâts dai backups</string>
@@ -1253,8 +1233,6 @@
     <string name="manage_keyboards">Gjestìs lis tastieris</string>
     <string name="app_permission_summary_allowed">Consintude</string>
     <string name="app_permission_summary_not_allowed">No consintude</string>
-    <string name="usage_access">Acès ai dâts di utilizazion</string>
-    <string name="usage_access_description">L\'acès ai dâts di utilizazion al permès a une aplicazion di tignî di voli cualis altris aplicazions tu dopris e trop dispès, e ancje il to operadôr, lis impostazions de lenghe e altris detais.</string>
     <string name="high_power_apps">Otimizazion energjie</string>
     <string name="high_power_apps_description">Otimize il consum di energjie des aplicazions</string>
     <string name="high_power_apps_empty">Nissune aplicazion di otimizâ</string>
@@ -1334,7 +1312,6 @@
     <string name="remove_device_admin">Disative cheste aplicazion di aministrazion dal dispositîf</string>
     <string name="uninstall_device_admin">Disinstale aplicazion</string>
     <string name="remove_and_uninstall_device_admin">Disative e disinstale</string>
-    <string name="select_device_admin_msg">Aplicazions di aministrazion dal dispositîf</string>
     <string name="add_device_admin_msg">Ativâ la aplicazion di aministrazion dal dispositîf?</string>
     <string name="add_device_admin">Ative cheste aplicazion di aministrazion dal dispositîf</string>
     <string name="device_admin_warning">La ativazion di cheste aplicazion di aministrazion e permetarà
@@ -1392,6 +1369,5 @@
     <string name="settings_backlight_description">La iluminazion dai botons sul telecomant a ogni fracade di tast.</string>
     <string name="backlight_slice_description">Sui telecomants Google TV supuartâts, fracant il boton sui telecomants si ative la iluminazion di daûr.</string>
     <string name="volume_change_settings_title">Volum: %1$s</string>
-    <string name="volume_change_subtitle_unselect">Tu puedis controlâ il volum dal assistent su la casse %1$s</string>
     <string name="volume_change_subtitle_select">Al interesse nome il volum sul dispositîf %1$s, no chel de TV</string>
 </resources>

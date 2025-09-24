@@ -275,7 +275,6 @@
         <item>fri</item>
         <item>sat</item>
     </string-array>
-    <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="terms_of_address_supported_languages">
         <item>fr</item>
         <item>es</item>
@@ -287,5 +286,4 @@
         <item>@string/private_space_auto_lock_after_inactivity</item>
         <item>@string/private_space_auto_lock_after_device_restart</item>
     </string-array>
-    <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>

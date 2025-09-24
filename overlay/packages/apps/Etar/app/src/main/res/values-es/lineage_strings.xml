@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="user_rejected_calendar_write_permission_lineage">El calendario requiere permisos de lectura y escritura para funcionar correctamente. Por favor, inténtalo de nuevo.</string>
+    <string name="preferences_menu_about_lineage">Acerca de Calendario</string>
+</resources>

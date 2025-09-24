@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fused_overlay_service">Seirbhís Forleagan Comhleáite</string>
+    <string name="gnss_overlay_service">Seirbhís Forleagan GNSS</string>
+</resources>

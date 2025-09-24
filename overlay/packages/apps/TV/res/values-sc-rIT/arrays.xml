@@ -22,22 +22,22 @@
     </string-array>
     <string-array name="genre_labels" translatable="true">
         <item>Totu is canales</item>
-        <item>Famìlia/Pitzinnos</item>
+        <item>Family/Kids</item>
         <item>Isport</item>
         <item>Còmporas</item>
         <item>Films</item>
-        <item>Cummèdia</item>
+        <item>Comedy</item>
         <item>Biàgios</item>
-        <item>Drammàticu</item>
+        <item>Drama</item>
         <item>Iscola e formatzione</item>
         <item>Animales</item>
         <item>Noas</item>
         <item>Giogos</item>
         <item>Arte</item>
-        <item>Ispàssiu</item>
+        <item>Entertainment</item>
         <item>Istile de vida</item>
         <item>Mùsica</item>
-        <item>A pagamentu</item>
+        <item>Premier</item>
         <item>Tecnologia e sièntzia</item>
     </string-array>
 </resources>

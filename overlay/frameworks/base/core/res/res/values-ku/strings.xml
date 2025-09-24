@@ -296,10 +296,6 @@
     <string name="permdesc_nfc">رێگە بە بەرنامەکە دەدات کە کۆنترۆلی پەیوەندی لەرێگەی Near Field Communicationەوە بکات</string>
     <string name="permlab_disableKeyguard">ناچالاککردنی داخەری ڕوونما</string>
     <string name="permdesc_disableKeyguard">ڕێگە بە بەرنامەکە دەدا کە قوفلی دوکمەکان و وشە نهێنیەکەنیان لەکار بخا .بۆ نمونە مۆبایلەکەت لە کاتی هاتنی پەیوەندی ،قوفڵەکە بۆ ماوەیەکی کاتی لەکار دەخا بۆ ئەوەی بتوانی وەڵام بدەیتەوە</string>
-    <string-array name="fingerprint_acquired_vendor"/>
-    <string-array name="fingerprint_error_vendor"/>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string name="permlab_readSyncSettings">خوێندنەوەی زانیاریەکەنی هاوتاکردن</string>
     <string name="permdesc_readSyncSettings">ڕیگە بە بەرنامەکە دەدا کە زانیاری دەربارەی هاوتاکردن بخوێنێتەوە.بۆ نمونە ئەمە دیاری دەکەت کە ئایا بەرنامەی Pepole لەگەڵ هیچ هەژمارێک هاوتا کراوە یان نە</string>
     <string name="permlab_writeSyncSettings">هاوتاکردن بکوژێنەوە یان داگیرسێنە</string>
@@ -880,7 +876,6 @@
     <string name="accessibility_dialog_button_allow">رێدان</string>
     <string name="accessibility_dialog_button_deny">نکوڵی</string>
     <string name="done_accessibility_shortcut_menu_button">ئه‌نجام درا</string>
-    <string name="user_switched">بەکارهێنەری ئێستا <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="owner_name" msgid="3879126011135546571">خاوەن</string>
     <string name="error_message_title">هەڵە</string>
     <string name="app_not_found">هیچ نەرمەواڵایەک نەدۆزرایەوە تاکو ئەم کردارە لەخۆ بگرێت</string>

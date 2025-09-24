@@ -52,11 +52,9 @@
     <string name="bluetooth_disable_hw_offload_dialog_cancel">لابردن</string>
     <string name="proxy_settings_title">پرۆکسی</string>
     <string name="proxy_clear_text">پاککردنه‌وه‌</string>
-    <string name="proxy_port_label">درگای پرۆکسی</string>
     <string name="proxy_exclusionlist_label">په‌ڕاندنی پرۆکسی بۆ</string>
     <string name="proxy_defaultView_text">گه‌ڕانه‌وه‌ بۆ باری سه‌ره‌تایی</string>
     <string name="proxy_action_text">ئه‌نجام درا</string>
-    <string name="proxy_hostname_label">ناوی هۆستی پرۆکسی</string>
     <string name="proxy_error">ئاگاداری</string>
     <string name="proxy_error_dismiss">باشه‌</string>
     <string name="proxy_error_empty_port">پێویسته‌ بۆشایی پۆرته‌کان ته‌واو بکه‌یت.</string>
@@ -152,6 +150,7 @@
     <string name="bluetooth_device_context_disconnect">پچڕاندنی پەیوەندی</string>
     <string name="bluetooth_device_context_pair_connect">جووت بوون وamp; بەستنەوە</string>
     <string name="bluetooth_key_missing_cancel">لابردن</string>
+    <string name="device_details_battery">باتری</string>
     <string name="nfc_reboot_dialog_confirm">ده‌ستپێكردنه‌وه‌</string>
     <string name="external_display_on">چالاککردن</string>
     <string name="external_display_off">کوژاندنەوە</string>
@@ -193,7 +192,6 @@
     <string name="wifi_eap_user_cert">بڕوانامەی بەکارهێنەر</string>
     <string name="wifi_eap_identity">پێناسە</string>
     <string name="wifi_eap_anonymous">ناسنامەی بێ ناو</string>
-    <string name="wifi_password">نهێنووشە</string>
     <string name="wifi_show_password">نیشاندانی نهێنووشە</string>
     <string name="wifi_ip_settings">ڕێکبەندەکانی IP</string>
     <string name="wifi_privacy_device_name_settings">ناوی ئامێر</string>
@@ -302,6 +300,8 @@
     <string name="storage_wizard_slow_v2_continue">بەردەوامبون</string>
     <string name="battery_status_title">دۆخی باتری</string>
     <string name="battery_level_title">ئاستی پاتری</string>
+    <string name="when_to_show_hubmode_charging">کاتێک بارگاوی ئەکات</string>
+    <string name="when_to_show_hubmode_docked">کاتێک لە تابگەیە</string>
     <string name="apn_settings">APNs</string>
     <string name="apn_edit">دەستکاریکردنی access point</string>
     <string name="apn_not_set">دانەنراوە</string>
@@ -349,6 +349,7 @@
     <string name="tether_preference_summary_off">کوژاندنەوە</string>
     <string name="usb_tethering_button_text">USB ئەشكيل</string>
     <string name="bluetooth_tether_checkbox_text">بلوتوس پەیوەستکردن</string>
+    <string name="ethernet_ip_address">ناونیشانی ئای‌پی</string>
     <string name="tethering_help_button_text">یارمەتی</string>
     <string name="sms_change_default_dialog_title" translatable="true">گۆڕینی بەرنامەیSMS?</string>
     <string name="sms_change_default_dialog_text" translatable="true">بەکارهێنان<xliff:g id="new_app">%1$s</xliff:g> instead of <xliff:g id="current_app">%2$s</xliff:g> وەکوSMS app?</string>
@@ -360,6 +361,7 @@
     <string name="location_services_preference_title">خزمەتگوزاری ناوچەی</string>
     <string name="location_services_screen_title">خزمەتگوزاری ناوچەی</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">لابردن</string>
+    <string name="time_notifications_title">ئاگادارییه‌کان</string>
     <string name="about_settings_summary">پیشاندانی زانیاری یاسایی،بار،و وه‌شانی نه‌رمه‌کاڵڵا</string>
     <string name="legal_information">زانیاری یاسایی</string>
     <string name="copyright_title">مافی له‌به‌رگرتنه‌وه‌</string>
@@ -496,7 +498,6 @@
     <string name="keyboard_a11y_category">توانای ده‌ستپێگه‌شتن</string>
     <string name="physical_keyboard_title">تەختەکلیلی فیزیکی</string>
     <string name="keyboard_default_layout">بنێڕه‌ت</string>
-    <string name="trackpad_pointer_speed">خێرایی خاڵەر</string>
     <string name="pointer_stroke_style_name_white">سپی</string>
     <string name="pointer_stroke_style_name_black">ڕەش</string>
     <string name="pointer_stroke_style_name_none">هیچ</string>
@@ -504,7 +505,6 @@
     <string name="gesture_button_next">دواتر</string>
     <string name="gesture_button_restart">ده‌ستپێكردنه‌وه‌</string>
     <string name="gesture_button_done">ئه‌نجام درا</string>
-    <string name="trackpad_notifications_title">ئاگادارییه‌کان</string>
     <string name="modifier_keys_default_summary">بنێڕه‌ت</string>
     <string name="modifier_keys_done">ئه‌نجام درا</string>
     <string name="modifier_keys_cancel">لابردن</string>
@@ -697,7 +697,6 @@
     <string name="backup_configure_account_default_summary">هیچ هەژمارێک پاڵپشت نەکراوە</string>
     <string name="backup_erase_dialog_message">گەڕانەوەى Wi\u2011Fi  وشەى نهێنيت ڕا بگرە، پەڕتووك نيشانەكەر، دانانەوەى ديكە، و زانياريى بەرنامە، كۆ هەموو وێنە
  لەسەر سێرڤەرى گووگل لەناودەبات دات?</string>
-    <string name="admin_more_details">زیاتر بزانە</string>
     <string name="sound_category_call_ringtone_vibrate_title">زەنگی تەلەفۆن وamp; لەرینەوە</string>
     <string name="wifi_setup_detail">وردەکاری تۆڕ</string>
     <string name="accessibility_sync_enabled">ناردن چالاکرا</string>
@@ -764,17 +763,11 @@
     <string name="data_usage_limit_dialog_title">سنوورداركردنى بەكارهێنانى زانيارى</string>
     <string name="data_usage_uninstalled_apps">بەرنامەکە سڕایەوە</string>
     <string name="data_usage_uninstalled_apps_users">بەرنامەکە سڕایەوە و بەکارهێنەریش</string>
-    <string name="vpn_name">ناو</string>
     <string name="vpn_type">جۆر</string>
-    <string name="vpn_server">ناونیشانی تۆڕ</string>
-    <string name="vpn_ipsec_identifier">IPSec ناسێنەر</string>
-    <string name="vpn_ipsec_secret">IPSec کلیلی بەشدار</string>
     <string name="vpn_ipsec_user_cert">IPSec بڕوانامەی بەکارهێنەر</string>
     <string name="vpn_ipsec_ca_cert">IPSec CA بڕوانامە</string>
     <string name="vpn_ipsec_server_cert">IPSec بڕوانامەی خزمەتگوزاری</string>
     <string name="vpn_show_options">پیشاندانی بەربژاردەکانی پەرەسەندوو</string>
-    <string name="vpn_username">تێپەڕە وشە</string>
-    <string name="vpn_password">تێپەڕەوشە</string>
     <string name="vpn_save_login">پاشەکەوتکردنی زانیاری هەژمار</string>
     <string name="vpn_not_used">(بەکارنەهاتوە)</string>
     <string name="vpn_no_server_cert">(لە خزمەتگوزاریەوە پێیگەیشت)</string>
@@ -870,6 +863,9 @@
     <string name="zen_custom_settings_duration_header">ماوه‌</string>
     <string name="work_sync_dialog_yes">دلنیاکردنەوە</string>
     <string name="configure_notification_settings">ئاگادارییه‌کان</string>
+    <string name="notification_summarization_on">چالاککردن</string>
+    <string name="notification_summarization_off">کوژاندنەوە</string>
+    <string name="notification_summarization_manage_excluded_apps">ڕێکخستنی بەرنامەکان</string>
     <string name="bubbles_feature_disabled_button_cancel">لابردن</string>
     <string name="notifications_title">ئاگادارییه‌کان</string>
     <string name="clear">پاککردنه‌وه‌</string>
@@ -883,6 +879,7 @@
     <string name="interact_across_profiles_summary_not_allowed">نەبەستراوەتەوە</string>
     <string name="interact_across_profiles_switch_enabled">پێكه‌وه‌به‌سترا</string>
     <string name="interact_across_profiles_consent_dialog_permissions_title">یارمەتیەکان</string>
+    <string name="app_notification_settings">ڕێکخستنی بەرنامەکان</string>
     <string name="notification_content_block_title">نیشاندانی تێبینیەکان</string>
     <string name="notification_channel_sound_title">دەنگ</string>
     <string name="zen_mode_delete_rule_button">سڕینه‌وه‌</string>
@@ -923,6 +920,7 @@
     <string name="screen_zoom_preview_title">دەرخستن</string>
     <string name="disconnected">نەبەستراوەتەوە</string>
     <string name="keyboard_disconnected">نەبەستراوەتەوە</string>
+    <string name="disabled_by_advanced_protection_help_button_title">ڕێکخستنه‌کان</string>
     <string name="ethernet">ئێته‌رنێت</string>
     <string name="configure">رێکخستن</string>
     <string name="data_saver_on">چالاککردن</string>
@@ -970,6 +968,9 @@
     <string name="mobile_data_connection_active">پێكه‌وه‌به‌سترا</string>
     <string name="apps_dashboard_title">بەرنامەکان</string>
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
+    <string name="virtual_device_connected">پێكه‌وه‌به‌سترا</string>
+    <string name="virtual_device_disconnected">په‌یوه‌ندی پچڕا</string>
+    <string name="virtual_device_forget_dialog_confirm_button">لە یاد کردن</string>
     <string name="next_page_content_description">دواتر</string>
     <string name="bluetooth_connect_access_dialog_positive">گرێدان</string>
     <string name="dream_preview_button_title">دەرخستن</string>
@@ -1008,4 +1009,5 @@
     <string name="audio_streams_connect">گرێدان</string>
     <string name="audio_streams_connecting_summary">بەستنەوە\u2026</string>
     <string name="audio_streams_dialog_learn_more">زیاتر بزانە</string>
+    <string name="supervision_change_pin_preference_title">گۆڕینیPIN</string>
 </resources>
