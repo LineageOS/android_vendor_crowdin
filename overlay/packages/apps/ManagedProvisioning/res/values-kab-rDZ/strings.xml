@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:keep="@color/sud_system_*">
   <string name="provisioning_error_title">Ayhuh!</string>
   <string name="next">Uḍfiṛ</string>
   <string name="cancel_setup">Semmet</string>

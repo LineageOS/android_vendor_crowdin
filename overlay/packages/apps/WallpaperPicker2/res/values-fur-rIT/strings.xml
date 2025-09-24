@@ -84,7 +84,6 @@
     <string name="refresh_daily_wallpaper_home_content_description">Inzorne ogni dì il fonts de schermade di inizi</string>
     <string name="refresh_daily_wallpaper_content_description">Inzorne ogni dì il fonts</string>
     <string name="preview_screen_description">Schermade di anteprime dal fonts</string>
-    <string name="preview_screen_description_editable">Schermade di anteprime dal fonts %1$s. Dopre doi dêts par scori e ingrandî.</string>
     <string name="folded_device_state_description">Sierât</string>
     <string name="unfolded_device_state_description">Viert</string>
     <string name="full_preview_check_button_description">Finît di modificâ il fonts</string>
@@ -124,7 +123,6 @@
     <string name="previous_page_content_description" msgid="6025726405430262788">Indaûr</string>
     <string name="wallpaper_title">Fonts</string>
     <string name="wallpaper_preview_card_content_description">Anteprime dal fonts</string>
-    <string name="wallpaper_preview_card_content_description_editable">Anteprime di fonts di %1$s, tocje par modificâ la foto</string>
     <string name="lock_wallpaper_preview_card_content_description">Anteprime fonts de schermade di bloc</string>
     <string name="home_wallpaper_preview_card_content_description">Anteprime fonts de schermade di Inizi</string>
     <string name="collection_not_exist_msg">La colezion no esist</string>
@@ -157,6 +155,7 @@
     <string name="reset_confirmation_dialog_title">Anulâ lis modifichis?</string>
     <string name="reset_confirmation_dialog_message">Lis modifichis no vignaran salvadis</string>
     <string name="more_wallpapers">Altris fonts</string>
+    <string name="wallpapers">Fonts</string>
     <string name="recents_wallpaper_label">%1$s, %2$d</string>
     <string name="default_wallpaper_title">Fonts</string>
     <string name="small_preview_tooltip">Tocje par modificâ la tô foto</string>

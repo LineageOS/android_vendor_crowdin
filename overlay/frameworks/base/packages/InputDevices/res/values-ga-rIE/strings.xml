@@ -6,4 +6,6 @@
     <string name="keyboard_layout_montenegrin_latin">Montainéagrín (Laidin)</string>
     <string name="keyboard_layout_serbian_cyrillic">Seirbis (Coireallach)</string>
     <string name="keyboard_layout_montenegrin_cyrillic">Montainéagrín (Coireallach)</string>
+    <string name="keyboard_layout_romanian">Rómáinis</string>
+    <string name="keyboard_layout_english_india">Béarla (An India)</string>
 </resources>

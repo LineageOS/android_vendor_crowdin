@@ -25,7 +25,6 @@
     <string name="taskbar_edu_search_disclosure">Úsáideann an táirge seo an chuid roghnaithe de do scáileán chun cuardach a dhéanamh. Google\'s <xliff:g example="https://policies.google.com/privacy/embedded" id="begin_privacy_link">&lt;a href=\"%1$s\"&gt;</xliff:g>Polasaí Príobháideachta<xliff:g id="end_privacy_link">&lt;/a&gt;</xliff:g> agus <xliff:g example="https://policies.google.com/terms" id="begin_tos_link">&lt;a href=\"%2$s\"&gt;</xliff:g>Tá na Téarmaí Seirbhíse<xliff:g id="end_tos_link">&lt;/a&gt;</xliff:g> i bhfeidhm.</string>
     <string name="taskbar_a11y_shown_with_bubbles_left_title">Tascbharra &amp; boilgeoga ar chlé a thaispeántar</string>
     <string name="taskbar_a11y_shown_with_bubbles_right_title">Tascbharra &amp; boilgeoga ar dheis a thaispeántar</string>
-    <string name="taskbar_a11y_hidden_with_bubbles_title">Tascbharra &amp; boilgeoga i bhfolach</string>
     <string name="taskbar_overflow_a11y_title">Tascbharra Cuir thar maoil</string>
     <string name="quick_switch_overflow">{count, plural,
     one {}

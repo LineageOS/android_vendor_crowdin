@@ -24,6 +24,9 @@
     <string name="uwb_toggle_title">Leathanbhanda\u2011Ultra&amp; # 40;UWB)</string>
     <string name="uwb_toggle_summary">Cuidíonn sé le do charr suíomh na ngléasanna UWB a aithint</string>
     <string name="audio_route_selector_toast">Meáin á athrú go %1$s</string>
+    <string name="units_unit_name_kilowatt_hour">Cileavata-uair</string>
+    <string name="units_unit_name_kilowatt_per_hundred_miles">Cileavata-uair an chloig in aghaidh an chéad mhíle</string>
+    <string name="units_unit_name_kilowatt_per_hundred_kilometers">Cileavata-uair an chloig in aghaidh an chéad chiliméadar</string>
     <string name="aspect_ratio_label">Cóimheas gné (Turgnamhach)</string>
     <string name="aspect_ratio_action_button">Oscail</string>
     <string name="user_aspect_ratio_app_default">Réamhshocrú aip</string>
@@ -34,8 +37,16 @@
     <string name="user_aspect_ratio_3_2">3:2</string>
     <string name="user_aspect_ratio_4_3">4:3</string>
     <string name="app_aspect_ratio_footer">Atosóidh an aip nuair a athraíonn tú cóimheas gné. Seans go gcaillfidh tú athruithe gan sábháil. Seans nach mbeidh roinnt aipeanna optamaithe le haghaidh cóimheasa gné áirithe.</string>
+    <string name="app_open_by_default_title">Oscail de réir réamhshocraithe\"</string>
+    <string name="app_open_by_default_summary">Lig don aip naisc thacaithe a oscailt</string>
+    <string name="opening_links_verified_links_title">Naisc fhíoraithe</string>
+    <string name="opening_links_add_links_title">Cuir naisc leis</string>
+    <string name="app_launch_footer">Is féidir le haip naisc a fhíorú le hoscailt go huathoibríoch san aip.</string>
     <string name="alarms_and_reminders_title">Aláraim &amp; meabhrúcháin</string>
+    <string name="notification_listener_revoke_warning_summary">Má mhúchann tú rochtain fógraí do <xliff:g id="notification_listener_name">%1$s</xliff:g>, féadfar rialú Ná Cuir Isteach a mhúchadh freisin.</string>
     <string name="premium_sms_access_title">SMS préimhe</string>
+    <string name="usage_access_title">Sonraí úsáide aipeanna</string>
+    <string name="usage_access_description">Le rochtain ar shonraí úsáide aipeanna go léir, is féidir le haip rianú a dhéanamh ar na haipeanna eile atá á n-úsáid agat agus cé chomh minic, chomh maith le do iompróir, socruithe teanga agus sonraí eile.</string>
     <string name="location_infotainment_apps_toggle_title">Aipeanna faisnéise</string>
     <string name="location_infotainment_apps_toggle_summary">        Ceadaigh d\'aipeanna rochtain a bheith acu ar do shuíomh
     </string>

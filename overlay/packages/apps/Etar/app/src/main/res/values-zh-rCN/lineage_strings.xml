@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="user_rejected_calendar_write_permission_lineage">日历需要日历读取和写入权限才能正常工作。请重试。</string>
+    <string name="preferences_menu_about_lineage">关于日历</string>
+</resources>

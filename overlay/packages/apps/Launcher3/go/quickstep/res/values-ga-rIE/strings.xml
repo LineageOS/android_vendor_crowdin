@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_share_drop_target_label">Comhroinn Aip</string>
+    <string name="action_listen">Éist</string>
+    <string name="action_translate">Aistrigh</string>
+    <string name="action_search">Lionsa</string>
+    <string name="dialog_acknowledge">TUIGIM</string>
+    <string name="dialog_cancel">CEALAIGH</string>
+    <string name="dialog_settings">SOCRUITHE</string>
+    <string name="niu_actions_confirmation_title">Aistrigh nó éist le téacs ar an scáileán</string>
+    <string name="niu_actions_confirmation_text">Is féidir faisnéis ar nós téacs ar do scáileán, seoltaí gréasáin agus scáileáin scáileáin a chomhroinnt le Google.\n\nChun an fhaisnéis a roinneann tú a athrú, téigh go <b>Socruithe &gt; Feidhmchláir &gt; Aipeanna réamhshocraithe &gt; Aip cúntóir digiteach</b>.</string>
+    <string name="assistant_not_selected_title">Roghnaigh cúntóir chun an ghné seo a úsáid</string>
+    <string name="assistant_not_selected_text">Chun éisteacht le téacs ar do scáileán nó é a aistriú, roghnaigh aip cúntóir digiteach sna Socruithe</string>
+    <string name="assistant_not_supported_title">Athraigh do chúntóir chun an ghné seo a úsáid</string>
+</resources>

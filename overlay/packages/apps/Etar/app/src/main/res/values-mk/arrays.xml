@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="timezone_rename_labels">
+        <item>"Ц. Австралија - С. Територија"</item>
+        <item>"Ц. Австралија - Ј. Територија"</item>
+        <item>"Австралиско источно - Квинсленд"</item>
+        <item>"И. Австралија - Нов Јужен Велс"</item>
+        <item>"Планинско стандардно- Досон Kрик"</item>
+        <item>"Централно стандардно- Саскачеван"</item>
+        <item>"Источно стандарно - Атитокан"</item>
+        <item>"Атлантско стандардно - Квебек"</item>
+        <item>"Хавајско-алеутско време - Хаваи"</item>
+        <item>"Хавајско-алеутско - Алјаска"</item>
+        <item>"Пацифик-стандардно - Метлакатла"</item>
+        <item>"Планинско стандардно - Аризона"</item>
+        <item>"Пацифик - Баха Калифорнија"</item>
+        <item>"Планинско време - Чивава"</item>
+        <item>"Централно време - Тамаулипас"</item>
+        <item>"Планинско време - Сонора"</item>
+        <item>"Источно африканско време"</item>
+        <item>"Атлантско стандардно време"</item>
+        <item>"Атлантско стандардно време"</item>
+        <item>"Источно европско време"</item>
+        <item>"Калининградско време"</item>
+        <item>"Амазонско време - Рондонија"</item>
+        <item>"Часовна зона Бразилија - Пара"</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>"Св. Мартен"</item>
+        <item>"Карипска Холандија"</item>
+        <item>"Курасао"</item>
+        <item>"Јужен Судан"</item>
+    </string-array>
+</resources>
