@@ -99,6 +99,5 @@
     <string name="settings_backlight_description">Soilsiú na cnaipí ar an gcianrialtán ar gach preas.</string>
     <string name="backlight_slice_description">Ar chianrialtáin Google TV a dtacaítear leo, má bhrúnn tú an cnaipe ar na cianrialtáin, gníomhóidh sé soilsiú cúlsholais.</string>
     <string name="volume_change_settings_title">%1$s toirt</string>
-    <string name="volume_change_subtitle_unselect">Is féidir leat an toirt Cúntóir ar chainteoir %1$s a rialú</string>
     <string name="volume_change_subtitle_select">Ní chuireann sé isteach ach ar an toirt ar ghléas %1$s , ní ar an teilifís</string>
 </resources>

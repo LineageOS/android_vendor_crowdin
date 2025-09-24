@@ -50,6 +50,11 @@
         <item>Non</item>
         <item>Sí</item>
     </string-array>
+    <string-array name="tile_states_modes_dnd">
+        <item>Nun ta disponible</item>
+        <item>Non</item>
+        <item>Sí</item>
+    </string-array>
     <string-array name="tile_states_flashlight">
         <item>Nun ta disponible</item>
         <item>Non</item>
@@ -186,6 +191,11 @@
         <item>Sí</item>
     </string-array>
     <string-array name="tile_states_notes">
+        <item>Nun ta disponible</item>
+        <item>Non</item>
+        <item>Sí</item>
+    </string-array>
+    <string-array name="tile_states_desktopeffects">
         <item>Nun ta disponible</item>
         <item>Non</item>
         <item>Sí</item>

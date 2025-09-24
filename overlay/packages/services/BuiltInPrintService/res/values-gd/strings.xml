@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Seirbheis clò-bhualaidh bhunaiteach</string>
     <string name="printer_busy">Trang</string>
     <string name="printer_out_of_paper">Chan eil pàipear air fhàgail</string>
@@ -69,10 +69,8 @@
         <xliff:g example="192.168.0.101" id="ip_address">%1$s</xliff:g>
 leis an lìonra làithreach    </string>
     <string name="recommendation_summary">Bheir seirbheis bhunaiteach a’ chlò-bhualaidh roghainnean bunasach dhut. Dh’fhaoidte gum bi roghainnean eile ri fhaighinn dhan chlò-bhualadair seo o sheirbheis clò-bhualaidh eile.</string>
-    <string name="recommendations_heading">Seirbheisean a mholamaid</string>
     <string name="recommendation_install_summary">Tagh gus a stàladh</string>
     <string name="recommendation_enable_summary">Tagh seo gus a chur an comas</string>
-    <string name="recommendation_manage">Stiùir na seirbheisean</string>
     <string name="security">Tèarainteachd</string>
     <string name="certificate_update_request">Thug an clò-bhualadair seachad teisteanas tèarainteachd ùr no tha
         uidheam eile a’ dol ’na riochd. A bheil thu airson gabhail ris an teisteanas ùr?</string>

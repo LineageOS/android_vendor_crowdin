@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="genre_labels" translatable="true">
         <item>All channels</item>
-        <item>Гаилә һәм балалар</item>
+        <item>Family/Kids</item>
         <item>Sports</item>
         <item>Shopping</item>
         <item>Movies</item>

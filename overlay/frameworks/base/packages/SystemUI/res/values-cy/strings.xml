@@ -98,7 +98,6 @@
     <string name="screenrecord_title">Recordydd Sgrin</string>
     <string name="screenrecord_background_processing_label">Prosesu recordiad sgrin</string>
     <string name="screenrecord_channel_description">Hysbysiad i ddangos bod y sgrin yn cael ei recordio</string>
-    <string name="screenrecord_permission_dialog_option_text_entire_screen">Recordio\u2019r sgrin gyfan</string>
     <string name="screenrecord_audio_label">Recordio sain</string>
     <string name="screenrecord_device_audio_label">Sain dyfais</string>
     <string name="screenrecord_device_audio_description">Sain o dy ddyfais, megis cerddoriaeth, galwadau a thonau canu</string>
@@ -191,8 +190,7 @@
     <string name="accessibility_bluetooth_connected">Bluetooth wedi cysylltu.</string>
     <string name="accessibility_bluetooth_device_icon">Eicon dyfais Bluetooth</string>
     <string name="accessibility_bluetooth_device_settings_gear">Clicia i ffurfweddu manylion dyfais</string>
-    <string name="accessibility_bluetooth_device_settings_see_all">Clicia i weld pob dyfais</string>
-    <string name="accessibility_bluetooth_device_settings_pair_new_device">Clicia i baru dyfais newydd</string>
+    <string name="accessibility_bluetooth_device_settings_pair_new_device">Paru â dyfais newydd</string>
     <string name="accessibility_battery_unknown">Canran y batri yn anhysbys.</string>
     <string name="accessibility_bluetooth_name">Wedi cysylltu â <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
     <string name="accessibility_cast_name">Wedi cysylltu gyda <xliff:g id="cast" example="TV">%s</xliff:g>.</string>
@@ -338,6 +336,9 @@
     <string name="quick_settings_onehanded_label">Modd un llaw</string>
     <string name="quick_settings_pair_hearing_devices">Paru â dyfais newydd</string>
     <string name="accessibility_hearing_device_pair_new_device">Clicia i baru dyfais newydd</string>
+    <string name="hearing_devices_ambient_control_left">Chwith</string>
+    <string name="hearing_devices_ambient_control_right">De</string>
+    <string name="hearing_devices_settings_button">Gosodiadau</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">Dadrwystro meicroffon y ddyfais?</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">Dadrwystro camera\u2019r dyfais?</string>
     <string name="sensor_privacy_start_use_mic_camera_dialog_title">Dadrwystro camera a meicroffon y ddyfais?</string>
@@ -414,7 +415,6 @@
     <string name="button_text_to_open_settings">Agor gosodiadau</string>
     <string name="accessibility_action_label_edit_widgets">Ffurfweddu teclynnau</string>
     <string name="communal_widgets_disclaimer_button">Deall yn iawn</string>
-    <string name="glanceable_hub_lockscreen_affordance_action_button_label">Gosodiadau</string>
     <string name="accessibility_multi_user_switch_switcher">Newid defnyddiwr</string>
     <string name="accessibility_multi_user_list_switcher">dewislen tynnu i lawr</string>
     <string name="guest_exit_guest_dialog_message">Caiff holl apiau a data\'r sesiwn hon eu dileu.</string>
@@ -591,7 +591,7 @@
     <string name="rotation_lock_camera_rotation_on">Ymlaen - Ar sail wyneb</string>
     <string name="inline_done_button">Cwblhau</string>
     <string name="inline_ok_button">Gosod</string>
-    <string name="inline_turn_off_notifications">Diffodd hysbysiadau</string>
+    <string name="inline_turn_off_notifications">Diffodd</string>
     <string name="notification_silence_title">Distaw</string>
     <string name="notification_automatic_title">Awtomatig</string>
     <string name="notification_channel_summary_low">Dim sain na dirgryniad</string>
@@ -608,6 +608,7 @@
     <string name="notification_channel_summary_priority_all">I\u2019w gweld ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin cloi, yn ymddangos fel swigen, yn anwybyddu Paid â Tharfu</string>
     <string name="notification_priority_title">Blaenoriaeth</string>
     <string name="no_shortcut">Nid yw <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> yn cefnogi nodweddion sgwrsio</string>
+    <string name="notification_inline_dismiss">Diystyru</string>
     <string name="notification_unblockable_desc">Ni ellir addasu\'r hysbysiadau hyn.</string>
     <string name="notification_unblockable_call_desc">Ni ellir addasu\'r hysbysiadau galwadau.</string>
     <string name="notification_multichannel_desc">Ni ellir ffurfweddu\'r grŵp hwn o hysbysiadau yma</string>
@@ -673,7 +674,6 @@
     <string name="keyboard_shortcut_group_system_back">Nôl</string>
     <string name="keyboard_shortcut_group_system_notifications">Hysbysiadau</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Bysellau Brys</string>
-    <string name="keyboard_shortcut_group_system_switch_input">Newid gosodiad y bysellfwrdd</string>
     <string name="keyboard_shortcut_search_list_title">Bysellau Brys</string>
     <string name="keyboard_shortcut_search_category_system">System</string>
     <string name="keyboard_shortcut_search_category_input">Mewnbwn</string>
@@ -743,9 +743,7 @@
     <string name="tuner_low_priority">Dangos eiconau hysbysiadau blaenoriaeth isel</string>
     <string name="other">Arall</string>
     <string name="accessibility_qs_edit_remove_tile_action">tynnu\'r teilsen</string>
-    <string name="accessibility_qs_edit_tile_add_action">ychwanegu teilsen i\'r diwedd</string>
     <string name="accessibility_qs_edit_tile_start_move">Symud teilsen</string>
-    <string name="accessibility_qs_edit_tile_start_add">Ychwanegu teilsen</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Symud i <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_add_to_position">Ychwanegu i safle <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_position">Safle <xliff:g id="position" example="5">%1$d</xliff:g></string>
@@ -760,7 +758,6 @@
     <string name="accessibility_quick_settings_choose_user_action">dewisa ddefnyddiwr</string>
     <string name="data_connection_no_internet">Dim rhyngrwyd</string>
     <string name="accessibility_quick_settings_open_settings">Agor gosodiadau <xliff:g name="page" example="Bluetooth">%s</xliff:g>.</string>
-    <string name="accessibility_quick_settings_edit">Golygu trefn y gosodiadau</string>
     <string name="accessibility_quick_settings_power_menu">Dewislen pŵer</string>
     <string name="accessibility_quick_settings_page">Tudalen <xliff:g name="current_page" example="1">%1$d</xliff:g> o <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
     <string name="tuner_lock_screen">Sgrin cloi</string>
@@ -921,7 +918,6 @@ two {Ychwanegwyd # reolydd.}
     <string name="controls_media_close_session">Cuddio\u2019r rheolydd cyfryngau hwn ar gyfer <xliff:g id="app_name" example="Foo Music App">%1$s</xliff:g>?</string>
     <string name="controls_media_active_session">Ni ellir cuddio\u2019r sesiwn cyfryngau cyfredol.</string>
     <string name="controls_media_dismiss_button">Cuddio</string>
-    <string name="controls_media_resume">Parhau</string>
     <string name="controls_media_settings_button">Gosodiadau</string>
     <string name="controls_media_playing_item_description">Mae <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> gan <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> yn chwarae o <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> o <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
@@ -963,7 +959,6 @@ two {Ychwanegwyd # reolydd.}
     <string name="media_output_dialog_disconnected">(wedi datgysylltu)</string>
     <string name="media_output_dialog_connect_failed">Methu newid. Tapia i geisio eto.</string>
     <string name="media_output_dialog_pairing_new">Cysylltu â dyfais</string>
-    <string name="media_output_dialog_launch_app_text">I fwrw\u2019r sesiwn hon, agora\u2019r ap.</string>
     <string name="media_output_dialog_unknown_launch_app_name">Ap anhysbys</string>
     <string name="media_output_dialog_button_stop_casting">Stopio taflu</string>
     <string name="media_output_dialog_accessibility_title">Dyfeisiau ar gael ar gyfer allbwn sain.</string>
@@ -1031,7 +1026,6 @@ two {Ychwanegwyd # reolydd.}
     <string name="accessibility_enter_hint">rho ddyfais</string>
     <string name="keyguard_try_fingerprint">Defnyddio ôl bys i\u2019w agor</string>
     <string name="accessibility_fingerprint_bouncer">Angen dilysu. Cyffyrdda\u2019r synhwyrydd ôl bys i ddilysu.</string>
-    <string name="ongoing_phone_call_content_description">Galwad ffôn ar y gweill</string>
     <string name="mobile_data_settings_title">Data symudol</string>
     <string name="mobile_data_connection_active">Wedi cysylltu</string>
     <string name="mobile_data_temp_connection_active">Cysylltwyd dros dro</string>
@@ -1130,6 +1124,7 @@ many {Mae # ap yn weithredol}
     <string name="privacy_dialog_done_button">Cwblhau</string>
     <string name="privacy_dialog_collapse_action">Lleihau</string>
     <string name="shortcut_helper_category_system">System</string>
+    <string name="shortcutHelper_category_accessibility">Hygyrchedd</string>
     <string name="shortcut_helper_category_input">Mewnbwn</string>
     <string name="shortcut_helper_category_a11y">Hygyrchedd</string>
     <string name="shortcut_helper_customize_button_text">Addasu</string>
@@ -1138,5 +1133,6 @@ many {Mae # ap yn weithredol}
     <string name="shortcut_helper_customize_dialog_remove_button_label">Tynnu</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Diddymu</string>
     <string name="touchpad_tutorial_done_button">Cwblhau</string>
+    <string name="touchpad_tutorial_next_button">Nesaf</string>
     <string name="volume_undo_action">Dad-wneud</string>
 </resources>

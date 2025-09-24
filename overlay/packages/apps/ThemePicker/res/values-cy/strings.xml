@@ -17,7 +17,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Papur wal ac arddull</string>
     <string name="theme_title">Arddull</string>
-    <string name="clock_title">Cloc Dy Hun</string>
     <string name="clock_description">Dewis cloc dy hun</string>
     <string name="clock_picker_entry_content_description">Newid cloc dy hun</string>
     <string name="select_clock_action_description">Dewisiad wyneb cloc: <xliff:g name="clock_face_description">%1$s</xliff:g></string>
@@ -105,7 +104,6 @@
     <string name="accessibility_clock_slider_description">Arddwysedd lliw</string>
     <string name="mode_title" msgid="1000319159005403986">Thema dywyll</string>
     <string name="mode_disabled_msg" msgid="1926077857799715086">Wedi\u2019i analluogi dros dro oherwydd Arbedwr Batri</string>
-    <string name="mode_changed">Thema wedi\'i newid</string>
     <string name="themed_icon_title" msgid="4305612684940220645">Eiconau themâu</string>
     <string name="beta_title">Beta</string>
     <string name="gird_picker_entry_content_description" msgid="7538418512525897691">Newid grid apiau</string>
@@ -131,7 +129,6 @@
     <string name="keyguard_quick_affordance_two_selected_template"><xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g></string>
     <string name="keyguard_quick_affordance_none_selected">Dim</string>
     <string name="show_notifications_on_lock_screen">Dangos hysbysiadau ar y sgrin cloi</string>
-    <string name="more_settings_section_title">Rhagor o ddewisiadau sgrin cloi</string>
     <string name="more_settings_section_description">Preifatrwydd, Yn Chwarae Nawr, a rhagor</string>
     <string name="more_colors">Rhagor o Liwiau</string>
     <string name="content_description_dynamic_color_option">Prif thema ddynamig</string>

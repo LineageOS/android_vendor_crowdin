@@ -833,7 +833,6 @@
     <string name="fingerprint_acquired_power_press">Primióse\'l botón d\'encendíu</string>
     <string name="fingerprint_acquired_try_adjusting">Prueba a mover el deu</string>
     <string name="fingerprint_acquired_immobile">Camuda llixeramente la posición del deu en cada intentu</string>
-    <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Nun se reconoció la buelga</string>
     <string name="fingerprint_udfps_error_not_match">Nun se reconoció la buelga</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Nun se reconoció la cara. Usa la buelga.</string>
@@ -858,7 +857,6 @@
     <string name="fingerprint_or_screen_lock_app_setting_name">Usar la buelga o\'l bloquéu de pantalla</string>
     <string name="fingerprint_dialog_default_subtitle">Pa siguir, usa la buelga</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Pa siguir, usa la buelga o\'l bloquéu de pantalla</string>
-    <string-array name="fingerprint_error_vendor"/>
     <string name="fingerprint_error_vendor_unknown">Prodúxose un error. Volvi tentalo.</string>
     <string name="fingerprint_icon_content_description">Iconu de buelga</string>
     <string name="device_unlock_notification_name">Desbloquéu del preséu</string>
@@ -895,7 +893,6 @@
     <string name="face_acquired_recalibrate_alt">Nun se pue crear el modelu facial. Volvi tentalo.</string>
     <string name="face_acquired_dark_glasses_detected_alt">Detectáronse lentes escures. La cara ha tar completamente visible.</string>
     <string name="face_acquired_mouth_covering_detected_alt">Detectóse que la cara ta cubierta. La cara ha tar completamente visible.</string>
-    <string-array name="face_acquired_vendor"/>
     <string name="face_error_hw_not_available">Nun se pue verificar la cara. El hardware nun ta disponible.</string>
     <string name="face_error_timeout">Volvi probar el desbloquéu facial</string>
     <string name="face_error_no_space">P\'atroxar los datos faciales nuevos, desanicia los antiguos.</string>
@@ -913,7 +910,6 @@
     <string name="face_or_screen_lock_app_setting_name">Usar la cara o\'l bloquéu de pantalla</string>
     <string name="face_dialog_default_subtitle">Usa la cara pa siguir</string>
     <string name="face_or_screen_lock_dialog_default_subtitle">Pa siguir, usa la cara o\'l bloquéu de pantalla</string>
-    <string-array name="face_error_vendor"/>
     <string name="face_error_vendor_unknown">Prodúxose un error. Volvi tentalo.</string>
     <string name="face_icon_content_description">Iconu facial</string>
     <string name="permlab_readSyncSettings">llectura de la configuración de sincronización</string>
@@ -2104,6 +2100,7 @@
     <string name="one_handed_mode_feature_name">Mou d\'una mano</string>
     <string name="reduce_bright_colors_feature_name">Escurecimientu adicional</string>
     <string name="hearing_aids_feature_name">Audífonos</string>
+    <string name="hearing_device_status_loading">Cargando</string>
     <string name="accessibility_shortcut_enabling_service">Tuviéronse primíes les tecles del volume. Activóse «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>».</string>
     <string name="accessibility_shortcut_disabling_service">Tuviéronse primíes les tecles del volume. Desactivóse «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>».</string>
     <string name="accessibility_shortcut_spoken_feedback">Suelta los botones del volume. P\'activar el serviciu «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>», volvi tener primíos los dos botones del volume demientres 3 segundos.</string>
@@ -2114,7 +2111,8 @@
     <string name="accessibility_gesture_instructional_text">Esta función va abrise la próxima vegada qu\'uses esti atayu. Esliza p\'arriba con 2 deos dende lo baxero de la pantalla y quítalos aína.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Esta función va abrise la próxima vegada qu\'uses esti atayu. Esliza p\'arriba con 3 deos dende lo baxero de la pantalla y quítalos aína.</string>
     <string name="accessibility_magnification_chooser_text">Agrandamientu</string>
-    <string name="user_switched">Usuariu actual: <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
+    <string name="hearing_device_notification_switch_button">Cambiar</string>
+    <string name="hearing_device_notification_settings_button">Configuración</string>
     <string name="user_switching_message">Cambiando a «<xliff:g id="name" example="Bob">%1$s</xliff:g>»\u2026</string>
     <string name="user_logging_out_message">Zarrando la sesión de «<xliff:g id="name" example="Bob">%1$s</xliff:g>»\u2026</string>
     <string name="owner_name" msgid="3879126011135546571">Propietariu</string>
@@ -2256,7 +2254,6 @@
     <string name="lock_to_app_unlock_pattern">Pidir el patrón de desbloquéu enantes de lliberar</string>
     <string name="lock_to_app_unlock_password">Pidir la contraseña enantes de lliberar</string>
     <string name="package_installed_device_owner">L\'alministrador instaló l\'aplicación.\nVe a la configuración pa ver los permisos concedíos</string>
-    <string name="package_updated_device_owner">L\'alministrador anovó l\'aplicación</string>
     <string name="package_deleted_device_owner">L\'alministrador desanició l\'aplicación</string>
     <string name="confirm_battery_saver">OK</string>
     <string name="battery_saver_description_with_learn_more">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones y dalgunes conexones a la rede.</string>
@@ -2590,6 +2587,7 @@
     <string name="accessibility_system_action_dpad_left_label">Cruceta direicional: esquierda</string>
     <string name="accessibility_system_action_dpad_right_label">Cruceta direicional: derecha</string>
     <string name="accessibility_system_action_dpad_center_label">Cruceta direicional: centru</string>
+    <string name="accessibility_autoclick_pause">Posar</string>
     <string name="as_app_forced_to_restricted_bucket">        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> incluyóse nel grupu TÓRGASE</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">unvió una imaxe</string>

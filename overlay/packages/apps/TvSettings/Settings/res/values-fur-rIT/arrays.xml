@@ -26,6 +26,8 @@
         <item>20 minûts</item>
         <item>30 minûts</item>
         <item>1 ore</item>
+        <item>2 oris</item>
+        <item>3 hours</item>
         <item>4 oris</item>
         <item>8 oris</item>
         <item>12 oris</item>
@@ -114,12 +116,6 @@
         <item>Bas (20%)</item>
         <item>Medi (50%)</item>
         <item>Alt (80%)</item>
-    </string-array>
-    <string-array name="volume_change_entry_values">
-        <item>0</item>
-        <item>0,2</item>
-        <item>0.5</item>
-        <item>0,8</item>
     </string-array>
     <string-array name="backlight_modes">
         <item>Mai</item>

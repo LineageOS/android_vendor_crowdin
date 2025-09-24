@@ -14,14 +14,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="printer_busy">Yecɣel</string>
     <string name="printer_offline">Beṛṛa n tuqqna</string>
     <string name="add">Rnu</string>
     <string name="forget">Ttu</string>
     <string name="recommendation_install_summary">Fren akken ad tesbedded</string>
     <string name="recommendation_enable_summary">Fren akken ad tremded</string>
-    <string name="recommendation_manage">Sefrek Imeẓla</string>
     <string name="security">Taγellist</string>
     <string name="accept">Qbel</string>
     <string name="reject">Agi</string>

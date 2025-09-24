@@ -33,7 +33,6 @@
     <string name="header_category_general_settings">Na roghainnean coitcheann</string>
     <string name="dismiss_suggestion">Leig seachad am moladh</string>
     <string name="hotwording_title">Mothachadh dha “OK Google”</string>
-    <string name="hotwording_summary">Bruidhinn ri Google Assistant uair sam bith</string>
     <string name="header_category_device">Uidheam</string>
     <string name="header_category_preferences">Roghainnean</string>
     <string name="header_category_personal">Pearsanta</string>
@@ -722,8 +721,6 @@
     <string name="manage_keyboards">Stiùir na meur-chlàran</string>
     <string name="app_permission_summary_allowed">Ceadaichte</string>
     <string name="app_permission_summary_not_allowed">Gun chead</string>
-    <string name="usage_access">Inntrigeadh dhan chleachdadh</string>
-    <string name="usage_access_description">Leigidh inntrigeadh dhan chleachdadh le aplacaid gun tracaich i dè na h-aplacaidean eile a chleachdas tu agus dè cho tric, co math ris a’ ghiùlanair agad, na roghainnean cànain agad is mion-fhiosrachadh eile.</string>
     <string name="high_power_apps">Piseachadh na cumhachd</string>
     <string name="high_power_apps_description">Pisich an uiread a chumhachd a chaitheas aplacaidean</string>
     <string name="high_power_apps_empty">Chan eil aplacaid feumach air piseachadh</string>

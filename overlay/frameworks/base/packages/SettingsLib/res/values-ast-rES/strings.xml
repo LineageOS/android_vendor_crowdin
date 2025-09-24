@@ -505,6 +505,7 @@
     <string name="disabled_by_admin_summary_text">Opción controlada pol alministrador</string>
     <string name="disabled_by_app_ops_text">Preferencia controlada poles opciones restrinxíes</string>
     <string name="disabled">Desactivóse</string>
+    <string name="enabled">Activóse</string>
     <string name="external_source_trusted">Con permisu</string>
     <string name="external_source_untrusted">Ensin permisu</string>
     <string name="install_other_apps">Instalación d\'aplicaciones desconocíes</string>

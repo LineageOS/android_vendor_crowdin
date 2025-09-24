@@ -55,8 +55,6 @@
     <string name="screenrecord_background_processing_label">Esecutende sa registratzione de s\'ischermu</string>
     <string name="screenrecord_permission_dialog_title">Boles registrare s\'ischermu tuo?</string>
     <string name="screenrecord_permission_dialog_option_text_single_app">Registra un\'aplicatzione</string>
-    <string name="screenrecord_permission_dialog_option_text_entire_screen">Registra s\'ischermu intreu</string>
-    <string name="screenrecord_permission_dialog_option_text_entire_screen_for_display">Registra s\'ischermu intreu: %s</string>
     <string name="screenrecord_permission_dialog_warning_entire_screen">Cando ses registrende s\'ischermu intreu, cale si siat elementu visìbile in s\'ischermu at a èssere registradu. Faghe atentzione a is craes, informatziones de pagamentos, messàgios, fotografias, àudio e vìdeu.</string>
     <string name="screenrecord_permission_dialog_warning_single_app">Cando ses registrende un\'aplicatzione, cale si siat elementu visìbile o riproduidu in cussa aplicatzione at a èssere registradu. Faghe atentzione a is craes, informatziones de pagamentos, messàgios, fotografias, àudio e vìdeu.</string>
     <string name="screenrecord_permission_dialog_continue_entire_screen">Registra s\'ischermu</string>
@@ -205,6 +203,7 @@
     <string name="hearing_devices_preset_label">Precunfiguratzione</string>
     <string name="hearing_devices_spinner_item_selected">Seletzionadu</string>
     <string name="hearing_devices_tools_label">Ainas</string>
+    <string name="hearing_devices_settings_button">Impostatziones</string>
     <string name="quick_settings_notes_label">Nota</string>
     <string name="zen_modes_dialog_title">Modalidades</string>
     <string name="zen_modes_dialog_done">Fatu</string>
@@ -257,9 +256,6 @@
     <string name="communal_widgets_disclaimer_title">Trastos de s\'ischermada de blocu</string>
     <string name="communal_widgets_disclaimer_text">Pro abèrrere un\'aplicatzione impreende unu trastu, as a dèpere averguare chi ses tue. Tene puru in contu chi cale si siat persone dd\'at a pòdere bìdere, fintzas cun sa tauledda blocada. Podet èssere chi tzertos trastos no siant istados creados pro su blocu de ischermu, e duncas non siat seguru a ddos agiùnghere inoghe.</string>
     <string name="communal_widgets_disclaimer_button">AB</string>
-    <string name="glanceable_hub_lockscreen_affordance_label">Trastos</string>
-    <string name="glanceable_hub_lockscreen_affordance_disabled_text">Pro agiùnghere su curtzadòrgiu «Trastos», assegura·ti chi «Ammustra is trastos in s\'ischermu de blocu» siat ativu in is cunfiguratziones.</string>
-    <string name="glanceable_hub_lockscreen_affordance_action_button_label">Impostatziones</string>
     <string name="accessibility_multi_user_switch_switcher">Càmbia utente</string>
     <string name="guest_exit_guest_dialog_message">Totu is aplicatziones e datos in custa sessione ant a èssere cantzellados.</string>
     <string name="guest_wipe_session_message">Boles sighire sa sessione tua?</string>
@@ -353,7 +349,6 @@
     <string name="alarm_template_far">su <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
     <string name="accessibility_status_bar_hotspot">Puntu de atzessu Wi-Fi</string>
     <string name="satellite_connected_carrier_text">SOS satellitare</string>
-    <string name="satellite_emergency_only_carrier_text">Mutidas de emergèntzia o SOS</string>
     <string name="accessibility_managed_profile">Profilu de traballu</string>
     <string name="tuner_warning_title">Ispàssiu isceti pro calicuna persone</string>
     <string name="tuner_warning">S\'afinadore de s\'IU de sistema ti dat maneras in prus pro cambiare e personalizare s\'interfache utente Android. Custas funtzionalidades isperimentales si podent cambiare, segare o isparèssere in versiones benidoras. Sighi cun coidadu.</string>
@@ -367,6 +362,7 @@
     <string name="enable_bluetooth_confirmation_ok">Ativa</string>
     <string name="inline_done_button">Fatu</string>
     <string name="inline_ok_button">Àplica</string>
+    <string name="inline_turn_off_notifications">Istuda</string>
     <string name="notification_channel_summary_low">Perunu sonu o vibratzione</string>
     <string name="notification_conversation_summary_low">Nissunu sonu o vibratzione, ma at a aparèssere ancora in sa setzione de is resonadas</string>
     <string name="notification_priority_title">Prioridade</string>
@@ -382,11 +378,8 @@
     <string name="keyboard_shortcut_group_system_multitasking">Multitarea</string>
     <string name="system_multitasking_rhs">Imprea sa modalidade de ischermu partzidu cun s\'aplicatzione a dereta</string>
     <string name="system_multitasking_lhs">Imprea sa modalidade de ischermu partzidu cun s\'aplicatzione a manca</string>
-    <string name="system_multitasking_full_screen">Càmbia a ischermu in mannària prena</string>
     <string name="tuner_time">Ora</string>
-    <string name="accessibility_qs_edit_tile_start_add">Agiunghe casella</string>
     <string name="accessibilit_qs_edit_tile_add_move_invalid_position">Sa positzione no est vàlida.</string>
-    <string name="finder_active">Podes agatare custu telèfonu cun Agata su telèfonu fintzas cando est istudadu</string>
     <string name="shutdown_progress">Istudende\u2026</string>
     <string name="tuner_menu">Menù</string>
     <string name="app_info">Informatziones de s\'aplicatzione</string>
@@ -399,7 +392,6 @@
     <string name="controls_dialog_remove">Boga</string>
     <string name="controls_settings_dialog_neutral_button">No, gràtzias</string>
     <string name="controls_media_dismiss_button">Cua</string>
-    <string name="controls_media_resume">Torra a cumintzare</string>
     <string name="controls_media_settings_button">Impostatziones</string>
     <string name="controls_media_playing_item_description"><xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> de <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> s\'est reproduende dae <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
     <string name="controls_media_button_play">Reprodue</string>
@@ -435,7 +427,6 @@
     <string name="shortcut_helper_content_description_drag_handle">Trìsina su mànigu</string>
     <string name="shortcut_helper_customize_dialog_remove_button_label">Boga</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Annulla</string>
-    <string name="shortcut_customizer_key_combination_in_use_error_message">Custa cumbinatzione de teclas est giai impreada. Proa·nde un\'àtera.</string>
     <string name="shortcut_customizer_generic_error_message">Custu curtzadòrgiu non si podet cunfigurare.</string>
     <string name="shortcut_helper_plus_symbol">+</string>
     <string name="launch_keyboard_tutorial_notification_title">Nàviga impreende su tecladu</string>
@@ -454,6 +445,7 @@
     <string name="touchpad_home_gesture_success_title">Bellu traballu!</string>
     <string name="touchpad_recent_apps_gesture_success_title">Bene fatu!</string>
     <string name="touchpad_recent_apps_gesture_success_body">As cumpletadu su gestu pro bìdere is aplicatziones reghentes.</string>
+    <string name="touchpad_switch_apps_gesture_success_title">Bene fatu!</string>
     <string name="tutorial_action_key_title">Bide totu is aplicatziones</string>
     <string name="tutorial_action_key_success_title">Bene fatu!</string>
     <string name="tutorial_action_key_success_body">As cumpletadu su gestu pro bìdere totu is aplicatziones</string>
@@ -462,7 +454,7 @@
     <string name="overview_edu_toast_content">Pro bìdere is aplicatziones reghentes, iscurre cara a artu e mantene cun tres pòddighes in su pannellu tàtile</string>
     <string name="all_apps_edu_toast_content">Pro bìdere totu is aplicatziones, incarca sa tecla de atzione in su tecladu</string>
     <string name="redacted_notification_single_line_title">Currègidu</string>
-    <string name="redacted_notification_single_line_text">Isbloca pro bìdere</string>
+    <string name="public_notification_single_line_text">Isbloca pro bìdere</string>
     <string name="back_edu_notification_title">Imprea su pannellu tàtile pro torrare in segus</string>
     <string name="back_edu_notification_content">Iscurre cara a manca o a dereta impreende tres pòddighes. Toca pro àteros gestos.</string>
     <string name="home_edu_notification_title">Imprea su pannellu tàtile pro andare a s\'ischermu printzipale</string>

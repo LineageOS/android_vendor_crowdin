@@ -834,7 +834,6 @@
     <string name="fingerprint_acquired_power_press">Rilevade pression tast di impiament</string>
     <string name="fingerprint_acquired_try_adjusting">Prove a regolâ</string>
     <string name="fingerprint_acquired_immobile">Cambie ogni volte di un pôc la posizion dal to dêt</string>
-    <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Impront no ricognossût</string>
     <string name="fingerprint_udfps_error_not_match">Impront no ricognossût</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Muse no ricognossude. Dopre l\'impront.</string>
@@ -859,7 +858,6 @@
     <string name="fingerprint_or_screen_lock_app_setting_name">Dopre l\'impront o il bloc schermi</string>
     <string name="fingerprint_dialog_default_subtitle">Dopre l\'impront par continuâ</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Dopre l\'impront o il bloc schermi par continuâ</string>
-    <string-array name="fingerprint_error_vendor"/>
     <string name="fingerprint_error_vendor_unknown">Alc al è lât strucj. Torne prove.</string>
     <string name="fingerprint_icon_content_description">Icone dal impront digjitâl</string>
     <string name="device_unlock_notification_name">Sbloc dal dispositîf</string>
@@ -898,7 +896,6 @@
     <string name="face_acquired_recalibrate_alt">Impussibil creâ il to model di muse. Torne prove.</string>
     <string name="face_acquired_dark_glasses_detected_alt">Rilevâts ocjâi di soreli. Tu scugnis fâ viodi dute la muse.</string>
     <string name="face_acquired_mouth_covering_detected_alt">Rilevade muse cuvierte. Tu scugnis fâ viodi dute la muse.</string>
-    <string-array name="face_acquired_vendor"/>
     <string name="face_error_hw_not_available">Impussibil verificâ la muse. L\'hardware nol è disponibil.</string>
     <string name="face_error_timeout">Prove di gnûf il sbloc cu la muse</string>
     <string name="face_error_no_space">Impussibil memorizâ i dâts de gnove muse. Elimine prime une vecje.</string>
@@ -916,7 +913,6 @@
     <string name="face_or_screen_lock_app_setting_name">Dopre la muse o il bloc schermi</string>
     <string name="face_dialog_default_subtitle">Dopre la tô muse par continuâ</string>
     <string name="face_or_screen_lock_dialog_default_subtitle">Dopre la tô muse o il bloc schermi par continuâ</string>
-    <string-array name="face_error_vendor"/>
     <string name="face_error_vendor_unknown">Alc al è lât strucj. Torne prove.</string>
     <string name="face_icon_content_description">Icone de muse</string>
     <string name="permlab_readSyncSettings">lei lis impostazions di sincronizazion</string>
@@ -2139,6 +2135,7 @@
     <string name="one_handed_mode_feature_name">Modalitât a une man</string>
     <string name="reduce_bright_colors_feature_name">Atenuazion extra</string>
     <string name="hearing_aids_feature_name">Dispositîfs pe scolte</string>
+    <string name="hearing_device_status_loading">Daûr a cjariâ</string>
     <string name="accessibility_shortcut_enabling_service">Tignûts fracâts i tascj dal volum. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> ativât.</string>
     <string name="accessibility_shortcut_disabling_service">Tignûts fracâts i tascj dal volum. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> disativât.</string>
     <string name="accessibility_shortcut_spoken_feedback">Mole i tascj dal volum. Par ativâ<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>, frache e ten fracât di gnûf ducj i doi i tascj dal volum par 3 seconts.</string>
@@ -2149,7 +2146,8 @@
     <string name="accessibility_gesture_instructional_text">Cheste funzionalitât si vierzarà la prossime volte che tu doprarâs cheste scurte. Scor in sù cun doi dêts partint dal bas dal schermi e mole daurman.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Cheste funzionalitât si vierzarà la prossime volte che tu doprarâs cheste scurte. Scor in sù cun trê dêts partint dal bas dal schermi e mole daurman.</string>
     <string name="accessibility_magnification_chooser_text">Ingrandiment</string>
-    <string name="user_switched">Utent atuâl <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
+    <string name="hearing_device_notification_switch_button">Passe a</string>
+    <string name="hearing_device_notification_settings_button">Impostazions</string>
     <string name="user_switching_message">Daûr a passâ a <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
     <string name="user_logging_out_message">Jessude di <xliff:g id="name" example="Bob">%1$s</xliff:g> in cors\u2026</string>
     <string name="owner_name" msgid="3879126011135546571">Proprietari</string>
@@ -2297,7 +2295,6 @@
     <string name="lock_to_app_unlock_pattern">Domande une cumbinazion di sbloc prime di molâ</string>
     <string name="lock_to_app_unlock_password">Domande une password prime di molâ</string>
     <string name="package_installed_device_owner">Instalât dal to aministradôr.\nVa tes impostazions par viodi i permès concedûts</string>
-    <string name="package_updated_device_owner">Inzornât dal to aministradôr</string>
     <string name="package_deleted_device_owner">Eliminât dal to aministradôr</string>
     <string name="confirm_battery_saver">Va ben</string>
     <string name="battery_saver_description_with_learn_more">Il sparagn energjetic al ative il teme scûr e al limite o al disative lis ativitâts in sotfont, cualchi efiet visîf, ciertis funzionalitâts e cualchi conession di rêt.</string>
@@ -2636,6 +2633,7 @@
     <string name="accessibility_system_action_dpad_left_label">D-pad - Çampe</string>
     <string name="accessibility_system_action_dpad_right_label">D-pad - Diestre</string>
     <string name="accessibility_system_action_dpad_center_label">D-pad - Centri</string>
+    <string name="accessibility_autoclick_pause">Pause</string>
     <string name="as_app_forced_to_restricted_bucket">        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> al è stât metût tal seglot LIMITÂTS (RESTRICTED)</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">al/e à mandât une imagjin</string>

@@ -57,11 +57,9 @@
     <string name="date_and_time">Datum an Zäit</string>
     <string name="proxy_settings_title">Proxy</string>
     <string name="proxy_clear_text">Eidel maachen</string>
-    <string name="proxy_port_label">Proxy-Port</string>
     <string name="proxy_exclusionlist_label">Proxy ëmgoe fir</string>
     <string name="proxy_defaultView_text">Virgaben zrécksetzen</string>
     <string name="proxy_action_text">Fäerdeg</string>
-    <string name="proxy_hostname_label">Proxy-Hostnumm</string>
     <string name="proxy_error">Opgepasst</string>
     <string name="proxy_error_dismiss">OK</string>
     <string name="proxy_error_empty_port">D\'Port-Feld muss ausgefëlt ginn.</string>
@@ -173,6 +171,8 @@
     <string name="bluetooth_device_context_disconnect">Deconnectéieren</string>
     <string name="bluetooth_device_context_pair_connect">Koppelen a connectéieren</string>
     <string name="bluetooth_key_missing_cancel">Ofbriechen</string>
+    <string name="bluetooth_key_missing_close">Zoumaachen</string>
+    <string name="device_details_battery">Akku</string>
     <string name="nfc_reboot_dialog_confirm">Nei starten</string>
     <string name="external_display_on">Un</string>
     <string name="external_display_off">Aus</string>
@@ -205,7 +205,6 @@
     <string name="wifi_empty_list_wifi_off">Schalt WLAN u fir déi disponibel Netzwierker ze gesinn.</string>
     <string name="wifi_settings_ssid_block_button_close">Zoumaachen</string>
     <string name="wifi_show_advanced">Erweidert Optiounen</string>
-    <string name="wifi_ssid">Netzwierknumm</string>
     <string name="wifi_ssid_hint">SSID aginn</string>
     <string name="wifi_security">Sécherheet</string>
     <string name="wifi_signal">Signalstäerkt</string>
@@ -219,7 +218,6 @@
     <string name="wifi_eap_user_cert">Benotzerzertifikat</string>
     <string name="wifi_eap_identity">Identitéit</string>
     <string name="wifi_eap_anonymous">Anonym Identitéit</string>
-    <string name="wifi_password">Passwuert</string>
     <string name="wifi_show_password">Passwuert uweisen</string>
     <string name="wifi_ip_settings">IP-Astellungen</string>
     <string name="wifi_privacy_device_name_settings">Apparatnumm</string>
@@ -339,6 +337,9 @@
     <string name="storage_wizard_slow_v2_continue">Weider</string>
     <string name="battery_status_title">Akkustatus</string>
     <string name="battery_level_title">Akkuniveau</string>
+    <string name="when_to_show_hubmode_never">Ni</string>
+    <string name="when_to_show_hubmode_charging">Beim Oplueden</string>
+    <string name="when_to_show_hubmode_docked">Wa gedockt</string>
     <string name="apn_settings">APNen</string>
     <string name="apn_edit">Zougrëffspunkt änneren</string>
     <string name="apn_not_set">Net gesat</string>
@@ -388,6 +389,7 @@
     <string name="tether_preference_summary_off">Aus</string>
     <string name="usb_tethering_button_text">USB-Tethering</string>
     <string name="bluetooth_tether_checkbox_text">Bluetooth-Tethering</string>
+    <string name="ethernet_ip_address">IP-Adress</string>
     <string name="tethering_help_button_text">Hëllef</string>
     <string name="sms_change_default_dialog_title" translatable="true">SMS-App änneren?</string>
     <string name="sms_change_default_dialog_text" translatable="true"><xliff:g id="new_app">%1$s</xliff:g> amplaz vu(n) <xliff:g id="current_app">%2$s</xliff:g> als deng SMS-App benotzen?</string>
@@ -403,6 +405,7 @@
     <string name="location_services_preference_title">Standuertservicer</string>
     <string name="location_services_screen_title">Standuertservicer</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">Ofbriechen</string>
+    <string name="time_notifications_title">Notifikatiounen</string>
     <string name="about_settings_summary">Kuck rechtlech Informatiounen, de Status an d\'Software-Versioun</string>
     <string name="legal_information">Legal Informatiounen</string>
     <string name="copyright_title">Auteursrecht</string>
@@ -552,7 +555,6 @@
     <string name="keyboard_a11y_category">Accessibilitéit</string>
     <string name="physical_keyboard_title">Physesch Tastatur</string>
     <string name="keyboard_default_layout">Standard</string>
-    <string name="trackpad_pointer_speed">Mausgeschwindegkeet</string>
     <string name="pointer_stroke_style_name_white">Wäiss</string>
     <string name="pointer_stroke_style_name_black">Schwaarz</string>
     <string name="pointer_stroke_style_name_none">Ouni</string>
@@ -560,7 +562,6 @@
     <string name="gesture_button_next">Weider</string>
     <string name="gesture_button_restart">Nei starten</string>
     <string name="gesture_button_done">Fäerdeg</string>
-    <string name="trackpad_notifications_title">Notifikatiounen</string>
     <string name="modifier_keys_default_summary">Standard</string>
     <string name="modifier_keys_done">Fäerdeg</string>
     <string name="modifier_keys_cancel">Ofbriechen</string>
@@ -761,7 +762,6 @@
     <string name="credentials_settings_not_available">Zouganksdate fir dëse Benotzer sinn net disponibel</string>
     <string name="credentials_reset_hint">All d\'Inhalter läschen?</string>
     <string name="credentials_erased">Den Zouganksdatespäicher gouf geläscht.</string>
-    <string name="usage_access_title">Appe mat Benotzungszougrëff</string>
     <string name="ca_certificate">CA-Zertifikat</string>
     <string name="request_manage_credentials_allow">Erlaben</string>
     <string name="no_certificate_management_app">Ouni</string>
@@ -778,7 +778,6 @@
     <string name="backup_erase_dialog_message">D\'Sécherung vun App-Daten, WLAN-Passwierder an aner Astellunge stoppen an all d\'Kopien op de Google-Servere läschen?</string>
     <string name="no_trust_agents">Keng disponibel Vertrauensagenten</string>
     <string name="profile_owner_add_title">Profil-Manager aktivéieren?</string>
-    <string name="admin_more_details">Méi gewuer ginn</string>
     <string name="notification_log_title">Notifikatiounsprotokoll</string>
     <string name="sound_category_call_ringtone_vibrate_title">Schelltoun a Vibratioun</string>
     <string name="wifi_setup_detail">Netzwierkdetailer</string>
@@ -853,17 +852,11 @@
     <string name="data_usage_limit_dialog_title">Datebenotzung limittéieren</string>
     <string name="data_usage_uninstalled_apps">Geläscht Appen</string>
     <string name="data_usage_uninstalled_apps_users">Geläscht Appen a Benotzer</string>
-    <string name="vpn_name">Numm</string>
     <string name="vpn_type">Typ</string>
-    <string name="vpn_server">Serveradress</string>
-    <string name="vpn_ipsec_identifier">IPSec-ID</string>
-    <string name="vpn_ipsec_secret">Virinstalléierten IPSec-Schlëssel</string>
     <string name="vpn_ipsec_user_cert">IPSec-Benotzerzertifikat</string>
     <string name="vpn_ipsec_ca_cert">IPSec-CA-Zertifikat</string>
     <string name="vpn_ipsec_server_cert">IPSec-Serverzertifikat</string>
     <string name="vpn_show_options">Erweidert Optiounen uweisen</string>
-    <string name="vpn_username">Benotzernumm</string>
-    <string name="vpn_password">Passwuert</string>
     <string name="vpn_save_login">Konteninformatioun späicheren</string>
     <string name="vpn_not_used">(net benotzt)</string>
     <string name="vpn_no_server_cert">(vum Server empfaangen)</string>
@@ -1011,6 +1004,9 @@
     <string name="configure_notification_settings">Notifikatiounen</string>
     <string name="app_notification_field">App-Notifikatiounen</string>
     <string name="profile_section_header_for_advanced_privacy">Aarbechtsprofil</string>
+    <string name="notification_summarization_on">Un</string>
+    <string name="notification_summarization_off">Aus</string>
+    <string name="notification_summarization_manage_excluded_apps">Appe geréieren</string>
     <string name="bubbles_feature_disabled_button_cancel">Ofbriechen</string>
     <string name="lock_screen_notifications_summary_show">All Notifikatiounsinhalt uweisen</string>
     <string name="notifications_title">Notifikatiounen</string>
@@ -1030,6 +1026,7 @@
     <string name="interact_across_profiles_summary_not_allowed">Net connectéiert</string>
     <string name="interact_across_profiles_switch_enabled">Verbonnen</string>
     <string name="interact_across_profiles_consent_dialog_permissions_title">Berechtegungen</string>
+    <string name="app_notification_settings">App-Astellungen</string>
     <string name="notification_content_block_title">Notifikatiounen uweisen</string>
     <string name="app_notifications_dialog_done">Fäerdeg</string>
     <string name="notification_channel_sound_title">Toun</string>
@@ -1096,6 +1093,7 @@
     <string name="screen_zoom_preview_title">Virschau</string>
     <string name="disconnected">Net connectéiert</string>
     <string name="keyboard_disconnected">Net connectéiert</string>
+    <string name="disabled_by_advanced_protection_help_button_title">Astellungen</string>
     <string name="app_cellular_data_usage">App-Datebenotzung</string>
     <string name="ethernet">Ethernet</string>
     <string name="set_data_limit">Datelimitt setzen</string>
@@ -1164,6 +1162,9 @@
     <string name="category_name_brightness">Hellegkeet</string>
     <string name="category_name_color">Faarf</string>
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
+    <string name="virtual_device_connected">Verbonnen</string>
+    <string name="virtual_device_disconnected">Connectioun getrennt</string>
+    <string name="virtual_device_forget_dialog_confirm_button">Vergiessen</string>
     <string name="next_page_content_description">Weider</string>
     <string name="bluetooth_connect_access_dialog_positive">Connectéieren</string>
     <string name="dream_preview_button_title">Virschau</string>
@@ -1207,4 +1208,5 @@
     <string name="audio_streams_connecting_summary">Connectioun gëtt hiergestallt\u2026</string>
     <string name="audio_streams_dialog_close">Zoumaachen</string>
     <string name="audio_streams_dialog_learn_more">Méi gewuer ginn</string>
+    <string name="supervision_change_pin_preference_title">PIN änneren</string>
 </resources>

@@ -478,6 +478,7 @@
     <string name="disabled_by_admin_summary_text">Rheolir gan weinyddwr</string>
     <string name="disabled_by_app_ops_text">Rheolir gan Osodiad Cyfyngedig</string>
     <string name="disabled">Wedi\'i analluogi</string>
+    <string name="enabled">Galluogwyd</string>
     <string name="external_source_trusted">Caniateir</string>
     <string name="external_source_untrusted">Ni chaniateir</string>
     <string name="install_other_apps">Gosod apiau anhysbys</string>

@@ -26,7 +26,6 @@
     <string name="scheduled_export_settings_footer_text" description="Text displayed to warn users that the previous exported data will not be removed if they turn off the export.">Si disativas s\'esportatzione programmada, custu no at cantzellare is datos esportados in antis dae ue fiant sarvados</string>
     <string name="export_destination_title" description="Title of the export destination screen where users can select which cloud storage service to store their exported data. [CHAR_LIMIT=40]">Sèbera in ue boles sarvare s\'esportatzione programmada</string>
     <string name="export_invalid_storage" description="Message shown to the user when they pick a local storage app instead of a cloud storage app to export their data to. [CHAR_LIMIT=NONE]">Sèbera un\'aplicatzione de archiviatzione in sa nie pro esportare is datos tuos</string>
-    <string name="share_data_description" description="Content description for how the user can share data with apps">Sèbera is datos chi onni aplicatzione potzat lèghere o iscrìere in Connessione salude</string>
     <string name="enter_deletion_button_content_description" description="Content description of a button that enters the deletion state">Intra in sa cantzelladura de is datos</string>
     <string name="exit_deletion_button_content_description" description="Content description of a button that exits the deletion state">Essi dae sa cantzelladura de is datos</string>
     <string name="chromium" description="Chromium, an essential nutrient required for sugar and fat metabolism. [CHAR LIMIT=50]">Cromu</string>

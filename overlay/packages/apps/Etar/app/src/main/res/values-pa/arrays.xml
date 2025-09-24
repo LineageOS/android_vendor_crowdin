@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="timezone_rename_labels">
+        <item>"ਆੱਸਟ੍ਰੇਲੀਅਨ ਸੈਂਟਰਲ - NT"</item>
+        <item>"ਆੱਸਟ੍ਰੇਲੀਅਨ ਸੈਂਟਰਲ - SA"</item>
+        <item>"ਆੱਸਟ੍ਰੇਲੀਅਨ ਪੂਰਬੀ - QLD"</item>
+        <item>"ਆੱਸਟ੍ਰੇਲੀਅਨ ਪੂਰਬੀ - NSW"</item>
+        <item>"ਮਾਊਂਟੇਨ ਸਟੈਂਡਰਡ - ਡੌਸਨ ਕ੍ਰੀਕ"</item>
+        <item>"ਸੈਂਟਰਲ ਸਟੈਂਡਰਡ - ਸਸਕੈਚਵਾਨ"</item>
+        <item>"ਪੂਰਬੀ ਸਟੈਂਡਰਡ - ਐਟੀਕੋਕਨ"</item>
+        <item>"ਅਟਲਾਂਟਿਕ ਸਟੈਂਡਰਡ - ਕਿਊਬੈਕ"</item>
+        <item>"ਹਵਾਈ-ਅਲੈਯੂਟੀਅਨ-ਹਵਾਈ"</item>
+        <item>"ਹਵਾਈ-ਅਲੈਯੂਟੀਅਨ-ਅਲਾਸਕਾ"</item>
+        <item>"ਪੈਸਿਫਿਕ ਸਟੈਂਡਰਡ - ਮੈਟਲਾਕਟਲਾ"</item>
+        <item>"ਮਾਊਂਟੇਨ ਸਟੈਂਡਰਡ - ਐਰੀਜ਼ੋਨਾ"</item>
+        <item>"ਪੈਸਿਫਿਕ - ਬਾਜਾ ਕੈਲੀਫੋਰਨੀਆ"</item>
+        <item>"ਮਾਊਂਟੇਨ - ਚਿਹੁਆਹੁਆ"</item>
+        <item>"ਸੈਂਟਰਲ - ਤਮੌਲੀਪਾਸ"</item>
+        <item>"ਮਾਊਂਟੇਨ - ਸੋਨੋਰਾ"</item>
+        <item>"ਪੂਰਬੀ ਅਫਰੀਕਾ ਸਮਾਂ"</item>
+        <item>"ਅਟਲਾਂਟਿਕ ਸਟੈਂਡਰਡ ਸਮਾਂ"</item>
+        <item>"ਅਟਲਾਂਟਿਕ ਸਟੈਂਡਰਡ ਸਮਾਂ"</item>
+        <item>"ਪੂਰਬੀ ਯੂਰੋਪੀਅਨ ਸਮਾਂ"</item>
+        <item>"ਕਲਿੰਗ੍ਰੈਡ ਸਮਾਂ"</item>
+        <item>"ਅਮੈਜ਼ੋਨ - ਰੰਡੋਨੀਆ"</item>
+        <item>"ਬ੍ਰਾਜ਼ੀਲੀਆ - ਪੈਰਾ"</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>"ਸਿੰਟ ਮਾਰਟੇਨ"</item>
+        <item>"ਕੈਰੇਬੀਅਨ ਨੀਂਦਰਲੈਂਡਸ"</item>
+        <item>"ਕੁਰਾਸਾਓ"</item>
+        <item>"ਦੱਖਣੀ ਸੁਡਾਨ"</item>
+    </string-array>
+</resources>
