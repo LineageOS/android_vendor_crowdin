@@ -263,10 +263,6 @@
     <string name="permdesc_nfc">ئەپنىڭ يېقىن ئەتراپتىكى ئالاقە(NFC) بەلگە، كارتا ۋە ئوقۇغۇچ بىلەن ئالاقە قىلىشىغا يول قويىدۇ،</string>
     <string name="permlab_disableKeyguard">ئېكران قۇلۇپنى چەكلەيدۇ</string>
     <string name="permdesc_disableKeyguard">ئەپنىڭ كۇنۇپكا قۇلۇپى ۋە ئىم بىلەن باغلانغان بىخەتەرلىك تەڭشىكىنى توختىتىشىغا يول قويىدۇ. مەسىلەن، تېلېفوندا كەلگەندە كۇنۇپكا قۇلۇپىنى توختىتىپ، سۆزلىشىش تاماملانغاندا كۇنۇپكا قۇلۇپىنى قايتا قوزغىتىدۇ.</string>
-    <string-array name="fingerprint_acquired_vendor"/>
-    <string-array name="fingerprint_error_vendor"/>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string name="permlab_readSyncSettings">قەدەمداش تەڭشىكىنى ئوقۇيدۇ</string>
     <string name="permdesc_readSyncSettings">ئەپنىڭ مەلۇم بىر ھېساباتنىڭ قەدەمداش تەڭشىكىنى ئوقۇشىغا يول قويىدۇ. مەسىلەن، بۇ ھوقۇق ئالاقەداش ئەپنىڭ مەلۇم ھېسابات بىلەن قەدەمداشلانغان ياكى قەدەمداشلانمىغانلىقىنى جەزملەيدۇ.</string>
     <string name="permlab_writeSyncSettings">قەدەمداشنى ئاچىدۇ ياكى ياپىدۇ</string>
@@ -819,7 +815,6 @@
     <string name="accessibility_dialog_button_allow">يول قوي</string>
     <string name="accessibility_dialog_button_deny">رەت قىل</string>
     <string name="done_accessibility_shortcut_menu_button">تامام</string>
-    <string name="user_switched">نۆۋەتتىكى ئىشلەتكۈچى <xliff:g id="NAME">%1$s</xliff:g>.</string>
     <string name="owner_name" msgid="3879126011135546571">ئىگىدار</string>
     <string name="error_message_title">خاتالىق</string>
     <string name="app_not_found">بۇ مەشغۇلاتنى بىر تەرەپ قىلىدىغان ئەپ يوق</string>

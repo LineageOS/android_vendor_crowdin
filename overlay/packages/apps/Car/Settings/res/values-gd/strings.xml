@@ -252,14 +252,11 @@
     <string name="units_unit_name_millivolt">Milivolt</string>
     <string name="units_unit_name_milliwatts">Miliwatt</string>
     <string name="units_unit_name_ampere_hour">Ampère-uair</string>
-    <string name="units_unit_name_kilowatt_hour">Cileawatt-uair</string>
     <string name="units_unit_name_psi">Punnd gach òirleach cheàrnach</string>
     <string name="units_unit_name_miles_per_hour">Mìle san uair</string>
     <string name="units_unit_name_kilometers_per_hour">Cilemeatair san uair</string>
     <string name="units_unit_name_bar">Bàr</string>
     <string name="units_unit_name_degrees">Ceum</string>
-    <string name="units_unit_name_kilowatt_per_hundred_miles">Cileawatt sa cheud mìle</string>
-    <string name="units_unit_name_kilowatt_per_hundred_kilometers">Cileawatt sa cheud cilemeatair</string>
     <string name="units_unit_name_miles_per_gallon_us">Mìle sa ghalan (SA)</string>
     <string name="units_unit_name_miles_per_gallon_uk">Mìle sa ghalan (SA)</string>
     <string name="units_unit_name_kilometers_per_liter">Cilemeatair san liotar</string>
@@ -319,6 +316,7 @@
     <string name="app_link_open_ask">Faighnich dhìom gach turas</string>
     <string name="app_link_open_never">Na fosgail leis an aplacaid seo iad</string>
     <string name="app_launch_supported_domain_urls_title">Ceanglaichean ri a bheil taic</string>
+    <string name="opening_links_supported_links_title">Ceanglaichean ri a bheil taic</string>
     <string name="special_access">Inntrigeadh sònraichte nan aplacaid</string>
     <string name="show_system">Seall feadhainn an t-siostaim</string>
     <string name="hide_system">Falaich feadhainn an t-siostaim</string>
@@ -327,12 +325,9 @@
     <string name="notification_access_title">Inntrigeadh do bhrathan</string>
     <string name="notification_listener_security_warning_title">An ceadaich thu gun inntrig         <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> brathan?</string>
     <string name="notification_listener_security_warning_summary">’S urrainn dha <xliff:g id="notification_listener_name">%1$s</xliff:g>  na brathan uile a leughadh, a’ gabhail a-staigh fiosrachadh pearsanta mar ainmean an luchd-aithne agus teacsa nan teachdaireachdan a gheibh thu. ’S urrainn dha brathan a leigeil seachad cuideachd no na putanan gnìomhachd ’nam broinn a chur gu dol.\n\nBheir seo comas dhan aplacaid cuideachd gun cuir i “Na bris a-steach orm” air no dheth ’s gun atharraich i roghainnean co-cheangailte ris.</string>
-    <string name="notification_listener_revoke_warning_summary">Ma chuireas tu dheth inntrigeadh nam brathan airson <xliff:g id="notification_listener_name">%1$s</xliff:g>, dh’fhaoidte gun dèid inntrigeadh gu “Na bris a-steach orm” a chur dheth cuideachd.</string>
     <string name="notification_listener_revoke_warning_confirm">Cuir dheth</string>
     <string name="notification_listener_revoke_warning_cancel">Sguir dheth</string>
     <string name="premium_sms_access_description">Dh’fhaoidte gun èirich cosgaisean an lùib Premium SMS a chì thu air bile a’ ghiùlanair agad. Ma bheir thu cead do dh’aplacaid, ’s urrainn dhut Premium SMS a chur leis an aplacaid ud.</string>
-    <string name="usage_access_title">Inntrigeadh dhan chleachdadh</string>
-    <string name="usage_access_description">Leigidh inntrigeadh dhan chleachdadh le aplacaid gun tracaich i dè na h-aplacaidean eile a chleachdas tu agus dè cho tric, co math ris a’ ghiùlanair agad, na roghainnean cànain agad is mion-fhiosrachadh eile.</string>
     <string name="wifi_control_title">Smachd air WiFi</string>
     <string name="wifi_control_description">Leigidh smachd air WiFi le aplacaid WiFi a chur air no dheth, sganadh airson lìonraidhean WiFi is ceangal riutha, lìonraidhean a chur ris no an toirt air falbh no hotspot a bhios ionadail a-mhàin a thòiseachadh.</string>
     <string name="more_special_access_title">Barrachd</string>

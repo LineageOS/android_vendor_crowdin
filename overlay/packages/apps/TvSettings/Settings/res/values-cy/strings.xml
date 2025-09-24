@@ -34,7 +34,6 @@
     <string name="header_category_general_settings">Gosodiadau Cyffredinol</string>
     <string name="dismiss_suggestion">Diystyru’r awgrym</string>
     <string name="hotwording_title">Synhwyriad \"OK Google\"</string>
-    <string name="hotwording_summary">Siarad unrhyw bryd â Google Assistant</string>
     <string name="header_category_device">Dyfais</string>
     <string name="header_category_preferences">Dewisiadau</string>
     <string name="header_category_accessories">Botymau Rheoli ac Ategolion</string>
@@ -215,7 +214,6 @@
     <string name="no_device_admins">Dim apiau gweinyddu\u2019r ddyfais ar gael</string>
     <string name="security_enable_widgets_disabled_summary">Analluogwyd gan weinyddwr</string>
     <string name="disabled_by_administrator_summary">Dim ar gael</string>
-    <string name="manage_device_admin">Apiau gweinyddu\'r ddyfais</string>
     <string name="number_of_device_admins_none">Dim apiau yn weithredol</string>
     <string name="unlock_set_unlock_disabled_summary">Analluogwyd gan weinyddwr, polisi amgryptio, neu storfa tyst-nodyn</string>
     <string name="enterprise_privacy_settings">Gwybodaeth dyfais a reolir</string>
@@ -899,8 +897,6 @@
     <string name="manage_keyboards">Rheoli bysellfyrddau</string>
     <string name="app_permission_summary_allowed">Caniateir</string>
     <string name="app_permission_summary_not_allowed">Ni chaniateir</string>
-    <string name="usage_access">Mynediad at ddefnydd</string>
-    <string name="usage_access_description">Mae mynediad defnydd yn caniatáu ap i ddilyn pa apiau eraill wyt yn eu defnyddio a pha mor aml, yn ogystal â dy ddarparwr gwasanaeth, iaith y system a manylion eraill.</string>
     <string name="high_power_apps">Optimeiddiad ynni</string>
     <string name="high_power_apps_description">Optimeiddio defnydd apiau o\'r batri</string>
     <string name="high_power_apps_empty">Does dim apiau angen eu hoptimeiddio</string>

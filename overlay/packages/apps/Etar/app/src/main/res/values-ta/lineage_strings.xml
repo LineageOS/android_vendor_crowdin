@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="user_rejected_calendar_write_permission_lineage">நாட்காட்டி சரியாக வேலை செய்ய, நாட்காட்டி படிக்கவும் எழுதவும் அனுமதி தேவை. மீண்டும் முயற்சி செய்யவும்.</string>
+    <string name="preferences_menu_about_lineage">நாட்காட்டி அறிமுகம்</string>
+</resources>

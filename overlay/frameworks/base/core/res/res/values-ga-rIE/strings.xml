@@ -34,6 +34,7 @@
     <string name="page_size_compat_apk_and_elf_warning">Níl an aip seo comhoiriúnach 16 KB. Theip ar sheiceálacha ailínithe APK agus ELF.
         Reáchtálfar an aip seo trí úsáid a bhaint as mód atá comhoiriúnach do mhéid an leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, cuir an feidhmchlár le chéile arís le tacaíocht 16 KB.
         Le haghaidh tuilleadh faisnéise, féach &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
+    <string name="emergency_calling_do_not_show_again">Ná Taispeáin Arís</string>
     <string name="EmergencyCallWarningSummary">Éilíonn líonra soghluaiste ó ghlaonna</string>
     <string name="scCellularNetworkSecurityTitle">Slándáil líonra soghlu</string>
     <string name="scCellularNetworkSecuritySummary">Criptiú, fógraí do líonraí neamhcriptithe</string>
@@ -48,14 +49,33 @@
     <string name="scNullCipherIssueActionSettings">Socruithe slándála líonra móibíleach</string>
     <string name="private_space_deleted_by_admin">Spás príobháideach bainte</string>
     <string name="private_space_deleted_by_admin_details">Ní cheadaíonn d\'eagraíocht spásanna príobháideacha ar an bhfeiste bainistithe seo.</string>
+    <string name="global_action_standby">Fuireachas</string>
+    <string name="notification_channel_system_time">Am agus criosanna ama</string>
+    <string name="notification_channel_accessibility_hearing_device">Gléas éisteachta</string>
+    <string name="permgrouplab_xr_tracking">Sonraí rianaithe XR</string>
+    <string name="permgroupdesc_xr_tracking">rochtain a fháil ar shonraí XR fút féin agus ar an timpeallacht mórthimpeall ort</string>
+    <string name="permgrouplab_xr_tracking_sensitive">sonraí rianaithe XR íogaire</string>
+    <string name="permgroupdesc_xr_tracking_sensitive">rochtain a fháil ar shonraí rianaithe íogaire, amhail breathnú súl</string>
     <string name="dream_accessibility_action_click">dhíbhe</string>
     <string name="permlab_ranging">suíomh coibhneasta idir feistí in aice láimhe a chinneadh</string>
     <string name="permdesc_ranging">Lig don aip suíomh coibhneasta idir gléasanna in aice láimhe a chinneadh</string>
-    <string-array name="fingerprint_acquired_vendor"/>
+    <string name="permlab_eye_tracking_coarse">rianú do shúile garbha</string>
+    <string name="permdesc_eye_tracking_coarse">Ligeann sé don aip do shúil gharbh a rianú.</string>
+    <string name="permlab_eye_tracking_fine">rianaigh an áit a bhfuil tú ag féachaint</string>
+    <string name="permdesc_eye_tracking_fine">Ligeann sé don aip rochtain a fháil ar shonraí beachta súl.</string>
+    <string name="permlab_face_tracking">rianaigh d’aghaidh</string>
+    <string name="permdesc_face_tracking">Ceadaíonn sé don aip rochtain a fháil ar shonraí rianaithe aghaidhe.</string>
+    <string name="permlab_hand_tracking">rianú do lámha</string>
+    <string name="permdesc_hand_tracking">Ceadaíonn sé don aip rochtain a fháil ar shonraí rianaithe láimhe.</string>
+    <string name="permlab_head_tracking">rianaigh do cheann</string>
+    <string name="permdesc_head_tracking">Ceadaíonn sé don aip rochtain a fháil ar shonraí rianaithe cinn.</string>
+    <string name="permlab_scene_understanding_coarse">tuiscint a fháil ar do thimpeallacht láithreach</string>
+    <string name="permdesc_scene_understanding_coarse">Ligeann sé don aip rochtain a fháil ar shonraí rianaithe faoin timpeallacht thart timpeall ort go díreach.</string>
+    <string name="permlab_scene_understanding_fine">tuiscint a fháil ar do thimpeallacht láithreach go mion</string>
+    <string name="permdesc_scene_understanding_fine">Ligeann sé don aip rochtain a fháil ar shonraí rianaithe faoin timpeallacht thart timpeall ort go díreach le mionsonraí an-ard.</string>
+    <string name="permlab_xr_tracking_in_background">rochtain a fháil ar shonraí XR agus gan a bheith sa tulra</string>
+    <string name="permdesc_xr_tracking_in_background">Ceadaíonn sé seo don aip rochtain a fháil ar shonraí XR agus iad gan a bheith sa tulra.</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Ní aithnítear aghaidh. Úsáid méarlorg ina ionad.</string>
-    <string-array name="fingerprint_error_vendor"/>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string name="duration_minutes_shortest_past">        <xliff:g id="count">%d</xliff:g>n ó shin
     </string>
     <string name="duration_hours_shortest_past">        <xliff:g id="count">%d</xliff:g>u ó shin
@@ -87,20 +107,31 @@
     <string name="error_handwriting_unsupported">Ní thacaítear le lámhscríbhneoireacht sa réimse seo</string>
     <string name="error_handwriting_unsupported_password">Ní thacaítear le lámhscríbhinn i réimsí pasfhocal</string>
     <string name="input_method_ime_switch_long_click_action_desc">Oscail roghnóir modh ionchuir</string>
+    <string name="time_zone_change_notification_title">D\'athraigh do chrios ama</string>
+    <string name="time_zone_change_notification_body">Tá tú i <xliff:g id="time_zone_display_name">%1$s</xliff:g> anois (<xliff:g id="time_zone_offset">%2$s</xliff:g>)</string>
     <string name="wrong_hsum_configuration_notification_title">Cumraíocht tógála mícheart HSUM</string>
     <string name="wrong_hsum_configuration_notification_message">Ní hionann staid Mhód Úsáideora an Chórais Gan Cheann an ghléis seo agus a chumraíocht tógála. Le do thoil mhonarcha athshocrú an gléas.</string>
     <string name="input_method_language_settings">Socruithe Teanga</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Roghnaigh gnéithe le húsáid leis an
         aicearra eochracha toirte
     </string>
+    <string name="autoclick_feature_name">Uathchliceáil</string>
+    <string name="hearing_device_status_disconnected">Dícheangailte</string>
+    <string name="hearing_device_status_connected">Ceangailte</string>
+    <string name="hearing_device_status_active">Gníomhach</string>
     <string name="accessibility_button_prompt_text">Roghnaigh gné</string>
     <string name="accessibility_gesture_prompt_text">Roghnaigh gné</string>
     <string name="accessibility_gesture_3finger_prompt_text">Roghnaigh gné</string>
     <string name="accessibility_button_instructional_text">Osclófar an ghné seo chugainn an chéad uair eile a thapálann tú an cnaipe inrochtaineachta</string>
     <string name="accessibility_gesture_instructional_text">Osclófar an ghné an chéad uair eile a úsáideann tú an gearrthóg seo. Sleamhnaigh suas le 2 mhéar ó bhun do scáileáin agus scaoil go tapa.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Osclófar an ghné an chéad uair eile a úsáideann tú an gearrthóg seo. Sleamhnaigh suas le 3 mhéar ó bhun do scáileáin agus scaoil go tapa.</string>
+    <string name="hearing_device_switch_phone_mic_notification_title">Athraigh go micreafón gutháin?</string>
+    <string name="hearing_device_switch_hearing_mic_notification_title">Athraigh chuig micreafón cabhrach éisteachta?</string>
+    <string name="hearing_device_switch_phone_mic_notification_text">Chun fuaim níos fearr a fháil nó má tá ceallraí do chluasáin éisteachta íseal. Ní athraíonn sé seo ach do mhicreafón le linn an ghlao.</string>
+    <string name="hearing_device_switch_hearing_mic_notification_text">Is féidir leat micreafón do chabhair éisteachta a úsáid le haghaidh glaonna saor ó lámha. Ní athraíonn sé seo ach do mhicreafón le linn an ghlao.</string>
     <string name="immersive_cling_description">Chun imeacht, swipeáil síos ó bharr do scáileáin</string>
     <string name="package_installed_device_owner">Suiteáilte ag do riarachán. \nTéigh go socruithe chun ceadanna deonaithe a fheiceáil</string>
+    <string name="package_updated_device_owner">Nuashonraithe ag do riarthóir.\nTéigh chuig na socruithe chun na ceadanna a deonaíodh a fheiceáil</string>
     <string name="zen_mode_implicit_name">Ná Cuir isteach (<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>)</string>
     <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="zen_mode_trigger_summary_range_symbol_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> - <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
@@ -112,16 +143,34 @@
     <string name="news_notification_channel_label">Nuacht</string>
     <string name="recs_notification_channel_label">Moltaí</string>
     <string name="private_space_set_up_screen_lock_for_reset">Chun spás príobháideach a scriosadh, socraigh glas scáileáin ar an ngléas seo</string>
+    <string name="shortcut_group_a11y_title">Spriocanna scaireanna díreacha</string>
+    <string name="suggested_apps_group_a11y_title">Moltaí aipeanna</string>
+    <string name="all_apps_group_a11y_title">Liosta aipeanna</string>
     <string name="dynamic_mode_notification_title_v2">Tá Coigilt Ceallraí ar siúl</string>
     <string name="dynamic_mode_notification_summary_v2">Cuirtear Coigilt Ceallraí ar siúl chun saol na ceallraí a leathnú</string>
     <string name="accessibility_system_action_menu_label">Roghchlár</string>
     <string name="accessibility_system_action_media_play_pause_label">Meáin Seinn/Sos</string>
+    <string name="accessibility_autoclick_type_settings_panel_title">Painéal socruithe cineál uathoibríoch-chliceála</string>
+    <string name="accessibility_autoclick_left_click">Cliceáil ar chlé</string>
+    <string name="accessibility_autoclick_right_click">Cliceáil ar dheis</string>
+    <string name="accessibility_autoclick_double_click">Cliceáil faoi dhó</string>
+    <string name="accessibility_autoclick_drag">Tarraing</string>
+    <string name="accessibility_autoclick_scroll">Scrollaigh</string>
+    <string name="accessibility_autoclick_position">Seasamh</string>
+    <string name="accessibility_autoclick_scroll_up">Scrollaigh Suas</string>
+    <string name="accessibility_autoclick_scroll_down">Scrollaigh Síos</string>
+    <string name="accessibility_autoclick_scroll_left">Scrollaigh ar Chlé</string>
+    <string name="accessibility_autoclick_scroll_right">Scrollaigh ar dheis</string>
+    <string name="accessibility_autoclick_scroll_exit">Scoir Mód Scrollaigh</string>
+    <string name="accessibility_autoclick_scroll_panel_title">Painéal Scrollaigh</string>
     <string name="miniresolver_private_space_phone_information">"Ní féidir leat glaonna teileafóin a dhéanamh ach ó d'aip fón pearsanta. Cuirfear glaonna a dhéantar le Fón pearsanta le do stair glaonna pearsanta."</string>
     <string name="miniresolver_private_space_messages_information">"Ní féidir leat teachtaireachtaí SMS a sheoladh ach ó d'aip Teachtaireachtaí pearsanta."</string>
+    <string name="profile_label_supervising">Maoirseacht</string>
     <string name="accessibility_label_private_profile">Spás príobháideach</string>
     <string name="private_space_biometric_prompt_title">Spás príobháideach</string>
     <string name="redacted_notification_message">Ábhar fógra íogair i bhfolach</string>
     <string name="screen_not_shared_sensitive_content">Ábhar aip i bhfolach ó scáileán le haghaidh slándála</string>
+    <string name="satellite_notification_summary_with_data">Is féidir leat teachtaireachtaí a sheoladh agus a fháil agus sonraí teoranta a úsáid trí shatailít</string>
     <string name="satellite_notification_manual_title">Úsáid teachtaireachtaí satailíte?</string>
     <string name="satellite_notification_manual_summary">Seol agus faigh teachtaireachtaí gan líonra soghluaiste nó Wi-Fi</string>
     <string name="satellite_manual_selection_state_popup_title">Cuir \"Roghnaigh líonra go huathoibríoch\" ar siúl</string>
@@ -170,4 +219,10 @@
     <string name="keyboard_shortcut_group_applications_maps">Léarscáil</string>
     <string name="keyboard_shortcut_group_applications">Feidhmchláir</string>
     <string name="fingerprint_loe_notification_msg">Ní féidir do mhéarloirg a aithint a thuilleadh. Socraigh Díghlasáil Méarloirg arís.</string>
+    <string name="usb_apm_usb_plugged_in_when_locked_notification_title">Gléas USB breiseáilte isteach nuair atá sé faoi ghlas</string>
+    <string name="usb_apm_usb_plugged_in_when_locked_notification_text">Tá gléas USB plugáilte isteach nuair atá Android faoi ghlas. Chun an gléas a úsáid, díghlasáil Android ar dtús agus ansin cuir an gléas USB isteach arís le húsáid.</string>
+    <string name="usb_apm_usb_suspicious_activity_notification_title">Gníomhaíocht USB amhrasach</string>
+    <string name="usb_apm_usb_suspicious_activity_notification_text">Tá comhartha sonraí USB díchumasaithe.</string>
+    <string name="fingerprint_frr_notification_title">An bhfuil deacracht agat le Díghlasáil Méarloirg?</string>
+    <string name="fingerprint_frr_notification_msg">Tapáil chun leideanna a athbhreithniú chun do thaithí díghlasála a fheabhsú</string>
 </resources>

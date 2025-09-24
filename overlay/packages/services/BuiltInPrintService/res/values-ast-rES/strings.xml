@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Serviciu d\'imprentación predetermináu</string>
     <string name="printer_busy">Ocupada</string>
     <string name="printer_out_of_paper">Ensin papel</string>
@@ -61,10 +61,8 @@
         direición IP <xliff:g example="192.168.0.101" id="ip_address">%1$s</xliff:g>
     </string>
     <string name="recommendation_summary">El serviciu d\'imprentación predetermináu apurre opciones básiques. Ye posible qu\'esta imprentadora tenga más opciones disponibles dende otru serviciu d\'imprentación.</string>
-    <string name="recommendations_heading">Servicios aconseyaos</string>
     <string name="recommendation_install_summary">Seleiciona un elementu pa instalalu</string>
     <string name="recommendation_enable_summary">Seleiciona un elementu p\'activalu</string>
-    <string name="recommendation_manage">Xestionar los servicios</string>
     <string name="security">Seguranza</string>
     <string name="certificate_update_request">Esta imprentadora fornió un certificáu de seguranza nuevu
         o otru preséu suplanta la so identidá. ¿Quies aceptar

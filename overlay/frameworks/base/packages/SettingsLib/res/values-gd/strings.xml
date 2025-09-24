@@ -434,6 +434,7 @@
     <string name="battery_info_status_charging_v2">’Ga theàirrdseadh</string>
     <string name="disabled_by_admin_summary_text">Fo smachd rianaire</string>
     <string name="disabled">À comas</string>
+    <string name="enabled">An comas</string>
     <string name="external_source_trusted">Ceadaichte</string>
     <string name="external_source_untrusted">Gun chead</string>
     <string name="install_other_apps">Stàlaich aplacaidean nach aithne dhuinn</string>

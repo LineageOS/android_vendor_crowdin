@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:keep="@color/sud_system_*">
   <string name="app_label">Suidheachadh na h-obrach</string>
   <string name="provisioning_error_title">Oich!</string>
   <string name="setup_work_profile">Suidhich pròifil obrach</string>

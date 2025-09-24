@@ -282,10 +282,6 @@
     <string name="permdesc_nfc">Erlaabt der App, iwwer No-Feld-Communicatioun (NFC) Badgen, Kaarten a Liesapparater ze kontrolléieren.</string>
     <string name="permlab_disableKeyguard">Schiermspär desaktivéieren</string>
     <string name="permdesc_disableKeyguard">Erlaabt der App, d\'Tastespär an déi liéiert Passwuertsécherheet ze desaktivéieren. Den Telefon desaktivéiert beispillsweis d\'Tastespär wann en Uruff erakënnt, a reaktivéiert se wann den Uruff ofgeschloss ass.</string>
-    <string-array name="fingerprint_acquired_vendor"/>
-    <string-array name="fingerprint_error_vendor"/>
-    <string-array name="face_acquired_vendor"/>
-    <string-array name="face_error_vendor"/>
     <string name="permlab_readSyncSettings">Synchroniséierungsastellunge liesen</string>
     <string name="permdesc_readSyncSettings">Erlaabt der App, d\'Synchroniséierungsastellunge fir e Kont ze liesen. Doduerch ka beispillsweis festgestallt ginn ob d\'Kontakter mat engem Kont synchroniséiert sinn.</string>
     <string name="permlab_writeSyncSettings">Synchronisatioun un- an ausschalten</string>
@@ -918,7 +914,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="accessibility_dialog_button_allow">Erlaben</string>
     <string name="accessibility_dialog_button_deny">Verweigeren</string>
     <string name="done_accessibility_shortcut_menu_button">Fäerdeg</string>
-    <string name="user_switched">Aktuelle Benotzer <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
+    <string name="hearing_device_notification_settings_button">Astellungen</string>
     <string name="user_switching_message">Wiesselen op de Benotzer <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
     <string name="owner_name" msgid="3879126011135546571">Besëtzer</string>
     <string name="error_message_title">Feeler</string>
@@ -1064,6 +1060,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="nas_upgrade_notification_enable_action">OK</string>
     <string name="accessibility_system_action_home_label">Doheem</string>
     <string name="accessibility_system_action_back_label">Zréck</string>
+    <string name="accessibility_autoclick_pause">Paus</string>
     <string name="resolver_work_tab">Aarbecht</string>
     <string name="profile_label_work">Aarbecht</string>
     <string name="satellite_manual_selection_state_popup_ok">Uschalten</string>
