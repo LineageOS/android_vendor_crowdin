@@ -18,6 +18,11 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="eap_ocsp_type" translatable="true">
+        <item>Ná fíoraigh</item>
+        <item>Iarr stádas deimhnithe</item>
+        <item>Stádas teastais a éileamh</item>
+    </string-array>
     <string-array name="bt_stack_log_level_entries">
         <item>Verbose</item>
         <item>Debug</item>
@@ -32,6 +37,12 @@
     <string-array name="wifi_dhcp_entries">
         <item>Seol ainm an ghléis chuig an líonra</item>
         <item>Ná seol ainm an ghléis chuig an líonra</item>
+    </string-array>
+    <string-array name="measurement_system">
+        <item>default</item>
+        <item>méadrach</item>
+        <item>córas SAM</item>
+        <item>córas RA</item>
     </string-array>
     <string-array name="terms_of_address_supported_languages">
         <item>fr</item>

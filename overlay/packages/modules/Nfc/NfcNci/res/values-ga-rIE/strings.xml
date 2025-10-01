@@ -1,4 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Seirbhís NFC</string>
+    <string name="nfcUserLabel">NFC</string>
+    <string name="accessibility_nfc_enabled">NFC cumasaithe.</string>
+    <string name="tap_to_beam">Tapáil chun léasú</string>
+    <string name="beam_progress">Bhíoma ag teacht isteach...</string>
+    <string name="beam_outgoing">Ag lonrú...</string>
+    <string name="beam_complete">Bhíoma críochnaithe</string>
+    <string name="beam_failed">Níor críochnaíodh an bhíoma</string>
+    <string name="beam_canceled">Cealaíodh an bhíoma</string>
+    <string name="cancel">Cealaigh</string>
+    <string name="beam_tap_to_view">Tapáil chun féachaint</string>
+    <string name="beam_handover_not_supported">Ní thacaíonn gléas an ghlacadóra le haistriú comhad mór trí bhíoma.</string>
+    <string name="beam_try_again">Tabhair gléasanna le chéile arís</string>
+    <string name="beam_busy">Tá Beam gnóthach faoi láthair. Déan iarracht eile nuair a bheidh an t-aistriú roimhe sin críochnaithe.</string>
+    <string name="device">gléas</string>
+    <string name="connecting_peripheral">Ag ceangal <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="connected_peripheral">Ceangailte <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="connect_peripheral_failed">Níorbh fhéidir ceangal le <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="disconnecting_peripheral">Ag dícheangal <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="disconnected_peripheral">Dícheangailte <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="pairing_peripheral">Ag péireáil <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="pairing_peripheral_failed">Níorbh fhéidir <xliff:g id="device_name">%1$s</xliff:g> a phéireáil</string>
+    <string name="failed_to_enable_bt">Níorbh fhéidir Bluetooth a chumasú</string>
+    <string name="confirm_pairing">An bhfuil tú cinnte gur mian leat an gléas Bluetooth <xliff:g id="device_name">%1$s</xliff:g> a phéireáil?</string>
+    <string name="pair_yes">Tá</string>
+    <string name="pair_no">Níl</string>
+    <string name="tap_again_to_pay">Tapáil arís chun íoc le <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="tap_again_to_complete">Tapáil arís le críochnú le <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="tap_again_description">Coinnigh i gcoinne an léitheora</string>
+    <string name="appchooser_description">Roghnaigh aip le scanadh</string>
+    <string name="transaction_failure">Níorbh fhéidir an t-idirbheart seo a chríochnú le <xliff:g id="app">%1$s</xliff:g>.</string>
+    <string name="could_not_use_app">Níorbh fhéidir <xliff:g id="app">%1$s</xliff:g>.</string>
+    <string name="pay_with">Íoc le</string>
+    <string name="complete_with">Comhlánaigh le</string>
+    <string name="default_pay_app_removed">Baineadh an tseirbhís is fearr leat le haghaidh tapáil &amp; íoc. Roghnaigh ceann eile?</string>
+    <string name="ask_nfc_tap">Tapáil gléas eile le críochnú</string>
+    <string name="wifi_connect">Ceangail</string>
+    <string name="status_unable_to_connect">Ní féidir ceangal leis an líonra</string>
+    <string name="status_wifi_connected">Ceangailte</string>
+    <string name="title_connect_to_network">Ceangail leis an líonra</string>
+    <string name="prompt_connect_to_network">Ceangail leis an líonra <xliff:g id="network_ssid">%1$s</xliff:g>?</string>
+    <string name="beam_requires_nfc_enabled">Éilíonn Android Beam go mbeidh NFC cumasaithe. Ar mhaith leat é a chumasú?</string>
+    <string name="android_beam">Android Beam</string>
+    <string name="beam_requires_external_storage_permission">Níl Cead Stórála Seachtraí ag an bhFeidhmchlár. Tá sé seo riachtanach chun an comhad seo a tharchur.</string>
+    <string name="title_confirm_url_open">Nasc oscailte?</string>
+    <string name="summary_confirm_url_open">Fuair ​​do ghuthán nasc trí NFC:</string>
+    <string name="summary_confirm_url_open_tablet">Fuair ​​do tháibléad nasc trí NFC:</string>
+    <string name="action_confirm_url_open">Oscail nasc</string>
+    <string name="tag_read_error">Earráid léite NFC. Déan iarracht arís.</string>
+    <string name="tag_dispatch_failed">Níl aon fheidhmchlár tacaithe don Chlib NFC seo</string>
+    <string name="nfc_blocking_alert_title">B’fhéidir go bhfuil bac ar NFC</string>
+    <string name="nfc_blocking_alert_message">Tapáil chun foghlaim conas é a shocrú.</string>
+    <string name="tag_app_alert_title">Ceadaigh d’aipeanna clibeanna NFC a léamh</string>
+    <string name="tag_app_alert_message">Is féidir le <xliff:g id="appNames">%1$s</xliff:g> clibeanna NFC a léamh.</string>
+    <string name="tag_app_alert_message_multiple">Is féidir leis na haipeanna seo a leanas clibeanna NFC a léamh:<xliff:g id="appNames">%1$s</xliff:g></string>
+    <string name="tag_app_alert_action_button">Tapáil chun foghlaim conas é a dhíchumasú.</string>
+    <string name="nfc_logging_alert_title">Tá sonraí NFC á dtaifeadadh</string>
+    <string name="nfc_logging_alert_message">Tapáil chun stop a chur leis an taifeadadh.</string>
     <string name="title_package_enabling_nfc">Ceadaigh <xliff:g id="pkg">%1$s</xliff:g> chun NFC a chumasú?</string>
+    <string name="enable_nfc_yes">Tá</string>
+    <string name="enable_nfc_no">Níl</string>
+    <string name="device_ndef_nfcee_service_name">Clib leabaithe</string>
 </resources>

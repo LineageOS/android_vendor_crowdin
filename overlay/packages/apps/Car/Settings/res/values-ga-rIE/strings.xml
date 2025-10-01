@@ -40,7 +40,31 @@
     <string name="app_open_by_default_title">Oscail de réir réamhshocraithe\"</string>
     <string name="app_open_by_default_summary">Lig don aip naisc thacaithe a oscailt</string>
     <string name="opening_links_verified_links_title">Naisc fhíoraithe</string>
+    <string name="opening_links_verified_links_summary">{count, plural,
+    one {# nasc fíoraithe}
+    two {# nasc fíoraithe}
+    few {# naisc fhíoraithe}
+    many {# naisc fhíoraithe}
+    =1   {# nasc fíoraithe}
+    other {# naisc fhíoraithe}
+}</string>
+    <string name="opening_links_supported_links_summary">{count, plural,
+    one {# nasc tacaíochta}
+    two {# nasc tacaíochta}
+    few {# naisc tacaíochta}
+    many {# naisc tacaíochta}
+    =1   {# nasc tacaíochta}
+    other {# naisc tacaíochta}
+}</string>
     <string name="opening_links_add_links_title">Cuir naisc leis</string>
+    <string name="opening_links_add_links_summary">{count, plural,
+    one {# nasc gan láimhseáil}
+    two {# nasc gan láimhseáil}
+    few {# naisc gan láimhseáil}
+    many {# naisc gan láimhseáil}
+    =1   {# nasc gan láimhseáil}
+    other {# naisc gan láimhseáil}
+}</string>
     <string name="app_launch_footer">Is féidir le haip naisc a fhíorú le hoscailt go huathoibríoch san aip.</string>
     <string name="alarms_and_reminders_title">Aláraim &amp; meabhrúcháin</string>
     <string name="notification_listener_revoke_warning_summary">Má mhúchann tú rochtain fógraí do <xliff:g id="notification_listener_name">%1$s</xliff:g>, féadfar rialú Ná Cuir Isteach a mhúchadh freisin.</string>

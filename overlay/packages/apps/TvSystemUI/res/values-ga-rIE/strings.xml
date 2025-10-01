@@ -16,6 +16,7 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="media_output_internal_speaker_spdif_subtitle">Cainteoir ionsuite + S/PDIF</string>
+    <string name="audio_device_settings_tooltip">Brúigh <annotation icon="dpad_icon">DPAD</annotation> le haghaidh socruithe gléis fuaime.</string>
     <string name="audio_device_settings_content_description"><xliff:g id="audio_device_name" example="Foo Soundbar">%1$s</xliff:g> socruithe.</string>
     <string name="hdmi_cec_on_active_source_lost_title">An bhfuil tú fós ag féachaint?</string>
     <string name="hdmi_cec_on_active_source_lost_description">Thug do theilifís le fios gur athraigh tú chuig ionchur eile agus rachaidh an gléas seo a chodladh gan mhoill. Roghnaigh rogha chun an gléas seo a choinneáil ina dhúiseacht.</string>

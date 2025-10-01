@@ -18,8 +18,14 @@
     <string name="resolver_cant_share_with_private_apps_explanation">Ní féidir an t-inneachar seo a roinnt le haipeanna príobháideacha</string>
     <string name="resolver_cant_access_private_apps_explanation">Ní féidir an t-inneachar seo a oscailt le haipeanna príobháideacha</string>
     <string name="resolver_no_private_apps_available">Gan aipeanna príobháideacha</string>
+    <string name="item_position_label">Mír <xliff:g id="item_position" example="123">%1$d</xliff:g></string>
     <string name="selectable_image">Íomhá inroghnaithe</string>
     <string name="selectable_video">Físeán inroghnaithe</string>
     <string name="selectable_item">Mír inroghnaithe</string>
     <string name="role_description_button">Cnaipe</string>
+    <string name="shortcut_group_a11y_title">Spriocanna scaireanna díreacha</string>
+    <string name="suggested_apps_group_a11y_title">Moltaí aipeanna</string>
+    <string name="all_apps_group_a11y_title">Liosta aipeanna</string>
+    <string name="copy_text">Cóipeáil téacs</string>
+    <string name="copy_link">Cóipeáil nasc</string>
 </resources>

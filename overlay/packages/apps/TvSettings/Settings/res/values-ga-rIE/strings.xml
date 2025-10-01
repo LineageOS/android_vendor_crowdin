@@ -14,10 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hotwording_summary">Labhair le cúntóir gutha am ar bith</string>
     <string name="screen_reader_service_title">Caint siar\u0020(léitheoir scáileáin)</string>
     <string name="screen_reader_summary">Is gné inrochtaineachta léitheora scáileáin é Caint siar a chuidíonn le húsáideoirí lagamhairc téacs ar an scáileán, míreanna roghchláir agus gnéithe eile a léamh os ard. Is féidir é a chur ar bun freisin le húsáid le hAicearra Inrochtaineachta.</string>
     <string name="accounts_category_title">Cuntais &amp; Próifílí</string>
     <string name="privacy_device_lock_settings_title">Glasáil Gléas</string>
+    <string name="privacy_assistant_settings_title">Cúntóir Gutha</string>
     <string name="unplug_ethernet_to_use_wifi">Díphlugáil Ethernet chun Wi-Fi a úsáid</string>
     <string name="wifi_setting_thread_network">Líonra snáithe</string>
     <string name="wifi_setting_thread_network_context">Nascann líonra snáithe go háitiúil
@@ -38,6 +40,7 @@
     <string name="wifi_settings_thread_network_confirmation_button_confirm">Múch</string>
     <string name="wifi_settings_thread_network_button_change_energy_mode">        Athraigh modh fuinnimh
     </string>
+    <string name="add_apps_title">Cuir níos mó aipeanna leis</string>
     <string name="surround_sound_select_formats">Timpeall socruithe fuaime</string>
     <string name="surround_sound_auto_title">Uathoibríoch\"</string>
     <string name="surround_sound_selection_auto_desc">Cumasaigh gach formáid tacaithe</string>
@@ -64,6 +67,23 @@
     <string name="hdr_format_selection_title">Ceadaigh formáidí raon dinimiciúil</string>
     <string name="hdr_format_selection_auto_desc">Cumasaigh gach formáid tacaithe</string>
     <string name="hdr_format_selection_manual_desc">Roghnaigh ó na formáidí atá ar fáil</string>
+    <string name="default_audio_output_settings_title" translatable="true"/>
+    <string name="bluetooth_toggle_confirmation_dialog_summary">Ní bheidh tú in ann
+        rochtain a fháil ar chúntóir gutha ó do chianrialtán agus Bluetooth múchta.</string>
+    <string name="manage_device_admin">Riarthóir gléis</string>
+    <string name="mic_toggle_info_content">Nuair a bhíonn sé casta air, beidh gach aip agus seirbhís a bhfuil
+        cead acu an micreafón a úsáid in ann rochtain a fháil air.\n\nNuair a bhíonn sé múchta, ní bheidh aon aip 
+        ná seirbhís in ann rochtain a fháil ar an micreafón. Ach b\'fhéidir go mbeidh tú in ann labhairt le do chúntóir gutha 
+        fós tríd an gcnaipe cúntóra ar do chianrialtán a bhrú.\n\nB\'fhéidir nach mbeidh tionchar ag an socrú seo ar 
+        fheistí fuaime a úsáideann prótacail saincheaptha chun cumarsáid a dhéanamh leis an teilifís.
+    </string>
+    <string name="mic_remote_toggle_on_info_content">Tá cúntóir gutha in ann rochtain a fháil ar an micreafón ar do
+         chianrialtán. Beidh tú in ann labhairt le do chúntóir tríd an gcnaipe cúntóra a bhrú ar do chianrialtán.
+    </string>
+    <string name="mic_remote_toggle_off_info_content">Ní bheidh tú in ann labhairt le do chúntóir gutha 
+        ag baint úsáide as do chianrialtán. Chun go mbeidh tú in ann an cnaipe cúntóra gutha a úsáid, 
+        cumasaigh rochtain micreafóin.
+    </string>
     <string name="bounce_key_title">Eochracha Bounce</string>
     <string name="bounce_key_description">Roghnaigh an t-am is fearr leat</string>
     <string name="bounce_key_detailed">Déanann cianda neamhaird ar bhrúnna eochracha arís agus arís eile</string>
@@ -93,11 +113,18 @@
     <string name="accessibility_repeat_rate_summary">Socraigh cé chomh tapa agus a chuirtear isteach carachtair arís agus arís eile nuair a choinnítear eochair síos</string>
     <string name="accessibility_repeat_rate_info_summary">Rialú cé chomh tapa agus a athraíonn an cnaipe tar éis moille tosaigh</string>
     <string name="wifi_setup_already_connected">Ceangailte cheana féin</string>
+    <string name="limit_network_in_standby_toggle_info">Beidh do theilifís dícheangailte ó do líonra nuair a bheidh sí i mód fuireachais, ach amháin chun nuashonruithe uathoibríocha a fháil. D’fhéadfadh sé seo úsáid fuinnimh do theilifíse a laghdú, cé go gciallódh sé freisin nach mbeidh tú in ann feidhmeanna cosúil le Cast agus cúntóir gutha a úsáid agus í i mód fuireachais.</string>
+    <string name="usage_access">Sonraí úsáide aipeanna</string>
+    <string name="usage_access_description">Le sonraí úsáide aipeanna, is féidir le haip rianú a dhéanamh ar na haipeanna eile atá á n-úsáid agat agus cé chomh minic, chomh maith le d’iompróir, socruithe teanga agus sonraí eile.</string>
+    <string name="help_center_title" translatable="true"/>
+    <string name="select_device_admin_msg">Riarthóir gléis</string>
     <string name="system_tv_title">Teilifís</string>
+    <string name="menu_monitor">Monatóir</string>
     <string name="find_my_remote_integration_hint">Nuair a bheidh tú ar siúl, is féidir leat an cnaipe ar do ghléas a úsáid chun fuaim a sheinm chun do chianda a aimsiú. Nuair atá sé múchta, ní oibreoidh an cnaipe seo. Beidh tú fós in ann Aimsigh mo chianda a úsáid trí mhodhanna eile.</string>
     <string name="settings_backlight_title">Mód cúlsolas</string>
     <string name="settings_backlight_description">Soilsiú na cnaipí ar an gcianrialtán ar gach preas.</string>
     <string name="backlight_slice_description">Ar chianrialtáin Google TV a dtacaítear leo, má bhrúnn tú an cnaipe ar na cianrialtáin, gníomhóidh sé soilsiú cúlsholais.</string>
     <string name="volume_change_settings_title">%1$s toirt</string>
+    <string name="volume_change_subtitle_unselect">Is féidir leat toirt an chúntóra a rialú ar chainteoir %1$s</string>
     <string name="volume_change_subtitle_select">Ní chuireann sé isteach ach ar an toirt ar ghléas %1$s , ní ar an teilifís</string>
 </resources>

@@ -16,9 +16,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="dialog_close">Dún</string>
     <string name="app_permission_header_with_device_name"><xliff:g id="perm" example="camera">%1$s</xliff:g> rochtain don aip seo ar <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
+    <string name="app_permission_info_button">Eolas</string>
     <string name="permission_group_name_with_device_name"><xliff:g id="perm_group_name" example="camera">%1$s</xliff:g> ar <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
     <string name="default_apps_for_private_profile">Réamhshocrú do spás príobháideach</string>
+    <string name="default_app_recommended">Optamaithe don ghléas</string>
+    <string name="default_app_others">Daoine eile</string>
     <string name="default_payment_app_other_nfc_services">Seirbhísí eile NFC</string>
+    <string name="incident_report_dialog_text">"Tá <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ag iarraidh tuarascáil fabht a uaslódáil ón ngléas seo a tógadh ar <xliff:g id="date" example="26 Nollaig, 2018">%2$s</xliff:g> ag <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Cuimsíonn tuairiscí fabht faisnéis phearsanta faoi do ghléas nó faisnéis atá logáilte ag aipeanna, mar shampla, ainmneacha úsáideoirí, sonraí suímh, aitheantóirí gléis, agus faisnéis líonra. Ná roinn tuairiscí fabht ach le daoine agus aipeanna a bhfuil muinín agat astu leis an bhfaisnéis seo.\n\nAn gceadaíonn tú do <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> tuarascáil fabht a uaslódáil?"</string>
     <string name="permgrouprequest_device_aware_storage_isolated">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun grianghraif agus meáin a rochtain ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_device_aware_contacts">Ceadaigh
@@ -74,6 +78,10 @@
     <string name="automotive_required_app_title">Tá an aip seo ag teastáil</string>
     <string name="automotive_required_app_summary">Tá an aip seo ag teastáil ó mhonaróir do carranna</string>
     <string name="allow_restricted_settings">Ceadaigh socruithe srianta</string>
+    <string name="enhanced_confirmation_phone_state_dialog_title">Ní féidir an gníomh a chríochnú le linn an ghlao</string>
+    <string name="enhanced_confirmation_phone_state_dialog_desc">Tá an socrú seo blocáilte chun do ghléas agus do shonraí a chosaint.<xliff:g id="scam_use_setting_description" example="scammers may ask you to allow apps to install other apps">%1$s</xliff:g></string>
+    <string name="enhanced_confirmation_phone_state_dialog_install_desc"><xliff:g id="empty_line">\n\n</xliff:g>D’fhéadfadh scamadóirí iarracht a dhéanamh aipeanna díobhálacha a shuiteáil trí iarraidh ort aipeanna anaithnide a shuiteáil ó fhoinse nua.</string>
+    <string name="enhanced_confirmation_phone_state_dialog_a11y_desc"><xliff:g id="empty_line">\n\n</xliff:g>D’fhéadfadh scamadóirí iarracht a dhéanamh smacht a ghlacadh ar do ghléas trí iarraidh ort rochtain inrochtaineachta a cheadú d’aip.</string>
     <string name="enhanced_confirmation_dialog_title_permission">Diúltaíodh don aip rochtain ar <xliff:g id="permission_name" example="contacts">%1$s</xliff:g></string>
     <string name="enhanced_confirmation_dialog_desc_permission">D\'iarr an aip rochtain ar chead íogair a d\'fhéadfadh d\'fhaisnéis phearsanta agus airgeadais a chur i mbaol.<xliff:g> &lt;br&gt;&lt;br&gt;</xliff:g>D\'fhéadfadh nach n-oibreoidh an aip i gceart gan an srian seo cead. &lt;a href="<xliff:g id="learn_more_link">%1$s</xliff:g>"&gt;Foghlaim conas rochtain a cheadú&lt;/a&gt;</string>
     <string name="enhanced_confirmation_dialog_title_role">Diúltaíodh rochtain don aip mar réamhshocrú <xliff:g id="role_name" example="phone app">%1$s</xliff:g></string>

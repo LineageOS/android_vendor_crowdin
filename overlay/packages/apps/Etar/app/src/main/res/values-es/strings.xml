@@ -345,6 +345,7 @@
     <string name="preferences_list_add_offline_button">Añadir calendario</string>
     <string name="preferences_list_add_offline_name">Nombre</string>
     <string name="preferences_list_add_offline_cancel">Cancelar</string>
+    <string name="preferences_menu_about">Acerca de Etar</string>
     <string name="offline_account_name">Calendario sin conexión</string>
     <string name="after_start_of_event">después del inicio del evento</string>
     <string name="preferences_do_not_check_battery_optimization">No comprobar la optimización de la batería</string>

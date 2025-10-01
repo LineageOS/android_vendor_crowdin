@@ -15,9 +15,24 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="select_a_photo">Roghnaigh grianghraf</string>
+    <string name="choose_a_curated_photo_section_title">Grianghraif molta</string>
+    <string name="more_photos">Tuilleadh Grianghraf</string>
+    <string name="preview_screen_description_editable">Scáileán réamhamhairc an pháipéir balla %1$s. Úsáid dhá mhéar chun panáil agus súmáil isteach</string>
+    <string name="preview_screen_description_non_editable">Scáileán réamhamhairc páipéar balla %1$s</string>
     <string name="folded_device_state_description">Fillte</string>
     <string name="unfolded_device_state_description">Neamhfhillte</string>
     <string name="full_preview_check_button_description">Críochnaithe ag eagarthóireacht páipéar balla</string>
     <string name="download_effects">Íosluchtaigh éifeachtaí</string>
+    <string name="wallpaper_preview_card_content_description_editable">Réamhamharc ar pháipéar balla %1$s %2$s, tapáil faoi dhó chun do ghrianghraf a chur in eagar</string>
+    <string name="wallpaper_preview_card_content_description_non_editable">%1$s réamhamharc páipéir balla %2$s</string>
     <string name="apply_wallpaper_title_text">Cuir ballapháipéir\?</string>
+    <string name="discard_changes_dialog_message">Na hathruithe a sheachaint?</string>
+    <string name="discard_changes_dialog_button_keep_editing">Lean ort ag eagarthóireacht</string>
+    <string name="discard_changes_dialog_button_discard">Discard</string>
+    <string name="action_zoom_in">Zúmáil isteach</string>
+    <string name="action_zoom_out">Zúmáil amach</string>
+    <string name="zoomed_to_percent">Zúmáilte go %d%%</string>
+    <string name="max_zoom_percentage">Uasmhéid súmáil bainte amach</string>
+    <string name="min_zoom_percentage">Íosmhéid súmáil bainte amach</string>
 </resources>

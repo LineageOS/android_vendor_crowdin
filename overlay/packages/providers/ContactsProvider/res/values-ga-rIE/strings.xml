@@ -15,6 +15,16 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="move_contacts_to_default_account_dialog_title">An bhfuil fonn ort teagmhálaithe atá ann cheana a shioncronú?</string>
+    <string name="move_contacts_to_default_account_dialog_message">Is féidir leat %1$s atá cúltacaithe go %2$s (%3$s) a shioncronú</string>
+    <string name="movable_contacts_count"> {contacts_count, plural,
+    one {# teagmháil atá ann cheana chun a chinntiú go bhfuil sí}
+    two {# theagmháil atá ann cheana chun a chinntiú go bhfuil siad}
+    few {# teagmhálacha atá ann cheana chun a chinntiú go bhfuil siad}
+    many {# teagmhálacha atá ann cheana chun a chinntiú go bhfuil siad}
+    =1   {# teagmháil atá ann cheana chun a chinntiú go bhfuil sí}
+    other {# teagmhálacha atá ann cheana chun a chinntiú go bhfuil siad}
+        }
+    </string>
     <string name="move_contacts_to_default_account_dialog_sync_button_text">Sioncrónaigh</string>
     <string name="move_contacts_to_default_account_dialog_cancel_button_text">Ná sioncronaigh</string>
 </resources>

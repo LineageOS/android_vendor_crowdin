@@ -15,4 +15,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="cant_call_due_to_no_supported_service">Ní féidir glaoch a dhéanamh. Seiceáil nasc do ghléis.</string>
+    <string name="callFailed_outgoing_already_present">Ní féidir glaoch a chur mar tá glao eile ag ceangal cheana féin. Fan go bhfreagrófar an glao nó dícheangail é sula gcuirfidh tú glao eile.</string>
+    <string name="callFailed_too_many_calls_include_merge">Ní féidir glao a chur mar tá dhá ghlao ar siúl cheana féin. Dícheangail ceann de na glaonna nó cumasc iad i gcomhdháil sula gcuireann tú glao nua.</string>
+    <string name="callFailed_too_many_calls_exclude_merge">Ní féidir glao a chur mar tá dhá ghlao ar siúl cheana féin. Dícheangail ceann de na glaonna sula gcuireann tú glao nua.</string>
+    <string name="callFailed_unholdable_call">Ní féidir glaoch a chur mar tá glao nach féidir a choinneáil. Dícheangail an glao sula gcuireann tú glao nua.</string>
+    <string name="callFailed_already_ringing">Ní féidir glaoch a chur mar tá glao isteach gan freagra. Freagair nó diúltaigh an glao isteach sula gcuireann tú glao nua.</string>
+    <string name="callFailed_reject_mmi">Níl an cód MMI seo ar fáil le haghaidh glaonna thar ilchuntais.</string>
+    <string name="emergencyCall_reject_mmi">Ní féidir cóid MMI a dhiailiú le linn glao éigeandála.</string>
 </resources>

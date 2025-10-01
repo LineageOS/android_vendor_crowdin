@@ -15,13 +15,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="phone_account_no_config_mobile_networks">Chuir úinéir an ghléis srian ar a chumas socruithe líonra móibíleacha a athrú.</string>
+    <string name="fdn_blocked_mmi">Ní féidir cód MMI a dhiailiú mar go bhfuil FDN cumasaithe.</string>
     <string name="incall_error_out_of_service_2g">Níl líonra móibíleach ar fáil.\n\nCeangail le líonra gan sreang chun glao a dhéanamh.\n\nTá 2G díchumasaithe ar an ngléas seo, rud a d\'fhéadfadh cur isteach ar do nascacht. Téigh go Socruithe agus cumasaigh \"Ceadaigh 2G\" chun leanúint ar aghaidh.</string>
     <string name="incall_error_out_of_service_wfc_2g_user">Níl líonra móibíleach ar fáil.\n\nCeangail le líonra gan sreang chun glao a dhéanamh.\n\nTá 2G díchumasaithe ar an ngléas seo, rud a d\'fhéadfadh cur isteach ar do nascacht. Téigh go Socruithe agus cumasaigh \"Ceadaigh 2G\" chun leanúint ar aghaidh.</string>
     <string name="incall_error_satellite_enabled">Chun glao a dhéanamh, cuir deireadh leis an nasc satailíte ar dtús.</string>
     <string name="incall_error_carrier_roaming_satellite_mode">Is féidir leat teachtaireachtaí a sheoladh agus a fháil gan líonra soghluaiste nó Wi-Fi.</string>
     <string name="enforce_satellite_channel_string">Cainéal LTE Satailíte Force Camp (Tógáil Dífhabhtaithe amháin)</string>
     <string name="mock_carrier_roaming_satellite_string">Mód Satailíte Iompróir Bréige (Tógáil Dífhabhtaithe amháin)</string>
+    <string name="choose_satellite_data_mode">Mód Sonraí Satailíte Bréige (Dífhabhtú amháin)</string>
+    <string name="satellite_data_restricted_string">Srianta</string>
+    <string name="satellite_data_constrained_string">Teoranta</string>
+    <string name="satellite_data_unConstrained_string">Gan Teorainn</string>
     <string name="esos_satellite_string">Déan fíor-mhód eSOS satailíte a thástáil (Tógáil Dífhabhtaithe amháin)</string>
     <string name="satellite_enable_non_emergency_mode_string">Tástáil fíor-mhód satailíte neamh-eSOS (Tógáil Dífhabhtaithe amháin)</string>
     <string name="demo_esos_satellite_string">Tástáil mód taispeána satailíte eSOS (Tógáil Dífhabhtaithe amháin)</string>
+    <string name="radio_info_data_view_satellite_config">Taispeáin Cumraíocht Satailíte</string>
+    <string name="satellite_config_viewer">Amharcóir Cumraíochta Satailíte</string>
+    <string name="satellite_config_version_label">leagan:</string>
+    <string name="satellite_config_service_type_label">fo-aitheantas/plmn/cineál seirbhíse:</string>
+    <string name="satellite_config_allow_access_label">ceadaigh_rochtain:</string>
+    <string name="satellite_config_country_code_label">cóid tíre:</string>
+    <string name="satellite_config_size_of_sats2_dat_label">méid sats2.dat:</string>
+    <string name="satellite_config_json_label">cumraíocht rochtana satailíte json:</string>
 </resources>

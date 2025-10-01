@@ -284,6 +284,7 @@
         <item quantity="other">Hər <xliff:g id="EVENT_COUNT">%d</xliff:g> tədbir</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">son tarixi dəyiş</string>
+    <string name="user_rejected_calendar_write_permission">Etar, normal işləməsi üçün oxuma və yazma icazəsi tələb edir. Lütfən yenidən sınayın.</string>
     <string name="calendar_permission_not_granted">Tələb edilən icazələr rədd edildi, tədbirlərə düzəliş etmək üçün Ayarlardan icazələri fəallaşdırın.</string>
     <string name="visibility_default">İlkin</string>
     <string name="visibility_confidential">Gizli</string>
@@ -345,6 +346,7 @@
     <string name="preferences_list_add_offline_button">Təqvim əlavə et</string>
     <string name="preferences_list_add_offline_name">Ad</string>
     <string name="preferences_list_add_offline_cancel">İmtina</string>
+    <string name="preferences_menu_about">Etar barədə</string>
     <string name="offline_account_name">Xətdən Kənar Təqvim</string>
     <string name="after_start_of_event">tədbir başlayandan sonra</string>
     <string name="preferences_do_not_check_battery_optimization">Batareya optimallaşdırmasını yoxlama</string>
@@ -357,14 +359,14 @@
     <string name="searchview_description_clear">Sorğunu təmizlə</string>
     <string name="no_results_found">Nəticələr tapılmadı</string>
     <string name="palestine_display_name">Fələstin</string>
-    <string name="more_string">+<xliff:g id="COUNT">%1$d</xliff:g></string>
-    <string name="copy_email">E-poçt ünvanını kopyalayın</string>
-    <string name="copy_number">Telefon nömrəsini kopyalayın</string>
-    <string name="action_label">Qayıdın</string>
+    <string name="more_string">\u002B<xliff:g id="count">%1$d</xliff:g></string>
+    <string name="copy_email">E-poçt ünvanını kopyala</string>
+    <string name="copy_number">Telefon nömrəsini kopyala</string>
+    <string name="action_label">Enter</string>
     <string name="accessbility_suggestion_dropdown_opened">Kontakt təklifi açıqdır</string>
     <string name="accessbility_suggestion_dropdown_closed">Heç bir təklif əlçatan deyil</string>
     <string name="dropdown_delete_button_desc"><xliff:g id="CONTACT">%s</xliff:g> adlı kontaktı alıcılardan silin</string>
-    <string name="chips_action_copy">Kopyalayın</string>
+    <string name="chips_action_copy">Kopyala</string>
     <string name="chips_action_cancel">Ləğv et</string>
-    <string name="chips_permission_text">Kontakt təkliflərinə icazə verin</string>
+    <string name="chips_permission_text">Kontakt təkliflərinə icazə ver</string>
 </resources>

@@ -12,4 +12,8 @@
     <string name="assistant_not_selected_title">Roghnaigh cúntóir chun an ghné seo a úsáid</string>
     <string name="assistant_not_selected_text">Chun éisteacht le téacs ar do scáileán nó é a aistriú, roghnaigh aip cúntóir digiteach sna Socruithe</string>
     <string name="assistant_not_supported_title">Athraigh do chúntóir chun an ghné seo a úsáid</string>
+    <string name="assistant_not_supported_text">Chun éisteacht le téacs ar do scáileán nó é a aistriú, athraigh d’aip cúntóra digiteach sna Socruithe</string>
+    <string name="tooltip_listen">Beartaigh anseo chun éisteacht le téacs ar an scáileán seo</string>
+    <string name="tooltip_translate">Beartaigh anseo chun téacs ar an scáileán seo a aistriú</string>
+    <string name="toast_p2p_app_not_shareable">Ní féidir an aip seo a roinnt</string>
 </resources>
