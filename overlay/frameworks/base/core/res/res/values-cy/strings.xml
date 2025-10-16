@@ -86,6 +86,7 @@
     <string name="NetworkPreferenceSwitchTitle">Methu â chysylltu â rhwydweithiau symudol</string>
     <string name="NetworkPreferenceSwitchSummary">Rho gynnig ar newid dy rwydwaith a ffafrir. Tapia i\'w newid.</string>
     <string name="EmergencyCallWarningTitle">Dyw galwadau brys ddim ar gael</string>
+    <string name="emergency_calling_do_not_show_again">Peidio â Dangos Eto</string>
     <string name="notification_channel_network_alert">Rhybuddion</string>
     <string name="notification_channel_call_forward">Dargyfeirio galwadau</string>
     <string name="notification_channel_emergency_callback">Modd Galwad Nôl mewn Argyfwng</string>
@@ -264,6 +265,7 @@ Ni fyddi\u2019n derbyn galwadau ffôn na negeseuon testun.</string>
     <string name="global_action_bug_report">Adroddiad Gwall</string>
     <string name="global_action_logout">Diweddu sesiwn</string>
     <string name="global_action_screenshot">Sgrinlun</string>
+    <string name="global_action_standby">Modd segur</string>
     <string name="bugreport_title">Adroddiad Gwall</string>
     <string name="bugreport_message">Bydd hyn yn casglu gwybodaeth am gyflwr presennol dy ddyfais i\'w hanfon fel neges e-bost.  Mi gymerith ychydig o amser o gychwyn yr adroddiad gwall nes bod ei fod yn barod i\'w anfon, felly bu\'n bwyllog.</string>
     <string name="bugreport_option_interactive_title">Adroddiad rhyngweithiol</string>
@@ -308,6 +310,7 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="notification_channel_network_alerts">Hysbysiadau rhwydwaith</string>
     <string name="notification_channel_network_available">Rhwydwaith ar gael</string>
     <string name="notification_channel_vpn">Statws VPN</string>
+    <string name="notification_channel_system_time">Amser a pharthau amser</string>
     <string name="notification_channel_device_admin">Rhybuddion gan dy weinyddwr TG</string>
     <string name="notification_channel_alerts">Rhybuddion</string>
     <string name="notification_channel_retail_mode">Demo siop</string>
@@ -315,6 +318,7 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="notification_channel_heavy_weight_app">Ap yn rhedeg</string>
     <string name="notification_channel_foreground_service">Apiau sy\'n defnyddio batri</string>
     <string name="notification_channel_accessibility_magnification">Chwyddo</string>
+    <string name="notification_channel_accessibility_hearing_device">Dyfais cymorth clyw</string>
     <string name="notification_channel_accessibility_security_policy">Defnydd hygyrchedd</string>
     <string name="notification_channel_display">Dangosydd</string>
     <string name="foreground_service_app_in_background">Mae <xliff:g id="app_name">%1$s</xliff:g> yn defnyddio batri</string>
@@ -359,6 +363,9 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="permgroupdesc_sensors">cael at ddata synhwyrydd am dy arwyddion bywyd</string>
     <string name="permgrouplab_notifications">Hysbysiadau</string>
     <string name="permgroupdesc_notifications">dangos hysbysiadau</string>
+    <string name="permgrouplab_xr_tracking">data tracio XR</string>
+    <string name="permgroupdesc_xr_tracking">cael mynediad at ddata XR amdanat ti a\'r amgylchfyd o dy amgylch</string>
+    <string name="permgrouplab_xr_tracking_sensitive">data tracio sensitif XR</string>
     <string name="capability_title_canRetrieveWindowContent">Adfer cynnwys ffenestr</string>
     <string name="capability_desc_canRetrieveWindowContent">Archwilio cynnwys ffenestr rwyt yn rhyngweithio gyda hi.</string>
     <string name="capability_title_canRequestTouchExploration">Troi Archwilio trwy Gyffwrdd ymlaen</string>
@@ -652,6 +659,10 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="permdesc_imagesWrite">Mae\u2019n caniatáu i\u2019r ap addasu dy gasgliad o luniau.</string>
     <string name="permlab_mediaLocation">darllen lleoliadau o dy gasgliad cyfryngau</string>
     <string name="permdesc_mediaLocation">Mae\'n caniatáu i\u2019r ap ddarllen lleoliadau o dy gasgliad cyfryngau.</string>
+    <string name="permlab_eye_tracking_fine">tracio i ble yr wyt yn edrych</string>
+    <string name="permlab_face_tracking">tracio dy wyneb</string>
+    <string name="permlab_hand_tracking">tracio dy ddwylo</string>
+    <string name="permlab_head_tracking">tracio dy ben</string>
     <string name="biometric_app_setting_name">Defnyddio biometreg</string>
     <string name="biometric_or_screen_lock_app_setting_name">Defnyddio biometreg neu glo sgrin</string>
     <string name="biometric_dialog_default_title">Gwirio mai ti sydd yno</string>
@@ -1875,11 +1886,16 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="one_handed_mode_feature_name">Modd Un-Llaw</string>
     <string name="reduce_bright_colors_feature_name">Pŵl iawn</string>
     <string name="hearing_aids_feature_name">Dyfeisiau cymorth clyw</string>
+    <string name="hearing_device_status_disconnected">Heb gysylltu</string>
+    <string name="hearing_device_status_connected">Wedi cysylltu</string>
+    <string name="hearing_device_status_active">Yn weithredol</string>
     <string name="hearing_device_status_loading">Yn llwytho</string>
     <string name="accessibility_shortcut_enabling_service">Botymau sain wedi eu dal. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> wedi ei droi ymlaen.</string>
     <string name="accessibility_shortcut_disabling_service">Botymau sain wedi eu dal. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> wedi ei droi i ffwrdd.</string>
     <string name="accessibility_shortcut_spoken_feedback">Gollynga\u2019r botymau sain. I droi <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> ymlaen, pwysa a dal y ddau fotwm sain i lawr eto am 3 eiliad.</string>
     <string name="accessibility_magnification_chooser_text">Chwyddo</string>
+    <string name="hearing_device_switch_phone_mic_notification_title">Newid i feicroffon y ffôn?</string>
+    <string name="hearing_device_switch_hearing_mic_notification_title">Newid i feicroffon y cymorth clyw?</string>
     <string name="hearing_device_notification_switch_button">Newid</string>
     <string name="hearing_device_notification_settings_button">Gosodiadau</string>
     <string name="user_switching_message">Yn newid i <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
@@ -2218,6 +2234,8 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="unpin_target">Dadbinio</string>
     <string name="unpin_specific_target">Dadbinio <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
     <string name="app_info">Gwybodaeth am yr ap</string>
+    <string name="suggested_apps_group_a11y_title">Awgrymiadau apiau</string>
+    <string name="all_apps_group_a11y_title">Rhestr apiau</string>
     <string name="negative_duration">\u2212<xliff:g id="time" example="1:14">%1$s</xliff:g></string>
     <string name="demo_starting_message">Yn cychwyn y modd arddangos\u2026</string>
     <string name="demo_restarting_message">Yn ailosod y ddyfais\u2026</string>
@@ -2375,7 +2393,18 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="accessibility_system_action_dpad_left_label">PadD Chwith</string>
     <string name="accessibility_system_action_dpad_right_label">PadD Dde</string>
     <string name="accessibility_system_action_dpad_center_label">PadD Canol</string>
+    <string name="accessibility_autoclick_left_click">Clic chwith</string>
+    <string name="accessibility_autoclick_right_click">Clic de</string>
+    <string name="accessibility_autoclick_double_click">Clic dwbl</string>
+    <string name="accessibility_autoclick_drag">Llusgo</string>
+    <string name="accessibility_autoclick_scroll">Sgrolio</string>
     <string name="accessibility_autoclick_pause">Saib</string>
+    <string name="accessibility_autoclick_position">Safle</string>
+    <string name="accessibility_autoclick_scroll_up">Sgrolio i fyny</string>
+    <string name="accessibility_autoclick_scroll_down">Sgrolio i lawr</string>
+    <string name="accessibility_autoclick_scroll_left">Sgrolio i\'r chwith</string>
+    <string name="accessibility_autoclick_scroll_right">Sgrolio i\'r dde</string>
+    <string name="accessibility_autoclick_scroll_exit">Gadael Modd Sgrolio</string>
     <string name="as_app_forced_to_restricted_bucket"><xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> has been put into the RESTRICTED bucket</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">anfon delwedd</string>

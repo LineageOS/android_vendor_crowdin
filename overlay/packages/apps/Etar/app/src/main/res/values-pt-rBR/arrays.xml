@@ -111,4 +111,36 @@
         <item>todo quarto sábado</item>
         <item>todo último sábado</item>
     </string-array>
+    <string-array name="timezone_rename_labels">
+        <item>"Austrália Central - NT"</item>
+        <item>"Austrália Central - SA"</item>
+        <item>"Australia Oriental - QLD"</item>
+        <item>"Austrália Oriental - NSW"</item>
+        <item>"Padrão de Montanha - Riacho Dawson"</item>
+        <item>"Padrão Central - Sascachevão"</item>
+        <item>"Padrão do Lestre - Atikokan"</item>
+        <item>"Horário Padrão do Atlântico - Quebec"</item>
+        <item>"Hawaii-Aleutiano - Alasca"</item>
+        <item>"Hawaii-Aleutiano - Alasca"</item>
+        <item>"Horário Padrão do Pacífico - Metlakatla"</item>
+        <item>"Padrão de Montanha - Arizona"</item>
+        <item>"Pacífico - Baixa Califórnia"</item>
+        <item>"Montanha - Chihuahua"</item>
+        <item>"Central - Tamaulipas"</item>
+        <item>"Montanha - Sonora"</item>
+        <item>"Horário da África Oriental"</item>
+        <item>"Horário Padrão do Atlântico"</item>
+        <item>"Horário Padrão do Atlântico"</item>
+        <item>"Horário do Leste Europeu"</item>
+        <item>"Horário de Kaliningrado"</item>
+        <item>"Amazônia - Rondônia"</item>
+        <item>"Brasília - Pará"</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>"São Martinho"</item>
+        <item>"Países Baixos Caribenhos
+"</item>
+        <item>"Curaçao"</item>
+        <item>"Sudão do Sul"</item>
+    </string-array>
 </resources>
