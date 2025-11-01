@@ -454,12 +454,18 @@
     <string name="location_settings_services_title">Gwasanaethau Lleoliad</string>
     <string name="location_access_settings_title">Mynediad at leoliad</string>
     <string name="location_access_settings_summary">Dewisa os gaiff apiau fynediad at leoliad dy gar</string>
+    <string name="microphone_settings_title">Meicroffon</string>
+    <string name="microphone_toggle_title">Defnyddio\u2019r meicroffon</string>
+    <string name="microphone_toggle_summary">Caniatáu pob ap i gael mynediad at dy feicroffon</string>
+    <string name="microphone_manage_permissions">Rheoli caniatâd meicroffon</string>
     <string name="microphone_no_recent_access">Dim apiau diweddar</string>
+    <string name="microphone_app_permission_summary_microphone_off">Does gan dim apiau fynediad</string>
     <string name="microphone_app_permission_summary_microphone_on">        {count, plural,
 =1    {Mae gan # o {total_count} ap fynediad}
             other {Mae gan # o {total_count} ap fynediad}
         }
     </string>
+    <string name="microphone_settings_recent_requests_view_all_title">Gweld y cwbl</string>
     <string name="microphone_settings_loading_app_permission_stats">Yn llwytho\u2026</string>
     <string name="system_setting_title">System</string>
     <string name="system_update_settings_title">Diweddariadau system</string>
@@ -825,6 +831,7 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="number_of_device_admins_none">Dim apiau wedi\u2019u actifadu</string>
     <string name="work_policy_privacy_settings_no_org_name">Polisi cerbyd</string>
     <string name="enterprise_privacy_none">Dim</string>
+    <string name="enterprise_privacy_microphone_access">Caniatâd meicroffon</string>
     <string name="enterprise_privacy_enterprise_set_default_apps">Apiau rhagosodedig</string>
     <string name="factory_reset_parked_title">Ailosod y system gwybodloniant</string>
     <string name="factory_reset_parked_text">Mae dy system wedi derbyn cais i ailosod y ddyfais a dileu\'r holl ddata i fod fel yr oedd yn gadael y ffatri. Gellir ei ailosod nawr, neu caiff ei ailosod y tro nesaf bydd y cerbyd yn cychwyn. Yna, bydd modd gosod proffil newydd.</string>

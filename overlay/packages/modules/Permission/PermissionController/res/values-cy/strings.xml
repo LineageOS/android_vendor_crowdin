@@ -475,10 +475,14 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="permgrouprequest_read_media_aural">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at luniau a sain ar y ddyfais hon?</string>
     <string name="permgrouprequest_read_media_visual">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at luniau a fideos ar y ddyfais hon?</string>
     <string name="permgrouprequest_microphone">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; recordio sain?</string>
+    <string name="permgrouprequest_device_aware_microphone">Caniatáu &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; i recordio sain ar dy &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequestdetail_microphone">Bydd yr ap ond yn gallu recordio sain tra dy fod yn defnyddio\u2019r ap</string>
     <string name="permgroupbackgroundrequest_microphone">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; recordio sain?</string>
+    <string name="permgroupbackgroundrequest_device_aware_microphone">Caniatáu i
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; recordio sain ar dy &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_microphone">Gallai\u2019r ap hwn fod eisiau recordio sain trwy\u2019r amser, hyd yn oed pan nad wyt ti\u2019n defnyddio\u2019r ap. <annotation id="link">Caniatáu yn Gosodiadau.</annotation></string>
     <string name="permgroupupgraderequest_microphone">Newid mynediad &lt;b&gt;&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;&lt;/b&gt; at feicroffon?</string>
+    <string name="permgroupupgraderequest_device_aware_microphone">Newid caniatâd mynediad at y meicroffon i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ar dy &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_microphone">Mae\u2019r ap hwn eisiau recordio sain trwy\u2019r amser, hyd yn oed pan nad wyt ti\u2019n defnyddio\u2019r ap. <annotation id="link">Caniatáu yn Gosodiadau.</annotation></string>
     <string name="permgrouprequest_activityRecognition">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael gweld dy weithgaredd corfforol?</string>
     <string name="permgrouprequest_camera">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; dynnu lluniau a recordio fideo?</string>
@@ -523,7 +527,10 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="security_settings">Gosodiadau Diogelwch</string>
     <string name="safety_privacy_qs_tile_title">Diogelwch a phreifatrwydd</string>
     <string name="safety_privacy_qs_tile_subtitle">Gwirio statws</string>
+    <string name="microphone_toggle_label_qs">Mynediad at ficroffon</string>
     <string name="permissions_removed_qs">Caniatâd wedi\'i dynnu yn ôl</string>
+    <string name="microphone_usage_qs">Gweld defnydd meicroffon diweddar</string>
+    <string name="remove_microphone_qs">Tynnu caniatâd yr ap hwn</string>
     <string name="manage_service_qs">Rheoli gwasanaeth</string>
     <string name="manage_permissions_qs">Rheoli caniatâd</string>
     <string name="active_call_usage_qs">Yn cael ei ddefnyddio gan alwad ffôn</string>
@@ -553,6 +560,7 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="media_confirm_dialog_message_q_to_s_visual_allow">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os caiff yr ap hwn fynediad at luniau a fideos, mi fydd ganddo hefyd mynediad at ffeiliau sain a cherddoriaeth.</string>
     <string name="media_confirm_dialog_message_q_to_s_visual_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, ni fydd ganddo chwaith mynediad at luniau na fideos.</string>
     <string name="safety_center_background_location_access_reminder_notification_content">Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> gael mynediad at dy leoliad o hyd, hyd yn oed pan nad yw\u2019r ap ar agor</string>
+    <string name="mic_toggle_title">Mynediad at feicroffon</string>
     <string name="perm_toggle_description">Ar gyfer apiau a gwasanaethau</string>
     <string name="safety_label_changes_gear_description">Gosodiadau</string>
     <string name="enhanced_confirmation_dialog_learn_more">Dysgu mwy</string>

@@ -556,11 +556,16 @@
     </string-array>
     <string name="no_recent_sensor_accesses">Dim mynediad diweddar</string>
     <string name="recently_accessed_show_all">Gweld y cwbl</string>
+    <string name="microphone">Meicroffon</string>
+    <string name="mic_toggle_title">Mynediad at feicroffon</string>
+    <string name="open_mic_permissions">Mynediad apiau at feicroffon</string>
     <string name="microphone_physical_privacy_enabled_title">Mynediad at feicroffon wedi\u2019i rwystro</string>
     <string name="microphone_physical_privacy_enabled_text">I ddadrwystro, symuda\u2019r switsh preifatrwydd ar dy ddyfais fel bod y meicroffon ymlaen i ganiatáu mynediad at y meicroffon.</string>
     <string name="camera">Camera</string>
     <string name="camera_physical_privacy_enabled_title">Mynediad at gamera wedi\u2019i rwystro</string>
     <string name="camera_physical_privacy_enabled_text">I ddadrwystro, symuda\u2019r switsh preifatrwydd ar dy ddyfais fel bod y camera ymlaen i ganiatáu mynediad at y camera.</string>
+    <string name="mic_toggle_info_title">Mynediad at Feicroffon:
+        <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
     <string name="sensor_toggle_info_on">Ymlaen</string>
     <string name="sensor_toggle_info_off">I ffwrdd</string>
     <string name="system_location">Lleoliad</string>
