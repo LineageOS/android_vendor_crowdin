@@ -319,6 +319,7 @@
         <item quantity="other">Повторов: <xliff:g id="EVENT_COUNT">%d</xliff:g></item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">изменить дату окончания</string>
+    <string name="user_rejected_calendar_write_permission">Для корректной работы Etar требуется разрешение на чтение и запись календаря. Пожалуйста, попробуйте еще раз.</string>
     <string name="calendar_permission_not_granted">Требуемые разрешения были отклонены. Включите их в настройках, чтобы иметь возможность редактировать события</string>
     <string name="visibility_default">По умолчанию</string>
     <string name="visibility_confidential">Конфиденциальное</string>
@@ -380,6 +381,7 @@
     <string name="preferences_list_add_offline_button">Добавить календарь</string>
     <string name="preferences_list_add_offline_name">Название</string>
     <string name="preferences_list_add_offline_cancel">Отмена</string>
+    <string name="preferences_menu_about"> О Etar</string>
     <string name="offline_account_name">Автономный календарь</string>
     <string name="after_start_of_event">после начала события</string>
     <string name="preferences_do_not_check_battery_optimization">Не проверять оптимизацию батареи</string>

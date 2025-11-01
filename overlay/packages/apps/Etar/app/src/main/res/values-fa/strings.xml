@@ -284,6 +284,7 @@
         <item quantity="other">برای <xliff:g id="EVENT_COUNT">%d</xliff:g> رویداد</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">تغییر تاریخ پایان</string>
+    <string name="user_rejected_calendar_write_permission">ایتار برای عملکرد صحیح به مجوزهای خواندن و نوشتن تقویم نیاز دارد. لطفاً دوباره امتحان کنید.</string>
     <string name="calendar_permission_not_granted">مجوزهای لازم داده نشد. برای اصلاح رویدادها، از تنظیمات مجوزها را فعال کنید</string>
     <string name="visibility_default">پیش‌فرض</string>
     <string name="visibility_confidential">محرمانه</string>
@@ -345,6 +346,7 @@
     <string name="preferences_list_add_offline_button">افزودن تقویم</string>
     <string name="preferences_list_add_offline_name">نام</string>
     <string name="preferences_list_add_offline_cancel">لغو</string>
+    <string name="preferences_menu_about">درباره ایتار</string>
     <string name="offline_account_name">تقویم آفلاین</string>
     <string name="after_start_of_event">پس از شروع رویداد</string>
     <string name="preferences_do_not_check_battery_optimization">بهینه‌سازی باتری را بررسی نکنید</string>

@@ -78,6 +78,17 @@
     <string name="tv_bluetooth_battery_level_untethered_right">De <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Gweithredol</string>
     <string name="bluetooth_saved_device">Wedi ei gofio</string>
+    <string name="bluetooth_hearing_device_ambient_error">Methwyd â diweddaru\u2019r amgylchoedd</string>
+    <string name="bluetooth_guest_battery_level">Dyfais gwestai. Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_guest_battery_level_untethered">Dyfais gwestai. Batri, Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
+    <string name="bluetooth_guest_media_only_battery_level">Dyfais gwestai (cyfryngau yn unig). Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_guest_media_only_battery_level_untethered">Dyfais gwestai (cyfryngau yn unig). Batri, Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
+    <string name="bluetooth_guest_battery_level_lea_support">Dyfais gwestai (yn cefnogi rhannu sain). Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_guest_battery_level_untethered_lea_support">Dyfais gwestai (yn cefnogi rhannu sain). Batri, L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
+    <string name="bluetooth_guest_no_battery_level_lea_support">Dyfais gwestai (yn cefnogi rhannu sain)</string>
+    <string name="bluetooth_guest_no_battery_level">Dyfais gwestai</string>
+    <string name="bluetooth_guest_media_only_no_battery_level">Dyfais gwestai (cyfryngau yn unig)</string>
+    <string name="bluetooth_guest_saved_device_lea_support">Dyfais gwestai (yn cefnogi rhannu sain)</string>
     <string name="bluetooth_profile_a2dp">Sain cyfryngau</string>
     <string name="bluetooth_profile_headset">Galwadau ffôn</string>
     <string name="bluetooth_profile_opp">Trosglwyddo ffeiliau</string>
@@ -340,6 +351,7 @@
     <string name="debug_hw_drawing_category">Rendro caledwedd mwy cyflym</string>
     <string name="media_category">Cyfryngau</string>
     <string name="debug_monitoring_category">Monitro</string>
+    <string name="window_management_category">Rheolaeth Ffenestri</string>
     <string name="strict_mode">Modd llym wedi ei alluogi</string>
     <string name="strict_mode_summary">Fflachio’r sgrin pan mae apiau yn gwneud gweithrediadau hir ar brif ffrwd.</string>
     <string name="pointer_location">Lleoliad pwyntydd</string>
@@ -380,6 +392,7 @@
     <string name="transition_animation_scale_title">Graddfa animeiddiad trawsnewid</string>
     <string name="animator_duration_scale_title">Graddfa hyd animeiddiwr</string>
     <string name="overlay_display_devices_title">Efelychu dangosyddion eilradd</string>
+    <string name="shade_display_awareness_title">Safle cysgod dangosydd</string>
     <string name="debug_applications_category">Apiau</string>
     <string name="immediately_destroy_activities">Peidio â chadw gweithgareddau</string>
     <string name="immediately_destroy_activities_summary">Dinistrio pob gweithgaredd cyn gynted â bod defnyddiwr yn ei adael</string>
@@ -425,6 +438,7 @@
     <string name="select_webview_provider_title">Rhoi WebView ar waith</string>
     <string name="select_webview_provider_dialog_title">Gosod WebView i weithredu</string>
     <string name="select_webview_provider_toast_text">Dyw\'r dewis hwn ddim yn ddilys bellach. Ceisia eto.</string>
+    <string name="webview_launch_devtools_no_activity">Methwyd â lansio DevTools.</string>
     <string name="picture_color_mode">Modd lliw darlun</string>
     <string name="picture_color_mode_desc">Defnyddio sRGB</string>
     <string name="daltonizer_mode_disabled">Wedi\'i analluogi</string>
@@ -477,6 +491,7 @@
     <string name="battery_info_status_charging_v2">Yn gwefru</string>
     <string name="disabled_by_admin_summary_text">Rheolir gan weinyddwr</string>
     <string name="disabled_by_app_ops_text">Rheolir gan Osodiad Cyfyngedig</string>
+    <string name="disabled_in_phone_call_text">Dim ar gael yn ystod galwadau</string>
     <string name="disabled">Wedi\'i analluogi</string>
     <string name="enabled">Galluogwyd</string>
     <string name="external_source_trusted">Caniateir</string>
@@ -570,6 +585,7 @@
     <string name="tv_media_transfer_arc_subtitle">Wedi cysylltu trwy ARC</string>
     <string name="tv_media_transfer_earc_subtitle">Wedi cysylltu trwy eARC</string>
     <string name="profile_connect_timeout_subtext">Problem cysylltu. Diffodda\'r ddyfais a\'i throi nôl ymlaen</string>
+    <string name="bluetooth_key_missing_subtext">Methu â chysylltu</string>
     <string name="media_transfer_wired_device_name">Dyfais sain gwifredig</string>
     <string name="help_label">Cymorth ac adborth</string>
     <string name="storage_category">Storfa</string>
@@ -654,6 +670,9 @@ nawr, neu gellir ei gadw a dileu gweithgaredd wrth adael</string>
     <string name="cached_apps_freezer_enabled">Galluogwyd</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Rhaid ailgychwyn dy ddyfais er mwyn i\'r newid hwn fod yn berthnasol. Ailgychwyna nawr neu diddymu.</string>
     <string name="media_transfer_wired_headphone_name">Clustffonau gwifr</string>
+    <string name="media_transfer_wired_device_mic_name">Meicroffon gwifren</string>
+    <string name="media_transfer_usb_device_mic_name">Meicroffon USB</string>
+    <string name="media_transfer_bt_device_mic_name">Meicroffon Bluetooth</string>
     <string name="wifi_hotspot_switch_on_text">Ymlaen</string>
     <string name="wifi_hotspot_switch_off_text">I ffwrdd</string>
     <string name="carrier_network_change_mode">Newid rhwydwaith darparwr</string>

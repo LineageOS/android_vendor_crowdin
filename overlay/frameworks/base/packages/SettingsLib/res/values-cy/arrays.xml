@@ -281,4 +281,16 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Dangosydd y ddyfais yn unig (Rhagosodiad)</item>
+        <item>Dangosydd allanol</item>
+        <item>Cyffyrddiad diwethaf y bar statws</item>
+        <item>Yn ôl ffocws</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Dangos cysgod dim ond ar ddangosydd y ddyfais</item>
+        <item>Dangos cysgod ar ddangosydd allanol sengl</item>
+        <item>Dangos cysgod ar y ddyfais ble cafwyd y cyffyrddiad diwethaf â\u2019r bar statws</item>
+        <item>Dangos cysgod ar y dangosydd diwethaf i fod mewn ffocws</item>
+    </string-array>
 </resources>

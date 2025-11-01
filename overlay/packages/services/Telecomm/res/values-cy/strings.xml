@@ -144,4 +144,9 @@
     <string name="call_streaming_notification_body">Yn ffrydio sain at ddyfais arall</string>
     <string name="call_streaming_notification_action_hang_up">Gorffen yr alwad</string>
     <string name="call_streaming_notification_action_switch_here">Newid i yma</string>
+    <string name="callFailed_outgoing_already_present">Methu â gwneud galwad am fod galwad arall eisoes yn cysylltu. Arhosa i/u2019r alwad cael ei hateb neu datgysyllta honno cyn gwneud galwad newydd.</string>
+    <string name="callFailed_too_many_calls_include_merge">Methu â gwneud galwad am fod dwy alwad arall eisoes ar y gweill. Datgysyllta un o/u2019r ddwy alwad neu eu cyfuno nhw i alwad cynhadledd cyn gwneud galwad newydd.</string>
+    <string name="callFailed_too_many_calls_exclude_merge">Methu â gwneud galwad am fod dwy alwad arall eisoes ar y gweill. Datgysyllta un o/u2019r ddwy alwad cyn gwneud galwad newydd.</string>
+    <string name="callFailed_unholdable_call">Methu â gwneud galwad am fod galwad na ellir ei roi i aros. Datgysylltau/2019r alwad blaenorol cyn gwneud galwad newydd.</string>
+    <string name="callFailed_already_ringing">Methu â gwneud galwad am fod galwad i mewn yn aros i gael ei hateb. Ateba neu wrthod yr alwad i mewn cyn gwneud galwad newydd.</string>
 </resources>

@@ -55,4 +55,6 @@
     <string name="keyboard_layout_montenegrin_latin">Montenegrín (alfabetu llatín)</string>
     <string name="keyboard_layout_serbian_cyrillic">Serbiu (alfabetu cirílicu)</string>
     <string name="keyboard_layout_montenegrin_cyrillic">Montenegrín (alfabetu cirílicu)</string>
+    <string name="keyboard_layout_romanian">Rumanu</string>
+    <string name="keyboard_layout_english_india">Inglés (India)</string>
 </resources>
