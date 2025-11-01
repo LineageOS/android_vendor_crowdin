@@ -523,7 +523,10 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="security_settings">Gosodiadau Diogelwch</string>
     <string name="safety_privacy_qs_tile_title">Diogelwch a phreifatrwydd</string>
     <string name="safety_privacy_qs_tile_subtitle">Gwirio statws</string>
+    <string name="microphone_toggle_label_qs">Mynediad at ficroffon</string>
     <string name="permissions_removed_qs">Caniatâd wedi\'i dynnu yn ôl</string>
+    <string name="microphone_usage_qs">Gweld defnydd meicroffon diweddar</string>
+    <string name="remove_microphone_qs">Tynnu caniatâd yr ap hwn</string>
     <string name="manage_service_qs">Rheoli gwasanaeth</string>
     <string name="manage_permissions_qs">Rheoli caniatâd</string>
     <string name="active_call_usage_qs">Yn cael ei ddefnyddio gan alwad ffôn</string>
@@ -553,6 +556,7 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="media_confirm_dialog_message_q_to_s_visual_allow">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os caiff yr ap hwn fynediad at luniau a fideos, mi fydd ganddo hefyd mynediad at ffeiliau sain a cherddoriaeth.</string>
     <string name="media_confirm_dialog_message_q_to_s_visual_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, ni fydd ganddo chwaith mynediad at luniau na fideos.</string>
     <string name="safety_center_background_location_access_reminder_notification_content">Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> gael mynediad at dy leoliad o hyd, hyd yn oed pan nad yw\u2019r ap ar agor</string>
+    <string name="mic_toggle_title">Mynediad at feicroffon</string>
     <string name="perm_toggle_description">Ar gyfer apiau a gwasanaethau</string>
     <string name="safety_label_changes_gear_description">Gosodiadau</string>
     <string name="enhanced_confirmation_dialog_learn_more">Dysgu mwy</string>

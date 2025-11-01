@@ -653,6 +653,9 @@ nawr, neu gellir ei gadw a dileu gweithgaredd wrth adael</string>
     <string name="cached_apps_freezer_enabled">Galluogwyd</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Rhaid ailgychwyn dy ddyfais er mwyn i\'r newid hwn fod yn berthnasol. Ailgychwyna nawr neu diddymu.</string>
     <string name="media_transfer_wired_headphone_name">Clustffonau gwifr</string>
+    <string name="media_transfer_wired_device_mic_name">Meicroffon gwifren</string>
+    <string name="media_transfer_usb_device_mic_name">Meicroffon USB</string>
+    <string name="media_transfer_bt_device_mic_name">Meicroffon Bluetooth</string>
     <string name="wifi_hotspot_switch_on_text">Ymlaen</string>
     <string name="wifi_hotspot_switch_off_text">I ffwrdd</string>
     <string name="carrier_network_change_mode">Newid rhwydwaith darparwr</string>

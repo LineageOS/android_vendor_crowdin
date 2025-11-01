@@ -362,6 +362,23 @@
     </string>
     <string name="sensor_privacy_mic_camera_unblocked_toast_content">        Meicroffon a chamera ar gael
     </string>
+    <string name="sensor_privacy_mic_turned_on_dialog_title">        Meicroffon wedi\u2019i droi ymlaen
+    </string>
+    <string name="sensor_privacy_mic_turned_off_dialog_title">        Meicroffon wedi\u2019i droi i ffwrdd
+    </string>
+    <string name="sensor_privacy_mic_unblocked_dialog_content">        Meicroffon wedi\u2019i alluogi ar gyfer pob ap a gwasanaeth.
+    </string>
+    <string name="sensor_privacy_mic_blocked_no_exception_dialog_content">        Mae mynediad at feicroffon wedi\u2019i analluogi ar gyfer pob ap a gwasanaeth.
+        Gellir galluogi mynediad at feicroffon yn Gosodiadau &gt; Preifatrwydd &gt; Meicroffon.
+    </string>
+    <string name="sensor_privacy_mic_blocked_with_exception_dialog_content">        Mae mynediad at feicroffon wedi\u2019i analluogi ar gyfer pob ap a gwasanaeth.
+        Gellir newid hyn yn Gosodiadau &gt; Preifatrwydd &gt; Meicroffon.
+    </string>
+    <string name="sensor_privacy_camera_turned_on_dialog_title">        Camera wedi\u2019i droi ymlaen
+    </string>
+    <string name="sensor_privacy_camera_turned_off_dialog_title">        Camera wedi\u2019i droi i ffwrdd
+    </string>
+    <string name="sensor_privacy_htt_blocked_dialog_content">I ddefnyddio\u20159r botwm meicroffon, rho fynediad at y meicroffon yn Gosodiadau.</string>
     <string name="sensor_privacy_dialog_open_settings">Agor Gosodiadau</string>
     <string name="media_seamless_other_device">Dyfais arall</string>
     <string name="quick_step_accessibility_toggle_overview">Toglo Trosolwg</string>
@@ -1127,6 +1144,7 @@ many {Mae # ap yn weithredol}
     <string name="microphone_blocked_dream_overlay_content_description">Meicroffon wedi\u2019i rwystro</string>
     <string name="priority_mode_dream_overlay_content_description">Paid â tharfu</string>
     <string name="dismiss_dialog">Diystyru</string>
+    <string name="privacy_dialog_title">Meicroffon a Chamera</string>
     <string name="privacy_dialog_done_button">Cwblhau</string>
     <string name="privacy_dialog_collapse_action">Lleihau</string>
     <string name="shortcut_helper_category_system">System</string>
