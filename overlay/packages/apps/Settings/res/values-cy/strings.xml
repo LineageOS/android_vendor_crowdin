@@ -1975,6 +1975,8 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="battery_system_usage_for_past_24">Defnydd y system dros y 24 awr ddiwethaf</string>
     <string name="battery_system_usage_for">Defnydd y system am <xliff:g id="slot">%s</xliff:g></string>
     <string name="battery_app_usage_for">Defnydd yr ap am <xliff:g id="slot">%s</xliff:g></string>
+    <string name="battery_system_usage_since_last_full_charge_to">Defnydd y system ers gwefru\u2019n llawn ddiwethaf hyd <xliff:g id="slot_timestamp" example="Friday 10 am">%s</xliff:g></string>
+    <string name="battery_app_usage_since_last_full_charge_to">Defnydd apiau ers gwefru\u2019n llawn ddiwethaf hyd <xliff:g id="slot_timestamp" example="Friday 10 am">%s</xliff:g></string>
     <string name="battery_usage_for_total_time">Cyfanswm: <xliff:g id="time">%s</xliff:g></string>
     <string name="battery_usage_for_background_time">Cefndir: <xliff:g id="time">%s</xliff:g></string>
     <string name="battery_usage_screen_time">Amser sgrin: <xliff:g id="time">%s</xliff:g></string>
@@ -3239,6 +3241,7 @@ wrth adael modd gwestai</string>
     <string name="permit_manage_external_storage">Caniatáu mynediad at bob ffeil</string>
     <string name="allow_manage_external_storage_description">Caniatáu i\'r ap hwn allu darllen, addasu a dileu ffeiliau ar y ddyfais hon neu ar unrhyw ddyfeisiau storio sy\'n cael eu cysylltu. Gallai\'r ap cael mynediad at ffeiliau heb ofyn i ti.</string>
     <string name="filter_manage_external_storage">Yn cael mynediad at bob ffeil</string>
+    <string name="footer_description_full_screen_intent">Mae\u2019n caniatáu\u2019r ap hwn i ddangos hysbysiadau sy\u2019n llenwi\u2019r sgrin llawn tra bod y ddyfais wedi\u2019i chloi. Gall apiau defnyddio\u2019r rhain i ddwyn sylw at larymau, galwadau i mewn, neu hysbysiadau brys eraill.</string>
     <string name="media_management_apps_title">Apiau rheoli cyfryngau</string>
     <string name="media_management_apps_toggle_label">Caniatáu i\'r ap reoli cyfryngau</string>
     <string name="media_management_apps_description">Os caniateir, gall yr ap hwn addasu neu ddileu ffeiliau cyfryngau wedi\u2019u creu gan apiau eraill heb ofyn. Rhaid bod gan yr ap ganiatâd i gael mynediad at ffeiliau a chyfryngau.</string>

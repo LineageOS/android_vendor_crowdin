@@ -630,6 +630,7 @@ hunaniaeth symudol ddiwethaf gan deleffoni</string>
 megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="permlab_nfc">rheoli Cyfathrebiad Maes Cyfagos</string>
     <string name="permdesc_nfc">Mae\'n caniatáu\'r ap i gyfathrebu gyda thagiau, cardiau a darllenwyr NFC.</string>
+    <string name="permdesc_nfcTransactionEvent">Mae\u2019n caniatáu\u2019r ap i dderbyn gwybodaeth ynghylch trosglwyddiadau sy\u2019n digwydd ar Secure Element.</string>
     <string name="permlab_disableKeyguard">analluogi dy glo sgrin</string>
     <string name="permdesc_disableKeyguard">Mae\'n caniatáu\'r ap i analluogi\'r bysellglo ac unrhyw ddiogelwch cyfrinair cysylltiedig. Er enghraifft, mae\'r ffôn yn analluogi\'r bysellglo wrth dderbyn galwad i mewn, yna yn ail-alluogi\'r bysellglo pan fydd yr alwad ar ben.</string>
     <string name="permlab_requestPasswordComplexity">ymofyn cymhlethdod y clo sgrin</string>
@@ -833,6 +834,7 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="permdesc_highSamplingRateSensors">Mae\'n caniatáu i\'r ap samplo data\'r synhwyrydd ar amledd llawer uwch na 200 Hz.</string>
     <string name="permlab_updatePackagesWithoutUserAction">diweddaru ap heb weithred gan y defnyddiwr</string>
     <string name="permdesc_updatePackagesWithoutUserAction">Mae\u2019n caniatáu\u2019r deilydd i ddiweddaru\u2109r ap y gosododd yn flaenorol heb weithred gan y defnyddiwr</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Mae\u2019n caniatáu\u2019r ap i ddiweddaru cyflyrau gwiriadau allweddau cysylltiadau E2EE sy\u2019n perthyn i apiau eraill.</string>
     <string name="policylab_limitPassword">Gosod rheolau cyfrinair</string>
     <string name="policydesc_limitPassword">Rheoli hyd a math o nodau gellir eu defnyddio mewn cyfrineiriau cloi\'r sgrin a chodau PIN.</string>
     <string name="policylab_watchLogin">Monitro cynigion i ddatgloi\'r sgrin</string>
