@@ -78,7 +78,7 @@
     <string name="tv_bluetooth_battery_level_untethered_right">De <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Gweithredol</string>
     <string name="bluetooth_saved_device">Wedi ei gofio</string>
-    <string name="bluetooth_hearing_device_ambient_error">Methwyd â diweddaru\u2019r amgylchoedd</string>
+    <string name="bluetooth_hearing_device_ambient_error">Methwyd diweddaru cwmpasoedd</string>
     <string name="bluetooth_guest_battery_level">Dyfais gwestai. Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
     <string name="bluetooth_guest_battery_level_untethered">Dyfais gwestai. Batri, Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
     <string name="bluetooth_guest_media_only_battery_level">Dyfais gwestai (cyfryngau yn unig). Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>

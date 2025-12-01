@@ -284,6 +284,7 @@
         <item quantity="other">Pour <xliff:g id="EVENT_COUNT">%d</xliff:g> événements</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">modifier la date de fin</string>
+    <string name="user_rejected_calendar_write_permission">Etar nécessite des autorisations de lecture et d\'écriture du calendrier pour fonctionner correctement. Veuillez réessayer.</string>
     <string name="calendar_permission_not_granted">Les autorisations requises ont été refusées, activez-les depuis les Paramètres pour modifier les énénements</string>
     <string name="visibility_default">Par défaut</string>
     <string name="visibility_confidential">Confidentiel</string>
@@ -345,6 +346,7 @@
     <string name="preferences_list_add_offline_button">Ajouter un calendrier</string>
     <string name="preferences_list_add_offline_name">Nom</string>
     <string name="preferences_list_add_offline_cancel">Annuler</string>
+    <string name="preferences_menu_about">À propos d\'Etar</string>
     <string name="offline_account_name">Calendrier hors ligne</string>
     <string name="after_start_of_event">après le début de l\'événement</string>
     <string name="preferences_do_not_check_battery_optimization">Ne pas vérifier l\'optimisation de la batterie</string>

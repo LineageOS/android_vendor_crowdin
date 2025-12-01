@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Lleoliad Cyfunol</string>
+    <string name="fused_overlay_service">Gwasanaeth Troshaen Ymdoddedig</string>
+    <string name="gnss_overlay_service">Gwasanaeth Troshaen GNSS</string>
 </resources>
