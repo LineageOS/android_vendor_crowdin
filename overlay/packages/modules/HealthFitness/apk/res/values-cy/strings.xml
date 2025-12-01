@@ -17,4 +17,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="read_data_access_label" description="Label used to indicate that app performed read access to specified data types (as opposed to writing the data), as in 'Read: Steps, Heart rate'. [CHAR_LIMIT=NONE]">Darllen: %s</string>
     <string name="write_data_access_label" description="Label used to indicate that app performed write (insertion, deletion or update) access to specified data types (as opposed to reading the data), as in 'Write: Steps, Heart rate'. [CHAR_LIMIT=NONE]">Ysgrifennu: %s</string>
+    <string name="permdesc_readCaloriesBurned" description="Description of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=100]">Mae\u2019n caniatáu\u2019r ap i ddarllen y calorïau wedi\u2019u llosgi</string>
 </resources>

@@ -342,4 +342,5 @@
     <string name="transcode_processing">Yn prosesu cyfryngau…</string>
     <string name="transcode_cancel">Diddymu</string>
     <string name="transcode_wait">Aros</string>
+    <string name="permdesc_accessMediaOwnerPackageName">Mae\u2019n caniatáu\u2019r ap i gael mynediad at enwau pecynnau perchennog pob ffeil cyfrwng sy\u2019n hygyrch.</string>
 </resources>
