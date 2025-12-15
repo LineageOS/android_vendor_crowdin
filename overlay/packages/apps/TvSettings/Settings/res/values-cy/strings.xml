@@ -36,6 +36,7 @@
     <string name="header_category_general_settings">Gosodiadau Cyffredinol</string>
     <string name="dismiss_suggestion">Diystyru’r awgrym</string>
     <string name="hotwording_title">Synhwyriad \"OK Google\"</string>
+    <string name="hotwording_summary">Siarad â\u2019r cynorthwyydd llais unrhyw bryd</string>
     <string name="header_category_device">Dyfais</string>
     <string name="header_category_preferences">Dewisiadau</string>
     <string name="header_category_accessories">Botymau Rheoli ac Ategolion</string>
@@ -183,6 +184,8 @@
     <string name="connected_devices_slice_pref_title">Botymau rheoli ac ategolion</string>
     <string name="bluetooth_toggle_title">Bluetooth</string>
     <string name="bluetooth_toggle_confirmation_dialog_title">Diffodd Bluetooth</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary">Ni fydd yn bosib cael mynediad at 
+dy gynorthwyydd llais o bell tra bod y Balet i fwrdd.</string>
     <string name="bluetooth_official_remote_category">Botymau Rheoli</string>
     <string name="bluetooth_official_remote_entry_title">Gosodiadau botymau rheoli</string>
     <string name="bluetooth_ir_entry_title">Gosod botymau o bellter</string>
@@ -581,6 +584,10 @@
     <string name="camera_physical_privacy_enabled_text">I ddadrwystro, symuda\u2019r switsh preifatrwydd ar dy ddyfais fel bod y camera ymlaen i ganiatáu mynediad at y camera.</string>
     <string name="mic_toggle_info_title">Mynediad at Feicroffon:
         <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
+    <string name="mic_toggle_info_content">Pan wedi\u2019i droi ymlaen, bydd pob ap a gwasanaeth sydd â chaniatâd i ddefnyddio\u2019r meicroffon yn medru cael mynediad ato.\n\nPan wedi\u2019i droi ffwrdd, ni fydd apiau na gwasanaethau yn medru cael mynediad at y meicroffon. Ond gellit barhau i siarad â dy gynorthwyydd llais wrth bwyso\u2019r botwm cynorthwyydd ar dy declyn rheoli.\n\nMae\u2019n bosib na effeithir y gosodiad hwn ar ddyfeisiau sain sy\u2019n cyfathrebu gyda\u2019r teledu gan ddefnyddio protocolau wedi\u2019u haddasu.</string>
+    <string name="mic_remote_toggle_on_info_content">Gall y cynorthwyydd llais gael mynediad at feicroffon y ddyfais. 
+Bydd posib siarad gyda dy gynorthwyydd wrth bwyso\u2019r botwm cynorthwyydd yn dy fotymau rheoli.</string>
+    <string name="mic_remote_toggle_off_info_content">Ni fydd yn bosib siarad â dy gynorthwyydd llais drwy dy ddyfais rheoli. I allu defnyddio\u2019r botwm cynorthwyydd llais, rhaid galluogi mynediad at y meicroffon.</string>
     <string name="sensor_toggle_info_on">Ymlaen</string>
     <string name="sensor_toggle_info_off">I ffwrdd</string>
     <string name="system_location">Lleoliad</string>
@@ -918,6 +925,7 @@
     <string name="device_energy_saver_category_title">Troi i ffwrdd yn awtomatig</string>
     <string name="device_energy_saver_sleep_timeout_dialog_title">Troi i ffwrdd yn awtomatig pan yn anweithredol</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title">Troi i ffwrdd yn awtomatig pan yn gwylio</string>
+    <string name="limit_network_in_standby_toggle_info">Bydd dy deledu wedi\i2019i ddatgysylltu o dy rwydwaith tra ym modd segur, ond am i dderbyn diweddariadau awtomatig. Gall hyn leihau defnydd trydan y teledu, er mi fydd hefyd yn golygu na fydd nodweddion fel bwrw a chynorthwyydd llais ar gael ym modd segur. </string>
     <string name="backup_configure_account_default_summary">Does dim cyfrif yn cadw data wrth gefn ar hyn o bryd</string>
     <string name="backup_erase_dialog_message">Stopio cadw copi wrth gefn o dy gyfrifon Wi-Fi, nodau tudalennau, gosodiadau eraill, a data apiau, a dileu\'r holl gopïau ar weinyddion Google?</string>
     <string name="privacy_backup_data">Creu copi wrth gefn o fy nata</string>

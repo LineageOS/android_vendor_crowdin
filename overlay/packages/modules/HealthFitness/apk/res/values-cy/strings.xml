@@ -15,5 +15,31 @@
   limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="health_connect_notification_channel_name" description="The main notification channel label shown in settings.">Diweddariadau a rhybuddion</string>
+    <string name="banner_group_more_items" description="Title for button to expand a banner preference group when one or more banners are hidden [CHAR_LIMIT]=50">Rhagor o eitemau</string>
+    <string name="banner_group_fewer_items" description="Title for button to collapse banner preference group and only show the first banner [CHAR_LIMIT]=50">Llai o eitemau</string>
+    <string name="recent_access_empty_state_title" description="Title of section shown when no apps have recently accessed health data [CHAR_LIMIT=NONE]">Dim mynediad diweddar</string>
+    <string name="recent_access_empty_state_description" description="Description of section shown when no apps have recently accessed health data [CHAR_LIMIT=NONE]">Caiff apiau sydd wedi mynd at dy ddata yn ddiweddar eu dangos yma yn awtomatig</string>
+    <string name="recent_access_view_all_button" description="Label on a button leading to another screen showing all the writes and reads performed by connected apps in the last 24 hours. [CHAR LIMIT=50]">Gweld y cwbl</string>
+    <string name="recent_access_error" description="Text indicating to the user that there was an error while loading recent access [CHAR_LIMIT=NONE]">Methwyd llwytho mynediad diweddar</string>
+    <string name="recent_access_inactive_app" description="Text indicating that the app the user tried to click on is no longer available[CHAR_LIMIT=NONE]">Dyw\u2019r ap hwn ddim ar gael bellach</string>
     <string name="permdesc_readCaloriesBurned" description="Description of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=100]">Mae\u2019n caniatáu\u2019r ap i ddarllen y calorïau wedi\u2019u llosgi</string>
+    <string name="unkwown_resource" description="Label shown when a medical data cannot be identified [CHAR_LIMIT=NONE]">(Dim teitl)</string>
+    <string name="share_data_text" description="Text explaining how the user can share data with apps"><b>Rhannu data gyda dy apiau</b>\nDewisa\u2019r data gall pob ap ei darllen neu ysgrifennu i Health Connect</string>
+    <string name="manage_your_settings_text" description="Text explaining how the user can change app permissions and manage data"><b>Rheoli dy osodiadau a phreifatrwydd</b>\nNewidia caniatâd apiau a rheoli dy ddata unrhyw bryd</string>
+    <string name="see_actions_button_content_description" description="Content description of a button that is used to show the potential actions the user can take: remove selected app, move up or down an app in the priority list [CHAR LIMIT=NONE]">Botwm i aildrefnu neu dynnu <xliff:g example="Test app" id="selected_app">%s</xliff:g> o\u2019r rhestr ffynonellau apiau</string>
+    <string name="priority_list_item_content_description" description="Content description of an app in the priority list, and the position in the list [CHAR LIMIT=NONE]"><xliff:g example="1st" id="position">%1$s</xliff:g> yn y rhestr <xliff:g example="Test app" id="selected_app">%2$s</xliff:g></string>
+    <string name="remove" description="Menu option for removing an app from the app sources list">Tynnu</string>
+    <string name="menu_show_system">Dangos system</string>
+    <string name="menu_hide_system">Cuddio system</string>
+    <string name="wear_request_multiple_data_type_permissions" description="Subtitle shown for allowing multiple fitness permissions. ">Mae <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> yn gofyn am fynediad at <xliff:g id="data_types" example="heart rate, skin temp">%2$s</xliff:g>.\n\nDewisa i ganiatáu\u2019r cwbl neu eu rheoli fesul un.</string>
+    <string name="wear_request_single_data_type_permission" description="Title shown for allowing single fitness permission. ">Caniatáu i <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> cael mynediad at <xliff:g id="data_type" example="Heart rate">%2$s</xliff:g>?</string>
+    <string name="view_permissions_description_all_the_time" description="Text that indicates an app is allowed to read health data all the time (in the foreground or background).">Gall <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> cael mynediad at dy holl ddata ffitrwydd a lles o hyd</string>
+    <string name="view_permissions_description_while_in_use" description="Text that indicates an app is only allowed to read health data while in use (in the foreground).">Gall <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> cael mynediad at dy holl ddata ffitrwydd a lles tra ei fod yn cael ei ddefnyddio</string>
+    <string name="current_allow_mode_all_the_time" description="Text to indicate that the app is currently allowed to use the permission all the time (in the foreground or background)">\"Ar hyn o bryd, gall <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> cael mynediad at dy ddata ffitrwydd a lles o hyd</string>
+    <string name="current_allow_mode_while_in_use" description="Text to indicate that the app is currently allowed to use the permission only while in use by the user (in the foreground).">\"Ar hyn o bryd, gall <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> cael mynediad at dy ddata ffitrwydd a lles tra ei fod yn cael ei ddefnyddio</string>
+    <string name="allow_all_the_time_prompt" description="Title to ask user to select all the time or while in use.">Dewisa pa bryd gall <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> cael mynediad at dy ddata ffitrwydd a lles</string>
+    <string name="used_by_apps_count" description="Text to indicate how many apps used this permission in past 24 hours.">{count, plural, zero {} 
+one {Defnyddiwyd gan # ap} two {Defnyddiwyd gan # ap} few {Defnyddiwyd gan # ap} many {Defnyddiwyd gan # o apiau}=1 {Defnyddiwyd gan 1 ap} other {Defnyddiwyd gan # ap}}</string>
+    <string name="not_used_in_past_24_hours" description="Text to indicate no app used this permission in past 24 hours.">Heb eu defnyddio yn y 24 awr ddiwethaf</string>
 </resources>

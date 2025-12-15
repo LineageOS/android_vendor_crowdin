@@ -23,6 +23,17 @@
     <string name="default_directory">Cysylltiadau</string>
     <string name="local_invisible_directory">Arall</string>
     <string name="voicemail_from_column">"Neges llais oddi wrth "</string>
+    <string name="move_contacts_to_default_account_dialog_message">Gellit cydweddu %1$s wedi\u2019i gadw wrth gefn i %2$s (%3$s)</string>
+    <string name="movable_contacts_count"> {contacts_count, plural,
+        zero {}
+        one {# cyswllt sy\u2019n bodoli i sicrhau ei fod yn}
+        two {# gyswllt sy\u2019n bodoli i sicrhau eu bod yn}
+        few {# chyswllt sy\u2019n bodoli i sicrhau eu bod yn}
+        many {# cyswllt sy\u2019n bodoli i sicrhau eu bod yn}
+=1    {# cyswllt sy\u2019n bodoli i sicrhau ei fod yn}
+        other {# o gysylltiadau sy\u2019n bodoli i sicrhau eu bod yn}
+        }
+    </string>
     <string name="debug_dump_title">Cadw copi o gronfa ddata cysylltiadau</string>
     <string name="debug_dump_database_message">Rwyt ar fin gwneud 1) copi o dy gronfa ddata sy\'n cynnwys dy holl gysylltiadau, gwybodaeth gysylltiedig â chofnod galwadau i\'r storfa fewnol, a 2) ei e-bostio. Cofia dileu\'r copi cyn gynted â dy fod wedi ei gopïo oddi ar y ddyfais neu pan fydd yr e-bost wedi ei dderbyn a\'i lawrlwytho.</string>
     <string name="debug_dump_delete_button">Dileu nawr</string>

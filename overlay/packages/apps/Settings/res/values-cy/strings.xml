@@ -624,6 +624,7 @@
     <string name="bluetooth_companion_app_body">Ni fydd ap <xliff:g id="app_name" example="App Name">%1$s</xliff:g> yn cysylltu â\'r ddyfais <xliff:g id="device_name" example="Device Name">%2$s</xliff:g></string>
     <string name="device_details_battery">Batri</string>
     <string name="device_details_battery_charging">Batri, yn gwefru</string>
+    <string name="device_details_key_missing_title">Ceisia ail-osod <xliff:g id="device_name">%1$s</xliff:g>. Os nad yw hynny\u2019n gweithio, anghofia\u2019r ddyfais. Er dy ddiogelwch, para fo eto dim ond pan nad wyt mewn man cyhoeddus.\n\nOs nad yw\u2019r ddyfais hon gerllaw, does dim angen gwneud dim.</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Anghofio\'r ddyfais</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button">Datgysylltu\'r ap</string>
     <string name="device_details_more_settings">Rhagor o osodiadau</string>
@@ -1287,6 +1288,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="location_time_zone_detection_not_allowed">Ni chaniateir newid i ganfyddiad cylchfa amser o leoliad</string>
     <string name="time_notifications_title">Hysbysiadau</string>
     <string name="time_zone_change_notifications_toggle_title">Newid parth amser</string>
+    <string name="time_zone_change_notifications_toggle_summary">Derbyn hybysiad pan fydd dy barth amser yn diweddaru yn awtomatig</string>
     <string name="keywords_time_notification_category">hysbysiad, amser, parth, cylchfa, cylchfa amser, parth amser</string>
     <string name="about_settings_summary">Gweld gwybodaeth gyfreithiol, statws, fersiwn meddalwedd</string>
     <string name="legal_information">Gwybodaeth gyfreithiol</string>
@@ -1568,6 +1570,7 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="input_setting_keys_dialog_option_400">0.4 eiliad</string>
     <string name="input_setting_keys_dialog_option_600">0.6 eiliad</string>
     <string name="input_setting_keys_custom_title">Addasedig</string>
+    <string name="slow_keys_summary">Newid pa mor hir rwyt angen dal bysell cyn iddo gael ei gofrestru</string>
     <string name="mouse_scrolling_category_title">Sgrolio</string>
     <string name="mouse_scrolling_acceleration">Sgrolio wedi\u2019i reoli</string>
     <string name="mouse_scrolling_speed">Cyflymder sgrolio</string>
@@ -2202,6 +2205,9 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="adaptive_connectivity_summary">Mae\'n ymestyn oes batri a gwella perfformiad dyfais gan reoli dy gysylltiadau rhwydweithiau yn awtomatig</string>
     <string name="adaptive_connectivity_switch_on">Ymlaen</string>
     <string name="adaptive_connectivity_switch_off">I ffwrdd</string>
+    <string name="adaptive_connectivity_wifi_switch_title">Awto\u2011newid Wi\u2011Fi i Symudol</string>
+    <string name="adaptive_connectivity_mobile_network_switch_title">Newid rhwydwaith symudol yn awtomatig er gwell oes batri</string>
+    <string name="adaptive_connectivity_mobile_network_switch_summary">Ehangu oes batri wrth reoli cysylltiadau rhwydweithiau yn awtomatig</string>
     <string name="cellular_security_notifications">Hysbysiadau</string>
     <string name="cellular_security_settings_encryption_title">Amgryptiad</string>
     <string name="credentials_title">Storfa tystnodiadau</string>
@@ -3048,6 +3054,8 @@ wrth adael modd gwestai</string>
     <string name="notification_listener_not_allowed">Ni chaniateir</string>
     <string name="notif_listener_excluded_app_title">Gweld pob ap</string>
     <string name="notif_listener_more_settings">Rhagor o osodiadau</string>
+    <string name="notification_polite_description">Pan fyddi\u2019n derbyn llawer o hysbysiadau o fewn gyfnod byr, bydd y ddyfais yn gostwng y lefel sain ac yn cyfyngu ar rybuddion am 1 funud. Ni fydd effaith ar alwadau, larymau, a sgyrsiau blaenoriaeth.
+\n\nGellir dod o hyd i hysbysiadau sy\u2019n cael eu derbyn yn ystod y funud wrth lusgo i lawr o frig y sgrin.</string>
     <string name="notification_bundle_on">Ymlaen</string>
     <string name="notification_bundle_off">I ffwrdd</string>
     <string name="notification_app_level_bundle_title">Bwndelu hysbysiadau</string>
@@ -3467,6 +3475,7 @@ yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</st
     <string name="admin_profile_owner_message">Mae dy weinyddwr yn medru monitro a rheoli apiau a data yn gysylltiedig â dy broffil gwaith, gan gynnwys gosodiadau, caniatâd, mynediad corfforaeth, gweithgaredd rhwydwaith, a gwybodaeth lleoliad y ddyfais.</string>
     <string name="admin_profile_owner_user_message">Mae dy weinyddwr yn medru monitro a rheoli apiau a data yn gysylltiedig â\'r defnyddiwr hwn, gan gynnwys gosodiadau, caniatâd, mynediad corfforaeth, gweithgaredd rhwydwaith, a gwybodaeth lleoliad y ddyfais.</string>
     <string name="admin_device_owner_message">Mae dy weinyddwr yn medru monitro a rheoli apiau a data yn gysylltiedig â\'r ddyfais hon, gan gynnwys gosodiadau, caniatâd, mynediad corfforaeth, gweithgaredd rhwydwaith, a gwybodaeth lleoliad y ddyfais.</string>
+    <string name="disabled_by_advanced_protection_title">Wedi\u2019i rwystro gan Warchodaeth Uwch</string>
     <string name="disabled_by_advanced_protection_setting_is_on_message">Er dy ddiogelwch, mae Amddiffyniad Uwch yn gofyn bod y gosodiad hwn yn aros ymlaen</string>
     <string name="disabled_by_advanced_protection_setting_is_off_message">Er dy ddiogelwch, mae Amddiffyniad Uwch yn gofyn bod y gosodiad hwn yn aros i ffwrdd</string>
     <string name="disabled_by_advanced_protection_action_message">Er dy ddiolgelwch, mae Amddiffyniad Uwch yn rhwystro\u2019r weithred hon</string>
@@ -3633,6 +3642,9 @@ yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</st
     <string name="gesture_preference_title">Ystumiau</string>
     <string name="double_tap_power_for_camera_title">Agor camera\'n gyflym</string>
     <string name="double_tap_power_for_camera_summary">I agor y camera\'n gyflym, gwasga\'r botwm pŵer dwywaith. Mae\'n gweithio pa bynnag beth sydd ar y sgrin.</string>
+    <string name="double_tap_power_title">Pwyso\u2019r botwm pŵer dwywaith</string>
+    <string name="double_tap_power_enabled">Defnyddio pwyso dwbl</string>
+    <string name="double_tap_power_target_action_category">Pwyso\u2019r botwm pŵer dwywaith i agor</string>
     <string name="double_tap_power_camera_action_title">Camera</string>
     <string name="double_tap_power_wallet_action_title">Waled</string>
     <string name="double_twist_for_camera_mode_title">Fflipio camera am hunlun</string>
@@ -3643,6 +3655,7 @@ yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</st
     <string name="edge_to_edge_navigation_title">Llywio ag ystumiau</string>
     <string name="legacy_navigation_title">Llywio 3-botwm</string>
     <string name="legacy_navigation_summary">Mynd nôl, Cartref, a newid rhwng apiau gyda botymau ar waelod dy sgrin.</string>
+    <string name="nav_tutorial_button_description">Dechrau tiwtorial ystumiau llywio.</string>
     <string name="keywords_system_navigation">llywio\'r system, llywio 2 fotwm, llywio dau fotwm, llywio 3 botwm, llywio ystym, llusgo</string>
     <string name="assistant_gesture_category_title">Cynorthwyydd digidol</string>
     <string name="assistant_long_press_home_gesture_title">Dalia Cartref am Gynorthwyydd</string>
@@ -3653,6 +3666,7 @@ yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</st
     <string name="right_edge">Ymyl dde</string>
     <string name="back_sensitivity_dialog_message">Gall sensitifrwydd uwch gwrthdaro ag unrhyw ystumiau apiau ar hyd ymylon y sgrin</string>
     <string name="back_sensitivity_dialog_title">Sensitifrwydd y cefn</string>
+    <string name="gesture_navigation_tutorial_title">Trio demo</string>
     <string name="button_navigation_settings_activity_title">Llywio botymau</string>
     <string name="keywords_gesture_navigation_settings">llywio ystum, ystum, sensitfrwydd nôl, ystum yn ôl, ystum nôl</string>
     <string name="keywords_button_navigation_settings">navigation, home button, llywio, botwm cartref</string>
@@ -3984,7 +3998,10 @@ yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</st
     <string name="satellite_footer_content_section_0">Cofia</string>
     <string name="satellite_footer_content_section_1">Gall cysylltedd lloeren gymryd hirach a dim bod ar gael mewn rhai mannau</string>
     <string name="satellite_footer_content_section_2">Gall y tywydd a rhai strwythurau effeithio ar y cysylltiad lloeren.</string>
+    <string name="satellite_footer_content_section_3">Dyw galwadau trwy loeren ddim ar gael.</string>
+    <string name="satellite_footer_content_section_4">Gellir dal i wneud galwadau brys.</string>
     <string name="satellite_footer_content_section_5">Rhaid bod rhwydwaith symudol neu Wi\u2011Fi i weld dolenni allanol.</string>
+    <string name="satellite_footer_content_section_6">Efallai bydd rhai mannau ble nad yw\u2019n bosib tecstio gwasanaethau brys.</string>
     <string name="more_about_satellite_connectivity">Rhagor ynghylch cysylltedd lleoren</string>
     <string name="category_title_satellite_connectivity">Lloeren</string>
     <string name="title_satellite_supported_app_list_entry">gweld pob ap</string>
@@ -4100,29 +4117,44 @@ yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</st
     <string name="enable_16k_pages_summary">Cychwyn y ddyfais gan ddefnyddio cnewyllyn a gefnogir gan faint tudalen 16 KB </string>
     <string name="confirm_enable_16k_pages_title">Newid o fodd 4 KB i fodd 16 KB</string>
     <string name="confirm_enable_16k_pages_text">Rwyt yn y modd tudalen agnostig yn rhedeg cnewyllyn 4 KB, ac rwyt yn newid i\u2019r modd 16 KB.
-Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall fod unrhyw ddata ar y ddyfais mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. 
+Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. 
 Bydd hyn yn ail-lwytho\u2019r ddyfais. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. I fynd yn ôl i\u2019r modd cynnyrch, bydd yna yn rhaid newd yn ôl i\u2019r modd 4 KB a chloi llwythydd y ddyfais, sy\u2019n ei ail-osod yn ôl i fel yr oedd yn gadael y ffatri. Ar ôl i\u2019r ddyfais llwytho yn llwyddiannus i Android, analluoga datgloi OEM yn newisiadau Datblygwr.</string>
     <string name="confirm_enable_4k_pages_title">Newid o fodd 16 KB i fodd 4 KB</string>
     <string name="confirm_enable_4k_pages_text">Rwyt yn y modd tudalen agnostig yn rhedeg cnewyllyn 16 KB, ac rwyt yn newid i\u2019r modd 4KB.
-Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall fod unrhyw ddata ar y ddyfais mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. 
+Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. 
 Bydd hyn yn ail-lwytho\u2019r ddyfais. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. I fynd yn ôl i\u2019r modd cynnyrch, bydd yna yn rhaid cloi llwythydd y ddyfais, sy\u2019n ei ail-osod yn ôl i fel yr oedd yn gadael y ffatri. Ar ôl i\u2019r ddyfais llwytho yn llwyddiannus i Android, analluoga datgloi OEM yn newisiadau Datblygwr.</string>
     <string name="confirm_format_ext4_title">Ailfformatio\u2019r ddyfais i ext4? (angenrheidiol ar gyfer modd 16 KB)</string>
+    <string name="confirm_format_ext4_text">Rhaid trawsnewid dosraniad data\u2019r ddyfais i ext4 cyn defnyddio\u2019r dewis datblygwr 16 KB.
+Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. 
+Wedi hyn, bydd angen ail-lwytho unwaith eto i roi\u2019r dewis 16 KB ar waith. Pan fyddi di yn y modd hwn, gellir newid yn ôl ac ymlaen rhwng modd 4 KB ac 16 KB wrth ail-lwytho unwaith. 
+Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
+I fynd yn ôl i\u2019r modd cynnyrch, bydd rhaid newid yn ôl i fodd 4 KB ac yna cloi\u2019r llwythydd, sy\u2019n ail-osod y ddyfais i fel yr oedd yn gadael y ffatri. 
+Wedi i\u2019r ddyfais llwytho yn llwyddiannus i Android, analluoga datgloi OEM yn newisiadau Datblygwr. 
+Caiff y ddyfais ei glirio a bydd y system ffeiliau yn newid i ext4 ar ôl cadarnhad. Pan fo hyn wedi llwyddo, tyrd yn ôl i alluogi 16 KB eto.</string>
     <string name="confirm_ext4_button_text">Dileu\'r holl ddata</string>
+    <string name="confirm_oem_unlock_for_16k_text">Mae angen i\u2019r ddyfais hon fod â\u2109r llwythydd wedi\u2019i ddatgloi cyn defnyddio dewis datblygwr 16 KB .
+Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. 
+Caiff holl ddata a gosodiadau defnyddwyr eu clirio wrth roi modd 16 KB ar waith. Unwaith fo\u2019r llwythydd wedi\u2019i ddatgloi, bydd angen ail-lwytho dwywaith i weithredu\u2019r dewis 16 KB.
+Pan fyddi di yn y modd hon, gellir newid yn ôl ac ymlaen rhwng modd 4 KB ac 16 KB wrth ail-lwytho unwaith. Bydd hrai nodweddion wedi eu analluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
+I fynd yn ôl i\u2019r modd cynnyrch, bydd rhaid newid yn ôl i fodd 4 KB ac yna cloi llwythydd/OEM y ddyfais (sy\u2019n ei ail-osod i fel yr oedd yn gadael y ffatri). 
+Datglo\u2019r llwythydd a cheisio eto. Gallet weld cyfarwyddiadau i wneud hyn yn &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;</string>
     <string name="page_agnostic_4k_pages_title">Yn defnyddio modd tudalen agnostig 4 KB</string>
-    <string name="page_agnostic_4k_pages_text_short">Rwyt ym modd 4 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall fod unrhyw ddata ar y ddyfais mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
+    <string name="page_agnostic_4k_pages_text_short">Rwyt ym modd 4 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
 I fynd yn ôl i\u2019r modd cynnyrch, rhaid datgloi llwythydd y ddyfais. Tapia i ddarllen rhagor.</string>
-    <string name="page_agnostic_4k_pages_text">Rwyt ym modd 4 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall fod unrhyw ddata ar y ddyfais mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
+    <string name="page_agnostic_4k_pages_text">Rwyt ym modd 4 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
 I fynd yn ôl i\u2019r modd cynnyrch, rhaid datgloi llwythydd y ddyfais. Bydd hyn yn gosod y ddyfais yn ôl eto i fel yr oedd yn gadael y ffatri a\u2019i adfer i osodiadau cynnyrch. 
 Ar ôl i\u2019r ddyfais llwytho yn llwyddiannus i Android, analluoga datgloi OEM yn dewisiadau Datblygwr. 
 Os yw\u2019r ddyfais yn methu llwytho i Android neu yn ansefydlog, ail-fflachia\u2019r ddyfais gyda\u2019r delweddau ffatri diweddaraf o &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; neu ddefnyddio &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; a dewis \'Wipe Device\', \'Lock Bootloader\' a \'Force Flash all partitions\'.</string>
     <string name="page_agnostic_16k_pages_title">Yn defnyddio modd tudalen agnostig 16 KB</string>
-    <string name="page_agnostic_16k_pages_text_short">Rwyt ym modd 16 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall fod unrhyw ddata ar y ddyfais mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
+    <string name="page_agnostic_16k_pages_text_short">Rwyt ym modd 16 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
 I fynd yn ôl i\u2019r modd cynnyrch, rhaid newid yn ôl i fodd 4 KB ac yna datgloi llwythydd y ddyfais. Tapia i ddarllen rhagor.</string>
-    <string name="page_agnostic_16k_pages_text">Rwyt ym modd 16 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall fod unrhyw ddata ar y ddyfais mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
+    <string name="page_agnostic_16k_pages_text">Rwyt ym modd 16 KB o\u2109r modd tudalen agnostig. Ni ellir sicrhau cywirdeb meddalwedd yn y modd hwn a gall unrhyw ddata ar y ddyfais fod mewn perygl tra bod y llwythydd wedi\u2019i ddatgloi. Bydd rhai nodweddion wedi eu hanalluogi yn y moddau hyn, felly gall rhai apiau ddim gweithio. 
 I fynd yn ôl i\u2019r modd cynnyrch, rhaid newid yn ôl i fodd 4 KB ac yna datgloi llwythydd y ddyfais. Bydd hyn yn gosod y ddyfais yn ôl eto i fel yr oedd yn gadael y ffatri a\u2019i adfer i osodiadau cynnyrch. Ar ôl i\u2019r ddyfais llwytho yn llwyddiannus i Android, analluoga datgloi OEM yn dewisiadau Datblygwr. 
 Os yw\u2019r ddyfais yn methu llwytho i Android neu yn ansefydlog, ail-fflachia\u2019r ddyfais gyda\u2019r delweddau ffatri diweddaraf o &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; neu ddefnyddio &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; a dewis \'Wipe Device\', \'Lock Bootloader\' a \'Force Flash all partitions\'.</string>
     <string name="page_agnostic_notification_channel_name">Modd tudalen agnostig 16 KB</string>
     <string name="stop_app_dlg_title">Stopio\u2019r ap?</string>
+    <string name="error_pending_updates">Methodd diweddariad cnewyllyn. Gwiria a gosod unrhyw ddiweddariadau sy\u2019n disgwyl.</string>
+    <string name="error_ota_failed">Methodd diweddariad cnewyllyn. Bu gwall wrth osod OTA.</string>
     <string name="bug_report_handler_title">Ap ymdrin â gwallau</string>
     <string name="bug_report_handler_picker_footer_text">Mae\'n pennu pa ap sy\'n ymdrin â\'r llwybr byr Adroddiad Gwall ar dy ddyfais</string>
     <string name="personal_profile_app_subtext">Personol</string>
@@ -4359,6 +4391,7 @@ Os yw\u2019r ddyfais yn methu llwytho i Android neu yn ansefydlog, ail-fflachia\
     <string name="audio_sharing_pair_button_label">Paru â dyfais newydd</string>
     <string name="audio_sharing_settings_button_label">Gosodiadau</string>
     <string name="audio_sharing_connect_button_label">Cysylltu</string>
+    <string name="audio_sharing_block_pairing_dialog_content">I baru dyfais newydd, tro Rhannu Sain i ffwrdd yn gyntaf.</string>
     <string name="audio_sharing_turn_off_button_label">Troi i ffwrdd</string>
     <string name="share_audio_notification_title">Rhannu sain gyda <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
     <string name="audio_streams_disconnect">Datgysylltu</string>
@@ -4372,9 +4405,13 @@ Os yw\u2019r ddyfais yn methu llwytho i Android neu yn ansefydlog, ail-fflachia\
     <string name="audio_streams_dialog_turn_off_talkback_button">Troi i ffwrdd</string>
     <string name="audio_streams_main_page_scan_qr_code_title">Sganio cod QR</string>
     <string name="homepage_search">Chwilio\'r Gosodiadau</string>
+    <string name="contacts_storage_device_only_preference_summary">Efallai na fydd cysylltiadau yn cysoni nac ar gael ar dy ddyfeisiau eraill</string>
     <string name="contacts_storage_account_title">Dyfais a %1$s</string>
     <string name="device_detail_icon_content_description"><xliff:g id="device_name">%1$s</xliff:g>. Ffurfweddu manylion dyfais</string>
+    <string name="supervision_settings_title">Goruchwyliad</string>
+    <string name="supervision_settings_summary">Cyfyngiadau cynnwys a therfynau eraill.</string>
     <string name="device_supervision_switch_no_pin_summary">Gosoda PIN i ddechrau</string>
+    <string name="keywords_supervision_settings">goruchwyliad, rhieni, goruchwyliad rhieni, rhiant, goruchwyliad rhiant, rheolaeth rhieni, rheolaeth riant</string>
     <string name="supervision_pin_management_preference_title">Rheoli PIN</string>
     <string name="supervision_pin_management_preference_summary_add">Ychwanegu dull adfer PIN</string>
     <string name="supervision_change_pin_preference_title">Newid PIN</string>

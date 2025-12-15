@@ -21,12 +21,14 @@
     <string name="set_wallpaper_button_text">Gosod fel papur wal</string>
     <string name="set_wallpaper_progress_message">Yn gosod fel papur wal…</string>
     <string name="try_again">Ceisia eto</string>
+    <string name="select_a_photo">Dewisa lun</string>
     <string name="set_wallpaper_error_message">Methu â gosod y papur wal.</string>
     <string name="load_wallpaper_error_message">Methu â llwytho papur wal. Mae\'r ddelwedd yn llwgr neu ddim ar gael.</string>
     <string name="static_wallpaper_presentation_mode_message">Wedi\'i osod ar hyn o bryd</string>
     <string name="rotating_wallpaper_presentation_mode_message">Papur wal dyddiol</string>
     <string name="wallpaper_destination_both">Sgrinau Cartref a Chloi</string>
     <string name="choose_a_wallpaper_section_title">Dewis Papur Wal</string>
+    <string name="choose_a_curated_photo_section_title">Lluniau a argymhellir</string>
     <string name="creative_wallpaper_title">Creu papur wal</string>
     <string name="home_screen_message">Sgrin gartref</string>
     <string name="lock_screen_message">Sgrin cloi</string>
@@ -40,6 +42,7 @@
     <string name="permission_needed_explanation_go_to_settings">I ddangos y papur wal cyfredol yma, mae ar Papurau Wal angen mynediad at storfa dy ddyfais.\n\nI newid hyn, gweler adran Caniatâd gwybodaeth yr ap Papurau Wal.</string>
     <string name="permission_needed_allow_access_button_label">Caniatáu mynediad</string>
     <string name="no_backup_image_wallpaper_description">Gwasaneth papurau wal byw ar gyfer papurau wal sy\'n cylchdroi</string>
+    <string name="more_photos">Rhagor o Luniau</string>
     <string name="daily_refresh_tile_title">Papur wal dyddiol</string>
     <string name="daily_refresh_tile_subtitle">Tapia i droi ymlaen</string>
     <string name="start_rotation_dialog_body_live_wallpaper_needed">      Bydd y papur wal yn newid yn awtomatig pob dydd. I orffen gosod, tapia 
@@ -68,6 +71,8 @@
     <string name="refresh_daily_wallpaper_home_content_description">Newid papur wal dyddiol y sgrin cloi</string>
     <string name="refresh_daily_wallpaper_content_description">Newid papur wal dyddiol</string>
     <string name="preview_screen_description">Sgrin rhagolwg papur wal</string>
+    <string name="preview_screen_description_editable">Sgrin rhagolwg papur wal %1$s. Defnyddia dau fys i dremio a chwyddo</string>
+    <string name="preview_screen_description_non_editable">Sgrin rhagolwg papur wal %1$s</string>
     <string name="refreshing_daily_wallpaper_dialog_message">Yn newid y papur wal dyddiol…</string>
     <string name="refresh_daily_wallpaper_failed_message">Methwyd â newid y papur wal dyddiol. Gwiria dy gysylltiad rhwydwaith a cheisio eto.</string>
     <string name="on_device_wallpapers_category_title">Papurau wal ar y ddyfais</string>
@@ -101,6 +106,8 @@
     <string name="previous_page_content_description" msgid="6025726405430262788">Blaenorol</string>
     <string name="wallpaper_title">Papur wal</string>
     <string name="wallpaper_preview_card_content_description">Rhagolwg papur wal</string>
+    <string name="wallpaper_preview_card_content_description_editable">Rhagolwg papur wal %1$s %2$s. Tap dwbl i olygu\u2019r llun</string>
+    <string name="wallpaper_preview_card_content_description_non_editable">Rhagolwg papur wal %1$s %2$s</string>
     <string name="lock_wallpaper_preview_card_content_description">Rhagolwg papur wal sgrin cloi</string>
     <string name="home_wallpaper_preview_card_content_description">Rhagolwg papur wal sgrin gartref</string>
     <string name="collection_not_exist_msg">Dyw\'r casglaiad ddim yn bodoli.</string>
@@ -137,4 +144,12 @@
     <string name="default_wallpaper_title">Papur wal</string>
     <string name="small_preview_tooltip">Tapia i olygu dy lun</string>
     <string name="full_preview_tooltip">Addasu lleoliad, graddfa, ac ongl dy luniau</string>
+    <string name="discard_changes_dialog_message">Gwaredu â\'r newidiadau?</string>
+    <string name="discard_changes_dialog_button_keep_editing">Parhau i olygu</string>
+    <string name="discard_changes_dialog_button_discard">Gwaredu</string>
+    <string name="action_zoom_in">Chwyddo mewn</string>
+    <string name="action_zoom_out">Chwyddo allan</string>
+    <string name="zoomed_to_percent">Wedi chwyddo allan i %d%%</string>
+    <string name="max_zoom_percentage">Wedi chwyddo i\u2019r eithaf</string>
+    <string name="min_zoom_percentage">Wedi lleihau i\u2019r eithaf</string>
 </resources>
