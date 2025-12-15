@@ -84,9 +84,9 @@
     <string-array name="bt_stack_log_level_entries">
         <item>Geiriog</item>
         <item>Dadfygio</item>
-        <item>Info</item>
-        <item>Warn</item>
-        <item>Error</item>
+        <item>Gwybodaeth</item>
+        <item>Rhybuddio</item>
+        <item>Gwall</item>
     </string-array>
     <string-array name="bluetooth_leaudio_mode">
         <item>Analluogwyd</item>
@@ -410,8 +410,12 @@
         <item>Trin fel heb ei mesur</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
-        <item>Use randomized MAC</item>
+        <item>Defnyddio MAC ar hap</item>
         <item>Defnyddio MAC y ddyfais</item>
+    </string-array>
+    <string-array name="wifi_dhcp_entries">
+        <item>Anfon enw\u2019r ddyfais i\u2019r rhwydwaith</item>
+        <item>Peidio ag anfon enw\u2109r ddyfais i\u2109r rhwydwaith</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Na</item>
@@ -488,8 +492,8 @@
     </string-array>
     <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="zen_mode_icon_options_descriptions">
-        <item>Briefcase</item>
-        <item>Classical building</item>
+        <item>Cês gwaith papur</item>
+        <item>Adeilad clasurol</item>
         <item>Apartment building</item>
         <item>Speech bubble</item>
         <item>Group of people</item>

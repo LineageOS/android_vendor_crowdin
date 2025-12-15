@@ -52,8 +52,11 @@
     <string name="tag_dispatch_failed">Does dim ap yn gydnaws â\u2019r tag NFC hwn</string>
     <string name="nfc_blocking_alert_title">Gall fod NFC wedi\'i rwystro</string>
     <string name="nfc_blocking_alert_message">Tapia i ddysgu sut i\'w drwsio.</string>
+    <string name="nfc_tag_alert_title">Lansiwyd <xliff:g id="appName">%1$s</xliff:g> trwy NFC</string>
+    <string name="nfc_tag_alert_message">Taoia i ddysgu sut i\u2019w analluogi.</string>
     <string name="nfc_logging_alert_title">Mae data NFC yn cael ei recordio</string>
     <string name="nfc_logging_alert_message">Tapia i stopio recordio</string>
+    <string name="title_package_enabling_nfc">Caniatáu i <xliff:g id="pkg">%1$s</xliff:g> alluogi NFC?</string>
     <string name="enable_nfc_yes">Iawn</string>
     <string name="enable_nfc_no">Na</string>
 </resources>

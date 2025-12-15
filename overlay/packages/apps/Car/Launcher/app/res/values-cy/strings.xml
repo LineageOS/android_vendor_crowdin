@@ -40,4 +40,8 @@
     <string name="recents_empty_state_text">Dim eitemau diweddar</string>
     <string name="recents_clear_all_text">Clirio\u2019r Cwbl</string>
     <string name="failure_opening_recent_task_message">Ap ddim ar gael</string>
+    <string name="media_card_queue_header_title">Ciw</string>
+    <string name="media_card_history_header_title">Ffynhonnell Cyfryngau</string>
+    <string name="map_tos_review_button_text">Analluogwyd mapiau. Ni dderbyniwyd telerau\u2019r gwasanaeth.</string>
+    <string name="map_tos_review_button_distraction_optimized_text">Analluogwyd mapiau. Adolyga hyn ar ôl dy daith.</string>
 </resources>

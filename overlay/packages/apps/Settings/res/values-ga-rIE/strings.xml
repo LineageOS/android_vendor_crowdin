@@ -248,6 +248,8 @@
         many {# gníomhaire iontaofa gníomhacha}=1      {1 ghníomhaire iontaofa gníomhach}
         other   {# gníomhaire iontaofa gníomhacha}
         }</string>
+    <string name="bluetooth_pairing_confirmation_title">Seiceáil cóid phéireála</string>
+    <string name="bluetooth_pairing_confirmation_msg">Seiceáil an bhfuil an cód seo ag teacht leis an gceann ar <xliff:g id="device_name" example="device_name">%1$s</xliff:g>.\n\nAr mhaithe le do shlándáil, ná cuir an cód seo isteach in áit ar bith.</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available">Nuair a bhíonn Bluetooth air, is féidir le do ghléas cumarsáid a dhéanamh le gléasanna Bluetooth eile in aice láimhe. Úsáideann gnéithe cosúil le Quick Share agus Find My Device Bluetooth.</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available">Nuair a bhíonn Bluetooth ar siúl, is féidir le do ghléas cumarsáid a dhéanamh le gléasanna Bluetooth eile in aice láimhe. Úsáideann gnéithe cosúil le Quick Share agus Find My Device Bluetooth.\n\nIs féidir le haipeanna agus seirbhísí scanadh fós le haghaidh gléasanna in aice láimhe ag am ar bith, fiú nuair a bhíonn Bluetooth múchta. Is féidir é seo a úsáid, mar shampla, chun gnéithe agus seirbhísí bunaithe ar shuíomh a fheabhsú. Is féidir leat é seo a athrú i socruithe scanadh Bluetooth.</string>
     <string name="bluetooth_key_missing_title"><xliff:g id="device_name">%1$s</xliff:g> gan ceangal</string>
