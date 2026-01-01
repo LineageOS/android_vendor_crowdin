@@ -14,6 +14,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_permission_info_button">Informatzione</string>
+    <string name="role_assistant_recommended_title">Cussigiadu dae <xliff:g id="OEM_NAME" example="FictionalOEM">%s</xliff:g></string>
+    <string name="default_app_others">Àteros</string>
+    <string name="incident_report_dialog_text">"<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> rechedet sa càrriga dae custu dispositivu de un'informe de faddinas fatu in sa data imbeniente: <xliff:g id="date" example="December 26, 2018">%2$s</xliff:g>, <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Is informes de faddinas includent informatziones personales in pitzus de su dispositivu o registradas dae is aplicatziones, comente nòmines de utente, datos de positzione, identificadores de dispositivu e informatziones de rete. Cumpartzi is informes de faddinas isceti cun is persones e is aplicatziones a is chi podes cunfiare custos datos.\n\nBoles permìtere chi <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> càrrighet s'informe de faddinas?"</string>
     <string name="permission_rationale_location_settings_title">Datos de sa positzione tua</string>
     <string name="permission_rationale_purpose_app_functionality">Funtzionalidade de s\'aplicatzione</string>
+    <string name="enhanced_confirmation_phone_state_dialog_title">Non faghet a cumpletare custa atzione durante sa mutida</string>
+    <string name="enhanced_confirmation_phone_state_dialog_desc">Custa cunfiguratzione est blocada pro amparare su dispositivu e is datos tuos.<xliff:g id="scam_use_setting_description" example="scammers may ask you to allow apps to install other apps">%1$s</xliff:g></string>
+    <string name="enhanced_confirmation_phone_state_dialog_install_desc"><xliff:g id="empty_line">\n\n</xliff:g>Is tramperis (\'scammers\') podent provare a installare aplicatziones dannosas preguntende·ti de installare aplicatziones disconnotas dae una mitza noa.</string>
+    <string name="enhanced_confirmation_phone_state_dialog_a11y_desc"><xliff:g id="empty_line">\n\n</xliff:g>Is tramperis (\'scammers\') podent provare a pigare su controllu de su dispositivu tuo preguntende·ti de cuntzèdere s\'atzessu a s\'atzessibilidade pro un\'aplicatzione.</string>
 </resources>

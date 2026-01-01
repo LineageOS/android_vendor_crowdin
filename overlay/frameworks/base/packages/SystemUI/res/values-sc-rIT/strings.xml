@@ -55,6 +55,8 @@
     <string name="screenrecord_background_processing_label">Esecutende sa registratzione de s\'ischermu</string>
     <string name="screenrecord_permission_dialog_title">Boles registrare s\'ischermu tuo?</string>
     <string name="screenrecord_permission_dialog_option_text_single_app">Registra un\'aplicatzione</string>
+    <string name="screenrecord_permission_dialog_option_text_entire_screen">Registra custu ischermu</string>
+    <string name="screenrecord_permission_dialog_option_text_entire_screen_for_display">Registra %s</string>
     <string name="screenrecord_permission_dialog_warning_entire_screen">Cando ses registrende s\'ischermu intreu, cale si siat elementu visìbile in s\'ischermu at a èssere registradu. Faghe atentzione a is craes, informatziones de pagamentos, messàgios, fotografias, àudio e vìdeu.</string>
     <string name="screenrecord_permission_dialog_warning_single_app">Cando ses registrende un\'aplicatzione, cale si siat elementu visìbile o riproduidu in cussa aplicatzione at a èssere registradu. Faghe atentzione a is craes, informatziones de pagamentos, messàgios, fotografias, àudio e vìdeu.</string>
     <string name="screenrecord_permission_dialog_continue_entire_screen">Registra s\'ischermu</string>
@@ -126,8 +128,15 @@
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Si pones una crae isballiada a su tentativu imbeniente, su profilu de traballu e is datos s\'ant a cantzellare dae su dispositivu.</string>
     <string name="biometric_re_enroll_dialog_confirm">Cunfigura</string>
     <string name="accessibility_bluetooth_connected">Bluetooth collegadu.</string>
+    <string name="accessibility_bluetooth_device_settings_gear_with_name"><xliff:g id="device_name">%s</xliff:g>. Cunfigura is caraterìsticas de su dispositivu</string>
+    <string name="accessibility_bluetooth_device_settings_see_all">Mustra totu is dispositivos</string>
     <string name="accessibility_battery_unknown">Càrriga de sa bateria disconnota.</string>
     <string name="accessibility_bluetooth_name">Collegadu a <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
+    <string name="accessibility_expand_group">Ismànnia su grupu.</string>
+    <string name="accessibility_collapse_group">Mìnima su grupu.</string>
+    <string name="accessibility_add_device_to_group">Agiunghe su dispositivu a su grupu.</string>
+    <string name="accessibility_remove_device_from_group">Boga su dispositivu dae su grupu.</string>
+    <string name="accessibility_open_application">Aberi s\'aplicatzione.</string>
     <string name="accessibility_not_connected">Non collegadu.</string>
     <string name="data_connection_roaming">Àteros gestores</string>
     <string name="accessibility_airplane_mode">Modalidade aèreu.</string>
@@ -166,6 +175,9 @@
     <string name="quick_settings_bluetooth_audio_sharing_button_accessibility">intra a sa cunfiguratzione de cumpartzidura de àudio</string>
     <string name="quick_settings_bluetooth_audio_sharing_dialog_message">Sa mùsica e is vìdeos de su dispositivu ant a èssere reprodùidos in ambas crobas de auricolares</string>
     <string name="quick_settings_bluetooth_audio_sharing_dialog_title">Cumpartzi s\'àudio</string>
+    <string name="quick_settings_bluetooth_audio_sharing_dialog_subtitle"><xliff:g id="available_device_name" example="device 1">%1$s</xliff:g> e <xliff:g id="active_device_name" example="device 2">%2$s</xliff:g></string>
+    <string name="quick_settings_bluetooth_audio_sharing_dialog_switch_to_button">Càmbia a <xliff:g id="available_device_name" example="device 1">%1$s</xliff:g></string>
+    <string name="quick_settings_brightness_unable_adjust_msg">Impossìbile acontzare su lugore ca est controlladu dae s\'aplicatzione in primu pianu</string>
     <string name="quick_settings_rotation_unlocked_label">Rotatzione automàtica</string>
     <string name="accessibility_quick_settings_rotation">Rotatzione automàtica de s\'ischermu</string>
     <string name="quick_settings_location_label">Positzione</string>
@@ -201,7 +213,20 @@
     <string name="quick_settings_hearing_devices_dialog_title">Dispositivos de ascurtu</string>
     <string name="hearing_devices_presets_error">Non faghet a atualizare sa precunfiguratzione</string>
     <string name="hearing_devices_preset_label">Precunfiguratzione</string>
+    <string name="hearing_devices_input_routing_label">Micròfonu predefinidu pro is mutidas</string>
+    <string-array name="hearing_device_input_routing_options">
+        <item>Micròfonu de su dispositivu de àudio</item>
+        <item>Micròfonu de custu telèfonu</item>
+    </string-array>
     <string name="hearing_devices_spinner_item_selected">Seletzionadu</string>
+    <string name="hearing_devices_ambient_label">Ambiente</string>
+    <string name="hearing_devices_ambient_control_description">Ambiente</string>
+    <string name="hearing_devices_ambient_control_left_description">Ambiente a manca</string>
+    <string name="hearing_devices_ambient_control_right_description">Ambiente a dereta</string>
+    <string name="hearing_devices_ambient_expand_controls">Ismànnia pro abèrrere is cumandos de manca e de dereta in manera separada</string>
+    <string name="hearing_devices_ambient_collapse_controls">Mìnima a cumandu unificadu</string>
+    <string name="hearing_devices_ambient_mute">Pone s\'ambiente a sa muda</string>
+    <string name="hearing_devices_ambient_unmute">Ativa s\'àudio de ambiente</string>
     <string name="hearing_devices_tools_label">Ainas</string>
     <string name="hearing_devices_settings_button">Impostatziones</string>
     <string name="quick_settings_notes_label">Nota</string>
@@ -253,9 +278,16 @@
     <string name="accessibility_action_label_unselect_widget">boga sa seletzione de su trastu</string>
     <string name="accessibility_action_label_shrink_widget">Mìnima s\'artària</string>
     <string name="accessibility_action_label_expand_widget">Cresche s\'artària</string>
+    <string name="accessibility_action_label_umo_show_next">Mustra cussu imbeniente</string>
+    <string name="accessibility_action_label_umo_show_previous">Mustra cussu pretzedente</string>
     <string name="communal_widgets_disclaimer_title">Trastos de s\'ischermada de blocu</string>
     <string name="communal_widgets_disclaimer_text">Pro abèrrere un\'aplicatzione impreende unu trastu, as a dèpere averguare chi ses tue. Tene puru in contu chi cale si siat persone dd\'at a pòdere bìdere, fintzas cun sa tauledda blocada. Podet èssere chi tzertos trastos no siant istados creados pro su blocu de ischermu, e duncas non siat seguru a ddos agiùnghere inoghe.</string>
     <string name="communal_widgets_disclaimer_button">AB</string>
+    <string name="accessibility_glanceable_hub_to_dream_button">Mustra su butone de su sarva-ischermu</string>
+    <string name="hub_onboarding_bottom_sheet_title">Esplora sa modalidade hub</string>
+    <string name="hub_onboarding_bottom_sheet_text">Atzede a is trastos e is sarva-ischermos preferidos durante sa càrriga.</string>
+    <string name="hub_onboarding_bottom_sheet_action_button">Bae!</string>
+    <string name="glanceable_hub_to_dream_button_tooltip">Mustra is sarva-ischermos preferidos tuos durante sa càrriga</string>
     <string name="accessibility_multi_user_switch_switcher">Càmbia utente</string>
     <string name="guest_exit_guest_dialog_message">Totu is aplicatziones e datos in custa sessione ant a èssere cantzellados.</string>
     <string name="guest_wipe_session_message">Boles sighire sa sessione tua?</string>
@@ -274,6 +306,7 @@
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Cando ses cumpartzende s\'ischermu intreu, cale si siat elementu in s\'ischermu at a èssere visìbile in <xliff:g id="app_seeking_permission" example="Meet">%s</xliff:g>. Faghe atentzione a is craes, informatziones de pagamentos, messàgios, fotografias, àudio e vìdeu.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Cando ses cumpartzende un\'aplicatzione, cale si siat elementu visìbile o riproduidu in cussa aplicatzione at a èssere visìbile in <xliff:g id="app_seeking_permission" example="Meet">%s</xliff:g>. Faghe atentzione a is craes, informatziones de pagamentos, messàgios, fotografias, àudio e vìdeu.</string>
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Cumpartzi s\'ischermu</string>
+    <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Non cumpatìbile cun custa aplicatzione</string>
     <string name="media_projection_entry_share_app_selector_title">Sèbera s\'aplicatzione de cumpartzire</string>
     <string name="media_projection_entry_cast_permission_dialog_title">Boles trasmìtere s\'ischermu tuo?</string>
     <string name="media_projection_entry_cast_permission_dialog_option_text_single_app">Trasmite un\'aplicatzione</string>
@@ -326,6 +359,8 @@
     <string name="volume_panel_spatial_audio_title">Àudio ispatziale</string>
     <string name="volume_panel_spatial_audio_fixed">Fissu</string>
     <string name="volume_panel_spatial_audio_tracking">Rilev. movim. conca</string>
+    <string name="volume_ringer_mode">modalidade de soneria</string>
+    <string name="volume_ringer_drawer_closed_content_description"><xliff:g id="volume ringer status" example="Ring">%1$s</xliff:g>, toca pro modificare sa modalidade de soneria</string>
     <string name="volume_panel_enter_media_output_settings">Inserta sa cunfiguratzione de essida</string>
     <string name="volume_panel_expanded_sliders">Trisinadores de volùmene ismanniados</string>
     <string name="volume_panel_collapsed_sliders">Trisinadores de volùmene minimados</string>
@@ -343,12 +378,21 @@
     <string name="active_mode_content_description">Sa modalidade <xliff:g id="modeName" example="Do Not Disturb">%1$s</xliff:g> est ativa</string>
     <string name="status_bar_work">Profilu de traballu</string>
     <string name="status_bar_airplane">Modalidade aèreu</string>
+    <string name="status_bar_supervision">Controllos de is genitores</string>
     <string name="zen_alarm_warning_indef">No as a intèndere s\'isvèllia imbeniente <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> a no èssere chi disatives custu in antis de s\'ora</string>
     <string name="zen_alarm_warning">No as a intèndere s\'isvèllia imbeniente <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g></string>
     <string name="alarm_template">a is <xliff:g id="when" example="7:00 AM">%1$s</xliff:g></string>
     <string name="alarm_template_far">su <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
     <string name="accessibility_status_bar_hotspot">Puntu de atzessu Wi-Fi</string>
     <string name="satellite_connected_carrier_text">SOS satellitare</string>
+    <string name="satellite_emergency_only_carrier_text">Isceti mutidas de emergèntzia o SOS</string>
+    <string name="accessibility_phone_string_format"><xliff:g id="carrier_name" example="Carrier Name">%1$s</xliff:g>, <xliff:g id="signal_strength_description" example="two bars">%2$s</xliff:g>.</string>
+    <string name="accessibility_no_signal">Chene sinnale</string>
+    <string name="accessibility_one_bar">Un\'istanga</string>
+    <string name="accessibility_two_bars">duas istangas</string>
+    <string name="accessibility_three_bars">tres istangas</string>
+    <string name="accessibility_four_bars">cuatru istangas</string>
+    <string name="accessibility_signal_full">sinnale prenu</string>
     <string name="accessibility_managed_profile">Profilu de traballu</string>
     <string name="tuner_warning_title">Ispàssiu isceti pro calicuna persone</string>
     <string name="tuner_warning">S\'afinadore de s\'IU de sistema ti dat maneras in prus pro cambiare e personalizare s\'interfache utente Android. Custas funtzionalidades isperimentales si podent cambiare, segare o isparèssere in versiones benidoras. Sighi cun coidadu.</string>
@@ -366,6 +410,11 @@
     <string name="notification_channel_summary_low">Perunu sonu o vibratzione</string>
     <string name="notification_conversation_summary_low">Nissunu sonu o vibratzione, ma at a aparèssere ancora in sa setzione de is resonadas</string>
     <string name="notification_priority_title">Prioridade</string>
+    <string name="notification_guts_bundle_feedback">Opiniones</string>
+    <string name="notification_inline_disable_promotion">No ddu mustres comente apicadu</string>
+    <string name="notification_inline_disable_promotion_button">Bloca atualizatzione in direta</string>
+    <string name="live_notifications_title">Mustrende is atualizatziones in direta</string>
+    <string name="live_notifications_desc">Is notìficas apicadas mustrant informatzione in direta dae aplicatziones, e aparent semper in s\'istanga de istadu e s\'ischermu de blocu</string>
     <string name="notification_more_settings">Àteras cunfiguratziones</string>
     <string name="notification_app_settings">Personaliza</string>
     <string name="keyboard_key_home">Pàgina printzipale</string>
@@ -375,11 +424,38 @@
     <string name="keyboard_shortcut_group_system_home">Pàgina printzipale</string>
     <string name="keyboard_shortcut_group_system_back">In segus</string>
     <string name="keyboard_shortcut_group_system_notifications">Notìficas</string>
+    <string name="group_system_access_google_assistant">Aberi s\'assistèntzia digitale</string>
     <string name="keyboard_shortcut_group_system_multitasking">Multitarea</string>
     <string name="system_multitasking_rhs">Imprea sa modalidade de ischermu partzidu cun s\'aplicatzione a dereta</string>
     <string name="system_multitasking_lhs">Imprea sa modalidade de ischermu partzidu cun s\'aplicatzione a manca</string>
+    <string name="system_multitasking_full_screen">Imprea s\'ischermu prenu</string>
+    <string name="system_multitasking_desktop_view">Imprea ventanas de iscrivania</string>
+    <string name="system_multitasking_splitscreen_focus_rhs">Passa a s\'aplicatzione a dereta o a suta cando ses impreende s\'ischermu partzidu</string>
+    <string name="system_multitasking_splitscreen_focus_lhs">Passa a s\'aplicatzione a manca o in pitzus cando ses impreende s\'ischermu partzidu</string>
+    <string name="system_multitasking_move_to_next_display">Move sa ventana ativa intre ischermos</string>
+    <string name="system_desktop_mode_snap_left_window">Move sa ventana a manca</string>
+    <string name="system_desktop_mode_snap_right_window">Move sa ventana a dereta</string>
+    <string name="system_desktop_mode_toggle_maximize_window">Massimiza sa ventana</string>
+    <string name="system_desktop_mode_minimize_window">Mìnima sa ventana</string>
+    <string name="group_accessibility_toggle_bounce_keys">Cuncàmbia su rebòtiu de teclas</string>
+    <string name="group_accessibility_toggle_mouse_keys">Cuncàmbia is butones de su puntadore</string>
+    <string name="group_accessibility_toggle_sticky_keys">Cuncàmbia is teclas apitzigosas</string>
+    <string name="group_accessibility_toggle_slow_keys">Cuncàmbia is teclas lentas</string>
+    <string name="group_accessibility_toggle_voice_access">Cuncàmbia s\'atzessu de boghe</string>
+    <string name="group_accessibility_toggle_talkback">Cuncàmbia Talkback</string>
+    <string name="group_accessibility_toggle_magnification">Cuncàmbia s\'ismanniamentu</string>
+    <string name="group_accessibility_activate_select_to_speak">Ativa sa seletzione pro faeddare</string>
+    <string name="tap_to_position_tile">Toca pro situare su cuadru</string>
+    <string name="qs_edit_tiles">Modifica is cuadros</string>
     <string name="tuner_time">Ora</string>
+    <string name="accessibility_qs_edit_toggle_tile_size_action">cuncambiare sa mannària de su cuadru</string>
+    <string name="accessibility_qs_edit_toggle_placement_mode">cuncambiare sa modalidade de situatzione</string>
+    <string name="accessibility_qs_edit_toggle_selection">cuncambiare sa seletzione</string>
+    <string name="accessibility_qs_edit_tile_add_action">agiùnghere su cuadru a s\'ùrtima positzione</string>
+    <string name="accessibility_qs_edit_tile_start_add">Agiunghe unu cuadru a sa positzione chi boles</string>
     <string name="accessibilit_qs_edit_tile_add_move_invalid_position">Sa positzione no est vàlida.</string>
+    <string name="accessibility_qs_edit_tile_already_added">Cuadru giai agiuntu</string>
+    <string name="accessibility_quick_settings_edit">Modifica s\'assentu de is Cunfiguratziones lestras</string>
     <string name="shutdown_progress">Istudende\u2026</string>
     <string name="tuner_menu">Menù</string>
     <string name="app_info">Informatziones de s\'aplicatzione</string>
@@ -398,14 +474,23 @@
     <string name="controls_media_smartspace_rec_title">Reprodue</string>
     <string name="controls_media_smartspace_rec_item_description">Reprodue <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> de <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> dae <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
     <string name="controls_media_smartspace_rec_item_no_artist_description">Reprodue <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> dae <xliff:g id="app_label" example="Spotify">%2$s</xliff:g></string>
+    <string name="media_output_dialog_button_connect_device">Connete unu dispositivu</string>
+    <string name="media_output_group_title_connected_speakers">Altoparlantes connètidos</string>
     <string name="media_output_group_title">Essida</string>
+    <string name="copy_to_clipboard_a11y_action">còpia in punta de billete.</string>
     <string name="accessibility_side_fingerprint_indicator_label">Toca su sensore de imprentas. Est su prus butone curtzu in costados de su telèfonu</string>
+    <string name="resume_animation">Torra a riproduire s\'animatzione</string>
+    <string name="pause_animation">Pone s\'animatzione in pàusa</string>
+    <string name="ongoing_call_content_description">Mutida in cursu</string>
+    <string name="ongoing_notification_extra_content_description">In cursu</string>
     <string name="mobile_data_connection_active">Connètidu</string>
     <string name="qs_tile_request_dialog_add">Agiunghe casella</string>
     <string name="clipboard_edit_text_done">Fatu</string>
     <string name="dream_overlay_location_active">Positzione ativa</string>
     <string name="rear_display_bottom_sheet_cancel">Annulla</string>
     <string name="rear_display_accessibility_folded_animation">Dispositivu serràbile chi s\'est aberende</string>
+    <string name="rear_display_unfolded_front_screen_on">Ischermu frontale ativu</string>
+    <string name="rear_display_unfolded_front_screen_on_slide_to_cancel">Iscurre pro impreare s\'ischermu internu</string>
     <string name="stylus_battery_low_percentage">Bateria istilu a su <xliff:g id="percentage" example="16%">%s</xliff:g></string>
     <string name="call_from_work_profile_close">Annulla</string>
     <string name="location_active_dream_overlay_content_description">Positzione ativa</string>
@@ -419,16 +504,32 @@
     <string name="shortcut_helper_category_app_shortcuts">Curtzadòrgios de s\'aplicatzione</string>
     <string name="shortcut_helper_category_current_app_shortcuts">Aplicatzione atuale</string>
     <string name="shortcut_helper_title">Curtzadòrgios de tecladu</string>
+    <string name="shortcut_helper_customize_mode_title">Personaliza is curtzadòrgios</string>
+    <string name="shortcut_customize_mode_remove_shortcut_dialog_title">Boles cantzellare su curtzadòrgiu?</string>
+    <string name="shortcut_customize_mode_reset_shortcut_dialog_title">Boles ripristinare a su valore predefinidu?</string>
+    <string name="shortcut_customize_mode_add_shortcut_description">Pro creare custu curtzadòrgiu, preme sa tecla de atzione e un\'àtera tecla o de prus in paris</string>
+    <string name="shortcut_customize_mode_remove_shortcut_description">Custu at a cantzellare su curtzadòrgiu personalizadu pro semper.</string>
+    <string name="shortcut_customize_mode_reset_shortcut_description">Custu at a cantzellare totu is curtzadòrgios personalizados pro semper.</string>
     <string name="shortcut_helper_no_search_results">Nissunu resurtadu de chirca</string>
     <string name="shortcut_helper_content_description_collapse_icon">Icona pro minimare</string>
+    <string name="shortcut_helper_content_description_meta_key">Icona de sa tecla Atzione o Meta</string>
+    <string name="shortcut_helper_content_description_plus_icon">Icona Prus</string>
     <string name="shortcut_helper_customize_button_text">Personaliza</string>
     <string name="shortcut_helper_done_button_text">Fatu</string>
     <string name="shortcut_helper_content_description_expand_icon">Icona pro ismanniare</string>
+    <string name="shortcut_helper_key_combinations_and_conjunction">prus</string>
     <string name="shortcut_helper_content_description_drag_handle">Trìsina su mànigu</string>
+    <string name="shortcut_helper_keyboard_settings_buttons_label">Cunfiguratziones de tecladu</string>
+    <string name="shortcut_helper_customize_dialog_set_shortcut_button_label">Cunfigura unu curtzadòrgiu</string>
     <string name="shortcut_helper_customize_dialog_remove_button_label">Boga</string>
+    <string name="shortcut_helper_customize_dialog_reset_button_label">Eja, ripristina</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Annulla</string>
+    <string name="shortcut_helper_add_shortcut_dialog_placeholder">Preme una tecla</string>
+    <string name="shortcut_customizer_key_combination_in_use_error_message">Custa cumbinatzione de teclas est giai impreada. Proa·nde un\'àtera.</string>
     <string name="shortcut_customizer_generic_error_message">Custu curtzadòrgiu non si podet cunfigurare.</string>
     <string name="shortcut_helper_plus_symbol">+</string>
+    <string name="shortcut_helper_add_shortcut_button_label">Agiunghe unu curtzadòrgiu</string>
+    <string name="shortcut_helper_delete_shortcut_button_label">Cantzella unu curtzadòrgiu</string>
     <string name="launch_keyboard_tutorial_notification_title">Nàviga impreende su tecladu</string>
     <string name="launch_keyboard_tutorial_notification_content">Informatziones de is curtzadòrgios de tecladu</string>
     <string name="launch_touchpad_tutorial_notification_title">Nàviga impreende su pannellu tàtile</string>
@@ -436,25 +537,41 @@
     <string name="launch_keyboard_touchpad_tutorial_notification_title">Nàviga impreende su tecladu e su pannellu tàtile</string>
     <string name="launch_keyboard_touchpad_tutorial_notification_content">Informatziones de is gestos de su pannellu tàtile, de is curtzadòrgios de tecladu e àteru</string>
     <string name="touchpad_tutorial_home_gesture_button">Bae a s\'ischermu printzipale</string>
+    <string name="touchpad_tutorial_switch_apps_gesture_button">Cuncàmbia aplicatziones</string>
     <string name="touchpad_tutorial_done_button">Fatu</string>
+    <string name="gesture_error_title">Torra·nche a proare!</string>
     <string name="touchpad_back_gesture_guidance">Iscurre a manca o a dereta impreende tres pòddighes in su pannellu tàtile</string>
     <string name="touchpad_back_gesture_success_title">Bene!</string>
     <string name="touchpad_back_gesture_success_body">As cumpletadu su gestu de torrare in segus.</string>
+    <string name="touchpad_back_gesture_error_body">Pro torrare a impreare su pannellu tàtile, iscurre a manca o a dereta cun tres pòddighes</string>
     <string name="touchpad_home_gesture_action_title">Bae a s\'ischermu printzipale</string>
     <string name="touchpad_home_gesture_guidance">Iscurre in artu cun tres pòddighes in su pannellu tàtile</string>
     <string name="touchpad_home_gesture_success_title">Bellu traballu!</string>
+    <string name="touchpad_home_gesture_success_body">As cumpletadu su gestu de andare a s\'ischermu printzipale</string>
+    <string name="touchpad_home_gesture_error_body">Iscurre in artu cun tres pòddighes in su pannellu tàtile pro andare a s\'ischermu printzipale</string>
+    <string name="touchpad_recent_apps_gesture_guidance">Iscurre in artu e mantene impreende tres pòddighes in su pannellu tàtile</string>
     <string name="touchpad_recent_apps_gesture_success_title">Bene fatu!</string>
     <string name="touchpad_recent_apps_gesture_success_body">As cumpletadu su gestu pro bìdere is aplicatziones reghentes.</string>
+    <string name="touchpad_recent_gesture_error_body">Pro bìdere is aplicatziones reghentes, iscurre in artu e mantene cun tres pòddighes in su pannellu tàtile</string>
+    <string name="touchpad_switch_apps_gesture_action_title">Cuncàmbia aplicatziones</string>
+    <string name="touchpad_switch_apps_gesture_guidance">Iscurre a dereta impreende cuatru pòddighes in su pannellu tàtile</string>
     <string name="touchpad_switch_apps_gesture_success_title">Bene fatu!</string>
+    <string name="touchpad_switch_apps_gesture_success_body">As cumpletadu su gestu pro cuncambiare aplicatziones.</string>
+    <string name="touchpad_switch_gesture_error_body">Iscurre a dereta impreende cuatru pòddighes in su pannellu tàtile pro cuncambiare aplicatziones</string>
     <string name="tutorial_action_key_title">Bide totu is aplicatziones</string>
+    <string name="tutorial_action_key_guidance">Preme sa tecla de atzione in su tecladu</string>
     <string name="tutorial_action_key_success_title">Bene fatu!</string>
     <string name="tutorial_action_key_success_body">As cumpletadu su gestu pro bìdere totu is aplicatziones</string>
+    <string name="touchpad_action_key_error_body">Preme sa tecla de atzione in su tecladu pro bìdere totu is aplicatziones</string>
+    <string name="tutorial_animation_content_description">Animatzione tutoriale, incarca pro pònnere in pàusa o pro aviare sa riprodutzione.</string>
     <string name="back_edu_toast_content">Pro andare a coa, iscurre cara a manca o dereta cun tres pòddighes in su pannellu tàtile</string>
     <string name="home_edu_toast_content">Pro andare a s\'ischermu printzipale, iscurre cara a artu cun tres pòddighes in su pannellu tàtile</string>
     <string name="overview_edu_toast_content">Pro bìdere is aplicatziones reghentes, iscurre cara a artu e mantene cun tres pòddighes in su pannellu tàtile</string>
     <string name="all_apps_edu_toast_content">Pro bìdere totu is aplicatziones, incarca sa tecla de atzione in su tecladu</string>
     <string name="redacted_notification_single_line_title">Currègidu</string>
     <string name="public_notification_single_line_text">Isbloca pro bìdere</string>
+    <string name="redacted_otp_notification_single_line_text">Isbloca pro bìdere su còdighe</string>
+    <string name="contextual_education_dialog_title">Istrutzione cuntestuale</string>
     <string name="back_edu_notification_title">Imprea su pannellu tàtile pro torrare in segus</string>
     <string name="back_edu_notification_content">Iscurre cara a manca o a dereta impreende tres pòddighes. Toca pro àteros gestos.</string>
     <string name="home_edu_notification_title">Imprea su pannellu tàtile pro andare a s\'ischermu printzipale</string>
@@ -482,4 +599,11 @@
     </string>
     <string name="qs_edit_mode_category_unknown">        Disconnotu
     </string>
+    <string name="qs_edit_mode_reset_dialog_title">        Boles ripristinare totu is cuadros?
+    </string>
+    <string name="qs_edit_mode_reset_dialog_content">        Is Cunfiguratziones lestras ant a èssere ripristinadas a sa cunfiguratzione originale de su dispositivu
+    </string>
+    <string name="demote_explain_text">         <xliff:g id="application" example="Superfast Food Delivery">%1$s</xliff:g> no at a mustrare prus is Atualizatziones in direta. Ddu podes modificare in cale si siat momentu dae is Cunfiguratziones.
+    </string>
+    <string name="volume_slider_disabled_message_template"><xliff:g example="Notification" id="stream_name">%1$s</xliff:g>, <xliff:g example="Disabled because ring is muted" id="disabled_message">%2$s</xliff:g></string>
 </resources>

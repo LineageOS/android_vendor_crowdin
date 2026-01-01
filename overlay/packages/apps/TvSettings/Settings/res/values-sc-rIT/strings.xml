@@ -14,16 +14,76 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hotwording_summary">Faedda cun s\'assistente in cale si siat momentu</string>
     <string name="screen_reader_service_title">Talkback\u0020(Letore de ischermu)</string>
     <string name="screen_reader_summary">Talkback est una funtzionalidade de atzessibilidade: est unu letore de ischermu chi agiudat a is utentes cun problemas visuales a lèghere a boghe arta su testu de s\'ischermu, is elementos de is menùs e àteru. Podet èssere cunfiguradu puru pro èssere impreadu cun Curtzadòrgios de atzessibilidade.</string>
     <string name="accounts_category_title">Contos e profilos</string>
     <string name="privacy_device_lock_settings_title">Blocu de su dispositivu</string>
+    <string name="privacy_assistant_settings_title">Assistèntzia de boghe</string>
     <string name="unplug_ethernet_to_use_wifi">Disconnete s\'Ethernet pro impreare su Wi-Fi</string>
+    <string name="wifi_setting_thread_network">Rete Thread</string>
+    <string name="wifi_settings_thread_network_confirmation_title">Boles disativare sa rete Thread?</string>
+    <string name="wifi_settings_thread_network_energy_title">Boles ativare sa rete Thread?</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm">Disativa</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode">Cuncàmbia sa modalidade energètica</string>
+    <string name="add_apps_title">Agiunghe àteras aplicatziones</string>
+    <string name="surround_sound_select_formats">Cunfiguratziones de is sonos de ambiente</string>
+    <string name="surround_sound_auto_title">Automàticu</string>
+    <string name="surround_sound_selection_auto_desc">Ativa totu is formados cumpatìbiles</string>
+    <string name="surround_sound_selection_manual_desc">Sèbera dae is formatos a disponimentu</string>
+    <string name="advanced_sound_settings_title">Cunfiguretziones de is sonos de ambiente</string>
+    <string name="preferred_dynamic_range_match_enabled_title">Custa cunfiguratzione no est a disponimentu</string>
+    <string name="hdr_format_selection_auto_desc">Ativa totu is formados cumpatìbiles</string>
+    <string name="hdr_format_selection_manual_desc">Sèbera dae is formatos a disponimentu</string>
+    <string name="default_audio_output_settings_title" translatable="true"/>
+    <string name="bluetooth_toggle_confirmation_dialog_summary">No as a pòdere atzèdere a
+        s\'assistèntzia de boghe dae su telecumandu si su Bluetooth est disativadu.</string>
+    <string name="manage_device_admin">Amministratzione de su dispositivu</string>
     <string name="copyright_title">Deretos de autore</string>
     <string name="does_not_exist">S\'aplicatzione no esistit.</string>
     <string name="invalid_location">Sa positzione de s\'installatzione no est bàlida.</string>
     <string name="system_package">Is atualizatziones de sistema non faghet a ddas installare in mèdios esternos.</string>
     <string name="move_error_device_admin">S\'amministradore de su dispositivu non faghet a dd\'installare in mèdios esternos.</string>
+    <string name="mic_toggle_info_content">Si ativadu, totu is aplicatziones e servìtzios chi tèngiant permissu pro
+        impreare su micròfonu nce ant a tènnere atzessu.\n\nSi disativadu, nissuna aplicatzione o servìtziu at
+        a pòdere atzèdere a su micròfonu. As a pòdere, però, faeddare cun s\'assistente de boghe
+        premende su butone de s\'assistente in su telecumandu.\n\nPodet èssere chi is dispositivos de àudio chi impreent protocollos
+        personalizados pro sa comunicatzione cun su televisore non siant modificados dae custa cunfiguratzione.
+    </string>
+    <string name="mic_remote_toggle_on_info_content">S\'assistèntzia de boghe podet atzèdere a su
+        micròfonu de su telecumandu tuo. As a pòdere faeddare cun s\'assistente premende su
+        butone de s\'assistente de su telecumandu.
+    </string>
+    <string name="mic_remote_toggle_off_info_content">No as a pòdere faeddare cun s\'assistente
+        de boghe impreende su telecumandu. Pro pòdere impreare su butone de s\'assistèntzia de boghe, ativa
+        s\'atzessu a su micròfonu.
+    </string>
+    <string name="bounce_key_title">Rebòtiu de teclas</string>
+    <string name="bounce_key_description">Sèbera s\'intervallu preferidu</string>
+    <string name="bounce_key_description_summary">Inniora is tocos de butones atzidentales, lestros e repìtidos. Podes cunfigurare s\'intervallu de tempus in su chi is tocos depent èssere inniorados</string>
+    <string name="bounce_key_timing_default_title">Intervallu: predefinidu</string>
+    <string name="bounce_key_timing_default_description">Inniora su tocu repìtidu de teclas pro s\'intervallu predefinidu a pustis de su primu tocu</string>
+    <string name="bounce_key_timing_half_second_title">Intervallu: 0,5 segundos</string>
+    <string name="bounce_key_timing_half_second_description">Cunfigura a mesu segundu s\'intervallu de tempus pro inniorare su tocu repìtidu de teclas</string>
+    <string name="bounce_key_timing_one_second_title">Intervallu: 1 segundu</string>
+    <string name="bounce_key_timing_one_second_description">Cunfigura a unu segundu s\'intervallu de tempus pro inniorare su tocu repìtidu de teclas</string>
+    <string name="bounce_key_timing_two_second_title">Intervallu: 2 segundos</string>
+    <string name="bounce_key_timing_two_second_description">Cunfigura a duos segundos s\'intervallu de tempus pro inniorare su tocu repìtidu de teclas</string>
+    <string name="keyboard_accessibility">Atzessibilidade de tecladu</string>
+    <string name="accessibility_timeout">Tempus pro cumintzare (tempus màssimu de s\'atzessiblidade)</string>
+    <string name="accessibility_timeout_summary">Cunfigura sa durada de is messàgios chi rechedent atzione</string>
+    <string name="accessibility_timeout_detailed">Sèbera cantu tempus si mustrant is messàgios temporàneos chi ti preguntant de fàghere un\'atzione</string>
+    <string name="accessibility_timeout_info_title">Intervallu: 2\u20133 segundos</string>
+    <string name="accessibility_key_repeat_delay">Ritardu de teclas repìtidas</string>
+    <string name="accessibility_key_repeat_delay_detailed">Cunfigura su ritardu prima de su chi is caràteres aparessent cando una tecla est prèmida</string>
+    <string name="accessibility_key_repeat_delay_summary">Cunfigura su ritardu in antis de sa ripetitzione de teclas</string>
     <string name="system_play_sample">Reprodue una proa</string>
+    <string name="limit_network_in_standby_toggle_info">Su televisore at a èssere disconnètidu dae sa rete cando siat in modalidade de pàusa (standby, francu chi pro retzire atualizatziones automàticas. Custu podet fàghere ismenguare su consumu energèticu de su televisore, e a su pròpiu tempus bolet nàrrere chi forsis no as a pòdere impreare funtzionalidades comente Cast e s\'assistèntzia de boghe cando su dispositivu siat in pàusa.</string>
+    <string name="usage_access">Datos impreu de s\'aplicatzione</string>
+    <string name="usage_access_description">Is datos de impreu de is aplicatziones permitent is aplicatziones de monitorare cales aplicatziones est impreende e cantu a s\'ispissu, e fintzas chie siat s\'operadore telefònicu tuo, is cunfiguratziones de sa limba e àteros detàllios.</string>
     <string name="play_recorded_audio_title">Reprodue s\'àudio registradu</string>
+    <string name="help_center_title" translatable="true"/>
+    <string name="select_device_admin_msg">Amministratzione de su dispositivu</string>
+    <string name="menu_monitor">Ischermu</string>
+    <string name="volume_change_subtitle_unselect">Podes controllare su vòlumene de s\'Assistente a s\'altoparlante %1$s</string>
 </resources>

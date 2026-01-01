@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2009 The Android Open Source Project
+<!--
+     Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,11 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="move_contacts_to_default_account_dialog_title">Boles sincronizare is cuntatos esistentes?</string>
-    <string name="move_contacts_to_default_account_dialog_message">Podes sincronizare %1$s cun una còpia de seguresa a %2$s (%3$s)</string>
-    <string name="movable_contacts_count"> {contacts_count, plural,
-        =1    {# cuntatu chi esistit giai pro garantire chi siat}
-        other {# cuntatos chi esistint giai pro garantire chi siant}
-        }
-    </string>
+    <string name="recommendations_heading">Servìtzios cussigiados</string>
+    <string name="recommendation_manage">Gesti servìtzios</string>
 </resources>

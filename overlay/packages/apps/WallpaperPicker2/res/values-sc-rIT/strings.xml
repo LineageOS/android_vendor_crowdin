@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="select_a_photo">Seletziona una fotografia</string>
+    <string name="choose_a_curated_photo_section_title">Fotografias cussigiadas</string>
+    <string name="more_photos">Àteras fotografias</string>
+    <string name="preview_screen_description_editable">Previsualizatzione de s\'isfundu de s\'ischermu %1$s. Imprea duos pòddighes pro ti mòvere e pro s\'ismanniamentu</string>
+    <string name="preview_screen_description_non_editable">Ischermu de anteprima de s\'isfundu %1$s</string>
+    <string name="wallpaper_preview_card_content_description_editable">Previsualizatzione de s\'isfundu in %1$s cando %2$s, tocu dòpiu pro modificare sa fotografia</string>
+    <string name="wallpaper_preview_card_content_description_non_editable">Previsualizatzione de s\'isfundu in %1$s cando %2$s</string>
+    <string name="discard_changes_dialog_message">Boles iscartare is modìficas?</string>
+    <string name="discard_changes_dialog_button_keep_editing">Sighi a modificare</string>
+    <string name="discard_changes_dialog_button_discard">Iscarta</string>
+    <string name="action_zoom_in">Ismànnia</string>
+    <string name="action_zoom_out">Istèsia</string>
+    <string name="zoomed_to_percent">Ismanniadu a su %d%%</string>
+    <string name="max_zoom_percentage">Ismanniadu a su màssimu</string>
+    <string name="min_zoom_percentage">Ismanniadu a su mìnimu</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2025 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="private_space_app_label">Ispàtziu privadu</string>
+    <string name="shortcut_label_add_files">Agiunghe archìvios</string>
+    <string name="shortcut_label_open_market_app">Installa aplicatziones</string>
+    <string name="move_files_dialog_title">Boles tramudare o copiare archìvios?</string>
+    <string name="move_files_dialog_summary">Si tràmudas custos archìvios a s\'ispàtziu privadu tuo ant a èssere bogados dae is cartellas originales</string>
+    <string name="move_files_dialog_button_label_move">Tràmuda</string>
+    <string name="move_files_dialog_button_label_copy">Còpia</string>
+    <string name="move_files_dialog_button_label_cancel">Annulla</string>
+    <string name="filetransfer_notification_copy_progress_title">Còpia de <xliff:g example="4" id="files">%1$d</xliff:g> archìviu/-os in cursu</string>
+    <string name="filetransfer_notification_move_progress_title">Tràmuda de <xliff:g example="4" id="files">%1$d</xliff:g> archìviu/-os in cursu</string>
+    <string name="filetransfer_notification_copy_complete_title">Archìvios copiados: <xliff:g example="4" id="files">%1$d</xliff:g></string>
+    <string name="filetransfer_notification_move_complete_title">Archìvios tramudados: <xliff:g example="4" id="files">%1$d</xliff:g></string>
+    <string name="filetransfer_notification_copy_progress_text">Sa còpia de is archìvios chi as seberadu a s\'ispàtziu privadu tuo est in cursu</string>
+    <string name="filetransfer_notification_move_progress_text">Sa tràmuda de is archìvios chi as seberadu a s\'ispàtziu privadu tuo est in cursu</string>
+    <string name="filetransfer_notification_copy_complete_text">Is archìvios chi as seberadu sunt istados copiados a s\'ispàtziu privadu tuo</string>
+    <string name="filetransfer_notification_move_complete_text">Is archìvios chi as seberadu sunt istados ispostados a s\'ispàtziu privadu tuo</string>
+    <string name="filetransfer_notification_action_label">Mustra is archìvios</string>
+    <string name="filetransfer_notification_channel_name">Notìficas de trasferimentu de archìvios</string>
+    <string name="filetransfer_notification_channel_description">"Cando còpias o tràmudas archìvios a s'ispàtziu privadu tuo, podes retzire notìficas pro ti atualizare in pitzus de su progressu"</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_title">Rellògiu</string>
+    <string name="clock_color_title">Colore de su rellògiu</string>
+    <string name="clock_color_description">Faghe cointzìdere su tema o sèbera su colore chi boles</string>
+    <string name="clock_size_large_description">Mustradu cando is notìficas non sunt visìbiles</string>
+    <string name="pack_theme_preview_card_content_description">Previsualizatzione de temas</string>
+    <string name="grid_content_description"><xliff:g name="num_cols" example="1">%1$d</xliff:g> pro <xliff:g name="num_rows" example="1">%2$d</xliff:g></string>
+    <string name="pack_theme_title" msgid="4305612684940220645">Temas</string>
+    <string name="theme_packs_description">Iscoberi is temas Pixel</string>
+    <string name="system_colors_title">Colores</string>
+    <string name="lock_screen_notifications_section_title">Notìficas in s\'ischermu de blocu</string>
+    <string name="lock_screen_notifications_section_description">Gesti comente e ite depent mustrare is notìficas</string>
+    <string name="more_settings_section_title">Àteras cunfiguratziones de blocu de ischermu</string>
+</resources>

@@ -21,4 +21,5 @@
     <string name="notification_panel_title">Notìficas</string>
     <string name="notification_panel_no_notifications">Peruna notìfica</string>
     <string name="mic_recording_announcement">Su micròfonu est registrende</string>
+    <string name="audio_device_settings_tooltip">Preme <annotation icon="dpad_icon">DPAD</annotation> pro sa cunfiguratzione de is dispositivos de àudio.</string>
 </resources>

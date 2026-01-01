@@ -17,4 +17,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="media_card_queue_header_title">Elencu</string>
     <string name="media_card_history_header_title">Mitza de àudio</string>
+    <string name="map_tos_review_button_text">Maps est disativadu, dae chi no as atzetadu is Cunditziones de su servìtziu</string>
+    <string name="map_tos_review_button_distraction_optimized_text">Mapas disativados. Controlla a pustis de sa ghia.</string>
 </resources>

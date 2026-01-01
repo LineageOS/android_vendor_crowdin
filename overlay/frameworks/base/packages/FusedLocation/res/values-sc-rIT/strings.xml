@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Positzione cumbinada</string>
+    <string name="fused_overlay_service">Servìtziu subrapostu Fused</string>
+    <string name="gnss_overlay_service">Servìtziu subrapostu GNSS</string>
 </resources>
