@@ -494,44 +494,44 @@
     <string-array name="zen_mode_icon_options_descriptions">
         <item>Cês gwaith papur</item>
         <item>Adeilad clasurol</item>
-        <item>Apartment building</item>
-        <item>Speech bubble</item>
-        <item>Group of people</item>
-        <item>Lightbulb</item>
-        <item>Calendar</item>
+        <item>Adeilad fflatiau</item>
+        <item>Swigen siarad</item>
+        <item>Grŵp o bobl</item>
+        <item>Bwlb golau</item>
+        <item>Calendr</item>
         <item>Paid â Tharfu</item>
-        <item>Person running</item>
-        <item>Golf</item>
-        <item>Gym dumbbell</item>
-        <item>Swimming</item>
-        <item>Person hiking</item>
-        <item>Person throwing ball</item>
-        <item>Person kicking</item>
-        <item>Game controller</item>
-        <item>Artist color palette</item>
-        <item>Snowflake</item>
-        <item>Beach umbrella</item>
-        <item>Workshop tools</item>
+        <item>Person yn rhedeg</item>
+        <item>Golff</item>
+        <item>Dymbel gampfa</item>
+        <item>Nofio</item>
+        <item>Person yn heicio</item>
+        <item>Person yn taflu pêl</item>
+        <item>Person yn cicio</item>
+        <item>Rheolydd gemau</item>
+        <item>Palet lliwiau artist</item>
+        <item>Pluen eira</item>
+        <item>Ymbarél traeth</item>
+        <item>Offer gweithdy</item>
         <item>Piano</item>
-        <item>Film reel</item>
-        <item>Book</item>
-        <item>Lotus flower</item>
-        <item>Person\'s mind</item>
-        <item>Headphones</item>
-        <item>TV</item>
-        <item>Train</item>
+        <item>Fîl ffilm</item>
+        <item>Llyfr</item>
+        <item>Blodn lotws</item>
+        <item>Meddwl person</item>
+        <item>Clustffonau</item>
+        <item>Teledu</item>
+        <item>Trên</item>
         <item>Car</item>
-        <item>Fork and knife</item>
-        <item>Shopping cart</item>
-        <item>Child</item>
-        <item>Animal paw</item>
-        <item>Star badge</item>
-        <item>Two people</item>
-        <item>Star</item>
-        <item>Heart</item>
-        <item>House</item>
-        <item>Half-moon</item>
-        <item>Clock</item>
+        <item>Cyllell a fforc</item>
+        <item>Troli siopa</item>
+        <item>Plentyn</item>
+        <item>Pawen anifail</item>
+        <item>Bathodyn seren</item>
+        <item>Dau berson</item>
+        <item>Seren</item>
+        <item>Calon</item>
+        <item>Tŷ</item>
+        <item>Hanner lleuad</item>
+        <item>Cloc</item>
     </string-array>
     <string-array name="display_over_apps_permission_change_exempt"/>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2009 The Android Open Source Project
+<!--
+     Copyright (C) 2018 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +15,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="picker_play_video">Reprodue</string>
-    <string name="transcode_alert_channel">Notìficas de transcodìfica</string>
-    <string name="transcode_progress_channel">Progressu de transcodìfica</string>
+    <string name="clock_font_editor_apply">Àplica is modìficas a su caràtere de su rellògiu</string>
+    <string name="clock_font_editor_revert">Iscontza is modìficas a su caràtere de su rellògiu</string>
+    <string name="shape_and_grid_title">Forma e dispositzione de is aplicatziones</string>
+    <string name="grid_layout">Dispositzione</string>
+    <string name="color_contrast_section_title">Cuntrastu de colore</string>
+    <string name="color_contrast_medium_title">Mèdiu</string>
+    <string name="color_contrast_high_title">Artu</string>
 </resources>

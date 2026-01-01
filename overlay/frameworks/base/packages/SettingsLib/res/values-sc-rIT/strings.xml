@@ -192,6 +192,8 @@
         o auriculares</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Ativat su grupu de funtziones de Bluetooth Gabeldorsche.</string>
     <string name="enable_linux_terminal_title">Ambiente de isvilupu de Linux</string>
+    <string name="enable_linux_terminal_summary">(Isperimentale) Esecuta su terminale de Linux in Android</string>
+    <string name="disable_linux_terminal_disclaimer">Si ddu disativas, is datos de su terminale de Linux ant a èssere cantzellados</string>
     <string name="select_application">Sèbera un\'aplicatzione</string>
     <string name="no_application">Nudda</string>
     <string name="wait_for_debugger">Abeta su curretore</string>
@@ -296,7 +298,9 @@
     <string name="cached_apps_freezer_enabled">Abilitadu</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Su dispositivu depet èssere torradu a aviare pro aplicare custu càmbiu. Torra a aviare immoe o annulla</string>
     <string name="media_transfer_wired_headphone_name">Cùfias cun filu</string>
+    <string name="media_transfer_headphone_name">Àudio cun filu</string>
     <string name="media_transfer_usb_audio_name">Àudio USB</string>
+    <string name="media_transfer_wired_device_mic_name">Micròfonu cun filu</string>
     <string name="media_transfer_usb_device_mic_name">Micròfonu USB</string>
     <string name="media_transfer_bt_device_mic_name">Micròfonu BT</string>
     <string name="accessibility_phone_four_bars">Signale a cuatru istancas.</string>

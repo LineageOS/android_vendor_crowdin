@@ -17,6 +17,9 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="recent_task_option_desktop">Iscrivania</string>
+    <string name="recent_task_option_external_display">Move a un\'ischermu esternu</string>
+    <string name="recent_task_desktop">Iscrivania</string>
     <string name="recents_empty_message">Nissunu elementu reghente</string>
     <string name="accessibility_recent_apps">Aplicatziones reghentes</string>
     <string name="shorter_duration_less_than_one_minute">&lt; 1 minutu</string>
@@ -32,6 +35,7 @@
     <string name="action_share">Cumpartzi</string>
     <string name="action_screenshot">Ischermada</string>
     <string name="action_split">Partzi</string>
+    <string name="action_save_app_pair">Sarva sa croba de aplicatziones</string>
     <string name="toast_split_select_app">Toca un\'àtera aplicatzione pro impreare s\'ischermu partzidu</string>
     <string name="toast_contextual_split_select_app">Issèbera un\'àtera aplicatzione pro impreare s\'ischermu partzidu</string>
     <string name="toast_split_select_app_cancel">Annulla</string>
@@ -40,4 +44,20 @@
     <string name="blocked_by_policy">Custa atzione no est permìtida dae s\'aplicatzione o dae s\'organizatzione tua</string>
     <string name="gesture_tutorial_action_button_label_cancel">Annulla</string>
     <string name="gesture_tutorial_action_button_label_skip">Brinca</string>
+    <string name="taskbar_search_edu_title">Toca e mantene sa tecla de atzione pro chircare ite nch\'at in s\'ischermu</string>
+    <string name="taskbar_edu_search_disclosure">Custu produtu impreat sa parte seletzionada de s\'ischermu pro chircare. Si àplicant sa <xliff:g example="https://policies.google.com/privacy/embedded" id="begin_privacy_link">&lt;a href=\"%1$s\"&gt;</xliff:g>Polìtica de riservadesa<xliff:g id="end_privacy_link">&lt;/a&gt;</xliff:g> e is <xliff:g example="https://policies.google.com/terms" id="begin_tos_link">&lt;a href=\"%2$s\"&gt;</xliff:g>Cunditziones de su servìtziu<xliff:g id="end_tos_link">&lt;/a&gt;</xliff:g> de Google.</string>
+    <string name="quick_switch_overflow">{count, plural,
+            =1{àtera aplicatzione}
+            other{àteras aplicatziones}
+        }</string>
+    <string name="quick_switch_desktop">Iscrivania</string>
+    <string name="bubble_bar_bubble_fallback_description">Abbajolu</string>
+    <string name="bubble_bar_bubble_description"><xliff:g id="notification_title" example="some title">%1$s</xliff:g> dae <xliff:g id="app_name" example="YouTube">%2$s</xliff:g></string>
+    <string name="bubble_bar_description_multiple_bubbles"><xliff:g id="bubble_bar_bubble_description" example="some title from YouTube">%1$s</xliff:g> e àteras <xliff:g id="bubble_count" example="4">%2$d</xliff:g></string>
+    <string name="bubble_bar_action_move_left">Move a manca</string>
+    <string name="bubble_bar_action_move_right">Move a dereta</string>
+    <string name="bubble_bar_action_dismiss_all">Iscarta totu</string>
+    <string name="bubble_bar_accessibility_announce_expand">ismànnia <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
+    <string name="bubble_bar_accessibility_announce_collapse">cuntrae <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
+    <string name="search_gesture_feature_title">Faghe unu tzìrculu pro chircare</string>
 </resources>

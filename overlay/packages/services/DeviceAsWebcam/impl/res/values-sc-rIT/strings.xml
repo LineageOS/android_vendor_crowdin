@@ -33,6 +33,7 @@
     <string name="list_item_text_standard_camera">Càmera istandard</string>
     <string name="list_item_text_wide_angle_camera">Càmera grandangulare</string>
     <string name="list_item_text_ultra_wide_camera">Càmera ultra grandangulare</string>
+    <string name="list_item_text_telephoto_camera">Càmera cun obietivu</string>
     <string name="list_item_text_other_camera">Àtera càmera</string>
     <string name="list_item_text_unknown_camera">Càmera disconnota</string>
     <string name="camera_options_list_description">Optziones de càmeras disponìbiles</string>

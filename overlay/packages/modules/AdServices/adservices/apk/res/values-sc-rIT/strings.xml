@@ -15,6 +15,10 @@
 -->
 <!-- IMPORTANT! If adding new strings, then run generate_adservices_public_xml.py -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessAdServicesAdSelection">atzessu a s\'API AdServices Ad Selection</string>
+    <string name="permdesc_accessAdServicesAdSelection">Permitit a un\'aplicatzione de atzèdere a s\'API AdServices Ad Selection</string>
+    <string name="permlab_accessAdServicesProtectedSignals">atzessu a s\'API AdServices Protected Signals</string>
+    <string name="permdesc_accessAdServicesProtectedSignals">Permitit a un\'aplicatzione de atzèdere a s\'API AdServices Protected Signals.</string>
     <string name="notificationUI_container1_title_eu">Novas</string>
     <string name="notificationUI_container1_control_text_eu">Comente funtzionat</string>
     <string name="notificationUI_container2_title_eu">Comente pigare parte</string>
@@ -23,7 +27,11 @@
     <string name="notificationUI_more_button_text">Àteru</string>
     <string name="notificationUI_confirmation_accept_title">Gràtzias pro sa partetzipatzione</string>
     <string name="notificationUI_confirmation_left_control_button_text">Cunfiguratziones de riservadesa</string>
+    <string name="notificationUI_how_it_works_row_body7_v2"><a href="https://support.google.com/android/answer/13720755?sjid=5065763854652067029">Àteras informatziones in pitzus de sa riservadesa de sa publitzidade in Android</a></string>
     <string name="settingsUI_block_topic_title">Bloca</string>
     <string name="settingsUI_unblock_topic_title">Isbloca</string>
     <string name="settingsUI_blocked_topics_title">Interessos chi as blocadu</string>
+    <string name="notificationUI_pas_combined_dropdown_subtitle3">Comente is aplicatziones impreant is datos tuos</string>
+    <string name="notificationUI_pas_learn_more_msmt_link"><a href="https://support.google.com/android?p=ad_measurement">Àteras informatziones in pitzus de comente Android t\'agiudat a amparare sa riservadesa tua</a></string>
+    <string name="notificationUI_pas_leanr_more_link"><a href="https://support.google.com/android?p=manage_appsuggested_ads">Àteras informatziones in pitzus de comente Android t\'agiudat a amparare sa riservadesa tua</a></string>
 </resources>

@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="voicemail">Segreteria telefònica</string>
+    <string name="phone_account_no_config_mobile_networks">Su mere de su dispositivu at restrintu sa modìfica de sa cunfiguratzione de rete mòbile.</string>
     <string name="incall_error_out_of_service_2g">Sa rete mòbile no est a disponimentu.\n\nConnete·ti a una rete chene filos pro mutire.\n\nSu 2G est disativadu in custu dispositivu, su chi podet cumpromìtere sa connetividade tua. Bae a Cunfiguratziones e ativa \"Permite 2G\" pro sighire.</string>
     <string name="incall_error_out_of_service_wfc_2g_user">Sa rete mòbile no est a disponimentu.\n\nConnete·ti a una rete chene filos pro mutire.\n\nSu 2G est disativadu in custu dispositivu, su chi podet cumpromìtere sa connetividade tua. Bae a Cunfiguratziones e ativa \"Permite 2G\" pro sighire.</string>
     <string name="incall_error_satellite_enabled">Pro fàghere una mutida, in antis serra sa connessione satellitare.</string>

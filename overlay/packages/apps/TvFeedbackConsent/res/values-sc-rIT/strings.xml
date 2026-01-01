@@ -16,7 +16,11 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="feedback_system_logs_title_text">Include totu is registros de su dispositivu (sistema e aplicatziones)</string>
+    <string name="submit_feedback">Imbia</string>
+    <string name="cancel_feedback">Annulla</string>
     <string name="feedback_view_system_logs_button_text">Càstia is registros de sistema</string>
     <string name="feedback_view_logs_dialog_title">Registros de sistema</string>
     <string name="loading">Carrighende</string>
+    <string name="feedback_submitted_notification">Gràtzias de s\'opinione</string>
+    <string name="feedback_cancelled_notification">Cummentu annulladu</string>
 </resources>

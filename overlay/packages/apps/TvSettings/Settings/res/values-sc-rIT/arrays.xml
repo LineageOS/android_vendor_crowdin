@@ -14,6 +14,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="bounce_key_timeout_entries">
+        <item>0,5 segundos</item>
+        <item>1 segundu</item>
+        <item>2 segundos</item>
+    </string-array>
+    <string-array name="a11y_delay_before_repeat_entries">
+        <item>Default</item>
+        <item>3 segundos</item>
+        <item>5 segundos</item>
+    </string-array>
     <string-array name="a11y_repeat_rate_entries">
         <item>Default</item>
         <item>Lentu</item>

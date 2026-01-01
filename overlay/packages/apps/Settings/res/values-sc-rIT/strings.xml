@@ -20,6 +20,10 @@
     <string name="allow">Permite</string>
     <string name="deny">Nega</string>
     <string name="device_info_default">Disconnotu</string>
+    <string name="show_dev_countdown">{count, plural,
+      =1      {T\'ammancat # passu a s\'ativatzione de sa cunfiguratzione de isvilupu.}
+      other   {T\'ammancant # passos a s\'ativatzione de sa cunfiguratzione de isvilupu.}
+    }</string>
     <string name="show_dev_on">Immoe ses in s\'iscuadra de isvilupu!</string>
     <string name="show_dev_already">Non b\'at bìsòngiu, ses giai in s\'isvilupu.</string>
     <string name="header_category_system">Sistema</string>
@@ -30,14 +34,24 @@
     <string name="radioInfo_data_connected">Collegadu</string>
     <string name="radioInfo_data_suspended">Suspesu</string>
     <string name="radioInfo_unknown">Disconnotu</string>
+    <string name="qr_code_content_description">Còdighe QR</string>
+    <string name="stay_awake_on_lockscreen_summary">Serra su telèfonu e iscurre in artu in s\'ischermu printzipale pro sighire a impreare s\'aplicatzione o abeta una pariga de segundos chi si blochet s\'ischermu. Is aplicatziones de giogos e vìdeos ant a sighire in automàticu.</string>
+    <string name="sleep_on_fold_summary">S\'ischermu frontale s\'istudat e si blocat comente serras su dispositivu</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_is_discoverable">Visìbile pro totu is dispositivos Bluetooth acanta (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
     <string name="bluetooth_is_discoverable_always">Visìbile pro totu is dispositivos Bluetooth acanta</string>
     <string name="bluetooth_not_visible_to_other_devices">Non visìbile pro àteros dispositivos Bluetooth</string>
     <string name="bluetooth_only_visible_to_paired_devices">Visìbile isceti pro dispositivos assotziados</string>
     <string name="bluetooth_rename_button">Torra a numenare</string>
+    <string name="bluetooth_screen_auto_on_title">Ativa in automàticu cras</string>
+    <string name="bluetooth_screen_auto_on_summary">Si disativas su Bluetooth, s\'at a torrare a ativare s\'incràs</string>
+    <string name="bluetooth_hearing_device_settings_title">Cunfiguratziones de dispositivos esternos de àudio</string>
+    <string name="bluetooth_hearing_device_settings_summary">Curtzadòrgiu, cumpatibilidade de dispositivos àudio</string>
+    <string name="bluetooth_hearing_aids_presets">Precunfiguratzione</string>
     <string name="bluetooth_hearing_aids_presets_empty_list_message">Non tenes precunfiguratziones programmadas dae s\'audiologu</string>
+    <string name="bluetooth_hearing_aids_presets_error">Non faghet a atualizare sa precunfiguratzione</string>
     <string name="bluetooth_notification_title">Notìficas</string>
+    <string name="bluetooth_audio_codec_default_selection">Imprea sa seletzione de sistema (predefinida)</string>
     <string name="bluetooth_device">Dispositivu Bluetooth chene nùmene</string>
     <string name="progress_scanning">Chirchende</string>
     <string name="bluetooth_no_devices_found">Perunu dispositivu Bluetooth agatadu acanta.</string>
@@ -49,17 +63,30 @@
     <string name="bluetooth_connection_permission_request">"Rechesta de connessione Bluetooth"</string>
     <string name="bluetooth_phonebook_request">"Rechesta de atzessu a sa rubrica de su telèfonu"</string>
     <string name="bluetooth_disable_hw_offload_dialog_cancel">Annulla</string>
+    <string name="bluetooth_leaudio_broadcast_ui">Ativa sa previsualizatzione IU de Bluetooth LE Audio Broadcast</string>
+    <string name="bluetooth_leaudio_broadcast_ui_summary">Ativat sa previsualizatzione de IU de cumpartzidura de s\'àudio LE
+        includende sa cumpartzidura de àudio personale e sa trasmissione privada</string>
     <string name="proxy_error_invalid_host">Su nùmene de retzidore chi as postu no est vàlidu.</string>
     <string name="proxy_error_invalid_exclusion_list">Sa lista de esclusione chi as postu no est formatada comente si depet. Iscrie una lista a separatzione a vìrgulas de domìnios esclùdidos.</string>
     <string name="proxy_error_empty_host_set_port">Su campu de sa porta depet èssere bòidu si su campu de su retzidore est bòidu.</string>
     <string name="proxy_error_invalid_port">Sa porta chi as postu no est vàlida.</string>
     <string name="proxy_warning_limited_support">Su serbidore intermediàriu HTTP est impreadu dae su navigadore ma non ddu podent impreare àteras aplicatziones.</string>
     <string name="proxy_url_title">"PAC URL: "</string>
+    <string name="suggested_locales_title">Cussigiadas</string>
+    <string name="all_supported_locales_regions_title">Totu is regiones</string>
+    <string name="all_supported_numbering_system_title">Totu is sistemas numèricos</string>
     <string name="desc_introduction_of_language_picker">Su dispositivu, is aplicatziones, is sitos tuos impreant sa prima limba cumpatìbile in sa lista de is limbas preferidas.\n\nMeda aplicatziones ant puru a impreare sa regione de sa limba preferida tua pro formatare datas, nùmeros e unidades. Pro cambiare sa regione, agiunghe una limba, pustis sèbera sa regione preferida tua.</string>
     <string name="locale_search_menu">Chirca</string>
+    <string name="country_selection_title">Preferèntzia de regione</string>
+    <string name="search_language_hint">Iscrie su nòmine de sa limba</string>
+    <string name="more_language_settings_category">Àteras cunfiguratziones de limba</string>
     <string name="terms_of_address_title">Sèbera comente boles chi ti mutint.</string>
     <string name="terms_of_address_summary">Su dispositivu tuo podet personalizare sa manera de ti mutire.</string>
     <string name="terms_of_address_intro_title">Custa cunfiguratzione permitit a sa majoria de is aplicatziones de sistema de personalizare sa manera de ti mutire. No est impreadu dae is aplicatziones chi installas tue.</string>
+    <string name="dlg_remove_locales_title">{count, plural,
+        =1      {Boles cantzellare sa limba seletzionada?}
+        other   {Boles cantzellare is limbas seletzionadas?}
+        }</string>
     <string name="activity_picker_label">Sèbera atividade</string>
     <string name="cancel">Annulla</string>
     <string name="okay">AB</string>
@@ -72,14 +99,27 @@
     <string name="airplane_mode">Modalidade aèreu</string>
     <string name="wireless_networks_settings_title">Chena filos e retes</string>
     <string name="roaming">Àteros gestores</string>
+    <string name="date_time_auto">Data e ora automàticas</string>
+    <string name="date_time_auto_summary">Cunfigura in automàticu impreende su sinnale de rete e chene filos</string>
+    <string name="zone_auto_title">Fusu oràriu automàticu</string>
+    <string name="zone_auto_title_summary">Cunfigura in automàticu in base a is retes mòbiles acanta</string>
+    <string name="auto_zone_requires_location_summary">Cunfigura in automàticu impreende sa positzione de su dispositivu, cando a disponimentu</string>
     <string name="date_time_24hour">Imprea su formadu 24 oras</string>
     <string name="date_time_set_time_title">Ora</string>
     <string name="date_time_set_timezone_title">Fusu oràriu</string>
     <string name="date_time_set_timezone">Seletziona su fusu oràriu</string>
     <string name="date_time_set_date_title">Data</string>
+    <string name="time_feedback_category_title">Opinione</string>
+    <string name="keywords_time_feedback_category">opinione, cummentu, feedback, errore, ora, zona, fusu oràriu</string>
+    <string name="time_feedback_title">Imbia cummentos in pitzus de su tempus</string>
+    <string name="keywords_time_feedback">opinione, cummentu, feedback, errore, ora, zona, fusu oràriu</string>
     <string name="owner_info_settings_summary">Perunu</string>
     <string name="owner_info_settings_edit_text_hint">A esèmpiu, s\'Android de Frantziscu.</string>
     <string name="location_settings_title">Positzione</string>
+    <string name="location_settings_summary_location_on">{count, plural,
+      =1      {Ativu / Un\'aplicatzione tenet atzessu a sa positzione}
+      other   {Ativu / # aplicatziones tenent atzessu a sa positzione}
+    }</string>
     <string name="location_settings_loading_app_permission_stats">Carrighende\u2026</string>
     <string name="location_settings_footer_general">        Is aplicatziones cun is permissos de dispositivos a curtzu podent determinare sa
         positzione relativa de is dispositivos connètidos.
@@ -96,11 +136,16 @@
     <string name="security_settings_fingerprint">Imprenta de is pòddighes</string>
     <string name="security_settings_fingerprint_preference_title">Imprenta de is pòddighes</string>
     <string name="fingerprint_add_title">Agiunghe un\'imprenta pòddighe</string>
+    <string name="security_settings_fingerprint_preference_summary">{count, plural,
+      =1      {Imprenta agiunta}
+      other   {# imprentas agiuntas}
+    }</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Imprea s\'imprenta tua de pòddighes pro isblocare su telèfono o aprovare is còmporas.\n\nNota: non podes impreare s\'imprenta digitale pro isblocare custu dispositivu. Pro àteras informatziones, cuntata a s\'amministradore de s\'organizatzione tua.</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Annulla</string>
     <string name="setup_fingerprint_enroll_skip_title">Boles brincare s\'imprenta digitale?</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Pro sa configuratzione de s\'imprenta de pòddighes nce bolet isceti unu minutu o duos. Si dda brincas, podes agiùnghere s\'imprenta tua prus a tardu in sa cunfiguratzione.</string>
     <string name="mandatory_biometrics_prompt_description">Su Controllu de identitade est allutu e rechedet unu controllu biomètricu</string>
+    <string name="go_to_settings">Bae a sa Cunfiguratzione</string>
     <string name="identity_check_lockout_error_title">Su Controllu de identidade est allutu e non podet verificare s\'identitade tua</string>
     <string name="identity_check_lockout_error_description_1">Sos controllos biomètricos ant fallidu tropu bortas. Bloca e isbloca su dispositivu tuo pro torrare a proare.</string>
     <string name="identity_check_lockout_error_two_factor_auth_description_1">Is controllos biomètricos ant fallidu tropu bortas. Torra a proare.</string>
@@ -108,6 +153,7 @@
     <string name="identity_check_general_error_title">Controllu biomètricu rechestu pro sighire</string>
     <string name="identity_check_general_error_description_1">Su Controllu de identidade est allutu e rechedet unu controllu biomètricu, però su sensore de cara o de imprentas no est a disponimentu.\n<ul><li>Controlla chi sa càmera siat alluta e torra a proare</li>\n<li>Podes istudare su Controllu de identidade dae su contu de Google tuo</li></ul></string>
     <string name="identity_check_biometric_error_cancel">Annulla</string>
+    <string name="go_to_identity_check">Bae a su controllu de identidade</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Sighi</string>
     <string name="security_settings_remoteauth_enroll_introduction_more">Àteru</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">Annulla</string>
@@ -122,13 +168,52 @@
     <string name="security_settings_fingerprint_enroll_finish_title">Imprenta de pòddighe agiunta!</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message">As seberadu de impreare s\'imprenta de pòddighe comente a manera pro isblocare su telèfonu tuo. Si brincas immoe, t\'at a tocare de ddu cunfigurare luego. Sa cunfiguratzione at a istentare prus o mancu unu minutu.</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Oops, cussu no est su sensore</string>
+    <string name="security_settings_screen_off_unlock_udfps_title">Isblocu cun s\'imprenta cando s\'ischermu est istudadu</string>
+    <string name="security_settings_screen_off_unlock_udfps_description">Imprea s\'Isblocu cun s\'imprenta finas cando s\'ischermu siat istudadu</string>
+    <string name="security_settings_screen_off_unlock_udfps_keywords">Ischermu istudadu, isblocu</string>
     <string name="security_header">Seguresa</string>
     <string name="work_profile_category_header">Profilu de traballu</string>
+    <string name="private_space_biometric_unlock_title">Isblocu cun sa cara e cun s\'imprenta pro s\'Ispàtziu privadu</string>
+    <string name="private_space_fingerprint_enroll_introduction_title">Cunfigura s\'iscblocu cun s\'imprenta de pòddighe pro s\'Ispàtziu privadu</string>
+    <string name="private_space_fingerprint_enroll_introduction_message">Imprea s\'imprenta pro isblocare s\'ispàtziu privadu tuo o pro averguare chi ses tue, comente cando t\'identìficas in un\'aplicatzione o aprovas una còmpora</string>
     <string name="private_space_fingerprint_enroll_introduction_footer_message">S\'ispàtziu riservadu tuo podet èssere isblocadu cando non boles, pro esèmpiu si una persone acùrtziat su telèfonu a su pòddighe tuo.</string>
+    <string name="private_space_fingerprint_enroll_finish_message">Imprea s\'imprenta pro isblocare s\'ispàtziu privadu tuo o pro aprovare còmporas</string>
+    <string name="private_space_face_enroll_introduction_title">Cunfigura s\'isblocu cun sa cara pro s\'Ispàtziu privadu</string>
+    <string name="private_space_face_enroll_introduction_message">Imprea sa cara pro isblocare s\'ispàtziu privadu tuo o pro averguare chi ses tue, comente cando t\'identìficas in un\'aplicatzione o aprovas una còmpora</string>
+    <string name="private_space_face_enroll_introduction_info_looking">Castiare su telèfonu podet isblocare s\'ispàtziu privadu puru si non boles. S\'ispàtziu privadu tuo podet èssere isblocadu puru dae una persone chi t\'assimìgiat meda, unu parente uguale, o una persone chi tenet su dispositivu a in antis de sa cara tua.</string>
+    <string name="private_space_face_enroll_introduction_info_less_secure">S\'isblocu de s\'ispàtziu privadu cun sa cara podet èssere unu mètodu prus pagu seguru chi una secuèntzia, unu PIN o una crae chi siant fortes</string>
+    <string name="private_space_face_settings_require_attention_details">Pro isblocare s\'ispàtziu privadu, depes tènnere is ogros abertos. Pro otènnere is mègius resurtados, boga is ullieras de sole</string>
+    <string name="private_space_face_settings_footer">Imprea sa cara pro isblocare s\'ispàtziu privadu tuo.\n\Regorda:\nPodes cunfigurare isceti una cara a sa borta. Pro agiùnghere un\'àtera cara, cantzella cussa atuale.\n\nCastiare a su telèfonu ddu podet isblocare puru si non boles.\n\nS\'ispàtziu privadu tuo podet èssere isblocadu dae àtere si calicunu ti ponet su dispositivu a in antis de sa cara tua.\n\nS\'ispàtziu privadu tuo podet èssere isblocadu puru dae una persone chi t\'assimìgiat meda, comente unu parente uguale.</string>
+    <string name="private_space_face_settings_require_confirmation_details">Cando impreas s\'isblocu cun sa cara in is aplicatziones, pedi semper unu passu de cunfirma</string>
+    <string name="private_space_new_lock_message">Depes insertare su PIN, sa secuèntzia o sa crae de su dispositivu in s\'ischermu chi sighit</string>
+    <string name="private_space_auto_lock_after_inactivity">5 min a pustis de s\'istudada de ischermu</string>
+    <string name="private_space_auto_lock_after_device_restart">Isceti a pustis de riaviare su dispositivu</string>
+    <string name="private_space_hide_page_title">Cua s\'ispàtziu privadu</string>
+    <string name="private_space_hide_when_locked">Cua s\'ispàtziu privadu cando est blocadu</string>
+    <string name="private_space_search_description">In sa barra de chirca, iscrie «ispàtziu privadu»</string>
+    <string name="private_space_tap_tile_description">Toca <b>Ispàtziu privadu</b></string>
+    <string name="private_space_hide_dialog_title">S\'ispàtziu privadu at a èssere cuadu sa borta imbeniente chi ddu bloches</string>
+    <string name="private_space_hide_dialog_message">Pro atzèdere a s\'ispàtziu privadu, iscrie «ispàtziu privadu» in sa barra de chirca dae sa lista de aplicatziones.</string>
     <string name="private_space_category_system">Sistema</string>
+    <string name="private_space_delete_summary">S\'ispàtziu privadu tuo at a èssere cantzelladu pro semper dae su dispositivu. \n\nTotu is aplicatziones in s\'ispàtziu tuo e is datos assotziados ant a èssere cantzellados dae sa <b>memòria interna</b> de su telèfonu.</string>
     <string name="no_device_lock_cancel">Annulla</string>
     <string name="private_space_cancel_label">Annulla</string>
+    <string name="private_space_separate_account_text"><b>Crea unu contu de Google pro s\'ispàtziu</b>\S\'impreu de unu contu ispetzìficu t\'at a agiudare a impedire chi is archìvios sincronizados, is fotografias e is messàgios de posta eletrònica aparessant in foras de s\'ispàtziu</string>
+    <string name="private_space_install_apps_text"><b>Installatzione de aplicatziones</b>\nInstalla is aplicatziones chi boles mantènnere privadas in s\'ispàtziu tuo</string>
+    <string name="private_space_apps_stopped_text"><b>Firmada de aplicatziones cando blocas s\'ispàtziu</b>\nCando blocas s\'ispàtziu tuo, is aplicatziones s\'ant a firmare e non nd\'as retzire notìficas</string>
+    <string name="private_space_apps_permission_text">Is ispàtzios privados non sunt adatos a is aplicatziones chi traballant in segundu pranu o chi imbiant notìficas crìticas, comente is aplicatziones mèdicas. Custu ca is notìficas e s\'atividade in segundu pranu sunt blocadas cando s\'ispàtziu tuo est blocadu.\n\nIs aplicatziones in s\'ispàtziu privadu tuo no aparint in su gestore de permissos, in su pannellu de cunfiguratzione de riservadesa, e in àteras cunfiguratziones, cando s\'ispàtziu privadu tuo est blocadu.\n\nS\'ispàtziu privadu tuo non podet èssere mòvidu a un\'àteru dispositivu. Depes cunfigurare un\'àteru ispàtziu privadu si ddu boles impreare in un\'àteru dispositivu.\n\nChie connetet su dispositivu tuo a un\'elaboradore, o installet aplicatziones dannosas in su dispositivu tuo, podet atzèdere in s\'ispàtziu privadu tuo.</string>
+    <string name="private_space_settings_footer_text">Is ispàtzios privados non sunt adatos a is aplicatziones chi traballant in segundu pranu o chi imbiant notìficas crìticas, comente is aplicatziones mèdicas. Custu ca is notìficas e s\'atividade in segundu pranu sunt blocadas cando s\'ispàtziu tuo est blocadu.\n\nIs aplicatziones in s\'ispàtziu privadu tuo no aparint in su gestore de permissos, in su pannellu de cunfiguratzione de riservadesa, e in àteras cunfiguratziones, cando s\'ispàtziu privadu tuo est blocadu.\n\nS\'ispàtziu privadu tuo non podet èssere recuperadu in un\'àteru dispositivu. Depes cunfigurare un\'àteru ispàtziu privadu si ddu boles impreare in un\'àteru dispositivu.\n\nChie connetet su dispositivu tuo a unu computer, o installet aplicatziones dannosas in su dispositivu tuo, podet atzèdere in s\'ispàtziu privadu tuo.</string>
+    <string name="private_space_learn_more_text">Informatziones subra ispàtzios privados</string>
+    <string name="private_space_exit_label">Essi</string>
+    <string name="private_space_error_description">S\'ispàtziu privadu no est a disponimentu.\nBide is càusas possìbiles</string>
+    <string name="private_space_error_causes_text">Mustra is càusas possìbiles</string>
+    <string name="private_space_lockscreen_summary">Podes cunfigurare unu blocu nou pro s\'ispàtziu privadu, o impreare su pròpiu blocu chi impreas pro isblocare su dispositivu</string>
+    <string name="private_space_wait_screen_title">Abeta unu seg\u2026</string>
     <string name="private_space_continue_login_label">Sighi</string>
+    <string name="private_space_category_lock">Bloca</string>
+    <string name="private_space_confirm_your_pattern_header">Cunfirma sa secuèntzia pro s\'ispàtziu privadu</string>
+    <string name="private_space_confirm_your_pin_header">Inserta torra su PIN de s\'ispàtziu privadu</string>
+    <string name="private_space_confirm_your_password_header">Inserta torra sa crae de s\'ispàtziu privadu</string>
     <string name="fingerprint_intro_error_max">As agiuntu su nùmeru màssimu de imprentas</string>
     <string name="fingerprint_intro_error_unknown">Non podes agiùnghere àteras imprentas</string>
     <string name="fingerprint_delete_title">Cantzella \'<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>\'</string>
@@ -149,21 +234,102 @@
     <string name="unlock_set_unlock_mode_pin">PIN</string>
     <string name="unlock_set_unlock_mode_password">Crae</string>
     <string name="unlock_disable_frp_warning_content_unknown">"Is funtzionalidades de sa protetzione de su dispositivu no ant a funtzionare chene su blocu de ischermu tuo."</string>
+    <string name="unlock_disable_frp_warning_content_authbound_keys">"Su blocu de ischermu tuo at a èssere bogadu.<xliff:g id="empty_line">\n\n</xliff:g>Su pagamentu cun tocu no at a èssere a disponimentu.<xliff:g id="empty_line">\n\n</xliff:g>Su portafòlliu, is pagamentos e àteras aplicatziones chi rechedent s'autenticatzione podet èssere chi no ant a funtzionare bene."</string>
+    <string name="unlock_disable_frp_warning_content_fingerprint_authbound_keys">"Su blocu de ischermu e s'Isblocu cun imprenta ant a èssere bogados.<xliff:g id="empty_line">\n\n</xliff:g>Su pagamentu cun tocu no at a èssere a disponimentu.<xliff:g id="empty_line">\n\n</xliff:g>Su portafòlliu, is pagamentos e àteras aplicatziones chi rechedent s'autenticatzione podet èssere chi no ant a funtzionare bene."</string>
+    <string name="unlock_disable_frp_warning_content_face_authbound_keys">"Su blocu de ischermu e s'Isblocu cun cara ant a èssere bogados.<xliff:g id="empty_line">\n\n</xliff:g>Su pagamentu cun tocu no at a èssere a disponimentu.<xliff:g id="empty_line">\n\n</xliff:g>Su portafòlliu, is pagamentos e àteras aplicatziones chi rechedent s'autenticatzione podet èssere chi no ant a funtzionare bene."</string>
+    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys">"Su blocu de ischermu e s'Isblocu cun cara o cun imprenta ant a èssere bogados.<xliff:g id="empty_line">\n\n</xliff:g>Su pagamentu cun tocu no at a èssere a disponimentu.<xliff:g id="empty_line">\n\n</xliff:g>Su portafòlliu, is pagamentos e àteras aplicatziones chi rechedent s'autenticatzione podet èssere chi no ant a funtzionare bene."</string>
+    <string name="lockpassword_password_too_short">{count, plural,
+      =1      {Depet cuntènnere a su mancu 1 caràtere}
+      other   {Depet cuntènnere a su mancu # caràteres}
+    }</string>
+    <string name="lockpassword_password_too_short_all_numeric">        {count, plural,
+        =1    {Si impreat isceti nùmeros, depet tènnere a su mancu una tzifra}
+        other {Si impreat isceti nùmeros, depet tènnere a su mancu # tzifras}
+        }
+    </string>
+    <string name="lockpassword_pin_too_short">{count, plural,
+      =1      {Su PIN depet cuntènnere a su mancu unu nùmeru}
+      other   {Su PIN depet cuntènnere a su mancu # nùmeros}
+    }</string>
+    <string name="lockpassword_password_too_long">{count, plural,
+      =1      {Depet tènnere prus pagu de unu caràtere}
+      other   {Depet tènnere prus pagu de # caràteres}
+    }</string>
+    <string name="lockpassword_pin_too_long">{count, plural,
+        =1      {Depet tènnere prus pagu de una tzifra}
+        other   {Depet tènnere prus pagu de # tzifras}
+        }</string>
+    <string name="lockpassword_password_requires_letters">{count, plural,
+        =1      {Depet tènnere a su mancu una lìtera}
+        other   {Depet tènnere a su mancu # lìteras}
+        }</string>
+    <string name="lockpassword_password_requires_lowercase">{count, plural,
+        =1      {Depet tènnere a su mancu una lìtera minùscula}
+        other   {Depet tènnere a su mancu # lìteras minùsculas}
+        }</string>
+    <string name="lockpassword_password_requires_uppercase">{count, plural,
+        =1      {Depet tènnere a su mancu una lìtera majùscula}
+        other   {Depet tènnere a su mancu # lìteras majùsculas}
+        }</string>
+    <string name="lockpassword_password_requires_numeric">{count, plural,
+        =1      {Depet tènnere a su mancu una tzifra numèrica}
+        other   {Depet tènnere a su mancu # tzifras numèricas}
+        }</string>
+    <string name="lockpassword_password_requires_symbols">{count, plural,
+        =1      {Depet tènnere a su mancu unu sìmbulu ispetziale}
+        other   {Depet tènnere a su mancu # sìmbulos ispetziales}
+        }</string>
+    <string name="lockpassword_password_requires_nonletter">{count, plural,
+        =1      {Depet tènnere a su mancu unu caràtere chi non siat una lìtera}
+        other   {Depet tènnere a su mancu # caràteres chi non siant una lìtera}
+        }</string>
+    <string name="lockpassword_password_requires_nonnumerical">{count, plural,
+        =1      {Depet tènnere a su mancu unu caràtere chi non siat unu nùmeru}
+        other   {Depet tènnere a su mancu # caràteres chi non siant unu nùmeru}
+        }</string>
     <string name="lockpassword_password_recently_used">S\'amministradore de su dispositivu non permitet de impreare
      una crae reghente</string>
+    <string name="lockpassword_password_no_sequential_characters">No est permìtida una secuèntzia artziende, calende o repetida de caràteres</string>
     <string name="lockpattern_tutorial_cancel_label">Annulla</string>
     <string name="lockpattern_tutorial_continue_label">Imbeniente</string>
     <string name="manage_device_admin">Aplicatziones pro amministrare su dispositivu</string>
+    <string name="number_of_device_admins">{count, plural,
+        =1      {Un\'aplicatzione ativa}
+        other   {# aplicatziones ativas}
+        }</string>
     <string name="disabled_because_no_backup_security">Pro dd\'impreare, imposta unu blocu de ischermu</string>
     <string name="manage_trust_agents_summary">Perunu</string>
+    <string name="manage_trust_agents_summary_on">{count, plural,
+      =1      {1 agente fidadu ativu}
+      other   {# agentes fidados ativos}
+    }</string>
     <string name="bluetooth_settings">Bluetooth</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
+    <string name="bluetooth_pairing_confirmation_title">Avèrgua is còdighes de assòtziu</string>
+    <string name="bluetooth_pairing_confirmation_msg">Controlla chi custu còdighe cointzidat cun cussu de <xliff:g id="device_name" example="device_name">%1$s</xliff:g>.\n\nPro seguresa, no insertes custu còdighe in nissunu logu.</string>
     <string name="bluetooth_connecting_error_message">No at fatu a si connètere a <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_preference_found_media_devices">Dispositivos a disponimentu</string>
     <string name="bluetooth_device_context_connect">Connete</string>
     <string name="bluetooth_device_context_disconnect">Disconnete</string>
     <string name="bluetooth_device_context_pair_connect">Assòtzia e connete</string>
+    <string name="bluetooth_empty_list_bluetooth_off_auto_on_available">Cando su Bluetooth est ativu, su dispositivu tuo si podet comunicare cun àteros dispositivos Bluetooth. Funtzionalidades comente sa cumpartzidura lestra (Quick Share) o Agata su dispositivu miu (Find My Device) impreant su Bluetooth.</string>
+    <string name="bluetooth_scanning_on_info_message_auto_on_available">Cando su Bluetooth est ativu, su dispositivu podet comunicare cun àteros dispositivos a curtzu. Funtzionalidades comente sa Cumpartzidura lestra e Agata su dispositivu impreant su Bluetooth.\n\nIs aplicatziones e is servìtzios podent ancora iscansionare is dispositivos a curtzu in cada momentu, fintzas cando su Bluetooth est istudadu. Custu si podet impreare, pro nàrrere, pro megiorare is funtzionalidades e servìtzios basados subra de sa positzione. Ddu podes cambiare in sa Cunfiguratzione de iscansione de Bluetooth.</string>
+    <string name="bluetooth_key_missing_title"><xliff:g id="device_name">%1$s</xliff:g> non connètidu</string>
+    <string name="bluetooth_key_missing_message">Pro sa seguresa tua, iscaresse custu dispositivu e torra·ddu a assotziare</string>
     <string name="bluetooth_key_missing_cancel">Annulla</string>
+    <string name="bluetooth_device_more_settings_preference_summary">Atualizatziones firmware, informatziones e àteru</string>
+    <string name="external_display_settings_title">Ischermu esternu</string>
+    <string name="builtin_display_settings_category">Ischermu integradu</string>
+    <string name="external_display_use_title">Imprea s\'ischermu esternu</string>
+    <string name="external_display_resolution_settings_title">Risolutzione de s\'ischermu</string>
+    <string name="external_display_not_found">S\'ischermu esternu est disconnètidu</string>
+    <string name="external_display_rotation">Rotatzione</string>
+    <string name="external_display_rotation_90">90°</string>
+    <string name="external_display_rotation_180">180°</string>
+    <string name="external_display_rotation_270">270°</string>
+    <string name="external_display_change_resolution_footer_title">Sa modìfica de sa rotatzione o de sa risolutzione podet firmare is aplicatziones in esecutzione</string>
+    <string name="external_display_not_found_footer_title">Su dispositivu depet èssere connètidu a un\'ischermu esternu pro pòdere fàghere de ispricu de s\'ischermu printzipale</string>
+    <string name="external_display_topology_hint">Mantene e traga pro torrare dispònnere is ischermos.</string>
     <string name="wifi_display_settings_title">Trasmissione</string>
     <string name="wifi_display_enable_menu_item">Ativa s\'ischermu chene filos</string>
     <string name="wifi_display_no_devices_found">Perunu dispositivu acanta agatadu.</string>
@@ -181,7 +347,11 @@
     <string name="wifi_add_network">Agiunghe rete</string>
     <string name="wifi_empty_list_wifi_off">Pro bìdere retes a disponimentu, ativa su Wi\u2011Fi.</string>
     <string name="wifi_empty_list_user_restricted">Non tenes is permissos pro cambiare sa rete Wi\u2011Fi.</string>
+    <string name="wifi_settings_warning_wep_network">Custa rete impreat unu protocollu de seguresa betzu tzerriadu WEP, chi est prus pagu seguru</string>
+    <string name="wifi_settings_wep_networks_summary_blocked_by_carrier">S\u0027operadore tuo non permitit sa connessione a custa rete pro ite impreat unu protocollu de seguresa betzu tzerriadu WEP, chi est prus pagu seguru</string>
     <string name="wifi_settings_ssid_block_button_close">Serra</string>
+    <string name="wifi_settings_wep_networks_disconnect_title">Boles revocare is permissos a is retes WEP?</string>
+    <string name="wifi_settings_wep_networks_disconnect_summary">Su dispositivu est connètidu a una rete WEP. Si rèvocas is permissos a custas retes, ti nd\u0027as a disconnètere.</string>
     <string name="wifi_show_advanced">Sèberos avantzados</string>
     <string name="wifi_ssid">Nùmene de sa rete</string>
     <string name="wifi_ssid_hint">Inserta sa SSID</string>
@@ -203,6 +373,8 @@
     <string name="wifi_show_password">Mustra crae</string>
     <string name="wifi_ap_choose_2G">Banda de 2.4 GHz</string>
     <string name="wifi_ip_settings">Impostatziones IP</string>
+    <string name="wifi_dpp_check_connection_no_matched_ssid">Custa rete Wi\u2011Fi no est a disponimentu immoe</string>
+    <string name="wifi_dpp_check_connection_no_matched_security">Nch\'at unu problema cun custu còdighe QR. Proa a ti connètere in un\'àtera manera.</string>
     <string name="wifi_unchanged">(non cambiadu)</string>
     <string name="wifi_scan_always_confirm_allow">Permite</string>
     <string name="wifi_scan_always_confirm_deny">Nega</string>
@@ -211,6 +383,23 @@
     <string name="wifi_save">Sarva</string>
     <string name="wifi_failed_save_message">No at fatu a sarvare sa rete</string>
     <string name="wifi_cancel">Annulla</string>
+    <string name="wifi_saved_access_points_summary">{count, plural,
+        one {}=1      {Una rete}
+        other   {# retes}
+        }</string>
+    <string name="wifi_saved_passpoint_access_points_summary">{count, plural,
+        =1      {Una sutiscritzione}
+        other   {# sutiscritziones}
+        }</string>
+    <string name="wifi_saved_all_access_points_summary">{count, plural,
+        =1      {Una rete e sutiscritzione}
+        other   {# retes e sutiscritziones}
+        }</string>
+    <string name="wifi_certificate_summary_Certificates"><xliff:g id="number" example="2">%d</xliff:g> tzertificados</string>
+    <string name="wifi_certificate_summary_system">Tzertificadu de su sistema</string>
+    <string name="wifi_certificate_summary_pinning">Blocu de is tzertificados</string>
+    <string name="wep_network_less_secure_warning_title">Custa rete impreat unu protocollu de seguresa betzu tzerriadu WEP, chi est prus pagu seguru</string>
+    <string name="server_name_title">Nòmine de su serbidore</string>
     <string name="wifi_network_prefix_length">Longària de su prefissu de rete</string>
     <string name="wifi_p2p_settings_title">Wi\u2011Fi Direct</string>
     <string name="wifi_p2p_menu_search">Chirca dispositivos</string>
@@ -239,9 +428,22 @@
     <string name="accessibility_personal_account_title">Contu personale - <xliff:g id="managed_by" example="Email provider">%s</xliff:g></string>
     <string name="search_settings">Chirca</string>
     <string name="display_settings">Ischermu</string>
+    <string name="screen_resolution_option_full">Risolutzione màssima</string>
+    <string name="screen_resolution_footer">Sa risolutzione màssima impreat prus bateria. Podet èssere chi tzertas aplicatziones si depant torrare a aviare si modificas sa risolutzione.</string>
     <string name="night_display_auto_mode_never">Perunu</string>
     <string name="dark_ui_auto_mode_never">Perunu</string>
     <string name="dark_ui_status_title">Istadu</string>
+    <string name="dark_ui_summary_off_auto_mode_modes">S\'at a ativare cando cumintzet <xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
+    <string name="dark_ui_summary_on_auto_mode_modes">S\'at a disativare cando agabbet <xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
+    <string name="dark_ui_modes_footer_summary">        {count, plural, offset:2
+            =0    {Is modalidades podent ativare puru su tema iscuru}
+            =1    {{mode_1} ativat puru su tema iscuru}
+            =2    {{mode_1} e {mode_2} ativant puru su tema iscuru}
+            =3    {{mode_1}, {mode_2} e {mode_3} ativant puru su tema iscuru}
+            other {{mode_1}, {mode_2} e àteras # ativant puru su tema iscuru}
+        }
+    </string>
+    <string name="dark_ui_modes_footer_action">Cunfiguratzione de is modalidades</string>
     <string name="screen_timeout_summary">A pustis de <xliff:g id="timeout_description">%1$s</xliff:g> de inatividade</string>
     <string name="screen_timeout_summary_not_set">No impostadu</string>
     <string name="wallpaper_settings_title">Immàgine de isfundu</string>
@@ -261,6 +463,11 @@
     <string name="sim_change_succeeded">PIN de sa SIM cambiadu</string>
     <string name="sim_enter_ok">AB</string>
     <string name="sim_enter_cancel">Annulla</string>
+    <string name="sim_preferred_message">Immoe <xliff:g id="new_sim">%1$s</xliff:g> est sa SIM primària</string>
+    <string name="wrong_pin_code">{count, plural,
+        =1      {Su PIN de sa SIM no est curretu. T\'abarrat unu tentativu prima de dèpere cuntatare su frunidore pro chi isblochet su dispositivu.}
+        other   {Su PIN de sa SIM no est curretu. T\'abarrant # tentativos prima de dèpere cuntatare su frunidore pro chi isblochet su dispositivu.}
+        }</string>
     <string name="pin_failed">Operatzione de su PIN de sa SIM faddida!</string>
     <string name="system_update_settings_list_item_title">Agiornamentos de sistema</string>
     <string name="firmware_version">Versione Android</string>
@@ -269,14 +476,42 @@
     <string name="device_info_not_available">No a disponimentu</string>
     <string name="storage_settings">Archiviatzione</string>
     <string name="storage_settings_title">Impostatziones de archiviatzione</string>
+    <string name="status_eid">E​ID</string>
+    <string name="eid_multi_sim">E​ID (allogu sim <xliff:g id="eid_slot_id">%1$d</xliff:g>)</string>
     <string name="status_imei">IMEI</string>
     <string name="status_imei_sv">IMEI SV</string>
+    <string name="status_up_time">Tempus dae s\'aviu</string>
     <string name="battery_cycle_count_not_available">No a disponimentu</string>
     <string name="storage_unmount_failure">Non faghet a espèllere in manera segura <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
+    <string name="storage_internal_format_details">Podes formatare custa ischeda SD pro sarvare fotografias, vìdeos, mùsica,
+        e àteru e nche atzèdere dae àteros dispositivos.
+        \n\n<b>Totu is datos de custa ischeda SD s\'ant a cantzellare.</b>
+        \n\n<b>In antis de formatare</b>
+        \n\n<b>Fàghere una còpia de seguresa de is fotos &amp; àteros cuntenutos multimediales</b>
+        \nTràmuda is cuntenutos multimediales tuos in un\'archiviatzione alternativa in custu dispositivu, o a un\'elaboradore impreende unu cavu USB.
+        \n\n<b>Fàghere una còpia de seguresa de is aplicatziones</b>
+        \nTotu is aplicatziones sarvadas in custa <xliff:g id="name" example="SD card">^1</xliff:g> s\'ant a disinstallare e is datos s\'ant a cantzellare. Pro mantènnere custas aplicatziones, tramuda·ddas in un\'archiviatzione alternativa in custu dispositivu.</string>
+    <string name="storage_internal_unmount_details"><b>Cando nche tiras custa <xliff:g id="name" example="SD card">^1</xliff:g>, is aplicatziones archiviadas in ie tzessant de funtzionare, e is archìvios multimediales barigados in cue no ant a èssere a disponimentu finas a cando non nche sunt torrados a insertare.</b>
+        \n\nCusta <xliff:g id="name" example="SD card">^1</xliff:g> est formatada pro funtzionare isceti in custu dispositivu. No at a funtzionare in àteros.</string>
+    <string name="storage_internal_forget_details">Pro impreare is aplicatziones o datos chi cuntenet custa <xliff:g id="name" example="SD card">^1</xliff:g>, torra·dda a insertare.
+        \n\nSi nono, podes seberare de iscarèssere custa archiviatzione si s\'unidade no est a disponimentu.
+        \n\nSi sèberas Iscaresse·ti, totu is datos de s\'unidade s\'ant a pèrdere pro semper.
+        \n\nPodes torrare a installare is aplicatziones luego, ma is datos archiviados in custu dispositivu s\'ant a pèrdere.</string>
+    <string name="storage_os_detail_dialog_system">Custu includet su sistema operativu tuo e is archìvios chi serbint pro fàghere funtzionare bene su telèfonu tuo. Pro amparare s\'interesa issoro, non si podet atzèdere a custos archìvios. </string>
+    <string name="storage_other_files_detail_dialog_system">Custu includet sa memòria temporànea e àteros archìvios temporàneos netzessàrios dae su sistema operativu. Podet èssere chi as a bìdere comente càmbiat s\'ispàtziu de archiviatzione impreadu.</string>
     <string name="storage_system_label">Sistema</string>
     <string name="storage_wizard_format_progress_title">Formatende <xliff:g id="name" example="SD card">^1</xliff:g>\u2026</string>
+    <string name="storage_wizard_move_confirm_body">Sa tràmuda de <xliff:g id="app" example="Calculator">^1</xliff:g> e is datos assotziados a <xliff:g id="name" example="SD card">^2</xliff:g> no at a tardare meda. Finas a tando, no as a pòdere impreare s\'aplicatzione.
+        \n\nNon nche tires sa <xliff:g id="name" example="SD card">^2</xliff:g> in su mentras.</string>
+    <string name="storage_wizard_move_progress_body">Non nche tires sa <xliff:g id="name" example="SD card">^1</xliff:g> durante sa tràmuda.
+        \n\nS\'aplicatzione <xliff:g id="app" example="Calculator">^2</xliff:g> de custu dispositivu no at a èssere a disponimentu finas a su cumpletamentu de sa tràmuda.</string>
+    <string name="storage_wizard_format_confirm_v2_body">Custa <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> depet èssere formatada in antis chi potzat immagasinare aplicatziones, archìvios e elementos multimediales.
+        \n\nA dda formatare nd\'at a cantzellare su cuntentutu. Pro non nde pèrdere su cuntenutu, faghe·nde una còpia in un\'àtera <xliff:g id="name" example="SD card">^3</xliff:g> o in un\'àteru dispositivu.</string>
     <string name="storage_wizard_migrate_v2_checklist_media">Non boghes sa <xliff:g id="name" example="SD card">^1</xliff:g></string>
     <string name="storage_wizard_migrate_v2_checklist_apps">Unas cantas aplicatzionesno ant a funtzionare</string>
+    <string name="storage_wizard_slow_v2_body">Podes galu impreare custa <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>, ma podet èssere lenta.
+        \n\nPodet èssere chi is aplicatziones archiviadas in custa <xliff:g id="name" example="SD card">^2</xliff:g> non funtzionent bene, e chi is tràmudas de cuntenutu tardent meda.
+        \n\nProa a impreare un\'<xliff:g id="name" example="SD card">^3</xliff:g> prus lestra, o imprea custa <xliff:g id="name" example="SD card">^4</xliff:g> pro s\'archiviatzione portàtile.</string>
     <string name="storage_wizard_slow_v2_continue">Sighi</string>
     <string name="battery_status_title">Istadu bateria</string>
     <string name="battery_level_title">Livellu bateria</string>
@@ -302,6 +537,8 @@
     <string name="menu_cancel">Annulla</string>
     <string name="error_name_empty">Su campu de su nùmene non podet èssere bòidu.</string>
     <string name="error_apn_empty">S\'APN non podet èssere bòidu.</string>
+    <string name="error_apn_type_empty">Su tipu de APN non podet èssere bòidu.</string>
+    <string name="reset_private_space_delete_dialog">Si tenes un\'ispàtziu privadu in su dispositivu tuo, at a èssere cantzelladu pro semper e su Contu Google agiuntu a s\'ispàtziu tuo at a èssere bogadu. \n\nTotu is aplicatziones in s\'ispàtziu tuo e is datos assotziados ant a èssere cantzellados dae sa <b>memòria interna</b> de su telèfonu.</string>
     <string name="call_settings_summary">Imposta segreteria telefònica, mutida in isetu, avisu de mutida, ID de chie mutit</string>
     <string name="tether_settings_title_usb">Ancoràgiu web USB</string>
     <string name="tether_settings_title_bluetooth">Ancoràgiu web Bluetooth.</string>
@@ -316,6 +553,7 @@
     <string name="tethering_footer_info_sta_ap_concurrency">Imprea su puntu de atzessu Wi-Fi e s\'ancoràgiu web pro frunire ìnternet a àteros dispositivos tràmite Wi\u2011Fi o sa connessione de datos. Is aplicatziones podent creare puru unu puntu de atzessu Wi-Fi pro cumpartzire cuntenutos cun dispositivos a curtzu.</string>
     <string name="tethering_help_button_text">Agiudu</string>
     <string name="sms_application_title" translatable="true">Aplicatzione de SMS</string>
+    <string name="sms_change_default_dialog_title" translatable="true">Boles modificare s\'aplicatzione de SMS?</string>
     <string name="sms_change_default_dialog_text" translatable="true">Boles impreare <xliff:g id="new_app">%1$s</xliff:g> imbetzes de <xliff:g id="current_app">%2$s</xliff:g> comente aplicatzione de SMS?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true">Boles impreare <xliff:g id="new_app">%s</xliff:g> comente aplicatzione de SMS?</string>
     <string name="network_scorer_change_active_dialog_title">Boles cambiare assistente Wi\u2011Fi?</string>
@@ -323,12 +561,20 @@
     <string name="network_scorer_change_active_no_previous_dialog_text">Boles impreare <xliff:g id="new_app">%s</xliff:g> pro gestire sa connessione de rete?</string>
     <string name="location_category_recent_location_requests">Rechestas de positzione reghentes</string>
     <string name="managed_profile_location_switch_title">Positzione pro su profilu de traballu</string>
+    <string name="private_profile_location_switch_title">Positzione pro ispàtziu privadu</string>
+    <string name="location_app_permission_summary_location_on">{count, plural,
+      =1      {# aplicatzione de {total} tenet atzessu a sa positzione}
+      other   {# aplicatziones de {total} tenent atzessu a sa positzione}
+    }</string>
     <string name="location_no_recent_apps">Peruna aplicatzione de reghente at rechertu sa positzione</string>
     <string name="location_high_battery_use">Impreu de bateria artu</string>
     <string name="location_low_battery_use">Impreu de bateria bassu</string>
     <string name="location_services_preference_title">Servìtzios de positzione</string>
     <string name="location_services_screen_title">Servìtzios de positzione</string>
+    <string name="location_time_zone_detection_toggle_title">Imprea sa positzione pro su fusu oràriu</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">Annulla</string>
+    <string name="location_time_zone_detection_auto_is_off">No est a disponimentu si su fusu oràriu automàticu est disativadu</string>
+    <string name="location_time_zone_detection_auto_is_on">Si sa positzione de su dispositivu est a disponimentu, podet èssere impreada pro cunfigurare su fusu oràriu</string>
     <string name="legal_information">Informatziones legales</string>
     <string name="manual">A manu</string>
     <string name="copyright_title">Deretos de autore</string>
@@ -342,18 +588,29 @@
     <string name="lockpassword_invalid_password">Crae isballiada</string>
     <string name="lockpattern_change_lock_pattern_label">Càmbia sa cumbinada de isblocu</string>
     <string name="lockpattern_change_lock_pin_label">Càmbia su PIN de isblocu</string>
+    <string name="see_all_apps_title">{count, plural,
+        =1      {Bide totu is aplicatziones}
+        other   {Bide totu is # aplicatziones}
+        }</string>
+    <string name="uri_permissions_text">{count, plural,
+        =1      {Un\'elementu}
+        other   {# elementos}
+        }</string>
     <string name="uninstall_text">Disinstalla</string>
     <string name="uninstall_all_users_text">Disinstalla pro totu is utentes</string>
     <string name="install_text">Installa</string>
     <string name="disable_text">Disativa</string>
     <string name="enable_text">Ativa</string>
     <string name="app_factory_reset">Disintalla agiornamentos</string>
+    <string name="screen_compatibility_text">Custa aplicatzione no est progetada pro s\'ischermu. Podes controllare comente                                                 
+              acomodare s\'ischermu tuo inoghe.</string>
     <string name="app_not_found_dlg_text"> Custa aplicatzione non s\'est agatada in sa lista de aplicatziones installadas.</string>
     <string name="clear_failed_dlg_text">No at fatu a limpiare sa memòria pro s\'aplicatzione.</string>
     <string name="invalid_size_value">No at fatu a carculare sa mannària de su pachete.</string>
     <string name="does_not_exist">S\'aplicatzione no esistit.</string>
     <string name="invalid_location">Sa positzione de s\'installatzione no est bàlida.</string>
     <string name="system_package">Is atualizatziones de sistema non faghet a ddas installare in mèdios esternos.</string>
+    <string name="app_install_details_different_initiating_package_summary">Aplicatzione installada dae <xliff:g id="app_store1">%1$s</xliff:g> (pro mèdiu de <xliff:g id="app_store2">%2$s</xliff:g>)</string>
     <string name="heavy_weight_stop_description">Custa aplicatzione si podet firmare
         in seguresa. Si dda firmas, dias pòdere pèrdere unu pagu de su traballu de immoe.</string>
     <string name="background_process_stop_description">Custu est unu protzessu
@@ -361,6 +618,37 @@
         In generale non b\'at resone pro ddu firmare.</string>
     <string name="keyboard_settings">Tecladu</string>
     <string name="language_empty_list_user_restricted">Non tenes su permissu de cambiare sa limba de su dispositivu.</string>
+    <string name="spellchecker_security_warning">Custu curretore ortogràficu diat pòdere regòllere
+        totu su testu chi iscries, incluende is datos personales comente is craes e is nùmeros de                        
+        cartas de crèditu. Custu benit dae s\'aplicatzione
+        <xliff:g id="spellchecker_application_name">%1$s</xliff:g>.
+        Boles impreare custu curretore ortogràficu?</string>
+    <string name="physical_keyboard_layout_picker_title">Seletore de dispositziones de teclados fìsicos</string>
+    <string name="bounce_keys_summary">Su tecladu ignorat is incarcos de su pròpiu butone repìtidos a lestru</string>
+    <string name="bounce_keys_dialog_subtitle">Sèbera pro cantu tempus su tecladu ignorat is incarcos repìtidos de teclas</string>
+    <string name="input_setting_keys_dialog_option_200">0,2 seg.</string>
+    <string name="input_setting_keys_dialog_option_400">0,4 seg.</string>
+    <string name="input_setting_keys_dialog_option_600">0,6 seg.</string>
+    <string name="input_setting_keys_custom_value">valore personalizadu</string>
+    <string name="slow_keys_summary">Règulat su tempus chi serbit a un\'incarcu de butone pro s\'ativare</string>
+    <string name="mouse_keys">Teclas de puntadore</string>
+    <string name="mouse_keys_main_title">Imprea is butones de su puntadore</string>
+    <string name="mouse_keys_summary">Controlla su puntadore cun su tecladu</string>
+    <string name="mouse_reverse_vertical_scrolling_summary">Iscurre in artu pro mòvere sa pàgina in bàsciu</string>
+    <string name="mouse_swap_primary_button">Iscàmbia is butones de manca e dereta</string>
+    <string name="mouse_keys_directional_summary">Imprea is teclas \“<xliff:g id="directional_label" example="7,8,9,u,o,j,k,l">%s</xliff:g>\” pro mòvere su puntadore</string>
+    <string name="mouse_keys_click_summary">Imprea sa tecla \“<xliff:g id="click_label" example="i">%s</xliff:g>\” pro incarcare su butone primàriu de su puntadore</string>
+    <string name="mouse_keys_press_hold_summary">Imprea sa tecla \“<xliff:g id="press_hold_label" example="m">%s</xliff:g>\” pro prèmere e mantènnere su butone primàriu de su puntadore</string>
+    <string name="mouse_keys_release_summary">Imprea sa tecla \“<xliff:g id="release_label" example=",">%s</xliff:g>\” pro lassare su butone primàriu de su puntadore</string>
+    <string name="mouse_keys_toggle_scroll_summary">Imprea sa tecla \“<xliff:g id="release_label_1" example=".">%1$s</xliff:g>\” pro cuncambiare a sa modalidade de iscurrimentu. Custu at a fàghere chi is teclas \“<xliff:g id="release_label_2" example="8, k, o, u">%2$s</xliff:g>\” iscurrant in artu, in bàsciu, a manca o a dereta</string>
+    <string name="mouse_keys_release2_summary">Imprea sa tecla \“<xliff:g id="release_2_label" example="/">%s</xliff:g>\” pro incarcare cun su butone segundàriu de su puntadore</string>
+    <string name="mouse_settings">Sòrighe</string>
+    <string name="trackpad_tap_dragging_title">Tragare cun su tocu</string>
+    <string name="trackpad_tap_dragging_summary">Toca e traga su pòddighe in su pannellu tàtile pro mòvere is ogetos</string>
+    <string name="trackpad_bottom_right_tap_title">Clic in bàsciu a dereta</string>
+    <string name="trackpad_bottom_right_tap_summary">Incarca s\'àngulu inferiore deretu de su pannellu tàtile pro àteras optziones</string>
+    <string name="three_finger_tap_preference_title">Imprea su tocu cun tres pòddighes</string>
+    <string name="pointer_fill_style">Colore de su puntadore</string>
     <string name="pointer_fill_style_black_button">Càmbia su colore de su cursore a nieddu</string>
     <string name="pointer_fill_style_green_button">Càmbia su colore de su cursore a birde</string>
     <string name="pointer_fill_style_red_button">Càmbia su colore de su cursore a ruju</string>
@@ -369,12 +657,43 @@
     <string name="pointer_fill_style_purple_button">Càmbia su colore de su cursore a tanadu</string>
     <string name="pointer_stroke_style">Colore de bratzada de su cursore</string>
     <string name="pointer_stroke_style_name_none">Perunu</string>
+    <string name="three_finger_tap_middle_click">Clic de mesu</string>
+    <string name="three_finger_tap_launch_gemini">Avia s\'agiudante</string>
     <string name="trackpad_notifications_title">Notìficas</string>
     <string name="modifier_keys_cancel">Annulla</string>
     <string name="keyboard_a11y_settings">Atzessibilidade de su tecladu fìsicu</string>
+    <string name="keyboard_a11y_settings_summary">Teclas apitzigosas, rebòtiu de teclas, teclas de su puntadore</string>
+    <string name="keyboard_repeat_keys_title">Teclas repìtidas</string>
+    <string name="keyboard_repeat_keys_timeout_title">Ritardu in antis de sa ripetitzione</string>
+    <string name="keyboard_repeat_keys_delay_title">Frecuèntzia de ripetitzione</string>
+    <string name="pointer_scale">Iscala de su puntadore</string>
+    <string name="pointer_scale_decrease_content_description">Ismèngua s\'iscala de su puntadore</string>
+    <string name="pointer_scale_increase_content_description">Cresche s\'iscala de su puntadore</string>
+    <string name="pointer_scale_keywords">iscala, mannària, dimensione, iscala de su puntadore, mannària de su puntadore, dimensione manna de su puntadore, mannu, visìbile</string>
     <string name="audio_category_title">Àudio</string>
     <string name="display_category_title">Ischermu</string>
+    <string name="accessibility_pointer_and_touchpad_title">Atzessibilidade de su puntadore e de su pannellu tàtile</string>
+    <string name="accessibility_pointer_and_touchpad_summary">Colore de su puntadore, mannària de su puntadore e àteru</string>
+    <string name="accessibility_pointer_color_customization_title">Personalizatzione de su colore de su puntadore</string>
+    <string name="color_contrast_preview_email_body">Pro assistèntzia, iscrie a mie o a Aleni. Custu informe at a èssere</string>
+    <string name="color_contrast_about_title">Informatziones de su cuntrastu de colore</string>
+    <string name="bt_stack_log_level">Ativa su registru de stack de su Bluetooth</string>
+    <string name="bt_stack_log_level_summary">Muda su livellu de su Registru stack de su Bluetooth (cuncàmbia su Bluetooth a pustis de modificare custa cunfiguratzione)</string>
+    <string name="accessibility_screen_magnification_always_on_unavailable_summary">No est a disponimentu cando ses ismanniende isceti una parte de s\'ischermu</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">Annulla</string>
+    <string name="accessibility_magnification_one_finger_panning_title">Move sa lente cun unu pòddighe</string>
+    <string name="accessibility_magnification_one_finger_panning_summary">Traga unu pòddighe pro mòvere s\'ischermu</string>
+    <string name="accessibility_magnification_one_finger_panning_summary_on">Move s\'àrea de ingrandimentu cun su trìsinu de unu pòddighe.</string>
+    <string name="accessibility_magnification_one_finger_panning_summary_off">Move s\'àrea de ingrandimentu cun su trìsinu de duos pòddighes.</string>
+    <string name="accessibility_magnification_one_finger_panning_summary_unavailable">No est a disponimentu cando ses ismanniende isceti una parte de s\'ischermu</string>
+    <string name="accessibility_screen_magnification_summary_one_finger_panning_off"><![CDATA[        <b>Pro ismanniare:</b><br/>
+        {0,number,integer}. Imprea su curtzadòrgiu pro incumintzare a ismanniare<br/>
+        {1,number,integer}. Toca s\'ischermu<br/>
+        {2,number,integer}. Traga 2 pòddighes pro ti mòvere in s\'ischermu<br/>
+        {3,number,integer}. Pìtziga cun 2 pòddighes pro acontzare s\'ismanniamentu<br/>
+        {4,number,integer}. Imprea su curtzadòrgiu pro firmare s\'ismanniamentu<br/><br/>
+        Podes puru ismanniare pro unu pagu e àteras optziones.
+        ]]></string>
     <string name="accessibility_screen_magnification_summary_one_finger_panning_on"><![CDATA[        <b>Pro ismanniare:</b><br/>
         {0,number,integer}. Imprea su curtzadòrgiu pro incumintzare a ismanniare<br/>
         {1,number,integer}. Toca s\'ischermu<br/>
@@ -383,9 +702,59 @@
         {4,number,integer}. Imprea su curtzadòrgiu pro firmare s\'ismanniamentuzbr/><br/>
         Podes puru ismanniare pro unu pagu e àteras optziones.
         ]]></string>
+    <string name="accessibility_tutorial_dialog_title_button">Curtzadòrgiu de su butone de atzessibilidade</string>
+    <string name="accessibility_tutorial_dialog_title_volume">Curtzadòrgiu pro is teclas de volùmene</string>
+    <string name="accessibility_tutorial_dialog_title_triple">Curtzadòrgiu de tocu triplu</string>
+    <string name="accessibility_tutorial_dialog_title_two_finger_double">Curtzadòrgiu de tocu dòpiu cun %1$d pòddighes</string>
+    <string name="accessibility_tutorial_dialog_title_quick_setting">Curtzadòrgiu a is Cunfiguratziones lestras</string>
+    <string name="accessibility_tutorial_dialog_title_gesture">Curtzadòrgiu a is gestos de atzessibilidade</string>
+    <string name="accessibility_tutorial_dialog_message_button">Pro impreare custa funtzione, toca su butone de atzessibilidade <xliff:g id="accessibility_icon" example="[Icon]">%s</xliff:g> is su fundu de s\'ischermu.\n\nPro cambiare intre is funtziones, toca e mantene su butone de atzessibilidade.</string>
+    <string name="accessibility_tutorial_dialog_message_floating_button">Pro impreare custa funtzione, toca su butone de atzessibilidade in s\'ischermu.</string>
+    <string name="accessibility_tutorial_dialog_message_volume">Pro impreare custa funtzione, incarca e mantene ambos butones de su volùmene.</string>
+    <string name="accessibility_tutorial_dialog_tripletap_instruction">Pro aviare e firmare s\'ingrandimentu, toca a lestru s\'ischermu %1$d bortas</string>
+    <string name="accessibility_tutorial_dialog_twofinger_doubletap_instruction">Pro aviare e firmare s\'ingrandimentu, toca a lestru s\'ischermu cun %1$d pòddighes</string>
+    <string name="accessibility_tutorial_dialog_message_quick_setting">{count, plural,
+      =1    {Pro impreare custa funtzionalidade, iscurre in bàsciu dae s\'artu de s\'ischermu tuo. Pustis, chirca s\'icona {featureName}.}
+      other {Pro impreare custa funtzionalidade, iscurre in bàsciu dae s\'artu de s\'ischermu tuo cun # pòddighes. Pustis, chirca s\'icona {featureName}.}
+    }</string>
     <string name="accessibility_tutorial_dialog_shortcut_unavailable_in_suw">Custu curtzadòrgiu at a èssere a disponimentu pustis chi finis sa cunfiguratzione de su dispositivu.</string>
+    <string name="accessibility_tutorial_dialog_gesture_shortcut_instruction">{count, plural,
+      =1    {Pro impreare custa funtzionalidade, iscurre dae bàsciu in artu de s\'ischermu cun unu pòddighe}
+      other {Pro impreare custa funtzionalidade, iscurre dae bàsciu in artu de s\'ischermu cun # pòddighes}
+    }</string>
+    <string name="accessibility_tutorial_dialog_link_button">Personaliza su butone</string>
+    <string name="accessibility_shortcut_edit_summary_software">butone de atzessibilidade</string>
+    <string name="accessibility_shortcut_edit_summary_software_gesture">gestu de atzessibilidade</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_floating_button">Toca su butone mòbile</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_software">Toca su butone de atzessibilidade <xliff:g id="accessibility_icon" example="[Icon]">%s</xliff:g> in su fundu de s\'ischermu. Pro cambiare intre funtzionalidades, toca e mantene su butone de atzessibilidade.</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_gesture">{count, plural,
+      =1      {Iscurre cun unu pòddighe dae bàsciu de s\'ischermu in artu. Pro cambiare intre funtzionalidades, iscurre in artu e mantene.}
+      other   {Iscurre cun # pòddighes dae bàsciu de s\'ischermu in artu. Pro cambiare intre funtzionalidades, iscurre in artu cun # pòddighes e mantene.}
+    }</string>
+    <string name="accessibility_shortcut_edit_dialog_title_quick_settings">Cunfiguratziones lestras</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_quick_settings">{count, plural,
+      =1      {Iscurre in bàsciu dae s\'artu de s\'ischermu}
+      other   {Iscurre in bàsciu cun # pòddighes dae s\'artu de s\'ischermu}
+    }</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_quick_settings_suw">{count, plural,
+      =1      {Iscurre in bàsciu dae s\'artu de s\'ischermu. Custu curtzadòrgiu at a èssere a disponimentu comente agabbet sa cunfiguratzione de su dispositivu.}
+      other   {Iscurre in bàsciu cun # pòddighes dae s\'artu de s\'ischermu. Custu curtzadòrgiu at a èssere a disponimentu comente agabbet sa cunfiguratzione de su dispositivu.}
+    }</string>
+    <string name="accessibility_feature_shortcut_setting_summary_quick_settings">Cunfiguratziones lestras</string>
+    <string name="accessibility_shortcut_edit_dialog_title_hardware">Teclas de volùmene</string>
+    <string name="accessibility_shortcut_hardware_keyword">teclas de volùmene</string>
+    <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap">Tocu dòpiu cun %1$d pòddighes</string>
+    <string name="accessibility_shortcut_edit_screen_summary_two_finger_double_tap">Toca duas bortas a lestru s\'ischermu cun %1$d pòddighes</string>
+    <string name="accessibility_shortcut_edit_screen_title_triple_tap">Tocu triplu</string>
+    <string name="accessibility_shortcut_edit_screen_summary_triple_tap">Toca tres bortas a lestru s\'ischermu. Custu curtzadòrgiu diat pòdere allentare su dispositivu.</string>
+    <string name="accessibility_shortcut_two_finger_double_tap_keyword">Tocu dòpiu cun %1$d pòddighes</string>
+    <string name="accessibility_shortcut_triple_tap_keyword">tocu triplu</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Connoschèntzia avantzada</string>
+    <string name="accessibility_global_gesture_preference_title">Curtzadòrgiu pro is teclas de volùmene</string>
+    <string name="accessibility_shortcut_service_on_lock_screen_title">Curtzadòrgiu pro is teclas de volùmene dae s\'ischermu de blocu</string>
     <string name="accessibility_button_location_title">Positzione</string>
+    <string name="accessibility_button_disabled_button_mode_summary">No est a disponimentu cando ses impreende sa modalidade de butone de sa barra de navigatzione.</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_summary">Agiunghe un\'isfundu biancu o nieddu a s\'oru de su testu pro crèschere su cuntrastu</string>
     <string name="accessibility_toggle_primary_mono_summary">Cumbina is canales cando reprodues àudio</string>
     <string name="accessibility_autoclick_default_title">Incarcu automàticu disativadu</string>
     <string name="accessibility_autoclick_medium_title">Mesanu</string>
@@ -400,28 +769,105 @@
     <string name="accessibility_media_vibration_title">Vibratzione de is cuntenutos multimediales</string>
     <string name="captioning_more_options_title">Àteras optziones</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Sighi</string>
+    <string name="accessibility_hearingaid_left_side_device_summary"><xliff:g id="device_name" example="GN Hearing Aids">%1$s</xliff:g> / Manca isceti</string>
+    <string name="accessibility_hearingaid_right_side_device_summary"><xliff:g id="device_name" example="GN Hearing Aids">%1$s</xliff:g> / Dereta isceti</string>
+    <string name="accessibility_hearingaid_left_and_right_side_device_summary"><xliff:g id="device_name" example="GN Hearing Aids">%1$s</xliff:g> / Manca e dereta</string>
+    <string name="daltonizer_mode_deuteranomaly_title">Ruju-birde, pertzetzione bàscia de su birde</string>
+    <string name="daltonizer_mode_protanomaly_title">Ruju-birde, pertzetzione bàscia de su ruju</string>
+    <string name="daltonizer_saturation_unavailable_summary">No est a disponimentu pro sa modalidade de iscala de murru, o cando sa curretzione de colore est disativada</string>
     <string name="daltonizer_mode_deuteranomaly_summary">Deuteranomalia</string>
     <string name="daltonizer_mode_protanomaly_summary">Protanomalia</string>
+    <string name="accessibilty_autoclick_preference_subtitle_short_delay">{count, plural,
+      =1      {Curtzu ({time} segundu)}
+      other   {Curtzu ({time} segundos)}
+    }</string>
+    <string name="accessibilty_autoclick_preference_subtitle_medium_delay">{count, plural,
+      =1      {Mesanu ({time} segundu)}
+      other   {Mesanu ({time} segundos)}
+    }</string>
+    <string name="accessibilty_autoclick_preference_subtitle_long_delay">{count, plural,
+      =1      {longu ({time} segundu)}
+      other   {longu ({time} segundos)}
+    }</string>
+    <string name="accessibilty_autoclick_delay_unit_second">{count, plural,
+      =1      {{time} segundu}
+      other   {{time} segundos}
+    }</string>
     <string name="captioning_text_size">Mannària de is sutatìtulos</string>
     <string name="accessibility_dialog_button_allow">Permite</string>
     <string name="accessibility_dialog_button_deny">Nega</string>
+    <string name="print_settings_summary">{count, plural,
+      =1      {1 servìtziu de imprenta ativu}
+      other   {# servìtzios de imprenta ativos}
+    }</string>
+    <string name="print_jobs_summary">{count, plural,
+      =1      {1 traballu de imprenta}
+      other   {# traballos de imprenta}
+    }</string>
+    <string name="power_usage_level_and_status"><xliff:g id="level">%1$s</xliff:g>
+        - <xliff:g id="status">%2$s</xliff:g></string>
     <string name="background_activity_disabled_dialog_text">Dae chi custa aplicatzione no est impostada pro fàghere rèndere a su màssimu sa bateria, dda podes limitare.\n\nPro limitare s\'aplicatzione, in antis ativa su rendimentu màssimu de sa bateria.</string>
+    <string name="battery_tip_replacement_title">Cussigiada sa sostitutzione de sa bateria</string>
+    <string name="battery_tip_replacement_summary">Sa capatzidade e su rendimentu de sa bateria sunt minimados; si cussìgiat sa sostitutzione de sa bateria.</string>
+    <string name="battery_tip_restrict_title">{count, plural,
+        =1      {Lìmita un\'aplicatzione}
+        other   {Lìmita # aplicatziones}
+        }</string>
+    <string name="battery_tip_restrict_handled_title">{count, plural,
+      =1      {{label} limitada de reghente}
+      other   {# aplicatziones limitadas de reghente}
+    }</string>
+    <string name="battery_tip_restrict_summary">{count, plural,
+      =1      {{label} tenet un\'impreu artu de bateria in segundu pranu}
+      other   {# aplicatziones tenent un\'impreu artu de bateria in segundu pranu}
+    }</string>
     <string name="battery_tip_restrict_handled_summary">{count, plural,
       =1      {Custa aplicatzione non podet èssere esecutada in segundu pranu}
       other   {Custas aplicatziones non podent èssere esecutadas in segundu pranu}
     }</string>
+    <string name="battery_tip_restrict_app_dialog_title">{count, plural,
+      =1      {Boles limitare s\'aplicatzione?}
+      other   {Boles limitare # aplicatziones?}
+    }</string>
     <string name="battery_tip_unrestrict_app_dialog_cancel">Annulla</string>
     <string name="smart_battery_footer">Cando su gestore de bateria rilevat chi is aplicatziones si sunt iscarrighende sa bateria, as a tènnere sa possibilidade de limitare custas aplicatziones. Is aplicatziones cun limitatziones diant pòdere non funtzionare in manera curreta e is notìficas diant pòdere subire ritardos.</string>
+    <string name="restricted_app_summary">{count, plural,
+      =1      {Limitende s\'impreu de bateria pro un\'aplicatzione}
+      other   {Limitende s\'impreu de bateria pro # aplicatziones}
+    }</string>
+    <string name="battery_manager_app_restricted">{count, plural,
+      =1      {Un\'aplicatzione limitada}
+      other   {# aplicatziones limitadas}
+    }</string>
     <string name="process_network_tethering">Ancoràgiu web</string>
+    <string name="battery_saver_sticky_description_new">Su Rispàrmiu de bateria at a èssere disativadu cando sa bateria siat càrriga a su: <xliff:g id="battery_percentage" example="80%">%1$s</xliff:g></string>
+    <string name="battery_usage_total_less_than_one_minute">Totale: prus pagu de unu minutu</string>
+    <string name="battery_usage_background_less_than_one_minute">In segundu pranu: prus pagu de unu minutu</string>
+    <string name="battery_usage_screen_time_less_than_one_minute">Tempus de impreu: prus pagu de unu minutu</string>
+    <string name="power_usage_time_less_than_one_minute">Prus pagu de unu minutu</string>
+    <string name="battery_usage_timestamps_content_description"><xliff:g id="from_timestamp">%1$s</xliff:g> - <xliff:g id="to_timestamp">%2$s</xliff:g></string>
+    <string name="battery_usage_less_than_percent_content_description">prus pagu de <xliff:g id="percentage">%1$s</xliff:g></string>
     <string name="process_stats_os_kernel">Nùcleu</string>
     <string name="tts_install_voices_cancel">Annulla</string>
     <string name="tts_play">Reprodue</string>
+    <string name="cellular_security_title">Seguresa de sa rete mòbile</string>
+    <string name="cellular_security_summary">Tipu de rete, tzifradu, controllos de notìficas</string>
+    <string name="cellular_security_top_intro">Custas cunfiguratziones t\'agiudant a amparare is mutidas, is messàgios e is datos dae retes betzas o non tzifradas chi ti diant pòdere espònnere a furas de datos o a ispionàgiu</string>
+    <string name="cellular_security_settings_title">Seguresa de sa rete mòbile</string>
     <string name="cellular_security_notifications">Notìficas</string>
+    <string name="cellular_security_notifications_controller_title">Notìficas de rete</string>
+    <string name="cellular_security_notifications_controller_summary">Otene notìficas cando su dispositivu s\'at a connètere a una rete non tzifrada, o cando una rete registret sa SIM tua o s\'ID ùnicu de su dispositivu.</string>
+    <string name="cellular_security_network_generations_title">Generatziones de rete</string>
     <string name="cellular_security_network_generations_summary">Podes cunfigurare cada SIM installada pro chi si connetet isceti a retes cumpatìbiles cun 3G, 4G e 5G. Sa SIM non s\'at a connètere a retes betzas e non seguras che sa 2G. Custa cunfiguratzione podet limitare sa connetividade tua cando est disponìbile sa rete 2G isceti. In una situatzione de emergèntzia, sa rete 2G podet èssere impreada.</string>
+    <string name="credential_installed_for_wifi">Installadas pro <xliff:g id="ssid" example="SSID">%s</xliff:g></string>
     <string name="credential_using_for_wifi">Impreadu pro <xliff:g id="ssid" example="SSID">%s</xliff:g></string>
     <string name="ca_certificate">Tzertificadu CA</string>
     <string name="request_manage_credentials_allow">Permite</string>
     <string name="no_certificate_management_app">Perunu</string>
+    <string name="number_of_urls">{count, plural,
+      =1      {Un\'URL}
+      other   {# URL}
+    }</string>
     <string name="device_admin_add_title">Amministradore de su dispositivu</string>
     <string name="adding_profile_owner_warning">Sighende s\'utèntzia tua dd\'at a gestire 
         s\'amministradore tuo chi diat pòdere archiviare datos assotziados, a bandas de is
@@ -429,10 +875,24 @@
         e datos assotziados cun custu utente, incluende atividades de rete e 
         informatziones subra de sa positzione de su dispositivu tuo.</string>
     <string name="admin_more_details">Àteras informatziones</string>
+    <string name="notification_history_count">{count, plural,
+      =1      {Una notìfica}
+      other   {# notìficas}
+    }</string>
     <string name="managed_profile_not_available_label">Su profilu de traballu no est a disponimentu ancora</string>
     <string name="data_roaming_enable_mobile">Àteros gestores</string>
+    <string name="vpn_version_info">Versione <xliff:g id="version" example="3.3.0">%s</xliff:g></string>
     <string name="vpn_disconnected_summary">Perunu</string>
     <string name="trusted_credentials_remove_label">Disinstalla</string>
+    <string name="ssl_ca_cert_dialog_title">{count, plural,
+      =1      {Cunfia in su tzertificadu o cantzella·ddu}
+      other   {Cunfia in is tzertificados o cantzella·ddos}
+    }</string>
+    <string name="ssl_ca_cert_settings_button">{count, plural,
+      =1      {Controlla su tzertificadu}
+      other   {Controlla is tzertificados}
+    }</string>
+    <string name="user_owner">Mere</string>
     <string name="user_exit_guest_confirm_message">Totu is aplicatziones e datos in custa sessione ant a èssere cantzellados.</string>
     <string name="user_exit_guest_dialog_remove">Boga</string>
     <string name="nfc_more_details">Àteras informatziones</string>
@@ -441,56 +901,318 @@
     <string name="keywords_time_format">Imprea su formadu 24 oras</string>
     <string name="keywords_sounds_and_notifications_interruptions">no no istorbes, firma, firmare, pàusa</string>
     <string name="keywords_color_temperature">colore, temperadura, D65, D73, biancu, grogu, biaitu, callente, friu</string>
+    <string name="keywords_styles">icona, iconas, atzentu, colore, ischermu printzipale, ischermu de blocu, curtzadòrgiu, mannària de su rellògiu</string>
     <string name="keywords_hotspot_tethering">ancoràgiu web usb, ancoràgiu web bluetooth, puntu de atzessu wifi</string>
+    <string name="sound_dashboard_summary">Volùmene e vibratzione</string>
     <string name="notification_ringtone_title">Sonu de notìfica predefinidu</string>
     <string name="notification_sound_default">Sonu de notìfica predefinidu</string>
+    <string name="spatial_audio_multi_toggle_on">Fissu</string>
+    <string name="spatial_audio_multi_toggle_head_tracking_on">Rilev. movim. conca</string>
+    <string name="zen_mode_settings_schedules_summary">        {count, plural,
+        =0    {Nissuna}
+        =1    {1 pianificatzione cunfigurada}
+        other {# pianificatziones cunfiguradas}
+        }
+    </string>
+    <string name="zen_modes_list_title">Modalidades</string>
+    <string name="zen_modes_list_intro">Mìnima is distratziones e piga su controllu de s\'atentzione tua cun is modalidades pro dormire, ghiare e totu su chi faghes in mesu.</string>
+    <string name="zen_modes_add_mode">Crea sa modalidade personale tua</string>
+    <string name="zen_mode_select_schedule_title">Programmatzione basada in</string>
+    <string name="zen_mode_select_schedule_time">Die e ora</string>
+    <string name="zen_mode_select_schedule_time_example">«Dae is 9 de su mangianu a is 5 de merie a intro de sa chida»</string>
+    <string name="zen_modes_summary_some_active">{count, plural, offset:2
+        =0    {}
+        =1    {{mode_1} est ativa}
+        =2    {{mode_1} e {mode_2} sunt ativas}
+        =3    {{mode_1}, {mode_2} e {mode_3} sunt ativas}
+        other {{mode_1}, {mode_2} e àteras # sunt ativas}
+        }
+    </string>
+    <string name="zen_modes_summary">        {count, plural,
+        =0    {No istorbes}
+        =1    {{mode_1}}
+        =2    {{mode_1}, {mode_2}}
+        other {{mode_1}, {mode_2}, {mode_3}}
+        }
+    </string>
+    <string name="zen_mode_active_text">ATIVU</string>
     <string name="zen_mode_disabled_needs_setup">No impostadu</string>
+    <string name="zen_mode_new_title">Crea una modalidade</string>
+    <string name="zen_mode_not_found_text">No at fatu a agatare sa modalidade</string>
+    <string name="zen_mode_setup_page_summary">Bloca is interrutziones e is distratziones</string>
+    <string name="zen_mode_setup_button_label">Cunfigura <xliff:g id="mode" example="My Mode">%1$s</xliff:g></string>
     <string name="zen_mode_menu_rename_mode">Torra a numenare</string>
+    <string name="zen_mode_delete_mode_confirmation">Boles cantzellare sa modalidade «<xliff:g id="mode" example="My Schedule">%1$s</xliff:g>»?</string>
+    <string name="zen_mode_automatic_trigger_title">Cando s\'at a ativare in automàticu</string>
+    <string name="zen_mode_set_calendar_title">Programmatzione de un\'eventu</string>
+    <string name="zen_mode_set_calendar_which_calendar">Ativa durante eventos pro</string>
+    <string name="zen_mode_set_calendar_which_reply">In ue sa risposta a s\'invitu est</string>
+    <string name="zen_mode_set_schedule_title">Programmatzione orària</string>
+    <string name="zen_mode_schedule_duration"><xliff:g example="10" id="hours">%1$d</xliff:g> h, <xliff:g example="20" id="minutes">%2$d</xliff:g> min</string>
+    <string name="mode_interruption_filter_title">Filtros de notìficas</string>
+    <string name="modes_sound_summary_off">        {count, plural,
+        =0    {Disativadu}
+        =1    {Disativadu / Una modalidade si podet ativare in automàticu}
+        other {Disativadu / # modalidades si podent ativare in automàticu}
+        }
+    </string>
     <string name="mode_display_settings_title">Cunfiguratziones de sa visualizatzione</string>
+    <string name="mode_display_options_section">Optziones de s\'ischermu</string>
+    <string name="mode_grayscale_title_secondary_list">iscala de murros</string>
+    <string name="mode_grayscale_summary">Modifica s\'ischermu in biancu e nieddu</string>
+    <string name="mode_aod_title">Mantene s\'ischermu iscuru</string>
+    <string name="mode_aod_title_secondary_list">mantene s\'ischermu iscuru</string>
+    <string name="mode_aod_summary">Disativa s\'ischermu semper allutu</string>
+    <string name="mode_wallpaper_title">Règula su lugore de s\'isfundu</string>
+    <string name="mode_wallpaper_title_secondary_list">règula su lugore de s\'ischermu</string>
+    <string name="mode_wallpaper_summary">Filtra su lugore de s\'isfundu</string>
+    <string name="mode_dark_theme_title">Ativa su tema iscuru</string>
+    <string name="mode_dark_theme_title_secondary_list">ativa su tema iscuru</string>
+    <string name="mode_dark_theme_summary">Muda su tema de su dispositivu pro impreare un\'isfundu iscuru, chi faghet istracare prus pagu is ogros</string>
+    <string name="mode_display_settings_summary">        {count, plural, offset:2
+        =0    {Nissuna modìfica a s\'ischermu}
+        =1    {{effect_1}}
+        =2    {{effect_1} e {effect_2}}
+        =3    {{effect_1}, {effect_2} e {effect_3}}
+        other {{effect_1}, {effect_2} e àteros #}
+        }
+    </string>
+    <string name="zen_mode_all_notifications_allowed">Podent interrùmpere persones, aplicatziones e sonos</string>
+    <string name="zen_mode_restrict_notifications_title">Visualiza optziones pro is notìficas
+        filtradas</string>
     <string name="zen_mode_restrict_notifications_mute_footer">Cando is notìficas arribant, su telèfonu no at a sonare o vibrare.</string>
     <string name="zen_mode_restrict_notifications_hide_summary">No as a bìdere o intèndere notìficas</string>
+    <string name="zen_mode_restrict_notifications_summary_muted">Notìficas mustradas</string>
+    <string name="zen_mode_restrict_notifications_summary_custom">Notìficas cuadas
+        in parte</string>
+    <string name="zen_mode_restrict_notifications_summary_hidden">Notìficas cuadas</string>
     <string name="zen_mode_no_exceptions">Perunu</string>
+    <string name="zen_mode_duration_summary_time_hours">{count, plural,
+        =1 {Un\'ora}
+        other {# oras}
+    }
+    </string>
+    <string name="zen_mode_duration_summary_time_minutes">{count, plural,
+        =1 {Unu minutu}
+        other {# minutos}
+    }
+    </string>
     <string name="zen_category_apps">Aplicatziones</string>
     <string name="zen_custom_settings_notifications_header">Notìficas</string>
     <string name="configure_notification_settings">Notìficas</string>
     <string name="profile_section_header_for_advanced_privacy">Profilu de traballu</string>
+    <string name="notification_bundles">Pachetes de notìficas</string>
     <string name="bubbles_feature_disabled_button_cancel">Annulla</string>
+    <string name="lock_screen_notif_minimalism">Mìnima is notìficas in s\'ischermu de blocu</string>
+    <string name="lock_screen_notif_minimalism_summary">Mustra prus pagu notìficas in s\'ischermu de blocu</string>
+    <string name="lock_screen_notifs_show_full_list">Lista cumpleta</string>
+    <string name="lock_screen_notifs_show_compact">Cumpatadu</string>
+    <string name="lock_screen_notification_hide_seen_title">Cua is notìficas giai bidas</string>
+    <string name="lock_screen_notification_hide_seen_summary">Is notìficas giai bidas sunt bogadas dae s\'ischermu de blocu.</string>
+    <string name="lock_screen_notification_hide_silent_title">Cua is notìficas a sa muda</string>
+    <string name="lock_screen_notification_hide_silent_summary">Is notìficas e is arresonadas a sa muda sunt bogadas dae s\'ischermu de blocu.</string>
     <string name="notifications_title">Notìficas</string>
+    <string name="priority_conversation_count">{count, plural,
+      =1      {1 arresonada prioritària}
+      other   {# arresonadas prioritàrias}
+    }</string>
+    <string name="notifications_sent_daily">{count, plural,
+        =1      {Chirca una notìfica a sa die}
+        other   {Chirca # notìficas a sa die}
+        }</string>
+    <string name="notifications_sent_weekly">{count, plural,
+        =1      {Chirca una notìfica a sa chida}
+        other   {Chirca # notìficas a sa chida}
+        }</string>
+    <string name="manage_notification_access_title">Letura, risposta e controllu de notìficas</string>
     <string name="no_notification_assistant">Perunu</string>
+    <string name="notification_listener_security_warning_title">Boles permìtere chi
+        <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> potzat atzèdere a is notìficas?</string>
+    <string name="nls_feature_modes_settings_summary">Podet gestire e ativare is modalidades e modificare is cunfiguratziones acapiadas.</string>
+    <string name="notification_listener_disable_modes_warning_summary">        Si disativas s\'atzessu de <xliff:g id="notification_listener_name">%1$s</xliff:g> a is notìficas, podet èssere chi tochet a disativare puru s\'atzessu a is modalidades.
+    </string>
     <string name="notification_listener_disable_warning_cancel">Annulla</string>
     <string name="notif_type_alerting">Notìficas</string>
+    <string name="notification_polite_main_control_title">Imprea s\'isfritamentu de notìficas</string>
+    <string name="notification_polite_description">Cando retzes tropu notìficas in unu perìodu breve de tempus, su dispositivu at a abbassare su volùmene e a minimare is alertas durante duos minutos. Is mutidas, isvèllias e is resonadas prioritàrias no ant a èssere modificadas.
+        \n\nIs notìficas retzidas in su perìodu de isfritamentu podent èssere agatadas iscurrende in bàsciu dae s\'artu de s\'ischermu.</string>
+    <string name="notification_polite_work_summary">Àplica a is aplicatziones de su profilu de traballu</string>
     <string name="interact_across_profiles_summary_allowed">Collegadu</string>
     <string name="interact_across_profiles_switch_enabled">Collegadu</string>
+    <string name="interact_across_profiles_number_of_connected_apps">{count, plural,
+        =1      {Un\'aplicatzione connètida}
+        other   {# aplicatziones connètidas}
+        }</string>
+    <string name="manage_zen_modes_access_title">Atzessu a is modalidades</string>
+    <string name="zen_modes_access_detail_switch">Permite s\'atzessu a is modalidades</string>
+    <string name="zen_modes_access_empty_text">Nissuna aplicatzione installada at pedidu s\'atzessu a is modalidades</string>
     <string name="notification_channels_other">Àteru</string>
+    <string name="no_recent_channels">Mustra is categorias no impreadas</string>
+    <string name="show_unused_channels">Mustra is categorias no impreadas</string>
+    <string name="hide_unused_channels">Cua is categorias no impreadas</string>
+    <string name="deleted_channels">{count, plural,
+        =1      {Una categoria cantzellada}
+        other   {# categorias cantzelladas}
+        }</string>
+    <string name="app_notification_fsi_permission_title">Permite notìficas a ischermu prenu</string>
     <string name="notification_channel_sound_title">Sonu</string>
     <string name="zen_schedule_rule_type_name">Ora</string>
     <string name="zen_mode_custom_behavior_category_title">Pro \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019</string>
+    <string name="zen_mode_from_all_conversations_second">totu is arresonadas</string>
     <string name="zen_mode_from_no_conversations">Perunu</string>
+    <string name="zen_mode_conversations_count">        {count, plural,
+        =0    {Nissuna}
+        =1    {Un\'arresonada}
+        other {# arresonadas}
+        }
+    </string>
+    <string name="zen_mode_from_conversations_settings">Cunfiguratziones de is arresonadas</string>
     <string name="zen_mode_calls_title">Mutidas</string>
     <string name="zen_mode_calls">Mutidas</string>
     <string name="zen_mode_custom_calls_footer">Pro \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019 is mutidas in intrada sunt blocadas. Podes regulare is impostatziones pro permìtere a cuntatos de amistade, famìllia e àteru de ti cuntatare.</string>
+    <string name="zen_mode_starred_contacts_summary_contacts">        {count, plural, offset:2
+        =0    {Nissunu}
+        =1    {{contact_1}}
+        =2    {{contact_1} e {contact_2}}
+        =3    {{contact_1}, {contact_2}, e {contact_3}}
+        other {{contact_1}, {contact_2}, e àteros #}
+        }
+    </string>
     <string name="zen_mode_custom_messages_footer">Pro \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019 is messàgios in intrada sunt blocados. Podes regulare is impostatziones pro permìtere a cuntatos de amistade, famìllia e àteru de ti cuntatare.</string>
+    <string name="zen_mode_contacts_count">        {count, plural,
+        =0    {Nissunu}
+        =1    {Unu cuntatu}
+        other {# cuntatos}
+        }
+    </string>
+    <string name="zen_mode_from_contacts_settings">Cunfiguratziones de cuntatos</string>
+    <string name="zen_mode_from_starred_settings">Cunfiguratziones de cuntatos ispetziales</string>
     <string name="zen_mode_none_calls">Perunu</string>
     <string name="zen_mode_none_messages">Perunu</string>
     <string name="zen_mode_alarms">Isvèllias</string>
     <string name="zen_mode_alarms_list_first">Isvèllias</string>
     <string name="zen_mode_media_list_first">Cuntenutos multimediales</string>
+    <string name="zen_mode_apps_priority_apps">Aplicatziones seletzionadas</string>
     <string name="zen_mode_apps_none_apps">Perunu</string>
+    <string name="zen_mode_apps_subtext">        {count, plural, offset:2
+        =0    {Nissuna aplicatzione podet interrùmpere}
+        =1    {{app_1} podet interrùmpere}
+        =2    {{app_1} e {app_2} podent interrùmpere}
+        =3    {{app_1}, {app_2} e {app_3} podent interrùmpere}
+        other {{app_1}, {app_2} e àteras # podent interrùmpere}
+        }
+    </string>
+    <string name="zen_mode_apps_work_app"><xliff:g id="app_label" example="Chrome">%s</xliff:g> (Traballu)</string>
+    <string name="zen_mode_apps_priority_apps_settings">Cunfiguratziones de is aplicatziones</string>
+    <string name="zen_mode_plus_n_items">+<xliff:g id="number" example="42">%d</xliff:g></string>
+    <string name="zen_mode_bypassing_apps_subtext">        {count, plural, offset:2
+        =0    {Nissuna aplicatzione podet interrùmpere}
+        =1    {{app_1} podet interrùmpere}
+        =2    {{app_1} e {app_2} podent interrùmpere}
+        =3    {{app_1}, {app_2} e {app_3} podent interrùmpere}
+        other {{app_1}, {app_2}, e àteras # podent interrùmpere}
+        }
+    </string>
     <string name="zen_mode_bypassing_apps_title">Aplicatziones</string>
+    <string name="zen_mode_other_sounds_summary">        {count, plural, offset:2
+        =0    {Nudda podet interrùmpere}
+        =1    {{sound_category_1} podet interrùmpere}
+        =2    {{sound_category_1} e {sound_category_2} podent interrùmpere}
+        =3    {{sound_category_1}, {sound_category_2} e {sound_category_3} podent interrùmpere}
+        other {{sound_category_1}, {sound_category_2}e àteras # podent interrùmpere}
+        }
+    </string>
+    <string name="zen_mode_people_repeat_callers">Is mutidas repitidas podent interrùmpere</string>
+    <string name="zen_mode_summary_alarms_only_by_minute">{count, plural,
+        =1      {Passa a Isvèllias isceti pro unu minutu fintzas a: {time}}
+        other   {Passa a Isvèllias isceti pro # minutos (fintzas a: {time})}
+        }</string>
+    <string name="zen_mode_summary_alarms_only_by_hour">{count, plural,
+        =1      {Passa a Isvèllias isceti pro un\'ora fintzas a: {time}}
+        other   {Passa a Isvèllias isceti pro # oras (fintzas a: {time})}
+        }</string>
+    <string name="zen_mode_rename_title">Modifica sa modalidade</string>
+    <string name="zen_mode_new_custom_title">Crea una modalidade</string>
+    <string name="zen_mode_new_custom_default_name">Modalidade personalizada</string>
+    <string name="zen_mode_edit_name_hint">Nòmine de sa modalidade</string>
+    <string name="zen_mode_edit_name_empty_error">Su nòmine non podet èssere bòidu</string>
+    <string name="zen_mode_edit_choose_icon_title">Sèbera un\'icona</string>
+    <string name="zen_mode_trigger_summary_settings_in_app">Informatziones e cunfiguratziones in <xliff:g id="app_name" example="The Awesome App">%1$s</xliff:g></string>
+    <string name="zen_mode_trigger_summary_managed_by_app">Gestidu dae <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="zen_mode_confirm_disable_mode_title">Boles disativare <xliff:g id="mode_name" example="Driving Mode">%1$s</xliff:g>?</string>
+    <string name="zen_mode_confirm_disable_message">Si est disativada, custa modalidade non s\'at a ativare mai</string>
     <string name="zen_mode_action_disable">Disativa</string>
+    <string name="zen_mode_confirm_enable_mode_title">Boles ativare <xliff:g id="mode_name" example="Driving Mode">%1$s</xliff:g>?</string>
+    <string name="zen_mode_confirm_enable_message">Custa modalidade podet èssere ativada in automàticu segundu sa cunfiguratzione</string>
     <string name="zen_mode_action_enable">Ativa</string>
+    <string name="zen_mode_blurb_schedule_time">Cunfigura una modalidade chi sigat un\'oràriu regulare</string>
+    <string name="zen_mode_blurb_schedule_calendar">Cunfigura una modalidade de sincronizare cun eventos de calendàriu e rispostas a invitos</string>
+    <string name="zen_mode_blurb_immersive">Bloca distratziones e interrutziones de su dispositivu pro ti cuntzentrare mègius</string>
+    <string name="zen_mode_blurb_theater">Cantzella totu is distratziones pro tènnere un\'ambiente calmu</string>
+    <string name="zen_mode_blurb_managed">Personaliza is esperièntzias e is cunfiguratziones de su dispositivu pro utentes diferentes</string>
+    <string name="zen_mode_blurb_generic">Mìnima is interrutziones e permite isceti cussas de gente e aplicatziones de importu </string>
+    <string name="zen_mode_inspiration_schedule_time">Cunfigura una modalidade chi sigat un\'oràriu regulare</string>
+    <string name="zen_mode_inspiration_schedule_calendar">Mantene su dispositivu sincronizadu cun is eventos de sa die</string>
+    <string name="zen_mode_inspiration_bedtime">Pesa·ti a su 100%</string>
+    <string name="zen_mode_inspiration_immersive">Cuntzentra·ti pro intrare in s\'ambiente</string>
+    <string name="zen_mode_inspiration_theater">Pro is momentos cando sa cortesia contat</string>
+    <string name="zen_mode_inspiration_generic">Piga su controllu de s\'atentzione tua</string>
     <string name="suggestion_button_close">Serra</string>
     <string name="restr_pin_enter_admin_pin">Inserta su PIN de s\'amministradore</string>
+    <string name="app_launch_open_in_app">In s\'aplicatzione</string>
+    <string name="app_launch_open_in_browser">In su navigadore</string>
+    <string name="app_launch_top_intro_message">Sèbera comente abèrrere is ligòngios pro custa aplicatzione</string>
+    <string name="app_launch_verified_links_title">{count, plural,
+        =1      {Unu ligòngiu verificadu}
+        other   {# ligòngios verificados}
+        }</string>
+    <string name="app_launch_verified_links_message">{count, plural,
+        =1      {Custu ligòngiu est verificadu e s\'aberit in automàticu in custa aplicatzione.}
+        other   {Custos ligòngios sunt verificados e s\'aberint in automàticu in custa aplicatzione.}
+        }</string>
     <string name="app_launch_dialog_ok">AB</string>
     <string name="app_launch_dialog_cancel">Annulla</string>
+    <string name="app_launch_supported_links_title">{count, plural,
+        =1      {Unu ligòngiu cumpatìbile}
+        other   {# ligòngios cumpatìbiles}
+        }</string>
     <string name="notifications_label">Notìficas</string>
+    <string name="notifications_categories_off">{count, plural,
+        =1      {Una categoria disativada}
+        other   {# categorias disativadas}
+        }</string>
+    <string name="runtime_permissions_additional_count">{count, plural,
+        =1      {Unu permissu additzionale}
+        other   {# permissos additzionales}
+        }</string>
+    <string name="unused_apps_summary">{count, plural,
+        =1      {Una aplicatzione chene impreare}
+        other   {# aplicatziones chene impreare}
+        }</string>
+    <string name="app_link_open_always_summary">{count, plural,
+        =1      {S\'apl. narat chi podet gestire 1 ligòngiu}
+        other   {S\'apl. narat chi podet gestire # ligòngios}
+    }</string>
     <string name="usage_access_description">S\'atzessu a s\'impreu cunsentit a un\'aplicatzione de monitorare cales aplicatziones est impreende e cantu a s\'ispissu, e fintzas chi est s\'operadore telefònicu tuo, is impostatzione de sa limba e àteros detàllios.</string>
     <string name="usb_use_tethering">Ancoràgiu web USB</string>
     <string name="usb_pref">USB</string>
     <string name="usb_summary_tether">Ancoràgiu web USB</string>
     <string name="usb_summary_tether_power">Ancoràgiu web e alimentatzione USB</string>
+    <string name="memory_usage_apps_summary">{count, plural,
+        =1      {1 aplicatzione at impreadu memòria in s\'ùrtimu {time}}
+        other   {# aplicatziones ant impreadu memòria in is ùrtimos {time}}
+        }</string>
+    <string name="zen_modes_access_warning_dialog_title">Boles chi <xliff:g id="app" example="Tasker">%1$s</xliff:g> tèngiat atzessu a is Modalidades?</string>
+    <string name="zen_modes_access_warning_dialog_summary">S\'aplicatzione at a pòdere ativare e disativare sa modalidade No istorbes, gestire e ativare is Modalidades e modificare is cunfiguratziones acapiadas.</string>
+    <string name="zen_modes_access_revoke_warning_dialog_title">Boles revocare s\'atzessu de <xliff:g id="app" example="Tasker">%1$s</xliff:g> a is Modalidades?</string>
+    <string name="zen_modes_access_revoke_warning_dialog_summary">Totu is modalidades creadas dae custa aplicatzione ant a èssere cantzelladas.</string>
     <string name="work_profile_usage_access_warning">Sa disativatzione a s\'atzessu de s\'impreu pro custa aplicatzione non
         prevenit s\'amministradore tuo dae su de mantènnere su rastru de s\'impreu de datos pro is aplicatziones in su profilu de traballu tuo</string>
+    <string name="full_screen_intent_title">Notìficas a ischermu prenu</string>
+    <string name="permit_full_screen_intent">Permite notìficas a ischermu prenu dae custa aplicatzione</string>
+    <string name="write_system_preferences_page_title">Iscritura de preferèntzias de sistema</string>
+    <string name="write_system_preferences_switch_title">Permiti chi custa aplicatzione potzat modificare is preferèntzias de sistema pro tene</string>
+    <string name="write_system_preferences_footer_description">Custu permissu permitit a un\'aplicatzione de modificare preferèntzias printzipales de sistema.</string>
     <string name="admin_profile_owner_message">S\'amministradore tuo podet monitorare e gestire aplicatziones e datos
         assotziados cun custu dispositivu, incluende impostatziones, permissos, atzessu 
         corporativu, atividade de rete, e informatziones subra sa positzione de su dispositivu.</string>
@@ -501,64 +1223,293 @@
         assotziados cun custu dispositivu, incluende impostatziones, permissos, atzessu 
         corporativu, atividade de rete, e informatziones subra sa positzione de su dispositivu.</string>
     <string name="operator_warning">Is datos de s\'operadore podent èssere diferentes dae sa contabilidade de su dispositivu</string>
+    <string name="data_saver_unrestricted_summary">{count, plural,
+        =1      {Un\'aplicatzione tenet permissu pro impreare is datos mòbiles illimitados cando su Rispàrmiu de datos est ativu}
+        other   {# aplicatziones tenent permissu pro impreare is datos mòbiles illimitados cando su Rispàrmiu de datos est ativu}
+       }</string>
+    <string name="billing_cycle_days_left">{count, plural,
+        =1      {mancat una die}
+        other   {mancant # dies}
+       }</string>
+    <string name="unrestricted_data_saver">Datos mòbiles illimitados</string>
+    <string name="unrestricted_app_title">Impreu de datos mòbiles illimitados</string>
+    <string name="unrestricted_app_summary">Permite s\'atzessu a is datos mòbiles illimitados cando su Rispàrmiu de datos est ativu</string>
+    <string name="premium_sms_none">Nissuna aplicatzione installada at pedidu s\'SMS prèmium</string>
+    <string name="premium_sms_access">SMS prèmium</string>
+    <string name="double_tap_power_title">Toca duas bortas su butone de allughidura</string>
+    <string name="double_tap_power_enabled">Imprea su tocu dòpiu</string>
+    <string name="double_tap_power_target_action_category">Toca duas bortas su butone de allughidura</string>
     <string name="double_tap_power_camera_action_title">Aberi sa càmera</string>
     <string name="double_tap_power_camera_action_summary">Atzede a sa càmera</string>
+    <string name="gesture_settings_activity_title">Navigatzione gestuale</string>
     <string name="fingerprint_swipe_for_notifications_title">Iscurre s\'imprenta digitale pro is notìficas</string>
     <string name="fingerprint_gesture_screen_title">Iscurre s\'imprenta digitale</string>
     <string name="enterprise_privacy_header">Pro frunire s\'atzessu a is datos de traballu, s\'organizatzione diat pòdere modificare is impostatziones e installare su programma in su dispositivu.\n\nPro àteros detàllios, cuntata s\'amministradore de s\'organizatzione tua.</string>
     <string name="enterprise_privacy_exposure_changes_category">Càmbios fatos dae s\'amministradore de s\'organizatzione</string>
     <string name="enterprise_privacy_none">Perunu</string>
+    <string name="enterprise_privacy_number_packages_lower_bound">{count, plural,
+        =1      {Mìnimu un\'aplicatzione}
+        other   {Mìnimu # aplicatziones}
+       }</string>
+    <string name="enterprise_privacy_number_packages">{count, plural,
+        =1    {Un\'aplicatzione}
+        other {# aplicatziones}
+        }</string>
+    <string name="enterprise_privacy_number_ca_certs">{count, plural,
+        =1      {Mìnimu unu tzertificadu CA}
+        other   {Mìnimu # tzertificados CA}
+        }</string>
     <string name="enterprise_privacy_lock_device">S\'amministradore podet blocare su dispositivu e torrare a impostare sa crae</string>
     <string name="enterprise_privacy_wipe_device">S\'amministradore podet cantzellare cada datu de su dispositivu</string>
+    <string name="enterprise_privacy_number_failed_password_wipe">{count, plural,
+        =1      {# tentativu}
+        other   {# tentativos}
+        }</string>
     <string name="learn_more">Àteras informatziones</string>
+    <string name="default_camera_app_title">{count, plural,
+        =1      {Aplicatzione de càmera}
+        other   {Aplicatziones de càmera}
+        }</string>
+    <string name="default_email_app_title">{count, plural,
+        =1      {Aplicatzione de posta eletrònica}
+        other   {Aplicatziones de posta eletrònica}
+        }</string>
+    <string name="default_phone_app_title">{count, plural,
+        =1      {Aplicatzione de telèfonu}
+        other   {Aplicatziones de telèfonu}
+        }</string>
     <string name="storage_images">Immàgines</string>
     <string name="storage_videos">Vìdeos</string>
     <string name="storage_audio">Àudio</string>
+    <string name="storage_documents">Documentos</string>
     <string name="storage_other">Àteru</string>
     <string name="storage_apps">Aplicatziones</string>
     <string name="storage_system">Sistema</string>
+    <string name="storage_os_name">Android <xliff:g id="version" example="8">%s</xliff:g></string>
+    <string name="storage_temporary_files">Archìvios temporàneos de sistema</string>
+    <string name="autofill_passwords_count">{count, plural,
+        =1      {Una crae}
+        other   {# craes}
+        }</string>
+    <string name="account_dashboard_title_with_passkeys">Craes, passkeys e contos</string>
+    <string name="credman_on_off_switch_content_description">%1$s on/off</string>
+    <string name="credman_main_settings_intro_text">Sèbera su servìtziu chi preferes pro sarvare is datos pro is cussìgios de identificatzione e de cumpletamentu in automàticu. Ativa àteros servìtzios si boles chi potzant frunire cussìgios.</string>
     <string name="location_category">Positzione</string>
     <string name="show_operator_name_title">Nùmene de sa rete</string>
     <string name="media_output_title">Reprodue cuntenutos multimediales cun</string>
     <string name="media_output_label_title">Reprodue <xliff:g id="label" example="Music Player">%s</xliff:g> in</string>
+    <string name="media_output_audio_sharing">Cumpartzidura de àudio</string>
     <string name="network_disconnected">Disconnètidu</string>
     <string name="network_connected">Collegadu</string>
     <string name="wifi_no_related_sim_card">Perunu</string>
     <string name="mobile_network_sim_name_label">Nùmene</string>
     <string name="mobile_network_sim_name_rename">Sarva</string>
+    <string name="satellite_setting_disabled_summary">Imbia e retzi messàgios de testu tràmite satèllite. No incluidu in su contu tuo.</string>
+    <string name="keywords_satellite_setting">Messàgios satellitares, connessione satellitare</string>
+    <string name="category_name_about_satellite_messaging">Informatziones de <xliff:g id="subject" example="satellite messaging">%1$s</xliff:g></string>
+    <string name="title_about_satellite_setting">Podes imbiare e retzire messàgios impreende sa messagìstica satellitare cun unu contu de <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g></string>
+    <string name="category_title_your_satellite_plan">Su contu tuo de <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g></string>
+    <string name="summary_add_satellite_setting">Àteras informatziones</string>
+    <string name="title_satellite_connection_guide_for_manual_type">Imbia unu messàgiu a unu nùmeru de telèfonu</string>
+    <string name="summary_satellite_connection_guide_for_manual_type">Si non tenes una rete mòbile, as a bìdere un\'optzione pro impreare sa messagìstica satellitare.</string>
+    <string name="title_supported_service_for_manual_type">Sighi is passos pro ti connètere a su satèllite</string>
+    <string name="summary_supported_service_for_manual_type">A pustis chi su telèfonu si siat connètidu, as a pòdere imbiare messàgios a chie si siat, fintzas a is servìtzios de emergèntzia.</string>
+    <string name="satellite_setting_summary_more_information">Podet èssere chi sa connessione satellitare siat prus lenta e chi siat a disponimentu isceti in zonas cuncretas. Is cunditziones meteorològicas e tzertas istruturas podent influire in sa connessione via satèllite. Is mutidas via satèllite non sunt a disponimentu, ma is mutidas de emergèntzia si podent connètere.\n\nPodet èssere chi is modìficas a su contu tuo tardent a èssere mustradas in sa Cunfiguratzione. Pone·ti in cuntatu cun <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> pro àteras informatziones.</string>
+    <string name="more_about_satellite_messaging">Àteras informatziones in pitzus de <xliff:g id="subject" example="satellite messaging">%1$s</xliff:g></string>
+    <string name="satellite_warning_dialog_title">Non faghet a ativare <xliff:g id="function" example="bluetooth">%1$s</xliff:g></string>
+    <string name="satellite_warning_dialog_content">Pro ativare <xliff:g id="function" example="bluetooth">%1$s</xliff:g>, prima depes serrare sa connessione satellitare</string>
+    <string name="category_title_satellite_connectivity">Connessione satellitare</string>
+    <string name="title_satellite_setting_connectivity">Connessione satellitare</string>
+    <string name="description_satellite_setting_connectivity">connessione satellitare</string>
+    <string name="description_satellite_setting_messaging">connessione satellitare</string>
+    <string name="title_have_satellite_data_plan">S\'impreu de datos est inclùdidu in su contu tuo</string>
     <string name="sim_action_yes">Eja</string>
     <string name="sim_action_cancel">Annulla</string>
+    <string name="sim_onboarding_dialog_starting_title">Cunfigura is preferèntzias de sa SIM</string>
     <string name="primary_sim_calls_title">Mutidas</string>
+    <string name="sim_action_restart_dialog_title">Torra a aviare pro impreare duas SIM</string>
+    <string name="sim_action_restart_dialog_msg">Pro impreare duas SIM a su pròpiu tempus, torra a aviare su dispositivu e ativa ambas SIM</string>
+    <string name="sim_action_restart_dialog_cancel">Imprea <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> isceti</string>
+    <string name="sim_onboarding_setup">Cumintza</string>
     <string name="sim_onboarding_close">Serra</string>
+    <string name="imei_primary">IMEI (primària)</string>
+    <string name="meid_primary">MEID (primària)</string>
+    <string name="choose_sim_text">{count, plural,
+        =1      {1 SIM est a disponimentu in custu dispositivu, però isceti una podet èssere impreada in simultànea}
+        =2      {2 SIM sunt a disponimentu in custu dispositivu, però isceti una podet èssere impreada in simultànea}
+        other   {# SIM sunt a disponimentu in custu dispositivu, però isceti una podet èssere impreada in simultànea}
+        }</string>
     <string name="wifi_warning_return_button">AB</string>
+    <string name="enable_desktop_mode">Ativa is ventanas de forma lìbera</string>
+    <string name="enable_desktop_mode_on_secondary_display">Ativa is ventanas de forma lìbera in s\'ischermu segundàriu</string>
+    <string name="accessibility_usage_summary">{count, plural,
+        =1      {Un\'aplicatzione tenet atzessu cumpletu a su dispositivu}
+        other   {# aplicatziones tenent atzessu cumpletu a su dispositivu}
+        }</string>
     <string name="wfc_disclaimer_location_title_text">Positzione</string>
     <string name="wifi_disconnect_button_text">Disconnete</string>
+    <string name="enable_16k_pages">Avia cun mannària de pàgina 16KB</string>
+    <string name="enable_16k_pages_summary">Avia su dispositivu impreende su nùcleu cumpatìbile cun mannària de pàgina 16KB</string>
+    <string name="confirm_enable_16k_pages_title">Passa dae sa modalidade de 4KB a cussa de 16KB</string>
+    <string name="confirm_enable_4k_pages_title">Passa dae sa modalidade de 16KB a cussa de 4KB</string>
+    <string name="confirm_format_ext4_title">Boles formatare su dispositivu a ext4 (netzessàriu pro sa modalidade 16KB)?</string>
     <string name="confirm_ext4_button_text">Cantzella totu is datos</string>
+    <string name="confirm_oem_unlock_for_16k_title">Est netzessàriu a isblocare su bootloader</string>
+    <string name="page_agnostic_4k_pages_title">Impreende sa modalidade 4KB indipendente de is pàginas</string>
+    <string name="page_agnostic_16k_pages_title">Impreende sa modalidade 16KB indipendente de is pàginas</string>
+    <string name="page_agnostic_notification_channel_name">Modalidade 16KB indipendente de is pàginas</string>
+    <string name="page_agnostic_notification_action">Àteras informatziones</string>
+    <string name="enable_16k_app_compat_details">S\'aplicatzione at a èssere esecutada in modalidade de cumpatibilidade de mannària de pàgina in dispositivu de 16 KB cando ativadu o disativadu.</string>
     <string name="default_app_none">Perunu</string>
     <string name="lockscreen_privacy_not_secure">Pro dd\'impreare, imposta unu blocu de ischermu</string>
     <string name="media_controls_title">Cuntenutos multimediales</string>
     <string name="calls_preference_title">Mutidas</string>
     <string name="mobile_data_connection_active">Collegadu</string>
     <string name="apps_dashboard_title">Aplicatziones</string>
+    <string name="multiple_users_main_switch_title">Permite su càmbiu de utente</string>
+    <string name="multiple_users_title_keywords">prus, utentes, profilos, gente, contos, cambiare, meda</string>
     <string name="smart_forwarding_missing_alert_dialog_text">AB</string>
+    <string name="require_cellular_encryption_title">Permite isceti retes tzifradas</string>
+    <string name="require_cellular_encryption_summary">Custu est prus seguru però podet limitare sa connessione a sa rete mòbile dae tzertas positziones. Is mutidas de emergèntzia sunt semper permìtidas.</string>
+    <string name="thread_network_settings_main_switch_title">Imprea Thread</string>
+    <string name="thread_network_settings_footer_title">Thread t\'agiudat a connètere is dispositivos de domos inteligentes, e megiorat s\'efitzèntzia e su rendimentu.\n\nSi est ativu, custu dispositivu at a pòdere intrare a is retes Thread, su chi at a permìtere a custu telèfonu de controllare dispositivos cumpatìbiles cun Matter.</string>
+    <string name="thread_network_settings_learn_more">Àteras informatziones in pitzus de Thread</string>
     <string name="bluetooth_connect_access_dialog_positive">Connete</string>
+    <string name="reboot_dialog_enable_freeform_support">Tocat a riaviare su dispositivu pro ativare su suportu de ventanas a forma lìbera.</string>
+    <string name="reboot_dialog_override_desktop_mode">Tocat a riaviare su dispositivu pro atualizare sa disponibilidade de is ventanas a forma lìbera.</string>
+    <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">Tocat a riaviare su dispositivu pro ativare su suportu de ventanas a forma lìbera in ischermos segundàrios.</string>
+    <string name="bluetooth_details_audio_device_types_title">Tipu de dispositivu de àudio</string>
     <string name="bluetooth_details_audio_device_type_unknown">No impostadu</string>
+    <string name="bluetooth_details_audio_device_type_hearing_aid">Dispositivu de ascurtu</string>
+    <string name="bluetooth_details_audio_device_type_carkit">Vetura</string>
     <string name="bluetooth_details_audio_device_type_other">Àteru</string>
     <string name="find_broadcast_password_dialog_password_error">Crae isballiada</string>
+    <string name="background_install_preference_summary">{count, plural,
+        =1    {Un\'aplicatzione}
+        other {# aplicatziones}
+        }</string>
+    <string name="background_install_before">{count, plural,
+        =1    {Aplicatziones installadas s\'ùrtimu mese}
+        other {Aplicatziones installadas is ùrtimos # meses}
+        }</string>
+    <string name="background_install_after">{count, plural,
+        =1    {Aplicatziones installadas prus de unu mese a oe}
+        other {Aplicatziones installadas prus de # meses a oe}
+        }</string>
     <string name="color_selector_dialog_save">Sarva</string>
     <string name="color_selector_dialog_cancel">Annulla</string>
     <string name="contrast_medium">Mesanu</string>
+    <string name="audio_seek_bar_state_left_first">Àudio <xliff:g id="percent_left">%1$s</xliff:g> a manca, <xliff:g id="percent_right">%2$s</xliff:g> a dereta</string>
+    <string name="audio_seek_bar_state_right_first">Àudio <xliff:g id="percent_right">%1$s</xliff:g> a dereta, <xliff:g id="percent_left">%2$s</xliff:g> a manca</string>
+    <string name="media_drm_settings_title">Cunfiguratziones DRM multimediale</string>
+    <string name="fingerprint_acquired_imager_dirty_udfps">Lìmpia s\'àrea de su sensore in s\'ischermu e torra·nche a proare</string>
+    <string name="sim_category_converted_sim">Cunvertidu a eSIM. Tira·nche e iscarta.</string>
+    <string name="sync_across_devices_title">Sincroniza intre dispositivos</string>
+    <string name="device_diagnostics_title">Diàgnosi de su dispositivu</string>
+    <string name="audio_sharing_title">Cumpartzidura de àudio</string>
+    <string name="audio_sharing_switch_title">Cumpartzi s\'àudio</string>
+    <string name="calls_and_alarms_device_title">Mutidas e isvèllias</string>
+    <string name="audio_sharing_description">Permite a sa gente de ascurtare is elementos multimediales impare a tue. Is àteras persones ant a dèpere tènnere is auriculares LE Audio issoro.</string>
+    <string name="audio_sharing_device_group_title">Dispositivos multimediales ativos</string>
+    <string name="audio_sharing_call_audio_title">Mutidas de àudio</string>
+    <string name="audio_sharing_call_audio_description">Riprodui isceti in <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
+    <string name="audio_sharing_test_sound_title">Riprodui unu sonu de proa</string>
+    <string name="audio_sharing_test_sound_description">Chie si siat chi siat ascurtende ddu diat dèpere intèndere</string>
+    <string name="audio_sharing_stream_settings_title">Detàllios de s\'emissione de àudio</string>
     <string name="audio_sharing_stream_name_title">Nùmene</string>
     <string name="audio_sharing_stream_password_title">Crae</string>
+    <string name="audio_sharing_stream_compatibility_title">Megiora sa cumpatibilidade</string>
+    <string name="audio_sharing_stream_compatibility_description">Agiudat a connètere tzertos dispositivos, comente dispositivos de àudio, minimende sa calidade de s\'àudio</string>
+    <string name="audio_sharing_stream_compatibility_disabled_description">Disativat sa cumpartzidura de àudio pro cunfigurare sa cumpatibilidade</string>
+    <string name="audio_sharing_nearby_audio_title">Ascurta àudio a curtzu</string>
+    <string name="audio_sharing_footer_description">Sa cumpartzidura de àudio est cumpatìbile cun Auracast™</string>
+    <string name="audio_sharing_stream_name_dialog_title">Nòmine de emissione de àudio</string>
+    <string name="audio_sharing_stream_password_dialog_title">Crae de s\'emissione de àudio</string>
+    <string name="audio_sharing_media_device_group_title">Àteros dispositivos multimediales</string>
+    <string name="audio_sharing_share_dialog_title">Cumpartzi s\'àudio</string>
+    <string name="audio_sharing_share_dialog_subtitle"><xliff:g example="My buds1" id="device_name1">%1$s</xliff:g> e <xliff:g example="My buds2" id="device_name2">%2$s</xliff:g></string>
+    <string name="audio_sharing_share_button_label">Cumpartzi s\'àudio</string>
+    <string name="audio_sharing_share_with_dialog_title">Boles cumpartzire s\'àudio cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g>?</string>
+    <string name="audio_sharing_share_with_more_dialog_title">Cumpartzi s\'àudio cun un\'àteru dispositivu</string>
+    <string name="audio_sharing_share_with_button_label">Cumpartzi cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
     <string name="audio_sharing_close_button_label">Serra</string>
+    <string name="audio_sharing_dialog_connect_device_content">Connete àteros auriculares cumpatìbiles, o cumpartzi su nòmine e sa crae de s\'emissione cun s\'àtera persone</string>
+    <string name="audio_sharing_dialog_pair_device_content">Assòtzia àteros auriculares cumpatìbiles, o cumpartzi su còdighe QR de s\'emissione de àudio cun s\'àtera persone</string>
+    <string name="audio_sharing_sharing_label">Cumpartzidura de àudio</string>
+    <string name="audio_sharing_qrcode_button_label">Mustra còdighe QR</string>
+    <string name="audio_sharing_notification_title">Ses cumpartzende àudio</string>
+    <string name="audio_sharing_notification_content">Sa gente chi siat ascurtende at a intèndere is elementos multimediales tuos, ma no is mutidas.</string>
+    <string name="audio_sharing_stop_button_label">Firma sa cumpartzidura</string>
     <string name="audio_sharing_settings_button_label">Impostatziones</string>
     <string name="audio_sharing_disconnect_dialog_title">Sèbera unu dispositivu de disconnètere</string>
     <string name="audio_sharing_dialog_disconnect_content">Isceti duos dispositivos podent cumpartzire àudio a su pròpiu tempus</string>
     <string name="audio_sharing_disconnect_device_button_label">Disconnete <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
     <string name="audio_sharing_stop_dialog_title">Boles connètere <xliff:g example="My buds" id="device_name">%1$s</xliff:g>?</string>
+    <string name="audio_sharing_stop_dialog_content">As a firmare sa cumpartzidura de àudio cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
+    <string name="audio_sharing_stop_dialog_with_two_content">As a firmare sa cumpartzidura de àudio cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g> e <xliff:g example="My buds2" id="device_name2">%2$s</xliff:g></string>
+    <string name="audio_sharing_stop_dialog_with_more_content">As a firmare sa cumpartzidura de àudio cun is auricolares connètidos</string>
     <string name="audio_sharing_connect_button_label">Connete</string>
+    <string name="audio_sharing_sharing_stopped_label">Cumpartzidura de àudio firmada</string>
+    <string name="audio_sharing_confirm_dialog_title">Connete unu dispositivu cumpatìbile</string>
+    <string name="audio_sharing_comfirm_dialog_content">Pro cumintzare a cumpartzire àudio, in antis connete is auricolares LE Audio a su telèfonu tuo</string>
+    <string name="audio_sharing_switch_active_button_label">Càmbia a <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
+    <string name="audio_sharing_progress_dialog_start_stream_content">Aviu de sa trasmissione àudio in cursu\u2026</string>
+    <string name="audio_sharing_progress_dialog_add_source_content">Cumpartzende cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g>\u2026</string>
+    <string name="progress_dialog_connect_device_content">Connetende cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g>\u2026</string>
+    <string name="audio_sharing_retry_dialog_title">No at fatu a cumpartzire s\'àudio</string>
+    <string name="audio_sharing_retry_dialog_content">Calicuna cosa no est andada bene. Torra a proare.</string>
+    <string name="audio_sharing_incompatible_dialog_title">No at fatu a cumpartzire àudio cun <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
+    <string name="audio_sharing_incompatible_dialog_content">Sa cumpartzidura de àudio funtzionat isceti cun auricolares cumpatìbiles cun LE Audio</string>
+    <string name="audio_streams_category_title">Connete a un\'emissione de àudio de consumu bàsciu</string>
+    <string name="audio_streams_pref_title">Emissiones de àudio a curtzu</string>
+    <string name="audio_streams_title">Emissiones de àudio</string>
+    <string name="audio_streams_qr_code_summary">Connete a un\'emissione de àudio pro mèdiu de unu còdighe QR</string>
     <string name="audio_streams_disconnect">Disconnete</string>
     <string name="audio_streams_connect">Connete</string>
+    <string name="audio_streams_add_source_bad_code_state_summary">Controlla sa crae e torra a proare</string>
+    <string name="audio_streams_add_source_failed_state_summary">Conessione faddida. Torra a proare.</string>
+    <string name="audio_streams_dialog_stream_is_not_available">S\u0027emissione de àudio no est a disponimentu</string>
+    <string name="audio_streams_is_not_playing">Custa emissione de àudio no est riproduende nudda immoe</string>
     <string name="audio_streams_dialog_close">Serra</string>
+    <string name="audio_streams_dialog_listen">Ascurta</string>
+    <string name="audio_streams_dialog_listen_to_audio_stream">Ascurta un\'emissione de àudio</string>
+    <string name="audio_streams_dialog_control_volume">S\'emissione de àudio at a èssere riproduida in <xliff:g example="LE headset" id="device_name">%1$s</xliff:g>. Imprea custu dispositivu pro controllare su volùmene.</string>
+    <string name="audio_streams_dialog_cannot_listen">Non faghet a ascurtare s\u0027emissione de àudio</string>
+    <string name="audio_streams_dialog_default_device">auricolares connètidos cumpatìbiles</string>
+    <string name="audio_streams_activity_title">Emissiones de àudio</string>
+    <string name="audio_streams_no_password_summary">Nissuna crae</string>
     <string name="audio_streams_dialog_learn_more">Àteras informatziones</string>
+    <string name="audio_streams_dialog_cannot_play">Non faghet a riproduire custa emissione de àudio in <xliff:g example="LE headset" id="device_name">%1$s</xliff:g>.</string>
+    <string name="audio_streams_listening_now">Ascurtende immoe</string>
+    <string name="audio_streams_present_now">In pàusa dae su host</string>
+    <string name="audio_streams_media_service_notification_leave_broadcast_text">Firma s\'ascurtu</string>
+    <string name="audio_streams_dialog_no_le_device_title">Connete auricolares cumpatìbiles</string>
+    <string name="audio_streams_dialog_no_le_device_button">Connete unu dispositivu</string>
+    <string name="audio_streams_detail_page_title">Detàllios de s\'emissione de àudio</string>
+    <string name="audio_streams_qr_code_page_title">Còdighe QR de s\'emissione àudio</string>
+    <string name="audio_streams_qr_code_page_password">Crae: <xliff:g example="123" id="password">%1$s</xliff:g></string>
+    <string name="audio_streams_qr_code_page_description">Pro ascurtare <xliff:g example="Local Music" id="stream_name">%1$s</xliff:g>, àtera gente podet connètere auricolares cumpatìbiles a su dispositivu Android issoro. Podent a pustis iscansionare custu còdighe QR.</string>
+    <string name="audio_streams_main_page_title">Agata un\'emissione de àudio</string>
+    <string name="audio_streams_main_page_subtitle">Ascurta unu dispositivu chi siat cumpartzende àudio o una trasmissione Auracast acanta</string>
+    <string name="audio_streams_main_page_device_title">Su dispositivu de àudio tuo</string>
+    <string name="audio_streams_main_page_no_device_summary">Connete auricolares cumpatìbiles</string>
+    <string name="audio_streams_main_page_scan_section_title">Emissiones de àudio acanta</string>
+    <string name="audio_streams_main_page_scan_qr_code_summary">Cumintza a ascurtare iscansionende su còdighe QR de un\'emissione</string>
+    <string name="audio_streams_main_page_password_dialog_join_button">Ascurta un\'emissione</string>
+    <string name="audio_streams_main_page_qr_code_scanner_summary">Iscansiona unu còdighe QR de emissione de àudio pro dd\'ascurtare cun <xliff:g example="LE headset" id="device_name">%1$s</xliff:g></string>
+    <string name="audio_streams_main_page_password_dialog_cannot_edit">Non faghet a cumpartzire sa crae durante sa cumpartzidura. Pro modificare sa crae, in antis disativa sa cumpartzidura de àudio.</string>
+    <string name="audio_streams_main_page_password_dialog_format_alert">Sa crae depet tènnere intre 4 e 16 caràteres, isceti lìteras, nùmeros e sìmbolos</string>
+    <string name="audio_streams_qr_code_scanner_label">Iscansionadore de còdighes QR</string>
+    <string name="audio_streams_qr_code_help_with_link"><annotation id="link">Ti serbit agiudu?</annotation></string>
+    <string name="homepage_search">Chirca in sa cunfiguratzione</string>
+    <string name="keywords_contacts_storage">cuntatos, archiviatzione, contu</string>
+    <string name="contacts_storage_settings_title">Archiviatzione de cuntatos</string>
+    <string name="contacts_storage_device_only_preference_label">In su dispositivu isceti</string>
+    <string name="contacts_storage_device_only_preference_summary">Is cuntatos noos no ant a èssere sincronizados in su contu</string>
+    <string name="contacts_storage_no_account_set_summary">Nissuna cunfiguratzione predefinida</string>
+    <string name="contacts_storage_local_account_summary">In su dispositivu isceti</string>
+    <string name="contacts_storage_account_title">Dispositivu e %1$s</string>
+    <string name="contacts_storage_first_time_add_account_message">Agiunghe unu contu pro cumintzare</string>
+    <string name="contacts_storage_account_category_title">Positzione de su sarvamentu de is cuntatos</string>
+    <string name="search_gesture_feature_title">Faghe unu tzìrculu pro chircare</string>
 </resources>

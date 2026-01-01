@@ -17,6 +17,11 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="set_default_home_app">Cunfigura <xliff:g id="launcher_name" example="Launcher3">%1$s</xliff:g> comente s\'aplicatzione printzipale predefinida in is Cunfiguratziones</string>
+    <string name="split_app_usage_settings">Cunfiguratziones de impreu pro %1$s</string>
+    <string name="new_window_option_taskbar">Ventana noa</string>
+    <string name="manage_windows_option_taskbar">Gesti is ventanas</string>
+    <string name="app_pair_not_available">Sa croba de aplicatziones no est a disponimentu</string>
     <string name="widget_picker_widget_options_button_description">Àteras optziones</string>
     <string name="widget_picker_show_all_widgets_menu_item_title">Mustra totu is trastos</string>
     <string name="widget_preview_name_and_dims_content_description">        Trastu <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>, %2$d largu pro %3$d artu
@@ -26,6 +31,22 @@
     <string name="entertainment_widget_recommendation_category_label">Ispàssiu</string>
     <string name="social_widget_recommendation_category_label">Sotziale</string>
     <string name="others_widget_recommendation_category_label">Cussigiadu pro tie</string>
+    <string name="widget_cell_tap_to_show_add_button_label">Mustra su butone pro agiùnghere</string>
+    <string name="widget_cell_tap_to_hide_add_button_label">Cua su butone pro agiùnghere</string>
     <string name="widget_add_button_label">Agiunghe</string>
     <string name="widget_add_button_content_description">Agiunghe su trastu <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
+    <string name="widgets_list_expand_button_label">Mustra totu</string>
+    <string name="widgets_list_expand_button_content_description">Mustra totu is trastos</string>
+    <string name="widgets_list_expanded">Mustrende totu is trastos</string>
+    <string name="uninstall_private_system_shortcut_label">Disinstalla s\'aplicatzione</string>
+    <string name="bubble">Abbajolu</string>
+    <string name="landscape_mode_title">Modalidade orizontale</string>
+    <string name="landscape_mode_desc">Pone su telèfonu in modalidade orizontale</string>
+    <string name="app_archived_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> est archiviadu.</string>
+    <string name="app_unarchiving_action">iscarrigamentu e recùperu</string>
+    <string name="action_deep_shortcut">Menù de curtzadòrgios</string>
+    <string name="work_scheduler_button_content_description">Programmatzione aplicatziones traballu</string>
+    <string name="private_space_secondary_label">Toca pro configurare o abèrrere</string>
+    <string name="ps_container_unlock_button_content_description">Privadu, isblocadu.</string>
+    <string name="ps_container_lock_button_content_description">Privadu, blocadu.</string>
 </resources>
