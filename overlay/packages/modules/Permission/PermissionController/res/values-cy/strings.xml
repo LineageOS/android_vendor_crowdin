@@ -441,7 +441,7 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="incident_report_dialog_text">"Mae <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> yn gwneud cais i uwchlwytho adroddiad o wall o\u2019r ddyfais hon ar <xliff:g id="date" example="December 26, 2018">%2$s</xliff:g> am <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Mae adroddiadau gwallau yn cynnwys gwybodaeth bersonol am dy ddyfais neu wedi ei gofnodi gan apiau, er enghraifft enwau defnyddiwr, data lleoliad, manylion sy\u2019n adnabod y ddyfais, a gwybodaeth rhwydwaith. Rhanna adroddiadau am wallau dim ond gyda phobol ac apiau rwyt yn ymddiried ynddynt gyda\u2019r wybodaeth hyn.
 
 Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adroddiad am wall?"</string>
-    <string name="incident_report_error_dialog_text">"Roedd problem wrth brosesu'r adroddiad gwall ar gyfer <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>. O ganlyniad, gwrthodwyd rhannu data manwl dadfygio. Sori am yr ymyrraeth."</string>
+    <string name="incident_report_error_dialog_text">"Roedd problem wrth brosesu'r adroddiad nam ar gyfer <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>. O ganlyniad, gwrthodwyd rhannu data manwl dadfygio. Sori am yr ymyrraeth."</string>
     <string name="incident_report_dialog_allow_label">Caniatáu</string>
     <string name="incident_report_dialog_deny_label">Gwrthod</string>
     <string name="adjust_user_sensitive_title">Gosodiadau uwch</string>

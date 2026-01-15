@@ -615,7 +615,7 @@
     <string name="user_new_profile_name">Proffil newydd</string>
     <string name="user_info_settings_title">Gwybodaeth defnyddiwr</string>
     <string name="profile_info_settings_title">Gwybodaeth proffil</string>
-    <string name="user_need_lock_message">Cyn medru creu proffil cyfyngedig, rhaid gosod sgrin cloi i warchod dy apiau a data personol.</string>
+    <string name="user_need_lock_message">Cyn medru creu proffil cyfyngedig, rhaid gosod sgrin glo i warchod dy apiau a data personol.</string>
     <string name="user_set_lock_button">Gosod clo</string>
     <string name="user_switch_to_user">Newid i <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
     <string name="creating_new_user_dialog_message">Yn creu defnyddiwr newydd…</string>

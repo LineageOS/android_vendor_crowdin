@@ -138,6 +138,8 @@
     <string name="manage_trust_agents_summary">Perunu</string>
     <string name="bluetooth_settings">Bluetooth</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
+    <string name="bluetooth_pairing_confirmation_title">Avèrgua is còdighes de assòtziu</string>
+    <string name="bluetooth_pairing_confirmation_msg">Controlla chi custu còdighe cointzidat cun cussu de <xliff:g id="device_name" example="device_name">%1$s</xliff:g>.\n\nPro seguresa, no insertes custu còdighe in nissunu logu.</string>
     <string name="bluetooth_connecting_error_message">No at fatu a si connètere a <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_preference_found_media_devices">Dispositivos a disponimentu</string>
     <string name="bluetooth_device_context_connect">Connete</string>

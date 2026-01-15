@@ -214,8 +214,8 @@
     <string name="accessibility_desc_notification_shade">Cysgodi hysbysiadau.</string>
     <string name="accessibility_desc_quick_settings">Gosodiadau cyflym.</string>
     <string name="accessibility_desc_qs_notification_shade">Gosodiadau cyflym a chysgod Hysbysiadau.</string>
-    <string name="accessibility_desc_lock_screen">Sgrin cloi</string>
-    <string name="accessibility_desc_work_lock">Sgrin cloi gwaith</string>
+    <string name="accessibility_desc_lock_screen">Sgrin glo.</string>
+    <string name="accessibility_desc_work_lock">Sgrin glo gwaith</string>
     <string name="accessibility_desc_close">Cau</string>
     <string name="accessibility_quick_settings_dnd_none_on">distawrwydd llwyr</string>
     <string name="accessibility_quick_settings_dnd_alarms_on">larymau yn unig</string>
@@ -576,7 +576,7 @@
     <string name="wallet_secondary_label_updating">Yn diweddaru</string>
     <string name="wallet_secondary_label_device_locked">Datgloi i\u2019w ddefnyddio</string>
     <string name="wallet_error_generic">Roedd problem yn cael dy gardiau. Rho gynnig arall arni\u2019n hwyrach.</string>
-    <string name="wallet_lockscreen_settings_label">Gosodiadau\u2019r sgrin cloi</string>
+    <string name="wallet_lockscreen_settings_label">Gosodiadau\u2019r sgrin glo</string>
     <string name="qr_code_scanner_title">Sganiwr codau QR</string>
     <string name="qr_code_scanner_updating_secondary_label">Yn diweddaru</string>
     <string name="status_bar_work">Proffil gwaith</string>
@@ -612,10 +612,10 @@
     <string name="notification_channel_summary_automatic_silenced">&lt;b&gt;Statws:&lt;/b&gt; Wedi\u2019i ddisgyn i Tawel</string>
     <string name="notification_channel_summary_automatic_promoted">&lt;b&gt;Statws:&lt;/b&gt; Wedi\u2019i Osod yn Uwch</string>
     <string name="notification_channel_summary_automatic_demoted">&lt;b&gt;Statws:&lt;/b&gt; Wedi\u2019i Osod yn Is</string>
-    <string name="notification_channel_summary_priority_baseline">I\u2019w gweld ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin cloi</string>
-    <string name="notification_channel_summary_priority_bubble">I\u2019w gweld ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin cloi, yn ymddangos fel swigen</string>
-    <string name="notification_channel_summary_priority_dnd">I\u2019w gweld ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin cloi, yn anwybyddu Paid â Tharfu</string>
-    <string name="notification_channel_summary_priority_all">I\u2019w gweld ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin cloi, yn ymddangos fel swigen, yn anwybyddu Paid â Tharfu</string>
+    <string name="notification_channel_summary_priority_baseline">Yn ymddangos ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin glo</string>
+    <string name="notification_channel_summary_priority_bubble">Yn ymddangos ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin glo, yn ymddangos fel swigen</string>
+    <string name="notification_channel_summary_priority_dnd">Yn ymddangos ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin glo, yn anwybyddu Dim Tarfu</string>
+    <string name="notification_channel_summary_priority_all">Yn ymddangos ar frig hysbysiadau sgwrs ac fel llun proffil ar y sgrin glo, yn ymddangos fel swigen, yn anwybyddu Dim Tarfu</string>
     <string name="notification_priority_title">Blaenoriaeth</string>
     <string name="no_shortcut">Nid yw <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> yn cefnogi nodweddion sgwrsio</string>
     <string name="notification_unblockable_desc">Ni ellir addasu\'r hysbysiadau hyn.</string>
@@ -688,7 +688,7 @@
     <string name="keyboard_shortcut_search_category_system">System</string>
     <string name="keyboard_shortcut_search_category_input">Mewnbwn</string>
     <string name="group_system_access_system_settings">Agor gosodiadau</string>
-    <string name="group_system_lock_screen">Sgrin cloi</string>
+    <string name="group_system_lock_screen">Cloi\u2019r sgrin</string>
     <string name="keyboard_shortcut_group_input">Mewnbwn</string>
     <string name="keyboard_shortcut_group_applications">Apiau</string>
     <string name="keyboard_shortcut_group_applications_browser">Porwr</string>
@@ -773,7 +773,7 @@
     <string name="accessibility_quick_settings_edit">Golygu trefn y gosodiadau</string>
     <string name="accessibility_quick_settings_power_menu">Dewislen pŵer</string>
     <string name="accessibility_quick_settings_page">Tudalen <xliff:g name="current_page" example="1">%1$d</xliff:g> o <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
-    <string name="tuner_lock_screen">Sgrin cloi</string>
+    <string name="tuner_lock_screen">Sgrin glo</string>
     <string name="thermal_shutdown_dialog_help_text">Gweler y camau gofal</string>
     <string name="high_temp_dialog_help_text">Gweler y camau gofal</string>
     <string name="high_temp_alarm_title">Datgysyllta dy ddyfais</string>
@@ -913,9 +913,9 @@ two {Ychwanegwyd # reolydd.}
     <string name="controls_dialog_remove">Tynnu</string>
     <string name="controls_dialog_message">Awgrymwyd gan <xliff:g id="app" example="System UI">%s</xliff:g></string>
     <string name="controls_tile_locked">Dyfais dan glo</string>
-    <string name="controls_settings_show_controls_dialog_title">Dangos a rheoli dyfeisiau o\u2019r sgrin cloi?</string>
-    <string name="controls_settings_show_controls_dialog_message">Gellir ychwanegu rheolyddion ar gyfer dy ddyfeisiau allanol i\'r sgrin cloi.\n\nGall ap dy ddyfais ganiatáu i ti reoli rhai dyfeisiau heb ddatgloi dy ffôn neu lechen.\n\nGellir gwneud newidiadau ar unrhyw adeg yn Gosodiadau.</string>
-    <string name="controls_settings_trivial_controls_dialog_title">Rheoli dyfeisiau o\u2019r sgrin cloi?</string>
+    <string name="controls_settings_show_controls_dialog_title">Dangos a rheoli dyfeisiau o\u2019r sgrin glo?</string>
+    <string name="controls_settings_show_controls_dialog_message">Gellir ychwanegu rheolyddion ar gyfer dy ddyfeisiau allanol i\'r sgrin glo.\n\nGall ap dy ddyfais ganiatáu i ti reoli rhai dyfeisiau heb ddatgloi dy ffôn neu lechen.\n\nGellir gwneud newidiadau ar unrhyw adeg yn Gosodiadau.</string>
+    <string name="controls_settings_trivial_controls_dialog_title">Rheoli dyfeisiau o\u2019r sgrin glo?</string>
     <string name="controls_settings_trivial_controls_dialog_message">Gellir rheoli rhai dyfeisiau heb ddatgloi dy ffôn neu lechen. Bydd ap dy ddyfais yn pennu pa ddyfeisiau y gellid eu rheoli fel hyn.</string>
     <string name="controls_settings_dialog_neutral_button">Dim diolch</string>
     <string name="controls_settings_dialog_positive_button">Iawn</string>
