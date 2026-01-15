@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Gestione de imprenta</string>
     <string name="more_options_button">Àteras optziones</string>
     <string name="label_destination">Destinatzione</string>
     <string name="label_copies">Còpias</string>
@@ -24,14 +25,18 @@
     <string name="label_duplex">In dae in antis e a palas</string>
     <string name="label_orientation">Orientatzione</string>
     <string name="label_pages">Pàginas</string>
+    <string name="destination_default_text">Seletziona un\'imprentadora</string>
     <string name="template_all_pages">Totu <xliff:g id="page_count" example="100">%1$s</xliff:g></string>
     <string name="template_page_range">Intervallu de <xliff:g id="page_count" example="100">%1$s</xliff:g></string>
+    <string name="pages_range_example">pro es., 1—5,8,11—13</string>
     <string name="print_preview">Anteprima de imprenta</string>
     <string name="install_for_print_preview">Installa su visualizadore PDF pro s\'anteprima</string>
     <string name="printing_app_crashed">S\'aplicatzione de imprenta s\'est blocada</string>
     <string name="generating_print_job">Generende traballu de imprenta</string>
     <string name="save_as_pdf">Sarva comente PDF</string>
+    <string name="all_printers">Totu is imprentadoras…</string>
     <string name="print_dialog">Diàlogu de imprenta</string>
+    <string name="current_page_template"><xliff:g id="current_page">%1$d</xliff:g>/<xliff:g id="page_count">%2$d</xliff:g></string>
     <string name="page_description_template">Pàgina <xliff:g id="current_page" example="1">%1$d</xliff:g>
         de <xliff:g id="page_count" example="100">%2$d</xliff:g></string>
     <string name="summary_template">Resumu, còpias <xliff:g id="copies" example="1">%1$s</xliff:g>,
@@ -54,6 +59,11 @@
         <item quantity="one"><xliff:g id="count" example="1">%1$s</xliff:g> imprentadora agatada</item>
         <item quantity="other"><xliff:g id="count" example="2">%1$s</xliff:g> imprentadoras agatadas</item>
     </plurals>
+    <string name="printer_extended_description_template"><xliff:g id="print_service_label" example="Canon Print Service">%1$s</xliff:g> - <xliff:g id="printer_description" example="Printer under the stairs">%2$s</xliff:g></string>
+    <string name="printer_info_desc">Prus informatziones subra de custa imprentadora</string>
+    <string name="notification_channel_progress">Traballos de imprenta in esecutzione</string>
+    <string name="notification_channel_failure">Traballos de imprenta faddidos</string>
+    <string name="could_not_create_file">No at fatu a creare s\'archìviu</string>
     <string name="print_searching_for_printers">Chirchende imprentadoras...</string>
     <string name="print_no_printers">Peruna imprentadora agatada</string>
     <string name="printing_notification_title_template">Imprentende <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>

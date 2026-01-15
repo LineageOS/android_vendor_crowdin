@@ -234,7 +234,7 @@
     <string name="enterprise_privacy_installed_packages">Rhestr o apiau ar dy ddyfais</string>
     <string name="enterprise_privacy_usage_stats">Yr amser a data y\'i defnyddir ar bob ap</string>
     <string name="enterprise_privacy_network_logs">Log traffig rhwydwaith mwyaf diweddar</string>
-    <string name="enterprise_privacy_bug_reports">Adroddiad gwall mwyaf diweddar</string>
+    <string name="enterprise_privacy_bug_reports">Adroddiad nam mwyaf diweddar</string>
     <string name="enterprise_privacy_security_logs">Log diogelwch mwyaf diweddar</string>
     <string name="enterprise_privacy_none">Dim</string>
     <string name="enterprise_privacy_enterprise_installed_packages">Apiau wedi\'u gosod</string>
@@ -950,7 +950,7 @@
     <string name="reboot_safemode_action">Ailgychwyn i\'r modd diogel</string>
     <string name="reboot_safemode_confirm">Wyt ti am ailgychwyn y ddyfais ym modd diogel?</string>
     <string name="reboot_safemode_desc">Bydd hyn yn analluogi\'r holl apiau trydydd parti sydd wedi eu gosod. Byddan nhw\'n cael eu hadfer pan fyddi di\'n ailgychwyn eto.</string>
-    <string name="capturing_bugreport">Yn cipio adroddiad gwall</string>
+    <string name="capturing_bugreport">Yn cipio adroddiad nam</string>
     <string name="available_virtual_keyboard_category">Bysellfyrddau rhithwir ar gael</string>
     <string name="manage_keyboards">Rheoli bysellfyrddau</string>
     <string name="app_permission_summary_allowed">Caniateir</string>

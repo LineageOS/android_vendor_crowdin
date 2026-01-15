@@ -127,7 +127,7 @@
     <string name="clear_all">Clirio\'r cyfan</string>
     <string name="clear">Clirio</string>
     <string name="clear_all_message">Clirio\'r holl wybodaeth a chysylltiadau?</string>
-    <string name="emergency_info_footer">Gall ychwanegu gwybodaeth feddygol a chysylltiadau i\'w galw mewn argyfwng helpu\'r rhai sy\'n ymateb i sefyllfa argyfyngus.\n\nGall unrhyw un ddarllen y wybodaeth hon o dy sgrin cloi a deialu’r cysylltiadau gan dapio eu henwau heb orfod datgloi dy ffôn.</string>
+    <string name="emergency_info_footer">Gall ychwanegu gwybodaeth feddygol a chysylltiadau i\'w galw mewn argyfwng helpu\u2019r rhai sy\u2019n ymateb i sefyllfa argyfyngus.\n\nGall unrhyw un ddarllen y wybodaeth hon o\u2019r sgrin glo a deialu\u2019r cysylltiadau gan dapio eu henwau heb orfod datgloi dy ffôn.</string>
     <string name="settings_suggestion_title">Ychwanegu gwybodaeth ar gyfer argyfwng</string>
     <string name="settings_suggestion_body">Gadael i bobol weld dy wybodaeth mewn argyfwng</string>
     <string name="user_image_take_photo">Tynnu llun</string>

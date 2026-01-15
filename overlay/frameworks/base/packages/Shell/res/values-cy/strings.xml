@@ -18,7 +18,7 @@
     <string name="bugreport_notification_channel">Adroddiadau am wallau</string>
     <string name="bugreport_in_progress_title">Mae adroddiad <xliff:g id="id">#%d</xliff:g> yn cael ei greu.</string>
     <string name="bugreport_finished_title">Cafodd adroddiad <xliff:g id="id">#%d</xliff:g> ei gymryd.</string>
-    <string name="bugreport_updating_title">Yn ychwanegu manylion i\'r adroddiad gwall</string>
+    <string name="bugreport_updating_title">Yn ychwanegu manylion i\'r adroddiad nam</string>
     <string name="bugreport_updating_wait">Arhosa\u2026</string>
     <string name="bugreport_finished_text" product="watch">Bydd yr adroddiad am wall yn ymddangos ar y ffôn cyn bo hir.</string>
     <string name="bugreport_finished_text" product="tv">Tapia i rannu dy adroddiad am wall</string>
@@ -36,7 +36,7 @@
     <string name="bugreport_screenshot_action">Sgrinlun</string>
     <string name="bugreport_screenshot_taken">Tynnwyd sgrinlun yn llwyddiannus.</string>
     <string name="bugreport_screenshot_failed">Methwyd â chipio sgrinlun.</string>
-    <string name="bugreport_info_dialog_title">Manylion adroddiad gwall <xliff:g id="id">#%d</xliff:g></string>
+    <string name="bugreport_info_dialog_title">Manylion adroddiad nam <xliff:g id="id">#%d</xliff:g></string>
     <string name="bugreport_info_name">Enw ffeil</string>
     <string name="bugreport_info_title">Teitl y gwall</string>
     <string name="bugreport_info_description">Crynodeb o\'r gwall</string>

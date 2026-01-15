@@ -825,6 +825,10 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="face_recalibrate_notification_name">Isblocu cun sa cara</string>
     <string name="face_recalibrate_notification_title">Problema cun s\'Isblocu de cara</string>
     <string name="face_recalibrate_notification_content">Toca pro cantzellare su modellu de sa cara tua, a pustis torra·dda a agiùnghere</string>
+    <string name="face_sensor_privacy_enabled">Pro impreare s\'Isblocu cun sa cara, ativa <b>Atzessu a sa càmera</b> in is Cunfiguratziones &gt; Riservadesa</string>
+    <string name="fingerprint_recalibrate_notification_name">Isblocu cun imprenta de pòddighe</string>
+    <string name="fingerprint_recalibrate_notification_title">Non faghet a impreare su sensore de imprentas</string>
+    <string name="fingerprint_recalibrate_notification_content">Cuntata unu reparadore.</string>
     <string name="face_acquired_insufficient">Impossìbile creare su modellu de sa cara tua. Torra a proare.</string>
     <string name="face_acquired_too_bright">Tropu lughe. Proa cun prus pagu lughe.</string>
     <string name="face_acquired_too_dark">Tropu pagu lughe</string>
@@ -851,14 +855,24 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="face_acquired_dark_glasses_detected_alt">Ullieras iscuras rilevadas. Sa cara tua depet èssere visìbile de su totu.</string>
     <string-array name="face_acquired_vendor"/>
     <string name="face_error_hw_not_available">Impossìbile verificare sa cara. S\'hardware no est a disponimentu.</string>
+    <string name="face_error_timeout">Torra a proare s\'isblocu cun sa cara</string>
     <string name="face_error_no_space">Impossìbile archiviare datos noos de cara. Cantzella·nde una betza antis.</string>
     <string name="face_error_canceled">Operatzione de cara annullada.</string>
+    <string name="face_error_user_canceled">Isblocu cun sa cara annulladu dae s\'utente</string>
     <string name="face_error_lockout">Tropu tentativos. Torra·bi a proare.</string>
     <string name="face_error_lockout_permanent">Tropu tentativos. S\'isblocu cun sa cara no est a disponimentu.</string>
+    <string name="face_error_lockout_screen_lock">Tropu tentativos. Inserta·nche su blocu de ischermu.</string>
     <string name="face_error_unable_to_process">Impossìbile verificare sa cara. Torra a proare.</string>
+    <string name="face_error_not_enrolled">No as cunfiguradu s\'isblocu cun sa cara</string>
+    <string name="face_error_hw_not_present">S\'isblocu cun sa cara no est cumpatìbile cun custu dispositivu</string>
     <string name="face_error_security_update_required">Sensore disabilitadu in manera temporànea.</string>
     <string name="face_name_template">Cara: <xliff:g id="faceId" example="1">%d</xliff:g></string>
+    <string name="face_app_setting_name">Imprea s\'isblocu cun sa cara</string>
+    <string name="face_or_screen_lock_app_setting_name">Impreare s\'isblocu cun sa cara o su blocu de ischermu</string>
+    <string name="face_dialog_default_subtitle">Imprea sa cara pro sighire</string>
+    <string name="face_or_screen_lock_dialog_default_subtitle">Imprea sa cara o su blocu de ischermu pro sighire</string>
     <string-array name="face_error_vendor"/>
+    <string name="face_error_vendor_unknown">Calicuna cosa no est andada bene. Torra a proare.</string>
     <string name="face_icon_content_description">Icona de cara</string>
     <string name="permlab_readSyncSettings">lèghere impostatziones de sincronizatzione</string>
     <string name="permdesc_readSyncSettings">Permitit a s\'aplicatzione de lèghere is impostatziones de sincronizatzione pro unu contu. Pro esèmpiu, custu podet determinare si s\'aplicatzione Persones est sincronizada cun un\'àteru contu.</string>
@@ -930,6 +944,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="permdesc_startReviewPermissionDecisions">Permitit a su titulare de aviare s\'ischermu de revisione de detzisiones de permissos. Non diat dèpere serbire pro aplicatziones normales.</string>
     <string name="permlab_startViewAppFeatures">aviare sa visualizatzione de funtziones de aplicatziones</string>
     <string name="permdesc_startViewAppFeatures">Permitit a su titulare de aviare sa visualizatzione de informatziones de funtziones pro un\'aplicatzione.</string>
+    <string name="permlab_highSamplingRateSensors">atzèdere a is datos de su sensore a una frecuèntzia de campionamentu arta</string>
     <string name="permlab_updatePackagesWithoutUserAction">atualizare s\'aplicatzione chene de s\'interventu de s\'utente</string>
     <string name="permdesc_updatePackagesWithoutUserAction">Permitit a su propietàriu de atualizare s\'aplicatzione installada in antis chene s\'interventu de s\'utente</string>
     <string name="permlab_writeVerificationStateE2eeContactKeys">atualizare s\'istadu de verìfica de is craes de cuntatu E2EE chi giai tenent àteras aplicatziones</string>
@@ -941,6 +956,9 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     iscritas in s\'isblocu de s\'ischermu, e bloca sa tauledda o cantzella totu is datos de sa
     tauledda si s\'iscrient tropu craes isballiadas.</string>
     <string name="policydesc_watchLogin" product="tv">Controlla su nùmeru de craes isballiadas iscritas in s\'isblocu de s\'ischermu, e bloca su dispositivu Android TV o cantzella totu is datos de suos si s\'iscrient tropu craes isballiadas.</string>
+    <string name="policydesc_watchLogin" product="automotive">Controlla su nùmeru de craes isballiadas
+    iscritas in s\'isblocu de s\'ischermu, e bloca su sistema de infotenimentu o cantzella totu is datos de su
+    sistema de infotenimentu si s\'iscrient tropu craes isballiadas.</string>
     <string name="policydesc_watchLogin" product="default">Controlla su nùmeru de craes isballiadas
     iscritas in s\'isblocu de s\'ischermu, e bloca su telèfonu o cantzella totu is datos de su
     telèfonu si s\'iscrient tropu craes isballiadas.</string>
@@ -948,6 +966,9 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     iscritas in s\'isblocu de s\'ischermu, e bloca sa tauledda o cantzella totu custos datos de s\'utente
     si s\'iscrient tropu craes isballiadas.</string>
     <string name="policydesc_watchLogin_secondaryUser" product="tv">Controlla su nùmeru de craes isballiadas iscritas in s\'isblocu de s\'ischermu, e bloca su dispositivu Android TV o cantzella totu custos datos de s\'utente si s\'iscrient tropu craes isballiadas.</string>
+    <string name="policydesc_watchLogin_secondaryUser" product="automotive">Controlla su nùmeru de craes isballiadas
+    iscritas in s\'isblocu de s\'ischermu, e bloca su sistema de infotenimentu o cantzella totu is datos de custu
+    profilu si s\'iscrient tropu craes isballiadas.</string>
     <string name="policydesc_watchLogin_secondaryUser" product="default">Controlla su nùmeru de craes isballiadas
     iscritas in s\'isblocu de s\'ischermu, e bloca su telèfonu o cantzella totu custos datos de s\'utente
     si s\'iscrient tropu craes isballiadas.</string>
@@ -958,10 +979,13 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="policylab_wipeData">Cantzella totu is datos</string>
     <string name="policydesc_wipeData" product="tablet">Cantzella totu is datos de sa tauledda chene avisu, esecutende una resetada de sa fàbrica de is datos.</string>
     <string name="policydesc_wipeData" product="tv">Cantzella totu is datos de su dispositivu Android TV chene avisu, esecutende una resetada de sa fàbrica de is datos.</string>
+    <string name="policydesc_wipeData" product="automotive">Cantzella totu is datos de su sistema de infotenimentu chene avisu, esecutende una resetada de sa fàbrica de is datos.</string>
     <string name="policydesc_wipeData" product="default">Cantzella totu is datos de su telèfonu chene avisu, esecutende una resetada de sa fàbrica de is datos.</string>
+    <string name="policylab_wipeData_secondaryUser" product="automotive">Cantzella is datos de su profilu</string>
     <string name="policylab_wipeData_secondaryUser" product="default">Cantzella is datos de s\'utente</string>
     <string name="policydesc_wipeData_secondaryUser" product="tablet">Cantzella totu is datos de s\'utente in custa tauledda chene avisu.</string>
     <string name="policydesc_wipeData_secondaryUser" product="tv">Cantzella totu is datos de s\'utente in custu dispositivu Android TV chene avisu.</string>
+    <string name="policydesc_wipeData_secondaryUser" product="automotive">Cantzella is datos de custu profilu in custu sistema de infotenimentu chene avisu.</string>
     <string name="policydesc_wipeData_secondaryUser" product="default">Cantzella totu is datos de s\'utente in custu telèfonu chene avisu.</string>
     <string name="policylab_setGlobalProxy">Imposta su serbidore intermèdiu globale de su dispositivu</string>
     <string name="policydesc_setGlobalProxy">Imposta su serbidore intermèdiu globale de su dispositivu pro dd\'impreare cando sa normativa est ativa. Isceti da persone propietària podet impostare su serbidore intermèdiu globale.</string>
@@ -1200,6 +1224,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="keyguard_accessibility_expand_lock_area">Ammània ispàtziu de isblocu.</string>
     <string name="keyguard_accessibility_slide_unlock">Isblocu cun iscurrimentu.</string>
     <string name="keyguard_accessibility_pattern_unlock">Isblocu cun cumbinada.</string>
+    <string name="keyguard_accessibility_face_unlock">Isblocu cun sa cara.</string>
     <string name="keyguard_accessibility_pin_unlock">Isblocu cun pin.</string>
     <string name="keyguard_accessibility_sim_pin_unlock">Isblocu de sa SIM cun su PIN.</string>
     <string name="keyguard_accessibility_sim_puk_unlock">Isblocu de sa SIM cun su PUK.</string>
@@ -1232,6 +1257,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
         mancare custa funtzionalidade.</string>
     <string name="permlab_addVoicemail">agiùnghere messàgios in segreteria</string>
     <string name="permdesc_addVoicemail">Permitit a s\'aplicatzione de agiùnghere messàgios in sa segreteria tua.</string>
+    <string name="pasted_from_clipboard"><xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g> at incolladu cuntenutu dae sa punta de billete</string>
     <string name="more_item_label">Àteru</string>
     <string name="prepend_shortcut_label">Menù+</string>
     <string name="menu_meta_shortcut_label">Meta+</string>
@@ -1289,6 +1315,14 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     </string>
     <string name="duration_years_shortest">        <xliff:g id="count">%d</xliff:g>a
     </string>
+    <string name="duration_minutes_shortest_future">        de immoe a <xliff:g id="count">%d</xliff:g>m
+    </string>
+    <string name="duration_hours_shortest_future">        de immoe a <xliff:g id="count">%d</xliff:g>h
+    </string>
+    <string name="duration_days_shortest_future">        de immoe a <xliff:g example="1" id="count">%d</xliff:g>d
+    </string>
+    <string name="duration_years_shortest_future">        de immoe a <xliff:g id="count">%d</xliff:g>a
+    </string>
     <string name="duration_minutes_shortest_past">        <xliff:g id="count">%d</xliff:g> min a immoe
     </string>
     <string name="duration_hours_shortest_past">        <xliff:g id="count">%d</xliff:g> h a immoe
@@ -1309,6 +1343,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     </string>
     <string name="duration_hours_medium_future">        de immoe a <xliff:g id="count">%d</xliff:g> h
     </string>
+    <string name="duration_days_medium_future">        de immoe a <xliff:g example="1" id="count">%d</xliff:g>d
+    </string>
     <string name="duration_years_medium_future">        de immoe a <xliff:g id="count">%d</xliff:g> annos
     </string>
     <string name="duration_minutes_medium_past">        <xliff:g id="count">%d</xliff:g> min a immoe
@@ -1318,6 +1354,46 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="duration_days_medium_past">        <xliff:g example="1" id="count">%d</xliff:g> dies a immoe
     </string>
     <string name="duration_years_medium_past">        <xliff:g id="count">%d</xliff:g> annos a immoe
+    </string>
+    <string name="duration_minutes_relative">{count, plural,
+        =1 {# minutu a immoe}
+        other {# minutos a immoe}
+    }
+    </string>
+    <string name="duration_hours_relative">{count, plural,
+        =1 {# ora a immoe}
+        other {# oras a immoe}
+    }
+    </string>
+    <string name="duration_days_relative">{count, plural,
+        =1 {# die a oe}
+        other {# dies a oe}
+    }
+    </string>
+    <string name="duration_years_relative">{count, plural,
+        =1 {# annu a immoe}
+        other {# annos a immoe}
+    }
+    </string>
+    <string name="duration_minutes_relative_future">{count, plural,
+        =1 {# minutu}
+        other {# minutos}
+    }
+    </string>
+    <string name="duration_hours_relative_future">{count, plural,
+        =1 {# ora}
+        other {# oras}
+    }
+    </string>
+    <string name="duration_days_relative_future">{count, plural,
+        =1 {# die}
+        other {# dies}
+    }
+    </string>
+    <string name="duration_years_relative_future">{count, plural,
+        =1 {# annu}
+        other {# annos}
+    }
     </string>
     <string name="VideoView_error_title">Problema de su vìdeu</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Custu vìdeu no est bàlidu pro sa trasmissione in custu dispositivu.</string>
@@ -1369,6 +1445,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="capital_off">DISATIVADU</string>
     <string name="checked">ativadu</string>
     <string name="not_checked">disativadu</string>
+    <string name="selected">seletzionadu</string>
+    <string name="not_selected">non seletzionadu</string>
     <string name="rating_label">{ rating, plural,
         one {}=1 {Un\'isteddu de {max}}
         other {# isteddos de {max}}
@@ -1451,8 +1529,11 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="android_preparing_apk">Aprontende <xliff:g id="appname">%1$s</xliff:g>.</string>
     <string name="android_upgrading_starting_apps">Aviende aplicatziones.</string>
     <string name="android_upgrading_complete">Agabbende s\'aviu</string>
+    <string name="fp_power_button_enrollment_title">Pro agabbare sa cunfiguratzione, istuda s\'ischermu</string>
     <string name="fp_power_button_enrollment_button_text">Disativa</string>
+    <string name="fp_power_button_bp_title">Boles sighire cun sa verìfica de s\'imprenta tua?</string>
     <string name="fp_power_button_bp_positive_button">Istuda s\'ischermu</string>
+    <string name="fp_power_button_bp_negative_button">Sighi</string>
     <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> in esecutzione</string>
     <string name="heavy_weight_notification_detail">Toca pro torrare a su giogu</string>
     <string name="heavy_weight_switcher_title">Sèbera giogu</string>
