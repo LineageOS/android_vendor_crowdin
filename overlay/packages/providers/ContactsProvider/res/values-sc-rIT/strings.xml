@@ -21,4 +21,6 @@
         other {# cuntatos chi esistint giai pro garantire chi siant}
         }
     </string>
+    <string name="move_contacts_to_default_account_dialog_sync_button_text">Sincroniza</string>
+    <string name="move_contacts_to_default_account_dialog_cancel_button_text">Non sincronizes</string>
 </resources>

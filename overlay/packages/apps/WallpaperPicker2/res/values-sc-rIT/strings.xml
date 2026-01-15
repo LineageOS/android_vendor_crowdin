@@ -20,8 +20,13 @@
     <string name="more_photos">Àteras fotografias</string>
     <string name="preview_screen_description_editable">Previsualizatzione de s\'isfundu de s\'ischermu %1$s. Imprea duos pòddighes pro ti mòvere e pro s\'ismanniamentu</string>
     <string name="preview_screen_description_non_editable">Ischermu de anteprima de s\'isfundu %1$s</string>
+    <string name="folded_device_state_description">Serradu</string>
+    <string name="unfolded_device_state_description">Abertu</string>
+    <string name="full_preview_check_button_description">Editzione de s\'isfundu agabbada</string>
+    <string name="download_effects">Efetos de iscarrigamentos</string>
     <string name="wallpaper_preview_card_content_description_editable">Previsualizatzione de s\'isfundu in %1$s cando %2$s, tocu dòpiu pro modificare sa fotografia</string>
     <string name="wallpaper_preview_card_content_description_non_editable">Previsualizatzione de s\'isfundu in %1$s cando %2$s</string>
+    <string name="apply_wallpaper_title_text">Boles aplicare s\'isfundu\?</string>
     <string name="discard_changes_dialog_message">Boles iscartare is modìficas?</string>
     <string name="discard_changes_dialog_button_keep_editing">Sighi a modificare</string>
     <string name="discard_changes_dialog_button_discard">Iscarta</string>

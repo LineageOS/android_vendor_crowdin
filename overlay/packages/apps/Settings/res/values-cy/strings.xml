@@ -263,7 +263,7 @@
     <string name="lock_after_timeout_summary"><xliff:g id="timeout_string">%1$s</xliff:g> ar ôl terfyn amser</string>
     <string name="lock_immediately_summary_with_exception">Yn syth ar ôl terfyn amser, ond am pan wedi\u2019i gadw heb ei gloi gan <xliff:g id="trust_agent_name">%1$s</xliff:g></string>
     <string name="lock_after_timeout_summary_with_exception"><xliff:g id="timeout_string">%1$s</xliff:g> ar ôl terfyn amser, ond am pan fo wedi\u2019i gadw heb ei gloi gan <xliff:g id="trust_agent_name">%2$s</xliff:g></string>
-    <string name="owner_info_settings_title">Ychwanegu testun ar sgrin clo</string>
+    <string name="owner_info_settings_title">Ychwanegu testun ar y sgrin glo</string>
     <string name="owner_info_settings_summary">Dim</string>
     <string name="owner_info_settings_edit_text_hint">E.e. Android Aled.</string>
     <string name="location_settings_title">Lleoliad</string>
@@ -287,7 +287,7 @@ lleoliad perthynol dyfeisiau wedi\u2019u cysylltu.</string>
     <string name="account_settings_title">Cyfrifon</string>
     <string name="security_settings_title">Diogelwch</string>
     <string name="encryption_and_credential_settings_title">Amgryptio a thystnodiadau</string>
-    <string name="lockscreen_settings_title">Sgrin cloi</string>
+    <string name="lockscreen_settings_title">Sgrin glo</string>
     <string name="lockscreen_settings_what_to_show_category">Beth i\'w ddangos</string>
     <string name="disabled_by_administrator_summary">Dim ar gael</string>
     <string name="security_status_title">Statws diogelwch</string>
@@ -414,7 +414,7 @@ lleoliad perthynol dyfeisiau wedi\u2019u cysylltu.</string>
     <string name="go_to_settings">Mynd i\u2019r Gosodiadau</string>
     <string name="identity_check_biometric_error_cancel">Diddymu</string>
     <string name="identity_check_biometric_error_ok">Iawn</string>
-    <string name="identity_check_lockout_error_lock_screen">Sgrin cloi</string>
+    <string name="identity_check_lockout_error_lock_screen">Sgrin glo</string>
     <string name="security_settings_remoteauth_enroll_introduction_message">Mae Datgloi ag Oriawr yn fodd cyfleus arall o ddatgloi dy ffôn, er enghraifft, os fydd dy fysedd yn wlyb neu dy wyneb ddim yn cael ei adnabod.\n\nGellir defnyddio dy oriawr i ddatgloi\u2019r ffôn hwn pan fydd:</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">Dim nawr</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Parhau</string>
@@ -662,6 +662,8 @@ lleoliad perthynol dyfeisiau wedi\u2019u cysylltu.</string>
     <string name="bluetooth_enter_passkey_other_device">Mae\'n bosib bydd yn rhaid hefyd rhoi\'r allwedd hon ar y ddyfais arall.</string>
     <string name="bluetooth_pairing_shares_phonebook">Caniatáu mynediad at dy gysylltiadau a hanes galwadau</string>
     <string name="bluetooth_pairing_phonebook_toggle_text">Caniatáu mynediad at gysylltiadau a hanes galwadau hefyd</string>
+    <string name="bluetooth_pairing_confirmation_title">Gwiria codau paru</string>
+    <string name="bluetooth_pairing_confirmation_msg">Gwiria fod y cod hwn yr un fath â\'r un ar <xliff:g id="device_name" example="device_name">%1$s</xliff:g>.\n\nEr dy ddiogelwch, paid a rhoi\u2019r cod hwn yn unman.</string>
     <string name="bluetooth_connecting_error_message">Methwyd â chysylltu â <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_preference_found_media_devices">Dyfeisiau ar gael</string>
     <string name="bluetooth_device_context_connect">Cysylltu</string>
@@ -1062,6 +1064,7 @@ lleoliad perthynol dyfeisiau wedi\u2019u cysylltu.</string>
     <string name="dark_ui_summary_on_auto_mode_custom">Bydd yn troi i ffwrdd yn awtomatig am <xliff:g name="time" example="10 PM">%1$s</xliff:g>.</string>
     <string name="dark_ui_summary_on_auto_mode_custom_bedtime">Bydd yn troi i ffwrdd yn awtomatig ar ôl amser gwely</string>
     <string name="dark_ui_text">Mae\u2019r thema dywyll yn defnyddio cefndir du i helpu\u2019r batri byw yn hirach ar rai sgriniau. Mae amserlenni sgrin dywyll yn aros i droi ymlaen nes bod dy sgrin i ffwrdd.</string>
+    <string name="dark_ui_text_force_invert">Defnyddia sgrin dywyll i wneud dy sgrin yn fwy cyffyrddus i edrych arno ac i leihau defnydd batri ar rai dyfeisiau. Bydd dy thema yn newid os oes gennyt amserlen, pan fo\u2019r sgrin i ffwrdd.</string>
     <string name="dark_ui_bedtime_footer_summary">Mae\u2019r thema dywyll yn dilyn dy amserlen ym modd amser gwely</string>
     <string name="dark_ui_bedtime_footer_action">Gosodiadau modd amser gwely</string>
     <string name="screen_timeout">Terfyn amser y sgrin</string>
@@ -1069,7 +1072,7 @@ lleoliad perthynol dyfeisiau wedi\u2019u cysylltu.</string>
     <string name="screen_timeout_summary_not_set">Heb ei osod</string>
     <string name="wallpaper_settings_title">Papur wal</string>
     <string name="style_and_wallpaper_settings_title">Papur wal ac arddull</string>
-    <string name="wallpaper_dashboard_summary">Sgrin gartref, cloi</string>
+    <string name="wallpaper_dashboard_summary">Sgrin gartref, sgrin glo</string>
     <string name="wallpaper_suggestion_title">Newid y papur wal</string>
     <string name="wallpaper_suggestion_summary">Personoli dy sgrin</string>
     <string name="wallpaper_settings_fragment_title">Dewis papur wal o</string>
@@ -1854,7 +1857,7 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="accessibility_screen_magnification_navbar_configuration_warning">Mae\'r botwm Hygyrchedd wedi\'i osod i <xliff:g id="service" example="Select to Speak">%1$s</xliff:g>. I ddefnyddio chwyddo, cyffyrdda a dal y botwm Hygyrchedd, yna dewisa chwyddo.</string>
     <string name="accessibility_screen_magnification_gesture_navigation_warning">Mae\u2019r ystumiad hygyrchedd wedi\u2019i osod i <xliff:g id="service" example="Select to Speak">%1$s</xliff:g>. I ddefnyddio chwyddiad, llusga i fyny gyda dau fys o waelod y sgrin a dal. Yna dewis chwyddiad.</string>
     <string name="accessibility_shortcut_settings">Gosodiadau llwybr byr</string>
-    <string name="accessibility_shortcut_description">Caniatáu bysell brys i droi\'r nodwedd ymlaen o\'r sgrin cloi. Dal y ddwy fysell sain am ychydig eiliadau.</string>
+    <string name="accessibility_shortcut_description">Caniatáu bysell brys i droi\'r nodwedd ymlaen o\'r sgrin glo. Dal y ddwy fysell sain am ychydig eiliadau.</string>
     <string name="accessibility_button_title">Botwm hygyrchedd</string>
     <string name="accessibility_button_gesture_title">Botwm ac ystum hygyrchedd</string>
     <string name="accessibility_button_intro_text">Cael mynediad at nodweddion yn gyflym o unrhyw sgrin</string>
@@ -2578,8 +2581,8 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="user_add_max_count">Ni ellir ychwanegu rhagor o ddefnyddwyr. Rhaid tynnu defnyddiwr er mwyn ychwanegu un newydd.</string>
     <string name="user_cannot_add_accounts_message">Ni all proffiliau cyfyngedig ychwanegu cyfrifon</string>
     <string name="user_remove_user_menu">Dileu <xliff:g id="user_name">%1$s</xliff:g> o\'r ddyfais hon.</string>
-    <string name="user_lockscreen_settings">Gosodiadau sgrin cloi</string>
-    <string name="user_add_on_lockscreen_menu">Ychwanegu defnyddwyr o\'r sgrin cloi</string>
+    <string name="user_lockscreen_settings">Gosodiadau sgrin glo</string>
+    <string name="user_add_on_lockscreen_menu">Ychwanegu defnyddwyr o\'r sgrin glo</string>
     <string name="switch_to_dock_user_when_docked">Newid i ddefnyddiwr gweinyddwr pan wedi docio</string>
     <string name="user_confirm_remove_self_title">Dileu dy hun?</string>
     <string name="user_confirm_remove_title">Dileu\'r defnyddiwr hwn?</string>
@@ -2799,8 +2802,8 @@ wrth adael modd gwestai</string>
     <string name="keywords_dark_ui_mode">thema, golau, tywyll, modd, sensitifrwydd golau, gwneud yn tywyllach, tywyllu, modd tywyll, cur pen, dolur pen, migraine, meigryn</string>
     <string name="keywords_systemui_theme">thema dywyll</string>
     <string name="keywords_device_feedback">byg, gwall, problem, nam</string>
-    <string name="keywords_ambient_display_screen">Dangosydd amgylchynol, Dangosydd clo sgrin</string>
-    <string name="keywords_lock_screen_notif">hysbysiadau, hysbysiadau sgrin cloi</string>
+    <string name="keywords_ambient_display_screen">Dangosydd amgylchynol, Dangosydd sgrin glo, scrin cloi</string>
+    <string name="keywords_lock_screen_notif">hysbysiadau, hysbysiadau sgrin glo</string>
     <string name="keywords_face_settings">wyneb, gwyneb</string>
     <string name="keywords_fingerprint_settings">ôl bys, ychwanegu ôl bys</string>
     <string name="keywords_biometric_settings">wyneb, ôl bys, ychwanegu ôl bys, ol bys, olion bysedd, gwyneb</string>
@@ -3051,13 +3054,13 @@ wrth adael modd gwestai</string>
     <string name="silent_notifications_status_bar">Cuddio hysbysiadau tawel yn y bar statws</string>
     <string name="notification_pulse_title">Golau ysbeidiol</string>
     <string name="lock_screen_notifications_title">Preifatrwydd</string>
-    <string name="lockscreen_bypass_title">Neidio\'r sgrin cloi</string>
-    <string name="keywords_lockscreen_bypass">Sgrin cloi, sgrincloi, sgrin cloi, sgrîn cloi, neidio, osgoi</string>
+    <string name="lockscreen_bypass_title">Neidio\'r sgrin glo</string>
+    <string name="keywords_lockscreen_bypass">Sgrin cloi, sgrin glo, sgrincloi, sgrin cloi, sgrîn cloi, neidio, osgoi, sgri clo</string>
     <string name="locked_work_profile_notification_title">Pan mae\'r proffil gwaith ar glo</string>
-    <string name="unseen_notifs_lock_screen">Dangos dim ond hysbysiadau newydd ar y sgrin cloi</string>
-    <string name="unseen_notifs_lock_screen_summary">Tynnu yn awtomatig o\u2019r sgrin cloi hysbysiadau sydd wedi eu gweld gynt</string>
+    <string name="unseen_notifs_lock_screen">Dangos dim ond hysbysiadau newydd ar y sgrin glo</string>
+    <string name="unseen_notifs_lock_screen_summary">Tynnu yn awtomatig o\u2019r sgrin glo hysbysiadau sydd wedi eu gweld gynt</string>
     <string name="lock_screen_notifs_show_compact">Golwg Compact</string>
-    <string name="lock_screen_notifs_title">Hysbysiadau ar y sgrin cloi</string>
+    <string name="lock_screen_notifs_title">Hysbysiadau ar y sgrin glo</string>
     <string name="lock_screen_notifs_show_all_summary">Dangos sgyrsiau, rhagosodedig a tawel</string>
     <string name="lock_screen_notifs_show_all">Dangos sgyrsiau, rhagosodedig a tawel</string>
     <string name="lock_screen_notifs_show_alerting">Cuddio sgyrsiau a hysbysiadau tawel</string>
@@ -3069,7 +3072,7 @@ wrth adael modd gwestai</string>
     <string name="lock_screen_notifications_summary_show">Dangos holl gynnwys hysbysiadau</string>
     <string name="lock_screen_notifications_summary_hide">Dangos cynnwys sensitif dim ond pan wedi datgloi</string>
     <string name="lock_screen_notifications_summary_disable">Peidio â dangos hysbysiadau o gwbl</string>
-    <string name="lock_screen_notifications_interstitial_title">Sgrin cloi</string>
+    <string name="lock_screen_notifications_interstitial_title">Sgrin glo</string>
     <string name="lock_screen_notifications_summary_show_profile">Dangos holl gynnwys hysbysiadau gwaith</string>
     <string name="lock_screen_notifications_summary_hide_profile">Cuddio cynnwys gwaith sensitif</string>
     <string name="lock_screen_notifications_interstitial_message_profile">Pan fydd y ddyfais ar glo, sut wyt am i hysbysiadau dy broffil arddangos?</string>
@@ -3823,7 +3826,7 @@ yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</st
     <string name="enterprise_privacy_installed_packages">Rhestr o apiau ar dy ddyfais</string>
     <string name="enterprise_privacy_usage_stats">Yr amser a data y\'i defnyddir ar bob ap</string>
     <string name="enterprise_privacy_network_logs">Log traffig rhwydwaith mwyaf diweddar</string>
-    <string name="enterprise_privacy_bug_reports">Adroddiad gwall mwyaf diweddar</string>
+    <string name="enterprise_privacy_bug_reports">Adroddiad nam mwyaf diweddar</string>
     <string name="enterprise_privacy_security_logs">Log diogelwch mwyaf diweddar</string>
     <string name="enterprise_privacy_none">Dim</string>
     <string name="enterprise_privacy_enterprise_installed_packages">Apiau wedi\'u gosod</string>
@@ -4252,7 +4255,7 @@ Os yw\u2019r ddyfais yn methu llwytho i Android neu yn ansefydlog, ail-fflachia\
     <string name="error_pending_updates">Methodd diweddariad cnewyllyn. Gwiria a gosod unrhyw ddiweddariadau sy\u2019n disgwyl.</string>
     <string name="error_ota_failed">Methodd diweddariad cnewyllyn. Bu gwall wrth osod OTA.</string>
     <string name="bug_report_handler_title">Ap ymdrin â gwallau</string>
-    <string name="bug_report_handler_picker_footer_text">Mae\'n pennu pa ap sy\'n ymdrin â\'r llwybr byr Adroddiad Gwall ar dy ddyfais</string>
+    <string name="bug_report_handler_picker_footer_text">Mae\'n pennu pa ap sy\'n ymdrin â\'r llwybr byr Adroddiad Nam ar dy ddyfais</string>
     <string name="personal_profile_app_subtext">Personol</string>
     <string name="work_profile_app_subtext">Gwaith</string>
     <string name="system_default_app_subtext">Rhagosodiad y system</string>

@@ -77,13 +77,24 @@
     <string name="accessibility_key_repeat_delay">Ritardu de teclas repìtidas</string>
     <string name="accessibility_key_repeat_delay_detailed">Cunfigura su ritardu prima de su chi is caràteres aparessent cando una tecla est prèmida</string>
     <string name="accessibility_key_repeat_delay_summary">Cunfigura su ritardu in antis de sa ripetitzione de teclas</string>
+    <string name="accessibility_key_repeat">Teclas repìtidas</string>
+    <string name="accessibility_delay_before_repeat">Ritardu in antis de sa ripetitzione</string>
+    <string name="accessibility_delay_before_repeat_summary">Personaliza cantu tempus podes prèmere unu butone in antis chi si cumintzet a repìtere</string>
+    <string name="accessibility_delay_before_repeat_detailed">Cunfigura sa durada de sa mantenidura de unu butone a pustis de su chi si cumintzat a repìtere</string>
+    <string name="accessibility_repeat_rate">Frecuèntzia de ripetitzione</string>
     <string name="system_play_sample">Reprodue una proa</string>
+    <string name="wifi_setup_already_connected">Giai connètidu</string>
     <string name="limit_network_in_standby_toggle_info">Su televisore at a èssere disconnètidu dae sa rete cando siat in modalidade de pàusa (standby, francu chi pro retzire atualizatziones automàticas. Custu podet fàghere ismenguare su consumu energèticu de su televisore, e a su pròpiu tempus bolet nàrrere chi forsis no as a pòdere impreare funtzionalidades comente Cast e s\'assistèntzia de boghe cando su dispositivu siat in pàusa.</string>
     <string name="usage_access">Datos impreu de s\'aplicatzione</string>
     <string name="usage_access_description">Is datos de impreu de is aplicatziones permitent is aplicatziones de monitorare cales aplicatziones est impreende e cantu a s\'ispissu, e fintzas chie siat s\'operadore telefònicu tuo, is cunfiguratziones de sa limba e àteros detàllios.</string>
     <string name="play_recorded_audio_title">Reprodue s\'àudio registradu</string>
     <string name="help_center_title" translatable="true"/>
     <string name="select_device_admin_msg">Amministratzione de su dispositivu</string>
+    <string name="system_tv_title">Televisione</string>
     <string name="menu_monitor">Ischermu</string>
+    <string name="settings_backlight_title">Modalidade de illuminatzione dae palas</string>
+    <string name="settings_backlight_description">Illuminatzione de is butones de su telecumandu a onni tocu.</string>
+    <string name="backlight_slice_description">In is telecumandos cumpatìbiles de Google TV, tochende su butone de is telecomandos ativat s\'illuminatzione dae palas.</string>
+    <string name="volume_change_settings_title">Volùmene %1$s</string>
     <string name="volume_change_subtitle_unselect">Podes controllare su vòlumene de s\'Assistente a s\'altoparlante %1$s</string>
 </resources>

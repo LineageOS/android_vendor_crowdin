@@ -7,6 +7,7 @@
     <string name="keyboard_layout_english_us_intl">Inglesu (US), istile internatzionale</string>
     <string name="keyboard_layout_english_us_colemak_label">Inglesu (US), istile Colemak</string>
     <string name="keyboard_layout_english_us_dvorak_label">Inglesu (US), istile Dvorak</string>
+    <string name="keyboard_layout_english_us_workman_label">Inglesu (IUA), istile Workman</string>
     <string name="keyboard_layout_german_label">Tedescu</string>
     <string name="keyboard_layout_french_label">Frantzesu</string>
     <string name="keyboard_layout_french_ca_label">Frantzesu (Cànada)</string>
@@ -17,6 +18,7 @@
     <string name="keyboard_layout_swiss_german_label">Tedescu de Isvìtzera</string>
     <string name="keyboard_layout_belgian">Belga</string>
     <string name="keyboard_layout_bulgarian">Bùlgaru</string>
+    <string name="keyboard_layout_bulgarian_phonetic">Bùlgaru, fonèticu</string>
     <string name="keyboard_layout_italian">Italianu</string>
     <string name="keyboard_layout_danish">Danesu</string>
     <string name="keyboard_layout_norwegian">Norvegesu</string>
@@ -24,6 +26,7 @@
     <string name="keyboard_layout_finnish">Finlandesu</string>
     <string name="keyboard_layout_croatian">Croatu</string>
     <string name="keyboard_layout_czech">Tzecu</string>
+    <string name="keyboard_layout_czech_qwerty">Tzecu, istile QWERTY</string>
     <string name="keyboard_layout_estonian">Èstone</string>
     <string name="keyboard_layout_hungarian">Ungheresu</string>
     <string name="keyboard_layout_icelandic">Islandesu</string>
@@ -32,6 +35,7 @@
     <string name="keyboard_layout_slovak">Islovacu</string>
     <string name="keyboard_layout_slovenian">Islovenu</string>
     <string name="keyboard_layout_turkish">Turcu</string>
+    <string name="keyboard_layout_turkish_f">Turcu F</string>
     <string name="keyboard_layout_ukrainian">Ucrainu</string>
     <string name="keyboard_layout_arabic">Àrabu</string>
     <string name="keyboard_layout_greek">Grecu</string>
@@ -39,7 +43,12 @@
     <string name="keyboard_layout_lithuanian">Lituanu</string>
     <string name="keyboard_layout_spanish_latin">Ispagnolu (americanu)</string>
     <string name="keyboard_layout_latvian">Lètone</string>
+    <string name="keyboard_layout_persian">Persianu</string>
+    <string name="keyboard_layout_azerbaijani">Azerbaigianu</string>
     <string name="keyboard_layout_polish">Polacu</string>
+    <string name="keyboard_layout_belarusian">Bielorussu</string>
+    <string name="keyboard_layout_mongolian">Mòngolu</string>
+    <string name="keyboard_layout_georgian">Georgianu</string>
     <string name="keyboard_layout_thai_kedmanee">Tailandesu (Kedmanee)</string>
     <string name="keyboard_layout_thai_pattachote">Tailandesu (Pattachote)</string>
     <string name="keyboard_layout_serbian_latin">Serbu (latinu)</string>

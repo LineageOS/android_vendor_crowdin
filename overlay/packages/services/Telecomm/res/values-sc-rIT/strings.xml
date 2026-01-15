@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cant_call_due_to_no_supported_service">Non faghet a mutire. Controlla sa connessione de su dispositivu.</string>
     <string name="callFailed_outgoing_already_present">Non faghet a fàghere una mutida dae chi nche nd\'at un\'àtera in connessione. Abeta chi sa mutida siat respòndida o serra·dda in antis de nde fàghere un\'àtera.</string>
     <string name="callFailed_too_many_calls_include_merge">Non faghet a fàghere una mutida dae chi nche nd\'at àteras duas in cursu. Serra·nde una o pone·ddas in paris in una cunferèntzia in antis de nde fàghere un\'àtera.</string>
     <string name="callFailed_too_many_calls_exclude_merge">Non faghet a fàghere una mutida dae chi nche nd\'at àteras duas in cursu. Serra·nde una in antis de nde fàghere un\'àtera.</string>

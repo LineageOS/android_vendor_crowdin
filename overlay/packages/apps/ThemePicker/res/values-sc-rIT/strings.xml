@@ -19,11 +19,18 @@
     <string name="clock_color_title">Colore de su rellògiu</string>
     <string name="clock_color_description">Faghe cointzìdere su tema o sèbera su colore chi boles</string>
     <string name="clock_size_large_description">Mustradu cando is notìficas non sunt visìbiles</string>
+    <string name="clock_font_editor_apply">Àplica is modìficas a su caràtere de su rellògiu</string>
+    <string name="clock_font_editor_revert">Iscontza is modìficas a su caràtere de su rellògiu</string>
+    <string name="shape_and_grid_title">Forma e dispositzione de is aplicatziones</string>
+    <string name="grid_layout">Dispositzione</string>
     <string name="pack_theme_preview_card_content_description">Previsualizatzione de temas</string>
     <string name="grid_content_description"><xliff:g name="num_cols" example="1">%1$d</xliff:g> pro <xliff:g name="num_rows" example="1">%2$d</xliff:g></string>
     <string name="pack_theme_title" msgid="4305612684940220645">Temas</string>
     <string name="theme_packs_description">Iscoberi is temas Pixel</string>
     <string name="system_colors_title">Colores</string>
+    <string name="color_contrast_section_title">Cuntrastu de colore</string>
+    <string name="color_contrast_medium_title">Mèdiu</string>
+    <string name="color_contrast_high_title">Artu</string>
     <string name="lock_screen_notifications_section_title">Notìficas in s\'ischermu de blocu</string>
     <string name="lock_screen_notifications_section_description">Gesti comente e ite depent mustrare is notìficas</string>
     <string name="more_settings_section_title">Àteras cunfiguratziones de blocu de ischermu</string>
