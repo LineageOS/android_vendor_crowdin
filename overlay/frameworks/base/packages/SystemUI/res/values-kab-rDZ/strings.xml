@@ -37,6 +37,15 @@
     <string name="screenrecord_continue">Bdu</string>
     <string name="screenrecord_stop_label">Seḥbes</string>
     <string name="screenrecord_share_label">Bḍu</string>
+    <string name="screen_record_undo">Err-d</string>
+    <string name="screen_record_edit">Ẓreg</string>
+    <string name="screen_record_delete">Mḥu</string>
+    <string name="screen_record_play">Urar</string>
+    <string name="screen_record_pause">Steɛfu</string>
+    <string name="screen_record_mute">Sens asawad</string>
+    <string name="screen_capture_toolbar_screenshot_button">Tuṭṭfa n wegdil</string>
+    <string name="screen_share_toolbar_share_button">Bḍu</string>
+    <string name="screen_capture_microphone_audio">Asawaḍ</string>
     <string name="close_dialog_button">Mdel</string>
     <string name="issuerecord_share_label">Bḍu</string>
     <string name="immersive_cling_positive">Awi-t</string>
@@ -54,6 +63,7 @@
     <string name="biometric_dialog_try_again">Ɛṛeḍ tikelt nniḍen</string>
     <string name="biometric_dialog_face_icon_description_idle">Ttxilek ɛreḍ tikkelt nniḍen</string>
     <string name="biometric_dialog_face_icon_description_confirmed">Yettwasentem</string>
+    <string name="biometric_dialog_unavailable">Ulac-it</string>
     <string name="biometric_dialog_wrong_password">Awal n uɛeddi d armeɣtu</string>
     <string name="biometric_re_enroll_dialog_confirm">Sebded</string>
     <string name="accessibility_bluetooth_connected">Bluetooth iqqen.</string>
@@ -94,6 +104,7 @@
     <string name="zen_modes_dialog_settings">Iɣewwaṛen</string>
     <string name="zen_mode_on">Irmed</string>
     <string name="zen_mode_off">Insa</string>
+    <string name="zen_modes_multiple_on_status">Irmed</string>
     <string name="zen_priority_customize_button">Sagen</string>
     <string name="interruption_level_none">Tasusmi taččurant</string>
     <string name="interruption_level_priority">Tazwart kan</string>
@@ -209,9 +220,13 @@
     <string name="save">Sekles</string>
     <string name="reset">Wennez</string>
     <string name="clipboard">Ɣef afus</string>
+    <string name="qs_edit_edit_tab">Ẓreg</string>
+    <string name="qs_edit_layout_tab">Taneɣruft</string>
     <string name="qs_edit">Ẓreg</string>
+    <string name="qs_edit_settings">Iɣewwaṛen</string>
     <string name="tuner_time">Akud</string>
     <string name="other">Wayeḍ</string>
+    <string name="accessibility_key_gesture_dialog_positive_button_text">Rmed</string>
     <string name="tuner_lock_screen">Agdil usewḥel</string>
     <string name="lockscreen_none">Ulac</string>
     <string name="tuner_circle">Tawinest</string>
@@ -226,6 +241,7 @@
     <string name="notification_channel_accessibility">Tuffart</string>
     <string name="app_info">Talɣut n usnas</string>
     <string name="mobile_data">Isefka izirazen</string>
+    <string name="mobile_data_enable_turn_on">Rmed</string>
     <string name="auto_data_switch_dialog_negative_button">Uhu tannemmit</string>
     <string name="slice_permission_allow">Sireg</string>
     <string name="slice_permission_deny">Aggi</string>
@@ -251,13 +267,12 @@
     <string name="controls_media_settings_button">Iɣewwaṛen</string>
     <string name="controls_media_button_play">Urar</string>
     <string name="controls_media_button_pause">Steɛfu</string>
-    <string name="controls_media_smartspace_rec_title">Urar</string>
     <string name="media_transfer_undo">Err-d</string>
     <string name="controls_error_removed">Ur yettwaf ara</string>
     <string name="media_output_dialog_group">Agraw</string>
+    <string name="media_output_item_connected_state">Iqqen</string>
     <string name="media_input_group_title">Anekcum</string>
     <string name="media_output_end_session_dialog_stop">Seḥbes</string>
-    <string name="media_output_broadcast_dialog_save">Sekles</string>
     <string name="mobile_data_settings_title">Isefka izirazen</string>
     <string name="mobile_data_connection_active">Iqqen</string>
     <string name="fgs_manager_app_item_stop_button_label">Seḥbes</string>
@@ -282,4 +297,8 @@
     <string name="touchpad_tutorial_done_button">Immed</string>
     <string name="touchpad_tutorial_next_button">Uḍfiṛ</string>
     <string name="volume_undo_action">Err-d</string>
+    <string name="underlay_close_button_content_description">Mdel</string>
+    <string name="back_button_on_bouncer">Ar deffir</string>
+    <string name="pager_dots_previous_content_description">Γer deffir</string>
+    <string name="pager_dots_next_content_description">Uḍfiṛ</string>
 </resources>

@@ -279,6 +279,10 @@
         <item>Alemmas</item>
         <item>Aɣezfan</item>
     </string-array>
+    <string-array name="ethernet_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
     <string-array name="captioning_typeface_selector_titles">
         <item>Akk-a kan</item>
         <item>Sans-serif</item>
@@ -408,5 +412,13 @@
         <item>Weṛǧin</item>
         <item>After 1 minute</item>
         <item>After 5 minutes</item>
+    </string-array>
+    <string-array name="action_corner_action_titles">
+        <item>Ulac</item>
+        <item>Home</item>
+        <item>Recent apps</item>
+        <item>Notifications</item>
+        <item>Quick settings</item>
+        <item>Lockscreen</item>
     </string-array>
 </resources>

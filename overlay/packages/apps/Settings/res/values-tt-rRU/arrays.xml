@@ -161,6 +161,10 @@
         <item>run in background</item>
         <item>accessibility volume</item>
     </string-array>
+    <string-array name="ethernet_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
     <string-array name="captioning_typeface_selector_titles">
         <item>Default</item>
         <item>Sans-serif</item>

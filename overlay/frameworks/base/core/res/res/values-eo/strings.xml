@@ -30,7 +30,6 @@
     <string name="global_action_settings">Agordoj</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="safeMode">Sekura reĝimo</string>
-    <string name="permgrouplab_contacts">Kontaktoj</string>
     <string name="permgrouplab_location">Loko</string>
     <string name="permgrouplab_calendar">Kalendaro</string>
     <string name="permgrouplab_microphone">Mikrofono</string>

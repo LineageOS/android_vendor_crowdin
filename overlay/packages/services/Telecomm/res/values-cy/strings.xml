@@ -45,7 +45,6 @@
     <string name="respond_via_sms_setting_title">Atebion cyflym</string>
     <string name="respond_via_sms_setting_title_2">Golygu atebion cyflym</string>
     <string name="respond_via_sms_edittext_dialog_title">Ateb cyflym</string>
-    <string name="respond_via_sms_confirmation_format">Anfonwyd neges at <xliff:g id="phone_number">%s</xliff:g>.</string>
     <string name="respond_via_sms_failure_format">Methwyd ag anfon y neges at <xliff:g id="phone_number">%s</xliff:g>.</string>
     <string name="enable_account_preference_title">Cyfrifon galw</string>
     <string name="outgoing_call_not_allowed_user_restriction">Dim ond galwadau brys sydd yn bosib.</string>

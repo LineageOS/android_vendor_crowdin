@@ -109,6 +109,7 @@
     <string name="title_wifi_gateway">Tanezgert:</string>
     <string name="wifi_action_try_again">Ɛreḍ tikkelt nniḍen</string>
     <string name="wifi_connect">Qqen</string>
+    <string name="wifi_forget_network">Ttu</string>
     <string name="wifi_action_ok">IH</string>
     <string name="wifi_setup_action_dont_change_network">Kemmel</string>
     <string name="wifi_setup_action_change_network">Snifel azeṭṭa</string>
@@ -144,7 +145,6 @@
         <item>Insa</item>
     </string-array>
     <string name="recently_accessed_show_all">Wali akk</string>
-    <string name="sensor_toggle_info_off">Insa</string>
     <string name="system_location">Adig</string>
     <string name="location_mode_title">Askar</string>
     <string name="location_services">Imeẓla n wadigg</string>

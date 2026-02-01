@@ -90,7 +90,6 @@
     <string name="enable_operator_defined_test_alerts_summary">Fai que recibas les alertes d\'emerxencia indicaes pola operadora</string>
     <string name="enable_alert_vibrate_title">Vibración</string>
     <string name="override_dnd_title">Alertar siempre a tou volume</string>
-    <string name="override_dnd_summary">Inora\'l mou «Nun molestar» y otres opciones de configuración del volume</string>
     <string name="enable_area_update_info_alerts_title">Tresmisiones d\'información anovada de la zona</string>
     <string name="enable_area_update_info_alerts_summary">Amuesa información anovada nel estáu de la SIM</string>
     <string name="cmas_category_heading">Categoría de l\'alerta:</string>

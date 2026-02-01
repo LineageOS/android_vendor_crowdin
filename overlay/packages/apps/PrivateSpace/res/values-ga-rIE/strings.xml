@@ -22,15 +22,6 @@
     <string name="move_files_dialog_button_label_move">Bog</string>
     <string name="move_files_dialog_button_label_copy">Cóipeáil</string>
     <string name="move_files_dialog_button_label_cancel">Cealaigh</string>
-    <string name="filetransfer_notification_copy_progress_title">Ag cóipeáil <xliff:g example="4" id="files">%1$d</xliff:g> comhaid</string>
-    <string name="filetransfer_notification_move_progress_title">Ag bogadh <xliff:g example="4" id="files">%1$d</xliff:g> comhaid</string>
-    <string name="filetransfer_notification_copy_complete_title">Cóipeáladh <xliff:g example="4" id="files">%1$d</xliff:g> comhaid</string>
-    <string name="filetransfer_notification_move_complete_title"><xliff:g example="4" id="files">%1$d</xliff:g> comhaid bogtha</string>
-    <string name="filetransfer_notification_copy_progress_text">Tá na comhaid a roghnaigh tú á gcóipeáil chuig do spás príobháideach</string>
-    <string name="filetransfer_notification_move_progress_text">Tá na comhaid a roghnaigh tú á mbogadh chuig do spás príobháideach</string>
-    <string name="filetransfer_notification_copy_complete_text">Cóipeáladh na comhaid a roghnaigh tú chuig do spás príobháideach</string>
-    <string name="filetransfer_notification_move_complete_text">Bogadh na comhaid a roghnaigh tú chuig do spás príobháideach</string>
-    <string name="filetransfer_notification_action_label">Taispeáin comhaid</string>
     <string name="filetransfer_notification_channel_name">Fógraí aistrithe comhad</string>
-    <string name="filetransfer_notification_channel_description">"Nuair a chóipeálann tú nó a bhogann tú comhaid chuig do spás príobháideach, is féidir leat fógraí a fháil chun tú a chur ar an eolas faoin dul chun cinn."</string>
+    <string name="filetransfer_notification_channel_description">Nuair a chóipeálann tú nó a bhogann tú comhaid chuig do spás príobháideach, is féidir leat fógraí a fháil chun tú a chur ar an eolas faoin dul chun cinn.</string>
 </resources>

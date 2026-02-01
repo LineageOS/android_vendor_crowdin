@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Comunicatziones de s\'operadore</string>
+    <string name="android_system_label">Operadore telefònicu</string>
+    <string name="portal_notification_id">Datos mòbiles acabbados</string>
+    <string name="no_data_notification_id">Is datos mòbiles sunt istados disativados</string>
+    <string name="portal_notification_detail">Toca inoghe pro visitare su situ web %s</string>
+    <string name="no_data_notification_detail">Cuntata s\'operadore telefònicu %s</string>
+    <string name="no_mobile_data_connection_title">Nissuna connessione de datos mòbiles</string>
+    <string name="no_mobile_data_connection">Agiunghe unu pranu de datos o de roaming pro mèdiu de %s</string>
+    <string name="mobile_data_status_notification_channel_name">Istadu de is datos mòbiles</string>
     <string name="performance_boost_notification_channel">Crèschida de su rendimentu</string>
     <string name="performance_boost_notification_title">Optziones 5G de s\'operadore tuo</string>
     <string name="performance_boost_notification_detail">Bìsita su situ web de %s pro bìdere optziones pro s\'esperièntzia tua cun s\'aplicatzione</string>

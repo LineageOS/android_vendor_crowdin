@@ -312,6 +312,10 @@
         <item>Medie</item>
         <item>Lungje</item>
     </string-array>
+    <string-array name="ethernet_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
     <string-array name="captioning_typeface_selector_titles">
         <item>Predefinît</item>
         <item>Sans-serif</item>
@@ -355,10 +359,6 @@
     <string-array name="accessibility_button_location_selector_titles">
         <item>Mobile sore altris aplicazions</item>
         <item>Sbare di navigazion</item>
-    </string-array>
-    <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Boton</item>
-        <item>Mots</item>
     </string-array>
     <string-array name="accessibility_button_size_selector_titles">
         <item>Piçulis</item>
@@ -588,5 +588,13 @@
         <item>Cjase</item>
         <item>Mieze lune</item>
         <item>Orloi</item>
+    </string-array>
+    <string-array name="action_corner_action_titles">
+        <item>Nissun</item>
+        <item>Home</item>
+        <item>Recent apps</item>
+        <item>Notifications</item>
+        <item>Quick settings</item>
+        <item>Lockscreen</item>
     </string-array>
 </resources>

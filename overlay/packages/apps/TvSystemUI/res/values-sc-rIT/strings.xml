@@ -21,4 +21,10 @@
     <string name="notification_panel_title">Notìficas</string>
     <string name="notification_panel_no_notifications">Peruna notìfica</string>
     <string name="mic_recording_announcement">Su micròfonu est registrende</string>
+    <string name="media_output_internal_speaker_spdif_subtitle">Altoparlante integradu + S/PDIF</string>
+    <string name="audio_device_settings_tooltip">Preme <annotation icon="dpad_icon">DPAD</annotation> pro sa cunfiguratzione de is dispositivos de àudio.</string>
+    <string name="audio_device_settings_content_description">Cunfiguratziones de <xliff:g id="audio_device_name" example="Foo Soundbar">%1$s</xliff:g></string>
+    <string name="hdmi_cec_on_active_source_lost_title">Sighis a castiare?</string>
+    <string name="hdmi_cec_on_active_source_lost_ok">Eja (<xliff:g id="seconds" example="10">%1$d</xliff:g> seg)</string>
+    <string name="hdmi_cec_on_active_source_lost_do_not_show">Non torres a preguntare</string>
 </resources>

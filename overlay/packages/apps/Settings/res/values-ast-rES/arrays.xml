@@ -218,10 +218,6 @@
         <item>Floating over other apps</item>
         <item>Barra de navegación</item>
     </string-array>
-    <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Botón</item>
-        <item>Xestu</item>
-    </string-array>
     <string-array name="vpn_states">
         <item>Disconnected</item>
         <item>Initializing\u2026</item>

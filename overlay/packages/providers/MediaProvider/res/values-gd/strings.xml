@@ -32,4 +32,5 @@
     <string name="clear">Falamhaich</string>
     <string name="allow">Ceadaich</string>
     <string name="deny">Diùlt</string>
+    <string name="videos_album_display_name" translation_description="Display name for the album containing videos. [CHAR_LIMIT=50]">Videothan</string>
 </resources>

@@ -27,6 +27,7 @@
         many {Gellir ond creu # phroffil.}
         other {Gellir ond creu # proffil.}
     }</string>
+    <string name="current_profile_subtitle">Proffil cyfredol</string>
     <string name="privacy_chip_off_content">Mae\u2019r <xliff:g id="sensor" example="Microphone">%1$s</xliff:g> i ffwrdd.</string>
     <string name="privacy_chip_use_sensor">Defnyddio <xliff:g id="sensor" example="microphone">%1$s</xliff:g></string>
     <string name="privacy_chip_use_sensor_subtext">Ar gyfer apiau sydd â chaniatâd</string>
@@ -65,11 +66,29 @@
     <string name="status_icon_signal_wifi">Gosodiadau Signal: Wi\u2011Fi Ymlaen</string>
     <string name="status_icon_signal_hotspot">Gosodiadau Signal: Llecyn Ymlaen</string>
     <string name="status_icon_display_status">Gosodiadau Dangosydd</string>
+    <string name="status_icon_debug_status">Gosodiadau Dadfygio</string>
+    <string name="status_icon_sound_status">Gosodiadau Sain</string>
     <string name="activity_blocked_text">Ni ellir ddefnyddio\u2019r nodwedd hon tra\u2019n gyrru.</string>
     <string name="exit_button_close_application">Cau\'r ap</string>
     <string name="exit_button_go_back">Nôl</string>
+    <string name="qc_footer_debug_settings">Dewisiadau datblygwr</string>
     <string name="already_logged_in_message">I barhau, dylai <xliff:g id="user_name" example="Peter">%1$s</xliff:g> allgofnodi o\u2019r sgrin <xliff:g id="seat_location" example="Driver">%2$s</xliff:g></string>
     <string name="prefix_logged_in_info_for_other_seat">Wedi mewngofnodi ar sgrin <xliff:g id="seat_location" example="Driver">%s</xliff:g></string>
+    <string name="unavailable_secure_user_text">Defnyddiwr ddim ar gael ar hyn o bryd</string>
+    <string name="unavailable_secure_user_message">Methu dechrau defnyddiwr diogel ar ddangosydd teithiwr</string>
+    <string name="passenger_keyguard_wrong_pattern">Patrwm anghywir</string>
+    <string name="passenger_keyguard_wrong_pin">PIN anghywir</string>
+    <string name="passenger_keyguard_wrong_password">Cyfrinair anghywir</string>
+    <string name="passenger_keyguard_too_many_failed_attempts">        {count, plural,
+        zero {}
+        one {Gormod o ymdrechion anghywir. Ceisia eto ymhen # eiliad.}
+        two {Gormod o ymdrechion anghywir. Ceisia eto ymhen # eiliad.}
+        few {Gormod o ymdrechion anghywir. Ceisia eto ymhen # eiliad.}
+        many {Gormod o ymdrechion anghywir. Ceisia eto ymhen # o eiliadau.}=1    {Gormod o ymdrechion anghywir. Ceisia eto ymhen # eiliad.}
+        other {Gormod o ymdrechion anghywir. Ceisia eto ymhen # eiliad.}
+        }
+    </string>
     <string name="seat_driver">gyrrwr</string>
     <string name="back_btn">Nôl</string>
+    <string name="data_subscription_button_text">Gweld cynlluniau</string>
 </resources>

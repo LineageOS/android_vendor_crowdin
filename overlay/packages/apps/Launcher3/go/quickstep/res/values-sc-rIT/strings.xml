@@ -3,8 +3,17 @@
     <string name="app_share_drop_target_label">Cumpartzi aplicatzione</string>
     <string name="action_listen">Ascurta</string>
     <string name="action_translate">Tradue</string>
+    <string name="action_search">Lente</string>
     <string name="dialog_acknowledge">CUMPRÈNDIDU</string>
     <string name="dialog_cancel">ANNULLA</string>
     <string name="dialog_settings">CUNFIGURATZIONES</string>
+    <string name="niu_actions_confirmation_title">Tradue o ascurta su testu de s\'ischermu</string>
+    <string name="niu_actions_confirmation_text">Informatziones comente su testu in s\'ischermu, is indiritzos web e is caturas de ischermu podent èssere cumpartzidas cun Google.\n\nPro modificare s\'informatzione chi bides, bae a <b>Cunfiguratziones &gt; Aplicatziones &gt; Aplicatziones predefinidas &gt; Aplicatzione de assistèntzia digitale</b>.</string>
+    <string name="assistant_not_selected_title">Sèbera un\'assistente pro impreare custa funtzionalidade</string>
+    <string name="assistant_not_selected_text">Pro ascurtare o tradùere su testu in s\'ischermu, sèbera un\'aplicatzione de assistèntzia digitale in is Cunfiguratziones</string>
+    <string name="assistant_not_supported_title">Modifica s\'assistente pro impreare custa funtzionalidade</string>
+    <string name="assistant_not_supported_text">Pro ascurtare o tradùere su testu in s\'ischermu, modifica s\'aplicatzione de assistèntzia digitale in is Cunfiguratziones</string>
+    <string name="tooltip_listen">Toca inoghe pro ascurtare su testu de s\'ischermu</string>
+    <string name="tooltip_translate">Toca inoghe pro tradùere su testu de s\'ischermu</string>
     <string name="toast_p2p_app_not_shareable">Custa aplicatzione non si podet cumpartzire</string>
 </resources>

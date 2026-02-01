@@ -34,7 +34,13 @@
         <item>24 awr</item>
         <item>Byth</item>
     </string-array>
+    <string-array name="bounce_key_timeout_entries">
+        <item>0.5 eiliad</item>
+        <item>1 eiliad</item>
+        <item>2 eiliad</item>
+    </string-array>
     <string-array name="device_energy_saver_attentive_timeout_entries">
+        <item>3 awr</item>
         <item>4 awr</item>
         <item>6 awr</item>
         <item>8 awr</item>
@@ -98,17 +104,28 @@
     </string-array>
     <string-array name="a11y_delay_before_repeat_entries">
         <item>Rhagosodiad</item>
-        <item>3 seconds</item>
-        <item>5 seconds</item>
+        <item>3 eiliad</item>
+        <item>5 eiliad</item>
     </string-array>
     <string-array name="a11y_repeat_rate_entries">
         <item>Rhagosodiad</item>
-        <item>Slow</item>
-        <item>Fast</item>
+        <item>Araf</item>
+        <item>Cyflym</item>
+    </string-array>
+    <string-array name="volume_change_entries">
+        <item>Distewi</item>
+        <item>Isel (20%)</item>
+        <item>Cymedrol (50%)</item>
+        <item>Uchel (50%)</item>
     </string-array>
     <string-array name="backlight_modes">
         <item>Byth</item>
-        <item>Standard</item>
-        <item>Scheduled</item>
+        <item>Safonol</item>
+        <item>Wedi\'i trefnu</item>
+    </string-array>
+    <string-array name="backlight_hints">
+        <item>Ni fydd golau\u2019r sgrin yn goleuo gyda phob gwasgiad.</item>
+        <item>Bydd golau\u2019r sgrin yn goleuo gyda phob gwasgiad. Bydd yn goleuo am 5 eiliad pob tro.</item>
+        <item>Bydd golau\u2019r sgrin yn goleuo gyda phob gwasgiad dim ond yn ystod oriau\u2019r nos (6pm-6am). Bydd yn goleuo am 5 eiliad pob tro.</item>
     </string-array>
 </resources>

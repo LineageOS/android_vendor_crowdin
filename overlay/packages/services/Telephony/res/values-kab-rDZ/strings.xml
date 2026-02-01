@@ -205,6 +205,7 @@
     <string name="dsds_switch_string">Rmed DSDS</string>
     <string name="dsds_dialog_confirm">Ales tanekra</string>
     <string name="dsds_dialog_cancel">Sefsex</string>
+    <string name="force_camp_satellite_button_connected_string">Yeqqen</string>
     <string name="radio_info_ims_reg_status_registered">Aklas</string>
     <string name="radio_info_ims_feature_status_available">Yewjed</string>
     <string name="radio_info_ims_feature_status_unavailable">Ulac-it</string>

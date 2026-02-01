@@ -80,8 +80,12 @@
     <string name="keyboard_shortcut_group_system_home">ماڵەوە</string>
     <string name="keyboard_shortcut_group_system_back">گەڕانەوە</string>
     <string name="keyboard_shortcut_group_system_notifications">تێبینی</string>
+    <string name="qs_edit_settings">ڕێکخستنه‌کان</string>
     <string name="tuner_time">کات</string>
+    <string name="accessibility_key_gesture_dialog_positive_button_text">کردنە کار</string>
     <string name="tuner_menu">پێڕست</string>
     <string name="app_info">زانیاری دەربارەی بەرنامە</string>
+    <string name="mobile_data_enable_turn_on">کردنە کار</string>
     <string name="controls_media_settings_button">ڕێکخستنه‌کان</string>
+    <string name="back_button_on_bouncer">گەڕانەوە</string>
 </resources>

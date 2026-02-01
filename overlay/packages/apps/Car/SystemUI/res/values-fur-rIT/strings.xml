@@ -81,14 +81,9 @@
     <string name="status_icon_display_status">Impostazions schermi</string>
     <string name="status_icon_debug_status">Impostazions di debug</string>
     <string name="status_icon_sound_status">Impostazions dal sun</string>
-    <string name="status_icon_drive_mode">Modalitât vuide</string>
     <string name="activity_blocked_text">No tu puedis doprâ cheste funzion intant che tu vuidis</string>
     <string name="exit_button_close_application">Siere la aplicazion</string>
     <string name="exit_button_go_back">Indaûr</string>
-    <string name="drive_mode_modes_comfort">Comoditât</string>
-    <string name="drive_mode_modes_eco">Economie</string>
-    <string name="drive_mode_modes_sport">Sport</string>
-    <string name="qc_drive_mode_active_subtitle">Ative</string>
     <string name="qc_footer_settings">Impostazions</string>
     <string name="qc_footer_bluetooth_settings">Impostazions Bluetooth</string>
     <string name="qc_footer_network_internet_settings">Impostazions di rêt e internet</string>
@@ -141,7 +136,4 @@
     <string name="back_btn">Indaûr</string>
     <string name="fullscreen">Plen schermi</string>
     <string name="data_subscription_button_text">Viôt i plans</string>
-    <string name="data_subscription_proactive_msg_prompt">Il to plan par internet al è scjadût</string>
-    <string name="data_subscription_reactive_msg_prompt">%s al à bisugne di une conession a internet</string>
-    <string name="data_subscription_reactive_generic_app_label">Cheste aplicazion</string>
 </resources>

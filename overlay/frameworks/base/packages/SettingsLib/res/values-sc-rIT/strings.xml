@@ -54,15 +54,26 @@
     <string name="bluetooth_hearing_aid_left_active">Ativu (manca ebbia)</string>
     <string name="bluetooth_hearing_aid_right_active">Ativu (dereta ebbia)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Ativu (manca e dereta)</string>
+    <string name="bluetooth_hearing_device_ambient_error">No at fatu a atualizare s\'ambiente</string>
     <string name="bluetooth_active_media_only_battery_level">Ativu (multimèdia ebbia). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
     <string name="bluetooth_active_media_only_battery_level_untethered">Ativu (multimèdia ebbia). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_guest_battery_level">Dispositivu invitadu. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_guest_battery_level_untethered">Dispositivu invitadu. Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_guest_media_only_battery_level">Dispositivu invitadu (isceti elementos multimediales). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_guest_media_only_battery_level_untethered">Dispositivu invitadu (isceti elementos multimediales). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
     <string name="bluetooth_battery_level_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
     <string name="bluetooth_battery_level_untethered_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
     <string name="bluetooth_battery_level_untethered_left_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
     <string name="bluetooth_battery_level_untethered_right_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
     <string name="bluetooth_no_battery_level_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio)</string>
+    <string name="bluetooth_guest_battery_level_lea_support">Dispositivu invitadu (cumpatìbile cun sa cumpartzidura de àudio). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_guest_battery_level_untethered_lea_support">Dispositivu invitadu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_guest_no_battery_level_lea_support">Dispositivu invitadu (cumpatìbile cun sa cumpartzidura de àudio)</string>
     <string name="bluetooth_active_media_only_no_battery_level">Ativu (multimèdia ebbia)</string>
+    <string name="bluetooth_guest_no_battery_level">Dispositivu invitadu</string>
+    <string name="bluetooth_guest_media_only_no_battery_level">Dispositivu invitadu (isceti elementos multimediales)</string>
     <string name="bluetooth_saved_device_lea_support">Cumpatìbile cun sa cumpartzidura de àudio</string>
+    <string name="bluetooth_guest_saved_device_lea_support">Dispositivu invitadu. Cumpatìbile cun sa cumpartzidura de àudio</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Ativu (multimèdia ebbia), isceti su de manca</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Ativu (multimèdia ebbia), isceti cussu de dereta</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Ativu (multimèdia ebbia), dereta e manca</string>
@@ -192,6 +203,8 @@
         o auriculares</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Ativat su grupu de funtziones de Bluetooth Gabeldorsche.</string>
     <string name="enable_linux_terminal_title">Ambiente de isvilupu de Linux</string>
+    <string name="enable_linux_terminal_summary">(Isperimentale) Esecuta su terminale de Linux in Android</string>
+    <string name="disable_linux_terminal_disclaimer">Si ddu disativas, is datos de su terminale de Linux ant a èssere cantzellados</string>
     <string name="select_application">Sèbera un\'aplicatzione</string>
     <string name="no_application">Nudda</string>
     <string name="wait_for_debugger">Abeta su curretore</string>
@@ -199,6 +212,7 @@
     <string name="debug_drawing_category">Disinnos</string>
     <string name="media_category">Cuntenutu multimediale</string>
     <string name="debug_monitoring_category">Controllu</string>
+    <string name="window_management_category">Gestione de ventanas</string>
     <string name="strict_mode">Modalidade rigurosa ativada</string>
     <string name="pointer_location">Positzione de su cursore</string>
     <string name="show_key_presses">Ammustra sa pressione de is teclas</string>
@@ -226,6 +240,10 @@
     <string name="transition_animation_scale_title">Iscala de animatzione de transitziones</string>
     <string name="animator_duration_scale_title">Iscala de durada de s\'animadore</string>
     <string name="overlay_display_devices_title">Reprodue ischermos segundàrios</string>
+    <string name="shade_display_awareness_title">Positzione de s\'ischermu cun umbra</string>
+    <string name="webview_launch_devtools_title">Ainas de isvilupu WebView</string>
+    <string name="webview_launch_devtools_no_package">Pachete WebView no agatadu.</string>
+    <string name="webview_launch_devtools_no_activity">Est istadu impossìbile aviare DevTools.</string>
     <string name="daltonizer_mode_disabled">Disativadu</string>
     <string name="power_charging_on_hold_settings_home_page"><xliff:g id="level">%1$s</xliff:g> - Sa càrriga est in pàusa pro amparare sa bateria</string>
     <string name="power_incompatible_charging_settings_home_page"><xliff:g id="level">%1$s</xliff:g> - Verifica s\'atzessòriu de càrriga</string>
@@ -239,6 +257,7 @@
     <string name="battery_info_status_not_charging">Connètidu, ma no in càrriga</string>
     <string name="battery_info_status_charging_on_hold">Sa càrriga est in pàusa</string>
     <string name="battery_info_status_charging_fast_v2">Càrriga lestra</string>
+    <string name="disabled_in_phone_call_text">No a disponimentu cando ses in mutida</string>
     <string name="disabled">Disativadu</string>
     <string name="enabled">Abilitadu</string>
     <string name="wifi_tether_connected_summary">        {count, plural,
@@ -272,6 +291,7 @@
     <string name="tv_media_transfer_earc_subtitle">Connètidu cun eARC</string>
     <string name="tv_media_transfer_internal_speakers">Altoparlante integradu</string>
     <string name="tv_media_transfer_hdmi_title">Àudio de sa TV</string>
+    <string name="bluetooth_key_missing_subtext">Non faghet a si connètere</string>
     <string name="user_add_profile_item_summary">Podes limitare s\'atzessu a is aplicatziones e a su cuntenutu dae su contu tuo</string>
     <string name="user_add_user_item_title">Utente</string>
     <string name="user_add_profile_item_title">Profilu limitadu</string>
@@ -297,7 +317,9 @@
     <string name="cached_apps_freezer_enabled">Abilitadu</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Su dispositivu depet èssere torradu a aviare pro aplicare custu càmbiu. Torra a aviare immoe o annulla</string>
     <string name="media_transfer_wired_headphone_name">Cùfias cun filu</string>
+    <string name="media_transfer_headphone_name">Àudio cun filu</string>
     <string name="media_transfer_usb_audio_name">Àudio USB</string>
+    <string name="media_transfer_wired_device_mic_name">Micròfonu cun filu</string>
     <string name="media_transfer_usb_device_mic_name">Micròfonu USB</string>
     <string name="media_transfer_bt_device_mic_name">Micròfonu BT</string>
     <string name="accessibility_phone_four_bars">Signale a cuatru istancas.</string>

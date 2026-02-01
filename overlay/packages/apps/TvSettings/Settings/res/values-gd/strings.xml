@@ -257,7 +257,7 @@
     <string name="wifi_connecting">’Ga cheangal ri <xliff:g id="ssid">%1$s</xliff:g></string>
     <string name="wifi_saving">A’ sàbhaladh an rèiteachaidh air <xliff:g id="ssid">%1$s</xliff:g></string>
     <string name="wifi_connect">Ceangail</string>
-    <string name="wifi_forget_network">Dìochuimhnich an lìonra</string>
+    <string name="wifi_forget_network">Dìochuimhnich</string>
     <string name="wifi_forget_network_description">Falamhaichidh seo am fiosrachadh a chaidh a chleachdadh airson ceangal ris an lìonra seo, a’ gabhail a-staigh facal-faire air a shàbhaladh</string>
     <string name="wifi_action_ok">Ceart ma-thà</string>
     <string name="wifi_setup_action_dont_change_network">Lean air adhart</string>
@@ -397,8 +397,6 @@
         <item>Dheth</item>
     </string-array>
     <string name="recently_accessed_show_all">Seall na h-uile</string>
-    <string name="sensor_toggle_info_on">Air</string>
-    <string name="sensor_toggle_info_off">Dheth</string>
     <string name="system_location">Ionad</string>
     <string name="system_desc_location">Leig le aplacaidean a dh’iarr cead uat fiosrachadh mu d’ ionad a chleachdadh</string>
     <string name="system_network_location_confirm">Aonta mu d’ ionad</string>
@@ -575,7 +573,6 @@
     <string name="tts_rate_normal">Àbhaisteach</string>
     <string name="tts_rate_fast">Luath</string>
     <string name="tts_rate_very_fast">Glè luath</string>
-    <string name="title_settings">Roghainnean <xliff:g id="name" example="Gboard">%1$s</xliff:g></string>
     <string name="title_current_keyboard">Am meur-chlàr làithreach</string>
     <string name="title_configure">Rèitich</string>
     <string name="desc_configure_keyboard">Roghainnean a’ mheur-chlàir</string>
@@ -739,8 +736,6 @@
     <string name="system_alert_window_settings">Seall thar aplacaidean eile</string>
     <string name="permit_draw_overlay">Ceadaich gun dèid a shealltainn thar aplacaidean eile</string>
     <string name="allow_overlay_description">Ceadaich gun dèid aplacaid a shealltainn air beulaibh aplacaidean eile a bhios tu a’ cleachdadh. Dh’fhaoidte gum bris seo a-steach air do chleachdadh nan aplacaidean eile no gun atharraich e coltas an seallaidh no giùlain aca dhut.</string>
-    <string name="write_system_settings">Atharrachadh roghainnean an t-siostaim</string>
-    <string name="write_settings_title">Faodaidh e roghainnean an t-siostaim atharrachadh</string>
     <string name="write_settings_description">Leigidh an cead seo le aplacaid roghainnean an t-siostaim atharrachadh.</string>
     <string name="write_settings_on">Faodaidh</string>
     <string name="write_settings_off">Chan fhaod</string>

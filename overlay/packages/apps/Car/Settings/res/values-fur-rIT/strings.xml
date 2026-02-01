@@ -1078,4 +1078,7 @@
     <string name="connectivity_inactive_action_text">Viôt i plans</string>
     <string name="audio_route_dialog_neutral_button_text">Fat</string>
     <string name="unsupported_intents_toast_text">Il to veicul nol supuarte cheste funzion</string>
+    <string name="aspect_ratio_dialog_app_default_text">Predefinidis de aplicazion</string>
+    <string name="aspect_ratio_dialog_full_screen_text">Plen schermi</string>
+    <string name="aspect_ratio_dialog_half_screen_text">Mieç schermi</string>
 </resources>

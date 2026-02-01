@@ -41,7 +41,6 @@
     <string name="respond_via_sms_setting_title">Grad-fhreagairtean</string>
     <string name="respond_via_sms_setting_title_2">Deasaich na grad-fhreagairtean</string>
     <string name="respond_via_sms_edittext_dialog_title">Grad-fhreagairt</string>
-    <string name="respond_via_sms_confirmation_format">Chaidh an teachdaireachd a chur gu <xliff:g id="phone_number">%s</xliff:g>.</string>
     <string name="respond_via_sms_failure_format">Cha deach an teachdaireachd a chur gu <xliff:g id="phone_number">%s</xliff:g>.</string>
     <string name="enable_account_preference_title">Cunntasan ghairmean</string>
     <string name="outgoing_call_not_allowed_user_restriction">Chan eil ach gairmean èiginn ceadaichte.</string>

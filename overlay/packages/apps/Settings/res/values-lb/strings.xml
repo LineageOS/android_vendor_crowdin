@@ -19,6 +19,7 @@
     <string name="create">Erstellen</string>
     <string name="allow">Erlaben</string>
     <string name="deny">Verweigeren</string>
+    <string name="edit">Änneren</string>
     <string name="device_info_default">Onbekannt</string>
     <string name="show_dev_on">Du bass elo en Entwéckler!</string>
     <string name="show_dev_already">Net néideg, du bass schonn en Entwéckler.</string>
@@ -29,7 +30,6 @@
     <string name="radioInfo_data_connected">Verbonnen</string>
     <string name="radioInfo_data_suspended">Ugehalen</string>
     <string name="radioInfo_unknown">Onbekannt</string>
-    <string name="preview_pager_content_description">Virschau</string>
     <string name="sleep_on_fold_title">Ni</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_is_discoverable">Siichtbar fir all Bluetooth-Apparater (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
@@ -71,6 +71,7 @@
     <string name="locale_remove_menu">Ewechhuelen</string>
     <string name="app_locale_preference_title">Sprooch</string>
     <string name="locale_search_menu">Sichen</string>
+    <string name="preferred_locale_menu_remove">Ewechhuelen</string>
     <string name="activity_picker_label">Aktivitéit auswielen</string>
     <string name="cancel">Ofbriechen</string>
     <string name="okay">OK</string>
@@ -100,13 +101,13 @@
     <string name="security_settings_title">Sécherheet</string>
     <string name="disabled_by_administrator_summary">Net disponibel</string>
     <string name="security_settings_face_enroll_introduction_cancel">Ofbriechen</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks">Net elo</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nee Merci</string>
     <string name="security_settings_face_enroll_introduction_more">Méi</string>
     <string name="security_settings_face_enroll_enrolling_skip">Iwwersprangen</string>
     <string name="security_settings_face_enroll_dialog_ok">OK</string>
     <string name="security_settings_face_enroll_done">Fäerdeg</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Ofbriechen</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Net elo</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Nee Merci</string>
     <string name="identity_check_biometric_error_cancel">Ofbriechen</string>
     <string name="identity_check_biometric_error_ok">OK</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">Net elo</string>
@@ -170,6 +171,7 @@
     <string name="bluetooth_device_context_connect">Connectéieren</string>
     <string name="bluetooth_device_context_disconnect">Deconnectéieren</string>
     <string name="bluetooth_device_context_pair_connect">Koppelen a connectéieren</string>
+    <string name="bluetooth_connecting">Connectéieren</string>
     <string name="bluetooth_key_missing_cancel">Ofbriechen</string>
     <string name="bluetooth_key_missing_close">Zoumaachen</string>
     <string name="device_details_battery">Akku</string>
@@ -222,6 +224,8 @@
     <string name="wifi_ip_settings">IP-Astellungen</string>
     <string name="wifi_privacy_device_name_settings">Apparatnumm</string>
     <string name="wifi_dpp_connecting">Connectioun gëtt hiergestallt\u2026</string>
+    <string name="wifi_conflict_dialog_confirm">Bestätegen</string>
+    <string name="wifi_conflict_dialog_cancel">Ofbriechen</string>
     <string name="wifi_unchanged">(onverännert)</string>
     <string name="wifi_scan_always_turnon_message">Fir d\'Standuertgenauegkeet ze verbesseren a fir aner Zwecker wëll <xliff:g id="app_name">%1$s</xliff:g> no Netzwierker sichen, och wa WLAN aus ass.\n\nFir all d\'Appen déi Netzwierker siche wëllen erlaben?</string>
     <string name="wifi_scan_always_confirm_allow">Erlaben</string>
@@ -237,6 +241,10 @@
     <string name="wifi_type_title">Typ</string>
     <string name="internet_source_wifi">WLAN</string>
     <string name="internet_source_ethernet">Ethernet</string>
+    <string name="ethernet_gateway">Gateway</string>
+    <string name="ethernet_network_prefix_length">Prefixlängt vum Netzwierk</string>
+    <string name="ethernet_ip_settings">IP-Astellungen</string>
+    <string name="ethernet_config_cancel">Ofbriechen</string>
     <string name="wifi_saved_access_points_label">Gespäichert Netzwierker</string>
     <string name="wifi_ip_settings_invalid_ip_address">Gëff eng gëlteg IP-Adress an.</string>
     <string name="wifi_ip_settings_invalid_gateway">Gëff eng gëlteg Gateway-Adress an.</string>
@@ -283,11 +291,13 @@
     <string name="screen_timeout_summary_not_set">Net gesat</string>
     <string name="wallpaper_settings_title">Hannergrondbild</string>
     <string name="wallpaper_settings_fragment_title">Hannergrondbild auswielen aus</string>
+    <string name="screensaver_unavailable_due_to_mode">Net disponibel</string>
     <string name="screensaver_settings_summary_sleep">Beim Oplueden</string>
     <string name="screensaver_settings_summary_dock">Wa gedockt</string>
     <string name="screensaver_settings_summary_never">Ni</string>
     <string name="screensaver_settings_summary_off">Aus</string>
     <string name="lift_to_wake_title">Waakreg maache beim Ophiewen</string>
+    <string name="low_light_display_behavior_summary_off">Aus</string>
     <string name="ambient_display_screen_title">Ambiente Schierm</string>
     <string name="title_font_size">Schrëftgréisst</string>
     <string name="sim_pin_change">SIM-PIN änneren</string>
@@ -339,7 +349,6 @@
     <string name="battery_level_title">Akkuniveau</string>
     <string name="when_to_show_hubmode_never">Ni</string>
     <string name="when_to_show_hubmode_charging">Beim Oplueden</string>
-    <string name="when_to_show_hubmode_docked">Wa gedockt</string>
     <string name="apn_settings">APNen</string>
     <string name="apn_edit">Zougrëffspunkt änneren</string>
     <string name="apn_not_set">Net gesat</string>
@@ -416,7 +425,6 @@
     <string name="settings_license_activity_unavailable">Et gëtt e Problem beim Luede vun de Lizenzen.</string>
     <string name="settings_license_activity_loading">Gëtt gelueden\u2026</string>
     <string name="settings_safetylegal_activity_loading">Gëtt gelueden\u2026</string>
-    <string name="lockpassword_confirm_your_pattern_header">Bestäteg däi Muster</string>
     <string name="lockpassword_choose_lock_generic_header">Selektioun entspären</string>
     <string name="lockpassword_password_set_toast">Passwuert gouf gesat</string>
     <string name="lockpassword_pin_set_toast">PIN gouf gesat</string>
@@ -487,7 +495,6 @@
     <string name="filter_apps_running">Lafend</string>
     <string name="not_installed">Net fir Benotzer installéiert</string>
     <string name="installed">Installéiert</string>
-    <string name="no_applications">Keng Appen.</string>
     <string name="internal_storage">Interne Späicher</string>
     <string name="recompute_size">D\'Gréisst gëtt nei berechent\u2026</string>
     <string name="clear_data_dlg_title">App-Date läschen?</string>
@@ -555,6 +562,7 @@
     <string name="keyboard_a11y_category">Accessibilitéit</string>
     <string name="physical_keyboard_title">Physesch Tastatur</string>
     <string name="keyboard_default_layout">Standard</string>
+    <string name="trackpad_pointer_speed">Mausgeschwindegkeet</string>
     <string name="pointer_stroke_style_name_white">Wäiss</string>
     <string name="pointer_stroke_style_name_black">Schwaarz</string>
     <string name="pointer_stroke_style_name_none">Ouni</string>
@@ -562,6 +570,8 @@
     <string name="gesture_button_next">Weider</string>
     <string name="gesture_button_restart">Nei starten</string>
     <string name="gesture_button_done">Fäerdeg</string>
+    <string name="action_corner_action_none">Ouni</string>
+    <string name="action_corner_action_notifications">Notifikatiounen</string>
     <string name="modifier_keys_default_summary">Standard</string>
     <string name="modifier_keys_done">Fäerdeg</string>
     <string name="modifier_keys_cancel">Ofbriechen</string>
@@ -617,8 +627,7 @@
     <string name="accessibility_long_press_timeout_preference_title">Reaktiounszäit fir d\'Drécken an Unhalen</string>
     <string name="accessibility_display_inversion_preference_title">Faarwen invertéieren</string>
     <string name="accessibility_autoclick_medium_title">Mëttel</string>
-    <string name="accessibility_vibration_settings_state_on">Un</string>
-    <string name="accessibility_vibration_settings_state_off">Aus</string>
+    <string name="autoclick_cursor_area_size_dialog_option_default">Standard</string>
     <string name="accessibility_call_vibration_category_title">Uriff</string>
     <string name="captioning_more_options_title">Méi Optiounen</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Weider</string>
@@ -983,6 +992,7 @@
     <string name="dock_audio_media_title">Dock-Lautsprecher spillt</string>
     <string name="dock_audio_media_disabled">All d\'Téin</string>
     <string name="dock_audio_media_enabled">Just Medientéin</string>
+    <string name="sound_audio_category_title">Toun</string>
     <string name="spatial_summary_off">Aus</string>
     <string name="spatial_audio_multi_toggle_off">Aus</string>
     <string name="zen_mode_disabled_needs_setup">Net gesat</string>
@@ -991,21 +1001,12 @@
     <string name="zen_mode_menu_delete_mode">Läschen</string>
     <string name="zen_mode_rule_name_edit">Änneren</string>
     <string name="mode_display_settings_title">Schiermastellungen</string>
-    <string name="zen_mode_block_effect_summary_none">Ni</string>
-    <string name="zen_mode_no_exceptions">Ouni</string>
-    <string name="zen_mode_add">Dobäisetzen</string>
-    <string name="zen_interruption_level_priority">Just wichteg</string>
-    <string name="zen_mode_sound_summary_on">Un</string>
     <string name="zen_mode_duration_summary_always_prompt">All Kéier froen</string>
     <string name="zen_category_apps">Appen</string>
-    <string name="zen_custom_settings_notifications_header">Notifikatiounen</string>
-    <string name="zen_custom_settings_duration_header">Dauer</string>
     <string name="work_sync_dialog_yes">Bestätegen</string>
     <string name="configure_notification_settings">Notifikatiounen</string>
     <string name="app_notification_field">App-Notifikatiounen</string>
     <string name="profile_section_header_for_advanced_privacy">Aarbechtsprofil</string>
-    <string name="notification_summarization_on">Un</string>
-    <string name="notification_summarization_off">Aus</string>
     <string name="notification_summarization_manage_excluded_apps">Appe geréieren</string>
     <string name="bubbles_feature_disabled_button_cancel">Ofbriechen</string>
     <string name="lock_screen_notifications_summary_show">All Notifikatiounsinhalt uweisen</string>
@@ -1020,8 +1021,6 @@
     <string name="notification_listener_disable_warning_cancel">Ofbriechen</string>
     <string name="notif_type_alerting">Notifikatiounen</string>
     <string name="notif_type_silent">Roueg</string>
-    <string name="notification_bundle_on">Un</string>
-    <string name="notification_bundle_off">Aus</string>
     <string name="interact_across_profiles_summary_allowed">Verbonnen</string>
     <string name="interact_across_profiles_summary_not_allowed">Net connectéiert</string>
     <string name="interact_across_profiles_switch_enabled">Verbonnen</string>
@@ -1103,6 +1102,7 @@
     <string name="battery_saver_on_summary">Un</string>
     <string name="battery_saver_off_summary">Aus</string>
     <string name="bluetooth_disabled">Aus</string>
+    <string name="navbar_back_button">Zréck</string>
     <string name="one_handed_action_show_notification_title">Notifikatiounen uweisen</string>
     <string name="gesture_setting_on">Un</string>
     <string name="gesture_setting_off">Aus</string>
@@ -1169,7 +1169,6 @@
     <string name="bluetooth_connect_access_dialog_positive">Connectéieren</string>
     <string name="dream_preview_button_title">Virschau</string>
     <string name="bluetooth_details_audio_device_type_unknown">Net gesat</string>
-    <string name="flash_notifications_summary_off">Aus</string>
     <string name="flash_notifications_preview">Virschau</string>
     <string name="screen_flash_color_blue">Blo</string>
     <string name="screen_flash_color_cyan">Cyan</string>
@@ -1191,8 +1190,6 @@
     <string name="color_inversion_state_on">Un</string>
     <string name="color_inversion_state_off">Aus</string>
     <string name="autoclick_disabled">Aus</string>
-    <string name="show_captions_disabled">Aus</string>
-    <string name="show_captions_enabled">Un</string>
     <string name="live_caption_disabled">Aus</string>
     <string name="live_caption_enabled">Un</string>
     <string name="audio_sharing_stream_name_title">Numm</string>
@@ -1209,4 +1206,5 @@
     <string name="audio_streams_dialog_close">Zoumaachen</string>
     <string name="audio_streams_dialog_learn_more">Méi gewuer ginn</string>
     <string name="supervision_change_pin_preference_title">PIN änneren</string>
+    <string name="lock_screen_title">Schiermspär</string>
 </resources>

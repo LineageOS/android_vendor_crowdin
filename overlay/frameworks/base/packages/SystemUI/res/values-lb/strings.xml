@@ -124,9 +124,12 @@
     <string name="keyboard_shortcut_group_system_home">Heem</string>
     <string name="keyboard_shortcut_group_system_back">Zréck</string>
     <string name="keyboard_shortcut_group_system_notifications">Notifikatiounen</string>
+    <string name="qs_edit_settings">Astellungen</string>
     <string name="tuner_time">Zäit</string>
+    <string name="accessibility_key_gesture_dialog_positive_button_text">Uschalten</string>
     <string name="tuner_menu">Menü</string>
     <string name="app_info">App-Info</string>
+    <string name="mobile_data_enable_turn_on">Uschalten</string>
     <string name="auto_data_switch_dialog_negative_button">Nee Merci</string>
     <string name="no_auto_saver_action">Nee Merci</string>
     <string name="accessibility_magnification_done">Fäerdeg</string>
@@ -135,10 +138,12 @@
     <string name="controls_settings_dialog_neutral_button">Nee Merci</string>
     <string name="controls_media_dismiss_button">Verstoppen</string>
     <string name="controls_media_settings_button">Astellungen</string>
+    <string name="media_output_item_connected_state">Verbonnen</string>
     <string name="mobile_data_connection_active">Verbonnen</string>
     <string name="clipboard_edit_text_done">Fäerdeg</string>
     <string name="privacy_dialog_done_button">Fäerdeg</string>
     <string name="shortcut_helper_done_button_text">Fäerdeg</string>
     <string name="shortcut_helper_customize_dialog_remove_button_label">Ewechhuelen</string>
     <string name="touchpad_tutorial_done_button">Fäerdeg</string>
+    <string name="back_button_on_bouncer">Zréck</string>
 </resources>

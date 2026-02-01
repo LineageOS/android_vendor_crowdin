@@ -14,23 +14,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_extract_all">Boga totu\u2026</string>
+    <string name="menu_browse">Nàviga</string>
     <string name="query_error">No at fatu a carrigare su contenutu in custu momentu</string>
-    <plurals name="copy_error_notification_title">
-        <item quantity="one">No at fatu a copiare <xliff:g id="count" example="1">%1$d</xliff:g>  elementu</item>
-        <item quantity="other">No at fatu a copiare <xliff:g id="count" example="2">%1$d</xliff:g> elementos</item>
-    </plurals>
-    <plurals name="compress_error_notification_title">
-        <item quantity="one">No at fatu a istrìnghere <xliff:g id="count" example="1">%1$d</xliff:g> archìviu</item>
-        <item quantity="other">No at fatu a istrìnghere <xliff:g id="count" example="2">%1$d</xliff:g> archìvios</item>
-    </plurals>
-    <plurals name="move_error_notification_title">
-        <item quantity="one">No at fatu a tramudare <xliff:g id="count" example="1">%1$d</xliff:g> elementu</item>
-        <item quantity="other">No at fatu a tramudare <xliff:g id="count" example="2">%1$d</xliff:g> elementos</item>
-    </plurals>
-    <plurals name="delete_error_notification_title">
-        <item quantity="one">No at fatu a cantzellare <xliff:g id="count" example="1">%1$d</xliff:g> elementu</item>
-        <item quantity="other">No at fatu a cantzellare <xliff:g id="count" example="2">%1$d</xliff:g> elementos</item>
-    </plurals>
     <plurals name="copy_failure_alert_content">
         <item quantity="one">Custu archìviu non s\'est copiadu: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
         <item quantity="other">Custos archìvios non si sunt copiados: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
@@ -52,4 +38,6 @@
         <item quantity="other">Custos archìvios non si sunt cantzellados: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
     </plurals>
     <string name="cant_display_content">Non si podent visualizare cuntenutos</string>
+    <string name="bullet">\u2022</string>
+    <string name="file_name_hint">Nòmine de s\'archìviu</string>
 </resources>

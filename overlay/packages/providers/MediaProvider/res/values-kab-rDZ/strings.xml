@@ -27,4 +27,5 @@
     <string name="clear">Zeddig</string>
     <string name="allow">Sireg</string>
     <string name="deny">Aggi</string>
+    <string name="videos_album_display_name" translation_description="Display name for the album containing videos. [CHAR_LIMIT=50]">Tividyutin</string>
 </resources>

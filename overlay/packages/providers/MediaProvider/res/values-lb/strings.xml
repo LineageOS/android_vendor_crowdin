@@ -19,4 +19,5 @@
     <string name="root_images">Biller</string>
     <string name="root_videos">Videoen</string>
     <string name="root_audio">Audio</string>
+    <string name="videos_album_display_name" translation_description="Display name for the album containing videos. [CHAR_LIMIT=50]">Videoen</string>
 </resources>

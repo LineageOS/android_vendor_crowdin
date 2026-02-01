@@ -39,6 +39,7 @@
     <string name="menu_move">Gluais gu…</string>
     <string name="menu_compress">Dùmhlaich</string>
     <string name="menu_extract">Dì-dhùmhlaich gu\u2026</string>
+    <string name="menu_extract_here">Dì-dhùmhlaich</string>
     <string name="menu_rename">Thoir ainm ùr air</string>
     <string name="menu_inspect">Faigh fiosrachadh</string>
     <string name="menu_show_hidden_files">Seall faidhlichean falaichte</string>
@@ -160,31 +161,11 @@
     <string name="extract_preparing">’Ga ullachadh…</string>
     <string name="move_preparing">’Ga ullachadh…</string>
     <string name="delete_preparing">’Ga ullachadh…</string>
+    <string name="move_to_trash_preparing">’Ga ullachadh…</string>
+    <string name="restore_from_trash_preparing">’Ga ullachadh…</string>
     <string name="delete_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
-    <plurals name="copy_error_notification_title">
-        <item quantity="one">Cha b’ urrainn dhuinn lethbhreac a dhèanamh de <xliff:g id="count" example="1">%1$d</xliff:g> nì</item>
-        <item quantity="two">Cha b’ urrainn dhuinn lethbhreac a dhèanamh de <xliff:g id="count" example="2">%1$d</xliff:g> nì</item>
-        <item quantity="few">Cha b’ urrainn dhuinn lethbhreac a dhèanamh de <xliff:g id="count" example="2">%1$d</xliff:g> nithean</item>
-        <item quantity="other">Cha b’ urrainn dhuinn lethbhreac a dhèanamh de <xliff:g id="count" example="2">%1$d</xliff:g> nì</item>
-    </plurals>
-    <plurals name="compress_error_notification_title">
-        <item quantity="one">Cha b’ urrainn dhuinn <xliff:g id="count" example="1">%1$d</xliff:g> fhaidhle a dhùmhlachadh</item>
-        <item quantity="two">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> fhaidhle a dhùmhlachadh</item>
-        <item quantity="few">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> faidhlichean a dhùmhlachadh</item>
-        <item quantity="other">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> faidhle a dhùmhlachadh</item>
-    </plurals>
-    <plurals name="move_error_notification_title">
-        <item quantity="one">Cha b’ urrainn dhuinn <xliff:g id="count" example="1">%1$d</xliff:g> nì a ghluasad</item>
-        <item quantity="two">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> nì a ghluasad</item>
-        <item quantity="few">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> nithean a ghluasad</item>
-        <item quantity="other">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> nì a ghluasad</item>
-    </plurals>
-    <plurals name="delete_error_notification_title">
-        <item quantity="one">Cha b’ urrainn dhuinn <xliff:g id="count" example="1">%1$d</xliff:g> nì a sguabadh às</item>
-        <item quantity="two">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> nì a sguabadh às</item>
-        <item quantity="few">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> nithean a sguabadh às</item>
-        <item quantity="other">Cha b’ urrainn dhuinn <xliff:g id="count" example="2">%1$d</xliff:g> nì a sguabadh às</item>
-    </plurals>
+    <string name="move_to_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
+    <string name="restore_from_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
     <string name="notification_touch_for_details">Thoir gnogag airson mion-fhiosrachadh a shealltainn</string>
     <string name="close">Dùin</string>
     <plurals name="copy_failure_alert_content">
@@ -326,4 +307,6 @@ dha &lt;xliff:g id="appName" example="System Settings"&gt;&lt;b&gt;^1&lt;/b&gt;?
     <string name="work_tab">Obair</string>
     <string name="a11y_work">Obair</string>
     <string name="drag_from_another_app">Chan urrainn dhut faidhlichean o aplacaid eile a ghluasad.</string>
+    <string name="peek_metadata_size">Meud</string>
+    <string name="peek_metadata_type">Seòrsa</string>
 </resources>

@@ -108,7 +108,6 @@
     <string name="all_apps_personal_tab">Pearsanta</string>
     <string name="all_apps_work_tab">Obair</string>
     <string name="work_profile_toggle_label">Pròifil na h-obrach</string>
-    <string name="work_profile_edu_accept">Tha mi agaibh</string>
     <string name="work_apps_paused_edu_accept">Tha mi agaibh</string>
     <string name="remote_action_failed">Dh’fhàillig: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
     <string name="ps_add_button_label">Stàlaich</string>

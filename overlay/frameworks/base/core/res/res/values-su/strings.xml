@@ -176,8 +176,6 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="safeMode">Safe mode</string>
     <string name="android_system_label">Sistem Android</string>
-    <string name="permgrouplab_contacts">Kontak</string>
-    <string name="permgroupdesc_contacts">aksés kontak anjeun</string>
     <string name="permgrouplab_location">Lokasi</string>
     <string name="permgroupdesc_location">aksés lokasi ieu parangkat</string>
     <string name="permgrouplab_calendar">Kalénder</string>

@@ -345,4 +345,9 @@
     <string name="transcode_alert_channel">Hysbysiadau Trawsgodio</string>
     <string name="transcode_progress_channel">Cynnydd Trawsgodio</string>
     <string name="permdesc_accessMediaOwnerPackageName">Mae\u2019n caniatáu\u2019r ap i gael mynediad at enwau pecynnau perchennog pob ffeil cyfrwng sy\u2019n hygyrch.</string>
+    <string name="camera_album_display_name" translation_description="Display name for the album containing all the media captured by camera. [CHAR_LIMIT=50]">Camera</string>
+    <string name="screenshots_album_display_name" translation_description="Display name for the album containing all the screenshots. [CHAR_LIMIT=50]">Sgrinluniau</string>
+    <string name="downloads_album_display_name" translation_description="Display name for the album containing all the downloaded media on the device. [CHAR_LIMIT=50]">Llwythi</string>
+    <string name="favorites_album_display_name" translation_description="Display name for the album containing all the media marked as favorite. [CHAR_LIMIT=50]">Ffefrynnau</string>
+    <string name="videos_album_display_name" translation_description="Display name for the album containing videos. [CHAR_LIMIT=50]">Fideos</string>
 </resources>

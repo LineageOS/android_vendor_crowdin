@@ -18,8 +18,8 @@
     <string name="app_permission_header_with_device_name"><xliff:g id="perm" example="camera">%1$s</xliff:g> rochtain don aip seo ar <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
     <string name="app_permission_info_button">Eolas</string>
     <string name="permission_group_name_with_device_name"><xliff:g id="perm_group_name" example="camera">%1$s</xliff:g> ar <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
+    <string name="role_assistant_recommended_title">Molta ag <xliff:g id="OEM_NAME" example="FictionalOEM">%s</xliff:g></string>
     <string name="default_apps_for_private_profile">Réamhshocrú do spás príobháideach</string>
-    <string name="default_app_recommended">Optamaithe don ghléas</string>
     <string name="default_app_others">Daoine eile</string>
     <string name="default_payment_app_other_nfc_services">Seirbhísí eile NFC</string>
     <string name="incident_report_dialog_text">"Tá <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ag iarraidh tuarascáil fabht a uaslódáil ón ngléas seo a tógadh ar <xliff:g id="date" example="26 Nollaig, 2018">%2$s</xliff:g> ag <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Cuimsíonn tuairiscí fabht faisnéis phearsanta faoi do ghléas nó faisnéis atá logáilte ag aipeanna, mar shampla, ainmneacha úsáideoirí, sonraí suímh, aitheantóirí gléis, agus faisnéis líonra. Ná roinn tuairiscí fabht ach le daoine agus aipeanna a bhfuil muinín agat astu leis an bhfaisnéis seo.\n\nAn gceadaíonn tú do <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> tuarascáil fabht a uaslódáil?"</string>

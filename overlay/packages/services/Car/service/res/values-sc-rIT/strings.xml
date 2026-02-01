@@ -14,6 +14,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="car_permission_label_read_car_seats">lèghere is postos de sa vetura</string>
+    <string name="car_permission_desc_read_car_seats">Lèghere is postos de sa vetura</string>
+    <string name="car_permission_desc_read_car_exterior_lights">Lèghere s\'istadu de is lughes esteriores de sa vetura.</string>
+    <string name="car_permission_label_car_tires">lèghere informatziones de is pneumàticos de sa vetura</string>
+    <string name="car_permission_desc_car_tires">Lèghere informatziones de is pneumàticos de sa vetura.</string>
+    <string name="car_permission_label_car_tires_3p">lèghere informatziones de is pneumàticos de sa vetura</string>
+    <string name="car_permission_desc_car_tires_3p">Lèghere informatziones de is pneumàticos de sa vetura.</string>
     <string name="car_permission_label_manage_display_compatibility">gestire is pachetes de cumpatibilidade de s\'ischermu</string>
     <string name="car_permission_desc_manage_display_compatibility">gestire is pachetes de cumpatibilidade de s\'ischermu.</string>
+    <string name="car_permission_label_bind_app_card_provider">assotziare a is frunidores de is cartas de is aplicatziones</string>
+    <string name="car_permission_desc_bind_app_card_provider">assotziare a is frunidores de is cartas de is aplicatziones.</string>
+    <string name="car_permission_label_record_vehicle_properties">registrare is propiedades de sa vetura</string>
+    <string name="car_permission_desc_record_vehicle_properties">registrare is propiedades de sa vetura</string>
 </resources>

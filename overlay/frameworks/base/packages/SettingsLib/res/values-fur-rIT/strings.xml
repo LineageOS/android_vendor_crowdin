@@ -85,6 +85,7 @@
     <string name="bluetooth_connecting">Daûr a conetisi\u2026</string>
     <string name="bluetooth_connected">Conetût <xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_pairing">Daûr a associâsi\u2026</string>
+    <string name="bluetooth_connection_failure">Impussibil conetisi</string>
     <string name="bluetooth_connected_no_headset">Conetût (cence telefon) <xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp">Conetût (cence multimedia) <xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp">Conetût (cence telefon o multimedia) <xliff:g id="active_device">%1$s</xliff:g></string>
@@ -342,7 +343,6 @@
     <string name="wifi_non_persistent_mac_randomization_summary">Se cheste modalitât e je ative, la direzion MAC di chest dispositîf e cambie ogni volte che il dispositîf si conet a une rêt che e à ative la opzion pal MAC casuâl.</string>
     <string name="wifi_metered_label">A consum</string>
     <string name="wifi_unmetered_label">Dâts ilimitâts</string>
-    <string name="select_logd_size_title">Dimensions memoriis tampon pai regjistris</string>
     <string name="select_logd_size_dialog_title">Selezione lis dimensions dal regjistradôr par buffer di regjistri</string>
     <string name="dev_logpersist_clear_warning_title">Netâ l\'archivi persistent dal regjistradôr di regjistris?</string>
     <string name="dev_logpersist_clear_warning_message">Cuant che no stin monitornat cul regjistradôr persistent di regjistri, o vin la necessitât di scancelâ i dâts dal regjistradôr di regjistri sul to dispositîf.</string>
@@ -558,8 +558,8 @@
     <string name="screen_zoom_summary_small">Piçul</string>
     <string name="screen_zoom_summary_default">Predefinît</string>
     <string name="screen_zoom_summary_large">Grant</string>
-    <string name="screen_zoom_summary_very_large">Plui grant</string>
-    <string name="screen_zoom_summary_extremely_large">Il plui grant</string>
+    <string name="screen_zoom_summary_larger">Plui grant</string>
+    <string name="screen_zoom_summary_largest">Il plui grant</string>
     <string name="screen_zoom_summary_custom">Personalize (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
     <string name="content_description_menu_button">Menù</string>
     <string name="retail_demo_reset_message">Inserìs la password par eseguî il ripristinament di fabriche in modalitât dimostrative</string>
@@ -774,9 +774,6 @@
     <string name="bt_le_audio_broadcast_dialog_sub_title">Se tu trasmetis <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g> o tu cambiis la jessude, la trasmission corinte si interomparà</string>
     <string name="bt_le_audio_broadcast_dialog_switch_app">Trasmeti <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g></string>
     <string name="bt_le_audio_broadcast_dialog_different_output">Cambie jessude</string>
-    <string name="back_navigation_animation">Animazions preditivis par Indaûr</string>
-    <string name="back_navigation_animation_summary">Ative lis animazions di sisteme pal mot Indaûr preditîf.</string>
-    <string name="back_navigation_animation_dialog">Cheste impostazion e ative lis animazions di sisteme pal mot Indaûr preditîf. E domande di meti il metodi \"enableOnBackInvokedCallback\" a true tal file manifest di dutis lis aplicazions.</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g> %%</string>
     <string name="not_specified">No specificât</string>
     <string name="neuter">Neutri</string>

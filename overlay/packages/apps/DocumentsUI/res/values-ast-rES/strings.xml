@@ -39,6 +39,7 @@
     <string name="menu_move">Mover a\u2026</string>
     <string name="menu_compress">Comprimir</string>
     <string name="menu_extract">Estrayer en\u2026</string>
+    <string name="menu_extract_here">Estrayer</string>
     <string name="menu_rename">Renomar</string>
     <string name="menu_inspect">Consiguir información</string>
     <string name="menu_show_hidden_files">Amosar los ficheros escondíos</string>
@@ -174,23 +175,11 @@
     <string name="extract_preparing">Tresnando…</string>
     <string name="move_preparing">Tresnando…</string>
     <string name="delete_preparing">Tresnando…</string>
+    <string name="move_to_trash_preparing">Tresnando…</string>
+    <string name="restore_from_trash_preparing">Tresnando…</string>
     <string name="delete_progress"><xliff:g id="count" example="3">%1$d</xliff:g>/<xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
-    <plurals name="copy_error_notification_title">
-        <item quantity="one">Nun se pudo copiar <xliff:g id="count" example="1">%1$d</xliff:g> elementu</item>
-        <item quantity="other">Nun se pudieron copiar <xliff:g id="count" example="1">%1$d</xliff:g> elementos</item>
-    </plurals>
-    <plurals name="compress_error_notification_title">
-        <item quantity="one">Nun se pudo comprimir <xliff:g id="count" example="1">%1$d</xliff:g> ficheru</item>
-        <item quantity="other">Nun se pudieron comprimir <xliff:g id="count" example="1">%1$d</xliff:g> ficheros</item>
-    </plurals>
-    <plurals name="move_error_notification_title">
-        <item quantity="one">Nun se pudo mover <xliff:g id="count" example="1">%1$d</xliff:g> elementu</item>
-        <item quantity="other">Nun se pudieron mover <xliff:g id="count" example="1">%1$d</xliff:g> elementos</item>
-    </plurals>
-    <plurals name="delete_error_notification_title">
-        <item quantity="one">Nun se pudo desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> elementu</item>
-        <item quantity="other">Nun se pudieron desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> elementos</item>
-    </plurals>
+    <string name="move_to_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g>/<xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
+    <string name="restore_from_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g>/<xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
     <string name="notification_touch_for_details">Toca pa ver los detalles</string>
     <string name="close">Zarrar</string>
     <plurals name="copy_failure_alert_content">
@@ -310,4 +299,6 @@
     <string name="drag_from_another_app">Nun pues mover ficheros dende otra aplicación</string>
     <string name="grid_mode_showing">Amosando\'l mou de rexáu</string>
     <string name="list_mode_showing">Amosando\'l mou de llista</string>
+    <string name="peek_metadata_size">Tamañu</string>
+    <string name="peek_metadata_type">Tipu</string>
 </resources>

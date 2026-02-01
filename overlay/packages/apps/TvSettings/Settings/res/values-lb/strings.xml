@@ -148,7 +148,6 @@
     <string name="wifi_connecting">Connectioun mat <xliff:g id="name">%1$s</xliff:g> gëtt erstallt</string>
     <string name="wifi_saving">Konfiguratioun fir <xliff:g id="ssid">%1$s</xliff:g> gëtt gespäichert</string>
     <string name="wifi_connect">Connectéieren</string>
-    <string name="wifi_forget_network">Netzwierk vergiessen</string>
     <string name="wifi_forget_network_description">Läscht d\'Informatioune fir mat dësem Netzwierk ze connectéieren an och d\'gespäichert Passwuert</string>
     <string name="wifi_action_ok">OK</string>
     <string name="wifi_action_change_network">Änneren</string>
@@ -206,8 +205,6 @@
         <item>Aus</item>
     </string-array>
     <string name="recently_accessed_show_all">All uweisen</string>
-    <string name="sensor_toggle_info_on">Un</string>
-    <string name="sensor_toggle_info_off">Aus</string>
     <string name="system_location">Standuert</string>
     <string name="system_desc_location">Appen déi eng Berechtegung gefrot hu kënnen d\'Standuertinformatioune benotzen</string>
     <string name="system_network_location_confirm">Standuertfräigab</string>

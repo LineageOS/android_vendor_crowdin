@@ -32,6 +32,7 @@
     <string name="split_app_usage_settings">Socruithe úsáide do %1$s</string>
     <string name="new_window_option_taskbar">Fuinneog Nua</string>
     <string name="manage_windows_option_taskbar">Bainistigh Windows</string>
+    <string name="close_app_taskbar">Dún</string>
     <string name="save_app_pair">Sábháil péire aipeanna</string>
     <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
     <string name="app_pair_unlaunchable_at_screen_size">Ní thacaítear leis an péire aipeanna seo ar an ngléas seo</string>
@@ -159,7 +160,6 @@
     <string name="allow_rotation_title">Ceadaigh rothlú an scáileáin bhaile</string>
     <string name="allow_rotation_desc">Nuair a rothlaítear an fón</string>
     <string name="landscape_mode_title">Modh tírdhreacha</string>
-    <string name="landscape_mode_desc">Cuir fón isteach i mód tírdhreacha</string>
     <string name="notification_dots_title">Poncanna fógra</string>
     <string name="notification_dots_desc_on">Ar</string>
     <string name="notification_dots_desc_off">As</string>
@@ -220,7 +220,6 @@
     <string name="all_apps_work_tab_content_description">Táb aipeanna oibre</string>
     <string name="work_profile_toggle_label">Próifíl oibre</string>
     <string name="work_profile_edu_work_apps">Tá suaitheantas ar aipeanna oibre agus tá siad le feiceáil ag do riarthóir TF</string>
-    <string name="work_profile_edu_accept">Tuigim é</string>
     <string name="work_apps_paused_title">Tá aipeanna oibre ar sos</string>
     <string name="work_apps_paused_info_body">Ní bhfaighidh tú fógraí ó d’aipeanna oibre</string>
     <string name="work_apps_paused_body">Ní féidir le d’aipeanna oibre fógraí a sheoladh chugat, do cheallraí a úsáid, ná rochtain a fháil ar do shuíomh</string>
@@ -241,6 +240,7 @@
     <string name="ps_container_lock_title">Glasáil</string>
     <string name="ps_container_transition">Aistriú Spáis Phríobháidigh</string>
     <string name="ps_add_button_label">Suiteáil</string>
+    <string name="ps_app_label_override">Cuir</string>
     <string name="ps_add_button_content_description">Suiteáil aipeanna chuig Spás Príobháideach</string>
     <string name="ps_app_content_description">Cuir comhaid agus tuilleadh le Spás Príobháideach</string>
 </resources>

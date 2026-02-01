@@ -59,7 +59,7 @@
         <item>@string/wifi_security_none</item>
     </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
-        <item>Do not verify</item>
+        <item>Non verìfiches</item>
         <item>Pedi s\'istadu de su tzertificadu</item>
         <item>Pedi s\'istadu de su tzertificadu</item>
     </string-array>
@@ -267,6 +267,10 @@
         <item>Mesana</item>
         <item>Longa</item>
     </string-array>
+    <string-array name="ethernet_ip_settings">
+        <item>DHCP</item>
+        <item>Istàtica</item>
+    </string-array>
     <string-array name="captioning_typeface_selector_titles">
         <item>Predefinidu</item>
         <item>Sans-serif</item>
@@ -341,7 +345,7 @@
     </string-array>
     <string-array name="wifi_dhcp_entries">
         <item>Imbia su nòmine de su dispositivu a sa rete</item>
-        <item>Don\u0027t send device name to network</item>
+        <item>No imbies su nòmine de su dispositivu in rete</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>Istudadu</item>
@@ -393,46 +397,65 @@
         <item>After 1 minute</item>
         <item>After 5 minutes</item>
     </string-array>
+    <string-array name="terms_of_address_supported_languages">
+        <item>fr</item>
+        <item>es</item>
+        <item>it</item>
+        <item>de</item>
+        </string-array>
+    <string-array name="private_space_auto_lock_options">
+        <item>@string/private_space_auto_lock_every_time</item>
+        <item>@string/private_space_auto_lock_after_inactivity</item>
+        <item>@string/private_space_auto_lock_after_device_restart</item>
+    </string-array>
     <string-array name="zen_mode_icon_options_descriptions">
-        <item>Briefcase</item>
-        <item>Classical building</item>
-        <item>Apartment building</item>
+        <item>Valìgia</item>
+        <item>Palatzu clàssicu</item>
+        <item>Palatzu de apartamentos</item>
         <item>Abbajolu de boghe</item>
-        <item>Group of people</item>
+        <item>Grupu de persones</item>
         <item>Lampadina</item>
-        <item>Calendar</item>
-        <item>Do Not Disturb</item>
-        <item>Person running</item>
+        <item>Calendàriu</item>
+        <item>No istorbes</item>
+        <item>Persone currende</item>
         <item>Golf</item>
         <item>Gym dumbbell</item>
         <item>Nàdidu</item>
         <item>Persona faghende escursiones</item>
         <item>Persona tirende una bòcia</item>
         <item>Person kicking</item>
-        <item>Game controller</item>
+        <item>Telecumandu de giogu</item>
         <item>Artist color palette</item>
         <item>Frocu de nie</item>
         <item>Paràculu de ispiàgia</item>
         <item>Ainas de laboratòriu</item>
         <item>Piano</item>
         <item>Film reel</item>
-        <item>Book</item>
+        <item>Libru</item>
         <item>Frore de lotus</item>
-        <item>Person\'s mind</item>
-        <item>Headphones</item>
+        <item>Mente de una persone</item>
+        <item>Auriculares</item>
         <item>TV</item>
         <item>Trenu</item>
         <item>Màchina</item>
         <item>Frochita e gurteddu</item>
         <item>Carretos de s\'ispesa</item>
-        <item>Child</item>
+        <item>Pitzocalla</item>
         <item>Branca de un\'animale</item>
         <item>Distintivu de isteddu</item>
         <item>Duas persones</item>
         <item>Isteddu</item>
         <item>Coro</item>
-        <item>House</item>
-        <item>Half-moon</item>
-        <item>Clock</item>
+        <item>Domo</item>
+        <item>Mesu luna</item>
+        <item>Rellògiu</item>
+    </string-array>
+    <string-array name="action_corner_action_titles">
+        <item>Perunu</item>
+        <item>Home</item>
+        <item>Recent apps</item>
+        <item>Notifications</item>
+        <item>Quick settings</item>
+        <item>Lockscreen</item>
     </string-array>
 </resources>

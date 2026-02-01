@@ -45,7 +45,6 @@
     <string name="respond_via_sms_setting_title">Rispuestis rapidis</string>
     <string name="respond_via_sms_setting_title_2">Modifiche rispuestis rapidis</string>
     <string name="respond_via_sms_edittext_dialog_title">Rispueste rapide</string>
-    <string name="respond_via_sms_confirmation_format">Messaç inviât a <xliff:g id="phone_number">%s</xliff:g></string>
     <string name="respond_via_sms_failure_format">Impussibil inviâ il messaç a <xliff:g id="phone_number">%s</xliff:g></string>
     <string name="enable_account_preference_title">Accounts des clamadis</string>
     <string name="outgoing_call_not_allowed_user_restriction">A son consintudis dome lis clamadis di emergjence.</string>

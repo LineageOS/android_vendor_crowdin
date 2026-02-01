@@ -41,6 +41,9 @@
     <string name="clock_size_small">Pequeñu</string>
     <string name="clock_size_small_description">Un reló pequeñu qu\'apaez na esquina de la pantalla</string>
     <string name="grid_title">Rexáu d\'aplics.</string>
+    <string name="app_icons_style_default">Por defeutu</string>
+    <string name="app_icons_shape">Forma</string>
+    <string name="app_icons_style">Estilu</string>
     <string name="apply_theme_btn">Aplicar</string>
     <string name="edit_custom_theme_lbl">Toca pa editar</string>
     <string name="keep_my_wallpaper">Caltener el fondu pantalla actual</string>

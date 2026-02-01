@@ -23,7 +23,6 @@
     <string name="confirmation_title_glasses">¿Quies permitir a &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; que xestione\'l preséu &lt;strong&gt;<xliff:g id="device_name" example="Glasses">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="profile_name_glasses">preséu</string>
     <string name="summary_glasses">Esta aplicación va poder acceder a estos permisos nel preséu «<xliff:g id="device_type" example="phone">%1$s</xliff:g>»</string>
-    <string name="title_computer">Permitir a &lt;strong&gt;<xliff:g id="app_name" example="GMS">%1$s</xliff:g>&lt;/strong&gt; qu\'acceda a esta información del preséu «<xliff:g id="device_type" example="phone">%2$s</xliff:g>»</string>
     <string name="helper_summary_computer">«<xliff:g id="app_name" example="GMS">%1$s</xliff:g>» ta solicitando permisu en nome del preséu «<xliff:g id="device_name" example="Chromebook">%2$s</xliff:g>» p\'acceder a los ficheros y avisos de: <xliff:g id="device_type" example="phone">%3$s</xliff:g></string>
     <string name="profile_name_generic">preséu</string>
     <string name="summary_generic">Esta aplicación va ser a sincronizar información, como\'l nome de los llamadores, ente\'l teléfonu y el preséu escoyíu</string>
@@ -54,7 +53,6 @@
     <string name="permission_microphone_summary">Graba l\'audiu</string>
     <string name="permission_nearby_devices_summary">Determina la posición relativa de los preseos próximos, atópalos y conéctase a ellos</string>
     <string name="permission_notification_listener_access_summary">Llee tolos avisos, incluyida información como contautos, mensaxes y semeyes</string>
-    <string name="permission_notifications_summary">\u2022 Llectura de tolos avisos, incluyida información como contautos, mensaxes y semeyes&lt;br/&gt;\u2022 Unviu d\'avisos&lt;br/&gt;&lt;br/&gt;En Configuración &gt; Avisos, pues xestionar en cualesquier momentu la capacidá d\'esta aplicación pa lleer y unviar avisos.</string>
     <string name="permission_media_routing_control_summary">Accede a la llista de preseos disponibles y controla cuálu emite o tresmite audiu o videu dende otres aplicaciones</string>
     <string name="device_type" product="default">teléfonu</string>
     <string name="device_type" product="tablet">tableta</string>

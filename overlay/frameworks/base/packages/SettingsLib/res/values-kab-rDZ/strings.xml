@@ -108,8 +108,8 @@
     <string name="screen_zoom_summary_small">Meẓẓi</string>
     <string name="screen_zoom_summary_default">Akk-a kan</string>
     <string name="screen_zoom_summary_large">Ameqran</string>
-    <string name="screen_zoom_summary_very_large">Plus grand</string>
-    <string name="screen_zoom_summary_extremely_large">Ahrawan maḍi</string>
+    <string name="screen_zoom_summary_larger">Plus grand</string>
+    <string name="screen_zoom_summary_largest">Ahrawan maḍi</string>
     <string name="content_description_menu_button">Umuɣ</string>
     <string name="retail_demo_reset_next">Γer zdat</string>
     <string name="ims_reg_status_registered">"Aklas"</string>

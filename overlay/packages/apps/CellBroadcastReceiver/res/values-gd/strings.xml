@@ -82,7 +82,6 @@
     <string name="enable_cmas_test_alerts_summary">Faigh deuchainnean on ghiùlanair agus deuchainnean mìosail o shiostam nan rabhaidhean sàbhailteachd</string>
     <string name="enable_alert_vibrate_title">Crith</string>
     <string name="override_dnd_title">Cuir làn-àirde na fuaime air rabhaidhean an-còmhnaidh</string>
-    <string name="override_dnd_summary">Leig seachad “Na bris a-steach orm” ⁊ roghainnean àirde na fuaime eile</string>
     <string name="enable_area_update_info_alerts_title">Craolaidhean ùrachadh na sgìre</string>
     <string name="enable_area_update_info_alerts_summary">Seall fiosrachadh an ùrachaidh ann an staid an t-SIM</string>
     <string name="cmas_category_heading">Roinn-seòrsa an rabhaidh:</string>

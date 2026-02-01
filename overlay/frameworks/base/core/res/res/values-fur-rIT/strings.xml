@@ -69,15 +69,6 @@
     <string name="CLIRDefaultOnNextCallOff">ID di chel che al clame metût come predefinît a limitât. Prossime clamade: no limitât</string>
     <string name="CLIRDefaultOffNextCallOn">ID di chel che al clame metût come predefinît a no limitât. Prossime clamade: limitât</string>
     <string name="CLIRDefaultOffNextCallOff">ID di chel che al clame metût come predefinît a no limitât. Prossime clamade: no limitât</string>
-    <string name="page_size_compat_apk_warning">Cheste aplicazion no je compatibile cui 16 KB. Control di inlineament APK falît.
-        Cheste aplicazion e vignarà eseguide doprant la modalitât compatibile pe dimension de pagjine. Par vê une compatibilitât miorade, torne compile la aplicazion cul supuart pai 16 KB.
-        Par vê altris informazions, viôt &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt; </string>
-    <string name="page_size_compat_elf_warning">Cheste aplicazion no je compatibile cui 16 KB. Control di inlineament ELF falît.
-        Cheste aplicazion e vignarà eseguide doprant la modalitât compatibile pe dimension de pagjine. Par vê une compatibilitât miorade, torne compile la aplicazion cul supuart pai 16 KB.
-        Par altris informazions, viôt &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
-    <string name="page_size_compat_apk_and_elf_warning">Cheste aplicazion no je compatibilie cui 16 KB. Controi di inlineament APK e ELF falîts.
-        Cheste aplicazion e vignarà eseguide doprant la modalitât compatibile pe dimension de pagjine. Par vê une compatibilitât miorade, torne compile la aplicazion cul supuart pai 16 KB.
-        Par altris informazions, viôt &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
     <string name="serviceNotProvisioned">Servizi no furnît.</string>
     <string name="CLIRPermanent">No tu puedis cambiâ la impostazion dal ID di chel che al clame.</string>
     <string name="auto_data_switch_title">Dâts passâts su <xliff:g id="carrierDisplay" example="Verizon">%s</xliff:g></string>
@@ -161,8 +152,6 @@
     <string name="scCellularNetworkSecurityTitle">Sigurece de rêt mobile</string>
     <string name="scCellularNetworkSecuritySummary">Cifradure, notifichis par rêts cence cifradure</string>
     <string name="scIdentifierDisclosureIssueTitle">Device ID accessed</string>
-    <string name="scIdentifierDisclosureIssueSummaryNotification">Aes <xliff:g id="disclosure_time">%1$s</xliff:g>, une rêt tai contors e à regjistrât l\'ID univoc dal to dispositîf (IMSI o IMEI) intant che e vegnive doprade la tô SIM <xliff:g id="disclosure_network">%2$s</xliff:g></string>
-    <string name="scIdentifierDisclosureIssueSummary">Aes <xliff:g id="disclosure_time">%1$s</xliff:g>, une rêt tai contors e à regjistrât l\'ID univoc dal to dispositîf (IMSI o IMEI) intant che e vignive doprade la tô SIM <xliff:g id="disclosure_network">%2$s</xliff:g>.\n\nChest al significhe che la tô posizion, la tô ativitiât o la tô identitât a son stadis regjistradis. Cheste e je une pratiche comune ma e podarès rapresentâ un probleme pes personis atentis ae lôr riservatece.</string>
     <string name="scNullCipherIssueEncryptedTitle">Conetût ae rêt cifrade <xliff:g id="network_name">%1$s</xliff:g></string>
     <string name="scNullCipherIssueEncryptedSummary">Cumò la conession de SIM <xliff:g id="network_name">%1$s</xliff:g> e je plui sigure</string>
     <string name="scNullCipherIssueNonEncryptedTitle">Conetût a rêt cence cifradure</string>
@@ -349,8 +338,6 @@
     <string name="managed_profile_label">Passe al profîl di lavôr</string>
     <string name="user_owner_app_label">Passe a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> personâl</string>
     <string name="managed_profile_app_label">Passe a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di lavôr</string>
-    <string name="permgrouplab_contacts">Contats</string>
-    <string name="permgroupdesc_contacts">acedi ai tiei contats</string>
     <string name="permgrouplab_location">Posizion</string>
     <string name="permgroupdesc_location">acedi ae posizion di chest dispositîf</string>
     <string name="permgrouplab_calendar">Calendari</string>
@@ -1386,37 +1373,9 @@
     </string>
     <string name="duration_years_shortest_future">        ca di <xliff:g id="count">%d</xliff:g> a
     </string>
-    <string name="duration_minutes_shortest_past">        <xliff:g id="count">%d</xliff:g>m indaûr
-    </string>
-    <string name="duration_hours_shortest_past">        <xliff:g id="count">%d</xliff:g>o indaûr
-    </string>
-    <string name="duration_days_shortest_past">        <xliff:g example="1" id="count">%d</xliff:g>d indaûr
-    </string>
-    <string name="duration_years_shortest_past">        <xliff:g id="count">%d</xliff:g>a indaûr
-    </string>
     <string name="duration_minutes_medium">        <xliff:g id="count">%d</xliff:g>min
     </string>
     <string name="duration_hours_medium">        <xliff:g id="count">%d</xliff:g>or
-    </string>
-    <string name="duration_days_medium">       <xliff:g id="count">%d</xliff:g> d
-    </string>
-    <string name="duration_years_medium">        <xliff:g id="count">%d</xliff:g>agn
-    </string>
-    <string name="duration_minutes_medium_future">        ca di <xliff:g id="count">%d</xliff:g>min
-    </string>
-    <string name="duration_hours_medium_future">        ca di <xliff:g id="count">%d</xliff:g>or
-    </string>
-    <string name="duration_days_medium_future">        ca di <xliff:g example="1" id="count">%d</xliff:g> d
-    </string>
-    <string name="duration_years_medium_future">        ca di <xliff:g id="count">%d</xliff:g>agn
-    </string>
-    <string name="duration_minutes_medium_past">        <xliff:g id="count">%d</xliff:g>min indaûr
-    </string>
-    <string name="duration_hours_medium_past">        <xliff:g id="count">%d</xliff:g>or indaûr
-    </string>
-    <string name="duration_days_medium_past">        <xliff:g example="1" id="count">%d</xliff:g>d indaûr
-    </string>
-    <string name="duration_years_medium_past">        <xliff:g id="count">%d</xliff:g>agn indaûr
     </string>
     <string name="duration_minutes_relative">{count, plural,
         one {}=1 {# minût indaûr}
@@ -1750,8 +1709,6 @@
     <string name="decline_remote_bugreport_action">REFUDE</string>
     <string name="select_input_method">Sielç il metodi di imission</string>
     <string name="input_method_language_settings">Impostazions lenghe</string>
-    <string name="show_ime">Tegnilu sul schermi intant che la tastiere fisiche e je ative</string>
-    <string name="hardware">Dopre tastiere su schermi</string>
     <string name="select_keyboard_layout_notification_title">Configure <xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g></string>
     <string name="select_multiple_keyboards_layout_notification_title">Configure tastieris fisichis</string>
     <string name="select_keyboard_layout_notification_message">Tocje par selezionâ la lenghe e la disposizion</string>
@@ -2297,8 +2254,6 @@
     <string name="package_installed_device_owner">Instalât dal to aministradôr.\nVa tes impostazions par viodi i permès concedûts</string>
     <string name="package_deleted_device_owner">Eliminât dal to aministradôr</string>
     <string name="confirm_battery_saver">Va ben</string>
-    <string name="battery_saver_description_with_learn_more">Il sparagn energjetic al ative il teme scûr e al limite o al disative lis ativitâts in sotfont, cualchi efiet visîf, ciertis funzionalitâts e cualchi conession di rêt.</string>
-    <string name="battery_saver_description">Il sparagn energjetic al ative il teme scûr e al limite o al disative lis ativitâts in sotfont, cualchi efiet visîf, ciertis funzionalitâts e cualchi conession di rêt.</string>
     <string name="data_saver_description">Par judâ a diminuî il consum di dâts, Sparagn dâts al impedìs a cualchi aplicazion di mandâ o ricevi dâts in sotfont. Une aplicazion che tu stâs doprant e pues acedi ai dâts, ma mancul dispès. Chest al pues puartâ, par esempli, che lis imagjins no vegnin visualizadis fintant che no tu lis tocjis.</string>
     <string name="data_saver_enable_title">Ativâ il Sparagn dâts?</string>
     <string name="data_saver_enable_button">Ative</string>
@@ -2404,7 +2359,7 @@
     <string name="promotional_notification_channel_label">Promozions</string>
     <string name="social_notification_channel_label">Social</string>
     <string name="news_notification_channel_label">Notiziis</string>
-    <string name="recs_notification_channel_label">Racomandazions</string>
+    <string name="recs_notification_channel_label">Sugjeridis</string>
     <string name="importance_from_user">Tu âs stabilît la impuartance di chestis notifichis.</string>
     <string name="importance_from_person">Cheste e je impuartante par vie des personis coinvoltis.</string>
     <string name="notification_history_title_placeholder">Notifiche di aplicazion personalizade</string>
@@ -2902,6 +2857,7 @@
     <string name="keyboard_shortcut_group_applications_calendar">Calendari</string>
     <string name="keyboard_shortcut_group_applications_calculator">Calcoladorie</string>
     <string name="keyboard_shortcut_group_applications_maps">Mapis</string>
+    <string name="keyboard_shortcut_group_applications_files">Files</string>
     <string name="keyboard_shortcut_group_applications">Aplicazions</string>
     <string name="fingerprint_loe_notification_msg">Nol è plui pussibil ricognossi i tiei impronts. Torne configure il sbloc cul impront.</string>
 </resources>

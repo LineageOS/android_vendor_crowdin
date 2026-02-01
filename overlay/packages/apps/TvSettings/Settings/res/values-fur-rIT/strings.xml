@@ -106,13 +106,7 @@
     <string name="wifi_settings_thread_network_confirmation_title">Disativâ la rêt Thread?</string>
     <string name="wifi_settings_thread_network_confirmation_message">Se disativade, al è pussibil che
         cierts dispositîfs inteligjents di cjase e cualchi servizi no funzionin ben. Desideristu continuâ?</string>
-    <string name="wifi_settings_thread_network_energy_title">Ativâ la rêt Thread?</string>
-    <string name="wifi_settings_thread_network_energy_message">La rêt Thread e domande la modalitât
-    energjetiche \"Aumentade\". Prime cambie la modalitât energjetiche a \"Aumentade\", dopo torne
-    indaûr par ativâ la rêt Thread.</string>
     <string name="wifi_settings_thread_network_confirmation_button_confirm">Disative</string>
-    <string name="wifi_settings_thread_network_button_change_energy_mode">        Cambie modalitât energjetiche
-    </string>
     <string name="wifi_setting_enable_wifi">Wi-Fi</string>
     <string name="connectivity_hint_message">Conet ae rêt</string>
     <string name="connectivity_network_diagnostics">Diagnostiche di rêt</string>
@@ -626,7 +620,7 @@
     <string name="wifi_connecting">Daûr a conetisi a <xliff:g id="ssid">%1$s</xliff:g></string>
     <string name="wifi_saving">Daûr a salvâ la configurazion par <xliff:g id="ssid">%1$s</xliff:g></string>
     <string name="wifi_connect">Conet</string>
-    <string name="wifi_forget_network">Dismentee rêt</string>
+    <string name="wifi_forget_network">Dismentee</string>
     <string name="wifi_forget_network_description">Cheste operazion e netarà lis informazions dopradis par conetisi a cheste rêt, includude la password salvade</string>
     <string name="wifi_scan_qr_code_description">        Conetiti a une rêt Wi-Fi scansionant il codiç QR cuntun telefonin e va daûr des istruzions.\n
         \n
@@ -804,8 +798,6 @@
         a puedin acedi a dutis lis fotocjamaris su chest dispositîf.\n\nLis periferichis otichis cuntun protocol personalizât
         no vignaran tocjadis di cheste impostazion.
     </string>
-    <string name="sensor_toggle_info_on">On</string>
-    <string name="sensor_toggle_info_off">Off</string>
     <string name="system_location">Gjeolocalizazion</string>
     <string name="system_desc_location">Concêt, aes aplicazions che lu àn domandât, il permès di doprâ lis informazions su la posizion </string>
     <string name="system_network_location_confirm">Consens ae gjeolocalizazion</string>
@@ -1034,7 +1026,6 @@
     <string name="tts_rate_normal">Normâl</string>
     <string name="tts_rate_fast">Svelte</string>
     <string name="tts_rate_very_fast">Une vore svelte</string>
-    <string name="title_settings">Impostazions di <xliff:g id="name" example="Gboard">%1$s</xliff:g></string>
     <string name="title_current_keyboard">Tastiere atuâl</string>
     <string name="title_configure">Configure</string>
     <string name="desc_configure_keyboard">Opzions de tastiere</string>
@@ -1252,8 +1243,6 @@
     <string name="system_alert_window_settings">Mostre sore altris aplicazions</string>
     <string name="permit_draw_overlay">Permet di mostrâ sore di altris aplicazions</string>
     <string name="allow_overlay_description">Permet a une aplicazion di visualizâsi sore di altris aplicazions che tu stâs doprant. Al podarès interferî cu la tô utilizazion di chês aplicazions o cambiâ la maniere che a somein mostrâsi o che si compuartin.</string>
-    <string name="write_system_settings">Modifiche impostazions sisteme</string>
-    <string name="write_settings_title">A puedin modificâ lis impostazions di sisteme</string>
     <string name="write_settings_description">Chest permès al consint a une aplicazion di modificâ lis impostazions di sisteme.</string>
     <string name="write_settings_on">Sì</string>
     <string name="write_settings_off">No</string>
@@ -1269,7 +1258,7 @@
         al è disativât, lis sveis esistentis e i events a orari programâts de aplicazion no funzionaran.
     </string>
     <string name="turn_screen_on_title">Impie il schermi</string>
-    <string name="allow_turn_screen_on">Permet di impiâ il schermi</string>
+    <string name="allow_turn_screen_on">Impie il schermi</string>
     <string name="allow_turn_screen_on_description">Permet a une aplicazion di impiâ il schermi. Se chest permès al ven concedût, la aplicazion e podarès impiâ il schermi a cualsisei ore cence la tô autorizazion esplicite.</string>
     <string name="special_access">Acès speciâl pes aplicazions</string>
     <string name="string_concat"><xliff:g id="part1">%1$s</xliff:g>, <xliff:g id="part2">%2$s</xliff:g></string>

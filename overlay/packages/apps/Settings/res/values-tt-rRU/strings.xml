@@ -110,8 +110,6 @@
     <string name="keywords_app">RAM</string>
     <string name="keywords_esim_eid">eid</string>
     <string name="keywords_systemui_theme">караңгы тема, төнге тема</string>
-    <string name="zen_mode_summary_combination"><xliff:g id="mode" example="Priority only">%1$s</xliff:g>: <xliff:g id="exit condition" example="Until you turn this off">%2$s</xliff:g></string>
-    <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
     <string name="lock_screen_notifications_title">Шәхсилек</string>
     <string name="notification_listener_not_allowed">Тыелган</string>
     <string name="zen_mode_rule_summary_provider_combination"><xliff:g id="package" example="Condition Provider App">%1$s</xliff:g>\n<xliff:g id="summary" example="On / Alarms only">%2$s</xliff:g></string>
@@ -156,9 +154,9 @@
     <string name="sim_category_title">SIM</string>
     <string name="downloaded_sim_category_title">eSIM</string>
     <string name="default_active_sim_sms">SMS</string>
-    <string name="bluetooth_find_broadcast_button_scan">QR кодны сканлау</string>
     <string name="user_aspect_ratio_16_9">16:9</string>
     <string name="user_aspect_ratio_3_2">3:2</string>
     <string name="user_aspect_ratio_4_3">4:3</string>
     <string name="audio_streams_main_page_scan_qr_code_title">QR кодны сканлау</string>
+    <string name="lock_screen_title">Бик экраны</string>
 </resources>

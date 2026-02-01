@@ -14,6 +14,84 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dialog_close">Serra</string>
+    <string name="app_permission_header_with_device_name">Atzessu a <xliff:g id="perm" example="camera">%1$s</xliff:g> pro custa aplicatzione in <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
+    <string name="app_permission_info_button">Informatzione</string>
+    <string name="permission_group_name_with_device_name"><xliff:g id="perm_group_name" example="camera">%1$s</xliff:g> in <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
+    <string name="role_assistant_recommended_title">Cussigiadu dae <xliff:g id="OEM_NAME" example="FictionalOEM">%s</xliff:g></string>
+    <string name="default_apps_for_private_profile">Aplicatziones predefinidas pro s\'ispàtziu privadu</string>
+    <string name="default_app_others">Àteros</string>
+    <string name="default_payment_app_other_nfc_services">Àteros servìtzios NFC</string>
+    <string name="incident_report_dialog_text">"<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> rechedet sa càrriga dae custu dispositivu de un'informe de faddinas fatu in sa data imbeniente: <xliff:g id="date" example="December 26, 2018">%2$s</xliff:g>, <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Is informes de faddinas includent informatziones personales in pitzus de su dispositivu o registradas dae is aplicatziones, comente nòmines de utente, datos de positzione, identificadores de dispositivu e informatziones de rete. Cumpartzi is informes de faddinas isceti cun is persones e is aplicatziones a is chi podes cunfiare custos datos.\n\nBoles permìtere chi <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> càrrighet s'informe de faddinas?"</string>
+    <string name="permgrouprequest_device_aware_storage_isolated">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzedat a fotografias e cuntenutos multimediales in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_contacts">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzedat
+a is cuntatos tuos in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_location">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzedat a sa positzione de &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequest_device_aware_location">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g><xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzedat a sa positzione de &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_location">Boles modificare s\'atzessu a sa positzione pro &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_nearby_devices">Boles permìtere chi
+        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; agatet, si connetet e determinet sa positzione relativa de is dispositivos serentes in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_fineupgrade">Boles chi s\'atzessu de <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g> a sa positzione in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt; passet dae aprossimativu a pretzisu?</string>
+    <string name="permgrouprequest_device_aware_coarselocation">Boles permìtere chi &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzedat a sa positzione aprossimativa de &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_calendar">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat atzèdere a su calendàriu tuo in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_sms">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat imbiare e bìdere messàgios SMS in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_storage">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat atzèdere a fotografias, elementos multimediales e archìvios in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_read_media_aural">Boles permìtere chi &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat atzèdere a sa mùsica e s\'àudio in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_read_media_visual">Boles permìtere chi &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat atzèdere a is fotografias e is vìdeos in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_more_photos">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzedat a àteras fotografias e vìdeos in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_microphone">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat registrare àudio in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequest_device_aware_microphone">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat registrare àudio in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_microphone">Boles modificare s\'atzessu a su micròfonu pro &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_activityRecognition">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat atzèdere a s\'atividade fìsica tua in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_camera">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat fàghere fotografias e registrare vìdeos in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequest_device_aware_camera">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> potzat fàghere fotografias e registrare vìdeos in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_camera">Boles modificare s\'atzessu a sa càmera pro &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_calllog">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; potzat atzèdere a su registru de mutidas de su telèfonu tuo in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_phone">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; fatzat e gestit mutidas in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_device_aware_sensors">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzèdat a is datos de su sensore in pitzus de is sinnales vitales tuos in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequest_device_aware_sensors">Boles permìtere chi
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzèdat a is datos de su sensore in pitzus de is sinnales vitales tuos in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_sensors">Boles sighire a permìtere chi &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; atzèdat a is datos de su sensore corporale in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt; mentras s\'aplicatzione est impreada?</string>
+    <string name="permgrouprequest_device_aware_notifications">Boles permìtere chi
+        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; t\'imbiet notìficas in &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="privdash_usage_percent"><xliff:g id="permission_name" example="camera">%1$s</xliff:g> <xliff:g id="percent" example="25">%2$d</xliff:g> percent</string>
+    <string name="automotive_blocked_camera_title">S\'atzessu a sa càmera est disativadu</string>
+    <string name="automotive_blocked_microphone_title">S\'atzessu a su micròfonu est disativadu</string>
+    <string name="automotive_blocked_location_title">S\'atzessu a sa positzione est disativadu</string>
+    <string name="automotive_blocked_infotainment_app_summary">Pro aplicatziones de infotenimentu</string>
+    <string name="automotive_blocked_required_app_summary">Pro is aplicatziones rechestas</string>
+    <string name="automotive_required_app_title">Custa aplicatzione est rechesta</string>
+    <string name="automotive_required_app_summary">Custa aplicatzione est rechesta dae su fabricante de sa vetura</string>
     <string name="permission_rationale_location_settings_title">Datos de sa positzione tua</string>
     <string name="permission_rationale_purpose_app_functionality">Funtzionalidade de s\'aplicatzione</string>
+    <string name="allow_restricted_settings">Permite is cunfiguratziones limitadas</string>
+    <string name="enhanced_confirmation_phone_state_dialog_title">Non faghet a cumpletare custa atzione durante sa mutida</string>
+    <string name="enhanced_confirmation_phone_state_dialog_desc">Custa cunfiguratzione est blocada pro amparare su dispositivu e is datos tuos.<xliff:g id="scam_use_setting_description" example="scammers may ask you to allow apps to install other apps">%1$s</xliff:g></string>
+    <string name="enhanced_confirmation_phone_state_dialog_install_desc"><xliff:g id="empty_line">\n\n</xliff:g>Is tramperis (\'scammers\') podent provare a installare aplicatziones dannosas preguntende·ti de installare aplicatziones disconnotas dae una mitza noa.</string>
+    <string name="enhanced_confirmation_phone_state_dialog_a11y_desc"><xliff:g id="empty_line">\n\n</xliff:g>Is tramperis (\'scammers\') podent provare a pigare su controllu de su dispositivu tuo preguntende·ti de cuntzèdere s\'atzessu a s\'atzessibilidade pro un\'aplicatzione.</string>
+    <string name="enhanced_confirmation_dialog_title_permission">Atzessu a <xliff:g id="permission_name" example="contacts">%1$s</xliff:g> refudadu pro s\'aplicatzione</string>
+    <string name="enhanced_confirmation_dialog_title_settings_default">Atzessu refudadu a s\'aplicatzione</string>
+    <string name="permission_grant_dialog_streaming_blocked_title">Rechesta de permissu eliminada</string>
+    <string name="permission_grant_dialog_streaming_blocked_description">Custa aplicatzione rechedet permissos additzionales, ma is permissos non podent èssere cuntzèdidos in una sessione de streaming. Cuntzede permissu in antis a su telèfonu tuo.</string>
+    <string name="privacy_dashboard_emergency_location_enforced_attribution_label">Pro mutidas o messàgios de emergèntzia</string>
+    <string name="privacy_dashboard_emergency_location_dialog_title">Positzione imbiada a is servìtzios de emergèntzia</string>
+    <string name="wear_check_your_phone_title">Controlla su telèfonu</string>
+    <string name="wear_phone_connection_error">No at fatu a communicare cun su telèfonu tuo</string>
+    <string name="wear_phone_connection_should_retry">Boles torrare a proare?</string>
 </resources>

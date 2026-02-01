@@ -31,7 +31,6 @@
     <string name="respond_via_sms_setting_title">وەڵامە خێراکان</string>
     <string name="respond_via_sms_setting_title_2">ده‌ستکاریکردنی وه‌ڵامه‌ خێراکان</string>
     <string name="respond_via_sms_edittext_dialog_title">وه‌ڵامە خێراکان</string>
-    <string name="respond_via_sms_confirmation_format">نامه‌ نێردرا بۆ <xliff:g id="phone_number">%s</xliff:g>.</string>
     <string name="no_vm_number">ژمارەی دەنگەپۆست نییە</string>
     <string name="no_vm_number_msg">هیچ ژمارەیەکی دەنگەپۆستی لەسەر سیمکارت کۆگا نەکراوە.</string>
     <string name="add_vm_number_str">زیاکردنی ژمارە</string>

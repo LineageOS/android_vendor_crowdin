@@ -111,8 +111,6 @@
     <string name="safeMode">Куркынычсыз режим</string>
     <string name="user_owner_label">Шәхси профильгә күчү</string>
     <string name="managed_profile_label">Эш профиленә күчү</string>
-    <string name="permgrouplab_contacts">Контактлар</string>
-    <string name="permgroupdesc_contacts">контактларыгызны карау</string>
     <string name="permgrouplab_location">Урнашу урыны</string>
     <string name="permgroupdesc_location">бу җайланманың урнашу урынын күрү</string>
     <string name="permgroupdesc_calendar">календарегезне карау</string>
@@ -404,6 +402,7 @@
     <string name="call_notification_incoming_text">Керүче шалтырату</string>
     <string name="call_notification_ongoing_text">Чыгучы шалтырату</string>
     <string name="default_notification_channel_label">Категориясез</string>
+    <string name="recs_notification_channel_label">Тәкъдим ителә</string>
     <string name="importance_from_user">Сез бу искәртүләрнең мөһимлеген билгеләдегез.</string>
     <string name="importance_from_person">Кешеләр җәлеп ителгәнгә күрә, бу мөһим.</string>
     <string name="notification_history_title_placeholder">Кушымтаның махсус искәртүе</string>

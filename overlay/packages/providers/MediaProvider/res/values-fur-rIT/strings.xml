@@ -42,9 +42,6 @@
     <string name="allow">Permet</string>
     <string name="deny">Dinee</string>
     <string name="picker_browse">Esplore\u2026</string>
-    <string name="picker_settings">Aplic. par multimedia in cloud</string>
-    <string name="picker_settings_system_settings_menu_title">Aplicazion par multimedia in cloud</string>
-    <string name="picker_settings_title">Aplic. par multimedia in cloud</string>
     <string name="picker_settings_description">Dopre i tiei files multimediâi in cloud cuant che une aplicazion o un sît web ti domandin di selezionâ fotos o videos</string>
     <string name="picker_settings_selection_message">Dopre il multimedia in cloud di</string>
     <string name="picker_settings_no_provider">Nissun</string>
@@ -271,4 +268,9 @@
     <string name="dialog_button_text">Capît</string>
     <string name="permlab_accessMediaOwnerPackageName">Acedi al non dal pachet dal proprietari dal contignût multimediâl</string>
     <string name="permdesc_accessMediaOwnerPackageName">Al permet ae aplicazion di acedi ai nons dai pachets dal proprietari di ducj i files multimediâi acessibii.</string>
+    <string name="camera_album_display_name" translation_description="Display name for the album containing all the media captured by camera. [CHAR_LIMIT=50]">Fotocjamare</string>
+    <string name="screenshots_album_display_name" translation_description="Display name for the album containing all the screenshots. [CHAR_LIMIT=50]">Schermadis</string>
+    <string name="downloads_album_display_name" translation_description="Display name for the album containing all the downloaded media on the device. [CHAR_LIMIT=50]">Discjariâts</string>
+    <string name="favorites_album_display_name" translation_description="Display name for the album containing all the media marked as favorite. [CHAR_LIMIT=50]">Preferîts</string>
+    <string name="videos_album_display_name" translation_description="Display name for the album containing videos. [CHAR_LIMIT=50]">Videos</string>
 </resources>

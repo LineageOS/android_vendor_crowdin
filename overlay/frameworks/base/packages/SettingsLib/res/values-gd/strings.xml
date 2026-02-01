@@ -58,6 +58,7 @@
     <string name="bluetooth_connecting">’Ga cheangal\u2026</string>
     <string name="bluetooth_connected">Chaidh<xliff:g id="active_device">%1$s</xliff:g> a cheangal</string>
     <string name="bluetooth_pairing">’Ga phaidhreachadh\u2026</string>
+    <string name="bluetooth_connection_failure">Chan urrainn dhuinn ceangal a dhèanamh</string>
     <string name="bluetooth_connected_no_headset">Chaidh<xliff:g id="active_device">%1$s</xliff:g> a cheangal (gun fhòn)</string>
     <string name="bluetooth_connected_no_a2dp">Chaidh<xliff:g id="active_device">%1$s</xliff:g> a cheangal (gun mheadhanan)</string>
     <string name="bluetooth_connected_no_headset_no_a2dp">Chaidh<xliff:g id="active_device">%1$s</xliff:g> a cheangal (gun fhòn no meadhanan)</string>
@@ -278,7 +279,6 @@
     <string name="wifi_non_persistent_mac_randomization_summary">Nuair a bhios am modh seo an comas, dh’fhaoidte gun atharraich seòladh MAC an uidheim gach turas a nì e ceangal ri lìonra aig a bheil MAC tuaireamach an comas.</string>
     <string name="wifi_metered_label">Meadaraichte</string>
     <string name="wifi_unmetered_label">Neo-mheadaraichte</string>
-    <string name="select_logd_size_title">Meudan bufair nan loga</string>
     <string name="select_logd_size_dialog_title">Tagh meud nan loga airson gach bufair loga</string>
     <string name="dev_logpersist_clear_warning_title">Am falamhaich thu stòras maireannach nan loga?</string>
     <string name="dev_logpersist_clear_warning_message">Mura cùm sin sùil air cùisean tuilleadh leis an loga mhaireannach, bidh againn ri dàta an logair a shuathadh bàn on uidheam agad.</string>
@@ -449,8 +449,8 @@
     <string name="screen_zoom_summary_small">Beag</string>
     <string name="screen_zoom_summary_default">Bun-roghainn</string>
     <string name="screen_zoom_summary_large">Mòr</string>
-    <string name="screen_zoom_summary_very_large">Nas motha</string>
-    <string name="screen_zoom_summary_extremely_large">As motha buileach</string>
+    <string name="screen_zoom_summary_larger">Nas motha</string>
+    <string name="screen_zoom_summary_largest">As motha buileach</string>
     <string name="screen_zoom_summary_custom">Gnàthaichte (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
     <string name="content_description_menu_button">Clàr-taice</string>
     <string name="retail_demo_reset_message">Cuir a-steach facal-faire airson ath-shuidheachadh gu roghainnean an fhactaraidh sa mhodh demo</string>

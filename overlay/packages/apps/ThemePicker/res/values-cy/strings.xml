@@ -44,12 +44,14 @@
     <string name="clock_size_small">Bach</string>
     <string name="clock_size_small_description">Bydd cloc bach yn ymddangos yng nghornel dy sgrin</string>
     <string name="grid_title">Grid apiau</string>
+    <string name="app_icons_style_default">Rhagosodiad</string>
+    <string name="app_icons_shape">Siâp</string>
+    <string name="app_icons_style">Arddull</string>
     <string name="apply_theme_btn">Gosod</string>
     <string name="edit_custom_theme_lbl">Tapia i\'w olygu</string>
     <string name="keep_my_wallpaper">Cadw\'r papur wal cyfredol</string>
     <string name="theme_preview_card_content_description">Rhagolwg arddull</string>
     <string name="grid_preview_card_content_description">Rhagolwg grid</string>
-    <string name="pack_theme_preview_card_content_description">Rhagolwg themâu</string>
     <string name="font_preview_content_description">Rhagolwg ffont</string>
     <string name="icon_preview_content_description">Rhagolwg eicon</string>
     <string name="color_preview_content_description">Rhagolwg lliw</string>
@@ -110,7 +112,6 @@
     <string name="mode_title" msgid="1000319159005403986">Thema dywyll</string>
     <string name="mode_disabled_msg" msgid="1926077857799715086">Wedi\u2019i analluogi dros dro oherwydd Arbedwr Batri</string>
     <string name="themed_icon_title" msgid="4305612684940220645">Eiconau themâu</string>
-    <string name="pack_theme_title" msgid="4305612684940220645">Themâu</string>
     <string name="beta_title">Beta</string>
     <string name="gird_picker_entry_content_description" msgid="7538418512525897691">Newid grid apiau</string>
     <string name="wallpaper_color_tab">Lliwiau papur wal</string>

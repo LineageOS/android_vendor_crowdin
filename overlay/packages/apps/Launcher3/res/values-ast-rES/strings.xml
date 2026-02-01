@@ -183,7 +183,6 @@
     <string name="all_apps_work_tab">Perfil llaboral</string>
     <string name="work_profile_toggle_label">Perfil llaboral</string>
     <string name="work_profile_edu_work_apps">Les aplicaciones llaborales tienen una insinia y l\'alministrador de TI pue veles</string>
-    <string name="work_profile_edu_accept">Entendílo</string>
     <string name="work_apps_paused_title">Les aplicaciones llaborales tán en posa</string>
     <string name="work_apps_paused_info_body">Nun vas recibir nengún avisu de les aplicaciones llaborales</string>
     <string name="work_apps_paused_body">Les aplicaciones llaborales nun puen unviate avisos, consumir batería nin acceder a la llocalización</string>
@@ -203,5 +202,6 @@
     <string name="ps_container_lock_title">Bloquéu</string>
     <string name="ps_container_transition">Cambiar al espaciu priváu</string>
     <string name="ps_add_button_label">Instalar</string>
+    <string name="ps_app_label_override">Amestar</string>
     <string name="ps_add_button_content_description">Instalar aplicaciones nel espaciu priváu</string>
 </resources>

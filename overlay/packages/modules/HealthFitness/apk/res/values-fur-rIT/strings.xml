@@ -446,6 +446,7 @@
     <string name="export_file_access_error_banner_summary" description="Summary of banner prompting the user to set up the scheduled export again due to the lost file access. [CHAR LIMIT=NONE]">Al è vignût fûr un probleme cu la esportazion dal <xliff:g example="May 21" id="date">%1$s</xliff:g>. Configure une gnove esportazion programade e torne prove.</string>
     <string name="next_export_time" description="Text to show when the next export will be [CHAR LIMIT=40]">Prossime esportazion: <xliff:g example="May 21" id="date">%1$s</xliff:g></string>
     <string name="next_export_text" description="Text to show when the next export will start soon [CHAR LIMIT=60]">La prossime esportazion e scomence ca di pôc</string>
+    <string name="cloud_backup_option" description="Text on the Button in Health Connect settings that allows clicking through to the setup for cloud backup[CHAR LIMIT=60]">Backup</string>
     <string name="backup_and_restore_settings_screen_title" description="Title of the 'backup and restore' screen where users can set up configurations to export and import Health Connect data. [CHAR_LIMIT=40]">Backup e ripristinament</string>
     <string name="last_export_time" description="Text to show when the last successful export was [CHAR LIMIT=40]">Ultime esportazion: <xliff:g example="May 21" id="date">%1$s</xliff:g></string>
     <string name="last_export_time_now" description="Text to show if the last successful export was within 1 minute [CHAR LIMIT=NONE]">Ultime esportazion: cumò</string>
@@ -764,11 +765,8 @@
     <string name="mindfulness_type_music" description="Mindfulness session type: Music. [CHAR LIMIT=20]">Musiche</string>
     <string name="mindfulness_type_other" description="Mindfulness session type: Other. [CHAR LIMIT=20]">Altri</string>
     <string name="mindfulness_type_unguided" description="Mindfulness session type: Unguided. [CHAR LIMIT=20]">Cence vuide</string>
-    <string name="minute_duration" translation_description="minute duration representation [CHAR LIMIT=8]"><xliff:g id="minute" example="1">%1$s</xliff:g>m</string>
-    <string name="hour_minute_duration_short" translation_description="Hour and minute time duration representation [CHAR LIMIT=8]"><xliff:g id="hour" example="1">%1$s</xliff:g>h <xliff:g id="min" example="31">%2$s</xliff:g>m</string>
-    <string name="hour_duration" translation_description="hour duration representation [CHAR LIMIT=8]"><xliff:g id="hour" example="1">%1$s</xliff:g>h</string>
-    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g>
-  </string>
+    <string name="minute_duration" translation_description="minute duration representation. When translating, do not add a space if it is not required. If a space is required, use a no break space   [CHAR LIMIT=8]"><xliff:g id="minute" example="1">%1$s</xliff:g>m</string>
+    <string name="hour_duration" translation_description="hour duration representation. When translating, do not add a space if it is not required. If a space is required, use a no break space   [CHAR LIMIT=8]"><xliff:g id="hour" example="1">%1$s</xliff:g>h</string>
     <string name="hour_duration_accessibility" translation_description="Hour time duration representation used by accessibility. [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural, one {}=1 {1 ore} other {# oris}}</string>
     <string name="minute_duration_accessibility" translation_description="minute duration representation used by accessibility. [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural, one {}=1 {1 minût} other {# minûts}}</string>
     <string name="day_duration" translation_description="Days duration representation [CHAR LIMIT=8]"><xliff:g id="days" example="2 days">%1$s</xliff:g></string>
@@ -1037,10 +1035,6 @@
     <string name="migration_module_update_needed_action" description="Action information shown when migration is pending and a system update is needed.">Prime di continuâ, inzorne il sisteme dal to telefon.</string>
     <string name="migration_module_update_needed_restart" description="Detail information shown when migration is pending and one update is needed.">Se tu âs za inzornât il sisteme dal telefon, prove a tornâ a inviâlu par continuâ la integrazion</string>
     <string name="migration_app_update_needed_action" description="Action information shown when migration is pending and an app update is needed.">Prime di continuâ, inzorne la aplicazion di Conession salût ae ultime version.</string>
-    <string name="migration_more_space_needed_screen_title" description="Title of screen shown when migration is pending and more space is needed.">Al covente plui spazi</string>
-    <string name="migration_more_space_needed_screen_details" description="Detail information shown when migration is pending and more space is needed.">Par podê continuâ la integrazion, Conession salût al à bisugne di <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> di spazi di memorie sul telefon.\n\nNete vie un pôc di spazi sul telefon e torne prove.</string>
-    <string name="try_again_button" description="Text of a button prompting the user to try looking at the space again [CHAR_LIMIT=40]">Torne prove</string>
-    <string name="free_up_space_button" description="Text of a button leading the user to their system storage so they can free up space. [CHAR_LIMIT=40]">Libere spazi</string>
     <string name="migration_paused_screen_title" description="Title of screen shown when migration has been paused.">Integrazion in pause</string>
     <string name="migration_paused_screen_details" description="Detail information shown when migration has been paused.">La aplicazion Conession salût si è sierade intant che si stave integrant cul sisteme Android.\n\nFâs clic su ripie par tornâ a vierzi la aplicazion e continuâ il trasferiment dai dâts e dai permès.</string>
     <string name="migration_paused_screen_details_timeout" description="Detail information about migration timeout shown when migration has been paused.">Par podê tignî i tiei dâts di Conession salût, finìs cheste operazion dentri di <xliff:g example="1 day" id="time_needed">%1$s</xliff:g></string>
@@ -1077,13 +1071,7 @@
     <string name="data_restore_pending_banner_content" description="Content of banner shown when data restore is pending">Prime di continuâ cul ripristinament dai tiei dâts, inzorne il sisteme dal to telefon.</string>
     <string name="data_restore_pending_banner_button" description="Button for banner shown when data restore is pending">Inzorne cumò</string>
     <string name="data_totals_header" description="Header for section showing cards with data type totals [CHAR_LIMIT=70]">Totâi dâts</string>
-    <string name="app_sources_header" description="Header for section showing apps contributing to the shown totals [CHAR_LIMIT=70]">Sorzints di aplicazion</string>
-    <string name="data_sources_footer" description="Footer note explaining how app sources work [CHAR_LIMIT=NONE]">Zonte sorzints di aplicazion ae liste par viodi trop che i totâi dai dâts a cambiin. La rimozion di une aplicazion di cheste liste e interomparà il so contribût ai totâi, ma e varà ancjemò il permès di scriture.</string>
-    <string name="data_sources_empty_state" description="Text for the empty state of the data sources screen explaining why there are no apps shown [CHAR_LIMIT=NONE]">Nissune sorzint di aplicazion</string>
-    <string name="data_sources_empty_state_footer" description="Text for the footer of the empty state of the data sources screen [CHAR_LIMIT=NONE]">Une volte dâts ae aplicazion i permès di scriture ai dâts di <xliff:g example="activity" id="category_name">%1$s</xliff:g>, lis sorzints a vignaran fûr achì.</string>
     <string name="data_sources_help_link" description="Text for helper link in the data sources screen taking the user to an article about how sources and prioritization work [CHAR_LIMIT=NONE]">Cemût che lis sorzints e la prioritât a funzionin</string>
-    <string name="data_sources_add_app" description="Title for preference in the data sources screen used to add an app to the list of data sources [CHAR_LIMIT=NONE]">Zonte une aplicazion</string>
-    <string name="edit_data_sources" description="Menu option for adding or removing apps from the app sources list">Modifiche sorzints di aplicazion</string>
     <string name="default_app_summary" description="Text for an app on the priority list that is the device default app for health connect data [CHAR_LIMIT=50]">Predefinît dal dispositîf</string>
     <string name="move_up" description="Menu option for moving an app up in the app sources list">Môf insù</string>
     <string name="move_down" description="Menu option for moving an app down in the app sources list">Môf injù</string>
@@ -1144,4 +1132,7 @@
     <string name="no_apps_requesting" description="Text to indicate no app is requesting a permission.">Nissune domande da lis aplicazions</string>
     <string name="allowed" description="Text to indicate an app is allowed for this permission.">Consintût</string>
     <string name="not_allowed" description="Text to indicate an app is not allowed for this permission.">No consintût</string>
+    <string name="zero_apps_onboarding_banner_button" description="Button of banner to take users to a page where they can connect apps to Health Connect [CHAR_LIMIT=NONE]">Configure</string>
+    <string name="one_app_onboarding_banner_button" description="Button of banner to take users to a page where they can connect a second app to Health Connect [CHAR_LIMIT=NONE]">Continue</string>
+    <string name="device_settings_label" description="Label for the device settings category. [CHAR_LIMIT=40]">Scriture concedude</string>
 </resources>

@@ -161,11 +161,14 @@
     <string name="wifi_ap_prefer_5G">Ffafrio band 5.0 GHz</string>
     <string name="wifi_ap_2G">2.4 GHz</string>
     <string name="wifi_ap_5G">5.0 GHz</string>
+    <string name="wifi_ap_2G_5G">2.4 a 5.0 GHz</string>
     <string name="wifi_ap_band_select_one">Rhaid dewis o leiaf un band ar gyfer y llecyn Wi\u2011Fi:</string>
     <string name="tether_settings_title_all">Llecyn Wi\u2011Fi (Hotspot)</string>
     <string name="hotspot_settings_title">Llecyn Wi-Fi</string>
     <string name="wifi_hotspot_switch_title">Defnyddio llecyn Wi\u2011Fi</string>
     <string name="wifi_hotspot_state_off">I ffwrdd</string>
+    <string name="wifi_hotspot_keep_on_title">Defnyddio llecyn ar gyfer pob siwrne</string>
+    <string name="wifi_hotspot_keep_on_summary">Gwneud llecyn ar gael pa bynnag bryd y mae\u2019r car ymlaen</string>
     <string name="wifi_hotspot_qr_code_text">Sgania\u2019r cod QR hwn i ymuno â \u0022%s\u0022</string>
     <string name="wifi_hotspot_qr_code_password_text">Cyfrinair llecyn: %s</string>
     <string name="wifi_ask_enable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi ymlaen</string>
@@ -178,6 +181,8 @@
     <string name="network_connection_connect_successful">Cysylltiad llwyddiannus</string>
     <string name="network_connection_request_dialog_showall">Dangos y cwbl</string>
     <string name="progress_scanning">Yn chwilio</string>
+    <string name="wifi_detail_share_description">Sagnia\u2109r cod QR hwn i gysylltu i Wi\u2011Fi</string>
+    <string name="wifi_detail_share_toast">Dyw rhannu Wi\u2011Fi ddim ar gael gyda\u2019r Wi\u2011Fi hwn.</string>
     <string name="connected_settings_title">Dyfeisiau cysylltiedig</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
     <string name="bluetooth_toggle_title">Defnyddio Bluetooth</string>
@@ -209,6 +214,8 @@
     <string name="bluetooth_previously_connected">Wedi\u2019u cysylltu yn y gorffennol</string>
     <string name="bluetooth_device_connected_toast">%1$s wedi cysylltu</string>
     <string name="bluetooth_device_disconnected_toast">%1$s wedi datgysylltu</string>
+    <string name="device_connections_category_title">Cysylltiadau dyfeisiau gyda\u2019r car</string>
+    <string name="uwb_toggle_summary">Maeu\u2019n helpu\u2019r car adnabod lleoliad y dyfeisiau UWB</string>
     <string name="bluetooth_notif_ticker">Cais paru Bluetooth</string>
     <string name="bluetooth_device_context_pair_connect">Paru a chysylltu</string>
     <string name="bluetooth_pairing_key_msg">Cod paru Bluetooth</string>
@@ -250,6 +257,7 @@
     <string name="notification_ringtone_title">Sain hysbysiad rhagosodedig</string>
     <string name="alarm_ringtone_title">Tôn larwm rhagosodedig</string>
     <string name="ringtone_picker_save_title">Cadw</string>
+    <string name="audio_route_selector_toast">Yn newid cyfrryngau i %1$s</string>
     <string name="display_brightness">Disgleirdeb</string>
     <string name="units_settings">Unedau</string>
     <string name="units_speed_title">Cyflymder</string>
@@ -337,6 +345,16 @@
         }
     </string>
     <string name="unused_apps_switch">Tynnu caniatâd yn ôl a rhyddhau lle</string>
+    <string name="aspect_ratio_label">Cymhareb agwedd (Arbrofol)</string>
+    <string name="aspect_ratio_action_button">Agor</string>
+    <string name="user_aspect_ratio_app_default">Ap rhagosodedig</string>
+    <string name="user_aspect_ratio_fullscreen">Sgrin llawn</string>
+    <string name="user_aspect_ratio_half_screen">Hanner sgrin</string>
+    <string name="user_aspect_ratio_device_size">Cymhareb agwedd y ddyfais</string>
+    <string name="user_aspect_ratio_16_9">16:9</string>
+    <string name="user_aspect_ratio_3_2">3:2</string>
+    <string name="user_aspect_ratio_4_3">4:3</string>
+    <string name="app_aspect_ratio_footer">Bydd yr ap yn ailgychwyn pan fyddi\u2019n newid y gymhareb agwedd. Gellir colli unrhyw newidiadau sydd heb eu cadw. Gall rhai apiau ddim edrych cystal mewn rhai cymarebau agwedd.</string>
     <string name="storage_type_internal">%s yn y storfa fewnol</string>
     <string name="app_open_by_default_summary">Caniatáu iu\2019r ap agor dolenni a gefnogir</string>
     <string name="data_usage_summary_title">Defnydd data</string>
@@ -435,6 +453,7 @@
     <string name="special_access">Mynediad arbennig yr ap</string>
     <string name="show_system">Dangos apiau system</string>
     <string name="hide_system">Cuddio apiau system</string>
+    <string name="alarms_and_reminders_title">Larymau ac atgoffa</string>
     <string name="modify_system_settings_title">Addasu gosodiadau\'r system</string>
     <string name="modify_system_settings_description">Mae\'n caniatáu ap i addasu gosodiadau\'r system.</string>
     <string name="notification_access_title">Mynediad at hysbysiadau</string>
@@ -445,6 +464,7 @@
     <string name="notification_listener_revoke_warning_cancel">Diddymu</string>
     <string name="performance_impacting_apps_description">Mae\u2019r apiau hyn yn cael dylanwad negatif ar berfformiad y system ac wedi eu rhwystro rhag rhedeg yn y cefndir.\nBlaenoriaetha ap i ganiatáu defnydd yn y cefndir a\u2019i dynnu o\u2019r rhestr hon.</string>
     <string name="performance_impacting_apps_button_label">Blaenoriaethu ap</string>
+    <string name="premium_sms_access_title">SMS Premiwm</string>
     <string name="premium_sms_access_description">Gall SMS Premiwm gostio arian i ti a bydd yn ymddangos ar filiau dy ddarparwr gwasanaeth symudol. Os wyt ti\'n rhoi caniatâd i ap, mi fydd yn bosib iti anfon SMS Premiwm gyda\'r ap hwnnw.</string>
     <string name="usage_access_title">Data defnydd apiau</string>
     <string name="usage_access_description">Mae cael mynediad at ddata defnydd pob ap yn tracio pa apiau sy\u2019n cael eu defnyddio a pha mor aml, yn ogystal â\u2019r darparwr gwasanaeth, gosodiadau iaith, a manylion eraill.</string>
@@ -454,6 +474,8 @@
     <string name="location_settings_title">Lleoliad</string>
     <string name="location_toggle_summary">        Defnyddia lleoliad dy gar gydag unrhyw ap rwyt yn ei ddewis.
     </string>
+    <string name="location_infotainment_apps_toggle_title">Apiau gwybodloniant</string>
+    <string name="location_infotainment_apps_toggle_summary">Caniatáu i apiau gael mynediad at dy leoliad</string>
     <string name="location_toggle_off_warning">Os fydd hwn i ffwrdd, mi fydd yn tynnu mynediad at leoliad oddi wrth pob ap ag eithro\u2019r rhai sydd ei angen ar gyfer cymorth gyrrwr</string>
     <string name="adas_location_toggle_off_warning">        Os fydd hwn i ffwrdd, caiff apiau cymorth gyrrwr sy\u2019n dibynnu ar wybodaeth lleoliad eu hanalluogi.
     </string>
@@ -560,6 +582,7 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="date_time_24hour_title">Fformat 24\u2011awr</string>
     <string name="date_time_24hour">Defnyddio fformat 24 awr</string>
     <string name="date_time_set_time_title">Amser</string>
+    <string name="date_time_set_time">Gosod y cloc</string>
     <string name="date_time_set_timezone_title">Cylchfa amser</string>
     <string name="date_time_set_timezone">Dewis cylchfa amser</string>
     <string name="date_time_set_date_title">Dyddiad</string>
@@ -568,7 +591,11 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="zone_list_menu_sort_by_timezone">Trefnu yn ôl cylchfa amser</string>
     <string name="date_picker_title">Dyddiad</string>
     <string name="time_picker_title">Amser</string>
+    <string name="auto_local_time_disclaimer_summary">Gall dyddiad ac amser awtomatig ddefnyddio ffynonellau fel lleoliad a rhwydweithiau symudol i benderfynu dyddiad, amser a pharth amser.</string>
+    <string name="auto_local_time_toggle_summary">Defnyddio lleoliad y car i osod y dyddiad ac amser yn awtomatig. Yn gweithio dim ond pan fo lleoliad ymlaen.</string>
     <string name="auto_local_time_dialog_negative_button_text">Parhau</string>
+    <string name="auto_local_time_dialog_positive_button_text">Newid yn gosodiadau</string>
+    <string name="auto_local_time_dialog_msg">Mae dy leoliad i ffwrdd. Gall amser awtomatig peidio gweithio.</string>
     <string name="user_admin">Gweinyddwr</string>
     <string name="signed_in_admin_user">Wedi mewngofnodi fel gweinyddwr</string>
     <string name="grant_admin_permissions_button_text">Gwneud yn Weinyddwr</string>
@@ -677,7 +704,18 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="vehicle_data_delete_user_summary">Dileu dy broffil a chyfrifon o\'r system gwybodloniant</string>
     <string name="action_unavailable">Dyw\'r weithred hon ddim ar gael ar dy broffil</string>
     <string name="microphone_access_settings_title">Mynediad at feicroffon</string>
+    <string name="microphone_access_settings_summary">Dewisa os caiff apiau mynediad at feicroffonau\u2019r car</string>
+    <string name="microphone_infotainment_apps_toggle_title">Apiau gwybodloniant</string>
+    <string name="microphone_infotainment_apps_toggle_summary">Caniatáu i apiau gwybodloniant recordio sain</string>
+    <string name="required_apps_group_summary">Apiau sydd eu hangen gan wneuthurwr y car i dy helpu gyrru</string>
     <string name="required_apps_privacy_policy_button_text">Polisi</string>
+    <string name="camera_access_disclaimer_summary">Gall fod dal gyda gwneuthurwr y car mynediad at gamera\u2109r car</string>
+    <string name="camera_infotainment_apps_toggle_title">Apiau gwybodloniant</string>
+    <string name="camera_infotainment_apps_toggle_summary">Caniatáu i apiau gwybodloniant dynnu lluniau a recordio fideo</string>
+    <string name="permission_grant_allowed">Caniateir</string>
+    <string name="permission_grant_always">O hyd</string>
+    <string name="permission_grant_never">Ni chaniateir</string>
+    <string name="permission_grant_in_use">Dim ond tra\u2019n defnyddio\u2019r ap</string>
     <string name="permission_grant_ask">Gofyn pob tro</string>
     <string name="security_settings_title">Diogelwch</string>
     <string name="security_settings_subtitle">Clo sgrin</string>
@@ -843,6 +881,10 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="assistant_and_voice_use_screenshot_title">Defnyddio sgrinlun</string>
     <string name="assistant_and_voice_use_screenshot_summary">Caniatáu i gynorthwyydd gael mynediad at ddelwedd sgrin</string>
     <string name="cannot_remove_driver_profile">Mae\u2019r proffil hwn wedi mewngofnodi fel gyrrwr. Ceisia eto pan na fydd y proffil yn cael ei ddefnyddio fel y gyrrwr.</string>
+    <string name="driving_mode_title">Gosod gyrru</string>
+    <string name="show_layout_bounds_title">Dangos terfynau gosodiad</string>
+    <string name="show_force_rtl_title">Gorfodi cyfeiriad gosodiad De i Chwith</string>
+    <string name="show_customization_overlay_title">Troshaen addasiad</string>
     <string name="device_admin_activated_apps">Apiau wedi\u2019u actifadu</string>
     <string name="device_admin_deactivated_apps">Apiau wedi\u2019u dadactifadu</string>
     <string name="device_admin_status">Mae ap gweinyddu\u2019r system gwybodloniant yn weithredol ac yn caniatáu\u2019r ap <xliff:g id="app_name">%1$s</xliff:g> i berfformio\u2019r gweithredoedd a ganlyn:</string>
@@ -887,4 +929,12 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
         }
     </string>
     <string name="camera_settings_loading_app_permission_stats">Yn llwytho\u2026</string>
+    <string name="data_subscription_explore_options">Gweld cynlluniau</string>
+    <string name="connectivity_inactive_prompt">Mae dy gynlluniau rhyngrwyd wedi dod i ben</string>
+    <string name="connectivity_inactive_action_text">Gweld cynlluniau</string>
+    <string name="audio_route_dialog_neutral_button_text">Iawn</string>
+    <string name="unsupported_intents_toast_text">Dyw dy gerbyd ddim yn cefnogi\u2019r nodwedd hon</string>
+    <string name="aspect_ratio_dialog_app_default_text">Ap rhagosodedig</string>
+    <string name="aspect_ratio_dialog_full_screen_text">Sgrin llawn</string>
+    <string name="aspect_ratio_dialog_half_screen_text">Hanner sgrin</string>
 </resources>

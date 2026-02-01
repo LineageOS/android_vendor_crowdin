@@ -32,6 +32,7 @@
     <string name="split_app_usage_settings">Gosodiadau defnydd ar gyfer %1$s</string>
     <string name="new_window_option_taskbar">Ffenestr Newydd</string>
     <string name="manage_windows_option_taskbar">Rheoli Ffenestri</string>
+    <string name="close_app_taskbar">Cau</string>
     <string name="save_app_pair">Cadw\u2019r pâr apiau</string>
     <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
     <string name="app_pair_unlaunchable_at_screen_size">Ni chefnogir y pâr apiau hwn ar y ddyfais hon</string>
@@ -141,7 +142,6 @@
     <string name="allow_rotation_title">Caniatáu troi\'r sgrin gartref</string>
     <string name="allow_rotation_desc">Pan gaiff y ffôn ei throi</string>
     <string name="landscape_mode_title">Modd tirwedd</string>
-    <string name="landscape_mode_desc">Gosoda\u2019r ffôn i orwedd ym modd tirwedd</string>
     <string name="notification_dots_title">Dotiau hysbysiadau</string>
     <string name="notification_dots_desc_on">Ymlaen</string>
     <string name="notification_dots_desc_off">I ffwrdd</string>
@@ -201,7 +201,6 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="all_apps_work_tab_content_description">Tab apiau gwaith</string>
     <string name="work_profile_toggle_label">Proffil gwaith</string>
     <string name="work_profile_edu_work_apps">Mae apiau gwaith wedi\'u bathodynnu ac yn weladwy i dy weinyddwyr TG</string>
-    <string name="work_profile_edu_accept">Deall yn iawn</string>
     <string name="work_apps_paused_title">Mae apiau gwaith ar saib</string>
     <string name="work_apps_paused_info_body">Ni fyddi di\u2019n derbyn hysbysiadau o dy apiau gwaith.</string>
     <string name="work_apps_paused_body">Ni all dy apiau gwaith anfon hysbysiadau, defnyddio dy fatri, na chanfod dy leoliad</string>
@@ -222,6 +221,7 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="ps_container_lock_title">Cloi</string>
     <string name="ps_container_transition">Trawsnewid Gofod Preifat</string>
     <string name="ps_add_button_label">Gosod</string>
+    <string name="ps_app_label_override">Ychwanegu</string>
     <string name="ps_add_button_content_description">Gosod apiau i\u2019r Gofod Preifat</string>
     <string name="ps_app_content_description">Ychwanegu ffeiliau a mwy i Ofod Preifat</string>
 </resources>

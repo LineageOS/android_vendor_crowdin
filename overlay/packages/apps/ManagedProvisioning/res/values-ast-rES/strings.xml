@@ -96,7 +96,6 @@
   <string name="join_many_items_last"><xliff:g id="all_but_last_item">%1$s</xliff:g> y <xliff:g id="last_item">%2$s</xliff:g></string>
   <string name="take_a_few_minutes">Esta aición pue tardar unos minutos</string>
   <string name="device_owner_description">La to organización va xestionar y protexer esti preséu</string>
-  <string name="brand_screen_header">Esti preséu pertenez a la to organización</string>
   <string name="account_management_disclaimer_header">La cuenta ta xestionada</string>
   <string name="account_management_disclaimer_subheader">L\'alministrador de TI usa la xestión de preseos móviles p\'aplicar les polítiques de seguranza</string>
   <string name="work_profile_provisioning_step_1_header">Les aplicaciones llaborales caltiénense nel perfil llaboral</string>

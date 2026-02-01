@@ -139,7 +139,6 @@
     <string name="allow_rotation_title">Permet la rotazion de schermade di Inizi</string>
     <string name="allow_rotation_desc">Cuant che il telefon al è voltât</string>
     <string name="landscape_mode_title">Modalitât orizontâl</string>
-    <string name="landscape_mode_desc">Met il telefon in modalitât orizontâl</string>
     <string name="notification_dots_title">Indicadôrs di notifiche</string>
     <string name="notification_dots_desc_on">On</string>
     <string name="notification_dots_desc_off">Off</string>
@@ -196,7 +195,6 @@
     <string name="all_apps_work_tab">Lavôr</string>
     <string name="work_profile_toggle_label">Profîl di lavôr</string>
     <string name="work_profile_edu_work_apps">Lis aplicazions di lavôr a son segnadis cuntun badge e a son visibilis al to aministradôr di IT</string>
-    <string name="work_profile_edu_accept">Capît</string>
     <string name="work_apps_paused_title">Lis aplicazions di lavôr a son in pause</string>
     <string name="work_apps_paused_info_body">No tu ricevarâs notifichis des tôs aplicazions di lavôr</string>
     <string name="work_apps_paused_body">Lis tôs aplicazions di lavôr no puedin mandâti notifichis, doprâ batarie o acedi ae tô posizion</string>
@@ -217,5 +215,6 @@
     <string name="ps_container_lock_title">Bloche</string>
     <string name="ps_container_transition">Transizion spazi privât</string>
     <string name="ps_add_button_label">Instale</string>
+    <string name="ps_app_label_override">Zonte</string>
     <string name="ps_add_button_content_description">Instale lis aplicazions sul spazi privât</string>
 </resources>

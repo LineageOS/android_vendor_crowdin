@@ -65,6 +65,7 @@
     <string name="bluetooth_connecting">Conectando\u2026</string>
     <string name="bluetooth_connected">Conectóse <xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_pairing">Empareyando\u2026</string>
+    <string name="bluetooth_connection_failure">Nun se pue conectar</string>
     <string name="bluetooth_connected_no_headset">Conectóse (ensin teléfonu) «<xliff:g id="active_device">%1$s</xliff:g>»</string>
     <string name="bluetooth_connected_no_a2dp">Conectóse (ensin multimedia) «<xliff:g id="active_device">%1$s</xliff:g>»</string>
     <string name="bluetooth_connected_no_headset_no_a2dp">Conectóse (ensin teléfonu o multimedia) «<xliff:g id="active_device">%1$s</xliff:g>»</string>
@@ -311,7 +312,6 @@
     <string name="wifi_non_persistent_mac_randomization_summary">Cuando s\'activa esti mou, la direición MAC d\'esti preséu pue camudar cada vegada que se conecte a una rede que tenga activada la opción pa que la MAC se seleicione al debalu.</string>
     <string name="wifi_metered_label">Con llende de datos</string>
     <string name="wifi_unmetered_label">Ensin llende de datos</string>
-    <string name="select_logd_size_title">Tamaños del búfer de Logger</string>
     <string name="select_logd_size_dialog_title">Seleiciona los tamaños de Logger per búfer de rexistru</string>
     <string name="dev_logpersist_clear_warning_title">¿Quies desaniciar l\'almacenamientu permanente del rexistrador?</string>
     <string name="dev_logpersist_clear_warning_message">Cuando yá nun supervisemos col rexistrador permanente, tenemos de desaniciar los datos del rexistrador qu\'heba nel preséu.</string>
@@ -520,8 +520,8 @@
     <string name="screen_zoom_summary_small">Pequeñu</string>
     <string name="screen_zoom_summary_default">Por defeutu</string>
     <string name="screen_zoom_summary_large">Grande</string>
-    <string name="screen_zoom_summary_very_large">Más grande</string>
-    <string name="screen_zoom_summary_extremely_large">Lo más grande</string>
+    <string name="screen_zoom_summary_larger">Más grande</string>
+    <string name="screen_zoom_summary_largest">Lo más grande</string>
     <string name="screen_zoom_summary_custom">Por defeutu(<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
     <string name="content_description_menu_button">Menú</string>
     <string name="retail_demo_reset_message">Introduz la contraseña pa reafitar la configuración de fábrica nel mou de demostración</string>
@@ -724,9 +724,6 @@
     <string name="bt_le_audio_broadcast_dialog_sub_title">Si emites «<xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g>» o camudes la salida, la emisión actual va parar</string>
     <string name="bt_le_audio_broadcast_dialog_switch_app">Emitir «<xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g>»</string>
     <string name="bt_le_audio_broadcast_dialog_different_output">Camudar la salida</string>
-    <string name="back_navigation_animation">Animaciones del retrocesu predictivu</string>
-    <string name="back_navigation_animation_summary">Activa les animaciones del sistema pal retrocesu predictivu.</string>
-    <string name="back_navigation_animation_dialog">Esta opción activa les animaciones del sistema pa los xestos predictivos. Rique definir el parámetru «enableOnBackInvokedCallback» a «true» nel ficheru manifest de les aplicaciones.</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g>%%</string>
     <string name="not_specified">Nun s\'especificó</string>
     <string name="neuter">Neutru</string>

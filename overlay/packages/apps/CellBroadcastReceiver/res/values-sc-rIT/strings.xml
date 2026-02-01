@@ -86,4 +86,6 @@
         <item>Ogni 15 minutos</item>
         <item>Never</item>
     </string-array>
+    <string name="notification_cb_settings_changed_title">Cunfiguratzione modificada</string>
+    <string name="notification_cb_settings_changed_text">Is cunfiguratziones de avisu de emergèntzia chene filos sunt istadas riaviadas ca sa SIM est istada cambiada</string>
 </resources>

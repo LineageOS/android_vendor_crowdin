@@ -22,15 +22,6 @@
     <string name="move_files_dialog_button_label_move">Symud</string>
     <string name="move_files_dialog_button_label_copy">Copïo</string>
     <string name="move_files_dialog_button_label_cancel">Diddymu</string>
-    <string name="filetransfer_notification_copy_progress_title">Yn copïo <xliff:g example="4" id="files">%1$d</xliff:g> ffeil</string>
-    <string name="filetransfer_notification_move_progress_title">Yn symud <xliff:g example="4" id="files">%1$d</xliff:g> ffeil</string>
-    <string name="filetransfer_notification_copy_complete_title">Wedi copïo <xliff:g example="4" id="files">%1$d</xliff:g> ffeil</string>
-    <string name="filetransfer_notification_move_complete_title">Wedi symud <xliff:g example="4" id="files">%1$d</xliff:g> ffeil</string>
-    <string name="filetransfer_notification_copy_progress_text">Mae\u2019r ffeiliau a ddewisiwyd yn cael eu copïo i dy ofod preifat</string>
-    <string name="filetransfer_notification_move_progress_text">Mae\u2019r ffeiliau a ddewiswyd yn cael eu symud i dy ofod preifat</string>
-    <string name="filetransfer_notification_copy_complete_text">Cafodd y ffeiliau a ddewiswyd eu copïo i dy ofod preifat</string>
-    <string name="filetransfer_notification_move_complete_text">Cafodd y ffeiliau a ddewiswyd eu symud i dy ofod preifat</string>
-    <string name="filetransfer_notification_action_label">Dangos ffeiliau</string>
     <string name="filetransfer_notification_channel_name">Hysbysiadau trosglwyddo ffeiliau</string>
-    <string name="filetransfer_notification_channel_description">"Pan fyddi\u2019n copïo neu symud ffeiliau i dy ofod preifat, gallet dderbyn hysbysiadau i dy ddiweddaru ar gynnydd."</string>
+    <string name="filetransfer_notification_channel_description">Pan fyddi\u2019n copïo neu symud ffeiliau i dy ofod preifat, gallet dderbyn hysbysiadau i dy ddiweddaru ar gynnydd.</string>
 </resources>

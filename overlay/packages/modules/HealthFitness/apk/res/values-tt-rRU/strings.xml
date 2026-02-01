@@ -20,8 +20,6 @@
     <string name="velocity_minute_miles" translation_description="Speed in minute per mile formatted."><xliff:g example="1:30" id="minute">%1$s</xliff:g> мин/миль</string>
     <string name="elapsed_time_placeholder" description="Value to represent time for un realistic data input.">--:--</string>
     <string name="sleep_stage_default" description="Label that shows sleep session duration.[CHAR LIMIT=80]"><xliff:g example="4 hours" id="duration">%1$s</xliff:g> <xliff:g example="light sleep" id="name">%2$s</xliff:g></string>
-    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g>
-  </string>
     <string name="day_duration" translation_description="Days duration representation [CHAR LIMIT=8]"><xliff:g example="2 days" id="days">%1$s</xliff:g></string>
     <string name="vitamin_a" description="Vitamin A, also known as retinol, is key for good vision, a healthy immune system, and cell growth. [CHAR LIMIT=50]">A витамины</string>
     <string name="vitamin_b12" description="Vitamin B12, also known as cobalamin, is a water-soluble vitamin involved in metabolism. [CHAR LIMIT=50]">B12 витамины</string>

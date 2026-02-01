@@ -536,8 +536,7 @@
     <string name="notification_voicemail_no_vm_number">Numar de segretarie no cognossût</string>
     <string name="notification_network_selection_title">Nissun servizi</string>
     <string name="notification_network_selection_text">Rêt <xliff:g id="operator_name">%s</xliff:g> selezionade, no disponibile</string>
-    <string name="incall_error_power_off" product="watch">Ative la rêt celulâr, disative la modalitât avion o disative la modalitât sparagn energjetic par fâ une clamade.</string>
-    <string name="incall_error_power_off" product="default">Disative la modalitât avion par une clamade.</string>
+    <string name="incall_error_power_off">Disative la modalitât avion par une clamade.</string>
     <string name="incall_error_power_off_wfc">Disative la modalitât avion opûr conetiti a une rêt cence fîi par fâ une clamade.</string>
     <string name="incall_error_power_off_thermal" product="default"><b>Telefon masse cjalt</b>\n\nImpussibil completâ cheste clamade. Torne prove une volte che il telefon si è disfredât.\n\nTu podarâs fâ distès clamadis di emergjence.</string>
     <string name="incall_error_ecm_emergency_only">Jes de modalitât clamade di rispueste di emergjence par fâ une clamade che no je di emergjence.</string>
@@ -868,6 +867,7 @@
     <string name="radio_info_radio_power">Potence dal segnâl radio mobil</string>
     <string name="simulate_out_of_service_string">Simule Fûr servizi (dome version di debug)</string>
     <string name="enforce_satellite_channel_string">Sfuarce canâl LTE satelitâr di cjamp (dome versions di debug)</string>
+    <string name="force_camp_satellite_button_connected_string">Conetût</string>
     <string name="mock_carrier_roaming_satellite_string">Modalitât satelit operadôr pustiç (dome versions di debug)</string>
     <string name="esos_satellite_string">Prove la modalitât eSOS cun satelit reâl (dome versions di debug)</string>
     <string name="satellite_enable_non_emergency_mode_string">Prove la modalitât non-eSOS cun satelit reâl (dome versions di debug)</string>

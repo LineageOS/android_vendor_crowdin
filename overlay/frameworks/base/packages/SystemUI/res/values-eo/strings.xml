@@ -33,6 +33,7 @@
     <string name="volume_panel_dialog_settings_button">Agordoj</string>
     <string name="status_bar_airplane">Aviadila reĝimo</string>
     <string name="keyboard_shortcut_group_system_notifications">Sciigoj</string>
+    <string name="qs_edit_settings">Agordoj</string>
     <string name="accessibility_floating_button_action_remove_menu">Forigi</string>
     <string name="controls_dialog_remove">Forigi</string>
     <string name="controls_media_settings_button">Agordoj</string>
@@ -40,4 +41,5 @@
     <string name="call_from_work_profile_close">Nuligi</string>
     <string name="shortcut_helper_customize_dialog_remove_button_label">Forigi</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Nuligi</string>
+    <string name="underlay_close_button_content_description">Fermi</string>
 </resources>

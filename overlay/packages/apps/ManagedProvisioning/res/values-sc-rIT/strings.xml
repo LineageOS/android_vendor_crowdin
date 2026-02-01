@@ -47,5 +47,7 @@
   <string name="setup_profile_progress">Imposta su profilu tuo. Mustrende progressu</string>
   <string name="learn_more_label">Butone àteras informatziones</string>
   <string name="mdm_icon_label">Icona <xliff:g id="icon_label" example="Test App">%1$s</xliff:g> </string>
+  <string name="expanded">Ismanniadu</string>
+  <string name="collapsed">Minimadu</string>
   <string name="work_profile_provisioning_progress_label">Impostende su profilu de traballu tuo\u2026</string>
 </resources>

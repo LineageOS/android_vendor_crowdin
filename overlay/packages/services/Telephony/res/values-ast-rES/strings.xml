@@ -238,8 +238,7 @@
     <string name="card_title_on_hold">N\'espera</string>
     <string name="card_title_in_call">En llamada</string>
     <string name="notification_network_selection_text">La rede seleicionada (<xliff:g id="operator_name">%s</xliff:g>) nun ta disponible</string>
-    <string name="incall_error_power_off" product="watch">Pa facer una llamada, activa la rede móvil o desactiva\'l mou avión o l\'aforrador d\'enerxía.</string>
-    <string name="incall_error_power_off" product="default">Pa facer una llamada, desactiva\'l mou avión</string>
+    <string name="incall_error_power_off">Pa facer una llamada, desactiva\'l mou avión</string>
     <string name="incall_error_power_off_wfc">Pa facer una llamada, desactiva\'l mou avión o conéctate a una rede ensin fillo.</string>
     <string name="incall_error_power_off_thermal" product="default"><b>El teléfonu ta mui caliente</b>\n\nNun se pue completar esta llamada. Volvi tentalo cuando esfreza.\n\nPues facer llamaes d\'emerxencia igualmente.</string>
     <string name="incall_error_ecm_emergency_only">Pa facer una llamada que nun ye d\'emerxencia, desactiva\'l mou de retornu de llamaes d\'emerxencia</string>

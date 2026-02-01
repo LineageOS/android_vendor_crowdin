@@ -255,8 +255,6 @@
     <string name="role_automotive_navigation_short_label">Aplicación de navegación</string>
     <string name="role_automotive_navigation_description">Aplicaciones que fornen busques de puntos d\'interés ya indicaciones de navegación pasu a pasu</string>
     <string name="role_automotive_navigation_request_title">¿Quies predeterminar «<xliff:g id="app_name" example="Super Phone">%1$s</xliff:g>» como aplicación de navegación?</string>
-    <string name="role_app_streaming_description">«<xliff:g id="app_name" example="Cross-Device Communciation">%1$s</xliff:g>» va poder interactuar colos avisos y emitir aplicaciones al preséu conectáu.</string>
-    <string name="role_companion_device_computer_description">Esti serviciu comparte\'l conteníu multimedia y los avisos del teléfonu con otros preseos.</string>
     <string name="role_notes_label">Apli. de notes predeterminada</string>
     <string name="role_notes_short_label">Aplicación de notes</string>
     <string name="role_notes_description">Aplicaciones que te permiten tomar notes nel preséu</string>
@@ -450,4 +448,7 @@
     <string name="test_otp_msg">La contraseña d\'un usu ye 132435</string>
     <string name="enhanced_confirmation_dialog_title">Opción restrinxida</string>
     <string name="enhanced_confirmation_dialog_desc">Por seguranaza, esta opción nun ta disponibles.</string>
+    <string name="app_function_agent_access_app_targets_category_title" description="Category title for target apps list section of Agent Access Settings page">Aplicaciones</string>
+    <string name="request_app_function_dialog_button_allow">Permitir</string>
+    <string name="request_app_function_dialog_button_dont_allow">Nun permitir</string>
 </resources>

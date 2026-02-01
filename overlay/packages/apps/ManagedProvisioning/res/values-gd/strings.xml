@@ -136,7 +136,6 @@
   <string name="device_owner_description">Thèid an t-uidheam seo a chumail tèarainte ’s fo stiùireadh a’ bhuidhinn agad</string>
   <string name="setup_provisioning_header">Ag ullachadh suidheachadh uidheam na h-obrach\u2026</string>
   <string name="setup_provisioning_header_description">A’ suidheachadh aplacaid rianaire</string>
-  <string name="brand_screen_header">’S ann leis a’ buidheann agad a tha an t-uidheam seo</string>
   <string name="brand_screen_subheader">Thèid an aplacaid a leanas a chleachdadh airson am fòn seo a stiùireadh agus sùil a chumail air</string>
   <string name="downloading_administrator_header">Ga ullachadh airson suidheachadh na h-obrach\u2026</string>
   <string name="work_profile_provisioning_accept_header_post_suw">Suidhicheamaid pròifil na h-obrach agad</string>

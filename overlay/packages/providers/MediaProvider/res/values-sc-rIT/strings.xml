@@ -15,4 +15,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="picker_play_video">Reprodue</string>
+    <string name="transcode_alert_channel">Notìficas de transcodìfica</string>
+    <string name="transcode_progress_channel">Progressu de transcodìfica</string>
 </resources>

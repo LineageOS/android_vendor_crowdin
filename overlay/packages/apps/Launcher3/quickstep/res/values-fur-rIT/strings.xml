@@ -42,7 +42,6 @@
     <string name="hotseat_tip_gaps_filled">Sugjeriments di aplicazion zontâts tal spazi vueit</string>
     <string name="hotsaet_tip_prediction_enabled">Sugjeriments di aplicazion ativâts</string>
     <string name="hotsaet_tip_prediction_disabled">I sugjeriments di aplicazion a son disativâts</string>
-    <string name="hotseat_prediction_content_description">Aplicazion predete: <xliff:g id="title" example="Chrome">%1$s</xliff:g></string>
     <string name="gesture_tutorial_rotation_prompt_title">Volte il to dispositîf</string>
     <string name="gesture_tutorial_rotation_prompt">Volte il to dispositîf par completâ il seminari pe navigazion a mots</string>
     <string name="back_gesture_feedback_swipe_too_far_from_edge">Viôt di scori dal ôr plui a diestre o plui a çampe</string>
@@ -86,7 +85,6 @@
     <string name="allset_hint">Scor in sù par lâ ae schermade iniziâl</string>
     <string name="allset_button_hint">Tocje il boton Inizi par la te tô schermade iniziâl</string>
     <string name="allset_description_generic">Dut pront par scomençâ a doprâ il to <xliff:g id="device" example="Pixel 6">%1$s</xliff:g></string>
-    <string name="default_device_name">dispositîf</string>
     <string name="allset_navigation_settings"><annotation id="link">Impostazions Navigazion dal sisteme</annotation></string>
     <string name="action_share">Condivît</string>
     <string name="action_screenshot">Acuisizion schermade</string>
@@ -99,10 +97,6 @@
     <string name="toast_split_app_unsupported">Sielç une altre aplicazion par doprâ il schermi dividût</string>
     <string name="blocked_by_policy">Cheste azion no je consintude de aplicazion de tô organizazion</string>
     <string name="split_widgets_not_supported">Pal moment no son supuartâts i widgets, selezione une altre aplicazion</string>
-    <string name="skip_tutorial_dialog_title">Saltâ il seminari pe navigazion?</string>
-    <string name="skip_tutorial_dialog_subtitle">Tu puedis cjatâlu plui tart te aplicazion <xliff:g id="name">%1$s</xliff:g></string>
-    <string name="gesture_tutorial_action_button_label_cancel">Anule</string>
-    <string name="gesture_tutorial_action_button_label_skip">Salte</string>
     <string name="accessibility_rotate_button">Volte il schermi</string>
     <string name="taskbar_edu_a11y_title">Educazion sbare ativitâts</string>
     <string name="taskbar_edu_splitscreen">Strissine une aplicazion in bande par doprâ 2 aplicazions intune volte sole</string>
@@ -124,14 +118,10 @@
     <string name="taskbar_button_notifications">Notifichis</string>
     <string name="taskbar_button_quick_settings">Impostazions rapidis</string>
     <string name="taskbar_a11y_title">Sbare des ativitâts</string>
-    <string name="taskbar_a11y_shown_title">Sbare des ativitâts mostrade</string>
-    <string name="taskbar_a11y_shown_with_bubbles_left_title">Sbare e bufulis mostr. a çampe</string>
-    <string name="taskbar_a11y_shown_with_bubbles_right_title">Sbare e bufulis mostr. a drete</string>
     <string name="taskbar_phone_a11y_title">Sbare di navigazion</string>
     <string name="always_show_taskbar">Mostre simpri sbare ativitâts</string>
     <string name="change_navigation_mode">Cambie modalitât di navigazion</string>
     <string name="taskbar_divider_a11y_title">Divisôr de sbare des ativitâts</string>
-    <string name="taskbar_overflow_a11y_title">Flotâ de sbare des aplicazions</string>
     <string name="move_drop_target_top_or_left">Sposte in alt/çampe</string>
     <string name="move_drop_target_bottom_or_right">Sposte in bas/diestre</string>
     <string name="quick_switch_overflow">{count, plural,

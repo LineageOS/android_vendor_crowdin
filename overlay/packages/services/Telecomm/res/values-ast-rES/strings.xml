@@ -45,7 +45,6 @@
     <string name="respond_via_sms_setting_title">Rempuestes rápides</string>
     <string name="respond_via_sms_setting_title_2">Edición de rempuestes rápides</string>
     <string name="respond_via_sms_edittext_dialog_title">Rempuesta rápida</string>
-    <string name="respond_via_sms_confirmation_format">Mensaxe unviáu al <xliff:g id="phone_number">%s</xliff:g>.</string>
     <string name="respond_via_sms_failure_format">Hebo un fallu al unviar el mensaxe al <xliff:g id="phone_number">%s</xliff:g></string>
     <string name="enable_account_preference_title">Cuentes pa llamaes</string>
     <string name="outgoing_call_not_allowed_user_restriction">Namás se permiten les llamaes d\'emerxencia.</string>

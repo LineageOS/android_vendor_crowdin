@@ -42,7 +42,7 @@
     <string name="menu_compress">Cywasgu</string>
     <string name="menu_extract">Echdynnu i\u2026</string>
     <string name="menu_extract_all">Echdynnu\u2019r cwbl\u2026</string>
-    <string name="menu_extract_here">Echdynnu yma</string>
+    <string name="menu_extract_here">Echdynnu</string>
     <string name="menu_browse">Pori</string>
     <string name="menu_rename">Ailenwi</string>
     <string name="menu_inspect">Cael gwybodaeth</string>
@@ -184,39 +184,11 @@ dy broffil personol.</string>
     <string name="extract_preparing">Yn paratoi...</string>
     <string name="move_preparing">Yn paratoi...</string>
     <string name="delete_preparing">Yn paratoi...</string>
+    <string name="move_to_trash_preparing">Yn paratoi...</string>
+    <string name="restore_from_trash_preparing">Yn paratoi...</string>
     <string name="delete_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
-    <plurals name="copy_error_notification_title">
-        <item quantity="zero">Methwyd â chopïo <xliff:g id="count" example="2">%1$d</xliff:g> eitemau</item>
-        <item quantity="one">Methwyd â chopïo <xliff:g id="count" example="1">%1$d</xliff:g> eitem</item>
-        <item quantity="two">Methwyd â chopïo <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="few">Methwyd â chopïo <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="many">Methwyd â chopïo <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="other">Methwyd â chopïo <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-    </plurals>
-    <plurals name="compress_error_notification_title">
-        <item quantity="zero">Methwyd â chywasgu <xliff:g id="count" example="2">%1$d</xliff:g> ffeiliau</item>
-        <item quantity="one">Methwyd â chywasgu <xliff:g id="count" example="1">%1$d</xliff:g> ffeil</item>
-        <item quantity="two">Methwyd â chywasgu <xliff:g id="count" example="2">%1$d</xliff:g> ffeil</item>
-        <item quantity="few">Methwyd â chywasgu <xliff:g id="count" example="2">%1$d</xliff:g> ffeil</item>
-        <item quantity="many">Methwyd â chywasgu <xliff:g id="count" example="2">%1$d</xliff:g> ffeil</item>
-        <item quantity="other">Methwyd â chywasgu <xliff:g id="count" example="2">%1$d</xliff:g> ffeil</item>
-    </plurals>
-    <plurals name="move_error_notification_title">
-        <item quantity="zero">Methwyd â symud <xliff:g id="count" example="2">%1$d</xliff:g> eitemau</item>
-        <item quantity="one">Methwyd â symud <xliff:g id="count" example="1">%1$d</xliff:g> eitem</item>
-        <item quantity="two">Methwyd â symud <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="few">Methwyd â symud <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="many">Methwyd â symud <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="other">Methwyd â symud <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-    </plurals>
-    <plurals name="delete_error_notification_title">
-        <item quantity="zero">Methwyd â dileu <xliff:g id="count" example="2">%1$d</xliff:g> eitemau</item>
-        <item quantity="one">Methwyd â dileu <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="two">Methwyd â dileu <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="few">Methwyd â dileu <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="many">Methwyd â dileu <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-        <item quantity="other">Methwyd â dileu <xliff:g id="count" example="2">%1$d</xliff:g> eitem</item>
-    </plurals>
+    <string name="move_to_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
+    <string name="restore_from_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
     <string name="notification_touch_for_details">Tapia i weld manylion</string>
     <string name="close">Cau</string>
     <plurals name="copy_failure_alert_content">
@@ -373,6 +345,7 @@ dy broffil personol.</string>
     <string name="anonymous_application">Anhysbys</string>
     <string name="open_tree_button">Defnyddio\'r ffolder hon</string>
     <string name="open_tree_dialog_title">Caniatâu <xliff:g id="appName" example="Drive">%1$s</xliff:g> i gael at ffeiliau yn <xliff:g id="directory" example="DCIM">%2$s</xliff:g>?</string>
+    <string name="open_tree_dialog_message">Bydd hyn yn gadael i \"<xliff:g id="appName" example="Drive">%1$s</xliff:g>\" gael mynediad at gynnwys cyfredol a\u2019r dyfodol wedi\u2019i storio yn <xliff:g id="directory" example="DCIM">%2$s</xliff:g>.</string>
     <string name="directory_blocked_header_title">Ni ellir defnyddio\'r ffolder hon</string>
     <string name="directory_blocked_header_subtitle">I warchod dy breifatrwydd, dewisa ffolder arall</string>
     <string name="create_new_folder_button">Creu ffolder newydd</string>
@@ -386,4 +359,6 @@ dy broffil personol.</string>
     <string name="list_mode_showing">Yn dangos ym modd rhestr.</string>
     <string name="bullet">\u2022</string>
     <string name="file_name_hint">Enw\u2019r ffeil</string>
+    <string name="peek_metadata_size">Maint</string>
+    <string name="peek_metadata_type">Math</string>
 </resources>

@@ -68,4 +68,5 @@
     <string name="tuner_time">ۋاقىت</string>
     <string name="tuner_menu">تىزىملىك</string>
     <string name="app_info">ئەپ ئۇچۇرى</string>
+    <string name="back_button_on_bouncer">قايت</string>
 </resources>

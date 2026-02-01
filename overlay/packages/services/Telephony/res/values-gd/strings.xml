@@ -523,8 +523,7 @@
     <string name="notification_voicemail_no_vm_number">Chan eil fios dè àireamh a’ phuist-ghutha</string>
     <string name="notification_network_selection_title">Gun seirbheis</string>
     <string name="notification_network_selection_text">Chan eil lìonra<xliff:g id="operator_name">%s</xliff:g> a thagh thu ri fhaighinn</string>
-    <string name="incall_error_power_off" product="watch">Gus an lìonra mobile a chur air, cuir dheth am modh itealain no modh caomhnaiche a’ bhataraidh.</string>
-    <string name="incall_error_power_off" product="default">Cuir dheth am modh itealain gus gairm a dhèanamh.</string>
+    <string name="incall_error_power_off">Cuir dheth am modh itealain gus gairm a dhèanamh.</string>
     <string name="incall_error_power_off_wfc">Cuir dheth am modh itealain no ceangail ri lìonra uèirleas gus gairm a dhèanamh.</string>
     <string name="incall_error_ecm_emergency_only">Fàg modh gairm-èiginn air ais airson gairm neo-èiginneach a dhèanamh.</string>
     <string name="incall_error_emergency_only">Cha deach a chlàradh air lìonra.</string>
@@ -838,6 +837,7 @@
     <string name="dsds_dialog_confirm">Ath-thòisich</string>
     <string name="dsds_dialog_cancel">Sguir dheth</string>
     <string name="radio_info_radio_power">Cumhachd rèidio mobile</string>
+    <string name="force_camp_satellite_button_connected_string">Ceangailte</string>
     <string name="radioInfo_menu_viewADN">Seall leabhar sheòlaidhean an t-SIM</string>
     <string name="radioInfo_menu_viewFDN">Seall na h-àireamhan daithealaidh socraichte</string>
     <string name="radioInfo_menu_viewSDN">Seall àireamhan daithealaidh na seirbheise</string>

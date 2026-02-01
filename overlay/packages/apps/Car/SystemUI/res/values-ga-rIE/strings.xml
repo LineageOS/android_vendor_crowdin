@@ -33,7 +33,4 @@
     other {Ró-iomarca iarrachtaí míchearta. Bain triail eile as i gceann # soicind.}
 }</string>
     <string name="data_subscription_button_text">Féach pleananna</string>
-    <string name="data_subscription_proactive_msg_prompt">Tá do phlean idirlín imithe in éag</string>
-    <string name="data_subscription_reactive_msg_prompt">Tá ceangal idirlín de dhíth ar %s</string>
-    <string name="data_subscription_reactive_generic_app_label">Aip seo</string>
 </resources>

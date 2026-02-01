@@ -65,6 +65,7 @@
     <string name="bluetooth_connecting">Yn cysylltu\u2026</string>
     <string name="bluetooth_connected">Cysylltwyd â <xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_pairing">Yn paru\u2026</string>
+    <string name="bluetooth_connection_failure">Methu â chysylltu</string>
     <string name="bluetooth_connected_no_headset">Wedi cysylltu (dim ffôn)<xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp">Wedi cysylltu (dim cyfryngau)<xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp">Wedi cysylltu (dim ffôn na chyfryngau)<xliff:g id="active_device">%1$s</xliff:g></string>
@@ -72,23 +73,45 @@
     <string name="bluetooth_connected_no_headset_battery_level">Wedi cysylltu (dim ffôn), batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Wedi cysylltu (dim cyfryngau), batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Wedi cysylltu (dim ffôn na chyfryngau), batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_active_battery_level">Gweithredol. Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_active_battery_level_untethered">Gweithredol. Batri - Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Dd: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g></string>
+    <string name="bluetooth_active_battery_level_untethered_left">Gweithredol. Batri - Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_active_battery_level_untethered_right">Gweithredol. Batri - Dd: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>.</string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batri</string>
     <string name="tv_bluetooth_battery_level">Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered">Batri - Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Dd: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
+    <string name="bluetooth_battery_level_untethered_left">Chwith: Batri <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_right">De: Batri <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="tv_bluetooth_battery_level_untethered_left">Chwith <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="tv_bluetooth_battery_level_untethered_right">De <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Gweithredol</string>
     <string name="bluetooth_saved_device">Wedi ei gofio</string>
+    <string name="bluetooth_hearing_aid_left_active">Gweithredol (chwith yn unig)</string>
+    <string name="bluetooth_hearing_aid_right_active">Gweithredol (dde yn unig)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_active">Gweithredol (chwith a de)</string>
     <string name="bluetooth_hearing_device_ambient_error">Methwyd diweddaru cwmpasoedd</string>
+    <string name="bluetooth_active_media_only_battery_level">Gweithredol (cyfryngau yn unig). Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_active_media_only_battery_level_untethered">Gweithredol (cyfryngau yn unig). Batri - Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Dd: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
     <string name="bluetooth_guest_battery_level">Dyfais gwestai. Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
     <string name="bluetooth_guest_battery_level_untethered">Dyfais gwestai. Batri, Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
     <string name="bluetooth_guest_media_only_battery_level">Dyfais gwestai (cyfryngau yn unig). Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
     <string name="bluetooth_guest_media_only_battery_level_untethered">Dyfais gwestai (cyfryngau yn unig). Batri, Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
+    <string name="bluetooth_battery_level_lea_support">Wedi cysylltu (yn cefnogi rhannu sain). Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
+    <string name="bluetooth_battery_level_untethered_lea_support">Wedi cysylltu (yn cefnogi rhannu sain). Batri - Ch: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Dd: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
+    <string name="bluetooth_battery_level_untethered_left_lea_support">Wedi cysylltu (yn cefnogi rhannu sain). Batri - Chwith: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>.</string>
+    <string name="bluetooth_battery_level_untethered_right_lea_support">Wedi cysylltu (yn cefnogi rhannu sain). Batri - Dde: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>.</string>
+    <string name="bluetooth_no_battery_level_lea_support">Wedi cysylltu (yn cefnogi rhannu sain)</string>
     <string name="bluetooth_guest_battery_level_lea_support">Dyfais gwestai (yn cefnogi rhannu sain). Batri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
     <string name="bluetooth_guest_battery_level_untethered_lea_support">Dyfais gwestai (yn cefnogi rhannu sain). Batri, L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>.</string>
     <string name="bluetooth_guest_no_battery_level_lea_support">Dyfais gwestai (yn cefnogi rhannu sain)</string>
+    <string name="bluetooth_active_media_only_no_battery_level">Gweithredol (cyfryngau yn unig)</string>
     <string name="bluetooth_guest_no_battery_level">Dyfais gwestai</string>
     <string name="bluetooth_guest_media_only_no_battery_level">Dyfais gwestai (cyfryngau yn unig)</string>
+    <string name="bluetooth_saved_device_lea_support">Yn cefnogi rhannu sain</string>
     <string name="bluetooth_guest_saved_device_lea_support">Dyfais gwestai (yn cefnogi rhannu sain)</string>
+    <string name="bluetooth_hearing_aid_media_only_left_active">Gweithredol (cyfryngau yn unig), chwith yn unig</string>
+    <string name="bluetooth_hearing_aid_media_only_right_active">Gweithredol (cyfryngau yn unig), dde yn unig</string>
+    <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Gweithredol (cyfryngau yn unig), chwith a dde</string>
     <string name="bluetooth_profile_a2dp">Sain cyfryngau</string>
     <string name="bluetooth_profile_headset">Galwadau ffôn</string>
     <string name="bluetooth_profile_opp">Trosglwyddo ffeiliau</string>
@@ -308,7 +331,6 @@
     <string name="wifi_non_persistent_mac_randomization_summary">Pan fydd y modd hwn wedi\'i alluogi, gall gyfeiriad MAC y ddyfais hon newid bob tro y mae\'n cysylltu â rhwydwaith sydd â hap MAC ymlaen.</string>
     <string name="wifi_metered_label">Wedi\'i mesur</string>
     <string name="wifi_unmetered_label">Heb ei mesur</string>
-    <string name="select_logd_size_title">Meintiau byfferau logwyr</string>
     <string name="select_logd_size_dialog_title">Dewisa meintiau logwyr fesul byffer log</string>
     <string name="dev_logpersist_clear_warning_title">Clirio storfa\'r logiwr parhaus?</string>
     <string name="dev_logpersist_clear_warning_message">Pan nad ydym mwyach yn monitro gyda\'r logiwr parhaus, mae angen inni ddileu data\'r logiwr sydd ar dy ddyfais.</string>
@@ -336,6 +358,9 @@
     <string name="enhanced_connectivity_summary">Mae\'n galluogi\'r nodwedd Cysylltedd Uwch</string>
     <string name="enable_terminal_title">Terfynell leol</string>
     <string name="enable_terminal_summary">Galluogi ap terfynell sy\'n cynnig mynediad cragen leol</string>
+    <string name="enable_linux_terminal_title">Amgylchedd datblygiad Linux</string>
+    <string name="enable_linux_terminal_summary">(Arbrofol) Rhedeg terfynell Linux ar Android</string>
+    <string name="disable_linux_terminal_disclaimer">Os wyt yn ei analluogi, caiff data terfynell Linux ei glirio</string>
     <string name="hdcp_checking_title">Gwirio HDCP</string>
     <string name="hdcp_checking_dialog_title">Gosod ymddygiad gwirio HDCP</string>
     <string name="debug_debugging_category">Dadfygio</string>
@@ -360,6 +385,7 @@
     <string name="show_touches_summary">Dangos adborth gweledol ar gyfer tapiau</string>
     <string name="show_key_presses">Dangos pwyso bysellau</string>
     <string name="show_key_presses_summary">Dangos adborth gweledol am gyffyrddiadau bysellau corfforol</string>
+    <string name="touchpad_visualizer">Dangos mewnbwn pad gyffwrdd</string>
     <string name="show_screen_updates">Dangos diweddariadau arwyneb</string>
     <string name="show_screen_updates_summary">Fflachio arwyneb ffenestr gyfan pan maen nhw\'n diweddaru</string>
     <string name="show_hw_screen_updates">Dangos diweddariadau golwg</string>
@@ -388,6 +414,12 @@
     <string name="enable_gpu_debug_layers_summary">Galluogi llwytho haenau dadfygio GPU ar gyfer apiau dadfygio</string>
     <string name="enable_verbose_vendor_logging">Galluogi cofnodi modd llawn y gwerthwr</string>
     <string name="enable_verbose_vendor_logging_summary">Cynnwys cofnodion dyfais benodol ychwanegol y gwerthwr yn yr adroddiadau gwall, gall gynnwys manylion preifat, defnyddio rhagor o fatri a/neu ddefnyddio rhagor o\'r storfa.</string>
+    <string name="enable_verbose_vendor_logging_checkbox">Analluogi ar ôl diwrnod</string>
+    <string name="verbose_vendor_logging_notification_title">Mae logio geiriog darparwr wedi dod i ben</string>
+    <string name="verbose_vendor_logging_notification_summary">Galluogi am ddiwrnod</string>
+    <string name="verbose_vendor_logging_notification_action">Galluogi am ddiwrnod arall</string>
+    <string name="verbose_vendor_logging_preference_summary_will_disable">Yn analluogi ar ôl diwrnod</string>
+    <string name="verbose_vendor_logging_preference_summary_on">Wedi\u2019i alluogi yn ddi-ddiwedd</string>
     <string name="window_animation_scale_title">Graddfa animeiddiad ffenestr</string>
     <string name="transition_animation_scale_title">Graddfa animeiddiad trawsnewid</string>
     <string name="animator_duration_scale_title">Graddfa hyd animeiddiwr</string>
@@ -477,6 +509,10 @@
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> nes yn llawn</string>
     <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Gwefru wedi\u2019i seibio i warchod y batri</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> - Yn gwefru</string>
+    <string name="power_fast_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="status">%2$s</xliff:g> - Llawn erbyn <xliff:g id="time">%3$s</xliff:g></string>
+    <string name="power_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - Wedi gwefru\u2019n llawn erbyn <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_remaining_charging_duration_only_v2">Wedi gwefru\u2019n llawn erbyn <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_remaining_fast_charging_duration_only_v2">Yn llawn erbyn <xliff:g id="time">%1$s</xliff:g></string>
     <string name="battery_info_status_unknown">Anhysybys</string>
     <string name="battery_info_status_charging">Yn gwefru</string>
     <string name="battery_info_status_charging_fast">Yn gwefru\'n gyflym</string>
@@ -489,6 +525,7 @@
     <string name="battery_info_status_full_charged">Wedi Gwefru\u2019n Llawn</string>
     <string name="battery_info_status_charging_on_hold">Gwefru wedi\u2019i seibio</string>
     <string name="battery_info_status_charging_v2">Yn gwefru</string>
+    <string name="battery_info_status_charging_fast_v2">Gwefru cyflym</string>
     <string name="disabled_by_admin_summary_text">Rheolir gan weinyddwr</string>
     <string name="disabled_by_app_ops_text">Rheolir gan Osodiad Cyfyngedig</string>
     <string name="disabled_in_phone_call_text">Dim ar gael yn ystod galwadau</string>
@@ -508,8 +545,8 @@
     <string name="screen_zoom_summary_small">Bach</string>
     <string name="screen_zoom_summary_default">Arferol</string>
     <string name="screen_zoom_summary_large">Mawr</string>
-    <string name="screen_zoom_summary_very_large">Mwy</string>
-    <string name="screen_zoom_summary_extremely_large">Mwyaf</string>
+    <string name="screen_zoom_summary_larger">Mwy</string>
+    <string name="screen_zoom_summary_largest">Mwyaf</string>
     <string name="screen_zoom_summary_custom">Addasedig (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
     <string name="content_description_menu_button">Dewislen</string>
     <string name="retail_demo_reset_message">Rho\'r cyfrinair i ailosod y ddyfais i fel yr oedd yn gadael y ffatri mewn modd arddangos ar gyfer siopau.</string>
@@ -565,13 +602,19 @@
     <string name="zen_mode_duration_settings_title">Hyd</string>
     <string name="zen_mode_duration_always_prompt_title">Gofyn bob tro</string>
     <string name="zen_mode_forever">Nes dy fod yn ei ddiffodd</string>
+    <string name="zen_mode_starred_contacts_empty_name">(Dim enw)</string>
     <string name="time_unit_just_now">Jyst nawr</string>
     <string name="media_transfer_this_device_name">Y ffôn hwn</string>
     <string name="media_transfer_this_device_name_tablet">Y llechen hon</string>
+    <string name="media_transfer_this_device_name_desktop">Y cyfrifiadur hwn (mewnol)</string>
+    <string name="media_transfer_this_device_name_tv">Y teledu hon</string>
     <string name="media_transfer_dock_speaker_device_name">Seinydd doc</string>
     <string name="media_transfer_external_device_name">Dyfais Allanol</string>
     <string name="media_transfer_default_device_name">Dyfais wedi\'i chysylltu</string>
     <string name="media_transfer_this_phone">Y ffôn hwn</string>
+    <string name="media_transfer_digital_line_name">S/PDIF</string>
+    <string name="media_transfer_analog_line_name">Analog</string>
+    <string name="media_transfer_aux_line_name">AUX</string>
     <string name="media_output_status_unknown_error">Methu chwarae ar y ddyfais hon</string>
     <string name="media_output_status_require_premium">Uwchraddia\'r cyfrif i newid</string>
     <string name="media_output_status_not_support_downloads">Methu chwarae llwythi yma</string>
@@ -584,6 +627,8 @@
     <string name="tv_media_transfer_earc_fallback_title">HDMI eARC</string>
     <string name="tv_media_transfer_arc_subtitle">Wedi cysylltu trwy ARC</string>
     <string name="tv_media_transfer_earc_subtitle">Wedi cysylltu trwy eARC</string>
+    <string name="tv_media_transfer_internal_speakers">Seinydd y ddyfais</string>
+    <string name="tv_media_transfer_hdmi_title">Sain teledu</string>
     <string name="profile_connect_timeout_subtext">Problem cysylltu. Diffodda\'r ddyfais a\'i throi nôl ymlaen</string>
     <string name="bluetooth_key_missing_subtext">Methu â chysylltu</string>
     <string name="media_transfer_wired_device_name">Dyfais sain gwifredig</string>
@@ -622,7 +667,7 @@
     <string name="user_new_profile_name">Proffil newydd</string>
     <string name="user_info_settings_title">Gwybodaeth defnyddiwr</string>
     <string name="profile_info_settings_title">Gwybodaeth proffil</string>
-    <string name="user_need_lock_message">Cyn medru creu proffil cyfyngedig, rhaid gosod sgrin cloi i warchod dy apiau a data personol.</string>
+    <string name="user_need_lock_message">Cyn medru creu proffil cyfyngedig, rhaid gosod sgrin glo i warchod dy apiau a data personol.</string>
     <string name="user_set_lock_button">Gosod clo</string>
     <string name="user_switch_to_user">Newid i <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
     <string name="creating_new_user_dialog_message">Yn creu defnyddiwr newydd…</string>
@@ -630,6 +675,7 @@
     <string name="add_user_failed">Methwyd â chreu defnyddiwr newydd</string>
     <string name="add_guest_failed">Methwyd â chreu gwesti newydd</string>
     <string name="user_nickname">Llysenw</string>
+    <string name="edit_user_info_message">Bydd yr enw a\u2019r llun sy\u2019n cael eu dewis yn weladwy i unrhyw un sy\u2019n defnyddio\u2019r ddyfais hon.</string>
     <string name="user_add_user">Ychwanegu defnyddiwr</string>
     <string name="guest_new_guest">Ychwanegu gwestai</string>
     <string name="guest_exit_guest">Tynnu gwestai</string>
@@ -670,6 +716,8 @@ nawr, neu gellir ei gadw a dileu gweithgaredd wrth adael</string>
     <string name="cached_apps_freezer_enabled">Galluogwyd</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Rhaid ailgychwyn dy ddyfais er mwyn i\'r newid hwn fod yn berthnasol. Ailgychwyna nawr neu diddymu.</string>
     <string name="media_transfer_wired_headphone_name">Clustffonau gwifr</string>
+    <string name="media_transfer_headphone_name">Sain trwy wifren</string>
+    <string name="media_transfer_usb_audio_name">Sain USB</string>
     <string name="media_transfer_wired_device_mic_name">Meicroffon gwifren</string>
     <string name="media_transfer_usb_device_mic_name">Meicroffon USB</string>
     <string name="media_transfer_bt_device_mic_name">Meicroffon Bluetooth</string>
@@ -707,18 +755,17 @@ nawr, neu gellir ei gadw a dileu gweithgaredd wrth adael</string>
     <string name="physical_keyboard_title">Bysellfwrdd corfforol</string>
     <string name="keyboard_layout_dialog_title">Dewis gosodiad bysellfwrdd</string>
     <string name="keyboard_layout_default_label">Arferol</string>
+    <string name="turn_screen_on_title">Rheolaeth troi sgrin ymlaen</string>
     <string name="allow_turn_screen_on">Caniatáu troi\'r sgrin ymlaen</string>
     <string name="allow_turn_screen_on_description">Ychwanegu ap i droi\u2019r sgrin ymlaen. Os rhoddir, bydd yr ap yn gallu troi\u2019r sgrin ymlaen unrhyw bryd heb i ti fod wedi dewis gwneud.</string>
     <string name="bt_le_audio_broadcast_dialog_title">Stopio darlledu <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>
     <string name="bt_le_audio_broadcast_dialog_sub_title">Os wyt yn darlledu <xliff:g id="switchApp" example="App Name 2">$1%s</xliff:g> neu newid yr allbwn, bydd dy ddarllediad cyfredol yn stopio</string>
     <string name="bt_le_audio_broadcast_dialog_switch_app">Darlledu <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g></string>
     <string name="bt_le_audio_broadcast_dialog_different_output">Newid allbwn</string>
-    <string name="back_navigation_animation">Animeiddiadau ystum yn ôl</string>
-    <string name="back_navigation_animation_summary">Galluogi animeiddiadau system ar gyfer rhagweld mynd yn ôl.</string>
-    <string name="back_navigation_animation_dialog">Mae\u2019r gosodiad hwn yn galluogi animeiddiadau system ar gyfer animeiddiad ystumiau a ragwelir. Mae arno angen fesul ap gosod \"enableOnBackInvokedCallback\" i \'true\' yn y ffeil maniffest.</string>
     <string name="font_scale_percentage"><xliff:g id="percentage">%1$d</xliff:g> %%</string>
     <string name="not_specified">Heb ei nodi</string>
     <string name="neuter">Diryw</string>
     <string name="feminine">Benywaidd</string>
     <string name="masculine">Gwrywaidd</string>
+    <string name="system_update_settings_list_item_title">Diweddariadau System</string>
 </resources>

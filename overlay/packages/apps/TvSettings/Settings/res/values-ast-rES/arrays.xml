@@ -33,6 +33,7 @@
         <item>2 segundos</item>
     </string-array>
     <string-array name="device_energy_saver_attentive_timeout_entries">
+        <item>3 hours</item>
         <item>4 hours</item>
         <item>6 hores</item>
         <item>8 hours</item>

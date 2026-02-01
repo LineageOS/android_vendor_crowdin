@@ -93,7 +93,6 @@
     <string name="enable_operator_defined_test_alerts_summary">Ricêf alertis di emergjence: operadôr definît</string>
     <string name="enable_alert_vibrate_title">Vibrazion</string>
     <string name="override_dnd_title">Alerte simpri a plen volum</string>
-    <string name="override_dnd_summary">Ignore il No Sta Disturbâ e altris impostazions pal volum</string>
     <string name="enable_area_update_info_alerts_title">Trasmissions di inzornament de aree</string>
     <string name="enable_area_update_info_alerts_summary">Mostre informazions di inzornament tal stât de SIM</string>
     <string name="cmas_category_heading">Categorie de alerte:</string>

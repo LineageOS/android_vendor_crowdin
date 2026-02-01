@@ -262,12 +262,12 @@ Ni fyddi\u2019n derbyn galwadau ffôn na negeseuon testun.</string>
     <string name="global_action_power_options">Pŵer</string>
     <string name="global_action_restart">Ailgychwyn</string>
     <string name="global_action_emergency">Argyfwng</string>
-    <string name="global_action_bug_report">Adroddiad Gwall</string>
+    <string name="global_action_bug_report">Adroddiad nam</string>
     <string name="global_action_logout">Diweddu sesiwn</string>
     <string name="global_action_screenshot">Sgrinlun</string>
     <string name="global_action_standby">Modd segur</string>
-    <string name="bugreport_title">Adroddiad Gwall</string>
-    <string name="bugreport_message">Bydd hyn yn casglu gwybodaeth am gyflwr presennol dy ddyfais i\'w hanfon fel neges e-bost.  Mi gymerith ychydig o amser o gychwyn yr adroddiad gwall nes bod ei fod yn barod i\'w anfon, felly bu\'n bwyllog.</string>
+    <string name="bugreport_title">Adroddiad nam</string>
+    <string name="bugreport_message">Bydd hyn yn casglu gwybodaeth am gyflwr presennol dy ddyfais i\'w hanfon fel neges e-bost.  Mi gymerith ychydig o amser o gychwyn yr adroddiad nam nes bod ei fod yn barod i\'w anfon, felly bu\'n bwyllog.</string>
     <string name="bugreport_option_interactive_title">Adroddiad rhyngweithiol</string>
     <string name="bugreport_option_interactive_summary">Dylid defnyddio hwn fel rheol.
 Mae\'n dy alluogi i dracio cynnydd yr adroddiad, ychwanegu rhagor o wybodaeth am y broblem, a thynnu sgrinluniau.
@@ -284,8 +284,8 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
         other {Yn cymryd sgrinlun mewn # eiliad.}
     }
     </string>
-    <string name="bugreport_screenshot_success_toast">Tynnwyd sgrinlun gydag adroddiad gwall</string>
-    <string name="bugreport_screenshot_failure_toast">Methwyd tynnu sgrinlun gydag adroddiad gwall</string>
+    <string name="bugreport_screenshot_success_toast">Tynnwyd sgrinlun gydag adroddiad nam</string>
+    <string name="bugreport_screenshot_failure_toast">Methwyd tynnu sgrinlun gydag adroddiad nam</string>
     <string name="global_action_toggle_silent_mode">Modd tawel</string>
     <string name="global_action_silent_mode_on_status">Mae\'r sain I FFWRDD</string>
     <string name="global_action_silent_mode_off_status">Mae\'r sain YMLAEN</string>
@@ -333,8 +333,6 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="managed_profile_label">Newid i broffil gwaith</string>
     <string name="user_owner_app_label">Newid i <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> personol</string>
     <string name="managed_profile_app_label">Newid i <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> gwaith</string>
-    <string name="permgrouplab_contacts">Cysylltiadau</string>
-    <string name="permgroupdesc_contacts">cyrchu dy gysylltiadau</string>
     <string name="permgrouplab_location">Lleoliad</string>
     <string name="permgroupdesc_location">cyrchu lleoliad y ddyfais hon</string>
     <string name="permgrouplab_calendar">Calendr</string>
@@ -363,10 +361,6 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="permgroupdesc_sensors">cael at ddata synhwyrydd am dy arwyddion bywyd</string>
     <string name="permgrouplab_notifications">Hysbysiadau</string>
     <string name="permgroupdesc_notifications">dangos hysbysiadau</string>
-    <string name="permgrouplab_xr_tracking">data tracio XR</string>
-    <string name="permgroupdesc_xr_tracking">cael mynediad at ddata XR amdanat ti a\'r amgylchfyd o dy amgylch</string>
-    <string name="permgrouplab_xr_tracking_sensitive">data tracio sensitif XR</string>
-    <string name="permgroupdesc_xr_tracking_sensitive">cael mynediad at ddata tracio sensitif, fel edrychiad dy lygaid</string>
     <string name="capability_title_canRetrieveWindowContent">Adfer cynnwys ffenestr</string>
     <string name="capability_desc_canRetrieveWindowContent">Archwilio cynnwys ffenestr rwyt yn rhyngweithio gyda hi.</string>
     <string name="capability_title_canRequestTouchExploration">Troi Archwilio trwy Gyffwrdd ymlaen</string>
@@ -661,27 +655,11 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="permdesc_imagesWrite">Mae\u2019n caniatáu i\u2019r ap addasu dy gasgliad o luniau.</string>
     <string name="permlab_mediaLocation">darllen lleoliadau o dy gasgliad cyfryngau</string>
     <string name="permdesc_mediaLocation">Mae\'n caniatáu i\u2019r ap ddarllen lleoliadau o dy gasgliad cyfryngau.</string>
-    <string name="permlab_eye_tracking_coarse">tracio cyfeiriad bras edrychiad dy lygaid</string>
-    <string name="permdesc_eye_tracking_coarse">Mae\u2019n caniatáu\u2019r ap i dracio cyfeiriad bras edrychiad dy lygaid.</string>
-    <string name="permlab_eye_tracking_fine">tracio i ble yr wyt yn edrych</string>
-    <string name="permdesc_eye_tracking_fine">Mae\u2019n caniatáu\u2019r ap i gael mynediad at ddata manwl cyfeiriad edrychiad dy lygaid.</string>
-    <string name="permlab_face_tracking">tracio dy wyneb</string>
-    <string name="permdesc_face_tracking">Mae\u2019n caniatáu\u2019r ap i gael mynediad at ddata tracio wyneb.</string>
-    <string name="permlab_hand_tracking">tracio dy ddwylo</string>
-    <string name="permdesc_hand_tracking">Mae\u2019n caniatáu\u2019r ap i gael mynediad at ddata tracio llaw.</string>
-    <string name="permlab_head_tracking">tracio dy ben</string>
-    <string name="permdesc_head_tracking">Mae\u2019n caniatáu\u2019r ap i gael mynediad at ddata tracio pen.</string>
-    <string name="permlab_scene_understanding_coarse">deall dy amgylchedd cyfagos</string>
-    <string name="permdesc_scene_understanding_coarse">Mae\u2019n caniatáu\u2019r ap i gael mynediad at ddata ynghylch yr amgylchedd yn uniongyrchol o dy amgylch.</string>
-    <string name="permlab_scene_understanding_fine">deall dy amgylchedd cyfagos gyda manylder uchel</string>
-    <string name="permdesc_scene_understanding_fine">Mae\u2019n caniatáu\u2019r ap i gael mynediad at ddata ynghylch yr amgylchedd yn uniongyrchol o dy amgylch gyda manylder uchel iawn.</string>
-    <string name="permlab_xr_tracking_in_background">mynediad at ddata XR heb fod yn y blaen</string>
-    <string name="permdesc_xr_tracking_in_background">Mae\u2019n caniatáu\u2019r ap i gael mynediad at ddata XR heb fod yn y blaen.</string>
     <string name="biometric_app_setting_name">Defnyddio biometreg</string>
     <string name="biometric_or_screen_lock_app_setting_name">Defnyddio biometreg neu glo sgrin</string>
     <string name="biometric_dialog_default_title">Gwirio mai ti sydd yno</string>
     <string name="biometric_dialog_default_subtitle">Defnyddio biometreg i barhau</string>
-    <string name="biometric_or_screen_lock_dialog_default_subtitle">Defnyddio biometreg neu sgrin cloi i barhau</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Defnyddio dull biometreg neu sgrin glo i barhau</string>
     <string name="biometric_error_hw_unavailable">Caledwedd biometreg dim ar gael</string>
     <string name="biometric_error_user_canceled">Diddymwyd dilysu</string>
     <string name="biometric_not_recognized">Dim yn ei adnabod</string>
@@ -712,8 +690,8 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="fingerprint_error_timeout">Daeth amser gosod ôl bys i ben. Rho gynnig arall arni.</string>
     <string name="fingerprint_error_canceled">Diddymwyd y weithred ôl bys</string>
     <string name="fingerprint_error_user_canceled">Diddymwyd y weithred ôl bys gan y defnyddiwr</string>
-    <string name="fingerprint_error_lockout">Gormod o ymdrechion. Defnyddia sgrin cloi yn lle.</string>
-    <string name="fingerprint_error_lockout_permanent">Gormod o ymdrechion. Defnyddia sgrin cloi yn lle.</string>
+    <string name="fingerprint_error_lockout">Gormod o ymdrechion. Defnyddia\u2019r sgrin glo yn lle.</string>
+    <string name="fingerprint_error_lockout_permanent">Gormod o ymdrechion. Defnyddia\u2019 sgrin glo yn lle.</string>
     <string name="fingerprint_error_unable_to_process">Methu prosesu\u2019r ôl bys. Rho gynnig arall arni.</string>
     <string name="fingerprint_error_no_fingerprints">Dim olion bysedd wedi\'u cofrestru</string>
     <string name="fingerprint_error_hw_not_present">Nid oes gan y ddyfais hon synhwyrydd olion bysedd</string>
@@ -768,16 +746,16 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="face_error_user_canceled">Diddymwyd Datgloi ag Wyneb gan ddefnyddiwr</string>
     <string name="face_error_lockout">Gormod o ymdrechion. Rho gynnig arall arni\'n hwyrach.</string>
     <string name="face_error_lockout_permanent">Gormod o gynigion. Datgloi ag Wyneb ddim ar gael.</string>
-    <string name="face_error_lockout_screen_lock">Gormod o ymdrechion aflwyddiannus. Rho sgrin cloi yn lle.</string>
+    <string name="face_error_lockout_screen_lock">Gormod o ymdrechion. Defnyddia\u2019 sgrin glo yn lle.</string>
     <string name="face_error_unable_to_process">Methu â dilysu\u2019r wyneb. Rho gynnig arall arni.</string>
     <string name="face_error_not_enrolled">Nid wyt wedi gosod Datgloi ag Wyneb</string>
     <string name="face_error_hw_not_present">Ni chefnogir Datgloi ag Wyneb ar y ddyfais hon</string>
     <string name="face_error_security_update_required">Synhwyrydd wedi\'i analluogi dros dro.</string>
     <string name="face_name_template">Wyneb <xliff:g id="faceId" example="1">%d</xliff:g></string>
     <string name="face_app_setting_name">Defnyddio Datgloi ag Wyneb</string>
-    <string name="face_or_screen_lock_app_setting_name">Defnyddio wyneb neu sgrin cloi</string>
+    <string name="face_or_screen_lock_app_setting_name">Defnyddio wyneb neu sgrin glo</string>
     <string name="face_dialog_default_subtitle">Defnyddia dy wyneb i barhau</string>
-    <string name="face_or_screen_lock_dialog_default_subtitle">Defnyddia dy wyneb neu sgrin cloi i barhau</string>
+    <string name="face_or_screen_lock_dialog_default_subtitle">Defnyddia dy wyneb neu sgrin glo i barhau</string>
     <string name="face_error_vendor_unknown">Aeth rhywbeth o\'i le. Rho gynnig arall arni.</string>
     <string name="face_icon_content_description">Eicon wyneb</string>
     <string name="permlab_readSyncSettings">darllen gosodiadau cysoni</string>
@@ -883,13 +861,13 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="policydesc_wipeData_secondaryUser" product="default">Dileu data\'r defnyddiwr hwn ar y ffôn hwn heb rybudd.</string>
     <string name="policylab_setGlobalProxy">Gosod procsi byd-eang y ddyfais</string>
     <string name="policydesc_setGlobalProxy">Gosod procsi byd-eang y ddyfais i\'w ddefnyddio pan fo\'r polisi wedi ei alluogi. Gellir gosod y procsi byd-eang gan berchennog y ddyfais yn unig.</string>
-    <string name="policylab_expirePassword">Gosod pa bryd daw cyfrinair y sgrin cloi i ben</string>
-    <string name="policydesc_expirePassword">Dewisa pa mor aml dylid newid cyfrinair, PIN neu batrwm y sgrin cloi.</string>
+    <string name="policylab_expirePassword">Gosod pa bryd daw cyfrinair y sgrin glo i ben</string>
+    <string name="policydesc_expirePassword">Dewisa pa mor aml dylid newid cyfrinair, PIN neu batrwm y sgrin glo.</string>
     <string name="policylab_encryptedStorage">Gosod amgryptiad storio</string>
     <string name="policydesc_encryptedStorage">Ei wneud yn ofynnol bod data apiau a storiwyd yn cael ei amgryptio.</string>
     <string name="policylab_disableCamera">Analluogi camerâu</string>
     <string name="policydesc_disableCamera">Rhwystro defnydd o bob camera\'r ddyfais.</string>
-    <string name="policylab_disableKeyguardFeatures">Analluogi rhai nodweddion y sgrin cloi</string>
+    <string name="policylab_disableKeyguardFeatures">Analluogi rhai nodweddion y sgrin glo</string>
     <string name="policydesc_disableKeyguardFeatures">Rhwystro defnydd rhai nodweddion y clo sgrin.</string>
     <string-array name="phoneTypes">
         <item>Cartref</item>
@@ -1207,10 +1185,6 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\'r h
     <string name="duration_days_shortest_future">        mewn <xliff:g example="1" id="count">%d</xliff:g>d
     </string>
     <string name="duration_years_shortest_future">        mewn <xliff:g id="count">%d</xliff:g>b
-    </string>
-    <string name="duration_days_medium">       <xliff:g id="count">%d</xliff:g>d
-    </string>
-    <string name="duration_days_medium_future">        mewn <xliff:g example="1" id="count">%d</xliff:g>d
     </string>
     <string name="duration_minutes_relative">{count, plural,
         =1 {# funud yn ôl}
@@ -1545,15 +1519,13 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\'r h
     <string name="usb_contaminant_detected_message">Mae\'r porth USB wedi\'i analluogi yn awtomatig. Tapia i ddysgu rhagor.</string>
     <string name="usb_contaminant_not_detected_title">Iawn i ddefnyddio\'r porth USB</string>
     <string name="usb_contaminant_not_detected_message">Dyw\'r ffôn ddim mwyach yn adnabod baw na hylif.</string>
-    <string name="taking_remote_bugreport_notification_title">Yn cymryd adroddiad gwall\u2026</string>
-    <string name="share_remote_bugreport_notification_title">Rhannu\'r adroddiad gwall?</string>
-    <string name="sharing_remote_bugreport_notification_title">Yn rhannu\'r adroddiad gwall\u2026</string>
+    <string name="taking_remote_bugreport_notification_title">Yn cymryd adroddiad nam\u2026</string>
+    <string name="share_remote_bugreport_notification_title">Rhannu\'r adroddiad nam?</string>
+    <string name="sharing_remote_bugreport_notification_title">Yn rhannu\'r adroddiad nam\u2026</string>
     <string name="share_remote_bugreport_notification_message_finished">Mae dy weinyddwr wedi gofyn am adroddiad am y gwall er mwyn ceisio datrys problem gyda\'r ddyfais hon. Gall apiau a data cael eu rhannu.</string>
     <string name="share_remote_bugreport_action">RHANNU</string>
     <string name="decline_remote_bugreport_action">GWRTHOD</string>
     <string name="select_input_method">Dewis dull mewnbwn</string>
-    <string name="show_ime">Ei gadw ar y sgrin tra bod y bysellfwrdd corfforol yn weithredol</string>
-    <string name="hardware">Defnyddio bysellfwrdd ar y sgrin</string>
     <string name="select_keyboard_layout_notification_title">Ffurfweddu <xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g></string>
     <string name="select_multiple_keyboards_layout_notification_title">Ffurfweddu bysellfyrddau corfforol</string>
     <string name="select_keyboard_layout_notification_message">Tapia i ddewis iaith a gosodiad</string>
@@ -1903,7 +1875,6 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="one_handed_mode_feature_name">Modd Un-Llaw</string>
     <string name="reduce_bright_colors_feature_name">Pŵl iawn</string>
     <string name="hearing_aids_feature_name">Dyfeisiau cymorth clyw</string>
-    <string name="autoclick_feature_name">Awtoglic</string>
     <string name="hearing_device_status_disconnected">Heb gysylltu</string>
     <string name="hearing_device_status_connected">Wedi cysylltu</string>
     <string name="hearing_device_status_active">Yn weithredol</string>
@@ -2066,8 +2037,6 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="package_updated_device_owner">Diweddarwyd gan dy weinyddwr.\nGweler y caniatâd a roddwyd yn y gosodiadau.</string>
     <string name="package_deleted_device_owner">Dileuwyd gan dy weinyddwr</string>
     <string name="confirm_battery_saver">Iawn</string>
-    <string name="battery_saver_description_with_learn_more">Mae Arbedwr Batri yn troi\'r thema Tywyll ymlaen ac yn cyfyngu neu\'n diffodd gweithrediadau yn y cefndir, rhai effeithiau gweledol, nodweddion penodol, a rhai cysylltiadau rhwydwaith.</string>
-    <string name="battery_saver_description">Mae Arbedwr Batri yn troi\'r thema Tywyll ymlaen ac yn cyfyngu neu\'n diffodd gweithrediadau yn y cefndir, rhai effeithiau gweledol, nodweddion penodol, a rhai cysylltiadau rhwydwaith.</string>
     <string name="data_saver_description">I helpu lleihau defnydd data, mae Arbedwr Data yn rhwystro rhai apiau rhag anfon neu derbyn data yn y cefndir. Gall ap gael mynediad at ddata tra ei fod yn cael ei ddefnyddio, ond yn llai aml. Mae hyn yn golygu, er enghraifft, na fydd delweddau efallai yn dangos nes dy fod yn eu tapio nhw.</string>
     <string name="data_saver_enable_title">Rhoi Arbedwr Data ar waith?</string>
     <string name="data_saver_enable_button">Troi ymlaen</string>
@@ -2190,6 +2159,7 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="call_notification_ongoing_text">Galwad ar y gweill</string>
     <string name="call_notification_screening_text">Yn sgrinio galwad i mewn</string>
     <string name="default_notification_channel_label">Heb ei gategoreiddio</string>
+    <string name="recs_notification_channel_label">Awgrymiadau</string>
     <string name="importance_from_user">Rwyt yn gosod pwysigrwydd yr hysbysiadau hyn.</string>
     <string name="importance_from_person">Mae hyn yn bwysig oherwydd y bobol sy\'n cymryd rhan.</string>
     <string name="notification_history_title_placeholder">Hysbysiadau apiau cyfaddas</string>
@@ -2403,7 +2373,7 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="accessibility_system_action_notifications_label">Hysbysiadau</string>
     <string name="accessibility_system_action_quick_settings_label">Gosodiadau Cyflym</string>
     <string name="accessibility_system_action_power_dialog_label">Deialog Pŵer</string>
-    <string name="accessibility_system_action_lock_screen_label">Cloi\'r Sgrin</string>
+    <string name="accessibility_system_action_lock_screen_label">Cloi\u2019r Sgrin</string>
     <string name="accessibility_system_action_screenshot_label">Sgrinlun</string>
     <string name="accessibility_system_action_headset_hook_label">Bachyn Penset</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_label">Llwybr Byr Hygyrchedd Ar y Sgrin</string>
@@ -2415,19 +2385,9 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="accessibility_system_action_dpad_left_label">PadD Chwith</string>
     <string name="accessibility_system_action_dpad_right_label">PadD Dde</string>
     <string name="accessibility_system_action_dpad_center_label">PadD Canol</string>
-    <string name="accessibility_autoclick_type_settings_panel_title">Panel gosodiadau fel awtoglic</string>
-    <string name="accessibility_autoclick_left_click">Clic chwith</string>
-    <string name="accessibility_autoclick_right_click">Clic de</string>
-    <string name="accessibility_autoclick_double_click">Clic dwbl</string>
     <string name="accessibility_autoclick_drag">Llusgo</string>
     <string name="accessibility_autoclick_scroll">Sgrolio</string>
     <string name="accessibility_autoclick_pause">Saib</string>
-    <string name="accessibility_autoclick_position">Safle</string>
-    <string name="accessibility_autoclick_scroll_up">Sgrolio i fyny</string>
-    <string name="accessibility_autoclick_scroll_down">Sgrolio i lawr</string>
-    <string name="accessibility_autoclick_scroll_left">Sgrolio i\'r chwith</string>
-    <string name="accessibility_autoclick_scroll_right">Sgrolio i\'r dde</string>
-    <string name="accessibility_autoclick_scroll_exit">Gadael Modd Sgrolio</string>
     <string name="accessibility_autoclick_scroll_panel_title">Panel Sgrolio</string>
     <string name="as_app_forced_to_restricted_bucket"><xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> has been put into the RESTRICTED bucket</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
@@ -2644,7 +2604,6 @@ yn llwyddiannus.</string>
     <string name="accessibility_label_communal_profile">Cymunedol</string>
     <string name="satellite_notification_title">Awto-gysylltu i lloeren</string>
     <string name="satellite_notification_summary">Gallit anfon a derbyn negeseuon heb rwydwaith symudol na Wi-Fi</string>
-    <string name="satellite_notification_summary_with_data">Gallit anfon a derbyn negeseuon a defnyddio data cyfyngedig trwy loeren</string>
     <string name="satellite_notification_open_message">Agor Negeseuon</string>
     <string name="satellite_notification_how_it_works">Sut mae\u2019n gweithio</string>
     <string name="satellite_manual_selection_state_popup_ok">Troi ymlaen</string>
@@ -2653,10 +2612,8 @@ yn llwyddiannus.</string>
     <string name="keyboard_shortcut_group_applications_contacts">Cysylltiadau</string>
     <string name="keyboard_shortcut_group_applications_sms">SMS</string>
     <string name="keyboard_shortcut_group_applications_calendar">Calendr</string>
-    <string name="usb_apm_usb_plugged_in_when_locked_notification_title">Dyfais USB wedi\u2019i gysylltu tra wedi cloi</string>
-    <string name="usb_apm_usb_plugged_in_when_locked_notification_text">Cysylltwyd dyfais USB tra bod Android wedi cloi. I ddefnyddio\u2019r ddyfais, datglo Android yn gyntaf ac yna ailgysylltu\u2019r ddyfais USB i\u2019w defnyddio.</string>
+    <string name="keyboard_shortcut_group_applications_files">Ffeiliau</string>
     <string name="usb_apm_usb_suspicious_activity_notification_title">Gweithred USB amheus</string>
-    <string name="usb_apm_usb_suspicious_activity_notification_text">Analluogwyd signal data USB.</string>
     <string name="fingerprint_frr_notification_title">Yn cael trafferth gyda Datgloi ag Ôl Bys?</string>
     <string name="fingerprint_frr_notification_msg">Tapia i adolygu tipiau i wella dy brofiad datgloi</string>
 </resources>

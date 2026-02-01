@@ -268,6 +268,10 @@
         <item>Mëttel</item>
         <item>Laang</item>
     </string-array>
+    <string-array name="ethernet_ip_settings">
+        <item>DHCP</item>
+        <item>Statesch</item>
+    </string-array>
     <string-array name="captioning_typeface_selector_titles">
         <item>Standard</item>
         <item>Ouni Serifen</item>
@@ -393,5 +397,13 @@
         <item>Ni</item>
         <item>After 1 minute</item>
         <item>After 5 minutes</item>
+    </string-array>
+    <string-array name="action_corner_action_titles">
+        <item>Keen</item>
+        <item>Home</item>
+        <item>Recent apps</item>
+        <item>Notifications</item>
+        <item>Quick settings</item>
+        <item>Lockscreen</item>
     </string-array>
 </resources>

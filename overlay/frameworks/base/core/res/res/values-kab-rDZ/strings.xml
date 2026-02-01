@@ -140,8 +140,6 @@
     <string name="notification_channel_accessibility_magnification">Asemɣer</string>
     <string name="safeMode">Askar aɣelsan</string>
     <string name="android_system_label">Anagraw Android</string>
-    <string name="permgrouplab_contacts">Inermisen</string>
-    <string name="permgroupdesc_contacts">Kcem ɣer inermisen-ik</string>
     <string name="permgrouplab_location">Adig</string>
     <string name="permgrouplab_calendar">Awitay</string>
     <string name="permgroupdesc_calendar">kcem ɣer umitay</string>
@@ -503,6 +501,7 @@
     <string name="call_notification_answer_video_action">Tavidyut</string>
     <string name="call_notification_decline_action">Agwi</string>
     <string name="default_notification_channel_label">War-taggayt</string>
+    <string name="recs_notification_channel_label">Asumer</string>
     <string name="language_selection_title">Rnu tutlayt</string>
     <string name="language_picker_section_suggested">Asumer</string>
     <string name="language_picker_regions_section_suggested">Asumer</string>
@@ -591,4 +590,5 @@
     <string name="keyboard_shortcut_group_applications_contacts">Inermisen</string>
     <string name="keyboard_shortcut_group_applications_sms">SMS</string>
     <string name="keyboard_shortcut_group_applications_calendar">Awitay</string>
+    <string name="keyboard_shortcut_group_applications_files">Ifuyla</string>
 </resources>

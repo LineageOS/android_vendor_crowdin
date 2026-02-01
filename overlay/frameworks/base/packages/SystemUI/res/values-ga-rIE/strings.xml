@@ -35,6 +35,9 @@
     <string name="screenrecord_stop_dialog_message">Tá do scáileán iomlán á thaifeadadh agat faoi láthair</string>
     <string name="screenrecord_stop_dialog_message_specific_app">Tá tú ag taifeadadh <xliff:g id="app_name" example="Photos App">%1$s</xliff:g> faoi láthair</string>
     <string name="screenrecord_stop_dialog_button">Stop taifeadadh</string>
+    <string name="screen_capture_fullscreen_record_button">Taifead an scáileán iomlán</string>
+    <string name="screen_capture_toolbar_fullscreen_button_record_a11y">Taifead an scáileán iomlán</string>
+    <string name="screen_share_privacy_indicator_stop_sharing">Stop a roinnt</string>
     <string name="share_to_app_chip_accessibility_label">Scáileán a roinnt</string>
     <string name="share_to_app_chip_accessibility_label_generic">Ábhar a roinnt</string>
     <string name="share_to_app_stop_dialog_title">An bhfuil fonn ort an scáileán a roinnt?</string>
@@ -77,6 +80,7 @@
     <string name="quick_settings_bluetooth_audio_sharing_dialog_subtitle"><xliff:g id="available_device_name" example="device 1">%1$s</xliff:g> agus <xliff:g id="active_device_name" example="device 2">%2$s</xliff:g></string>
     <string name="quick_settings_bluetooth_audio_sharing_dialog_switch_to_button">Athraigh go <xliff:g id="available_device_name" example="device 1">%1$s</xliff:g></string>
     <string name="quick_settings_brightness_unable_adjust_msg">Ní féidir an gile a choigeartú mar go bhfuil sé á rialú ag an aip is fearr</string>
+    <string name="flashlight_dialog_turn_off">Múch</string>
     <string name="qs_record_issue_bug_report">Tuairisc ar fhabht</string>
     <string name="thermal">Teirmeach</string>
     <string name="custom">Saincheaptha</string>
@@ -93,7 +97,6 @@
         <item>Micreafón cabhrach éisteachta</item>
         <item>Micreafón an ghutháin seo</item>
     </string-array>
-    <string name="hearing_devices_spinner_item_selected">Roghnaithe</string>
     <string name="hearing_devices_ambient_label">Timpeallacht</string>
     <string name="hearing_devices_ambient_control_description">Timpeallacht</string>
     <string name="hearing_devices_ambient_control_left_description">Timpeallacht ar chlé</string>
@@ -122,7 +125,6 @@
     <string name="unlock_reason_to_customize_widgets">Díghlasáil chun giuirléidí a shaincheapadh</string>
     <string name="icon_description_for_pending_widget">Deilbhín aipe le haghaidh giuirléid atá á shuiteáil</string>
     <string name="label_for_button_in_empty_state_cta">Cuir giuirléidí leis</string>
-    <string name="title_for_empty_state_cta">Faigh rochtain thapa ar na giuirléidí aipe is fearr leat gan do tháibléad a dhíghlasáil.</string>
     <string name="dialog_title_to_allow_any_widget">Ceadaigh aon ghiuirléid ar an scáileán glas?</string>
     <string name="work_mode_off_title">An bhfuil fonn ort feidhmchláir oibre a chur ar sos?</string>
     <string name="work_mode_turn_on">Ná sos</string>
@@ -132,14 +134,12 @@
     <string name="accessibility_action_label_remove_widget">bain ghiuirléid</string>
     <string name="accessibility_action_label_place_widget">áit ghiuirléid roghnaithe</string>
     <string name="communal_widget_picker_title">Glasáil giuirléidí scáileáin</string>
-    <string name="communal_widget_picker_description">Is féidir le duine ar bith giuirléidí a fheiceáil ar do scáileán glas, fiú má tá do táibléad glasáilte.</string>
     <string name="accessibility_action_label_unselect_widget">díroghnaigh giuirléid</string>
     <string name="accessibility_action_label_shrink_widget">Laghdú ar airde</string>
     <string name="accessibility_action_label_expand_widget">Méadú ar airde</string>
     <string name="accessibility_action_label_umo_show_next">Taispeáin seo chugainn</string>
     <string name="accessibility_action_label_umo_show_previous">Taispeáin roimhe seo</string>
     <string name="communal_widgets_disclaimer_title">Glasáil giuirléidí scáileáin</string>
-    <string name="communal_widgets_disclaimer_text">Chun aipeanna oscailt ag úsáid ghiuirléid, beidh ort a dhearbhú gurb é tú. Cuimhnigh freisin go bhfuil sé indéanta do dhuine ar bith iad a fheiceáil, fiú nuair atá do chlárlán á gcosaint. Ní b\'fhéidir go raibh roinnt ghiuirléid á bholadh le haghaidh do scáileán glas agus b\'fhéidir nach mbeadh sé sábháilte iad a chur anseo.</string>
     <string name="accessibility_glanceable_hub_to_dream_button">Taispeáin an cnaipe spárálaíscáileáin</string>
     <string name="hub_onboarding_bottom_sheet_title">Mód mol iniúchadh</string>
     <string name="hub_onboarding_bottom_sheet_text">Rochtain ar do ghiuirléidí agus do scáileáin is fearr leat agus tú ag muirearú.</string>
@@ -177,8 +177,6 @@
     <string name="adaptive_notification_edu_hun_title">Tá fuarú fógraí ar siúl anois</string>
     <string name="adaptive_notification_edu_hun_text">Laghdaítear toirt agus foláirimh do ghléis go huathoibríoch ar feadh suas le 2 nóiméad nuair a fhaigheann tú an iomarca fógraí ag an am céanna.</string>
     <string name="go_to_adaptive_notification_settings">Múch</string>
-    <string name="kg_prompt_after_adaptive_auth_lock">Cuireadh an gléas faoi ghlas, an iomarca iarrachtaí fíordheimhnithe</string>
-    <string name="keyguard_indication_after_adaptive_auth_lock">Gléas glasáilte\nNíor éirigh leis an bhfíordheimhniú</string>
     <string name="stream_alarm_unavailable">Níl sé ar fáil toisc go bhfuil Don\'t Disturb ar siúl</string>
     <string name="stream_media_unavailable">Níl sé ar fáil toisc go bhfuil Ná Cuir isteach ar siúl</string>
     <string name="stream_unavailable_by_modes">Níl sé ar fáil toisc go bhfuil <xliff:g id="mode" example="Bedtime">%s</xliff:g> ar siúl</string>
@@ -208,10 +206,8 @@
     <string name="inline_turn_off_notifications">Múch</string>
     <string name="notification_conversation_summary_low">Gan fuaim ná creathadh ach tá sé fós le feiceáil sa rannán comhrá</string>
     <string name="notification_guts_bundle_feedback">Aiseolas</string>
-    <string name="notification_inline_disable_promotion">Ná taispeáin mar atá bioráilte</string>
+    <string name="notification_inline_disable_promotion">Múch</string>
     <string name="notification_inline_disable_promotion_button">Blocáil Nuashonruithe Beo ón aip seo</string>
-    <string name="live_notifications_title">Nuashonruithe Beo á dtaispeáint</string>
-    <string name="live_notifications_desc">Taispeánann fógraí bioráilte faisnéis bheo ó aipeanna, agus feictear iad i gcónaí ar an mbarra stádais agus ar an scáileán glasála</string>
     <string name="keyboard_key_esc">Éalú</string>
     <string name="group_system_access_google_assistant">Oscail cúntóir digiteach</string>
     <string name="keyboard_shortcut_group_system_multitasking">Iltascáil</string>
@@ -239,7 +235,6 @@
     <string name="accessibility_qs_edit_toggle_tile_size_action">athrú méid an tíle</string>
     <string name="accessibility_qs_edit_toggle_placement_mode">mód socrúcháin a athrú</string>
     <string name="accessibility_qs_edit_toggle_selection">rogha a scoránaigh</string>
-    <string name="accessibility_qs_edit_tile_add_action">cuir tíl leis an suíomh deireanach</string>
     <string name="accessibility_qs_edit_tile_start_add">Cuir tíleanna leis an suíomh atá uait</string>
     <string name="accessibilit_qs_edit_tile_add_move_invalid_position">Seasamh neamhbhailí</string>
     <string name="accessibility_qs_edit_tile_already_added">Tíl curtha leis cheana féin</string>
@@ -248,6 +243,8 @@
     <string name="media_output_dialog_button_connect_device">Ceangail Gléas</string>
     <string name="media_output_group_title_connected_speakers">Cainteoirí ceangailte</string>
     <string name="media_output_group_title">Aschur</string>
+    <string name="media_output_dialog_button_stop_sharing">Stop a roinnt</string>
+    <string name="media_output_dialog_button_share_audio">Comhroinn fuaime</string>
     <string name="copy_to_clipboard_a11y_action">cóip chuig an ngearrthaisce.</string>
     <string name="accessibility_side_fingerprint_indicator_label">Déan teagmháil leis an braiteoir méarloirg. Tá an cnaipe níos giorra aige ar thaobh an ghutháin</string>
     <string name="resume_animation">Beochan atosú</string>
@@ -291,11 +288,9 @@
     <string name="shortcut_helper_add_shortcut_button_label">Cuir aicearra leis</string>
     <string name="shortcut_helper_delete_shortcut_button_label">Scrios aicearra</string>
     <string name="launch_keyboard_tutorial_notification_title">Déan nascleanúint ag baint úsáide as do mhéarchlár</string>
-    <string name="launch_keyboard_tutorial_notification_content">Foghlaim aicearraí méarchláir</string>
     <string name="launch_touchpad_tutorial_notification_title">Déan nascleanúint ag baint úsáide as do touchpad</string>
     <string name="launch_touchpad_tutorial_notification_content">Foghlaim gothaí touchpad</string>
     <string name="launch_keyboard_touchpad_tutorial_notification_title">Déan nascleanúint ag baint úsáide as do mhéarchlár agus touchpad</string>
-    <string name="launch_keyboard_touchpad_tutorial_notification_content">Foghlaim gothaí touchpad, aicearraí méarchláir, agus go leor eile</string>
     <string name="touchpad_tutorial_home_gesture_button">Téigh abhaile</string>
     <string name="touchpad_tutorial_switch_apps_gesture_button">Athraigh aipeanna</string>
     <string name="gesture_error_title">Bain triail eile as!</string>
@@ -327,8 +322,7 @@
     <string name="home_edu_toast_content">Chun dul abhaile, sleamhnaigh suas le trí mhéár ar an dteachtphaid.</string>
     <string name="overview_edu_toast_content">Chun na haipinne déanaí a fheiceáil, sleamhnaigh suas agus coinnigh le trí mhéár ar an dteachtphaid.</string>
     <string name="all_apps_edu_toast_content">Chun d’aipeanna go léir a fheiceáil, brúigh an eochair ghnímh ar do mhéarchlár</string>
-    <string name="redacted_notification_single_line_title">Leasaithe</string>
-    <string name="public_notification_single_line_text">Díghlasáil chun féachaint air</string>
+    <string name="public_notification_single_line_title">Díghlasáil chun féachaint air</string>
     <string name="redacted_otp_notification_single_line_text">Díghlasáil chun an cód a fheiceáil</string>
     <string name="contextual_education_dialog_title">Oideachas comhthéacsúil</string>
     <string name="back_edu_notification_title">Bain úsáid as do touchpad chun dul ar ais</string>
@@ -351,8 +345,6 @@
     <string name="qs_edit_mode_category_utilities">        Fóntais
     </string>
     <string name="qs_edit_mode_category_privacy">        Príobháideacht
-    </string>
-    <string name="qs_edit_mode_category_providedByApps">        Arna chur ar fáil ag aipeanna
     </string>
     <string name="qs_edit_mode_category_display">        Taispeáin
     </string>

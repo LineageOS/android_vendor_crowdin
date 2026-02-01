@@ -18,6 +18,9 @@
     <string name="theme_title">Stoidhle</string>
     <string name="clock_style">Stoidhle</string>
     <string name="clock_color">Dath</string>
+    <string name="app_icons_style_default">Bun-roghainn</string>
+    <string name="app_icons_shape">Cruth</string>
+    <string name="app_icons_style">Stoidhle</string>
     <string name="apply_theme_btn">Cuir an sàs</string>
     <string name="edit_custom_theme_lbl">Thoir gnogag gus a dheasachadh</string>
     <string name="keep_my_wallpaper">Cùm am pàipear-balla làithreach</string>

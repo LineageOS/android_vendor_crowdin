@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_description">Inserta sa crae e sighi cun Atualizatziones de su sistema dinàmicu</string>
+    <string name="notification_install_completed">Su sistema dinàmicu est prontu. Pro cumintzare a dd\'impreare, torra a aviare su dispositivu.</string>
+    <string name="notification_install_inprogress">Installatzione in cursu</string>
+    <string name="notification_install_failed">Errore in s\'installatzione</string>
+    <string name="notification_image_validation_failed">Errore in sa verìfica de s\'immàgine. Firma s\'installatzione.</string>
+    <string name="notification_dynsystem_in_use">Ses esecutende unu sistema dinàmicu. Torra a aviare pro impreare sa versione originale de Android.</string>
+    <string name="notification_action_cancel">Annulla</string>
+    <string name="notification_action_discard">Iscarta</string>
+    <string name="notification_action_reboot_to_dynsystem">Torra a aviare</string>
+    <string name="notification_action_reboot_to_origin">Torra a aviare</string>
+    <string name="toast_dynsystem_discarded">Sistema dinàmicu iscartadu</string>
+    <string name="toast_failed_to_reboot_to_dynsystem">Non faghet a torrare a aviare o carrigare su sistema dinàmicu</string>
+    <string name="toast_failed_to_disable_dynsystem">Non faghet a disativare su sistema dinàmicu</string>
+</resources>

@@ -25,22 +25,28 @@
         <item quantity="many">Tá <xliff:g id="number">%d</xliff:g> iarrachtaí fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
         <item quantity="other">Tá <xliff:g id="number">%d</xliff:g> iarrachtaí fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
     </plurals>
-    <string name="page_size_compat_apk_warning">Níl an aip seo comhoiriúnach 16 KB. Theip ar sheiceáil ailíniú APK.
-        Reáchtálfar an aip seo trí úsáid a bhaint as mód atá comhoiriúnach do mhéid an leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, cuir an feidhmchlár le chéile arís le tacaíocht 16 KB.
-        Le haghaidh tuilleadh faisnéise, féach &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt; </string>
-    <string name="page_size_compat_elf_warning">Níl an aip seo comhoiriúnach 16 KB. Theip ar sheiceáil ailínithe ELF.
-        Reáchtálfar an aip seo trí úsáid a bhaint as mód atá comhoiriúnach do mhéid an leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, cuir an feidhmchlár le chéile arís le tacaíocht 16 KB.
-        Le haghaidh tuilleadh faisnéise, féach &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
-    <string name="page_size_compat_apk_and_elf_warning">Níl an aip seo comhoiriúnach 16 KB. Theip ar sheiceálacha ailínithe APK agus ELF.
-        Reáchtálfar an aip seo trí úsáid a bhaint as mód atá comhoiriúnach do mhéid an leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, cuir an feidhmchlár le chéile arís le tacaíocht 16 KB.
-        Le haghaidh tuilleadh faisnéise, féach &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
+    <string name="page_size_compat_apk_warning">Níl an aip seo comhoiriúnach le 16 KB. Theip ar an seiceáil ailínithe APK.
+        Rithfear an aip seo ag baint úsáide as mód comhoiriúnachta méid leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, athchóimeáil an feidhmchlár le tacaíocht 16 KB.
+        Le haghaidh tuilleadh eolais, féach &lt;a href="https://developer.android.com/16kb-page-size"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;
+        &lt;br&gt;&lt;br&gt;
+        Níl na leabharlanna seo a leanas ailínithe le 16 KB:
+        &lt;br&gt;&gt;&lt;br&gt;
+    </string>
+    <string name="page_size_compat_never_show"> Ná Taispeáin Arís</string>
+    <string name="page_size_compat_title">Comhoiriúnacht Aipeanna Android</string>
+    <string name="page_size_compat_elf_not_aligned">&amp;#8226; %1$s : Níl an deighleog LOAD ailínithe&lt;br&gt;</string>
+    <string name="page_size_compat_apk_not_aligned">&amp;#8226; %1$s : Níl an leabharlann neamh-chomhbhrúite ailínithe&lt;br&gt;</string>
+    <string name="page_size_compat_apk_and_elf_not_aligned">&amp;#8226; %1$s : Níl an deighleog LOAD agus an leabharlann neamh-chomhbhrúite ailínithe&lt;br&gt;</string>
+    <string name="page_size_compat_unknown">&amp;#8226; %1$s : Earráid anaithnid</string>
     <string name="emergency_calling_do_not_show_again">Ná Taispeáin Arís</string>
     <string name="EmergencyCallWarningSummary">Éilíonn líonra soghluaiste ó ghlaonna</string>
     <string name="scCellularNetworkSecurityTitle">Slándáil líonra soghlu</string>
     <string name="scCellularNetworkSecuritySummary">Criptiú, fógraí do líonraí neamhcriptithe</string>
     <string name="scIdentifierDisclosureIssueTitle">Aitheantas Gléas rochtaithe</string>
-    <string name="scIdentifierDisclosureIssueSummaryNotification">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantas uathúil do ghléis (IMSI nó IMEI) agus do<xliff:g id="disclosure_network">%2$s</xliff:g> SIM</string>
-    <string name="scIdentifierDisclosureIssueSummary">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantas uathúil do ghléis (IMSI nó IMEI) agus do <xliff:g id="disclosure_network">%2$s</xliff:g> SIM.\n\nCiallaíonn sé seo go bhfuil do shuíomh, do ghníomhaíocht nó d\'aitheantas logáilte. Is cleachtas coitianta é seo ach d’fhéadfadh sé a bheith ina cheist do dhaoine atá buartha faoi phríobháideachas.</string>
+    <string name="scIDIssueSummaryNotificationWithCellularID">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantóir uathúil do ghléis (<xliff:g id="cellular_identifier">%2$s</xliff:g>) agus do <xliff:g id="disclosure_network">%3$s</xliff:g> SIM á úsáid agat.</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantas uathúil do ghléis agus do <xliff:g id="disclosure_network">%3$s</xliff:g> SIM á úsáid agat.</string>
+    <string name="scIDIssueSummaryWithCellularID">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantas uathúil do ghléis (<xliff:g id="cellular_identifier">%2$s</xliff:g>) agus do SIM <xliff:g id="disclosure_network">%3$s</xliff:g> á úsáid agat.\n\nCiallaíonn sé seo gur logáladh do shuíomh, do ghníomhaíocht nó d\'aitheantas. Is cleachtas coitianta é seo ach d\'fhéadfadh sé a bheith ina fhadhb do dhaoine atá buartha faoi phríobháideacht.</string>
+    <string name="scIdentifierDisclosureIssueSummary">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantas uathúil do ghléis agus do SIM <xliff:g id="disclosure_network">%3$s</xliff:g> á úsáid agat.\n\nCiallaíonn sé seo gur logáladh do shuíomh, do ghníomhaíocht nó d\'aitheantas. Is cleachtas coitianta é seo ach d\'fhéadfadh sé a bheith ina fhadhb do dhaoine atá buartha faoi phríobháideacht.</string>
     <string name="scNullCipherIssueEncryptedTitle">Ceangailte le líonra criptithe <xliff:g id="network_name">%1$s</xliff:g></string>
     <string name="scNullCipherIssueEncryptedSummary"><xliff:g id="network_name">%1$s</xliff:g> Tá ceangal SIM níos sláine anois</string>
     <string name="scNullCipherIssueNonEncryptedTitle">Ceangailte le líonra gan chriptiú</string>
@@ -50,59 +56,16 @@
     <string name="private_space_deleted_by_admin">Spás príobháideach bainte</string>
     <string name="private_space_deleted_by_admin_details">Ní cheadaíonn d\'eagraíocht spásanna príobháideacha ar an bhfeiste bainistithe seo.</string>
     <string name="global_action_standby">Fuireachas</string>
+    <string name="global_action_unrestricted_lock">Glasáil</string>
     <string name="notification_channel_system_time">Am agus criosanna ama</string>
     <string name="notification_channel_accessibility_hearing_device">Gléas éisteachta</string>
-    <string name="permgrouplab_xr_tracking">Sonraí rianaithe XR</string>
-    <string name="permgroupdesc_xr_tracking">rochtain a fháil ar shonraí XR fút féin agus ar an timpeallacht mórthimpeall ort</string>
-    <string name="permgrouplab_xr_tracking_sensitive">sonraí rianaithe XR íogaire</string>
-    <string name="permgroupdesc_xr_tracking_sensitive">rochtain a fháil ar shonraí rianaithe íogaire, amhail breathnú súl</string>
     <string name="dream_accessibility_action_click">dhíbhe</string>
     <string name="permlab_ranging">suíomh coibhneasta idir feistí in aice láimhe a chinneadh</string>
     <string name="permdesc_ranging">Lig don aip suíomh coibhneasta idir gléasanna in aice láimhe a chinneadh</string>
-    <string name="permlab_eye_tracking_coarse">rianú do shúile garbha</string>
-    <string name="permdesc_eye_tracking_coarse">Ligeann sé don aip do shúil gharbh a rianú.</string>
-    <string name="permlab_eye_tracking_fine">rianaigh an áit a bhfuil tú ag féachaint</string>
-    <string name="permdesc_eye_tracking_fine">Ligeann sé don aip rochtain a fháil ar shonraí beachta súl.</string>
-    <string name="permlab_face_tracking">rianaigh d’aghaidh</string>
-    <string name="permdesc_face_tracking">Ceadaíonn sé don aip rochtain a fháil ar shonraí rianaithe aghaidhe.</string>
-    <string name="permlab_hand_tracking">rianú do lámha</string>
-    <string name="permdesc_hand_tracking">Ceadaíonn sé don aip rochtain a fháil ar shonraí rianaithe láimhe.</string>
-    <string name="permlab_head_tracking">rianaigh do cheann</string>
-    <string name="permdesc_head_tracking">Ceadaíonn sé don aip rochtain a fháil ar shonraí rianaithe cinn.</string>
-    <string name="permlab_scene_understanding_coarse">tuiscint a fháil ar do thimpeallacht láithreach</string>
-    <string name="permdesc_scene_understanding_coarse">Ligeann sé don aip rochtain a fháil ar shonraí rianaithe faoin timpeallacht thart timpeall ort go díreach.</string>
-    <string name="permlab_scene_understanding_fine">tuiscint a fháil ar do thimpeallacht láithreach go mion</string>
-    <string name="permdesc_scene_understanding_fine">Ligeann sé don aip rochtain a fháil ar shonraí rianaithe faoin timpeallacht thart timpeall ort go díreach le mionsonraí an-ard.</string>
-    <string name="permlab_xr_tracking_in_background">rochtain a fháil ar shonraí XR agus gan a bheith sa tulra</string>
-    <string name="permdesc_xr_tracking_in_background">Ceadaíonn sé seo don aip rochtain a fháil ar shonraí XR agus iad gan a bheith sa tulra.</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Ní aithnítear aghaidh. Úsáid méarlorg ina ionad.</string>
-    <string name="duration_minutes_shortest_past">        <xliff:g id="count">%d</xliff:g>n ó shin
-    </string>
-    <string name="duration_hours_shortest_past">        <xliff:g id="count">%d</xliff:g>u ó shin
-    </string>
-    <string name="duration_days_shortest_past">        <xliff:g example="1" id="count">%d</xliff:g>lá ó shin
-    </string>
-    <string name="duration_years_shortest_past">        <xliff:g id="count">%d</xliff:g>b ó shin
-    </string>
     <string name="duration_minutes_medium">        <xliff:g id="count">%d</xliff:g>nóim
     </string>
     <string name="duration_hours_medium">        <xliff:g id="count">%d</xliff:g>uair
-    </string>
-    <string name="duration_years_medium">        <xliff:g id="count">%d</xliff:g>bl
-    </string>
-    <string name="duration_minutes_medium_future">        i <xliff:g id="count">%d</xliff:g>nóim
-    </string>
-    <string name="duration_hours_medium_future">        i <xliff:g id="count">%d</xliff:g>uair
-    </string>
-    <string name="duration_years_medium_future">        i <xliff:g id="count">%d</xliff:g>bl
-    </string>
-    <string name="duration_minutes_medium_past">        <xliff:g id="count">%d</xliff:g>nóim ó shin
-    </string>
-    <string name="duration_hours_medium_past">        <xliff:g id="count">%d</xliff:g>uair ó shin
-    </string>
-    <string name="duration_days_medium_past">        <xliff:g example="1" id="count">%d</xliff:g>lá ó shin
-    </string>
-    <string name="duration_years_medium_past">        <xliff:g id="count">%d</xliff:g>bliain ó shin
     </string>
     <string name="error_handwriting_unsupported">Ní thacaítear le lámhscríbhneoireacht sa réimse seo</string>
     <string name="error_handwriting_unsupported_password">Ní thacaítear le lámhscríbhinn i réimsí pasfhocal</string>
@@ -115,7 +78,6 @@
     <string name="accessibility_edit_shortcut_menu_volume_title">Roghnaigh gnéithe le húsáid leis an
         aicearra eochracha toirte
     </string>
-    <string name="autoclick_feature_name">Uathchliceáil</string>
     <string name="hearing_device_status_disconnected">Dícheangailte</string>
     <string name="hearing_device_status_connected">Ceangailte</string>
     <string name="hearing_device_status_active">Gníomhach</string>
@@ -141,7 +103,6 @@
     <string name="promotional_notification_channel_label">Arduithe Céime</string>
     <string name="social_notification_channel_label">Sóisialta</string>
     <string name="news_notification_channel_label">Nuacht</string>
-    <string name="recs_notification_channel_label">Moltaí</string>
     <string name="private_space_set_up_screen_lock_for_reset">Chun spás príobháideach a scriosadh, socraigh glas scáileáin ar an ngléas seo</string>
     <string name="shortcut_group_a11y_title">Spriocanna scaireanna díreacha</string>
     <string name="suggested_apps_group_a11y_title">Moltaí aipeanna</string>
@@ -150,18 +111,8 @@
     <string name="dynamic_mode_notification_summary_v2">Cuirtear Coigilt Ceallraí ar siúl chun saol na ceallraí a leathnú</string>
     <string name="accessibility_system_action_menu_label">Roghchlár</string>
     <string name="accessibility_system_action_media_play_pause_label">Meáin Seinn/Sos</string>
-    <string name="accessibility_autoclick_type_settings_panel_title">Painéal socruithe cineál uathoibríoch-chliceála</string>
-    <string name="accessibility_autoclick_left_click">Cliceáil ar chlé</string>
-    <string name="accessibility_autoclick_right_click">Cliceáil ar dheis</string>
-    <string name="accessibility_autoclick_double_click">Cliceáil faoi dhó</string>
     <string name="accessibility_autoclick_drag">Tarraing</string>
     <string name="accessibility_autoclick_scroll">Scrollaigh</string>
-    <string name="accessibility_autoclick_position">Seasamh</string>
-    <string name="accessibility_autoclick_scroll_up">Scrollaigh Suas</string>
-    <string name="accessibility_autoclick_scroll_down">Scrollaigh Síos</string>
-    <string name="accessibility_autoclick_scroll_left">Scrollaigh ar Chlé</string>
-    <string name="accessibility_autoclick_scroll_right">Scrollaigh ar dheis</string>
-    <string name="accessibility_autoclick_scroll_exit">Scoir Mód Scrollaigh</string>
     <string name="accessibility_autoclick_scroll_panel_title">Painéal Scrollaigh</string>
     <string name="miniresolver_private_space_phone_information">"Ní féidir leat glaonna teileafóin a dhéanamh ach ó d'aip fón pearsanta. Cuirfear glaonna a dhéantar le Fón pearsanta le do stair glaonna pearsanta."</string>
     <string name="miniresolver_private_space_messages_information">"Ní féidir leat teachtaireachtaí SMS a sheoladh ach ó d'aip Teachtaireachtaí pearsanta."</string>
@@ -170,7 +121,6 @@
     <string name="private_space_biometric_prompt_title">Spás príobháideach</string>
     <string name="redacted_notification_message">Ábhar fógra íogair i bhfolach</string>
     <string name="screen_not_shared_sensitive_content">Ábhar aip i bhfolach ó scáileán le haghaidh slándála</string>
-    <string name="satellite_notification_summary_with_data">Is féidir leat teachtaireachtaí a sheoladh agus a fháil agus sonraí teoranta a úsáid trí shatailít</string>
     <string name="satellite_notification_manual_title">Úsáid teachtaireachtaí satailíte?</string>
     <string name="satellite_notification_manual_summary">Seol agus faigh teachtaireachtaí gan líonra soghluaiste nó Wi-Fi</string>
     <string name="satellite_manual_selection_state_popup_title">Cuir \"Roghnaigh líonra go huathoibríoch\" ar siúl</string>
@@ -219,10 +169,7 @@
     <string name="keyboard_shortcut_group_applications_maps">Léarscáil</string>
     <string name="keyboard_shortcut_group_applications">Feidhmchláir</string>
     <string name="fingerprint_loe_notification_msg">Ní féidir do mhéarloirg a aithint a thuilleadh. Socraigh Díghlasáil Méarloirg arís.</string>
-    <string name="usb_apm_usb_plugged_in_when_locked_notification_title">Gléas USB breiseáilte isteach nuair atá sé faoi ghlas</string>
-    <string name="usb_apm_usb_plugged_in_when_locked_notification_text">Tá gléas USB plugáilte isteach nuair atá Android faoi ghlas. Chun an gléas a úsáid, díghlasáil Android ar dtús agus ansin cuir an gléas USB isteach arís le húsáid.</string>
     <string name="usb_apm_usb_suspicious_activity_notification_title">Gníomhaíocht USB amhrasach</string>
-    <string name="usb_apm_usb_suspicious_activity_notification_text">Tá comhartha sonraí USB díchumasaithe.</string>
     <string name="fingerprint_frr_notification_title">An bhfuil deacracht agat le Díghlasáil Méarloirg?</string>
     <string name="fingerprint_frr_notification_msg">Tapáil chun leideanna a athbhreithniú chun do thaithí díghlasála a fheabhsú</string>
 </resources>

@@ -61,14 +61,9 @@
     <string name="status_icon_display_status">Configuración de la pantalla</string>
     <string name="status_icon_debug_status">Configuración de depuración</string>
     <string name="status_icon_sound_status">Configuración del soníu</string>
-    <string name="status_icon_drive_mode">Mou de conducción</string>
     <string name="activity_blocked_text">Nun pues usar esta función mentanto conduces</string>
     <string name="exit_button_close_application">Zarrar l\'aplicación</string>
     <string name="exit_button_go_back">Atrás</string>
-    <string name="drive_mode_modes_comfort">Cómodu</string>
-    <string name="drive_mode_modes_eco">Eco</string>
-    <string name="drive_mode_modes_sport">Deportivu</string>
-    <string name="qc_drive_mode_active_subtitle">Mou activu</string>
     <string name="qc_footer_settings">Configuración</string>
     <string name="qc_footer_debug_settings">Opciones pa desendolcadores</string>
     <string name="display_input_lock_text">La pantalla ta bloquiada</string>
@@ -104,7 +99,4 @@
     <string name="back_btn">Atrás</string>
     <string name="fullscreen">Pantalla completa</string>
     <string name="data_subscription_button_text">Ver los planes</string>
-    <string name="data_subscription_proactive_msg_prompt">El to plan d\'internet caducó</string>
-    <string name="data_subscription_reactive_msg_prompt">«%s» precisa una conexón a internet</string>
-    <string name="data_subscription_reactive_generic_app_label">Esta aplicación</string>
 </resources>

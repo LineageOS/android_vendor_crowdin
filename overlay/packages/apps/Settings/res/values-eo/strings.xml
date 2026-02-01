@@ -16,6 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes">"Jes"</string>
     <string name="no">"Ne"</string>
+    <string name="edit">Redakti</string>
     <string name="device_info_default">Nekonata</string>
     <string name="header_category_system">Sistemo</string>
     <string name="radioInfo_unknown">Nekonata</string>
@@ -26,6 +27,7 @@
     <string name="locale_remove_menu">Forigi</string>
     <string name="app_locale_preference_title">Lingvo</string>
     <string name="locale_search_menu">Serĉi</string>
+    <string name="preferred_locale_menu_remove">Forigi</string>
     <string name="cancel">Nuligi</string>
     <string name="save">Konservi</string>
     <string name="add">Aldoni</string>
@@ -54,10 +56,12 @@
     <string name="bluetooth_device_context_disconnect">Malkonekti</string>
     <string name="bluetooth_key_missing_cancel">Nuligi</string>
     <string name="wifi_display_options_name">Nomo</string>
+    <string name="wifi_conflict_dialog_cancel">Nuligi</string>
     <string name="wifi_connect">Konekti</string>
     <string name="wifi_forget">Forgesi</string>
     <string name="wifi_save">Konservi</string>
     <string name="wifi_cancel">Nuligi</string>
+    <string name="ethernet_config_cancel">Nuligi</string>
     <string name="search_settings">Serĉi</string>
     <string name="screensaver_settings_summary_never">Neniam</string>
     <string name="sim_enter_cancel">Nuligi</string>
@@ -88,6 +92,7 @@
     <string name="spellchecker_quick_settings">Agordoj</string>
     <string name="spellchecker_language">Lingvo</string>
     <string name="keyboard_a11y_category">Alirebleco</string>
+    <string name="action_corner_action_notifications">Sciigoj</string>
     <string name="modifier_keys_cancel">Nuligi</string>
     <string name="user_dict_settings_add_menu_title">Aldoni</string>
     <string name="user_dict_settings_add_locale_option_name">Lingvo:</string>
@@ -140,10 +145,7 @@
     <string name="zen_mode_schedule_delete">Forigi</string>
     <string name="zen_mode_menu_delete_mode">Forigi</string>
     <string name="zen_mode_rule_name_edit">Redakti</string>
-    <string name="zen_mode_block_effect_summary_none">Neniam</string>
-    <string name="zen_mode_add">Aldoni</string>
     <string name="zen_category_apps">Aplikaĵoj</string>
-    <string name="zen_custom_settings_notifications_header">Sciigoj</string>
     <string name="configure_notification_settings">Sciigoj</string>
     <string name="bubbles_feature_disabled_button_cancel">Nuligi</string>
     <string name="notifications_title">Sciigoj</string>

@@ -61,7 +61,6 @@
     <string name="keyguard_retry">Тагын кабатлап карау өчен өскә сыпырыгыз</string>
     <string name="accessibility_multi_user_switch_switcher">Кулланучыны алыштыру</string>
     <string name="clear_all_notifications_text">Барысын чистарту</string>
-    <string name="dnd_suppressing_shade_text">«Борчымау» режимы искәртүләрне туктатты</string>
     <string name="quick_settings_disclosure_parental_controls">Җайланмагызны әти-әниегез идарә итә</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
     <string name="legacy_vpn_name">VPN</string>
@@ -82,8 +81,6 @@
     <string name="ongoing_privacy_dialog_attribution_label">(<xliff:g id="attribution_label" example="For Wallet">%s</xliff:g>)</string>
     <string name="ongoing_privacy_dialog_attribution_proxy_label">(<xliff:g id="attribution_label" example="For Wallet">%1$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Maps, and Assistant">%2$s</xliff:g>)</string>
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> / <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
-    <string name="controls_media_smartspace_rec_item_no_artist_description"><xliff:g id="app_label" example="Spotify">%2$s</xliff:g> кушымтасында <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> уйнату</string>
-    <string name="controls_media_smartspace_rec_header">Сезнең өчен</string>
     <string name="media_output_dialog_volume_percentage"><xliff:g id="percentage" example="10">%1$d</xliff:g>%%</string>
     <string name="messages_count_overflow_indicator"><xliff:g id="number" example="7">%d</xliff:g>+</string>
     <string name="new_notification_text_content_description"><xliff:g id="name" example="Anna">%1$s</xliff:g> хәбәр җибәрде: <xliff:g id="notification" example="Hey! How is your day going">%2$s</xliff:g></string>

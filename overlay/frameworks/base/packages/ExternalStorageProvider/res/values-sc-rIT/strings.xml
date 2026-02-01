@@ -15,6 +15,7 @@
 -->
 <resources>
     <string name="app_label">Archiviatzione esterna</string>
+    <string name="storage_description">Archiviatzione locale</string>
     <string name="root_internal_storage">Archiviatzione interna</string>
     <string name="root_documents">Documentos</string>
 </resources>

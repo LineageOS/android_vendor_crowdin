@@ -33,9 +33,6 @@
     <string name="taskbar_button_a11y">Accesibilidá</string>
     <string name="taskbar_button_quick_settings">Configuración rápida</string>
     <string name="taskbar_a11y_title">Barra de xeres</string>
-    <string name="taskbar_a11y_shown_with_bubbles_left_title">Barra y burbuyes na esquierda</string>
-    <string name="taskbar_a11y_shown_with_bubbles_right_title">Barra y burbuyes na derecha</string>
-    <string name="taskbar_overflow_a11y_title">Menú flotante de la barra de xeres</string>
     <string name="quick_switch_overflow">{count, plural,
             one {}=1{aplicación más}
             other{aplicaciones más}

@@ -296,8 +296,6 @@
     <string name="android_system_label">Siostam Android</string>
     <string name="user_owner_label">Geàrr leum gun phròifil phearsanta</string>
     <string name="managed_profile_label">Geàrr leum gu pròifil na h-obrach</string>
-    <string name="permgrouplab_contacts">Luchd-aithne</string>
-    <string name="permgroupdesc_contacts">an luchd-aithne agad inntrigeadh</string>
     <string name="permgrouplab_location">Ionad</string>
     <string name="permgroupdesc_location">ionad an uidheim seo inntrigeadh</string>
     <string name="permgrouplab_calendar">Mìosachan</string>
@@ -1347,7 +1345,6 @@
     <string name="share_remote_bugreport_action">CO-ROINN</string>
     <string name="decline_remote_bugreport_action">DIÙLT</string>
     <string name="select_input_method">Tagh modh ion-chuir</string>
-    <string name="show_ime">Cùm air an sgrìn e fhad ’s a bhios meur-chlàr fiosaigeach gnìomhach</string>
     <string name="select_keyboard_layout_notification_message">Thoir gnogag a thaghadh cànan is co-dhealbhachd</string>
     <string name="fast_scroll_alphabet">\u0020AÀBCDEÀFGHIÌJKLMNOÒPQRSTUÙVWXYZ</string>
     <string name="fast_scroll_numeric_alphabet">\u00200123456789AÀBCDEÈFGHIÌJKLMNOÒPQRSTUÙVWXYZ</string>
@@ -1870,6 +1867,7 @@
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Diùlt</string>
     <string name="default_notification_channel_label">Gun seòrsachadh</string>
+    <string name="recs_notification_channel_label">Na mholamaid</string>
     <string name="importance_from_user">Shuidhich thu cudromach nam brathan seo.</string>
     <string name="importance_from_person">Tha seo cudromach ri linn nan daoine a bhios ’na lùib.</string>
     <string name="notification_history_title_placeholder">Brath gnàthaichte na h-aplacaid</string>

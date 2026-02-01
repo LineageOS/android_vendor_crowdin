@@ -18,9 +18,12 @@
     <string name="wifi_p2p_dialog2_sent_title_display_pin">Connessione de su dispositivu</string>
     <string name="wifi_p2p_dialog2_sent_message">Invitu imbiadu a <xliff:g id="device_name">%1$s</xliff:g></string>
     <string name="wifi_p2p_dialog2_sent_message_display_pin">Inserta custu PIN in <xliff:g id="device_name">%1$s</xliff:g> pro ti connètere.</string>
+    <string name="wifi_p2p_dialog2_sent_title_display_password">Connessione de su dispositivu</string>
     <string name="wifi_p2p_dialog2_received_title">Connessione de su dispositivu</string>
     <string name="wifi_p2p_dialog2_received_title_enter_pin">Connessione de su dispositivu</string>
     <string name="wifi_p2p_dialog2_received_title_display_pin">Connessione de su dispositivu</string>
+    <string name="wifi_p2p_dialog2_received_title_enter_password">Connessione de su dispositivu</string>
+    <string name="wifi_p2p_dialog2_received_title_display_password">Connessione de su dispositivu</string>
     <string name="wifi_p2p_dialog2_received_message"><xliff:g id="device_name">%1$s</xliff:g> si bolet connètere a su dispositivu tuo.</string>
     <string name="wifi_p2p_dialog2_received_message_enter_pin">Inserta su PIN mustradu in <xliff:g id="device_name">%1$s</xliff:g> pro ti connètere.</string>
     <string name="wifi_p2p_dialog2_received_message_display_pin"><xliff:g id="device_name">%1$s</xliff:g> si bolet connètere a su dispositivu tuo cun custu PIN.</string>
@@ -42,4 +45,5 @@
     <string name="wifi_p2p_dialog2_received_negative_button">Annulla</string>
     <string name="wifi_p2p_dialog2_enter_pin_label">PIN</string>
     <string name="wifi_p2p_dialog2_display_pin_label">PIN</string>
+    <string name="wifi_tofu_dialog2_negative_button">Annulla</string>
 </resources>

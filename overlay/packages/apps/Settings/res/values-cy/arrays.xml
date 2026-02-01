@@ -84,9 +84,9 @@
     <string-array name="bt_stack_log_level_entries">
         <item>Geiriog</item>
         <item>Dadfygio</item>
-        <item>Info</item>
-        <item>Warn</item>
-        <item>Error</item>
+        <item>Gwybodaeth</item>
+        <item>Rhybuddio</item>
+        <item>Gwall</item>
     </string-array>
     <string-array name="bluetooth_leaudio_mode">
         <item>Analluogwyd</item>
@@ -307,6 +307,10 @@
         <item>Canolig</item>
         <item>Hir</item>
     </string-array>
+    <string-array name="ethernet_ip_settings">
+        <item>DHCP</item>
+        <item>Statig</item>
+    </string-array>
     <string-array name="captioning_typeface_selector_titles">
         <item>Rhagosodiad</item>
         <item>Sans-serif</item>
@@ -350,10 +354,6 @@
     <string-array name="accessibility_button_location_selector_titles">
         <item>Yn arnofio dros apiau eraill</item>
         <item>Bar llywio</item>
-    </string-array>
-    <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Botwm</item>
-        <item>Ystum</item>
     </string-array>
     <string-array name="accessibility_button_size_selector_titles">
         <item>lleihaf</item>
@@ -410,8 +410,12 @@
         <item>Trin fel heb ei mesur</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
-        <item>Use randomized MAC</item>
+        <item>Defnyddio MAC ar hap</item>
         <item>Defnyddio MAC y ddyfais</item>
+    </string-array>
+    <string-array name="wifi_dhcp_entries">
+        <item>Anfon enw\u2019r ddyfais i\u2019r rhwydwaith</item>
+        <item>Peidio ag anfon enw\u2109r ddyfais i\u2109r rhwydwaith</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Na</item>
@@ -487,45 +491,53 @@
         <item>Ar ôl 5 munud</item>
     </string-array>
     <string-array name="zen_mode_icon_options_descriptions">
-        <item>Briefcase</item>
-        <item>Classical building</item>
-        <item>Apartment building</item>
-        <item>Speech bubble</item>
-        <item>Group of people</item>
-        <item>Lightbulb</item>
-        <item>Calendar</item>
+        <item>Cês gwaith papur</item>
+        <item>Adeilad clasurol</item>
+        <item>Adeilad fflatiau</item>
+        <item>Swigen siarad</item>
+        <item>Grŵp o bobl</item>
+        <item>Bwlb golau</item>
+        <item>Calendr</item>
         <item>Paid â Tharfu</item>
-        <item>Person running</item>
-        <item>Golf</item>
-        <item>Gym dumbbell</item>
-        <item>Swimming</item>
-        <item>Person hiking</item>
-        <item>Person throwing ball</item>
-        <item>Person kicking</item>
-        <item>Game controller</item>
-        <item>Artist color palette</item>
-        <item>Snowflake</item>
-        <item>Beach umbrella</item>
-        <item>Workshop tools</item>
+        <item>Person yn rhedeg</item>
+        <item>Golff</item>
+        <item>Dymbel gampfa</item>
+        <item>Nofio</item>
+        <item>Person yn heicio</item>
+        <item>Person yn taflu pêl</item>
+        <item>Person yn cicio</item>
+        <item>Rheolydd gemau</item>
+        <item>Palet lliwiau artist</item>
+        <item>Pluen eira</item>
+        <item>Ymbarél traeth</item>
+        <item>Offer gweithdy</item>
         <item>Piano</item>
-        <item>Film reel</item>
-        <item>Book</item>
-        <item>Lotus flower</item>
-        <item>Person\'s mind</item>
-        <item>Headphones</item>
-        <item>TV</item>
-        <item>Train</item>
+        <item>Fîl ffilm</item>
+        <item>Llyfr</item>
+        <item>Blodn lotws</item>
+        <item>Meddwl person</item>
+        <item>Clustffonau</item>
+        <item>Teledu</item>
+        <item>Trên</item>
         <item>Car</item>
-        <item>Fork and knife</item>
-        <item>Shopping cart</item>
-        <item>Child</item>
-        <item>Animal paw</item>
-        <item>Star badge</item>
-        <item>Two people</item>
-        <item>Star</item>
-        <item>Heart</item>
-        <item>House</item>
-        <item>Half-moon</item>
-        <item>Clock</item>
+        <item>Cyllell a fforc</item>
+        <item>Troli siopa</item>
+        <item>Plentyn</item>
+        <item>Pawen anifail</item>
+        <item>Bathodyn seren</item>
+        <item>Dau berson</item>
+        <item>Seren</item>
+        <item>Calon</item>
+        <item>Tŷ</item>
+        <item>Hanner lleuad</item>
+        <item>Cloc</item>
+    </string-array>
+    <string-array name="action_corner_action_titles">
+        <item>Dim</item>
+        <item>Home</item>
+        <item>Recent apps</item>
+        <item>Notifications</item>
+        <item>Quick settings</item>
+        <item>Lockscreen</item>
     </string-array>
 </resources>

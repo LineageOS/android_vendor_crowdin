@@ -148,4 +148,22 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Ischermu de su dispositivu ebbia (predefinidu)</item>
+        <item>Ischermu esternu</item>
+        <item>Ùrtimu tocu de s\'istanga de istadu</item>
+        <item>Basadu in su focus</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Mustra s\'umbra isceti in s\'ischermu de su dispositivu </item>
+        <item>Mustra s\'umbra in s\'ischermu esternu</item>
+        <item>Mustra s\'umbra in s\'ischermu in su chi s\'istanga de istadu apat tentu s\'ùrtima interatzione</item>
+        <item>Mustra s\'umbra in s\'ischermu chi apat tentu su focus pro ùrtimu</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>ischermu_predefinidu</item>
+        <item>calesisiat_ischermu_esternu</item>
+        <item>istanga_istadu_ùrtimu_tocu</item>
+        <item>ischermu_focus</item>
+    </string-array>
 </resources>

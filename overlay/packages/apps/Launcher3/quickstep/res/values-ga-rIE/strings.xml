@@ -21,7 +21,6 @@
     <string name="recent_task_option_freeform">Saorfhoirm</string>
     <string name="recent_task_option_desktop">Deasc</string>
     <string name="recent_task_option_external_display">Bog chuig taispeáint seachtrach</string>
-    <string name="recent_task_option_close">Dún</string>
     <string name="recent_task_desktop">Deasc</string>
     <string name="recents_empty_message">Gan aon mhíreanna le déanaí</string>
     <string name="accessibility_app_usage_settings">Socruithe úsáide aipeanna</string>
@@ -44,7 +43,6 @@
     <string name="hotseat_tip_gaps_filled">Moltaí aip curtha leis an spás folamh</string>
     <string name="hotsaet_tip_prediction_enabled">Moltaí aipeanna cumasaithe</string>
     <string name="hotsaet_tip_prediction_disabled">Tá moltaí aipeanna díchumasaithe</string>
-    <string name="hotseat_prediction_content_description">Aip réamh-mheasta: <xliff:g id="title" example="Chrome">%1$s</xliff:g></string>
     <string name="gesture_tutorial_title">Rang Teagaisc Nascleanúna Gothaí</string>
     <string name="gesture_tutorial_rotation_prompt_title">Rothlaigh do ghléas</string>
     <string name="gesture_tutorial_rotation_prompt">Rothlaigh do ghléas le do thoil chun an rang teagaisc nascleanúna gothaí a chríochnú</string>
@@ -89,7 +87,6 @@
     <string name="allset_hint">Svaidhpeáil suas le dul abhaile</string>
     <string name="allset_button_hint">Beartaigh an cnaipe baile chun dul chuig do scáileán baile</string>
     <string name="allset_description_generic">Tá tú réidh le tosú ag baint úsáide as do <xliff:g id="device" example="Pixel 6">%1$s</xliff:g></string>
-    <string name="default_device_name">gléas</string>
     <string name="allset_navigation_settings"><annotation id="link">Socruithe nascleanúna córais</annotation></string>
     <string name="action_share">Comhroinn</string>
     <string name="action_screenshot">Seat scáileáin</string>
@@ -102,10 +99,6 @@
     <string name="toast_split_app_unsupported">Roghnaigh aip eile chun scáileán scoilte a úsáid</string>
     <string name="blocked_by_policy">Ní cheadaíonn an aip ná d\'eagraíocht an gníomh seo</string>
     <string name="split_widgets_not_supported">Ní thacaítear le giuirléidí faoi láthair, roghnaigh aip eile le do thoil</string>
-    <string name="skip_tutorial_dialog_title">An bhfuil tú ag iarraidh an rang teagaisc nascleanúna a scipeáil?</string>
-    <string name="skip_tutorial_dialog_subtitle">Is féidir leat é seo a fháil níos déanaí san aip <xliff:g id="name">%1$s</xliff:g></string>
-    <string name="gesture_tutorial_action_button_label_cancel">Cealaigh</string>
-    <string name="gesture_tutorial_action_button_label_skip">Scipeáil</string>
     <string name="accessibility_rotate_button">Rothlaigh an scáileán</string>
     <string name="taskbar_edu_a11y_title">Oideachas tascbharra</string>
     <string name="taskbar_edu_splitscreen">Tarraing aip ar an taobh chun 2 aip a úsáid ag an am céanna</string>
@@ -127,14 +120,10 @@
     <string name="taskbar_button_notifications">Fógraí</string>
     <string name="taskbar_button_quick_settings">Socruithe Tapa</string>
     <string name="taskbar_a11y_title">Barra tascanna</string>
-    <string name="taskbar_a11y_shown_title">Barra tascanna léirithe</string>
-    <string name="taskbar_a11y_shown_with_bubbles_left_title">Tascbharra &amp; boilgeoga ar chlé a thaispeántar</string>
-    <string name="taskbar_a11y_shown_with_bubbles_right_title">Tascbharra &amp; boilgeoga ar dheis a thaispeántar</string>
     <string name="taskbar_phone_a11y_title">Barra nascleanúna</string>
     <string name="always_show_taskbar">Taispeáin an Barra Tasc i gcónaí</string>
     <string name="change_navigation_mode">Athraigh modh nascleanúna</string>
     <string name="taskbar_divider_a11y_title">Roinnteoir an Bharra Tasc</string>
-    <string name="taskbar_overflow_a11y_title">Tascbharra Cuir thar maoil</string>
     <string name="move_drop_target_top_or_left">Bog go dtí an barr/ar chlé</string>
     <string name="move_drop_target_bottom_or_right">Bog go bun &amp; # 47;ar dheis</string>
     <string name="open_app_as_a_bubble">Oscail an aip mar bholgán</string>
@@ -166,6 +155,5 @@
     <string name="header_app_icon_description">Deilbhín aip</string>
     <string name="header_default_app_title">Teideal aip</string>
     <string name="header_close_icon_description">Cnaipe Dúnta</string>
-    <string name="pin_to_taskbar">Bioráin chuig an tascbharra</string>
-    <string name="unpin_from_taskbar">Díbhoráin ón tascbharra</string>
+    <string name="nudge_a11y_close">Dún</string>
 </resources>

@@ -19,6 +19,7 @@
     <string name="create">داهێنان</string>
     <string name="allow">ڕێگەدان</string>
     <string name="deny">نکوڵیکردن</string>
+    <string name="edit">دەستکاری</string>
     <string name="device_info_default">نەناسراو</string>
     <string name="show_dev_on">ئێستا تۆ گه‌شه‌ پێده‌ری !</string>
     <string name="show_dev_already">پێویست ناکا، پێشتر گه‌شه‌ پێده‌ری.</string>
@@ -28,7 +29,6 @@
     <string name="radioInfo_data_connected">پێكه‌وه‌به‌سترا</string>
     <string name="radioInfo_data_suspended">ڕاگیراو</string>
     <string name="radioInfo_unknown">نەناسراو</string>
-    <string name="preview_pager_content_description">دەرخستن</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_is_discoverable">دیار بۆ هه‌موو بلوتوسه‌ نزیکه‌کان (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
     <string name="bluetooth_is_discoverable_always">دیار بۆ هه‌موو بلوتوسه‌ نزیکه‌کان</string>
@@ -65,6 +65,7 @@
     <string name="locale_remove_menu">لابردن</string>
     <string name="app_locale_preference_title">زمان</string>
     <string name="locale_search_menu">گەڕان</string>
+    <string name="preferred_locale_menu_remove">لابردن</string>
     <string name="activity_picker_label">هه‌ڵبژاردنی چالاکی</string>
     <string name="cancel">لابردن</string>
     <string name="forget">لە یاد کردن</string>
@@ -89,12 +90,10 @@
     <string name="security_settings_title">پاراستن</string>
     <string name="disabled_by_administrator_summary">لەکارە نیە</string>
     <string name="security_settings_face_enroll_introduction_cancel">لابردن</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks">ئێستا نا</string>
     <string name="security_settings_face_enroll_enrolling_skip">تێپەڕاندن</string>
     <string name="security_settings_face_enroll_dialog_ok">OK</string>
     <string name="security_settings_face_enroll_done">ئه‌نجام درا</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">لابردن</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks">ئێستا نا</string>
     <string name="identity_check_biometric_error_cancel">لابردن</string>
     <string name="identity_check_biometric_error_ok">باشه‌</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">ئێستا نا</string>
@@ -149,6 +148,7 @@
     <string name="bluetooth_device_context_connect">گرێدان</string>
     <string name="bluetooth_device_context_disconnect">پچڕاندنی پەیوەندی</string>
     <string name="bluetooth_device_context_pair_connect">جووت بوون وamp; بەستنەوە</string>
+    <string name="bluetooth_connecting">په‌یوه‌ندیكردن</string>
     <string name="bluetooth_key_missing_cancel">لابردن</string>
     <string name="device_details_battery">باتری</string>
     <string name="nfc_reboot_dialog_confirm">ده‌ستپێكردنه‌وه‌</string>
@@ -196,6 +196,8 @@
     <string name="wifi_ip_settings">ڕێکبەندەکانی IP</string>
     <string name="wifi_privacy_device_name_settings">ناوی ئامێر</string>
     <string name="wifi_dpp_connecting">بەستنەوە\u2026</string>
+    <string name="wifi_conflict_dialog_confirm">دلنیاکردنەوە</string>
+    <string name="wifi_conflict_dialog_cancel">لابردن</string>
     <string name="wifi_unchanged">(نەگۆڕدراو)</string>
     <string name="wifi_scan_always_turnon_message">بۆ باشترکردنی ڕاستی و دروستی شوێن و چەند مەبەستیکی دیکە, <xliff:g id="app_name">%1$s</xliff:g> دەیهەوێت پشکنین بۆ تۆڕ هەڵبکات ، ئەگەر کاتێکیش Wi-Fi کوژاوە بێت.\n\nبەمجۆرە رێگە بەو بەرنامانە ئەدەیت کە بیانەوێ پشکنین بکەن؟</string>
     <string name="wifi_scan_always_confirm_allow">ڕێگەدان</string>
@@ -211,6 +213,10 @@
     <string name="wifi_type_title">جۆر</string>
     <string name="internet_source_wifi">Wi\u2011Fi</string>
     <string name="internet_source_ethernet">ئێته‌رنێت</string>
+    <string name="ethernet_gateway">Gateway</string>
+    <string name="ethernet_network_prefix_length">درێژی پێشگری تۆڕ</string>
+    <string name="ethernet_ip_settings">ڕێکبەندەکانی IP</string>
+    <string name="ethernet_config_cancel">لابردن</string>
     <string name="wifi_ip_settings_invalid_ip_address">ناونیشانی درووستی IP بنووسە.</string>
     <string name="wifi_ip_settings_invalid_gateway">ناونیشانی درووستی gateway بنووسە.</string>
     <string name="wifi_ip_settings_invalid_dns">ناونیشانی درووستی DNS بنووسە.</string>
@@ -251,9 +257,11 @@
     <string name="screen_timeout_summary_not_set">دانەنراوە</string>
     <string name="wallpaper_settings_title">وێنەی سەر شاشە</string>
     <string name="wallpaper_settings_fragment_title">دیوارپۆشێک هەڵبژێرە لە</string>
+    <string name="screensaver_unavailable_due_to_mode">لەکارە نیە</string>
     <string name="screensaver_settings_summary_sleep">کاتێک بارگاوی ئەکات</string>
     <string name="screensaver_settings_summary_dock">کاتێک لە تابگەیە</string>
     <string name="screensaver_settings_summary_off">ناچالاککردن</string>
+    <string name="low_light_display_behavior_summary_off">کوژاندنەوە</string>
     <string name="title_font_size">قه‌باره‌ی فۆنت</string>
     <string name="sim_pin_change">گۆڕینی تێپەڕە وشەی سیمکارت</string>
     <string name="sim_enter_pin">کۆدی سیمکارت</string>
@@ -301,7 +309,6 @@
     <string name="battery_status_title">دۆخی باتری</string>
     <string name="battery_level_title">ئاستی پاتری</string>
     <string name="when_to_show_hubmode_charging">کاتێک بارگاوی ئەکات</string>
-    <string name="when_to_show_hubmode_docked">کاتێک لە تابگەیە</string>
     <string name="apn_settings">APNs</string>
     <string name="apn_edit">دەستکاریکردنی access point</string>
     <string name="apn_not_set">دانەنراوە</string>
@@ -370,7 +377,6 @@
     <string name="settings_license_activity_unavailable">کێشەیەک هەیە لە دابەزاندنی مۆڵەتەکە.</string>
     <string name="settings_license_activity_loading">دامەزراندنی\u2026</string>
     <string name="settings_safetylegal_activity_loading">دامەزراندنی\u2026</string>
-    <string name="lockpassword_confirm_your_pattern_header">دڵنیاکردنەوەی کێشانەکەت</string>
     <string name="lockpassword_choose_lock_generic_header">هەڵبژاردنی قوفڵەکە</string>
     <string name="lockpassword_password_set_toast">تێپەڕەووشەکە دانرا</string>
     <string name="lockpassword_pin_set_toast">کۆدەکە دانرا</string>
@@ -437,7 +443,6 @@
     <string name="filter_apps_third_party">داگرتراوە</string>
     <string name="filter_apps_running">کاردەکات</string>
     <string name="installed">دامەزرێنراوە</string>
-    <string name="no_applications">بەرنامە نیە.</string>
     <string name="internal_storage">بیرگەی ناوەکی</string>
     <string name="recompute_size">دوبارە ڕێکخستنەوەی قەبارە\u2026</string>
     <string name="clear_data_dlg_title">سڕینەوەی داتای بەرنامە؟</string>
@@ -498,6 +503,7 @@
     <string name="keyboard_a11y_category">توانای ده‌ستپێگه‌شتن</string>
     <string name="physical_keyboard_title">تەختەکلیلی فیزیکی</string>
     <string name="keyboard_default_layout">بنێڕه‌ت</string>
+    <string name="trackpad_pointer_speed">خێرایی خاڵەر</string>
     <string name="pointer_stroke_style_name_white">سپی</string>
     <string name="pointer_stroke_style_name_black">ڕەش</string>
     <string name="pointer_stroke_style_name_none">هیچ</string>
@@ -505,6 +511,8 @@
     <string name="gesture_button_next">دواتر</string>
     <string name="gesture_button_restart">ده‌ستپێكردنه‌وه‌</string>
     <string name="gesture_button_done">ئه‌نجام درا</string>
+    <string name="action_corner_action_none">هیچ</string>
+    <string name="action_corner_action_notifications">ئاگادارییه‌کان</string>
     <string name="modifier_keys_default_summary">بنێڕه‌ت</string>
     <string name="modifier_keys_done">ئه‌نجام درا</string>
     <string name="modifier_keys_cancel">لابردن</string>
@@ -560,8 +568,7 @@
     <string name="accessibility_timeout_default">بنێڕه‌ت</string>
     <string name="accessibility_long_press_timeout_preference_title">دەستلێدان وamp; ڕاگرتنی بۆ دواخستن</string>
     <string name="accessibility_autoclick_medium_title">ناوه‌ندی</string>
-    <string name="accessibility_vibration_settings_state_on">چالاککردن</string>
-    <string name="accessibility_vibration_settings_state_off">کوژاندنەوە</string>
+    <string name="autoclick_cursor_area_size_dialog_option_default">بنێڕه‌ت</string>
     <string name="captioning_more_options_title">بەربژاردەی زیاتر</string>
     <string name="accessibility_hearingaid_instruction_continue_button">بەردەوامبون</string>
     <string name="accessibility_summary_shortcut_disabled">کوژاندنەوە</string>
@@ -847,6 +854,7 @@
     <string name="ringtone_title">زەنگی مۆبایل</string>
     <string name="notification_ringtone_title">دەنگی ئاگادارکردنەوەی بنەڕەت</string>
     <string name="notification_sound_default">دەنگی ئاگادارکردنەوەی بنەڕەت</string>
+    <string name="sound_audio_category_title">ده‌نگ</string>
     <string name="spatial_summary_off">کوژاندنەوە</string>
     <string name="spatial_audio_multi_toggle_off">کوژاندنەوە</string>
     <string name="zen_mode_disabled_needs_setup">دانەنراوە</string>
@@ -855,16 +863,9 @@
     <string name="zen_mode_menu_delete_mode">سڕینه‌وه‌</string>
     <string name="zen_mode_rule_name_edit">دەستکاری</string>
     <string name="mode_display_settings_title">ڕێکخستنەکانی پێشانگا</string>
-    <string name="zen_mode_no_exceptions">هیچ</string>
-    <string name="zen_mode_add">زیادکردن</string>
-    <string name="zen_mode_sound_summary_on">چالاککردن</string>
     <string name="zen_category_apps">بەرنامەکان</string>
-    <string name="zen_custom_settings_notifications_header">ئاگادارییه‌کان</string>
-    <string name="zen_custom_settings_duration_header">ماوه‌</string>
     <string name="work_sync_dialog_yes">دلنیاکردنەوە</string>
     <string name="configure_notification_settings">ئاگادارییه‌کان</string>
-    <string name="notification_summarization_on">چالاککردن</string>
-    <string name="notification_summarization_off">کوژاندنەوە</string>
     <string name="notification_summarization_manage_excluded_apps">ڕێکخستنی بەرنامەکان</string>
     <string name="bubbles_feature_disabled_button_cancel">لابردن</string>
     <string name="notifications_title">ئاگادارییه‌کان</string>
@@ -873,8 +874,6 @@
     <string name="no_notification_assistant">هیچ</string>
     <string name="notification_listener_disable_warning_cancel">لابردن</string>
     <string name="notif_type_alerting">ئاگادارییه‌کان</string>
-    <string name="notification_bundle_on">چالاککردن</string>
-    <string name="notification_bundle_off">کوژاندنەوە</string>
     <string name="interact_across_profiles_summary_allowed">پێكه‌وه‌به‌سترا</string>
     <string name="interact_across_profiles_summary_not_allowed">نەبەستراوەتەوە</string>
     <string name="interact_across_profiles_switch_enabled">پێكه‌وه‌به‌سترا</string>
@@ -928,6 +927,7 @@
     <string name="battery_saver_on_summary">چالاککردن</string>
     <string name="battery_saver_off_summary">کوژاندنەوە</string>
     <string name="bluetooth_disabled">کوژاندنەوە</string>
+    <string name="navbar_back_button">گەڕانەوە</string>
     <string name="one_handed_action_show_notification_title">نیشاندانی تێبینیەکان</string>
     <string name="gesture_setting_on">چالاککردن</string>
     <string name="gesture_setting_off">کوژاندنەوە</string>
@@ -975,7 +975,6 @@
     <string name="bluetooth_connect_access_dialog_positive">گرێدان</string>
     <string name="dream_preview_button_title">دەرخستن</string>
     <string name="bluetooth_details_audio_device_type_unknown">دانەنراوە</string>
-    <string name="flash_notifications_summary_off">کوژاندنەوە</string>
     <string name="flash_notifications_preview">دەرخستن</string>
     <string name="screen_flash_color_blue">شین</string>
     <string name="screen_flash_color_cyan">شینی ئاسمانی</string>
@@ -996,8 +995,6 @@
     <string name="color_inversion_state_on">چالاککردن</string>
     <string name="color_inversion_state_off">کوژاندنەوە</string>
     <string name="autoclick_disabled">کوژاندنەوە</string>
-    <string name="show_captions_disabled">کوژاندنەوە</string>
-    <string name="show_captions_enabled">چالاککردن</string>
     <string name="live_caption_disabled">کوژاندنەوە</string>
     <string name="live_caption_enabled">چالاککردن</string>
     <string name="audio_sharing_stream_password_title">وشه‌ی نهێنی</string>
@@ -1010,4 +1007,5 @@
     <string name="audio_streams_connecting_summary">بەستنەوە\u2026</string>
     <string name="audio_streams_dialog_learn_more">زیاتر بزانە</string>
     <string name="supervision_change_pin_preference_title">گۆڕینیPIN</string>
+    <string name="lock_screen_title">قوفڵی ڕوونما</string>
 </resources>

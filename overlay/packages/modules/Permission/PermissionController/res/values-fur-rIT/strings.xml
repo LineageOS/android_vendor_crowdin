@@ -468,8 +468,6 @@
     <string name="role_automotive_navigation_request_title">Meti <xliff:g id="app_name" example="Super Navigation">%1$s</xliff:g> come aplicazion di navigazion predefinide?</string>
     <string name="role_automotive_navigation_request_description">Nissun permès necessari</string>
     <string name="role_watch_description">La aplicazion <xliff:g id="app_name" example="Wear">%1$s</xliff:g> e podarà interagjî cu lis notifichis e e podarà acedi ai permès di Telefon, SMS, Contats e Calendari.</string>
-    <string name="role_app_streaming_description">Al vignarà concedût a <xliff:g id="app_name" example="Cross-Device Communciation">%1$s</xliff:g> di interagjî cu lis notifichis e di trasmeti lis tôs aplicazions sul dispositîf colegât.</string>
-    <string name="role_companion_device_computer_description">Chest servizi al condivît lis tôs fotos, i contignûts multimediâi e lis notifichis dal to telefon a altris dispositîfs.</string>
     <string name="role_notes_label">Aplicazion predefinide pes notis</string>
     <string name="role_notes_short_label">Aplicazions pes notis</string>
     <string name="role_notes_description">Aplicazions che ti permetin di cjapâ notis sul to dispositîf</string>
@@ -804,4 +802,7 @@
     <string name="wear_check_your_phone_title">Controle il telefon</string>
     <string name="wear_phone_connection_error">Impussibil rivâ al to telefon</string>
     <string name="wear_phone_connection_should_retry">Tornâ a provâ?</string>
+    <string name="app_function_agent_access_app_targets_category_title" description="Category title for target apps list section of Agent Access Settings page">Aplicazions</string>
+    <string name="request_app_function_dialog_button_allow">Permet</string>
+    <string name="request_app_function_dialog_button_dont_allow">No sta permeti</string>
 </resources>

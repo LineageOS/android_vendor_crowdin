@@ -19,7 +19,6 @@
     <string name="screen_reader_summary">Is gné inrochtaineachta léitheora scáileáin é Caint siar a chuidíonn le húsáideoirí lagamhairc téacs ar an scáileán, míreanna roghchláir agus gnéithe eile a léamh os ard. Is féidir é a chur ar bun freisin le húsáid le hAicearra Inrochtaineachta.</string>
     <string name="accounts_category_title">Cuntais &amp; Próifílí</string>
     <string name="privacy_device_lock_settings_title">Glasáil Gléas</string>
-    <string name="privacy_assistant_settings_title">Cúntóir Gutha</string>
     <string name="unplug_ethernet_to_use_wifi">Díphlugáil Ethernet chun Wi-Fi a úsáid</string>
     <string name="wifi_setting_thread_network">Líonra snáithe</string>
     <string name="wifi_setting_thread_network_context">Nascann líonra snáithe go háitiúil
@@ -33,13 +32,7 @@
     <string name="wifi_settings_thread_network_confirmation_title">An bhfuil fonn ort an Líonra Snáithe a mhúchadh?</string>
     <string name="wifi_settings_thread_network_confirmation_message">Má tá sé casta as, cliste áirithe
         seans nach n-oibreoidh gléasanna agus seirbhísí baile mar a bhíothas ag súil leis. Ar mhaith leat dul ar aghaidh?</string>
-    <string name="wifi_settings_thread_network_energy_title">Cuir an Líonra Snáithe ar siúl?</string>
-    <string name="wifi_settings_thread_network_energy_message">Teastaíonn \"Méadaithe\" ar líonra snáithe
-    modh fuinnimh. Athraigh mód fuinnimh go \"Méadaithe\" ar dtús, agus ansin teacht ar ais chun Snáithe a chasadh air
-    líonra.</string>
     <string name="wifi_settings_thread_network_confirmation_button_confirm">Múch</string>
-    <string name="wifi_settings_thread_network_button_change_energy_mode">        Athraigh modh fuinnimh
-    </string>
     <string name="add_apps_title">Cuir níos mó aipeanna leis</string>
     <string name="surround_sound_select_formats">Timpeall socruithe fuaime</string>
     <string name="surround_sound_auto_title">Uathoibríoch\"</string>
@@ -67,7 +60,6 @@
     <string name="hdr_format_selection_title">Ceadaigh formáidí raon dinimiciúil</string>
     <string name="hdr_format_selection_auto_desc">Cumasaigh gach formáid tacaithe</string>
     <string name="hdr_format_selection_manual_desc">Roghnaigh ó na formáidí atá ar fáil</string>
-    <string name="default_audio_output_settings_title" translatable="true"/>
     <string name="bluetooth_toggle_confirmation_dialog_summary">Ní bheidh tú in ann
         rochtain a fháil ar chúntóir gutha ó do chianrialtán agus Bluetooth múchta.</string>
     <string name="manage_device_admin">Riarthóir gléis</string>
@@ -116,7 +108,6 @@
     <string name="limit_network_in_standby_toggle_info">Beidh do theilifís dícheangailte ó do líonra nuair a bheidh sí i mód fuireachais, ach amháin chun nuashonruithe uathoibríocha a fháil. D’fhéadfadh sé seo úsáid fuinnimh do theilifíse a laghdú, cé go gciallódh sé freisin nach mbeidh tú in ann feidhmeanna cosúil le Cast agus cúntóir gutha a úsáid agus í i mód fuireachais.</string>
     <string name="usage_access">Sonraí úsáide aipeanna</string>
     <string name="usage_access_description">Le sonraí úsáide aipeanna, is féidir le haip rianú a dhéanamh ar na haipeanna eile atá á n-úsáid agat agus cé chomh minic, chomh maith le d’iompróir, socruithe teanga agus sonraí eile.</string>
-    <string name="help_center_title" translatable="true"/>
     <string name="select_device_admin_msg">Riarthóir gléis</string>
     <string name="system_tv_title">Teilifís</string>
     <string name="menu_monitor">Monatóir</string>
