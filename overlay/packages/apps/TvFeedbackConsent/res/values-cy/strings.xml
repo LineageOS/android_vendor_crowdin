@@ -19,9 +19,13 @@
     <string name="feedback_system_logs_legal_text">Gall rhannu pob log dyfais y system ac ap anfon fanylion i Google fel enwau defnyddwyr, lleoliad, ID dyfeisiau, a gwybodaeth am rwydweithiau. Mae Google yn defnyddio\u2019r wybodaeth hyn i drwsio problemau technegol a gwella gwasanaethau. Dysga rhagor yn g.co/android/devicelogs.</string>
     <string name="feedback_bugreport_title_text">Cynnwys log gwall</string>
     <string name="feedback_bugreport_legal_display_text"> Mae\u2019r adroddiad am wall (o %1$s)  yn cynnwys data fel enwau defnyddwyr, lleoliad, ID dyfeisiau, a gwybodaeth am rwydweithiau er mwyn helpu Google deall a thrwsio\u2019r problem.</string>
+    <string name="submit_feedback">Cyflwyno</string>
+    <string name="cancel_feedback">Diddymu</string>
     <string name="feedback_view_system_logs_button_text">Gweld logiau system</string>
     <string name="feedback_view_logs_dialog_title">Logiau System</string>
     <string name="feedback_view_logs_dialog_body">Mae\u2019r logiau hyn yn cynnwys gwybodaeth sydd ei angen arnom er mwyn gallu trin dy adborth.</string>
     <string name="annotated_back_indicator_string">Pwysa\u2019r botwm YN ÔL i fynd yn ôl.</string>
     <string name="loading">Yn llwytho</string>
+    <string name="feedback_submitted_notification">Diolch am yr adborth</string>
+    <string name="feedback_cancelled_notification">Diddymwyd yr adborth</string>
 </resources>
