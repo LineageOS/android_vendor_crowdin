@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_required_title">Fila er for stor for mobilnettet</string>
+    <string name="wifi_recommended_body">Om du startar denne nedlastinga på <xliff:g id="size" example="12.3KB">%1$s</xliff:g> no, kan det tømma batteriet fortare eller føra til høg bruk av mobildata. Dette kan kosta pengar alt etter kva slags abonnement du har. \n\nTrykk på <xliff:g id="queue_text" example="Queue">%2$s</xliff:g> for å starta nedlastinga neste gong du er kopla til eit Wi-Fi-nett.</string>
+</resources>

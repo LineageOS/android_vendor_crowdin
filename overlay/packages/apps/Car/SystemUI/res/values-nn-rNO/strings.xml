@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hvac_min_text">Min</string>
+    <string name="hvac_max_text">Maks</string>
+    <string name="fan_speed_max">MAKS</string>
+    <string name="fan_speed_off">AV</string>
+    <string name="hvac_temperature_off">AV</string>
+    <string name="voice_recognition_toast">Talegjenkjenning vert no handtert av den tilkopla Bluetooth-eininga</string>
+    <string name="car_add_user">Legg til ein profil</string>
+    <string name="end_session">Avslutt økta</string>
+    <string name="car_new_user">Ny profil</string>
+    <string name="user_add_profile_title">"Vil du leggja til ein ny profil?"</string>
+    <string name="user_add_user_message_setup">Etter at du har lagt til ein ny profil, kan eigaren av kontoen tilpassa han.</string>
+    <string name="user_add_user_message_update">Alle profilar kan installera appoppdateringar, som då vert tilgjengelege for alle profilane.</string>
+    <string name="profile_limit_reached_title">Profilgrensa er nådd</string>
+    <string name="profile_limit_reached_message">        {count, plural,
+            =1    {Kan berre laga éin profil.}
+            other {Du kan leggja til opptil # profilar.}
+        }
+    </string>
+    <string name="car_loading_profile">Lastar inn</string>
+    <string name="car_loading_profile_developer_message">Lastar inn brukar (frå <xliff:g id="from_user" example="10">%1$d</xliff:g> til <xliff:g id="to_user" example="12">%2$d</xliff:g>)</string>
+    <string name="current_profile_subtitle">Gjeldande profil</string>
+    <string name="privacy_chip_off_content"><xliff:g id="sensor" example="Microphone">%1$s</xliff:g> er av.</string>
+    <string name="privacy_chip_use_sensor">Bruk <xliff:g id="sensor" example="microphone">%1$s</xliff:g></string>
+    <string name="privacy_chip_use_sensor_subtext">For appar som har løyve</string>
+    <string name="privacy_chip_settings">Personverninnstillingar</string>
+    <string name="privacy_chip_app_using_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> bruker <xliff:g id="sensor" example="microphone">%2$s</xliff:g></string>
+    <string name="mic_privacy_chip_apps_using_mic_suffix"><xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g> bruker mikrofonen</string>
+    <string name="privacy_chip_app_recently_used_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> brukte <xliff:g id="sensor" example="microphone">%2$s</xliff:g> nyleg</string>
+    <string name="privacy_chip_apps_recently_used_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> og <xliff:g id="additional_app_count" example="2">%2$d</xliff:g> andre brukte <xliff:g id="sensor" example="microphone">%3$s</xliff:g> nyleg</string>
+    <string name="mic_privacy_chip_on_toast">Mikrofonen er slått på</string>
+    <string name="mic_privacy_chip_off_toast">Mikrofonen er slått av</string>
+    <string name="mic_privacy_chip_dialog_ok">OK</string>
+    <string name="sensor_privacy_start_use_mic_dialog_title">Vil du slå på mikrofonen i bilen?</string>
+    <string name="sensor_privacy_start_use_mic_dialog_content">Slå på mikrofonen i infotainment-systemet for å halda fram. Dette slår på mikrofonen for alle appar som har løyve.</string>
+    <string name="camera_privacy_chip_app_using_camera_suffix"><xliff:g id="app" example="Assistant">%s</xliff:g> bruker kameraet</string>
+    <string name="camera_privacy_chip_apps_using_camera_suffix"><xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g> bruker kameraet</string>
+    <string name="camera_privacy_chip_app_recently_used_camera_suffix"><xliff:g id="app" example="Assistant">%s</xliff:g> brukte kameraet nyleg</string>
+    <string name="camera_privacy_chip_apps_recently_used_camera_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> og <xliff:g id="additional_app_count" example="2">%2$d</xliff:g> andre brukte kameraet nyleg</string>
+    <string name="camera_privacy_chip_on_toast">Kameraet er slått på</string>
+    <string name="camera_privacy_chip_off_toast">Kameraet er slått av</string>
+    <string name="camera_privacy_chip_dialog_ok">OK</string>
+    <string name="sensor_privacy_start_use_camera_dialog_title">Vil du slå på kameraet i bilen?</string>
+    <string name="sensor_privacy_start_use_camera_dialog_content">Slå på kameraet i infotainment-systemet for å halda fram. Dette slår på kameraet for alle appar som har løyve.</string>
+    <string name="system_bar_home_label">Startskjerm</string>
+    <string name="system_bar_phone_label">Telefon</string>
+    <string name="system_bar_applications_label">Appar</string>
+    <string name="system_bar_climate_control_label">Klimaanlegg</string>
+    <string name="system_bar_notifications_label">Varsel</string>
+    <string name="system_bar_maps_label">Kart</string>
+    <string name="system_bar_media_label">Media</string>
+    <string name="system_bar_control_center_label">Kontrollsenter</string>
+    <string name="system_bar_assistant_label">Assistent</string>
+    <string name="system_bar_mic_privacy_chip">Personvern for mikrofon</string>
+    <string name="system_bar_user_avatar">Brukarkile</string>
+    <string name="system_bar_user_name_text">Brukarnamn-tekst</string>
+    <string name="hvac_decrease_button_label">Senk temperaturen</string>
+    <string name="hvac_increase_button_label">Auk temperaturen</string>
+    <string name="status_icon_bluetooth_disconnected">Bluetooth-innstilling: Fråkopla</string>
+    <string name="status_icon_bluetooth_connected">Bluetooth-innstilling: Tilkopla</string>
+    <string name="status_icon_bluetooth_off">Bluetooth-innstilling: Bluetooth er av</string>
+    <string name="status_icon_signal_mobile">Signalinnstillingar: Brukar mobildata</string>
+    <string name="status_icon_signal_wifi">Signalinnstillingar: Wi-Fi er på</string>
+    <string name="status_icon_signal_hotspot">Signalinnstillingar: Delt internett er på</string>
+    <string name="status_icon_display_status">Skjerminnstillingar</string>
+    <string name="status_icon_debug_status">Feilsøkingsinnstillingar</string>
+    <string name="status_icon_sound_status">Lydinnstillingar</string>
+    <string name="status_icon_drive_mode">Kjøremodus</string>
+    <string name="activity_blocked_text">Du kan ikkje bruka denne funksjonen i fart</string>
+    <string name="exit_button_close_application">Lukk appen</string>
+    <string name="exit_button_go_back">Tilbake</string>
+    <string name="drive_mode_modes_comfort">Komfort</string>
+    <string name="drive_mode_modes_eco">Øko</string>
+    <string name="drive_mode_modes_sport">Sport</string>
+    <string name="qc_drive_mode_active_subtitle">Aktiv</string>
+    <string name="qc_footer_settings">Innstillingar</string>
+    <string name="qc_footer_bluetooth_settings">Bluetooth-innstillingar</string>
+    <string name="qc_footer_network_internet_settings">Innstillingar for nettverk og internett</string>
+    <string name="qc_footer_display_settings">Skjerminnstillingar</string>
+    <string name="qc_footer_network_sound_settings">Lydinnstillingar</string>
+    <string name="qc_footer_profiles_accounts_settings">Innstillingar for profilar og kontoar</string>
+    <string name="qc_footer_debug_settings">Utviklarval</string>
+    <string name="lockpattern_does_not_support_rotary">Mønsteret støttar ikkje styrehjul. Bruk berøringsskjermen.</string>
+    <string name="display_input_lock_text">Skjermen er låst</string>
+    <string name="display_input_lock_started_text">Skjermen har vorte låst</string>
+    <string name="display_input_lock_stopped_text">Skjermen er no låst opp</string>
+    <string name="user_logout_title">Er du sikker på at du vil logga ut?</string>
+    <string name="user_logout_message">Dette lukkar alle opne appar</string>
+    <string name="user_logout">Logg ut</string>
+    <string name="car_guest">Gjest</string>
+    <string name="user_switching_message">Byter profil \u2026</string>
+    <string name="user_adding_message">Legg til ny profil \u2026</string>
+    <string name="max_user_limit_reached_message">Du kan leggja til opptil <xliff:g id="user_limit" example="10">%d</xliff:g> profilar</string>
+    <string name="confirm_add_user_title">Vil du leggja til ein ny profil?</string>
+    <string name="already_logged_in_message">For å halda fram må <xliff:g id="user_name" example="Peter">%1$s</xliff:g> logga av <xliff:g id="seat_location" example="Driver">%2$s</xliff:g>-skjermen</string>
+    <string name="header_bar_text_in_logged_out_state">Vel ein profil for å byrja</string>
+    <string name="logged_in_text">Logga på</string>
+    <string name="prefix_logged_in_info_for_other_seat">Logga på <xliff:g id="seat_location" example="Driver">%s</xliff:g>-skjermen</string>
+    <string name="create_user_failed_message">Klarte ikkje å leggja til ny profil. Prøv på nytt seinare.</string>
+    <string name="guest_creation_failed_message">Klarte ikkje å starta gjesteprofilen. Prøv på nytt seinare.</string>
+    <string name="stopping_user_text">Loggar av …</string>
+    <string name="wait_for_until_stopped_message"><xliff:g id="user_name" example="Peter">%s</xliff:g> vert logga av. Prøv på nytt seinare.</string>
+    <string name="unavailable_secure_user_text">Brukaren er ikkje tilgjengeleg nett no</string>
+    <string name="unavailable_secure_user_message">Klarte ikkje starta trygg brukar på passasjerskjermen</string>
+    <string name="passenger_keyguard_wrong_pattern">Feil mønster</string>
+    <string name="passenger_keyguard_wrong_pin">Feil PIN-kode</string>
+    <string name="passenger_keyguard_wrong_password">Feil passord</string>
+    <string name="passenger_keyguard_too_many_failed_attempts">        {count, plural,
+        =1    {For mange feilforsøk. Prøv att om # sekund.}
+        other {For mange feilforsøk. Prøv att om # sekund.}
+        }
+    </string>
+    <string name="seat_driver">førar</string>
+    <string name="seat_front">framme</string>
+    <string name="seat_rear">bak</string>
+    <string name="seat_left_side">venstre</string>
+    <string name="seat_center_side">midten</string>
+    <string name="seat_right_side">høgre</string>
+    <string name="car_keyguard_enter_your_pin">Skriv inn PIN-koden</string>
+    <string name="car_keyguard_enter_your_pattern">Teikna mønsteret</string>
+    <string name="car_keyguard_enter_your_password">Skriv inn passordet</string>
+    <string name="backspace_key">Rettetast</string>
+    <string name="enter_key">Enter-tast</string>
+    <string name="user_tos_activity_intent">intent:#Intent;action=com.android.car.SHOW_USER_TOS_ACTIVITY;B.show_value_prop=false;end</string>
+    <string name="back_btn">Tilbake</string>
+    <string name="fullscreen">Fullskjerm</string>
+    <string name="data_subscription_button_text">Sjå abonnement</string>
+    <string name="data_subscription_proactive_msg_prompt">Internettabonnementet ditt er gått ut</string>
+    <string name="data_subscription_reactive_msg_prompt">%s treng internettsamband</string>
+    <string name="data_subscription_reactive_generic_app_label">Denne appen</string>
+</resources>

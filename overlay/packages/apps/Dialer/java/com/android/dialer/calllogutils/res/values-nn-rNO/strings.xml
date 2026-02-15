@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copyright (C) 2017 The Android Open Source Project
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~      http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="type_incoming">Innkomen samtale</string>
+  <string name="type_incoming_pulled">Innkomen samtale flytta til ei anna eining</string>
+  <string name="type_outgoing">Utgåande samtale</string>
+  <string name="type_outgoing_pulled">Utgåande samtale flytta til ei anna eining</string>
+  <string name="type_missed">Mist samtale</string>
+  <string name="type_incoming_video">Innkomen videosamtale</string>
+  <string name="type_incoming_video_pulled">Innkomen videosamtale flytta til ei anna eining</string>
+  <string name="type_outgoing_video">Utgåande videosamtale</string>
+  <string name="type_outgoing_video_pulled">Utgåande videosamtale flytta til ei anna eining</string>
+  <string name="type_missed_video">Tapt videosamtale</string>
+  <string name="type_voicemail">Telefonsvarar</string>
+  <string name="type_rejected">Avvist samtale</string>
+  <string name="type_blocked">Sperra samtale</string>
+  <string name="call_details_minutes_abbreviation">m</string>
+  <string name="call_details_seconds_abbreviation">s</string>
+  <string name="a11y_call_duration_format">    <xliff:g id="minutes">%1$d</xliff:g> <xliff:g id="minutes_translation">%2$s</xliff:g> <xliff:g id="seconds">%3$d</xliff:g> <xliff:g id="seconds_translation">%4$s</xliff:g>
+  </string>
+  <string name="a11y_call_duration_short_format">    <xliff:g id="seconds">%1$d</xliff:g> <xliff:g id="seconds_translation">%2$s</xliff:g>
+  </string>
+  <string name="call_duration_format_pattern">    <xliff:g id="minutes_special_character">%1$s</xliff:g>\'<xliff:g id="minutes_translation">%2$s</xliff:g>\' <xliff:g id="seconds_special_character">%3$s</xliff:g>\'<xliff:g id="seconds_translation">%4$s</xliff:g>\'
+  </string>
+  <string name="call_duration_short_format_pattern">    <xliff:g id="seconds_special_character">%1$s</xliff:g>\'<xliff:g id="seconds_translation">%2$s</xliff:g>\'
+  </string>
+  <plurals name="a11y_seconds">
+    <item quantity="one">sekund</item>
+    <item quantity="other">sekund</item>
+  </plurals>
+  <plurals name="a11y_minutes">
+    <item quantity="one">minutt</item>
+    <item quantity="other">minutt</item>
+  </plurals>
+  <string name="type_answered_elsewhere">Svara på ei anna eining</string>
+  <string name="description_phone_account">på <xliff:g example="SIM 1" id="phoneAccount">^1</xliff:g></string>
+  <string name="description_via_number">via <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g></string>
+  <string name="description_via_number_phone_account">på <xliff:g example="SIM 1" id="phoneAccount">%1$s</xliff:g>, via <xliff:g example="(555) 555-5555" id="number">%2$s</xliff:g></string>
+  <string name="voicemail_string">Telefonsvarar</string>
+  <string name="just_now">No nettopp</string>
+  <string name="new_call_log_carrier_video">Video frå mobiloperatør</string>
+  <string name="new_call_log_unknown">Ukjend</string>
+  <string name="new_call_log_secondary_blocked">Sperra</string>
+  <string name="new_call_log_secondary_spam">Spam</string>
+</resources>

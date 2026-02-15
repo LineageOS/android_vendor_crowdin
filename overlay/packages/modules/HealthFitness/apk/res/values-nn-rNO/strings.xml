@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2022 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="manage_data_summary" description="Summary for the manage data preference. [CHAR_LIMIT=NONE]">Slett automatisk, datakjelder, tryggingskopiering og gjenoppretting</string>
+    <string name="backup_and_restore_settings_screen_title" description="Title of the 'backup and restore' screen where users can set up configurations to export and import Health Connect data. [CHAR_LIMIT=40]">Tryggingskopiering og gjenoppretting</string>
+    <string name="import_data_description" description="Description about the function of the 'restore data' preference. [CHAR_LIMIT=NONE]">Gjenopprett data frå ei fil du har eksportert før</string>
+    <string name="import_error_banner_title" description="Title of banner prompting the user that a previous data import failed. [CHAR LIMIT=50]">Klarte ikkje gjenoppretta data</string>
+    <string name="import_wrong_file_error_banner_summary" description="Summary of banner prompting the user to set up the import again due to the wrong file error. [CHAR LIMIT=NONE]">Fila du har valt, kan ikkje brukast til gjenoppretting. Pass på at du vel rett eksportfil.</string>
+    <string name="import_version_mismatch_error_banner_summary" description="Summary of banner prompting the user to update the mainline module due to the version mismatch error. [CHAR LIMIT=NONE]">Oppdater systemet ditt så Health Connect kan gjenoppretta dataa dine, og prøv så på nytt.</string>
+    <string name="import_other_error_banner_summary" description="Summary of banner prompting the user to try the import again due to certain error. [CHAR LIMIT=NONE]">Det oppstod eit problem då data skulle gjenopprettast frå eksporten din.</string>
+    <string name="backup_and_restore_footer_link_text" description="Link text displayed in the footer to allow the user to navigate to further information about the export feature. [CHAR_LIMIT=40]">Om tryggingskopiering og gjenoppretting</string>
+    <string name="import_notification_import_in_progress_title" description="Title text of notification displayed when import is in progress. [CHAR_LIMIT=NONE]">Health Connect-gjenoppretting pågår</string>
+    <string name="import_notification_import_complete_title" description="Title text of notification displayed when import has completed successfully. [CHAR_LIMIT=NONE]">Gjenopprettinga i Health Connect er ferdig</string>
+    <string name="import_in_progress_toast_text" description="Toast text displayed when import is in progress. [CHAR_LIMIT=40]">Gjenoppretting pågår</string>
+    <string name="import_complete_toast_text" description="Toast text displayed when import completes successfully. [CHAR_LIMIT=40]">Dataa er ferdig gjenoppretta</string>
+    <string name="import_notification_error_generic_error_title" description="Title text of notification displayed when import fails due to generic error. [CHAR_LIMIT=NONE]">Health Connect klarte ikkje gjenoppretta data</string>
+    <string name="import_notification_error_invalid_file_body_text" description="Body text of notification displayed when import fails due to invalid file selection. [CHAR_LIMIT=NONE]">Fila du har valt, kan ikkje brukast til gjenoppretting. Pass på at du vel rett eksportfil.</string>
+    <string name="import_notification_error_more_space_needed_body_text" description="Body text of notification displayed when import fails due to needing additional space. [CHAR_LIMIT=NONE]">Health Connect treng <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> lagringsplass på telefonen din for å kunna halda fram med gjenopprettinga.</string>
+    <string name="import_notification_error_generic_error_body_text" description="Body text of notification displayed when import fails due to generic error. [CHAR_LIMIT=NONE]">Noko gjekk gale då data skulle gjenopprettast frå eksporten din.</string>
+    <string name="import_notification_error_version_mismatch_body_text" description="Body text of notification displayed when import fails due to a version mismatch between new and old backup file. [CHAR_LIMIT=NONE]">Oppdater systemet ditt så Health Connect kan gjenoppretta dataa dine, og prøv så på nytt.</string>
+    <string name="delete_progress_indicator" description="Label of a message on a loading page with a progress bar during data deletion. [CHAR_LIMIT=100]">Slettar dataa dine</string>
+    <string name="loading" description="Label shown when loading data. [CHAR_LIMIT=40]">Lastar inn …</string>
+    <string name="data_restore_in_progress_screen_title" description="Title of screen shown when data restore is in progress">Gjenoppretting pågår</string>
+    <string name="data_restore_in_progress_content" description="Detail information shown when migration is in progress">Health Connect gjenopprettar data og løyve. Dette kan ta litt tid å fullføra.</string>
+    <string name="data_restore_in_progress_dialog_title" description="Title of dialog shown when data restore is in progress">Health Connect-gjenoppretting pågår</string>
+    <string name="data_restore_pending_banner_content" description="Content of banner shown when data restore is pending">Før du kan halda fram med å gjenoppretta dataa dine, må du oppdatera telefon-systemet.</string>
+</resources>

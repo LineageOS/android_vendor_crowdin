@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2018 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Varselstyring for bil</string>
+    <string name="assist_action_play_label">Les opp</string>
+    <string name="assist_action_reply_label">Svar</string>
+    <string name="action_mute_short">Dempa</string>
+    <string name="action_mute_long">Dempa samtale</string>
+    <string name="action_unmute_short">Slå på lyd</string>
+    <string name="action_unmute_long">Slå på lyd i samtalen</string>
+    <string name="action_canned_reply">«Eg køyrer akkurat no.»</string>
+    <string name="canned_reply_message">Eg køyrer akkurat no.</string>
+    <string name="toast_message_sent_success">Meldinga er send.</string>
+    <string name="notification_service_label">Lytteteneste for varsel i bil</string>
+    <string name="notifications">Varselsenter</string>
+    <string name="clear_all">Fjern alle</string>
+    <string name="ellipsized_string">…</string>
+    <string name="show_more">Vis meir</string>
+    <string name="notification_header">Varsel</string>
+    <string name="notification_recents">Nylege</string>
+    <string name="notification_older">Eldre varsel</string>
+    <string name="empty_notification_header">Ingen varsel</string>
+    <string name="collapse_group">Vis mindre</string>
+    <string name="show_more_from_app"><xliff:g id="count">%1$d</xliff:g> fleire frå <xliff:g id="app">%2$s</xliff:g></string>
+    <string name="show_count_more">Vis <xliff:g id="count">%d</xliff:g> fleire</string>
+    <plurals name="message_unshown_count">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> melding til</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> meldingar til</item>
+    </plurals>
+    <plurals name="restricted_numbered_message_content">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> ny melding</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> nye meldingar</item>
+    </plurals>
+    <string name="see_more_message">Sjå meir</string>
+    <string name="restricted_hun_message_content">Ny melding</string>
+    <string name="manage_text">Styr</string>
+    <string name="category_car_emergency">car_emergency</string>
+    <string name="category_navigation">navigation</string>
+    <string name="category_call">call</string>
+    <string name="category_message">msg</string>
+    <string name="pkg_car_dialer">com.android.car.dialer</string>
+    <string name="hun_suppression_channel_name">Demping av Heads Up-varsel</string>
+    <string name="hun_suppression_notification_title_park">Få med deg det siste</string>
+    <string name="hun_suppression_notification_title_drive">Konsentrer deg om køyringa</string>
+    <string name="hun_suppression_notification_description">Nye varsel er lagra i varselsenteret</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="incall_calling_via_template">Ringjer via <xliff:g id="provider_name">%s</xliff:g></string>
+  <string name="incall_calling_on_same_carrier_template">Ringjer med same mobiloperatør (<xliff:g id="provider_name">%s</xliff:g>)</string>
+  <string name="incall_calling_on_recent_choice_template">Ringjer med førre val (<xliff:g id="provider_name">%s</xliff:g>)</string>
+  <string name="incall_connecting">Ringjer …</string>
+  <string name="incall_connecting_assited_dialed">Ringjer med +<xliff:g example="1" id="ad_country_code">%1$s</xliff:g> (<xliff:g example="1" id="ad_user_home_locale">%2$s</xliff:g>) \u2026</string>
+  <string name="incall_connecting_assited_dialed_component">Brukar +<xliff:g example="1" id="ad_country_code">%1$s</xliff:g> (<xliff:g example="1" id="ad_user_home_locale">%2$s</xliff:g>) \u2026</string>
+  <string name="incall_transferring">Set over …</string>
+  <string name="incall_video_call_requesting">Videosamtale via mobiloperatøren …</string>
+  <string name="incall_wifi_video_call_requesting">Wi-Fi-videosamtale via mobiloperatøren …</string>
+  <string name="incall_video_call_upgrade_request">Byter til video via mobiloperatøren …</string>
+  <string name="incall_video_call_request_failed">Klarte ikkje kopla til</string>
+  <string name="incall_video_call_request_rejected">Samtalen vart avvist</string>
+  <string name="incall_video_call_request_timed_out">Samtalen vart avbroten på tid</string>
+  <string name="incall_video_call_operation_failed">Klarte ikkje utføra handlinga</string>
+  <string name="incall_hanging_up">Legg på</string>
+  <string name="incall_call_ended">Samtalen er avslutta</string>
+  <string name="incall_remotely_held">Sett på vent</string>
+  <string name="contact_grid_incoming_video_call">Videosamtale via mobiloperatøren frå</string>
+  <string name="contact_grid_incoming_wifi_video_call">Wi-Fi-videosamtale via mobiloperatøren frå</string>
+  <string name="contact_grid_incoming_voice_call">Det ringjer frå</string>
+  <string name="contact_grid_incoming_work_call">Arbeidssamtale frå</string>
+  <string name="contact_grid_incoming_via_template">Det ringjer via &lt;xliff:g
+          id=\"provider_name\"&gt;%s&lt;/xliff:g&gt; frå</string>
+  <string name="contact_grid_incoming_suspected_spam">Mistenkt spam-innringing</string>
+  <string name="contact_grid_callback_number">Nummeret til denne telefonen: &lt;xliff:g
+          id=\"light_number\"&gt;%1$s&lt;/xliff:g&gt;</string>
+</resources>
