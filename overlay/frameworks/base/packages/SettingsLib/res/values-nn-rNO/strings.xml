@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_fail_to_scan">Klarar ikkje søkja etter nettverk</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_eap_wpa">WPA-EAP</string>
+    <string name="wifi_security_short_eap_wpa2_wpa3">RSN-EAP</string>
+    <string name="wifi_security_short_sae">WPA3</string>
+    <string name="wifi_security_short_psk_sae">WPA2/WPA3</string>
+    <string name="wifi_security_short_none_owe">Ingen/OWE</string>
+    <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_eap_suiteb">Suite-B-192</string>
+    <string name="wifi_security_none">Ingen</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA-personleg</string>
+    <string name="wifi_security_wpa2">WPA2-personleg</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2-personleg</string>
+    <string name="wifi_security_eap">WPA/WPA2/WPA3-bedrift</string>
+    <string name="wifi_security_eap_wpa">WPA-bedrift</string>
+    <string name="wifi_security_eap_wpa_wpa2">WPA/WPA2-bedrift</string>
+    <string name="wifi_security_eap_wpa2_wpa3">WPA2/WPA3-bedrift</string>
+    <string name="wifi_security_eap_wpa3">WPA3-bedrift</string>
+    <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_sae">WPA3-personleg</string>
+    <string name="wifi_security_psk_sae">WPA2/WPA3-personleg</string>
+    <string name="wifi_security_none_owe">Ingen / utvida ope</string>
+    <string name="wifi_security_owe">Utvida ope</string>
+    <string name="wifi_security_eap_suiteb">WPA3-bedrift 192-bit</string>
+    <string name="wifi_remembered">Lagra</string>
+    <string name="wifi_disconnected">Fråkopla</string>
+    <string name="wifi_disabled_generic">Slått av</string>
+    <string name="wifi_disabled_network_failure">Feil ved IP-oppsett</string>
+    <string name="wifi_disabled_password_failure">Problem med stadfesting</string>
+    <string name="wifi_cant_connect">Klarar ikkje kopla til</string>
+    <string name="wifi_cant_connect_to_ap">Klarar ikkje kopla til «<xliff:g id="ap_name">%1$s</xliff:g>»</string>
+    <string name="wifi_check_password_try_again">Kontroller passordet og prøv på nytt</string>
+    <string name="wifi_not_in_range">Ikkje innan rekkevidd</string>
+    <string name="wifi_no_internet_no_reconnect">Koplar ikkje til automatisk</string>
+    <string name="wifi_no_internet">Ingen internett-tilgang</string>
+    <string name="saved_network">Lagra av <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="connected_via_network_scorer">Automatisk tilkopla via %1$s</string>
+    <string name="connected_via_network_scorer_default">Automatisk tilkopla via leverandør for nettverksvurdering</string>
+    <string name="connected_via_app">Tilkopla via <xliff:g id="name" example="Wifi App">%1$s</xliff:g></string>
+    <string name="tap_to_sign_up">Trykk for å melda deg på</string>
+    <string name="wifi_connected_no_internet">Ingen internett</string>
+    <string name="private_dns_broken">Får ikkje kontakt med den private DNS-tenaren</string>
+    <string name="wifi_limited_connection">Avgrensa tilkopling</string>
+    <string name="wifi_status_no_internet">Ingen internett</string>
+    <string name="wifi_status_sign_in_required">Må logga på</string>
+    <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunktet er mellombels fullt</string>
+    <string name="osu_opening_provider">Opnar <xliff:g id="passpointProvider" example="Passpoint Provider">%1$s</xliff:g></string>
+    <string name="osu_connect_failed">Klarte ikkje kopla til</string>
+    <string name="osu_completing_sign_up">Fullfører påmeldinga \u2026</string>
+    <string name="osu_sign_up_failed">Klarte ikkje fullføra påmeldinga. Trykk for å prøva på nytt.</string>
+    <string name="osu_sign_up_complete">Påmeldinga er fullførd. Koplar til \u2026</string>
+    <string name="speed_label_slow">Treig</string>
+    <string name="speed_label_okay">OK</string>
+    <string name="speed_label_fast">Snøgg</string>
+    <string name="speed_label_very_fast">Svært snøgg</string>
+    <string name="wifi_passpoint_expired">Gått ut på tid</string>
+    <string name="preference_summary_default_combination"><xliff:g id="state" example="ON">%1$s</xliff:g> / <xliff:g id="description" example="High accuracy mode">%2$s</xliff:g></string>
+    <string name="bluetooth_disconnected">Fråkopla</string>
+    <string name="bluetooth_disconnecting">Koplar frå \u2026</string>
+    <string name="bluetooth_connecting">Koplar til \u2026</string>
+    <string name="bluetooth_connected">Tilkopla<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_pairing">Parar \u2026</string>
+    <string name="bluetooth_pairing_failure">Klarte ikkje paringa</string>
+    <string name="bluetooth_connection_failure">Klarar ikkje kopla til</string>
+    <string name="bluetooth_connected_no_headset">Tilkopla (ingen telefon)<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_connected_no_a2dp">Tilkopla (inga media)<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Tilkopla (korkje telefon eller media)<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_connected_battery_level">Tilkopla, batteri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_connected_no_headset_battery_level">Tilkopla (ingen telefon), batteri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_connected_no_a2dp_battery_level">Tilkopla (ingen media), batteri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Tilkopla (korkje telefon eller media), batteri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri</string>
+    <string name="tv_bluetooth_battery_level">Batteri: <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_case">Etui: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri</string>
+    <string name="bluetooth_battery_level_untethered_left_case">Venstre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, etui: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri</string>
+    <string name="bluetooth_battery_level_untethered_right_case">Høgre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, etui: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri</string>
+    <string name="bluetooth_battery_level_untethered_left_right">Venstre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, høgre: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri</string>
+    <string name="bluetooth_battery_level_untethered_left_case_right">V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, E: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%3$s</xliff:g> batteri</string>
+    <string name="tv_bluetooth_battery_level_untethered_left">Venstre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="tv_bluetooth_battery_level_untethered_right">Høgre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_active_no_battery_level">Aktiv</string>
+    <string name="bluetooth_saved_device">Lagra</string>
+    <string name="bluetooth_hearing_device_ambient_error">Klarte ikkje oppdatera omverda</string>
+    <string name="bluetooth_hearing_aids_presets_error">Klarte ikkje oppdatera førehandsinnstillinga</string>
+    <string name="hearing_device_spinner_item_selected">Valt</string>
+    <string name="bluetooth_guest_battery_level">Gjesteeining. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_guest_battery_level_untethered">Gjesteeining. V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
+    <string name="bluetooth_guest_media_only_battery_level">Gjesteeining (berre medieinnhald). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_guest_media_only_battery_level_untethered">Gjesteeining (berre medieinnhald). V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
+    <string name="bluetooth_guest_battery_level_lea_support">Gjesteeining (støttar lyddeling). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_guest_battery_level_untethered_lea_support">Gjesteeining (støttar lyddeling). V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
+    <string name="bluetooth_guest_no_battery_level_lea_support">Gjesteeining (støttar lyddeling)</string>
+    <string name="bluetooth_guest_no_battery_level">Gjesteeining</string>
+    <string name="bluetooth_guest_media_only_no_battery_level">Gjesteeining (berre medieinnhald)</string>
+    <string name="bluetooth_guest_saved_device_lea_support">Gjesteeining. Støttar lyddeling</string>
+    <string name="bluetooth_profile_a2dp">Media-lyd</string>
+    <string name="bluetooth_profile_headset">Telefonsamtalar</string>
+    <string name="bluetooth_profile_opp">Filoverføring</string>
+    <string name="bluetooth_profile_hid">Inndataeining</string>
+    <string name="bluetooth_profile_pan">Internett-tilgang</string>
+    <string name="bluetooth_profile_pbap">Gjev tilgang til kontaktar og samtaleloggar</string>
+    <string name="bluetooth_profile_pbap_summary">Informasjonen vert brukt til mellom anna opplesing av anrop</string>
+    <string name="bluetooth_profile_pan_nap">Deling av internett-tilkopling</string>
+    <string name="bluetooth_profile_map">Tekstmeldingar</string>
+    <string name="bluetooth_profile_sap">SIM-tilgang</string>
+    <string name="bluetooth_profile_a2dp_high_quality">HD-lyd: <xliff:g id="codec_name">%1$s</xliff:g></string>
+    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD-lyd</string>
+    <string name="bluetooth_profile_hearing_aid">Høyreapparat</string>
+    <string name="bluetooth_profile_le_audio">LE Audio</string>
+    <string name="bluetooth_hearing_aid_profile_summary_connected">Kopla til høyreapparat</string>
+    <string name="bluetooth_le_audio_profile_summary_connected">Kopla til LE Audio</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">Kopla til media-lyd</string>
+    <string name="bluetooth_headset_profile_summary_connected">Kopla til telefonlyd</string>
+    <string name="bluetooth_opp_profile_summary_connected">Kopla til tenar for filoverføring</string>
+    <string name="bluetooth_map_profile_summary_connected">Kopla til tekstmeldingar</string>
+    <string name="bluetooth_sap_profile_summary_connected">Kopla til SAP</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Ikkje kopla til tenar for filoverføring</string>
+    <string name="bluetooth_hid_profile_summary_connected">Kopla til inndataeining</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">Kopla til eining for internett-tilgang</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">Deler den lokale internett-tilkoplinga med eininga</string>
+    <string name="bluetooth_pan_profile_summary_use_for">Bruk til internett-tilgang</string>
+    <string name="bluetooth_map_profile_summary_use_for">Bruk til tekstmeldingar</string>
+    <string name="bluetooth_sap_profile_summary_use_for">Bruk til SIM-tilgang</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">Bruk til media-lyd</string>
+    <string name="bluetooth_headset_profile_summary_use_for">Bruk til telefonlyd</string>
+    <string name="bluetooth_opp_profile_summary_use_for">Bruk til filoverføring</string>
+    <string name="bluetooth_hid_profile_summary_use_for">Bruk til inndata</string>
+    <string name="bluetooth_hearing_aid_profile_summary_use_for">Bruk til høyreapparat</string>
+    <string name="bluetooth_le_audio_profile_summary_use_for">Bruk til LE_AUDIO</string>
+    <string name="bluetooth_pairing_accept">Par</string>
+    <string name="bluetooth_pairing_accept_all_caps">PAR</string>
+    <string name="bluetooth_pairing_decline">Avbryt</string>
+    <string name="bluetooth_pairing_will_share_phonebook">Paring gjev tilgang til kontaktane og samtaleloggen din når einingane er tilkopla.</string>
+    <string name="bluetooth_pairing_error_message">Klarte ikkje para med <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_pairing_pin_error_message">Klarte ikkje para med <xliff:g id="device_name">%1$s</xliff:g> på grunn av feil PIN-kode eller tilgangskode.</string>
+    <string name="bluetooth_pairing_device_down_error_message">Får ikkje kontakt med <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_pairing_rejected_error_message">Paringa vart avvist av <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_talkback_computer">Datamaskin</string>
+    <string name="bluetooth_talkback_headset">Hovudsett</string>
+    <string name="bluetooth_talkback_phone">Telefon</string>
+    <string name="bluetooth_talkback_imaging">Bilete</string>
+    <string name="bluetooth_talkback_headphone">Hovudtelefonar</string>
+    <string name="bluetooth_talkback_input_peripheral">Inndatautstyr</string>
+    <string name="bluetooth_talkback_hearing_aids">Høyreapparat</string>
+    <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
+    <string name="accessibility_wifi_off">Wi-Fi er av.</string>
+    <string name="accessibility_no_wifi">Wi-Fi er fråkopla.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi, éin strek.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi, to strekar.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi, tre strekar.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi, fullt signal.</string>
+    <string name="accessibility_wifi_other_device">Kopla til eininga di.</string>
+    <string name="accessibility_wifi_security_type_none">Ope nettverk</string>
+    <string name="accessibility_wifi_security_type_secured">Sikra nettverk</string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="data_usage_uninstalled_apps">Fjerna appar</string>
+    <string name="data_usage_uninstalled_apps_users">Fjerna appar og brukarar</string>
+    <string name="data_usage_ota">Systemoppdateringar</string>
+    <string name="tether_settings_title_usb">USB-internettdeling</string>
+    <string name="tether_settings_title_wifi">Berbar Wi-Fi-sone</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth-internettdeling</string>
+    <string name="tether_settings_title_usb_bluetooth">Internettdeling</string>
+    <string name="tether_settings_title_all">Internettdeling og sone</string>
+    <string name="managed_user_title">Alle jobbappar</string>
+    <string name="unknown">Ukjend</string>
+    <string name="running_process_item_user_label">Brukar: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="launch_defaults_some">Nokre standardval er gjort</string>
+    <string name="launch_defaults_none">Ingen standardval er gjort</string>
+    <string name="tts_settings">Innstillingar for tekst-til-tale</string>
+    <string name="tts_settings_title">Tekst-til-tale</string>
+    <string name="tts_default_rate_title">Talesnøggleik</string>
+    <string name="tts_default_rate_summary">Farten på teksten som vert lesen opp</string>
+    <string name="tts_default_pitch_title">Tonehøgd</string>
+    <string name="tts_default_pitch_summary">Verkar inn på tonen i talen</string>
+    <string name="tts_default_lang_title">Språk</string>
+    <string name="tts_lang_use_system">Bruk systemspråket</string>
+    <string name="tts_lang_not_selected">Språk er ikkje valt</string>
+    <string name="tts_default_lang_summary">Vel språket for opplesing av tekst</string>
+    <string name="tts_play_example_title">Høyr på eit døme</string>
+    <string name="tts_play_example_summary">Spela av ein kort demonstrasjon av tekst-til-tale</string>
+    <string name="tts_install_data_title">Installer taledata</string>
+    <string name="tts_install_data_summary">Installer taledata som trengst for tekst-til-tale</string>
+    <string name="tts_engine_security_warning">Denne motoren for tekst-til-tale kan samla inn all tekst som vert lesen opp, medrekna personlege opplysningar som passord og kredittkortnummer. Han kjem frå motoren <xliff:g id="tts_plugin_engine_name">%s</xliff:g>. Vil du slå på denne motoren?</string>
+    <string name="tts_engine_network_required">Dette språket krev ei fungerande nettverkstilkopling for å kunna lesa opp tekst.</string>
+    <string name="tts_default_sample_string">Dette er eit døme på tekstopplesing</string>
+    <string name="tts_status_title">Status for standardspråk</string>
+    <string name="tts_status_ok"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g> har full støtte</string>
+    <string name="tts_status_requires_network"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g> krev nettverkstilkopling</string>
+    <string name="tts_status_not_supported"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g> er ikkje støtta</string>
+    <string name="tts_status_checking">Sjekkar …</string>
+    <string name="tts_engine_settings_title">Innstillingar for <xliff:g id="tts_engine_name">%s</xliff:g></string>
+    <string name="tts_engine_settings_button">Opna motorinnstillingane</string>
+    <string name="tts_engine_preference_section_title">Føretrekt motor</string>
+    <string name="tts_general_section_title">Generelt</string>
+    <string name="tts_reset_speech_pitch_title">Nullstill tonehøgda</string>
+    <string name="tts_reset_speech_pitch_summary">Nullstill tonehøgda for opplesing til standardnivået.</string>
+    <string-array name="tts_rate_entries">
+        <item>60 %</item>
+        <item>80 %</item>
+        <item>100 %</item>
+        <item>150 %</item>
+        <item>200 %</item>
+        <item>250 %</item>
+        <item>300 %</item>
+        <item>350 %</item>
+        <item>400 %</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string name="choose_profile">Vel profil</string>
+    <string name="category_personal">Privat</string>
+    <string name="category_work">Arbeid</string>
+    <string name="category_private">Privat</string>
+    <string name="category_clone">Klon</string>
+    <string name="development_settings_title">Val for utviklarar</string>
+    <string name="development_settings_enable">Slå på val for utviklarar</string>
+    <string name="development_settings_summary">Innstillingar for apputvikling</string>
+    <string name="development_settings_not_available">Val for utviklarar er ikkje tilgjengelege for denne brukaren</string>
+    <string name="vpn_settings_not_available">VPN-innstillingar er ikkje tilgjengelege for denne brukaren</string>
+    <string name="tethering_settings_not_available">Innstillingar for internettdeling er ikkje tilgjengelege for denne brukaren</string>
+    <string name="apn_settings_not_available">Innstillingar for namn på tilgangspunkt (APN) er ikkje tilgjengelege for denne brukaren</string>
+    <string name="enable_adb">USB-feilsøking</string>
+    <string name="enable_adb_summary">Feilsøkingsmodus når USB er tilkopla</string>
+    <string name="clear_adb_keys">Kall tilbake løyve for USB-feilsøking</string>
+    <string name="enable_adb_wireless">Trådlaus feilsøking</string>
+    <string name="enable_adb_wireless_summary">Feilsøkingsmodus når Wi-Fi er tilkopla</string>
+    <string name="adb_wireless_error">Feil</string>
+    <string name="adb_wireless_settings">Trådlaus feilsøking</string>
+    <string name="adb_wireless_list_empty_off">Slå på trådlaus feilsøking for å sjå og bruka tilgjengelege einingar</string>
+    <string name="adb_pair_method_qrcode_title">Par eininga med QR-kode</string>
+    <string name="adb_pair_method_qrcode_summary">Par nye einingar med QR-kodeskannaren</string>
+    <string name="adb_pair_method_code_title">Par eininga med paringskode</string>
+    <string name="adb_pair_method_code_summary">Par nye einingar med ein sekssifra kode</string>
+    <string name="adb_paired_devices_title">Para einingar</string>
+    <string name="adb_wireless_device_connected_summary">Tilkopla no</string>
+    <string name="adb_wireless_device_details_title">Einingsopplysningar</string>
+    <string name="adb_device_forget">Gløym</string>
+    <string name="adb_device_fingerprint_title_format">Fingeravtrykk for eining: <xliff:g id="fingerprint_param" example="a1:b2:c3:d4:e5:f6">%1$s</xliff:g></string>
+    <string name="adb_wireless_connection_failed_title">Klarte ikkje kopla til</string>
+    <string name="adb_wireless_connection_failed_message">Pass på at <xliff:g id="device_name" example="Bob\'s Macbook">%1$s</xliff:g> er kopla til rett nettverk</string>
+    <string name="adb_pairing_device_dialog_title">Par med eining</string>
+    <string name="adb_pairing_device_dialog_pairing_code_label">Wi-Fi-paringskode</string>
+    <string name="adb_pairing_device_dialog_failed_title">Klarte ikkje para</string>
+    <string name="adb_pairing_device_dialog_failed_msg">Kontroller at eininga er kopla til det same nettverket.</string>
+    <string name="adb_wireless_qrcode_summary">Par eininga over Wi-Fi ved å skanna ein QR-kode</string>
+    <string name="adb_wireless_verifying_qrcode_text">Parar eininga \u2026</string>
+    <string name="adb_qrcode_pairing_device_failed_msg">Klarte ikkje para eininga. QR-koden var anten feil, eller så er ikkje eininga kopla til det same nettverket.</string>
+    <string name="adb_wireless_ip_addr_preference_title">IP-adresse og port</string>
+    <string name="adb_wireless_qrcode_pairing_title">Skanna QR-kode</string>
+    <string name="adb_wireless_qrcode_pairing_description">Par eininga over Wi-Fi ved å skanna ein QR-kode</string>
+    <string name="adb_wireless_no_network_msg">Du må kopla til eit Wi-Fi-nettverk</string>
+    <string name="keywords_adb_wireless">adb, feilsøking, utvikling</string>
+    <string name="bugreport_in_power">Snarveg for feilrapport</string>
+    <string name="bugreport_in_power_summary">Vis ein knapp i av-menyen for å laga ein feilrapport</string>
+    <string name="keep_screen_on">Hald skjermen på</string>
+    <string name="keep_screen_on_summary">Skjermen går aldri i dvale under lading</string>
+    <string name="bt_hci_snoop_log">Slå på HCI-snoopinglogg for Bluetooth</string>
+    <string name="bt_hci_snoop_log_summary">Hent ut Bluetooth-pakkar. (Slå Bluetooth av og på att etter at du har endra denne innstillinga)</string>
+    <string name="oem_unlock_enable">OEM-opplåsing</string>
+    <string name="oem_unlock_enable_summary">Tillat opplåsing av oppstartslastaren</string>
+    <string name="confirm_enable_oem_unlock_title">Tillat OEM-opplåsing?</string>
+    <string name="confirm_enable_oem_unlock_text">ÅTVARING: Funksjonar for einingsvern fungerer ikkje på denne eininga så lenge denne innstillinga er på.</string>
+    <string name="mock_location_app">Vel app for fiktiv plassering</string>
+    <string name="mock_location_app_not_set">Ingen app for fiktiv plassering er vald</string>
+    <string name="mock_location_app_set">App for fiktiv plassering: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="debug_networking_category">Nettverk</string>
+    <string name="wifi_display_certification">Sertifisering for trådlaus skjerm</string>
+    <string name="wifi_verbose_logging">Slå på detaljert Wi-Fi-logging</string>
+    <string name="wifi_scan_throttling">Pipling av Wi-Fi-skanning</string>
+    <string name="wifi_non_persistent_mac_randomization"> MAC-randomisering for Wi-Fi</string>
+    <string name="mobile_data_always_on">Mobildata er alltid på</string>
+    <string name="tethering_hardware_offload">Maskinvareakselerasjon for internettdeling</string>
+    <string name="bluetooth_show_devices_without_names">Vis Bluetooth-einingar utan namn</string>
+    <string name="bluetooth_disable_absolute_volume">Slå av absolutt volum</string>
+    <string name="bluetooth_enable_gabeldorsche">Slå på Gabeldorsche</string>
+    <string name="bluetooth_select_avrcp_version_string">AVRCP-versjon for Bluetooth</string>
+    <string name="bluetooth_select_avrcp_version_dialog_title">Vel AVRCP-versjon for Bluetooth</string>
+    <string name="bluetooth_select_map_version_string">MAP-versjon for Bluetooth</string>
+    <string name="bluetooth_select_map_version_dialog_title">Vel MAP-versjon for Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_type">Lydkodek for Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Vel lydkodek for Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate">Samplingsfrekvens for Bluetooth-lyd</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Vel samplingsfrekvens for Bluetooth-lyd</string>
+    <string name="bluetooth_select_a2dp_codec_type_help_info">Grå skrift tyder at telefonen eller hovudsettet ikkje støttar dette</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bit per sample for Bluetooth-lyd</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Vel lydkodek for Bluetooth: bit per sample</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode">Kanalmodus for Bluetooth-lyd</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Vel lydkodek for Bluetooth: kanalmodus</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">LDAC-kodek for Bluetooth-lyd: avspelingskvalitet</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Vel LDAC-kodek for Bluetooth-lyd: avspelingskvalitet</string>
+    <string name="bluetooth_select_a2dp_codec_streaming_label">Strøymer: <xliff:g id="streaming_parameter">%1$s</xliff:g></string>
+    <string name="select_private_dns_configuration_title">Privat DNS</string>
+    <string name="select_private_dns_configuration_dialog_title">Vel modus for privat DNS</string>
+    <string name="private_dns_mode_off">Av</string>
+    <string name="private_dns_mode_opportunistic">Automatisk</string>
+    <string name="private_dns_mode_provider">Vertsnamn for leverandør av privat DNS</string>
+    <string name="private_dns_mode_provider_hostname_hint">Skriv inn vertsnamnet til DNS-leverandøren</string>
+    <string name="private_dns_mode_provider_failure">Klarte ikkje kopla til</string>
+    <string name="wifi_display_certification_summary">Vis val for sertifisering av trådlaus skjerm</string>
+    <string name="wifi_verbose_logging_summary">Auk Wi-Fi-loggingsnivået, vis RSSI per SSID i Wi-Fi-veljaren</string>
+    <string name="wifi_scan_throttling_summary">Sparar straum og gjev betre nettverksyting</string>
+    <string name="wifi_non_persistent_mac_randomization_summary">Når denne modusen er på, kan MAC-adressa til eininga endra seg kvar gong ho koplar til eit nettverk med MAC-randomisering.</string>
+    <string name="wifi_metered_label">Målt (avgrensa)</string>
+    <string name="wifi_unmetered_label">Ikkje målt (uavgrensa)</string>
+    <string name="select_logd_size_title">Bufferstorleik for loggføring</string>
+    <string name="select_logd_size_dialog_title">Vel loggstorleik per loggbuffer</string>
+    <string name="dev_logpersist_clear_warning_title">Sletta det faste lageret for loggar?</string>
+    <string name="dev_logpersist_clear_warning_message">Når me ikkje lenger overvakar med den faste loggføringa, må me sletta loggdataa på eininga.</string>
+    <string name="select_logpersist_title">Lagra loggdata fast på eininga</string>
+    <string name="select_logpersist_dialog_title">Vel kva loggbufferar som skal lagrast fast på eininga</string>
+    <string name="select_usb_configuration_title">Vel USB-oppsett</string>
+    <string name="select_usb_configuration_dialog_title">Vel USB-oppsett</string>
+    <string name="allow_mock_location">Tillat fiktive plasseringar</string>
+    <string name="allow_mock_location_summary">Tillat fiktive plasseringar</string>
+    <string name="debug_view_attributes">Slå på inspeksjon av visingsattributt</string>
+    <string name="mobile_data_always_on_summary">Hald alltid mobildata aktiv, sjølv når Wi-Fi er i bruk (for raskt nettverksbyte).</string>
+    <string name="tethering_hardware_offload_summary">Bruk maskinvareakselerasjon for internettdeling viss det er tilgjengeleg</string>
+    <string name="adb_warning_title">Tillata USB-feilsøking?</string>
+    <string name="adb_warning_message">USB-feilsøking er berre meint for utvikling. Bruk det til å kopiera data mellom datamaskina og eininga di, installera appar utan varsel og lesa loggdata.</string>
+    <string name="adbwifi_warning_title">Tillata trådlaus feilsøking?</string>
+    <string name="adbwifi_warning_message">Trådlaus feilsøking er berre meint for utvikling. Bruk det til å kopiera data mellom datamaskina og eininga di, installera appar utan varsel og lesa loggdata.</string>
+    <string name="adb_keys_warning_message">Vil du kalla tilbake tilgangen for USB-feilsøking frå alle datamaskiner du tidlegare har godkjent?</string>
+    <string name="dev_settings_warning_title">Tillata utviklarinnstillingar?</string>
+    <string name="dev_settings_warning_message">Desse innstillingane er berre meinte for utvikling. Dei kan gjera at eininga og appane sluttar å fungera som dei skal.</string>
+    <string name="verify_apps_over_usb_title">Sjekk appar over USB</string>
+    <string name="verify_apps_over_usb_summary">Sjekk appar installerte via ADB/ADT for skadeleg åtferd.</string>
+    <string name="bluetooth_show_devices_without_names_summary">Bluetooth-einingar utan namn (berre MAC-adresser) vert viste</string>
+    <string name="bluetooth_disable_absolute_volume_summary">Slår av absolutt volum for Bluetooth viss det er problem med volumet på andre einingar, til dømes for høgt volum eller manglande kontroll.</string>
+    <string name="bluetooth_enable_gabeldorsche_summary">Slår på funksjonsstakken Gabeldorsche for Bluetooth.</string>
+    <string name="enhanced_connectivity_summary">Slår på funksjonen for betre tilkopling.</string>
+    <string name="enable_terminal_title">Lokal terminal</string>
+    <string name="enable_terminal_summary">Slå på ein terminal-app som gjev tilgang til lokalt skal</string>
+    <string name="hdcp_checking_title">HDCP-sjekking</string>
+    <string name="hdcp_checking_dialog_title">Vel åtferd for HDCP-sjekking</string>
+    <string name="debug_debugging_category">Feilsøking</string>
+    <string name="debug_app">Vel app for feilsøking</string>
+    <string name="debug_app_not_set">Ingen app for feilsøking er vald</string>
+    <string name="debug_app_set">App for feilsøking: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="select_application">Vel app</string>
+    <string name="no_application">Ingen</string>
+    <string name="wait_for_debugger">Vent på feilsøkingsprogram</string>
+    <string name="wait_for_debugger_summary">Appen som vert feilsøkt, ventar på at feilsøkingsprogrammet skal kopla seg til før køyring</string>
+    <string name="debug_input_category">Inndata</string>
+    <string name="debug_drawing_category">Teikning</string>
+    <string name="debug_hw_drawing_category">Maskinvareakselerert teikning</string>
+    <string name="media_category">Media</string>
+    <string name="debug_monitoring_category">Overvaking</string>
+    <string name="window_management_category">Vindaugshandsaming</string>
+    <string name="strict_mode">Streng modus er på</string>
+    <string name="strict_mode_summary">Skjermen blinkar når appar gjer tidkrevjande operasjonar i hovudtråden</string>
+    <string name="pointer_location">Posisjon for peikar</string>
+    <string name="pointer_location_summary">Skjermoverlegg som viser data for kor du trykkjer</string>
+    <string name="show_touches">Vis trykk</string>
+    <string name="show_touches_summary">Vis visuell tilbakemelding for trykk</string>
+    <string name="show_key_presses">Vis tastetrykk</string>
+    <string name="show_key_presses_summary">Vis visuell tilbakemelding for fysiske tastetrykk</string>
+    <string name="show_screen_updates">Vis flateoppdateringar</string>
+    <string name="show_screen_updates_summary">Heile vindaugsflater blinkar når dei vert oppdaterte</string>
+    <string name="show_hw_screen_updates">Vis visingsoppdateringar</string>
+    <string name="show_hw_screen_updates_summary">Visingar inni vindauget blinkar når dei vert teikna</string>
+    <string name="show_hw_layers_updates">Vis oppdatering av maskinvarelag</string>
+    <string name="show_hw_layers_updates_summary">Maskinvarelag blinkar grønt når dei vert oppdaterte</string>
+    <string name="debug_hw_overdraw">Feilsøk GPU-overteikning</string>
+    <string name="disable_overlays">Slå av maskinvareoverlegg</string>
+    <string name="disable_overlays_summary">Bruk alltid GPU til samansetting av skjermbilete</string>
+    <string name="simulate_color_space">Simuler fargerom</string>
+    <string name="enable_opengl_traces_title">Slå på OpenGL-sporing</string>
+    <string name="usb_audio_disable_routing">Slå av USB-lydruting</string>
+    <string name="usb_audio_disable_routing_summary">Slå av automatisk ruting til USB-lydutstyr</string>
+    <string name="debug_layout">Vis layoutgrenser</string>
+    <string name="debug_layout_summary">Vis klippegrenser, margar osv.</string>
+    <string name="force_rtl_layout_all_locales">Tving høgre-til-venstre-layout</string>
+    <string name="force_rtl_layout_all_locales_summary">Tving høgre-til-venstre-retning for alle språkval</string>
+    <string name="transparent_navigation_bar">Gjennomsiktig navigasjonsfelt</string>
+    <string name="transparent_navigation_bar_summary">Gjer bakgrunnsfargen i navigasjonsfeltet gjennomsiktig som standard</string>
+    <string name="window_blurs">Tillat sløring på vindaugsnivå</string>
+    <string name="force_msaa">Tving 4x MSAA</string>
+    <string name="force_msaa_summary">Slå på 4x MSAA i OpenGL ES 2.0-appar</string>
+    <string name="show_non_rect_clip">Feilsøk ikkje-rektangulære klippeoperasjonar</string>
+    <string name="track_frame_time">Profiler HWUI-teikning</string>
+    <string name="enable_gpu_debug_layers">Slå på GPU-feilsøkingslag</string>
+    <string name="enable_gpu_debug_layers_summary">Tillat lasting av GPU-feilsøkingslag for feilsøkingsappar</string>
+    <string name="enable_verbose_vendor_logging">Slå på detaljert leverandørlogging</string>
+    <string name="enable_verbose_vendor_logging_summary">Ta med ekstra einingsspesifikke leverandørloggar i feilrapportar. Desse kan innehalda privat informasjon, bruka meir straum og ta meir lagringsplass.</string>
+    <string name="window_animation_scale_title">Skala for vindaugsanimasjon</string>
+    <string name="transition_animation_scale_title">Skala for overgangsanimasjon</string>
+    <string name="animator_duration_scale_title">Skala for varigheit på animasjon</string>
+    <string name="overlay_display_devices_title">Simuler sekundære skjermar</string>
+    <string name="shade_display_awareness_title">Plassering av varselpanel</string>
+    <string name="debug_applications_category">Appar</string>
+    <string name="immediately_destroy_activities">Ikkje behald aktivitetar</string>
+    <string name="immediately_destroy_activities_summary">Avslutt kvar aktivitet så snart brukaren går ut av han</string>
+    <string name="app_process_limit_title">Grense for bakgrunnsprosessar</string>
+    <string name="show_all_anrs">Vis appar i bakgrunnen som ikkje svarar</string>
+    <string name="show_all_anrs_summary">Vis dialogvindauge for appar som ikkje svarar i bakgrunnen</string>
+    <string name="show_notification_channel_warnings">Vis varsel om varslingskanalar</string>
+    <string name="show_notification_channel_warnings_summary">Viser ei åtvaring på skjermen når ein app sender eit varsel utan ein gyldig kanal</string>
+    <string name="force_allow_on_external">Tving lagring av appar på eksternt minne</string>
+    <string name="force_allow_on_external_summary">Gjer at alle appar kan skrivast til eksternt minne, utan omsyn til kva appen sjølv seier</string>
+    <string name="force_resizable_activities">Tving endring av storleik for aktivitetar</string>
+    <string name="force_resizable_activities_summary">Gjer at alle aktivitetar kan endra storleik for fleirvindaugemodus, utan omsyn til kva appen sjølv seier.</string>
+    <string name="enable_freeform_support">Slå på friformvindauge</string>
+    <string name="local_backup_password_title">Passord for tryggingskopi til datamaskin</string>
+    <string name="local_backup_password_summary_none">Heile tryggingskopiar til datamaskin er ikkje verna no</string>
+    <string name="local_backup_password_summary_change">Trykk for å endra eller fjerna passordet for heile tryggingskopiar til datamaskin</string>
+    <string name="local_backup_password_toast_success">Nytt passord for tryggingskopi er valt</string>
+    <string name="local_backup_password_toast_confirmation_mismatch">Det nye passordet og stadfestinga er ikkje like</string>
+    <string name="local_backup_password_toast_validation_failure">Klarte ikkje velja passord for tryggingskopi</string>
+    <string name="loading_injected_setting_summary">Lastar inn \u2026</string>
+    <string-array name="color_mode_names">
+        <item>Friske fargar (standard)</item>
+        <item>Naturlege</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Betre fargar</item>
+        <item>Naturlege fargar slik auget ser dei</item>
+        <item>Fargar tilpassa digitalt innhald</item>
+    </string-array>
+    <string name="inactive_apps_title">Appar i dvale</string>
+    <string name="inactive_app_inactive_summary">I dvale. Trykk for å endra.</string>
+    <string name="inactive_app_active_summary">Aktiv. Trykk for å endra.</string>
+    <string name="standby_bucket_summary">Dvaletilstand for app: <xliff:g id="bucket"> %s</xliff:g></string>
+    <string name="transcode_settings_title">Innstillingar for omkoding av media</string>
+    <string name="transcode_user_control">Overstyr standardval for omkoding</string>
+    <string name="transcode_enable_all">Slå på omkoding</string>
+    <string name="transcode_default">Gå ut frå at appar støttar moderne format</string>
+    <string name="transcode_notification">Vis varsel om omkoding</string>
+    <string name="transcode_disable_cache">Slå av snøgglager for omkoding</string>
+    <string name="runningservices_settings_title">Tenester som køyrer</string>
+    <string name="runningservices_settings_summary">Sjå og styr tenester som køyrer no</string>
+    <string name="select_webview_provider_title">WebView-implementering</string>
+    <string name="select_webview_provider_dialog_title">Vel WebView-implementering</string>
+    <string name="select_webview_provider_toast_text">Dette valet er ikkje lenger gyldig. Prøv på nytt.</string>
+    <string name="webview_launch_devtools_title">WebView-utviklarverktøy</string>
+    <string name="webview_launch_devtools_no_package">Fann ikkje WebView-pakken.</string>
+    <string name="webview_launch_devtools_no_activity">Klarte ikkje starta utviklarverktøy.</string>
+    <string name="picture_color_mode">Fargemodus for bilete</string>
+    <string name="picture_color_mode_desc">Bruk sRGB</string>
+    <string name="daltonizer_mode_disabled">Slått av</string>
+    <string name="daltonizer_mode_monochromacy">Svart-kvitt (monokromasi)</string>
+    <string name="daltonizer_mode_deuteranomaly">Grønnblindheit (deuteranomali)</string>
+    <string name="daltonizer_mode_protanomaly">Raudblindheit (protanomali)</string>
+    <string name="daltonizer_mode_tritanomaly">Blåblindheit (tritanomali)</string>
+    <string name="accessibility_display_daltonizer_preference_title">Fargekorrigering</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[        Fargekorrigering kan vera nyttig når du vil:<br/>
+        <ol>
+            <li>&nbsp;sjå fargar meir nøyaktig</li>
+            <li>&nbsp;fjerna fargar for betre fokus</li>
+        </ol>
+        ]]></string>
+    <string name="daltonizer_type_overridden">Overstyrt av <xliff:g id="title" example="Simulate color space">%1$s</xliff:g></string>
+    <string name="power_remaining_settings_home_page"><xliff:g id="percentage" example="10%">%1$s</xliff:g> – <xliff:g id="time_string" example="1 hour left based on your usage">%2$s</xliff:g></string>
+    <string name="power_charging_on_hold_settings_home_page"><xliff:g id="level">%1$s</xliff:g> – Lading er sett på vent for å verna batteriet</string>
+    <string name="power_incompatible_charging_settings_home_page"><xliff:g id="level">%1$s</xliff:g> – Sjekk ladeutstyret</string>
+    <string name="power_remaining_duration_only">Om lag <xliff:g id="time_remaining">%1$s</xliff:g> att</string>
+    <string name="power_discharging_duration">Om lag <xliff:g id="time_remaining">%1$s</xliff:g> att (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_duration_only_enhanced">Ut frå bruken din er det om lag <xliff:g id="time_remaining">%1$s</xliff:g> att</string>
+    <string name="power_discharging_duration_enhanced">Ut frå bruken din er det om lag <xliff:g id="time_remaining">%1$s</xliff:g> att (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_duration_only_short"><xliff:g id="time_remaining">%1$s</xliff:g></string>
+    <string name="power_discharge_by_enhanced">Ut frå bruken din bør det halda til om lag kl. <xliff:g id="time">%1$s</xliff:g> (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_discharge_by_only_enhanced">Ut frå bruken din bør det halda til om lag kl. <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_discharge_by">Bør halda til om lag kl. <xliff:g id="time">%1$s</xliff:g> (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_discharge_by_only">Bør halda til om lag kl. <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_discharge_by_only_short">Til kl. <xliff:g id="time" example="12 PM">%1$s</xliff:g></string>
+    <string name="power_suggestion_battery_run_out">Batteriet kan vera tomt kl. <xliff:g id="time" example="12 PM">%1$s</xliff:g></string>
+    <string name="power_remaining_less_than_duration_only">Mindre enn <xliff:g id="threshold">%1$s</xliff:g> att</string>
+    <string name="power_remaining_less_than_duration">Mindre enn <xliff:g id="threshold">%1$s</xliff:g> att (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_more_than_subtext">Meir enn <xliff:g id="time_remaining">%1$s</xliff:g> att (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_only_more_than_subtext">Meir enn <xliff:g id="time_remaining">%1$s</xliff:g> att</string>
+    <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="state">%2$s</xliff:g></string>
+    <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> att til batteriet er fullt</string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g> att til batteriet er fullt</string>
+    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> – Lading er sett på vent for å verna batteriet</string>
+    <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> – Lading</string>
+    <string name="battery_info_status_unknown">Ukjend</string>
+    <string name="battery_info_status_charging">Lading</string>
+    <string name="battery_info_status_charging_fast">Ladar snøgt</string>
+    <string name="battery_info_status_charging_slow">Ladar seint</string>
+    <string name="battery_info_status_charging_wireless">Ladar trådlaust</string>
+    <string name="battery_info_status_charging_dock">Lading</string>
+    <string name="battery_info_status_discharging">Ladar ikkje</string>
+    <string name="battery_info_status_not_charging">Tilkopla, men ladar ikkje</string>
+    <string name="battery_info_status_full">Fullt</string>
+    <string name="battery_info_status_full_charged">Fullada</string>
+    <string name="battery_info_status_charging_on_hold">Lading er sett på vent</string>
+    <string name="battery_info_status_charging_v2">Lading</string>
+    <string name="disabled_by_admin_summary_text">Styrast av administrator</string>
+    <string name="disabled_by_app_ops_text">Styrast av avgrensa innstilling</string>
+    <string name="disabled_in_phone_call_text">Ikkje tilgjengeleg under samtalar</string>
+    <string name="disabled">Slått av</string>
+    <string name="enabled">Slått på</string>
+    <string name="external_source_trusted">Tillate</string>
+    <string name="external_source_untrusted">Ikkje tillate</string>
+    <string name="install_other_apps">Installer ukjende appar</string>
+    <string name="home">Heim for innstillingar</string>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string name="charge_length_format"><xliff:g name="time" example="3 hours">%1$s</xliff:g> sidan</string>
+    <string name="remaining_length_format"><xliff:g name="time" example="3 hours">%1$s</xliff:g> att</string>
+    <string name="screen_zoom_summary_smallest">Minste</string>
+    <string name="screen_zoom_summary_smaller">Mindre</string>
+    <string name="screen_zoom_summary_small">Liten</string>
+    <string name="screen_zoom_summary_default">Standard</string>
+    <string name="screen_zoom_summary_large">Stor</string>
+    <string name="screen_zoom_summary_larger">Større</string>
+    <string name="screen_zoom_summary_very_large">Svært stor</string>
+    <string name="screen_zoom_summary_extra_large">Ekstra stor</string>
+    <string name="screen_zoom_summary_largest">Størst</string>
+    <string name="screen_zoom_summary_custom">Tilpassa (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
+    <string name="content_description_menu_button">Meny</string>
+    <string name="retail_demo_reset_message">Skriv inn passordet for å nullstilla til fabrikkoppsett i demo-modus</string>
+    <string name="retail_demo_reset_next">Neste</string>
+    <string name="retail_demo_reset_title">Passord krevst</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="active_input_method_subtypes">Aktive inndatametodar</string>
+    <string name="use_system_language_to_select_input_method_subtypes">Bruk systemspråka</string>
+    <string name="failed_to_open_app_settings_toast">Klarte ikkje opna innstillingane for <xliff:g id="spell_application_name">%1$s</xliff:g></string>
+    <string name="ime_security_warning">Denne inndatametoden kan samla inn all tekst du skriv, medrekna personlege opplysningar som passord og kredittkortnummer. Han kjem frå appen <xliff:g id="ime_application_name">%1$s</xliff:g>. Vil du bruka denne inndatametoden?</string>
+    <string name="direct_boot_unaware_dialog_message">Merk: Etter ein omstart kan ikkje denne appen starta før du låser opp telefonen</string>
+    <string name="ims_reg_title">"Tilstand for IMS-registrering"</string>
+    <string name="ims_reg_status_registered">"Registrert"</string>
+    <string name="ims_reg_status_not_registered">"Ikkje registrert"</string>
+    <string name="status_unavailable">Ikkje tilgjengeleg</string>
+    <string name="wifi_status_mac_randomized">MAC er randomisert</string>
+    <string name="wifi_tether_connected_summary">        {count, plural,
+            =1    {1 eining er tilkopla}
+            other {# einingar er tilkopla}
+        }
+    </string>
+    <string name="accessibility_manual_zen_more_time">Meir tid.</string>
+    <string name="accessibility_manual_zen_less_time">Mindre tid.</string>
+    <string name="accessibility_screen_magnification_title">Forstørring</string>
+    <string name="cancel">Avbryt</string>
+    <string name="next">Neste</string>
+    <string name="back">Tilbake</string>
+    <string name="save">Lagra</string>
+    <string name="okay">OK</string>
+    <string name="done">Ferdig</string>
+    <string name="alarms_and_reminders_label">Alarmar og påminningar</string>
+    <string name="alarms_and_reminders_switch_title">Tillat å leggja inn alarmar og påminningar</string>
+    <string name="alarms_and_reminders_title">Alarmar og påminningar</string>
+    <string name="alarms_and_reminders_footer_title">        Tillat at denne appen legg inn alarmar og tidsavhengige handlingar.
+        Dette lèt appen køyra i bakgrunnen, noko som kan bruka meir straum.\n\nOm dette løyvet
+        er av, kjem ikkje eksisterande alarmar og tidsbaserte hendingar frå denne appen til å fungera.
+    </string>
+    <string name="keywords_alarms_and_reminders">tidsplan, alarm, påminning, klokke</string>
+    <string name="zen_mode_enable_dialog_turn_on">Slå på</string>
+    <string name="zen_mode_settings_turn_on_dialog_title">Slå på «Ikkje forstyrr»</string>
+    <string name="zen_mode_settings_summary_off">Aldri</string>
+    <string name="zen_interruption_level_priority">Berre prioriterte</string>
+    <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
+    <string name="zen_alarm_warning_indef">Du kjem ikkje til å høyra neste alarm <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> med mindre du slår dette av før den tid</string>
+    <string name="zen_alarm_warning">Du kjem ikkje til å høyra neste alarm <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g></string>
+    <string name="alarm_template">kl. <xliff:g id="when" example="7:00 AM">%1$s</xliff:g></string>
+    <string name="alarm_template_far"><xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
+    <string name="zen_mode_duration_settings_title">Varigheit</string>
+    <string name="zen_mode_duration_always_prompt_title">Spør kvar gong</string>
+    <string name="zen_mode_forever">Til du slår det av</string>
+    <string name="time_unit_just_now">Akkurat no</string>
+    <string name="media_transfer_this_device_name">Denne telefonen</string>
+    <string name="media_transfer_this_device_name_tablet">Dette nettbrettet</string>
+    <string name="media_transfer_dock_speaker_device_name">Dokkhøgtalar</string>
+    <string name="media_transfer_external_device_name">Ekstern eining</string>
+    <string name="media_transfer_default_device_name">Tilkopla eining</string>
+    <string name="media_transfer_this_phone">Denne telefonen</string>
+    <string name="media_output_status_unknown_error">Klarar ikkje spela av på denne eininga</string>
+    <string name="media_output_status_require_premium">Oppgrader kontoen for å bytta</string>
+    <string name="media_output_status_not_support_downloads">Nedlastingar kan ikkje spelast av her</string>
+    <string name="media_output_status_try_after_ad">Prøv på nytt etter reklamen</string>
+    <string name="media_output_status_device_in_low_power_mode">Vekk eininga for å spela av her</string>
+    <string name="media_output_status_unauthorized">Eininga er ikkje godkjend for avspeling</string>
+    <string name="media_output_status_track_unsupported">Dette innhaldet kan ikkje spelast av her</string>
+    <string name="tv_media_transfer_connected">Tilkopla</string>
+    <string name="tv_media_transfer_arc_fallback_title">HDMI ARC</string>
+    <string name="tv_media_transfer_earc_fallback_title">HDMI eARC</string>
+    <string name="tv_media_transfer_arc_subtitle">Tilkopla via ARC</string>
+    <string name="tv_media_transfer_earc_subtitle">Tilkopla via eARC</string>
+    <string name="profile_connect_timeout_subtext">Problem ved tilkopling. Slå eininga av og på att</string>
+    <string name="bluetooth_key_missing_subtext">Klarte ikkje kopla til</string>
+    <string name="media_transfer_wired_device_name">Kabla lydeining</string>
+    <string name="help_label">Hjelp og tilbakemelding</string>
+    <string name="storage_category">Lagring</string>
+    <string name="shared_data_title">Delte data</string>
+    <string name="shared_data_summary">Sjå og endra delte data</string>
+    <string name="shared_data_no_blobs_text">Det finst inga delte data for denne brukaren.</string>
+    <string name="shared_data_query_failure_text">Det oppstod ein feil ved henting av delte data. Prøv på nytt.</string>
+    <string name="blob_id_text">ID for delte data: <xliff:g id="blob_id" example="100">%d</xliff:g></string>
+    <string name="blob_expires_text">Går ut <xliff:g id="date" example="Mar 20, 2020 11:59:59 GMT">%s</xliff:g></string>
+    <string name="shared_data_delete_failure_text">Det oppstod ein feil ved sletting av delte data.</string>
+    <string name="shared_data_no_accessors_dialog_text">Ingen appar har bruksrett til desse delte dataa no. Vil du sletta dei?</string>
+    <string name="accessor_info_title">Appar som deler data</string>
+    <string name="accessor_no_description_text">Appen har ikkje gjeve inga skildring.</string>
+    <string name="accessor_expires_text">Bruksretten går ut <xliff:g id="date" example="Mar 20, 2020 11:59:59 GMT">%s</xliff:g></string>
+    <string name="delete_blob_text">Slett delte data</string>
+    <string name="delete_blob_confirmation_text">Er du sikker på at du vil sletta desse delte dataa?</string>
+    <string name="user_add_user_item_summary">Brukarar har egne appar og eige innhald</string>
+    <string name="user_add_profile_item_summary">Du kan avgrensa tilgangen til appar og innhald frå din konto</string>
+    <string name="user_add_user_item_title">Brukar</string>
+    <string name="user_add_profile_item_title">Avgrensa profil</string>
+    <string name="user_add_user_title">Leggja til ny brukar?</string>
+    <string name="user_add_user_message_long">Du kan dela denne eininga med andre ved å laga fleire brukarar. Kvar brukar har sitt eige område som dei kan gjera heimleg med appar, bakgrunnsbilete og så bortetter. Brukarar kan òg justera innstillingar som Wi-Fi, som påverkar alle.\n\nNår du legg til ein ny brukar, må vedkomande setja opp sitt eige område.\n\nAlle brukarar kan oppdatera appar for alle andre brukarar. Innstillingar og tenester for tilgjenge vert kanskje ikkje overførte til den nye brukaren.</string>
+    <string name="user_add_user_message_short">Når du legg til ein ny brukar, må vedkomande setja opp sitt eige område.\n\nAlle brukarar kan oppdatera appar for alle andre brukarar. </string>
+    <string name="user_grant_admin_title">Gjer denne brukaren til administrator?</string>
+    <string name="user_grant_admin_message">Administratorar har særskilde rettar som andre brukarar ikkje har. Ein administrator kan styra alle brukarar, oppdatera eller nullstilla eininga, endra innstillingar, sjå alle installerte appar og gje eller fjerna administratorrettar for andre.</string>
+    <string name="user_grant_admin_button">Gjer til administrator</string>
+    <string name="user_setup_dialog_title">Setja opp brukaren no?</string>
+    <string name="user_setup_dialog_message">Pass på at vedkomande er til stades for å ta over eininga og setja opp sitt eige område</string>
+    <string name="user_setup_profile_dialog_message">Setja opp profilen no?</string>
+    <string name="user_setup_button_setup_now">Set opp no</string>
+    <string name="user_setup_button_setup_later">Ikkje no</string>
+    <string name="user_add_user_type_title">Legg til</string>
+    <string name="user_new_user_name">Ny brukar</string>
+    <string name="user_new_profile_name">Ny profil</string>
+    <string name="user_info_settings_title">Brukarinfo</string>
+    <string name="profile_info_settings_title">Profilinfo</string>
+    <string name="user_need_lock_message">Før du kan laga ein avgrensa profil, må du setja opp ein skjermlås for å verna appane og dei personlege dataa dine.</string>
+    <string name="user_set_lock_button">Lag lås</string>
+    <string name="user_switch_to_user">Byt til <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
+    <string name="creating_new_user_dialog_message">Lagar ny brukar …</string>
+    <string name="creating_new_guest_dialog_message">Lagar ny gjest …</string>
+    <string name="add_user_failed">Klarte ikkje laga ny brukar</string>
+    <string name="add_guest_failed">Klarte ikkje laga ny gjest</string>
+    <string name="user_nickname">Kallenamn</string>
+    <string name="user_add_user">Legg til brukar</string>
+    <string name="guest_new_guest">Legg til gjest</string>
+    <string name="guest_exit_guest">Fjerna gjest</string>
+    <string name="guest_reset_guest">Nullstill gjest</string>
+    <string name="guest_reset_guest_dialog_title">Nullstilla gjesten?</string>
+    <string name="guest_remove_guest_dialog_title">Fjerna gjesten?</string>
+    <string name="guest_reset_guest_confirm_button">Nullstill</string>
+    <string name="guest_remove_guest_confirm_button">Fjerna</string>
+    <string name="guest_resetting">Nullstiller gjest \u2026</string>
+    <string name="guest_reset_and_restart_dialog_title">Nullstilla gjesteøkta?</string>
+    <string name="guest_reset_and_restart_dialog_message">Dette startar ei ny gjesteøkt og slettar alle appar og data frå den noverande økta</string>
+    <string name="guest_exit_dialog_title">Gå ut av gjestemodus?</string>
+    <string name="guest_exit_dialog_message">Dette slettar appar og data frå den noverande gjesteøkta</string>
+    <string name="grant_admin">Ja, gjer hen til administrator</string>
+    <string name="not_grant_admin">Nei, ikkje gjer hen til administrator</string>
+    <string name="guest_exit_dialog_button">Gå ut</string>
+    <string name="guest_exit_dialog_title_non_ephemeral">Lagra gjesteaktivitet?</string>
+    <string name="guest_exit_dialog_message_non_ephemeral">Du kan lagra aktivitet frå denne økta eller sletta alle appar og data</string>
+    <string name="guest_exit_clear_data_button">Slett</string>
+    <string name="guest_exit_save_data_button">Lagra</string>
+    <string name="guest_exit_button">Gå ut av gjestemodus</string>
+    <string name="guest_reset_button">Nullstill gjesteøkta</string>
+    <string name="guest_exit_quick_settings_button">Gå ut av gjest</string>
+    <string name="guest_notification_ephemeral">All aktivitet vert sletta når du går ut</string>
+    <string name="guest_notification_non_ephemeral">Du kan lagra eller sletta aktiviteten din når du går ut</string>
+    <string name="guest_notification_non_ephemeral_non_first_login">Nullstill for å sletta øktaktivitet no, eller lagre/slett når du går ut</string>
+    <string name="user_image_photo_selector">Vel bilete</string>
+    <string name="failed_attempts_now_wiping_device">For mange feil forsøk. Dataa på denne eininga vert sletta.</string>
+    <string name="failed_attempts_now_wiping_user">For mange feil forsøk. Denne brukaren vert sletta.</string>
+    <string name="failed_attempts_now_wiping_profile">For mange feil forsøk. Denne jobbprofilen og tilhøyrande data vert sletta.</string>
+    <string name="failed_attempts_now_wiping_dialog_dismiss">Lukk</string>
+    <string name="cached_apps_freezer_device_default">Standard for eininga</string>
+    <string name="cached_apps_freezer_disabled">Slått av</string>
+    <string name="cached_apps_freezer_enabled">Slått på</string>
+    <string name="cached_apps_freezer_reboot_dialog_text">Eininga må startast på nytt for at denne endringa skal gjelda. Start på nytt no eller avbryt.</string>
+    <string name="media_transfer_wired_headphone_name">Kabla hovudtelefon</string>
+    <string name="wifi_hotspot_switch_on_text">På</string>
+    <string name="wifi_hotspot_switch_off_text">Av</string>
+    <string name="carrier_network_change_mode">Mobilnettet vert endra</string>
+    <string name="data_connection_3g">3G</string>
+    <string name="data_connection_edge">EDGE</string>
+    <string name="data_connection_cdma">1X</string>
+    <string name="data_connection_gprs">GPRS</string>
+    <string name="data_connection_3_5g">H</string>
+    <string name="data_connection_3_5g_plus">H+</string>
+    <string name="data_connection_4g">4G</string>
+    <string name="data_connection_4g_plus">4G+</string>
+    <string name="data_connection_lte">LTE</string>
+    <string name="data_connection_lte_plus">LTE+</string>
+    <string name="data_connection_5ge_html" translate="false"> &lt;i&gt;5G &lt;small&gt;E&lt;/small&gt;&lt;/i&gt; </string>
+    <string name="data_connection_carrier_wifi">W+</string>
+    <string name="cell_data_off_content_description">Mobildata er av</string>
+    <string name="not_default_data_content_description">Ikkje sett opp til å bruka data</string>
+    <string name="accessibility_no_phone">Ingen telefon.</string>
+    <string name="accessibility_phone_one_bar">Telefon, éin strek.</string>
+    <string name="accessibility_phone_two_bars">Telefon, to strekar.</string>
+    <string name="accessibility_phone_three_bars">Telefon, tre strekar.</string>
+    <string name="accessibility_phone_four_bars">Telefon, fire strekar.</string>
+    <string name="accessibility_phone_signal_full">Telefon, fullt signal.</string>
+    <string name="accessibility_no_data">Ingen data.</string>
+    <string name="accessibility_data_one_bar">Data, éin strek.</string>
+    <string name="accessibility_data_two_bars">Data, to strekar.</string>
+    <string name="accessibility_data_three_bars">Data, tre strekar.</string>
+    <string name="accessibility_data_signal_full">Data, fullt signal.</string>
+    <string name="accessibility_ethernet_disconnected">Ethernet er fråkopla.</string>
+    <string name="accessibility_ethernet_connected">Ethernet.</string>
+    <string name="accessibility_no_calling">Ingen oppringing.</string>
+    <string name="physical_keyboard_title">Fysisk tastatur</string>
+    <string name="keyboard_layout_dialog_title">Vel tastaturoppsett</string>
+    <string name="keyboard_layout_default_label">Standard</string>
+    <string name="allow_turn_screen_on">Tillat å slå på skjermen</string>
+    <string name="allow_turn_screen_on_description">Tillat at ein app slår på skjermen. Om du gjev dette løyvet, kan appen slå på skjermen når som helst utan at du ber om det.</string>
+    <string name="bt_le_audio_broadcast_dialog_title">Vil du stogga kringkastinga av <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>
+    <string name="bt_le_audio_broadcast_dialog_sub_title">Om du kringkastar <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g> eller endrar utgangen, vert den noverande kringkastinga stogga</string>
+    <string name="bt_le_audio_broadcast_dialog_switch_app">Kringkast <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g></string>
+    <string name="bt_le_audio_broadcast_dialog_different_output">Bytt utgang</string>
+    <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g> %%</string>
+    <string name="not_specified">Ikkje spesifisert</string>
+    <string name="neuter">Inkjekjønn</string>
+    <string name="feminine">Hokjønn</string>
+    <string name="masculine">Hankjønn</string>
+</resources>

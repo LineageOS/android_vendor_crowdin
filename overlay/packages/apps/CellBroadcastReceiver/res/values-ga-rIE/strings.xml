@@ -15,6 +15,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sms_cb_sender_name_amber">@string/sms_cb_sender_name_default</string>
+    <string name="override_dnd_summary">Déan neamhaird de Ná Cuir Isteach &amp; socruithe toirte eile. Nuair a bhíonn sé múchta, féadfaidh na foláirimh is tábhachtaí fós a bheith ag cloisteáil ag an toirt iomlán.</string>
     <string name="notification_cb_settings_changed_title">Athraíodh do shocruithe</string>
     <string name="notification_cb_settings_changed_text">Athshocraíodh socruithe foláirimh éigeandála gan sreang toisc gur athraigh do SIM</string>
 </resources>

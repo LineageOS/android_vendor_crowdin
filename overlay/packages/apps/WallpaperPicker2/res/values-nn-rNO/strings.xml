@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="set_wallpaper_progress_message">Brukar bakgrunnsbilete …</string>
+    <string name="select_a_photo">Vel eit bilete</string>
+    <string name="choose_a_curated_photo_section_title">Føreslåtte bilete</string>
+    <string name="wallpaper_studio_title">Bakgrunnsstudio</string>
+    <string name="more_photos">Fleire bilete</string>
+    <string name="choose_a_photo">Vel eit bilete</string>
+    <string name="start_rotation_progress_message">Lastar ned det fyrste biletet …</string>
+    <string name="preview_screen_description_editable">Førehandsvising av bakgrunnsbilete %1$s. Bruk to fingrar for å flytta og zooma</string>
+    <string name="preview_screen_description_non_editable">Førehandsvising av bakgrunnsbilete %1$s</string>
+    <string name="folded_device_state_description">Samanlagd</string>
+    <string name="unfolded_device_state_description">Utbretta</string>
+    <string name="full_preview_check_button_description">Ferdig med å redigera bakgrunnsbilete</string>
+    <string name="suggestion_chip_close_button_description">Lukk kunngjering om temapakke</string>
+    <string name="refreshing_daily_wallpaper_dialog_message">Oppdaterer dagens bakgrunn …</string>
+    <string name="configure_wallpaper">Innstillingar …</string>
+    <string name="download_effects">Lasta ned effektar</string>
+    <string name="wallpaper_preview_card_content_description_editable">Førehandsvising av %1$s-bakgrunn %2$s. Trykk to gonger for å redigera biletet</string>
+    <string name="wallpaper_preview_card_content_description_non_editable">Førehandsvising av %1$s-bakgrunn %2$s</string>
+    <string name="hide_ui_preview_text">Gøym førehandsvising av brukargrensesnitt</string>
+    <string name="hint_hide_ui_preview">Grensesnittet er gøymt i førehandsvisinga. Trykk to gonger for å visa det</string>
+    <string name="hide_preview_controls_content_description">Kontrollane vert viste. Trykk to gonger for å gøyma dei</string>
+    <string name="hide_preview_controls_action">Gøym kontrollar</string>
+    <string name="show_preview_controls_content_description">Kontrollane er gøymde. Trykk to gonger for å visa dei</string>
+    <string name="hide_wallpaper_info_action">Gøym bakgrunnsinfo</string>
+    <string name="hint_show_ui_preview">Grensesnittet vert vist i førehandsvisinga. Trykk to gonger for å gøyma det</string>
+    <string name="apply_wallpaper_title_text">Vil du bruka bakgrunnsbiletet?</string>
+    <string name="accessibility_customize_hidden">Tilpassing er gøymt</string>
+    <string name="accessibility_info_hidden">Info er gøymt</string>
+    <string name="view_all_wallpapers">&gt;\nSjå alle</string>
+    <string name="discard_changes_dialog_message">Vil du forkasta endringane?</string>
+    <string name="discard_changes_dialog_button_keep_editing">Hald fram med redigeringa</string>
+    <string name="discard_changes_dialog_button_discard">Forkast</string>
+    <string name="action_zoom_in">Zoom inn</string>
+    <string name="action_zoom_out">Zoom ut</string>
+    <string name="zoomed_to_percent">Zooma til %d %%</string>
+    <string name="max_zoom_percentage">Maksimal zoom er nådd</string>
+    <string name="min_zoom_percentage">Minimal zoom er nådd</string>
+    <string name="categories_collection_label">Samlingar</string>
+    <string name="carousel_content_description_photos">Bilete %1$d av %2$d</string>
+    <string name="carousel_content_description_default_wallpapers">Standard bakgrunnsbilete %1$d av %2$d</string>
+</resources>

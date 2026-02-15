@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="recovery_installing">Legg inn systemoppdatering</string>
+  <string name="recovery_erasing">Slettar innhald</string>
+  <string name="recovery_no_command">Ingen kommando</string>
+  <string name="recovery_error">Feil!</string>
+  <string name="recovery_installing_security">Legg inn tryggingsoppdatering</string>
+  <string name="recovery_wipe_data_menu_header">Klarte ikkje starta Android-systemet. Dataane dine kan vera skada. Får du framleis denne meldinga, må du kanskje nullstilla eininga til fabrikkoppsettet og sletta alt innhaldet.</string>
+  <string name="recovery_try_again">Prøv på nytt</string>
+  <string name="recovery_factory_data_reset">Nullstilla til fabrikkoppsettet</string>
+  <string name="recovery_wipe_data_confirmation">Sletta alt innhaldet?\n\nDETTE KAN IKKJE OMGJERAST!</string>
+  <string name="recovery_cancel_wipe_data">Avbryt</string>
+</resources>

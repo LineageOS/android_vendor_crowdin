@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_use_old_interface">Úsáid an sean-chomhéadan</string>
+    <string name="action_use_classic_view">Úsáid an radharc clasaiceach</string>
+</resources>

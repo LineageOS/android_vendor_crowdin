@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="close_task_accessibility">Lukk %1$s</string>
+    <string name="all_apps_loading_message">Lastar inn appar …</string>
+    <string name="widget_settings">Innstillingar</string>
+    <string name="pin_to_taskbar">Festa til oppgåvelinja</string>
+    <string name="unpin_from_taskbar">Fjern frå oppgåvelinja</string>
+    <string name="paginate_left">Bla til venstre</string>
+    <string name="paginate_right">Bla til høgre</string>
+    <string name="hotseat_prediction_content_description">Føreslått app: <xliff:g id="title" example="Chrome">%1$s</xliff:g></string>
+    <string name="folder_name_format_exact_with_dot">Mappe: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> element, har varsel</string>
+    <string name="folder_name_format_overflow_with_dot">Mappe: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> eller fleire element, har varsel</string>
+    <string name="landscape_mode_desc">Still inn startskjermen til liggjande retning</string>
+    <string name="app_unarchiving_action">last ned og gjenopprett</string>
+    <string name="create_folder_with">Lag mappe med: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+    <string name="folder_created">Mappa er laga</string>
+    <string name="circle_shape_title">Sirkel</string>
+    <string name="square_shape_title">Firkant</string>
+    <string name="four_sided_cookie_shape_title">Firsida kake</string>
+    <string name="seven_sided_cookie_shape_title">Sjusida kake</string>
+    <string name="arch_shape_title">Boge</string>
+</resources>

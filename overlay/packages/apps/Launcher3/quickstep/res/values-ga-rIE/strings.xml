@@ -21,10 +21,12 @@
     <string name="recent_task_option_freeform">Saorfhoirm</string>
     <string name="recent_task_option_desktop">Deasc</string>
     <string name="recent_task_option_external_display">Bog chuig taispeáint seachtrach</string>
+    <string name="recent_task_option_remove_task">Glan</string>
     <string name="recent_task_desktop">Deasc</string>
     <string name="recents_empty_message">Gan aon mhíreanna le déanaí</string>
     <string name="accessibility_app_usage_settings">Socruithe úsáide aipeanna</string>
     <string name="recents_clear_all">Glan gach rud</string>
+    <string name="add_desk_button_content_description">Cuir deasc nua leis</string>
     <string name="accessibility_recent_apps">Aipeanna le déanaí</string>
     <string name="task_contents_description_with_remaining_time"><xliff:g id="task_description" example="GMail">%1$s</xliff:g>, <xliff:g id="remaining_time" example="7 minutes left today">%2$s</xliff:g></string>
     <string name="shorter_duration_less_than_one_minute">&lt; 1 nóiméad</string>
@@ -87,7 +89,19 @@
     <string name="allset_hint">Svaidhpeáil suas le dul abhaile</string>
     <string name="allset_button_hint">Beartaigh an cnaipe baile chun dul chuig do scáileán baile</string>
     <string name="allset_description_generic">Tá tú réidh le tosú ag baint úsáide as do <xliff:g id="device" example="Pixel 6">%1$s</xliff:g></string>
+    <string name="allset_description_fallback">Tá tú réidh le tosú ag úsáid do ghléas</string>
     <string name="allset_navigation_settings"><annotation id="link">Socruithe nascleanúna córais</annotation></string>
+    <string name="allset_title_expressive">Tá do <xliff:g id="device" example="Pixel 9">%1$s</xliff:g> réidh!</string>
+    <string name="allset_title_expressive_fallback">Tá do ghléas réidh!</string>
+    <string name="allset_title_expressive_fixed">Tá tú réidh le dul ar aghaidh!</string>
+    <string name="allset_subtitle_expressive">Bain sult as do <xliff:g id="device" example="phone">%1$s</xliff:g> nua!</string>
+    <string name="allset_subtitle_expressive_gesture_navigation">Svaidhpeáil suas chun tús a chur le do <xliff:g id="device" example="phone">%1$s</xliff:g></string>
+    <string name="allset_subtitle_expressive_button_navigation">Tapáil chun tús a chur le do <xliff:g id="device" example="phone">%1$s</xliff:g></string>
+    <string name="allset_navigation_settings_expressive"><annotation id="link">Roghnaigh conas nascleanúint a dhéanamh</annotation></string>
+    <string name="allset_hint_expressive">Svaidhpeáil suas</string>
+    <string name="allset_button_hint_expressive">Beartaigh an cnaipe baile</string>
+    <string name="allset_device_type_tablet">táibléad</string>
+    <string name="allset_device_type_phone">guthán</string>
     <string name="action_share">Comhroinn</string>
     <string name="action_screenshot">Seat scáileáin</string>
     <string name="action_split">Scoilt</string>
@@ -100,6 +114,11 @@
     <string name="blocked_by_policy">Ní cheadaíonn an aip ná d\'eagraíocht an gníomh seo</string>
     <string name="split_widgets_not_supported">Ní thacaítear le giuirléidí faoi láthair, roghnaigh aip eile le do thoil</string>
     <string name="accessibility_rotate_button">Rothlaigh an scáileán</string>
+    <string name="taskbar_edu_swipe_animation_description">Beochan a thaispeánann conas a thagann an tascbharra i radharc ó bhun an scáileáin, agus a fholaíonn go huathoibríoch nuair nach bhfuil sé in úsáid.</string>
+    <string name="taskbar_edu_pinning_animation_description">Beochan a thaispeánann conas do thasc tasc a phionáil ag baint úsáide as lasc, ionas go bhfanfaidh an tasc tasc le feiceáil go buan ag bun an scáileáin.</string>
+    <string name="taskbar_edu_split_screen_animation_description">Beochan a thaispeánann conas scáileán scoilte a chruthú, trí aip a tharraingt agus a scaoileadh ón tascbharra os cionn aip oscailte</string>
+    <string name="taskbar_edu_suggested_app_animation_description">Beochan a thaispeánann conas rochtain a fháil ar aipeanna molta ar do ghléas</string>
+    <string name="taskbar_edu_suggested_search_animation_description">Beochan a thaispeánann conas mír a chuardach ar an scáileán, tríd an eochair ghníomhaíochta a theagmháil agus a shealbhú agus an limistéar ina bhfuil an mhír a roghnú</string>
     <string name="taskbar_edu_a11y_title">Oideachas tascbharra</string>
     <string name="taskbar_edu_splitscreen">Tarraing aip ar an taobh chun 2 aip a úsáid ag an am céanna</string>
     <string name="taskbar_edu_stashing">Svaidhpeáil suas go mall chun an Barra Tasc a thaispeáint</string>
@@ -124,6 +143,9 @@
     <string name="always_show_taskbar">Taispeáin an Barra Tasc i gcónaí</string>
     <string name="change_navigation_mode">Athraigh modh nascleanúna</string>
     <string name="taskbar_divider_a11y_title">Roinnteoir an Bharra Tasc</string>
+    <string name="taskbar_overflow_a11y_title">Aipeanna eile le déanaí</string>
+    <string name="app_added_to_taskbar">Aip curtha leis an Tascbharra</string>
+    <string name="app_removed_from_taskbar">Aip bainte den Tascbharra</string>
     <string name="move_drop_target_top_or_left">Bog go dtí an barr/ar chlé</string>
     <string name="move_drop_target_bottom_or_right">Bog go bun &amp; # 47;ar dheis</string>
     <string name="open_app_as_a_bubble">Oscail an aip mar bholgán</string>
@@ -155,5 +177,7 @@
     <string name="header_app_icon_description">Deilbhín aip</string>
     <string name="header_default_app_title">Teideal aip</string>
     <string name="header_close_icon_description">Cnaipe Dúnta</string>
+    <string name="nudge_a11y_title">Broid</string>
     <string name="nudge_a11y_close">Dún</string>
+    <string name="nudge_a11y_image">Íomhá broid</string>
 </resources>

@@ -18,6 +18,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_pairing_failure">Ní féidir péireáil</string>
     <string name="bluetooth_active_battery_level">Gníomhach. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_active_battery_level_untethered">Gníomhach. L:<xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>&gt; ceallraí.</string>
     <string name="bluetooth_active_battery_level_untethered_left">Gníomhach. L:<xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí.</string>
@@ -25,10 +26,17 @@
     <string name="bluetooth_battery_level_untethered">L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_battery_level_untethered_left">Ar chlé: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí</string>
     <string name="bluetooth_battery_level_untethered_right">Ar dheis: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí</string>
+    <string name="bluetooth_battery_level_untethered_case">Cás: ceallraí <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_left_case">Ar chlé: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Cás: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí</string>
+    <string name="bluetooth_battery_level_untethered_right_case">Ar dheis: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Cás: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí</string>
+    <string name="bluetooth_battery_level_untethered_left_right">Ar chlé: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Ar dheis: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí</string>
+    <string name="bluetooth_battery_level_untethered_left_case_right">L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, C: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%3$s</xliff:g> ceallraí</string>
     <string name="bluetooth_hearing_aid_left_active">Gníomhach (ar chlé amháin)</string>
     <string name="bluetooth_hearing_aid_right_active">Gníomhach (ar dheis amháin)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Gníomhach (ar chlé agus ar dheis)</string>
     <string name="bluetooth_hearing_device_ambient_error">Níorbh fhéidir an timpeallacht a nuashonrú</string>
+    <string name="bluetooth_hearing_aids_presets_error">Níorbh fhéidir an réamhshocrú a nuashonrú</string>
+    <string name="hearing_device_spinner_item_selected">Roghnaithe</string>
     <string name="bluetooth_active_media_only_battery_level">Gníomhach (na meáin amháin). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_active_media_only_battery_level_untethered">Gníomhach (na meáin amháin). L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_guest_battery_level">Gléas aoi. Ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g>.</string>
@@ -51,6 +59,7 @@
     <string name="bluetooth_hearing_aid_media_only_left_active">Gníomhach (na meáin amháin), fágtha amháin</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Gníomhach (meán amháin), dheis amháin</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Gníomhach (meáin amháin), ar chlé agus ar dheis</string>
+    <string name="select_logd_size_title">Méid maoláin logálaí</string>
     <string name="enable_linux_terminal_title">Timpeallacht forbartha linux</string>
     <string name="enable_linux_terminal_summary">(Turgnamhach) Rith teirminéal Linux ar Android</string>
     <string name="disable_linux_terminal_disclaimer">Má dhíchumasaítear tú, déanfar sonraí teirminéil Linux a ghlanadh</string>
@@ -73,6 +82,11 @@
     <string name="power_remaining_fast_charging_duration_only_v2">Iomlán faoi <xliff:g id="time">%1$s</xliff:g></string>
     <string name="battery_info_status_charging_fast_v2">Muirearú tapa</string>
     <string name="disabled_in_phone_call_text">Gan a bheith ar fáil le linn glaonna</string>
+    <string name="screen_zoom_summary_smallest">Is lú</string>
+    <string name="screen_zoom_summary_smaller">Níos lú</string>
+    <string name="screen_zoom_summary_very_large">An-mhór</string>
+    <string name="screen_zoom_summary_extra_large">An-mhór</string>
+    <string name="accessibility_screen_magnification_title">Formhéadú</string>
     <string name="zen_mode_do_not_disturb_name">Ná Cuir isteach</string>
     <string name="zen_mode_settings_title">Ná Cuir isteach</string>
     <string name="zen_mode_starred_contacts_empty_name">(Gan ainm)</string>

@@ -23,8 +23,13 @@
     other {Níl ach # gcéim fágtha agat sula mbeidh tú i do fhorbróir.}
 }</string>
     <string name="qr_code_content_description">Cóid QR</string>
+    <string name="preview_pager_home_title">Scáileán baile</string>
+    <string name="preview_pager_message_title">Teachtaireacht</string>
+    <string name="preview_pager_email_title">Ríomhphost</string>
     <string name="preview_pager_previous_button">Réamhamharc roimhe seo</string>
     <string name="preview_pager_next_button">An chéad réamhamharc eile</string>
+    <string name="font_size_make_smaller_desc">Laghdaigh méid an chló</string>
+    <string name="font_size_make_larger_desc">Méadaigh méid an chló</string>
     <string name="stay_awake_on_lockscreen_summary">Fill do ghuthán agus swipeáil suas ar an taispeáint tosaigh chun leanúint ar aghaidh ag úsáid an aip, nó fan cúpla soicind go nglacfaidh an scáileán. Leanfaidh cluichí agus aipeanna físe go huathoibríoch.</string>
     <string name="sleep_on_fold_summary">Casann an taispeáint tosaigh as agus glasálann tú nuair a fhilleann tú do</string>
     <string name="bluetooth_screen_auto_on_title">Cuir ar siúl go huathoibríoch amárach</string>
@@ -32,6 +37,9 @@
     <string name="bluetooth_hearing_device_settings_title">Socruithe gléas éisteachta</string>
     <string name="bluetooth_hearing_device_settings_summary">Aicearra, comhoiriúnacht cúnamh éisteachta</string>
     <string name="bluetooth_hearing_aids_presets">Réamhshocraithe</string>
+    <string name="bluetooth_hearing_aids_presets_left">Réamhshocrú Clé</string>
+    <string name="bluetooth_hearing_aids_presets_right">Réamhshocrú ar dheis</string>
+    <string name="bluetooth_hearing_aids_presets_binaural_summary">Ar chlé: <xliff:g id="preset_name" example="Outdoor">%1$s</xliff:g> Ar dheis: <xliff:g id="preset_name" example="Outdoor">%2$s</xliff:g></string>
     <string name="bluetooth_hearing_aids_presets_empty_list_message">Níl aon réamhshocruithe ríomhchláraithe ag d\'éisteolaí</string>
     <string name="bluetooth_hearing_aids_presets_error">Níorbh fhéidir an réamhshocrú a nuashonrú</string>
     <string name="bluetooth_ambient_volume_control">Timpeallacht</string>
@@ -48,21 +56,33 @@
     <string name="bluetooth_hearing_device_input_routing_dialog_summary">Roghnaigh micreafón le haghaidh glaonna.</string>
     <string name="bluetooth_hearing_device_input_routing_hearing_device_option">Micreafón cabhrach éisteachta</string>
     <string name="bluetooth_hearing_device_input_routing_builtin_option">Micreafón an ghutháin seo</string>
+    <string name="bluetooth_try_nearby_share_title">Bain triail as <xliff:g id="Nearby Sharing app label" example="Nearby Sharing">%s</xliff:g></string>
+    <string name="bluetooth_try_nearby_share_summary">An comhroinnt comhad is tapúla idir gléasanna Android, agus le ríomhairí pearsanta ag baint úsáide as ár n-aip <xliff:g id="Nearby Sharing app label" example="Nearby Sharing">%s</xliff:g> do Windows</string>
     <string name="bluetooth_audio_codec_default_selection">Úsáid Roghnú Córais (Réamhshocrú)</string>
+    <string name="shared_network_footer">Téigh i dteagmháil le húinéir an líonra nó le riarthóir gléis chun athruithe a dhéanamh ar an líonra seo.</string>
     <string name="proxy_port_label">Port seachfhreastalaí (roghnach)</string>
     <string name="proxy_hostname_label">Ainm óstach seachfhreastalaí (roghnach)</string>
     <string name="region_picker_title">Roghnaigh réigiún</string>
     <string name="region_picker_sub_title">Bíonn tionchar ag an réigiún a roghnaíonn tú ar an gcaoi a dtaispeánann do ghléas am, dátaí, teocht agus tuilleadh.</string>
     <string name="suggested_region_title">Molta</string>
     <string name="all_supported_region_title">Gach réigiún</string>
+    <string name="locale_picker_category_title">Teangacha is Fearr</string>
+    <string name="app_locale_picker_summary">Roghnaigh an teanga do gach aip</string>
     <string name="suggested_locales_title">Molta</string>
     <string name="more_supported_locales_title">Tuilleadh teangacha</string>
     <string name="all_supported_locales_regions_title">Gach réigiún</string>
     <string name="all_supported_numbering_system_title">Gach córas uimhrithe</string>
+    <string name="desc_app_locale_selection_supported">Roghnaigh an teanga do gach aip.</string>
+    <string name="desc_app_locale_selection_supported_with_disclaimer">Roghnaigh an teanga do gach aip. D’fhéadfadh an teanga a bheith difriúil ó na teangacha atá ar fáil san aip. B’fhéidir nach dtacaíonn roinnt aipeanna leis an socrú seo.</string>
+    <string name="desc_introduction_of_language_picker">Úsáideann do ghléas, d’aipeanna agus do shuíomhanna gréasáin an chéad teanga a dtacaítear léi ó do liosta teangacha is fearr leat.</string>
     <string name="title_change_system_region">Athraigh réigiún go %s?</string>
     <string name="desc_notice_device_region_change">Coinneoidh do ghléas %s mar theanga chórais</string>
     <string name="desc_notice_device_region_change_for_preferred_language">Cuirfear %1$s in ionad %2$s sna teangacha is fearr leat</string>
     <string name="title_change_system_locale">Athraigh teanga an chórais go %s?</string>
+    <string name="desc_notice_device_locale_and_region_settings_change">Úsáidfidh do ghléas <xliff:g id="language" example="English">%1$s</xliff:g> agus athrófar do réigiún go <xliff:g id="region" example="United States">%2$s</xliff:g>.</string>
+    <string name="dlg_desc_delete_preferred_default_locale">Bainfear <xliff:g id="removed_language" example="Français (France)">%s</xliff:g> as do rogha teangacha</string>
+    <string name="title_unavailable_locale">Ní féidir <xliff:g id="selected_language" example="Aghem">%s</xliff:g> a shocrú mar theanga an chórais</string>
+    <string name="desc_unavailable_locale">Ní thacaíonn do ghléas leis an teanga seo, ach beidh a fhios ag aipeanna gur fearr leat an teanga seo</string>
     <string name="language_and_region_title">Teanga &amp; réigiún</string>
     <string name="region_selection_title">Roghnaigh réigiún</string>
     <string name="numbering_system_selection_title">Córas Uimhreacha</string>
@@ -74,6 +94,7 @@
     <string name="title_change_system_locale_region">Athraigh an réigiún go <xliff:g id="system_language_region" example="Canada">%1$s</xliff:g>?</string>
     <string name="body_change_system_locale_region">Coinneoidh do ghléas <xliff:g id="system_language" example="English">%1$s</xliff:g> mar theanga chórais</string>
     <string name="top_intro_numbering_system_title">Roghnaigh conas a thaispeánann do ghléas, do shuíomhanna gréasáin agus d’aipeanna uimhreacha</string>
+    <string name="action_label_menu_option">Cuir liosta teangacha an chórais in eagar, <xliff:g id="selected_language" example="Béarla (Stáit Aontaithe Mheiriceá)">%s</xliff:g></string>
     <string name="measurement_system_preferences_title">Córas tomhais</string>
     <string name="metric_measurement_system">Méadrach</string>
     <string name="us_measurement_system">SAM</string>
@@ -90,11 +111,18 @@
     other {Bain na teangacha roghnaithe?}
 }</string>
     <string name="dlg_remove_system_locales_title">Athraigh teanga an chórais go %s?</string>
+    <string name="dlg_remove_locales_message">Cuir teangacha an chórais in eagar, <xliff:g id="selected_language" example=" Béarla (Stáit Mheiriceá)"> %s</xliff:g></string>
+    <string name="dlg_title_delete_preferred_locale">Bain <xliff:g id="removed_language" example="Français (France)">%s</xliff:g>?</string>
+    <string name="dlg_desc_delete_preferred_locale">Bainfear <xliff:g id="removed_language" example="Français (France)">%s</xliff:g> as do theangacha is fearr leat. Is féidir leat é a chur leis arís níos déanaí.</string>
+    <string name="process">Próiseas</string>
     <string name="date_time_auto">Dáta agus am uathoibríoch</string>
     <string name="date_time_auto_summary">Socraigh go huathoibríoch ag baint úsáide as do líonra agus comharthaí gan sreang</string>
     <string name="zone_auto_title">Crios ama uathoibríoch</string>
     <string name="zone_auto_title_summary">Socraigh go huathoibríoch bunaithe ar líonraí soghluaiste in aice leat</string>
     <string name="auto_zone_requires_location_summary">Socraigh go huathoibríoch ag baint úsáide as suíomh do ghléis, má tá sé ar fáil</string>
+    <string name="date_time_search_time_zone">Cuardaigh crios ama</string>
+    <string name="date_time_select_fixed_offset_time_zones">Fritháireamh GMT</string>
+    <string name="zone_menu_by_offset">Roghnaigh de réir fritháireamh GMT</string>
     <string name="time_feedback_category_title">Aiseolas</string>
     <string name="keywords_time_feedback_category">aiseolas, fabht, am, crios, crios ama</string>
     <string name="time_feedback_title">Seol aiseolas faoi am</string>
@@ -109,6 +137,11 @@
 }</string>
     <string name="location_settings_footer_general">      Is féidir le feidhmchláir a bhfuil cead feistí in aice láimhe acu an
        suíomh coibhneasta na bhfeistí nasctha.
+    </string>
+    <string name="location_settings_footer_location_off_with_telephony">        Tá rochtain suímh múchta d’aipeanna agus do sheirbhísí. Féadfar suíomh do ghléis a sheoladh chuig freagróirí
+         éigeandála fós nuair a dhéanann tú teagmháil le huimhir éigeandála.
+    </string>
+    <string name="location_settings_footer_location_off_no_telephony">        Tá rochtain suímh múchta d\'aipeanna agus do sheirbhísí.
     </string>
     <string name="location_settings_tooltip_text_for_chrome">        Chun athrú téigh go Socruithe ChromeOS&gt;; Príobháideacht agus slándáil&gt;; rialuithe príobháideachais&gt;; Rochtain suímh
     </string>
@@ -130,6 +163,8 @@
     =1 {Cuireadh méarlorg leis}
     other {Cuireadh # méarloirg leis}
 }</string>
+    <string name="security_settings_fingerprint_rename_description">Tapáil faoi dhó chun athainmniú</string>
+    <string name="security_settings_fingerprint_recognition_description">Aithníodh <xliff:g id="fp_name" example="Méar 1">%1$s</xliff:g></string>
     <string name="fingerprint_check_enroll_touch_sensor">Déan teagmháil leis an braiteoir méarloirg</string>
     <string name="fingerprint_check_enroll_not_recognized">Níor aithníodh méarlorg</string>
     <string name="security_settings_activeunlock">Faire</string>
@@ -305,6 +340,8 @@
         other   {# gníomhaire iontaofa gníomhacha}
         }</string>
     <string name="bluetooth_pairing_confirmation_title">Seiceáil cóid phéireála</string>
+    <string name="bluetooth_pairing_confirmation_msg">Seiceáil an bhfuil an cód seo ag teacht leis an gceann atá ar <xliff:g id="device_name">%1$s</xliff:g>.\n\nAr mhaithe le do shlándáil, ná cuir an cód seo isteach in áit ar bith.</string>
+    <string name="bluetooth_disconnecting">Ag dícheangal</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available">Nuair a bhíonn Bluetooth air, is féidir le do ghléas cumarsáid a dhéanamh le gléasanna Bluetooth eile in aice láimhe. Úsáideann gnéithe cosúil le Quick Share agus Find My Device Bluetooth.</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available">Nuair a bhíonn Bluetooth ar siúl, is féidir le do ghléas cumarsáid a dhéanamh le gléasanna Bluetooth eile in aice láimhe. Úsáideann gnéithe cosúil le Quick Share agus Find My Device Bluetooth.\n\nIs féidir le haipeanna agus seirbhísí scanadh fós le haghaidh gléasanna in aice láimhe ag am ar bith, fiú nuair a bhíonn Bluetooth múchta. Is féidir é seo a úsáid, mar shampla, chun gnéithe agus seirbhísí bunaithe ar shuíomh a fheabhsú. Is féidir leat é seo a athrú i socruithe scanadh Bluetooth.</string>
     <string name="bluetooth_key_missing_title">Ní féidir ceangal le <xliff:g id="device_name">%1$s</xliff:g></string>
@@ -314,17 +351,37 @@
     <string name="bluetooth_device_more_settings_preference_summary">Nuashonruithe firmware, faoi, agus tuilleadh</string>
     <string name="device_details_battery_charging">Ceallraí, muirearú</string>
     <string name="device_details_key_missing_title">Bain triail as <xliff:g id="device_name">%1$s</xliff:g> a atosú. Mura n-oibríonn sin, déan dearmad ar an ngléas. Ar mhaithe le do shlándáil, ná péireáil arís é ach nuair nach bhfuil tú i spás poiblí.\n\nMura bhfuil an gléas seo in aice láimhe, ní gá duit aon rud a dhéanamh.</string>
+    <string name="verbose_printer_logging_title">Logáil phriontála foclach</string>
+    <string name="verbose_printer_logging_summary">Logaí dífhabhtaithe breise, lena n-áirítear Prótacal Priontála Idirlín (IPP) a d’fhéadfadh faisnéis phríobháideach a bheith iontu.</string>
+    <string name="external_display_settings_title">Taispeántais sheachtracha</string>
     <string name="builtin_display_settings_category">Taispeántas ionsuite</string>
+    <string name="builtin_display_settings_universal_cursor_title">Cúrsóir uilíoch</string>
+    <string name="builtin_display_settings_universal_cursor_description">Bog do luch idir taispeántais</string>
     <string name="external_display_use_title">Úsáid taispeáint seachtrach</string>
     <string name="external_display_resolution_settings_title">Taifeach taispeána</string>
+    <string name="external_display_connection_preference">Iompar réamhshocraithe nasc</string>
+    <string name="external_display_connection_preference_desktop">Úsáid mar thaispeántas ar leithligh</string>
     <string name="external_display_connection_preference_mirroring">Taispeántas scátháin ionsuite</string>
+    <string name="external_display_connection_preference_show_dialog">Taispeáin dialóg nasc</string>
     <string name="external_display_not_found">Tá taispeáint sheachtrach dícheangailte</string>
     <string name="external_display_rotation">Rothlú</string>
     <string name="external_display_rotation_90">90°</string>
     <string name="external_display_rotation_180">180°</string>
     <string name="external_display_rotation_270">270°</string>
     <string name="external_display_change_resolution_footer_title">Má dhéantar rothlú nó taifeach a athrú, d\'fhéadfadh sé go stopfadh aipeanna ar bith atá ag rith faoi láthair</string>
+    <string name="external_display_not_found_footer_title">Gan aon taispeáint ceangailte\n\nCeangail taispeáint sheachtrach le tosú, nó bain triail as cábla difriúil</string>
+    <string name="external_display_no_display_connected_screen_title">Níl aon taispeáint ceangailte</string>
+    <string name="external_display_no_display_connected_screen_summary">Ceangail taispeáint sheachtrach le tosú, nó bain triail as cábla difriúil</string>
+    <string name="external_display_topology_hint">Coinnigh agus tarraing chun taispeántais a athshocrú</string>
     <string name="external_display_mirroring_title">Taispeántas scátháin ionsuite</string>
+    <string name="external_display_resolution_change_dialog_title">Úsáid socruithe nua?</string>
+    <string name="external_display_resolution_change_dialog_description">Mura bhfuil do thaispeántas ag obair mar is mian leat, is féidir leat filleadh ar do shocruithe roimhe seo.</string>
+    <string name="external_display_resolution_change_dialog_confirm">Úsáid socruithe</string>
+    <string name="external_display_topology_display_block_content_description">Taispeáin: %1$s. Tapáil faoi dhó agus coinnigh síos chun tarraingt nó chun gníomhartha a fheiceáil le bogadh.</string>
+    <string name="external_display_topology_a11y_action_move_left">Bog ar chlé</string>
+    <string name="external_display_topology_a11y_action_move_right">Bog ar dheis</string>
+    <string name="wifi_display_settings_title">Google Cast</string>
+    <string name="wifi_networks_category">Líonraí</string>
     <string name="wifi_settings_warning_wep_network">Úsáideann an líonra seo prótacal slándála níos sine ar a dtugtar WEP, nach bhfuil chomh slán sin</string>
     <string name="wifi_settings_wep_networks_summary_blocked_by_carrier">Ní cheadaíonn d\'iompróir duit ceangal leis an líonra seo toisc go n-úsáideann sé prótacal slándála níos sine ar a dtugtar WEP, nach bhfuil chomh slán sin</string>
     <string name="wifi_settings_wep_networks_disconnect_title">Stop líonraí WEP a cheadú?</string>
@@ -335,7 +392,21 @@
     <string name="wifi_password_invalid">Tá an focal faire neamhbhailí</string>
     <string name="wifi_dpp_check_connection_no_matched_ssid">Níl an líonra Wi\u2011Fi seo ar fáil faoi láthair</string>
     <string name="wifi_dpp_check_connection_no_matched_security">\u2019s fadhb leis an gcód QR seo. Bain triail as nascadh ar bhealach eile.</string>
+    <string name="shared_message">roinnte</string>
+    <string name="private_message">príobháideach</string>
+    <string name="wifi_share_preference_title">Is líonra comhroinnte é seo</string>
+    <string name="wifi_share_preference_summary">Beidh gach úsáideoir, seachas úsáideoirí aoi, in ann an líonra seo a fheiceáil, a chur in eagar agus a scriosadh.</string>
+    <string name="wifi_conflict_dialog_title">Athraigh go líonra <xliff:g id="shared">%1$s</xliff:g> \"<xliff:g id="network_name">%2$s</xliff:g>\"?</string>
+    <string name="wifi_conflict_dialog_message">Tá tú ceangailte faoi láthair le líonra <xliff:g id="shared">%1$s</xliff:g> leis an ainm céanna. Nuair a athraíonn tú, dícheanglóidh tú ón líonra <xliff:g id="shared">%2$s</xliff:g> agus ansin athcheanglóidh tú leis an líonra <xliff:g id="private">%3$s</xliff:g>. B’fhéidir nach mbeidh aon idirlíon agat go sealadach.</string>
+    <string name="wifi_allow_edit_configuration_title">Ceadaigh d\'úsáideoirí eile cumraíocht líonra a chur in eagar</string>
     <string name="wifi_field_required">*riachtanach</string>
+    <string name="wifi_shared_network_login_screen_warning">Is líonra comhroinnte é seo. Is féidir leat an socrú seo a athrú nuair a bheidh tú logáilte isteach.</string>
+    <string name="share_wifi_network">Comhroinn an líonra seo le húsáideoirí gléasanna eile</string>
+    <string name="share_wifi_network_summary">Is féidir le gach úsáideoir ar an ngléas seo líonra comhroinnte a fheiceáil agus ceangal leis. Is féidir le riarthóirí líonra comhroinnte a scriosadh. Foghlaim tuilleadh</string>
+    <string name="edit_wifi_network_configuration">Ceadaigh d\'úsáideoirí eile cumraíocht líonra a chur in eagar</string>
+    <string name="edit_wifi_network_non_owner_message">Téigh i dteagmháil le riarthóir an ghléis seo chun athruithe a dhéanamh ar an líonra seo.</string>
+    <string name="shared_wifi_forget_dialog_title">Dearmad a dhéanamh ar gach úsáideoir gléis?</string>
+    <string name="shared_wifi_forget_dialog_message">Úsáideann úsáideoirí eile <xliff:g id="network_name">%1$s</xliff:g> ar an ngléas seo, agus beidh ar gach úsáideoir den líonra seo é a shocrú arís. Ar mhaith leat dearmad a dhéanamh air fós?</string>
     <string name="wifi_saved_access_points_summary">{count, plural,
         one {}
         two {# líonraí}
@@ -362,17 +433,61 @@
     <string name="wifi_certificate_summary_pinning">Teastas a phinniú</string>
     <string name="wep_network_less_secure_warning_title">Úsáideann an líonra seo prótacal slándála níos sine ar a dtugtar WEP, atá chomh slán</string>
     <string name="server_name_title">Ainm freastalaí</string>
+    <string name="ethernet_dns1">DNS 1 (mura sáraítear é le DNS príobháideach)</string>
+    <string name="ethernet_dns2">DNS 2 (mura sáraítear é le DNS príobháideach)</string>
+    <string name="ethernet_config_submit">Cuir isteach</string>
+    <string name="ethernet_config_title">Socruithe Eitirnéid</string>
     <string name="private_dns_title">Ainm óstach</string>
     <string name="private_dns_field_require">Tá an réimse riachtanach</string>
     <string name="private_dns_hostname_invalid">Níl an t-ainm óstach a chlóscríobh tú bailí</string>
     <string name="screen_resolution_option_full">Taifeach uasta</string>
     <string name="screen_resolution_footer">Úsáideann taifeach uasta níos mó de do cheallraí. Seans go n-atosóidh roinnt aipeanna má athraítear do thaifeach.</string>
     <string name="screen_resolution_delimiter_a11y"><xliff:g id="width">%1$s</xliff:g> ag <xliff:g id="height">%2$s</xliff:g></string>
+    <string name="hdr_brightness_title">Gile HDR feabhsaithe</string>
+    <string name="hdr_brightness_standard_image_label">Íomhá chaighdeánach</string>
+    <string name="hdr_brightness_hdr_image_label">Íomhá HDR</string>
+    <string name="hdr_brightness_warning">Ní dhéanann an socrú seo difear ach d’íomhánna agus físeáin a thacaíonn le Raon Arddinimiciúil (HDR).</string>
+    <string name="hdr_brightness_slider_description">Déine, déan an déine níos laige nó níos gile.</string>
     <string name="twilight_mode_pending_location">Tá seirbhísí suímh gníomhach. Gníomhófar an sceideal a luaithe a chinnfear an suíomh.</string>
     <string name="dark_ui_summary_off_auto_mode_modes">Cuirfear ar siúl é nuair a thosóidh <xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
     <string name="dark_ui_summary_on_auto_mode_modes">Múchfar é nuair a chríochnóidh<xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
     <string name="dark_ui_text_force_invert">Bain úsáid as cúlra dorcha chun do scáileán a dhéanamh níos compordaí le feiceáil agus chun úsáid ceallraí a laghdú ar roinnt scáileáin. Athróidh do théama má tá sceideal agat, nuair a bhíonn an scáileán múchta.</string>
+    <string name="dark_ui_modes_footer_summary">{count, plural, offset:2
+        =0    {Is féidir le módanna téama dorcha a chur ar siúl freisin}
+        one {}
+        two {{mode_1}, {mode_2}, agus # cinn eile a chuireann téama dorcha ar siúl freisin}
+        few {{mode_1}, {mode_2}, agus # cinn eile a chuireann téama dorcha ar siúl freisin}
+        many {{mode_1}, {mode_2}, agus # cinn eile a chuireann téama dorcha ar siúl freisin}
+        =1    {{mode_1} a chuireann téama dorcha ar siúl freisin}
+        =2    {{mode_1} agus {mode_2} a chuireann téama dorcha ar siúl freisin}
+        =3    {{mode_1}, {mode_2}, agus {mode_3} a chuireann téama dorcha ar siúl freisin}
+        other {{mode_1}, {mode_2}, agus # cinn eile a chuireann téama dorcha ar siúl freisin}
+        }</string>
     <string name="dark_ui_modes_footer_action">Socruithe mód</string>
+    <string name="hdr_brigtness_text">Gealaigh agus leathnaigh an raon dathanna agus an soiléireacht in íomhánna agus físeáin Ard-Raon Dinimiciúil (HDR). Beidh cuma níos gile ar ábhar HDR.</string>
+    <string name="screensaver_settings_summary_postured">Agus tú ina seasamh</string>
+    <string name="screensaver_settings_summary_postured_and_charging">Agus é ina sheasamh agus ag muirearú</string>
+    <string name="screensaver_settings_low_light_mode">Mód solais íseal</string>
+    <string name="screensaver_restrict_to_wireless_charging_title">Srian le muirearú gan sreang</string>
+    <string name="blur_switch">Laghdaigh éifeachtaí doiléire</string>
+    <string name="blur_switch_summary">Déan cúlraí agus painéil níos éasca le feiceáil</string>
+    <string name="low_light_display_behavior_main_switch_title">Úsáid mód Solais Íseal</string>
+    <string name="low_light_display_behavior_subtitle">Roghnaigh cad atá le taispeáint i mód Solais Íseal</string>
+    <string name="low_light_display_behavior_screen_off">Scáileán múchta</string>
+    <string name="low_light_display_behavior_low_light_clock_dream">Clog solais íseal</string>
+    <string name="low_light_display_behavior_summary_on">        Ar siúl / <xliff:g id="low_light_mode" example="Scáileán múchta">%1$s</xliff:g>
+    </string>
+    <string name="low_light_display_behavior_screen_off_full_summary">Múchfaidh an scáileán nuair a bhíonn do thimpeallacht dorcha</string>
+    <string name="low_light_display_behavior_low_light_clock_dream_full_summary">Taispeánfaidh Clog Solais Íseal nuair a bhíonn do thimpeallacht dorcha</string>
+    <string name="doze_always_on_title2">Taispeántas i gcónaí</string>
+    <string name="doze_always_on_summary_with_wallpaper">Taispeáin páipéar balla an scáileáin ghlasála nuair a bhíonn an scáileán múchta</string>
+    <string name="doze_always_on_summary_without_wallpaper">Folaigh páipéar balla an scáileáin ghlasála nuair a bhíonn an scáileán múchta</string>
+    <string name="doze_always_on_summary_long">Taispeánann an taispeáint i gcónaí an t-am, an dáta agus tuilleadh nuair a bhíonn an scáileán múchta</string>
+    <string name="doze_always_on_wallpaper_options">Roghanna cúlbhrat</string>
+    <string name="doze_always_on_wallpaper_title">Taispeáin cúlbhrat an scáileáin ghlasála</string>
+    <string name="doze_always_on_wallpaper_description">Tá páipéar balla an scáileáin ghlas le feiceáil leis an taispeáint i gcónaí ar siúl</string>
+    <string name="category_title_display_text_size">Roghanna méide</string>
+    <string name="category_title_text_style">Roghanna stíl</string>
     <string name="sim_preferred_message">Is é <xliff:g id="new_sim">%1$s</xliff:g> do phríomh SIM anois</string>
     <string name="wrong_pin_code">{count, plural,
     =1 {Cód PIN an SIM mícheart, tá # iarracht fágtha agat sula mbeidh ort dul i dteagmháil le d’oibreoir chun do ghléas a dhíghlasáil.}
@@ -415,7 +530,12 @@
          \n\nBain triail as<xliff:g id="name" example="SD card">^3</xliff:g>a úsáid, nó bain úsáid as an <xliff:g id="name" example="SD card">^4</xliff:g> le haghaidh stórála iniompartha ina ionad sin.</string>
     <string name="hub_mode_category_title">Mód mol</string>
     <string name="widgets_on_lockscreen_title">Giuirléidí ar an scáileán glasála</string>
+    <string name="widgets_on_lockscreen_footer">Chun rochtain a fháil ar do ghiuirléidí is fearr leat, svaidhpeáil ar chlé ó do Scáileán Glasála.
+        \n\nNuair a osclaíonn tú aip ag baint úsáide as giuirléid, beidh ort a fhíorú gur tusa atá ann. Coinnigh i gcuimhne freisin gur féidir le duine ar bith iad a fheiceáil.</string>
+    <string name="settings_beta_tag">Béite</string>
     <string name="when_to_auto_show_hubmode_title">Cathain a thaispeántar go huathoibríoch</string>
+    <string name="when_to_show_hubmode_charging_and_upright">Agus é ina sheasamh agus ag muirearú</string>
+    <string name="hub_restrict_to_wireless_charging_title">Srian le muirearú gan sreang</string>
     <string name="error_apn_type_empty">Is féidir leis an gcineál APN a bheith folamh.</string>
     <string name="reset_private_space_delete_dialog">Má tá spás príobháideach agat ar do ghléas, scriosfar go buan é agus bainfear an Cuntas Google a cuireadh le do spás. \n\nDéanfar gach aip i do spás agus a sonraí a scriosadh go buan freisin ó <b>stóráil inmheánach</b> do ghutháin.</string>
     <string name="ethernet_mac_address_title">Seoladh MAC</string>
@@ -436,6 +556,16 @@
     <string name="time_zone_change_notifications_toggle_title">Athrú crios ama</string>
     <string name="time_zone_change_notifications_toggle_summary">Faigh fógra nuair a dhéantar do chrios ama a nuashonrú go huathoibríoch</string>
     <string name="keywords_time_notification_category">fógra, am, crios, crios ama</string>
+    <string name="lockpassword_confirm_your_password_header">Cuir isteach pasfhocal do ghléis</string>
+    <string name="lockpassword_confirm_your_pattern_header">Cuir isteach patrún do ghléis</string>
+    <string name="lockpassword_confirm_your_pin_header">Cuir isteach PIN do ghléis</string>
+    <string name="lockpassword_confirm_your_pattern_generic">Deimhníonn do phatrún gur tusa atá ann</string>
+    <string name="lockpassword_confirm_your_pin_generic">Deimhníonn do PIN gur tusa atá ann</string>
+    <string name="lockpassword_confirm_your_password_generic">Deimhníonn do phasfhocal gur tusa atá ann</string>
+    <string name="lockpassword_confirm_your_pattern_generic_profile">Deimhníonn do phatrún oibre gur tusa atá ann</string>
+    <string name="lockpassword_confirm_your_pin_generic_profile">Deimhníonn do PIN oibre gur tusa atá ann</string>
+    <string name="lockpassword_confirm_your_password_generic_profile">Deimhníonn do phasfhocal oibre gur tusa atá ann</string>
+    <string name="lockpattern_recording_inprogress_click">Ceangail ar a laghad <xliff:g id="number">%d</xliff:g> poncanna</string>
     <string name="see_all_apps_title">{count, plural,
     =1 {Féach ar gach aip}
     other {Féach ar gach {count} aip}
@@ -449,6 +579,7 @@
 }</string>
     <string name="screen_compatibility_text">Seans nach bhfuil an aip seo deartha do do scáileán. Is féidir leat a rialú conas é
         a choigeartú le do scáileán anseo.</string>
+    <string name="no_applications">Gan aon aipeanna comhoiriúnacha</string>
     <string name="app_install_details_different_initiating_package_summary">Suiteáilte aip ó <xliff:g id="app_store1">%1$s</xliff:g> (trí <xliff:g id="app_store2">%2$s</xliff:g>)</string>
     <string name="language_and_region_settings">Teanga &amp; réigiún</string>
     <string name="spellchecker_security_warning">Seans go mbeidh an litreoir seo in ann bailiú
@@ -461,16 +592,31 @@
     <string name="bounce_keys_dialog_title">Moill ar an eochair phreabtha</string>
     <string name="bounce_keys_dialog_subtitle">Roghnaigh cé chomh fada is a dhéanfaidh an méarchlár neamhaird ar bhrúnna eochracha arís agus arís eile</string>
     <string name="input_setting_keys_dialog_option_400">0.4 soicind</string>
+    <string name="input_setting_keys_dialog_option_custom"><xliff:g id="threshold" example="0.7">%.1f</xliff:g> soicind</string>
     <string name="input_setting_keys_custom_value">luach saincheaptha</string>
     <string name="input_setting_bounce_keys_seekbar_desc">Am tairseach eochrach preabtha</string>
     <string name="input_setting_slow_keys_seekbar_desc">Am tairseach eochrach mall</string>
     <string name="slow_keys_summary">Athraigh cé chomh fada is gá duit eochair a choinneáil síos sula gcláraítear í</string>
     <string name="mouse_keys">Eochracha luch</string>
     <string name="mouse_keys_main_title">Bain úsáid as eochracha luiche</string>
+    <string name="accessibility_mouse_keys_shortcut_title">Aicearra eochracha luiche</string>
+    <string name="mouse_keys_summary">Bain úsáid as do mhéarchlár chun an cúrsóir a rialú</string>
+    <string name="mouse_keys_max_speed_title">Luas</string>
+    <string name="mouse_keys_seek_bar_decrease_button_description">Laghdaigh</string>
+    <string name="mouse_keys_seek_bar_increase_button_description">Méadaigh</string>
+    <string name="mouse_keys_use_primary_keys_title">Úsáid príomheochracha</string>
+    <string name="mouse_keys_use_primary_keys_summary">Rialú an méarchlár le litreacha agus uimhreacha in ionad an eochaircheap uimhriúil</string>
+    <string name="mouse_keys_primary_keys_image_list_title">Conas eochracha príomhúla a úsáid</string>
+    <string name="mouse_keys_numpad_keys_image_list_title">Conas méarchlár uimhriúil a úsáid</string>
+    <string name="mouse_keys_numpad_keys_image_list_summary">Úsáidfear an méarchlár uimhriúil i gcónaí nuair a bhíonn Uimhirghlas (Num Lock) ar siúl.</string>
     <string name="mouse_reverse_vertical_scrolling_summary">Scrollaigh suas chun an leathanach a bhogadh síos</string>
     <string name="mouse_scrolling_category_title">Scrolláil</string>
     <string name="mouse_scrolling_acceleration">Scrolláil rialaithe</string>
     <string name="mouse_scrolling_speed">Luas scrollaigh</string>
+    <string name="mouse_scrolling_speed_make_faster_description">Déan scrollú níos tapúla</string>
+    <string name="mouse_scrolling_speed_make_slower_description">Déan an scrollú níos moille</string>
+    <string name="mouse_pointer_speed_make_faster_desc">Déan pointeoir níos tapúla</string>
+    <string name="mouse_pointer_speed_make_slower_desc">Déan an pointeoir níos moille</string>
     <string name="mouse_swap_primary_button">Malartaigh cnaipe luiche príomhúil</string>
     <string name="mouse_swap_primary_button_summary">Bain úsáid as an cnaipe luiche ar chlé mar do dheis</string>
     <string name="mouse_pointer_acceleration">Luasghéarú cúrsóra</string>
@@ -482,11 +628,18 @@
     <string name="mouse_keys_release_summary">Úsáid an eochair \"<xliff:g id="release_label" example=",">%s</xliff:g>\" chun an príomhchnaipe luiche a scaoileadh</string>
     <string name="mouse_keys_toggle_scroll_summary">Úsáid an eochair \"<xliff:g id="release_label_1" example=".">%1$s</xliff:g>\" chun an modh scrollaigh a athrú. Cuirfidh sé seo na heochracha \"<xliff:g id="release_label_2" example="8, k, o, u">%2$s</xliff:g>\" ag scrollú an radhairc ó bharr, síos, ar chlé nó ar dheis.</string>
     <string name="mouse_keys_release2_summary">Úsáid an eochair \"<xliff:g id="release_2_label" example="/">%s</xliff:g>\" chun cliceáil ar an gcnaipe luiche tánaisteach</string>
+    <string name="mouse_keys_acceleration_seekbar_title">Luasghéarú</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc">Tapa</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc">Mall</string>
     <string name="keyboard_shortcuts_helper">Féach ar aicearraí méarchláir</string>
     <string name="mouse_settings">Luch</string>
+    <string name="mouse_settings_summary">Luas pointeora, saincheapadh cnaipe</string>
     <string name="trackpad_tap_dragging_title">Tapáil agus tarraing chun míreanna a bhogadh</string>
+    <string name="trackpad_tap_dragging_summary">Tapáil faoi dhó agus tarraing do mhéar ar an touchpad chun rudaí a bhogadh</string>
     <string name="trackpad_bottom_right_tap_title">Cliceáil ag bun ar dheis</string>
     <string name="trackpad_bottom_right_tap_summary">Cliceáil sa chúinne ag bun ar dheis an ceap tadhaill le haghaidh tuilleadh roghanna</string>
+    <string name="trackpad_pointer_speed_make_faster_desc">Déan pointeoir níos tapúla</string>
+    <string name="trackpad_pointer_speed_make_slower_desc">Déan an pointeoir níos moille</string>
     <string name="three_finger_tap_preference_title">Bain úsáid as tapáil trí mhéar</string>
     <string name="touchpad_acceleration_title">Luasghéarú an tadhaill-chláir</string>
     <string name="touchpad_acceleration_summary">Bogfaidh gluaiseachtaí níos tapúla ar do theagmhéadán an cúrsóir níos faide</string>
@@ -500,16 +653,42 @@
     <string name="pointer_stroke_style">Dath stróc pointeora</string>
     <string name="three_finger_tap_middle_click">Cnaipe lár na luiche</string>
     <string name="three_finger_tap_launch_gemini">Lainseáil Cúntóir</string>
+    <string name="three_finger_tap_launch_default_assistant">Lainseáil <xliff:g id="app_name" example="Assistant">%s</xliff:g></string>
+    <string name="three_finger_tap_launch_generic_assistant_name">Cúntóir</string>
+    <string name="three_finger_tap_launch_app_title">Oscail aip eile</string>
+    <string name="three_finger_tap_launch_app_summary">Roghnaigh ó liosta aipeanna suiteáilte</string>
+    <string name="action_corner_title">Saincheap aicearraí cúinne</string>
+    <string name="action_corner_summary">Bain úsáid as cúrsóirí chun nascleanúint a dhéanamh ar an gcóras</string>
+    <string name="action_corner_intro">Roghnaigh na réimsí seo a leanas chun aicearraí cúinne a shaincheapadh</string>
+    <string name="action_corner_bottom_left_title">Cúinne íochtarach ar chlé</string>
+    <string name="action_corner_bottom_right_title">Cúinne íochtarach ar dheis</string>
+    <string name="action_corner_top_left_title">Cúinne uachtarach ar chlé</string>
+    <string name="action_corner_top_right_title">Cúinne uachtarach ar dheis</string>
+    <string name="action_corner_action_home">Baile</string>
+    <string name="action_corner_action_quick_settings">Socruithe tapa</string>
+    <string name="action_corner_action_dialog_title">Roghnaigh aicearra don <xliff:g id="corner">%1$s</xliff:g></string>
+    <string name="action_corner_bottom_left_name">cúinne bun ar chlé</string>
+    <string name="action_corner_bottom_right_name">cúinne íochtarach ar dheis</string>
+    <string name="action_corner_top_left_name">cúinne uachtarach ar chlé</string>
+    <string name="action_corner_top_right_name">cúinne uachtarach ar dheis</string>
     <string name="keyboard_a11y_settings">Inrochtaineacht mhéarchláir fhisiciúil</string>
     <string name="keyboard_a11y_settings_summary">Eochracha greamaitheacha, eochracha Preab, eochracha Luiche</string>
     <string name="keyboard_repeat_keys_title">Eochracha arís</string>
     <string name="keyboard_repeat_keys_timeout_title">Moill roimh an athuair</string>
+    <string name="keyboard_repeat_keys_increase_delay_desc">Méadaigh an mhoill</string>
+    <string name="keyboard_repeat_keys_decrease_delay_desc">Laghdaigh an mhoill</string>
+    <string name="keyboard_repeat_keys_delay_title">Ráta athrá</string>
     <string name="keyboard_repeat_keys_summary">Coinnigh síos eochair chun a charachtar a dhéanamh arís go dtí go scaoiltear an eochair</string>
+    <string name="keyboard_repeat_keys_increase_rate_desc">Méadaigh an ráta athrá</string>
+    <string name="keyboard_repeat_keys_decrease_rate_desc">Laghdaigh an ráta athrá</string>
     <string name="speech_preference_summary">Rialú aitheantais agus aschuir urlabhra</string>
     <string name="pointer_scale">Méid an chúrsóra</string>
     <string name="pointer_scale_decrease_content_description">Scála pointeoir a laghdú</string>
     <string name="pointer_scale_increase_content_description">Scála pointeoir a mhéadú</string>
     <string name="pointer_scale_keywords">scála, méid, Scála pointeora, Méid an phointeora, pointeoir luiche mór, Mór, faoi deara</string>
+    <string name="phone_information_v2_title">Faisnéis Teileafóin L2</string>
+    <string name="accessibility_color_and_motion_title">Dath &amp; gluaiseacht</string>
+    <string name="accessibility_color_and_motion_subtext">Téama dorcha, ceartú datha, bain beochan</string>
     <string name="accessibility_pointer_and_touchpad_title">Inrochtaineacht cúrsóra &amp; ceap tadhaill</string>
     <string name="accessibility_pointer_and_touchpad_summary">Méid, dath, cineál</string>
     <string name="accessibility_pointer_color_customization_title">Dath an chúrsóra</string>
@@ -518,6 +697,17 @@
     <string name="accessibility_touchpad_system_gestures_enable_summary">Nuair a bhíonn sé múchta, déanfaidh do phainéal tadhaill neamhaird ar ghluaiseachtaí 3 nó 4 mhéar</string>
     <string name="color_contrast_preview_email_body">Le haghaidh tuilleadh cúnaimh, téigh i dteagmháil liom féin nó le Helen. Beidh an tuarascáil seo</string>
     <string name="color_contrast_about_title">Maidir le codarsnacht datha</string>
+    <string name="accessibility_tap_assistance_subtext">Moill tadhaill &amp; coinnigh, am chun gníomhú</string>
+    <string name="accessibility_system_controls_subtext">Mód nascleanúna, mód aonláimhe, rothlú scáileáin</string>
+    <string name="accessibility_system_controls_subtext_one_handed_not_supported">Mód nascleanúna, rothlú scáileáin</string>
+    <string name="accessibility_send_survey_title">Glac páirt sa suirbhé</string>
+    <string name="accessibility_send_survey_notification_channel">Suirbhé Inrochtaineachta</string>
+    <string name="dark_theme_survey_notification_title">Roinn d’aiseolas</string>
+    <string name="dark_theme_survey_notification_summary">Cé chomh sásta atá tú leis an téama dorcha?</string>
+    <string name="dark_theme_survey_notification_action">Glac páirt sa suirbhé</string>
+    <string name="magnification_survey_notification_title">Roinn d’aiseolas</string>
+    <string name="magnification_survey_notification_summary">Cé chomh sásta atá tú leis an méadú?</string>
+    <string name="magnification_survey_notification_action">Glac páirt sa suirbhé</string>
     <string name="bt_stack_log_level">Cumasaigh log cruach Bluetooth</string>
     <string name="bt_stack_log_level_summary">Athraigh leibhéal loga Logáil Stáit Bluetooth (Toggle Bluetooth tar éis an socrú seo a athrú)</string>
     <string name="accessibility_magnification_cursor_following_title">Cúrsóir ag leanúint</string>
@@ -526,13 +716,52 @@
     <string name="accessibility_magnification_cursor_following_continuous">Bog an scáileán go leanúnach de réir mar a ghluaiseann an luch</string>
     <string name="accessibility_magnification_cursor_following_center">Bog an scáileán agus an luch i lár an scáileáin</string>
     <string name="accessibility_magnification_cursor_following_edge">Bog an scáileán nuair a dhéanann an luch teagmháil le himill an scáileáin</string>
+    <string name="accessibility_screen_magnification_follow_typing_title">Lean an clóscríobh</string>
+    <string name="accessibility_screen_magnification_follow_typing_summary">Leanann an formhéadaitheoir téacs agus tú ag clóscríobh</string>
+    <string name="accessibility_screen_magnification_follow_keyboard_title">Lean fócas an mhéarchláir</string>
+    <string name="accessibility_screen_magnification_follow_keyboard_summary">Leanann an formhéadaitheoir an mhír atá dírithe uirthi agus tú ag nascleanúint le do mhéarchlár</string>
+    <string name="accessibility_screen_magnification_nav_ime_title">Formhéadaigh an méarchlár</string>
+    <string name="accessibility_screen_magnification_nav_ime_summary">Zúmáil isteach sa mhéarchlár chun emojis agus litreacha a fheiceáil agus formhéadú lánscáileáin in úsáid</string>
     <string name="accessibility_screen_magnification_nav_ime_unavailable_summary">Ní féidir ach cuid den scáileán a mhéadú</string>
+    <string name="accessibility_screen_magnification_always_on_summary">Fanann an formhéadaitheoir ar siúl agus súmálann sé amach nuair a athraíonn tú aip</string>
     <string name="accessibility_screen_magnification_always_on_unavailable_summary">Ní féidir ach cuid den scáileán a mhéadú</string>
     <string name="accessibility_magnification_one_finger_panning_title">Bog formhéadaitheoir le 1 mhéar</string>
     <string name="accessibility_magnification_one_finger_panning_summary">Tarraing 1 mhéar chun bogadh timpeall an scáileáin</string>
     <string name="accessibility_magnification_one_finger_panning_summary_on">Bog an limistéar formhéadaithe trí mhéar amháin a tharraingt.</string>
     <string name="accessibility_magnification_one_finger_panning_summary_off">Bog an limistéar formhéadaithe trí dhá mhéar a tharraingt.</string>
     <string name="accessibility_magnification_one_finger_panning_summary_unavailable">Ní féidir ach cuid den scáileán a mhéadú</string>
+    <string name="accessibility_text_reading_options_title">Méid taispeána &amp; téacs</string>
+    <string name="accessibility_text_reading_options_subtext">Méid cló, méid taispeána, téacs trom, téacs imlíne</string>
+    <string name="accessibility_screen_magnification_keyboard_summary"><![CDATA[        <b>Chun súmáil isteach:</b><br/>
+        {0,number,integer}. Úsáid aicearra nó brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M chun formhéadú a thosú<br/>
+        {1,number,integer}. Brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + na heochracha saighde chun bogadh timpeall an scáileáin<br/>
+        {2,number,integer}. Brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> agus "+" nó "-" chun an súmáil a choigeartú<br/>
+        {3,number,integer}. Úsáid aicearra nó <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M chun formhéadú a stopadh
+        ]]></string>
+    <string name="accessibility_screen_magnification_keyboard_shortcuts_flag_off_summary"><![CDATA[        <b>Chun súmáil isteach:</b><br/>
+        {0,number,integer}. Úsáid aicearra chun formhéadú a thosú<br/>
+        {1,number,integer}. Brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + na heochracha saighde chun bogadh timpeall an scáileáin<br/>
+        {2,number,integer}. Brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> agus "+" nó "-" chun an súmáil a choigeartú<br/>
+        {3,number,integer}. Úsáid aicearra chun formhéadú a stopadh
+        ]]></string>
+    <string name="accessibility_screen_magnification_keyboard_touch_summary"><![CDATA[        <b>Méarchlár</b><br/>
+        {0,number,integer}. Úsáid aicearra nó brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M chun formhéadú a thosú<br/>
+        {1,number,integer}. Brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + na heochracha saighde chun bogadh timpeall an scáileáin<br/>
+        {2,number,integer}. Brúigh <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> agus "+" nó "-" chun an súmáil a choigeartú<br/>
+        {3,number,integer}. Úsáid aicearra nó <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M chun formhéadú a stopadh<br/><br/>
+        <b>Scáileán tadhaill</b><br/>
+        Chun súmáil isteach:<br/>
+        {0,number,integer}. Úsáid aicearra chun formhéadú a thosú<br/>
+        {1,number,integer}. Tapáil an scáileán<br/>
+        {2,number,integer}. Tarraing 2 mhéar chun bogadh timpeall an scáileáin<br/>
+        {3,number,integer}. Pionnaigh le 2 mhéar chun an súmáil a choigeartú<br/>
+        {4,number,integer}. Úsáid aicearra chun formhéadú a stopadh<br/><br/>
+        Chun súmáil isteach go sealadach:<br/>
+        {0,number,integer}. Déan cinnte go bhfuil an cineál formhéadúcháin socraithe mar lánscáileán<br/>
+        {1,number,integer}. Úsáid aicearra chun formhéadú a thosú<br/>
+        {2,number,integer}. Déan teagmháil agus coinnigh áit ar bith ar an scáileán<br/>
+        {3,number,integer}. Tarraing an mhéar chun bogadh timpeall an scáileáin<br/>
+        {4,number,integer}. Ardaigh an mhéar chun formhéadú a stopadh]]></string>
     <string name="accessibility_screen_magnification_summary_one_finger_panning_off"><![CDATA[        <b>Chun súmáil isteach:</b><br/>
         {0,number,integer}. Úsáid an giorrúchán chun formhéadú a thosú<br/>
         {1,number,integer}. Beartaigh ar an scáileán<br/>
@@ -624,10 +853,43 @@
     <string name="accessibility_notification_high_contrast_text_action_open_settings">Téigh go <xliff:g example="Settings" id="settings">%1$s</xliff:g></string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title">Téacs imlíne</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary">Cuir cúlra dubh nó bán timpeall téacs chun codarsnacht a mhéadú</string>
+    <string name="dark_theme_timing_category">Amchlár</string>
+    <string name="accessibility_standard_dark_theme_title_in_search">Téama dorcha caighdeánach</string>
+    <string name="accessibility_standard_dark_theme_summary">Casann sé seo ar théama dorcha do do ghléas agus d\'aipeanna a thacaíonn le téama dorcha</string>
+    <string name="accessibility_expanded_dark_theme_title">Leathnaithe</string>
+    <string name="accessibility_expanded_dark_theme_title_in_search">Téama dorcha leathnaithe</string>
+    <string name="accessibility_expanded_dark_theme_summary">Cuireann sé téama dorcha i bhfeidhm go huathoibríoch ar fhormhór na n-aipeanna nach dtacaíonn leis. Is féidir leis seo inrochtaineacht agus inléiteacht a fheabhsú, ach d\'fhéadfadh sé go dtaispeánfaí roinnt aipeanna go mícheart.</string>
+    <string name="keywords_expanded_dark_theme">fórsa inbhéartaithe, inbhéartú datha, codarsnacht</string>
+    <string name="accessibility_text_cursor_blink_rate_title">Cúrsóir téacs ag splancadh</string>
+    <string name="accessibility_text_cursor_blink_rate_summary">Coigeartaigh luas splancadh an chúrsóra téacs nó múch an splancadh. B’fhéidir nach dtacaítear leis ar gach aip nó suíomh Gréasáin.</string>
+    <string name="accessibility_text_cursor_blink_rate_slower_desc">Laghdaigh luas na gcnapán</string>
+    <string name="accessibility_text_cursor_blink_rate_faster_desc">Méadaigh luas na gcnapán</string>
+    <string name="accessibility_display_inversion_preference_subtitle"><![CDATA[<b>Coinnigh i gcuimhne</b><br/>
+        <ol>
+            <li>\u00a0Athróidh dathanna sna meáin agus sna híomhánna</li>
+            <li>\u00a0Oibríonn inbhéartú datha ar gach aip</li>
+            <li>\u00a0Chun cúlra dorcha a thaispeáint, is féidir téama dorcha a úsáid ina ionad</li>
+        </ol>
+        ]]></string>
     <string name="accessibility_autoclick_preference_title">Uathchliceáil (Am fanachta)</string>
+    <string name="accessibility_autoclick_main_switch_title">Úsáid uathchliceáil (am fanachta)</string>
+    <string name="autoclick_delay_before_click_title">Moill roimh chliceáil</string>
+    <string name="autoclick_delay_before_click_summary">Socraigh an fad ama a thógann sé cliceáil tar éis don chúrsóir stopadh ag bogadh</string>
+    <string name="autoclick_cursor_area_size_summary">Má bhogann an cúrsóir lasmuigh den limistéar cliceáil, cuirtear an t-uathchliceáil ar ceal.</string>
+    <string name="autoclick_revert_to_left_click_title">Úsáid cliceáil ar chlé mar an gníomh réamhshocraithe</string>
+    <string name="autoclick_revert_to_left_click_summary">Nuair a úsáideann tú gníomh eile, fillfidh an t-uathchliceáil ar ais go cliceáil chlé go huathoibríoch</string>
+    <string name="accessibility_autoclick_navigation_title">Oibríonn uathchliceáil níos fearr le nascleanúint 3 chnaipe</string>
+    <string name="accessibility_autoclick_navigation_message">Chun filleadh ar ais, Baile, agus athrú idir aipeanna go héasca agus uathchliceáil in úsáid agat, bain úsáid as nascleanúint 3 chnaipe in ionad nascleanúint gothaí.</string>
+    <string name="accessibility_autoclick_keep_gesture_navigation">Coinnigh nascleanúint gothaí</string>
+    <string name="accessibility_autoclick_navigation_settings">Socruithe nascleanúna</string>
+    <string name="accessibility_vibration_settings_state_on">Ar / Rialú leibhéil chreathaidh le haghaidh glaonna, fógraí agus aláraim</string>
+    <string name="accessibility_vibration_settings_state_off">As / Rialú leibhéil chreatha le haghaidh glaonna, fógraí agus aláraim</string>
+    <string name="reduce_bright_colors_preference_summary">Laghdaigh an scáileán thar an gile íosta</string>
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link">Foghlaim tuilleadh faoin téama dorcha</string>
     <string name="accessibility_shortcut_unassigned_setting_unavailable_summary">Chun seo a úsáid, cuir an aicearra %1$s ar siúl ar leathanach gné inrochtaineachta.</string>
     <string name="accessibility_hearingaid_asha_only_intro">Cumraigh agus bainistigh gléasanna éisteachta ASHA, ionchlannáin chochlear, agus gléasanna aimpliúcháin eile</string>
     <string name="accessibility_hearingaid_hap_only_intro">Cumraigh agus bainistigh gléasanna éisteachta LE Audio, ionchlannáin chochlear, agus gléasanna aimpliúcháin eile</string>
+    <string name="accessibility_hearingaid_not_connected_summary">Cumraigh agus bainistigh gléasanna éisteachta agus gléasanna aimpliúcháin eile</string>
     <string name="accessibility_hearingaid_left_side_device_summary"><xliff:g id="device_name" example="GN Hearing Aids">%1$s</xliff:g>/Ar chlé amháin</string>
     <string name="accessibility_hearingaid_right_side_device_summary"><xliff:g id="device_name" example="GN Hearing Aids">%1$s</xliff:g>/Ar dheis amháin</string>
     <string name="accessibility_hearingaid_left_and_right_side_device_summary"><xliff:g id="device_name" example="GN Hearing Aids">%1$s</xliff:g>/Ar chlé agus ar dheis</string>
@@ -639,6 +901,8 @@
     <string name="accessibility_hearing_device_footer_hap_only_summary_tts">Chun gléasanna éisteachta eile nach dtacaíonn LE Audio leo a aimsiú, tapáil <b>Péireáil gléas nua</b> agus ansin <b>Féach níos mó gléasanna</b></string>
     <string name="accessibility_hearing_device_pairing_asha_only_intro">Is féidir leat gléasanna éisteachta ASHA a phéireáil ar an leathanach seo. Déan cinnte go bhfuil do ghléas éisteachta casta air agus réidh le péireáil.</string>
     <string name="accessibility_hearing_device_pairing_hap_only_intro">Is féidir leat gléasanna éisteachta LE Audio a phéireáil ar an leathanach seo. Déan cinnte go bhfuil do ghléas éisteachta casta air agus réidh le péireáil.</string>
+    <string name="accessibility_audio_adjustment_subtext">Fuaim mhonó, cothromaíocht fuaime</string>
+    <string name="accessibility_shortcuts_settings_subtext">Cnaipe inrochtaineachta, aicearra eochracha toirte</string>
     <string name="daltonizer_mode_deuteranomaly_title">Dearg-glas glas lag</string>
     <string name="daltonizer_mode_protanomaly_title">Dearg-glas, dearg lag</string>
     <string name="daltonizer_saturation_unavailable_summary">Níl sé ar fáil don mhód liathscála nó nuair atá ceartú datha díchumasaithe</string>
@@ -690,6 +954,9 @@
         }</string>
     <string name="power_usage_level_and_status"><xliff:g id="level">%1$s</xliff:g>
         - <xliff:g id="status">%2$s</xliff:g></string>
+    <string name="manager_battery_usage_unrestricted_summary_v2">Ceadaigh úsáid ceallraí sa chúlra. D’fhéadfadh sé go n-úsáidfeadh sé níos mó ceallraí.</string>
+    <string name="battery_tip_default_limited_temporarily_title">Tá an muirearú teoranta chun an ceallraí a chosaint</string>
+    <string name="battery_tip_default_limited_temporarily_summary">Bhí do cheallraí te ar feadh tréimhse fada. Atosófar ar ghnáthmhuirearú a luaithe a bheidh do cheallraí fuaraithe níos mó</string>
     <string name="battery_tip_restrict_title">{count, plural,
         one {}
         two {Cuir srianta ar # aip}
@@ -725,6 +992,7 @@
         many {Srian a chur ar # aipeanna?}=1      {Srian a chur ar an aip?}
         other   {Srian a chur ar # aipeanna?}
         }</string>
+    <string name="battery_tip_charge_to_full_button">Muirearaigh ar aon nós</string>
     <string name="restricted_app_summary">{count, plural,
         one {}
         two {Teorainn a chur le húsáid ceallraí ag # aipeanna}
@@ -748,12 +1016,19 @@
     <string name="battery_usage_status_time_info_and_battery_level"><xliff:g id="selected_status" example="Selected">%1$s</xliff:g>, <xliff:g id="time_info" example="Battery usage for Monday 6 AM - 8 AM">%2$s</xliff:g> <xliff:g id="battery_level" example="Battery level percentage from 83% to 59%">%3$s</xliff:g></string>
     <string name="battery_chart_slot_status_unselected">Gan roghnú</string>
     <string name="battery_usage_less_than_percent_content_description">níos lú ná <xliff:g id="percentage">%1$s</xliff:g></string>
+    <string name="tts_subtext">Coigeartaigh ráta agus airde cainte</string>
+    <string name="adaptive_connectivity_wifi_switch_title">Athraigh go huathoibríoch chuig líonra soghluaiste</string>
+    <string name="adaptive_connectivity_wifi_switch_summary">Cinntíonn sé nascacht nuair a bhíonn Wi\u2011Fi lag nó ar fáil. D’fhéadfadh táillí sonraí a bheith i bhfeidhm.</string>
+    <string name="adaptive_connectivity_mobile_network_switch_title">Optamaigh an líonra le haghaidh saolré na ceallraí</string>
+    <string name="adaptive_connectivity_mobile_network_switch_summary">Roghnaíonn sé an nasc líonra is fearr go huathoibríoch chun saolré do cheallraí a fhadú</string>
     <string name="cellular_security_title">Slándála líonra soghluaiste</string>
     <string name="cellular_security_summary">Cineál líonra, criptiú, rialuithe fógra</string>
     <string name="cellular_security_top_intro">Cuidíonn na socruithe seo le do ghlaonna, teachtaireachtaí agus sonraí a chosaint ó líonraí atá as dáta nó neamhchriptithe a d\'fhéadfadh goid sonraí nó faireachas sonraí a chur ort</string>
     <string name="cellular_security_settings_title">Slándála líonra soghluaiste</string>
     <string name="cellular_security_notifications_controller_title">Fógraí líonra</string>
     <string name="cellular_security_notifications_controller_summary">Faigh fógra nuair a nascann do ghléas le líonra neamhchriptithe, nó nuair a thaifeadann líonra do ghléas uathúil nó do ID SIM</string>
+    <string name="cellular_security_2G_network_generation_header">Giniúint líonra</string>
+    <string name="cellular_security_2G_network_generation_summary">Seachnaíonn cosaint líonra 2G líonraí 2G, nach bhfuil chomh slán. D’fhéadfadh sé seo nascacht a theorannú i roinnt áiteanna. Ceadaítear 2G i gcónaí le haghaidh glaonna éigeandála, ach ní fhéadfaidh glaonna ceangal má tá tú ag fánaíocht go hidirnáisiúnta.</string>
     <string name="cellular_security_2G_network_generation_title">Cosaint líonra 2G</string>
     <string name="cellular_security_network_generations_title">Glúine líonra</string>
     <string name="cellular_security_network_generations_summary">Is féidir leat gach cárta SIM suiteáilte a chumrú chun nascadh a dhéanamh ach le líonraí a thacaíonn le 3G, 4G, agus 5G. Ní cheanglóidh an SIM le líonraí 2G níos sine, neamhchinnte. Féadfaidh an socrú seo do nascacht a theorannú i gcás gurb é 2G an t-aon líonra atá ar fáil I gcás éigeandála, féadfar 2G a úsáid.</string>
@@ -785,6 +1060,8 @@
     <string name="vpn_password_required">Pasfhocal*</string>
     <string name="vpn_field_required">*riachtanach</string>
     <string name="vpn_version_info">Leagan <xliff:g id="version" example="3.3.0">%s</xliff:g></string>
+    <string name="trusted_credentials_category_content_description_to_expand"><xliff:g id="credential_category" example="Personal">%s</xliff:g> Teastais CA, fillte, tapáil faoi dhó le leathnú</string>
+    <string name="trusted_credentials_category_content_description_to_collapse"><xliff:g id="credential_category" example="Personal">%s</xliff:g> Teastais CA, leathnaithe, tapáil faoi dhó le filleadh</string>
     <string name="ssl_ca_cert_dialog_title">{count, plural,
         one {}
         two {Iontráil nó bain na deimhnithe}
@@ -800,9 +1077,24 @@
         other   {Seiceáil deimhnithe}
         }</string>
     <string name="user_owner">Úinéir</string>
+    <string name="user_add_on_signin_screen_menu">Cuir úsáideoirí leis ón scáileán logála isteach</string>
+    <string name="work_profile_confirm_remove_message_with_esim">Scriosfar na haipeanna agus na sonraí go léir sa phróifíl seo, lena n-áirítear eSIManna oibre, má leanann tú ar aghaidh.</string>
+    <string name="user_revoke_admin_for_self_confirm_title">An bhfuil tú cinnte gur mian leat do chuid pribhléidí riarthóra féin a bhaint?</string>
+    <string name="user_revoke_admin_for_self_confirm_message">Ní bheidh ach riarthóirí eile in ann pribhléidí riarthóra a dheonú duit má leanann tú ar aghaidh.</string>
     <string name="sim_status_title_sim_slot">Stádas an SIM (sliotán SIM %1$d)</string>
+    <string name="keywords_display_hdr_brightness">hdr, gile, raon dinimiciúil ard, gealaigh, níos gile</string>
+    <string name="keywords_fingerprint_unlock">méarloirg, díghlasáil, údarú, síniú isteach</string>
+    <string name="keywords_blur_switch">éifeachtaí doiléire</string>
     <string name="keywords_styles">deilbhín, deilbhíní, blas, dath, scáileán baile, scáileán glas, aicearra, méid clog</string>
+    <string name="keywords_external_display_settings">taispeáint sheachtrach, taispeáint ceangailte, taispeáint leathnaithe, dara taispeáint, taispeáint ionsuite, taispeántais a shocrú, scáthán, méid taispeána, rothlú, réiteach, ráta athnuachana</string>
     <string name="sound_dashboard_summary">Toirt agus creathadh</string>
+    <string name="remote_media_volume_option_title">Toirt Google Cast</string>
+    <string name="sound_patterns_category_title">Patrúin fuaime</string>
+    <string name="system_sounds_and_vibrations_category_title">Fuaimeanna córais &amp; creathadh</string>
+    <string name="work_profile_sound_category_title">Fuaim phróifíl oibre</string>
+    <string name="live_caption_summary">Faigh fotheidil le haghaidh glaonna, físeáin agus meáin eile</string>
+    <string name="live_caption_on_summary">Ar / Faigh fotheidil le haghaidh glaonna, físeáin agus meáin eile</string>
+    <string name="live_caption_off_summary">As / Faigh fotheidil le haghaidh glaonna, físeáin agus meáin eile</string>
     <string name="spatial_audio_multi_toggle_on">Seasta</string>
     <string name="spatial_audio_multi_toggle_head_tracking_on">Rianú Ceann</string>
     <string name="zen_mode_settings_schedules_summary">{count, plural,
@@ -814,6 +1106,7 @@
         other {# sceidil socraithe}
         }</string>
     <string name="zen_modes_list_title">Modhanna</string>
+    <string name="zen_modes_list_intro">Laghdaigh seachráin agus glac smacht ar d’aird le modhanna le haghaidh codlata, oibre, tiomána, agus gach rud idir eatarthu.</string>
     <string name="zen_modes_add_mode">Cruthaigh do mhodh féin</string>
     <string name="zen_mode_select_schedule_title">Sceideal bunaithe ar</string>
     <string name="zen_mode_select_schedule_time">Lá agus am</string>
@@ -907,15 +1200,34 @@
         other {# nóiméad}
         }
     </string>
+    <string name="notification_bundles">Eagróir fógraí</string>
+    <string name="notification_bundle_promotions_summary">Díolacháin, gnéithe nua, agus tuilleadh</string>
+    <string name="notification_bundle_news_summary">Príomhscéalta, eagarfhocail, agus tuilleadh</string>
+    <string name="notification_bundle_social_summary">Is maith liom, poist agus tuilleadh</string>
+    <string name="notification_bundle_recs_summary">Nuachtlitreacha, meáin mholta, agus tuilleadh</string>
+    <string name="notification_bundle_no_apps_desc">Tá gach aip ag baint úsáide as eagróir fógraí faoi láthair</string>
+    <string name="notification_ai_features_title">Bainistigh le hintleacht shaorga</string>
     <string name="notification_summarization_title">Achoimrí fógraí</string>
+    <string name="notification_summarization_summary">Faigh achoimrí tapa ar theachtaireachtaí níos faide</string>
     <string name="notification_summarization_main_control_title">Úsáid achoimrí fógraí</string>
+    <string name="notification_summarization_description">Déan achoimre ar theachtaireachtaí fada agus ar chomhráite grúpa chun achoimrí tapa a fháil.\n\nÚsáideann achoimrí intleacht shaorga ar do ghléas, rud a d\'fhéadfadh botúin a dhéanamh uaireanta. Ní sheoltar do theachtaireachtaí chuig Google choíche.</string>
+    <string name="notification_summarization_excluded_description">Ní dhéanfar achoimre ar fhógraí ó na haipeanna seo</string>
+    <string name="notification_summarization_manage_excluded_apps_title">Bainistigh aipeanna le haghaidh achoimrí fógraí</string>
+    <string name="notification_excluded_apps">Ná cuir na haipeanna seo san áireamh</string>
     <string name="notification_app_level_summarize_title">Achoimrí fógraí</string>
+    <string name="notification_app_level_summarize_subtext">Faigh achoimrí tapa ar theachtaireachtaí níos faide</string>
+    <string name="notification_summarization_no_apps_desc">Tá achoimrí fógraí á n-úsáid ag gach aip is infheidhme faoi láthair</string>
     <string name="live_notifications">Fógraí beo</string>
+    <string name="live_notifications_switch">Nuashonruithe beo</string>
+    <string name="live_notifications_desc">Taispeáin fógraí leanúnacha, íogaire ó thaobh ama de ar an mbarra stádais agus ar an scáileán glasála</string>
     <string name="lock_screen_notif_minimalism">Íostachas fógra scáileán glas</string>
     <string name="lock_screen_notif_minimalism_summary">Taispeáin níos lú fógraí ar an scáileán glas</string>
     <string name="lock_screen_notifs_show_full_list">Liosta iomlán</string>
     <string name="lock_screen_notifs_show_compact">Dlúth</string>
+    <string name="lockscreen_notification_show_switch">Taispeáin ar an scáileán glasála</string>
     <string name="lockscreen_notification_what_to_show_title">Cad atá le taispeáint ar an scáileán glasála</string>
+    <string name="lock_screen_notification_show_viewed_notifs">Taispeáin fógraí a breathnaíodh</string>
+    <string name="lock_screen_notification_show_viewed_notif_icons">Taispeáin deilbhíní fógra a breathnaíodh</string>
     <string name="lock_screen_notification_show_silent_title">Taispeáin fógraí ciúine</string>
     <string name="lock_screen_notification_show_sensitive_content_title">Taispeáin ábhar íogair</string>
     <string name="lock_screen_notification_show_sensitive_work_content_title">Taispeáin ábhar íogair próifíle oibre</string>
@@ -951,6 +1263,14 @@
     <string name="notification_polite_description">Nuair a fhaigheann tú go leor fógraí laistigh de thréimhse ghearr ama, laghdóidh do ghléas a thoirt agus íoslaghdóidh sé foláirimh ar feadh suas le 1 nóiméad. Ní dhéantar difear do ghlaonna, aláraim, agus comhráite tosaíochta.
         \n\nIs féidir fógraí a fuarthas le linn an fhuaraitheora a fháil trí tharraingt anuas ó bharr an scáileáin.</string>
     <string name="notification_polite_work_summary">Déan iarratas ar aipeanna próifíle oibre</string>
+    <string name="notification_bundle_title">Eagróir fógraí</string>
+    <string name="notification_bundle_summary">Fógraí tosaíochta níos ísle a phacáistiú agus a thostú</string>
+    <string name="notification_bundle_main_control_title">Úsáid eagróir fógraí</string>
+    <string name="notification_bundle_description">Roghnaigh na cineálacha fógraí is mian leat a chur ar thost agus iad a phacáistiú le chéile chun cur isteach a íoslaghdú.\n\nÚsáideann an t-eagraí AI ar do ghléas, rud a d\'fhéadfadh botúin a dhéanamh uaireanta. Ní sheoltar do fhógraí chuig Google choíche.</string>
+    <string name="notification_app_level_bundle_title">Eagróir fógraí</string>
+    <string name="notification_app_level_bundle_subtext">Fógraí tosaíochta níos ísle a phacáistiú agus a thostú</string>
+    <string name="notification_bundle_manage_excluded_apps_title">Bainistigh aipeanna don eagróir fógraí</string>
+    <string name="notification_bundle_expand_always_title">Leathnaigh na beartáin i gcónaí</string>
     <string name="notification_adjustment_work_switch_title">Déan iarratas ar aipeanna próifíle oibre</string>
     <string name="vr_listener_security_warning_title">Ceadaigh rochtain ar sheirbhís VR le haghaidh
         <xliff:g id="service" example="VrCore">%1$s</xliff:g>?</string>
@@ -1137,6 +1457,12 @@
     =1 {# aip nach úsáideann tú}
     other {# aipeanna nach úsáideann tú}
 }</string>
+    <string name="app_function_access_settings_title">Gníomhairí</string>
+    <string name="app_function_access_settings_summary">Gníomhairí ar féidir leo rochtain a fháil ar fhaisnéis nó gníomhartha a dhéanamh in aipeanna</string>
+    <string name="manage_agent_app_function_access_settings_title">Rochtain ar an aip</string>
+    <string name="manage_agent_app_function_access_settings_summary">Lig don ghníomhaire seo rochtain a fháil ar fhaisnéis nó gníomhartha a dhéanamh in aipeanna</string>
+    <string name="manage_target_app_function_access_settings_title">Rochtain gníomhaire</string>
+    <string name="manage_target_app_function_access_settings_summary">Gníomhairí ar féidir leo rochtain a fháil ar fhaisnéis nó gníomhartha a dhéanamh san aip seo</string>
     <string name="app_link_open_always_summary">{count, plural,
     one {}
     two {Taispeánann an aip go láimhseálann sé # naisc}
@@ -1169,10 +1495,16 @@
     <string name="write_system_preferences_page_title">Scríobh roghanna córais</string>
     <string name="write_system_preferences_switch_title">Lig don aip seo sainroghanna córais a mhodhnú ar do shon</string>
     <string name="write_system_preferences_footer_description">Ligeann an cead seo d’aip sainroghanna croíchórais a mhodhnú.</string>
+    <string name="screen_zoom_make_smaller_desc">Laghdaigh méid an taispeána</string>
+    <string name="screen_zoom_make_larger_desc">Méadaigh méid an taispeána</string>
+    <string name="disabled_by_policy_title_parental_controls">Iarr cabhair</string>
+    <string name="disabled_by_policy_content_parental_controls">Chun an socrú seo a athrú, beidh ar an duine a shocraigh rialuithe do do ghléas nó do chuntas é a athrú duit.</string>
     <string name="disabled_by_advanced_protection_title">Srianta ag Ardchosaint</string>
     <string name="disabled_by_advanced_protection_setting_is_on_message">Ar mhaithe le do shlándáil, ní mór an socrú seo a choinneáil ar siúl, mar gheall ar an gCosaint Ardleibhéil.</string>
     <string name="disabled_by_advanced_protection_setting_is_off_message">Ar mhaithe le do shlándáil, ní mór an socrú seo a choinneáil múchta, mar gheall ar an gCosaint Ardleibhéil.</string>
     <string name="disabled_by_advanced_protection_action_message">Ar mhaithe le do shlándáil, cuireann Ardchosaint cosc ​​ar an ngníomh seo</string>
+    <string name="homepage_unnumbered_alert_description">Tá foláireamh ag gabháil leis an mír seo</string>
+    <string name="homepage_numbered_alert_description">Tá foláirimh <xliff:g id="alert_count" example="2">%1$s</xliff:g> ag an mír seo</string>
     <string name="ethernet_interface_title">Ethernet <xliff:g id="interfaceid">%1$s</xliff:g></string>
     <string name="operator_warning">Féadfaidh cuntasaíocht sonraí iompróra a bheith difriúil ó chuntasaíocht gléasanna</string>
     <string name="data_saver_unrestricted_summary">{count, plural,
@@ -1183,6 +1515,7 @@
     =1 {Tá 1 aip ceadaithe chun sonraí soghluaiste gan teorainn a úsáid nuair atá Sábháil Sonraí air}
     other {Tá # aipeanna ceadaithe chun sonraí soghluaiste gan teorainn a úsáid nuair atá Sábháil Sonraí air}
 }</string>
+    <string name="data_used_formatted"><xliff:g name="value" example="500">^1</xliff:g> <xliff:g name="units" example="GB">^2</xliff:g></string>
     <string name="billing_cycle_days_left">{count, plural,
     one {}
     two {# lá fágtha}
@@ -1194,17 +1527,36 @@
     <string name="unrestricted_data_saver">Sonraí soghluaiste neamhtheoranta</string>
     <string name="unrestricted_app_title">Úsáid sonraí soghluaiste gan srian</string>
     <string name="unrestricted_app_summary">Ceadaigh rochtain neamhshrianta ar shonraí soghluaiste nuair a bhíonn an Sábháil Sonraí ar siúl</string>
+    <string name="battery_hints_warning_icon_a11y">Leideanna rabhaidh ceallraí</string>
     <string name="premium_sms_none">Níor iarr aon aipeanna suiteáilte SMS préimhe</string>
     <string name="premium_sms_access">SMS préimhe</string>
+    <string name="dark_theme_slice_title">Bain triail as téama dorcha</string>
     <string name="double_tap_power_title">Brúigh an cnaipe cumhachta faoi dhó</string>
     <string name="double_tap_power_enabled">Úsáid brú dúbailte</string>
     <string name="double_tap_power_target_action_category">Brúigh an cnaipe cumhachta faoi dhó le hoscailt</string>
     <string name="double_tap_power_camera_action_summary">Oscail ceamara</string>
     <string name="double_tap_power_wallet_action_title">Sparán</string>
     <string name="double_tap_power_wallet_action_summary">Sparán Oscailte</string>
+    <string name="double_tap_power_lockscreen_shortcut_tip_title">Aicearra scáileáin ghlasála a athrú?</string>
+    <string name="double_tap_power_lockscreen_shortcut_tip_description">Is é <xliff:g id="double_tap_power_target_action" example="Camera">%1$s</xliff:g> aicearra do scáileáin ghlasála chomh maith. Tapáil chun é a athrú.</string>
+    <string name="double_tap_power_wallet_footer_title">Ní thacaíonn d\'aip sparán réamhshocraithe reatha leis an ngluaiseacht seo</string>
+    <string name="double_tap_power_wallet_footer_learn_more_text">Athraigh an sparán réamhshocraithe</string>
+    <string name="keywords_double_tap_power">gothaí, aicearra</string>
+    <string name="keywords_double_tap_power_wallet_action">íoc, íocaíochtaí</string>
+    <string name="shade_panels_title">Fógraí &amp; Socruithe Tapa</string>
+    <string name="keywords_shade_panels">scáth, painéil, fógraí, socruithe tapa, qs, ar leithligh, comhcheangailte, déach, singil</string>
+    <string name="shade_panels_category">Painéil</string>
+    <string name="shade_panels_separate_title">Ar leithligh</string>
+    <string name="shade_panels_separate_summary">Svaidhpeáil síos ón mbarr ar dheis chun Socruithe Tapa a oscailt. Svaidhpeáil síos ón mbarr ar chlé chun fógraí a oscailt.</string>
+    <string name="shade_panels_combined_title">Comhcheangailte (clasaiceach)</string>
+    <string name="shade_panels_combined_summary">Svaidhpeáil síos ó bharr do scáileáin chun rochtain a fháil ar an bpainéal clasaiceach a chomhcheanglaíonn fógraí agus Socruithe Tapa.</string>
+    <string name="shade_panels_foldables_footer_message">Tá an radharc comhcheangailte (clasaiceach) teoranta do scáileán seachtrach do ghléis fillte</string>
     <string name="nav_tutorial_button_description">Tosaigh rang teagaisc loingseoireachta gothaí.</string>
     <string name="gesture_settings_activity_title">Nascleanúint Gotha</string>
     <string name="gesture_navigation_tutorial_title">Bain triail as taispeántas</string>
+    <string name="button_navigation_settings_order_title">Ord na gcnaipí</string>
+    <string name="navbar_home_button">Baile</string>
+    <string name="navbar_recent_button">Le Déanaí</string>
     <string name="enterprise_privacy_number_packages_lower_bound">{count, plural,
     one {}
     two {Íosmhéid # aipeanna}
@@ -1272,20 +1624,36 @@
     =1 {# pasfhocal}
     other {# pasfhocail}
 }</string>
+    <string name="credman_picker_page_summary">Roghnaigh do sheirbhís is fearr leat chun sonraí a shábháil le haghaidh moltaí logála isteach agus uathlíonta</string>
     <string name="account_dashboard_title_with_passkeys">Pasfhocail, pasfhocail &amp; cuntais</string>
     <string name="credman_on_off_switch_content_description">%1$s ar/as</string>
     <string name="credman_main_settings_intro_text">Roghnaigh an tseirbhís is fearr leat chun sonraí a shábháil le haghaidh moltaí sínithe isteach agus uathlíonadh. Cas seirbhísí breise ar siúl más mian leat go gcuirfeadh siad moltaí a sholáthar freisin.</string>
     <string name="media_output_audio_sharing">Fuaime a roinnt</string>
+    <string name="empty_networks_list">Níor aimsíodh aon líonraí</string>
     <string name="satellite_setting">Nascacht satailít</string>
+    <string name="satellite_setting_enabled_summary">Seol agus faigh teachtaireachtaí téacs thar shatailít. San áireamh le do chuntas.</string>
+    <string name="satellite_setting_disabled_summary">Seol agus faigh teachtaireachtaí téacs thar shatailít. Níl sé san áireamh le do chuntas.</string>
+    <string name="satellite_setting_summary_without_entitlement">Seol agus faigh teachtaireachtaí téacs thar shatailít. Téigh i dteagmháil le d\'iompróir le haghaidh sonraí.</string>
     <string name="keywords_satellite_setting">Teachtaireachtaí satailíte, nascacht satailíte</string>
     <string name="category_name_about_satellite_connectivity">Maidir le nascacht satailíte</string>
+    <string name="description_about_satellite_setting">Is féidir leat teachtaireachtaí téacs a sheoladh agus a fháil thar shatailít le cuntas <xliff:g is="carrier name" example="T-Mobile">%1$s</xliff:g> incháilithe</string>
     <string name="category_title_your_satellite_plan">Do chuntas <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g></string>
+    <string name="title_have_satellite_plan">Tá teachtaireachtaí san áireamh le do chuntas</string>
+    <string name="title_no_satellite_plan">Níl teachtaireachtaí san áireamh i do chuntas</string>
     <string name="summary_add_satellite_setting">Tuilleadh Eolais</string>
+    <string name="title_satellite_connection_guide">Nuair nach bhfuil líonra soghluaiste nó Wi-Fi agat</string>
     <string name="title_satellite_connection_guide_for_manual_type">Téacs uimhir theileafóin</string>
+    <string name="summary_satellite_connection_guide">Ceanglóidh do ghuthán go huathoibríoch le satailít. Chun an nasc is fearr a fháil, coinnigh radharc soiléir ar an spéir.</string>
+    <string name="summary_satellite_connection_guide_for_manual_type">Mura bhfuil líonra soghluaiste agat, feicfidh tú rogha chun satailít a úsáid.</string>
     <string name="title_supported_service_for_manual_type">Lean na céimeanna chun nascadh leis an tsatailít</string>
+    <string name="summary_supported_service_with_constrained_data">Is féidir leat téacs a sheoladh chuig aon duine, lena n-áirítear seirbhísí éigeandála, agus aipeanna tacaithe a úsáid. Athcheanglóidh do ghuthán le líonra soghluaiste nuair a bheidh sé ar fáil.</string>
+    <string name="summary_supported_service_with_unconstrained_data">Is féidir leat téacs a sheoladh chuig aon duine, lena n-áirítear seirbhísí éigeandála, agus sonraí a úsáid le haghaidh aipeanna. Athcheanglóidh do ghuthán le líonra soghluaiste nuair a bheidh sé ar fáil.</string>
     <string name="summary_supported_service_for_manual_type">Tar éis duit do ghuthán a nascadh, is féidir leat téacs a chur chuig aon duine, lena n-áirítear na seirbhísí éigeandála.</string>
     <string name="satellite_footer_content_section_1">D’fhéadfadh sé go dtógfadh nascacht satailíte níos faide agus ní bhíonn sí ar fáil ach i roinnt ceantar.</string>
+    <string name="satellite_footer_content_section_2">D’fhéadfadh tionchar a bheith ag an aimsir agus ag struchtúir áirithe ar an nasc satailíte.</string>
+    <string name="satellite_footer_content_section_3">Ní féidir glaoch a chur thar shatailít.</string>
     <string name="satellite_footer_content_section_4">D’fhéadfadh glaonna éigeandála ceangal fós.</string>
+    <string name="satellite_footer_content_section_5">Tá líonra soghluaiste nó Wi-Fi ag teastáil chun naisc sheachtracha a fheiceáil.</string>
     <string name="satellite_footer_content_section_6">B’fhéidir nach mbeidh teachtaireachtaí téacs le seirbhísí éigeandála ar fáil i ngach ceantar.</string>
     <string name="satellite_footer_content_section_7">D’fhéadfadh sé go dtógfadh sé tamall sula dtaispeánfar athruithe cuntais sna Socruithe. Téigh i dteagmháil le <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g> le haghaidh tuilleadh sonraí.</string>
     <string name="more_about_satellite_connectivity">Tuilleadh eolais faoi nascacht satailíte</string>
@@ -1294,7 +1662,10 @@
     <string name="category_title_satellite_connectivity">Satailít</string>
     <string name="title_satellite_setting_connectivity">nascacht satailít</string>
     <string name="description_satellite_setting_connectivity">nascacht satailít</string>
+    <string name="title_have_satellite_constrained_data_plan">Tá úsáid aipeanna tacaithe san áireamh le do chuntas</string>
+    <string name="title_have_satellite_unconstrained_data_plan">Tá sonraí do gach aip san áireamh i do chuntas</string>
     <string name="category_title_satellite_supported_apps">Aipeanna tacaithe ar do ghuthán</string>
+    <string name="title_satellite_supported_app_list_entry">Féach ar na haipeanna uile a dtacaítear leo le satailít</string>
     <string name="title_satellite_supported_app_list_page">Aipeanna tacaithe ar do ghuthán</string>
     <string name="title_satellite_dialog_for_sim_restriction">Ní féidir SIM a chur leis</string>
     <string name="description_satellite_dialog_for_sim_restriction">Cuir deireadh leis an nasc satailíte sula gcuireann tú SIM leis</string>
@@ -1315,6 +1686,13 @@
     other {Tá # SIMs ar fáil ar an bhfeiste seo, ach ní féidir ach ceann amháin a úsáid ag an am}
 }</string>
     <string name="erase_sim_dialog_text">Má scriostar an eSIM seo, baintear an tseirbhís <xliff:g id="carrier_name_a" example="Google Fi">%1$s</xliff:g> den ghléas seo. Ní chuirfear an tseirbhís do <xliff:g id="carrier_name_b" example="Google Fi">%1$s</xliff:g> ar ceal. Chun eSIM nua a iarraidh, beidh ort teagmháil a dhéanamh le d\'iompróir.</string>
+    <string name="bluetooth_left_name_expressive">Ar chlé: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
+    <string name="bluetooth_right_name_expressive">Ar dheis: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
+    <string name="bluetooth_middle_name_expressive">Cás: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
+    <string name="bluetooth_left_content_description_expressive">Ar chlé, ceallraí: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
+    <string name="bluetooth_right_content_description_expressive">Ceart go leor, ceallraí: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
+    <string name="bluetooth_middle_content_description_expressive">Cás, ceallraí: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
+    <string name="bluetooth_main_content_description_expressive">Ceallraí: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
     <string name="enable_desktop_mode">Cumasaigh fuinneoga saor in aisce</string>
     <string name="enable_desktop_experience_features">Cumasaigh gnéithe taithí deisce</string>
     <string name="enable_desktop_experience_features_summary_with_desktop">Cumasaigh fuinneoga deisce ar an ngléas agus ar thaispeántais thánaisteacha.</string>
@@ -1331,6 +1709,15 @@
     <string name="enable_16k_pages">Tosaithe le méid leathanaigh 16 KB</string>
     <string name="enable_16k_pages_summary">Gléas tosaithe ag baint úsáide as croíleacán tacaithe le méid leathanaigh 16 KB</string>
     <string name="confirm_enable_16k_pages_title">Athraigh ó mhodh 4 KB go modh 16 KB</string>
+    <string name="confirm_enable_16k_pages_update_wipe"> Chun an rogha forbróra 16 KB a úsáid, ní mór críochdheighilt sonraí an ghléis seo a thiontú go ext4.
+        Scriosfaidh sé seo do ghléas agus athróidh sé an córas comhad go ext4.&lt;br&gt;&lt;br&gt;
+        Nuair a bheidh tú i mód 16 KB, is féidir leat aistriú idir mód 4 KB agus mód 16 KB le hatosaigh amháin.&lt;br&gt;&lt;br&gt;
+        Rudaí le cuimhneamh i mód 16 KB:&lt;br&gt;&lt;br&gt;
+        &amp;#8226; Ní féidir sláine bogearraí a ráthú&lt;br&gt;
+        &amp;#8226; D’fhéadfadh sonraí atá stóráilte ar an bhfón agus an tosaitheoir díghlasáilte i mbaol&lt;br&gt;
+        &amp;#8226; Díchumasófar roinnt gnéithe, rud a d’fhéadfadh difear a dhéanamh d’aipeanna áirithe&lt;br&gt;&lt;br&gt;
+        Chun filleadh ar an mód táirgeachta, beidh ort athrú ar ais go mód 4 KB agus an tosaitheoir a ghlasáil. Déanfaidh sé seo athshocrú monarchan ar do ghléas. Tar éis don ghléas tosaithe go rathúil in Android, díchumasaigh díghlasáil OEM i roghanna Forbróra.&lt;br&gt;&lt;br&gt;
+        Chun dul ar aghaidh ag aistriú go mód 16 KB, tapáil \"Scrios na sonraí go léir agus Nuashonraigh\". Atosóidh sé seo an gléas.</string>
     <string name="confirm_enable_16k_pages_text">Tá tú sa mhodh neamhchlaonta leathanaigh ag rith croí 4 KB, agus tá tú ag aistriú go dtí an modh 16 KB.
         Ní féidir sláine bogearraí a ráthú sa mhodh seo, agus d\'fhéadfadh aon sonraí atá stóráilte ar an bhfón agus an tosaitheoir díghlasáilte a bheith i mbaol.
         Atosóidh sé seo an gléas. Díchumasófar roinnt gnéithe sna modhanna seo, mar sin ní fhéadfadh roinnt feidhmchlár a bheith ag obair.
@@ -1342,6 +1729,7 @@
         Atosóidh sé seo an gléas. Díchumasófar roinnt gnéithe sna modhanna seo, mar sin ní fhéadfadh roinnt feidhmchlár a bheith ag obair. Chun an gléas a thabhairt ar ais go mód táirgthe,
         bheadh ​​ort an tosaitheoir a ghlasáil ansin, rud a athshocraíonn an gléas ó thaobh na monarchan de. Tar éis don ghléas tosaithe go rathúil in Android, díchumasaigh díghlasáil OEM i roghanna Forbróra.</string>
     <string name="toast_16k_update_failed_text">Theip ar an eithne a nuashonrú go heithne atá comhoiriúnach le leathanaigh 16 KB.</string>
+    <string name="confirm_ext4_button_text">Scrios na sonraí go léir agus nuashonraigh</string>
     <string name="format_ext4_failure_toast">Theip ar an deighilt sonraí a athfhormáidiú agus a scriosadh go ext4.</string>
     <string name="confirm_oem_unlock_for_16k_title">Díghlasáil Bootloader ag Teastáil</string>
     <string name="confirm_oem_unlock_for_16k_text">Ní mór an tosaitheoir a dhíghlasáil ar an ngléas seo sula n-úsáidtear an rogha forbróra 16 KB.
@@ -1382,11 +1770,15 @@ nó bain úsáid as &lt;a href=\"https://flash.android.com/back-to-public\"&gt;h
     <string name="stop_app_dlg_text">Stopfar an feidhmchlár chun socruithe comhoiriúnachta méid leathanaigh a chur i bhfeidhm.</string>
     <string name="error_pending_updates">Theip ar nuashonrú an eithne. Seiceáil agus suiteáil aon nuashonruithe atá ar feitheamh.</string>
     <string name="error_ota_failed">Theip ar nuashonrú an eithne. Tharla earráid agus OTA á chur i bhfeidhm.</string>
+    <string name="rtt_settings_summary">Úsáid téacs chun cumarsáid a dhéanamh le linn glao</string>
     <string name="disable_screen_share_protections_for_apps_and_notifications_summary">Múch cosaintí córais le haghaidh ábhar íogair aip le haghaidh seisiúin scáileáin atá le teacht</string>
     <string name="camera_extensions_fallback_description">Cumasaíonn sé cur i bhfeidhm bogearraí réamhshocraithe ardghnéithe ceamara, mar shampla HDR, Oíche nó síntí ceamara eile.</string>
+    <string name="dark_theme_main_switch_title">Úsáid téama dorcha</string>
+    <string name="hdr_brightness_main_switch_title">Úsáid gile HDR feabhsaithe</string>
     <string name="multiple_users_main_switch_title">Ceadaigh athrú úsáideora</string>
     <string name="multiple_users_title_keywords">iolracha, úsáideoirí, próifílí, daoine, cuntais, lasc, go leor</string>
     <string name="enable_2g_title">Cosaint líonra 2G</string>
+    <string name="enable_2g_summary">Seachnaíonn sé líonraí 2G, nach bhfuil chomh slán. D’fhéadfadh sé seo srian a chur ar nascacht in áiteanna áirithe. Ceadaítear 2G i gcónaí le haghaidh glaonna éigeandála, ach ní fhéadfadh glaonna a bheith ceangailte má tá tú ag fánaíocht go hidirnáisiúnta.</string>
     <string name="require_cellular_encryption_title">Ní cheadaigh ach líonraí criptithe</string>
     <string name="require_cellular_encryption_summary">Tá sé seo níos sláine ach d’fhéadfadh sé teorainn a chur le do nasc líonra soghluaiste in áiteanna áirithe. Ceadaítear glaonna éigeandála i gcónaí.</string>
     <string name="virtual_device_unknown">Gléas anaithnid</string>
@@ -1425,6 +1817,11 @@ nó bain úsáid as &lt;a href=\"https://flash.android.com/back-to-public\"&gt;h
     =1 {Aipeanna atá suiteáilte níos mó ná # mí ó shin}
     other {Aipeanna atá suiteáilte níos mó ná # mí ó shin}
 }</string>
+    <string name="flash_notifications_summary_off">As / Faigh foláireamh le splanc ceamara nó scáileáin le haghaidh fógraí agus aláraim</string>
+    <string name="flash_notifications_summary_on">Ar / Faigh foláireamh le splanc ceamara nó scáileáin le haghaidh fógraí agus aláraim</string>
+    <string name="magnification_feature_summary">Zúmáil isteach chun ábhar a dhéanamh níos mó ar do scáileán</string>
+    <string name="show_captions_disabled">As / Saincheap méid agus stíl an fhotheidil</string>
+    <string name="show_captions_enabled">Ar / Saincheap méid agus stíl an fhotheidil</string>
     <string name="audio_seek_bar_state_left_first">Fuaim <xliff:g id="percent_left">%1$s</xliff:g> fágtha, <xliff:g id="percent_right">%2$s</xliff:g> ar dheis</string>
     <string name="audio_seek_bar_state_right_first">Fuaim <xliff:g id="percent_right">%1$s</xliff:g> ar dheis, <xliff:g id="percent_left">%2$s</xliff:g> fágtha</string>
     <string name="accessibility_setup_pin_complete">Tá an PIN socraithe anois</string>
@@ -1447,6 +1844,7 @@ nó bain úsáid as &lt;a href=\"https://flash.android.com/back-to-public\"&gt;h
     <string name="audio_sharing_stream_settings_title">Socruithe sruth fuaime</string>
     <string name="audio_sharing_stream_compatibility_title">Feabhas a chur ar chomhoiriúnacht</string>
     <string name="audio_sharing_stream_compatibility_description">Cuidíonn sé le roinnt gléasanna, cosúil le háiseanna éisteachta, nascadh trí cháilíocht</string>
+    <string name="audio_sharing_stream_compatibility_disabled_description">Múch an comhroinnt fuaime chun socruithe a athrú</string>
     <string name="audio_sharing_nearby_audio_title">Éist le fuaim in aice láimhe</string>
     <string name="audio_sharing_footer_description">Tacaíonn comhroinnt fuaime le Auracast™</string>
     <string name="audio_sharing_stream_name_dialog_title">Ainm sruth fuaime</string>
@@ -1489,12 +1887,15 @@ nó bain úsáid as &lt;a href=\"https://flash.android.com/back-to-public\"&gt;h
     <string name="audio_sharing_block_pairing_dialog_title">Múch Comhroinnt Fuaime</string>
     <string name="audio_sharing_block_pairing_dialog_content">Chun gléas nua a phéireáil, múch Comhroinnt Fuaime ar dtús.</string>
     <string name="share_audio_notification_title">Comhroinn fuaim le <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
+    <string name="audio_sharing_device_volume_description"><xliff:g example="Mo chluasáin" id="device_name">%1$s</xliff:g> toirt</string>
     <string name="audio_streams_category_title">Ceangail le sruth fuaime LE</string>
     <string name="audio_streams_pref_title">Sruthaí fuaime in aice láim</string>
     <string name="audio_streams_title">Sruthanna fuaime</string>
     <string name="audio_streams_qr_code_summary">Ceangail le sruth fuaime ag baint úsáide as cód QR</string>
     <string name="audio_streams_add_source_bad_code_state_summary">Seiceáil an focal faire agus bain triail as</string>
     <string name="audio_streams_add_source_failed_state_summary">An féidir nascadh a dhéanamh. Bain triail as arís.</string>
+    <string name="audio_streams_dialog_failed_to_join">Theip ar an sruth fuaime a bheith páirteach</string>
+    <string name="audio_streams_dialog_failed_to_join_detail">Níorbh fhéidir le <xliff:g example="LE headset" id="device_name">%1$s</xliff:g> ceangal leis an sruth fuaime</string>
     <string name="audio_streams_dialog_stream_is_not_available">Tá sruth fuaime ar fáil</string>
     <string name="audio_streams_is_not_playing">Tá an sruth fuaime seo ag imirt aon rud faoi láthair</string>
     <string name="audio_streams_dialog_listen">Éist</string>
@@ -1505,17 +1906,22 @@ nó bain úsáid as &lt;a href=\"https://flash.android.com/back-to-public\"&gt;h
     <string name="audio_streams_activity_title">Sruthanna fuaime</string>
     <string name="audio_streams_no_password_summary">Gan aon phasfhocal</string>
     <string name="audio_streams_dialog_cannot_play">Ní féidir an sruth fuaime seo a sheinm ar <xliff:g example="LE headset" id="device_name">%1$s</xliff:g>.</string>
+    <string name="audio_streams_dialog_cannot_play_with_link">Ní féidir an sruth fuaime seo a sheinm ar <xliff:g example="LE headset" id="device_name">%1$s</xliff:g>. <annotation id="link">Foghlaim tuilleadh</annotation></string>
     <string name="audio_streams_listening_now">Éisteacht anois</string>
     <string name="audio_streams_present_now">Sruth curtha ar sos</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text">Stop ag éisteacht</string>
     <string name="audio_streams_dialog_no_le_device_title">Ceangal cluasáin comhoiriúnacha</string>
     <string name="audio_streams_dialog_turn_off_talkback_title">Múch Talkback go sealadach</string>
     <string name="audio_streams_dialog_turn_off_talkback_subtitle">Ní féidir Talkback a úsáid agus sruthanna fuaime á n-éisteacht. Múch Talkback chun tosú ag éisteacht.</string>
+    <string name="audio_streams_dialog_turn_off_audio_sharing_title">Ní féidir éisteacht le sruthanna fuaime agus iad á roinnt</string>
+    <string name="audio_streams_dialog_turn_off_audio_sharing_subtitle">Chun éisteacht leis an sruth seo, múch comhroinnt fuaime.</string>
     <string name="audio_streams_dialog_no_le_device_button">Ceangail gléas</string>
     <string name="audio_streams_detail_page_title">Sonraí sruth fuaime</string>
     <string name="audio_streams_qr_code_page_title">Cód QR sruth fuaime</string>
     <string name="audio_streams_qr_code_page_password">Pasfhocal: <xliff:g example="123" id="password">%1$s</xliff:g></string>
     <string name="audio_streams_qr_code_page_description">Chun éisteacht le <xliff:g example="Local Music" id="stream_name">%1$s</xliff:g>, is féidir le daoine eile cluasáin comhoiriúnacha a nascadh lena bhfeiste Android. Ansin is féidir leo an cód QR seo a scanadh.</string>
+    <string name="audio_streams_preference_subtitle">Éist le craoladh Auracast</string>
+    <string name="audio_streams_preference_subtitle_audio_sharing_on">Múch comhroinnt fuaime chun sruthanna fuaime a aimsiú</string>
     <string name="audio_streams_main_page_title">Faigh sruth fuaime</string>
     <string name="audio_streams_main_page_subtitle">Éist le gléas a roinneann fuaim nó le craoladh Auracast in aice láimhe</string>
     <string name="audio_streams_main_page_device_title">Do ghléas fuaime</string>
@@ -1526,6 +1932,7 @@ nó bain úsáid as &lt;a href=\"https://flash.android.com/back-to-public\"&gt;h
     <string name="audio_streams_main_page_qr_code_scanner_summary">Scan cód QR sruth fuaime chun éisteacht le <xliff:g example="LE headset" id="device_name">%1$s</xliff:g></string>
     <string name="audio_streams_main_page_password_dialog_cannot_edit">Is féidir pasfhocal a chur in eagar agus tú ag roinnt. Chun an pasfhocal a athrú, múch comhroinnt fuaime ar dtús.</string>
     <string name="audio_streams_main_page_password_dialog_format_alert">Ní mór 4-16 carachtar a bheith i do phasfhocal agus ní mór ach litreacha, uimhreacha agus siombailí a úsáid</string>
+    <string name="audio_streams_main_page_name_dialog_format_alert">Ní mór d\'ainm srutha fuaime 4-32 carachtar a bheith ann agus ní mór dó ach litreacha, uimhreacha agus siombailí a úsáid</string>
     <string name="audio_streams_qr_code_scanner_label">Scanóir cóid QR</string>
     <string name="audio_streams_qr_code_help_with_link"><annotation id="link">Cabhair uait?</annotation></string>
     <string name="homepage_search">Socruithe Cuardach</string>
@@ -1543,6 +1950,66 @@ nó bain úsáid as &lt;a href=\"https://flash.android.com/back-to-public\"&gt;h
     <string name="search_gesture_feature_title">Ciorcal go Cuardach</string>
     <string name="search_gesture_feature_summary">Déan teagmháil agus coinnigh an cnaipe Baile nó an hanla nascleanúna chun cuardach a dhéanamh ag baint úsáide as an ábhar ar do scáileán.</string>
     <string name="device_detail_icon_content_description"><xliff:g id="device_name">%1$s</xliff:g>. Cumraigh sonraí an ghléis.</string>
+    <string name="supervision_settings_title">Rialuithe tuismitheoirí</string>
+    <string name="supervision_settings_summary">Rialacha bunúsacha digiteacha &amp; teorainneacha ama scáileáin</string>
+    <string name="device_supervision_switch_no_pin_summary">Socraigh UAP</string>
+    <string name="keywords_supervision_settings">maoirseacht, rialuithe tuismitheoirí, tuismitheoirí, pin maoirseachta, uap</string>
+    <string name="supervision_pin_management_preference_title">Bainistigh do UAP</string>
+    <string name="supervision_pin_management_screen_title">UAP rialuithe tuismitheoirí</string>
+    <string name="supervision_pin_management_preference_keywords">UAP do thuismitheoirí, UAP rialuithe tuismitheoirí</string>
+    <string name="supervision_pin_management_preference_summary_add">Cuir ríomhphost aisghabhála leis</string>
+    <string name="supervision_pin_management_preference_summary_verify_recovery">Fíoraigh ríomhphost aisghabhála</string>
     <string name="supervision_add_forgot_pin_preference_title">Dearmad ar PIN</string>
+    <string name="supervision_auth_prompt_forgot_pin_button_label">An ndearna tú dearmad ar an UAP?</string>
+    <string name="supervision_update_recovery_email_preference_title">Nuashonraigh an seoladh ríomhphoist aisghabhála</string>
+    <string name="supervision_delete_pin_preference_title">Scrios an UAP</string>
+    <string name="supervision_add_pin_recovery_title">Cuir ríomhphost aisghabhála leis</string>
+    <string name="supervision_verify_pin_recovery_title">Fíoraigh do ríomhphost</string>
+    <string name="supervision_app_store_filters_title">Scagairí siopa aipeanna</string>
+    <string name="supervision_web_content_filters_title">Scagairí ábhair láithreáin ghréasáin</string>
+    <string name="supervision_web_content_filters_keywords">Scagairí gréasáin, Suíomhanna blocála, Scagairí brabhsálaí, Suíomhanna follasacha blocála, Suíomhanna scagtha, Torthaí cuardaigh blocála, Torthaí cuardaigh follasacha scagtha, srianta ábhair</string>
+    <string name="supervision_web_content_filters_top_intro">Cabhraigh le hábhar follasach a scagadh ar roinnt aipeanna agus brabhsálaithe ar an bhfón seo. D’fhéadfadh ábhar follasach a bheith le feiceáil fós ar aipeanna, gléasanna nó brabhsálaithe eile.</string>
+    <string name="supervision_web_content_filters_browser_title">Suíomhanna Gréasáin</string>
+    <string name="supervision_web_content_filters_browser_filter_title">Blocáil suíomhanna follasacha</string>
+    <string name="supervision_web_content_filters_search_title">Torthaí cuardaigh</string>
+    <string name="supervision_web_content_filters_search_filter_title">Scag amach torthaí cuardaigh follasacha</string>
+    <string name="supervision_web_content_filters_switch_summary">{count, plural,
+        =1      {Ar # aip}
+        two {Ar # aipeanna}
+        few {Ar # aipaipeanna}
+        many {Ar # aipeanna}
+        other   {Ar # aipeanna}
+        }</string>
+    <string name="supervision_web_content_filters_footer_title">Nuair a bhíonn na socruithe seo múchta, d’fhéadfadh socruithe cuntais eile a bheith i bhfeidhm fós.</string>
+    <string name="supervision_full_screen_pin_verification_title">Cuir isteach UAP rialuithe tuismitheoirí</string>
+    <string name="supervision_choose_your_pin_header">Socraigh UAP rialuithe tuismitheoirí</string>
+    <string name="supervision_confirm_your_pin_header">Deimhnigh UAP rialuithe tuismitheoirí</string>
+    <string name="supervision_pin_reset_success_toast">UAP nuashonraithe</string>
+    <string name="supervision_promo_footer_action_button_description">Oscail an aip</string>
+    <string name="supervision_delete_pin_confirm_header">Scrios an UAP?</string>
+    <string name="supervision_delete_pin_supervision_enabled_header">Ní féidir an UAP a scriosadh</string>
+    <string name="supervision_delete_pin_error_header">Ní féidir an UAP a scriosadh</string>
+    <string name="supervision_delete_pin_error_message">Tharla earráid agus iarracht á déanamh an UAP a scriosadh.</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> beochan</string>
+    <string name="supervision_multi_profile_error_title">Ní féidir rialuithe a chasadh air</string>
+    <string name="supervision_generic_error_page_message">Déan iarracht arís níos déanaí</string>
+    <string name="identity_check_issue_card_title">Oibríonn Seiceáil Céannachta le níos mó aipeanna</string>
+    <string name="identity_check_issue_card_summary">Cuireann Seiceáil Céannachta cosc ​​ar rochtain nach dteastaíonn uait ar d’aipeanna. Ar fáil anois le haon aip a úsáideann Díghlasáil Méarloirg nó Aghaidhe.</string>
+    <string name="identity_check_promo_card_title">Oibríonn Seiceáil Céannachta le níos mó aipeanna</string>
+    <string name="identity_check_promo_card_summary">Nuashonruithe:\n<ul><li>Cuireann Seiceáil Céannachta cosaint le haon aip a úsáideann Díghlasáil Méarloirg nó Aghaidhe</li>\n<li>Le himeacht ama, féadfaidh Seiceáil Céannachta níos mó bealaí a chur leis chun a fhíorú gur tusa atá ann agus aipeanna ar do ghléas a dhaingniú. <a href="https://support.google.com/android?p=identity_check">Foghlaim tuilleadh faoi cathain agus cá háit a bhfuil tú\cosanta</a></li></ul></string>
+    <string name="identity_check_watch_issue_card_title">Seiceáil Céannachta agus Faire</string>
+    <string name="identity_check_watch_issue_card_summary">Le faire ceangailte, cuireann Seiceáil Céannachta níos mó bealaí leis chun a fhíorú gur tusa atá ann chun rochtain nach dteastaíonn uait ar aipeanna a chosc.</string>
+    <string name="identity_check_watch_promo_card_title">Seiceáil Céannachta agus Faire</string>
+    <string name="identity_check_promo_card_watch_summary">Nuashonruithe:\n<ul><li>Trí uaireadóir a nascadh, is féidir leat bithmhéadracht nó do PIN a úsáid chun rochtain a fháil ar aipeanna nuair nach bhfuil tú in áit iontaofa</li>\n<li>Le himeacht ama, féadfaidh Seiceáil Céannachta níos mó bealaí a chur leis chun a fhíorú gur tusa atá ann agus aipeanna a dhaingniú ar do ghléas. <a href="https://support.google.com/android?p=identity_check">Foghlaim tuilleadh faoi cathain agus cá háit a bhfuil tú faoi chosaint</a></li></ul></string>
+    <string name="more_security_privacy_category_title">Socruithe eile</string>
+    <string name="more_security_privacy_summary">Uathlíonadh, fógraí, agus tuilleadh</string>
+    <string name="privacy_sources_title">Rialuithe príobháideachta</string>
+    <string name="privacy_sources_summary">Ceadanna, rialuithe</string>
+    <string name="device_unlock_subpage_title">Díghlasáil gléas</string>
+    <string name="location_settings">Rochtain suímh</string>
+    <string name="location_settings_subtitle">Féach ar aipeanna agus seirbhísí a bhfuil rochtain acu ar shuíomh</string>
+    <string name="identity_check_notification_title">Oibríonn Seiceáil Céannachta le níos mó aipeanna</string>
+    <string name="identity_check_notification_summary">Cuireann Seiceáil Céannachta cosc ​​ar rochtain nach dteastaíonn uait ar d’aipeanna. Ar fáil anois le haon aip a úsáideann Díghlasáil Méarloirg nó Aghaidhe.</string>
+    <string name="safety_center_refresh_error">Níorbh fhéidir na socruithe a sheiceáil</string>
+    <string name="safety_center_subpage_unknown_summary">Gan aon eolas fós</string>
 </resources>

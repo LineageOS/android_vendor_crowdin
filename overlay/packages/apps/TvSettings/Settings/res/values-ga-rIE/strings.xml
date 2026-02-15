@@ -19,6 +19,7 @@
     <string name="screen_reader_summary">Is gné inrochtaineachta léitheora scáileáin é Caint siar a chuidíonn le húsáideoirí lagamhairc téacs ar an scáileán, míreanna roghchláir agus gnéithe eile a léamh os ard. Is féidir é a chur ar bun freisin le húsáid le hAicearra Inrochtaineachta.</string>
     <string name="accounts_category_title">Cuntais &amp; Próifílí</string>
     <string name="privacy_device_lock_settings_title">Glasáil Gléas</string>
+    <string name="privacy_assistant_settings_title">Cúntóir gutha</string>
     <string name="unplug_ethernet_to_use_wifi">Díphlugáil Ethernet chun Wi-Fi a úsáid</string>
     <string name="wifi_setting_thread_network">Líonra snáithe</string>
     <string name="wifi_setting_thread_network_context">Nascann líonra snáithe go háitiúil
@@ -29,12 +30,32 @@
         Seans nach n-oibreoidh gléasanna agus seirbhísí baile cliste áirithe mar a bhíothas ag súil leis.\n\nFoghlaim tuilleadh ag
         g.co/tv/snáithe
   </string>
+    <string name="share_thread_network">Dintiúir líonra Comhroinn Thread</string>
+    <string name="share_thread_network_description">        Comhroinn dintiúir líonra Thread le gléasanna eile chun an socrú a shimpliú ar do líonra Thread
+         <xliff:g id="device" example="Google TV Streamer">%1$s</xliff:g>
+    </string>
+    <string name="thread_network_share_again">Roinn arís</string>
+    <string name="share_thread_network_countdown">        Rachaidh an cód in éag i gceann
+<xliff:g id="minutes" example="02">%1$02d</xliff:g>m
+         <xliff:g id="soicindí" example="32">%2$02d</xliff:g>s
+    </string>
+    <string name="thread_network_sharing_failed">Níorbh fhéidir líonra snáithe a roinnt</string>
+    <string name="thread_network_sharing_success">Roinneadh líonra snáithe go rathúil</string>
+    <string name="thread_network_sharing_timeout">D’imigh an cód in éag sular cuireadh aon fheiste leis an líonra snáithe</string>
     <string name="wifi_settings_thread_network_confirmation_title">An bhfuil fonn ort an Líonra Snáithe a mhúchadh?</string>
     <string name="wifi_settings_thread_network_confirmation_message">Má tá sé casta as, cliste áirithe
         seans nach n-oibreoidh gléasanna agus seirbhísí baile mar a bhíothas ag súil leis. Ar mhaith leat dul ar aghaidh?</string>
+    <string name="wifi_settings_thread_network_energy_title">Athraigh modh fuinnimh chun Snáithe a chumasú</string>
+    <string name="wifi_settings_thread_network_energy_message">Chun go mbeidh an teilifís seo in ann do líonra
+     Thread a chruthú nó a bheith páirteach ann agus do ghléasanna baile cliste a nascadh go héifeachtúil, ní mór mód fuinnimh mhéadaithe a bheith aige.</string>
     <string name="wifi_settings_thread_network_confirmation_button_confirm">Múch</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode">        Athraigh go mód fuinnimh mhéadaithe
+    </string>
     <string name="add_apps_title">Cuir níos mó aipeanna leis</string>
     <string name="surround_sound_select_formats">Timpeall socruithe fuaime</string>
+    <string name="surround_sound_variable_volume_control_summary">Chun fuaim timpeall a chumasú, téigh go
+        dtí Socruithe &gt; Cianrialtáin &amp; Gabhálais &gt; Socraigh cnaipí cianrialtáin &gt; Rialú toirte agus
+        ansin roghnaigh rogha seachas an gléas seo.</string>
     <string name="surround_sound_auto_title">Uathoibríoch\"</string>
     <string name="surround_sound_selection_auto_desc">Cumasaigh gach formáid tacaithe</string>
     <string name="surround_sound_selection_manual_desc">Roghnaigh ó na formáidí atá ar fáil</string>
@@ -63,6 +84,12 @@
     <string name="bluetooth_toggle_confirmation_dialog_summary">Ní bheidh tú in ann
         rochtain a fháil ar chúntóir gutha ó do chianrialtán agus Bluetooth múchta.</string>
     <string name="manage_device_admin">Riarthóir gléis</string>
+    <string name="wifi_forget_network_dialog_title">Dearmad ar <xliff:g id="ssid">%1$s</xliff:g>?</string>
+    <string name="share_thread_title">Úsáid dintiúir Thread chun gléas a shocrú</string>
+    <string name="share_thread_description">        Chun gléas a chur le do líonra Thread, scan an cód QR seo in aip an ghléis. Ar mhaithe le slándáil,
+        rachaidh an cód in éag i gceann <xliff:g id="minutes" example="3">%1$s</xliff:g> nóiméad.</string>
+    <string name="no_recent_camera_accesses">Níor rochtainigh aon aip ná seirbhís an ceamara le déanaí</string>
+    <string name="no_recent_microphone_accesses">Níl rochtain faighte ag aon aip ná seirbhís ar an micreafón le déanaí</string>
     <string name="mic_toggle_info_content">Nuair a bhíonn sé casta air, beidh gach aip agus seirbhís a bhfuil
         cead acu an micreafón a úsáid in ann rochtain a fháil air.\n\nNuair a bhíonn sé múchta, ní bheidh aon aip 
         ná seirbhís in ann rochtain a fháil ar an micreafón. Ach b\'fhéidir go mbeidh tú in ann labhairt le do chúntóir gutha 
@@ -76,6 +103,7 @@
         ag baint úsáide as do chianrialtán. Chun go mbeidh tú in ann an cnaipe cúntóra gutha a úsáid, 
         cumasaigh rochtain micreafóin.
     </string>
+    <string name="sensor_toggle_info_on">ar</string>
     <string name="bounce_key_title">Eochracha Bounce</string>
     <string name="bounce_key_description">Roghnaigh an t-am is fearr leat</string>
     <string name="bounce_key_detailed">Déanann cianda neamhaird ar bhrúnna eochracha arís agus arís eile</string>
@@ -89,6 +117,7 @@
     <string name="bounce_key_timing_two_second_title">Uainiú : 2 soicind</string>
     <string name="bounce_key_timing_two_second_description">Coigeartaigh an t-eatramh ama go 2 shoicind agus ní thabharfar aird ar bhrúnna eochrach arís agus arís eile</string>
     <string name="keyboard_accessibility">Inrochtaineacht méarchláir</string>
+    <string name="accessibility_shortcut_off">Aicearra inrochtaineachta: As</string>
     <string name="accessibility_timeout">Am le beart a dhéanamh (am istigh inrochtaineachta)</string>
     <string name="accessibility_timeout_summary">Coigeartaigh ré na dteachtaireachtaí a dteastaíonn gníomh uathu</string>
     <string name="accessibility_timeout_detailed">Roghnaigh cé chomh fada chun teachtaireachtaí sealadacha a thaispeáint a iarrann ort beart a dhéanamh</string>
@@ -104,10 +133,17 @@
     <string name="accessibility_repeat_rate">Ráta athuair</string>
     <string name="accessibility_repeat_rate_summary">Socraigh cé chomh tapa agus a chuirtear isteach carachtair arís agus arís eile nuair a choinnítear eochair síos</string>
     <string name="accessibility_repeat_rate_info_summary">Rialú cé chomh tapa agus a athraíonn an cnaipe tar éis moille tosaigh</string>
+    <string name="title_settings">socruithe <xliff:g id="name" example="Gboard">%1$s</xliff:g></string>
     <string name="wifi_setup_already_connected">Ceangailte cheana féin</string>
+    <string name="device_apps_app_management_force_stop_with_app_name">Stop fórsúil a chur ar <xliff:g id="app_name" example="Youtube">%1$s</xliff:g>?</string>
     <string name="limit_network_in_standby_toggle_info">Beidh do theilifís dícheangailte ó do líonra nuair a bheidh sí i mód fuireachais, ach amháin chun nuashonruithe uathoibríocha a fháil. D’fhéadfadh sé seo úsáid fuinnimh do theilifíse a laghdú, cé go gciallódh sé freisin nach mbeidh tú in ann feidhmeanna cosúil le Cast agus cúntóir gutha a úsáid agus í i mód fuireachais.</string>
     <string name="usage_access">Sonraí úsáide aipeanna</string>
     <string name="usage_access_description">Le sonraí úsáide aipeanna, is féidir le haip rianú a dhéanamh ar na haipeanna eile atá á n-úsáid agat agus cé chomh minic, chomh maith le d’iompróir, socruithe teanga agus sonraí eile.</string>
+    <string name="media_management_apps_title">Aipeanna bainistíochta meán</string>
+    <string name="media_management_apps_toggle_label">Lig don aip meáin a bhainistiú</string>
+    <string name="media_management_apps_description">Más ceadmhach é, is féidir leis an aip seo comhaid meán a cruthaíodh le haipeanna eile a mhodhnú nó a scriosadh gan iarraidh ort. Ní mór cead a bheith ag an aip chun rochtain a fháil ar chomhaid agus ar mheáin.</string>
+    <string name="write_system_settings">Rochtain socruithe córais</string>
+    <string name="write_settings_title">Rochtain socruithe córais</string>
     <string name="select_device_admin_msg">Riarthóir gléis</string>
     <string name="system_tv_title">Teilifís</string>
     <string name="menu_monitor">Monatóir</string>
@@ -118,4 +154,9 @@
     <string name="volume_change_settings_title">%1$s toirt</string>
     <string name="volume_change_subtitle_unselect">Is féidir leat toirt an chúntóra a rialú ar chainteoir %1$s</string>
     <string name="volume_change_subtitle_select">Ní chuireann sé isteach ach ar an toirt ar ghléas %1$s , ní ar an teilifís</string>
+    <string name="accessibility_service_off_title"><xliff:g id="accessibility_service_name" example="Talkback">%s</xliff:g>:As</string>
+    <string name="accessibility_service_on_title"><xliff:g id="accessibility_service_name" example="Talkback">%s</xliff:g>:Ar</string>
+    <string name="enable_angle_as_system_driver">Cumasaigh ANGLE mar thiománaí réamhshocraithe OpenGL ES</string>
+    <string name="enable_angle_as_system_driver_summary">Turgnamhach, atosú ag teastáil.</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Tá atosú ag teastáil chun tiománaí OpenGL ES an chórais a athrú</string>
 </resources>

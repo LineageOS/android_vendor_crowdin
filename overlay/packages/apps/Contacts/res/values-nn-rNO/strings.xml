@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel">Kontaktar</string>
+    <string name="contactsList">Kontaktar</string>
+    <string name="shortcut_add_contact">Legg til kontakt</string>
+    <string name="shortcutContact">Kontakt</string>
+    <string name="shortcutDialContact">Snøggoppringing</string>
+    <string name="shortcutMessageContact">Snøggmelding</string>
+    <string name="shortcutActivityTitle">Vel kontakt</string>
+    <string name="contactInsertOrEditActivityTitle">Legg til i kontakt</string>
+    <string name="contactPickerActivityTitle">Vel ein kontakt</string>
+    <string name="groupMemberPickerActivityTitle">Vel</string>
+    <string name="header_entry_contact_list_adapter_header_title">Lag ny kontakt</string>
+    <string name="searchHint">Søk etter kontaktar</string>
+    <string name="menu_addStar">Legg til i favorittar</string>
+    <string name="menu_removeStar">Fjern frå favorittar</string>
+    <string name="description_action_menu_remove_star">Fjerna frå favorittar</string>
+    <string name="description_action_menu_add_star">Lagt til i favorittar</string>
+    <string name="menu_editContact">Rediger</string>
+    <string name="menu_deleteContact">Slett</string>
+    <string name="menu_change_photo">Byt bilete</string>
+    <string name="menu_create_contact_shortcut">Lag snarveg</string>
+    <string name="menu_splitAggregate">Kopla frå</string>
+    <string name="menu_editGroup">Fjern kontaktar</string>
+    <string name="menu_renameGroup">Gje etiketten nytt namn</string>
+    <string name="menu_deleteGroup">Slett etiketten</string>
+    <string name="menu_addToGroup">Legg til kontakt</string>
+    <string name="menu_selectForGroup">Vel kontaktar</string>
+    <string name="menu_addContactsToGroup">Legg til kontaktar</string>
+    <string name="menu_removeFromGroup">Fjern frå etikett</string>
+    <string name="menu_new_group_action_bar">Lag etikett</string>
+    <string name="splitConfirmation">Vil du dela opp denne kontakten i fleire enkeltkontaktar?</string>
+    <string name="splitConfirmation_positive_button">Del opp</string>
+    <string name="splitConfirmationWithPendingChanges">Vil du lagra endringane du har gjort, og dela opp denne kontakten i fleire enkeltkontaktar?</string>
+    <string name="splitConfirmationWithPendingChanges_positive_button">Lagra og del opp</string>
+    <string name="joinConfirmation">Vil du lagra endringane du har gjort, og kopla saman med den valde kontakten?</string>
+    <string name="joinConfirmation_positive_button">Lagra og kopla saman</string>
+    <string name="contacts_linking_progress_bar">Koplar saman</string>
+    <string name="contacts_unlinking_progress_bar">Deler opp</string>
+    <string name="menu_joinAggregate">Kopla saman</string>
+    <string name="menu_linkedContacts">Sjå samankopla kontaktar</string>
+    <string name="menu_save">Lagra</string>
+    <string name="titleJoinContactDataWith">Kopla saman kontaktar</string>
+    <string name="blurbJoinContactDataWith">Vel kontakten du vil kopla saman med <xliff:g id="name">%s</xliff:g>:</string>
+    <string name="separatorJoinAggregateSuggestions">Føreslåtte kontaktar</string>
+    <string name="separatorJoinAggregateAll">Alle kontaktar</string>
+    <string name="contactsJoinedNamedMessage"><xliff:g id="name">%s</xliff:g> er kopla saman</string>
+    <string name="contactsJoinedMessage">Kontaktane er kopla saman</string>
+    <string name="contacts_deleted_one_named_toast">Sletta <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="contacts_deleted_two_named_toast">Sletta <xliff:g id="name">%1$s</xliff:g> og <xliff:g id="name">%2$s</xliff:g></string>
+    <string name="contacts_deleted_many_named_toast">Sletta <xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g> \u2026</string>
+    <string name="contacts_deleted_toast"> {count, plural,
+        =1    {Kontakten er sletta}
+        other {Kontaktane er sletta}
+    }</string>
+    <string name="contacts_count"> {count, plural,
+        =1    {# kontakt}
+        other {# kontaktar}
+    }</string>
+    <string name="contacts_count_with_account"> {count, plural,
+        =1    {# kontakt · {account}}
+        other {# kontaktar · {account}}
+    }</string>
+    <string name="title_from_google">Frå Google</string>
+    <string name="title_from_other_accounts">Frå <xliff:g id="account">%s</xliff:g></string>
+    <string name="menu_set_ring_tone">Vel ringetone</string>
+    <string name="menu_redirect_calls_to_vm">Send til telefonsvararen</string>
+    <string name="menu_unredirect_calls_to_vm">Ikkje send til telefonsvararen</string>
+    <string name="readOnlyContactWarning">Denne kontakten er skriveverna. Han kan ikkje slettast, men du kan gøyma han.</string>
+    <string name="readOnlyContactWarning_positive_button">Gøym kontakten</string>
+    <string name="readOnlyContactDeleteConfirmation">Skriveverna kontoar i denne kontakten blir gøymde, ikkje sletta.</string>
+    <string name="single_delete_confirmation">Vil du sletta denne kontakten?</string>
+    <string name="batch_delete_confirmation">Vil du sletta dei valde kontaktane?</string>
+    <string name="batch_delete_read_only_contact_confirmation">Kontaktar frå skriveverna kontoar kan ikkje slettast, men du kan gøyma dei.</string>
+    <string name="batch_delete_multiple_accounts_confirmation">Kontaktane som skal slettast, inneheld detaljar frå fleire kontoar. Detaljar frå skriveverna kontoar blir gøymde, ikkje sletta.</string>
+    <string name="multipleContactDeleteConfirmation">Om du slettar denne kontakten, slettar du detaljar frå fleire kontoar.</string>
+    <string name="deleteConfirmation">Vil du sletta denne kontakten?</string>
+    <string name="deleteConfirmation_positive_button">Slett</string>
+    <string name="invalidContactMessage">Kontakten finst ikkje.</string>
+    <string name="createContactShortcutSuccessful_NoName">Kontakten er lagd til på startskjermen.</string>
+    <string name="createContactShortcutSuccessful"><xliff:g id="name">%s</xliff:g> er lagd til på startskjermen.</string>
+    <string name="photoPickerNotFoundText">Fann ingen bilete på eininga.</string>
+    <string name="attach_photo_dialog_title">Kontaktbilete</string>
+    <string name="customLabelPickerTitle">Namn på eigen etikett</string>
+    <string name="removePhoto">Fjern biletet</string>
+    <string name="noContacts">Kontaktlista er tom</string>
+    <string name="emptyGroup">Ingen kontaktar med denne etiketten</string>
+    <string name="emptyAccount">Ingen kontaktar på denne kontoen</string>
+    <string name="emptyMainList">Kontaktlista er tom</string>
+    <string name="contactSavedNamedToast">Lagra <xliff:g id="display_name">%s</xliff:g></string>
+    <string name="contactSavedToast">Kontakten er lagra</string>
+    <string name="contactUnlinkedToast">Koplingane mellom kontaktane er fjerna</string>
+    <string name="contactSavedErrorToast">Klarte ikkje lagra endringane på kontakten</string>
+    <string name="contactUnlinkErrorToast">Klarte ikkje fjerna koplinga for kontakten</string>
+    <string name="contactJoinErrorToast">Klarte ikkje kopla saman kontakten</string>
+    <string name="contactGenericErrorToast">Feil ved lagring av kontakt</string>
+    <string name="contactPhotoSavedErrorToast">Klarte ikkje lagra endringane på kontaktbiletet</string>
+    <string name="groupLoadErrorToast">Klarte ikkje lasta inn etiketten</string>
+    <string name="groupDeletedToast">Etiketten er sletta</string>
+    <string name="groupCreatedToast">Laga etikett</string>
+    <string name="groupCreateFailedToast">Klarte ikkje laga etiketten</string>
+    <string name="groupUpdatedToast">Etiketten er oppdatert</string>
+    <string name="groupMembersRemovedToast">Fjerna frå etiketten</string>
+    <string name="groupMembersAddedToast">Lagd til på etiketten</string>
+    <string name="groupSavedErrorToast">Klarte ikkje lagra endringane på etiketten</string>
+    <string name="groupExistsErrorMessage">Denne etiketten finst frå før</string>
+    <string name="groupSomeContactsNoEmailsToast">Nokre kontaktar manglar e-postadresse.</string>
+    <string name="groupSomeContactsNoPhonesToast">Nokre kontaktar manglar telefonnummer.</string>
+    <string name="menu_sendEmailOption">Send e-post</string>
+    <string name="menu_sendMessageOption">Send melding</string>
+    <string name="pickerSelectContactsActivityTitle">Vel kontaktar</string>
+    <string name="send_to_selection">Send</string>
+    <string name="listFoundAllContactsZero">Ingen kontaktar</string>
+    <string name="add_contact_dlg_message_fmt">Vil du leggja til «<xliff:g id="email">%s</xliff:g>» i kontaktlista?</string>
+    <string name="search_settings_description">Namn på kontaktane dine</string>
+    <string name="quickcontact_transparent_view_description">Trykk for å gå tilbake</string>
+    <string name="quickcontact_add_phone_number">Legg til telefonnummer</string>
+    <string name="quickcontact_add_email">Legg til e-post</string>
+    <string name="missing_app">Fann ingen app som kan utføra denne handlinga.</string>
+    <string name="menu_share">Del</string>
+    <string name="menu_add_contact">Legg til i kontaktar</string>
+    <string name="menu_add_contacts">Legg til</string>
+    <string name="title_share_via"> {count, plural,
+        =1    {Del kontakten via}
+        other {Del kontaktane via}
+    }</string>
+    <string name="dialog_new_group_account">Vel konto</string>
+    <string name="group_name_dialog_insert_title">Lag etikett</string>
+    <string name="group_name_dialog_update_title">Gje etiketten nytt namn</string>
+    <string name="group_name_dialog_hint">Etikettnamn</string>
+    <string name="label_name_dialog_hint">Etikettnamn</string>
+    <string name="audio_chat">Talechat</string>
+    <string name="video_chat">Videochat</string>
+    <string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g>-kontakt</string>
+    <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g>-konto</string>
+    <string name="take_photo">Ta bilete</string>
+    <string name="take_new_photo">Ta nytt bilete</string>
+    <string name="pick_photo">Vel bilete</string>
+    <string name="pick_new_photo">Vel nytt bilete</string>
+    <string name="search_results_searching">Søkjer \u2026</string>
+    <string name="event_edit_field_hint_text">Dato</string>
+    <string name="group_edit_field_hint_text">Etikett</string>
+    <string name="editor_uneditable_section_title">Kan ikkje oppdatera denne infoen</string>
+    <string name="cancel_button_content_description">Avbryt</string>
+    <string name="back_arrow_content_description">Tilbake</string>
+    <string name="action_menu_back_from_edit_select">lukk</string>
+    <string name="aggregation_suggestion_edit_dialog_message">Vil du byta til å redigera den valde kontakten? Informasjonen du har skrive inn så langt, blir kopiert over.</string>
+    <string name="contact_directory_description">Katalog: <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g></string>
+    <string name="activity_title_settings">Innstillingar</string>
+    <string name="menu_settings" msgid="377929915873428211">Innstillingar</string>
+    <string name="menu_help">Hjelp og tilbakemelding</string>
+    <string name="organization_entry_two_field">        <xliff:g id="first" example="Google">%1$s</xliff:g>
+         •
+         <xliff:g id="second" example="Developer">%2$s</xliff:g>
+    </string>
+    <string name="organization_entry_all_field">        <xliff:g id="company" example="Google">%1$s</xliff:g>
+         •
+         <xliff:g id="department" example="People">%2$s</xliff:g>
+         •
+         <xliff:g id="title" example="Developer">%3$s</xliff:g>
+    </string>
+    <string name="non_phone_caption">Telefonnummer</string>
+    <string name="non_phone_add_to_contacts">Legg til i kontaktar</string>
+    <string name="non_phone_close">Lukk</string>
+    <string name="date_year_toggle">Ta med år</string>
+    <string name="contacts_unavailable_add_account">Legg til konto</string>
+    <string name="contacts_unavailable_import_contacts">Importer</string>
+    <string name="create_group_item_label">Lag ny …</string>
+    <string name="delete_group_dialog_message">Vil du sletta etiketten «<xliff:g id="group_label" example="Friends">%1$s</xliff:g>»? (Sjølve kontaktane blir ikkje sletta.)</string>
+    <string name="toast_join_with_empty_contact">Skriv inn eit kontaktnamn før du koplar saman med ein annan.</string>
+    <string name="copy_text">Kopier til utklippstavla</string>
+    <string name="set_default">Vel som standard</string>
+    <string name="clear_default">Fjern som standard</string>
+    <string name="toast_text_copied">Teksten er kopiert</string>
+    <string name="cancel_confirmation_dialog_message">Vil du forkasta endringane?</string>
+    <string name="cancel_confirmation_dialog_cancel_editing_button">Forkast</string>
+    <string name="cancel_confirmation_dialog_keep_editing_button">Avbryt</string>
+    <string name="leave_customize_confirmation_dialog_message">Vil du forkasta tilpassingane?</string>
+    <string name="enter_contact_name">Søk etter kontaktar</string>
+    <string name="title_edit_group">Fjern kontaktar</string>
+    <string name="local_profile_title">Den lokale profilen min</string>
+    <string name="external_profile_title">Profilen min på <xliff:g id="external_source">%1$s</xliff:g></string>
+    <string name="contact_editor_prompt_zero_accounts">Ta deg tid til å leggja til ein konto som kan lagra kontaktane dine på Google.</string>
+    <string name="contact_editor_prompt_one_account">Nye kontaktar blir lagra på <xliff:g id="account_name">%1$s</xliff:g>.</string>
+    <string name="contact_editor_prompt_multiple_accounts">Vel ein standardkonto for nye kontaktar:</string>
+    <string name="contact_editor_title_new_contact">Lag ny kontakt</string>
+    <string name="contact_editor_title_existing_contact">Rediger kontakten</string>
+    <string name="contact_editor_title_read_only_contact">Berre vising</string>
+    <string name="contact_editor_pick_raw_contact_to_edit_dialog_title">Vel kontakten du vil redigera</string>
+    <string name="contact_editor_pick_linked_contact_dialog_title">Samankopla kontaktar</string>
+    <string name="contact_editor_add_linked_contact">Legg til</string>
+    <string name="contact_editor_unlink_contacts">Kopla frå</string>
+    <string name="add_account">Legg til konto</string>
+    <string name="add_new_account">Legg til ny konto</string>
+    <string name="menu_export_database">Eksporter databasefiler</string>
+    <string name="action_menu_add_new_contact_button">Lag ny kontakt</string>
+    <string name="expanding_entry_card_view_see_more">Sjå meir</string>
+    <string name="expanding_entry_card_view_see_less">Sjå mindre</string>
+    <string name="about_card_title">Om</string>
+    <string name="toast_making_personal_copy">Lagar ein personleg kopi …</string>
+    <string name="date_time_set">Ferdig</string>
+    <string name="header_im_entry">Lynmeldingar</string>
+    <string name="header_organization_entry">Organisasjon</string>
+    <string name="header_nickname_entry">Kallenamn</string>
+    <string name="header_note_entry">Notat</string>
+    <string name="header_website_entry">Nettstad</string>
+    <string name="header_event_entry">Hending</string>
+    <string name="header_relation_entry">Relasjon</string>
+    <string name="header_name_entry">Namn</string>
+    <string name="header_email_entry">E-post</string>
+    <string name="header_phone_entry">Telefon</string>
+    <string name="content_description_directions">vegvising til staden</string>
+    <string name="editor_more_fields">Fleire felt</string>
+    <string name="editor_change_photo_content_description">Byt kontaktbilete</string>
+    <string name="editor_add_photo_content_description">Legg til kontaktbilete</string>
+    <string name="editor_contact_photo_content_description">Kontaktbilete</string>
+    <string name="editor_failed_to_load">Klarte ikkje opna redigeringa.</string>
+    <string name="editor_account_selector_title">Lagrar på</string>
+    <string name="editor_account_selector_read_only_title">Kontaktinfo frå <xliff:g id="account">%s</xliff:g> kan ikkje redigerast</string>
+    <string name="quickcontact_suggestion_link_button">KOPLA SAMAN KONTAKTAR</string>
+    <string name="quickcontact_suggestion_cancel_button">AVBRYT</string>
+    <string name="suggestion_card_this_contact_title">Denne kontakten</string>
+    <string name="suggestion_card_duplicates_title">Moglege duplikatar</string>
+    <string name="suggestion_card_help_message">Desse kontaktane kan vera same person. Du kan kopla dei saman til éin kontakt.</string>
+    <string name="editor_delete_view_description">Slett <xliff:g id="data_type">%1$s </xliff:g><xliff:g id="data_kind">%2$s</xliff:g></string>
+    <string name="editor_delete_view_description_short">Slett <xliff:g id="data_kind">%s</xliff:g></string>
+    <string name="menu_assistant">Framlegg</string>
+    <string name="menu_assistant_new_badge">Ny</string>
+    <string name="navigation_drawer_open">Opna navigasjonsskuffa</string>
+    <string name="navigation_drawer_close">Lukk navigasjonsskuffa</string>
+    <string name="navigation_drawer_label">Etiketten <xliff:g id="label_name">%s</xliff:g></string>
+    <string name="menu_title_groups">Etikettar</string>
+    <string name="menu_title_filters">Kontoar</string>
+    <string name="hamburger_feature_highlight_header">Framlegg</string>
+    <string name="hamburger_feature_highlight_body">Hald kontaktane dine organiserte og nyttige</string>
+    <string name="undo">Angra</string>
+    <string name="call_custom">Ring <xliff:g id="custom_label" example="business">%s</xliff:g></string>
+    <string name="call_home">Ring heim</string>
+    <string name="call_mobile">Ring mobil</string>
+    <string name="call_work">Ring arbeid</string>
+    <string name="call_fax_work">Ring arbeids-faks</string>
+    <string name="call_fax_home">Ring heime-faks</string>
+    <string name="call_pager">Ring personsøkjar</string>
+    <string name="call_other">Ring</string>
+    <string name="call_callback">Ring tilbake</string>
+    <string name="call_car">Ring bil</string>
+    <string name="call_company_main">Ring hovudnummeret til føretaket</string>
+    <string name="call_isdn">Ring ISDN</string>
+    <string name="call_main">Ring hovudnummer</string>
+    <string name="call_other_fax">Ring faks</string>
+    <string name="call_radio">Ring radio</string>
+    <string name="call_telex">Ring teleks</string>
+    <string name="call_tty_tdd">Ring TTY/TDD</string>
+    <string name="call_work_mobile">Ring arbeidsmobil</string>
+    <string name="call_work_pager">Ring arbeids-personsøkjar</string>
+    <string name="call_assistant">Ring
+        <xliff:g id="custom_label" example="assistant">%s</xliff:g>
+    </string>
+    <string name="call_mms">Ring MMS</string>
+    <string name="call_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (ring)</string>
+    <string name="sms_custom">Send melding til
+        <xliff:g id="custom_label" example="business">%s</xliff:g>
+    </string>
+    <string name="sms_home">Send melding heim</string>
+    <string name="sms_mobile">Send melding til mobil</string>
+    <string name="sms_work">Send melding til arbeid</string>
+    <string name="sms_fax_work">Send melding til arbeids-faks</string>
+    <string name="sms_fax_home">Send melding heim-faks</string>
+    <string name="sms_pager">Send melding til personsøkjar</string>
+    <string name="sms_other">Send melding</string>
+    <string name="sms_callback">Send melding for tilbakeringing</string>
+    <string name="sms_car">Send melding til bil</string>
+    <string name="sms_company_main">Send melding til hovudnummeret til føretaket</string>
+    <string name="sms_isdn">Send melding til ISDN</string>
+    <string name="sms_main">Send melding til hovudnummer</string>
+    <string name="sms_other_fax">Send melding til faks</string>
+    <string name="sms_radio">Send melding til radio</string>
+    <string name="sms_telex">Send melding til teleks</string>
+    <string name="sms_tty_tdd">Send melding til TTY/TDD</string>
+    <string name="sms_work_mobile">Send melding til arbeidsmobil</string>
+    <string name="sms_work_pager">Send melding til arbeids-personsøkjar</string>
+    <string name="sms_assistant">Send melding til
+        <xliff:g id="assistant">%s</xliff:g>
+    </string>
+    <string name="sms_mms">Send melding til MMS</string>
+    <string name="sms_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (send melding)</string>
+    <string name="description_video_call">Ring med video</string>
+    <string name="clearFrequentsConfirmation_title">Vil du tøma lista over dei du kontaktar ofte?</string>
+    <string name="clearFrequentsConfirmation">Du tømer no lista over dei du har mest kontakt med i kontakt- og telefon-appen. Appar for e-post må då læra seg adressene dine på nytt.</string>
+    <string name="clearFrequentsProgress_title">Tømer lista over dei du kontaktar ofte \u2026</string>
+    <string name="status_available">Ledig</string>
+    <string name="status_away">Ikkje til stades</string>
+    <string name="status_busy">Oppteken</string>
+    <string name="local_invisible_directory">Anna</string>
+    <string name="directory_search_label">Katalog</string>
+    <string name="directory_search_label_work">Arbeidskatalog</string>
+    <string name="local_search_label">Alle kontaktar</string>
+    <string name="description_quick_contact_for">Snøggkontakt for <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="missing_name">(Namnlaus)</string>
+    <string name="favoritesFrequentContacted">Ofte kontakta</string>
+    <string name="list_filter_phones">Alle kontaktar med telefonnummer</string>
+    <string name="list_filter_phones_work">Kontaktar i arbeidsprofilen</string>
+    <string name="view_updates_from_group">Sjå oppdateringar</string>
+    <string name="account_phone">Eining</string>
+    <string name="account_sim">SIM</string>
+    <string name="nameLabelsGroup">Namn</string>
+    <string name="nicknameLabelsGroup">Kallenamn</string>
+    <string name="name_given">Fornamn</string>
+    <string name="name_family">Etternamn</string>
+    <string name="name_prefix">Prefiks</string>
+    <string name="name_middle">Mellomnamn</string>
+    <string name="name_suffix">Suffiks</string>
+    <string name="name_phonetic">Lydrett namn</string>
+    <string name="name_phonetic_given">Lydrett fornamn</string>
+    <string name="name_phonetic_middle">Lydrett mellomnamn</string>
+    <string name="name_phonetic_family">Lydrett etternamn</string>
+    <string name="phoneLabelsGroup">Telefon</string>
+    <string name="emailLabelsGroup">E-post</string>
+    <string name="postalLabelsGroup">Adresse</string>
+    <string name="imLabelsGroup">Lynmeldingar</string>
+    <string name="organizationLabelsGroup">Organisasjon</string>
+    <string name="relationLabelsGroup">Relasjon</string>
+    <string name="eventLabelsGroup">Viktig dato</string>
+    <string name="sms">Tekstmelding</string>
+    <string name="postal_address">Adresse</string>
+    <string name="ghostData_company">Selskap</string>
+    <string name="ghostData_department">Avdeling</string>
+    <string name="ghostData_title">Tittel</string>
+    <string name="label_notes">Notat</string>
+    <string name="label_custom_field">Eige felt</string>
+    <string name="label_sip_address">SIP</string>
+    <string name="websiteLabelsGroup">Nettstad</string>
+    <string name="groupsLabel">Etikettar</string>
+    <string name="email_home">Send e-post heim</string>
+    <string name="email_mobile">Send e-post til mobil</string>
+    <string name="email_work">Send e-post til arbeid</string>
+    <string name="email_other">Send e-post</string>
+    <string name="email_custom">Send e-post til <xliff:g id="custom_label" example="business">%s</xliff:g></string>
+    <string name="email">E-post</string>
+    <string name="postal_street">Gate</string>
+    <string name="postal_city">Poststad</string>
+    <string name="postal_region">Region/fylke</string>
+    <string name="postal_postcode">Postnummer</string>
+    <string name="postal_country">Land</string>
+    <string name="map_home">Sjå heimadressa</string>
+    <string name="map_work">Sjå arbeidsadressa</string>
+    <string name="map_other">Sjå adressa</string>
+    <string name="map_custom">Sjå adressa for <xliff:g id="custom_label" example="vacation">%s</xliff:g></string>
+    <string name="chat_aim">Chat via AIM</string>
+    <string name="chat_msn">Chat via Windows Live</string>
+    <string name="chat_yahoo">Chat via Yahoo</string>
+    <string name="chat_skype">Chat via Skype</string>
+    <string name="chat_qq">Chat via QQ</string>
+    <string name="chat_gtalk">Chat via Google Talk</string>
+    <string name="chat_icq">Chat via ICQ</string>
+    <string name="chat_jabber">Chat via Jabber</string>
+    <string name="chat">Chat</string>
+    <string name="description_minus_button">slett</string>
+    <string name="expand_name_fields_description">Vis fleire namnefelt</string>
+    <string name="collapse_name_fields_description">Gøym namnefelt</string>
+    <string name="expand_phonetic_name_fields_description">Vis fleire lydrette namnefelt</string>
+    <string name="collapse_phonetic_name_fields_description">Gøym lydrette namnefelt</string>
+    <string name="expand_fields_description">Utvid</string>
+    <string name="collapse_fields_description">Gøym</string>
+    <string name="announce_expanded_fields">Utvida</string>
+    <string name="announce_collapsed_fields">Gøym</string>
+    <string name="list_filter_all_accounts">Alle kontaktar</string>
+    <string name="list_filter_all_starred">Stjernemerka</string>
+    <string name="list_filter_customize">Tilpassa</string>
+    <string name="list_filter_single">Kontakt</string>
+    <string name="display_ungrouped">Alle andre kontaktar</string>
+    <string name="display_all_contacts">Alle kontaktar</string>
+    <string name="menu_sync_remove">Fjern synkroniseringsgruppe</string>
+    <string name="dialog_sync_add">Legg til synkroniseringsgruppe</string>
+    <string name="display_more_groups">Fleire etikettar \u2026</string>
+    <string name="display_warn_remove_ungrouped">Om du fjernar «<xliff:g id="group" example="Starred">%s</xliff:g>» frå synkroniseringa, blir òg alle kontaktar utan etikett fjerna frå synkroniseringa.</string>
+    <string name="savingDisplayGroups">Lagrar visingsvala \u2026</string>
+    <string name="listCustomView">Tilpassa vising</string>
+    <string name="dialog_new_contact_account">Lagra importerte kontaktar på:</string>
+    <string name="import_from_sim">SIM-kort</string>
+    <string name="import_from_sim_summary_fmt">SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="import_from_sim_secondary_contact_count_fmt"> {count, plural,
+        =1    {# kontakt}
+        other {# kontaktar}
+    }</string>
+    <string name="import_from_sim_secondary_template"> {count, plural,
+        =1    {# kontakt • <xliff:g id="phone_number">^1</xliff:g>}
+        other {# kontaktar • <xliff:g id="phone_number">^1</xliff:g>}
+    }</string>
+    <string name="import_from_vcf_file">.vcf-fil</string>
+    <string name="nothing_to_import_message">Ingenting å importera</string>
+    <string name="import_from_vcf_file_confirmation_message">Vil du importera kontaktar frå vCard?</string>
+    <string name="cancel_import_confirmation_message">Vil du avbryta importeringa av <xliff:g id="filename" example="import.vcf">%s</xliff:g>?</string>
+    <string name="cancel_export_confirmation_message">Vil du avbryta eksporteringa av <xliff:g id="filename" example="export.vcf">%s</xliff:g>?</string>
+    <string name="cancel_vcard_import_or_export_failed">Klarte ikkje avbryta vCard-import/eksport</string>
+    <string name="fail_reason_unknown">Ukjend feil.</string>
+    <string name="fail_reason_could_not_open_file">Klarte ikkje opna «<xliff:g id="file_name">%1$s</xliff:g>»: <xliff:g id="exact_reason">%2$s</xliff:g>.</string>
+    <string name="fail_reason_could_not_initialize_exporter">Klarte ikkje starta eksporteringa: «<xliff:g id="exact_reason">%s</xliff:g>».</string>
+    <string name="fail_reason_no_exportable_contact">Fann ingen kontaktar som kan eksporterast.</string>
+    <string name="missing_required_permission">Du har deaktivert eit løyve som du må gjeva.</string>
+    <string name="fail_reason_error_occurred_during_export">Det oppstod ein feil under eksporteringa: «<xliff:g id="exact_reason">%s</xliff:g>».</string>
+    <string name="fail_reason_io_error">I/O-feil</string>
+    <string name="fail_reason_low_memory_during_import">Ikkje nok minne. Fila kan vera for stor.</string>
+    <string name="fail_reason_not_supported">Formatet er ikkje støtta.</string>
+    <string name="exporting_vcard_finished_title">Ferdig med eksportering av <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
+    <string name="exporting_vcard_finished_title_fallback">Ferdig med eksportering av kontaktar.</string>
+    <string name="exporting_vcard_finished_toast">Ferdig med å eksportera kontaktane. Trykk på varselet for å dela dei.</string>
+    <string name="touch_to_share_contacts">Trykk for å dela kontaktar.</string>
+    <string name="exporting_vcard_canceled_title">Eksportering av <xliff:g id="filename" example="export.vcf">%s</xliff:g> er avbroten.</string>
+    <string name="exporting_contact_list_title">Eksporterer kontaktar</string>
+    <string name="exporting_contact_list_message">Kontaktdata blir eksporterte.</string>
+    <string name="composer_failed_to_get_database_infomation">Klarte ikkje henta databaseinfo.</string>
+    <string name="composer_has_no_exportable_contact">Det finst ingen kontaktar som kan eksporterast.</string>
+    <string name="composer_not_initialized">vCard-tenesta starta ikkje rett.</string>
+    <string name="exporting_contact_failed_title">Klarte ikkje eksportera</string>
+    <string name="exporting_contact_failed_message">Kontaktdata vart ikkje eksporterte.\nGrunn: «<xliff:g id="fail_reason">%s</xliff:g>»</string>
+    <string name="importing_vcard_description">Importerer <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
+    <string name="reading_vcard_failed_title">Klarte ikkje lesa vCard-data</string>
+    <string name="importing_vcard_finished_title">Ferdig med å importera vCard-fil <xliff:g id="filename" example="import.vcf">%s</xliff:g></string>
+    <string name="importing_vcard_canceled_title">Importering av <xliff:g id="filename" example="import.vcf">%s</xliff:g> vart avbroten</string>
+    <string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> blir importert om litt.</string>
+    <string name="vcard_import_will_start_message_with_default_name">Fila blir importert om litt.</string>
+    <string name="vcard_import_request_rejected_message">Importering av vCard vart avvist. Prøv på nytt seinare.</string>
+    <string name="contacts_export_will_start_message">Kontaktane blir eksporterte om litt.</string>
+    <string name="vcard_export_request_rejected_message">Eksportering av vCard vart avvist. Prøv på nytt seinare.</string>
+    <string name="vcard_unknown_filename">kontakt</string>
+    <string name="caching_vcard_message">Mellomlagrar vCard-filer. Sjølve importeringa startar snart.</string>
+    <string name="vcard_import_failed">Klarte ikkje importera vCard.</string>
+    <string name="nfc_vcard_file_name">Kontakt overført via NFC</string>
+    <string name="caching_vcard_title">Mellomlagrar</string>
+    <string name="progress_notifier_message">Importerer <xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g>: <xliff:g id="name" example="Joe Due">%3$s</xliff:g></string>
+    <string name="export_to_vcf_file">Eksporter til .vcf-fil</string>
+    <string name="display_options_sort_list_by">Sorter etter</string>
+    <string name="display_options_phonetic_name_fields">Lydrett namn</string>
+    <string name="editor_options_always_show_phonetic_names">Vis alltid</string>
+    <string name="editor_options_hide_phonetic_names_if_empty">Gøym om det er tomt</string>
+    <string name="display_options_sort_by_given_name">Fornamn</string>
+    <string name="display_options_sort_by_family_name">Etternamn</string>
+    <string name="display_options_view_names_as">Namneformat</string>
+    <string name="display_options_view_given_name_first">Fornamn fyrst</string>
+    <string name="display_options_view_family_name_first">Etternamn fyrst</string>
+    <string name="settings_accounts">Kontoar</string>
+    <string name="default_editor_account">Standardkonto for nye kontaktar</string>
+    <string name="settings_my_info_title">Min info</string>
+    <string name="set_up_profile">Lag din eigen profil</string>
+    <string name="setting_about">Om Kontaktar</string>
+    <string name="share_favorite_contacts">Del favorittkontaktar</string>
+    <string name="share_contacts">Del alle kontaktar</string>
+    <string name="share_contacts_failure">Klarte ikkje dela kontaktar.</string>
+    <string name="dialog_export">Eksporter kontaktar</string>
+    <string name="dialog_import">Importer kontaktar frå</string>
+    <string name="share_error">Klarte ikkje dela denne kontakten.</string>
+    <string name="no_contact_to_share">Fann ingen kontaktar å dela.</string>
+    <string name="menu_contacts_filter">Kontaktar som skal visast</string>
+    <string name="activity_title_contacts_filter">Kontaktar som skal visast</string>
+    <string name="custom_list_filter">Tilpass vising</string>
+    <string name="menu_custom_filter_save">Lagra</string>
+    <string name="hint_findContacts">Søk etter kontaktar</string>
+    <string name="contactsFavoritesLabel">Favorittar</string>
+    <string name="menu_import">Importer</string>
+    <string name="menu_export">Eksporter</string>
+    <string name="menu_blocked_numbers">Sperra nummer</string>
+    <string name="contact_status_update_attribution">via <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> via <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+    <string name="letter_tile_letter_font_family">sans-serif-medium</string>
+    <string name="action_menu_back_from_search">avslutt søket</string>
+    <string name="description_clear_search">Tøm søkefeltet</string>
+    <string name="search_font_family">sans-serif</string>
+    <string name="select_account_dialog_title">Konto</string>
+    <string name="set_default_account">Bruk alltid denne til oppringingar</string>
+    <string name="call_with_a_note">Ring med eit notat</string>
+    <string name="call_subject_hint">Skriv eit notat som skal sendast med oppringinga …</string>
+    <string name="send_and_call_button">SEND OG RING</string>
+    <string name="call_subject_limit"><xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g></string>
+    <string name="call_subject_type_and_number"><xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g></string>
+    <string name="about_build_version">Versjon</string>
+    <string name="about_open_source_licenses">Lisensar for open kjeldekode</string>
+    <string name="about_open_source_licenses_summary">Lisensdetaljar for programvare med open kjeldekode</string>
+    <string name="about_privacy_policy">Personvern</string>
+    <string name="about_terms_of_service">Vilkår for bruk</string>
+    <string name="activity_title_licenses">Lisensar for open kjeldekode</string>
+    <string name="url_open_error_toast">Klarte ikkje opna nettadressa.</string>
+    <string name="account_filter_view_checked"><xliff:g id="account_info">%s</xliff:g> er vald</string>
+    <string name="account_filter_view_not_checked"><xliff:g id="account_info">%s</xliff:g> er ikkje vald</string>
+    <string name="description_search_video_call">Start videosamtale</string>
+    <string name="description_delete_contact">Slett</string>
+    <string name="description_no_name_header">Ellipseteikn</string>
+    <string name="dynamic_shortcut_disabled_message">Denne snarvegen er deaktivert</string>
+    <string name="dynamic_shortcut_contact_removed_message">Kontakten vart fjerna</string>
+    <string name="sim_import_button_text">Importer</string>
+    <string name="sim_import_title_none_selected">Vel kontaktar</string>
+    <string name="sim_import_empty_message">Ingen kontaktar på SIM-kortet</string>
+    <string name="sim_import_contact_exists_toast">Kontakten finst i lista frå før</string>
+    <string name="sim_import_success_toast_fmt"> {count, plural,
+        =1    {# SIM-kontakt vart importert}
+        other {# SIM-kontaktar vart importerte}
+    }</string>
+    <string name="sim_import_failed_toast">Klarte ikkje importera SIM-kontaktar</string>
+    <string name="sim_import_title">Importer frå SIM</string>
+    <string name="sim_import_cancel_content_description">Avbryt</string>
+    <string name="auto_sync_off">Autosynkronisering er av. Trykk for å slå på.</string>
+    <string name="dismiss_sync_alert">Forkast</string>
+    <string name="account_sync_off">Kontosynkronisering er av. Trykk for å slå på.</string>
+    <string name="turn_auto_sync_on_dialog_title">Vil du slå på autosynkronisering?</string>
+    <string name="turn_auto_sync_on_dialog_body">Endringar du gjer i alle appar og kontoar, ikkje berre Google Kontaktar, vil haldast oppdaterte mellom nettet og einingane dine.</string>
+    <string name="turn_auto_sync_on_dialog_confirm_btn">Slå på</string>
+    <string name="connection_error_message">Ingen tilkopling</string>
+    <string name="single_sim_display_label">SIM</string>
+    <string name="show_more_content_description">Vis meir</string>
+    <string name="importing_sim_finished_title">Ferdig med å importera frå SIM-kortet</string>
+    <string name="importing_sim_failed_title">Importeringa mislukkast</string>
+    <string name="importing_sim_failed_message">Klarte ikkje importera kontaktar frå SIM-kortet</string>
+    <string name="importing_sim_in_progress_title">Importerer frå SIM</string>
+    <string name="contacts_default_notification_channel">Varsel</string>
+    <string name="yes_button">Ja</string>
+    <string name="no_button">Nei</string>
+    <string name="sdn_contacts_directory_search_label">Tenestenummer frå mobiloperatør</string>
+</resources>

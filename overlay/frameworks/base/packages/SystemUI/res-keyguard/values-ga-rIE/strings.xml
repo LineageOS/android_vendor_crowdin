@@ -18,6 +18,10 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kg_prompt_title_after_secure_lock_device">Fíorú 2-chéim</string>
+    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_fingerprint">Úsáid Díghlasáil Méarloirg</string>
+    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_face">Úsáid Díghlasáil Aghaidhe</string>
+    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_coex">Úsáid Méarlorg nó Díghlasáil Aghaidhe</string>
     <string name="kg_prompt_added_security_pin">PIN ag teastáil le haghaidh slándála breise</string>
     <string name="kg_prompt_added_security_pattern">Patrún ag teastáil le haghaidh slándála breise</string>
     <string name="kg_prompt_added_security_password">Pasfhocal ag teastáil le haghaidh slándála breise</string>

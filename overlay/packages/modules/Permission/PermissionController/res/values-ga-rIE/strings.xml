@@ -96,4 +96,19 @@
     <string name="wear_check_your_phone_title">Seiceáil do ghuthán</string>
     <string name="wear_phone_connection_error">Níorbh fhéidir do ghuthán a bhaint amach</string>
     <string name="wear_phone_connection_should_retry">Atriail?</string>
+    <string name="app_function_access_settings_title" description="The title of the entry for App Function Access Settings">Gníomhairí</string>
+    <string name="app_function_access_settings_summary" description="The summary of the entry for App Function Access Settings, which describes the page contents">Gníomhairí ar féidir leo rochtain a fháil ar fhaisnéis nó gníomhartha a dhéanamh in aipeanna</string>
+    <string name="app_function_agent_list_title" description="Title for App Function Agent List Settings page">Gníomhairí</string>
+    <string name="app_function_agent_list_summary" description="The summary of the App Function Agent list Settings, which describes the page contents">Bainistigh rochtain do ghníomhairí ar an ngléas seo</string>
+    <string name="app_function_agent_list_empty_title" description="Title when there are no agent apps available for app function agent list">Níl aon aipeanna gníomhaire ar fáil</string>
+    <string name="app_function_agent_list_empty_summary" description="Title when there are no agent apps available for app function agent list">Suiteáil aip gníomhaire ar do ghléas chun an ghné seo a chumasú</string>
+    <string name="app_function_agent_access_title" description="Title for App Function Agent List Settings page">Rochtain ar an aip</string>
+    <string name="app_function_agent_access_summary" description="The summary of the App Function Agent Access Settings, which describes the page contents">Aipeanna agus socruithe ar féidir leis an ngníomhaire seo rochtain a fháil orthu chun faisnéis a fháil agus gníomhartha a dhéanamh ar do shon</string>
+    <string name="app_function_agent_access_app_targets_empty_title" description="Label when there are no target apps available for app function agent access">Níl aon aipeanna ar fáil le haghaidh rochtana <xliff:g id="app_name" example="Example Agent App">%1$s</xliff:g></string>
+    <string name="app_function_agent_access_system_targets_category_title" description="Category title for system apps list section of Agent Access Settings page">Córas</string>
+    <string name="app_function_target_access_title">Rochtain gníomhaire</string>
+    <string name="app_function_target_access_summary" description="The summary of the App Function Target Access Settings, which describes the page contents">Gníomhairí ar féidir leo rochtain a fháil ar fhaisnéis agus gníomhartha a dhéanamh ar do shon san aip seo</string>
+    <string name="app_function_device_settings_target_title" description="Target app title used for Device Settings">Socruithe Gléas</string>
+    <string name="request_app_function_access_dialog_title">Ceadaigh do <xliff:g id="agent_app_name" example="Example Agent App">%1$s</xliff:g> a bheith ina ghníomhaire do <xliff:g id="target_app_name" example="Example Target App">%2$s</xliff:g>?</string>
+    <string name="request_app_function_access_dialog_description">Beidh an gníomhaire seo in ann rochtain a fháil ar <xliff:g id="target_app_name" example="Example Target App">%2$s</xliff:g> chun eolas a fháil agus gníomhartha a dhéanamh ar do shon.</string>
 </resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="car_permission_desc">lesa informasjon om bilen din</string>
+    <string name="car_permission_label_energy">lesa energiinformasjon for bilen</string>
+    <string name="car_permission_desc_energy">Les informasjon om energiforbruket til bilen.</string>
+    <string name="car_permission_label_hvac">styra klimaanlegget i bilen</string>
+    <string name="car_permission_desc_hvac">Styr klimaanlegget i bilen din.</string>
+    <string name="car_permission_label_mileage">lesa kilometerstanden til bilen</string>
+    <string name="car_permission_desc_mileage">Les av kilometerstanden til bilen.</string>
+    <string name="car_permission_label_mileage_3p">lesa kilometerstanden til bilen</string>
+    <string name="car_permission_desc_mileage_3p">Les av kilometerstanden til bilen.</string>
+    <string name="car_permission_label_read_car_horn">lesa informasjon om bilhornet</string>
+    <string name="car_permission_desc_read_car_horn">Lesa informasjon om bilhornet.</string>
+    <string name="car_permission_label_control_car_horn">styra bilhornet</string>
+    <string name="car_permission_desc_control_car_horn">Styra bilhornet.</string>
+    <string name="car_permission_label_read_car_pedals">lesa informasjon om pedalane i bilen</string>
+    <string name="car_permission_desc_read_car_pedals">Les informasjon om pedalbruken i bilen.</string>
+    <string name="car_permission_label_read_brake_info">lesa informasjon om bremsene i bilen</string>
+    <string name="car_permission_desc_read_brake_info">Les informasjon om bremsene til bilen.</string>
+    <string name="car_permission_desc_speed">Les av farten til bilen.</string>
+    <string name="car_permission_label_vehicle_dynamics_state">lesa køyredynamikken til bilen</string>
+    <string name="car_permission_desc_vehicle_dynamics_state">Les informasjon om køyredynamikken til bilen.</string>
+    <string name="car_permission_label_vendor_extension">lesa produsentkanalen til bilen</string>
+    <string name="car_permission_desc_vendor_extension">Les produsentkanalen til bilen for å utveksla bilspesifikk informasjon.</string>
+    <string name="car_permission_label_driving_state_3p">lesa køyretilstanden til bilen</string>
+    <string name="car_permission_desc_driving_state_3p">Lesa endringar i køyretilstanden til bilen.</string>
+    <string name="car_permission_label_car_engine_detailed">lesa detaljert motorinformasjon</string>
+    <string name="car_permission_desc_car_engine_detailed">Lesa detaljert motorinformasjon for bilen din.</string>
+    <string name="car_permission_label_car_engine_detailed_3p">lesa detaljert motorinformasjon</string>
+    <string name="car_permission_desc_car_engine_detailed_3p">Lesa detaljert motorinformasjon for bilen din.</string>
+    <string name="car_permission_label_car_energy_ports">lesa status for tanklok og ladeport</string>
+    <string name="car_permission_desc_car_energy_ports">Les informasjon om tankloket og ladeporten til bilen.</string>
+    <string name="car_permission_desc_car_identification">Les identifikasjonsnummeret til bilen.</string>
+    <string name="car_permission_label_read_car_seats">lesa informasjon om bilseta</string>
+    <string name="car_permission_desc_read_car_seats">Lesa informasjon om bilseta.</string>
+    <string name="car_permission_label_car_info">lesa grunnleggjande informasjon om bilen</string>
+    <string name="car_permission_desc_car_info">Les grunnleggjande informasjon om bilen.</string>
+    <string name="car_permission_label_privileged_car_info">lesa utvida informasjon om bilen</string>
+    <string name="car_permission_desc_privileged_car_info">Les utvida informasjon om bilen din.</string>
+    <string name="car_permission_label_vendor_permission_info">lesa informasjon om produsentløyve</string>
+    <string name="car_permission_desc_vendor_permission_info">Les informasjon om produsentløyva til bilen.</string>
+    <string name="car_permission_label_car_exterior_lights">sjå status for utvendige lys på bilen</string>
+    <string name="car_permission_desc_read_car_exterior_lights">Lesa tilstanden for dei utvendige lysa på bilen.</string>
+    <string name="car_permission_label_control_glove_box">styra hanskerommet i bilen</string>
+    <string name="car_permission_desc_control_glove_box">Styr hanskerommet i bilen.</string>
+    <string name="car_permission_label_car_epoch_time">lesa systemtida til bilen</string>
+    <string name="car_permission_desc_car_epoch_time">Les av systemtida til bilen.</string>
+    <string name="car_permission_label_control_car_exterior_lights">styra utvendige lys på bilen</string>
+    <string name="car_permission_label_car_interior_lights">lesa status for innvendige lys på bilen</string>
+    <string name="car_permission_desc_car_interior_lights">Les status for dei innvendige lysa i bilen.</string>
+    <string name="car_permission_desc_car_exterior_environment">Les av utetemperaturen hjå bilen.</string>
+    <string name="car_permission_label_car_tires">lesa informasjon om bildekka</string>
+    <string name="car_permission_desc_car_tires">Lesa informasjon om bildekka.</string>
+    <string name="car_permission_label_car_tires_3p">lesa informasjon om bildekka</string>
+    <string name="car_permission_desc_car_tires_3p">Lesa informasjon om bildekka.</string>
+    <string name="car_permission_desc_car_steering">Les av styrevinkelen til bilen.</string>
+    <string name="car_permission_desc_read_car_steering_3p">Les av styrevinkelen til bilen.</string>
+    <string name="car_permission_desc_car_powertrain">Les informasjon om drivverket til bilen.</string>
+    <string name="car_permission_desc_car_power">Les informasjon om straumstatusen til bilen.</string>
+    <string name="car_permission_label_manage_display_compatibility">styra pakkar for skjermkompatibilitet</string>
+    <string name="car_permission_desc_manage_display_compatibility">Styra pakkar for skjermkompatibilitet.</string>
+    <string name="car_permission_label_bind_app_card_provider">binda til app-kort-tilbydarar</string>
+    <string name="car_permission_desc_bind_app_card_provider">Binda til app-kort-tilbydarar.</string>
+    <string name="car_permission_label_manage_occupant_connection">setja opp samband og snakka med tilhøyrande appar i andre passasjersoner i bilen</string>
+    <string name="car_permission_desc_manage_occupant_connection">Setja opp samband og snakka med tilhøyrande appar i andre passasjersoner i bilen.</string>
+    <string name="car_permission_label_record_vehicle_properties">ta opp eigenskapar for køyretyet</string>
+    <string name="car_permission_desc_record_vehicle_properties">Ta opp eigenskapar for køyretyet.</string>
+    <string name="car_permission_label_inject_vehicle_properties">leggja inn eigenskapar for køyretyet</string>
+    <string name="car_permission_desc_inject_vehicle_properties">Leggja inn eigenskapar for køyretyet.</string>
+    <string name="car_permission_label_read_property_vendor_status">lesa status for produsenteigenskapar</string>
+    <string name="car_permission_desc_read_property_vendor_status">lesa status for produsenteigenskapar</string>
+</resources>

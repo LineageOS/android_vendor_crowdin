@@ -14,6 +14,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="picker_settings">Socruithe</string>
+    <string name="picker_settings_system_settings_menu_title">Socruithe meán scamall</string>
+    <string name="picker_settings_title">Socruithe meán scamall</string>
     <string name="transcode_alert_channel">Fógraí a thraschódú</string>
     <string name="transcode_progress_channel">Traschódú Dul Chun Cinn</string>
+    <string name="device_folders_collection_display_name" translation_description="Display name for the collection of local folders on the device. [CHAR_LIMIT=50]">"Ón ngléas seo"</string>
+    <string name="app_folders_collection_display_name" translation_description="Display name for the collection of app media sets on the device. [CHAR_LIMIT=50]">"Ó d’aipeanna"</string>
+    <string name="sd_card_collection_display_name" translation_description="Display name for the collection of media on the SD card. [CHAR_LIMIT=50]">"Ó do chárta SD"</string>
+    <string name="sd_card_album_display_name" translation_description="Display name for the album containing media stored in sd card's root directory. [CHAR_LIMIT=50]">Cárta SD</string>
 </resources>

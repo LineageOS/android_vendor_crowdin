@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2022, The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="setup_progress_title_text">Installerer <xliff:g id="creditor_app">%1$s</xliff:g>-appen <xliff:g id="ellipsis">\u2026</xliff:g></string>
+    <string name="setup_finish_title_text">Opnar <xliff:g id="creditor_app">%1$s</xliff:g>-appen <xliff:g id="ellipsis">\u2026</xliff:g></string>
+    <string name="locked_backup_and_restore_text"><![CDATA[<a href="https://support.google.com/android/answer/2819582">Tryggingskopiering og gjenoppretting</a>]]> av dataa dine</string>
+    <string name="device_used_as_collateral">Denne eininga vert sett opp som pant for eit lån hjå <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="enroll_your_device_recol_subheader">Du kan no melda eininga di inn i pantsettingsprogrammet til <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="settings_banner_title_recol">Eininga er pantsett hjå <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="provisioning_failed_generic">Oppsettet mislukkast</string>
+    <string name="click_to_contact_financier">For å få hjelp til å registrera eininga di, <xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>ta kontakt med <xliff:g id="provider name">%1$s</xliff:g><xliff:g id="support_link_end">&lt;/a&gt;</xliff:g>.</string>
+</resources>

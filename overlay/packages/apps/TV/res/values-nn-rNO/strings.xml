@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="audio_channel_mono">mono</string>
+    <string name="audio_channel_stereo">stereo</string>
+    <string name="menu_title_play_controls">Avspelingskontrollar</string>
+    <string name="menu_title_channels">Kanalar</string>
+    <string name="menu_title_options">TV-val</string>
+    <string name="play_controls_unavailable">Avspelingskontrollar er ikkje tilgjengelege for denne kanalen</string>
+    <string name="play_controls_description_play_pause">Spel av eller pause</string>
+    <string name="play_controls_description_fast_forward">Spol framover</string>
+    <string name="play_controls_description_fast_rewind">Spol bakover</string>
+    <string name="play_controls_description_skip_next">Neste</string>
+    <string name="play_controls_description_skip_previous">Førre</string>
+    <string name="channels_item_program_guide">Programoversikt</string>
+    <string name="channels_item_up">Kanal opp</string>
+    <string name="channels_item_down">Kanal ned</string>
+    <string name="channels_item_setup">Nye kanalar er tilgjengelege</string>
+    <string name="channels_item_app_link_app_launcher">Opna <xliff:g id="app_name" example="YouTube">%1$s</xliff:g></string>
+    <string name="options_item_closed_caption">Undertekstar</string>
+    <string name="options_item_display_mode">Visingsmodus</string>
+    <string name="options_item_pip">PIP</string>
+    <string name="options_item_multi_audio">Fleirkanalslyd</string>
+    <string name="options_item_more_channels">Hent fleire kanalar</string>
+    <string name="options_item_settings">Innstillingar</string>
+    <string name="input_long_label_for_tuner">TV (antenne/kabel)</string>
+    <string name="no_program_information">Ingen programinfo</string>
+    <string name="program_title_for_no_information">Ingen informasjon</string>
+    <string name="program_title_for_blocked_channel">Sperra kanal</string>
+    <string name="multi_audio_unknown_language">Ukjent språk</string>
+    <string name="closed_caption_unknown_language">Undertekstar <xliff:g id="unknown_language_index" example="1">%1$d</xliff:g></string>
+    <string name="side_panel_title_closed_caption">Undertekstar</string>
+    <string name="closed_caption_option_item_off">Av</string>
+    <string name="closed_caption_system_settings">Tilpass formatering</string>
+    <string name="closed_caption_system_settings_description">Vel globale innstillingar for undertekstar</string>
+    <string name="side_panel_title_display_mode">Visingsmodus</string>
+    <string name="side_panel_title_multi_audio">Fleirkanalslyd</string>
+    <string name="multi_audio_channel_mono">mono</string>
+    <string name="multi_audio_channel_stereo">stereo</string>
+    <string name="multi_audio_channel_surround_6">5.1-surround</string>
+    <string name="multi_audio_channel_surround_8">7.1-surround</string>
+    <string name="multi_audio_channel_suffix"><xliff:g id="audio_channel_count" example="5">%d</xliff:g> kanalar</string>
+    <string name="side_panel_title_edit_channels_for_an_input">Tilpass kanallista</string>
+    <string name="edit_channels_item_select_group">Vel gruppe</string>
+    <string name="edit_channels_item_deselect_group">Vel bort gruppe</string>
+    <string name="edit_channels_item_group_by">Grupper etter</string>
+    <string name="edit_channels_group_by_sources">Kanalkjelde</string>
+    <string name="edit_channels_group_by_hd_sd">HD/SD</string>
+    <string name="edit_channels_group_divider_for_hd">HD</string>
+    <string name="edit_channels_group_divider_for_sd">SD</string>
+    <string name="side_panel_title_group_by">Grupper etter</string>
+    <string name="program_guide_content_locked">Dette programmet er sperra</string>
+    <string name="program_guide_content_locked_unrated">Dette programmet manglar aldersgrense</string>
+    <string name="program_guide_content_locked_format">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g></string>
+    <string name="msg_no_setup_activity">Inngangen støttar ikkje automatisk kanalsøk</string>
+    <string name="msg_unable_to_start_setup_activity">Klarte ikkje å starta automatisk søk for «<xliff:g id="tv_input" example="Built-in Tuner">%s</xliff:g>»</string>
+    <string name="msg_unable_to_start_system_captioning_settings">Klarte ikkje å opna systeminnstillingane for undertekstar.</string>
+    <plurals name="msg_channel_added">
+        <item quantity="one">%1$d kanal vart lagd til</item>
+        <item quantity="other">%1$d kanalar vart lagde til</item>
+    </plurals>
+    <string name="msg_no_channel_added">Ingen kanalar vart lagde til</string>
+    <string name="menu_parental_controls">Foreldrekontroll</string>
+    <string name="option_toggle_parental_controls_on">På</string>
+    <string name="option_toggle_parental_controls_off">Av</string>
+    <string name="option_channels_locked">Sperra kanalar</string>
+    <string name="option_channels_lock_all">Blokker alle</string>
+    <string name="option_channels_unlock_all">Frigjev alle</string>
+    <string name="option_channels_subheader_hidden">Gøymde kanalar</string>
+    <string name="option_program_restrictions">Programavgrensingar</string>
+    <string name="option_change_pin">Endra PIN-kode</string>
+    <string name="option_country_rating_systems">Vurderingssystem</string>
+    <string name="option_ratings">Aldersgrenser</string>
+    <string name="option_see_all_rating_systems">Sjå alle vurderingssystem</string>
+    <string name="other_countries">Andre land</string>
+    <string name="option_no_locked_channel">Ingen</string>
+    <string name="option_no_enabled_rating_system">Ingen</string>
+    <string name="unrated_rating_name">Utan aldersgrense</string>
+    <string name="option_block_unrated_programs">Blokker program utan aldersgrense</string>
+    <string name="option_rating_none">Ingen</string>
+    <string name="option_rating_high">Strenge avgrensingar</string>
+    <string name="option_rating_medium">Middels avgrensingar</string>
+    <string name="option_rating_low">Milde avgrensingar</string>
+    <string name="option_rating_custom">Tilpassa</string>
+    <string name="option_rating_high_description">Innhald som høver for born</string>
+    <string name="option_rating_medium_description">Innhald som høver for eldre born</string>
+    <string name="option_rating_low_description">Innhald som høver for ungdom</string>
+    <string name="option_rating_custom_description">Manuelle avgrensingar</string>
+    <string name="option_attribution">Kjelder for aldersgrenser</string>
+    <string name="option_subrating_title">%1$s og underkategoriar</string>
+    <string name="option_subrating_header">Underkategoriar</string>
+    <string name="pin_enter_unlock_channel">Skriv inn PIN-koden for å sjå denne kanalen</string>
+    <string name="pin_enter_unlock_program">Skriv inn PIN-koden for å sjå dette programmet</string>
+    <string name="pin_enter_unlock_dvr">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>. Skriv inn PIN-koden for å sjå det.</string>
+    <string name="pin_enter_unlock_dvr_unrated">Dette programmet manglar aldersgrense. Skriv inn PIN-koden for å sjå det.</string>
+    <string name="pin_enter_pin">Skriv inn PIN-koden</string>
+    <string name="pin_enter_create_pin">Lag ein PIN-kode for å setja opp foreldrekontroll</string>
+    <string name="pin_enter_new_pin">Skriv inn ny PIN-kode</string>
+    <string name="pin_enter_again">Stadfest PIN-koden</string>
+    <string name="pin_enter_old_pin">Skriv inn den noverande PIN-koden</string>
+    <plurals name="pin_enter_countdown">
+        <item quantity="one">Du skreiv feil PIN-kode 5 gonger.\nPrøv på nytt om <xliff:g id="remaining_seconds" example="1">%1$d</xliff:g> sekund.</item>
+        <item quantity="other">Du skreiv feil PIN-kode 5 gonger.\nPrøv på nytt om <xliff:g id="remaining_seconds" example="60">%1$d</xliff:g> sekund.</item>
+    </plurals>
+    <string name="pin_toast_wrong">Feil PIN-kode. Prøv på nytt.</string>
+    <string name="pin_toast_not_match">Prøv på nytt, PIN-kodane er ikkje like</string>
+    <string name="side_panel_title_settings">Innstillingar</string>
+    <string name="settings_channel_source_item_customize_channels">Tilpass kanallista</string>
+    <string name="settings_channel_source_item_customize_channels_description">Vel kanalar for programoversikta</string>
+    <string name="settings_channel_source_item_setup">Kanalkjelder</string>
+    <string name="settings_channel_source_item_setup_new_inputs">Nye kanalar er tilgjengelege</string>
+    <string name="settings_parental_controls">Foreldrekontroll</string>
+    <string name="settings_trickplay">Tidsforskyving</string>
+    <string name="settings_trickplay_description">Gjer opptak medan du ser på, slik at du kan pausa eller spola i direkteoverføringar.\n\nÅtvaring: Intensiv bruk av lagringsplassen kan forkorta levetida til det interne minnet.</string>
+    <string name="settings_menu_licenses">Lisensar for open kjeldekode</string>
+    <string name="settings_send_feedback">Send tilbakemelding</string>
+    <string name="settings_menu_version">Versjon</string>
+    <string name="tvview_channel_locked">Trykk til høgre og skriv inn PIN-koden for å sjå denne kanalen</string>
+    <string name="tvview_channel_locked_talkback">Trykk på vel-knappen og skriv inn PIN-koden for å sjå denne kanalen</string>
+    <string name="tvview_content_locked">Trykk til høgre og skriv inn PIN-koden for å sjå dette programmet</string>
+    <string name="tvview_content_locked_talkback">Trykk på vel-knappen og skriv inn PIN-koden for å sjå dette programmet</string>
+    <string name="tvview_content_locked_unrated">Dette programmet manglar aldersgrense.\nTrykk til høgre og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_content_locked_unrated_talkback">Dette programmet manglar aldersgrense.\nTrykk på vel-knappen og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_content_locked_format_talkback">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>.\nTrykk på vel-knappen og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_content_locked_format">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>.\nTrykk til høgre og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_channel_locked_no_permission">Bruk standard-appen for TV for å sjå denne kanalen.</string>
+    <string name="tvview_content_locked_no_permission">Bruk standard-appen for TV for å sjå dette programmet.</string>
+    <string name="tvview_content_locked_unrated_no_permission">Dette programmet manglar aldersgrense.\nBruk standard-appen for TV for å sjå det.</string>
+    <string name="tvview_content_locked_format_no_permission">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>.\nBruk standard-appen for TV for å sjå det.</string>
+    <string name="shrunken_tvview_content_locked">Programmet er sperra</string>
+    <string name="shrunken_tvview_content_locked_unrated">Manglar aldersgrense</string>
+    <string name="shrunken_tvview_content_locked_format">Aldersgrense: <xliff:g id="rating" example="TV_MA">%1$s</xliff:g></string>
+    <string name="tvview_msg_audio_only">Berre lyd</string>
+    <string name="tvview_msg_weak_signal">Svakt signal</string>
+    <string name="tvview_msg_no_internet_connection">Inga internettilkopling</string>
+    <plurals name="tvview_msg_input_no_resource">
+        <item quantity="one">Klarer ikkje å spela av kanalen før kl. <xliff:g id="end_time" example="9:30 PM">%1$s</xliff:g> fordi ein annan kanal vert teken opp.\n\nTrykk til høgre for å endra opptaksplanen.</item>
+        <item quantity="other">Klarer ikkje å spela av kanalen før kl. <xliff:g id="end_time" example="9:30 PM">%1$s</xliff:g> fordi andre kanalar vert tekne opp.\n\nTrykk til høgre for å endra opptaksplanen.</item>
+    </plurals>
+    <string name="empty_input_status_title_format"><xliff:g id="input_label" example="HDMI 1">%1$s</xliff:g> – inkje signal</string>
+    <string name="empty_input_status_info">Sjekk tilkoplinga eller vel ei anna kjelde</string>
+    <string name="input_banner_v2_active_input">Aktiv inngang</string>
+    <string name="input_banner_v2_input_label_format"><xliff:g example="HDMI 1" id="label">%1$s</xliff:g> · <xliff:g example="Play Station" id="custom_label">%2$s</xliff:g></string>
+    <string name="channel_banner_no_title">Ingen tittel</string>
+    <string name="channel_banner_locked_channel_title">Kanalen er sperra</string>
+    <string name="setup_category_new">Ny</string>
+    <string name="setup_category_done">Kjelder</string>
+    <plurals name="setup_input_channels">
+        <item quantity="one">%1$d kanal</item>
+        <item quantity="other">%1$d kanalar</item>
+    </plurals>
+    <string name="setup_input_no_channels">Ingen kanalar er tilgjengelege</string>
+    <string name="setup_input_new">Ny</string>
+    <string name="setup_input_setup_now">Ikkje sett opp</string>
+    <string name="setup_store_action_title">Hent fleire kjelder</string>
+    <string name="setup_store_action_description">Sjå appar som tilbyr direktekanalar</string>
+    <string name="new_sources_title">Nye kanalkjelder er tilgjengelege</string>
+    <string name="msg_all_channels_hidden">Alle kjeldekanalar er gøymde.\nVel minst éin kanal du vil sjå på.</string>
+    <string name="dvr_series_deletion_description">Vel episodane du vil sletta. Dei kan ikkje gjenopprettast etter at dei er sletta.</string>
+    <string name="dvr_action_record_series">Heile serien  …</string>
+    <string name="dvr_action_delete_recordings">Slett opptak  …</string>
+</resources>

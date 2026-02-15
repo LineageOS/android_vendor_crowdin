@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2025 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="private_space_app_label">Privat rom</string>
+    <string name="private_space_activity_label">Legg til</string>
+    <string name="shortcut_label_add_files">Legg til filer</string>
+    <string name="shortcut_label_open_market_app">Installer appar</string>
+    <string name="move_files_dialog_title">Flytta eller kopiera filer?</string>
+    <string name="move_files_dialog_summary">Viss du flyttar desse filene til det private rommet ditt, vert dei fjerna frå dei opphavlege mappene sine</string>
+    <string name="move_files_dialog_button_label_move">Flytt</string>
+    <string name="move_files_dialog_button_label_copy">Kopier</string>
+    <string name="move_files_dialog_button_label_cancel">Avbryt</string>
+    <string name="filetransfer_notification_copy_progress_title">        {count, plural, =1 {Kopierer # fil} other {Kopierer # filer}}
+    </string>
+    <string name="filetransfer_notification_move_progress_title">        {count, plural, =1 {Flyttar # fil} other {Flyttar # filer}}
+    </string>
+    <string name="filetransfer_notification_copy_complete_title">        {count, plural, =1 {# fil kopiert} other {# filer kopierte}}
+    </string>
+    <string name="filetransfer_notification_move_complete_title">        {count, plural, =1 {# fil flytta} other {# filer flytta}}
+    </string>
+    <string name="filetransfer_notification_copy_progress_text">        {count, plural,
+        =1 {Fila du valde vert kopiert til det private området}
+        other {Filene du valde vert kopierte til det private området}
+        }
+    </string>
+    <string name="filetransfer_notification_move_progress_text">        {count, plural,
+        =1 {Fila du valde vert flytta til det private området}
+        other {Filene du valde vert flytta til det private området}
+        }
+    </string>
+    <string name="filetransfer_notification_copy_complete_text">        {count, plural,
+        =1 {Fila du valde vart kopiert til det private området}
+        other {Filene du valde vart kopierte til det private området}
+        }
+    </string>
+    <string name="filetransfer_notification_move_complete_text">        {count, plural,
+        =1 {Fila du valde vart flytta til det private området}
+        other {Filene du valde vart flytta til det private området}
+        }
+    </string>
+    <string name="filetransfer_notification_action_label">        {count, plural,
+        =1 {Vis fil}
+        other {Vis filer}
+        }
+    </string>
+    <string name="filetransfer_notification_channel_name">Varsel om filoverføring</string>
+    <string name="filetransfer_notification_channel_description">Når du kopierer eller flyttar filer til det private rommet ditt, kan du få varsel om korleis det går</string>
+    <string name="filetransfer_notification_partial_copy_error_title">"Klarte ikkje kopiera alle filene"</string>
+    <string name="filetransfer_notification_partial_move_error_title">"Klarte ikkje flytta alle filene"</string>
+    <string name="filetransfer_generic_copy_error_message">Du kan prøva å kopiera filene på nytt</string>
+    <string name="filetransfer_generic_move_error_message">Du kan prøva å flytta filene på nytt</string>
+    <string name="filetransfer_dialog_still_copying_error_title">Kopierer filer enno</string>
+    <string name="filetransfer_dialog_still_moving_error_title">Flyttar filer enno</string>
+    <string name="filetransfer_dialog_still_transferring_error_message">Du kan kopiera eller flytta fleire filer når dette er ferdig</string>
+    <string name="filetransfer_notification_copy_error_title">"Klarte ikkje kopiera filene"</string>
+    <string name="filetransfer_notification_move_error_title">"Klarte ikkje flytta filene"</string>
+    <string name="filetransfer_large_files_size_error_title">Filene er for store totalt</string>
+    <string name="filetransfer_large_files_size_error_message">Du kan berre kopiera eller flytta opptil 2 GB om gongen</string>
+    <string name="filetransfer_too_many_files_error_title">For mange filer er valde</string>
+    <string name="filetransfer_too_many_files_error_message">Du kan berre kopiera eller flytta opptil 100 filer om gongen</string>
+    <string name="filetransfer_notification_transfer_error_title">"Klarte ikkje leggja til filer"</string>
+    <string name="filetransfer_notification_insufficient_storage_error_message">"Eininga har ikkje nok lagringsplass"</string>
+    <string name="filetransfer_error_dialog_button">OK</string>
+    <string name="filetransfer_notification_not_enough_storage_error_action">Frigjer plass</string>
+    <string name="filetransfer_error_toast_cannot_transfer_from_same_user">"Kan ikkje kopiera eller flytta filer frå det private området"</string>
+    <string name="filetransfer_notification_incomplete_copy_transfer_title">"Klarte ikkje kopiera alle filene"</string>
+    <string name="filetransfer_notification_incomplete_move_transfer_title">"Klarte ikkje flytta alle filene"</string>
+    <string name="filetransfer_notification_incomplete_copy_transfer_message">Det private området vart lukka under kopieringa</string>
+    <string name="filetransfer_notification_incomplete_move_transfer_message">Det private området vart lukka under flyttinga</string>
+</resources>

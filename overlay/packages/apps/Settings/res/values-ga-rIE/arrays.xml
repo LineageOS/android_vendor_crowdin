@@ -97,4 +97,12 @@
         <item>Leath-ghealach</item>
         <item>Clog</item>
     </string-array>
+    <string-array name="action_corner_action_titles">
+        <item>None</item>
+        <item>Baile</item>
+        <item>Aipeanna le déanaí</item>
+        <item>Fógraí</item>
+        <item>Socruithe tapa</item>
+        <item>Scáileán glasála</item>
+    </string-array>
 </resources>

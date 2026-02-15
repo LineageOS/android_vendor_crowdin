@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_enter_your_pin">Skriv inn PIN-koden</string>
+    <string name="keyguard_enter_pin">Skriv inn PIN-kode</string>
+    <string name="keyguard_enter_your_pattern">Teikna mønsteret</string>
+    <string name="keyguard_enter_pattern">Teikna mønster</string>
+    <string name="keyguard_enter_your_password">Skriv inn passordet</string>
+    <string name="keyguard_enter_password">Skriv inn passord</string>
+    <string name="keyguard_sim_error_message_short">Ugyldig kort.</string>
+    <string name="keyguard_charged">Fullada</string>
+    <string name="keyguard_plugged_in_wireless"><xliff:g id="percentage" example="20%">%s</xliff:g> • Ladar trådlaust</string>
+    <string name="keyguard_plugged_in_dock"><xliff:g id="percentage" example="20%">%s</xliff:g> • Ladar</string>
+    <string name="keyguard_plugged_in"><xliff:g id="percentage">%s</xliff:g> • Ladar</string>
+    <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • Ladar snøgt</string>
+    <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • Ladar seint</string>
+    <string name="keyguard_plugged_in_charging_limited"><xliff:g id="percentage">%s</xliff:g> • Ladinga er sett på vent for å verna batteriet</string>
+    <string name="keyguard_plugged_in_incompatible_charger"><xliff:g id="percentage">%s</xliff:g> • Sjekk ladeutstyret</string>
+    <string name="keyguard_network_locked_message">Nettverkslåst</string>
+    <string name="keyguard_missing_sim_message_short">Manglar SIM-kort</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Ubrukeleg SIM-kort.</string>
+    <string name="keyguard_sim_locked_message">SIM-kortet er låst.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM-kortet er PUK-låst.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Låser opp SIM-kortet \u2026</string>
+    <string name="keyguard_accessibility_pin_area">PIN-felt</string>
+    <string name="keyguard_accessibility_password">Passord for eininga</string>
+    <string name="keyguard_accessibility_sim_pin_area">Felt for SIM-PIN</string>
+    <string name="keyguard_accessibility_sim_puk_area">Felt for SIM-PUK</string>
+    <string name="keyboardview_keycode_delete">Slett</string>
+    <string name="disable_carrier_button_text">Slå av eSIM</string>
+    <string name="error_disable_esim_title">Klarte ikkje å slå av eSIM</string>
+    <string name="error_disable_esim_msg">Det oppstod ein feil, så eSIM kan ikkje slåast av.</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="kg_wrong_pattern">Feil mønster</string>
+    <string name="kg_wrong_pattern_try_again">Feil mønster. Prøv på nytt.</string>
+    <string name="kg_wrong_password">Feil passord</string>
+    <string name="kg_wrong_password_try_again">Feil passord. Prøv på nytt.</string>
+    <string name="kg_wrong_pin">Feil PIN-kode</string>
+    <string name="kg_wrong_pin_try_again">Feil PIN-kode. Prøv på nytt.</string>
+    <string name="kg_wrong_input_try_fp_suggestion">Eller lås opp med fingeravtrykk</string>
+    <string name="kg_fp_not_recognized">Ukjent fingeravtrykk</string>
+    <string name="bouncer_face_not_recognized">Ukjent andlet</string>
+    <string name="kg_bio_try_again_or_pin">Prøv på nytt eller skriv inn PIN-koden</string>
+    <string name="kg_bio_try_again_or_password">Prøv på nytt eller skriv inn passordet</string>
+    <string name="kg_bio_try_again_or_pattern">Prøv på nytt eller teikna mønsteret</string>
+    <string name="kg_bio_too_many_attempts_pin">Bruk PIN-kode etter for mange forsøk</string>
+    <string name="kg_bio_too_many_attempts_password">Bruk passord etter for mange forsøk</string>
+    <string name="kg_bio_too_many_attempts_pattern">Bruk mønster etter for mange forsøk</string>
+    <string name="kg_unlock_with_pin_or_fp">Lås opp med PIN-kode eller fingeravtrykk</string>
+    <string name="kg_unlock_with_password_or_fp">Lås opp med passord eller fingeravtrykk</string>
+    <string name="kg_unlock_with_pattern_or_fp">Lås opp med mønster eller fingeravtrykk</string>
+    <string name="kg_prompt_after_dpm_lock">Eininga er låst av bedriftspolitikken for ekstra tryggleik</string>
+    <string name="kg_prompt_title_after_secure_lock_device">Totrinnskontroll</string>
+    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_fingerprint">Bruk fingeravtrykk for å låsa opp</string>
+    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_face">Bruk andletsattkjenning for å låsa opp</string>
+    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_coex">Bruk fingeravtrykk eller andletsattkjenning for å låsa opp</string>
+    <string name="kg_prompt_after_user_lockdown_pin">Bruk PIN-kode etter nedstenging</string>
+    <string name="kg_prompt_after_user_lockdown_password">Bruk passord etter nedstenging</string>
+    <string name="kg_prompt_after_user_lockdown_pattern">Bruk mønster etter nedstenging</string>
+    <string name="kg_prompt_unattended_update">Oppdateringa vert installert når eininga ikkje er i bruk</string>
+    <string name="kg_prompt_pin_auth_timeout">Du må bruka PIN-kode for ekstra tryggleik. Du har ikkje brukt han på ei stund.</string>
+    <string name="kg_prompt_password_auth_timeout">Du må bruka passord for ekstra tryggleik. Du har ikkje brukt det på ei stund.</string>
+    <string name="kg_prompt_pattern_auth_timeout">Du må bruka mønster for ekstra tryggleik. Du har ikkje brukt det på ei stund.</string>
+    <string name="kg_prompt_auth_timeout">Du må låsa opp eininga for ekstra tryggleik. Du har ikkje gjort det på ei stund.</string>
+    <string name="kg_face_locked_out">Kan ikkje låsa opp med andlet. For mange forsøk.</string>
+    <string name="kg_fp_locked_out">Kan ikkje låsa opp med fingeravtrykk. For mange forsøk.</string>
+    <string name="kg_trust_agent_disabled">Smart Lock er utilgjengeleg</string>
+    <string name="kg_primary_auth_locked_out_pin">For mange forsøk med feil PIN-kode</string>
+    <string name="kg_primary_auth_locked_out_pattern">For mange forsøk med feil mønster</string>
+    <string name="kg_primary_auth_locked_out_password">For mange forsøk med feil passord</string>
+    <string name="kg_too_many_failed_attempts_countdown">{count, plural,
+=1 {Prøv på nytt om # sekund.}
+other {Prøv på nytt om # sekund.}
+}</string>
+    <string name="kg_sim_pin_instructions">Skriv inn PIN-kode for SIM-kortet.</string>
+    <string name="kg_sim_pin_instructions_multi">Skriv inn PIN-kode for SIM-kortet til «<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>».</string>
+    <string name="kg_sim_lock_esim_instructions"><xliff:g id="previous_msg" example="Enter SIM PIN.">%1$s</xliff:g> Slå av eSIM for å bruka eininga utan mobilsamband.</string>
+    <string name="kg_puk_enter_puk_hint">SIM-kortet er deaktivert. Skriv inn PUK-koden for å halda fram. Kontakt mobiloperatøren for meir info.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM-kortet «<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>» er deaktivert. Skriv inn PUK-koden for å halda fram. Kontakt mobiloperatøren for meir info.</string>
+    <string name="kg_puk_enter_pin_hint">Skriv inn PIN-koden du vil ha</string>
+    <string name="kg_enter_confirm_pin_hint">Stadfest PIN-koden du valde</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Låser opp SIM-kortet \u2026</string>
+    <string name="kg_invalid_sim_pin_hint">Skriv inn ein PIN-kode med 4 til 8 siffer.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-koden skal ha minst 8 siffer.</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message"> Du har skrive inn feil PIN-kode <xliff:g id="number">%1$d</xliff:g> gongar.
+\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message"> Du har skrive inn feil passord <xliff:g id="number">%1$d</xliff:g> gongar.
+\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message"> Du har teikna feil mønster <xliff:g id="number">%1$d</xliff:g> gongar.
+\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.</string>
+    <string name="kg_password_wrong_pin_code_pukked">Feil PIN-kode for SIM-kortet. Du må kontakta mobiloperatøren for å låsa opp eininga.</string>
+    <string name="kg_password_wrong_pin_code"> {count, plural,
+=1 {Feil PIN-kode for SIM-kortet. Du har # forsøk att før du må kontakta mobiloperatøren for å låsa opp eininga.}
+other {Feil PIN-kode for SIM-kortet. Du har # forsøk att.}
+}</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM-kortet kan ikkje brukast. Kontakt mobiloperatøren.</string>
+    <string name="kg_password_wrong_puk_code">{count, plural,
+=1 {Feil PUK-kode for SIM-kortet. Du har # forsøk att før SIM-kortet vert ubrukbart for godt.}
+other {Feil PUK-kode for SIM-kortet. Du har # forsøk att før SIM-kortet vert ubrukbart for godt.}
+}</string>
+    <string name="kg_password_pin_failed">Klarte ikkje låsa opp med PIN-kode!</string>
+    <string name="kg_password_puk_failed">Klarte ikkje låsa opp med PUK-kode!</string>
+    <string name="accessibility_ime_switch_button" msgid="5032926134740456424">Byt inndatametode</string>
+    <string name="airplane_mode">Flymodus</string>
+    <string name="kg_prompt_reason_restart_pattern">Du må bruka mønster etter omstart</string>
+    <string name="kg_prompt_reason_restart_pin">Du må bruka PIN-kode etter omstart</string>
+    <string name="kg_prompt_reason_restart_password">Du må bruka passord etter omstart</string>
+    <string name="kg_prompt_reason_timeout_pattern">Bruk mønster for ekstra tryggleik</string>
+    <string name="kg_prompt_reason_timeout_pin">Bruk PIN-kode for ekstra tryggleik</string>
+    <string name="kg_prompt_reason_timeout_password">Bruk passord for ekstra tryggleik</string>
+    <string name="kg_prompt_reason_device_admin">Administratoren har låst eininga</string>
+    <string name="kg_prompt_reason_user_request">Eininga vart låst manuelt</string>
+    <string name="kg_face_not_recognized">Ikkje gjenkjend</string>
+    <string name="kg_face_sensor_privacy_enabled">Slå på kameratilgang i innstillingane for å bruka andletslås</string>
+    <string name="kg_password_default_pin_message">{count, plural,
+=1 {Skriv inn PIN-kode for SIM-kortet. Du har # forsøk att før du må kontakta mobiloperatøren for å låsa opp eininga.}
+other {Skriv inn PIN-kode for SIM-kortet. Du har # forsøk att.}
+}</string>
+    <string name="kg_password_default_puk_message">{count, plural,
+=1 {SIM-kortet er deaktivert. Skriv inn PUK-koden for å halda fram. Du har # forsøk att før SIM-kortet vert ubrukbart for godt. Kontakt mobiloperatøren for meir info.}
+other {SIM-kortet er deaktivert. Skriv inn PUK-koden for å halda fram. Du har # forsøk att før SIM-kortet vert ubrukbart for godt. Kontakt mobiloperatøren for meir info.}
+}</string>
+    <string name="clock_title_default">Standard</string>
+    <string name="clock_title_bubble">Boble</string>
+    <string name="clock_title_analog">Analog</string>
+    <string name="keyguard_unlock_to_continue">Lås opp eininga for å halda fram</string>
+    <string name="kg_prompt_unattended_update_pin">Skriv inn PIN-koden for å installera oppdateringa seinare</string>
+    <string name="kg_prompt_unattended_update_password">Skriv inn passordet for å installera oppdateringa seinare</string>
+    <string name="kg_prompt_unattended_update_pattern">Teikna mønsteret for å installera oppdateringa seinare</string>
+    <string name="kg_prompt_after_update_pin">Eininga er oppdatert. Skriv inn PIN-kode for å halda fram.</string>
+    <string name="kg_prompt_after_update_password">Eininga er oppdatert. Skriv inn passord for å halda fram.</string>
+    <string name="kg_prompt_after_update_pattern">Eininga er oppdatert. Teikna mønster for å halda fram.</string>
+</resources>

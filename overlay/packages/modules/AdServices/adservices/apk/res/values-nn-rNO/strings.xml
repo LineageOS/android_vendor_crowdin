@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- IMPORTANT! If adding new strings, then run generate_adservices_public_xml.py -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settingsUI_apps_view_fragment_no_apps_ga_text">Ingen appar å visa akkurat no.</string>
+    <string name="settingsUI_apps_view_fragment_no_apps_link_text">Finn ut meir om appar og føreslåtte annonsar</string>
+    <string name="settingsU_main_view_fragment_learn_more">Finn ut meir om annonsepersonvern på Android</string>
+    <string name="settingsUI_main_view_fragment_footer"><b>Annonseemne</b>\nAndroid registrerer kva emne du er interessert i ut frå kva appar du har brukt i det siste og kor ofte du bruker dei.\n\n<b>App-føreslåtte annonsar</b>\nAppar du bruker, kan òg avgjera kva du likar basert på korleis du bruker dei.\n\n<b>Annonsemåling</b>\nAppar du bruker, kan be Android om informasjon for å hjelpa dei med å måla kor godt annonsane deira fungerer. Android lèt appar samla inn avgrensa typar data.</string>
+    <string name="settingsUI_topics_view_fragment_no_topics_ga_text">Ingen emne å visa akkurat no.</string>
+    <string name="settingsUI_topics_view_fragment_no_topics_link_text">Finn ut meir om annonseemne</string>
+    <string name="settingsUI_main_u18_view_fragment_footer"><b>Annonsemåling</b>\nAppar du bruker, kan be Android om informasjon for å hjelpa dei med å måla kor godt annonsane deira fungerer. Android lèt appar samla inn avgrensa typar data.</string>
+    <string name="notificationUI_pas_learn_more_msmt_link"><a href="https://support.google.com/android?p=ad_measurement">Finn ut meir om korleis Android bidreg til å verna personvernet ditt</a></string>
+    <string name="settingsUI_pas_apps_view_fragment_footer">Det er vanleg at appar og annonseparnarane deira hugsar kva du er interessert i for å gjera opplevinga meir personleg. Appar kan lagra denne informasjonen trygt, slik at han berre kan brukast av annonseparnarane deira til å visa annonsar i andre appar.\n\nOm ein annonse du ser er tilpassa, kan vera avhengig av mange faktorar, slik som denne innstillinga, innstillinga for annonseemne, annonse-ID-en din og om appen du bruker tilpassar annonsar.\n\nGoogle krev at selskapa opplyser offentleg om at dei ikkje skal bruka desse dataa til å identifisera deg på nytt på tvers av appar. Nokre appar kan bruka aktiviteten din til å gjera opplevinga meir personleg for meir enn berre annonsar. Dei kan òg kombinera han med annan informasjon dei allereie veit om deg. Selskapa har sjølve ansvaret for å opplysa deg om korleis dei bruker dataa dine.</string>
+    <string name="settingsUI_pas_apps_view_fragment_privacy_learn_more">Finn ut meir om korleis Google vernar om dataa dine i personvernreglane våre</string>
+    <string name="settingsUI_pas_apps_view_fragment_app_learn_more">Finn ut meir om appar og føreslåtte annonsar</string>
+    <string name="settingsUI_pas_msmt_view_fragment_footer">Android bruker fleire personverntiltak, som samanstilling og støydata, for å avgrensa kva informasjon appar kan dela med kvarandre og bidra til å verna om identiteten din.\n\nNettlesaren din kan ha ei liknande innstilling. Om annonsemåling er på for både Android og nettlesaren, kan eit selskap måla kor effektiv ein annonse er mellom appar du bruker og nettstadene du vitjar. Nettlesarloggen din vert halden privat på eininga di.</string>
+    <string name="settingsUI_pas_msmt_view_fragment_footer_learn_more">Finn ut meir om annonsemåling</string>
+    <string name="settingsUI_pas_topics_view_fragment_footer">Android registrerer kva emne du er interessert i ut frå kva appar du har brukt dei siste vekene.\n\nSeinare kan ein app du bruker be Android om desse emna for å tilpassa annonsane du ser. Android deler opptil 3 emne medan identiteten din og informasjon om appbruken din vert verna om.\n\nAndroid slettar emne automatisk med jame mellomrom. Etter kvart som du bruker appar, kan eit emne dukka opp att på lista. Du kan òg blokkera emne du ikkje vil at Android skal dela med appar.\n\nOm ein annonse du ser er tilpassa, kan vera avhengig av mange faktorar, slik som denne innstillinga, innstillinga for app-føreslåtte annonsar, annonse-ID-en din og om appen du bruker tilpassar annonsar.</string>
+    <string name="settingsUI_pas_topics_fragment_learn_more">Finn ut meir om annonseemne</string>
+    <string name="topic10103">Antiperspirantar</string>
+    <string name="topic10158">Tryggingskopiering og gjenoppretting av data</string>
+    <string name="topic10210">Verdipapirfond</string>
+    <string name="topic10283">Mobiloperatørar</string>
+</resources>

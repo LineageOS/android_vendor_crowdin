@@ -19,4 +19,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:keep="@color/sud_system_*">
   <string name="expanded">Leathnaithe</string>
   <string name="collapsed">Tite</string>
+  <string name="brand_screen_header">Is le d\'eagraíocht an <xliff:g id="device_name" example="Pixel">%1$s</xliff:g> seo</string>
 </resources>

@@ -58,8 +58,6 @@
     <string name="timer_notifications_hours_seconds"><xliff:g id="REMAINING" example="remaining">%3$s</xliff:g> <xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> e <xliff:g id="SECONDS" example="2 seconds">%4$s</xliff:g></string>
     <string name="timer_notifications_hours_minutes_seconds"><xliff:g id="REMAINING" example="remaining">%3$s</xliff:g> <xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> e <xliff:g id="SECONDS" example="2 seconds">%4$s</xliff:g></string>
     <string name="timer_accessibility_one_minute_added">Un minût zontât al temporizadôr, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_stopped">Temporizadôr in pause, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_started">Temporizadôr in funzion, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
     <string name="timer_remaining_single">al reste</string>
     <string name="timer_remaining_multiple">a restin</string>
     <string-array name="alarm_set">
@@ -196,7 +194,6 @@
     <string name="button_alarms">Zonte svee</string>
     <string name="button_cities">Citâts</string>
     <string name="menu_item_settings">Impostazions</string>
-    <string name="menu_item_night_mode">Salve-schermi</string>
     <string name="menu_item_sort_by_gmt_offset">Ordene par ore</string>
     <string name="menu_item_sort_by_name">Ordene par non</string>
     <string name="selected_cities_label">Citâts selezionadis</string>

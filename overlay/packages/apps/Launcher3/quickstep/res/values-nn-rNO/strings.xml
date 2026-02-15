@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2017 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="recent_task_option_remove_task">Fjern</string>
+    <string name="add_desk_button_content_description">Legg til nytt skrivebord</string>
+    <string name="allset_description_fallback">Du er klar til å ta i bruk eininga di</string>
+    <string name="allset_title_expressive"><xliff:g id="device" example="Pixel 9">%1$s</xliff:g> er \nklar!</string>
+    <string name="allset_title_expressive_fallback">Eininga di er \nklar!</string>
+    <string name="allset_title_expressive_fixed">No er du klar!</string>
+    <string name="allset_subtitle_expressive">Kos deg med den nye <xliff:g id="device" example="phone">%1$s</xliff:g>-eininga di!</string>
+    <string name="allset_subtitle_expressive_gesture_navigation">Sveip opp for å koma i gang med <xliff:g id="device" example="phone">%1$s</xliff:g></string>
+    <string name="allset_subtitle_expressive_button_navigation">Trykk for å koma i gang med <xliff:g id="device" example="phone">%1$s</xliff:g></string>
+    <string name="allset_navigation_settings_expressive"><annotation id="link">Vel korleis du vil navigera</annotation></string>
+    <string name="allset_hint_expressive">Sveip opp</string>
+    <string name="allset_button_hint_expressive">Trykk på heim-knappen</string>
+    <string name="allset_device_type_tablet">nettbrett</string>
+    <string name="allset_device_type_phone">telefon</string>
+    <string name="taskbar_edu_swipe_animation_description">Animasjon som viser korleis oppgåvelinja kjem til syne frå botnen av skjermen, og vert gøymd automatisk når ho ikkje er i bruk</string>
+    <string name="taskbar_edu_pinning_animation_description">Animasjon som viser korleis du festar oppgåvelinja med ein brytar, slik at ho alltid er synleg nedst på skjermen</string>
+    <string name="taskbar_edu_split_screen_animation_description">Animasjon som viser korleis du deler skjermen ved å dra ein app frå oppgåvelinja og sleppa han over ein open app</string>
+    <string name="taskbar_edu_suggested_app_animation_description">Animasjon som viser korleis du finn føreslåtte appar på eininga di</string>
+    <string name="taskbar_edu_suggested_search_animation_description">Animasjon som viser korleis du søkjer etter noko på skjermen ved å halda inne handlingstasten og velja det området elementet er i</string>
+    <string name="taskbar_overflow_a11y_title">Andre nylege appar</string>
+    <string name="app_added_to_taskbar">Appen er lagd til på oppgåvelinja</string>
+    <string name="app_removed_from_taskbar">Appen er fjerna frå oppgåvelinja</string>
+    <string name="nudge_a11y_title">Nudge</string>
+    <string name="nudge_a11y_image">Nudge-bilete</string>
+</resources>

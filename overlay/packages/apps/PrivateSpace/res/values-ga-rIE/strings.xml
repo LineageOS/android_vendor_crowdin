@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="private_space_app_label">Spás Príobháideach</string>
+    <string name="private_space_activity_label">Cuir leis</string>
     <string name="shortcut_label_add_files">Cuir comhaid leis</string>
     <string name="shortcut_label_open_market_app">Suiteáil aipeanna</string>
     <string name="move_files_dialog_title">Comhaid a bhogadh nó a chóipeáil?</string>
@@ -22,6 +23,74 @@
     <string name="move_files_dialog_button_label_move">Bog</string>
     <string name="move_files_dialog_button_label_copy">Cóipeáil</string>
     <string name="move_files_dialog_button_label_cancel">Cealaigh</string>
+    <string name="filetransfer_notification_copy_progress_title">{count, plural, one {} two {Ag cóipeáil # chomhad} few {Ag cóipeáil # chomhad} many {Ag cóipeáil # gcomhad}=1 {Ag cóipeáil # comhad} other {Ag cóipeáil # comhad}}</string>
+    <string name="filetransfer_notification_move_progress_title">{count, plural, one {} two {Ag bogadh # chomhad} few {Ag bogadh # chomhad} many {Ag bogadh # gcomhad}=1 {Ag bogadh # comhad} other {Ag bogadh # comhad}}</string>
+    <string name="filetransfer_notification_copy_complete_title">        {count, plural, one {} two {Cóipeáladh # chomhad} few {Cóipeáladh # chomhad} many {Cóipeáladh # gcomhad}=1 {Cóipeáladh # comhad} other {Cóipeáladh # comhad}}
+    </string>
+    <string name="filetransfer_notification_move_complete_title">        {count, plural, one {} two {Bogadh # chomhad} few {Bogadh # chomhad} many {Bogadh # gcomhad}=1 {Bogadh # comhad} other {Bogadh # comhad}}
+    </string>
+    <string name="filetransfer_notification_copy_progress_text">{count, plural,
+        =1 {Tá an comhad roghnaithe á chóipeáil chuig do spás príobháideach}
+        two {Tá na comhaid roghnaithe á gcóipeáil chuig do spás príobháideach}
+        few {Tá na comhaid roghnaithe á gcóipeáil chuig do spás príobháideach}
+        many {Tá na comhaid roghnaithe á gcóipeáil chuig do spás príobháideach}
+        other {Tá na comhaid roghnaithe á gcóipeáil chuig do spás príobháideach}
+        }
+    </string>
+    <string name="filetransfer_notification_move_progress_text">{count, plural,
+        =1 {Tá an comhad roghnaithe á bhogadh chuig do spás príobháideach}
+        two {Tá na comhaid roghnaithe á mbogadh chuig do spás príobháideach}
+        few {Tá na comhaid roghnaithe á mbogadh chuig do spás príobháideach}
+        many {Tá na comhaid roghnaithe á mbogadh chuig do spás príobháideach}
+        other {Tá na comhaid roghnaithe á mbogadh chuig do spás príobháideach}
+        }
+    </string>
+    <string name="filetransfer_notification_copy_complete_text">{count, plural,
+        =1 {Cóipeáladh an comhad roghnaithe chuig do spás príobháideach}
+        two {Cóipeáladh na comhaid roghnaithe chuig do spás príobháideach}
+        few {Cóipeáladh na comhaid roghnaithe chuig do spás príobháideach}
+        many {Cóipeáladh na comhaid roghnaithe chuig do spás príobháideach}
+        other {Cóipeáladh na comhaid roghnaithe chuig do spás príobháideach}
+        }
+    </string>
+    <string name="filetransfer_notification_move_complete_text">        {count, plural,
+        =1 {Bogadh an comhad a roghnaigh tú chuig do spás príobháideach}
+        two {Bogadh an comhaid a roghnaigh tú chuig do spás príobháideach}
+        few {Bogadh an comhaid a roghnaigh tú chuig do spás príobháideach}
+        many {Bogadh an comhaid a roghnaigh tú chuig do spás príobháideach}
+        other {Bogadh an comhaid a roghnaigh tú chuig do spás príobháideach}
+        }
+    </string>
+    <string name="filetransfer_notification_action_label">        {count, plural,
+       =1 {Taispeáin an comhad}
+        two {Taispeáin an comhaid}
+        few {Taispeáin an comhaid}
+        many {Taispeáin an comhaid}
+        other {Taispeáin an comhaid}
+        }
+    </string>
     <string name="filetransfer_notification_channel_name">Fógraí aistrithe comhad</string>
     <string name="filetransfer_notification_channel_description">Nuair a chóipeálann tú nó a bhogann tú comhaid chuig do spás príobháideach, is féidir leat fógraí a fháil chun tú a chur ar an eolas faoin dul chun cinn.</string>
+    <string name="filetransfer_notification_partial_copy_error_title">"Ní féidir roinnt comhad a chóipeáil"</string>
+    <string name="filetransfer_notification_partial_move_error_title">"Ní féidir roinnt comhad a bhogadh"</string>
+    <string name="filetransfer_generic_copy_error_message">Is féidir leat iarracht a dhéanamh do chuid comhad a chóipeáil arís</string>
+    <string name="filetransfer_generic_move_error_message">Is féidir leat iarracht a dhéanamh do chuid comhad a bhogadh arís.</string>
+    <string name="filetransfer_dialog_still_copying_error_title">Comhaid fós á gcóipeáil</string>
+    <string name="filetransfer_dialog_still_moving_error_title">Comhaid fós ag bogadh</string>
+    <string name="filetransfer_dialog_still_transferring_error_message">Is féidir leat tuilleadh comhad a chóipeáil nó a bhogadh nuair a bheidh sé seo déanta</string>
+    <string name="filetransfer_notification_copy_error_title">"Níorbh fhéidir comhaid a chóipeáil"</string>
+    <string name="filetransfer_notification_move_error_title">"Níorbh fhéidir comhaid a bhogadh"</string>
+    <string name="filetransfer_large_files_size_error_title">Tá méid iomlán an chomhaid rómhór</string>
+    <string name="filetransfer_large_files_size_error_message">Ní féidir leat ach suas le 2 GB a chóipeáil nó a bhogadh ag an am céanna</string>
+    <string name="filetransfer_too_many_files_error_title">An iomarca comhad roghnaithe</string>
+    <string name="filetransfer_too_many_files_error_message">Ní féidir leat ach suas le 100 comhad a chóipeáil nó a bhogadh ag an am céanna.</string>
+    <string name="filetransfer_notification_transfer_error_title">"Ní féidir comhaid a chur leis"</string>
+    <string name="filetransfer_notification_insufficient_storage_error_message">"Níl dóthain stórais gléis agat"</string>
+    <string name="filetransfer_error_dialog_button">Ceart go leor</string>
+    <string name="filetransfer_notification_not_enough_storage_error_action">Spás a shaoradh</string>
+    <string name="filetransfer_error_toast_cannot_transfer_from_same_user">"Ní féidir comhaid a chóipeáil ná a bhogadh ón Spás Príobháideach"</string>
+    <string name="filetransfer_notification_incomplete_copy_transfer_title">"Níorbh fhéidir roinnt comhad a chóipeáil"</string>
+    <string name="filetransfer_notification_incomplete_move_transfer_title">"Níorbh fhéidir roinnt comhad a bhogadh"</string>
+    <string name="filetransfer_notification_incomplete_copy_transfer_message">Dúnadh do spás príobháideach agus cóipeáil ar siúl</string>
+    <string name="filetransfer_notification_incomplete_move_transfer_message">Dúnadh do spás príobháideach agus tú ag bogadh</string>
 </resources>

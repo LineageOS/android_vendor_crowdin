@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="device_energy_saver_sleep_timeout_entries">
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 timar</item>
+        <item>4 hours</item>
+        <item>8 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="bounce_key_timeout_entries">
+        <item>0,5 sekund</item>
+        <item>1 sekund</item>
+        <item>2 sekund</item>
+    </string-array>
+    <string-array name="device_energy_saver_attentive_timeout_entries">
+        <item>3 timar</item>
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>8 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="a11y_delay_before_repeat_entries">
+        <item>Default</item>
+        <item>3 sekund</item>
+        <item>5 sekund</item>
+    </string-array>
+    <string-array name="a11y_repeat_rate_entries">
+        <item>Default</item>
+        <item>Sein</item>
+        <item>Snøgg</item>
+    </string-array>
+    <string-array name="volume_change_entries">
+        <item>Dempa</item>
+        <item>Låg (20 %)</item>
+        <item>Middels (50 %)</item>
+        <item>Høg (80 %)</item>
+    </string-array>
+    <string-array name="backlight_modes">
+        <item>Never</item>
+        <item>Standard</item>
+        <item>Tidsplanlagd</item>
+    </string-array>
+    <string-array name="backlight_hints">
+        <item>Baklyset vil ikkje lysa ved kvart trykk.</item>
+        <item>Baklyset lyser ved kvart trykk. Lyset varer i 5 sekund kvar gong det vert aktivert.</item>
+        <item>Baklyset lyser ved kvart trykk berre i nattetimane (kl. 18.00–06.00). Lyset varer i 5 sekund kvar gong det vert aktivert.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_user_locked">Lås opp telefonen for å henta betalingsinfoen</string>
+    <string name="accessibility_menu">Meny</string>
+    <string name="error_generic">Klarte ikkje henta korta dine. Prøv på nytt seinare.</string>
+    <string name="settings">Innstillingar</string>
+</resources>

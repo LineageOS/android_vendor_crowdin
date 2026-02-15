@@ -21,14 +21,27 @@
     <string name="clock_size_large_description">Taispeántar nuair nach bhfuil fógraí le feiceáil</string>
     <string name="clock_font_editor_apply">Cuir athruithe cló clog i bhfeidhm</string>
     <string name="clock_font_editor_revert">Cealaigh athruithe cló an chloig</string>
+    <string name="clock_style_round_clock">Clog cruinn</string>
+    <string name="clock_style_update_toast">Athraíodh an stíl go <xliff:g name="font_name">%1$s</xliff:g>. Tapáil arís le cealú.</string>
+    <string name="clock_style_round">babhta</string>
+    <string name="clock_style_sharp">géar</string>
     <string name="shape_and_grid_title">Cruth aip &amp; leagan amach</string>
     <string name="grid_layout">Leagan Amach</string>
+    <string name="app_icons_title">Deilbhíní</string>
+    <string name="app_icons_description"><xliff:g name="shape">%1$s</xliff:g>, <xliff:g name="theme">%2$s</xliff:g></string>
+    <string name="app_icons_theme_default">réamhshocraithe</string>
+    <string name="app_icons_theme_themed">téamaithe</string>
+    <string name="app_icons_style_minimal">Íosmhéid</string>
     <string name="grid_content_description"><xliff:g name="num_cols" example="1">%1$d</xliff:g> ag <xliff:g name="num_rows" example="1">%2$d</xliff:g></string>
+    <string name="themed_icon_beta_title">Deilbhíní téamacha (béite)</string>
     <string name="system_colors_title">Dathanna</string>
+    <string name="screen_saver_title">Sábhálaí scáileáin</string>
     <string name="color_contrast_section_title">Codarsnacht dathanna</string>
     <string name="color_contrast_medium_title">Meánach</string>
     <string name="color_contrast_high_title">Ard</string>
     <string name="lock_screen_notifications_section_title">Fógraí ar an scáileán glasála</string>
     <string name="lock_screen_notifications_section_description">Bainistigh conas a thaispeántar fógraí agus cad atá le taispeáint</string>
     <string name="more_settings_section_title">Tuilleadh socruithe glasála scáileáin</string>
+    <string name="clock_face_width">Leithead aghaidh an chloig</string>
+    <string name="slider_state_description_template">%1$d, raon ó %2$d go %3$d</string>
 </resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telephony_attribution_tag">Telefoni</string>
+    <string name="default_carrier_mmi_msg_title">Melding frå mobiloperatøren</string>
+    <string name="ussdRunning">USSD-kode er i gang \u2026</string>
+    <string name="no_vm_number">Manglar nummer til telefonsvararen</string>
+    <string name="no_vm_number_msg">Det er ikkje lagra noko nummer til telefonsvararen på SIM-kortet.</string>
+    <string name="add_vm_number_str">Legg til nummer</string>
+    <string name="voice_number_setting_primary_user_only">Berre hovudbrukaren kan endra innstillingane for telefonsvararen.</string>
+    <string name="puk_unlocked">SIM-kortet er no opna. Telefonen vert låst opp \u2026</string>
+    <string name="label_phoneid">SIM-kortet er låst til éin mobiloperatør</string>
+    <string name="requesting_unlock">Ber om nettverksopplåsing \u2026</string>
+    <string name="voicemail">Telefonsvarar</string>
+    <string name="voicemail_settings_with_label">Telefonsvarar (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
+    <string name="voicemail_abbreviated">Svarar:</string>
+    <string name="voicemail_notifications_preference_title">Varsel</string>
+    <string name="sum_loading_settings">Lastar inn innstillingar \u2026</string>
+    <string name="sum_default_caller_id">Bruk standardinnstillingane til mobiloperatøren for å visa nummeret mitt</string>
+    <string name="disable_cfb_forbidden">Mobiloperatøren din støttar ikkje å slå av vidarekopling når telefonen er oppteken.</string>
+    <string name="disable_cfnry_forbidden">Mobiloperatøren din støttar ikkje å slå av vidarekopling når du ikkje svarar.</string>
+    <string name="disable_cfnrc_forbidden">Mobiloperatøren din støttar ikkje å slå av vidarekopling når du ikkje er tilgjengeleg.</string>
+    <string name="registration_cf_forbidden">Mobiloperatøren din støttar ikkje vidarekopling.</string>
+    <string name="phone_account_no_config_mobile_networks">Einingseigaren har avgrensa høvet til å endra innstillingane for mobilnett.</string>
+    <string name="reading_settings">Les innstillingar \u2026</string>
+    <string name="updating_settings">Oppdaterer innstillingar \u2026</string>
+    <string name="reverting_settings">Tilbakestiller innstillingar \u2026</string>
+    <string name="vm_changed">Nummeret til telefonsvararen er endra.</string>
+    <string name="vm_change_failed">Klarte ikkje endra nummeret til telefonsvararen.\nKontakt mobiloperatøren din dersom problemet held fram.</string>
+    <string name="fw_change_failed">Klarte ikkje endra nummeret for vidarekopling.\nKontakt mobiloperatøren din dersom problemet held fram.</string>
+    <string name="no_change">Inga endring vart gjort.</string>
+    <string name="sum_voicemail_choose_provider">Vel teneste for telefonsvarar</string>
+    <string name="voicemail_default">Mobiloperatøren din</string>
+    <string name="vm_change_pin_error_too_short">Den nye PIN-koden er for kort.</string>
+    <string name="vm_change_pin_error_too_long">Den nye PIN-koden er for lang.</string>
+    <string name="vm_change_pin_error_too_weak">Den nye PIN-koden er for veik. Eit sterkt passord bør ikkje ha siffer i rekkjefølgje eller siffer som vert gjentekne.</string>
+    <string name="vm_change_pin_error_mismatch">Den gamle PIN-koden stemmer ikkje.</string>
+    <string name="vm_change_pin_error_invalid">Den nye PIN-koden inneheld ugyldige teikn.</string>
+    <string name="vm_change_pin_error_system_error">Klarte ikkje endra PIN-koden</string>
+    <string name="vvm_unsupported_message_format">Meldingstypen er ikkje støtta. Ring <xliff:g id="number" example="*86">%s</xliff:g> for å lytta.</string>
+    <string name="load_networks_progress">Søkjer \u2026</string>
+    <string name="register_on_network">Registrerer på <xliff:g id="network">%s</xliff:g> \u2026</string>
+    <string name="register_automatically">Automatisk registrering \u2026</string>
+    <string name="network_connecting">Koplar til …</string>
+    <string name="carrier_settings_euicc">Mobiloperatør</string>
+    <string name="keywords_carrier_settings_euicc">operatør, esim, sim, euicc, byt mobiloperatør, legg til mobiloperatør</string>
+    <string name="video_calling_settings_title">Videosamtale via mobiloperatør</string>
+    <string name="throttle_help_subtext">Meir informasjon om mobiloperatøren sine retningslinjer for databruk i mobilnettverket</string>
+    <string name="carrier_settings_title">Innstillingar for mobiloperatøren</string>
+    <string name="vibrating_for_outgoing_call_accepted_title">Vibrer når utgåande samtale vert svara på</string>
+    <string name="vibrating_for_outgoing_call_accepted_summary">Slå på vibrering når utgåande samtale vert svara på</string>
+    <string name="playing_tone_for_outgoing_call_accepted_title">"Tonar ved tilkopla samtale"</string>
+    <string name="playing_tone_for_outgoing_call_accepted_summary">"Spel tone når utgåande samtale vert svara på"</string>
+    <string name="adding_fdn_contact">Legg til fastnummer \u2026</string>
+    <string name="updating_fdn_contact">Oppdaterer fastnummer \u2026</string>
+    <string name="deleting_fdn_contact">Slettar fastnummer \u2026</string>
+    <string name="fdn_blocked_mmi">Kan ikkje ringja MMI-kode fordi FDN er slått på.</string>
+    <string name="simContacts_emptyLoading">Les frå SIM-kortet \u2026</string>
+    <string name="enable_in_progress">Set PIN \u2026</string>
+    <string name="voicemail_settings_number_label">Nummer til telefonsvararen</string>
+    <string name="notification_voicemail_title">Ny telefonsvararmelding</string>
+    <string name="notification_voicemail_title_count">Ny telefonsvararmelding (<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="notification_voicemail_text_format">Ring <xliff:g id="voicemail_number">%s</xliff:g></string>
+    <string name="notification_voicemail_no_vm_number">Ukjent nummer til telefonsvararen</string>
+    <string name="notification_network_selection_text">Nettverket du valde <xliff:g id="operator_name">%s</xliff:g> er ikkje tilgjengeleg</string>
+    <string name="incall_error_out_of_service_2g">Mobilnettet er ikkje tilgjengeleg.\n\nKopla til eit trådlaust nettverk for å ringja.\n\n2G er slått av på denne eininga, noko som kan påverka sambandet ditt. Gå til innstillingane og slå på «Tillat 2G» for å halda fram.</string>
+    <string name="incall_error_out_of_service_wfc_2g_user">Mobilnettet er ikkje tilgjengeleg.\n\nKopla til eit trådlaust nettverk for å ringja.\n\n2G er slått av på denne eininga, noko som kan påverka sambandet ditt. Gå til innstillingane og slå på «Tillat 2G» for å halda fram.</string>
+    <string name="incall_error_satellite_enabled">Avslutt satellittsambandet før du ringjer.</string>
+    <string name="emergency_enable_radio_dialog_message">Slår på mobildekning \u2026</string>
+    <string name="emergency_enable_radio_dialog_retry">Inga dekning. Prøver på nytt \u2026</string>
+    <string name="ota_hfa_activation_title">Aktiverer …</string>
+    <string name="ota_progress">Set opp telefonen din \u2026</string>
+    <string name="voicemail_provider">Teneste</string>
+    <string name="voicemail_settings">Oppsett</string>
+    <string name="voicemail_number_not_set">&lt;Ikkje slått inn&gt;</string>
+    <string name="other_settings">Andre innstillingar for samtalar</string>
+    <string name="voicemail_visual_voicemail_switch_title">Visuell telefonsvarar</string>
+    <string name="voicemail_set_pin_dialog_title">Set PIN</string>
+    <string name="voicemail_change_pin_dialog_title">Endra PIN</string>
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
+    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
+    <string name="change_pin_title">Endra PIN for telefonsvararen</string>
+    <string name="change_pin_continue_label">Hald fram</string>
+    <string name="change_pin_cancel_label">Avbryt</string>
+    <string name="change_pin_ok_label">OK</string>
+    <string name="change_pin_enter_old_pin_header">Stadfest den gamle PIN-koden</string>
+    <string name="change_pin_enter_old_pin_hint">Skriv inn PIN-koden til telefonsvararen for å halda fram.</string>
+    <string name="change_pin_enter_new_pin_header">Set ein ny PIN</string>
+    <string name="change_pin_enter_new_pin_hint">PIN-koden må vera på <xliff:g id="min" example="4">%1$d</xliff:g>–<xliff:g id="max" example="7">%2$d</xliff:g> siffer.</string>
+    <string name="change_pin_confirm_pin_header">Stadfest PIN-koden</string>
+    <string name="change_pin_confirm_pins_dont_match">PIN-kodane stemmer ikkje overeins</string>
+    <string name="change_pin_succeeded">PIN for telefonsvararen er oppdatert</string>
+    <string name="change_pin_system_error">Klarte ikkje setja PIN-kode</string>
+    <string name="mobile_data_status_roaming_without_plan_subtext">Du brukar nettveksling no og treng eit dataabonnement</string>
+    <string name="mobile_data_status_roaming_with_plan_subtext">Du brukar nettveksling no, og dataabonnementet er aktivt</string>
+    <string name="mobile_data_activate_roaming_plan">Ikkje noko abonnement for nettveksling</string>
+    <string name="mobile_data_activate_footer">Du kan kjøpa meir mobildata eller eit abonnement for gjestebruk hjå mobiloperatøren din, <xliff:g id="provider_name">%s</xliff:g>.</string>
+    <string name="callFailed_NetworkCongested">Det er for stor trafikk på nettverket. Kontakt mobiloperatøren din for hjelp.</string>
+    <string name="supp_service_clir_suppression_rejected">Mobiloperatøren avviste å gøyma nummeret.</string>
+    <string name="supp_service_additional_call_forwarded">Ein annan samtale vart vidarekopla.</string>
+    <string name="simulate_out_of_service_label">Simuler «utanfor teneste»</string>
+    <string name="enforce_satellite_channel_string">Tving satellitt-LTE-kanal (berre for feilsøking)</string>
+    <string name="enforce_satellite_channel_label">Tving satellitt-LTE-kanal</string>
+    <string name="starlink_satellite_band_string">Starlink_US</string>
+    <string name="ast_satellite_band_string">AST_US</string>
+    <string name="manual_override_satellite_band_string">Manuell overstyring</string>
+    <string name="satellite_manual_band_label">Vel band:</string>
+    <string name="satellite_channel_label_text">Skriv inn kanal:</string>
+    <string name="satellite_channel_hint_text">Skriv inn satellittkanal her</string>
+    <string name="force_camp_satellite_button_string">Kopla til</string>
+    <string name="mock_carrier_roaming_satellite_string">Simulert satellittmodus for operatør (berre for feilsøking)</string>
+    <string name="mock_carrier_roaming_satellite_label">Simulert</string>
+    <string name="choose_satellite_data_mode_label">Simulert satellittdatamodus</string>
+    <string name="choose_satellite_data_mode">Simulert modus for satellittdata (berre feilsøking)</string>
+    <string name="satellite_data_restricted_string">Sperra</string>
+    <string name="satellite_data_constrained_string">Avgrensa</string>
+    <string name="satellite_data_unConstrained_string">Utan grenser</string>
+    <string name="esos_satellite_string">Test ekte eSOS-modus via satellitt (berre for feilsøking)</string>
+    <string name="esos_satellite_label">Test ekte eSOS-modus via satellitt</string>
+    <string name="satellite_enable_non_emergency_mode_string">Test ekte satellittmodus utanom naud (berre for feilsøking)</string>
+    <string name="satellite_enable_non_emergency_mode_label">Test ekte eSOS-modus via satellitt</string>
+    <string name="demo_esos_satellite_string">Test demo for eSOS-modus via satellitt (berre for feilsøking)</string>
+    <string name="demo_esos_satellite_label">Test demo-eSOS-modus via satellitt</string>
+    <string name="band_mode_loading">Lastar inn bandliste \u2026</string>
+    <string name="tab_title_device_details">EININGSOPPLYSNINGAR</string>
+    <string name="tab_title_data_network">DATA OG NETTVERK</string>
+    <string name="tab_title_satellite">SATELLITT</string>
+    <string name="tab_title_ims">IMS</string>
+    <string name="phone0_title">Telefon 0</string>
+    <string name="phone1_title">Telefon 1</string>
+    <string name="phone_info_label_v2">Telefoninformasjon V2</string>
+    <string name="carrier_provisioning">Info om mobiloperatøroppsett</string>
+    <string name="trigger_carrier_provisioning">Start mobiloperatøroppsett</string>
+    <string name="radio_info_data_view_satellite_config">Vis satellittoppsett</string>
+    <string name="satellite_config_viewer">Vis satellittoppsett</string>
+    <string name="satellite_config_version_label">versjon: </string>
+    <string name="satellite_config_version_for_skylo_label">skylo-versjon: </string>
+    <string name="satellite_max_allowed_data_mode_label">maks tillaten datamodus: </string>
+    <string name="satellite_config_version_for_starlink_label">starlink-versjon: </string>
+    <string name="satellite_config_service_type_label">subId/plmn/tenestetype: </string>
+    <string name="satellite_config_allow_access_label">gje_tilgang: </string>
+    <string name="satellite_config_country_code_label">landskodar: </string>
+    <string name="satellite_config_size_of_sats2_dat_label">storleik på sats2.dat: </string>
+    <string name="satellite_config_json_label">json-oppsett for satellitt-tilgang: </string>
+    <string name="nb_iot_config_viewer">Visning av NB-IOT-oppsett</string>
+    <string name="ims_registration_value">IMS-registrering: </string>
+    <string name="voice_over_lte_value">Tale over LTE: </string>
+    <string name="voice_over_wifi_value">Tale over Wi-Fi: </string>
+    <string name="video_calling_value">Videosamtale: </string>
+    <string name="ut_interface_value">UT-grensesnitt: </string>
+</resources>

@@ -28,4 +28,5 @@
     <string name="all_apps_group_a11y_title">Liosta aipeanna</string>
     <string name="copy_text">Cóipeáil téacs</string>
     <string name="copy_link">Cóipeáil nasc</string>
+    <string name="exit_button_label">Díbhe</string>
 </resources>

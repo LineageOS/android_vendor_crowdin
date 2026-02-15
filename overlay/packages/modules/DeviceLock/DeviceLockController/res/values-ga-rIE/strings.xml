@@ -15,5 +15,9 @@
   limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_used_as_collateral">Tá an gléas seo á chur ar bun mar chomhthaobhacht le haghaidh iasachta ag <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="enroll_your_device_recol_subheader">Is féidir leat do ghléas a chlárú anois i gclár ath-urrúsúcháin <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="settings_banner_title_recol">Gléas urraithe ag <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="provisioning_failed_generic">Theip ar an soláthar</string>
     <string name="click_to_contact_financier">Chun cabhair a fháil le do ghléas a chlárú, <xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g> déan teagmháil le <xliff:g id="support_link_end">&lt;/a&gt;</xliff:g></string>
 </resources>

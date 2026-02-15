@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">SIM-verktøy</string>
+    <string name="menu_end_session">Avslutt økt</string>
+    <string name="help">Hjelp</string>
+    <string name="menu_back">Tilbake</string>
+    <string name="service_name">Namn på tenesta</string>
+    <string name="stk_no_service">Inga teneste tilgjengeleg</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nei</string>
+    <string name="alphabet">Alfabet</string>
+    <string name="digits">Siffer (0–9, *, #, +)</string>
+    <string name="default_call_setup_msg">Samtale pågår \u2026</string>
+    <string name="default_setup_call_msg">Set opp samtale</string>
+    <string name="stk_app_state">App-status</string>
+    <string name="enable_app">Slått på</string>
+    <string name="disable_app">Slått av</string>
+    <string name="stk_dialog_title">SIM-verktøy</string>
+    <string name="default_tone_dialog_msg">Spelar av tone</string>
+    <string name="default_open_channel_msg">Opna kanal?</string>
+    <string name="default_send_data_msg">Sender data</string>
+    <string name="default_receive_data_msg">Tek imot data</string>
+    <string name="default_close_channel_msg">Kanalen er stengd</string>
+    <string name="stk_dialog_accept">JA</string>
+    <string name="stk_dialog_reject">NEI</string>
+    <string name="no_sim_card_inserted">Set i eit SIM-kort for å starta SIM-verktøy.</string>
+    <string name="stk_channel_name">Meldingar frå mobiltenesta</string>
+</resources>

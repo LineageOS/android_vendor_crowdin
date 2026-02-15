@@ -23,6 +23,16 @@
     <string name="device_connections_category_title">Naisc ghléis le do charr</string>
     <string name="uwb_toggle_title">Leathanbhanda\u2011Ultra&amp; # 40;UWB)</string>
     <string name="uwb_toggle_summary">Cuidíonn sé le do charr suíomh na ngléasanna UWB a aithint</string>
+    <string name="bluetooth_audio_sharing">Comhroinnt Fuaime</string>
+    <string name="share_audio_switch_title">Comhroinn fuaim</string>
+    <string name="share_audio_switch_summary">Caithfidh cluasáin LE Audio féin a bheith ag éisteoirí</string>
+    <string name="share_audio_test_sound_title">Seinn fuaim tástála</string>
+    <string name="share_audio_test_sound_summary">Ba chóir do gach duine atá ag éisteacht é a chloisteáil</string>
+    <string name="audio_sharing_active_media_devices">Gléasanna meán gníomhacha</string>
+    <string name="audio_stream_settings_category_title">Socruithe sruthú fuaime</string>
+    <string name="audio_streaming_title">Cód QR sruthú fuaime</string>
+    <string name="scan_qr_code_to_connect">Scanáil an cód QR le ceangal</string>
+    <string name="audio_stream_qr_code_description">Chun éisteacht le sruth fuaime, is féidir le daoine eile cluasáin chomhoiriúnacha a nascadh lena ngléas Android. Ansin is féidir leo an cód QR seo a scanadh.</string>
     <string name="audio_route_selector_toast">Meáin á athrú go %1$s</string>
     <string name="units_unit_name_kilowatt_hour">Cileavata-uair</string>
     <string name="units_unit_name_kilowatt_per_hundred_miles">Cileavata-uair an chloig in aghaidh an chéad mhíle</string>
@@ -82,6 +92,7 @@
     <string name="auto_local_time_dialog_positive_button_text">Athrú i socruithe</string>
     <string name="auto_local_time_dialog_msg">        Tá do shuíomh múchta. Seans nach n-oibreoidh am uathoibríoch.
     </string>
+    <string name="storage_total_label">%s san iomlán</string>
     <string name="microphone_access_settings_title">Rochtain micreafón</string>
     <string name="microphone_access_settings_summary">Roghnaigh an bhfuil rochtain ag aipeanna ar mhicreafóin do charr\u2019s</string>
     <string name="microphone_infotainment_apps_toggle_title">Aipeanna faisnéise</string>
@@ -90,6 +101,8 @@
     </string>
     <string name="camera_access_disclaimer_summary">       Seans go mbeidh rochtain fós ag monaróir do charr ar cheamara do charr
     </string>
+    <string name="app_function_access_settings_title">Rialú gníomhaire ar aipeanna eile</string>
+    <string name="app_function_access_settings_summary">Déan gníomhartha ar do ghléas agus in aipeanna eile</string>
     <string name="camera_infotainment_apps_toggle_title">Aipeanna faisnéise</string>
     <string name="camera_infotainment_apps_toggle_summary">Ceadaigh aipeann faisnéise chun pictiúir a ghlacadh agus físeáin a thaifeadadh</string>
     <string name="permission_grant_allowed">Ceadaithe</string>
@@ -105,6 +118,10 @@
     <string name="connectivity_inactive_action_text">Féach pleananna</string>
     <string name="audio_route_dialog_neutral_button_text">Déanta</string>
     <string name="unsupported_intents_toast_text">Ní thacaíonn d\'fheithicil leis an ngné seo</string>
+    <string name="aspect_ratio_dialog_title">Socruithe Cóimheas Gnéithe</string>
+    <string name="aspect_ratio_dialog_message">Atosófar an aip nuair a athraíonn tú an cóimheas gné. D’fhéadfadh go gcaillfeá athruithe neamhshábháilte. Seans nach mbeidh roinnt aipeanna optamaithe do chóimheasa gné áirithe.</string>
+    <string name="aspect_ratio_dialog_close_button_text">Dún</string>
+    <string name="aspect_ratio_dialog_apply_button_text">Cuir isteach</string>
     <string name="aspect_ratio_dialog_app_default_text">Réamhshocrú aip</string>
     <string name="aspect_ratio_dialog_full_screen_text">Scáileán iomlán</string>
     <string name="aspect_ratio_dialog_half_screen_text">Scáileán leath</string>

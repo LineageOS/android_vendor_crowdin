@@ -18,6 +18,9 @@
     <string name="upload_line5">Comhad á sheoladh…</string>
     <string name="enabling_progress_title">Fan go fóill…</string>
     <string name="enabling_progress_content">Ag casadh ar Bluetooth…</string>
+    <string name="bluetooth_stays_on_message_on_watch">Fanann Bluetooth ar siúl i mód eitleáin agus é ceangailte le gléasanna eile.</string>
+    <string name="bluetooth_stays_on_message_due_to_watch">Coinneoidh do ghléas Bluetooth ar siúl i mód eitleáin agus é ceangailte le d’uaireadóir.</string>
+    <string name="bluetooth_stays_on_message_due_to_media">Fanann Bluetooth ar siúl i mód eitleáin agus é ceangailte le gléas meán.</string>
     <string name="bluetooth_enabled_auto_on_title">Chuir Bluetooth ar siúl arís</string>
     <string name="bluetooth_enabled_auto_on_message">Is féidir leat é seo a athrú am ar bith sna Socruithe</string>
 </resources>

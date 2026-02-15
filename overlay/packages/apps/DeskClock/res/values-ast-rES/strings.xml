@@ -57,8 +57,6 @@
     <string name="timer_notifications_hours_seconds"><xliff:g id="REMAINING" example="remaining">%3$s</xliff:g> <xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> y <xliff:g id="SECONDS" example="2 seconds"> %4$s</xliff:g></string>
     <string name="timer_notifications_hours_minutes_seconds"><xliff:g id="REMAINING" example="remaining">%3$s</xliff:g> <xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> con <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> y <xliff:g id="SECONDS" example="2 seconds">%4$s</xliff:g></string>
     <string name="timer_accessibility_one_minute_added">Amestóse un minutu al temporizador, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_stopped">El temporizador ta en posa. <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_started">El temporizador ta n\'execución. <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
     <string name="timer_remaining_single">Queda</string>
     <string name="timer_remaining_multiple">Queden</string>
     <string-array name="alarm_set">
@@ -195,7 +193,6 @@
     <string name="button_alarms">Amestar una alarma</string>
     <string name="button_cities">Ciudaes</string>
     <string name="menu_item_settings">Configuración</string>
-    <string name="menu_item_night_mode">Curiapantalles</string>
     <string name="menu_item_sort_by_gmt_offset">Ordenar pola hora</string>
     <string name="menu_item_sort_by_name">Ordenar pol nome</string>
     <string name="selected_cities_label">Ciudaes seleicionaes</string>
