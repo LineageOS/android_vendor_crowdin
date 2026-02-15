@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Trådlause naudvarsel</string>
+    <string name="sms_cb_settings">Trådlause naudvarsel</string>
+    <string name="sms_cb_sender_name_default">Trådlause naudvarsel</string>
+    <string name="sms_cb_sender_name_presidential">Høgaste naudvarsel</string>
+    <string name="sms_cb_sender_name_emergency">Trådlause naudvarsel</string>
+    <string name="sms_cb_sender_name_public_safety">Informasjonsvarsel</string>
+    <string name="cell_broadcast_settings_not_available">Innstillingar for trådlause naudvarsel er ikkje tilgjengelege for denne brukaren</string>
+    <string name="button_dismiss">OK</string>
+    <string name="no_cell_broadcasts">Ingen tidlegare varsel</string>
+    <string name="menu_preferences">Innstillingar</string>
+    <string name="menu_delete_all">Slett varsel</string>
+    <string name="message_options">Meldingsval</string>
+    <string name="menu_view_details">Vis detaljar</string>
+    <string name="menu_delete">Slett varsel</string>
+    <string name="view_details_title">Varseldetaljar</string>
+    <string name="view_details_debugging_title">Varseldetaljar for feilsøking</string>
+    <string name="confirm_delete_broadcast">Vil du sletta dette varselet?</string>
+    <string name="confirm_delete_all_broadcasts">Vil du sletta alle varselmeldingane?</string>
+    <string name="button_delete">Slett</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="etws_earthquake_warning">Jordskjelvvarsel</string>
+    <string name="etws_tsunami_warning">Tsunamivarsel</string>
+    <string name="etws_earthquake_and_tsunami_warning">Jordskjelv- og tsunamivarsel</string>
+    <string name="etws_test_message">ETWS-testmelding</string>
+    <string name="etws_other_emergency_type">Naudvarsel</string>
+    <string name="cmas_presidential_level_alert">Høgaste naudvarsel</string>
+    <string name="cmas_extreme_alert">Naudvarsel: Ekstrem fare</string>
+    <string name="cmas_extreme_immediate_observed_alert">Naudvarsel: Ekstrem fare</string>
+    <string name="cmas_extreme_immediate_likely_alert">Naudvarsel: Ekstrem fare</string>
+    <string name="cmas_severe_alert">Naudvarsel: Alvorleg fare</string>
+    <string name="cmas_amber_alert">Bortføring av barn (AMBER-varsel)</string>
+    <string name="cmas_required_monthly_test">Obligatorisk månadleg test</string>
+    <string name="cmas_exercise_alert">Naudvarsel (øving)</string>
+    <string name="cmas_operator_defined_alert">Naudvarsel (operatør)</string>
+    <string name="cb_other_message_identifiers">Varselmeldingar</string>
+    <string name="public_safety_message">Melding om tryggleik</string>
+    <string name="state_local_test_alert">Regional/lokal test</string>
+    <string name="emergency_alert">Naudvarsel</string>
+    <string name="emergency_alerts_title">Varsel</string>
+    <string name="notification_channel_broadcast_messages">Varselmeldingar</string>
+    <string name="notification_channel_emergency_alerts">Naudvarsel</string>
+    <string name="notification_channel_emergency_alerts_high_priority">Ulesne naudvarsel</string>
+    <string name="notification_channel_broadcast_messages_in_voicecall">Naudvarsel under samtalar</string>
+    <string name="notification_channel_settings_updates">Automatiske WEA-endringar basert på SIM-kort</string>
+    <string name="enable_alerts_master_toggle_title">Tillat varsel</string>
+    <string name="enable_alerts_master_toggle_summary">Ta imot trådlause naudvarsel</string>
+    <string name="alert_reminder_interval_title">Varselpåminning</string>
+    <string name="enable_alert_speech_title">Les opp varselmeldinga</string>
+    <string name="enable_alert_speech_summary">Bruk tekst-til-tale for å lesa opp trådlause naudvarsel</string>
+    <string name="alert_reminder_dialog_title">Ein påminningslyd vert spela av med vanleg volum</string>
+    <string name="emergency_alert_history_title">Logg for naudvarsel</string>
+    <string name="alert_preferences_title">Varselinnstillingar</string>
+    <string name="enable_etws_test_alerts_title">ETWS-testvarsel</string>
+    <string name="enable_etws_test_alerts_summary">Testvarsel for jordskjelv- og tsunamivarsling</string>
+    <string name="enable_cmas_extreme_threat_alerts_title">Ekstrem fare</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary">Ekstrem fare for liv og eigedom</string>
+    <string name="enable_cmas_severe_threat_alerts_title">Alvorleg fare</string>
+    <string name="enable_cmas_severe_threat_alerts_summary">Alvorleg fare for liv og eigedom</string>
+    <string name="enable_cmas_amber_alerts_title">AMBER-varsel</string>
+    <string name="enable_cmas_amber_alerts_summary">Naudvarsel ved bortføring av barn</string>
+    <string name="enable_alert_message_title">Varselmeldingar</string>
+    <string name="enable_alert_message_summary">Varsla om akutt fare for tryggleiken</string>
+    <string name="enable_public_safety_messages_title">Meldingar om tryggleik</string>
+    <string name="enable_public_safety_messages_summary">Råd om kva du kan gjera for å berga liv eller eigedom</string>
+    <string name="enable_full_screen_public_safety_messages_title">Vis meldingar i fullskjerm</string>
+    <string name="enable_full_screen_public_safety_messages_summary">Sjølv om dette er slått av, vert meldingar om tryggleik framleis sende som varsel</string>
+    <string name="enable_state_local_test_alerts_title">Regionale og lokale testar</string>
+    <string name="enable_state_local_test_alerts_summary">Ta imot testmeldingar frå regionale og lokale styresmakter</string>
+    <string name="enable_emergency_alerts_message_title">Naudvarsel</string>
+    <string name="enable_emergency_alerts_message_summary">Varsla om livstruande hendingar</string>
+    <string name="enable_cmas_test_alerts_title">Testvarsel</string>
+    <string name="enable_cmas_test_alerts_summary">Ta imot operatørtestar og månadlege testar frå varslingssystemet</string>
+    <string name="enable_exercise_test_alerts_title">@string/cmas_exercise_alert</string>
+    <string name="enable_exercise_test_alerts_summary">Ta imot naudvarsel: øving</string>
+    <string name="enable_operator_defined_test_alerts_title">@string/cmas_operator_defined_alert</string>
+    <string name="enable_operator_defined_test_alerts_summary">Ta imot naudvarsel: operatørvalt</string>
+    <string name="enable_alert_vibrate_title">Vibrering</string>
+    <string name="override_dnd_title">Varsla alltid med fullt volum</string>
+    <string name="override_dnd_summary">Sjå bort frå «Ikkje forstyrr» og andre lydstyrkeinnstillingar</string>
+    <string name="enable_area_update_info_alerts_title">Varsel om områdeoppdatering</string>
+    <string name="enable_area_update_info_alerts_summary">Vis oppdateringsinfo i SIM-statusen</string>
+    <string name="cmas_category_heading">Varselkategori:</string>
+    <string name="cmas_category_geo">Geofysisk</string>
+    <string name="cmas_category_met">Meteorologisk</string>
+    <string name="cmas_category_safety">Tryggleik</string>
+    <string name="cmas_category_security">Vern</string>
+    <string name="cmas_category_rescue">Redning</string>
+    <string name="cmas_category_fire">Brann</string>
+    <string name="cmas_category_health">Helse</string>
+    <string name="cmas_category_env">Miljø</string>
+    <string name="cmas_category_transport">Transport</string>
+    <string name="cmas_category_infra">Infrastruktur</string>
+    <string name="cmas_category_cbrne">Kjemisk/biologisk/nukleær/eksplosiv</string>
+    <string name="cmas_category_other">Anna</string>
+    <string name="cmas_response_heading">Svartype:</string>
+    <string name="cmas_response_shelter">Søk ly</string>
+    <string name="cmas_response_evacuate">Evakuer</string>
+    <string name="cmas_response_prepare">Førebu</string>
+    <string name="cmas_response_execute">Utfør</string>
+    <string name="cmas_response_monitor">Fylg med</string>
+    <string name="cmas_response_avoid">Unngå</string>
+    <string name="cmas_response_assess">Vurder</string>
+    <string name="cmas_response_none">Ingen</string>
+    <string name="cmas_severity_heading">Alvor:</string>
+    <string name="cmas_severity_extreme">Ekstrem</string>
+    <string name="cmas_severity_severe">Alvorleg</string>
+    <string name="cmas_urgency_heading">Hastar:</string>
+    <string name="cmas_urgency_immediate">Omgåande</string>
+    <string name="cmas_urgency_expected">Venta</string>
+    <string name="cmas_certainty_heading">Visse:</string>
+    <string name="cmas_certainty_observed">Observert</string>
+    <string name="cmas_certainty_likely">Sannsynleg</string>
+    <string name="delivery_time_heading">Motteke:</string>
+    <string name="notification_multiple"><xliff:g id="count">%s</xliff:g> ulesne varsel.</string>
+    <string name="notification_multiple_title">Nye varsel</string>
+    <string name="show_cmas_opt_out_summary">Vis eit val om å melda seg av etter det fyrste varselet (gjeld ikkje høgaste naudvarsel).</string>
+    <string name="show_cmas_opt_out_title">Vis avmeldingsval</string>
+    <string name="cmas_opt_out_dialog_text">Du tek no imot trådlause naudvarsel. Vil du halda fram med dette?</string>
+    <string name="cmas_opt_out_button_yes">Ja</string>
+    <string name="cmas_opt_out_button_no">Nei</string>
+    <string name="cb_list_activity_title">"Logg for naudvarsel"</string>
+    <string name="action_delete">Slett</string>
+    <string name="action_detail_info">Vis detaljar</string>
+    <string-array name="alert_reminder_interval_entries">
+        <item>Éin gong</item>
+        <item>Annakvart minutt</item>
+        <item>Kvart 5. minutt</item>
+        <item>Kvart 15. minutt</item>
+        <item>Aldri</item>
+    </string-array>
+    <string name="emergency_alert_settings_title_watches">Trådlause naudvarsel</string>
+    <string name="enable_cmas_presidential_alerts_title">Høgaste naudvarsel</string>
+    <string name="enable_cmas_presidential_alerts_summary">Nasjonale varselmeldingar frå øvste styresmakt. Kan ikkje slåast av.</string>
+    <string name="testing_mode_enabled">Testmodus for varsel er slått på.</string>
+    <string name="testing_mode_disabled">Testmodus for varsel er slått av.</string>
+    <string name="show_all_messages">Vis alle meldingar</string>
+    <string name="show_regular_messages">Vis vanlege meldingar</string>
+    <string name="message_identifier">ID:</string>
+    <string name="message_serial_number">Serienummer:</string>
+    <string name="data_coding_scheme">Kodingsskjema for data:</string>
+    <string name="message_content">Meldingsinnhald:</string>
+    <string name="location_check_time">Tidspunkt for stadkontroll:</string>
+    <string name="message_displayed">Melding vist:</string>
+    <string name="message_coordinates">Koordinatar:</string>
+    <string name="maximum_waiting_time">Maksimal ventetid:</string>
+    <string name="seconds">sekund</string>
+    <string name="message_copied">Meldinga er kopiert</string>
+    <string name="top_intro_roaming_text">Når du gjestar eit anna nett eller ikkje har eit aktivt SIM-kort, kan du få varsel som ikkje er med i desse innstillingane</string>
+    <string name="notification_cb_settings_changed_title">Mobiloperatøren har endra innstillingane</string>
+    <string name="notification_cb_settings_changed_text">Trykk for å sjå innstillingane for trådlause naudvarsel</string>
+</resources>

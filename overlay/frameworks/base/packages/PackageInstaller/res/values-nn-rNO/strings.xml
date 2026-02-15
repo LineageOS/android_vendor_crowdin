@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Pakkeinstallasjon</string>
+    <string name="install">Installer</string>
+    <string name="update">Oppdater</string>
+    <string name="done">Ferdig</string>
+    <string name="cancel">Avbryt</string>
+    <string name="installing">Installerer \u2026</string>
+    <string name="installing_app">Installerer <xliff:g id="package_label">%1$s</xliff:g> \u2026</string>
+    <string name="install_done">Appen er installert.</string>
+    <string name="install_confirm_question">Vil du installera denne appen?</string>
+    <string name="install_confirm_question_update">Vil du oppdatera denne appen?</string>
+    <string name="install_confirm_question_update_owner_reminder" product="tablet">&lt;p&gt;Vil du oppdatera denne appen frå &lt;b&gt;<xliff:g id="new_update_owner">%1$s</xliff:g>&lt;/b&gt;?&lt;/p&gt;&lt;p&gt;Denne appen får vanlegvis oppdateringar frå &lt;b&gt;<xliff:g id="existing_update_owner">%2$s</xliff:g>&lt;/b&gt;. Om du oppdaterer frå ei anna kjelde, kan du få framtidige oppdateringar frå kva kjelde som helst på nettbrettet. Funksjonaliteten i appen kan verta endra.&lt;/p&gt;</string>
+    <string name="install_confirm_question_update_owner_reminder" product="tv">&lt;p&gt;Vil du oppdatera denne appen frå &lt;b&gt;<xliff:g id="new_update_owner">%1$s</xliff:g>&lt;/b&gt;?&lt;/p&gt;&lt;p&gt;Denne appen får vanlegvis oppdateringar frå &lt;b&gt;<xliff:g id="existing_update_owner">%2$s</xliff:g>&lt;/b&gt;. Om du oppdaterer frå ei anna kjelde, kan du få framtidige oppdateringar frå kva kjelde som helst på TV-en. Funksjonaliteten i appen kan verta endra.&lt;/p&gt;</string>
+    <string name="install_confirm_question_update_owner_reminder" product="default">&lt;p&gt;Vil du oppdatera denne appen frå &lt;b&gt;<xliff:g id="new_update_owner">%1$s</xliff:g>&lt;/b&gt;?&lt;/p&gt;&lt;p&gt;Denne appen får vanlegvis oppdateringar frå &lt;b&gt;<xliff:g id="existing_update_owner">%2$s</xliff:g>&lt;/b&gt;. Om du oppdaterer frå ei anna kjelde, kan du få framtidige oppdateringar frå kva kjelde som helst på telefonen. Funksjonaliteten i appen kan verta endra.&lt;/p&gt;</string>
+    <string name="install_failed">Appen vart ikkje installert.</string>
+    <string name="install_failed_blocked">Pakken vart ikkje installert for han er sperra.</string>
+    <string name="install_failed_conflict">Appen vart ikkje installert fordi pakken er i konflikt med ein eksisterande pakke.</string>
+    <string name="install_failed_incompatible" product="tablet">Appen vart ikkje installert fordi han ikkje passar med nettbrettet ditt.</string>
+    <string name="install_failed_incompatible" product="tv">Denne appen passar ikkje med TV-en din.</string>
+    <string name="install_failed_incompatible" product="default">Appen vart ikkje installert fordi han ikkje passar med telefonen din.</string>
+    <string name="install_failed_invalid_apk">Appen vart ikkje installert fordi pakken ser ut til å vera ugyldig.</string>
+    <string name="install_failed_msg" product="tablet">Klarte ikkje installera <xliff:g id="app_name">%1$s</xliff:g> på nettbrettet ditt.</string>
+    <string name="install_failed_msg" product="tv">Klarte ikkje installera <xliff:g id="app_name">%1$s</xliff:g> på TV-en din.</string>
+    <string name="install_failed_msg" product="default">Klarte ikkje installera <xliff:g id="app_name">%1$s</xliff:g> på telefonen din.</string>
+    <string name="launch">Opna</string>
+    <string name="unknown_apps_admin_dlg_text">Administratoren din tillèt ikkje installering av appar frå ukjende kjelder</string>
+    <string name="unknown_apps_user_restriction_dlg_text">Denne brukaren kan ikkje installera appar frå ukjende kjelder</string>
+    <string name="install_apps_user_restriction_dlg_text">Denne brukaren har ikkje løyve til å installera appar</string>
+    <string name="ok">OK</string>
+    <string name="archive">Arkiver</string>
+    <string name="update_anyway">Oppdater likevel</string>
+    <string name="manage_applications">Styr appar</string>
+    <string name="out_of_space_dlg_title">Lite lagringsplass</string>
+    <string name="out_of_space_dlg_text">Klarte ikkje installera <xliff:g id="app_name">%1$s</xliff:g>. Frigjer plass og prøv på nytt.</string>
+    <string name="app_not_found_dlg_title">Fann ikkje appen</string>
+    <string name="app_not_found_dlg_text">Fann ikkje appen i lista over installerte appar.</string>
+    <string name="user_is_not_allowed_dlg_title">Ikkje tillate</string>
+    <string name="user_is_not_allowed_dlg_text">Denne brukaren har ikkje løyve til å gjera denne avinstalleringa.</string>
+    <string name="generic_error_dlg_title">Feil</string>
+    <string name="generic_error_dlg_text">Klarte ikkje avinstallera appen.</string>
+    <string name="uninstall_application_title">Avinstaller app</string>
+    <string name="uninstall_update_title">Fjern oppdatering</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> er ein del av denne appen:</string>
+    <string name="uninstall_application_text">Vil du avinstallera denne appen?</string>
+    <string name="archive_application_text">Dei personlege dataa dine vert lagra</string>
+    <string name="archive_application_text_all_users">Vil du arkivera denne appen for alle brukarar? Dei personlege dataa dine vert lagra</string>
+    <string name="archive_application_text_current_user_work_profile">Vil du arkivera denne appen på jobbprofilen? Dei personlege dataa dine vert lagra</string>
+    <string name="archive_application_text_user">Vil du arkivera denne appen for <xliff:g id="username">%1$s</xliff:g>? Dei personlege dataa dine vert lagra</string>
+    <string name="archive_application_text_current_user_private_profile">Vil du arkivera denne appen frå det private området ditt? Dei personlege dataa dine vert lagra</string>
+    <string name="uninstall_application_text_all_users">Vil du avinstallera denne appen for <b>alle</b> brukarar? Appen og tilhøyrande data vert fjerna for <b>alle</b> brukarar på eininga.</string>
+    <string name="uninstall_application_text_user">Vil du avinstallera denne appen for brukaren <xliff:g id="username">%1$s</xliff:g>?</string>
+    <string name="uninstall_application_text_current_user_work_profile">Vil du avinstallera denne appen frå jobbprofilen?</string>
+    <string name="uninstall_update_text">Vil du bytta ut denne appen med fabrikkversjonen? Alle data vert fjerna.</string>
+    <string name="uninstall_update_text_multiuser">Vil du bytta ut denne appen med fabrikkversjonen? Alle data vert fjerna. Dette påverkar alle brukarar på denne eininga, inkludert dei med jobbprofil.</string>
+    <string name="uninstall_keep_data">Behald <xliff:g id="size" example="1.5MB">%1$s</xliff:g> med app-data.</string>
+    <string name="uninstall_application_text_current_user_clone_profile">Vil du sletta denne appen?</string>
+    <string name="uninstall_application_text_with_clone_instance">Vil du avinstallera denne appen? Klonen av <xliff:g id="package_label">%1$s</xliff:g> vert òg sletta.</string>
+    <string name="uninstall_application_text_current_user_private_profile">Vil du avinstallera denne appen frå det private området ditt?</string>
+    <string name="uninstalling_notification_channel">Avinstalleringar som køyrer</string>
+    <string name="uninstall_failure_notification_channel">Mislukka avinstalleringar</string>
+    <string name="uninstalling">Avinstallerer \u2026</string>
+    <string name="uninstalling_app">Avinstallerer <xliff:g id="package_label">%1$s</xliff:g> \u2026</string>
+    <string name="uninstall_done">Avinstalleringa er ferdig.</string>
+    <string name="uninstall_done_app">Avinstaller <xliff:g id="package_label">%1$s</xliff:g></string>
+    <string name="uninstall_done_clone_app">Sletta klonen av <xliff:g id="package_label">%1$s</xliff:g></string>
+    <string name="uninstall_failed">Avinstalleringa var mislukka.</string>
+    <string name="uninstall_failed_app">Klarte ikkje avinstallera <xliff:g id="package_label">%1$s</xliff:g>.</string>
+    <string name="uninstalling_cloned_app">Slettar klonen av <xliff:g id="package_label">%1$s</xliff:g> \u2026</string>
+    <string name="uninstall_failed_device_policy_manager">Klarar ikkje avinstallera ein aktiv administrator-app</string>
+    <string name="uninstall_failed_device_policy_manager_of_user">Klarar ikkje avinstallera aktiv administrator-app for <xliff:g id="username">%1$s</xliff:g></string>
+    <string name="uninstall_all_blocked_profile_owner">Somme brukarar eller profilar treng denne appen, så han vart berre avinstallert for dei andre</string>
+    <string name="uninstall_blocked_profile_owner">Denne appen trengst for profilen din og kan ikkje avinstallerast.</string>
+    <string name="uninstall_blocked_device_owner">Administratoren din krev at du har denne appen, så han kan ikkje avinstallerast.</string>
+    <string name="manage_device_administrators">Styr administrator-appar</string>
+    <string name="manage_users">Styr brukarar</string>
+    <string name="uninstall_failed_msg">Klarte ikkje avinstallera <xliff:g id="app_name">%1$s</xliff:g>.</string>
+    <string name="Parse_error_dlg_text">Det oppstod eit problem ved tolking av pakken.</string>
+    <string name="message_staging">Gjer klar appen …</string>
+    <string name="app_name_unknown">Ukjend</string>
+    <string name="untrusted_external_source_warning" product="tablet">Av omsyn til tryggleiken din har ikkje nettbrettet løyve til å installera ukjende appar frå denne kjelda no. Du kan endra dette i innstillingane.</string>
+    <string name="untrusted_external_source_warning" product="tv">Av omsyn til tryggleiken din har ikkje TV-en løyve til å installera ukjende appar frå denne kjelda no. Du kan endra dette i innstillingane.</string>
+    <string name="untrusted_external_source_warning" product="watch">Av omsyn til tryggleiken din har ikkje klokka løyve til å installera ukjende appar frå denne kjelda no. Du kan endra dette i innstillingane.</string>
+    <string name="untrusted_external_source_warning" product="default">Av omsyn til tryggleiken din har ikkje telefonen løyve til å installera ukjende appar frå denne kjelda no. Du kan endra dette i innstillingane.</string>
+    <string name="anonymous_source_warning" product="default">Telefonen og dei personlege dataa dine er meir utsette for åtak frå ukjende appar. Ved å installera denne appen godtek du at du sjølv har ansvaret for eventuelle skadar på telefonen eller tap av data som fylgje av bruken.</string>
+    <string name="anonymous_source_warning" product="tablet">Nettbrettet og dei personlege dataa dine er meir utsette for åtak frå ukjende appar. Ved å installera denne appen godtek du at du sjølv har ansvaret for eventuelle skadar på nettbrettet eller tap av data som fylgje av bruken.</string>
+    <string name="anonymous_source_warning" product="tv">TV-en og dei personlege dataa dine er meir utsette for åtak frå ukjende appar. Ved å installera denne appen godtek du at du sjølv har ansvaret for eventuelle skadar på TV-en eller tap av data som fylgje av bruken.</string>
+    <string name="cloned_app_label">Klon av <xliff:g id="package_label">%1$s</xliff:g></string>
+    <string name="archiving_app_label">Vil du arkivera <xliff:g id="package_label">%1$s</xliff:g>?</string>
+    <string name="anonymous_source_continue">Hald fram</string>
+    <string name="external_sources_settings">Innstillingar</string>
+    <string name="wear_app_channel">Installering og avinstallering av Wear-appar</string>
+    <string name="app_installed_notification_channel_description">Varsel om installert app</string>
+    <string name="notification_installation_success_message">Vellukka installering</string>
+    <string name="notification_installation_success_status">«<xliff:g id="appname" example="Package Installer">%1$s</xliff:g>» er no installert</string>
+    <string name="unarchive_application_title">Vil du gjenoppretta <xliff:g id="appname" example="Bird Game">%1$s</xliff:g> frå <xliff:g id="installername" example="App Store">%2$s</xliff:g>?</string>
+    <string name="unarchive_body_text">Appen vert no lasta ned i bakgrunnen</string>
+    <string name="restore">Gjenopprett</string>
+    <string name="unarchive_error_offline_title">Du er fråkopla</string>
+    <string name="unarchive_error_offline_body">For å gjenoppretta denne appen må du sjekka internett-tilkoplinga og prøva på nytt</string>
+    <string name="unarchive_error_generic_title">Noko gjekk gale</string>
+    <string name="unarchive_error_generic_body">Det skjedde ein feil ved gjenoppretting av denne appen</string>
+    <string name="unarchive_error_storage_title">Lite lagringsplass</string>
+    <string name="unarchive_error_storage_body">For å gjenoppretta denne appen kan du frigjera plass på eininga. Plass som krevst: <xliff:g id="bytes" example="100 MB">%1$s</xliff:g></string>
+    <string name="unarchive_action_required_title">Du må gjera noko</string>
+    <string name="unarchive_action_required_body">Fylg stega vidare for å gjenoppretta denne appen</string>
+    <string name="unarchive_error_installer_disabled_title"><xliff:g id="installername" example="App Store">%1$s</xliff:g> er deaktivert</string>
+    <string name="unarchive_error_installer_disabled_body">For å gjenoppretta denne appen må du aktivera <xliff:g id="installername" example="App Store">%1$s</xliff:g> i innstillingane</string>
+    <string name="unarchive_error_installer_uninstalled_title"><xliff:g id="installername" example="App Store">%1$s</xliff:g> er avinstallert</string>
+    <string name="unarchive_error_installer_uninstalled_body">For å gjenoppretta denne appen må du installera <xliff:g id="installername" example="App Store">%1$s</xliff:g></string>
+    <string name="unarchive_action_required_continue">Hald fram</string>
+    <string name="unarchive_clear_storage_button">Frigjer plass</string>
+    <string name="unarchive_settings_button">Innstillingar</string>
+    <string name="close">Lukk</string>
+</resources>

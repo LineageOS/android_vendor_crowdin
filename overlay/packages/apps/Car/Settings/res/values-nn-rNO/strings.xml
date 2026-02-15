@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2018 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_label">Innstillingar</string>
+    <string name="more_settings_label">Meir</string>
+    <string name="display_settings">Skjerm</string>
+    <string name="brightness">Lysstyrke</string>
+    <string name="auto_brightness_title">Tilpassa lysstyrke</string>
+    <string name="auto_brightness_summary">Juster skjermlyset etter lyset rundt deg</string>
+    <string name="condition_night_display_title">Nattlys er på</string>
+    <string name="network_and_internet">Nettverk og internett</string>
+    <string name="mobile_network_settings">Mobilnettverk</string>
+    <string name="mobile_network_summary_count">        {count, plural,
+            =1    {# SIM-kort}
+            other {# SIM-kort}
+        }
+    </string>
+    <string name="mobile_network_active_sim">Aktiv / SIM-kort</string>
+    <string name="mobile_network_inactive_sim">Ikkje aktiv / SIM-kort</string>
+    <string name="mobile_network_active_esim">Aktiv / eSIM</string>
+    <string name="mobile_network_inactive_esim">Ikkje aktiv / eSIM</string>
+    <string name="mobile_network_list_add_more">Legg til fleire</string>
+    <string name="mobile_network_toggle_title">Mobildata</string>
+    <string name="mobile_network_toggle_summary">Bruk data over mobilnettverket</string>
+    <string name="mobile_network_mobile_network_toggle_title">Mobilnettverk</string>
+    <string name="mobile_network_mobile_network_toggle_summary">Bruk mobildata</string>
+    <string name="mobile_network_state_off">Av</string>
+    <string name="confirm_mobile_data_disable">Vil du slå av mobildata?</string>
+    <string name="sim_selection_required_pref">Du må velja</string>
+    <string name="sim_change_data_title">        Vil du bruka <xliff:g id="carrier" example="Google Fi">%1$s</xliff:g> til mobildata?
+    </string>
+    <string name="sim_change_data_message">        Du bruker <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> til mobildata no.
+        Byter du til <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>,
+        vert ikkje <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> lenger brukt til mobildata.
+    </string>
+    <string name="sim_change_data_ok">        Bruk <xliff:g id="carrier" example="Verizon">%1$s</xliff:g>
+    </string>
+    <string name="roaming_title">Nettveksling</string>
+    <string name="roaming_summary">Kopla til datatenester ved nettveksling</string>
+    <string name="roaming_alert_title">Tillata databruk ved nettveksling?</string>
+    <string name="roaming_warning">Nettveksling kan kosta meir.</string>
+    <string name="data_usage_settings">Databruk</string>
+    <string name="data_usage_title">Primærdata</string>
+    <string name="data_used_formatted"><xliff:g name="value" example="500">^1</xliff:g> <xliff:g name="units" example="GB">^2</xliff:g> brukt</string>
+    <string name="cell_data_warning">Datavarsel ved <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
+    <string name="cell_data_limit">Datagrense på <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
+    <string name="cell_data_warning_and_limit">Datavarsel ved <xliff:g name="amount" example="1 GB">^1</xliff:g> / grense på <xliff:g name="amount" example="2 GB">^2</xliff:g></string>
+    <string name="billing_cycle_days_left">        {count, plural,
+            =1    {# dag att}
+            other {# dagar att}
+        }
+    </string>
+    <string name="billing_cycle_none_left">Inga tid att</string>
+    <string name="billing_cycle_less_than_one_day_left">Under 1 dag att</string>
+    <string name="carrier_and_update_text">Oppdatert av <xliff:g name="carrier" example="Google Fi">^1</xliff:g> for <xliff:g name="time" example="3m">^2</xliff:g> sidan</string>
+    <string name="no_carrier_update_text">Oppdatert for <xliff:g name="time" example="3m">^2</xliff:g> sidan</string>
+    <string name="carrier_and_update_now_text">Oppdatert av <xliff:g name="carrier" example="Google Fi">^1</xliff:g> nettopp</string>
+    <string name="no_carrier_update_now_text">Nettopp oppdatert</string>
+    <string name="launch_manage_plan_text">Sjå abonnement</string>
+    <string name="app_data_usage">App-databruk</string>
+    <string name="data_usage_app_restricted">avgrensa</string>
+    <string name="cycle_reset_day_of_month_picker_title">Nullstillingsdato for databruk</string>
+    <string name="cycle_reset_day_of_month_picker_subtitle">Dag i månaden:</string>
+    <string name="cycle_reset_day_of_month_picker_positive_button">Vel</string>
+    <string name="data_warning_limit_title">Datavarsel og -grense</string>
+    <string name="app_usage_cycle">Syklus for app-databruk</string>
+    <string name="mobile_data_usage">Mobildatabruk</string>
+    <string name="set_data_warning">Still inn varsel om databruk</string>
+    <string name="data_warning">Datavarsel</string>
+    <string name="set_data_limit"> Still inn datagrense</string>
+    <string name="data_limit">Datagrense</string>
+    <string name="data_usage_limit_dialog_title">Avgrensing av databruk</string>
+    <string name="data_usage_limit_dialog_mobile">Hovudeininga i bilen slår av mobildata når ho når grensa du har sett.\n\nSidan hovudeininga måler databruken, og mobiloperatøren din kan måla han annleis, bør du vurdera å setja ei noko lågare grense.</string>
+    <string name="data_usage_warning_editor_title">Still inn varsel om databruk</string>
+    <string name="data_usage_limit_editor_title">Still inn datagrense</string>
+    <string name="data_usage_settings_footer">Databruken vert målt av eininga di. Det kan vera avvik frå det mobiloperatøren din måler.</string>
+    <string name="usage_bytes_threshold_picker_positive_button">Still inn</string>
+    <string name="data_usage_warning_save_title">Lagra</string>
+    <string name="network_and_internet_oem_network_title">Produsentnettverk</string>
+    <string name="network_and_internet_vehicle_internet_title">Bil-internett</string>
+    <string name="network_and_internet_oem_network_dialog_description">Slår du av bil-internett, kan det hende at somme funksjonar eller appar ikkje fungerer.\n\nViktige data som trengst for å køyra bilen, vert framleis delte med bilprodusenten.</string>
+    <string name="network_and_internet_oem_network_dialog_confirm_label">Slå av likevel</string>
+    <string name="network_and_internet_oem_network_disabled_footer">Bil-internett er slått av. Dette kan hindra enkelte funksjonar eller appar i å fungera. Viktige data som trengst for å køyra bilen, vert framleis delte med bilprodusenten.</string>
+    <string name="network_and_internet_data_usage_time_range_summary">%1$s brukt %2$s–%3$s</string>
+    <string name="network_and_internet_join_other_network_title">Kopla til anna nettverk</string>
+    <string name="network_and_internet_network_preferences_title">Nettverksinnstillingar</string>
+    <string name="wifi_settings">Wi-Fi</string>
+    <string name="wifi_starting">Slår på Wi-Fi \u2026</string>
+    <string name="wifi_stopping">Slår av Wi-Fi \u2026</string>
+    <string name="loading_wifi_list">Lastar inn Wi-Fi-liste</string>
+    <string name="wifi_disabled">Wi-Fi er slått av</string>
+    <string name="wifi_failed_forget_message">Klarte ikkje å gløyma nettverket</string>
+    <string name="wifi_failed_connect_message">Klarte ikkje å kopla til nettverket</string>
+    <string name="wifi_setup_add_network">Legg til nettverk</string>
+    <string name="wifi_setup_connect">Kopla til</string>
+    <string name="wifi_connecting">Koplar til \u2026</string>
+    <string name="wifi_disconnected">Ikkje tilkopla</string>
+    <string name="wifi_not_in_range_message">Nettverket er ikkje innan rekkevidd</string>
+    <string name="wifi_password">Passord</string>
+    <string name="wifi_show_password">Vis passord</string>
+    <string name="wifi_no_network_name">Skriv inn eit nettverksnamn</string>
+    <string name="wifi_ssid">Nettverksnamn</string>
+    <string name="wifi_ssid_hint">Skriv inn SSID-en</string>
+    <string name="wifi_security">Tryggleik</string>
+    <string name="wifi_signal_strength">Signalstyrke</string>
+    <string name="wifi_status">Status</string>
+    <string name="wifi_speed">Nettverksfart</string>
+    <string name="wifi_frequency">Frekvens</string>
+    <string name="wifi_ip_address">IP-adresse</string>
+    <string name="show_password">Vis passord</string>
+    <string name="default_network_name_summary">Skriv inn nettverksnamn</string>
+    <string name="default_password_summary">Skriv inn passord</string>
+    <string name="access_point_tag_key">access_point_tag_key</string>
+    <string-array name="wifi_signals">
+        <item>Dårleg</item>
+        <item>Dårleg</item>
+        <item>Middels</item>
+        <item>God</item>
+        <item>Framifrå</item>
+    </string-array>
+    <string name="link_speed">%1$d Mbps</string>
+    <string name="wifi_band_24ghz">2,4 GHz</string>
+    <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="wifi_network_detail">Nettverksdetaljar</string>
+    <string name="wifi_mac_address">MAC-adresse</string>
+    <string name="wifi_ip_address_title">IP-adresse</string>
+    <string name="wifi_subnet_mask">Nettverksmaske</string>
+    <string name="wifi_dns">DNS</string>
+    <string name="wifi_details_ipv6_address_header">IPv6-adresser</string>
+    <string name="wifi_gateway">Standardport</string>
+    <string name="wifi_preferences_title">Innstillingar for Wi-Fi</string>
+    <string name="wifi_wakeup">Slå på Wi-Fi automatisk</string>
+    <string name="wifi_wakeup_summary">Wi-Fi vert slått på att i nærleiken av lagra nettverk med god kvalitet, til dømes heimenettverket ditt</string>
+    <string name="wifi_wakeup_summary_no_location">Ikkje tilgjengeleg fordi posisjon er slått av. Slå på <annotation id="link">posisjon</annotation>.</string>
+    <string name="wifi_settings_scanning_required_title">Vil du slå på Wi-Fi-skanning?</string>
+    <string name="wifi_settings_scanning_required_turn_on">Slå på</string>
+    <string name="wifi_settings_scanning_required_enabled">Wi-Fi-skanning er slått på</string>
+    <string name="wifi_cellular_fallback_title">Byt til mobildata automatisk</string>
+    <string name="wifi_cellular_fallback_summary">Bruk mobildata når Wi-Fi ikkje har internettilgang. Databruk kan kosta pengar.</string>
+    <string name="wifi_network_state_switch_subtitle">Finn og kopla til Wi-Fi-nettverk</string>
+    <string name="learn_more">Finn ut meir</string>
+    <string name="wifi_hotspot_name_title">Namn på delt internett</string>
+    <string name="wifi_hotspot_name_summary_connecting">Slår på <xliff:g id="wifi_hotspot_name">%1$s</xliff:g> …</string>
+    <string name="wifi_hotspot_name_summary_connected">Andre einingar kan kopla til <xliff:g id="wifi_hotspot_name">%1$s</xliff:g></string>
+    <string name="wifi_hotspot_password_title">Passord for delt internett</string>
+    <string name="wifi_hotspot_security_title">Tryggleik</string>
+    <string name="wifi_hotspot_wpa3_sae">WPA3-Personal</string>
+    <string name="wifi_security_psk_sae">WPA2/WPA3-Personal</string>
+    <string name="wifi_hotspot_wpa2_personal">WPA2-Personal</string>
+    <string name="wifi_hotspot_security_none">Ingen</string>
+    <string name="wifi_hotspot_ap_band_title">Frekvensband</string>
+    <string name="wifi_ap_band_config">Vel frekvensband for tilgangspunktet</string>
+    <string name="wifi_ap_choose_auto">Automatisk</string>
+    <string name="wifi_ap_choose_2G">2,4 GHz-bandet</string>
+    <string name="wifi_ap_choose_5G">5,0 GHz-bandet</string>
+    <string name="wifi_ap_prefer_5G">Føretrekkjer 5,0 GHz-bandet</string>
+    <string name="wifi_ap_2G">2,4 GHz</string>
+    <string name="wifi_ap_5G">5,0 GHz</string>
+    <string name="wifi_ap_band_select_one">Vel minst eitt frekvensband for Wi-Fi-sona:</string>
+    <string name="tether_settings_title_all">Delt internett (Wi-Fi)</string>
+    <string name="hotspot_settings_title">Delt internett</string>
+    <string name="wifi_hotspot_switch_title">Bruk Wi-Fi-sone</string>
+    <string name="wifi_hotspot_state_off">Av</string>
+    <string name="wifi_hotspot_auto_off_title">Slå av delt internett automatisk</string>
+    <string name="wifi_hotspot_auto_off_summary">Wi-Fi-sona vert slått av om ingen einingar er tilkopla</string>
+    <string name="wifi_hotspot_qr_code_text">Skann denne QR-koden for å kopla til «%s»</string>
+    <string name="wifi_hotspot_qr_code_password_text">Passord for delt internett: %s</string>
+    <string name="wifi_ask_enable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> vil slå på Wi-Fi</string>
+    <string name="wifi_ask_disable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> vil slå av Wi-Fi</string>
+    <string name="wifi_error">Feil</string>
+    <string name="network_connection_request_dialog_title">Eining som skal brukast med <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g></string>
+    <string name="network_connection_timeout_dialog_message">Fann ingen einingar. Sjekk at einingane er slått på og tilgjengelege for tilkopling.</string>
+    <string name="network_connection_timeout_dialog_ok">Prøv på nytt</string>
+    <string name="network_connection_errorstate_dialog_message">Noko gjekk gale. Programmet har avbrote førespurnaden om å velja eining.</string>
+    <string name="network_connection_connect_successful">Tilkoplinga var vellukka</string>
+    <string name="network_connection_request_dialog_showall">Vis alle</string>
+    <string name="progress_scanning">Søkjer</string>
+    <string name="connected_settings_title">Tilkopla einingar</string>
+    <string name="bluetooth_settings_title">Bluetooth</string>
+    <string name="bluetooth_toggle_title">Bruk Bluetooth</string>
+    <string name="bluetooth_device">Namnlaus eining</string>
+    <string name="bluetooth_paired_devices">Para einingar</string>
+    <string name="bluetooth_pair_new_device">Para ny eining</string>
+    <string name="bluetooth_pair_new_device_summary">Bluetooth vert slått på for paring</string>
+    <string name="bluetooth_disconnect_title">Vil du kopla frå eininga?</string>
+    <string name="bluetooth_disconnect_all_profiles">Bilen din vert kopla frå «<xliff:g example="Pixel" id="device_name">%1$s</xliff:g>».</string>
+    <string name="bluetooth_vehicle_mac_address">Bluetooth-adressa til bilen: <xliff:g example="12:34:56:AB:CD:EF" id="address">%1$s</xliff:g></string>
+    <string name="bluetooth_device_mac_address">Bluetooth-adressa til eininga: <xliff:g example="12:34:56:AB:CD:EF" id="address">%1$s</xliff:g></string>
+    <string name="bluetooth_name">Bilnamn</string>
+    <string name="bluetooth_rename_vehicle">Gje bilen nytt namn</string>
+    <string name="bluetooth_rename_device">Gje eininga nytt namn</string>
+    <string name="bluetooth_rename_button">Gje nytt namn</string>
+    <string name="bluetooth_available_devices">Tilgjengelege einingar</string>
+    <string name="bluetooth_profiles">Profilar</string>
+    <string name="bluetooth_turning_on">"Slår på Bluetooth \u2026"</string>
+    <string name="bluetooth_turning_off">"Slår av Bluetooth \u2026"</string>
+    <string name="bluetooth_ask_enablement"><xliff:g id="app_name" example="FancyApp">%1$s</xliff:g> vil slå på Bluetooth</string>
+    <string name="bluetooth_ask_disablement"><xliff:g id="app_name" example="FancyApp">%1$s</xliff:g> vil slå av Bluetooth</string>
+    <string name="bluetooth_ask_enablement_no_name">Ein app vil slå på Bluetooth</string>
+    <string name="bluetooth_ask_disablement_no_name">Ein app vil slå av Bluetooth</string>
+    <string name="bluetooth_ask_discovery"><xliff:g id="app_name">%1$s</xliff:g> vil gjera hovudeininga di synleg for andre Bluetooth-einingar i <xliff:g id="timeout">%2$d</xliff:g> sekund.</string>
+    <string name="bluetooth_ask_discovery_no_name">Ein app vil gjera hovudeininga di synleg for andre Bluetooth-einingar i <xliff:g id="timeout">%1$d</xliff:g> sekund.</string>
+    <string name="bluetooth_ask_enablement_and_discovery"><xliff:g id="app_name">%1$s</xliff:g> vil slå på Bluetooth og gjera hovudeininga di synleg for andre einingar i <xliff:g id="timeout">%2$d</xliff:g> sekund.</string>
+    <string name="bluetooth_ask_enablement_and_discovery_no_name">Ein app vil slå på Bluetooth og gjera hovudeininga di synleg for andre einingar i <xliff:g id="timeout">%1$d</xliff:g> sekund.</string>
+    <string name="bluetooth_state_switch_summary">Synleg som %1$s for andre einingar</string>
+    <string name="bluetooth_my_devices">Mine einingar</string>
+    <string name="bluetooth_previously_connected">Tidlegare tilkopla</string>
+    <string name="bluetooth_device_connected_toast">%1$s er tilkopla</string>
+    <string name="bluetooth_device_disconnected_toast">%1$s er fråkopla</string>
+    <string name="bluetooth_notif_ticker">Førespurnad om Bluetooth-paring</string>
+    <string name="bluetooth_device_context_pair_connect">Par og kopla til</string>
+    <string name="bluetooth_pairing_key_msg">Bluetooth-paringskode</string>
+    <string name="bluetooth_enable_alphanumeric_pin">PIN-koden inneheld bokstavar eller symbol</string>
+    <string name="bluetooth_enter_passkey_msg">Skriv inn paringskoden og trykk på linjeskift eller Enter</string>
+    <string name="bluetooth_pairing_request">Vil du para med <xliff:g example="Pixel" id="device_name">%1$s</xliff:g>?</string>
+    <string name="bluetooth_pairing_shares_phonebook">Gje <xliff:g example="Pixel" id="device_name">%1$s</xliff:g> tilgang til kontaktar og samtaleloggar</string>
+    <string name="bluetooth_enter_pin_other_device">Du må kanskje skriva inn denne PIN-koden på den andre eininga òg.</string>
+    <string name="bluetooth_enter_passkey_other_device">Du må kanskje skriva inn denne koden på den andre eininga òg.</string>
+    <string name="bluetooth_pin_values_hint_16_digits">Må ha 16 siffer</string>
+    <string name="bluetooth_pin_values_hint">Vanlegvis 0000 eller 1234</string>
+    <string name="bluetooth_notif_title">Paringsførespurnad</string>
+    <string name="bluetooth_notif_message">Trykk for å para med <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_device_picker">Vel Bluetooth-eining</string>
+    <string name="bluetooth_bonded_bluetooth_toggle_content_description">Bluetooth</string>
+    <string name="bluetooth_bonded_phone_toggle_content_description">Telefon</string>
+    <string name="bluetooth_bonded_media_toggle_content_description">Media</string>
+    <string name="language_settings">Språk</string>
+    <string name="languages_and_input_settings">Språk og inndata</string>
+    <string name="language_picker_list_suggested_header">Føreslått</string>
+    <string name="language_picker_list_all_header">Alle språk</string>
+    <string name="keyboard_settings">Tastatur</string>
+    <string name="manage_keyboard">Administrer tastatur</string>
+    <string name="text_to_speech_settings">Tekst-til-tale-utdata</string>
+    <string name="text_to_speech_preferred_engine_settings">Føretrekt motor</string>
+    <string name="text_to_speech_current_engine">Gjeldande motor</string>
+    <string name="tts_speech_rate">Talehastigheit</string>
+    <string name="tts_pitch">Tonehøgd</string>
+    <string name="tts_reset">Nullstill</string>
+    <string name="sound_settings">Lyd</string>
+    <string name="ring_volume_title">Ringestyrke</string>
+    <string name="navi_volume_title">Navigasjonslydstyrke</string>
+    <string name="incoming_call_volume_title">Ringetone</string>
+    <string name="notification_volume_title">Varsel</string>
+    <string name="media_volume_title">Media</string>
+    <string name="media_volume_summary">Vel lydstyrke for musikk og videoar</string>
+    <string name="alarm_volume_title">Alarm</string>
+    <string name="ringtone_title">Ringetone for telefon</string>
+    <string name="notification_ringtone_title">Standard varsellyd</string>
+    <string name="alarm_ringtone_title">Standard alarmlyd</string>
+    <string name="ringtone_picker_save_title">Lagra</string>
+    <string name="sound_alert_sounds">Varsellydar</string>
+    <string name="sound_alert_sounds_summary">Ringetone, varsel, alarm</string>
+    <string name="audio_route_selector_title">Spel av media på</string>
+    <string name="display_brightness">Lysstyrke</string>
+    <string name="display_night_mode_summary">Tilpass skjermen for dårleg lys</string>
+    <string name="units_settings">Einingar</string>
+    <string name="units_speed_title">Fart</string>
+    <string name="units_distance_title">Avstand</string>
+    <string name="units_fuel_consumption_title">Drivstofforbruk</string>
+    <string name="units_energy_consumption_title">Energiforbruk</string>
+    <string name="units_temperature_title">Temperatur</string>
+    <string name="units_volume_title">Volum</string>
+    <string name="units_pressure_title">Trykk</string>
+    <string name="units_list_entry"><xliff:g example="mph" id="unit_abbreviation">%1$s</xliff:g> – <xliff:g example="Miles per hour" id="unit_pronunciation">%2$s</xliff:g></string>
+    <string name="units_ratio"><xliff:g example="km" id="unit_numerator">%1$s</xliff:g>/<xliff:g example="h" id="unit_denominator">%2$s</xliff:g></string>
+    <string name="units_ratio_numerator"><xliff:g example="10" id="unit_numerator_quantity">%1$d</xliff:g><xliff:g example="kWh" id="unit_numerator_unit">%2$s</xliff:g></string>
+    <string name="units_ratio_denominator"><xliff:g example="100" id="unit_denominator_quantity">%1$d</xliff:g><xliff:g example="mi" id="unit_denominator_unit">%2$s</xliff:g></string>
+    <string name="units_unit_name_meter_per_sec">Meter per sekund</string>
+    <string name="units_unit_name_rpm">Omdreiingar per minutt</string>
+    <string name="units_unit_name_hertz">Hertz</string>
+    <string name="units_unit_name_percentile">Persentil</string>
+    <string name="units_unit_name_millimeter">Millimeter</string>
+    <string name="units_unit_name_meter">Meter</string>
+    <string name="units_unit_name_kilometer">Kilometer</string>
+    <string name="units_unit_name_mile">Mile</string>
+    <string name="units_unit_name_celsius">Celsius</string>
+    <string name="units_unit_name_fahrenheit">Fahrenheit</string>
+    <string name="units_unit_name_kelvin">Kelvin</string>
+    <string name="units_unit_name_milliliter">Milliliter</string>
+    <string name="units_unit_name_liter">Liter</string>
+    <string name="units_unit_name_us_gallon">Gallon</string>
+    <string name="units_unit_name_imperial_gallon">Imperial gallon</string>
+    <string name="units_unit_name_nano_secs">Nanosekund</string>
+    <string name="units_unit_name_secs">Sekund</string>
+    <string name="units_unit_name_year">År</string>
+    <string name="units_unit_name_kilopascal">Kilopascal</string>
+    <string name="units_unit_name_watt_hour">Vattime</string>
+    <string name="units_unit_name_milliampere">Milliampere</string>
+    <string name="units_unit_name_millivolt">Millivolt</string>
+    <string name="units_unit_name_milliwatts">Milliwatt</string>
+    <string name="units_unit_name_ampere_hour">Amperetime</string>
+    <string name="units_unit_name_kilowatt_hour">Kilovattime</string>
+    <string name="units_unit_name_psi">Pund per kvadrattomme</string>
+    <string name="units_unit_name_miles_per_hour">Miler per time</string>
+    <string name="units_unit_name_kilometers_per_hour">Kilometer per time</string>
+    <string name="units_unit_name_bar">Bar</string>
+    <string name="units_unit_name_degrees">Gradar</string>
+    <string name="units_unit_name_kilowatt_per_hundred_miles">Kilovatt per hundre miler</string>
+    <string name="units_unit_name_kilowatt_per_hundred_kilometers">Kilovatt per hundre kilometer</string>
+    <string name="units_unit_name_miles_per_gallon_us">Miler per gallon (USA)</string>
+    <string name="units_unit_name_miles_per_gallon_uk">Miler per gallon (Storbritannia)</string>
+    <string name="units_unit_name_kilometers_per_liter">Kilometer per liter</string>
+    <string name="units_unit_name_liter_per_hundred_kilometers">Liter per hundre kilometer</string>
+    <string name="apps_and_notifications_settings">Appar og varslingar</string>
+    <string name="all_applications">Vis alle appar</string>
+    <string name="default_applications">Standardappar</string>
+    <string name="performance_impacting_apps">Appar som påverkar ytinga</string>
+    <string name="app_permissions">App-løyve</string>
+    <string name="app_permissions_summary">Styr kva appar som har tilgang til dataa dine</string>
+    <string name="applications_settings">App-informasjon</string>
+    <string name="force_stop">Stopp appen</string>
+    <string name="force_stop_dialog_title">Vil du stoppa appen?</string>
+    <string name="force_stop_dialog_text">Tvingar du ein app til å stoppa, kan det henda han ikkje fungerer som han skal.</string>
+    <string name="force_stop_success_toast_text">        <xliff:g id="app_name" example="Radio">%1$s</xliff:g> er stoppa.
+    </string>
+    <string name="prioritize_app_performance_dialog_title">Vil du prioritera app-yting?</string>
+    <string name="prioritize_app_performance_dialog_text">Dette kan gjera systemet ustabilt eller påverka maskinvaren over tid. Vil du halda fram?</string>
+    <string name="prioritize_app_performance_dialog_action_on">Ja</string>
+    <string name="prioritize_app_performance_dialog_action_off">Nei takk</string>
+    <string name="disable_text">Slå av</string>
+    <string name="enable_text">Slå på</string>
+    <string name="uninstall_text">Avinstaller</string>
+    <string name="app_disable_dialog_text">Slår du av denne appen, kan det henda at Android og andre appar ikkje fungerer som dei skal.</string>
+    <string name="app_disable_dialog_positive">Slå av appen</string>
+    <string name="not_installed">Ikkje installert for denne profilen</string>
+    <string name="permissions_label">Løyve</string>
+    <string name="app_info_all_services_label">Alle tenester</string>
+    <string name="notifications_label">Varsel</string>
+    <string name="storage_application_label">Lagring og snøgglager</string>
+    <string name="prioritize_app_performance_label">Prioriter app-yting</string>
+    <string name="application_version_label">Versjon: %1$s</string>
+    <string name="runtime_permissions_summary_no_permissions_granted">Ingen løyve er gjevne</string>
+    <string name="runtime_permissions_summary_no_permissions_requested">Treng ingen løyve</string>
+    <string name="unused_apps">Ubrukte appar</string>
+    <string name="unused_apps_summary">        {count, plural,
+            =1    {# ubrukt app}
+            other {# ubrukte appar}
+        }
+    </string>
+    <string name="unused_apps_switch">Fjern løyve og frigjer plass</string>
+    <string name="storage_type_internal">%s på internlagring</string>
+    <string name="prioritize_app_performance_summary">Bruker systemressursar på å prioritera app-yting</string>
+    <string name="data_usage_summary_title">Databruk</string>
+    <string name="data_usage_app_summary_title">App-databruk</string>
+    <string name="data_usage_usage_history_title">Logg for databruk</string>
+    <string name="data_usage_all_apps_title">Alle appar</string>
+    <string name="app_data_usage_title">Data- og Wi-Fi-bruk</string>
+    <string name="app_data_usage_usage_history_title">Logg for databruk</string>
+    <string name="app_data_usage_total_usage">Samla bruk</string>
+    <string name="app_data_usage_foreground">I framgrunnen</string>
+    <string name="app_data_usage_background">I bakgrunnen</string>
+    <string name="app_data_usage_allow_data_title">Tillat data</string>
+    <string name="app_data_usage_allow_data_summary">Lat denne appen bruka mobildata</string>
+    <string name="app_data_usage_restrict_data_title">Avgrens databruk</string>
+    <string name="app_data_usage_background_data_summary">Bruk mobildata berre når appen er i framgrunnen</string>
+    <string name="computing_size">Reknar ut \u2026</string>
+    <string name="runtime_permissions_additional_count">        {count, plural,
+            =1    {# ekstra løyve}
+            other {# ekstra løyve}
+        }
+    </string>
+    <string name="direct_boot_unaware_dialog_message_car">Merk: Etter ein omstart kan ikkje denne appen starta før du har låst opp bilen.</string>
+    <string name="assist_and_voice_input_settings">Assistent og taleinndata</string>
+    <string name="assist_app_settings">Assistent-app</string>
+    <string name="assist_access_context_title">Bruk tekst frå skjermen</string>
+    <string name="assist_access_context_summary">Lat assistent-appen få tilgang til innhaldet på skjermen som tekst</string>
+    <string name="assist_access_screenshot_title">Bruk skjermbilete</string>
+    <string name="assist_access_screenshot_summary">Lat assistent-appen få tilgang til eit bilete av skjermen</string>
+    <string name="voice_input_settings_title">Taleinndata</string>
+    <string name="autofill_settings_title">Teneste for autofyll</string>
+    <string name="app_list_preference_none">Ingen</string>
+    <string name="default_app_selected_app">Valt</string>
+    <string name="assistant_security_warning">Assistenten kan lesa informasjon om appar som er i bruk på systemet, inkludert informasjon på skjermen eller i appane.</string>
+    <string name="autofill_confirmation_message"><![CDATA[        <b>Ver viss på at du stoler på denne appen</b>
+        <br/>
+        <br/>
+        <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> brukar det som er på skjermen for å finna ut kva som kan fyllast ut automatisk.
+        ]]></string>
+    <string name="autofill_add_service">Legg til teneste</string>
+    <string name="app_launch_domain_links_title">Opning av lenker</string>
+    <string name="domain_url_section_title">Installerete appar</string>
+    <string name="domain_urls_summary_none">Ikkje opna støtta lenker</string>
+    <string name="domain_urls_summary_one">Opna <xliff:g id="domain" example="mail.google.com">%s</xliff:g></string>
+    <string name="domain_urls_summary_some">Opna <xliff:g id="domain" example="mail.google.com">%s</xliff:g> og andre adresser</string>
+    <string name="app_launch_title">Opna som standard</string>
+    <string name="app_launch_other_defaults_title">Andre standardval</string>
+    <string name="auto_launch_disable_text">Ingen standardval er gjort</string>
+    <string name="auto_launch_enable_text">Du har valt å bruka denne appen som standard for nokre gjeremål.</string>
+    <string name="auto_launch_reset_text">Tøm standardval</string>
+    <string name="app_launch_open_domain_urls_title">Opna støtta lenker</string>
+    <string name="app_link_open_always">Opna i denne appen</string>
+    <string name="app_link_open_ask">Spør kvar gong</string>
+    <string name="app_link_open_never">Ikkje opna i denne appen</string>
+    <string name="app_launch_supported_domain_urls_title">Støtta lenker</string>
+    <string name="apps_settings_title">Appar</string>
+    <string name="apps_recently_opened">Nyleg opna</string>
+    <string name="apps_view_all_apps_title">Vis alle %1$d appar</string>
+    <string name="apps_permission_manager_title">Løyvestyrar</string>
+    <string name="apps_permission_manager_summary">Styr kva appar som har tilgang til dataa dine</string>
+    <string name="apps_default_apps_summary">For assistenten med meir</string>
+    <string name="performance_impacting_apps_summary">        {count, plural,
+            =1    {# app påverkar ytinga}
+            other {# appar påverkar ytinga}
+        }
+    </string>
+    <string name="apps_special_app_access_summary">Til system- og andre innstillingar</string>
+    <string name="special_access">Spesialtilgang for appar</string>
+    <string name="show_system">Vis systemprosessar</string>
+    <string name="hide_system">Gøym systemprosessar</string>
+    <string name="hide_system_apps">Gøym systemappar</string>
+    <string name="modify_system_settings_title">Endra systeminnstillingar</string>
+    <string name="modify_system_settings_description">Dette løyvet lèt ein app endra systeminnstillingar.</string>
+    <string name="notification_access_title">Tilgang til varsel</string>
+    <string name="notification_listener_security_warning_title">Vil du gje <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> tilgang til varsel?</string>
+    <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> kan lesa alle varsel, inkludert personlege opplysningar som kontaktnamn og teksten i meldingar du får. Appen kan òg fjerna varsel eller trykkja på knappar i dei.\n\nDette gjev òg appen høve til å slå på eller av «Ikkje forstyrr» og endra tilhøyrande innstillingar.</string>
+    <string name="notification_listener_revoke_warning_summary">Fjernar du tilgangen til varsel for <xliff:g id="notification_listener_name">%1$s</xliff:g>, kan tilgangen til «Ikkje forstyrr» òg verta fjerna.</string>
+    <string name="notification_listener_revoke_warning_confirm">Slå av</string>
+    <string name="notification_listener_revoke_warning_cancel">Avbryt</string>
+    <string name="performance_impacting_apps_description">Desse appane påverkar systemytinga negativt og har vorte hindra i å køyra i bakgrunnen.\nPrioriter appen om du vil tillata bakgrunnsbruk og fjerna han frå denne lista.</string>
+    <string name="performance_impacting_apps_button_label">Prioriter appen</string>
+    <string name="premium_sms_access_title">Tilgang til Premium-SMS</string>
+    <string name="premium_sms_access_description">Premium-SMS kan kosta pengar og vert lagt til på telefonrekninga. Gjev du ein app dette løyvet, kan du senda Premium-SMS med den appen.</string>
+    <string name="usage_access_title">Brukstilgang</string>
+    <string name="usage_access_description">Brukstilgang lèt ein app følgja med på kva andre appar du bruker og kor ofte, i tillegg til mobiloperatør, språkinnstillingar og andre detaljar.</string>
+    <string name="wifi_control_title">Wi-Fi-kontroll</string>
+    <string name="wifi_control_description">Wi-Fi-kontroll lèt ein app slå Wi-Fi på eller av, skanna etter og kopla til Wi-Fi-nettverk, leggja til eller fjerna nettverk, eller starta ei lokal Wi-Fi-sone.</string>
+    <string name="more_special_access_title">Meir</string>
+    <string name="location_settings_title">Posisjon</string>
+    <string name="location_toggle_title">Bruk posisjon</string>
+    <string name="location_toggle_summary">        Bruk posisjonen til bilen i appane du har valt.
+    </string>
+    <string name="location_toggle_off_warning">        Slår du av dette, vert tilgangen til posisjon fjerna for alle appar, unnateke dei som trengst for førarstøtte.
+    </string>
+    <string name="adas_location_toggle_off_warning">        Slår du av dette, vert appar for førarstøtte som treng posisjonsinformasjon, deaktiverte.
+    </string>
+    <string name="adas_location_toggle_confirm_label">        Slå av likevel
+    </string>
+    <string name="adas_location_toggle_popup_summary">        Denne innstillinga kan ikkje endrast og har vorte deaktivert av bilprodusenten.
+    </string>
+    <string name="adas_location_toggle_title">        Funksjonar for førarstøtte
+    </string>
+    <string name="adas_location_toggle_summary">        Lat innebygde funksjonar, godkjende av bilprodusenten, få tilgang til posisjonen til bilen.
+    </string>
+    <string name="location_recently_accessed">Nyleg brukt</string>
+    <string name="location_settings_recently_accessed_title">Nyleg brukt</string>
+    <string name="location_settings_recently_accessed_view_all_title">Vis alle</string>
+    <string name="location_no_recent_access">Ingen nylege appar</string>
+    <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Førarstøtte \u2022 Treng tilgang
+    </string>
+    <string name="location_adas_apps_list_title">        Funksjonar for førarstøtte
+    </string>
+    <string name="location_driver_assistance_privacy_policy_button_text">Retningslinjer</string>
+    <string name="location_settings_app_permissions_title">App-løyve</string>
+    <string name="location_settings_app_permissions_summary">        Styr løyve for kvar enkelt app
+    </string>
+    <string name="location_settings_services_title">Posisjonstenester</string>
+    <string name="location_use_location_title">Bruk posisjon</string>
+    <string name="location_access_settings_title">Posisjonstilgang</string>
+    <string name="location_access_settings_summary">        Vel om appar skal ha tilgang til posisjonen til bilen
+    </string>
+    <string name="location_access_disclaimer_summary">        Bilprodusenten kan framleis ha tilgang til posisjonen til bilen. Du kan lesa meir i retningslinjene deira.
+    </string>
+    <string name="location_adas_app_info_summary">        Desse innebygde funksjonane treng tilgang til posisjonen til bilen for å hjelpa til med køyringa.\n\nFinn ut meir om korleis kvar app bruker posisjonsdataa dine i retningslinjene for personvern.
+    </string>
+    <string name="microphone_settings_title">Mikrofon</string>
+    <string name="microphone_toggle_title">Bruk mikrofon</string>
+    <string name="microphone_toggle_summary">Gje alle appar tilgang til mikrofonen</string>
+    <string name="microphone_manage_permissions">Styr mikrofonløyve</string>
+    <string name="microphone_recently_accessed">Nyleg brukt</string>
+    <string name="microphone_no_recent_access">Ingen nylege appar</string>
+    <string name="microphone_app_permission_summary_microphone_off">0 appar har tilgang</string>
+    <string name="microphone_app_permission_summary_microphone_on">        {count, plural,
+            =1    {# av {total_count} appar har tilgang}
+            other {# av {total_count} appar har tilgang}
+        }
+    </string>
+    <string name="microphone_settings_recent_requests_title">Nyleg brukt</string>
+    <string name="microphone_settings_recent_requests_view_all_title">Vis alle</string>
+    <string name="microphone_settings_loading_app_permission_stats">Lastar inn \u2026</string>
+    <string name="system_setting_title">System</string>
+    <string name="system_update_settings_title">Systemoppdateringar</string>
+    <string name="system_advanced_title">Avansert</string>
+    <string name="system_advanced_summary">Om bilen, juridisk informasjon, nullstilling med meir</string>
+    <string name="restart_infotainment_system_title">Start infotainment-systemet på nytt</string>
+    <string name="restart_infotainment_system_dialog_text">Det kan ta nokre minutt å starta infotainment-systemet på nytt. Vil du halda fram?</string>
+    <string name="continue_confirmation">Hald fram</string>
+    <string name="firmware_version">Android-versjon</string>
+    <string name="security_patch">Dato for siste tryggleiksoppdatering</string>
+    <string name="hardware_info">Modell og maskinvare</string>
+    <string name="hardware_info_summary">Modell: <xliff:g example="Hawk" id="model">%1$s</xliff:g></string>
+    <string name="baseband_version">Baseband-versjon</string>
+    <string name="kernel_version">Kjerneversjon</string>
+    <string name="build_number">Byggnummer</string>
+    <string name="bluetooth_mac_address">Bluetooth-adresse</string>
+    <string name="device_info_not_available">Ikkje tilgjengeleg</string>
+    <string name="device_status_activity_title">Status</string>
+    <string name="device_status">Status</string>
+    <string name="device_status_summary" product="tablet">Batteristatus, nettverk og annan informasjon</string>
+    <string name="device_status_summary" product="default">Telefonnummer, signal med meir</string>
+    <string name="about_settings">Om bilen</string>
+    <string name="about_summary">Android <xliff:g example="6.0" id="version">%1$s</xliff:g></string>
+    <string name="about_settings_summary">Sjå juridisk informasjon, status og programvareversjon</string>
+    <string name="legal_information">Juridisk informasjon</string>
+    <string name="contributors_title">Bidragsytarar</string>
+    <string name="manual">Brukarhandbok</string>
+    <string name="regulatory_labels">Lovpålagde etikettar</string>
+    <string name="safety_and_regulatory_info">Handbok for tryggleik og regelverk</string>
+    <string name="copyright_title">Opphavsrett</string>
+    <string name="license_title">Lisens</string>
+    <string name="terms_title">Vilkår</string>
+    <string name="webview_license_title">Lisensar for system-WebView</string>
+    <string name="wallpaper_attributions">Bakgrunnsbilete</string>
+    <string name="wallpaper_attributions_values">Leverandørar av satellittbilete:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
+    <string name="model_info">Modell</string>
+    <string name="status_serial_number">Serienummer</string>
+    <string name="hardware_revision">Maskinvareversjon</string>
+    <string name="settings_license_activity_title">Tredjepartslisensar</string>
+    <string name="settings_license_activity_unavailable">Det oppstod eit problem under lasting av lisensane.</string>
+    <string name="settings_license_activity_loading">Lastar inn \u2026</string>
+    <string name="show_dev_countdown">        {count, plural,
+            =1    {Du er no # steg frå å verta utviklar.}
+            other {Du er no # steg frå å verta utviklar.}
+        }
+    </string>
+    <string name="show_dev_on">No er du utviklar!</string>
+    <string name="show_dev_already">Ikkje naudsynt, du er utviklar alt.</string>
+    <string name="developer_options_settings">Utviklarval</string>
+    <string name="reset_options_title">Nullstillingsval</string>
+    <string name="reset_options_summary">Nullstilling av nettverk, appar eller eining</string>
+    <string name="reset_network_title">Nullstill Wi‑Fi og Bluetooth</string>
+    <string name="reset_network_desc">Dette nullstiller innstillingane for Wi‑Fi og Bluetooth og fjernar minnet om tidlegare tilkopla:</string>
+    <string name="reset_network_item_wifi"><li>Wi‑Fi-nettverk og passord</li></string>
+    <string name="reset_network_item_mobile"><li>Mobildata</li></string>
+    <string name="reset_network_item_bluetooth"><li>Telefonar og andre Bluetooth-einingar</li></string>
+    <string name="reset_esim_title">Slett alle eSIM-kort i bilen</string>
+    <string name="reset_esim_desc">Dette seier ikkje opp mobilabonnementet ditt.</string>
+    <string name="reset_esim_error_title">Klarte ikkje å nullstilla eSIM-korta</string>
+    <string name="reset_network_select">Vel nettverk</string>
+    <string name="reset_network_button_text">Nullstill innstillingar</string>
+    <string name="reset_network_confirm_title">Vil du nullstilla?</string>
+    <string name="reset_network_confirm_desc">Vil du nullstilla alle nettverksinnstillingar? Du kan ikkje angra på dette!</string>
+    <string name="reset_network_confirm_button_text">Nullstill innstillingar</string>
+    <string name="reset_network_complete_toast">Nettverksinnstillingane er nullstilte</string>
+    <string name="reset_app_pref_title">Nullstill app-innstillingar</string>
+    <string name="reset_app_pref_desc">Dette nullstiller alle innstillingar for:\n\n<li>Deaktiverte appar</li>\n<li>Deaktiverte app-varsel</li>\n<li>Standardappar for gjeremål</li>\n<li>Avgrensingar for bakgrunnsdata for appar</li>\n<li>Alle løyveavgrensingar</li>\n\nDu mistar ingen app-data.</string>
+    <string name="reset_app_pref_button_text">Nullstill appar</string>
+    <string name="reset_app_pref_complete_toast">App-innstillingane er nullstilte</string>
+    <string name="factory_reset_title">Slett alle data (fabrikknullstilling)</string>
+    <string name="factory_reset_summary">Slett alle data og profilar frå infotainment-systemet</string>
+    <string name="factory_reset_desc">Dette slettar alle data frå infotainment-systemet i bilen, inkludert:\n\n<li>Kontoane og profilane dine</li>\n<li>System- og app-data og innstillingar</li>\n<li>Nedlasta appar</li></string>
+    <string name="factory_reset_accounts">Du er no logga på desse kontoane:</string>
+    <string name="factory_reset_other_users_present">Det er sett opp andre profilar for denne bilen.</string>
+    <string name="factory_reset_button_text">Slett alle data</string>
+    <string name="factory_reset_confirm_title">Vil du sletta alle data?</string>
+    <string name="factory_reset_confirm_desc">Dette slettar alle personlege profildata, kontoar og nedlasta appar på dette infotainment-systemet.\n\nDu kan ikkje angra på dette.</string>
+    <string name="factory_reset_confirm_button_text">Slett alt</string>
+    <string name="factory_reset_progress_title">Slettar</string>
+    <string name="factory_reset_progress_text">Vent litt …</string>
+    <string name="date_and_time_settings_title">Dato og tid</string>
+    <string name="date_and_time_settings_summary">Still inn dato, tid, tidssone og format</string>
+    <string name="date_time_auto">Still klokka automatisk</string>
+    <string name="zone_auto">Vel tidssone automatisk</string>
+    <string name="date_time_24hour_title">24-timarsformat</string>
+    <string name="date_time_24hour">Bruk 24-timarsformat</string>
+    <string name="date_time_set_time_title">Tid</string>
+    <string name="date_time_set_time">Still klokka</string>
+    <string name="date_time_set_timezone_title">Tidssone</string>
+    <string name="date_time_set_timezone">Vel tidssone</string>
+    <string name="date_time_set_date_title">Dato</string>
+    <string name="date_time_set_date">Still inn dato</string>
+    <string name="zone_list_menu_sort_alphabetically">Sorter alfabetisk</string>
+    <string name="zone_list_menu_sort_by_timezone">Sorter etter tidssone</string>
+    <string name="date_picker_title">Dato</string>
+    <string name="time_picker_title">Tid</string>
+    <string name="user_admin">Administrator</string>
+    <string name="signed_in_admin_user">Logga på som administrator</string>
+    <string name="grant_admin_permissions_title">Vil du gje administratorløyve?</string>
+    <string name="grant_admin_permissions_button_text">Gjer til administrator</string>
+    <string name="grant_admin_permissions_message">Administratoren kan sletta andre profilar, inkludert andre administratorar, og fabrikknullstilla infotainment-systemet.</string>
+    <string name="action_not_reversible_message">Du kan ikkje omgjera denne handlinga.</string>
+    <string name="confirm_grant_admin">Ja, gjer til administrator</string>
+    <string name="create_user_permission_title">Lag nye profilar</string>
+    <string name="outgoing_calls_permission_title">Ring ut</string>
+    <string name="sms_messaging_permission_title">Meldingar via mobildata i bilen</string>
+    <string name="install_apps_permission_title">Installer nye appar</string>
+    <string name="uninstall_apps_permission_title">Avinstaller appar</string>
+    <string name="user_add_user_menu">Legg til profil</string>
+    <string name="user_new_user_name">Ny profil</string>
+    <string name="user_add_user_title">"Vil du leggja til ein ny profil?"</string>
+    <string name="user_add_user_message_setup">Etter at du har laga ein ny profil, bør vedkomande tilpassa han sjølv.</string>
+    <string name="user_add_user_message_update">Appar kan oppdaterast frå kva som helst profil og vert då oppdaterte for alle andre profilar òg.</string>
+    <string name="user_limit_reached_title">Profilgrensa er nådd</string>
+    <string name="user_limit_reached_message">        {count, plural,
+            =1    {Kan berre laga éin profil.}
+            other {Du kan laga opptil # profilar.}
+        }
+    </string>
+    <string name="add_user_error_title">Klarte ikkje å laga ein ny profil</string>
+    <string name="delete_user_dialog_title">Vil du sletta denne profilen?</string>
+    <string name="delete_user_dialog_message">"Alle appar og data for denne profilen vert sletta"</string>
+    <string name="delete_user_error_title">Profilen vart ikkje sletta. Du kan prøva på nytt etter ein omstart.</string>
+    <string name="delete_user_error_set_ephemeral_title">Denne profilen vert sletta når du byter profil eller startar bilen på nytt.</string>
+    <string name="delete_user_error_dismiss">Lukk</string>
+    <string name="delete_user_error_retry">Prøv på nytt</string>
+    <string name="delete_last_user_dialog_title">Vil du sletta den siste profilen?</string>
+    <string name="delete_last_user_delete_warning">"Slettar du den einaste profilen for denne bilen, vert alle data, innstillingar og appar knytte til denne profilen sletta."</string>
+    <string name="delete_last_user_system_setup_required_message">"Du kan setja opp ein ny profil etter nullstillinga."</string>
+    <string name="choose_new_admin_title">Vel ein ny administrator</string>
+    <string name="choose_new_admin_message">Du må ha minst éin administrator. For å sletta denne må du fyrst velja ein annan.</string>
+    <string name="choose_new_admin_label">Vel administrator</string>
+    <string name="user_switch">Byt</string>
+    <string name="current_user_name">Deg (%1$s)</string>
+    <string name="user_name_label">Namn</string>
+    <string name="user_summary_not_set_up">Ikkje sett opp</string>
+    <string name="edit_user_name_title">Endra profilnamn</string>
+    <string name="name_input_blank_error">Feltet kan ikkje vera tomt.</string>
+    <string name="name_input_invalid_error">Profilnamnet er ikkje gyldig.</string>
+    <string name="users_list_title">Brukarar</string>
+    <string name="profiles_list_title">Profilar</string>
+    <string name="user_details_admin_title">Løyve gjevne til %1$s</string>
+    <string name="storage_settings_title">Lagring</string>
+    <string name="storage_music_audio">Musikk og lyd</string>
+    <string name="storage_other_apps">Andre appar</string>
+    <string name="storage_files">Filer</string>
+    <string name="storage_system">System</string>
+    <string name="storage_detail_dialog_system">Systemet inkluderer filer som trengst for å køyra Android versjon <xliff:g id="version" example="8.0">%s</xliff:g></string>
+    <string name="storage_audio_files_title">Lydfiler</string>
+    <string name="memory_calculating_size">Reknar ut \u2026</string>
+    <string name="storage_application_size_label">App-storleik</string>
+    <string name="storage_data_size_label">Profildata</string>
+    <string name="storage_cache_size_label">Snøgglager</string>
+    <string name="storage_total_size_label">Totalt</string>
+    <string name="storage_clear_user_data_text">Tøm lagring</string>
+    <string name="storage_clear_cache_btn_text">Tøm snøgglager</string>
+    <string name="storage_clear_data_dlg_title">Vil du sletta app-data?</string>
+    <string name="storage_clear_data_dlg_text">App-dataa vert sletta permanent. Dette inkluderer filer, innstillingar, databasar og andre app-data.</string>
+    <string name="storage_clear_failed_dlg_text">Klarte ikkje å tøma lagringa for appen.</string>
+    <string name="storage_unmount_success"><xliff:g id="name" example="SD card">%1$s</xliff:g> er no løyst ut</string>
+    <string name="storage_unmount_failure">Klarte ikkje å løysa ut <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
+    <string name="accounts_settings_title">Kontoar</string>
+    <string name="user_add_account_menu">Legg til konto</string>
+    <string name="no_accounts_added">Ingen kontoar er lagde til</string>
+    <string name="account_list_title">Kontoar for <xliff:g id="current_user_name">%1$s</xliff:g></string>
+    <string name="account_auto_sync_title">Synkroniser data automatisk</string>
+    <string name="account_auto_sync_summary">Lat appar oppdatera data automatisk</string>
+    <string name="data_usage_auto_sync_on_dialog_title">Vil du tillata automatisk synkronisering?</string>
+    <string name="data_usage_auto_sync_on_dialog">Endringar du gjer på kontoane dine på nettet, vert kopierte til bilen automatisk.\n\nEnkelte kontoar koplar òg endringar frå bilen til nettet automatisk.</string>
+    <string name="data_usage_auto_sync_off_dialog_title">Vil du slå av automatisk synkronisering?</string>
+    <string name="data_usage_auto_sync_off_dialog">Dette sparar data, men du må synkronisera kvar konto manuelt for å henta ny informasjon. Du får heller ikkje varsel om oppdateringar.</string>
+    <string name="account_details_title">Kontoinformasjon</string>
+    <string name="add_account_title">Legg til konto</string>
+    <string name="add_an_account">Legg til ein konto</string>
+    <string name="user_cannot_add_accounts_message">Avgrensa profilar kan ikkje leggja til kontoar</string>
+    <string name="remove_account_title">Fjern konto</string>
+    <string name="really_remove_account_title">Vil du fjerna kontoen?</string>
+    <string name="really_remove_account_message">Fjernar du denne kontoen, vert alle meldingar, kontaktar og andre data for kontoen sletta frå eininga!</string>
+    <string name="remove_account_error_title">Klarte ikkje å fjerna kontoen.</string>
+    <string name="account_sync_title">Kontosynkronisering</string>
+    <string name="account_sync_summary_some_on">Synkronisering er på for <xliff:g name="count" example="5">%1$d</xliff:g> av <xliff:g name="total" example="8">%2$d</xliff:g> element</string>
+    <string name="account_sync_summary_all_on">Synkronisering er på for alle element</string>
+    <string name="account_sync_summary_all_off">Synkronisering er av for alle element</string>
+    <string name="sync_disabled">Synkronisering er AV</string>
+    <string name="sync_error">Synkroniseringsfeil</string>
+    <string name="last_synced">Sist synkronisert <xliff:g id="last_sync_time" example="12/05/18, 12:30 PM">%1$s</xliff:g></string>
+    <string name="sync_in_progress">Synkroniserer no \u2026</string>
+    <string name="sync_one_time_sync">Trykk for å synkronisera no<xliff:g id="last_sync_time" example="\nLast synced 12/05/18, 12:30 PM">\n%1$s</xliff:g></string>
+    <string name="sync_button_sync_now">Synkroniser no</string>
+    <string name="sync_button_sync_cancel">Avbryt synkronisering</string>
+    <string name="sync_is_failing">Det er problem med synkroniseringa no. Ho er snart på plass att.</string>
+    <string name="privacy_settings_title">Personvern</string>
+    <string name="privacy_vehicle_data_title">Data i infotainment-systemet</string>
+    <string name="privacy_location_summary">Styr kva appar som har tilgang til posisjonen din</string>
+    <string name="mute_camera_title">Kamera</string>
+    <string name="mute_camera_summary">Styr app-tilgangen til kameraa dine</string>
+    <string name="mute_mic_title">Mikrofon</string>
+    <string name="mute_mic_summary">Styr app-tilgangen til mikrofonen</string>
+    <string name="vehicle_data_title">Data i infotainment-systemet</string>
+    <string name="vehicle_data_summary">Styr aktivitet og info lagra på bilen</string>
+    <string name="vehicle_data_delete_user_title">Slett profilen din</string>
+    <string name="vehicle_data_delete_user_summary">Slett profilen og kontoane dine frå infotainment-systemet</string>
+    <string name="action_unavailable">Profilen din har ikkje tilgang til denne handlinga</string>
+    <string name="camera_access_settings_title">Kameratilgang</string>
+    <string name="camera_access_settings_summary">Vel om appar skal ha tilgang til kameraa i bilen</string>
+    <string name="camera_access_radio_group_title">Bruk kameraa i bilen med:</string>
+    <string name="camera_access_radio_any_app_title">Kva som helst app</string>
+    <string name="camera_access_radio_any_app_summary">Alle appar du har gjeve kameratilgang</string>
+    <string name="camera_access_radio_no_apps_title">Ingen appar</string>
+    <string name="camera_access_radio_no_apps_summary">Ingen av appane dine</string>
+    <string name="camera_access_radio_helpful_apps_title">Appar for førarstøtte</string>
+    <string name="camera_access_radio_helpful_apps_summary">Appar som hjelper med ting som å visa kva som er rundt deg når du skal parkera</string>
+    <string name="camera_access_radio_required_apps_title">Berre naudsynte appar</string>
+    <string name="camera_access_radio_required_apps_summary">Berre appar som bilprodusenten krev</string>
+    <string name="camera_access_radio_helpful_required_apps_title">Appar for førarstøtte</string>
+    <string name="camera_access_radio_helpful_required_apps_summary">Appar for førarstøtte (som ved parkering) og nødvendige appar</string>
+    <string name="camera_helpful_apps_list_title">Appar for førarstøtte</string>
+    <string name="camera_helpful_apps_list_summary">Desse appane har kameratilgang for å hjelpa med køyringa</string>
+    <string name="camera_required_apps_list_title">Naudsynte appar</string>
+    <string name="camera_required_apps_list_summary">Desse appane trengst for at bilen skal fungera trygt</string>
+    <string name="camera_privacy_policy_button_text">Retningslinjer</string>
+    <string name="camera_access_disclaimer_summary">        Bilprodusenten kan framleis ha tilgang til kameraet i bilen. Du kan lesa meir i
+        retningslinjene deira.
+    </string>
+    <string name="camera_privacy_policy_info_summary">        Finn ut meir om korleis kvar app bruker kameraet i retningslinjene for personvern.
+    </string>
+    <string name="security_settings_title">Tryggleik</string>
+    <string name="security_settings_subtitle">Skjermlås</string>
+    <string name="security_lock_none">Ingen</string>
+    <string name="security_lock_pattern">Mønster</string>
+    <string name="security_lock_pin">PIN-kode</string>
+    <string name="security_lock_password">Passord</string>
+    <string name="lock_settings_picker_title">Vel låsetype</string>
+    <string name="screen_lock_options">Låseval</string>
+    <string name="lock_settings_enter_pattern">Teikna mønsteret ditt</string>
+    <string name="lockpattern_confirm_button_text">Stadfest</string>
+    <string name="lockpattern_restart_button_text">Teikna på nytt</string>
+    <string name="continue_button_text">Hald fram</string>
+    <string name="lockscreen_retry_button_text">Prøv på nytt</string>
+    <string name="lockscreen_skip_button_text">Hopp over</string>
+    <string name="set_screen_lock">Still inn skjermlås</string>
+    <string name="lockscreen_choose_your_pin">Vel PIN-kode</string>
+    <string name="lockscreen_choose_your_password">Vel passord</string>
+    <string name="current_screen_lock">Noverande skjermlås</string>
+    <string name="choose_lock_pattern_message">Lag eit mønster for å vera trygg</string>
+    <string name="lockpattern_retry_button_text">Tøm</string>
+    <string name="lockpattern_cancel_button_text">Avbryt</string>
+    <string name="lockpattern_pattern_confirmed">Det nye mønsteret ditt</string>
+    <string name="lockpattern_recording_intro_header">Teikna eit mønster</string>
+    <string name="lockpattern_recording_inprogress">Slepp fingeren når du er ferdig</string>
+    <string name="lockpattern_pattern_entered">Mønsteret er registrert</string>
+    <string name="lockpattern_need_to_confirm">Teikna mønsteret på nytt for å stadfesta</string>
+    <string name="lockpattern_recording_incorrect_too_short">Kopla saman minst 4 punkt. Prøv på nytt.</string>
+    <string name="lockpattern_pattern_wrong">Feil mønster</string>
+    <string name="lockpattern_settings_help_how_to_record">Slik teiknar du eit mønster</string>
+    <string name="error_saving_lockpattern">Klarte ikkje å lagra mønsteret</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">For mange feilforsøk. Prøv på nytt om <xliff:g id="number">%d</xliff:g> sekund.</string>
+    <string name="lockpattern_does_not_support_rotary">Mønsteret støttar ikkje styrehjul, bruk berøringsskjermen</string>
+    <string name="okay">OK</string>
+    <string name="remove_screen_lock_title">Vil du fjerna skjermlåsen?</string>
+    <string name="remove_screen_lock_message">Dette lèt kven som helst få tilgang til kontoen din</string>
+    <string name="security_profile_lock_title">Profillås</string>
+    <string name="security_unlock_profile_summary">Set opp automatisk opplåsing</string>
+    <string name="lock_settings_enter_pin">Skriv inn PIN-koden din</string>
+    <string name="lock_settings_enter_password">Skriv inn passordet ditt</string>
+    <string name="choose_lock_pin_message">Vel ein PIN-kode for å vera trygg</string>
+    <string name="confirm_your_pin_header">Skriv inn PIN-koden på nytt</string>
+    <string name="choose_lock_pin_hints">PIN-koden må ha minst 4 siffer</string>
+    <string name="lockpin_invalid_pin">PIN-koden er ikkje gyldig. Han må ha minst 4 siffer.</string>
+    <string name="confirm_pins_dont_match">PIN-kodane er ikkje like</string>
+    <string name="error_saving_lockpin">Klarte ikkje å lagra PIN-koden</string>
+    <string name="lockscreen_wrong_pin">Feil PIN-kode</string>
+    <string name="lockscreen_wrong_password">Feil passord</string>
+    <string name="choose_lock_password_message">Vel eit passord for å vera trygg</string>
+    <string name="confirm_your_password_header">Skriv inn passordet på nytt</string>
+    <string name="confirm_passwords_dont_match">Passorda er ikkje like</string>
+    <string name="lockpassword_clear_label">Tøm</string>
+    <string name="lockpassword_cancel_label">Avbryt</string>
+    <string name="lockpassword_confirm_label">Stadfest</string>
+    <string name="choose_lock_password_hints">Må ha minst 4 teikn</string>
+    <string name="locktype_unavailable">Denne låsetypen er ikkje tilgjengeleg.</string>
+    <string name="lockpassword_pin_contains_non_digits">Må berre vera siffer (0–9).</string>
+    <string name="lockpassword_pin_recently_used">Administratoren tillet ikkje å bruka ein PIN-kode som du nyleg har hatt</string>
+    <string name="lockpassword_pin_denylisted_by_admin">Vanlege PIN-kodar er sperra av administratoren. Prøv ein annan PIN-kode.</string>
+    <string name="lockpassword_illegal_character">Dette kan ikkje ha ugyldige teikn.</string>
+    <string name="lockpassword_invalid_password">Passordet er ikkje gyldig. Det må ha minst 4 teikn.</string>
+    <string name="lockpassword_password_recently_used">Administratoren tillet ikkje å bruka eit passord som du nyleg har hatt</string>
+    <string name="error_saving_password">Klarte ikkje å lagra passordet</string>
+    <string name="lockpassword_password_denylisted_by_admin">Vanlege passord er sperra av administratoren. Prøv eit anna passord.</string>
+    <string name="lockpassword_password_requires_alpha">Må ha minst éin bokstav</string>
+    <string name="lockpassword_password_requires_digit">Må ha minst eitt siffer</string>
+    <string name="lockpassword_password_requires_symbol">Må ha minst eitt symbol</string>
+    <string name="lockpassword_password_requires_letters">        {count, plural,
+        =1    {Må ha minst # bokstav}
+        other {Må ha minst # bokstavar}
+        }
+    </string>
+    <string name="lockpassword_password_requires_lowercase">        {count, plural,
+        =1    {Må ha minst # liten bokstav}
+        other {Må ha minst # små bokstavar}
+        }
+    </string>
+    <string name="lockpassword_password_requires_uppercase">        {count, plural,
+        =1    {Må ha minst # stor bokstav}
+        other {Må ha minst # store bokstavar}
+        }
+    </string>
+    <string name="lockpassword_password_requires_numeric">        {count, plural,
+        =1    {Må ha minst # siffer}
+        other {Må ha minst # siffer}
+        }
+    </string>
+    <string name="lockpassword_password_requires_symbols">        {count, plural,
+        =1    {Må ha minst # spesialsymbol}
+        other {Må ha minst # spesialsymbol}
+        }
+    </string>
+    <string name="lockpassword_password_requires_nonletter">        {count, plural,
+        =1    {Må ha minst # teikn som ikkje er ein bokstav}
+        other {Må ha minst # teikn som ikkje er bokstavar}
+        }
+    </string>
+    <string name="lockpassword_password_requires_nonnumerical">        {count, plural,
+        =1    {Må ha minst # teikn som ikkje er eit siffer}
+        other {Må ha minst # teikn som ikkje er siffer}
+        }
+    </string>
+    <string name="lockpassword_password_too_short">        {count, plural,
+        =1    {Må ha minst # teikn}
+        other {Må ha minst # teikn}
+        }
+    </string>
+    <string name="lockpassword_pin_too_short">        {count, plural,
+        =1    {Må ha minst # siffer}
+        other {Må ha minst # siffer}
+        }
+    </string>
+    <string name="lockpassword_password_too_long">        {count, plural,
+        =1    {Må ha færre enn # teikn}
+        other {Må ha færre enn # teikn}
+        }
+    </string>
+    <string name="lockpassword_pin_too_long">        {count, plural,
+        =1    {Må ha færre enn # siffer}
+        other {Må ha færre enn # siffer}
+        }
+    </string>
+    <string name="lockpassword_pin_no_sequential_digits">PIN-koden kan ikkje ha stigande, fallande eller gjentakande talfølgjer.</string>
+    <string name="setup_lock_settings_options_button_label">Låseval</string>
+    <string name="credentials_reset">Tøm påloggingsinfo</string>
+    <string name="credentials_reset_summary">Fjern alle sertifikat</string>
+    <string name="credentials_reset_hint">Vil du fjerna alt innhaldet?</string>
+    <string name="credentials_erased">Lageret for påloggingsinfo er tømt.</string>
+    <string name="credentials_not_erased">Klarte ikkje å tømma lageret for påloggingsinfo.</string>
+    <string name="forget">Gløym</string>
+    <string name="connect">Kopla til</string>
+    <string name="disconnect">Kopla frå</string>
+    <string name="delete_button">Slett</string>
+    <string name="remove_button">Fjern</string>
+    <string name="cancel">Avbryt</string>
+    <string name="allow">Tillat</string>
+    <string name="do_not_allow">Ikkje tillat</string>
+    <string name="deny">Avvis</string>
+    <string name="backspace_key">Rettetast</string>
+    <string name="enter_key">Enter-tast</string>
+    <string name="exit_retail_button_text">Avslutt demo</string>
+    <string name="exit_retail_mode_dialog_title">Avslutt demomodus</string>
+    <string name="exit_retail_mode_dialog_body">Dette slettar demokontoen og fabrikknullstiller systemet. Alle profildata går tapt.</string>
+    <string name="exit_retail_mode_dialog_confirmation_button_text">Avslutt demo</string>
+    <string name="suggestion_dismiss_button">AVVIS</string>
+    <string name="restricted_while_driving">Funksjonen er ikkje tilgjengeleg i fart</string>
+    <string name="restricted_for_passenger">Be føraren om å endra innstillinga</string>
+    <string name="restricted_for_driver">Du kan ikkje gjera dette</string>
+    <string name="add_user_restricted_while_driving">Kan ikkje leggja til profil i fart</string>
+    <string name="default_search_query">Søk</string>
+    <string name="assistant_and_voice_setting_title">Assistent og tale</string>
+    <string name="assistant_and_voice_assistant_app_title">Digital assistent-app</string>
+    <string name="assistant_and_voice_use_text_from_screen_title">Bruk tekst frå skjermen</string>
+    <string name="assistant_and_voice_use_text_from_screen_summary">Lat assistenten få tilgang til skjerminnhaldet</string>
+    <string name="assistant_and_voice_use_screenshot_title">Bruk skjermbilete</string>
+    <string name="assistant_and_voice_use_screenshot_summary">Lat assistenten få tilgang til bilete av skjermen</string>
+    <string name="notifications_recently_sent">Nyleg sende</string>
+    <string name="notifications_all_apps">Alle appar</string>
+    <string name="profiles_and_accounts_settings_title">Profilar og kontoar</string>
+    <string name="manage_other_profiles_button_text">Handter andre profilar</string>
+    <string name="add_a_profile_button_text">Legg til ein profil</string>
+    <string name="delete_this_profile_text">Slett denne profilen</string>
+    <string name="add_profile_text">Legg til profil</string>
+    <string name="cannot_remove_driver_profile">Denne profilen er no logga inn som førar. Prøv på nytt når profilen ikkje lenger er i bruk som førar.</string>
+    <string name="qc_display_brightness">Lysstyrke på skjermen</string>
+    <string name="qc_bluetooth_off_devices_info">Slå på Bluetooth for å sjå einingane dine</string>
+    <string name="qc_bluetooth_on_no_devices_info">Opna Bluetooth-innstillingane for å para ei eining</string>
+    <string name="qc_ui_mode_title">Tema</string>
+    <string name="device_admin_add_title">Administrator for infotainment-systemet</string>
+    <string name="device_admin_activated_apps">Aktiverte appar</string>
+    <string name="device_admin_deactivated_apps">Deaktiverte appar</string>
+    <string name="device_admin_apps_description">Appar med dette løyvet har tilgang til dataa på denne bilen</string>
+    <string name="device_admin_apps_list_empty">Ingen administratorappar for bilen</string>
+    <string name="device_admin_status">Denne administratorappen for infotainment-systemet er aktiv og lèt appen <xliff:g id="app_name">%1$s</xliff:g> gjera følgjande:</string>
+    <string name="device_admin_warning">Aktiverer du denne infotainment-appen, kan appen <xliff:g id="app_name">%1$s</xliff:g> gjera følgjande:</string>
+    <string name="add_device_admin_msg">Vil du aktivera denne infotainment-appen?</string>
+    <string name="add_device_admin">Aktiver denne infotainment-appen</string>
+    <string name="deactivate_and_uninstall_device_admin">Deaktiver og avinstaller</string>
+    <string name="remove_device_admin">Deaktiver denne infotainment-appen</string>
+    <string name="admin_profile_owner_message">Organisasjonsstyraren kan overvaka og styra appar og data knytte til denne profilen, inkludert innstillingar, løyve, bedriftstilgang, nettverksaktivitet og posisjonsinformasjonen til bilen.</string>
+    <string name="admin_profile_owner_user_message">Organisasjonsstyraren kan overvaka og styra appar og data knytte til denne profilen, inkludert innstillingar, løyve, bedriftstilgang, nettverksaktivitet og posisjonsinformasjonen til eininga.</string>
+    <string name="admin_device_owner_message">Organisasjonsstyraren kan overvaka og styra appar og data knytte til dette infotainment-systemet, inkludert innstillingar, løyve, bedriftstilgang, nettverksaktivitet og posisjonsinformasjonen til bilen.</string>
+    <string name="admin_financed_message">Organisasjonsstyraren kan kanskje få tilgang til data knytte til dette infotainment-systemet, styra appar og endra innstillingane på denne bilen.</string>
+    <string name="disabled_by_policy_title">Ikkje tilgjengeleg</string>
+    <string name="disabled_by_policy_title_adjust_volume">Kan ikkje endra lydstyrken i denne styrte bilen</string>
+    <string name="disabled_by_policy_title_outgoing_calls">Kan ikkje ringja ut i denne styrte bilen</string>
+    <string name="disabled_by_policy_title_sms">SMS er ikkje tillate i denne styrte bilen</string>
+    <string name="disabled_by_policy_title_camera">Kameraet er ikkje tilgjengeleg i denne styrte bilen</string>
+    <string name="disabled_by_policy_title_screen_capture">Kan ikkje ta skjermbilete i denne styrte bilen</string>
+    <string name="disabled_by_policy_title_suspend_packages">Kan ikkje opna denne appen i denne styrte bilen</string>
+    <string name="disabled_by_policy_title_financed_device">Sperra av kredittytaren din</string>
+    <string name="default_admin_support_msg">Organisasjonen har avgrensa tilgangen til enkelte funksjonar.\n\nKontakt organisasjonsstyraren om du har spørsmål.</string>
+    <string name="manage_device_admin">Administratorappar for bilen</string>
+    <string name="number_of_device_admins">        {count, plural,
+        =1    {# aktivert app}
+        other {# aktiverte appar}
+        }
+    </string>
+    <string name="number_of_device_admins_none">Ingen aktiverte appar</string>
+    <string name="work_policy_privacy_settings">Bilretningslinjer for <xliff:g id="organization_name">%1$s</xliff:g></string>
+    <string name="work_policy_privacy_settings_no_org_name">Bilretningslinjer</string>
+    <string name="work_policy_privacy_settings_summary">Innstillingar som vert styrte av organisasjonsstyraren</string>
+    <string name="footer_learn_more_content_description">Finn ut meir om <xliff:g id="service" example="Select to Speak">%1$s</xliff:g></string>
+    <string name="enterprise_privacy_settings">Info om styrt bil</string>
+    <string name="enterprise_privacy_settings_summary_generic">Innstillingar som vert styrte av sjefen for bilparken</string>
+    <string name="enterprise_privacy_header">For å gje tilgang til data på denne styrte bilen kan sjefen for bilparken endra innstillingar og installera programvare på infotainment-systemet.\n\nKontakt sjefen for bilparken for meir informasjon.</string>
+    <string name="enterprise_privacy_exposure_category">Informasjon sjefen for bilparken din kan sjå</string>
+    <string name="enterprise_privacy_exposure_changes_category">Endringar gjorda av sjefen for bilparken din</string>
+    <string name="enterprise_privacy_exposure_desc">        <li>Data knytte til kontoen for den styrte bilen</li>\n
+        <li>Liste over appar på den styrte bilen</li>\n
+        <li>Tid og datamengd brukt i kvar app</li>
+    </string>
+    <string name="enterprise_privacy_device_access_category">Tilgangen din til infotainment-systemet</string>
+    <string name="enterprise_privacy_installed_packages">Liste over appar på bilen din</string>
+    <string name="enterprise_privacy_apps_count_estimation_info">App-talet er eit estimat. Det omfattar kanskje ikkje appar installerte utanfor Play Butikk.</string>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="one">Minst <xliff:g id="count">%d</xliff:g> app</item>
+        <item quantity="other">Minst <xliff:g id="count">%d</xliff:g> appar</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> app</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> appar</item>
+    </plurals>
+    <string name="enterprise_privacy_network_logs">Siste logg over nettverkstrafikk</string>
+    <string name="enterprise_privacy_bug_reports">Siste feilrapport</string>
+    <string name="enterprise_privacy_security_logs">Siste tryggingslogg</string>
+    <string name="enterprise_privacy_none">Ingen</string>
+    <string name="enterprise_privacy_enterprise_installed_packages">Appar som er installerte</string>
+    <string name="enterprise_privacy_location_access">Posisjonsløyve</string>
+    <string name="enterprise_privacy_microphone_access">Mikrofonløyve</string>
+    <string name="enterprise_privacy_camera_access">Kameraløyve</string>
+    <string name="enterprise_privacy_enterprise_set_default_apps">Standardappar</string>
+    <string name="enterprise_privacy_input_method">Standardtastatur</string>
+    <string name="enterprise_privacy_input_method_name">Sett til <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
+    <string name="enterprise_privacy_global_http_proxy">Global HTTP-mellomtenar er sett opp</string>
+    <string name="enterprise_privacy_ca_certs_personal">Trudde påloggingar i den personlege profilen din</string>
+    <string name="enterprise_privacy_device_access_desc">        <li>Administratoren kan låsa infotainment-systemet og nullstilla passordet</li>\n
+        <li>Administratoren kan sletta data på infotainment-systemet</li>
+    </string>
+    <string name="enterprise_privacy_failed_password_wipe_device">Talet på feil passordforsøk før alle data på infotainment-systemet vert sletta</string>
+    <string name="enterprise_privacy_failed_password_wipe_current_user">Talet på feil passordforsøk før profildata vert sletta</string>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> forsøk</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> forsøk</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="one" translatable="false">Kamera-app</item>
+        <item quantity="other" translatable="false">Kamera-appar</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="one" translatable="false">E-post-app</item>
+        <item quantity="other" translatable="false">E-post-appar</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="one" translatable="false">Telefon-app</item>
+        <item quantity="other" translatable="false">Telefon-appar</item>
+    </plurals>
+    <string name="share_remote_bugreport_dialog_title">Vil du dela feilrapporten?</string>
+    <string name="share_remote_bugreport_dialog_message_finished">Organisasjonsstyraren for bilen har bedt om ein feilrapport for å hjelpa med feilsøking på eininga. Appar og data kan verta delte.</string>
+    <string name="share_remote_bugreport_dialog_message">Organisasjonsstyraren for bilen har bedt om ein feilrapport for å hjelpa med feilsøking på eininga. Appar og data kan verta delte, og eininga kan verta mellombels tregare.</string>
+    <string name="sharing_remote_bugreport_dialog_message">Denne feilrapporten vert no delt med organisasjonsstyraren for bilen. Kontakt styraren for meir informasjon.</string>
+    <string name="share_remote_bugreport_action">Del</string>
+    <string name="decline_remote_bugreport_action">Avvis</string>
+    <string name="factory_reset_parked_title">Nullstill infotainment-systemet</string>
+    <string name="factory_reset_parked_text">Systemet har fått ein førespurnad om å nullstilla til fabrikkoppsettet og sletta alle data. Du kan nullstilla no, eller så skjer det neste gong bilen startar. Du kan deretter setja opp ein ny profil.</string>
+    <string name="factory_reset_now_button">Nullstill no</string>
+    <string name="factory_reset_later_button">Nullstill seinare</string>
+    <string name="factory_reset_later_text">Infotainment-systemet vert nullstilt neste gong bilen startar.</string>
+    <string name="factory_reset_driving_text">Bilen må stå i ro for at nullstillinga skal kunna starta.</string>
+    <string name="power_component_disabled">Denne innstillinga kan ikkje endrast akkurat no</string>
+    <string name="accessibility_settings_title">Tilgjenge</string>
+    <string name="accessibility_settings_captions_title">Teksting</string>
+    <string name="captions_settings_title">Innstillingar for teksting</string>
+    <string name="captions_settings_off">Av</string>
+    <string name="captions_settings_on">På</string>
+    <string name="screen_reader_settings_title">Skjermlesar</string>
+    <string name="show_captions_toggle_title">Vis teksting</string>
+    <string name="captions_text_size_title">Tekststorleik</string>
+    <string name="captions_settings_style_header">Storleik og stil for teksting</string>
+    <string name="captions_settings_text_size_very_small">Veldig liten</string>
+    <string name="captions_settings_text_size_small">Liten</string>
+    <string name="captions_settings_text_size_default">Standard</string>
+    <string name="captions_settings_text_size_large">Stor</string>
+    <string name="captions_settings_text_size_very_large">Veldig stor</string>
+    <string name="captions_text_style_title">Stil for teksting</string>
+    <string name="captions_settings_text_style_by_app">Bestemt av appen</string>
+    <string name="captions_settings_text_style_white_on_black">Kvit tekst på svart bakgrunn</string>
+    <string name="captions_settings_text_style_black_on_white">Svart tekst på kvit bakgrunn</string>
+    <string name="captions_settings_text_style_yellow_on_black">Gul tekst på svart bakgrunn</string>
+    <string name="captions_settings_text_style_yellow_on_blue">Gul tekst på blå bakgrunn</string>
+    <string name="accessibility_settings_screen_reader_title">Skjermlesar</string>
+    <string name="screen_reader_settings_off">Av</string>
+    <string name="screen_reader_settings_on">Les opp element på skjermen</string>
+    <string name="enable_screen_reader_toggle_title">Bruk <xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g></string>
+    <string name="screen_reader_options_title">Val</string>
+    <string name="screen_reader_description_title">Innstillingar</string>
+    <string name="camera_settings_title">Kamera</string>
+    <string name="camera_toggle_title">Bruk kamera</string>
+    <string name="camera_toggle_summary">Gje alle appar tilgang til kameraet</string>
+    <string name="camera_manage_permissions">Handter kameraløyve</string>
+    <string name="camera_recently_accessed">Nyleg brukt</string>
+    <string name="camera_no_recent_access">Ingen nylege appar</string>
+    <string name="camera_app_permission_summary_camera_off">0 appar har tilgang</string>
+    <string name="camera_app_permission_summary_camera_on">        {count, plural,
+            =1    {# av {total_count} appar har tilgang}
+            other {# av {total_count} appar har tilgang}
+        }
+    </string>
+    <string name="camera_settings_recent_requests_title">Nyleg brukt</string>
+    <string name="camera_settings_recent_requests_view_all_title">Vis alle</string>
+    <string name="camera_settings_loading_app_permission_stats">Lastar inn \u2026</string>
+</resources>

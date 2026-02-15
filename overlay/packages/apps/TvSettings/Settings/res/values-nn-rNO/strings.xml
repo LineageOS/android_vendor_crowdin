@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sync_in_progress">Synkroniserer \u2026</string>
+    <string name="device_backup_restore">Tryggingskopi og gjenoppretting</string>
+    <string name="surround_sound_hide_formats">Gøym format</string>
+    <string name="hdr_hide_formats">Gøym format</string>
+    <string name="accessory_state_pairing">Parar  …</string>
+    <string name="accessory_state_connecting">Koplar til  …</string>
+    <string name="accessory_unpairing">Opphevar paring av eining  …</string>
+    <string name="accessories_add_title">Søkjer etter utstyr  …</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary">Du kan ikkje bruka Google Assistent frå fjernkontrollen medan Bluetooth er av.</string>
+    <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Kopla til internett eller ta kontakt med mobiloperatøren</string>
+    <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Ikkje tilgjengeleg på operatørlåste einingar</string>
+    <string name="other_network">Anna nettverk  …</string>
+    <string name="title_wifi_no_networks_available">Skannar  …</string>
+    <string name="storage_calculating_size">Reknar ut \u2026</string>
+    <string name="storage_wizard_format_progress_title">Formaterer USB-stasjonen …</string>
+    <string name="storage_wizard_migrate_progress_title">Flyttar data til <xliff:g id="name" example="SD card">%1$s</xliff:g> …</string>
+    <string name="storage_wizard_eject_progress_title">Løyser ut <xliff:g id="name" example="SD Card">%1$s</xliff:g> …</string>
+    <string name="storage_wizard_move_app_progress_title">Flyttar <xliff:g id="name" example="YouTube">%1$s</xliff:g> …</string>
+    <string name="mic_remote_toggle_title">Mikrofontilgang på fjernkontrollen</string>
+    <string name="mic_toggle_info_content">Når han er slått på, kan alle appar og tenester som har løyve til å bruka mikrofonen, få tilgang til han.\n\nNår han er slått av, har ingen appar eller tenester tilgang til mikrofonen. Men du kan framleis tala til Google Assistent ved å trykkja på assistentknappen på fjernkontrollen.\n\nLydeiningar som brukar eigne protokollar for å snakka med TV-en, vert kanskje ikkje påverka av denne innstillinga.</string>
+    <string name="mic_remote_toggle_on_info_title">Mikrofon er slått på på fjernkontrollen</string>
+    <string name="mic_remote_toggle_on_info_content">Google Assistent har tilgang til mikrofonen på fjernkontrollen. Du kan tala til assistenten ved å trykkja på Google Assistent-knappen på fjernkontrollen.</string>
+    <string name="mic_remote_toggle_off_info_title">Mikrofon er slått av på fjernkontrollen</string>
+    <string name="mic_remote_toggle_off_info_content">Du kan ikkje tala til Google Assistent med fjernkontrollen. Slå på mikrofontilgang for å kunna bruka Google Assistent-knappen.</string>
+    <string name="system_never_check">Aldri kontroller</string>
+    <string name="system_check_for_drm_content_only">Berre kontroller DRM-innhald</string>
+    <string name="system_always_check">Alltid kontroller</string>
+    <string name="computing_size">Reknar ut \u2026</string>
+    <string name="inputs_hide">Gøymt</string>
+    <string name="restricted_profile_create_title">Lag avgrensa profil</string>
+    <string name="restricted_profile_configure_apps_description_loading">Vent litt \u2026</string>
+    <string name="restricted_profile_create_preference_screen">Vil du laga ein avgrensa profil?</string>
+    <string name="restricted_profile_already_created_placeholder">Allereie laga</string>
+    <string name="wifi_setup_description">Vel <xliff:g id="wifi_submit_icon">%1$s</xliff:g> for å halda fram.</string>
+    <string name="privacy_automatic_restore">Automatisk gjenoppretting</string>
+    <string name="custom_room">Skriv inn eige namn …</string>
+    <string name="usage_access_description">Brukstilgang lèt ein app fylgja med på kva andre appar du brukar og kor ofte, i tillegg til kva mobiloperatør du har, språkinnstillingar og andre detaljar.</string>
+    <string name="settings_find_my_remote_title">Finn fjernkontrollen min</string>
+    <string name="settings_find_my_remote_description">Spel av ein lyd for å finna Google TV-fjernkontrollen din om du har mista han</string>
+    <string name="find_my_remote_slice_description">Det er ein knapp på Google TV-en din som du kan trykkja på for å spela av ein lyd på fjernkontrollen i 30 sekund. Dette fungerer berre med støtta Google TV-fjernkontrollar.\n\nTrykk på ein kva som helst knapp på fjernkontrollen for å stansa lyden.</string>
+    <string name="find_my_remote_integration_hint">Når «Finn fjernkontrollen min» er slått på, kan du spela av ein lyd for å finna Google TV-fjernkontrollen din om du har mista han.</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cache_clearing_in_progress_title">Tømer mellombels filer \u2026</string>
+    <string name="picker_browse">Bla gjennom \u2026</string>
+    <string name="picker_sync_notification_text">Synkroniserer media …</string>
+    <string name="permission_progress_write_audio"> {count, plural,
+=1 {Endrar lydfil …}
+other {Endrar <xliff:g id="count" example="42">^1</xliff:g> lydfiler …}
+}</string>
+    <string name="permission_trash_audio"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta denne lydfila til papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta <xliff:g id="count" example="42">^2</xliff:g> lydfiler til papirkorga?}
+}</string>
+    <string name="permission_progress_trash_audio"> {count, plural,
+=1 {Flyttar lydfil til papirkorga …}
+other {Flyttar <xliff:g id="count" example="42">^1</xliff:g> lydfiler til papirkorga …}
+}</string>
+    <string name="permission_trash_video"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta denne videoen til papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta <xliff:g id="count" example="42">^2</xliff:g> videoar til papirkorga?}
+}</string>
+    <string name="permission_progress_trash_video"> {count, plural,
+=1 {Flyttar video til papirkorga …}
+other {Flyttar <xliff:g id="count" example="42">^1</xliff:g> videoar til papirkorga …}
+}</string>
+    <string name="permission_trash_image"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta dette biletet til papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta <xliff:g id="count" example="42">^2</xliff:g> bilete til papirkorga?}
+}</string>
+    <string name="permission_progress_trash_image"> {count, plural,
+=1 {Flyttar bilete til papirkorga …}
+other {Flyttar <xliff:g id="count" example="42">^1</xliff:g> bilete til papirkorga …}
+}</string>
+    <string name="permission_trash_generic"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta dette elementet til papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta <xliff:g id="count" example="42">^2</xliff:g> element til papirkorga?}
+}</string>
+    <string name="permission_progress_trash_generic"> {count, plural,
+=1 {Flyttar element til papirkorga …}
+other {Flyttar <xliff:g id="count" example="42">^1</xliff:g> element til papirkorga …}
+}</string>
+    <string name="permission_untrash_audio"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta denne lydfila ut or papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta <xliff:g id="count" example="42">^2</xliff:g> lydfiler ut or papirkorga?}
+}</string>
+    <string name="permission_progress_untrash_audio"> {count, plural,
+=1 {Hentar ut lydfil or papirkorga …}
+other {Hentar ut <xliff:g id="count" example="42">^1</xliff:g> lydfiler or papirkorga …}
+}</string>
+    <string name="permission_untrash_video"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta denne videoen ut or papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta <xliff:g id="count" example="42">^2</xliff:g> videoar ut or papirkorga?}
+}</string>
+    <string name="permission_progress_untrash_video"> {count, plural,
+=1 {Hentar ut video or papirkorga …}
+other {Hentar ut <xliff:g id="count" example="42">^1</xliff:g> videoar or papirkorga …}
+}</string>
+    <string name="permission_untrash_image"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta dette biletet ut or papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta <xliff:g id="count" example="42">^2</xliff:g> bilete ut or papirkorga?}
+}</string>
+    <string name="permission_progress_untrash_image"> {count, plural,
+=1 {Hentar ut bilete or papirkorga …}
+other {Hentar ut <xliff:g id="count" example="42">^1</xliff:g> bilete or papirkorga …}
+}</string>
+    <string name="permission_untrash_generic"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta dette elementet ut or papirkorga?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta <xliff:g id="count" example="42">^2</xliff:g> element ut or papirkorga?}
+}</string>
+    <string name="permission_progress_untrash_generic"> {count, plural,
+=1 {Hentar ut element or papirkorga …}
+other {Hentar ut <xliff:g id="count" example="42">^1</xliff:g> element or papirkorga …}
+}</string>
+    <string name="transcode_processing">Handsamar media …</string>
+</resources>

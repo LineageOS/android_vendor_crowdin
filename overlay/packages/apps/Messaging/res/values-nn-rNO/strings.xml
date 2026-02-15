@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Meldingar</string>
+    <string name="share_intent_label">Meldingar</string>
+    <string name="share_intent_activity_label">Vel samtale</string>
+    <string name="action_settings">Innstillingar</string>
+    <string name="sendButtonContentDescription">Send melding</string>
+    <string name="attachMediaButtonContentDescription">Legg til vedlegg</string>
+    <string name="help_and_feedback_activity_label">Hjelp</string>
+    <string name="welcome">Velkomen</string>
+    <string name="skip">Hoppa over</string>
+    <string name="next_with_arrow">Neste &gt;</string>
+    <string name="next">Neste</string>
+    <string name="exit">Avslutt</string>
+    <string name="settings_with_arrow">Innstillingar &gt;</string>
+    <string name="settings">Innstillingar</string>
+    <string name="required_permissions_promo">Meldingar treng tilgang til SMS, telefon og kontaktar.</string>
+    <string name="enable_permission_procedure">Du kan endra tilgangane under Innstillingar &gt; Appar &gt; Meldingar &gt; Tilgangar.</string>
+    <string name="enable_permission_procedure_description">Du kan endra tilgangane under Innstillingar, Appar, Meldingar og Tilgangar.</string>
+    <string name="contact_picker_frequents_tab_title">Ofte kontakta</string>
+    <string name="contact_picker_all_contacts_tab_title">Alle kontaktar</string>
+    <string name="contact_list_send_to_text">Send til <xliff:g id="destination">%s</xliff:g></string>
+    <string name="mediapicker_cameraChooserDescription">Ta bilete eller video</string>
+    <string name="mediapicker_galleryChooserDescription">Vel bilete frå denne eininga</string>
+    <string name="mediapicker_audioChooserDescription">Ta opp lyd</string>
+    <string name="mediapicker_contactChooserDescription">Vel ein kontakt frå denne eininga</string>
+    <string name="mediapicker_gallery_title">Vel media</string>
+    <string name="mediapicker_gallery_item_selected_content_description">Mediefila er vald.</string>
+    <string name="mediapicker_gallery_item_unselected_content_description">Mediefila er ikkje vald.</string>
+    <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d</xliff:g> er valde</string>
+    <string name="mediapicker_gallery_image_item_description">bilete <xliff:g id="date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
+    <string name="mediapicker_gallery_image_item_description_no_date">bilete</string>
+    <string name="mediapicker_audio_title">Ta opp lyd</string>
+    <string name="mediapicker_contact_title">Vel ein kontakt</string>
+    <string name="contact_picker_hint_text">Trykk for å opna kontaktlista på denne eininga</string>
+    <string name="action_share">Del</string>
+    <string name="posted_just_now">"No nettopp"</string>
+    <string name="posted_now">"No"</string>
+    <plurals name="num_minutes_ago">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> min</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> min</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> time</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> timar</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> dag</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> dagar</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="one">ei veke</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> veker</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="one">ein månad</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> månader</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="one">eit år</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> år</item>
+    </plurals>
+    <string name="class_0_message_activity">Klasse 0-melding</string>
+    <string name="save">Lagra</string>
+    <string name="sms_storage_low_auto_delete_enabled_dialog_text">Lite ledig plass på eininga. Meldingar vil sletta eldre meldingar automatisk for å gjera plass.</string>
+    <string name="sms_storage_low_title">Lite lagringsplass att</string>
+    <string name="sms_storage_low_text">Meldingar klarer kanskje ikkje senda eller ta imot meldingar før det er meir ledig plass på eininga.</string>
+    <string name="sms_storage_low_notification_ticker">Lite lagringsplass for SMS. Du må kanskje sletta meldingar.</string>
+    <string name="enter_phone_number_title">Stadfest telefonnummeret ditt</string>
+    <string name="enter_phone_number_text">Dette gjer me berre éin gong for å sikra at Meldingar leverer gruppemeldingar på rett vis.</string>
+    <string name="enter_phone_number_hint">Telefonnummer</string>
+    <string name="delete_all_media">Slett alle meldingar med media</string>
+    <string name="delete_oldest_messages">Slett meldingar eldre enn <xliff:g id="duration">%s</xliff:g></string>
+    <string name="auto_delete_oldest_messages">Slett meldingar eldre enn <xliff:g id="duration">%s</xliff:g> automatisk</string>
+    <string name="ignore">Oversjå</string>
+    <string name="delete_all_media_confirmation">Vil du sletta alle meldingar med media?</string>
+    <string name="delete_oldest_messages_confirmation">Vil du sletta meldingar eldre enn <xliff:g id="duration">%s</xliff:g>?</string>
+    <string name="auto_delete_oldest_messages_confirmation">Vil du sletta meldingar eldre enn <xliff:g id="duration">%s</xliff:g> og slå på automatisk sletting?</string>
+    <string name="incoming_text_sender_content_description"><xliff:g id="sender">%s</xliff:g> sa</string>
+    <string name="outgoing_text_sender_content_description">Du sa</string>
+    <string name="incoming_sender_content_description">Melding frå <xliff:g id="sender">%s</xliff:g></string>
+    <string name="outgoing_sender_content_description">Du har sendt ei melding</string>
+    <string name="message_status_sending">Sender …</string>
+    <string name="message_status_send_failed">Ikkje sendt. Trykk for å prøva på nytt.</string>
+    <string name="message_status_send_retrying">Ikkje sendt. Prøver på nytt …</string>
+    <string name="message_status_resend">Send på nytt eller slett</string>
+    <string name="message_status_send_failed_emergency_number">Ring naudnummer i staden. Tekstmeldinga kunne ikkje leverast no.</string>
+    <string name="message_status_failed">Mislukka</string>
+    <string name="message_title_manual_download">Ny MMS kan lastast ned</string>
+    <string name="message_title_downloading">Ny MMS-melding</string>
+    <string name="message_title_download_failed">Klarte ikkje lasta ned</string>
+    <string name="message_status_download_failed">Trykk for å prøva på nytt</string>
+    <string name="message_status_download">Trykk for å lasta ned</string>
+    <string name="message_status_download_action">Last ned eller slett</string>
+    <string name="message_status_downloading">Lastar ned …</string>
+    <string name="message_status_download_error">Meldinga er utgått på tid eller ikkje tilgjengeleg</string>
+    <string name="mms_info">storleik: <xliff:g id="messageSize">%1$s</xliff:g>, går ut: <xliff:g id="messageExpire">%2$s</xliff:g></string>
+    <string name="invalid_destination">Kan ikkje senda. Mottakaren er ugyldig.</string>
+    <string name="service_not_activated">Tenesta er ikkje aktivert på nettverket</string>
+    <string name="service_network_problem">Klarte ikkje senda på grunn av nettverksproblem</string>
+    <string name="service_message_not_found">Meldinga er utgått på tid eller ikkje tilgjengeleg</string>
+    <string name="no_subject">(Ikkje noko emne)</string>
+    <string name="unknown_sender">Ukjend sendar</string>
+    <string name="delivered_status_content_description">Levert</string>
+    <string name="dl_failure_notification">Klarte ikkje lasta ned meldinga <xliff:g id="subject">%1$s</xliff:g> frå <xliff:g id="from">%2$s</xliff:g>.</string>
+    <string name="low_memory">Klarte ikkje fullføra handlinga på grunn av lite minne</string>
+    <string name="notification_send_failures_line1_singular">Meldinga vart ikkje sendt</string>
+    <string name="notification_send_failures_line1_plural">Nokre meldingar i Meldingar vart ikkje sende</string>
+    <plurals name="notification_send_failures">
+        <item quantity="one"><xliff:g id="messages">%d</xliff:g> meldingar i éin samtale</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> meldingar i <xliff:g id="conversations">%d</xliff:g> samtalar</item>
+    </plurals>
+    <string name="notification_download_failures_line1_singular">Meldinga vart ikkje lasta ned</string>
+    <string name="notification_download_failures_line1_plural">Nokre meldingar i Meldingar vart ikkje lasta ned</string>
+    <plurals name="notification_download_failures">
+        <item quantity="one"><xliff:g id="messages">%d</xliff:g> meldingar i éin samtale</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> meldingar i <xliff:g id="conversations">%d</xliff:g> samtalar</item>
+    </plurals>
+    <string name="notification_emergency_send_failure_line1">Meldinga til <xliff:g id="number">%1$s</xliff:g> vart ikkje sendt</string>
+    <string name="notification_emergency_send_failure_line2">        Ring naudnummer i staden. Tekstmeldinga til
+        <xliff:g id="number">%1$s</xliff:g> kunne ikkje leverast no.
+    </string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Ny melding</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> nye meldingar</item>
+    </plurals>
+    <string name="start_conversation">Start</string>
+    <string name="camera_error_opening">Kameraet er ikkje tilgjengeleg</string>
+    <string name="camera_error_unknown">Kameraet er ikkje tilgjengeleg</string>
+    <string name="camera_error_video_init_fail">Videoopptak er ikkje tilgjengeleg</string>
+    <string name="camera_error_storage_fail">Klarte ikkje lagra fila</string>
+    <string name="camera_error_failure_taking_picture">Klarte ikkje ta bilete</string>
+    <string name="back">Tilbake</string>
+    <string name="action_menu_show_archived">Arkivert</string>
+    <string name="action_delete">Slett</string>
+    <string name="action_archive">Arkiver</string>
+    <string name="action_unarchive">Gjenopprett frå arkiv</string>
+    <string name="action_add_contact">Legg til kontakt</string>
+    <string name="action_download">Last ned</string>
+    <string name="action_send">Send</string>
+    <string name="action_delete_message">Slett</string>
+    <string name="delete_message_confirmation_dialog_title">Vil du sletta meldinga?</string>
+    <string name="delete_message_confirmation_dialog_text">Denne handlinga kan ikkje angrast.</string>
+    <string name="delete_message_confirmation_button">Slett</string>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Vil du sletta denne samtalen?</item>
+        <item quantity="other">Vil du sletta desse samtalane?</item>
+    </plurals>
+    <string name="delete_conversation_confirmation_button">Slett</string>
+    <string name="delete_conversation_decline_button">Avbryt</string>
+    <string name="recipient_hint">Til</string>
+    <string name="action_multiselect">Vel fleire bilete</string>
+    <string name="action_confirm_multiselect">Stadfest valet</string>
+    <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
+    <string name="audio_recording_start_failed">Klarte ikkje starta lydopptak. Prøv på nytt.</string>
+    <string name="audio_recording_replay_failed">Klarte ikkje spela av lydopptaket. Prøv på nytt.</string>
+    <string name="audio_recording_error"> Klarte ikkje lagra lydopptaket. Prøv på nytt.</string>
+    <string name="audio_picker_hint_text">Trykk og hald inne</string>
+    <string name="enumeration_comma">,\u0020</string>
+    <string name="notification_separator">\u0020\u0020</string>
+    <string name="notification_ticker_separator">:\u0020</string>
+    <string name="notification_space_separator">\u0020\u0020</string>
+    <string name="notification_picture">Bilete</string>
+    <string name="notification_audio">Lydklipp</string>
+    <string name="notification_video">Video</string>
+    <string name="notification_vcard">Kontaktkort</string>
+    <string name="notification_download_mms">Last ned</string>
+    <string name="notification_reply_via_sms">Svar via SMS</string>
+    <string name="notification_reply_via_mms">Svar via MMS</string>
+    <string name="notification_reply_prompt">Svar</string>
+    <plurals name="wearable_participant_count">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> deltakar</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> deltakarar</item>
+    </plurals>
+    <string name="unknown_self_participant">Eg</string>
+    <string name="blocked_toast_message">Kontakten er sperra og arkivert</string>
+    <string name="unblocked_toast_message">Kontakten er ikkje sperra og ikkje i arkiv</string>
+    <string name="archived_toast_message"><xliff:g id="count">%d</xliff:g> er arkiverte</string>
+    <string name="unarchived_toast_message"><xliff:g id="count">%d</xliff:g> er gjenoppretta frå arkiv</string>
+    <string name="notification_off_toast_message">Varsel er slått av</string>
+    <string name="notification_on_toast_message">Varsel er slått på</string>
+    <string name="toast_after_setting_default_sms_app_for_message_send">Alt er klart. Trykk på Send på nytt.</string>
+    <string name="toast_after_setting_default_sms_app">Meldingar er no vald som standardapp for SMS.</string>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Fjern vedlegg</item>
+        <item quantity="other">Fjern vedlegg</item>
+    </plurals>
+    <string name="audio_attachment_content_description">Lydvedlegg</string>
+    <string name="audio_play_content_description">Spel av lydvedlegg</string>
+    <string name="audio_pause_content_description">Pause</string>
+    <string name="incoming_message_announcement">Melding frå <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>.</string>
+    <string name="one_on_one_incoming_failed_message_prefix">Mislukka melding frå <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_incoming_successful_message_prefix">Melding frå <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_draft_message_prefix">Ikkje sendt melding til <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_sending_message_prefix">Sender melding til <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_failed_message_prefix">Mislukka melding til <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_successful_message_prefix">Melding til <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_incoming_failed_message_prefix">Mislukka melding frå <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_incoming_successful_message_prefix">Melding frå <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_outgoing_draft_message_prefix">Ikkje sendt melding til <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_sending_message_prefix">Sender melding til <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_failed_message_prefix">Mislukka melding til <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_successful_message_prefix">Melding til <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Tid: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="failed_message_content_description">Mislukka melding. Trykk for å prøva på nytt.</string>
+    <string name="group_conversation_description">Samtale med <xliff:g id="participants">%s</xliff:g></string>
+    <string name="delete_subject_content_description">Slett emne</string>
+    <string name="camera_switch_to_video_mode">Byt til videoopptak</string>
+    <string name="camera_switch_to_still_mode">Byt til bilete</string>
+    <string name="camera_take_picture">Ta bilete</string>
+    <string name="camera_start_recording">Start videoopptak</string>
+    <string name="camera_switch_full_screen">Byt til fullskjermkamera</string>
+    <string name="camera_switch_camera_facing">Byt mellom kamera framme og bak</string>
+    <string name="camera_stop_recording">Stopp opptak og legg ved videoen</string>
+    <string name="camera_cancel_recording">Avbryt videoopptaket</string>
+    <string name="photo_view_activity_title">Bilete i Meldingar</string>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> bilete lagra i albumet «<xliff:g id="albumName">%s</xliff:g>»</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> bilete lagra i albumet «<xliff:g id="albumName">%s</xliff:g>»</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> video lagra i albumet «<xliff:g id="albumName">%s</xliff:g>»</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> videoar lagra i albumet «<xliff:g id="albumName">%s</xliff:g>»</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> vedlegg lagra i albumet «<xliff:g id="albumName">%s</xliff:g>»</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> vedlegg lagra i albumet «<xliff:g id="albumName">%s</xliff:g>»</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> vedlegg lagra i «Nedlastingar»</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> vedlegg lagra i «Nedlastingar»</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> vedlegg lagra</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> vedlegg lagra</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Klarte ikkje lagra vedlegget</item>
+        <item quantity="other">Klarte ikkje lagra <xliff:g id="quantity">%d</xliff:g> vedlegg</item>
+    </plurals>
+    <string name="attachment_file_description">Lagra MMS-vedlegg</string>
+    <string name="settings_activity_title">Innstillingar</string>
+    <string name="archived_activity_title">Arkivert</string>
+    <string name="action_close">Lukk</string>
+    <string name="mms_messaging_category_pref_title">MMS</string>
+    <string name="advanced_category_pref_title">Avansert</string>
+    <string name="debug_category_pref_title">Feilsøking</string>
+    <string name="notifications_pref_title">Varsel</string>
+    <string name="silent_ringtone">Lydlaus</string>
+    <string name="blocked_pref_title">Sperra</string>
+    <string name="delivery_reports_pref_title">SMS-leveringsrapportar</string>
+    <string name="delivery_reports_pref_summary">Be om leveringsrapport for kvar SMS du sender</string>
+    <string name="auto_retrieve_mms_pref_title">Hent automatisk</string>
+    <string name="auto_retrieve_mms_pref_summary">Hent MMS-meldingar automatisk</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_title">Hent automatisk ved nettveksling</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_summary">Hent MMS automatisk ved nettveksling</string>
+    <string name="group_mms_pref_title">Gruppemeldingar</string>
+    <string name="group_mms_pref_summary">Bruk MMS for å senda éi melding når det er fleire mottakarar</string>
+    <string name="sms_disabled_pref_title">Standardapp for SMS</string>
+    <string name="sms_enabled_pref_title">Standardapp for SMS</string>
+    <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
+    <string name="mms_phone_number_pref_title">Telefonnummeret ditt</string>
+    <string name="unknown_phone_number_pref_display_value">Ukjend</string>
+    <string name="send_sound_pref_title">Lyd ved utgåande meldingar</string>
+    <string name="dump_sms_pref_title">Dump SMS</string>
+    <string name="dump_sms_pref_summary">Dump rådata frå mottekne SMS til ei fil på ekstern lagring</string>
+    <string name="dump_mms_pref_title">Dump MMS</string>
+    <string name="dump_mms_pref_summary">Dump rådata frå mottekne MMS til ei fil på ekstern lagring</string>
+    <string name="wireless_alerts_title">Trådlause varsel</string>
+    <string name="message_context_menu_title">Meldingsval</string>
+    <string name="message_context_menu_copy_text">Kopier tekst</string>
+    <string name="message_context_menu_view_details">Sjå detaljar</string>
+    <string name="message_context_menu_delete_message">Slett</string>
+    <string name="message_context_menu_forward_message">Send vidare</string>
+    <string name="message_details_title">Meldingsdetaljar</string>
+    <string name="message_type_label">Type:\u0020</string>
+    <string name="text_message">Tekstmelding</string>
+    <string name="multimedia_message">Multimediemelding</string>
+    <string name="from_label">Frå:\u0020</string>
+    <string name="to_address_label">Til:\u0020</string>
+    <string name="sent_label">Sendt:\u0020</string>
+    <string name="received_label">Motteke:\u0020</string>
+    <string name="subject_label">Emne:\u0020</string>
+    <string name="message_size_label">Storleik:\u0020</string>
+    <string name="priority_label">Prioritet:\u0020</string>
+    <string name="sim_label">SIM:\u0020</string>
+    <string name="priority_high">Høg</string>
+    <string name="priority_normal">Normal</string>
+    <string name="priority_low">Låg</string>
+    <string name="sim_slot_identifier">SIM <xliff:g id="sim_slot_number">%s</xliff:g></string>
+    <string name="hidden_sender_address">Gøymt sendaradresse</string>
+    <string name="cant_send_message_while_loading_attachments">Kan ikkje senda meldinga medan vedlegga vert lasta inn.</string>
+    <string name="fail_to_load_attachment">Klarte ikkje lasta inn vedlegget. Prøv på nytt.</string>
+    <string name="cant_send_message_without_active_subscription">Nettverket er ikkje klart. Prøv på nytt.</string>
+    <string name="chips_text_delete_button_content_description">Slett tekst</string>
+    <string name="numeric_text_keyboard_toggle_button_content_description">Byt mellom tekst og tal</string>
+    <string name="add_more_participants_button_content_description">Legg til fleire deltakarar</string>
+    <string name="confrim_participants_button_content_description">Stadfest deltakarar</string>
+    <string name="start_new_conversation">Start ny samtale</string>
+    <string name="gallery_checkbox_content_description">Vel dette elementet</string>
+    <string name="video_thumbnail_view_play_button_content_description">Spel av video</string>
+    <string name="action_people_and_options">Folk og val</string>
+    <string name="action_debug_options">Feilsøking</string>
+    <string name="people_and_options_activity_title">Folk og val</string>
+    <string name="general_settings_title">Generelt</string>
+    <string name="participant_list_title">Folk i denne samtalen</string>
+    <string name="action_call">Ring</string>
+    <string name="compose_message_view_hint_text">Skriv melding</string>
+    <string name="compose_message_view_hint_text_multi_sim">Skriv melding&lt;br/&gt;&lt;small&gt;frå <xliff:g id="sim_name">%s</xliff:g>&lt;/small&gt;</string>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Send bilete</item>
+        <item quantity="other">Send bilete</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Send lyd</item>
+        <item quantity="other">Send lydar</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Send video</item>
+        <item quantity="other">Send videoar</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Send kontaktkort</item>
+        <item quantity="other">Send kontaktkort</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Send vedlegg</item>
+        <item quantity="other">Send vedlegg</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Eitt vedlegg er klart til sending</item>
+        <item quantity="other"><xliff:g id="attachment_count">%d</xliff:g> vedlegg er klare til sending</item>
+    </plurals>
+    <string name="menu_send_feedback">Send tilbakemelding</string>
+    <string name="menu_view_in_store">Sjå i Google Play Butikk</string>
+    <string name="menu_version_info">Versjonsinformasjon</string>
+    <string name="subtitle_format_for_version_number">Versjon %1$s</string>
+    <string name="menu_license">Lisensar for open kjeldekode</string>
+    <string name="notifications_enabled_conversation_pref_title">Varsel</string>
+    <string name="mms_attachment_limit_reached">Grensa for vedlegg er nådd</string>
+    <string name="mms_attachment_load_failed">Klarte ikkje lasta inn vedlegget.</string>
+    <string name="add_contact_confirmation_dialog_title">Vil du leggja til i kontaktar?</string>
+    <string name="add_contact_confirmation">Legg til kontakt</string>
+    <string name="compose_message_view_subject_hint_text">Emne</string>
+    <string name="conversation_message_view_subject_text">Emne:\u0020</string>
+    <string name="notification_subject"><xliff:g id="subject_label">%1$s</xliff:g><xliff:g id="messageText">%2$s</xliff:g></string>
+    <string name="loading_vcard">Lastar inn kontaktkortet</string>
+    <string name="failed_loading_vcard">Klarte ikkje lasta inn kontaktkortet</string>
+    <string name="vcard_tap_hint">Sjå kontaktkortet</string>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> kontakt</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> kontaktar</item>
+    </plurals>
+    <string name="vcard_detail_activity_title">Kontaktkort</string>
+    <string name="vcard_detail_birthday_label">Fødselsdag</string>
+    <string name="vcard_detail_notes_label">Notat</string>
+    <string name="forward_message_activity_title">Send meldinga vidare</string>
+    <string name="reply_activity_title">Svar</string>
+    <string name="plus_one">+1</string>
+    <string name="plus_n">+%d</string>
+    <string name="sms_disabled">SMS er deaktivert</string>
+    <string name="requires_default_sms_app_to_send">For å senda må du velja Meldingar som standardapp for SMS</string>
+    <string name="requires_default_sms_app">Vel Meldingar som standardapp for SMS</string>
+    <string name="requires_default_sms_change_button">Byt</string>
+    <string name="recommend_set_default_sms_app">For å ta imot meldingar må du velja Meldingar som standardapp for SMS</string>
+    <string name="no_preferred_sim_selected">Du har ikkje valt kva SIM-kort som skal brukast for SMS</string>
+    <string name="requires_sms_permissions_message">Eigaren av eininga tillet ikkje bruk av denne appen.</string>
+    <string name="requires_sms_permissions_close_button">OK</string>
+    <string name="too_many_participants">For mange deltakarar i samtalen</string>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">Ugyldig kontakt</item>
+        <item quantity="other">Ugyldige kontaktar</item>
+    </plurals>
+    <string name="camera_media_failure">Klarte ikkje lasta inn bilete frå kameraet</string>
+    <string name="conversation_list_item_view_sent_from_you_prefix">Du:\u0020</string>
+    <string name="conversation_list_item_view_sent_from_other_prefix"><xliff:g id="firstNameOfSender">%s</xliff:g>:\u0020</string>
+    <string name="conversation_list_item_view_draft_message">Utkast</string>
+    <string name="conversation_list_empty_text">Her ser du samtalar du har starta</string>
+    <string name="archived_conversation_list_empty_text">Her ser du arkiverte samtalar</string>
+    <string name="conversation_list_first_sync_text">Lastar inn samtalar …</string>
+    <string name="conversation_list_snippet_picture">Bilete</string>
+    <string name="conversation_list_snippet_audio_clip">Lydklipp</string>
+    <string name="conversation_list_snippet_video">Video</string>
+    <string name="conversation_list_snippet_vcard">Kontaktkort</string>
+    <string name="mms_text">MMS</string>
+    <string name="snack_bar_undo">Angra</string>
+    <string name="snack_bar_retry">Prøv på nytt</string>
+    <string name="contact_list_empty_text">Skriv eit kontaktnamn eller telefonnummer for å starta ei ny melding</string>
+    <string name="action_block">Sperr</string>
+    <string name="block_contact_title">Sperr <xliff:g id="destination">%s</xliff:g></string>
+    <string name="unblock_contact_title">Fjern sperringa av <xliff:g id="destination">%s</xliff:g></string>
+    <string name="block_confirmation_title">Vil du sperra <xliff:g id="destination">%s</xliff:g>?</string>
+    <string name="block_confirmation_message">Du får framleis meldingar frå dette nummeret, men du får ikkje lenger varsel om dei. Samtalen blir arkivert.</string>
+    <string name="blocked_contacts_title">Sperra kontaktar</string>
+    <string name="tap_to_unblock_message">FJERN SPERRE</string>
+    <string name="view_blocked_contacts_title">Sperra kontaktar</string>
+    <string name="pick_image_from_document_library_content_description">Vel bilete frå dokumentarkivet</string>
+    <string name="sending_message">Sender meldinga</string>
+    <string name="send_message_success">Meldinga er sendt</string>
+    <string name="send_message_failure_no_data">Mobildata er slått av. Sjekk innstillingane dine.</string>
+    <string name="send_message_failure_airplane_mode">Du kan ikkje senda meldingar i flymodus</string>
+    <string name="send_message_failure">Klarte ikkje senda meldinga</string>
+    <string name="download_message_success">Meldinga er lasta ned</string>
+    <string name="download_message_failure_no_data">Mobildata er slått av. Sjekk innstillingane dine.</string>
+    <string name="download_message_failure_airplane_mode">Du kan ikkje lasta ned meldingar i flymodus</string>
+    <string name="download_message_failure">Klarte ikkje lasta ned meldinga</string>
+    <string name="content_description_for_number_zero">Null</string>
+    <string name="content_description_for_number_one">Ein</string>
+    <string name="content_description_for_number_two">To</string>
+    <string name="content_description_for_number_three">Tre</string>
+    <string name="content_description_for_number_four">Fire</string>
+    <string name="content_description_for_number_five">Fem</string>
+    <string name="content_description_for_number_six">Seks</string>
+    <string name="content_description_for_number_seven">Sju</string>
+    <string name="content_description_for_number_eight">Åtte</string>
+    <string name="content_description_for_number_nine">Ni</string>
+    <string name="carrier_send_error">Klarte ikkje senda meldinga med <xliff:g id="carrierName">%1$s</xliff:g>. Feilkode: <xliff:g id="errorCode">%2$d</xliff:g></string>
+    <string name="carrier_send_error_unknown_carrier">Klarte ikkje senda meldinga med ukjend mobiloperatør. Feilkode: <xliff:g id="errorCode">%1$d</xliff:g></string>
+    <string name="message_fwd">Fwd: <xliff:g id="subject">%s</xliff:g></string>
+    <string name="mms_failure_outgoing_service">Meldinga vart ikkje sendt: Tenesta er ikkje aktivert på nettverket</string>
+    <string name="mms_failure_outgoing_address">Meldinga vart ikkje sendt: Mottakaradressa er ugyldig</string>
+    <string name="mms_failure_outgoing_corrupt">Meldinga vart ikkje sendt: Meldinga er ugyldig</string>
+    <string name="mms_failure_outgoing_content">Meldinga vart ikkje sendt: Innhaldet er ikkje støtta</string>
+    <string name="mms_failure_outgoing_unsupported">Meldinga vart ikkje sendt: Meldinga er ikkje støtta</string>
+    <string name="mms_failure_outgoing_too_large">Meldinga vart ikkje sendt: Meldinga er for stor</string>
+    <string name="in_conversation_notify_new_message_text">Ny melding</string>
+    <string name="in_conversation_notify_new_message_action">Sjå</string>
+    <string name="message_image_content_description">Bilete</string>
+    <string name="activity_not_found_message">Fann ingen appar som kan utføra dette</string>
+    <string name="chips_delete_content_description">Fjern mottakar</string>
+    <string name="share_new_message">Ny melding</string>
+    <string name="share_cancel">Avbryt</string>
+    <string name="apn_edit">Rediger tilgangspunkt</string>
+    <string name="apn_not_set">Ikkje valt</string>
+    <string name="apn_name">Namn</string>
+    <string name="apn_apn">APN</string>
+    <string name="apn_mmsc">MMSC</string>
+    <string name="apn_mms_proxy">MMS-proxy</string>
+    <string name="apn_mms_port">MMS-port</string>
+    <string name="apn_mcc">MCC</string>
+    <string name="apn_mnc">MNC</string>
+    <string name="apn_type">APN-type</string>
+    <string name="menu_delete_apn">Slett tilgangspunkt (APN)</string>
+    <string name="menu_new_apn">Ny APN</string>
+    <string name="menu_save_apn">Lagra</string>
+    <string name="menu_discard_apn_change">Forkast</string>
+    <string name="error_apn_name_empty">Namnefeltet kan ikkje vera tomt.</string>
+    <string name="error_apn_empty">APN-feltet kan ikkje vera tomt.</string>
+    <string name="error_mcc_not3">MCC-feltet må ha tre siffer.</string>
+    <string name="error_mnc_not23">MNC-feltet må ha to eller tre siffer.</string>
+    <string name="restore_default_apn">Nullstillar til fabrikkinnstillingar for APN.</string>
+    <string name="menu_restore_default_apn">Nullstill til fabrikkinnstillingar</string>
+    <string name="restore_default_apn_completed">Tilgangspunkta er nullstilla.</string>
+    <string name="untitled_apn">Namnlaus</string>
+    <string name="sms_apns_title">Namn på tilgangspunkt</string>
+    <string name="apn_settings">APN-ar</string>
+    <string name="menu_new">Ny APN</string>
+    <string name="apn_settings_not_available">Innstillingar for tilgangspunkt er ikkje tilgjengelege for denne brukaren</string>
+    <string name="copy_to_clipboard_dialog_title">Vil du kopiera til utklippstavla?</string>
+    <string name="copy_to_clipboard">Kopier</string>
+    <string name="incoming_sim_name_text">til <xliff:g id="sim_name">%s</xliff:g></string>
+    <string name="general_settings">Generelt</string>
+    <string name="advanced_settings">Avansert</string>
+    <string name="general_settings_activity_title">Generelle innstillingar</string>
+    <string name="advanced_settings_activity_title">Avanserte innstillingar</string>
+    <string name="sim_specific_settings">SIM-kortet «<xliff:g id="sim_name">%s</xliff:g>»</string>
+    <string name="disable_group_mms">Send kvar melding som SMS. Svara kjem berre til deg.</string>
+    <string name="enable_group_mms">Send éi MMS-melding til alle mottakarane</string>
+    <string name="sim_settings_unknown_number">Ukjend nummer</string>
+    <string name="secondary_user_new_message_title">Ny melding</string>
+    <string name="secondary_user_new_message_ticker">Ny melding.</string>
+    <string name="sim_selector_button_content_description">SIM-veljar</string>
+    <string name="sim_selector_button_content_description_with_selection"><xliff:g id="sim">%1$s</xliff:g> er valt, SIM-veljar</string>
+    <string name="send_button_long_click_description_no_sim_selector">Rediger emne</string>
+    <string name="send_button_long_click_description_with_sim_selector">Vel SIM eller rediger emne</string>
+    <string name="audio_record_view_content_description">Trykk og hald inne for å ta opp lyd</string>
+    <string name="widget_new_conversation_content_description">Start ny samtale</string>
+    <string name="widget_title_content_description">Meldingar</string>
+    <string name="widget_conversation_list_name">Meldingsliste</string>
+    <string name="widget_conversation_name">Meldingar</string>
+    <string name="widget_new_message_content_description">Ny melding</string>
+    <string name="widget_conversation_list_content_description">Samtaleliste</string>
+    <string name="loading_conversations">Lastar inn samtalar</string>
+    <string name="loading_messages">Lastar inn meldingar</string>
+    <string name="view_more_conversations">Sjå fleire samtalar</string>
+    <string name="view_more_messages">Sjå fleire meldingar</string>
+    <string name="conversation_deleted">Samtalen er sletta</string>
+    <string name="tap_to_configure">Samtalen er sletta. Trykk for å visa ei anna meldingsutveksling</string>
+    <string name="update_destination_blocked">Sperra</string>
+    <string name="update_destination_unblocked">Sperra er fjerna</string>
+    <string name="db_full">Lite lagringsplass att. Somme data kan gå tapt.</string>
+    <string name="attachment_chooser_activity_title">Vel vedlegg</string>
+    <string name="action_confirm_selection">Stadfest valet</string>
+    <string name="attachment_chooser_selection"><xliff:g id="count">%d</xliff:g> er valde</string>
+    <string name="attachment_limit_reached_dialog_message_when_composing">Fjern eitt eller fleire vedlegg og prøv på nytt.</string>
+    <string name="attachment_limit_reached_dialog_message_when_sending">Du kan prøva å senda meldinga, men ho kjem kanskje ikkje fram før du fjernar eitt eller fleire vedlegg.</string>
+    <string name="video_attachment_limit_exceeded_when_sending">Du kan berre senda éin video per melding. Fjern andre videoar og prøv på nytt.</string>
+    <string name="attachment_load_failed_dialog_message">Klarte ikkje lasta inn vedlegget i Meldingar.</string>
+    <string name="attachment_limit_reached_send_anyway">Send likevel</string>
+    <string name="conversation_creation_failure">Klarte ikkje starta samtalen</string>
+    <string name="link_display_format"><xliff:g id="text">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
+    <string name="selected_sim_content_message"><xliff:g id="selected_sim">%s</xliff:g> er valt</string>
+    <string name="work_directory_display_name">Kontaktar i arbeidsprofilen</string>
+    <string name="disallow_emergency_call">Du kan ikkje ringja naudnummer herfrå.</string>
+</resources>

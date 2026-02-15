@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_share_drop_target_label">Dela appen</string>
+    <string name="action_listen">Lytt</string>
+    <string name="action_translate">Set om</string>
+    <string name="action_search">Lens</string>
+    <string name="dialog_acknowledge">SKJØNAR</string>
+    <string name="dialog_cancel">AVBRYT</string>
+    <string name="dialog_settings">INNSTILLINGAR</string>
+    <string name="niu_actions_confirmation_title">Set om eller lytt til tekst på skjermen</string>
+    <string name="niu_actions_confirmation_text">Informasjon som tekst på skjermen, nettadresser og skjermbilete kan verta delt med Google.\n\nDu kan endra kva informasjon du deler i <b>Innstillingar &gt; Appar &gt; Standard-appar &gt; Digital assistent-app</b>.</string>
+    <string name="assistant_not_selected_title">Vel ein assistent for å bruka denne funksjonen</string>
+    <string name="assistant_not_selected_text">For å lytta til eller setja om tekst på skjermen må du velja ein digital assistent-app i Innstillingar</string>
+    <string name="assistant_not_supported_title">Byt assistent for å bruka denne funksjonen</string>
+    <string name="assistant_not_supported_text">For å lytta til eller setja om tekst på skjermen må du byta digital assistent-app i Innstillingar</string>
+    <string name="tooltip_listen">Trykk her for å lytta til tekst på denne skjermen</string>
+    <string name="tooltip_translate">Trykk her for å setja om tekst på denne skjermen</string>
+    <string name="toast_p2p_app_not_shareable">Denne appen kan ikkje delast</string>
+</resources>
