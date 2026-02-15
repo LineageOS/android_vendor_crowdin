@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2025 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="private_space_app_label">Privat rom</string>
+    <string name="shortcut_label_add_files">Legg til filer</string>
+    <string name="shortcut_label_open_market_app">Installer appar</string>
+    <string name="move_files_dialog_title">Flytta eller kopiera filer?</string>
+    <string name="move_files_dialog_summary">Viss du flyttar desse filene til det private rommet ditt, vert dei fjerna frå dei opphavlege mappene sine</string>
+    <string name="move_files_dialog_button_label_move">Flytt</string>
+    <string name="move_files_dialog_button_label_copy">Kopier</string>
+    <string name="move_files_dialog_button_label_cancel">Avbryt</string>
+    <string name="filetransfer_notification_copy_progress_title">Kopierer <xliff:g example="4" id="files">%1$d</xliff:g> filer</string>
+    <string name="filetransfer_notification_move_progress_title">Flyttar <xliff:g example="4" id="files">%1$d</xliff:g> filer</string>
+    <string name="filetransfer_notification_copy_complete_title"><xliff:g example="4" id="files">%1$d</xliff:g> filer er kopierte</string>
+    <string name="filetransfer_notification_move_complete_title"><xliff:g example="4" id="files">%1$d</xliff:g> filer er flytta</string>
+    <string name="filetransfer_notification_copy_progress_text">Dei valde filene vert kopierte til det private rommet ditt</string>
+    <string name="filetransfer_notification_move_progress_text">Dei valde filene vert flytta til det private rommet ditt</string>
+    <string name="filetransfer_notification_copy_complete_text">Dei valde filene vart kopierte til det private rommet ditt</string>
+    <string name="filetransfer_notification_move_complete_text">Dei valde filene vart flytta til det private rommet ditt</string>
+    <string name="filetransfer_notification_action_label">Vis filer</string>
+    <string name="filetransfer_notification_channel_name">Varsel om filoverføring</string>
+    <string name="filetransfer_notification_channel_description">"Når du kopierer eller flyttar filer til det private rommet ditt, kan du få varsel om korleis det går"</string>
+</resources>

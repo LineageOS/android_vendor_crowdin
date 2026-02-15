@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2022 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="health_connect_notification_channel_name" description="The main notification channel label shown in settings.">Oppdateringar og varsel</string>
+    <string name="manage_data_summary" description="Summary for the manage data preference. [CHAR_LIMIT=NONE]">Slett automatisk, datakjelder, tryggingskopiering og gjenoppretting</string>
+    <string name="banner_group_more_items" description="Title for button to expand a banner preference group when one or more banners are hidden [CHAR_LIMIT]=50">Fleire element</string>
+    <string name="banner_group_fewer_items" description="Title for button to collapse banner preference group and only show the first banner [CHAR_LIMIT]=50">Færre element</string>
+    <string name="recent_access_empty_state_title" description="Title of section shown when no apps have recently accessed health data [CHAR_LIMIT=NONE]">Ingen nyleg tilgang</string>
+    <string name="recent_access_empty_state_description" description="Description of section shown when no apps have recently accessed health data [CHAR_LIMIT=NONE]">Appar som nyleg har brukt dataa dine, vert viste her automatisk</string>
+    <string name="recent_access_view_all_button" description="Label on a button leading to another screen showing all the writes and reads performed by connected apps in the last 24 hours. [CHAR LIMIT=50]">Vis alle</string>
+    <string name="recent_access_error" description="Text indicating to the user that there was an error while loading recent access [CHAR_LIMIT=NONE]">Klarte ikkje lasta inn nyleg tilgang</string>
+    <string name="recent_access_inactive_app" description="Text indicating that the app the user tried to click on is no longer available[CHAR_LIMIT=NONE]">Denne appen er ikkje lenger tilgjengeleg</string>
+    <string name="unkwown_resource" description="Label shown when a medical data cannot be identified [CHAR_LIMIT=NONE]">(Utan tittel)</string>
+    <string name="connected_apps_empty_list_section_title" description="Title of section when there are no connected apps">Ingen kompatible appar er installerte</string>
+    <string name="backup_and_restore_settings_screen_title" description="Title of the 'backup and restore' screen where users can set up configurations to export and import Health Connect data. [CHAR_LIMIT=40]">Tryggingskopiering og gjenoppretting</string>
+    <string name="import_data_description" description="Description about the function of the 'restore data' preference. [CHAR_LIMIT=NONE]">Gjenopprett data frå ei fil du har eksportert før</string>
+    <string name="import_error_banner_title" description="Title of banner prompting the user that a previous data import failed. [CHAR LIMIT=50]">Klarte ikkje gjenoppretta data</string>
+    <string name="import_wrong_file_error_banner_summary" description="Summary of banner prompting the user to set up the import again due to the wrong file error. [CHAR LIMIT=NONE]">Fila du har valt, kan ikkje brukast til gjenoppretting. Pass på at du vel rett eksportfil.</string>
+    <string name="import_version_mismatch_error_banner_summary" description="Summary of banner prompting the user to update the mainline module due to the version mismatch error. [CHAR LIMIT=NONE]">Oppdater systemet ditt så Health Connect kan gjenoppretta dataa dine, og prøv så på nytt.</string>
+    <string name="import_other_error_banner_summary" description="Summary of banner prompting the user to try the import again due to certain error. [CHAR LIMIT=NONE]">Det oppstod eit problem då data skulle gjenopprettast frå eksporten din.</string>
+    <string name="backup_and_restore_footer_link_text" description="Link text displayed in the footer to allow the user to navigate to further information about the export feature. [CHAR_LIMIT=40]">Om tryggingskopiering og gjenoppretting</string>
+    <string name="import_notification_import_in_progress_title" description="Title text of notification displayed when import is in progress. [CHAR_LIMIT=NONE]">Health Connect-gjenoppretting pågår</string>
+    <string name="import_notification_import_complete_title" description="Title text of notification displayed when import has completed successfully. [CHAR_LIMIT=NONE]">Gjenopprettinga i Health Connect er ferdig</string>
+    <string name="import_in_progress_toast_text" description="Toast text displayed when import is in progress. [CHAR_LIMIT=40]">Gjenoppretting pågår</string>
+    <string name="import_complete_toast_text" description="Toast text displayed when import completes successfully. [CHAR_LIMIT=40]">Dataa er ferdig gjenoppretta</string>
+    <string name="import_notification_error_generic_error_title" description="Title text of notification displayed when import fails due to generic error. [CHAR_LIMIT=NONE]">Health Connect klarte ikkje gjenoppretta data</string>
+    <string name="import_notification_error_invalid_file_body_text" description="Body text of notification displayed when import fails due to invalid file selection. [CHAR_LIMIT=NONE]">Fila du har valt, kan ikkje brukast til gjenoppretting. Pass på at du vel rett eksportfil.</string>
+    <string name="import_notification_error_more_space_needed_body_text" description="Body text of notification displayed when import fails due to needing additional space. [CHAR_LIMIT=NONE]">Health Connect treng <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> lagringsplass på telefonen din for å kunna halda fram med gjenopprettinga.</string>
+    <string name="import_notification_error_generic_error_body_text" description="Body text of notification displayed when import fails due to generic error. [CHAR_LIMIT=NONE]">Noko gjekk gale då data skulle gjenopprettast frå eksporten din.</string>
+    <string name="import_notification_error_version_mismatch_body_text" description="Body text of notification displayed when import fails due to a version mismatch between new and old backup file. [CHAR_LIMIT=NONE]">Oppdater systemet ditt så Health Connect kan gjenoppretta dataa dine, og prøv så på nytt.</string>
+    <string name="share_data_text" description="Text explaining how the user can share data with apps"><b>Del data med appane dine</b>\nVel kva data kvar app kan lesa frå eller skriva til Health Connect</string>
+    <string name="manage_your_settings_text" description="Text explaining how the user can change app permissions and manage data"><b>Styr innstillingar og personvern</b>\nDu kan endra appløyve og styra dataa dine når som helst</string>
+    <string name="delete_progress_indicator" description="Label of a message on a loading page with a progress bar during data deletion. [CHAR_LIMIT=100]">Slettar dataa dine</string>
+    <string name="see_actions_button_content_description" description="Content description of a button that is used to show the potential actions the user can take: remove selected app, move up or down an app in the priority list [CHAR LIMIT=NONE]">Knapp for å endra rekkjefylgja eller fjerna <xliff:g example="Test app" id="selected_app">%s</xliff:g> frå lista over app-kjelder</string>
+    <string name="priority_list_item_content_description" description="Content description of an app in the priority list, and the position in the list [CHAR LIMIT=NONE]"> <xliff:g example="1st" id="position">%1$s</xliff:g> i lista <xliff:g example="Test app" id="selected_app">%2$s</xliff:g></string>
+    <string name="loading" description="Label shown when loading data. [CHAR_LIMIT=40]">Lastar inn …</string>
+    <string name="data_restore_in_progress_screen_title" description="Title of screen shown when data restore is in progress">Gjenoppretting pågår</string>
+    <string name="data_restore_in_progress_content" description="Detail information shown when migration is in progress">Health Connect gjenopprettar data og løyve. Dette kan ta litt tid å fullføra.</string>
+    <string name="data_restore_in_progress_dialog_title" description="Title of dialog shown when data restore is in progress">Health Connect-gjenoppretting pågår</string>
+    <string name="data_restore_pending_banner_content" description="Content of banner shown when data restore is pending">Før du kan halda fram med å gjenoppretta dataa dine, må du oppdatera telefon-systemet.</string>
+    <string name="remove" description="Menu option for removing an app from the app sources list">Fjern</string>
+    <string name="menu_show_system">Vis system</string>
+    <string name="menu_hide_system">Gøym system</string>
+    <string name="wear_request_multiple_data_type_permissions" description="Subtitle shown for allowing multiple fitness permissions. "><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> ber om tilgang til <xliff:g id="data_types" example="heart rate, skin temp">%2$s</xliff:g>.\n\nVel om du vil gje løyve til alt eller styra dei kvar for seg.</string>
+    <string name="wear_request_single_data_type_permission" description="Title shown for allowing single fitness permission. ">Gje <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> tilgang til <xliff:g id="data_type" example="Heart rate">%2$s</xliff:g>?</string>
+    <string name="view_permissions_description_all_the_time" description="Text that indicates an app is allowed to read health data all the time (in the foreground or background)."><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> har tilgang til alle trenings- og helsedata heile tida</string>
+    <string name="view_permissions_description_while_in_use" description="Text that indicates an app is only allowed to read health data while in use (in the foreground)."><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> har tilgang til alle trenings- og helsedata når appen er i bruk</string>
+    <string name="current_allow_mode_all_the_time" description="Text to indicate that the app is currently allowed to use the permission all the time (in the foreground or background)">\"<xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> har no tilgang til trenings- og helsedata heile tida</string>
+    <string name="current_allow_mode_while_in_use" description="Text to indicate that the app is currently allowed to use the permission only while in use by the user (in the foreground).">\"<xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> har no tilgang til trenings- og helsedata når appen er i bruk</string>
+    <string name="allow_all_the_time_prompt" description="Title to ask user to select all the time or while in use.">Vel kva tid <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> skal ha tilgang til trenings- og helsedataa dine</string>
+    <string name="used_by_apps_count" description="Text to indicate how many apps used this permission in past 24 hours.">{count, plural, =1 {Brukt av 1 app} other {Brukt av # appar}}</string>
+    <string name="not_used_in_past_24_hours" description="Text to indicate no app used this permission in past 24 hours.">Ikkje brukt dei siste 24 timane</string>
+    <string name="accessed" description="Text to indicate last accessed time to a permission.">Henta <xliff:g example="13:05" id="recent_access_time">%1$s</xliff:g></string>
+</resources>

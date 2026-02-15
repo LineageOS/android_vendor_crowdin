@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="blocked">Sperra</string>
+    <string name="loading">Lastar inn \u2026</string>
+    <string name="message_staging">Klargjer appen …</string>
+    <string name="app_permission_info_button">Informasjon</string>
+    <string name="role_assistant_recommended_title">Tilrådd av <xliff:g id="OEM_NAME" example="FictionalOEM">%s</xliff:g></string>
+    <string name="default_app_others">Andre</string>
+    <string name="incident_report_dialog_text">"<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ber om å få lasta opp ein feilrapport frå denne eininga, laga <xliff:g id="date" example="December 26, 2018">%2$s</xliff:g> kl. <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Feilrapportar inneheld personopplysningar om eininga di eller data loggførte av appar, til dømes brukarnamn, stadinformasjon, einings-ID-ar og nettverksinformasjon. Du bør berre dela feilrapportar med personar og appar du har tillit til.\n\nVil du gje <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> løyve til å lasta opp ein feilrapport?"</string>
+    <string name="enhanced_confirmation_phone_state_dialog_title">Kan ikkje fullføra handlinga under ein samtale</string>
+    <string name="enhanced_confirmation_phone_state_dialog_desc">Denne innstillinga er sperra for å verna eininga og dataa dine.<xliff:g id="scam_use_setting_description" example="scammers may ask you to allow apps to install other apps">%1$s</xliff:g></string>
+    <string name="enhanced_confirmation_phone_state_dialog_install_desc"><xliff:g id="empty_line">\n\n</xliff:g>Svindlarar kan freista å installera skadelege appar ved å be deg installera ukjende appar frå ei ny kjelde.</string>
+    <string name="enhanced_confirmation_phone_state_dialog_a11y_desc"><xliff:g id="empty_line">\n\n</xliff:g>Svindlarar kan freista å ta kontroll over eininga di ved å be deg gje tilgjenge-løyve til ein app.</string>
+</resources>

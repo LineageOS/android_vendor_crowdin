@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back">Gå tilbake</string>
+    <string name="description_dialpad_overflow">Fleire val</string>
+    <string name="description_delete_button">rettetast</string>
+    <string name="description_image_button_plus">pluss</string>
+    <string name="description_voicemail_button">telefonsvarar</string>
+    <string name="default_notification_description">Standardlyd (<xliff:g id="default_sound_title">%1$s</xliff:g>)</string>
+    <string name="callFailed_userBusy">Oppteke</string>
+    <string name="callFailed_congestion">Nettet er oppteke</string>
+    <string name="callFailed_timedOut">Svarar ikkje (tidsavbrot)</string>
+    <string name="callFailed_server_unreachable">Tenaren er ikkje tilgjengeleg</string>
+    <string name="callFailed_number_unreachable">Nummeret er ikkje tilgjengeleg</string>
+    <string name="callFailed_invalid_credentials">Feil brukarnamn eller passord</string>
+    <string name="callFailed_out_of_network">Samtale utanfor nettet</string>
+    <string name="callFailed_server_error">Tenarfeil. Prøv på nytt seinare.</string>
+    <string name="callFailed_noSignal">Ingen signal</string>
+    <string name="callFailed_limitExceeded">ACM-grensa er nådd</string>
+    <string name="callFailed_powerOff">Radio er av</string>
+    <string name="callFailed_simError">Manglar SIM-kort eller SIM-feil</string>
+    <string name="callFailed_outOfService">Mobilnettet er ikkje tilgjengeleg</string>
+    <string name="callFailed_fdn_only">Utgåande samtalar er avgrensa av FDN.</string>
+    <string name="callFailed_dialToUssd">Samtalen er endra til USSD-førespurnad</string>
+    <string name="callFailed_dialToSs">Samtalen er endra til SS-førespurnad</string>
+    <string name="callFailed_dialToDial">Endra til eit anna nummer</string>
+    <string name="callFailed_dialToDialVideo">Endra til videosamtale</string>
+    <string name="callFailed_dialVideoToSs">Videosamtale endra til SS-førespurnad</string>
+    <string name="callFailed_dialVideoToUssd">Videosamtale endra til USSD-førespurnad</string>
+    <string name="callFailed_dialVideoToDial">Endra til vanleg samtale</string>
+    <string name="callFailed_dialVideoToDialVideo">Endra til eit anna nummer</string>
+    <string name="callFailed_cb_enabled">Du kan ikkje ringja ut medan samtalesperring er på.</string>
+    <string name="callFailed_dsac_restricted">Samtalar er avgrensa av tilgangskontroll.</string>
+    <string name="callFailed_dsac_restricted_emergency">Naudsamtalar er avgrensa av tilgangskontroll.</string>
+    <string name="callFailed_dsac_restricted_normal">Vanlege samtalar er avgrensa av tilgangskontroll.</string>
+    <string name="callFailed_unobtainable_number">Ugyldig nummer</string>
+    <string name="incall_error_missing_voicemail_number">Nummeret til telefonsvararen er ukjent.</string>
+    <string name="callFailed_video_call_tty_enabled">Kan ikkje ha videosamtalar når TTY er slått på.</string>
+    <string name="callEnded_pulled">Samtalen er flytta til ei anna eining.</string>
+    <string name="ringtone_silent">Ingen</string>
+    <string name="ringtone_unknown">Ukjend ringjetone</string>
+    <string name="callFailed_maximum_reached">Alle tilgjengelege linjer er i bruk. For å ringja må du avslutta ein av samtalane på denne eininga eller på ei av dei andre einingane dine.</string>
+    <string name="callFailed_data_disabled">Samtalen vart avslutta fordi mobildata vart slått av.</string>
+    <string name="callFailed_data_limit_reached_description">Samtalen vart avslutta fordi grensa for mobildata er nådd.</string>
+    <string name="callFailed_data_limit_reached">Datagrensa er nådd. Samtalen vart avslutta.</string>
+</resources>

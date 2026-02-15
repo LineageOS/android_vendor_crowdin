@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hotwording_summary">Snakk med taleassistenten når som helst</string>
+    <string name="privacy_assistant_settings_title">Taleassistent</string>
+    <string name="sync_in_progress">Synkroniserer \u2026</string>
+    <string name="wifi_setting_thread_network_context">Thread-nettverk koplar saman Thread-støtta smarteiningar lokalt. Dette gjer dei meir effektive og aukar ytinga.\n\nNår funksjonen er på, vil denne eininga oppretta eller kopla seg til Thread-nettverket ditt. Påloggingsinformasjon vert lasta opp privat til skya så det vert lettare å setja opp framtidige smarteiningar.\n\nSlår du av funksjonen, kan ikkje denne eininga lenger tala med andre einingar i Thread-nettverket ditt. Somme smarteiningar og tenester vil då kanskje ikkje fungera som venta.\n\nFinn ut meir på g.co/tv/thread</string>
+    <string name="add_apps_title">Legg til fleire appar</string>
+    <string name="device_backup_restore">Tryggingskopi og gjenoppretting</string>
+    <string name="surround_sound_hide_formats">Gøym format</string>
+    <string name="hdr_hide_formats">Gøym format</string>
+    <string name="default_audio_output_settings_title" translatable="true"/>
+    <string name="accessory_state_pairing">Parar  …</string>
+    <string name="accessory_state_connecting">Koplar til  …</string>
+    <string name="accessory_unpairing">Opphevar paring av eining  …</string>
+    <string name="accessories_add_title">Søkjer etter utstyr  …</string>
+    <string name="bluetooth_toggle_confirmation_dialog_summary">Du kan ikkje bruka taleassistenten frå fjernkontrollen så lenge Bluetooth er slått av.</string>
+    <string name="manage_device_admin">Administrator for eininga</string>
+    <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Kopla til internett eller ta kontakt med mobiloperatøren</string>
+    <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Ikkje tilgjengeleg på operatørlåste einingar</string>
+    <string name="other_network">Anna nettverk  …</string>
+    <string name="title_wifi_no_networks_available">Skannar  …</string>
+    <string name="storage_calculating_size">Reknar ut \u2026</string>
+    <string name="storage_wizard_format_progress_title">Formaterer USB-stasjonen …</string>
+    <string name="storage_wizard_migrate_progress_title">Flyttar data til <xliff:g id="name" example="SD card">%1$s</xliff:g> …</string>
+    <string name="storage_wizard_eject_progress_title">Løyser ut <xliff:g id="name" example="SD Card">%1$s</xliff:g> …</string>
+    <string name="storage_wizard_move_app_progress_title">Flyttar <xliff:g id="name" example="YouTube">%1$s</xliff:g> …</string>
+    <string name="mic_remote_toggle_title">Mikrofontilgang på fjernkontrollen</string>
+    <string name="mic_toggle_info_content">Når denne er på, vil alle appar og tenester som har løyve til det, få tilgang til mikrofonen.\n\nNår han er slått av, kan ingen appar eller tenester bruka mikrofonen. Men du kan framleis snakka til taleassistenten ved å trykkja på assistent-knappen på fjernkontrollen.\n\nLydeiningar som brukar eigne protokollar for å snakka med TV-en, vert kanskje ikkje rørde av denne innstillinga.</string>
+    <string name="mic_remote_toggle_on_info_title">Mikrofon er slått på på fjernkontrollen</string>
+    <string name="mic_remote_toggle_on_info_content">Taleassistenten kan bruka mikrofonen på fjernkontrollen din. Du kan snakka med assistenten ved å trykkja på assistent-knappen på fjernkontrollen.</string>
+    <string name="mic_remote_toggle_off_info_title">Mikrofon er slått av på fjernkontrollen</string>
+    <string name="mic_remote_toggle_off_info_content">Du kan ikkje snakka med taleassistenten via fjernkontrollen. Slå på mikrofontilgang for å kunna bruka assistent-knappen.</string>
+    <string name="bounce_key_detailed">Fjernkontrollen ser bort frå gjentekne tastetrykk</string>
+    <string name="system_never_check">Aldri kontroller</string>
+    <string name="system_check_for_drm_content_only">Berre kontroller DRM-innhald</string>
+    <string name="system_always_check">Alltid kontroller</string>
+    <string name="computing_size">Reknar ut \u2026</string>
+    <string name="inputs_hide">Gøymt</string>
+    <string name="restricted_profile_create_title">Lag avgrensa profil</string>
+    <string name="restricted_profile_configure_apps_description_loading">Vent litt \u2026</string>
+    <string name="restricted_profile_create_preference_screen">Vil du laga ein avgrensa profil?</string>
+    <string name="restricted_profile_already_created_placeholder">Allereie laga</string>
+    <string name="wifi_setup_description">Vel <xliff:g id="wifi_submit_icon">%1$s</xliff:g> for å halda fram.</string>
+    <string name="limit_network_in_standby_toggle_info">TV-en din vert kopla frå nettverket når han er i dvalemodus, bortsett frå når han tek imot automatiske oppdateringar. Dette kan minka straumbruken til TV-en, men tyder òg at du ikkje kan bruka funksjonar som Cast og taleassistenten medan TV-en kviler.</string>
+    <string name="privacy_automatic_restore">Automatisk gjenoppretting</string>
+    <string name="custom_room">Skriv inn eige namn …</string>
+    <string name="usage_access">Bruksdata for appar</string>
+    <string name="usage_access_description">Bruksdata for appar gjev ein app løyve til å fylgja med på kva andre appar du brukar og kor ofte, samt mobiloperatør, språkinnstillingar og andre detaljar.</string>
+    <string name="help_center_title" translatable="true"/>
+    <string name="select_device_admin_msg">Eining-administrator</string>
+    <string name="menu_monitor">Monitor</string>
+    <string name="settings_find_my_remote_title">Finn fjernkontrollen min</string>
+    <string name="settings_find_my_remote_description">Spel av ein lyd for å finna Google TV-fjernkontrollen din om du har mista han</string>
+    <string name="find_my_remote_slice_description">Det er ein knapp på Google TV-en din som du kan trykkja på for å spela av ein lyd på fjernkontrollen i 30 sekund. Dette fungerer berre med støtta Google TV-fjernkontrollar.\n\nTrykk på ein kva som helst knapp på fjernkontrollen for å stansa lyden.</string>
+    <string name="find_my_remote_integration_hint">Når dette er på, kan du bruka knappen på eininga di for å spela av ein lyd så du finn att fjernkontrollen. Er funksjonen av, vil ikkje knappen fungera. Du kan framleis bruka «Finn fjernkontrollen min» på andre måtar.</string>
+    <string name="settings_backlight_description">Lys i knappane på fjernkontrollen ved kvart trykk.</string>
+    <string name="volume_change_subtitle_unselect">Du kan styra assistent-volumet på %1$s-høgttalaren</string>
+</resources>

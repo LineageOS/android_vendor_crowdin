@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_status">
+        <item/>
+        <item>Søkjer \u2026</item>
+        <item>Koplar til \u2026</item>
+        <item>Stadfestar \u2026</item>
+        <item>Hentar IP-adresse \u2026</item>
+        <item>Tilkopla</item>
+        <item>Mellombels stansa</item>
+        <item>Koplar frå \u2026</item>
+        <item>Fråkopla</item>
+        <item>Mislukka</item>
+        <item>Sperra</item>
+        <item>Held seg unna dårleg samband mellombels</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item/>
+        <item>Søkjer \u2026</item>
+        <item>Koplar til <xliff:g id="network_name">%1$s</xliff:g> \u2026</item>
+        <item>Stadfestar med <xliff:g id="network_name">%1$s</xliff:g> \u2026</item>
+        <item>Hentar IP-adresse frå <xliff:g id="network_name">%1$s</xliff:g> \u2026</item>
+        <item>Kopla til <xliff:g id="network_name">%1$s</xliff:g></item>
+        <item>Mellombels stansa</item>
+        <item>Koplar frå <xliff:g id="network_name">%1$s</xliff:g> \u2026</item>
+        <item>Fråkopla</item>
+        <item>Mislukka</item>
+        <item>Sperra</item>
+        <item>Held seg unna dårleg samband mellombels</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Sjekk aldri</item>
+        <item>Sjekk berre for DRM-innhald</item>
+        <item>Sjekk alltid</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Bruk aldri HDCP-sjekking</item>
+        <item>Bruk HDCP-sjekking berre for DRM-innhald</item>
+        <item>Bruk alltid HDCP-sjekking</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Slått av</item>
+        <item>Påslåtte vert filtrerte</item>
+        <item>Slått på</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>Behald berre ACL-hovud</item>
+        <item>Filtrer A2DP-mediepakkar</item>
+        <item>Filtrer RFCOMM-kanal</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Slå av</item>
+        <item>Fyll med teiknstreng</item>
+        <item>Behald berre hovudet</item>
+        <item>Fjern heilt</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (standard)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (standard)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Bruk systemval (standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item><xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>-lyd</item>
+        <item><xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g>-lyd</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Bruk systemval (standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item><xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>-lyd</item>
+        <item><xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g>-lyd</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Bruk systemval (standard)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Bruk systemval (standard)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Bruk systemval (standard)</item>
+        <item>16 bit per utval</item>
+        <item>24 bit per utval</item>
+        <item>32 bit per utval</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Bruk systemval (standard)</item>
+        <item>16 bit per utval</item>
+        <item>24 bit per utval</item>
+        <item>32 bit per utval</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Bruk systemval (standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Bruk systemval (standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimalisert for lydkvalitet (990 kb/s / 909 kb/s)</item>
+        <item>Balansert lyd- og sambandskvalitet (660 kb/s / 606 kb/s)</item>
+        <item>Optimalisert for sambandskvalitet (330 kb/s / 303 kb/s)</item>
+        <item>Best mogleg (adaptiv bitfrekvens)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimalisert for lydkvalitet</item>
+        <item>Balansert lyd- og sambandskvalitet</item>
+        <item>Optimalisert for sambandskvalitet</item>
+        <item>Best mogleg (adaptiv bitfrekvens)</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item/>
+        <item>, aktiv</item>
+        <item>, aktiv (media)</item>
+        <item>, aktiv (telefon)</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Av</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Av</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Av</item>
+        <item>64 kB per loggbuffer</item>
+        <item>256 kB per loggbuffer</item>
+        <item>1 MB per loggbuffer</item>
+        <item>4 MB per loggbuffer</item>
+        <item>8 MB per loggbuffer</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Av</item>
+        <item>Alle</item>
+        <item>Alle utanom radio</item>
+        <item>berre kjerne</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Av</item>
+        <item>Alle loggbuffertar</item>
+        <item>Alle loggbuffertar utanom radio</item>
+        <item>berre kjerneloggbuffer</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasjon av</item>
+        <item>Animasjonslengd 0,5×</item>
+        <item>Animasjonslengd 1×</item>
+        <item>Animasjonslengd 1,5×</item>
+        <item>Animasjonslengd 2×</item>
+        <item>Animasjonslengd 5×</item>
+        <item>Animasjonslengd 10×</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasjon av</item>
+        <item>Animasjonslengd 0,5×</item>
+        <item>Animasjonslengd 1×</item>
+        <item>Animasjonslengd 1,5×</item>
+        <item>Animasjonslengd 2×</item>
+        <item>Animasjonslengd 5×</item>
+        <item>Animasjonslengd 10×</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasjon av</item>
+        <item>Animasjonslengd 0,5×</item>
+        <item>Animasjonslengd 1×</item>
+        <item>Animasjonslengd 1,5×</item>
+        <item>Animasjonslengd 2×</item>
+        <item>Animasjonslengd 5×</item>
+        <item>Animasjonslengd 10×</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ingen</item>
+        <item>480p</item>
+        <item>480p (sikra)</item>
+        <item>720p</item>
+        <item>720p (sikra)</item>
+        <item>1080p</item>
+        <item>1080p (sikra)</item>
+        <item>4K</item>
+        <item>4K (sikra)</item>
+        <item>4K (oppskalert)</item>
+        <item>4K (oppskalert, sikra)</item>
+        <item>720p, 1080p (to skjermar)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ingen</item>
+        <item>Logcat</item>
+        <item>Systrace (grafikk)</item>
+        <item>Kallstabel ved glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Av</item>
+        <item>Teikna ikkje-rektangulære utskjeringsområde i blått</item>
+        <item>Uthev testa teiknekommandoar i grønt</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Av</item>
+        <item>På skjermen som søyler</item>
+        <item>I <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g></item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Av</item>
+        <item>Vis overteikna område</item>
+        <item>Vis område for deuteranomali</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardgrense</item>
+        <item>Ingen bakgrunnsprosessar</item>
+        <item>Høgst 1 prosess</item>
+        <item>Høgst 2 prosessar</item>
+        <item>Høgst 3 prosessar</item>
+        <item>Høgst 4 prosessar</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Lading</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-Ethernet)</item>
+        <item>Lydkjelde</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Berre einingsskjerm (standard)</item>
+        <item>Ekstern skjerm</item>
+        <item>Siste trykk på statuslinja</item>
+        <item>Fokusbasert</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Vis varselpanel berre på einingsskjermen</item>
+        <item>Vis varselpanel på ein enkelt ekstern skjerm</item>
+        <item>Vis varselpanel på skjermen der statuslinja sist vart brukt</item>
+        <item>Vis varselpanel på skjermen som sist var i fokus</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>standard_skjerm</item>
+        <item>valfri_ekstern_skjerm</item>
+        <item>statuslinje_siste_trykk</item>
+        <item>fokusert_skjerm</item>
+    </string-array>
+</resources>

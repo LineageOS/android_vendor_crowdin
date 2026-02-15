@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="call_details">Samtaledetaljar</string>
+  <string name="delete">Slett</string>
+  <string name="call_details_copy_number">Kopier nummeret</string>
+  <string name="call_details_edit_number">Rediger nummeret før oppringing</string>
+  <string name="call_details_report_call_id">Rapporter unøyaktig nummer</string>
+  <string name="report_caller_id_dialog_title">Rapporter feil nummer</string>
+  <string name="report_caller_id_failed">Kunne ikkje rapportera nummer</string>
+  <string name="report_caller_id_toast">Nummeret rapportert</string>
+  <string name="assisted_dialing_country_code_entry">Assistert ringing: Brukte landkoden +<xliff:g example="1" id="ad_country_code">%1$s</xliff:g></string>
+  <string name="assisted_dialing_country_code_entry_failure">Assistert oppringing vart brukt</string>
+  <string name="rtt_transcript_not_available">Transkripsjon er berre tilgjengeleg for samtalar med meldingsteneste</string>
+  <string name="rtt_transcript_link">Sjå transkripsjon</string>
+</resources>

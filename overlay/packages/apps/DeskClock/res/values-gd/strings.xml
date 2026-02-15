@@ -62,8 +62,6 @@
     <string name="timer_notifications_hours_seconds"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="SECONDS" example="2 seconds"> %4$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
     <string name="timer_notifications_hours_minutes_seconds"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="MINUTES" example="2 minutes"> %2$s</xliff:g><xliff:g id="SECONDS" example="2 seconds"> %4$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
     <string name="timer_accessibility_one_minute_added">Chaidh mionaid a chur ris an tìmear, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_stopped">Chaidh an tìmear a chur ’na stad, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_started">Tha an tìmear a’ ruith, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
     <string name="timer_remaining_single">air fhàgail</string>
     <string name="timer_remaining_multiple">air fhàgail</string>
     <string-array name="alarm_set">
@@ -214,7 +212,6 @@
     <string name="button_alarms">Cuir caismeachd ris</string>
     <string name="button_cities">Bailtean</string>
     <string name="menu_item_settings">Roghainnean</string>
-    <string name="menu_item_night_mode">Sàbhalaiche-sgrìn</string>
     <string name="menu_item_sort_by_gmt_offset">Seòrsaich a-rèir an ama</string>
     <string name="menu_item_sort_by_name">Seòrsaich a-rèir ainm</string>
     <string name="selected_cities_label">Na bailtean a thagh thu</string>

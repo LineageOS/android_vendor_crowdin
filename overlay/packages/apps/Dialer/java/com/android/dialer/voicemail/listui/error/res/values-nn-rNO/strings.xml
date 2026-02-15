@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="voicemail_error_activating_title">Slår på visuell telefonsvarar</string>
+  <string name="voicemail_error_activating_message">Du får kanskje ikkje varsel om nye meldingar før den visuelle telefonsvararen er heilt klar. Ring svararen for å henta nye meldingar fram til dess.</string>
+  <string name="voicemail_error_not_activate_no_signal_title">Klarte ikkje slå på visuell telefonsvarar</string>
+  <string name="voicemail_error_not_activate_no_signal_message">Sjå etter at telefonen har kontakt med mobilnettet, og prøv
+                på nytt.</string>
+  <string name="voicemail_error_not_activate_no_signal_airplane_mode_message">Slå av flymodus og prøv på nytt.</string>
+  <string name="voicemail_error_no_signal_title">Ingen kontakt</string>
+  <string name="voicemail_error_no_signal_message">Du får ikkje varsel om nye svararmeldingar. Er du på Wi-Fi, kan du sjekka etter meldingar ved å synkronisera no.</string>
+  <string name="voicemail_error_no_signal_airplane_mode_message">Du får ikkje varsel om nye svararmeldingar. Slå av flymodus for å synkronisera svararen.</string>
+  <string name="voicemail_error_no_signal_cellular_required_message">Telefonen må ha mobildata for å sjekka svararen.</string>
+  <string name="voicemail_error_activation_failed_title">Klarte ikkje slå på visuell telefonsvarar</string>
+  <string name="voicemail_error_activation_failed_message">Du kan framleis ringja for å sjekka svararen.</string>
+  <string name="voicemail_error_no_data_title">Klarte ikkje oppdatera visuell telefonsvarar</string>
+  <string name="voicemail_error_no_data_message">Prøv på nytt når dekninga for Wi-Fi eller mobildata er betre. Du kan framleis ringja for å sjekka svararen.</string>
+  <string name="voicemail_error_no_data_cellular_required_message">Prøv på nytt når mobildekninga er betre. Du kan framleis ringja for å sjekka svararen.</string>
+  <string name="voicemail_error_bad_config_title">Klarte ikkje oppdatera visuell telefonsvarar</string>
+  <string name="voicemail_error_bad_config_message">Du kan framleis ringja for å sjekka svararen.</string>
+  <string name="voicemail_error_communication_title">Klarte ikkje oppdatera visuell telefonsvarar</string>
+  <string name="voicemail_error_communication_message">Du kan framleis ringja for å sjekka svararen.</string>
+  <string name="voicemail_error_server_connection_title">Klarte ikkje oppdatera visuell telefonsvarar</string>
+  <string name="voicemail_error_server_connection_message">Du kan framleis ringja for å sjekka svararen.</string>
+  <string name="voicemail_error_server_title">Klarte ikkje oppdatera visuell telefonsvarar</string>
+  <string name="voicemail_error_server_message">Du kan framleis ringja for å sjekka svararen.</string>
+  <string name="voicemail_error_inbox_near_full_title">Innboksen er snart full</string>
+  <string name="voicemail_error_inbox_near_full_message">Du kan ikkje få nye svararmeldingar om innboksen er full.</string>
+  <string name="voicemail_error_inbox_full_title">Klarte ikkje ta imot nye svararmeldingar</string>
+  <string name="voicemail_error_inbox_full_message">Innboksen er full. Prøv å sletta nokre meldingar for å få
+                plass til nye.</string>
+  <string name="voicemail_error_inbox_full_turn_archive_on_title">Slå på meir lagringsplass og tryggingskopiering</string>
+  <string name="voicemail_error_inbox_full_turn_archive_on_message">Svararen er full. For å få betre plass kan du slå på meir lagringsplass, slik at Google kan styra og ta tryggingskopi av meldingane dine.</string>
+  <string name="voicemail_error_inbox_almost_full_turn_archive_on_title">Slå på meir lagringsplass og tryggingskopiering</string>
+  <string name="voicemail_error_inbox_almost_full_turn_archive_on_message">Svararen er nesten full. For å få betre plass kan du slå på meir lagringsplass, slik at Google kan styra og ta tryggingskopi av meldingane dine.</string>
+  <string name="voicemail_error_pin_not_set_title">Lag ein PIN-kode for telefonsvararen</string>
+  <string name="voicemail_error_pin_not_set_message">Du treng ein PIN-kode kvar gong du ringjer for å høyra på
+                meldingane dine.</string>
+  <string name="voicemail_action_turn_off_airplane_mode">Innstillingar for flymodus</string>
+  <string name="voicemail_action_set_pin">Skriv PIN-kode</string>
+  <string name="voicemail_action_retry">Prøv på nytt</string>
+  <string name="voicemail_action_turn_archive_on">Slå på</string>
+  <string name="voicemail_action_dimiss">Nei takk</string>
+  <string name="voicemail_action_sync">Synkroniser</string>
+  <string name="voicemail_action_call_voicemail">Ring svararen</string>
+  <string name="voicemail_action_call_customer_support">Ring kundestøtte</string>
+  <string name="vvm3_error_vms_dns_failure_title">Noko gjekk gale</string>
+  <string name="vvm3_error_vms_dns_failure_message">Det vart ein feil. Prøv på nytt seinare. Om problemet held fram, kan du kontakta kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9001.</string>
+  <string name="vvm3_error_vmg_dns_failure_title">Noko gjekk gale</string>
+  <string name="vvm3_error_vmg_dns_failure_message">Det vart ein feil. Prøv på nytt seinare. Om problemet held fram, kan du kontakta kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9002.</string>
+  <string name="vvm3_error_spg_dns_failure_title">Noko gjekk gale</string>
+  <string name="vvm3_error_spg_dns_failure_message">Det vart ein feil. Prøv på nytt seinare. Om problemet held fram, kan du kontakta kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9003.</string>
+  <string name="vvm3_error_vms_no_cellular_title">Får ikkje kontakt med svararen din</string>
+  <string name="vvm3_error_vms_no_cellular_message">Me får ikkje til å kopla til svararen din. Om du er ein stad med dårleg dekning, bør du venta til du har betre signal og prøva på nytt. Om problemet held fram, kan du ringja kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9004.</string>
+  <string name="vvm3_error_vmg_no_cellular_title">Får ikkje kontakt med svararen din</string>
+  <string name="vvm3_error_vmg_no_cellular_message">Me får ikkje til å kopla til svararen din. Om du er ein stad med dårleg dekning, bør du venta til du har betre signal og prøva på nytt. Om problemet held fram, kan du ringja kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9005.</string>
+  <string name="vvm3_error_spg_no_cellular_title">Får ikkje kontakt med svararen din</string>
+  <string name="vvm3_error_spg_no_cellular_message">Me får ikkje til å kopla til svararen din. Om du er ein stad med dårleg dekning, bør du venta til du har betre signal og prøva på nytt. Om problemet held fram, kan du ringja kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9006.</string>
+  <string name="vvm3_error_vms_timeout_title">Noko gjekk gale</string>
+  <string name="vvm3_error_vms_timeout_message">Det vart ein feil. Prøv på nytt seinare. Om problemet held fram, kan du kontakta kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9007.</string>
+  <string name="vvm3_error_vmg_timeout_title">Noko gjekk gale</string>
+  <string name="vvm3_error_vmg_timeout_message">Det vart ein feil. Prøv på nytt seinare. Om problemet held fram, kan du kontakta kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9008.</string>
+  <string name="vvm3_error_status_sms_timeout_title">Noko gjekk gale</string>
+  <string name="vvm3_error_status_sms_timeout_message">Me får ikkje til å setja opp tenesta di. Prøv på nytt seinare. Om problemet held fram, kan du kontakta kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9009.</string>
+  <string name="vvm3_error_subscriber_blocked_title">Får ikkje kontakt med svararen din</string>
+  <string name="vvm3_error_subscriber_blocked_message">Me får ikkje til å kopla til svararen din nett no. Prøv på nytt seinare. Om problemet held fram, kan du kontakta kundøstøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9990.</string>
+  <string name="vvm3_error_unknown_user_title">Set opp svararen</string>
+  <string name="vvm3_error_unknown_user_message">Svararen er ikkje sett opp for din konto. Ta kontakt med kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9991.</string>
+  <string name="vvm3_error_unknown_device_title">Telefonsvarar</string>
+  <string name="vvm3_error_unknown_device_message">Visuell telefonsvarar kan ikkje brukast på denne eininga. Ta kontakt med kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9992.</string>
+  <string name="vvm3_error_invalid_password_title">Noko gjekk gale</string>
+  <string name="vvm3_error_invalid_password_message">Ring kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9993.</string>
+  <string name="vvm3_error_mailbox_not_initialized_title">Visuell telefonsvarar</string>
+  <string name="vvm3_error_mailbox_not_initialized_message">For å fullføra oppsettet av visuell telefonsvarar, kan du ringja kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9994.</string>
+  <string name="vvm3_error_service_not_provisioned_title">Visuell telefonsvarar</string>
+  <string name="vvm3_error_service_not_provisioned_message">For å fullføra oppsettet av visuell telefonsvarar, kan du ringja kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9995.</string>
+  <string name="vvm3_error_service_not_activated_title">Visuell telefonsvarar</string>
+  <string name="vvm3_error_service_not_activated_message">For å slå på visuell telefonsvarar, kan du ringja kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9996.</string>
+  <string name="vvm3_error_user_blocked_title">Noko gjekk gale</string>
+  <string name="vvm3_error_user_blocked_message">For å fullføra oppsettet av visuell telefonsvarar, kan du ringja kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9998.</string>
+  <string name="vvm3_error_subscriber_unknown_title">Visuell telefonsvarar er slått av</string>
+  <string name="vvm3_error_subscriber_unknown_message">Ring kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> for å slå på visuell telefonsvarar.</string>
+  <string name="vvm3_error_imap_getquota_error_title">Noko gjekk gale</string>
+  <string name="vvm3_error_imap_getquota_error_message">Ring kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9997.</string>
+  <string name="vvm3_error_imap_select_error_title">Noko gjekk gale</string>
+  <string name="vvm3_error_imap_select_error_message">Ring kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9989.</string>
+  <string name="vvm3_error_imap_error_title">Noko gjekk gale</string>
+  <string name="vvm3_error_imap_error_message">Ring kundestøtte på <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> og oppgje feilkode 9999.</string>
+  <string name="verizon_terms_and_conditions_title">Slå på visuell telefonsvarar</string>
+  <string name="verizon_terms_and_conditions_message"><xliff:g>%1$s</xliff:g> Ved å slå på visuell telefonsvarar godtek du vilkåra til Verizon Wireless: <xliff:g>%2$s</xliff:g></string>
+  <string name="dialer_terms_and_conditions_title">Slå på visuell telefonsvarar</string>
+  <string name="dialer_terms_and_conditions_existing_user_title">Nytt! Les svararmeldingane dine</string>
+  <string name="dialer_terms_and_conditions_message"><xliff:g>%s</xliff:g></string>
+  <string name="dialer_terms_and_conditions_1.0">Sjå og høyr på meldingane dine utan å ringja svararen. Meldingane vert skrive av med den kostnadsfrie tenesta til Google. Du kan slå av begge delar i innstillingane kva tid som helst. <xliff:g>%s</xliff:g></string>
+  <string name="dialer_terms_and_conditions_existing_user">Svararmeldingane dine vert no skrive av med den kostnadsfrie tenesta til Google. Du kan slå av dette i innstillingane kva tid som helst. %s</string>
+  <string name="dialer_terms_and_conditions_for_verizon_1.0">Sjå og høyr på meldingane dine utan å ringja svararen.</string>
+  <string name="dialer_terms_and_conditions_learn_more">Finn ut meir</string>
+  <string name="dialer_terms_and_conditions_existing_user_ack">Greitt</string>
+  <string name="dialer_terms_and_conditions_existing_user_decline">Nei takk</string>
+  <string name="terms_and_conditions_decline_dialog_title">Slå av visuell telefonsvarar?</string>
+  <string name="verizon_terms_and_conditions_decline_dialog_message">Visuell telefonsvarar vert slått av om du ikkje godtek
+                vilkåra.</string>
+  <string name="verizon_terms_and_conditions_decline_dialog_downgrade">Slå av</string>
+  <string name="dialer_terms_and_conditions_decline_dialog_message">Visuell telefonsvarar vert slått av om du slår av
+                funksjonen.</string>
+  <string name="dialer_terms_and_conditions_decline_dialog_downgrade">Slå av</string>
+  <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message">Svararen er berre tilgjengeleg ved å ringja *86. Lag ein ny PIN-kode for å halda fram.</string>
+  <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin">Vel PIN-kode</string>
+</resources>

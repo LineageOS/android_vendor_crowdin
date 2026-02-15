@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="media_output_internal_speaker_spdif_subtitle">Innebygd høgtalar + S/PDIF</string>
+    <string name="audio_device_settings_tooltip">Trykk på <annotation icon="dpad_icon">DPAD</annotation> for lydinnstillingar.</string>
+    <string name="audio_device_settings_content_description">Innstillingar for <xliff:g id="audio_device_name" example="Foo Soundbar">%1$s</xliff:g>.</string>
+    <string name="hdmi_cec_on_active_source_lost_title">Ser du framleis på?</string>
+    <string name="hdmi_cec_on_active_source_lost_description">TV-en melder at du har bytt til ein annan inngang, og denne eininga vil snart gå i kvilemodus. Vel noko for å halda eininga vaken.</string>
+    <string name="hdmi_cec_on_active_source_lost_ok">Ja (<xliff:g id="seconds" example="10">%1$d</xliff:g> s)</string>
+    <string name="hdmi_cec_on_active_source_lost_do_not_show">Ikkje spør att</string>
+</resources>

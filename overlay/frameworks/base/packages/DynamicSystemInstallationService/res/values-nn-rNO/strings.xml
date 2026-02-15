@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dynamic System Updates</string>
+    <string name="notification_channel_name">Dynamic System Updates</string>
+    <string name="keyguard_title">Dynamic System Updates</string>
+    <string name="keyguard_description">Skriv inn passordet for å halda fram til dynamiske systemoppdateringar</string>
+    <string name="notification_install_completed">Det dynamiske systemet er klart. Start eininga på nytt for å ta det i bruk.</string>
+    <string name="notification_install_inprogress">Installerer</string>
+    <string name="notification_install_failed">Klarte ikkje installera</string>
+    <string name="notification_image_validation_failed">Klarte ikkje stadfesta biletefila. Avbryt installeringa.</string>
+    <string name="notification_dynsystem_in_use">Køyrer no eit dynamisk system. Start på nytt for å bruka den opphavlege Android-versjonen.</string>
+    <string name="notification_action_cancel">Avbryt</string>
+    <string name="notification_action_discard">Kast</string>
+    <string name="notification_action_reboot_to_dynsystem">Start på nytt</string>
+    <string name="notification_action_reboot_to_origin">Start på nytt</string>
+    <string name="toast_dynsystem_discarded">Kasta det dynamiske systemet</string>
+    <string name="toast_failed_to_reboot_to_dynsystem">Klarte ikkje starta på nytt eller lasta det dynamiske systemet</string>
+    <string name="toast_failed_to_disable_dynsystem">Klarte ikkje slå av det dynamiske systemet</string>
+</resources>

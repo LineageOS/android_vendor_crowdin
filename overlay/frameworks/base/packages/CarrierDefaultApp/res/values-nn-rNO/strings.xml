@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kommunikasjon med nettleverandøren</string>
+    <string name="android_system_label">Mobiloperatør</string>
+    <string name="portal_notification_id">Tomt for mobildata</string>
+    <string name="no_data_notification_id">Har slått av mobildata</string>
+    <string name="portal_notification_detail">Trykk for å sjå sida %s</string>
+    <string name="no_data_notification_detail">Kontakt tenesteleverandøren din, %s</string>
+    <string name="no_mobile_data_connection_title">Inga mobildatatilkopling</string>
+    <string name="no_mobile_data_connection">Legg til eit data- eller gjestebruksabonnement via %s</string>
+    <string name="mobile_data_status_notification_channel_name">Status for mobildata</string>
+    <string name="action_bar_label">Logg på mobilnettet</string>
+    <string name="ssl_error_warning">Nettverket du prøver å kopla til, har tryggleiksproblem.</string>
+    <string name="ssl_error_example">Til dømes kan det henda at påloggingssida ikkje høyrer til organisasjonen som er oppgjeven.</string>
+    <string name="ssl_error_continue">Hald fram i nettlesaren likevel</string>
+    <string name="performance_boost_notification_channel">Betre yting</string>
+    <string name="performance_boost_notification_title">5G-alternativ frå nettleverandøren din</string>
+    <string name="performance_boost_notification_detail">Gå til nettsida «%s» for å sjå fleire val kring appen din</string>
+    <string name="performance_boost_notification_button_not_now">Ikkje no</string>
+    <string name="performance_boost_notification_button_manage">Styr</string>
+    <string name="slice_purchase_app_label">Kjøp betre yting.</string>
+</resources>

@@ -66,8 +66,6 @@
     <string name="timer_notifications_hours_seconds"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="SECONDS" example="2 seconds"> %4$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
     <string name="timer_notifications_hours_minutes_seconds"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="MINUTES" example="2 minutes"> %2$s</xliff:g><xliff:g id="SECONDS" example="2 seconds"> %4$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
     <string name="timer_accessibility_one_minute_added">Ychwanegwyd un munud i\'r amserydd, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_stopped">Amserydd wedi\'i seibio, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
-    <string name="timer_accessibility_started">Amserydd yn rhedeg, <xliff:g id="TIME" example="5 hours remaining">%1$s</xliff:g></string>
     <string name="timer_remaining_single">yn weddill</string>
     <string name="timer_remaining_multiple">yn weddill</string>
     <string-array name="alarm_set">
@@ -232,7 +230,6 @@
     <string name="button_alarms">Ychwanegu larwm</string>
     <string name="button_cities">Dinasoedd</string>
     <string name="menu_item_settings">Gosodiadau</string>
-    <string name="menu_item_night_mode">Arbedwr sgrin</string>
     <string name="menu_item_sort_by_gmt_offset">Trefnu\'n ôl amser</string>
     <string name="menu_item_sort_by_name">Trefnu\'n ôl enw</string>
     <string name="selected_cities_label">Dinasoedd a Ddewiswyd</string>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Shell</string>
+    <string name="bugreport_notification_channel">Feilmeldingar</string>
+    <string name="bugreport_in_progress_title">Lagar feilmelding <xliff:g id="id">#%d</xliff:g></string>
+    <string name="bugreport_finished_title">Feilmelding <xliff:g id="id">#%d</xliff:g> er klar</string>
+    <string name="bugreport_updating_title">Legg til detaljar i feilmeldinga</string>
+    <string name="bugreport_updating_wait">Vent litt \u2026</string>
+    <string name="bugreport_finished_text" product="watch">Feilmeldinga kjem snart på telefonen</string>
+    <string name="bugreport_finished_text" product="tv">Vel for å dela feilmeldinga di</string>
+    <string name="bugreport_finished_text" product="default">Trykk for å dela feilmeldinga di</string>
+    <string name="bugreport_finished_pending_screenshot_text" product="tv">Vel for å dela feilmeldinga utan skjermbilete, eller vent til bilete er ferdig</string>
+    <string name="bugreport_finished_pending_screenshot_text" product="watch">Trykk for å dela feilmeldinga utan skjermbilete, eller vent til bilete er ferdig</string>
+    <string name="bugreport_finished_pending_screenshot_text" product="default">Trykk for å dela feilmeldinga utan skjermbilete, eller vent til bilete er ferdig</string>
+    <string name="bugreport_confirm">Feilmeldingar inneheld data frå loggfilene til systemet. Desse kan innehalda informasjon du reknar som følsam (til dømes bruk av appar og posisjonsdata). Del berre feilmeldingar med folk og appar du stolar på.</string>
+    <string name="bugreport_confirm_dont_repeat">Ikkje vis att</string>
+    <string name="bugreport_storage_title">Feilmeldingar</string>
+    <string name="bugreport_unreadable_text">Klarte ikkje lesa feilmeldingsfila</string>
+    <string name="bugreport_add_details_to_zip_failed">Klarte ikkje leggja detaljar til i zip-fila</string>
+    <string name="bugreport_unnamed">utan namn</string>
+    <string name="bugreport_info_action">Detaljar</string>
+    <string name="bugreport_screenshot_action">Skjermbilete</string>
+    <string name="bugreport_screenshot_taken">Tok skjermbilete.</string>
+    <string name="bugreport_screenshot_failed">Klarte ikkje ta skjermbilete.</string>
+    <string name="bugreport_info_dialog_title">Detaljar for feilmelding <xliff:g id="id">#%d</xliff:g></string>
+    <string name="bugreport_info_name">Filnamn</string>
+    <string name="bugreport_info_title">Feiltittel</string>
+    <string name="bugreport_info_description">Samandrag</string>
+    <string name="save">Lagra</string>
+    <string name="bugreport_intent_chooser_title">Del feilmeldinga</string>
+</resources>

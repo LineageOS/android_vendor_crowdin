@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="select_items_to_share">Vel kva du vil dela</string>
+    <string name="resolver_cross_profile_blocked">Sperra av IT-administratoren</string>
+    <string name="resolver_cant_share_with_private_apps_explanation">Innhaldet kan ikkje delast med private appar</string>
+    <string name="resolver_cant_access_private_apps_explanation">Innhaldet kan ikkje opnast med private appar</string>
+    <string name="resolver_turn_on_work_apps">jobb-appar er sette på pause</string>
+    <string name="resolver_no_private_apps_available">Ingen private appar</string>
+    <string name="item_position_label">Element <xliff:g id="item_position" example="123">%1$d</xliff:g></string>
+    <string name="selectable_image">Bilete du kan velja</string>
+    <string name="selectable_video">Video du kan velja</string>
+    <string name="selectable_item">Element du kan velja</string>
+    <string name="role_description_button">Knapp</string>
+    <string name="shortcut_group_a11y_title">Mål for snøggdeling</string>
+    <string name="suggested_apps_group_a11y_title">App-forslag</string>
+    <string name="all_apps_group_a11y_title">App-liste</string>
+    <string name="copy_text">Kopier tekst</string>
+    <string name="copy_link">Kopier lenka</string>
+</resources>

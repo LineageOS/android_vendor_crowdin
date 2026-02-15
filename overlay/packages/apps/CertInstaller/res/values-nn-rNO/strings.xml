@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sertifikatinstallering</string>
+    <string name="pick_file_title">Vel eit sertifikat</string>
+    <string name="pkcs12_password_dialog_title">Henta ut sertifikat</string>
+    <string name="extracting_pkcs12">Hentar ut \u2026</string>
+    <string name="pkcs12_file_password_dialog_title">Henta ut frå %s</string>
+    <string name="name_credential_dialog_title">Gje sertifikatet eit namn</string>
+    <string name="certificate_name">Sertifikatnamn</string>
+    <string name="credential_password">Skriv inn passordet for å henta ut sertifikata.</string>
+    <string name="credential_info">Pakken inneheld:</string>
+    <string name="p12_description">Sertifikat i eit PKCS12-nøkkellager.</string>
+    <string name="one_userkey">éin brukarnøkkel</string>
+    <string name="userkey_type">Algoritme: </string>
+    <string name="one_usercrt">eitt brukarsertifikat</string>
+    <string name="one_cacrt">eitt CA-sertifikat</string>
+    <string name="n_cacrts">%d CA-sertifikat</string>
+    <string name="password_error">Skriv inn det rette passordet.</string>
+    <string name="password_empty_error">Skriv inn passordet.</string>
+    <string name="name_empty_error">Skriv inn eit namn.</string>
+    <string name="name_char_error">Skriv inn eit namn som berre inneheld bokstavar og tal.</string>
+    <string name="unable_to_save_cert">Klarte ikkje lagra sertifikatet. Sertifikatlagringa er ikkje slått på eller rett sett opp.</string>
+    <string name="cert_not_saved">Sertifikatet er ikkje installert.</string>
+    <string name="no_cert_to_saved">Ingen sertifikat å installera.</string>
+    <string name="invalid_cert">Sertifikatet er ugyldig.</string>
+    <string name="action_missing_private_key">Treng privat nøkkel for å installera eit sertifikat</string>
+    <string name="action_missing_user_cert">Treng sertifikat for å installera ein privat nøkkel</string>
+    <string name="select_certificate_usage_title">Vel sertifikattype</string>
+    <string name="redirect_ca_certificate_title">Installer CA-sertifikat i Innstillingar</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Dette sertifikatet frå <xliff:g id="requesting_app" example="Some App">%1$s</xliff:g> må installerast i Innstillingar. Installer berre CA-sertifikat frå utferdarar du stoler på.</string>
+    <string name="redirect_ca_certificate_close_button">Lukk</string>
+    <string name="invalid_certificate_title">Kan ikkje bruka denne fila</string>
+    <string name="invalid_certificate_close_button">Lukk</string>
+    <string name="invalid_certificate_message">Denne fila kan ikkje brukast som <xliff:g id="certificate_usage">%1$s</xliff:g></string>
+    <string name="certificate">sertifikat</string>
+    <string name="ca_certificate">CA-sertifikat</string>
+    <string name="user_certificate">brukarsertifikat for VPN og appar</string>
+    <string name="wifi_certificate">Wi\u2011Fi-sertifikat</string>
+    <string name="ca_cert_is_added">CA-sertifikatet er installert</string>
+    <string name="user_cert_is_added">Brukarsertifikatet er installert</string>
+    <string name="wifi_cert_is_added">Wi\u2011Fi-sertifikatet er installert</string>
+    <string name="cert_too_large_error">Klarte ikkje installera for sertifikatet er for stort.</string>
+    <string name="cert_missing_error">Klarte ikkje installera for sertifikatfila vart ikkje funnen.</string>
+    <string name="cert_read_error">Klarte ikkje installera for sertifikatfila kan ikkje lesast.</string>
+    <string name="cert_temp_error">Mellombels feil. Prøv på nytt seinare.</string>
+    <string name="only_primary_user_allowed">Berre eigaren av eininga kan installera sertifikat.</string>
+    <string name="credential_usage_label">Bruksområde:</string>
+    <string-array name="credential_usage">
+        <item>VPN og appar</item>
+        <item>Wi-Fi</item>
+    </string-array>
+    <string name="certificate_capabilities_warning">Merk: Utferdaren av dette sertifikatet kan overvaka all trafikk til og frå eininga.</string>
+    <string name="wifi_title">Wi-Fi-profil</string>
+    <string name="wifi_detail_title">Detaljar for %s</string>
+    <string name="wifi_detail_label">Detaljar</string>
+    <string name="wifi_install_label">Installer</string>
+    <string name="wifi_installing_label">Installerer</string>
+    <string name="wifi_cancel_label">Avbryt</string>
+    <string name="wifi_dismiss_label">Lukk</string>
+    <string name="wifi_no_config">Ingen</string>
+    <string name="wifi_config_text">Namn: %1$s\nFQDN: %2$s\nNettvekslingskonsortium: %3$s\nOmråde: %4$s\nAutentisering: EAP-%5$s\n</string>
+    <string name="wifi_ttls_config_text">Brukarnamn: %s\n</string>
+    <string name="wifi_tls_config_text">Klientsertifikat:\n%1$s\nNøkkel: %2$s\n</string>
+    <string name="wifi_sim_config_text">SIM: %s\n</string>
+    <string name="wifi_trust_config_text">Trudd sertifikat:\n%s\n</string>
+    <string name="install_done_title">Sertifikatet er installert</string>
+    <string name="install_done">Påloggingsinformasjonen for <xliff:g id="name">%1$s</xliff:g> er lagt til dei lagra Wi-Fi-netta.</string>
+    <string name="done_label">FERDIG</string>
+    <string name="wifi_installer_detail">Installer Wi-Fi-sertifikat for å kopla til nett som er tilgjengelege via <xliff:g id="name">%1$s</xliff:g>.</string>
+    <string name="wifi_installer_download_error">Den nedlasta fila har feil og kan ikkje installerast. Sjekk at du lasta ned fila frå ein trygg stad.</string>
+    <string name="wifi_installer_fail">Klarte ikkje installera Wi-Fi-sertifikata. Prøv å lasta ned fila på nytt.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Installeringa vart avbroten</string>
+    <string name="wifi_installer_fail_title">Klarte ikkje installera</string>
+    <string name="wifi_installer_fail_no_wifi">Slå på Wi-Fi og prøv på nytt.</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">NFC-teneste</string>
+    <string name="nfcUserLabel">NFC</string>
+    <string name="accessibility_nfc_enabled">NFC er slått på.</string>
+    <string name="tap_to_beam">Trykk for å senda</string>
+    <string name="beam_progress">Tek imot …</string>
+    <string name="beam_outgoing">Sender …</string>
+    <string name="beam_complete">Sendinga er ferdig</string>
+    <string name="beam_failed">Klarte ikkje fullføra sendinga</string>
+    <string name="beam_canceled">Sendinga er avbroten</string>
+    <string name="cancel">Avbryt</string>
+    <string name="beam_tap_to_view">Trykk for å sjå</string>
+    <string name="beam_handover_not_supported">Eininga til mottakaren støttar ikkje overføring av store filer via Beam.</string>
+    <string name="beam_try_again">Legg einingane saman på nytt</string>
+    <string name="beam_busy">Beam er oppteken akkurat no. Prøv på nytt når den førre overføringa er ferdig.</string>
+    <string name="device">eining</string>
+    <string name="connecting_peripheral">Koplar til <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="connected_peripheral">Kopla til <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="connect_peripheral_failed">Klarte ikkje kopla til <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="disconnecting_peripheral">Koplar frå <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="disconnected_peripheral">Kopla frå <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="pairing_peripheral">Samankoplar <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="pairing_peripheral_failed">Klarte ikkje samankopla <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="failed_to_enable_bt">Klarte ikkje slå på Bluetooth</string>
+    <string name="confirm_pairing">Er du viss på at du vil samankopla Bluetooth-eininga <xliff:g id="device_name">%1$s</xliff:g>?</string>
+    <string name="pair_yes">Ja</string>
+    <string name="pair_no">Nei</string>
+    <string name="tap_again_to_pay">Trykk på nytt for å betala med <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="tap_again_to_complete">Trykk på nytt for å fullføra med <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="tap_again_description">Hald inntil lesaren</string>
+    <string name="appchooser_description">Vel app for skanning</string>
+    <string name="transaction_failure">Klarte ikkje fullføra denne transaksjonen med <xliff:g id="app">%1$s</xliff:g>.</string>
+    <string name="could_not_use_app">Klarte ikkje bruka <xliff:g id="app">%1$s</xliff:g>.</string>
+    <string name="pay_with">Betal med</string>
+    <string name="complete_with">Fullfør med</string>
+    <string name="default_pay_app_removed">Tenesta du føretrekkjer for kontaktlaus betaling, er fjerna. Vil du velja ei anna?</string>
+    <string name="ask_nfc_tap">Trykk inntil ei anna eining for å fullføra</string>
+    <string name="wifi_connect">Kopla til</string>
+    <string name="status_unable_to_connect">Klarte ikkje kopla til nettverket</string>
+    <string name="status_wifi_connected">Kopla til</string>
+    <string name="title_connect_to_network">Kopla til nettverk</string>
+    <string name="prompt_connect_to_network">Vil du kopla til nettverket <xliff:g id="network_ssid">%1$s</xliff:g>?</string>
+    <string name="beam_requires_nfc_enabled">Android Beam krev at NFC er slått på. Vil du slå det på?</string>
+    <string name="android_beam">Android Beam</string>
+    <string name="beam_requires_external_storage_permission">Appen har ikkje løyve til å bruka ekstern lagring. Dette trengst for å kunna senda fila med Beam.</string>
+    <string name="title_confirm_url_open">Vil du opna lenka?</string>
+    <string name="summary_confirm_url_open">Telefonen din har motteke ei lenke via NFC:</string>
+    <string name="summary_confirm_url_open_tablet">Nettbrettet ditt har motteke ei lenke via NFC:</string>
+    <string name="action_confirm_url_open">Opna lenka</string>
+    <string name="tag_read_error">Feil ved NFC-lesing. Prøv på nytt.</string>
+    <string name="tag_dispatch_failed">Fann ingen appar som støttar denne NFC-brikka</string>
+    <string name="nfc_blocking_alert_title">NFC kan vera sperra</string>
+    <string name="nfc_blocking_alert_message">Trykk for å sjå korleis du fiksar det.</string>
+    <string name="tag_app_alert_title">Gje appar løyve til å lesa NFC-brikker</string>
+    <string name="tag_app_alert_message"><xliff:g id="appNames">%1$s</xliff:g> kan lesa NFC-brikker.</string>
+    <string name="tag_app_alert_message_multiple">Desse appane kan lesa NFC-brikker: <xliff:g id="appNames">%1$s</xliff:g></string>
+    <string name="tag_app_alert_action_button">Trykk for å sjå korleis du slår det av.</string>
+    <string name="nfc_logging_alert_title">NFC-data vert loggførte</string>
+    <string name="nfc_logging_alert_message">Trykk for å stansa loggføringa.</string>
+    <string name="title_package_enabling_nfc">Gje <xliff:g id="pkg">%1$s</xliff:g> løyve til å slå på NFC?</string>
+    <string name="enable_nfc_yes">Ja</string>
+    <string name="enable_nfc_no">Nei</string>
+    <string name="device_ndef_nfcee_service_name">Innebygd brikke</string>
+</resources>
