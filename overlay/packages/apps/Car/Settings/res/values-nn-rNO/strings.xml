@@ -49,7 +49,7 @@
     </string>
     <string name="sim_change_data_ok">        Bruk <xliff:g id="carrier" example="Verizon">%1$s</xliff:g>
     </string>
-    <string name="roaming_title">Nettveksling</string>
+    <string name="roaming_title">Nettveksling (Roaming)</string>
     <string name="roaming_summary">Kopla til datatenester ved nettveksling</string>
     <string name="roaming_alert_title">Tillata databruk ved nettveksling?</string>
     <string name="roaming_warning">Nettveksling kan kosta meir.</string>
@@ -73,7 +73,7 @@
     <string name="launch_manage_plan_text">Sjå abonnement</string>
     <string name="app_data_usage">App-databruk</string>
     <string name="data_usage_app_restricted">avgrensa</string>
-    <string name="cycle_reset_day_of_month_picker_title">Nullstillingsdato for databruk</string>
+    <string name="cycle_reset_day_of_month_picker_title">Dato då databruken vert nullstilt</string>
     <string name="cycle_reset_day_of_month_picker_subtitle">Dag i månaden:</string>
     <string name="cycle_reset_day_of_month_picker_positive_button">Vel</string>
     <string name="data_warning_limit_title">Datavarsel og -grense</string>
@@ -81,7 +81,7 @@
     <string name="mobile_data_usage">Mobildatabruk</string>
     <string name="set_data_warning">Still inn varsel om databruk</string>
     <string name="data_warning">Datavarsel</string>
-    <string name="set_data_limit"> Still inn datagrense</string>
+    <string name="set_data_limit">Slå på datagrense</string>
     <string name="data_limit">Datagrense</string>
     <string name="data_usage_limit_dialog_title">Avgrensing av databruk</string>
     <string name="data_usage_limit_dialog_mobile">Hovudeininga i bilen slår av mobildata når ho når grensa du har sett.\n\nSidan hovudeininga måler databruken, og mobiloperatøren din kan måla han annleis, bør du vurdera å setja ei noko lågare grense.</string>
@@ -425,7 +425,7 @@
     <string name="modify_system_settings_title">Endra systeminnstillingar</string>
     <string name="modify_system_settings_description">Dette løyvet lèt ein app endra systeminnstillingar.</string>
     <string name="notification_access_title">Tilgang til varsel</string>
-    <string name="notification_listener_security_warning_title">Vil du gje <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> tilgang til varsel?</string>
+    <string name="notification_listener_security_warning_title">Vil du gjeva <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> tilgang til varsel?</string>
     <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> kan lesa alle varsel, inkludert personlege opplysningar som kontaktnamn og teksten i meldingar du får. Appen kan òg fjerna varsel eller trykkja på knappar i dei.\n\nDette gjev òg appen høve til å slå på eller av «Ikkje forstyrr» og endra tilhøyrande innstillingar.</string>
     <string name="notification_listener_revoke_warning_summary">Fjernar du tilgangen til varsel for <xliff:g id="notification_listener_name">%1$s</xliff:g>, kan tilgangen til «Ikkje forstyrr» òg verta fjerna.</string>
     <string name="notification_listener_revoke_warning_confirm">Slå av</string>
@@ -529,7 +529,7 @@
     <string name="status_serial_number">Serienummer</string>
     <string name="hardware_revision">Maskinvareversjon</string>
     <string name="settings_license_activity_title">Tredjepartslisensar</string>
-    <string name="settings_license_activity_unavailable">Det oppstod eit problem under lasting av lisensane.</string>
+    <string name="settings_license_activity_unavailable">Det skjedde noko gale under lasting av lisensane.</string>
     <string name="settings_license_activity_loading">Lastar inn \u2026</string>
     <string name="show_dev_countdown">        {count, plural,
             =1    {Du er no # steg frå å verta utviklar.}
@@ -588,7 +588,7 @@
     <string name="time_picker_title">Tid</string>
     <string name="user_admin">Administrator</string>
     <string name="signed_in_admin_user">Logga på som administrator</string>
-    <string name="grant_admin_permissions_title">Vil du gje administratorløyve?</string>
+    <string name="grant_admin_permissions_title">Vil du gjeva administratorløyve?</string>
     <string name="grant_admin_permissions_button_text">Gjer til administrator</string>
     <string name="grant_admin_permissions_message">Administratoren kan sletta andre profilar, inkludert andre administratorar, og fabrikknullstilla infotainment-systemet.</string>
     <string name="action_not_reversible_message">Du kan ikkje omgjera denne handlinga.</string>
@@ -747,7 +747,7 @@
     <string name="lockpattern_settings_help_how_to_record">Slik teiknar du eit mønster</string>
     <string name="error_saving_lockpattern">Klarte ikkje å lagra mønsteret</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts">For mange feilforsøk. Prøv på nytt om <xliff:g id="number">%d</xliff:g> sekund.</string>
-    <string name="lockpattern_does_not_support_rotary">Mønsteret støttar ikkje styrehjul, bruk berøringsskjermen</string>
+    <string name="lockpattern_does_not_support_rotary">Mønsteret støttar ikkje styrehjul, trykk på skjermen.</string>
     <string name="okay">OK</string>
     <string name="remove_screen_lock_title">Vil du fjerna skjermlåsen?</string>
     <string name="remove_screen_lock_message">Dette lèt kven som helst få tilgang til kontoen din</string>

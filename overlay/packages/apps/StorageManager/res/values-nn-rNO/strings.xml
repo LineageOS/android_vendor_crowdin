@@ -14,5 +14,47 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Lagringsstyring</string>
+    <string name="cancel">Avbryt</string>
+    <string name="storage_menu_free">Frigjer lagringsplass</string>
+    <string name="deletion_helper_title">Fjern element</string>
+    <string name="deletion_helper_app_summary">for <xliff:g id="days" example="67">%1$d</xliff:g> dagar sidan</string>
+    <string name="deletion_helper_app_summary_item_size"><xliff:g id="used" example="1.2GB">%1$s</xliff:g></string>
+    <string name="deletion_helper_app_summary_never_used">Ikkje brukt det siste året</string>
+    <string name="deletion_helper_app_summary_unknown_used">Uviss siste bruk</string>
+    <string name="deletion_helper_free_button">Frigjer lagringsplass til <xliff:g id="freeable" example="1.2GB">%1$s</xliff:g></string>
+    <string name="deletion_helper_photos_title">Bilete og videoar med tryggingskopi</string>
+    <string name="deletion_helper_photos_age_summary">Eldre enn 30 dagar</string>
+    <string name="deletion_helper_photos_summary"><xliff:g id="used" example="1.2GB">%1$s</xliff:g></string>
+    <string name="deletion_helper_downloads_title">Nedlastingar</string>
+    <string name="deletion_helper_downloads_category_summary"><xliff:g id="used" example="1.2GB">%1$s</xliff:g></string>
+    <string name="deletion_helper_downloads_summary_empty"><xliff:g id="used" example="1.2GB">%1$s</xliff:g></string>
+    <string name="deletion_helper_clear_dialog_title">Frigjer lagringsplass</string>
+    <string name="deletion_helper_clear_dialog_message"><xliff:g id="clearable_bytes" example="1.2GB">%1$s</xliff:g> med innhald blir fjerna frå eininga</string>
+    <string name="deletion_helper_clear_dialog_remove">Frigjer lagringsplass</string>
+    <string name="deletion_helper_upsell_title">Vil du styra lagringa automatisk?</string>
+    <string name="deletion_helper_upsell_summary"><xliff:g id="used" example="1.2GB">%1$s</xliff:g> er no frigjort. Vil du la lagringsstyraren frigjera plass automatisk ved å fjerna innhald på eininga som det finst tryggingskopi av?</string>
+    <string name="deletion_helper_upsell_cancel">Nei takk</string>
+    <string name="deletion_helper_upsell_activate">Slå på</string>
+    <string name="deletion_helper_apps_group_title">Appar som sjeldan er i bruk</string>
+    <string name="deletion_helper_apps_group_summary"><xliff:g id="used" example="1.2GB">%1$s</xliff:g></string>
+    <string name="deletion_helper_automatic_title">Automatisk</string>
+    <string name="deletion_helper_manual_title">Manuell</string>
+    <string name="deletion_helper_preference_title">Frigjer lagringsplass no</string>
+    <string name="automatic_storage_manager_service_label">Teneste for automatisk lagringsstyring</string>
+    <string name="automatic_storage_manager_notification_title" product="default">Lite ledig plass på telefonen</string>
+    <string name="automatic_storage_manager_notification_title" product="tablet">Lite ledig plass på nettbrettet</string>
+    <string name="automatic_storage_manager_notification_summary">Lat lagringsstyraren frigjera plass ved å fjerna gamle bilete og videoar automatisk når telefonen byrjar å bli full att.</string>
+    <string name="automatic_storage_manager_cancel_button">Nei takk</string>
+    <string name="automatic_storage_manager_activate_button">Slå på</string>
+    <string name="deletion_helper_photos_loading_title">Bilete og videoar med tryggingskopi</string>
     <string name="deletion_helper_photos_loading_summary">Finn element …</string>
+    <string name="deletion_helper_no_threshold">Vis alle element</string>
+    <string name="deletion_helper_default_threshold">Gøym nylege element</string>
+    <string name="deletion_helper_clear_dialog_message_first_time"><xliff:g id="clearable_bytes" example="1.2GB">%1$s</xliff:g> med innhald blir fjerna frå eininga</string>
+    <string name="automatic_storage_manager_activation_warning">Lagringa blir no styrt av lagringsstyraren</string>
+    <string name="empty_state_title">Ingenting å fjerna</string>
+    <string name="empty_state_review_items_link">Sjå gjennom nylege element</string>
+    <string name="empty_state_summary">Det finst ingen eldre filer å fjerna. For å gjera plass kan du fjerna nylege bilete, videoar og appar.</string>
+    <string name="app_requesting_space"><xliff:g id="app" example="Dialer">%1$s</xliff:g> treng <xliff:g id="clearable_bytes" example="1.2GB">%2$s</xliff:g> med plass</string>
 </resources>

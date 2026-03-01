@@ -15,10 +15,382 @@
   ~ limitations under the License.
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="audio_channel_mono">mono</string>
+    <string name="audio_channel_stereo">stereo</string>
+    <string name="menu_title_play_controls">Avspelingskontrollar</string>
+    <string name="menu_title_channels">Kanalar</string>
+    <string name="menu_title_options">TV-val</string>
+    <string name="play_controls_unavailable">Avspelingskontrollar er ikkje tilgjengelege for denne kanalen</string>
+    <string name="play_controls_description_play_pause">Spel av eller pause</string>
+    <string name="play_controls_description_fast_forward">Spol framover</string>
+    <string name="play_controls_description_fast_rewind">Spol bakover</string>
+    <string name="play_controls_description_skip_next">Neste</string>
+    <string name="play_controls_description_skip_previous">Førre</string>
+    <string name="channels_item_program_guide">Programoversikt</string>
+    <string name="channels_item_up">Kanal opp</string>
+    <string name="channels_item_down">Kanal ned</string>
+    <string name="channels_item_setup">Nye kanalar er tilgjengelege</string>
+    <string name="channels_item_app_link_app_launcher">Opna <xliff:g id="app_name" example="YouTube">%1$s</xliff:g></string>
+    <string name="options_item_closed_caption">Undertekstar</string>
+    <string name="options_item_display_mode">Visingsmodus</string>
+    <string name="options_item_pip">PIP</string>
+    <string name="options_item_multi_audio">Fleirkanalslyd</string>
+    <string name="options_item_more_channels">Hent fleire kanalar</string>
+    <string name="options_item_settings">Innstillingar</string>
+    <string name="input_long_label_for_tuner">TV (antenne/kabel)</string>
+    <string name="no_program_information">Ingen programinfo</string>
+    <string name="program_title_for_no_information">Ingen informasjon</string>
     <string name="program_title_for_blocked_channel">Sperra kanal</string>
+    <string name="multi_audio_unknown_language">Ukjent språk</string>
+    <string name="closed_caption_unknown_language">Undertekstar <xliff:g id="unknown_language_index" example="1">%1$d</xliff:g></string>
+    <string name="side_panel_title_closed_caption">Undertekstar</string>
+    <string name="closed_caption_option_item_off">Av</string>
+    <string name="closed_caption_system_settings">Tilpass formatering</string>
+    <string name="closed_caption_system_settings_description">Vel globale innstillingar for undertekstar</string>
+    <string name="side_panel_title_display_mode">Visingsmodus</string>
+    <string name="side_panel_title_multi_audio">Fleirkanalslyd</string>
+    <string name="multi_audio_channel_mono">mono</string>
+    <string name="multi_audio_channel_stereo">stereo</string>
+    <string name="multi_audio_channel_surround_6">5.1-surround</string>
+    <string name="multi_audio_channel_surround_8">7.1-surround</string>
+    <string name="multi_audio_channel_suffix"><xliff:g id="audio_channel_count" example="5">%d</xliff:g> kanalar</string>
+    <string name="side_panel_title_edit_channels_for_an_input">Tilpass kanallista</string>
+    <string name="edit_channels_item_select_group">Vel gruppe</string>
+    <string name="edit_channels_item_deselect_group">Vel bort gruppe</string>
+    <string name="edit_channels_item_group_by">Grupper etter</string>
+    <string name="edit_channels_group_by_sources">Kanalkjelde</string>
+    <string name="edit_channels_group_by_hd_sd">HD/SD</string>
+    <string name="edit_channels_group_divider_for_hd">HD</string>
+    <string name="edit_channels_group_divider_for_sd">SD</string>
+    <string name="side_panel_title_group_by">Grupper etter</string>
+    <string name="program_guide_content_locked">Dette programmet er sperra</string>
+    <string name="program_guide_content_locked_unrated">Dette programmet manglar aldersgrense</string>
+    <string name="program_guide_content_locked_format">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g></string>
+    <string name="msg_no_setup_activity">Inngangen støttar ikkje automatisk kanalsøk</string>
+    <string name="msg_unable_to_start_setup_activity">Klarte ikkje å starta automatisk søk for «<xliff:g id="tv_input" example="Built-in Tuner">%s</xliff:g>»</string>
+    <string name="msg_unable_to_start_system_captioning_settings">Klarte ikkje å opna systeminnstillingane for undertekstar.</string>
+    <plurals name="msg_channel_added">
+        <item quantity="one">%1$d kanal vart lagd til</item>
+        <item quantity="other">%1$d kanalar vart lagde til</item>
+    </plurals>
+    <string name="msg_no_channel_added">Ingen kanalar vart lagde til</string>
+    <string name="menu_parental_controls">Foreldrekontroll</string>
+    <string name="option_toggle_parental_controls_on">På</string>
+    <string name="option_toggle_parental_controls_off">Av</string>
+    <string name="option_channels_locked">Sperra kanalar</string>
+    <string name="option_channels_lock_all">Blokker alle</string>
+    <string name="option_channels_unlock_all">Frigjev alle</string>
     <string name="option_channels_subheader_hidden">Gøymde kanalar</string>
+    <string name="option_program_restrictions">Programavgrensingar</string>
+    <string name="option_change_pin">Endra PIN-kode</string>
+    <string name="option_country_rating_systems">Vurderingssystem</string>
+    <string name="option_ratings">Aldersgrenser</string>
+    <string name="option_see_all_rating_systems">Sjå alle vurderingssystem</string>
+    <string name="other_countries">Andre land</string>
+    <string name="option_no_locked_channel">Ingen</string>
+    <string name="option_no_enabled_rating_system">Ingen</string>
+    <string name="unrated_rating_name">Utan aldersgrense</string>
+    <string name="option_block_unrated_programs">Blokker program utan aldersgrense</string>
+    <string name="option_rating_none">Ingen</string>
+    <string name="option_rating_high">Strenge avgrensingar</string>
+    <string name="option_rating_medium">Middels avgrensingar</string>
+    <string name="option_rating_low">Milde avgrensingar</string>
+    <string name="option_rating_custom">Tilpassa</string>
+    <string name="option_rating_high_description">Innhald som høver for born</string>
+    <string name="option_rating_medium_description">Innhald som høver for eldre born</string>
+    <string name="option_rating_low_description">Innhald som høver for ungdom</string>
+    <string name="option_rating_custom_description">Manuelle avgrensingar</string>
+    <string name="option_attribution">Kjelder for aldersgrenser</string>
+    <string name="option_subrating_title">%1$s og underkategoriar</string>
+    <string name="option_subrating_header">Underkategoriar</string>
+    <string name="pin_enter_unlock_channel">Skriv inn PIN-koden for å sjå denne kanalen</string>
+    <string name="pin_enter_unlock_program">Skriv inn PIN-koden for å sjå dette programmet</string>
+    <string name="pin_enter_unlock_dvr">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>. Skriv inn PIN-koden for å sjå det.</string>
+    <string name="pin_enter_unlock_dvr_unrated">Dette programmet manglar aldersgrense. Skriv inn PIN-koden for å sjå det.</string>
+    <string name="pin_enter_pin">Skriv inn PIN-koden</string>
+    <string name="pin_enter_create_pin">Lag ein PIN-kode for å setja opp foreldrekontroll</string>
+    <string name="pin_enter_new_pin">Skriv inn ny PIN-kode</string>
+    <string name="pin_enter_again">Stadfest PIN-koden</string>
+    <string name="pin_enter_old_pin">Skriv inn den noverande PIN-koden</string>
+    <plurals name="pin_enter_countdown">
+        <item quantity="one">Du skreiv feil PIN-kode 5 gonger.\nPrøv på nytt om <xliff:g id="remaining_seconds" example="1">%1$d</xliff:g> sekund.</item>
+        <item quantity="other">Du skreiv feil PIN-kode 5 gonger.\nPrøv på nytt om <xliff:g id="remaining_seconds" example="60">%1$d</xliff:g> sekund.</item>
+    </plurals>
+    <string name="pin_toast_wrong">Feil PIN-kode. Prøv på nytt.</string>
+    <string name="pin_toast_not_match">Prøv på nytt, PIN-kodane er ikkje like</string>
+    <string name="side_panel_title_settings">Innstillingar</string>
+    <string name="settings_channel_source_item_customize_channels">Tilpass kanallista</string>
+    <string name="settings_channel_source_item_customize_channels_description">Vel kanalar for programoversikta</string>
+    <string name="settings_channel_source_item_setup">Kanalkjelder</string>
+    <string name="settings_channel_source_item_setup_new_inputs">Nye kanalar er tilgjengelege</string>
+    <string name="settings_parental_controls">Foreldrekontroll</string>
+    <string name="settings_trickplay">Tidsforskyving</string>
+    <string name="settings_trickplay_description">Gjer opptak medan du ser på, slik at du kan pausa eller spola i direkteoverføringar.\n\nÅtvaring: Intensiv bruk av lagringsplassen kan forkorta levetida til det interne minnet.</string>
+    <string name="settings_menu_licenses">Lisensar for open kjeldekode</string>
+    <string name="settings_send_feedback">Send tilbakemelding</string>
+    <string name="settings_menu_version">Versjon</string>
+    <string name="tvview_channel_locked">Trykk til høgre og skriv inn PIN-koden for å sjå denne kanalen</string>
+    <string name="tvview_channel_locked_talkback">Trykk på vel-knappen og skriv inn PIN-koden for å sjå denne kanalen</string>
+    <string name="tvview_content_locked">Trykk til høgre og skriv inn PIN-koden for å sjå dette programmet</string>
+    <string name="tvview_content_locked_talkback">Trykk på vel-knappen og skriv inn PIN-koden for å sjå dette programmet</string>
+    <string name="tvview_content_locked_unrated">Dette programmet manglar aldersgrense.\nTrykk til høgre og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_content_locked_unrated_talkback">Dette programmet manglar aldersgrense.\nTrykk på vel-knappen og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_content_locked_format_talkback">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>.\nTrykk på vel-knappen og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_content_locked_format">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>.\nTrykk til høgre og skriv inn PIN-koden for å sjå det.</string>
+    <string name="tvview_channel_locked_no_permission">Bruk standard-appen for TV for å sjå denne kanalen.</string>
+    <string name="tvview_content_locked_no_permission">Bruk standard-appen for TV for å sjå dette programmet.</string>
+    <string name="tvview_content_locked_unrated_no_permission">Dette programmet manglar aldersgrense.\nBruk standard-appen for TV for å sjå det.</string>
+    <string name="tvview_content_locked_format_no_permission">Dette programmet har aldersgrensa <xliff:g id="rating" example="TV_MA">%1$s</xliff:g>.\nBruk standard-appen for TV for å sjå det.</string>
+    <string name="shrunken_tvview_content_locked">Programmet er sperra</string>
+    <string name="shrunken_tvview_content_locked_unrated">Manglar aldersgrense</string>
+    <string name="shrunken_tvview_content_locked_format">Aldersgrense: <xliff:g id="rating" example="TV_MA">%1$s</xliff:g></string>
+    <string name="tvview_msg_audio_only">Berre lyd</string>
+    <string name="tvview_msg_weak_signal">Svakt signal</string>
+    <string name="tvview_msg_no_internet_connection">Inga internettilkopling</string>
+    <plurals name="tvview_msg_input_no_resource">
+        <item quantity="one">Klarer ikkje å spela av kanalen før kl. <xliff:g id="end_time" example="9:30 PM">%1$s</xliff:g> fordi ein annan kanal vert teken opp.\n\nTrykk til høgre for å endra opptaksplanen.</item>
+        <item quantity="other">Klarer ikkje å spela av kanalen før kl. <xliff:g id="end_time" example="9:30 PM">%1$s</xliff:g> fordi andre kanalar vert tekne opp.\n\nTrykk til høgre for å endra opptaksplanen.</item>
+    </plurals>
+    <string name="empty_input_status_title_format"><xliff:g id="input_label" example="HDMI 1">%1$s</xliff:g> – inkje signal</string>
+    <string name="empty_input_status_info">Sjekk tilkoplinga eller vel ei anna kjelde</string>
+    <string name="input_banner_v2_active_input">Aktiv inngang</string>
+    <string name="input_banner_v2_input_label_format"><xliff:g example="HDMI 1" id="label">%1$s</xliff:g> · <xliff:g example="Play Station" id="custom_label">%2$s</xliff:g></string>
+    <string name="channel_banner_no_title">Ingen tittel</string>
+    <string name="channel_banner_locked_channel_title">Kanalen er sperra</string>
+    <string name="setup_category_new">Ny</string>
+    <string name="setup_category_done">Kjelder</string>
+    <plurals name="setup_input_channels">
+        <item quantity="one">%1$d kanal</item>
+        <item quantity="other">%1$d kanalar</item>
+    </plurals>
+    <string name="setup_input_no_channels">Ingen kanalar er tilgjengelege</string>
+    <string name="setup_input_new">Ny</string>
+    <string name="setup_input_setup_now">Ikkje sett opp</string>
+    <string name="setup_store_action_title">Hent fleire kjelder</string>
+    <string name="setup_store_action_description">Sjå appar som tilbyr direktekanalar</string>
+    <string name="new_sources_title">Nye kanalkjelder er tilgjengelege</string>
+    <string name="new_sources_description">Det finst nye kjelder med eigne kanalar.\nSet dei opp no, eller gjer det seinare under innstillingane for kanalkjelder.</string>
+    <string name="new_sources_action_setup">Set opp no</string>
+    <string name="new_sources_action_skip">Greitt</string>
+    <string name="intro_title">@string/app_name</string>
+    <string name="intro_description"><b>Trykk på VEL-knappen</b> for å opna TV-menyen.</string>
+    <string name="msg_no_input">Fann ingen TV-inngang</string>
+    <string name="msg_no_specific_input">Fann ikkje TV-inngangen</string>
+    <string name="msg_not_passthrough_input">Tuner-type passar ikkje her. Opna appen <xliff:g id="app_name">Live TV</xliff:g> for TV-inngang via tuner.</string>
+    <string name="msg_tune_failed">Klarte ikkje å stilla inn kanalen</string>
+    <string name="msg_missing_app">Fann ingen app som kan utføra denne handlinga.</string>
     <string name="msg_all_channels_hidden">Alle kjeldekanalar er gøymde.\nVel minst éin kanal du vil sjå på.</string>
+    <string name="msg_channel_unavailable_unknown">Videoen er utilgjengeleg av uventa årsaker</string>
+    <string name="msg_channel_unavailable_not_connected">Inkje signal. Sjekk tilkoplinga til kjelda.</string>
+    <string name="msg_back_key_guide">TILBAKE-tasten er for den tilkopla eininga. Trykk på HEIM-knappen for å gå ut.</string>
+    <string name="msg_read_tv_listing_permission_denied"><xliff:g id="app_name">Live TV</xliff:g> treng løyve for å lesa programoversikten.</string>
+    <string name="dvr_notification_channel_name"><xliff:g id="app_name">Live TV</xliff:g> DVR</string>
+    <string name="dvr_notification_content_title"><xliff:g id="app_name">Live TV</xliff:g> DVR</string>
+    <string name="dvr_notification_content_text_recording"><xliff:g id="app_name">Live TV</xliff:g> gjer opptak.</string>
+    <string name="dvr_notification_content_text_loading"><xliff:g id="app_name">Live TV</xliff:g> oppdaterer opptaksplanen.</string>
+    <string name="setup_sources_text">Set opp kjeldene dine</string>
+    <string name="channels_item_dvr">Opptak og planar</string>
+    <string name="recording_start_dialog_10_min_duration">10 minutt</string>
+    <string name="recording_start_dialog_30_min_duration">30 minutt</string>
+    <string name="recording_start_dialog_1_hour_duration">1 time</string>
+    <string name="recording_start_dialog_3_hours_duration">3 timar</string>
+    <string name="dvr_main_recent">Nylege</string>
+    <string name="dvr_main_scheduled">Planlagde</string>
+    <string name="dvr_main_series">Seriar</string>
+    <string name="dvr_main_others">Andre</string>
+    <string name="dvr_msg_cannot_record_channel">Klarte ikkje å gjera opptak av kanalen.</string>
+    <string name="dvr_msg_cannot_record_program">Klarte ikkje å gjera opptak av programmet.</string>
+    <string name="dvr_msg_program_scheduled">Planla opptak av <xliff:g id="programName" example="Big bang theory">%1$s</xliff:g></string>
+    <string name="dvr_msg_current_program_scheduled">Gjer opptak av <xliff:g id="programName" example="Big bang theory">%1$s</xliff:g> fram til kl. <xliff:g id="endTime" example="12:30 PM">%2$s</xliff:g></string>
+    <string name="dvr_history_card_view_title">Opptakshistorikk</string>
+    <string name="dvr_full_schedule_card_view_title">Heile planen</string>
+    <string name="dvr_recording_failed">Opptaket mislukkast.</string>
+    <string name="dvr_recording_failed_no_period">Opptaket mislukkast</string>
+    <string name="dvr_recording_conflict">Opptakskonflikt</string>
+    <plurals name="dvr_full_schedule_card_view_content">
+        <item quantity="one">Neste %1$d dag</item>
+        <item quantity="other">Neste %1$d dagar</item>
+    </plurals>
+    <plurals name="dvr_program_duration">
+        <item quantity="one">%1$d minutt</item>
+        <item quantity="other">%1$d minutt</item>
+    </plurals>
+    <plurals name="dvr_count_new_recordings">
+        <item quantity="one">%1$d nytt opptak</item>
+        <item quantity="other">%1$d nye opptak</item>
+    </plurals>
+    <plurals name="dvr_count_recordings">
+        <item quantity="one">%1$d opptak</item>
+        <item quantity="other">%1$d opptak</item>
+    </plurals>
+    <plurals name="dvr_count_scheduled_recordings">
+        <item quantity="one">%1$d planlagt opptak</item>
+        <item quantity="other">%1$d planlagde opptak</item>
+    </plurals>
+    <string name="dvr_detail_schedule_recording">Planlegg opptak</string>
+    <string name="dvr_detail_cancel_recording">Avbryt opptak</string>
+    <string name="dvr_detail_stop_recording">Stans opptaket</string>
+    <string name="dvr_detail_watch">Sjå</string>
+    <string name="dvr_detail_play_from_beginning">Spel av frå byrjinga</string>
+    <string name="dvr_detail_resume_play">Hald fram avspeling</string>
+    <string name="dvr_detail_delete">Slett</string>
+    <string name="dvr_detail_series_delete">Slett opptaka</string>
+    <string name="dvr_detail_series_resume">Hald fram</string>
+    <string name="dvr_detail_series_season_title">Sesong <xliff:g id="season_number">%1$s</xliff:g></string>
+    <string name="dvr_detail_view_schedule">Sjå planen</string>
+    <string name="dvr_detail_read_more">Finn ut meir</string>
+    <string name="dvr_recording_failed_system_failure">Systemfeil. (Feilkode: <xliff:g id="errorCode" example="0">%1$d</xliff:g>)</string>
+    <string name="dvr_recording_failed_not_started">Opptaket starta ikkje. Sjekk tilkoplinga til antenne og eventuell harddisk.</string>
+    <string name="dvr_recording_failed_resource_busy">Klarte ikkje å stilla inn kanalen. Moglege årsaker: svakt signal, dårleg antennetilkopling eller opptakskonflikt.</string>
+    <string name="dvr_recording_failed_input_unavailable"><xliff:g id="inputId" example="com.example.partnersupportsampletvinput/.SampleTvInputService">%1$s</xliff:g> er utilgjengeleg.</string>
+    <string name="dvr_recording_failed_input_dvr_unsupported">Denne kanalen støttar ikkje opptak.</string>
+    <string name="dvr_recording_failed_insufficient_space">Ikkje nok plass. Kopla til ekstern lagring eller slett nokre av dei gamle opptaka.</string>
+    <string name="dvr_series_deletion_title">Slett opptak</string>
     <string name="dvr_series_deletion_description">Vel episodane du vil sletta. Dei kan ikkje gjenopprettast etter at dei er sletta.</string>
+    <string name="dvr_series_deletion_no_recordings">Det finst ingen opptak å sletta.</string>
+    <string name="dvr_series_select_watched">Vel sette episodar</string>
+    <string name="dvr_series_select_all">Vel alle episodane</string>
+    <string name="dvr_series_deselect_all">Vel bort alle episodane</string>
+    <string name="dvr_series_watched_info_minutes">Sett <xliff:g id="watched">%1$d</xliff:g> av <xliff:g id="duration">%2$d</xliff:g> minutt</string>
+    <string name="dvr_series_watched_info_seconds">Sett <xliff:g id="watched">%1$d</xliff:g> av <xliff:g id="duration">%2$d</xliff:g> sekund</string>
+    <string name="dvr_series_never_watched">Aldri sett</string>
+    <plurals name="dvr_msg_episodes_deleted">
+        <item quantity="one">%1$d av %2$d episode er sletta</item>
+        <item quantity="other">%1$d av %2$d episodar er sletta</item>
+    </plurals>
+    <string name="dvr_series_settings_title">Opptaksinnstillingar</string>
+    <string name="dvr_series_settings_priority">Prioritet</string>
+    <string name="dvr_series_settings_priority_highest">Høgaste</string>
+    <string name="dvr_series_settings_priority_lowest">Lågaste</string>
+    <string name="dvr_series_settings_priority_rank">Nr. <xliff:g id="rank">%1$d</xliff:g></string>
+    <string name="dvr_series_settings_channels">Kanalar</string>
+    <string name="dvr_series_settings_channels_all">Alle</string>
+    <string name="dvr_priority_title">Vel prioritet</string>
+    <string name="dvr_priority_description">Dersom for mange program skal takast opp på same tid, vert berre dei med høgast prioritet tekne opp.</string>
+    <string name="dvr_priority_button_action_save">Lagra</string>
+    <string name="dvr_priority_action_one_time_recording">Eingongsopptak har høgaste prioritet</string>
+    <string name="dvr_action_delete_schedule">Slett planen</string>
+    <string name="dvr_action_record_program">Ta opp programmet</string>
+    <string name="dvr_action_error_storage_settings">Opna lagringsinnstillingar</string>
+    <string name="dvr_action_stop">Stopp</string>
+    <string name="dvr_action_view_schedules">Sjå opptaksplanen</string>
+    <string name="dvr_action_record_episode">Berre dette programmet</string>
+    <string name="dvr_action_record_episode_from_now_description">no – <xliff:g id="endTime" example="11:30">%1$s</xliff:g></string>
     <string name="dvr_action_record_series">Heile serien  …</string>
+    <string name="dvr_action_record_anyway">Planlegg likevel</string>
+    <string name="dvr_action_record_instead">Ta opp dette i staden</string>
+    <string name="dvr_action_record_cancel">Avbryt dette opptaket</string>
+    <string name="dvr_action_watch_now">Sjå no</string>
     <string name="dvr_action_delete_recordings">Slett opptak  …</string>
+    <string name="dvr_epg_program_recordable">Kan takast opp</string>
+    <string name="dvr_epg_program_recording_scheduled">Opptak er planlagt</string>
+    <string name="dvr_epg_program_recording_conflict">Opptakskonflikt</string>
+    <string name="dvr_epg_program_recording_in_progress">Gjer opptak</string>
+    <string name="dvr_epg_program_recording_failed">Opptaket mislukkast</string>
+    <string name="dvr_epg_channel_watch_conflict_dialog_title">Kommande planar</string>
+    <string name="dvr_epg_channel_watch_conflict_dialog_description">Programmet vert ikkje teke opp om du held fram med å sjå på denne kanalen. Avbryt opptaket, elles vert kanalen sperra når opptaket startar.</string>
+    <string name="dvr_series_progress_message_reading_programs">Les programinfo</string>
+    <string name="dvr_error_insufficient_space_action_view_recent_recordings">Sjå nylege opptak</string>
+    <string name="dvr_error_insufficient_space_title_one_recording">Opptaket av <xliff:g id="programName" example="Friends">%1$s</xliff:g> er ufullstendig.</string>
+    <string name="dvr_error_insufficient_space_title_two_recordings">Opptaka av <xliff:g id="programName_1" example="Friends">%1$s</xliff:g> og <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> er ufullstendige.</string>
+    <string name="dvr_error_insufficient_space_title_three_or_more_recordings">Opptaka av <xliff:g id="programName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> og <xliff:g id="programName_3" example="Friends">%3$s</xliff:g> er ufullstendige.</string>
+    <string name="dvr_error_insufficient_space_description_one_recording">Opptaket av <xliff:g id="programName" example="Friends">%1$s</xliff:g> vart ikkje ferdig på grunn av for lite lagringsplass.</string>
+    <string name="dvr_error_insufficient_space_description_two_recordings">Opptaka av <xliff:g id="programName_1" example="Friends">%1$s</xliff:g> og <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> vart ikkje ferdige på grunn av for lite lagringsplass.</string>
+    <string name="dvr_error_insufficient_space_description_three_or_more_recordings">Opptaka av <xliff:g id="programName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> og <xliff:g id="programName_3" example="Friends">%3$s</xliff:g> vart ikkje ferdige på grunn av for lite lagringsplass.</string>
+    <string name="dvr_error_small_sized_storage_title">Treng meir lagringsplass</string>
+    <string name="dvr_error_small_sized_storage_description">Du kan ta opp program, men det er ikkje nok lagringsplass på eininga di til å starta opptaket. Kopla til ein ekstern stasjon på minst <xliff:g id="storage_size" example="10GB">%1$d</xliff:g> GB og fylg stega for å formatera han som einingslagring.</string>
+    <string name="dvr_error_no_free_space_title">Ikkje nok lagringsplass</string>
+    <string name="dvr_error_no_free_space_description">Dette programmet vert ikkje teke opp fordi det er for lite lagringsplass. Freist å sletta nokre av dei gamle opptaka.</string>
+    <string name="dvr_error_missing_storage_title">Manglar lagringseining</string>
+    <string name="dvr_error_missing_storage_description">Ein del av lagringsplassen som vert brukt til opptak, manglar. Kopla til den eksterne stasjonen du brukte før for å kunna gjera opptak att. Du kan òg velja å gløyma lagringseininga i lagringsinnstillingane dersom ho ikkje lenger er tilgjengeleg.</string>
+    <string name="dvr_toast_recording_deleted">Fann ikkje opptaket.</string>
+    <string name="dvr_stop_recording_dialog_title">Vil du stansa opptaket?</string>
+    <string name="dvr_stop_recording_dialog_description">Det som alt er teke opp, vert lagra.</string>
+    <string name="dvr_stop_recording_dialog_description_on_conflict">Opptaket av <xliff:g id="programName" example="Friends">%1$s</xliff:g> vert stansa fordi det kjem i konflikt med dette programmet. Det som alt er teke opp, vert lagra.</string>
+    <string name="dvr_program_conflict_dialog_title">Opptaket er planlagt, men har konfliktar</string>
+    <string name="dvr_channel_conflict_dialog_title">Opptaket har starta, men har konfliktar</string>
+    <string name="dvr_program_conflict_dialog_description_prefix"><xliff:g id="programName" example="Friends">%1$s</xliff:g> vert teke opp.</string>
+    <string name="dvr_channel_conflict_dialog_description_prefix"><xliff:g id="channelName" example="KQED">%1$s</xliff:g> vert teke opp no.</string>
+    <string name="dvr_program_conflict_dialog_description_1">Delar av <xliff:g id="conflictProgramName" example="Friends">%1$s</xliff:g> vert ikkje tekne opp.</string>
+    <string name="dvr_program_conflict_dialog_description_2">Delar av <xliff:g id="conflictProgramName_1" example="Friends">%1$s</xliff:g> og <xliff:g id="conflictProgramName_2" example="Friends">%2$s</xliff:g> vert ikkje tekne opp.</string>
+    <string name="dvr_program_conflict_dialog_description_3">Delar av <xliff:g id="conflictProgramName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="conflictProgramName_2" example="Friends">%2$s</xliff:g> og eitt anna planlagt opptak vert ikkje tekne opp.</string>
+    <plurals name="dvr_program_conflict_dialog_description_many">
+        <item quantity="one">Delar av <xliff:g id="conflictProgramName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="conflictProgramName_2" example="Friends">%2$s</xliff:g> og %3$d anna planlagt opptak vert ikkje tekne opp.</item>
+        <item quantity="other">Delar av <xliff:g id="conflictProgramName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="conflictProgramName_2" example="Friends">%2$s</xliff:g> og %3$d andre planlagde opptak vert ikkje tekne opp.</item>
+    </plurals>
+    <string name="dvr_schedule_dialog_title">Kva vil du ta opp?</string>
+    <string name="dvr_channel_record_duration_dialog_title">Kor lenge vil du gjera opptak?</string>
+    <string name="dvr_already_scheduled_dialog_title">Alt planlagt</string>
+    <string name="dvr_already_scheduled_dialog_description">Det same programmet er alt planlagt teke opp kl. <xliff:g id="programStartTime" example="7:30 AM on Jun 27.">%1$s</xliff:g>.</string>
+    <string name="dvr_already_recorded_dialog_title">Alt teke opp</string>
+    <string name="dvr_already_recorded_dialog_description">Dette programmet er alt teke opp. Du finn det i opptaksbiblioteket.</string>
+    <string name="dvr_series_recording_dialog_title">Serieopptak er planlagt</string>
+    <plurals name="dvr_series_scheduled_no_conflict">
+        <item quantity="one">Det er planlagt <xliff:g id="numberOfRecordings" example="1">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>.</item>
+        <item quantity="other">Det er planlagt <xliff:g id="numberOfRecordings" example="5">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>.</item>
+    </plurals>
+    <plurals name="dvr_series_recording_scheduled_only_this_series_conflict">
+        <item quantity="one">Det er planlagt <xliff:g id="numberOfRecordings" example="1">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. Det vert ikkje utført på grunn av konfliktar.</item>
+        <item quantity="other">Det er planlagt <xliff:g id="numberOfRecordings" example="5">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. %3$d av dei vert ikkje utførte på grunn av konfliktar.</item>
+    </plurals>
+    <plurals name="dvr_series_scheduled_this_and_other_series_conflict">
+        <item quantity="one">Det er planlagt <xliff:g id="numberOfRecordings" example="1">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. <xliff:g id="numberOfConflictEpisodes" example="1">%3$d</xliff:g> episode av denne eller andre seriar vert ikkje teken opp på grunn av konfliktar.</item>
+        <item quantity="other">Det er planlagt <xliff:g id="numberOfRecordings" example="5">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. <xliff:g id="numberOfConflictEpisodes" example="2">%3$d</xliff:g> episodar av denne eller andre seriar vert ikkje tekne opp på grunn av konfliktar.</item>
+    </plurals>
+    <plurals name="dvr_series_scheduled_only_other_series_one_conflict">
+        <item quantity="one">Det er planlagt <xliff:g id="numberOfRecordings" example="1">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. 1 episode av ein annan serie vert ikkje teken opp på grunn av konfliktar.</item>
+        <item quantity="other">Det er planlagt <xliff:g id="numberOfRecordings" example="5">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. 1 episode av ein annan serie vert ikkje teken opp på grunn av konfliktar.</item>
+    </plurals>
+    <plurals name="dvr_series_scheduled_only_other_series_many_conflicts">
+        <item quantity="one">Det er planlagt <xliff:g id="numberOfRecordings" example="1">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. <xliff:g id="numberOfConflictEpisodes" example="1">%3$d</xliff:g> episode av ein annan serie vert ikkje teken opp på grunn av konfliktar.</item>
+        <item quantity="other">Det er planlagt <xliff:g id="numberOfRecordings" example="5">%1$d</xliff:g> opptak av <xliff:g id="seriesName" example="Friends">%2$s</xliff:g>. <xliff:g id="numberOfConflictEpisodes" example="2">%3$d</xliff:g> episodar av andre seriar vert ikkje tekne opp på grunn av konfliktar.</item>
+    </plurals>
+    <string name="dvr_program_not_found">Fann ikkje opptaket av programmet.</string>
+    <string name="dvr_playback_related_recordings">Relaterte opptak</string>
+    <string name="dvr_recording_till_format">Gjer opptak fram til kl. <xliff:g id="recordingEndTime" example="9:00pm">%1$s</xliff:g></string>
+    <plurals name="dvr_schedules_section_subtitle">
+        <item quantity="one">%1$d opptak</item>
+        <item quantity="other">%1$d opptak</item>
+    </plurals>
+    <string name="dvr_schedules_information_separator"> / </string>
+    <string name="dvr_schedules_deletion_info"><xliff:g id="programName" example="Big bang theory">%1$s</xliff:g> er fjerna frå opptaksplanen</string>
+    <string name="dvr_schedules_tuner_conflict_will_be_partially_recorded">Opptaket vert berre delvis utført på grunn av tuner-konflikt.</string>
+    <string name="dvr_schedules_tuner_conflict_will_not_be_recorded_info">Vert ikkje teke opp på grunn av tuner-konflikt.</string>
+    <string name="dvr_schedules_empty_state">Det er ingen planlagde opptak enno.\nDu kan planleggja opptak frå programoversikten.</string>
+    <string name="dvr_history_empty_state">Opptakshistorikken er tom.\nDu kan planleggja opptak frå programoversikten.</string>
+    <plurals name="dvr_series_schedules_header_description">
+        <item quantity="one">%1$d opptakskonflikt</item>
+        <item quantity="other">%1$d opptakskonfliktar</item>
+    </plurals>
+    <string name="dvr_series_schedules_settings">Serieinnstillingar</string>
+    <string name="dvr_series_schedules_start">Start serieopptak</string>
+    <string name="dvr_series_schedules_stop">Stans serieopptak</string>
+    <string name="dvr_series_schedules_stop_dialog_title">Vil du stansa serieopptaket?</string>
+    <string name="dvr_series_schedules_stop_dialog_description">Episodar som alt er tekne opp, vert liggjande i opptaksbiblioteket.</string>
+    <string name="dvr_series_schedules_stop_dialog_action_stop">Stopp</string>
+    <string name="dvr_series_schedules_stopped_empty_state">Ingen episodar går på lufta no.</string>
+    <string name="dvr_series_schedules_empty_state">Ingen episodar er tilgjengelege.\nDei vert tekne opp så snart dei er tilgjengelege.</string>
+    <plurals name="dvr_schedules_recording_duration">
+        <item quantity="one">(%1$d minutt) </item>
+        <item quantity="other">(%1$d minutt)</item>
+    </plurals>
+    <string name="dvr_recording_failed_short">Mislukkast.</string>
+    <string name="dvr_recording_failed_not_started_short">Klarte ikkje å starta opptaket.</string>
+    <string name="dvr_recording_failed_resource_busy_short">Klarte ikkje å stilla inn kanalen.</string>
+    <string name="dvr_recording_failed_input_unavailable_short"><xliff:g id="inputId" example="com.example.partnersupportsampletvinput/.SampleTvInputService">%1$s</xliff:g> er utilgjengeleg.</string>
+    <string name="dvr_recording_failed_input_dvr_unsupported_short">Opptak er ikkje støtta.</string>
+    <string name="dvr_recording_failed_insufficient_space_short">For lite plass.</string>
+    <string name="dvr_date_today">I dag</string>
+    <string name="dvr_date_tomorrow">I morgon</string>
+    <string name="dvr_date_yesterday">I går</string>
+    <string name="dvr_date_today_time">I dag kl. <xliff:g id="time_range" example="10:00 am - 11:00 am">%1$s</xliff:g></string>
+    <string name="dvr_date_tomorrow_time">I morgon kl. <xliff:g id="time_range" example="10:00 am - 11:00 am">%1$s</xliff:g></string>
+    <string name="program_guide_critic_score">Vurdering</string>
+    <string name="recorded_programs_preview_channel">Opptekne program</string>
+    <string name="write_storage_permission_rationale_title">Be om løyve</string>
+    <string name="write_storage_permission_rationale_description">Du vert beden om å «Gje <xliff:g id="app_name">Live TV</xliff:g> tilgang til bilete, medium og filer på eininga di?». \n\nDersom du vel «Tillat», kan <xliff:g id="app_name">Live TV</xliff:g> frigjera lagringsplass med ein gong når du slettar opptekne TV-program. Slik får du meir plass til nye opptak.</string>
+    <string name="tv_app_dialog_title">Fann ein interaktiv app. Vil du slå på interaktive appar?</string>
+    <string name="interactive_app_settings">Innstillingar for interaktive appar</string>
+    <string name="tv_iapp_on">På</string>
+    <string name="tv_iapp_off">Av</string>
 </resources>

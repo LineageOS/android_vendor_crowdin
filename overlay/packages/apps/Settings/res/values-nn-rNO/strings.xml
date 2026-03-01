@@ -244,7 +244,7 @@ other {Fjerna dei valde språka?}
     <string name="settings_shortcut">Snarveg til innstillingar</string>
     <string name="airplane_mode">Flymodus</string>
     <string name="wireless_networks_settings_title">Trådlause nettverk</string>
-    <string name="roaming">Nettveksling</string>
+    <string name="roaming">Nettveksling (Roaming)</string>
     <string name="roaming_enable">Kopla til datatenester ved nettveksling</string>
     <string name="roaming_disable">Kopla til datatenester ved nettveksling</string>
     <string name="roaming_warning">Nettveksling kan kosta meir.</string>
@@ -442,7 +442,7 @@ other {# fingeravtrykk er lagte til}
     <string name="biometric_settings_category_ways_to_unlock">Måtar å låsa opp på</string>
     <string name="biometric_settings_category_use_face_fingerprint">Bruk andlet eller fingeravtrykk til å</string>
     <string name="biometric_settings_use_biometric_unlock_phone">Låsa opp telefonen</string>
-    <string name="biometric_settings_use_biometric_for_apps">Stadfesta kven du er i appar</string>
+    <string name="biometric_settings_use_biometric_for_apps">Stadfest kven du er i appar</string>
     <string name="biometric_settings_use_face_preference_summary">Brukar andlet</string>
     <string name="biometric_settings_use_fingerprint_preference_summary">Brukar fingeravtrykk</string>
     <string name="biometric_settings_use_face_or_fingerprint_preference_summary">Brukar andlet eller fingeravtrykk</string>
@@ -628,7 +628,7 @@ other {# fingeravtrykk er lagte til}
     <string name="private_space_gaia_education_bullet2">Nedlastingslogg for appar og tilrådingar</string>
     <string name="private_space_gaia_education_bullet3">Nettlogg, bokmerke og lagra passord</string>
     <string name="private_space_gaia_education_bullet4">Føreslått innhald knytt til aktiviteten din i private appar</string>
-    <string name="private_space_gaia_education_got_it">Skjønar</string>
+    <string name="private_space_gaia_education_got_it">Greitt</string>
     <string name="fingerprint_add_max">Du kan leggja til opptil <xliff:g id="count" example="5">%d</xliff:g> fingeravtrykk</string>
     <string name="fingerprint_intro_error_max">Du har lagt til det maksimale talet på fingeravtrykk</string>
     <string name="fingerprint_intro_error_unknown">Kan ikkje leggja til fleire fingeravtrykk</string>
@@ -811,6 +811,8 @@ other {# aktive tillitstenester}
     <string name="bluetooth_pairing_shares_phonebook">Gje tilgang til kontaktar og samtalehistorikk</string>
     <string name="bluetooth_pairing_phonebook_toggle_text">Gje òg tilgang til kontaktar og samtalehistorikk</string>
     <string name="bluetooth_pairing_phonebook_toggle_details">Informasjonen vert brukt til å lesa opp kven som ringer, med meir</string>
+    <string name="bluetooth_pairing_confirmation_title">Sjekk paringskodane</string>
+    <string name="bluetooth_pairing_confirmation_msg">Sjå etter om denne koden er lik koden på <xliff:g id="device_name" example="device_name">%1$s</xliff:g>.\n\nFor å vera trygg må du ikkje skriva inn denne koden nokon stad.</string>
     <string name="bluetooth_connecting_error_message">Klarte ikkje kopla til <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_preference_found_media_devices">Tilgjengelege einingar</string>
     <string name="bluetooth_device_context_connect">Kopla til</string>
@@ -995,7 +997,7 @@ other {# aktive tillitstenester}
     <string name="wifi_dpp_sharing_wifi_with_this_device">Deler Wi-Fi med eininga \u2026</string>
     <string name="wifi_dpp_connecting">Koplar til \u2026</string>
     <string name="wifi_dpp_share_hotspot">Del Wi-Fi-sone</string>
-    <string name="wifi_dpp_lockscreen_title">Stadfesta kven du er</string>
+    <string name="wifi_dpp_lockscreen_title">Stadfest kven du er</string>
     <string name="wifi_dpp_wifi_password">Wi-Fi-passord: <xliff:g id="password" example="my password">%1$s</xliff:g>
     </string>
     <string name="wifi_dpp_hotspot_password">Passord for Wi-Fi-sone: <xliff:g id="password" example="my password">%1$s</xliff:g>
@@ -1656,9 +1658,9 @@ other {# nettverk og abonnement}
     <string name="wallpaper_attributions">Bidragsytarar for bakgrunnsbilete</string>
     <string name="wallpaper_attributions_values">Leverandørar av satellittbilete:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
     <string name="settings_manual_activity_title">Brukarhandbok</string>
-    <string name="settings_manual_activity_unavailable">Det oppstod eit problem med å lasta brukarhandboka.</string>
+    <string name="settings_manual_activity_unavailable">Det skjedde noko gale med å lasta brukarhandboka.</string>
     <string name="settings_license_activity_title">Lisensar frå tredjepartar</string>
-    <string name="settings_license_activity_unavailable">Det oppstod eit problem med å lasta lisensane.</string>
+    <string name="settings_license_activity_unavailable">Det skjedde noko gale med å lasta lisensane.</string>
     <string name="settings_license_activity_loading">Lastar inn \u2026</string>
     <string name="settings_safetylegal_activity_loading">Lastar inn \u2026</string>
     <string name="lockpassword_choose_your_password_header">Vel eit passord</string>
@@ -1869,9 +1871,9 @@ other {# nettverk og abonnement}
     <string name="system_package">Systemoppdateringar kan ikkje installerast på eksterne medium.</string>
     <string name="move_error_device_admin">Appar for einingsadministrasjon kan ikkje installerast på eksterne medium</string>
     <string name="force_stop_dlg_title">Tving til å stoppa?</string>
-    <string name="force_stop_dlg_text">Viss du tvingar ein app til å stoppa, kan det henda han ikkje fungerer som han skal.</string>
+    <string name="force_stop_dlg_text">Om du tvingar ein app til å stoppa, kan det henda han ikkje fungerer som han skal.</string>
     <string name="app_disable_dlg_positive">Slå av appen</string>
-    <string name="app_disable_dlg_text">Viss du slår av denne appen, kan det henda Android og andre appar ikkje lenger verkar som dei skal. Hugs at du ikkje kan sletta denne appen sidan han låg inne på eininga di då du fekk henne. Når du slår han av, vert han gøymd og teken heilt ut av bruk.</string>
+    <string name="app_disable_dlg_text">Om du slår av denne appen, kan det henda Android og andre appar ikkje lenger verkar som dei skal. Hugs at du ikkje kan sletta denne appen sidan han låg inne på eininga di då du fekk henne. Når du slår han av, vert han gøymd og teken heilt ut av bruk.</string>
     <string name="app_install_details_group_title">Butikk</string>
     <string name="app_install_details_title">Appdetaljar</string>
     <string name="app_install_details_summary">Appen er installert frå <xliff:g id="app_store">%1$s</xliff:g>
@@ -1913,8 +1915,8 @@ other {# nettverk og abonnement}
     <string name="runningservicedetails_processes_title">Prosessar</string>
     <string name="service_stop">Stopp</string>
     <string name="service_manage">Innstillingar</string>
-    <string name="service_stop_description">Denne tenesta vart starta av appen sin. Viss du stoppar henne, kan det henda appen sviktar.</string>
-    <string name="heavy_weight_stop_description">Det er ikkje trygt å stoppa denne appen. Viss du gjer det, kan det henda du mistar noko av arbeidet ditt.</string>
+    <string name="service_stop_description">Denne tenesta vart starta av appen sin. Om du stoppar henne, kan det henda appen sviktar.</string>
+    <string name="heavy_weight_stop_description">Det er ikkje trygt å stoppa denne appen. Om du gjer det, kan det henda du mistar noko av arbeidet ditt.</string>
     <string name="background_process_stop_description">Dette er ein gamal app-prosess som framleis køyrer i tilfelle det vert bruk for han att. Som regel er det ingen grunn til å stoppa han.</string>
     <string name="service_manage_description"><xliff:g id="client_name">%1$s</xliff:g>: er i bruk no. Trykk på Innstillingar for å styra tenesta.</string>
     <string name="main_running_process_description">Hovudprosessen er i bruk.</string>
@@ -2196,7 +2198,7 @@ other {# nettverk og abonnement}
     <string name="accessibility_tutorial_dialog_message_gesture_talkback">Sveip opp frå botnen av skjermen med tre fingrar for å bruka denne funksjonen.\n\nSveip opp med tre fingrar og hald inne for å veksla mellom funksjonar.</string>
     <string name="accessibility_tutorial_dialog_message_gesture_settings">Sveip opp frå botnen av skjermen med to fingrar for å bruka ein funksjon for tilgjenge.\n\nSveip opp med to fingrar og hald inne for å veksla mellom funksjonar.</string>
     <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">Sveip opp frå botnen av skjermen med tre fingrar for å bruka ein funksjon for tilgjenge.\n\nSveip opp med tre fingrar og hald inne for å veksla mellom funksjonar.</string>
-    <string name="accessibility_tutorial_dialog_button">Skjønar</string>
+    <string name="accessibility_tutorial_dialog_button">Greitt</string>
     <string name="accessibility_tutorial_dialog_link_button">Knappinnstillingar</string>
     <string name="accessibility_shortcut_title">Snarveg for <xliff:g id="service" example="Select to Speak">%1$s</xliff:g>
     </string>
@@ -2326,7 +2328,7 @@ other {# nettverk og abonnement}
     <string name="accessibility_keyboard_vibration_title">Tastaturvibrering</string>
     <string name="accessibility_ring_vibration_title">Ringevibrering</string>
     <string name="accessibility_notification_vibration_title">Varselvibrering</string>
-    <string name="accessibility_touch_vibration_title">Berøringstilbakemelding</string>
+    <string name="accessibility_touch_vibration_title">Vibrering når du trykkjer</string>
     <string name="accessibility_service_primary_switch_title">Bruk <xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g>
     </string>
     <string name="accessibility_service_primary_open_title">Opna <xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g>
@@ -3000,7 +3002,7 @@ other {# varsel}
     <string name="data_usage_auto_sync_on_dialog_title">Slå på automatisk synkronisering?</string>
     <string name="data_usage_auto_sync_off_dialog_title">Slå av automatisk synkronisering?</string>
     <string name="data_usage_auto_sync_off_dialog">Dette sparar både data og batteri, men du må synkronisera kvar konto manuelt for å henta ny informasjon. Du får heller ikkje varsel når det kjem oppdateringar.</string>
-    <string name="data_usage_cycle_editor_title">Dato for nullstilling av syklus</string>
+    <string name="data_usage_cycle_editor_title">Dato då databruken vert nullstilt</string>
     <string name="data_usage_cycle_editor_subtitle">Dato kvar månad:</string>
     <string name="data_usage_cycle_editor_positive">Still inn</string>
     <string name="data_usage_warning_editor_title">Still inn varsel for databruk</string>
@@ -3744,7 +3746,7 @@ other {Om lag # varsel per veke}
     <string name="notification_access_detail_switch">Tillat varselstilgang</string>
     <string name="notification_assistant_security_warning_summary">Forbetra varsel tok over for Android Adaptive Notifications i Android 12. Denne funksjonen viser føreslåtte handlingar og svar, og organiserer varsla dine.
 \n\nForbetra varsel har tilgang til innhald i varsel, inkludert personleg informasjon som namn på kontaktar og meldingar. Denne funksjonen kan òg fjerna eller svara på varsel, som til dømes å svara når det ringjer, og styra «Ikkje forstyrr».</string>
-    <string name="notification_listener_security_warning_title">Vil du gje <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> tilgang til varsel?</string>
+    <string name="notification_listener_security_warning_title">Vil du gjeva <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> tilgang til varsel?</string>
     <string name="notification_listener_security_warning_summary">Appen <xliff:g id="notification_listener_name">%1$s</xliff:g> vil kunna lesa alle varsel, inkludert personleg informasjon som namn på kontaktar, bilete og teksten i meldingar du tek imot. Appen vil òg kunna utsetja eller fjerna varsel eller utføra handlingar via knappar i varsel, inkludert å svara på telefonen.
 \n\nDette gjev òg appen høve til å slå «Ikkje forstyrr» på eller av og endra tilhøyrande innstillingar.</string>
     <string name="nls_warning_prompt">Appen <xliff:g id="notification_listener_name">%1$s</xliff:g> vil kunna:</string>
@@ -3786,7 +3788,7 @@ other {Om lag # varsel per veke}
     <string name="notification_polite_work_summary">Bruk innstillingane for varslingsnedkjøling frå den personlege profilen på arbeidsprofilen</string>
     <string name="vr_listeners_title">VR-hjelpetenester</string>
     <string name="no_vr_listeners">Ingen installerte appar har bede om å køyra som VR-hjelpetenester.</string>
-    <string name="vr_listener_security_warning_title">Vil du gje <xliff:g id="service" example="VrCore">%1$s</xliff:g> tilgang til VR-tenesta?</string>
+    <string name="vr_listener_security_warning_title">Vil du gjeva <xliff:g id="service" example="VrCore">%1$s</xliff:g> tilgang til VR-tenesta?</string>
     <string name="vr_listener_security_warning_summary">        <xliff:g id="vr_listener_name">%1$s</xliff:g> vil kunna køyra når du brukar appar i VR-modus (virtuell røynddom).</string>
     <string name="display_vr_pref_title">Når eininga er i VR-modus</string>
     <string name="display_vr_pref_low_persistence">Minka uskarpleik (tilrådd)</string>
@@ -4252,7 +4254,7 @@ other {# appar har brukt minne dei siste {time}}
     <string name="running_frequency">Frekvens</string>
     <string name="memory_maximum_usage">Høgaste bruk</string>
     <string name="no_data_usage">Ingen data er brukt</string>
-    <string name="zen_access_warning_dialog_title">Vil du gje <xliff:g id="app" example="Tasker">%1$s</xliff:g> tilgang til «Ikkje forstyrr»?</string>
+    <string name="zen_access_warning_dialog_title">Vil du gjeva <xliff:g id="app" example="Tasker">%1$s</xliff:g> tilgang til «Ikkje forstyrr»?</string>
     <string name="zen_access_warning_dialog_summary">Appen vil kunna slå «Ikkje forstyrr» på og av, og endra tilhøyrande innstillingar.</string>
     <string name="zen_access_disabled_package_warning">Må vera på fordi varselstilgangen er på</string>
     <string name="zen_access_revoke_warning_dialog_title">Vil du trekkja tilbake tilgangen til «Ikkje forstyrr» for <xliff:g id="app" example="Tasker">%1$s</xliff:g>?</string>
@@ -4393,10 +4395,10 @@ other {# appar har brukt minne dei siste {time}}
     </string>
     <string name="non_carrier_data_usage_warning">Gjeld ikkje data brukt på mobilnett</string>
     <string name="data_used_template">        <xliff:g name="amount" example="1 GB">%1$s</xliff:g> brukt</string>
-    <string name="set_data_warning">Still inn datavarsel</string>
+    <string name="set_data_warning">Slå på datavarsel</string>
     <string name="data_warning">Datavarsel</string>
     <string name="data_warning_footnote">Eininga måler datavarsel og datagrense. Dette kan vera ulikt frå det mobiloperatøren måler.</string>
-    <string name="set_data_limit">Fastset datagrense</string>
+    <string name="set_data_limit">Slå på datagrense</string>
     <string name="data_limit">Datagrense</string>
     <string name="data_usage_template">        <xliff:g name="amount" example="200 MB">%1$s</xliff:g> brukt <xliff:g name="date_range" example="Jan 1 -- Feb 2">%2$s</xliff:g>
     </string>
@@ -4564,9 +4566,9 @@ other {# dagar att}
     <string name="high_label">Høg</string>
     <string name="left_edge">Venstre kant</string>
     <string name="right_edge">Høgre kant</string>
-    <string name="back_sensitivity_dialog_message">Meir kjenslevar kan koma i konflikt med app-rørsler langs kanten av skjermen.</string>
-    <string name="back_sensitivity_dialog_title">Kor kjenslevar for tilbake-rørsle</string>
-    <string name="gesture_settings_activity_title">Kor kjenslevar for rørslenavigering</string>
+    <string name="back_sensitivity_dialog_message">Om skjermen merkar trykk for lett, kan det koma i vegen for rørslene i appar langs kanten.</string>
+    <string name="back_sensitivity_dialog_title">Kor lett skjermen merkar «tilbake»</string>
+    <string name="gesture_settings_activity_title">Kor lett skjermen merkar rørslestyring</string>
     <string name="button_navigation_settings_activity_title">Knappenavigering</string>
     <string name="keywords_gesture_navigation_settings">rørslenavigering, kjenslevar for tilbake-rørsle, tilbake-rørsle</string>
     <string name="keywords_button_navigation_settings">navigering, heimknapp</string>
@@ -5075,22 +5077,495 @@ other {# dagar att}
     <string name="network_changed_notification_text">Mobilnettverket er endra</string>
     <string name="dsds_notification_after_suw_title">Set opp det andre SIM-kortet</string>
     <string name="dsds_notification_after_suw_text">Vel aktivt SIM-kort, eller bruk 2 samstundes</string>
+    <string name="choose_sim_title">Vel eit SIM-kort</string>
+    <string name="choose_sim_text">{count, plural,
+      =1      {1 SIM-kort er tilgjengeleg på denne eininga, men du kan berre bruka eitt om gongen}
+      =2      {2 SIM-kort er tilgjengelege på denne eininga, men du kan berre bruka eitt om gongen}
+      other   {# SIM-kort er tilgjengelege på denne eininga, men du kan berre bruka eitt om gongen}
+    }</string>
     <string name="choose_sim_activating">Slår på <xliff:g id="ellipsis" example="...">…</xliff:g>
     </string>
+    <string name="choose_sim_could_not_activate">Klarte ikkje slå på dette SIM-kortet akkurat no</string>
+    <string name="switch_sim_dialog_title">Bruk <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>?</string>
+    <string name="switch_sim_dialog_text">        <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> vert brukt til mobildata, samtalar og SMS.</string>
+    <string name="switch_sim_dialog_no_switch_title">Ingen aktive SIM-kort tilgjengelege</string>
+    <string name="switch_sim_dialog_no_switch_text">Gå til nettverksinnstillingane om du vil bruka mobildata, samtalar eller SMS seinare</string>
+    <string name="sim_card_label">SIM</string>
+    <string name="erase_sim_dialog_title">Sletta dette eSIM-kortet?</string>
+    <string name="erase_sim_dialog_text">Dette fjernar <xliff:g id="carrier_name_a" example="Google Fi">%1$s</xliff:g>-tenesta frå denne eininga, men <xliff:g id="carrier_name_b" example="Google Fi">%1$s</xliff:g>-abonnementet ditt vert ikkje sagt opp.</string>
+    <string name="erase_sim_confirm_button">Slett</string>
     <string name="erasing_sim">Slettar eSIM …</string>
+    <string name="erase_sim_fail_title">Klarte ikkje sletta eSIM-kortet</string>
+    <string name="erase_sim_fail_text">Noko gjekk gale, så eSIM-kortet vart ikkje sletta.\n\nStart eininga på nytt og prøv ein gong til.</string>
+    <string name="wifi_warning_dialog_title">Kopla til Wi-Fi før du slettar</string>
     <string name="wifi_warning_dialog_text">Dette gjer det lettare å bruka eSIM-kortet att seinare utan at du treng kontakta mobiloperatøren din</string>
+    <string name="wifi_warning_continue_button">Slett likevel</string>
+    <string name="wifi_warning_return_button">OK</string>
+    <string name="network_connection_request_dialog_title">Kopla til eining</string>
+    <string name="network_connection_request_dialog_summary">Appen <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> vil bruka eit mellombels Wi-Fi-nettverk for å kopla til eininga di</string>
     <string name="network_connection_timeout_dialog_message">Fann ingen einingar. Kontroller at einingane er slått på og tilgjengelege for tilkopling.</string>
+    <string name="network_connection_timeout_dialog_ok">Prøv på nytt</string>
+    <string name="network_connection_errorstate_dialog_message">Noko gjekk gale. Appen har avbrote førespurnaden om å velja eining.</string>
+    <string name="network_connection_connect_successful">Tilkoplinga er vellukka</string>
+    <string name="network_connection_connect_failure">Klarte ikkje kopla til</string>
+    <string name="network_connection_request_dialog_showall">Vis alle</string>
     <string name="network_connection_searching_message">Søkjer etter eining \u2026</string>
     <string name="network_connection_connecting_message">Koplar til eining \u2026</string>
+    <string name="bluetooth_left_name">Venstre</string>
+    <string name="bluetooth_right_name">Høgre</string>
+    <string name="bluetooth_middle_name">Etui</string>
+    <string name="settings_panel_title">Innstillingspanel</string>
+    <string name="force_desktop_mode">Tving skrivebordsmodus</string>
+    <string name="force_desktop_mode_summary">Tving eksperimentell skrivebordsmodus på eksterne skjermar</string>
+    <string name="enable_non_resizable_multi_window">Slå på vindauge utan storleiksendring i fleirvindaugsmodus</string>
+    <string name="enable_non_resizable_multi_window_summary">Lèt appar som ikkje kan endra storleik, verta brukte i fleirvindaugsmodus</string>
+    <string name="hwui_force_dark_title">Tving mørkt tema</string>
+    <string name="hwui_force_dark_summary">Gjer at funksjonen for mørkt tema alltid er på</string>
+    <string name="privacy_dashboard_title">Personvern</string>
+    <string name="privacy_dashboard_summary">Løyve, kontoaktivitet og personopplysningar</string>
+    <string name="privacy_controls_title">Styring</string>
+    <string name="contextual_card_dismiss_remove">Fjern</string>
+    <string name="contextual_card_dismiss_keep">Hald på</string>
+    <string name="contextual_card_dismiss_confirm_message">Vil du fjerna dette framlegget?</string>
+    <string name="low_storage_summary">Lite lagringsplass att. <xliff:g id="percentage" example="54%">%1$s</xliff:g> brukt – <xliff:g id="free_space" example="32GB">%2$s</xliff:g> ledig</string>
+    <string name="contextual_card_feedback_send">Send tilbakemelding</string>
+    <string name="contextual_card_feedback_confirm_message">Vil du gjeva oss ei tilbakemelding om dette framlegget?</string>
+    <string name="copyable_slice_toast">        <xliff:g id="copy_content" example="Phone number">%1$s</xliff:g> er kopiert til utklippstavla.</string>
+    <string name="accessibility_usage_title">Bruk av tilgjengefunksjonar</string>
+    <string name="accessibility_usage_summary">{count, plural,
+      =1      {1 app har full tilgang til eininga di}
+      other   {# appar har full tilgang til eininga di}
+    }</string>
+    <string name="wfc_disclaimer_title_text">Viktig informasjon</string>
+    <string name="wfc_disclaimer_agree_button_text">HALD FRAM</string>
+    <string name="wfc_disclaimer_disagree_text">NEI TAKK</string>
+    <string name="wfc_disclaimer_location_title_text">Posisjon</string>
     <string name="wfc_disclaimer_location_desc_text">Mobiloperatøren din kan samla inn posisjonen din når du brukar denne tenesta for naudsamtalar.\n\nSjå personvernerklæringa til mobiloperatøren for meir informasjon.</string>
+    <string name="forget_passpoint_dialog_message">Du kan mista tilgang til attverande tid eller data. Høyr med leverandøren din før du fjernar dette.</string>
+    <string name="content_capture">App-innhald</string>
+    <string name="content_capture_summary">Lat appar senda innhald til Android-systemet</string>
+    <string name="capture_system_heap_dump_title">Lag system-heapdump</string>
+    <string name="development_memtag_page_title">Memory Tagging Extension</string>
+    <string name="development_memtag_intro">Memory Tagging Extension (MTE) gjer det lettare å finna minnefeil i appen og gjera koden meir trygg.</string>
+    <string name="development_memtag_footer">Om du slår på MTE, kan eininga verta tregare.</string>
+    <string name="development_memtag_learn_more">Finn ut meir om MTE</string>
+    <string name="development_memtag_toggle">Slå på MTE til du slår det av att</string>
+    <string name="development_memtag_reboot_message_on">Du må starta eininga på nytt for å slå på MTE.</string>
+    <string name="development_memtag_reboot_message_off">Du må starta eininga på nytt for å slå av MTE.</string>
+    <string name="reboot_with_mte_title">Slå på MTE for éi økt</string>
+    <string name="reboot_with_mte_message">Systemet startar på nytt for å eksperimentera med Memory Tagging Extension (MTE). MTE kan påverka ytelse og stabilitet negativt. Innstillinga vert nullstilt ved neste omstart.</string>
+    <string name="reboot_with_mte_summary">Start på nytt med MTE slått på for éi økt</string>
+    <string name="reboot_with_mte_already_enabled">MTE er alt slått på</string>
     <string name="capturing_system_heap_dump_message">Lagar system-heapdump</string>
+    <string name="error_capturing_system_heap_dump_message">Klarte ikkje laga system-heapdump</string>
+    <string name="automatic_system_heap_dump_title">Lag system-heapdump automatisk</string>
+    <string name="automatic_system_heap_dump_summary">Lag eit heapdump for Android-systemet automatisk når det brukar for mykje minne</string>
+    <string name="wifi_disconnect_button_text">Kopla frå</string>
+    <string name="wfc_disclaimer_emergency_limitation_title_text">Naudsamtalar</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text">Mobiloperatøren din støttar ikkje naudsamtalar over Wi-Fi-oppringing.\nEininga byter automatisk til mobilnettet for å ringja naudsamtalar.\nDu kan berre ringja naudsamtalar i område med mobildekning.</string>
+    <string name="wifi_calling_summary">Bruk Wi-Fi til samtalar for betre kvalitet</string>
+    <string name="enable_receiving_mms_notification_title">Innkomande MMS-melding</string>
+    <string name="enable_sending_mms_notification_title">Klarte ikkje senda MMS-meldinga</string>
     <string name="enable_mms_notification_summary">Trykk for å tillata MMS-meldingar via <xliff:g id="operator_name" example="T-Mobile">%1$s</xliff:g> når mobildata er av</string>
+    <string name="enable_mms_notification_channel_title">MMS-melding</string>
+    <string name="sim_combination_warning_notification_title">Problem med SIM-kombinasjonen</string>
     <string name="dual_cdma_sim_warning_notification_summary">Bruk av <xliff:g id="operator_names" example="T-Mobile &amp; Verizon">%1$s</xliff:g> kan avgrensa funksjonaliteten. Trykk for å lesa meir.</string>
+    <string name="dual_cdma_sim_warning_notification_channel_title">SIM-kombinasjon</string>
+    <string name="work_policy_privacy_settings">Informasjon om retningslinjer for arbeid</string>
+    <string name="work_policy_privacy_settings_summary">Innstillingar som IT-administratoren din styrer</string>
+    <string name="track_frame_time_keywords">GPU</string>
+    <string name="enable_16k_pages">Start opp med 16K-sidestorleik</string>
+    <string name="enable_16k_pages_summary">Start eininga med ein kjerne som støttar 16K-sidestorleik</string>
+    <string name="confirm_enable_16k_pages_title">Start på nytt med ein kjerne som støttar 16 KB-sider?</string>
+    <string name="confirm_enable_16k_pages_text">ÅTVARING: Somme appar er kanskje ikkje kompatible med dette moduset. Eininga startar på nytt når du har stadfesta valet.</string>
+    <string name="confirm_enable_4k_pages_title">Start på nytt med ein kjerne som støttar 4 KB-sider?</string>
+    <string name="confirm_enable_4k_pages_text">Eininga startar på nytt når du har stadfesta valet.</string>
+    <string name="toast_16k_update_failed_text">Klarte ikkje oppdatera til ein kjerne som støttar 16 KB-sider.</string>
+    <string name="progress_16k_ota_title">Utfører endringa</string>
+    <string name="bug_report_handler_title">Handsaming av feilrapportar</string>
+    <string name="bug_report_handler_picker_footer_text">Styrer kva app som skal handsama snarvegen for feilrapportar på eininga di.</string>
+    <string name="personal_profile_app_subtext">Personleg</string>
+    <string name="work_profile_app_subtext">Arbeid</string>
+    <string name="system_default_app_subtext">Standard for systemet</string>
+    <string name="default_app_none">Ingen</string>
+    <string name="select_invalid_bug_report_handler_toast_text">Dette valet er ikkje lenger gyldig. Prøv på nytt.</string>
+    <string name="power_menu_setting_name">Trykk og hald inne av/på-knappen</string>
+    <string name="power_menu_long_press_category_title">Trykk og hald inne av/på-knappen for å opna</string>
+    <string name="power_menu_long_press_for_power_menu_title">Av/på-meny</string>
+    <string name="power_menu_long_press_for_assistant_title">Digital assistent</string>
+    <string name="power_menu_summary_long_press_for_assistant">Opna digital assistent</string>
+    <string name="power_menu_summary_long_press_for_power_menu">Opna av/på-menyen</string>
+    <string name="lockscreen_privacy_not_secure">Du må fyrst setja opp ein skjermlås for å bruka dette</string>
+    <string name="power_menu_power_volume_up_hint">Av/på-meny:\nTrykk på av/på-knappen og volum opp samstundes</string>
+    <string name="power_menu_power_prevent_ringing_hint">Hindra ringing:\nBruk volumknappen for snarvegen</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_title">Kor lenge skal trykk og hald vara</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_summary">Still inn kor lenge du må halda inne av/på-knappen</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_low_label">Kort</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_high_label">Lang</string>
+    <string name="lockscreen_privacy_wallet_setting_toggle">Vis lommebok</string>
+    <string name="lockscreen_privacy_wallet_summary">Tillat tilgang til lommeboka frå låseskjermen</string>
+    <string name="lockscreen_privacy_qr_code_scanner_setting_toggle">Vis QR-kodelesar</string>
+    <string name="lockscreen_privacy_qr_code_scanner_summary">Tillat tilgang til QR-kodelesar frå låseskjermen</string>
+    <string name="lockscreen_privacy_controls_setting_toggle">Vis einingsstyring</string>
+    <string name="lockscreen_privacy_controls_summary">Frå låseskjermen</string>
+    <string name="lockscreen_trivial_controls_setting_toggle">Bruk einingsstyring</string>
+    <string name="lockscreen_trivial_disabled_controls_summary">For å bruka dette må du fyrst slå på «Vis einingsstyring»</string>
+    <string name="lockscreen_double_line_clock_summary">Klokka endrar storleik etter innhaldet på låseskjermen</string>
+    <string name="lockscreen_double_line_clock_setting_toggle">Dynamisk klokke</string>
+    <string name="lockscreen_quick_affordances_title">Snarvegar</string>
+    <plurals name="lockscreen_quick_affordances_summary">
+        <item quantity="one">            <xliff:g id="first">%1$s</xliff:g>
+        </item>
+        <item quantity="other">            <xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g>
+        </item>
+    </plurals>
+    <string name="volte_5G_limited_title">Slå av VoLTE?</string>
+    <string name="volte_5G_limited_text">Dette slår òg av 5G-sambandet ditt.\nDu kan ikkje bruka internett under ein samtale, og somme appar fungerer kanskje ikkje.</string>
+    <string name="cached_apps_freezer">Stopp køyring for mellomlagra appar</string>
+    <string name="blob_never_expires_text">Går aldri ut på dato.</string>
+    <string name="accessor_never_expires_text">Leiga går aldri ut på dato.</string>
+    <string name="overlay_settings_title">Tillat skjermoverlegg i innstillingane</string>
+    <string name="overlay_settings_summary">Tillat at appar som kan visast over andre appar, også kan leggja seg over innstillingsskjermane</string>
+    <string name="allow_mock_modem">Tillat Mock Modem</string>
+    <string name="allow_mock_modem_summary">Tillat at denne eininga køyrer Mock Modem-tenesta for testing. Ikkje slå på dette under vanleg bruk av telefonen.</string>
+    <string name="disable_screen_share_protections_for_apps_and_notifications">Slå av personvern under skjermdeling</string>
+    <string name="disable_screen_share_protections_for_apps_and_notifications_summary">Slår av systembeskyttelse for appar og varsel når du deler skjermen</string>
+    <string name="media_controls_title">Media</string>
+    <string name="media_controls_resume_title">Fest mediespelaren</string>
+    <string name="media_controls_resume_description">For å starta avspelinga snøgt att, vert mediespelaren verande open i snøgginnstillingane</string>
+    <string name="media_controls_lockscreen_title">Vis media på låseskjermen</string>
+    <string name="media_controls_lockscreen_description">For å starta avspelinga snøgt att, vert mediespelaren verande open på låseskjermen</string>
+    <string name="media_controls_recommendations_title">Vis medietilrådingar frå Assistent</string>
+    <string name="media_controls_recommendations_description">Basert på aktiviteten din</string>
+    <string name="media_controls_hide_player">Gøym spelaren</string>
+    <string name="media_controls_show_player">Vis spelaren</string>
+    <string name="keywords_media_controls">media</string>
+    <string name="camera_extensions_fallback_title">Tillat programvareutvidingar for kamera</string>
+    <string name="camera_extensions_fallback_description">Slår på standardimplementeringa for avanserte kamerafunksjonar, slik som Eyes Free-video.</string>
+    <string name="connected_device_see_all_summary">Bluetooth vert slått på</string>
+    <string name="provider_internet_settings">Internett</string>
+    <string name="provider_network_settings_title">SIM-kort</string>
+    <string name="calls_and_sms">Samtalar og SMS</string>
+    <string name="calls_and_sms_category">Wi-Fi-oppringing</string>
+    <string name="calls_sms_wfc_summary">Ring og ta imot samtalar via Wi-Fi</string>
+    <string name="calls_preference_title">Samtalar</string>
+    <string name="sms_preference_title">SMS</string>
+    <string name="calls_sms_preferred">føretrekt</string>
+    <string name="calls_sms_calls_preferred">føretrekt for samtalar</string>
+    <string name="calls_sms_sms_preferred">føretrekt for SMS</string>
+    <string name="calls_sms_unavailable">ikkje tilgjengeleg</string>
+    <string name="calls_sms_temp_unavailable">Mellombels utilgjengeleg</string>
+    <string name="calls_sms_no_sim">Ingen SIM</string>
+    <string name="network_and_internet_preferences_title">Nettverksinnstillingar</string>
     <string name="keywords_internet">nettverkssamband, internett, trådlaus, data, wifi, wi-fi, mobilnett, mobilleverandør, 4g, 3g, 2g, lte</string>
+    <string name="reset_your_internet_title">Nullstilla internett?</string>
     <string name="resetting_internet_text">Nullstiller internett \u2026</string>
+    <string name="fix_connectivity">Fiks sambandet</string>
+    <string name="networks_available">Tilgjengelege nettverk</string>
+    <string name="to_switch_networks_disconnect_ethernet">Du må kopla frå Ethernet for å byta nettverk</string>
+    <string name="carrier_wifi_offload_title">W+-samband</string>
+    <string name="carrier_wifi_offload_summary">Lat Google Fi bruka W+-nettverk for å betre fart og dekning</string>
+    <string name="carrier_wifi_network_title">W+-nettverk</string>
+    <string name="sim_category_title">SIM</string>
+    <string name="downloaded_sim_category_title">eSIM</string>
+    <string name="downloaded_sims_category_title">eSIM-kort</string>
+    <string name="sim_category_active_sim">På</string>
+    <string name="sim_category_inactive_sim">Av</string>
+    <string name="sim_category_default_active_sim">\u0020/ Standard for <xliff:g name="default_sim_config" example=" / Default for calls">%1$s</xliff:g>
+    </string>
+    <string name="default_active_sim_calls">samtalar</string>
+    <string name="default_active_sim_sms">SMS</string>
+    <string name="default_active_sim_mobile_data">mobildata</string>
+    <string name="wifi_scan_notify_message">For å betra opplevinga med eininga kan appar og tenester framleis søkja etter Wi-Fi-nettverk når som helst, sjølv om Wi-Fi er av. Dette kan til dømes brukast for å betre posisjonsbaserte funksjonar og tenester. Du kan endra dette i innstillingane for Wi-Fi-søking.</string>
+    <string name="wifi_scan_change">Endra</string>
+    <string name="preference_summary_default_combination">        <xliff:g id="state" example="Connected">%1$s</xliff:g> / <xliff:g id="networkMode" example="LTE">%2$s</xliff:g>
+    </string>
+    <string name="mobile_data_connection_active">Tilkopla</string>
+    <string name="mobile_data_temp_connection_active">Mellombels tilkopla</string>
+    <string name="mobile_data_temp_using">Brukar mellombels <xliff:g id="subName" example="Google Fi">%1$s</xliff:g>
+    </string>
+    <string name="mobile_data_no_connection">Ingen samband</string>
+    <string name="mobile_data_off_summary">Mobildata koplar seg ikkje til automatisk</string>
+    <string name="mobile_data_disable_title">Slå av mobildata?</string>
+    <string name="mobile_data_disable_message">Du får ikkje tilgang til data eller internett via <xliff:g id="carrier" example="T-Mobile">%s</xliff:g>. Internett vert berre tilgjengeleg via Wi-Fi.</string>
     <string name="mobile_data_disable_message_default_carrier">operatøren din</string>
+    <string name="not_allowed_by_ent">Ikkje tillate av organisasjonen din</string>
+    <string name="aware_summary_when_bedtime_on">Ikkje tilgjengeleg for di leggjetidsmodus er på</string>
+    <string name="reset_importance_completed">Viktigheitsgrad for varsel er nullstilt.</string>
+    <string name="apps_dashboard_title">Appar</string>
+    <string name="bluetooth_message_access_notification_content">Ei eining vil ha tilgang til meldingane dine. Trykk for meir info.</string>
+    <string name="bluetooth_message_access_dialog_title">Tillata tilgang til meldingar?</string>
+    <string name="bluetooth_message_access_dialog_content">Bluetooth-eininga <xliff:g id="device_name" example="My device">%1$s</xliff:g> vil ha tilgang til meldingane dine.\n\nDu har ikkje vore kopla til <xliff:g id="device_name" example="My device">%2$s</xliff:g> før.</string>
+    <string name="bluetooth_phonebook_access_notification_content">Ei eining vil ha tilgang til kontaktar og samtalelogg. Trykk for meir info.</string>
+    <string name="bluetooth_phonebook_access_dialog_title">Tillata tilgang til kontaktar og samtalelogg?</string>
+    <string name="bluetooth_phonebook_access_dialog_content">Bluetooth-eininga <xliff:g id="device_name" example="My device">%1$s</xliff:g> vil ha tilgang til kontaktane dine og samtaleloggen. Dette omfattar info om innkomande og utgåande samtalar.\n\nDu har ikkje vore kopla til <xliff:g id="device_name" example="My device">%2$s</xliff:g> før.</string>
+    <string name="category_name_brightness">Lysstyrke</string>
+    <string name="category_name_lock_display">Låseskjerm</string>
+    <string name="category_name_appearance">Utsjånad</string>
+    <string name="category_name_color">Farge</string>
+    <string name="category_name_display_controls">Andre skjerminnstillingar</string>
+    <string name="category_name_general">Generelt</string>
+    <string name="dark_theme_main_switch_title">Bruk mørkt tema</string>
+    <string name="bluetooth_main_switch_title">Bruk Bluetooth</string>
+    <string name="prevent_ringing_main_switch_title">Bruk «hindra ringing»</string>
+    <string name="use_wifi_hotsopt_main_switch_title">Bruk delt Wi-Fi-nett</string>
+    <string name="app_pinning_main_switch_title">Bruk app-festing</string>
+    <string name="developer_options_main_switch_title">Bruk utviklarval</string>
+    <string name="default_print_service_main_switch_title">Bruk utskriftsteneste</string>
+    <string name="multiple_users_main_switch_title">Tillat fleire brukarar</string>
+    <string name="multiple_users_main_switch_keywords">tillat, fleire, brukar, brukarar, mange</string>
+    <string name="wireless_debugging_main_switch_title">Bruk trådlaus feilsøking</string>
+    <string name="graphics_driver_main_switch_title">Bruk val for grafikkdrivar</string>
+    <string name="night_light_main_switch_title">Bruk nattlys</string>
+    <string name="nfc_main_switch_title">Bruk NFC</string>
+    <string name="adaptive_brightness_main_switch_title">Bruk tilpassa lysstyrke</string>
+    <string name="wifi_calling_main_switch_title">Bruk Wi-Fi-oppringing</string>
+    <string name="default_see_all_apps_title">Sjå alle appane</string>
+    <string name="smart_forwarding_title">Smart vidarekopling</string>
+    <string name="smart_forwarding_summary_enabled">Smart vidarekopling er på</string>
+    <string name="smart_forwarding_summary_disabled">Smart vidarekopling er av</string>
+    <string name="smart_forwarding_ongoing_title">Samtaleinnstillingar</string>
     <string name="smart_forwarding_ongoing_text">Oppdaterer innstillingane …</string>
+    <string name="smart_forwarding_failed_title">Feil i samtaleinnstillingane</string>
+    <string name="smart_forwarding_failed_text">Feil med nettverk eller SIM-kort.</string>
+    <string name="smart_forwarding_failed_not_activated_text">SIM-kortet er ikkje verksamt.</string>
+    <string name="smart_forwarding_input_mdn_title">Skriv inn telefonnummer</string>
+    <string name="smart_forwarding_input_mdn_dialog_title">Skriv inn telefonnummer</string>
+    <string name="smart_forwarding_missing_mdn_text">Telefonnummer manglar.</string>
+    <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
+    <string name="enable_2g_title">Tillat 2G</string>
+    <string name="enable_2g_summary">2G er mindre trygt, men kan betra sambandet på somme stadar. For naudsamtalar er 2G alltid tillate.</string>
+    <string name="enable_2g_summary_disabled_carrier">        <xliff:g id="carrier_name_2g" example="Google Fi">%1$s</xliff:g> krev at 2G er tilgjengeleg</string>
+    <string name="require_cellular_encryption_title">Krev kryptering</string>
+    <string name="require_cellular_encryption_summary">Kryptering er meir trygt, men det kan henda du ikkje får samband på alle stadar. For naudsamtalar er kryptering aldri eit krav</string>
+    <string name="app_info_all_services_label">Alle tenester</string>
+    <string name="show_clip_access_notification">Vis utklippstilgang</string>
+    <string name="show_clip_access_notification_summary">Vis ei melding når appar hentar tekst, bilete eller anna innhald du har kopiert</string>
+    <string name="all_apps">Alle appar</string>
+    <string name="request_manage_bluetooth_permission_dont_allow">Ikkje tillat</string>
+    <string name="uwb_settings_title">Ultra-Wideband (UWB)</string>
+    <string name="uwb_settings_summary">Hjelper til med å finna den relative posisjonen til einingar i nærleiken som har UWB</string>
+    <string name="uwb_settings_summary_airplane_mode">Slå av flymodus for å bruka UWB</string>
+    <string name="uwb_settings_summary_no_uwb_regulatory">UWB er ikkje tilgjengeleg på denne staden</string>
+    <string name="thread_network_settings_title">Thread</string>
+    <string name="thread_network_settings_summary">Kopla til kompatible einingar med Thread for ei saumlaus oppleving i smarthuset</string>
+    <string name="thread_network_settings_summary_airplane_mode">Slå av flymodus for å bruka Thread</string>
+    <string name="camera_toggle_title">Kameratilgang</string>
+    <string name="mic_toggle_title">Mikrofontilgang</string>
+    <string name="perm_toggle_description">For appar og tenester</string>
+    <string name="mic_toggle_description">For appar og tenester. Sjølv om denne innstillinga er av, kan mikrofontilgang verta delt når du ringjer eit nødnummer.</string>
+    <string name="previous_page_content_description">Førre</string>
+    <string name="next_page_content_description">Neste</string>
+    <string name="colors_viewpager_content_description">Fargevising</string>
+    <string name="bluetooth_sim_card_access_notification_title">Førespurnad om SIM-tilgang</string>
+    <string name="bluetooth_sim_card_access_notification_content">Ei eining vil ha tilgang til SIM-kortet ditt. Trykk for meir info.</string>
+    <string name="bluetooth_sim_card_access_dialog_title">Tillata tilgang til SIM-kortet?</string>
+    <string name="bluetooth_sim_card_access_dialog_content">Bluetooth-eininga <xliff:g id="device_name" example="My device">%1$s</xliff:g> vil ha tilgang til data frå SIM-kortet ditt. Dette omfattar kontaktane dine.\n\nMedan ho er tilkopla, vil <xliff:g id="device_name" example="My device">%2$s</xliff:g> ta imot alle samtalar til <xliff:g id="phone_number" example="0912345678">%3$s</xliff:g>.</string>
+    <string name="bluetooth_connect_access_notification_title">Bluetooth-eining tilgjengeleg</string>
+    <string name="bluetooth_connect_access_notification_content">Ei eining vil kopla seg til. Trykk for meir info.</string>
+    <string name="bluetooth_connect_access_dialog_title">Kopla til Bluetooth-eininga?</string>
+    <string name="bluetooth_connect_access_dialog_content">        <xliff:g id="device_name" example="My device">%1$s</xliff:g> vil kopla seg til denne telefonen.\n\nDu har ikkje vore kopla til <xliff:g id="device_name" example="My device">%2$s</xliff:g> før.</string>
+    <string name="bluetooth_connect_access_dialog_negative">Ikkje kopla til</string>
+    <string name="bluetooth_connect_access_dialog_positive">Kopla til</string>
+    <string name="tare_settings">TARE-innstillingar</string>
+    <string name="tare_on">På</string>
+    <string name="tare_off">Av</string>
+    <string name="tare_revert">Gå tilbake til standardinnstillingane</string>
     <string name="tare_settings_reverted_toast">Innstillingane er sette tilbake til standard.</string>
+    <string name="tare_max_satiated_balance">Maksimal saldo ved fullada batteri</string>
+    <string name="tare_balances">Saldoar</string>
+    <string name="tare_consumption_limits">Grenser for forbruk</string>
+    <string name="tare_initial_consumption_limit">Opphavleg forbruksgrense</string>
+    <string name="tare_min_consumption_limit">Minimal forbruksgrense</string>
+    <string name="tare_max_consumption_limit">Maksimal forbruksgrense</string>
+    <string name="tare_modifiers">Modifikatorar</string>
+    <string name="tare_actions_ctp">Handlingar (produksjonskostnad)</string>
+    <string name="tare_actions_base_price">Handlingar (grunnpris)</string>
+    <string name="tare_rewards_instantaneous">Løn per einskild-hending</string>
+    <string name="tare_rewards_ongoing">Løn per sekund av hending</string>
+    <string name="tare_rewards_max">Maksimal løn per dag</string>
+    <string name="tare_app_install">Appinstallering</string>
+    <string name="tare_top_activity">Toppaktivitet</string>
+    <string name="tare_notification_seen">Varsel er sett</string>
+    <string name="tare_notification_seen_15_min">Varsel er sett innan 15 minutt</string>
+    <string name="tare_notification_interaction">Interaksjon med varsel</string>
+    <string name="tare_widget_interaction">Interaksjon med miniprogram</string>
+    <string name="tare_other_interaction">Annan interaksjon frå brukar</string>
+    <string name="tare_job_max_start">Start av maks-prioritetsjobb</string>
+    <string name="tare_job_max_running">Maks-prioritetsjobb køyrer</string>
+    <string name="tare_job_high_start">Start av høgprioritetsjobb</string>
+    <string name="tare_job_high_running">Høgprioritetsjobb køyrer</string>
+    <string name="tare_job_default_start">Start av standard-prioritetsjobb</string>
+    <string name="tare_job_default_running">Standard-prioritetsjobb køyrer</string>
+    <string name="tare_job_low_start">Start av lågprioritetsjobb</string>
+    <string name="tare_job_low_running">Lågprioritetsjobb køyrer</string>
+    <string name="tare_job_min_start">Start av min-prioritetsjobb</string>
+    <string name="tare_job_min_running">Min-prioritetsjobb køyrer</string>
+    <string name="tare_job_timeout_penalty">Straff ved tidsavbrot for arbeid</string>
+    <string name="tare_min_balance_exempted">Minimal saldo ved fullada batteri (unnateke)</string>
+    <string name="tare_min_balance_headless_app">Minimal saldo ved fullada batteri (systemapp utan grensesnitt)</string>
+    <string name="tare_min_balance_other_app">Minimal saldo ved fullada batteri (resten av appane)</string>
+    <string name="tare_min_balance_addition_app_updater">Tillegg i minimal saldo ved fullada batteri (app-oppdaterarar)</string>
+    <string-array name="tare_modifiers_subfactors">
+        <item>Ladar</item>
+        <item>Doze</item>
+        <item>Straumsparingsmodus</item>
+        <item>Prosesstilstand</item>
+    </string-array>
+    <string name="tare_dialog_confirm_button_title">Stadfest</string>
+    <string name="dream_preview_button_title">Førehandsvising</string>
+    <string name="dream_picker_category">Vel ein skjermsparar</string>
+    <string name="dream_complications_toggle_title">Vis meir informasjon</string>
+    <string name="dream_complications_toggle_summary">Vis ting som klokke, vêr eller annan informasjon på skjermspararen</string>
+    <string name="dream_home_controls_toggle_title">Vis heimestyring</string>
+    <string name="dream_home_controls_toggle_summary">Vis knapp for heimestyring frå skjermspararen</string>
+    <string name="dream_more_settings_category">Fleire innstillingar</string>
+    <string name="dream_setup_title">Vel skjermsparar</string>
+    <string name="dream_setup_description">Vel kva du vil sjå på skjermen når nettbrettet står i dokka. Eininga kan bruka meir straum når ein skjermsparar er i bruk.</string>
+    <string name="customize_button_title">Tilpassa</string>
+    <string name="customize_button_description">Tilpassa <xliff:g id="screensaver_name" example="Art Gallery">%1$s</xliff:g>
+    </string>
+    <string name="reboot_dialog_enable_freeform_support">Du må starta på nytt for å slå på støtte for friform-vindauge.</string>
+    <string name="reboot_dialog_force_desktop_mode">Du må starta på nytt for å tvinga skrivebordsmodus på eksterne skjermar.</string>
+    <string name="reboot_dialog_reboot_now">Start på nytt no</string>
+    <string name="reboot_dialog_reboot_later">Start på nytt seinare</string>
+    <string name="bluetooth_details_spatial_audio_title">Romtilpassa lyd</string>
+    <string name="bluetooth_details_spatial_audio_summary">Lyd frå støtta media blir meir omsluttande</string>
+    <string name="bluetooth_details_head_tracking_title">Hovudsporing</string>
+    <string name="bluetooth_details_head_tracking_summary">Lyden endrar seg etter korleis du rører på hovudet, slik at han høyrest meir naturleg ut</string>
+    <string name="bluetooth_details_permissions_sync_title">Synkroniser løyve frå telefonen</string>
+    <string name="bluetooth_details_permissions_sync_summary">Gje klokka dei same appløyva som du har tillate på denne telefonen</string>
+    <string name="bluetooth_details_audio_device_types_title">Type lydeining</string>
+    <string name="bluetooth_details_audio_device_type_unknown">Ukjend</string>
+    <string name="bluetooth_details_audio_device_type_speaker">Høgtalar</string>
+    <string name="bluetooth_details_audio_device_type_headphones">Hovudtelefonar</string>
+    <string name="bluetooth_details_audio_device_type_hearing_aid">Høyreapparat</string>
+    <string name="bluetooth_details_audio_device_type_carkit">Bilutstyr</string>
+    <string name="bluetooth_details_audio_device_type_other">Anna</string>
+    <string name="ingress_rate_limit_title">Grense for nedlastingsfart i nettverket</string>
+    <string name="ingress_rate_limit_summary">Set ei grense for nedlastingsfart som vert brukt på alle nettverk med internettsamband.</string>
+    <string name="ingress_rate_limit_dialog_title">Set grense for nedlastingsfart</string>
+    <string name="ingress_rate_limit_no_limit_entry">Inga grense</string>
+    <string name="disable_phantom_process_monitor_title">Slå av avgrensingar for underprosessar</string>
+    <string name="disable_phantom_process_monitor_summary">Slå av avgrensingar for kva systemressursar underprosessane til ein app kan bruka</string>
+    <string name="enable_notes_role_title">Tving på notat-rolla</string>
+    <string name="enable_notes_role_summary">Slå på integreringar for notatskriving via notat-rolla. Om rolla alt er på, skjer ingenting. Krev omstart.</string>
+    <string name="bluetooth_broadcast_dialog_title">Kringkasting</string>
+    <string name="bluetooth_broadcast_dialog_broadcast_app">Kringkast <xliff:g id="currentApp" example="App Name 2">%1$s</xliff:g>
+    </string>
+    <string name="bluetooth_broadcast_dialog_find_message">Lytt til kringkastingar i nærleiken</string>
+    <string name="bluetooth_broadcast_dialog_broadcast_message">Kringkast media til einingar i nærleiken, eller lytt til andre si kringkasting</string>
+    <string name="bluetooth_find_broadcast_title">Kringkastingar</string>
+    <string name="bluetooth_find_broadcast_summary">Lyttar til</string>
+    <string name="bluetooth_find_broadcast">Finn kringkastingar</string>
+    <string name="bluetooth_find_broadcast_button_leave">Forlat kringkastinga</string>
+    <string name="bluetooth_find_broadcast_button_scan">Skanna QR-kode</string>
+    <string name="find_broadcast_password_dialog_title">Skriv inn passord</string>
+    <string name="find_broadcast_password_dialog_connection_error">Klarte ikkje kopla til. Prøv på nytt.</string>
+    <string name="find_broadcast_password_dialog_password_error">Feil passord</string>
+    <string name="find_broadcast_join_broadcast_error">Klarte ikkje bli med i kringkastinga</string>
+    <string name="bt_le_audio_scan_qr_code_scanner">Sentrer QR-koden nedanfor for å byrja lyttinga</string>
+    <string name="bt_le_audio_qr_code_is_not_valid_format">QR-koden har eit ugyldig format</string>
+    <string name="convert_to_esim_title">Konverter til eSIM</string>
+    <string name="transfer_esim_to_another_device_title">Overfør eSIM til ei anna eining</string>
+    <string name="background_install_preference_summary">{count, plural,
+    =1    {# app}
+    other {# appar}
+    }</string>
+    <string name="background_install_title">Appar installerte i bakgrunnen</string>
     <string name="background_install_summary">Produsenten kan installera appar i bakgrunnen, eller lata mobiloperatøren din og andre partnarar gjera det.\n\nAppane på denne lista er ikkje naudsynte for at eininga skal fungera normalt. Du kan sletta appar du ikkje vil ha.</string>
+    <string name="background_install_feature_list_no_entry">Ingen appar installerte i bakgrunnen</string>
+    <string name="background_install_uninstall_button_description">Slett app</string>
+    <string name="background_install_before">{count, plural,
+    =1    {Appar installerte den siste månaden}
+    other {Appar installerte dei siste # månadene}
+    }</string>
+    <string name="background_install_after">{count, plural,
+    =1    {Appar installerte for meir enn # månad sidan}
+    other {Appar installerte for meir enn # månader sidan}
+    }</string>
+    <string name="aspect_ratio_title">Storleiksforhold</string>
+    <string name="aspect_ratio_summary">Prøv eit nytt storleiksforhold for å sjå denne appen om han ikkje er laga for å passa på din <xliff:g id="device_name">%1$s</xliff:g>
+    </string>
+    <string name="aspect_ratio_main_summary">Prøv eit nytt storleiksforhold for å sjå denne appen om han ikkje er laga for å passa på din <xliff:g id="device_name">%1$s</xliff:g>. Somme appar er kanskje ikkje optimaliserte for alle storleiksforhold.</string>
+    <string name="aspect_ratio_summary_text">Prøv eit nytt storleiksforhold for ein app om han ikkje er laga for å passa på din <xliff:g id="device_name">%1$s</xliff:g>
+    </string>
+    <string name="aspect_ratio_main_summary_text">Prøv eit nytt storleiksforhold for ein app om han ikkje er laga for å passa på din <xliff:g id="device_name">%1$s</xliff:g>. Somme appar er kanskje ikkje optimaliserte for alle storleiksforhold.</string>
+    <string name="user_aspect_ratio_suggested_apps_label">Føreslåtte appar</string>
+    <string name="user_aspect_ratio_changed_apps_label">Endra appar</string>
+    <string name="user_aspect_ratio_app_default">Standard for appen</string>
+    <string name="user_aspect_ratio_fullscreen">Fullskjerm</string>
+    <string name="user_aspect_ratio_half_screen">Halvskjerm</string>
+    <string name="user_aspect_ratio_device_size">Storleiksforholdet til eininga</string>
+    <string name="user_aspect_ratio_16_9">16:9</string>
+    <string name="user_aspect_ratio_3_2">3:2</string>
+    <string name="user_aspect_ratio_4_3">4:3</string>
+    <string name="user_aspect_ratio_option_a11y">        <xliff:g id="numerator">%1$s</xliff:g> mot <xliff:g id="denominator">%2$s</xliff:g>
+    </string>
+    <string name="app_aspect_ratio_footer">Appen startar på nytt når du endrar storleiksforholdet. Du kan mista endringar som ikkje er lagra. Somme appar er kanskje ikkje optimaliserte for alle storleiksforhold.</string>
+    <string name="aspect_ratio_experimental_title">Storleiksforhold (eksperimentelt)</string>
+    <string name="aspect_ratio_experiment_title">Storleiksforhold (forsøk)</string>
+    <string name="aspect_ratio_labs_title">Storleiksforhold (labs)</string>
+    <string name="aspect_ratio_experimental_label">Eksperimentelt</string>
+    <string name="aspect_ratio_experiment_label">Forsøk</string>
+    <string name="aspect_ratio_labs_label">Labs</string>
+    <string name="accessibility_fingerprint_label">Fingeravtrykkssensor</string>
+    <string name="flash_notifications_title">Blinkvarsel</string>
+    <string name="flash_notifications_about_title">Om blinkvarsel</string>
+    <string name="flash_notifications_summary_off">Av</string>
+    <string name="flash_notifications_summary_on_camera">På / Kamerablink</string>
+    <string name="flash_notifications_summary_on_screen">På / Skjermblink</string>
+    <string name="flash_notifications_summary_on_camera_and_screen">På / Kamera- og skjermblink</string>
+    <string name="flash_notifications_intro">Skjermen eller kameralyset blinkar når du får varsel eller når alarmen går</string>
+    <string name="flash_notifications_intro_without_camera_flash">Skjermen blinkar når du får varsel eller når alarmen går</string>
+    <string name="flash_notifications_note">Bruk blinkvarsel med varsemd om du er overkjensleg for lys</string>
+    <string name="flash_notifications_keywords">blink, lys, tunghøyrd, nedsett høyring</string>
+    <string name="flash_notifications_preview">Førehandsvising</string>
+    <string name="camera_flash_notification_title">Kamerablink</string>
+    <string name="screen_flash_notification_title">Skjermblink</string>
+    <string name="screen_flash_notification_color_title">Farge på skjermblink</string>
+    <string name="screen_flash_color_blue">Blå</string>
+    <string name="screen_flash_color_azure">Asurblå</string>
+    <string name="screen_flash_color_cyan">Cyan</string>
+    <string name="screen_flash_color_spring_green">Vårgrøn</string>
+    <string name="screen_flash_color_green">Grøn</string>
+    <string name="screen_flash_color_chartreuse_green">Chartreuse-grøn</string>
+    <string name="screen_flash_color_yellow">Gul</string>
+    <string name="screen_flash_color_orange">Oransje</string>
+    <string name="screen_flash_color_red">Raud</string>
+    <string name="screen_flash_color_rose">Rose</string>
+    <string name="screen_flash_color_magenta">Magenta</string>
+    <string name="screen_flash_color_violet">Fiolett</string>
+    <string name="color_selector_dialog_done">Ferdig</string>
+    <string name="color_selector_dialog_cancel">Avbryt</string>
+    <string name="contrast_title">Kontrast</string>
+    <string name="contrast_standard">Standard</string>
+    <string name="contrast_default">Standard</string>
+    <string name="contrast_medium">Middels</string>
+    <string name="contrast_high">Høg</string>
+    <string name="dock_multi_instances_not_supported_text">"Denne appen kan berre opnast i eitt vindauge"</string>
+    <string name="generic_accessibility_service_on">På</string>
+    <string name="generic_accessibility_service_off">Av</string>
+    <string name="generic_accessibility_feature_shortcut_off">Av</string>
+    <string name="accessibility_shortcut_state_off">Av</string>
+    <string name="daltonizer_state_on">På</string>
+    <string name="daltonizer_state_off">Av</string>
+    <string name="color_inversion_state_on">På</string>
+    <string name="color_inversion_state_off">Av</string>
+    <string name="color_inversion_feature_summary">Gjer lyse skjermar mørke og mørke skjermar lyse</string>
+    <string name="magnification_feature_summary">Forstørr skjermen</string>
+    <string name="autoclick_disabled">Av</string>
+    <string name="show_captions_disabled">Av</string>
+    <string name="show_captions_enabled">På</string>
+    <string name="live_caption_disabled">Av</string>
+    <string name="live_caption_enabled">På</string>
+    <string name="about_phone_device_name_warning">Appar du har installert, kan sjå einingsnamnet ditt. Det kan også vera synleg for andre når du koplar til Bluetooth-einingar, koplar til eit Wi-Fi-nettverk eller set opp delt internett.</string>
+    <string name="grammatical_gender_title">Grammatisk kjønn</string>
+    <string name="grammatical_gender_dialog_title">Vel grammatisk kjønn</string>
+    <string name="content_protection_preference_title">Skanning etter svindelappar</string>
+    <string name="content_protection_preference_summary">Sjekk appaktivitet for phishing</string>
+    <string name="content_protection_preference_user_consent_switch_title">Bruk skanning etter svindelappar</string>
+    <string name="content_protection_preference_user_consent_work_profile_switch_title">Bruk skanning etter svindelappar for arbeid</string>
+    <string name="accessibility_setup_password_complete">Passordet er no sett opp</string>
+    <string name="show_stylus_pointer_icon">Vis peikar ved sveving</string>
 </resources>

@@ -23,7 +23,7 @@
     <string name="untitled">&lt;Namnlaus&gt;</string>
     <string name="emptyPhoneNumber">(Manglar telefonnummer)</string>
     <string name="unknownName">Ukjend</string>
-    <string name="defaultVoiceMailAlphaTag">Talepostkasse</string>
+    <string name="defaultVoiceMailAlphaTag">Telefonsvarar</string>
     <string name="defaultMsisdnAlphaTag">MSISDN1</string>
     <string name="mmiError">Tilkoplingsproblem eller ugyldig MMI-kode.</string>
     <string name="mmiErrorNotSupported">Støttar ikkje funksjonen.</string>
@@ -289,7 +289,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="global_action_settings">Innstillingar</string>
     <string name="global_action_assist">Hjelp</string>
     <string name="global_action_voice_assist">Talehjelp</string>
-    <string name="global_action_lockdown">Sperring</string>
+    <string name="global_action_lockdown">Lås telefonen</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="notification_hidden_text">Nytt varsel</string>
     <string name="notification_channel_physical_keyboard">Fysisk tastatur</string>
@@ -357,7 +357,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="permgroupdesc_notifications">vis varsel</string>
     <string name="capability_title_canRetrieveWindowContent">Henta innhald i vindauge</string>
     <string name="capability_desc_canRetrieveWindowContent">Granska innhaldet i eit vindauge du brukar.</string>
-    <string name="capability_title_canRequestTouchExploration">Utforsk ved å røra skjermen</string>
+    <string name="capability_title_canRequestTouchExploration">Utforsk ved å trykka på skjermen</string>
     <string name="capability_desc_canRequestTouchExploration">Det du trykkjer på, vert lese høgt, og du kan bruka teikn for å finna fram på skjermen.</string>
     <string name="capability_title_canRequestFilterKeyEvents">Fylg med på kva du skriv</string>
     <string name="capability_desc_canRequestFilterKeyEvents">Dette tek med personleg informasjon som passord og kortnummer.</string>
@@ -1122,9 +1122,9 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="searchview_description_clear">Tøm søkefeltet</string>
     <string name="searchview_description_submit">Send inn søket</string>
     <string name="searchview_description_voice">Talesøk</string>
-    <string name="enable_explore_by_touch_warning_title">Slå på utforsking med berøring?</string>
-    <string name="enable_explore_by_touch_warning_message" product="tablet"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med fingrane. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra brettet.</string>
-    <string name="enable_explore_by_touch_warning_message" product="default"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med fingrane. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra telefonen.</string>
+    <string name="enable_explore_by_touch_warning_title">Slå på utforsking med trykking?</string>
+    <string name="enable_explore_by_touch_warning_message" product="tablet"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med trykking. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra brettet.</string>
+    <string name="enable_explore_by_touch_warning_message" product="default"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med trykking. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra telefonen.</string>
     <string name="oneMonthDurationPast">Ein månad sidan</string>
     <string name="beforeOneMonthDurationPast">Meir enn ein månad sidan</string>
     <string name="last_num_days">{ count, plural,
@@ -1927,7 +1927,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="restr_pin_try_later">Prøv att seinare</string>
     <string name="immersive_cling_title">Vising over heile skjermen</string>
     <string name="immersive_cling_description">Sveip ned frå toppen for å gå ut</string>
-    <string name="immersive_cling_positive">Skjønar</string>
+    <string name="immersive_cling_positive">Greitt</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Snu skjermen for å sjå betre</string>
     <string name="display_rotation_camera_compat_toast_in_multi_window">Opna <xliff:g id="name" example="MyApp">%s</xliff:g> over heile skjermen for å sjå betre</string>
     <string name="done_label">Ferdig</string>
@@ -2013,7 +2013,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="zen_mode_default_weeknights_name">Kveldar i veka</string>
     <string name="zen_mode_default_weekends_name">Helg</string>
     <string name="zen_mode_default_events_name">Hending</string>
-    <string name="zen_mode_default_every_night_name">Sover</string>
+    <string name="zen_mode_default_every_night_name">Sova</string>
     <string name="zen_mode_implicit_trigger_description">Styrt av <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="zen_mode_implicit_activated">På</string>
     <string name="zen_mode_implicit_deactivated">Av</string>

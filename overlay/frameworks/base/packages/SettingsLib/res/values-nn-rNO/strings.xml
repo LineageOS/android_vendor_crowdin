@@ -401,9 +401,9 @@
     <string name="enable_gpu_debug_layers_summary">Tillat lasting av GPU-feilsøkingslag for feilsøkingsappar</string>
     <string name="enable_verbose_vendor_logging">Slå på detaljert leverandørlogging</string>
     <string name="enable_verbose_vendor_logging_summary">Ta med ekstra einingsspesifikke leverandørloggar i feilrapportar. Desse kan innehalda privat informasjon, bruka meir straum og ta meir lagringsplass.</string>
-    <string name="window_animation_scale_title">Skala for vindaugsanimasjon</string>
-    <string name="transition_animation_scale_title">Skala for overgangsanimasjon</string>
-    <string name="animator_duration_scale_title">Skala for varigheit på animasjon</string>
+    <string name="window_animation_scale_title">Lengd på vindaugsanimasjon</string>
+    <string name="transition_animation_scale_title">Lengd på overgangsanimasjon</string>
+    <string name="animator_duration_scale_title">Kor lenge skal animasjonen vara</string>
     <string name="overlay_display_devices_title">Simuler sekundære skjermar</string>
     <string name="debug_applications_category">Appar</string>
     <string name="immediately_destroy_activities">Ikkje behald aktivitetar</string>

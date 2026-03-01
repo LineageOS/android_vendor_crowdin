@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Administrasjon av følgjesvein-einingar</string>
-    <string name="confirmation_title">Vil du gje appen &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; tilgang til &lt;strong&gt;<xliff:g id="device_name" example="ASUS ZenWatch 2">%2$s</xliff:g>&lt;/strong&gt;?</string>
+    <string name="confirmation_title">Vil du gjeva appen &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; tilgang til &lt;strong&gt;<xliff:g id="device_name" example="ASUS ZenWatch 2">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="profile_name_watch">klokke</string>
     <string name="chooser_title_non_profile">Vel ei eining som skal styrast av &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt;</string>
     <string name="chooser_title">Vel <xliff:g id="profile_name" example="watch">%1$s</xliff:g> som skal setjast opp</string>
@@ -39,7 +39,7 @@
     <string name="consent_back">Tilbake</string>
     <string name="permission_expand">Utvid <xliff:g id="permission_type" example="Notification">%1$s</xliff:g></string>
     <string name="permission_collapse">Slå saman <xliff:g id="permission_type" example="Notification">%1$s</xliff:g></string>
-    <string name="permission_sync_confirmation_title">Vil du gje appane på &lt;strong&gt;<xliff:g id="companion_device_name" example="Galaxy Watch 5">%1$s</xliff:g>&lt;/strong&gt; same løyva som på &lt;strong&gt;<xliff:g id="primary_device_name" example="Pixel 6">%2$s</xliff:g>&lt;/strong&gt;?</string>
+    <string name="permission_sync_confirmation_title">Vil du gjeva appane på &lt;strong&gt;<xliff:g id="companion_device_name" example="Galaxy Watch 5">%1$s</xliff:g>&lt;/strong&gt; same løyva som på &lt;strong&gt;<xliff:g id="primary_device_name" example="Pixel 6">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="permission_sync_summary">Det kan inkludera &lt;strong&gt;mikrofon&lt;/strong&gt;, &lt;strong&gt;kamera&lt;/strong&gt;, and &lt;strong&gt;tilgang til plassering&lt;/strong&gt;, og andre viktige løyve på &lt;strong&gt;<xliff:g id="companion_device_name" example="My Watch">%1$s</xliff:g>&lt;/strong&gt;. &lt;br/&gt;&lt;br/&gt;Du kan endra desse løyva når du vil i innstillingane på &lt;strong&gt;<xliff:g id="companion_device_name" example="My Watch">%1$s</xliff:g>&lt;/strong&gt;.</string>
     <string name="vendor_header_button_description">Meir informasjon</string>
     <string name="permission_phone">Telefon</string>

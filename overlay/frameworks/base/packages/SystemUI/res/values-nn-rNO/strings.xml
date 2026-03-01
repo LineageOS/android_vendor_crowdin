@@ -30,13 +30,13 @@
     <string name="battery_saver_start_action">Slå på</string>
     <string name="battery_saver_dismiss_action">Nei takk</string>
     <string name="status_bar_settings_auto_rotation">Snu skjermen automatisk</string>
-    <string name="usb_device_permission_prompt">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
-    <string name="usb_device_permission_prompt_warn">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?\nDenne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga.</string>
-    <string name="usb_audio_device_permission_prompt_title">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
+    <string name="usb_device_permission_prompt">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
+    <string name="usb_device_permission_prompt_warn">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?\nDenne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga.</string>
+    <string name="usb_audio_device_permission_prompt_title">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
     <string name="usb_audio_device_confirm_prompt_title">Vil du opna <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> for å styra <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
     <string name="usb_audio_device_prompt_warn">Denne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga. Brukar du <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> med denne eininga, kan det henda du ikkje høyrer samtalar, varsel eller alarmar.</string>
     <string name="usb_audio_device_prompt">Brukar du <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> med denne eininga, kan det henda du ikkje høyrer samtalar, varsel eller alarmar.</string>
-    <string name="usb_accessory_permission_prompt">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>?</string>
+    <string name="usb_accessory_permission_prompt">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>?</string>
     <string name="usb_device_confirm_prompt">Vil du opna <xliff:g id="application">%1$s</xliff:g> for å styra <xliff:g id="usb_device">%2$s</xliff:g>?</string>
     <string name="usb_device_confirm_prompt_warn">Vil du opna <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> for å styra <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?\nDenne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga.</string>
     <string name="usb_accessory_confirm_prompt">Vil du opna <xliff:g id="application">%1$s</xliff:g> for å styra <xliff:g id="usb_accessory">%2$s</xliff:g>?</string>
@@ -129,7 +129,7 @@
     <string name="issuerecord_start_error">Klarte ikkje starta feilopptaket</string>
     <string name="immersive_cling_title">Viser i fullskjerm</string>
     <string name="immersive_cling_description">Sveip ned frå toppen for å avslutta.</string>
-    <string name="immersive_cling_positive">Skjønar</string>
+    <string name="immersive_cling_positive">Greitt</string>
     <string name="accessibility_back">Tilbake</string>
     <string name="accessibility_home">Heim</string>
     <string name="accessibility_menu">Meny</string>
@@ -607,7 +607,7 @@
     <string name="wallet_secondary_label_no_card">Trykk for å opna</string>
     <string name="wallet_secondary_label_updating">Oppdaterer</string>
     <string name="wallet_secondary_label_device_locked">Lås opp for å bruka</string>
-    <string name="wallet_error_generic">Det oppstod eit problem med å henta korta dine. Prøv på nytt seinare.</string>
+    <string name="wallet_error_generic">Det skjedde noko gale med å henta korta dine. Prøv på nytt seinare.</string>
     <string name="wallet_lockscreen_settings_label">Innstillingar for låseskjermen</string>
     <string name="qr_code_scanner_title">QR-skannar</string>
     <string name="qr_code_scanner_updating_secondary_label">Oppdaterer</string>
@@ -626,7 +626,7 @@
     <string name="tuner_warning_title">Morosamt for somme, men ikkje for alle</string>
     <string name="tuner_warning">System UI Tuner gjev deg fleire måtar å finjustera og tilpassa brukargrensesnittet i Android på. Desse eksperimentelle funksjonane kan verta endra, slutta å fungera eller verta fjerna heilt i framtidige utgåver. Ver varsam.</string>
     <string name="tuner_persistent_warning">Desse eksperimentelle funksjonane kan verta endra, slutta å fungera eller verta fjerna heilt i framtidige utgåver. Ver varsam.</string>
-    <string name="got_it">Skjønar</string>
+    <string name="got_it">Greitt</string>
     <string name="tuner_toast">Gratulerer! System UI Tuner er lagd til i Innstillingar</string>
     <string name="remove_from_settings">Fjern frå Innstillingar</string>
     <string name="remove_from_settings_prompt">Vil du fjerna System UI Tuner frå Innstillingar og slutta å bruka alle funksjonane som fylgjer med?</string>
