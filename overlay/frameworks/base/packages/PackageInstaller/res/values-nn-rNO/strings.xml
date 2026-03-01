@@ -89,7 +89,7 @@
     <string name="manage_device_administrators">Styr administrator-appar</string>
     <string name="manage_users">Styr brukarar</string>
     <string name="uninstall_failed_msg">Klarte ikkje avinstallera <xliff:g id="app_name">%1$s</xliff:g>.</string>
-    <string name="Parse_error_dlg_text">Det oppstod eit problem ved tolking av pakken.</string>
+    <string name="Parse_error_dlg_text">Det skjedde noko gale ved tolking av pakken.</string>
     <string name="message_staging">Gjer klar appen …</string>
     <string name="app_name_unknown">Ukjend</string>
     <string name="untrusted_external_source_warning" product="tablet">Av omsyn til tryggleiken din har ikkje nettbrettet løyve til å installera ukjende appar frå denne kjelda no. Du kan endra dette i innstillingane.</string>
