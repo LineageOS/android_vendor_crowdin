@@ -15,23 +15,148 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bakgrunnsbilete og stil</string>
+    <string name="theme_title">Stil</string>
     <string name="clock_title">Klokke</string>
+    <string name="clock_description">Vel ei eiga klokke</string>
+    <string name="clock_picker_entry_content_description">Byt til ei eiga klokke</string>
+    <string name="select_clock_action_description">Urskiveval <xliff:g name="clock_face_description">%1$s</xliff:g></string>
+    <string name="clock_settings_title">Farge og storleik på klokka</string>
+    <string name="clock_color_and_size_title">Farge og storleik på klokka</string>
+    <string name="clock_color_and_size_description"><xliff:g name="color">%1$s</xliff:g>, <xliff:g name="size">%2$s</xliff:g></string>
+    <string name="clock_style">Stil</string>
+    <string name="clock_color">Farge</string>
     <string name="clock_color_title">Klokkefarge</string>
     <string name="clock_color_description">Samsvar med bakgrunnsbiletet eller vel din eigen farge</string>
+    <string name="clock_color_red">Raud</string>
+    <string name="clock_color_orange">Oransje</string>
+    <string name="clock_color_yellow">Gul</string>
+    <string name="clock_color_green">Grøn</string>
+    <string name="clock_color_blue">Blå</string>
+    <string name="clock_color_indigo">Indigo</string>
+    <string name="clock_color_violet">Fiolett</string>
+    <string name="clock_color_gray">Grå</string>
+    <string name="clock_color_teal">Blågrøn</string>
+    <string name="clock_size">Storleik</string>
+    <string name="clock_size_dynamic">Dynamisk</string>
+    <string name="clock_size_dynamic_description">Storleiken på klokka endrar seg etter innhaldet på låseskjermen</string>
+    <string name="clock_size_large">Stor</string>
     <string name="clock_size_large_description">Vert vist når det ikkje finst varsel</string>
+    <string name="clock_size_small">Lita</string>
+    <string name="clock_size_small_description">Ei lita klokke vert vist i hjørnet på skjermen</string>
     <string name="clock_font_editor_apply">Bruk endringane i klokkeskrifta</string>
     <string name="clock_font_editor_revert">Angra endringane i klokkeskrifta</string>
+    <string name="grid_title">App-rutenett</string>
     <string name="shape_and_grid_title">App-form og oppsett</string>
     <string name="grid_layout">Oppsett</string>
+    <string name="apply_theme_btn">Bruk</string>
+    <string name="edit_custom_theme_lbl">Trykk for å redigera</string>
+    <string name="keep_my_wallpaper">Hald på bakgrunnsbiletet</string>
+    <string name="theme_preview_card_content_description">Førehandsvising av stil</string>
+    <string name="grid_preview_card_content_description">Førehandsvising av rutenett</string>
     <string name="pack_theme_preview_card_content_description">Førehandsvising av tema</string>
+    <string name="font_preview_content_description">Førehandsvising av skrifttype</string>
+    <string name="icon_preview_content_description">Førehandsvising av ikon</string>
+    <string name="color_preview_content_description">Førehandsvising av farge</string>
+    <string name="shape_preview_content_description">Førehandsvising av form</string>
+    <string name="option_applied_description"><xliff:g name="style_name">%1$s</xliff:g>, er i bruk no</string>
+    <string name="option_applied_previewed_description"><xliff:g name="style_name">%1$s</xliff:g>, er i bruk og vert førehandsvist</string>
+    <string name="option_previewed_description"><xliff:g name="style_name">%1$s</xliff:g>, vert førehandsvist no</string>
+    <string name="option_change_applied_previewed_description"><xliff:g name="style_name">%1$s</xliff:g>, endring vald og vert førehandsvist</string>
+    <string name="theme_description">Skrifttype: <xliff:g name="font_name">%1$s</xliff:g>, ikon: <xliff:g name="icon_name">%2$s</xliff:g>, form: <xliff:g name="shape_name">%3$s</xliff:g>, farge: <xliff:g name="color_name">%4$s</xliff:g> </string>
+    <string name="default_theme_title">Standard</string>
+    <string name="preview_name_font">Skrifttype</string>
+    <string name="preview_name_icon">Ikon</string>
+    <string name="preview_name_color">Farge</string>
+    <string name="preview_name_shape">Form</string>
+    <string name="preview_name_wallpaper">Bakgrunnsbilete</string>
+    <string name="font_card_title">ABC • abc • 123</string>
+    <string name="font_card_body">Legg til favoritt-skrifttypane dine på kvar skjerm</string>
+    <string name="grid_options_title">Vel ein storleik på rutenettet</string>
+    <string name="grid_title_pattern"><xliff:g name="num_cols" example="1">%1$d</xliff:g>x<xliff:g name="num_rows" example="1">%2$d</xliff:g></string>
     <string name="grid_content_description"><xliff:g name="num_cols" example="1">%1$d</xliff:g> gonger <xliff:g name="num_rows" example="1">%2$d</xliff:g></string>
+    <string name="apply_grid_btn_note">Når du endrar storleiken på rutenettet, vert arbeidsområdet lasta inn på nytt. Dette kan ta nokre sekund.</string>
+    <string name="toast_of_changing_grid">Lastar inn arbeidsområdet på nytt med rutenettet %1$s</string>
+    <string name="toast_of_failure_to_change_grid">Klarte ikkje lasta inn arbeidsområdet på nytt med rutenettet %1$s</string>
+    <string name="applied_theme_msg">Stilen er no i bruk</string>
+    <string name="applied_clock_msg">Klokka er no i bruk</string>
+    <string name="applied_grid_msg">Rutenettet er no i bruk</string>
+    <string name="apply_theme_error_msg">Det skjedde noko gale då stilen skulle brukast</string>
+    <string name="custom_theme_next">Neste</string>
+    <string name="custom_theme_previous">Førre</string>
+    <string name="custom_theme">Eige</string>
+    <string name="custom_theme_title">Eige <xliff:g name="custom_num" example="1">%1$d</xliff:g></string>
+    <string name="custom_theme_fragment_title">Eigen stil</string>
+    <string name="custom_theme_delete">Slett</string>
+    <string name="font_component_title">Vel skrifttype</string>
+    <string name="icon_component_title">Vel ikon</string>
+    <string name="color_component_title">Vel farge</string>
+    <string name="shape_component_title">Vel form</string>
+    <string name="name_component_title">Gjev stilen eit namn</string>
+    <string name="icon_component_label">Ikon <xliff:g name="component_number" example="1">%1$d</xliff:g></string>
+    <string name="delete_custom_theme_confirmation">Vil du sletta den eigne stilen?</string>
+    <string name="delete_custom_theme_button">Slett</string>
+    <string name="cancel">Avbryt</string>
+    <string name="set_theme_wallpaper_dialog_message">Bruk bakgrunnsbilete frå stil</string>
+    <string name="use_style_instead_title">Vil du heller bruka <xliff:g name="style_name">%1$s</xliff:g>?</string>
+    <string name="use_style_instead_body">Vala dine svarar til stilen <xliff:g name="style_name">%1$s</xliff:g>. Vil du heller bruka <xliff:g name="style_name">%1$s</xliff:g>?</string>
+    <string name="use_style_button">Bruk <xliff:g name="style_name">%1$s</xliff:g></string>
+    <string name="no_thanks">Nei takk</string>
+    <string name="clock_preview_content_description">Førehandsvising av klokka <xliff:g name="clock_name">%1$s</xliff:g></string>
+    <string name="something_went_wrong">Uff då! Noko gjekk gale.</string>
+    <string name="theme_preview_icons_section_title">Farge / Ikon</string>
+    <string name="style_info_description">Førehandsvising av skrifttype, ikon, app-form og farge</string>
+    <string name="accessibility_custom_font_title">Eigen skrifttype</string>
+    <string name="accessibility_custom_icon_title">Eige ikon</string>
+    <string name="accessibility_custom_color_title">Eigen farge</string>
+    <string name="accessibility_custom_shape_title">Eigen form</string>
+    <string name="accessibility_custom_name_title">Namn på eigen stil</string>
+    <string name="accessibility_clock_slider_description">Fargestyrke</string>
+    <string name="mode_title" msgid="1000319159005403986">Mørkt tema</string>
+    <string name="mode_disabled_msg" msgid="1926077857799715086">Mellombels slått av på grunn av batterisparing</string>
+    <string name="themed_icon_title" msgid="4305612684940220645">Ikon med tema</string>
     <string name="pack_theme_title" msgid="4305612684940220645">Tema</string>
+    <string name="beta_title">Beta</string>
     <string name="theme_packs_description">Oppdag Pixel-tema</string>
+    <string name="gird_picker_entry_content_description" msgid="7538418512525897691">Endra app-rutenett</string>
+    <string name="wallpaper_color_tab">Bakgrunnsfargar</string>
+    <string name="wallpaper_color_subheader">Ikon, tekst og meir svarar til fargane i bakgrunnsbiletet</string>
+    <string name="wallpaper_color_title">Bakgrunnsfarge</string>
+    <string name="preset_color_tab">Basisfargar</string>
+    <string name="preset_color_tab_2">Andre fargar</string>
+    <string name="preset_color_subheader">Vel ein farge for ikon, klokke og meir</string>
+    <string name="color_changed">Fargen er endra</string>
+    <string name="adaptive_color_title">Dynamisk</string>
+    <string name="color_picker_title">Systemfargar</string>
     <string name="system_colors_title">Fargar</string>
+    <string name="keyguard_slot_name_bottom_start">Venstre snarveg</string>
+    <string name="keyguard_slot_name_bottom_end">Høgre snarveg</string>
+    <string name="keyguard_affordance_none">Ingen</string>
+    <string name="keyguard_affordance_enablement_dialog_headline">Klarte ikkje leggja til snarveg</string>
+    <string name="keyguard_affordance_enablement_dialog_action_template">Opna <xliff:g id="appName" example="Wallet">%1$s</xliff:g></string>
+    <string name="keyguard_affordance_enablement_dialog_message">For å leggja til appen <xliff:g id="appName" example="Wallet">%1$s</xliff:g> som snarveg må du sjekka at</string>
+    <string name="keyguard_affordance_enablement_dialog_dismiss_button">Ferdig</string>
+    <string name="keyguard_quick_affordance_title">Snarvegar</string>
+    <string name="keyguard_quick_affordance_section_title">Snarvegar</string>
     <string name="color_contrast_section_title">Fargekontrast</string>
+    <string name="color_contrast_default_title">Standard</string>
     <string name="color_contrast_medium_title">Middels</string>
     <string name="color_contrast_high_title">Høg</string>
+    <string name="keyguard_quick_affordance_two_selected_template"><xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g></string>
+    <string name="keyguard_quick_affordance_none_selected">Ingen</string>
+    <string name="show_notifications_on_lock_screen">Vis varsel på låseskjermen</string>
     <string name="lock_screen_notifications_section_title">Varsel på låseskjermen</string>
     <string name="lock_screen_notifications_section_description">Styr korleis varsla vert viste og kva som skal sjåast</string>
     <string name="more_settings_section_title">Fleire låseskjerm-innstillingar</string>
+    <string name="more_settings_section_description">Personvern, Spelar no og meir</string>
+    <string name="more_colors">Fleire fargar</string>
+    <string name="content_description_dynamic_color_option">Hovudtema, dynamisk</string>
+    <string name="content_description_neutral_color_option">Hovudtema, nøytralt</string>
+    <string name="content_description_vibrant_color_option">Hovudtema, levande</string>
+    <string name="content_description_expressive_color_option">Hovudtema, uttrykksfullt</string>
+    <string name="content_description_default_color_option">Standardfarge</string>
+    <string name="content_description_color_option">Fargeval <xliff:g name="color_number" example="1">%1$d</xliff:g></string>
+    <string name="scroll_forward_and_select">Sveip til venstre for å velja ei anna urskive</string>
+    <string name="scroll_backward_and_select">Sveip til høgre for å velja ei anna urskive</string>
+    <string name="custom_clocks_label">Eigne klokker</string>
 </resources>
