@@ -274,6 +274,7 @@
         other {Komprimerer # filer}
     }</string>
     <string name="job_progress_icon_label">Vis filframgang</string>
+    <string name="job_progress_panel_title">Framdrift for fila</string>
     <string name="job_progress_item_completed">Fullført</string>
     <string name="job_progress_item_canceled">Avbrote</string>
     <string name="job_progress_item_see_details">Sjå detaljar</string>

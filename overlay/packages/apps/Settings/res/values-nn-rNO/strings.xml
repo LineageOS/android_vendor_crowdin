@@ -2829,10 +2829,17 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_autoclick_longer_desc">Lengre</string>
     <string name="accessibility_autoclick_seekbar_desc">Tid for autoklikk</string>
     <string name="accessibility_autoclick_main_switch_title">Bruk autotrykk (kviletid)</string>
+    <string name="accessibility_autoclick_shortcut_title">Snarveg til autoklikk</string>
     <string name="autoclick_delay_before_click_title">Forseinking før trykk</string>
     <string name="autoclick_delay_before_click_summary">Vel kor lang tid det skal gå før det vert trykt etter at markøren har stogga</string>
+    <string name="autoclick_cursor_area_size_title">Klikkeområde</string>
     <string name="autoclick_cursor_area_size_summary">Dersom markøren flyttar seg utanfor trykkområdet, vert autotrykket avbrote</string>
+    <string name="autoclick_cursor_area_size_dialog_option_extra_large">Ekstra stort</string>
+    <string name="autoclick_cursor_area_size_dialog_option_large">Stort</string>
     <string name="autoclick_cursor_area_size_dialog_option_default">Standard</string>
+    <string name="autoclick_cursor_area_size_dialog_option_small">Lite</string>
+    <string name="autoclick_cursor_area_size_dialog_option_extra_small">Ekstra lite</string>
+    <string name="autoclick_ignore_minor_cursor_movement_title">Sjå bort frå små peikarrørsler</string>
     <string name="autoclick_revert_to_left_click_title">Bruk venstreklikk som standardhandling</string>
     <string name="autoclick_revert_to_left_click_summary">Når du brukar ei anna handling, går autotrykk automatisk tilbake til venstreklikk etterpå</string>
     <string name="accessibility_autoclick_navigation_title">Autotrykk fungerer betre med 3-knappsnavigasjon</string>
