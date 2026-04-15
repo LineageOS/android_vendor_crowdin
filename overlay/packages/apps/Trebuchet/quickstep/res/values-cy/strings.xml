@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2017 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="shorter_duration_less_than_one_minute">&lt; 1 funud</string>
+    <string name="hotseat_edu_title_migrate_landscape">Cael dy awgrymiadau apiau ar res ffefrynnau dy sgrin Gartref</string>
+    <string name="hotseat_edu_message_migrate_landscape">Cael mynediad hawdd at yr apiau rwyt yn eu defnyddio amlach yn syth o dy sgrin Gartref. Bydd awgrymiadau yn newid ar sail dy ddefnydd. Bydd apiau yn y rhes ffefrynnau yn symyd i dy sgrin Gartref.</string>
+    <string name="toast_contextual_split_select_app">Dewisa ap arall i ddefnyddio sgrin hollt</string>
+    <string name="toast_split_app_unsupported">Dewisa ap arall i ddefnyddio sgrin hollt</string>
+    <string name="taskbar_button_notifications">Hysbysiadau</string>
+    <string name="taskbar_divider_a11y_title">Gwahanydd Bar Tasgau</string>
+</resources>
