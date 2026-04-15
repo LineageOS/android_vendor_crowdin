@@ -65,9 +65,11 @@
     <string name="status_icon_signal_wifi">Gosodiadau Signal: Wi\u2011Fi Ymlaen</string>
     <string name="status_icon_signal_hotspot">Gosodiadau Signal: Llecyn Ymlaen</string>
     <string name="status_icon_display_status">Gosodiadau Dangosydd</string>
+    <string name="status_icon_drive_mode">Modd Gyrru</string>
     <string name="activity_blocked_text">Ni ellir ddefnyddio\u2019r nodwedd hon tra\u2019n gyrru.</string>
-    <string name="exit_button_close_application">Cau\'r ap</string>
+    <string name="exit_button_close_application">Cau\u2019r ap</string>
     <string name="exit_button_go_back">Nôl</string>
+    <string name="qc_footer_network_sound_settings">Gosodiadau sain</string>
     <string name="already_logged_in_message">I barhau, dylai <xliff:g id="user_name" example="Peter">%1$s</xliff:g> allgofnodi o\u2019r sgrin <xliff:g id="seat_location" example="Driver">%2$s</xliff:g></string>
     <string name="prefix_logged_in_info_for_other_seat">Wedi mewngofnodi ar sgrin <xliff:g id="seat_location" example="Driver">%s</xliff:g></string>
     <string name="seat_driver">gyrrwr</string>
