@@ -19,8 +19,10 @@
     <string name="profile_name_watch">oriawr</string>
     <string name="chooser_title_non_profile">Dewisa ddyfais i gael ei rheoli gan &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt;</string>
     <string name="chooser_title">Dewisa <xliff:g id="profile_name" example="watch">%1$s</xliff:g> i\u2019w gosod</string>
+    <string name="summary_watch">Bydd yr ap hwn yn cael cydweddu gwybodaeth, fel enw rhywun sy\u2019n galw, a chael mynediad at y caniatâd hynny ar dy <xliff:g id="device_type" example="phone">%1$s</xliff:g></string>
     <string name="confirmation_title_glasses">Caniatáu &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; i reoli &lt;strong&gt;<xliff:g id="device_name" example="Glasses">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="profile_name_glasses">dyfais</string>
+    <string name="helper_summary_computer">Mae <xliff:g id="app_name" example="GMS">%1$s</xliff:g> yn gofyn am ganiatâd ar ran dy <xliff:g id="device_name" example="Chromebook">%2$s</xliff:g> i gael mynediad at luniau, cyfryngau, a hysbysiadau dy <xliff:g id="device_type" example="phone">%3$s</xliff:g></string>
     <string name="profile_name_generic">dyfais</string>
     <string name="summary_generic">Bydd yr ap hwn yn cael cydweddu gwybodaeth, fel enw rhywun sy\u2019n galw, rhwng dy ffôn di a\u2019r ddyfais a ddewiswyd</string>
     <string name="consent_yes">Caniatáu</string>

@@ -17,6 +17,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="incall_enable_wifi_calling_button">Galluogi</string>
   <string name="video_call_not_available_title">Dyw galwad fideo ddim ar gael ar hyn o bryd</string>
-  <string name="video_call_not_available_message">Rho gynnig ar alw\'n hwyrach neu barhau gyda\'r alwad fel galwad llais.</string>
+  <string name="video_call_not_available_message">Rho gynnig ar alw\'n hwyrach neu barhau gyda\u2019r alwad fel galwad llais.</string>
   <string name="voice_call">Galwad llais</string>
 </resources>
