@@ -339,8 +339,10 @@
     <string name="two_hours">2 часа</string>
     <string name="error_generating_ics">Не удалось отправить событие</string>
     <string name="cal_share_intent_title">Отправить событие:</string>
-    <string name="cal_export_event_sdcard_title">Экспорт на SD-карту</string>
-    <string name="cal_export_succ_msg">Событий экспортировано: %1$s</string>
+    <string name="cal_export_event_title">Экспорт события</string>
+    <string name="cal_export_success">Событие успешно экспортировано</string>
+    <string name="cal_export_error">Не удалось экспортировать событие</string>
+    <string name="cal_export_succ_msg">Событие успешно экспортировано</string>
     <string name="cal_import_menu_title">Импортировать событие</string>
     <string name="cal_nothing_to_import">Импортировать нечего</string>
     <string name="cal_import_error_msg">Импорт в календарь не удался</string>

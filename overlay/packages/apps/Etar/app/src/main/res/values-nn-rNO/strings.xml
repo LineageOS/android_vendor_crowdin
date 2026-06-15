@@ -304,8 +304,6 @@
     <string name="two_hours">2 timar</string>
     <string name="error_generating_ics">Noko gjekk gale då hendinga skulle delast</string>
     <string name="cal_share_intent_title">Send hendinga til:</string>
-    <string name="cal_export_event_sdcard_title">Eksporter til SD-kort</string>
-    <string name="cal_export_succ_msg">Hendinga er eksportert: %1$s</string>
     <string name="cal_import_menu_title">Importer hending</string>
     <string name="cal_nothing_to_import">Ingenting å importera</string>
     <string name="cal_import_error_msg">Klarte ikkje importera til kalenderen</string>
