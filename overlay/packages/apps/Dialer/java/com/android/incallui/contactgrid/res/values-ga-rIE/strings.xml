@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="incall_calling_via_template">Ag glaoch trí <xliff:g id="provider_name">%s</xliff:g></string>
+  <string name="incall_calling_on_same_carrier_template">Ag glaoch ar an iompróir céanna <xliff:g id="provider_name">%s</xliff:g></string>
+  <string name="incall_calling_on_recent_choice_template">Ag glaoch ar rogha le déanaí <xliff:g id="provider_name">%s</xliff:g></string>
+  <string name="incall_connecting">Ag glaoch…</string>
+  <string name="incall_connecting_assited_dialed">Ag glaoch ag baint úsáide as +<xliff:g example="1" id="ad_country_code">%1$s</xliff:g> (<xliff:g example="1" id="ad_user_home_locale">%2$s</xliff:g>)\u2026</string>
+  <string name="incall_connecting_assited_dialed_component">Ag baint úsáide as +<xliff:g example="1" id="ad_country_code">%1$s</xliff:g> (<xliff:g example="1" id="ad_user_home_locale">%2$s</xliff:g>)\u2026</string>
+  <string name="incall_transferring">Ag aistriú…</string>
+  <string name="incall_video_call_requesting">Glaonna físe iompróra…</string>
+  <string name="incall_wifi_video_call_requesting">Glaonna físe ó iompróir Wi-Fi…</string>
+  <string name="incall_video_call_upgrade_request">Ag aistriú go físeán iompróra…</string>
+  <string name="incall_video_call_request_failed">Ní féidir ceangal</string>
+  <string name="incall_video_call_request_rejected">Diúltaíodh an glao</string>
+  <string name="incall_video_call_request_timed_out">Glao imithe thar an am</string>
+  <string name="incall_video_call_operation_failed">Ní féidir oibriú</string>
+  <string name="incall_hanging_up">Ag crochadh suas</string>
+  <string name="incall_call_ended">Glao críochnaithe</string>
+  <string name="incall_remotely_held">Ar feitheamh</string>
+  <string name="contact_grid_incoming_video_call">Glao físe iompróra ó</string>
+  <string name="contact_grid_incoming_wifi_video_call">Glao físe ó iompróir Wi-Fi ó</string>
+  <string name="contact_grid_incoming_voice_call">Glaoigh ó</string>
+  <string name="contact_grid_incoming_work_call">Glao oibre ó</string>
+  <string name="contact_grid_incoming_via_template">Glaoigh trí <xliff:g id="provider_name">%s</xliff:g> ó</string>
+  <string name="contact_grid_incoming_suspected_spam">Glaoiteoir turscair amhrasta</string>
+  <string name="contact_grid_callback_number">Uimhir an ghutháin seo: <xliff:g id="light_number">%1$s</xliff:g></string>
+</resources>

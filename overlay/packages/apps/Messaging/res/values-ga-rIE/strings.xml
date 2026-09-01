@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Teachtaireachtaí</string>
+    <string name="share_intent_label">Teachtaireachtaí</string>
+    <string name="share_intent_activity_label">Roghnaigh comhrá</string>
+    <string name="action_settings">Socruithe</string>
+    <string name="sendButtonContentDescription">Seol Teachtaireacht</string>
+    <string name="attachMediaButtonContentDescription">Cuir ceangaltán leis</string>
+    <string name="help_and_feedback_activity_label">Cabhair</string>
+    <string name="welcome">Fáilte</string>
+    <string name="skip">Léim</string>
+    <string name="next_with_arrow">Ar Aghaidh &gt;</string>
+    <string name="next">Ar Aghaidh</string>
+    <string name="exit">Scoir</string>
+    <string name="settings_with_arrow">Socruithe &gt;</string>
+    <string name="settings">Socruithe</string>
+    <string name="required_permissions_promo">Teastaíonn cead ó theachtaireachtaí le haghaidh SMS, guthán agus teagmhálacha.</string>
+    <string name="enable_permission_procedure">Is féidir leat ceadanna a athrú i Socruithe &gt; Aipeanna &gt; Teachtaireachtaí &gt; Ceadanna.</string>
+    <string name="enable_permission_procedure_description">Is féidir leat ceadanna a athrú i Socruithe, Aipeanna, Teachtaireachtaí, Ceadanna.</string>
+    <string name="contact_picker_frequents_tab_title">Go minic</string>
+    <string name="action_share">Comhroinn</string>
+    <string name="save">Sábháil</string>
+    <string name="enter_phone_number_hint">Uimhir theileafóin</string>
+    <string name="delete_all_media">Scrios gach teachtaireacht leis na meáin</string>
+    <string name="delete_oldest_messages">Scrios teachtaireachtaí atá níos sine ná <xliff:g id="duration">%s</xliff:g></string>
+    <string name="auto_delete_oldest_messages">Scrios teachtaireachtaí atá níos sine ná <xliff:g id="duration">%s</xliff:g> go huathoibríoch</string>
+    <string name="ignore">Déan neamhaird de</string>
+    <string name="delete_all_media_confirmation">Scrios gach teachtaireacht a bhfuil meáin iontu?</string>
+    <string name="delete_oldest_messages_confirmation">Scrios teachtaireachtaí atá níos sine ná <xliff:g id="duration">%s</xliff:g>?</string>
+    <string name="auto_delete_oldest_messages_confirmation">Scrios teachtaireachtaí atá níos sine ná <xliff:g id="duration">%s</xliff:g> agus cuir an uathscriosadh ar siúl?</string>
+    <string name="incoming_text_sender_content_description">Dúirt <xliff:g id="sender">%s</xliff:g></string>
+    <string name="outgoing_text_sender_content_description">Dúirt tú</string>
+    <string name="incoming_sender_content_description">Teachtaireacht ó <xliff:g id="sender">%s</xliff:g></string>
+    <string name="outgoing_sender_content_description">Sheol tú teachtaireacht</string>
+    <string name="message_status_sending">Ag seoladh…</string>
+    <string name="message_status_send_failed">Níor seoladh é. Tapáil chun iarracht eile a dhéanamh.</string>
+    <string name="message_status_send_retrying">Níor seoladh é. Ag iarraidh arís</string>
+    <string name="message_status_resend">Athsheol nó scrios</string>
+    <string name="message_status_send_failed_emergency_number">Cuir glaoch gutha ar na seirbhísí éigeandála le do thoil. Níorbh fhéidir do theachtaireacht téacs a sheachadadh faoi láthair.</string>
+    <string name="message_status_failed">Theip air</string>
+    <string name="message_title_manual_download">Teachtaireacht MMS nua le híoslódáil</string>
+    <string name="message_title_downloading">Teachtaireacht MMS nua</string>
+    <string name="message_title_download_failed">Níorbh fhéidir íoslódáil</string>
+    <string name="message_status_download_failed">Tapáil chun iarracht eile a dhéanamh</string>
+    <string name="message_status_download">Tapáil le híoslódáil</string>
+    <string name="message_status_download_action">Íoslódáil nó scrios</string>
+    <string name="message_status_downloading">Ag íoslódáil…</string>
+    <string name="message_status_download_error">Teachtaireacht imithe in éag nó níl sí ar fáil</string>
+    <string name="mms_info">méid: <xliff:g id="messageSize">%1$s</xliff:g>, dáta éaga: <xliff:g id="messageExpire">%2$s</xliff:g></string>
+    <string name="invalid_destination">Ní féidir a sheoladh. Níl an faighteoir bailí.</string>
+    <string name="service_not_activated">Seirbhís nach bhfuil gníomhachtaithe ar an líonra</string>
+    <string name="service_network_problem">Níorbh fhéidir a sheoladh mar gheall ar fhadhb líonra</string>
+    <string name="service_message_not_found">Teachtaireacht imithe in éag nó níl sí ar fáil</string>
+    <string name="no_subject">(Gan ábhar)</string>
+    <string name="unknown_sender">Seoltóir anaithnid</string>
+    <string name="delivered_status_content_description">Seachadta</string>
+    <string name="dl_failure_notification">Níorbh fhéidir an teachtaireacht <xliff:g id="subject">%1$s</xliff:g> a íoslódáil ó <xliff:g id="from">%2$s</xliff:g>.</string>
+    <string name="low_memory">Níorbh fhéidir an oibríocht bunachar sonraí a chríochnú mar gheall ar easpa cuimhne</string>
+    <string name="notification_send_failures_line1_singular">Níor seoladh an teachtaireacht</string>
+    <string name="notification_send_failures_line1_plural">Níor seoladh roinnt teachtaireachtaí i dTeachtaireachtaí</string>
+    <string name="notification_download_failures_line1_singular">Níor íoslódáileadh an teachtaireacht</string>
+    <string name="notification_download_failures_line1_plural">Níor íoslódáileadh roinnt teachtaireachtaí i dTeachtaireachtaí</string>
+    <string name="notification_emergency_send_failure_line1">Níor seoladh an teachtaireacht chuig <xliff:g id="number">%1$s</xliff:g></string>
+    <string name="start_conversation">Tosaigh</string>
+    <string name="camera_error_opening">Níl an ceamara ar fáil</string>
+    <string name="camera_error_unknown">Níl an ceamara ar fáil</string>
+    <string name="camera_error_video_init_fail">Níl gabháil físe ar fáil</string>
+    <string name="camera_error_storage_fail">Ní féidir na meáin a shábháil</string>
+    <string name="camera_error_failure_taking_picture">Ní féidir pictiúr a thógáil</string>
+    <string name="back">Ar ais</string>
+    <string name="action_delete">Scrios</string>
+    <string name="action_delete_message">Scrios</string>
+    <string name="delete_message_confirmation_button">Scrios</string>
+    <string name="delete_conversation_confirmation_button">Scrios</string>
+    <string name="delete_conversation_decline_button">Cealaigh</string>
+    <string name="audio_picker_hint_text">Tapáil &amp; coinnigh</string>
+    <string name="enumeration_comma">,\u0020</string>
+    <string name="notification_separator">\u0020\u0020</string>
+    <string name="notification_ticker_separator">:\u0020</string>
+    <string name="notification_space_separator">\u0020\u0020</string>
+    <string name="notification_picture">Pictiúr</string>
+    <string name="notification_audio">Gearrthóg fuaime</string>
+    <string name="notification_video">Físeán</string>
+    <string name="notification_vcard">Cárta teagmhála</string>
+    <string name="notification_download_mms">Íoslódáil</string>
+    <string name="notification_reply_via_sms">Freagra trí SMS</string>
+    <string name="notification_reply_via_mms">Freagra trí MMS</string>
+    <string name="notification_reply_prompt">Freagra</string>
+    <string name="unknown_self_participant">Mise</string>
+    <string name="blocked_toast_message">Teagmhálaí blocáilte &amp; cartlannaithe</string>
+    <string name="unblocked_toast_message">Teagmháil díbhlocáilte &amp; díchartlannaithe</string>
+    <string name="notification_off_toast_message">Fógraí múchta</string>
+    <string name="notification_on_toast_message">Fógraí casta air</string>
+    <string name="toast_after_setting_default_sms_app_for_message_send">Réidh. Tapáil Seol arís.</string>
+    <string name="toast_after_setting_default_sms_app">Socraíodh an aip teachtaireachtaí mar an aip réamhshocraithe SMS go rathúil.</string>
+    <string name="audio_attachment_content_description">Ceangaltán fuaime</string>
+    <string name="audio_play_content_description">Seinn ceangaltán fuaime</string>
+    <string name="audio_pause_content_description">Sos</string>
+    <string name="incoming_message_announcement">Teachtaireacht ó <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>.</string>
+    <string name="one_on_one_incoming_failed_message_prefix">Teachtaireacht theipithe ó <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_incoming_successful_message_prefix">Teachtaireacht ó <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_draft_message_prefix">Teachtaireacht gan seoladh chuig <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_sending_message_prefix">Ag seoladh teachtaireachta chuig <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_failed_message_prefix">Theip ar theachtaireacht chuig <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_successful_message_prefix">Teachtaireacht chuig <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_incoming_failed_message_prefix">Teachtaireacht theipthe ó <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_incoming_successful_message_prefix">Teachtaireacht ó <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_outgoing_draft_message_prefix">Teachtaireacht gan seoladh chuig <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_sending_message_prefix">Ag seoladh teachtaireachta chuig <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_failed_message_prefix">Theip ar theachtaireacht chuig <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_successful_message_prefix">Teachtaireacht chuig <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Am: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="failed_message_content_description">Teachtaireacht theipithe. Tapáil le hathiarracht a dhéanamh.</string>
+    <string name="group_conversation_description">Comhrá le <xliff:g id="rannpháirtithe">%s</xliff:g></string>
+    <string name="delete_subject_content_description">Scrios ábhar</string>
+    <string name="camera_switch_to_video_mode">Gabh físeán</string>
+    <string name="camera_switch_to_still_mode">Gabh íomhá neamhghluaiste</string>
+    <string name="camera_take_picture">Tóg pictiúr</string>
+    <string name="camera_start_recording">Tosaigh ag taifeadadh físeáin</string>
+    <string name="camera_switch_full_screen">Athraigh go ceamara lánscáileáin</string>
+    <string name="camera_switch_camera_facing">Athraigh idir an ceamara tosaigh agus an ceamara cúil</string>
+    <string name="camera_stop_recording">Stop an taifeadadh agus ceangail físeán</string>
+    <string name="settings_activity_title">Socruithe</string>
+    <string name="action_close">Dún</string>
+    <string name="unknown_phone_number_pref_display_value">Anaithnid</string>
+    <string name="message_context_menu_delete_message">Scrios</string>
+    <string name="received_label">Faighte:\u0020</string>
+    <string name="subject_label">Ábhar:\u0020</string>
+    <string name="message_size_label">Méid:\u0020</string>
+    <string name="priority_label">Tosaíocht:\u0020</string>
+    <string name="sim_label">SIM:\u0020</string>
+    <string name="priority_high">Ard</string>
+    <string name="priority_normal">Gnáth</string>
+    <string name="priority_low">Íseal</string>
+    <string name="sim_slot_identifier">SIM <xliff:g id="sim_slot_number">%s</xliff:g></string>
+    <string name="hidden_sender_address">Seoladh an tseoltóra i bhfolach</string>
+    <string name="cant_send_message_while_loading_attachments">Ní féidir teachtaireacht a sheoladh agus ceangaltáin á lódáil.</string>
+    <string name="fail_to_load_attachment">Ní féidir an ceangaltán a luchtú. Déan iarracht arís.</string>
+    <string name="cant_send_message_without_active_subscription">Níl an líonra réidh. Déan iarracht eile.</string>
+    <string name="chips_text_delete_button_content_description">Scrios téacs</string>
+    <string name="numeric_text_keyboard_toggle_button_content_description">Athraigh idir téacs agus uimhreacha a iontráil</string>
+    <string name="add_more_participants_button_content_description">Cuir níos mó rannpháirtithe leis</string>
+    <string name="confrim_participants_button_content_description">Deimhnigh rannpháirtithe</string>
+    <string name="start_new_conversation">Tosaigh comhrá nua</string>
+    <string name="gallery_checkbox_content_description">Roghnaigh an mhír seo</string>
+    <string name="video_thumbnail_view_play_button_content_description">Seinn físeán</string>
+    <string name="action_people_and_options">Daoine &amp; roghanna</string>
+    <string name="action_debug_options">Dífhabhtú</string>
+    <string name="people_and_options_activity_title">Daoine &amp; roghanna</string>
+    <string name="general_settings_title">Ginearálta</string>
+    <string name="participant_list_title">Daoine sa chomhrá seo</string>
+    <string name="action_call">Déan glao</string>
+    <string name="compose_message_view_hint_text">Seol teachtaireacht</string>
+    <string name="compose_message_view_hint_text_multi_sim">Seol teachtaireacht<br/>&lt;small&gt;ó <xliff:g id="sim_name">%s</xliff:g>&lt;/small&gt;</string>
+    <string name="menu_send_feedback">Seol aiseolas</string>
+    <string name="menu_view_in_store">Féach i Google Play Store</string>
+    <string name="menu_version_info">Eolas faoin leagan</string>
+    <string name="subtitle_format_for_version_number">Leagan %1$s</string>
+    <string name="menu_license">Ceadúnais foinse oscailte</string>
+    <string name="notifications_enabled_conversation_pref_title">Fógraí</string>
+    <string name="mms_attachment_limit_reached">Teorainn na gceangaltán sroichte</string>
+    <string name="mms_attachment_load_failed">Theip ar luchtú an cheangaltáin.</string>
+    <string name="add_contact_confirmation_dialog_title">Cuir le Teagmhálaithe?</string>
+    <string name="add_contact_confirmation">Cuir Teagmháil leis</string>
+    <string name="compose_message_view_subject_hint_text">Ábhar</string>
+    <string name="conversation_message_view_subject_text">Ábhar:\u0020</string>
+    <string name="notification_subject"><xliff:g id="subject_label">%1$s</xliff:g><xliff:g id="messageText">%2$s</xliff:g></string>
+    <string name="loading_vcard">Ag lódáil cárta teagmhála</string>
+    <string name="failed_loading_vcard">Níorbh fhéidir an cárta teagmhála a lódáil</string>
+    <string name="vcard_tap_hint">Féach ar chárta teagmhála</string>
+    <string name="requires_sms_permissions_close_button">Ceart go leor</string>
+    <string name="snack_bar_undo">Cuir ar ceal</string>
+    <string name="block_confirmation_title">Blocáil <xliff:g id="destination">%s</xliff:g>?</string>
+    <string name="block_confirmation_message">Leanfaidh tú de theachtaireachtaí a fháil ón uimhir seo ach ní chuirfear ar an eolas thú a thuilleadh. Déanfar an comhrá seo a chartlannú.</string>
+    <string name="blocked_contacts_title">Teagmhálaithe blocáilte</string>
+    <string name="tap_to_unblock_message">DÍBHLOCAIGH</string>
+    <string name="view_blocked_contacts_title">Teagmhálaithe blocáilte</string>
+    <string name="pick_image_from_document_library_content_description">Roghnaigh íomhá ó leabharlann doiciméad</string>
+    <string name="sending_message">Teachtaireacht á seoladh</string>
+    <string name="send_message_success">Teachtaireacht seolta</string>
+    <string name="send_message_failure_no_data">Tá sonraí ceallacha múchta. Seiceáil do shocruithe.</string>
+    <string name="send_message_failure_airplane_mode">Ní féidir teachtaireachtaí a sheoladh i mód eitleáin</string>
+    <string name="send_message_failure">Níorbh fhéidir an teachtaireacht a sheoladh</string>
+    <string name="download_message_success">Teachtaireacht íoslódáilte</string>
+    <string name="download_message_failure_no_data">Tá sonraí ceallacha múchta. Seiceáil do shocruithe.</string>
+    <string name="download_message_failure_airplane_mode">Ní féidir teachtaireachtaí a íoslódáil i mód eitleáin</string>
+    <string name="download_message_failure">Níorbh fhéidir an teachtaireacht a íoslódáil</string>
+    <string name="content_description_for_number_zero">Nialas</string>
+    <string name="content_description_for_number_one">Aon</string>
+    <string name="content_description_for_number_two">Dhá</string>
+    <string name="content_description_for_number_three">Trí</string>
+    <string name="content_description_for_number_four">Ceithre</string>
+    <string name="content_description_for_number_five">Cúig</string>
+    <string name="content_description_for_number_six">Sé</string>
+    <string name="content_description_for_number_seven">Seacht</string>
+    <string name="content_description_for_number_eight">Ocht</string>
+    <string name="content_description_for_number_nine">Naoi</string>
+    <string name="carrier_send_error">Ní féidir teachtaireacht a sheoladh le <xliff:g id="carrierName">%1$s</xliff:g>, earráid <xliff:g id="errorCode">%2$d</xliff:g></string>
+    <string name="carrier_send_error_unknown_carrier">Ní féidir teachtaireacht a sheoladh le hiompróir anaithnid, earráid <xliff:g id="errorCode">%1$d</xliff:g></string>
+    <string name="message_fwd">Ar Aghaidh: <xliff:g id="ábhar">%s</xliff:g></string>
+    <string name="mms_failure_outgoing_service">Níor seoladh an teachtaireacht: níl an tseirbhís gníomhachtaithe ar an líonra</string>
+    <string name="mms_failure_outgoing_address">Níor seoladh an teachtaireacht: seoladh ceann scríbe neamhbhailí</string>
+    <string name="mms_failure_outgoing_corrupt">Níor seoladh an teachtaireacht: teachtaireacht neamhbhailí</string>
+    <string name="mms_failure_outgoing_content">Níor seoladh an teachtaireacht: ábhar nach dtacaítear leis</string>
+    <string name="mms_failure_outgoing_unsupported">Níor seoladh an teachtaireacht: teachtaireacht nach dtacaítear léi</string>
+    <string name="mms_failure_outgoing_too_large">Níor seoladh an teachtaireacht: rómhór</string>
+    <string name="in_conversation_notify_new_message_text">Teachtaireacht nua</string>
+    <string name="in_conversation_notify_new_message_action">Amharc</string>
+    <string name="message_image_content_description">Íomhá</string>
+    <string name="activity_not_found_message">Níorbh fhéidir feidhmchlár oiriúnach a aimsiú</string>
+    <string name="chips_delete_content_description">Bain an faighteoir</string>
+    <string name="share_new_message">Teachtaireacht nua</string>
+    <string name="share_cancel">Cealaigh</string>
+    <string name="apn_edit">Cuir pointe rochtana in eagar</string>
+    <string name="apn_not_set">Gan socrú</string>
+    <string name="apn_name">Ainm</string>
+    <string name="apn_apn">APN</string>
+    <string name="apn_mmsc">MMSC</string>
+    <string name="apn_mms_proxy">Seachfhreastalaí MMS</string>
+    <string name="apn_mms_port">Port MMS</string>
+    <string name="apn_mcc">MCC</string>
+    <string name="apn_mnc">MNC</string>
+    <string name="apn_type">Cineál APN</string>
+    <string name="menu_save_apn">Sábháil</string>
+    <string name="untitled_apn">Gan Teideal</string>
+    <string name="sms_apns_title">Ainmneacha Pointe Rochtana</string>
+    <string name="apn_settings">APNanna</string>
+    <string name="menu_new">APN nua</string>
+    <string name="apn_settings_not_available">Níl socruithe Ainm Pointe Rochtana ar fáil don úsáideoir seo</string>
+    <string name="copy_to_clipboard_dialog_title">Cóipeáil chuig an ghearrthaisce?</string>
+    <string name="copy_to_clipboard">Cóipeáil</string>
+    <string name="incoming_sim_name_text">go <xliff:g id="sim_name">%s</xliff:g></string>
+    <string name="general_settings">Ginearálta</string>
+    <string name="advanced_settings">Ardleibhéil</string>
+    <string name="general_settings_activity_title">Socruithe ginearálta</string>
+    <string name="advanced_settings_activity_title">Socruithe Ardleibhéil</string>
+    <string name="sim_specific_settings">\"<xliff:g id="sim_name">%s</xliff:g>\" SIM</string>
+    <string name="disable_group_mms">Seol teachtaireachtaí SMS aonair chuig gach faighteoir. Ní bhfaighidh ach tusa aon fhreagraí</string>
+    <string name="enable_group_mms">Seol MMS amháin chuig na faighteoirí uile</string>
+    <string name="sim_settings_unknown_number">Uimhir anaithnid</string>
+    <string name="secondary_user_new_message_title">Teachtaireacht nua</string>
+    <string name="secondary_user_new_message_ticker">Teachtaireacht nua.</string>
+    <string name="sim_selector_button_content_description">Roghnóir SIM</string>
+    <string name="sim_selector_button_content_description_with_selection"><xliff:g id="sim">%1$s</xliff:g> roghnaithe, roghnóir SIM</string>
+    <string name="send_button_long_click_description_no_sim_selector">Cuir ábhar in eagar</string>
+    <string name="send_button_long_click_description_with_sim_selector">Roghnaigh SIM nó cuir ábhar in eagar</string>
+    <string name="audio_record_view_content_description">Tapáil &amp; coinnigh chun fuaim a thaifeadadh</string>
+    <string name="widget_new_conversation_content_description">Tosaigh comhrá nua</string>
+    <string name="widget_title_content_description">Teachtaireachtaí</string>
+    <string name="widget_conversation_list_name">Liosta Teachtaireachtaí</string>
+    <string name="widget_conversation_name">Teachtaireachtaí</string>
+    <string name="widget_new_message_content_description">Teachtaireacht nua</string>
+    <string name="widget_conversation_list_content_description">Liosta comhráite</string>
+    <string name="loading_conversations">Ag lódáil comhráite</string>
+    <string name="loading_messages">Ag lódáil teachtaireachtaí</string>
+    <string name="view_more_conversations">Féach ar níos mó comhráite</string>
+    <string name="view_more_messages">Féach ar níos mó teachtaireachtaí</string>
+    <string name="conversation_deleted">Scriosadh an comhrá</string>
+    <string name="tap_to_configure">Scriosadh an comhrá. Tapáil chun comhrá Teachtaireachtaí difriúil a thaispeáint.</string>
+    <string name="update_destination_blocked">Blocáilte</string>
+    <string name="update_destination_unblocked">Díbhlocáilte</string>
+    <string name="db_full">Tá spás stórála gann. D’fhéadfadh roinnt sonraí a bheith caillte.</string>
+    <string name="attachment_chooser_activity_title">Roghnaigh ceangaltáin</string>
+    <string name="action_confirm_selection">Deimhnigh an rogha</string>
+    <string name="attachment_chooser_selection"><xliff:g id="count">%d</xliff:g> roghnaithe</string>
+    <string name="attachment_limit_reached_dialog_message_when_composing">Bain ceangaltán amháin nó níos mó agus déan iarracht arís.</string>
+    <string name="attachment_limit_reached_dialog_message_when_sending">Is féidir leat iarracht a dhéanamh do theachtaireacht a sheoladh, ach b\'fhéidir nach seachadfar í mura mbainfidh tú ceangaltán amháin nó níos mó.</string>
+    <string name="video_attachment_limit_exceeded_when_sending">Ní féidir leat ach físeán amháin a sheoladh in aghaidh an teachtaireachta. Bain físeáin bhreise agus déan iarracht arís.</string>
+    <string name="attachment_load_failed_dialog_message">Theip ar an teachtaireacht ceangaltán a lódáil.</string>
+    <string name="attachment_limit_reached_send_anyway">Seol ar aon nós</string>
+    <string name="conversation_creation_failure">Níorbh fhéidir an comhrá a thosú</string>
+    <string name="link_display_format"><xliff:g id="téacs">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
+    <string name="selected_sim_content_message"><xliff:g id="selected_sim">%s</xliff:g> roghnaithe</string>
+    <string name="work_directory_display_name">Teagmhálaithe Próifíl Oibre</string>
+    <string name="disallow_emergency_call">Ní féidir glaoch gutha a dhéanamh chuig seirbhísí éigeandála anseo.</string>
+</resources>

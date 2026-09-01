@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<!--
+    These accented letters (spoken_accented_letter_*) are unsupported by TTS.
+    These symbols (spoken_symbol_*) are also unsupported by TTS.
+    TODO: Remove these string resources when TTS/TalkBack support these letters.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="spoken_accented_letter_00AA">Táscaire ordúil baininscneach</string>
+    <string name="spoken_accented_letter_00B5">Comhartha micrea</string>
+    <string name="spoken_accented_letter_00BA">Táscaire ordúil firinscneach</string>
+    <string name="spoken_accented_letter_00DF">Géar S</string>
+    <string name="spoken_accented_letter_00E0">A, uaigh</string>
+    <string name="spoken_accented_letter_00E1">A, géarmhíochaine</string>
+    <string name="spoken_accented_letter_00E2">A, ciorcléas</string>
+    <string name="spoken_accented_letter_00E3">A, tilde</string>
+    <string name="spoken_accented_letter_00E4">A, dé-iaráis</string>
+    <string name="spoken_accented_letter_00E5">A, fáinne thuas</string>
+    <string name="spoken_accented_letter_00E6">A, E, ligatúr</string>
+    <string name="spoken_accented_letter_00E7">C, céidille</string>
+    <string name="spoken_accented_letter_00E8">E, uaigh</string>
+    <string name="spoken_accented_letter_00E9">E, géarmhíochaine</string>
+    <string name="spoken_accented_letter_00EA">E, ciorcléas</string>
+    <string name="spoken_accented_letter_00EB">E, dé-iaráis</string>
+    <string name="spoken_accented_letter_00EC">Mise, uaigh</string>
+    <string name="spoken_accented_letter_00ED">Mé, géarmhíochaine</string>
+    <string name="spoken_accented_letter_00EE">I, ciorcléas</string>
+    <string name="spoken_accented_letter_00EF">I, diaréseas</string>
+    <string name="spoken_accented_letter_00F0">Eth</string>
+    <string name="spoken_accented_letter_00F1">N, tilde</string>
+    <string name="spoken_accented_letter_00F2">Ó, uaigh</string>
+    <string name="spoken_accented_letter_00F3">Ó, géarmhíochaine</string>
+    <string name="spoken_accented_letter_00F4">O, ciorcléas</string>
+    <string name="spoken_accented_letter_00F5">Ó, tilde</string>
+    <string name="spoken_accented_letter_00F6">Ó, diaréas</string>
+    <string name="spoken_accented_letter_00F8">Ó, stróc</string>
+    <string name="spoken_accented_letter_00F9">U, uaigh</string>
+    <string name="spoken_accented_letter_00FA">U, géarmhíochaine</string>
+    <string name="spoken_accented_letter_00FB">U, ciorcléas</string>
+    <string name="spoken_accented_letter_0101">A, macrón</string>
+    <string name="spoken_accented_letter_0103">A, gearrlitir</string>
+    <string name="spoken_accented_letter_0105">A, ogonek</string>
+    <string name="spoken_accented_letter_0107">C, géarmhíochaine</string>
+    <string name="spoken_accented_letter_0109">C, ciorcléas</string>
+    <string name="spoken_accented_letter_010B">C, ponc thuas</string>
+    <string name="spoken_accented_letter_010D">C, carón</string>
+    <string name="spoken_accented_letter_010F">D, carón</string>
+    <string name="spoken_accented_letter_0111">D, stróc</string>
+    <string name="spoken_accented_letter_0113">E, macrón</string>
+    <string name="spoken_accented_letter_0115">E, gearrlitir</string>
+    <string name="spoken_accented_letter_0117">E, ponc thuas</string>
+    <string name="spoken_accented_letter_0119">E, ogonek</string>
+    <string name="spoken_accented_letter_011B">E, carón</string>
+    <string name="spoken_accented_letter_011D">G, ciorcléas</string>
+    <string name="spoken_accented_letter_011F">G, gearr</string>
+    <string name="spoken_accented_letter_0121">G, ponc thuas</string>
+    <string name="spoken_accented_letter_0123">G, céidille</string>
+    <string name="spoken_accented_letter_0125">H, ciorcléas</string>
+    <string name="spoken_accented_letter_0127">H, stróc</string>
+    <string name="spoken_accented_letter_0129">I, tilde</string>
+    <string name="spoken_accented_letter_012B">I, macron</string>
+    <string name="spoken_accented_letter_012D">I, gearr</string>
+    <string name="spoken_accented_letter_012F">I, ogonek</string>
+    <string name="spoken_accented_letter_0131">Gan Ponc I</string>
+    <string name="spoken_accented_letter_0133">I, J, ligatúr</string>
+    <string name="spoken_accented_letter_0135">J, ciorcléas</string>
+    <string name="spoken_accented_letter_0137">K, céidille</string>
+    <string name="spoken_accented_letter_0138">Crá</string>
+    <string name="spoken_accented_letter_013A">L, géarmhíochaine</string>
+    <string name="spoken_accented_letter_013C">L, céidilla</string>
+    <string name="spoken_accented_letter_013E">L, carón</string>
+    <string name="spoken_accented_letter_0140">L, ponc lár</string>
+    <string name="spoken_accented_letter_0142">L, stróc</string>
+    <string name="spoken_accented_letter_0144">N, géarmhíochaine</string>
+    <string name="spoken_accented_letter_0146">N, céidille</string>
+    <string name="spoken_accented_letter_0148">N, carón</string>
+    <string name="spoken_accented_letter_0149">N, agus apostróf roimhe</string>
+    <string name="spoken_accented_letter_014B">Eng</string>
+    <string name="spoken_accented_letter_014D">O, macrón</string>
+    <string name="spoken_accented_letter_014F">O, gearr</string>
+    <string name="spoken_accented_letter_0151">O, géarmhíochaine dúbailte</string>
+    <string name="spoken_accented_letter_0153">O, E, ligatúr</string>
+    <string name="spoken_accented_letter_0155">R, géarmhíochaine</string>
+    <string name="spoken_accented_letter_0157">R, céidilla</string>
+    <string name="spoken_accented_letter_0159">R, carón</string>
+    <string name="spoken_accented_letter_015B">S, géarmhíochaine</string>
+    <string name="spoken_accented_letter_015D">S, ciorcléas</string>
+    <string name="spoken_accented_letter_015F">S, céidilla</string>
+    <string name="spoken_accented_letter_0161">S, carón</string>
+    <string name="spoken_accented_letter_0163">T, céidille</string>
+    <string name="spoken_accented_letter_0165">T, carón</string>
+    <string name="spoken_accented_letter_0167">T, stróc</string>
+    <string name="spoken_accented_letter_0169">U, tilde</string>
+    <string name="spoken_accented_letter_016B">U, macrón</string>
+    <string name="spoken_accented_letter_016D">U, gearr</string>
+    <string name="spoken_accented_letter_016F">U, fáinne thuas</string>
+    <string name="spoken_accented_letter_0171">U, géarmhíochaine dúbailte</string>
+    <string name="spoken_accented_letter_0173">U, ogonek</string>
+    <string name="spoken_accented_letter_0175">W, ciorcléas</string>
+    <string name="spoken_accented_letter_0177">Y, ciorcléas</string>
+    <string name="spoken_accented_letter_017A">Z, géarmhíochaine</string>
+    <string name="spoken_accented_letter_017C">Z, ponc thuas</string>
+    <string name="spoken_accented_letter_017E">Z, carón</string>
+    <string name="spoken_accented_letter_017F">Fada S</string>
+    <string name="spoken_accented_letter_01A1">O, adharc</string>
+    <string name="spoken_accented_letter_01B0">U, adharc</string>
+    <string name="spoken_accented_letter_0219">S, camóg thíos</string>
+    <string name="spoken_accented_letter_021B">T, camóg thíos</string>
+    <string name="spoken_accented_letter_0259">Schwa</string>
+    <string name="spoken_accented_letter_1EA1">A, ponc thíos</string>
+    <string name="spoken_accented_letter_1EA3">A, crúca thuas</string>
+    <string name="spoken_accented_letter_1EA5">A, ciorcléas agus géar</string>
+    <string name="spoken_accented_letter_1EA7">A, ciorcal agus uaigh</string>
+    <string name="spoken_accented_letter_1EA9">A, ciorcal agus crúca thuas</string>
+    <string name="spoken_accented_letter_1EAB">A, ciorcal agus tilde</string>
+    <string name="spoken_accented_letter_1EAD">A, ciorcal agus ponc thíos</string>
+    <string name="spoken_accented_letter_1EAF">A, gearr agus géar</string>
+    <string name="spoken_accented_letter_1EB1">A, gearr agus grave</string>
+    <string name="spoken_accented_letter_1EB3">A, gearrscríbhinn agus crúca thuas</string>
+    <string name="spoken_accented_letter_1EB5">A, gearrlitir agus tilde</string>
+    <string name="spoken_accented_letter_1EB7">A, gearrlitir agus ponc thíos</string>
+    <string name="spoken_accented_letter_1EB9">E, ponc thíos</string>
+    <string name="spoken_accented_letter_1EBB">E, crúca thuas</string>
+    <string name="spoken_accented_letter_1EBD">E, tilde</string>
+    <string name="spoken_accented_letter_1EBF">E, ciorcléas agus géar</string>
+    <string name="spoken_accented_letter_1EC1">E, cirfhleasc agus graif</string>
+    <string name="spoken_accented_letter_1EC3">E, ciorcal agus crúca thuas</string>
+    <string name="spoken_accented_letter_1EC5">E, cirfhleics agus tilde</string>
+    <string name="spoken_accented_letter_1EC7">E, ciorcal agus ponc thíos</string>
+    <string name="spoken_accented_letter_1EC9">Mise, crúca thuas</string>
+    <string name="spoken_accented_letter_1ECB">Mise, ponc thíos</string>
+    <string name="spoken_accented_letter_1ECD">Ó, ponc thíos</string>
+    <string name="spoken_accented_letter_1ECF">Ó, crúca thuas</string>
+    <string name="spoken_accented_letter_1ED1">O, ciorcléas agus géar</string>
+    <string name="spoken_accented_letter_1ED3">O, ciorcal agus uaigh</string>
+    <string name="spoken_accented_letter_1ED5">O, ciorcal agus crúca thuas</string>
+    <string name="spoken_accented_letter_1ED7">O, cirfhleasc agus tilde</string>
+    <string name="spoken_accented_letter_1ED9">O, ciorcal agus ponc thíos</string>
+    <string name="spoken_accented_letter_1EDB">O, adharc agus géarmhíochaine</string>
+    <string name="spoken_accented_letter_1EDD">Ó, adharc agus uaigh</string>
+    <string name="spoken_accented_letter_1EDF">Ó, adharc agus crúca thuas</string>
+    <string name="spoken_accented_letter_1EE1">Ó, adharc agus tilde</string>
+    <string name="spoken_accented_letter_1EE3">Ó, adharc agus ponc thíos</string>
+    <string name="spoken_accented_letter_1EE5">U, ponc thíos</string>
+    <string name="spoken_accented_letter_1EE7">U, crúca thuas</string>
+    <string name="spoken_accented_letter_1EE9">U, adharc agus géar</string>
+    <string name="spoken_accented_letter_1EEB">U, adharc agus uaigh</string>
+    <string name="spoken_accented_letter_1EED">U, adharc agus crúca thuas</string>
+    <string name="spoken_accented_letter_1EEF">U, adharc agus tilde</string>
+    <string name="spoken_accented_letter_1EF1">U, adharc agus ponc thíos</string>
+    <string name="spoken_accented_letter_1EF3">Y, uaigh</string>
+    <string name="spoken_accented_letter_1EF5">Y, ponc thíos</string>
+    <string name="spoken_accented_letter_1EF7">Y, crúca thuas</string>
+    <string name="spoken_accented_letter_1EF9">Y, tilde</string>
+    <string name="spoken_symbol_00A1">Comhartha eascráite inbhéartaithe</string>
+    <string name="spoken_symbol_00AB">Comhartha athfhriotail dúbailte uillinne ag pointeáil ar chlé</string>
+    <string name="spoken_symbol_00B7">Ponc lár</string>
+    <string name="spoken_symbol_00B9">Forscríbhinn a haon</string>
+    <string name="spoken_symbol_00BB">Comhartha athfhriotail dúbailte uillinne ag pointeáil ar dheis</string>
+    <string name="spoken_symbol_00BF">Comhartha ceiste inbhéartaithe</string>
+    <string name="spoken_symbol_2018">Comhartha athfhriotail aonair ar chlé</string>
+    <string name="spoken_symbol_2019">Comhartha athfhriotail aonair ar dheis</string>
+    <string name="spoken_symbol_201A">Comhartha athfhriotail aonair íseal-9</string>
+    <string name="spoken_symbol_201C">Comhartha athfhriotail dúbailte ar chlé</string>
+    <string name="spoken_symbol_201D">Comhartha athfhriotail dúbailte ar dheis</string>
+    <string name="spoken_symbol_2020">Dagair</string>
+    <string name="spoken_symbol_2021">Dagair dhúbailte</string>
+    <string name="spoken_symbol_2030">Comhartha per míle</string>
+    <string name="spoken_symbol_2032">Príomh</string>
+    <string name="spoken_symbol_2033">Príomhdhúbailte</string>
+    <string name="spoken_symbol_2039">Comhartha athfhriotail uillinne aonair ag pointeáil ar chlé</string>
+    <string name="spoken_symbol_203A">Comhartha athfhriotail uillinne aonair ag pointeáil ar dheis</string>
+    <string name="spoken_symbol_2074">Forscríbhinn a ceathair</string>
+    <string name="spoken_symbol_207F">Litir bheag Laidine n (forscríbhinn)</string>
+    <string name="spoken_symbol_20B1">Comhartha peso</string>
+    <string name="spoken_symbol_2105">Cúram</string>
+    <string name="spoken_symbol_2192">Saighead ar dheis</string>
+    <string name="spoken_symbol_2193">Saighead anuas</string>
+    <string name="spoken_symbol_2205">Tacar folamh</string>
+    <string name="spoken_symbol_2206">Méadú</string>
+    <string name="spoken_symbol_2264">Níos lú ná nó cothrom le</string>
+    <string name="spoken_symbol_2265">Níos mó ná nó cothrom le</string>
+    <string name="spoken_symbol_2605">Réalta dhubh</string>
+</resources>

@@ -14,5 +14,143 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">@string/files_label</string>
+    <string name="launcher_label">@string/files_label</string>
+    <string name="menu_search">Cuardaigh</string>
+    <string name="menu_open">Oscail</string>
+    <string name="menu_save">Sábháil</string>
+    <string name="menu_share">Comhroinn</string>
+    <string name="menu_delete">Scrios</string>
+    <string name="menu_select_all">Roghnaigh gach rud</string>
+    <string name="menu_select">Roghnaigh</string>
+    <string name="menu_copy">Cóipeáil chuig\u2026</string>
+    <string name="menu_move">Bog go\u2026</string>
+    <string name="menu_compress">Comhbhrúigh</string>
+    <string name="menu_extract">Sliocht chuig\u2026</string>
+    <string name="menu_rename">Athainmnigh</string>
+    <string name="menu_inspect">Faigh eolas</string>
+    <string name="menu_show_hidden_files">Taispeáin comhaid fholaithe</string>
+    <string name="menu_hide_hidden_files">Ná taispeáin comhaid fholaithe</string>
+    <string name="menu_view_in_owner">Féach i <xliff:g id="source" example="Google Drive">%1$s</xliff:g></string>
+    <string name="menu_new_window">Fuinneog nua</string>
+    <string name="menu_cut_to_clipboard">Gearr</string>
+    <string name="menu_copy_to_clipboard">Cóipeáil</string>
+    <string name="menu_paste_from_clipboard">Greamaigh</string>
+    <string name="menu_paste_into_folder">Greamaigh isteach i bhfillteán</string>
+    <string name="menu_advanced_show">Taispeáin stóráil inmheánach</string>
+    <string name="menu_advanced_hide">Folaigh an stóráil inmheánach</string>
+    <string name="button_select">Roghnaigh</string>
+    <string name="button_copy">Cóipeáil</string>
+    <string name="button_compress">Comhbhrúigh</string>
+    <string name="button_extract">Sliocht</string>
+    <string name="button_move">Bog</string>
+    <string name="button_dismiss">Díbhe</string>
+    <string name="button_retry">Bain Triail Arís</string>
+    <string name="button_clear">Glan</string>
+    <string name="button_show_provider">Taispeáin sa soláthraí</string>
+    <string name="button_back">Ar ais</string>
+    <string name="not_sorted">Gan sórtáil</string>
+    <string name="sort_dimension_name">Ainm</string>
+    <string name="sort_dimension_summary">Achoimre</string>
+    <string name="sort_dimension_file_type">Cineál</string>
+    <string name="sort_dimension_size">Méid</string>
+    <string name="sort_dimension_date">Modhnaithe</string>
+    <string name="sort_dimension_name_ascending">Ainm comhaid (A go Z)</string>
+    <string name="sort_dimension_file_type_ascending">Cineál (A go Z)</string>
+    <string name="sort_dimension_size_ascending">Méid (an ceann is lú ar dtús)</string>
+    <string name="sort_dimension_date_ascending">Modhnaithe (an ceann is sine ar dtús)</string>
+    <string name="sort_dimension_name_descending">Ainm comhaid (Z go A)</string>
+    <string name="sort_dimension_file_type_descending">Cineál (Z go A)</string>
+    <string name="sort_dimension_size_descending">Méid (an ceann is mó ar dtús)</string>
+    <string name="sort_dimension_date_descending">Modhnaithe (an ceann is nuaí ar dtús)</string>
+    <string name="sort_dimension_dialog_title">Sórtáil de réir</string>
+    <string name="sort_dimension_button_title">Sórtáilte de réir <xliff:g id="label" example="Ainm comhaid (A go Z)">%s</xliff:g></string>
+    <string name="directory_items">Líon na míreanna</string>
+    <string name="sort_direction_ascending">Ag dul suas</string>
+    <string name="sort_direction_descending">Ag dul síos</string>
+    <string name="open_external_app">Oscail <xliff:g id="appName" example="Tiomántán">%1$s</xliff:g></string>
+    <string name="drawer_open">Taispeáin fréamhacha</string>
+    <string name="drawer_close">Folaigh fréamhacha</string>
+    <string name="save_error">Theip ar an doiciméad a shábháil</string>
+    <string name="create_error">Theip ar fhillteán a chruthú</string>
+    <string name="query_error">Ní féidir ábhar a luchtú faoi láthair</string>
+    <string name="cant_select_work_files_error_title">Ní féidir comhaid oibre a roghnú</string>
+    <string name="cant_select_work_files_error_message">Ní cheadaíonn do riarthóir TF duit rochtain a fháil
+        ar chomhaid oibre ó aip phearsanta
+    </string>
+    <string name="cant_select_personal_files_error_title">Ní féidir comhaid phearsanta a roghnú</string>
+    <string name="cant_select_personal_files_error_message">Ní cheadaíonn do riarthóir TF duit rochtain a fháil
+        ar chomhaid phearsanta ó aip oibre
+    </string>
+    <string name="cant_save_to_work_error_title">Ní féidir é a shábháil chuig próifíl oibre</string>
+    <string name="cant_save_to_work_error_message">Ní cheadaíonn do riarthóir TF duit comhaid phearsanta a
+        shábháil chuig do phróifíl oibre
+    </string>
+    <string name="cant_save_to_personal_error_title">Ní féidir é a shábháil chuig próifíl phearsanta</string>
+    <string name="cant_save_to_personal_error_message">Ní cheadaíonn do riarthóir TF duit comhaid oibre a shábháil
+       chuig do phróifíl phearsanta
+    </string>
+    <string name="cross_profile_action_not_allowed_title">Ní cheadaítear an gníomh seo</string>
+    <string name="cross_profile_action_not_allowed_message">Chun tuilleadh eolais a fháil, déan teagmháil le do riarthóir TF</string>
+    <string name="root_recent">Le déanaí</string>
+    <string name="root_available_bytes"><xliff:g id="size" example="3GB">%1$s</xliff:g> saor in aisce</string>
+    <string name="root_type_service">Seirbhísí stórála</string>
+    <string name="root_type_shortcut">Aicearraí</string>
+    <string name="root_type_device">Gléasanna</string>
+    <string name="root_type_apps">Tuilleadh aipeanna</string>
+    <string name="empty">Gan aon mhíreanna</string>
+    <string name="no_results">Gan aon mheaitseálacha i %1$s</string>
+    <string name="toast_no_application">Ní féidir an comhad a oscailt</string>
+    <string name="toast_view_in_archives_unsupported">Ní féidir comhaid a oscailt sna cartlanna</string>
+    <string name="toast_failed_delete">Ní féidir roinnt doiciméad a scriosadh</string>
+    <string name="toast_share_over_limit">Ní féidir níos mó ná <xliff:g id="count" example="1">%1$d</xliff:g> comhad a roinnt</string>
+    <string name="toast_action_not_allowed">Ní cheadaítear gníomh</string>
+    <string name="share_via">Comhroinn trí</string>
+    <string name="copy_notification_title">Comhaid á gcóipeáil</string>
+    <string name="compress_notification_title">Comhaid a chomhbhrú</string>
+    <string name="extract_notification_title">Ag baint comhad</string>
+    <string name="move_notification_title">Comhaid a bhogadh</string>
+    <string name="delete_notification_title">Comhaid a scriosadh</string>
+    <string name="copy_remaining"><xliff:g id="duration" example="3 nóiméad">%s</xliff:g> fágtha</string>
+    <string name="undo">Cuir ar ceal</string>
+    <string name="close">Dún</string>
+    <string name="root_info_header_recent">Comhaid le déanaí</string>
+    <string name="root_info_header_global_search">Comhaid</string>
+    <string name="root_info_header_downloads">Comhaid in Íoslódálacha</string>
+    <string name="root_info_header_storage">Comhaid ar <xliff:g id="device" example="Pixel">%1$s</xliff:g></string>
+    <string name="root_info_header_folder">Comhaid i <xliff:g id="fillteán" example="DCIM">%1$s</xliff:g></string>
+    <string name="root_info_header_app">Comhaid ó <xliff:g id="label" example="Tiomántán">%1$s</xliff:g></string>
+    <string name="root_info_header_app_with_summary">Comhaid ó <xliff:g id="label" example="Tiomántán">%1$s</xliff:g> / <xliff:g id="summary" example="example@com">%2$s</xliff:g></string>
+    <string name="root_info_header_image_recent">Íomhánna le déanaí</string>
+    <string name="root_info_header_image_global_search">Íomhánna</string>
+    <string name="root_info_header_image_downloads">Íomhánna in Íoslódálacha</string>
+    <string name="root_info_header_image_storage">Íomhánna ar <xliff:g id="device" example="Pixel">%1$s</xliff:g></string>
+    <string name="root_info_header_image_folder">Íomhánna i <xliff:g id="fillteán" example="DCIM">%1$s</xliff:g></string>
+    <string name="root_info_header_image_app">Íomhánna ó <xliff:g id="label" example="Drive">%1$s</xliff:g></string>
+    <string name="root_info_header_image_app_with_summary">Íomhánna ó <xliff:g id="label" example="Tiomántán">%1$s</xliff:g> / <xliff:g id="summary" example="example@com">%2$s</xliff:g></string>
+    <string name="chip_title_images">Íomhánna</string>
+    <string name="chip_title_audio">Fuaim</string>
+    <string name="chip_title_videos">Físeáin</string>
+    <string name="chip_title_documents">Doiciméid</string>
+    <string name="chip_title_large_files">Comhaid mhóra</string>
+    <string name="chip_title_from_this_week">An tseachtain seo</string>
+    <string name="input_hint_new_folder">Ainm fillteáin</string>
+    <string name="input_hint_rename">Ainm nua</string>
+    <string name="preview_file">Réamhamharc ar an gcomhad <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
+    <string name="preview_work_file">Réamhamharc ar an gcomhad oibre <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
+    <string name="apps_row_title">Brabhsáil comhaid in aipeanna eile</string>
+    <string name="anonymous_application">Gan ainm</string>
+    <string name="open_tree_button">Úsáid an fillteán seo</string>
+    <string name="open_tree_dialog_title">Ceadaigh do <xliff:g id="appName" example="Drive">%1$s</xliff:g> rochtain a fháil ar chomhaid i <xliff:g id="directory" example="DCIM">%2$s</xliff:g>?</string>
     <string name="open_tree_dialog_message">Cuirfidh sé seo ar chumas \"<xliff:g id="appName" example="Drive">%1$s</xliff:g>\" rochtain a fháil ar ábhar reatha agus ábhar amach anseo atá stóráilte i <xliff:g id="directory" example="DCIM">%2$s</xliff:g>.</string>
+    <string name="directory_blocked_header_title">Ní féidir an fillteán seo a úsáid</string>
+    <string name="directory_blocked_header_subtitle">Chun do phríobháideacht a chosaint, roghnaigh fillteán eile</string>
+    <string name="create_new_folder_button">Cruthaigh fillteán nua</string>
+    <string name="delete_search_history">Scrios stair chuardaigh <xliff:g id="text" example="image">%1$s</xliff:g></string>
+    <string name="personal_tab">Pearsanta</string>
+    <string name="work_tab">Obair</string>
+    <string name="a11y_work">Obair</string>
+    <string name="drag_from_another_app">Ní féidir leat comhaid a bhogadh ó aip eile.</string>
+    <string name="grid_mode_showing">Ag taispeáint i mód eangaí.</string>
+    <string name="list_mode_showing">Ag taispeáint i mód liosta.</string>
 </resources>

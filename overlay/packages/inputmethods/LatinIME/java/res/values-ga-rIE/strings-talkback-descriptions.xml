@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="spoken_use_headphones">Breiseán isteach cluasáin chun eochracha pasfhocail a chloisteáil á rá os ard.</string>
+    <string name="spoken_current_text_is">Is é \"%s\" an téacs reatha</string>
+    <string name="spoken_no_text_entered">Níor cuireadh isteach téacs</string>
+    <string name="spoken_auto_correct">Ceartaíonn <xliff:g id="KEY_NAME" example="Space">%1$s</xliff:g> <xliff:g id="ORIGINAL_WORD">%2$s</xliff:g> go <xliff:g id="CORRECTED_WORD">%3$s</xliff:g></string>
+    <string name="spoken_auto_correct_obscured">Déanann <xliff:g id="KEY_NAME" example="Space">%1$s</xliff:g> ceartú uathoibríoch</string>
+    <string name="spoken_empty_suggestion">Gan aon mholadh</string>
+    <string name="spoken_description_unknown">Carachtar anaithnid</string>
+    <string name="spoken_description_shift">Shift</string>
+    <string name="spoken_description_symbols_shift">Tuilleadh siombailí</string>
+    <string name="spoken_description_shift_shifted">Shift</string>
+    <string name="spoken_description_symbols_shift_shifted">Siombailí</string>
+    <string name="spoken_description_caps_lock">Shift</string>
+    <string name="spoken_description_delete">Scrios</string>
+    <string name="spoken_description_to_symbol">Siombailí</string>
+    <string name="spoken_description_to_alpha">Litreacha</string>
+    <string name="spoken_description_to_numeric">Uimhreacha</string>
+    <string name="spoken_description_settings">Socruithe</string>
+    <string name="spoken_description_tab">Tab</string>
+    <string name="spoken_description_space">Spás</string>
+    <string name="spoken_description_mic">Ionchur gutha</string>
+    <string name="spoken_description_emoji">Emoji</string>
+    <string name="spoken_description_return">Return</string>
+    <string name="spoken_description_search">Cuardaigh</string>
+    <string name="spoken_description_dot">Dot</string>
+    <string name="spoken_description_language_switch">Athraigh teanga</string>
+    <string name="spoken_description_action_next">Ar Aghaidh</string>
+    <string name="spoken_description_action_previous">Roimhe Seo</string>
+    <string name="spoken_description_shiftmode_on">Shift cumasaithe</string>
+    <string name="spoken_description_shiftmode_locked">Glas caipíní cumasaithe</string>
+    <string name="spoken_description_mode_symbol">Mód siombailí</string>
+    <string name="spoken_description_mode_symbol_shift">Mód níos mó siombailí</string>
+    <string name="spoken_description_mode_alpha">Mód litreacha</string>
+    <string name="keyboard_mode_phone">Fón</string>
+</resources>
