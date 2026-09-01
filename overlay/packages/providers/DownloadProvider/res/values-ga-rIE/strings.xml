@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_paused_in_background">Sosaithe sa chúlra.</string>
+    <string name="wifi_required_title">Íoslódáil ró-mhór do líonra oibreora</string>
+    <string name="wifi_recommended_title">Scuaine le híoslódáil níos déanaí?</string>
+    <string name="button_queue_for_wifi">Scuaine</string>
+    <string name="button_cancel_download">Cealaigh</string>
+    <string name="button_start_now">Tosaigh anois</string>
+    <string name="download_no_application_title">Ní féidir an comhad a oscailt</string>
+    <string name="root_downloads">Íoslódálacha</string>
+    <string name="download_queued">Sa scuaine</string>
+    <string name="download_running">Ar siúl</string>
+    <string name="download_error">Níor éirigh leis</string>
+    <string name="download_running_percent">Ar siúl, <xliff:g id="percentage" example="50%">%s</xliff:g></string>
+</resources>

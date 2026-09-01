@@ -120,7 +120,8 @@
         <item quantity="other"><xliff:g id="messages">%d</xliff:g> messàgios in <xliff:g id="conversations">%d</xliff:g> tzarradas</item>
     </plurals>
     <string name="notification_emergency_send_failure_line1">Messàgiu a <xliff:g id="number">%1$s</xliff:g> no imbiadu</string>
-    <string name="notification_emergency_send_failure_line2">        Faghe una mutida a boghe a servìtzios de emergèntzia. Su messàgiu a 
+    <string name="notification_emergency_send_failure_line2">
+        Faghe una mutida a boghe a servìtzios de emergèntzia. Su messàgiu a 
        <xliff:g id="number">%1$s</xliff:g> custa borta no at fatu a ddu cunsignare.
     </string>
     <plurals name="notification_new_messages">
@@ -246,9 +247,11 @@
     <string name="unknown_phone_number_pref_display_value">Disconnotu</string>
     <string name="send_sound_pref_title">Sonos de messàgios in essida</string>
     <string name="dump_sms_pref_title">Isbòida SMS</string>
-    <string name="dump_sms_pref_summary">Isbòida is datos grusseris SMS retzidos in una memòria de archiviatzione esterna</string>
+    <string name="dump_sms_pref_summary">Isbòida is datos grusseris SMS retzidos in una memòria de archiviatzione esterna
+</string>
     <string name="dump_mms_pref_title">Isbòida MMS</string>
-    <string name="dump_mms_pref_summary">Isbòida is datos grusseris MMS retzidos in una memòria de archiviatzione esterna</string>
+    <string name="dump_mms_pref_summary">Isbòida is datos grusseris MMS retzidos in una memòria de archiviatzione esterna
+</string>
     <string name="message_context_menu_title">Optziones pro sos messàgios</string>
     <string name="message_context_menu_copy_text">Còpia testu</string>
     <string name="message_context_menu_view_details">Ammustra detàllios</string>

@@ -14,7 +14,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dob">        (<xliff:g id="date_of_birth" example="3 feb 1987">%1$s</xliff:g>)
+    <string name="dob">
+        (<xliff:g id="date_of_birth" example="3 feb 1987">%1$s</xliff:g>)
     </string>
     <string name="oplus">O+</string>
     <string name="ominus">O-</string>
@@ -73,6 +74,7 @@
         <item/>
     </string-array>
     <string name="add_emergency_contact">Контакт өстәү</string>
-    <string name="phone_type_and_phone_number">        <xliff:g id="phone_type" example="Mobile">%1$s</xliff:g> • <xliff:g id="phone_number" example="333-444-5566">%2$s</xliff:g>
+    <string name="phone_type_and_phone_number">
+        <xliff:g id="phone_type" example="Mobile">%1$s</xliff:g> • <xliff:g id="phone_number" example="333-444-5566">%2$s</xliff:g>
     </string>
 </resources>

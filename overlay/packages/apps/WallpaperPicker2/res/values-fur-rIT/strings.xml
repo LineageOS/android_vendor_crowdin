@@ -22,7 +22,8 @@
     <string name="set_wallpaper_progress_message">Daûr a meti il fonts…</string>
     <string name="try_again">Torne prove</string>
     <string name="set_wallpaper_error_message">Impussibil meti il fonts.</string>
-    <string name="load_wallpaper_error_message">        Impussibil cjariâ il fonts. O la imagjin e je ruvinade o no je disponibile.
+    <string name="load_wallpaper_error_message">
+        Impussibil cjariâ il fonts. O la imagjin e je ruvinade o no je disponibile.
     </string>
     <string name="static_wallpaper_presentation_mode_message">Atualmentri stabilît</string>
     <string name="rotating_wallpaper_presentation_mode_message">Fonts zornalîr</string>
@@ -37,45 +38,60 @@
     <string name="set_wallpaper_lock_screen_destination">Schermade di bloc</string>
     <string name="set_wallpaper_both_destination">Inizi e schermade di bloc</string>
     <string name="no_backup_image_wallpaper_label">Fonts di imagjins a rotazion</string>
-    <string name="permission_needed_explanation">      Par visualizâ achì il fonts atuâl,
+    <string name="permission_needed_explanation">
+      Par visualizâ achì il fonts atuâl,
       <xliff:g example="Wallpapers" id="app_name">%1$s</xliff:g> al à bisugne dal acès ae
       memorie di archiviazion dal to dispositîf.
     </string>
-    <string name="permission_needed_explanation_go_to_settings">      Par visualizâ achì il fonts atuâl, la aplicazion Fonts e scugne acedi ae memorie di
+    <string name="permission_needed_explanation_go_to_settings">
+      Par visualizâ achì il fonts atuâl, la aplicazion Fonts e scugne acedi ae memorie di
       archiviazion dal to dispositîf.\n\nPar cambiâ cheste impostazion, va te aree Permès des informazions de aplicazion di Fonts.
     </string>
-    <string name="permission_needed_allow_access_button_label">      Permet acès
+    <string name="permission_needed_allow_access_button_label">
+      Permet acès
     </string>
-    <string name="no_backup_image_wallpaper_description">      Servizi di fonts animâts par fonts a rotazion
+    <string name="no_backup_image_wallpaper_description">
+      Servizi di fonts animâts par fonts a rotazion
     </string>
     <string name="daily_refresh_tile_title">Fonts zornalîr</string>
     <string name="daily_refresh_tile_subtitle">Tocje par ativâ</string>
-    <string name="start_rotation_dialog_body_live_wallpaper_needed">      Il fonts al cambiarà in automatic ogni dì. Par completâ la configurazion, tocje
+    <string name="start_rotation_dialog_body_live_wallpaper_needed">
+      Il fonts al cambiarà in automatic ogni dì. Par completâ la configurazion, tocje
       <![CDATA[<strong>Stabilìs fonts</strong>]]> te prossime schermade.
     </string>
-    <string name="start_rotation_dialog_wifi_only_option_message">      Discjame i fonts futûrs dome vie Wi-Fi
+    <string name="start_rotation_dialog_wifi_only_option_message">
+      Discjame i fonts futûrs dome vie Wi-Fi
     </string>
     <string name="start_rotation_dialog_continue">Continue</string>
     <string name="start_rotation_progress_message">Daûr a discjariâ il prin fonts…</string>
-    <string name="start_rotation_error_message">      Impussibil discjariâ il prin fonts. Controle lis impostazions di rêt e torne prove.
+    <string name="start_rotation_error_message">
+      Impussibil discjariâ il prin fonts. Controle lis impostazions di rêt e torne prove.
     </string>
-    <string name="start_rotation_dialog_body">      Il fonts al cambiarà in automatic ogni dì
+    <string name="start_rotation_dialog_body">
+      Il fonts al cambiarà in automatic ogni dì
     </string>
-    <string name="settings_button_label">      Impostazions
+    <string name="settings_button_label">
+      Impostazions
     </string>
     <string name="explore">Esplore</string>
     <string name="next_wallpaper">Fonts sucessîf</string>
-    <string name="wallpaper_disabled_message">        La configurazion dal fonts e je disativade su chest dispositîf
+    <string name="wallpaper_disabled_message">
+        La configurazion dal fonts e je disativade su chest dispositîf
     </string>
-    <string name="wallpaper_disabled_by_administrator_message">        La configurazion dal fonts e je disativade dal aministradôr dal to dispositîf
+    <string name="wallpaper_disabled_by_administrator_message">
+        La configurazion dal fonts e je disativade dal aministradôr dal to dispositîf
     </string>
-    <string name="wallpaper_set_successfully_message">        Fonts stabilît cun sucès
+    <string name="wallpaper_set_successfully_message">
+        Fonts stabilît cun sucès
     </string>
-    <string name="wallpapers_unavailable_offline_message">        Ti covente une conession a internet par viodi i fonts. Conetiti e torne prove.
+    <string name="wallpapers_unavailable_offline_message">
+        Ti covente une conession a internet par viodi i fonts. Conetiti e torne prove.
     </string>
-    <string name="currently_set_home_wallpaper_thumbnail">      Miniature dal fonts atuâl metût te schermade di inizi
+    <string name="currently_set_home_wallpaper_thumbnail">
+      Miniature dal fonts atuâl metût te schermade di inizi
     </string>
-    <string name="currently_set_lock_wallpaper_thumbnail">      Miniature dal fonts atuâl metût te schermade di bloc
+    <string name="currently_set_lock_wallpaper_thumbnail">
+      Miniature dal fonts atuâl metût te schermade di bloc
     </string>
     <string name="currently_set_wallpaper_thumbnail">Miniature dal fonts atuâl</string>
     <string name="wallpaper_thumbnail">Miniature dal fonts</string>
@@ -84,9 +100,11 @@
     <string name="refresh_daily_wallpaper_home_content_description">Inzorne ogni dì il fonts de schermade di inizi</string>
     <string name="refresh_daily_wallpaper_content_description">Inzorne ogni dì il fonts</string>
     <string name="preview_screen_description">Schermade di anteprime dal fonts</string>
-    <string name="refreshing_daily_wallpaper_dialog_message">        Daûr a inzornâ il fonts zornalîr…
+    <string name="refreshing_daily_wallpaper_dialog_message">
+        Daûr a inzornâ il fonts zornalîr…
     </string>
-    <string name="refresh_daily_wallpaper_failed_message">        Nol è stât pussibil inzornâ il fonts zornalîr. Controle la conession di rêt e torne prove.
+    <string name="refresh_daily_wallpaper_failed_message">
+        Nol è stât pussibil inzornâ il fonts zornalîr. Controle la conession di rêt e torne prove.
     </string>
     <string name="on_device_wallpapers_category_title">Fonts sul dispositîf</string>
     <string name="on_device_wallpapers_category_title_desktop">Sul dispositîf</string>

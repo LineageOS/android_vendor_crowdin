@@ -250,10 +250,13 @@
     <string name="font_scale_settings_title">Ridimensionament test</string>
     <string name="font_scale_item_detail">Ridimensione a <xliff:g id="scale">%1$d</xliff:g>%%</string>
     <string name="font_scale_sample_text_title">Test di esempli</string>
-    <string name="font_scale_preview_text_title" translation_description="Translate manually. No not adopt any copyrighted material for translation.">        Il maraveôs mâc di Oz
+    <string name="font_scale_preview_text_title" translation_description="Translate manually. No not adopt any copyrighted material for translation.">
+        Il maraveôs mâc di Oz
     </string>
-    <string name="font_scale_preview_text_subtitle">        Cjapitul 11: La maraveose citât di smeralt di Oz</string>
-    <string name="font_scale_preview_text_body">        Ancje cui voi protets dai ocjâi verts Dorothy i siei amîs sul moment a restarin inceadis dal sflandôr de maraveose citât.
+    <string name="font_scale_preview_text_subtitle">
+        Cjapitul 11: La maraveose citât di smeralt di Oz</string>
+    <string name="font_scale_preview_text_body">
+        Ancje cui voi protets dai ocjâi verts Dorothy i siei amîs sul moment a restarin inceadis dal sflandôr de maraveose citât.
         Dilunc des stradis a jerin bielis cjasis e dutis a jerin costruidis cun marmul vert e tampiestadis dapardut cun smeralts slusints.
         A cjaminarin sore di un paviment dal stes marmul vert e là che i blocs si univin a jerin riis di smeralts, incassâts un dongje di chel altri, e slusints te lûs dal soreli.
         I veris dai barcons a jerin di veri vert; ancje il cîl parsore de citât al veve une tinte verde, e verts a jerin i rais dal soreli.
@@ -305,7 +308,8 @@
     <string name="resolution_selection_dialog_cancel">Anule</string>
     <string name="resolution_selection_dialog_ok">Va ben</string>
     <string name="resolution_selection_hz">Hz</string>
-    <string name="resolution_display_mode">        <xliff:g id="resolution" example="1080p, 4k etc">%1$s</xliff:g>
+    <string name="resolution_display_mode">
+        <xliff:g id="resolution" example="1080p, 4k etc">%1$s</xliff:g>
         (<xliff:g id="refresh-rate" example="60, 59.94 etc">%2$s</xliff:g> Hz)</string>
     <string name="device_storage_clear_cache_title">Netâ i dâts te cache?</string>
     <string name="device_storage_clear_cache_message">Si netarà ducj i dâts te cache des aplicazions.</string>
@@ -571,7 +575,8 @@
     <string name="wifi_setting_available_networks">Rêts disponibilis</string>
     <string name="wifi_setting_other_options_add_network">Zonte gnove rêt</string>
     <string name="wifi_setting_other_options_add_network_via_easyconnect">Conession rapide</string>
-    <string name="wifi_setting_other_options_add_network_via_easyconnect_info_summary">        La conession rapide ti jude a conetiti daurman al to WiFi scansionant il codiç QR sul to telefon.
+    <string name="wifi_setting_other_options_add_network_via_easyconnect_info_summary">
+        La conession rapide ti jude a conetiti daurman al to WiFi scansionant il codiç QR sul to telefon.
     </string>
     <string name="security_type">Gjenar di sigurece</string>
     <string name="other_network">Altre rêt…</string>
@@ -608,7 +613,8 @@
     <string name="wifi_connect">Conet</string>
     <string name="wifi_forget_network">Dismentee rêt</string>
     <string name="wifi_forget_network_description">Cheste operazion e netarà lis informazions dopradis par conetisi a cheste rêt, includude la password salvade</string>
-    <string name="wifi_scan_qr_code_description">        Conetiti a une rêt Wi-Fi scansionant il codiç QR cuntun telefonin e va daûr des istruzions.\n
+    <string name="wifi_scan_qr_code_description">
+        Conetiti a une rêt Wi-Fi scansionant il codiç QR cuntun telefonin e va daûr des istruzions.\n
         \n
         Di un <b>Telefon Android</b> va su Impostazions -&gt; Rêt e internet -&gt; Wi-Fi -&gt; Selezione une rêt Wi-Fi -&gt; Avanzadis -&gt; Zonte dispositîf e scansione il codiç QR.
     </string>
@@ -1006,7 +1012,8 @@
     <string name="title_current_autofill_service">Servizi di compilazion automatiche atuâl</string>
     <string name="title_select_autofill_service">Selezione servizi di compilazion automatiche</string>
     <string name="autofill_none">Nissun</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message"><![CDATA[
+        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Password service">%1$s</xliff:g> al dopre ce che
@@ -1208,7 +1215,8 @@
     <string name="high_power_system">Otimizazion de energjie no disponibile</string>
     <string name="manage_notification_access_title">Acès aes notifichis</string>
     <string name="no_notification_listeners">Nissune aplicazion instalade e à domandât l\'acès aes notifichis.</string>
-    <string name="notification_listener_security_warning_summary">        Chestis aplicazions a rivaran a lei dutis lis notifichis,
+    <string name="notification_listener_security_warning_summary">
+        Chestis aplicazions a rivaran a lei dutis lis notifichis,
         includudis lis informazions personâls come i nons di contas e il test dai messaçs che tu ricevis.
         A rivaran ancje a scartâ lis notifichis o ativâ i botons des azions che a stan dentri.
     </string>
@@ -1231,7 +1239,8 @@
     <string name="picture_in_picture_app_detail_switch">Permet picture-in-picture</string>
     <string name="picture_in_picture_empty_text">Nissune aplicazion instalade e supuarte il Picture-in-picture</string>
     <string name="picture_in_picture_app_detail_summary">Permet aes aplicazions di creâ barcons picture-in-picture intant che la aplicazion e je vierte o dopo che tu le lassis (par esempli, par continuâ a viodi un video).  Chest barcon al ven visualizât sore di altris aplicazions che tu dopris.</string>
-    <string name="alarms_and_reminders_description">        Permet aes aplicazions di pontâ sveis e programâ azions a timp.
+    <string name="alarms_and_reminders_description">
+        Permet aes aplicazions di pontâ sveis e programâ azions a timp.
         Chest al permet aes aplicazions di zirâ in sotfont, che al podarès consumâ plui energjie.\n\nSe chest permès
         al è disativât, lis sveis esistentis e i events a orari programâts de aplicazion no funzionaran.
     </string>

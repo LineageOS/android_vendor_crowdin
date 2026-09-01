@@ -62,7 +62,8 @@
     <string name="menu_licenses">Licencis di codiç viert</string>
     <string name="menu_history">Cronologjie</string>
     <string name="menu_clear_history">Nete</string>
-    <string name="title_history">Cronologjie</string>
+    <string name="title_history">Cronologjie
+</string>
     <string name="desc_navigate_up">Va in sù</string>
     <string name="dialog_timeout">Timp di spiete</string>
     <string name="dialog_clear">Netâ la cronologjie e la memorie?</string>

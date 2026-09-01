@@ -536,7 +536,8 @@
     <string name="minute_duration" translation_description="minute duration representation [CHAR LIMIT=8]"><xliff:g id="minute" example="1">%1$s</xliff:g>m</string>
     <string name="hour_minute_duration_short" translation_description="Hour and minute time duration representation [CHAR LIMIT=8]"><xliff:g id="hour" example="1">%1$s</xliff:g>h <xliff:g id="min" example="31">%2$s</xliff:g>m</string>
     <string name="hour_duration" translation_description="hour duration representation [CHAR LIMIT=8]"><xliff:g id="hour" example="1">%1$s</xliff:g>h</string>
-    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g>
+    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">
+  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g>
   </string>
     <string name="hour_duration_accessibility" translation_description="Hour time duration representation used by accessibility. [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural, one {}=1 {1 ore} other {# oris}}</string>
     <string name="minute_duration_accessibility" translation_description="minute duration representation used by accessibility. [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural, one {}=1 {1 minût} other {# minûts}}</string>

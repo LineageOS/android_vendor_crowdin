@@ -93,7 +93,8 @@
     <string name="assist_access_context_title">Экрандагы текстны куллану</string>
     <string name="app_list_preference_none">Юк</string>
     <string name="default_app_selected_app">Сайланган</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Бу кушымтага ышануыгызда инаныгыз</b>
+    <string name="autofill_confirmation_message"><![CDATA[
+        <b>Бу кушымтага ышануыгызда инаныгыз</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> нәрсә үзеннән-үзе
@@ -123,7 +124,8 @@
     <string name="settings_license_activity_title">Өченче як лицензияләре</string>
     <string name="settings_license_activity_unavailable">Лицензияләрне йөкләгәндә хата чыкты.</string>
     <string name="settings_license_activity_loading">Йөкләү\u2026</string>
-    <string name="show_dev_countdown">        {count, plural,
+    <string name="show_dev_countdown">
+        {count, plural,
             =1    {Сезгә программист булырга # адым калды.}
             other {Сезгә программист булырга # адым калды.}
         }
@@ -149,7 +151,8 @@
     <string name="user_add_user_menu">Профиль өстәү</string>
     <string name="user_add_user_message_setup">Сез яңа профиль ясаганнан соң, ул кеше профилен үзе көйләргә тиеш.</string>
     <string name="user_limit_reached_title">Профиль чиге җитте</string>
-    <string name="user_limit_reached_message">        {count, plural,
+    <string name="user_limit_reached_message">
+        {count, plural,
             =1    {Бер генә профиль ясала ала.}
             other {Сез # профиль ясый аласыз.}
         }
@@ -215,57 +218,68 @@
     <string name="lockpassword_password_requires_alpha">Кимендә бер хәреф булырга тиеш</string>
     <string name="lockpassword_password_requires_digit">Кимендә бер сан булырга тиеш</string>
     <string name="lockpassword_password_requires_symbol">Кимендә бер тамга булырга тиеш</string>
-    <string name="lockpassword_password_requires_letters">        {count, plural,
+    <string name="lockpassword_password_requires_letters">
+        {count, plural,
         =1    {Кимендә # хәреф булырга тиеш}
         other {Кимендә # хәреф булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_requires_lowercase">        {count, plural,
+    <string name="lockpassword_password_requires_lowercase">
+        {count, plural,
         =1    {Кимендә # юл хәрефе булырга тиеш}
         other {Кимендә # юл хәрефе булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_requires_uppercase">        {count, plural,
+    <string name="lockpassword_password_requires_uppercase">
+        {count, plural,
         =1    {Кимендә # баш хәреф булырга тиеш}
         other {Кимендә # баш хәреф булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_requires_numeric">        {count, plural,
+    <string name="lockpassword_password_requires_numeric">
+        {count, plural,
         =1    {Кимендә # сан булырга тиеш}
         other {Кимендә # сан булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_requires_symbols">        {count, plural,
+    <string name="lockpassword_password_requires_symbols">
+        {count, plural,
         =1    {Кимендә # махсус тамга булырга тиеш}
         other {Кимендә # махсус тамга булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_requires_nonletter">        {count, plural,
+    <string name="lockpassword_password_requires_nonletter">
+        {count, plural,
         =1    {Кимендә # хәреф булмаган тамга булырга тиеш}
         other {Кимендә # хәреф булмаган тамга булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_requires_nonnumerical">        {count, plural,
+    <string name="lockpassword_password_requires_nonnumerical">
+        {count, plural,
         =1    {Кимендә # сан булмаган тамга булырга тиеш}
         other {Кимендә # сан булмаган тамга булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_too_short">        {count, plural,
+    <string name="lockpassword_password_too_short">
+        {count, plural,
         =1    {Кимендә # тамга булырга тиеш}
         other {Кимендә # тамга булырга тиеш}
         }
     </string>
-    <string name="lockpassword_pin_too_short">        {count, plural,
+    <string name="lockpassword_pin_too_short">
+        {count, plural,
         =1    {Кимендә # сан булырга тиеш}
         other {Кимендә # сан булырга тиеш}
         }
     </string>
-    <string name="lockpassword_password_too_long">        {count, plural,
+    <string name="lockpassword_password_too_long">
+        {count, plural,
         =1    {# символдан әзрәк булырга тиеш}
         other {# символдан әзрәк булырга тиеш}
         }
     </string>
-    <string name="lockpassword_pin_too_long">        {count, plural,
+    <string name="lockpassword_pin_too_long">
+        {count, plural,
         =1    {# цифрдан әзрәк булырга тиеш}
         other {# цифрдан әзрәк булырга тиеш}
         }

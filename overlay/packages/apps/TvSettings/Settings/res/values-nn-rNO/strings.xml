@@ -48,7 +48,8 @@
     <string name="accounts_category_summary"> {count, plural,
 =1 {# konto}
 other {# kontoar}
-}</string>
+}
+</string>
     <string name="accounts_slice_summary">Medietenester, Assistent, Betalingar</string>
     <string name="connectivity_network_category_title">Nettverk og internett</string>
     <string name="sound_category_title">Lyd</string>
@@ -329,7 +330,8 @@ Alle såg glade og nøgde ut.</string>
     <string name="enterprise_privacy_number_packages_lower_bound"> {count, plural,
 =1 {Minst # app}
 other {Minst # appar}
-}</string>
+}
+</string>
     <string name="enterprise_privacy_location_access">Posisjonsløyve</string>
     <string name="enterprise_privacy_microphone_access">Mikrofonløyve</string>
     <string name="enterprise_privacy_camera_access">Kameraløyve</string>
@@ -337,7 +339,8 @@ other {Minst # appar}
     <string name="enterprise_privacy_number_packages"> {count, plural,
 =1 {# app}
 other {# appar}
-}</string>
+}
+</string>
     <string name="enterprise_privacy_input_method">Standardtastatur</string>
     <string name="enterprise_privacy_input_method_name">Sett til <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
     <string name="enterprise_privacy_always_on_vpn_device">VPN som alltid er på, er slått på</string>
@@ -350,7 +353,8 @@ other {# appar}
     <string name="enterprise_privacy_number_ca_certs"> {count, plural,
 =1 {# CA-sertifikat}
 other {# CA-sertifikat}
-}</string>
+}
+</string>
     <string name="enterprise_privacy_lock_device">Administratoren kan låsa eininga og nullstilla passordet</string>
     <string name="enterprise_privacy_wipe_device">Administratoren kan sletta alle data på eininga</string>
     <string name="enterprise_privacy_failed_password_wipe_device">Feilslåtte passordforsøk før alle data på eininga vert sletta</string>
@@ -358,7 +362,8 @@ other {# CA-sertifikat}
     <string name="enterprise_privacy_number_failed_password_wipe"> {count, plural,
 =1 {# forsøk}
 other {# forsøk}
-}</string>
+}
+</string>
     <string name="do_disclosure_generic">Organisasjonen din styrer denne eininga.</string>
     <string name="do_disclosure_with_name"><xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g> styrer denne eininga.</string>
     <string name="hdr_capability">- %1$s</string>
@@ -366,18 +371,21 @@ other {# forsøk}
     <string name="default_camera_app_title"> {count, plural,
 =1 {Kamera-app}
 other {Kamera-appar}
-}</string>
+}
+</string>
     <string name="default_calendar_app_title">Kalender-app</string>
     <string name="default_contacts_app_title">Kontakt-app</string>
     <string name="default_email_app_title"> {count, plural,
 =1 {E-post-app}
 other {E-post-appar}
-}</string>
+}
+</string>
     <string name="default_map_app_title">Kart-app</string>
     <string name="default_phone_app_title"> {count, plural,
 =1 {Telefon-app}
 other {Telefon-appar}
-}</string>
+}
+</string>
     <string name="default_browser_title">Nettlesar-app</string>
     <string name="app_names_concatenation_template_2"><xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g></string>
     <string name="app_names_concatenation_template_3"><xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g>, <xliff:g id="third_app_name">%3$s</xliff:g></string>
@@ -401,7 +409,8 @@ other {Telefon-appar}
     <string name="show_dev_countdown"> {count, plural,
 =1 {Du er no # steg att frå å verta ein utviklar}
 other {Du er no # steg att frå å verta ein utviklar}
-}</string>
+}
+</string>
     <string name="about_ads">Annonsar</string>
     <string name="ads_description">Her kan du styra annonseinnstillingane dine, som til dømes å nullstilla annonse-ID-en din.</string>
     <string name="ads_content_description">Annonsar. Her kan du styra annonseinnstillingane dine, som til dømes å nullstilla annonse-ID-en din.</string>
@@ -418,7 +427,8 @@ other {Du er no # steg att frå å verta ein utviklar}
     <string name="sl_ca_cert_dialog_title"> {count, plural,
 =1 {Stol på eller fjern sertifikat}
 other {Stol på eller fjern sertifikat}
-}</string>
+}
+</string>
     <string name="device_status">Status</string>
     <string name="device_status_summary">Nettverk, serienummer og annan informasjon</string>
     <string name="manual">Handbok</string>
@@ -926,15 +936,18 @@ other {Stol på eller fjern sertifikat}
     <string name="inputs_header_connected_input"> {count, plural,
 =1 {Tilkopla inngang}
 other {Tilkopla inngangar}
-}</string>
+}
+</string>
     <string name="inputs_header_standby_input"> {count, plural,
 =1 {Inngang i kvilemodus}
 other {Inngangar i kvilemodus}
-}</string>
+}
+</string>
     <string name="inputs_header_disconnected_input"> {count, plural,
 =1 {Inngang som ikkje er tilkopla}
 other {Inngangar som ikkje er tilkopla}
-}</string>
+}
+</string>
     <string name="user_add_profile_item_summary">Avgrens tilgangen til appar og anna innhald på kontoen din</string>
     <string name="user_new_profile_name">Avgrensa profil</string>
     <string name="user_restrictions_controlled_by">Styrast av <xliff:g id="app">%1$s</xliff:g></string>

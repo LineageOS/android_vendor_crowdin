@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="hdcp_checking_summaries">
+        <item>Ná húsáid seiceáil HDCP riamh</item>
+        <item>Úsáid seiceáil HDCP le haghaidh ábhar DRM amháin</item>
+        <item>Bain úsáid as seiceáil HDCP i gcónaí</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Míchumasaithe</item>
+        <item>Cumasaithe Scagtha</item>
+        <item>Cumasaithe</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Réamhshocrú)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Réamhshocrú)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item/>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Fuaim <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g></item>
+        <item>Fuaim <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g></item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Fuaim <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g></item>
+        <item>Fuaim <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g></item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>16 giotán/sampla</item>
+        <item>24 giotán/sampla</item>
+        <item>32 giotán/sampla</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>16 giotán/sampla</item>
+        <item>24 giotán/sampla</item>
+        <item>32 giotán/sampla</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>Mono</item>
+        <item>Steirió</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Úsáid Roghnú Córais (Réamhshocraithe)</item>
+        <item>Mono</item>
+        <item>Steirió</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optamaithe le haghaidh Cáilíocht Fuaime (990kbps/909kbps)</item>
+        <item>Cáilíocht Chothrom Fuaime agus Ceangail (660kbps/606kbps)</item>
+        <item>Optamaithe le haghaidh Cáilíocht Nasc (330kbps/303kbps)</item>
+        <item>An Iarracht is Fearr (Ráta Giotáin Oiriúnaitheach)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optamaithe le haghaidh Cáilíocht Fuaime</item>
+        <item>Cáilíocht Chothrom Fuaime agus Ceangail</item>
+        <item>Optamaithe le haghaidh Cáilíocht Ceangail</item>
+        <item>An Iarracht is Fearr (Ráta Giotáin Oiriúnaitheach)</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item/>
+        <item>, gníomhach</item>
+        <item>, gníomhach (meáin)</item>
+        <item>, gníomhach (fón)</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>As</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>As</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>As</item>
+        <item>64K in aghaidh an mhaoláin loga</item>
+        <item>256K in aghaidh an mhaoláin loga</item>
+        <item>1M in aghaidh an mhaoláin loga</item>
+        <item>4M in aghaidh an mhaoláin loga</item>
+        <item>8M in aghaidh an mhaoláin loga</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>As</item>
+        <item>Gach</item>
+        <item>Gach rud seachas raidió</item>
+        <item>eithne amháin</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>As</item>
+        <item>Gach maolán loga</item>
+        <item>Gach rud seachas maoláin loga raidió</item>
+        <item>maolán loga eithne amháin</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Beochan múchta</item>
+        <item>Scála beochana .5x</item>
+        <item>Scála beochana 1x</item>
+        <item>Scála beochana 1.5x</item>
+        <item>Scála beochana 2x</item>
+        <item>Scála beochana 5x</item>
+        <item>Scála beochana 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Beochan múchta</item>
+        <item>Scála beochana .5x</item>
+        <item>Scála beochana 1x</item>
+        <item>Scála beochana 1.5x</item>
+        <item>Scála beochana 2x</item>
+        <item>Scála beochana 5x</item>
+        <item>Scála beochana 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Beochan múchta</item>
+        <item>Scála beochana .5x</item>
+        <item>Scála beochana 1x</item>
+        <item>Scála beochana 1.5x</item>
+        <item>Scála beochana 2x</item>
+        <item>Scála beochana 5x</item>
+        <item>Scála beochana 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Dada</item>
+        <item>480p</item>
+        <item>480p (slán)</item>
+        <item>720p</item>
+        <item>720p (slán)</item>
+        <item>1080p</item>
+        <item>1080p (slán)</item>
+        <item>4K</item>
+        <item>4K (slán)</item>
+        <item>4K (uasghrádaithe)</item>
+        <item>4K (uasghrádaithe, slán)</item>
+        <item>720p, 1080p (scáileán dúbailte)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Dada</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafaicí)</item>
+        <item>Cruach glaonna ar glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>As</item>
+        <item>Tarraing réigiún gearrthóige neamh-dhronuilleogach i ngorm</item>
+        <item>Aibhsigh orduithe líníochta tástáilte i nglas</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>As</item>
+        <item>Ar an scáileán mar bharraí</item>
+        <item>I <xliff:g id="as_typed_command">dumpsys gfxinfo sa bhlaosc adb</xliff:g></item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>As</item>
+        <item>Taispeáin limistéir tharraingthe</item>
+        <item>Taispeáin ceantair le haghaidh Deuteranomaly</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Teorainn chaighdeánach</item>
+        <item>Gan aon phróisis chúlra</item>
+        <item>Próiseas amháin ar a mhéad</item>
+        <item>2 phróiseas ar a mhéad</item>
+        <item>Ar a mhéad 3 phróiseas</item>
+        <item>4 phróiseas ar a mhéad</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Muirearú</item>
+        <item>MTP (Prótacal Aistrithe Meán)</item>
+        <item>PTP (Prótacal Aistrithe Pictiúr)</item>
+        <item>RNDIS (Eiteirnéad USB)</item>
+        <item>Foinse Fuaime</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

@@ -185,7 +185,6 @@
     <string name="fingerprint_dialog_touch_sensor">Cyffyrdda\u2019r synhwyrydd ôl bys</string>
     <string name="fingerprint_dialog_authenticated_confirmation">Pwysa\u2019r eicon datgloi i barhau</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Heb adnabod wyneb. Defnyddia ôl bys yn lle.</string>
-    <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="keyguard_face_failed">Heb adnabod wyneb</string>
     <string name="keyguard_suggest_fingerprint">Defnyddo ôl bys yn lle</string>
     <string name="keyguard_face_unlock_unavailable">Datgloi â Wyneb ddim ar gael</string>
@@ -354,36 +353,49 @@
     <string name="sensor_privacy_start_use_mic_blocked_dialog_title">Meicroffon wedi\u2019i rwystro</string>
     <string name="sensor_privacy_start_use_camera_blocked_dialog_title">Camera wedi\u2019i rwystro</string>
     <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_title">Meicroffon a chamera wedi\u2019u rhwystro</string>
-    <string name="sensor_privacy_start_use_mic_blocked_dialog_content">        I ddadrwystro, symuda\u2019r botwm preifatrwydd ar dy ddyfais i leoliad meicroffon ymlaen i ganiatáu
+    <string name="sensor_privacy_start_use_mic_blocked_dialog_content">
+        I ddadrwystro, symuda\u2019r botwm preifatrwydd ar dy ddyfais i leoliad meicroffon ymlaen i ganiatáu
         mynediad at y meicroffon. Gweler llawlyfr y ddyfais i ganfod y swits preifatrwydd ar dy ddyfais.
     </string>
-    <string name="sensor_privacy_start_use_camera_blocked_dialog_content">        I ddadrwystro, symuda\u2019r botwm preifatrwydd ar dy ddyfais i leoliad camera ymlaen i ganiatáu
+    <string name="sensor_privacy_start_use_camera_blocked_dialog_content">
+        I ddadrwystro, symuda\u2019r botwm preifatrwydd ar dy ddyfais i leoliad camera ymlaen i ganiatáu
         mynediad at y camera. Gweler llawlyfr y ddyfais i ganfod y swits preifatrwydd ar dy ddyfais.
     </string>
-    <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_content">        I ddadrwystro, symuda\u2019r botwm preifatrwydd ar dy ddyfais i leoliad dadrwystro i ganiatáu
+    <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_content">
+        I ddadrwystro, symuda\u2019r botwm preifatrwydd ar dy ddyfais i leoliad dadrwystro i ganiatáu
         mynediad. Gweler llawlyfr y ddyfais i ganfod y swits preifatrwydd ar dy ddyfais.
     </string>
-    <string name="sensor_privacy_mic_unblocked_toast_content">        Meicroffon ar gael
+    <string name="sensor_privacy_mic_unblocked_toast_content">
+        Meicroffon ar gael
     </string>
-    <string name="sensor_privacy_camera_unblocked_toast_content">        Camera ar gael
+    <string name="sensor_privacy_camera_unblocked_toast_content">
+        Camera ar gael
     </string>
-    <string name="sensor_privacy_mic_camera_unblocked_toast_content">        Meicroffon a chamera ar gael
+    <string name="sensor_privacy_mic_camera_unblocked_toast_content">
+        Meicroffon a chamera ar gael
     </string>
-    <string name="sensor_privacy_mic_turned_on_dialog_title">        Meicroffon wedi\u2019i droi ymlaen
+    <string name="sensor_privacy_mic_turned_on_dialog_title">
+        Meicroffon wedi\u2019i droi ymlaen
     </string>
-    <string name="sensor_privacy_mic_turned_off_dialog_title">        Meicroffon wedi\u2019i droi i ffwrdd
+    <string name="sensor_privacy_mic_turned_off_dialog_title">
+        Meicroffon wedi\u2019i droi i ffwrdd
     </string>
-    <string name="sensor_privacy_mic_unblocked_dialog_content">        Meicroffon wedi\u2019i alluogi ar gyfer pob ap a gwasanaeth.
+    <string name="sensor_privacy_mic_unblocked_dialog_content">
+        Meicroffon wedi\u2019i alluogi ar gyfer pob ap a gwasanaeth.
     </string>
-    <string name="sensor_privacy_mic_blocked_no_exception_dialog_content">        Mae mynediad at feicroffon wedi\u2019i analluogi ar gyfer pob ap a gwasanaeth.
+    <string name="sensor_privacy_mic_blocked_no_exception_dialog_content">
+        Mae mynediad at feicroffon wedi\u2019i analluogi ar gyfer pob ap a gwasanaeth.
         Gellir galluogi mynediad at feicroffon yn Gosodiadau &gt; Preifatrwydd &gt; Meicroffon.
     </string>
-    <string name="sensor_privacy_mic_blocked_with_exception_dialog_content">        Mae mynediad at feicroffon wedi\u2019i analluogi ar gyfer pob ap a gwasanaeth.
+    <string name="sensor_privacy_mic_blocked_with_exception_dialog_content">
+        Mae mynediad at feicroffon wedi\u2019i analluogi ar gyfer pob ap a gwasanaeth.
         Gellir newid hyn yn Gosodiadau &gt; Preifatrwydd &gt; Meicroffon.
     </string>
-    <string name="sensor_privacy_camera_turned_on_dialog_title">        Camera wedi\u2019i droi ymlaen
+    <string name="sensor_privacy_camera_turned_on_dialog_title">
+        Camera wedi\u2019i droi ymlaen
     </string>
-    <string name="sensor_privacy_camera_turned_off_dialog_title">        Camera wedi\u2019i droi i ffwrdd
+    <string name="sensor_privacy_camera_turned_off_dialog_title">
+        Camera wedi\u2019i droi i ffwrdd
     </string>
     <string name="sensor_privacy_htt_blocked_dialog_content">I ddefnyddio\u20159r botwm meicroffon, rho fynediad at y meicroffon yn Gosodiadau.</string>
     <string name="sensor_privacy_dialog_open_settings">Agor Gosodiadau</string>
@@ -686,7 +698,8 @@
         few {# munud}
         many {# munud}
         other {# munud}
-    }</string>
+    }
+</string>
     <string name="battery_detail_switch_title">Arbedwr Batri</string>
     <string name="keyboard_key_button_template">Botwm <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Cartref</string>
@@ -1193,7 +1206,8 @@ many {Mae # ap yn weithredol}
 =1 {# hysbysiad}
     other {# hysbysiad}
     }</string>
-    <string name="dream_overlay_weather_complication_desc">        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
+    <string name="dream_overlay_weather_complication_desc">
+        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
     </string>
     <string name="audio_sharing_description">Yn rhannu sain</string>
     <string name="broadcasting_description_is_broadcasting">Darlledu</string>

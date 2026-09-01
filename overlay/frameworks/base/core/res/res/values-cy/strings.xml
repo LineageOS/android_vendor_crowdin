@@ -1038,31 +1038,40 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="lockscreen_sim_puk_locked_instructions">Gweler y Canllaw Defnyddiwr neu cysylltu â Gofal Cwsmeriaid.</string>
     <string name="lockscreen_sim_locked_message">SIM wedi\u2019i gloi.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Yn datgloi\u2019r SIM\u2026</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message">        Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">
+        Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">        Rwyt wedi rhoi cyfrinair anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">
+        Rwyt wedi rhoi cyfrinair anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">        Rwyt wedi rhoi PIN anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">
+        Rwyt wedi rhoi PIN anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
+Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi\u2019r llechen gan ddefnyddio dy gyfrif Google.\n\n
 Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </string>
     <string name="lockscreen_failed_attempts_almost_glogin" product="tv">Rwyt wedi cael y patrwm datgloi yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi dy ddyfais Android TV gan ddefnyddio dy fanylion cyfrif Google.\n\n Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="default">Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">
+Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi\u2019r ffôn gan ddefnyddio dy gyfrif Google.\n\n
 Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">
+Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y llechen ei ail-osod fel yr oedd yn gadael y ffatri a bydd holl ddata ei defnyddwyr yn cael ei ddileu.    </string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" product="tv">Rwyt wedi ceisio a methu â datgloi dy ddyfais Android TV <xliff:g id="number">%1$d</xliff:g> tro. Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y ddyfais Android TV ei ail-osod fel yr oedd yn gadael y ffatri a bydd holl ddata ei ddefnyddwyr yn cael ei ddileu.</string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">
+Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y ffôn ei ail-osod fel yr oedd yn gadael y ffatri a bydd holl ddata ei ddefnyddwyr yn cael ei ddileu.    </string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%d</xliff:g> tro.
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">
+Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%d</xliff:g> tro.
 Bydd y llechen nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.    </string>
     <string name="lockscreen_failed_attempts_now_wiping" product="tv">Rwyt wedi ceisio a methu â datgloi dy ddyfais Android TV <xliff:g id="number">%d</xliff:g> tro. Bydd dy ddyfais Android TV nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.</string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="default">Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%d</xliff:g> tro.
+    <string name="lockscreen_failed_attempts_now_wiping" product="default">
+Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%d</xliff:g> tro.
 Bydd y ffôn nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.    </string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Rho gynnig arall arni ymhen <xliff:g id="number">%d</xliff:g> eiliad.</string>
     <string name="lockscreen_forgot_pattern_button_text">Dim yn cofio\u2019r patrwm?</string>
@@ -1081,7 +1090,8 @@ Bydd y ffôn nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.    <
     <string name="lockscreen_access_pattern_start">Dechreuwyd y patrwm</string>
     <string name="lockscreen_access_pattern_cleared">Cliriwyd y patrwm</string>
     <string name="lockscreen_access_pattern_cell_added">Ychwanegwyd cell</string>
-    <string name="lockscreen_access_pattern_cell_added_verbose">Ychwanegwyd cell <xliff:g id="cell_index" example="3">%1$s</xliff:g></string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">
+Ychwanegwyd cell <xliff:g id="cell_index" example="3">%1$s</xliff:g></string>
     <string name="lockscreen_access_pattern_detected">Cwblhawyd y patrwm</string>
     <string name="lockscreen_access_pattern_area" msgid="">Ardal patrwm.</string>
     <string name="keyguard_accessibility_widget_changed">%1$s. Teclyn %2$d o %3$d.</string>
@@ -1151,9 +1161,11 @@ Bydd y ffôn nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.    <
     <string name="searchview_description_submit">Cyflwyno ymholiad</string>
     <string name="searchview_description_voice">Chwilio â llais</string>
     <string name="enable_explore_by_touch_warning_title">Galluogi Archwilio trwy Gyffwrdd?</string>
-    <string name="enable_explore_by_touch_warning_message" product="tablet">Mae <xliff:g id="accessibility_service_name">%1$s</xliff:g> eisiau galluogi Archwilio trwy Gyffwrdd.
+    <string name="enable_explore_by_touch_warning_message" product="tablet">
+Mae <xliff:g id="accessibility_service_name">%1$s</xliff:g> eisiau galluogi Archwilio trwy Gyffwrdd.
 Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\u2019r hyn sydd dan dy fys neu ryngweithio gyda\u2019r llechen gan wneud ystumiau.</string>
-    <string name="enable_explore_by_touch_warning_message" product="default">Mae <xliff:g id="accessibility_service_name">%1$s</xliff:g> eisiau galluogi Archwilio trwy Gyffwrdd.
+    <string name="enable_explore_by_touch_warning_message" product="default">
+Mae <xliff:g id="accessibility_service_name">%1$s</xliff:g> eisiau galluogi Archwilio trwy Gyffwrdd.
 Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\u2019r hyn sydd dan dy fys neu ryngweithio gyda\u2019r ffôn gan wneud ystumiau.</string>
     <string name="oneMonthDurationPast">1 mis yn ôl</string>
     <string name="beforeOneMonthDurationPast">Dros fis yn ôl</string>
@@ -1181,21 +1193,29 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\u201
     <string name="year">blwyddyn</string>
     <string name="years">blynyddoedd</string>
     <string name="now_string_shortest">nawr</string>
-    <string name="duration_minutes_shortest">        <xliff:g id="count">%d</xliff:g>m
+    <string name="duration_minutes_shortest">
+        <xliff:g id="count">%d</xliff:g>m
     </string>
-    <string name="duration_hours_shortest">        <xliff:g id="count">%d</xliff:g>a
+    <string name="duration_hours_shortest">
+        <xliff:g id="count">%d</xliff:g>a
     </string>
-    <string name="duration_days_shortest">       <xliff:g id="count">%d</xliff:g>d
+    <string name="duration_days_shortest">
+       <xliff:g id="count">%d</xliff:g>d
     </string>
-    <string name="duration_years_shortest">        <xliff:g id="count">%d</xliff:g>b
+    <string name="duration_years_shortest">
+        <xliff:g id="count">%d</xliff:g>b
     </string>
-    <string name="duration_minutes_shortest_future">        mewn <xliff:g id="count">%d</xliff:g>m
+    <string name="duration_minutes_shortest_future">
+        mewn <xliff:g id="count">%d</xliff:g>m
     </string>
-    <string name="duration_hours_shortest_future">        mewn <xliff:g id="count">%d</xliff:g>a
+    <string name="duration_hours_shortest_future">
+        mewn <xliff:g id="count">%d</xliff:g>a
     </string>
-    <string name="duration_days_shortest_future">        mewn <xliff:g example="1" id="count">%d</xliff:g>d
+    <string name="duration_days_shortest_future">
+        mewn <xliff:g example="1" id="count">%d</xliff:g>d
     </string>
-    <string name="duration_years_shortest_future">        mewn <xliff:g id="count">%d</xliff:g>b
+    <string name="duration_years_shortest_future">
+        mewn <xliff:g id="count">%d</xliff:g>b
     </string>
     <string name="duration_minutes_relative">{count, plural,
         =1 {# funud yn ôl}
@@ -1213,7 +1233,8 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\u201
         few {# awr yn ôl}
         many {# awr yn ôl}
         other {# awr yn ôl}
-    }</string>
+    }
+</string>
     <string name="duration_days_relative">{count, plural,
         zero {# diwrnodau yn ôl}
         =1 {# diwrnod yn ôl}
@@ -1246,7 +1267,8 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\u201
         few {# awr}
         many {# awr}
         other {# awr}
-    }</string>
+    }
+</string>
     <string name="duration_days_relative_future">{count, plural,
         =1 {# diwrnod}
         zero {# diwrnodau}
@@ -1413,7 +1435,8 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\u201
     <string name="new_app_action">Agor <xliff:g id="new_app">%1$s</xliff:g></string>
     <string name="new_app_description">Bydd <xliff:g id="old_app">%1$s</xliff:g> yn cau heb gadw</string>
     <string name="dump_heap_notification">Aeth <xliff:g id="proc">%1$s</xliff:g> dros y terfyn cof</string>
-    <string name="dump_heap_ready_notification">        Tomen <xliff:g id="proc" example="com.android.example">%1$s</xliff:g> yn barod</string>
+    <string name="dump_heap_ready_notification">
+        Tomen <xliff:g id="proc" example="com.android.example">%1$s</xliff:g> yn barod</string>
     <string name="dump_heap_notification_detail">Tomen dympio wedi\u2019i chasglu. Tapia i\'w rhannu.</string>
     <string name="dump_heap_title">Rhannu\u2019r domen dympio (heap dump)?</string>
     <string name="dump_heap_text">Mae\u2019r broses <xliff:g id="proc" example="com.android.example">%1$s</xliff:g> wedi defnyddio dros ei therfyn cof o <xliff:g id="size" example="350MB">%2$s</xliff:g>. Mae tomen ar gael i\u2019w rhannu gyda\u2019r datblygwr. Cymer ofal: gall y domen hon gynnwys gwybodaeth bersonol sensitif y mae gan y broses mynediad ati.</string>
@@ -1818,38 +1841,50 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, gallit glywed neu weld disgrifiadau\u201
     <string name="kg_login_invalid_input">Enw defnyddiwr neu gyfrinair annilys</string>
     <string name="kg_login_account_recovery_hint">Wedi anghofio dy enw defnyddiwr neu gyfrinair\?\nGweler <b>google.com/accounts/recovery</b>.</string>
     <string name="kg_login_checking_password">Yn gwirio\u2019r cyfrif\u2026</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">        Rwyt wedi rhoi PIN anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">
+        Rwyt wedi rhoi PIN anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">        Rwyt wedi rhoi cyfrinair anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_too_many_failed_password_attempts_dialog_message">
+        Rwyt wedi rhoi cyfrinair anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">        Rwyt wedi rhoi patrwm anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">
+        Rwyt wedi rhoi patrwm anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">
+Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y llechen ei ail-osod fel yr oedd yn gadael y ffatri a bydd holl ddata ei defnyddwyr yn cael ei ddileu.    </string>
     <string name="kg_failed_attempts_almost_at_wipe" product="tv">Rwyt wedi ceisio a methu â datgloi dy ddyfais Android TV <xliff:g id="number">%1$d</xliff:g> tro. Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y ddyfais Android TV ei ail-osod fel yr oedd yn gadael y ffatri a bydd holl ddata ei ddefnyddwyr yn cael ei ddileu.</string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="default">Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">
+Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y ffôn ei ail-osod fel yr oedd yn gadael y ffatri a bydd holl ddata ei ddefnyddwyr yn cael ei ddileu.    </string>
-    <string name="kg_failed_attempts_now_wiping" product="tablet">Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%d</xliff:g> tro.
+    <string name="kg_failed_attempts_now_wiping" product="tablet">
+Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%d</xliff:g> tro.
 Bydd y llechen nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.    </string>
     <string name="kg_failed_attempts_now_wiping" product="tv">Rwyt wedi ceisio a methu â datgloi dy ddyfais Android TV <xliff:g id="number">%d</xliff:g> tro. Bydd dy ddyfais Android TV nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.</string>
-    <string name="kg_failed_attempts_now_wiping" product="default">Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%d</xliff:g> tro.
+    <string name="kg_failed_attempts_now_wiping" product="default">
+Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%d</xliff:g> tro.
 Bydd y ffôn nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.    </string>
-    <string name="kg_failed_attempts_almost_at_login" product="tablet">Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">
+Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi\u2019r llechen gan ddefnyddio cyfrif e-bost.\n\n
 Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </string>
     <string name="kg_failed_attempts_almost_at_login" product="tv">Rwyt wedi cael y patrwm datgloi yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi dy ddyfais Android TV gan ddefnyddio cyfrif e-bost.\n\n Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.</string>
-    <string name="kg_failed_attempts_almost_at_login" product="default">Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
+    <string name="kg_failed_attempts_almost_at_login" product="default">
+Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi\u2019r ffôn gan ddefnyddio cyfrif e-bost.\n\n
 Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </string>
     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
     <string name="kg_reordering_delete_drop_target_text">Tynnu</string>
-    <string name="safe_media_volume_warning" product="default">\"Codi\u2019r sain yn uwch na\u2019r lefel a argymhellir?\n\nGall gwrando ar sain uchel am gyfnodau hir achosi niwed i dy glyw.\"</string>
-    <string name="csd_dose_reached_warning" product="default">        \"Dal i wrando ar lefel sain uchel?\n\nMae lefel sain y clustffonau wedi bod yn uchel ers yn hirach nag argymhellir, sy\u2019n gallu niweidio dy glyw.\"
+    <string name="safe_media_volume_warning" product="default">
+\"Codi\u2019r sain yn uwch na\u2019r lefel a argymhellir?\n\nGall gwrando ar sain uchel am gyfnodau hir achosi niwed i dy glyw.\"</string>
+    <string name="csd_dose_reached_warning" product="default">
+        \"Dal i wrando ar lefel sain uchel?\n\nMae lefel sain y clustffonau wedi bod yn uchel ers yn hirach nag argymhellir, sy\u2019n gallu niweidio dy glyw.\"
     </string>
-    <string name="csd_momentary_exposure_warning" product="default">        \"Synhwyrwyd sain uchel\n\nMae lefel sain y clustffonau wedi bod yn uwch nag argymhellir, sy\u2019n gallu achosi niwed i dy glyw.\"
+    <string name="csd_momentary_exposure_warning" product="default">
+        \"Synhwyrwyd sain uchel\n\nMae lefel sain y clustffonau wedi bod yn uwch nag argymhellir, sy\u2019n gallu achosi niwed i dy glyw.\"
     </string>
     <string name="accessibility_shortcut_warning_dialog_title">Defnyddio Llwybr Byr Hygyrchedd?</string>
     <string name="accessibility_shortcut_toogle_warning">Pan Mae\u2019r llwybr byr ymlaen, gellir gwasgu\u2019r ddau fotwm sain gyda\'i gilydd am 3 eiliad i ddechrau nodwedd hygyrchedd.</string>
@@ -2075,7 +2110,8 @@ felly ni ellir gwirio dy ymateb.</string>
         few {Am # awr (nes {formattedTime})}
         many {Am # awr (nes {formattedTime})}
         other {Am # awr (nes {formattedTime})}
-    }</string>
+    }
+</string>
     <string name="zen_mode_duration_hours_summary_short">{count, plural,
         =1 {Am 1 awr (nes {formattedTime})}
         zero {Am # oriau (nes {formattedTime})}
@@ -2083,7 +2119,8 @@ felly ni ellir gwirio dy ymateb.</string>
         few {Am # awr (nes {formattedTime})}
         many {Am # awr (nes {formattedTime})}
         other {Am # awr (nes {formattedTime})}
-    }</string>
+    }
+</string>
     <string name="zen_mode_duration_minutes">{count, plural,
         =1 {Am un munud}
         zero {Am # munudau}
@@ -2099,7 +2136,8 @@ felly ni ellir gwirio dy ymateb.</string>
         few {Am # mun}
         many {Am # mun}
         other {Am # mun}
-    }</string>
+    }
+</string>
     <string name="zen_mode_duration_hours">{count, plural,
         =1 {Am 1 awr}
         zero {Am # oriau}
@@ -2107,7 +2145,8 @@ felly ni ellir gwirio dy ymateb.</string>
         few {Am # awr}
         many {Am # awr}
         other {Am # awr}
-    }</string>
+    }
+</string>
     <string name="zen_mode_duration_hours_short">{count, plural,
         =1 {Am 1 awr}
         zero {Am # oriau}
@@ -2115,7 +2154,8 @@ felly ni ellir gwirio dy ymateb.</string>
         few {Am # awr}
         many {Am # awr}
         other {Am # awr}
-    }</string>
+    }
+</string>
     <string name="zen_mode_until_next_day">Hyd at <xliff:g id="formattedTime" example="Tue, 10 PM">%1$s</xliff:g></string>
     <string name="zen_mode_until">Hyd at <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_alarm">Hyd at <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (larwm nesaf)</string>
@@ -2186,7 +2226,8 @@ felly ni ellir gwirio dy ymateb.</string>
     <string name="region_picker_section_all">Pob rhanbarth</string>
     <string name="locale_search_menu">Chwilio</string>
     <string name="app_suspended_title">Ap ddim ar gael</string>
-    <string name="app_suspended_default_message">Dyw <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ddim ar gael ar hyn o bryd. Rheolir hyn gan <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
+    <string name="app_suspended_default_message">
+Dyw <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ddim ar gael ar hyn o bryd. Rheolir hyn gan <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
     </string>
     <string name="app_suspended_more_details">Dysgu mwy</string>
     <string name="app_suspended_unsuspend_message">Dad-seibio\u2019r ap</string>
@@ -2555,13 +2596,16 @@ yn llwyddiannus.</string>
     <string name="view_and_control_notification_title">Gwirio gosodiadau mynediad</string>
     <string name="view_and_control_notification_content">Gall <xliff:g id="service_name" example="TalkBack">%s</xliff:g> weld a rheoli dy sgrin. Tapia i adolygu hyn.</string>
     <string name="ui_translation_accessibility_translated_text"><xliff:g id="message" example="Hello">%1$s</xliff:g> wedi\u2019i gyfieithu.</string>
-    <string name="ui_translation_accessibility_translation_finished">Neges wedi\u2019i chyfieithu o <xliff:g id="from_language" example="English">%1$s</xliff:g> i <xliff:g id="to_language" example="French">%2$s</xliff:g>.</string>
+    <string name="ui_translation_accessibility_translation_finished">Neges wedi\u2019i chyfieithu o <xliff:g id="from_language" example="English">%1$s</xliff:g> i <xliff:g id="to_language" example="French">%2$s</xliff:g>.
+</string>
     <string name="notification_channel_abusive_bg_apps">Gweithred Cefndir</string>
     <string name="notification_title_abusive_bg_apps">Mae ap yn draenio\u2019r batri</string>
     <string name="notification_title_long_running_fgs">Mae ap dal yn weithredol</string>
-    <string name="notification_content_abusive_bg_apps">        Mae <xliff:g id="app" example="Gmail">%1$s</xliff:g> yn rhedeg yn y cefndir. Tapia i reoli defnydd batri.
+    <string name="notification_content_abusive_bg_apps">
+        Mae <xliff:g id="app" example="Gmail">%1$s</xliff:g> yn rhedeg yn y cefndir. Tapia i reoli defnydd batri.
     </string>
-    <string name="notification_content_long_running_fgs">        Gall <xliff:g id="app" example="Gmail">%1$s</xliff:g> effeithio ar oes batri. Tapia i adolygu apiau sy\u2019n weithredol.
+    <string name="notification_content_long_running_fgs">
+        Gall <xliff:g id="app" example="Gmail">%1$s</xliff:g> effeithio ar oes batri. Tapia i adolygu apiau sy\u2019n weithredol.
     </string>
     <string name="notification_action_check_bg_apps">Gwirio apiau gweithredol</string>
     <string name="vdm_camera_access_denied" product="default">Meth cael at gamera dy ffôn o dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g></string>

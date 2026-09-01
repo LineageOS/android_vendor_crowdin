@@ -47,9 +47,11 @@
     <string name="weather_widget_recommendation_category_label">Dalia Blaen ar y Gaeaf</string>
     <string name="others_widget_recommendation_category_label">Posib Byddet Hefyd yn Hoffi</string>
     <string name="widget_picker_right_pane_accessibility_title">Teclynnau <xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> ar y dde, chwilio a dewisiadau ar y chwith</string>
-    <string name="widgets_count">        {count, plural, zero {} one {# teclyn} two {# declyn} few {# theclyn} many {# theclyn} =1{# teclyn} other{# teclyn}}
+    <string name="widgets_count">
+        {count, plural, zero {} one {# teclyn} two {# declyn} few {# theclyn} many {# theclyn} =1{# teclyn} other{# teclyn}}
     </string>
-    <string name="shortcuts_count">        {count, plural, zero {} one {# llwybr byr} two {# lwybr byr} few {# llwybr byr} many {# llwybr byr} =1{# llwybr byr} other{# llwybr byr}}
+    <string name="shortcuts_count">
+        {count, plural, zero {} one {# llwybr byr} two {# lwybr byr} few {# llwybr byr} many {# llwybr byr} =1{# llwybr byr} other{# llwybr byr}}
     </string>
     <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
     <string name="widget_button_text">Teclynnau</string>

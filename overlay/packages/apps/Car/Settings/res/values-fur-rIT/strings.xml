@@ -24,7 +24,8 @@
     <string name="condition_night_display_title">La lûs noturne e je ative</string>
     <string name="network_and_internet">Rêt e internet</string>
     <string name="mobile_network_settings">Rêt mobile</string>
-    <string name="mobile_network_summary_count">        {count, plural,
+    <string name="mobile_network_summary_count">
+        {count, plural,
             one {}=1    {# SIM}
             other {# SIMs}
         }
@@ -41,14 +42,17 @@
     <string name="mobile_network_state_off">Off</string>
     <string name="confirm_mobile_data_disable">Disativâ i dâts mobii?</string>
     <string name="sim_selection_required_pref">Fâs une sielte</string>
-    <string name="sim_change_data_title">        Doprâ <xliff:g id="carrier" example="Google Fi">%1$s</xliff:g> pai dâts mobii?
+    <string name="sim_change_data_title">
+        Doprâ <xliff:g id="carrier" example="Google Fi">%1$s</xliff:g> pai dâts mobii?
     </string>
-    <string name="sim_change_data_message">        Tu stâs doprant <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> pai dâts mobii.
+    <string name="sim_change_data_message">
+        Tu stâs doprant <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> pai dâts mobii.
         Se tu passis a <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>,
         <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> nol vignarà plui doprât pai dâts
         mobii.
     </string>
-    <string name="sim_change_data_ok">        Dopre <xliff:g id="carrier" example="Verizon">%1$s</xliff:g>
+    <string name="sim_change_data_ok">
+        Dopre <xliff:g id="carrier" example="Verizon">%1$s</xliff:g>
     </string>
     <string name="roaming_title">Roaming</string>
     <string name="roaming_summary">Conet ai servizis di dâts se in roaming</string>
@@ -60,7 +64,8 @@
     <string name="cell_data_warning">Avîs sui dâts: <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
     <string name="cell_data_limit">Limit dâts: <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
     <string name="cell_data_warning_and_limit">Avîs sui dâts: <xliff:g name="amount" example="1 GB">^1</xliff:g> / Limit dâts: <xliff:g name="amount" example="2 GB">^2</xliff:g></string>
-    <string name="billing_cycle_days_left">        {count, plural,
+    <string name="billing_cycle_days_left">
+        {count, plural,
             one {}=1    {al mancje # dì}
             other {a mancjin # dîs}
         }
@@ -326,7 +331,8 @@
     <string name="force_stop">Ferme aplicazion</string>
     <string name="force_stop_dialog_title">Fermâ la aplicazion?</string>
     <string name="force_stop_dialog_text">Se tu sfuarcis la interuzion di une aplicazion, e podarès compuartâsi in mût anomal.</string>
-    <string name="force_stop_success_toast_text">        La aplicazion <xliff:g id="app_name" example="Radio">%1$s</xliff:g> e je stade fermade.
+    <string name="force_stop_success_toast_text">
+        La aplicazion <xliff:g id="app_name" example="Radio">%1$s</xliff:g> e je stade fermade.
     </string>
     <string name="prioritize_app_performance_dialog_title">Ativâ prioritât a prestazions de aplicazion?</string>
     <string name="prioritize_app_performance_dialog_text">Cheste operazion e pues causâ une potenziâl instabilitât dal sisteme o efiets sul hardware a lunc tiermin. Desideristu continuâ?</string>
@@ -347,7 +353,8 @@
     <string name="runtime_permissions_summary_no_permissions_granted">Nissun permès concedût</string>
     <string name="runtime_permissions_summary_no_permissions_requested">Nissun permès domandât</string>
     <string name="unused_apps">Aplicazions no dopradis</string>
-    <string name="unused_apps_summary">        {count, plural,
+    <string name="unused_apps_summary">
+        {count, plural,
             one {}=1    {# aplicazion no doprade}
             other {# aplicazions no dopradis}
         }
@@ -369,7 +376,8 @@
     <string name="app_data_usage_restrict_data_title">Limite dâts</string>
     <string name="app_data_usage_background_data_summary">Dopre i dâts mobii dome cuant che la aplicazion e je in prin plan</string>
     <string name="computing_size">Elaborazion\u2026</string>
-    <string name="runtime_permissions_additional_count">        {count, plural,
+    <string name="runtime_permissions_additional_count">
+        {count, plural,
             one {}=1    {# permès in plui}
             other {# permès in plui}
         }
@@ -386,7 +394,8 @@
     <string name="app_list_preference_none">Nissune</string>
     <string name="default_app_selected_app">Selezionade</string>
     <string name="assistant_security_warning">L\'assistent al rivarà a lei lis informazions su lis aplicazions in ûs sul sisteme, includudis lis informazions visibilis su schermi o acessibilis dentri des aplicazions.</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
+    <string name="autofill_confirmation_message"><![CDATA[
+        <b>Verifiche che cheste aplicazion e sedi atendibile</b>
         <br/>
         <br/>
         <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> al dopre ce che al è
@@ -414,7 +423,8 @@
     <string name="apps_permission_manager_title">Gjestôr dai permès</string>
     <string name="apps_permission_manager_summary">Controle l\'acès des aplicazions ai tiei dâts</string>
     <string name="apps_default_apps_summary">Pal assistent e altri</string>
-    <string name="performance_impacting_apps_summary">        {count, plural,
+    <string name="performance_impacting_apps_summary">
+        {count, plural,
             one {}=1    {# aplicazion e impate lis prestazions}
             other {# aplicazions a impatin lis prestazions}
         }
@@ -428,7 +438,8 @@
     <string name="modify_system_settings_description">Chest permès al consint a une aplicazion di modificâ lis impostazions di sisteme.</string>
     <string name="notification_access_title">Acès aes notifichis</string>
     <string name="notification_listener_security_warning_title">Permeti l\'acès aes notifichis a <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
-    <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> al rivarà a lei dutis lis notifichis, includudis lis informazions personâls come nons di contats e il test dai messaçsche tu ricevis. Al rivarà ancje a scartâ notifichis o ativâ i botons di azions contignûts tes notifichis.\n\nChest al darà ancje la pussibilitât ae aplicazion di ativâ o disativâ il No Sta Disturbâ e cambiâ lis relativis impostazions.
+    <string name="notification_listener_security_warning_summary">
+<xliff:g id="notification_listener_name">%1$s</xliff:g> al rivarà a lei dutis lis notifichis, includudis lis informazions personâls come nons di contats e il test dai messaçsche tu ricevis. Al rivarà ancje a scartâ notifichis o ativâ i botons di azions contignûts tes notifichis.\n\nChest al darà ancje la pussibilitât ae aplicazion di ativâ o disativâ il No Sta Disturbâ e cambiâ lis relativis impostazions.
     </string>
     <string name="notification_listener_revoke_warning_summary">Se tu disativis l\'acès aes notifichis a <xliff:g id="notification_listener_name">%1$s</xliff:g>, al vignarà disativât ancje l\'acès al No Sta Disturbâ.
     </string>
@@ -445,43 +456,56 @@
     <string name="more_special_access_title">Altri</string>
     <string name="location_settings_title">Posizion</string>
     <string name="location_toggle_title">Dopre posizion</string>
-    <string name="location_toggle_summary">        Dopre la posizion de tô machine cun dutis lis aplicazions che tu âs specificât.
+    <string name="location_toggle_summary">
+        Dopre la posizion de tô machine cun dutis lis aplicazions che tu âs specificât.
     </string>
-    <string name="location_toggle_off_warning">        Se tu lu disativis, l\'acès ae posizion al vignarà gjavât a dutis lis aplicazions gjavadis chês che a coventin pe assistence ae vuide
+    <string name="location_toggle_off_warning">
+        Se tu lu disativis, l\'acès ae posizion al vignarà gjavât a dutis lis aplicazions gjavadis chês che a coventin pe assistence ae vuide
     </string>
-    <string name="adas_location_toggle_off_warning">        Se tu disativis cheste impostazion, lis aplicazions di assistence ae vuide che si
+    <string name="adas_location_toggle_off_warning">
+        Se tu disativis cheste impostazion, lis aplicazions di assistence ae vuide che si
         basin su lis informazions relativis ae posizion a vignaran disativadis.
     </string>
-    <string name="adas_location_toggle_confirm_label">        Disative distès
+    <string name="adas_location_toggle_confirm_label">
+        Disative distès
     </string>
-    <string name="adas_location_toggle_popup_summary">        Nol è pussibil cambiâ cheste impostazion e e je stade disativade dal produtôr de machine.
+    <string name="adas_location_toggle_popup_summary">
+        Nol è pussibil cambiâ cheste impostazion e e je stade disativade dal produtôr de machine.
     </string>
-    <string name="adas_location_toggle_title">        Funzions che ti judin te vuide
+    <string name="adas_location_toggle_title">
+        Funzions che ti judin te vuide
     </string>
-    <string name="adas_location_toggle_summary">        Permet aes funzionalitâts integradis, aprovadis dal produtôr de tô machine, di acedi
+    <string name="adas_location_toggle_summary">
+        Permet aes funzionalitâts integradis, aprovadis dal produtôr de tô machine, di acedi
         ae sô posizion.
     </string>
     <string name="location_recently_accessed">Utilizazions resintis</string>
     <string name="location_settings_recently_accessed_title">Utilizazions resintis</string>
     <string name="location_settings_recently_accessed_view_all_title">Viôt dutis</string>
     <string name="location_no_recent_access">Nissune aplicazion resinte</string>
-    <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Assistence ae vuide \u2022
+    <string name="driver_assistance_label">
+        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Assistence ae vuide \u2022
         Domandât acès    </string>
-    <string name="location_adas_apps_list_title">        Funzions che ti judin te vuide
+    <string name="location_adas_apps_list_title">
+        Funzions che ti judin te vuide
     </string>
     <string name="location_driver_assistance_privacy_policy_button_text">Politiche</string>
     <string name="location_settings_app_permissions_title">Permès a nivel di aplicazion</string>
-    <string name="location_settings_app_permissions_summary">        Gjestìs permès individuâi des aplicazions
+    <string name="location_settings_app_permissions_summary">
+        Gjestìs permès individuâi des aplicazions
     </string>
     <string name="location_settings_services_title">Servizis di gjeolocalizazion</string>
     <string name="location_use_location_title">Dopre posizion</string>
     <string name="location_access_settings_title">Acès ae posizion</string>
-    <string name="location_access_settings_summary">        Sielç se lis aplicazions a puedin acedi ae posizion de tô machine
+    <string name="location_access_settings_summary">
+        Sielç se lis aplicazions a puedin acedi ae posizion de tô machine
     </string>
-    <string name="location_access_disclaimer_summary">        Il produtôr de tô machine al podarà distès otignî la posizion dal automobil. Tu puedis revisionâ
+    <string name="location_access_disclaimer_summary">
+        Il produtôr de tô machine al podarà distès otignî la posizion dal automobil. Tu puedis revisionâ
         lis lôr politichis par vê plui informazions.
     </string>
-    <string name="location_adas_app_info_summary">        Chestis funzions integradis a domandin acès ae posizion de tô machine par assisti cu la
+    <string name="location_adas_app_info_summary">
+        Chestis funzions integradis a domandin acès ae posizion de tô machine par assisti cu la
         vuide.\n\nScuvierç di plui su cemût che ogni aplicazion e dopre i dâts de tô posizion, leint lis lôr Politichis su la
         Riservatece.
     </string>
@@ -492,7 +516,8 @@
     <string name="microphone_recently_accessed">Utilizazions resintis</string>
     <string name="microphone_no_recent_access">Nissune aplicazion resinte</string>
     <string name="microphone_app_permission_summary_microphone_off">Nissune aplicazion e à acès</string>
-    <string name="microphone_app_permission_summary_microphone_on">        {count, plural,
+    <string name="microphone_app_permission_summary_microphone_on">
+        {count, plural,
             one {}=1    {# of {total_count} aplicazions e à acès}
             other {# of {total_count} aplicazions a àn acès}
         }
@@ -540,7 +565,8 @@
     <string name="settings_license_activity_title">Licencis di tiercis parts</string>
     <string name="settings_license_activity_unavailable">Al è vignût fûr un probleme tal cjariâ lis licencis.</string>
     <string name="settings_license_activity_loading">Daûr a cjariâ\u2026</string>
-    <string name="show_dev_countdown">        {count, plural,
+    <string name="show_dev_countdown">
+        {count, plural,
             one {}=1    {Cumò tu sês a # pas dal deventâ un svilupadôr.}
             other {Cumò tu sês a # pas dal deventâ un svilupadôr.}
         }
@@ -613,7 +639,8 @@
     <string name="user_add_user_message_setup">Dopo che tu âs creât un gnûf profîl, chê persone e varès di personalizâlu.</string>
     <string name="user_add_user_message_update">Ducj i profîi a puedin inzornâ lis aplicazions che a vignaran dopradis di ducj i altris profîi.</string>
     <string name="user_limit_reached_title">Tocjât il limit di profîi</string>
-    <string name="user_limit_reached_message">        {count, plural,
+    <string name="user_limit_reached_message">
+        {count, plural,
             one {}=1    {Al è pussibil creâ dome un profîl.}
             other {Tu puedis creâ al massim # profîi.}
         }
@@ -722,10 +749,12 @@
     <string name="camera_required_apps_list_title">Aplicazions domandadis</string>
     <string name="camera_required_apps_list_summary">Chestis aplicazions a son necessaris par fâ funzionâ in sigurece la tô machine</string>
     <string name="camera_privacy_policy_button_text">Politiche</string>
-    <string name="camera_access_disclaimer_summary">        Il produtôr de tô machine al podarès distès rivâ a acedi ae fotocjamare de tô machine. Tu puedis
+    <string name="camera_access_disclaimer_summary">
+        Il produtôr de tô machine al podarès distès rivâ a acedi ae fotocjamare de tô machine. Tu puedis
         esaminâ lis lôr politichis par vê plui informazions.
     </string>
-    <string name="camera_privacy_policy_info_summary">        Scuvierç di plui su cemût che ogni aplicazion e dopre la tô fotocjamare tornant a esaminâ lis sôs politichis su la riservatece.
+    <string name="camera_privacy_policy_info_summary">
+        Scuvierç di plui su cemût che ogni aplicazion e dopre la tô fotocjamare tornant a esaminâ lis sôs politichis su la riservatece.
     </string>
     <string name="security_settings_title">Sigurece</string>
     <string name="security_settings_subtitle">Bloc schermi</string>
@@ -793,57 +822,68 @@
     <string name="lockpassword_password_requires_alpha">E scugne contignî almancul une letare</string>
     <string name="lockpassword_password_requires_digit">E scugne contignî almancul une cifre</string>
     <string name="lockpassword_password_requires_symbol">E scugne contignî almancul un simbul</string>
-    <string name="lockpassword_password_requires_letters">        {count, plural,
+    <string name="lockpassword_password_requires_letters">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # letare}
         other {E scugne contignî almancul # letaris}
         }
     </string>
-    <string name="lockpassword_password_requires_lowercase">        {count, plural,
+    <string name="lockpassword_password_requires_lowercase">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # letare minuscule}
         other {E scugne contignî almancul # letaris minusculis}
         }
     </string>
-    <string name="lockpassword_password_requires_uppercase">        {count, plural,
+    <string name="lockpassword_password_requires_uppercase">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # letare maiuscule}
         other {E scugne contignî almancul # letaris maiusculis}
         }
     </string>
-    <string name="lockpassword_password_requires_numeric">        {count, plural,
+    <string name="lockpassword_password_requires_numeric">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # cifre numeriche}
         other {E scugne contignî almancul # cifris numerichis}
         }
     </string>
-    <string name="lockpassword_password_requires_symbols">        {count, plural,
+    <string name="lockpassword_password_requires_symbols">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # simbul speciâl}
         other {E scugne contignî almancul # simbui speciâi}
         }
     </string>
-    <string name="lockpassword_password_requires_nonletter">        {count, plural,
+    <string name="lockpassword_password_requires_nonletter">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # caratar che nol è une letare}
         other {E scugne contignî almancul # caratars che no son letaris}
         }
     </string>
-    <string name="lockpassword_password_requires_nonnumerical">        {count, plural,
+    <string name="lockpassword_password_requires_nonnumerical">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # caratar no numeric}
         other {E scugne contignî almancul # caratars no numerics}
         }
     </string>
-    <string name="lockpassword_password_too_short">        {count, plural,
+    <string name="lockpassword_password_too_short">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # caratar}
         other {E scugne contignî almancul # caratars}
         }
     </string>
-    <string name="lockpassword_pin_too_short">        {count, plural,
+    <string name="lockpassword_pin_too_short">
+        {count, plural,
         one {}=1    {E scugne contignî almancul # cifre}
         other {E scugne contignî almancul # cifris}
         }
     </string>
-    <string name="lockpassword_password_too_long">        {count, plural,
+    <string name="lockpassword_password_too_long">
+        {count, plural,
         one {}=1    {E à di vê mancul di # caratar}
         other {E à di vê mancul di # caratars}
         }
     </string>
-    <string name="lockpassword_pin_too_long">        {count, plural,
+    <string name="lockpassword_pin_too_long">
+        {count, plural,
         one {}=1    {E à di vê mancul di # cifre}
         other {E à di vê mancul di # cifris}
         }
@@ -930,7 +970,8 @@
     <string name="disabled_by_policy_title_financed_device">Impostazion blocade dal furnidôr di credit</string>
     <string name="default_admin_support_msg">L\'acès a cualchi funzionalitât e je limitade de organizazion.\n\nSe tu âs domandis, contate il gjestôr de organizazion.</string>
     <string name="manage_device_admin">Aplicazions di aministrazion dal veicul</string>
-    <string name="number_of_device_admins">        {count, plural,
+    <string name="number_of_device_admins">
+        {count, plural,
         one {}=1    {# aplicazion ativade}
         other {# aplicazions ativadis}
         }
@@ -945,7 +986,8 @@
     <string name="enterprise_privacy_header">Par dâ acès ai dâts su chest veicul gjestît, l\'aministradôr de flote al podarès cambiâ lis impostazions e instalâ software sul sisteme di infotainment.\n\nPar vê plui detais, contate l\'aministradôr de tô flote.</string>
     <string name="enterprise_privacy_exposure_category">Informazions che l\'aministradôr de tô flote al pues vuodi</string>
     <string name="enterprise_privacy_exposure_changes_category">Modifichis fatis dal aministradôr de tô flote</string>
-    <string name="enterprise_privacy_exposure_desc">        <li>Dâts associâts al to account dal veicul gjestît</li>\n
+    <string name="enterprise_privacy_exposure_desc">
+        <li>Dâts associâts al to account dal veicul gjestît</li>\n
         <li>Liste di aplicazions sul to veicul gjestît</li>\n
         <li>Cuantitât di timp e dâts doprâts in ogni aplicazion</li>
     </string>
@@ -973,7 +1015,8 @@
     <string name="enterprise_privacy_input_method_name">Met a <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
     <string name="enterprise_privacy_global_http_proxy">Proxy HTTP globâl stabilît</string>
     <string name="enterprise_privacy_ca_certs_personal">Credenziâls atendibilis tal to profîl personâl</string>
-    <string name="enterprise_privacy_device_access_desc">        <li>L\'aministradôr al pues blocâ il sisteme di infotainment e ristabilî la password</li>\n
+    <string name="enterprise_privacy_device_access_desc">
+        <li>L\'aministradôr al pues blocâ il sisteme di infotainment e ristabilî la password</li>\n
         <li>L\'aministradôr al pues eliminâ dâts sul sisteme di infotainment</li>
     </string>
     <string name="enterprise_privacy_failed_password_wipe_device">Tentatîfs di password falîts prime di eliminâ ducj i dâts sul sisteme di infotainment</string>
@@ -1040,7 +1083,8 @@
     <string name="camera_recently_accessed">Utilizazions resintis</string>
     <string name="camera_no_recent_access">Nissune aplicazion resinte</string>
     <string name="camera_app_permission_summary_camera_off">Nissune aplicazion e à acès</string>
-    <string name="camera_app_permission_summary_camera_on">        {count, plural,
+    <string name="camera_app_permission_summary_camera_on">
+        {count, plural,
             one {}=1    {# of {total_count} aplicazions e à acès}
             other {# of {total_count} aplicazions a àn acès}
         }

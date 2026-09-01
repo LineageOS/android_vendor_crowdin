@@ -36,15 +36,18 @@
     <string name="duration">Durade:</string>
     <string name="data_transmitted">Inviâts:</string>
     <string name="data_received">Ricevûts:</string>
-    <string name="data_value_format">        <xliff:g id="number">%1$s</xliff:g> bytes /
+    <string name="data_value_format">
+        <xliff:g id="number">%1$s</xliff:g> bytes /
         <xliff:g id="number">%2$s</xliff:g> pachets
     </string>
     <string name="always_on_disconnected_title">Impussibil conetisi ae VPN simpri ative</string>
-    <string name="always_on_disconnected_message">        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> al è configurât par restâ colegât
+    <string name="always_on_disconnected_message">
+        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> al è configurât par restâ colegât
         dut il timp, ma nol rive a colegâsi cumò. Il telefon al doprarà une rêt publiche fintant che
         nol rivarà a conetisi a <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>.
     </string>
-    <string name="always_on_disconnected_message_lockdown">        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> al è configurât par restâ colegât
+    <string name="always_on_disconnected_message_lockdown">
+        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> al è configurât par restâ colegât
         dut il timp, ma nol rive a colegâsi cumò. No tu varâs une conession fintant che la VPN e
         podarà tornâ a conetisi.
     </string>
@@ -53,10 +56,12 @@
     <string name="disconnect">Disconet</string>
     <string name="open_app">Vierç la aplicazion</string>
     <string name="dismiss">Siere</string>
-    <string name="sanitized_vpn_label_with_ellipsis">        <xliff:g id="sanitized_vpn_label_with_ellipsis" example="My VPN app">%1$s</xliff:g>… (
+    <string name="sanitized_vpn_label_with_ellipsis">
+        <xliff:g id="sanitized_vpn_label_with_ellipsis" example="My VPN app">%1$s</xliff:g>… (
         <xliff:g id="sanitized_vpn_label_with_ellipsis" example="com.my.vpn.app">%2$s</xliff:g>)
     </string>
-    <string name="sanitized_vpn_label">        <xliff:g id="sanitized_vpn_label" example="My VPN app">%1$s</xliff:g> (
+    <string name="sanitized_vpn_label">
+        <xliff:g id="sanitized_vpn_label" example="My VPN app">%1$s</xliff:g> (
         <xliff:g id="sanitized_vpn_label" example="com.my.vpn.app">%2$s</xliff:g>)
     </string>
 </resources>

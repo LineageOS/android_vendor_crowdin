@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2021 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="connectivityResourcesAppLabel">Acmhainní Nascachta Córais</string>
+    <string name="wifi_available_sign_in">Sínigh isteach i líonra Wi-Fi</string>
+    <string name="network_available_sign_in">Sínigh isteach sa líonra</string>
+    <string name="network_available_sign_in_detailed"><xliff:g is="ssid líonra">%1$s</xliff:g></string>
+    <string name="wifi_no_internet">Níl rochtain idirlín ag <xliff:g id="network_ssid" example="GoogleGuest">%1$s</xliff:g></string>
+    <string name="wifi_no_internet_detailed">Tapáil le haghaidh roghanna</string>
+    <string name="mobile_no_internet">Níl rochtain idirlín ag an líonra soghluaiste</string>
+    <string name="other_networks_no_internet">Níl rochtain idirlín ag an líonra</string>
+    <string name="private_dns_broken_detailed">Ní féidir rochtain a fháil ar fhreastalaí DNS príobháideach</string>
+    <string name="network_partial_connectivity">Tá nascacht theoranta ag <xliff:g id="network_ssid" example="GoogleGuest">%1$s</xliff:g></string>
+    <string name="network_partial_connectivity_detailed">Tapáil chun ceangal ar aon nós</string>
+    <string name="network_switch_metered">Athraíodh go <xliff:g id="network_type">%1$s</xliff:g></string>
+    <string name="network_switch_metered_detail">Úsáideann an gléas <xliff:g id="new_network">%1$s</xliff:g> nuair nach bhfuil rochtain idirlín ag <xliff:g id="previous_network">%2$s</xliff:g>. D’fhéadfadh táillí a bheith i bhfeidhm.</string>
+    <string name="network_switch_metered_toast">Athraíodh ó <xliff:g id="previous_network">%1$s</xliff:g> go <xliff:g id="new_network">%2$s</xliff:g></string>
+    <string-array name="network_switch_type_name">
+        <item>sonraí soghluaiste</item>
+        <item>Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Eitirnéad</item>
+        <item>VPN</item>
+    </string-array>
+    <string name="network_switch_type_name_unknown">cineál líonra anaithnid</string>
+</resources>

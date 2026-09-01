@@ -43,9 +43,11 @@
     <string name="cloud_sync_cancel">Anule</string>
     <string name="cloud_sync_opt_in_text">Il to dizionari personâl al vignarà sincronizât e archiviât come backup sui servidôrs di Google. Al è pussibil che a vegnin tiradis dongje lis informazions statistichis su la frecuence des peraulis par judâ a miorâ i nestris prodots. I dâts tirâts dongje e la lôr utilizazion a rispietaran lis <a href="https://www.google.com/policies/privacy">Normis su la riservatece di Google</a>.
     </string>
-    <string name="add_account_to_enable_sync">        Zonte un account Google a chest dispositîf par ativâ cheste funzionalitât
+    <string name="add_account_to_enable_sync">
+        Zonte un account Google a chest dispositîf par ativâ cheste funzionalitât
     </string>
-    <string name="cloud_sync_summary_disabled_work_profile">        La sincronizazion no je disponibile pai dispositîfs cun accounts Google Apps for Business
+    <string name="cloud_sync_summary_disabled_work_profile">
+        La sincronizazion no je disponibile pai dispositîfs cun accounts Google Apps for Business
     </string>
     <string name="include_other_imes_in_language_switch_list">Passe a altris metodis di imission</string>
     <string name="include_other_imes_in_language_switch_list_summary">Il tast par cambiâ lenghe al ufrìs altris metodis di imission</string>

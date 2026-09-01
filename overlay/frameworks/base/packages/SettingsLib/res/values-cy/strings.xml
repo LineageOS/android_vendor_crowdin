@@ -463,7 +463,8 @@
     <string name="daltonizer_mode_protanomaly">Protoanomaledd (coch-gwyrdd)</string>
     <string name="daltonizer_mode_tritanomaly">Trithoanomaledd (glas-melyn)</string>
     <string name="accessibility_display_daltonizer_preference_title">Cywiriad lliw</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[        Gall cywiriad lliw fod o help fan fyddi di eisiau:<br/>
+    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[
+        Gall cywiriad lliw fod o help fan fyddi di eisiau:<br/>
         <ol>
             <li>&nbsp;Gweld lliwiau yn fwy cywir</li>
             <li>&nbsp;Tynnu lliwiau i dy helpu i ffocysu</li>
@@ -539,7 +540,8 @@
     <string name="ims_reg_status_not_registered">"Heb gofrestru"</string>
     <string name="status_unavailable">Dim ar gael</string>
     <string name="wifi_status_mac_randomized">MAC wedi\u2019i osod ar hap</string>
-    <string name="wifi_tether_connected_summary">        {count, plural,
+    <string name="wifi_tether_connected_summary">
+        {count, plural,
             zero {}
             one {# dyfais wedi cysylltu}
             two {# ddyfais wedi cysylltu}
@@ -559,7 +561,8 @@
     <string name="alarms_and_reminders_label">Larymau a nodiadau atgoffa</string>
     <string name="alarms_and_reminders_switch_title">Caniatáu gosod larymau a nodiadau atgoffa</string>
     <string name="alarms_and_reminders_title">Larymau a nodiadau atgoffa</string>
-    <string name="alarms_and_reminders_footer_title">        Caniatáu i\u2019r ap hwn osod larymau a gweithrediadau yn ôl amser.
+    <string name="alarms_and_reminders_footer_title">
+        Caniatáu i\u2019r ap hwn osod larymau a gweithrediadau yn ôl amser.
         Mae hyn yn caniatáu i\u2019r ap rhedeg yn y cefndir, ac o bosib defnyddio mwy o fatri.\n\nOs na roddir
         y caniatâd hwn, bydd larymau a gweithgareddau wedi\u2019u trefnu gan yr ap hwn ddim yn gweithio.
     </string>

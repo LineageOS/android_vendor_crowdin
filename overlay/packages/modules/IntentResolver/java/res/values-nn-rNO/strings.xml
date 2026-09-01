@@ -54,62 +54,76 @@
     <string name="other_files">{count, plural,
 =1 {+ # fil}
 other {+ # filer}
-}</string>
+}
+</string>
     <string name="more_files">{count, plural,
 =1 {+ # fil til}
 other {+ # fleire filer}
-}</string>
+}
+</string>
     <string name="sharing_text">Deler tekst</string>
     <string name="sharing_link">Deler lenke</string>
     <string name="sharing_images">{count, plural,
 =1 {Deler bilete}
 other {Deler # bilete}
-}</string>
+}
+</string>
     <string name="sharing_videos">{count, plural,
 =1 {Deler video}
 other {Deler # videoar}
-}</string>
+}
+</string>
     <string name="sharing_files">{count, plural,
 =1 {Deler # fil}
 other {Deler # filer}
-}</string>
+}
+</string>
     <string name="sharing_images_with_text">{count, plural,
 =1 {Deler bilete med tekst}
 other {Deler # bilete med tekst}
-}</string>
+}
+</string>
     <string name="sharing_images_with_link">{count, plural,
 =1 {Deler bilete med lenke}
 other {Deler # bilete med lenke}
-}</string>
+}
+</string>
     <string name="sharing_videos_with_text">{count, plural,
 =1 {Deler video med tekst}
 other {Deler # videoar med tekst}
-}</string>
+}
+</string>
     <string name="sharing_videos_with_link">{count, plural,
 =1 {Deler video med lenke}
 other {Deler # videoar med lenke}
-}</string>
+}
+</string>
     <string name="sharing_files_with_text">{count, plural,
 =1 {Deler fil med tekst}
 other {Deler # filer med tekst}
-}</string>
+}
+</string>
     <string name="sharing_files_with_link">{count, plural,
 =1 {Deler fil med lenke}
 other {Deler # filer med lenke}
-}</string>
+}
+</string>
     <string name="sharing_album">Deler album</string>
     <string name="sharing_images_only">{count, plural,
 =1 {Berre bilete}
 other {Berre bilete}
-}</string>
+}
+</string>
     <string name="sharing_videos_only">{count, plural,
 =1 {Berre video}
 other {Berre videoar}
-}</string>
+}
+</string>
     <string name="sharing_files_only">{count, plural,
 =1 {Berre fil}
 other {Berre filer}
-}</string>
+}
+</string>
     <string name="image_preview_a11y_description">Førehandsvising av bilete</string>
     <string name="video_preview_a11y_description">Førehandsvising av video</string>
     <string name="file_preview_a11y_description">Førehandsvising av fil</string>

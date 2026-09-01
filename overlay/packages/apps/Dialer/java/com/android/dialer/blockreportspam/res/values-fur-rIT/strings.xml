@@ -15,9 +15,11 @@
   ~ limitations under the License
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="block_number_confirmation_title">    Blocâ <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?
+  <string name="block_number_confirmation_title">
+    Blocâ <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?
   </string>
-  <string name="block_number_confirmation_message_new_filtering">    No tu ricevarâs plui clamadis e messaçs di test di chest numar.
+  <string name="block_number_confirmation_message_new_filtering">
+    No tu ricevarâs plui clamadis e messaçs di test di chest numar.
   </string>
   <string name="block_number_ok">BLOCHE</string>
   <string name="unblock_number_ok">SBLOCHE</string>

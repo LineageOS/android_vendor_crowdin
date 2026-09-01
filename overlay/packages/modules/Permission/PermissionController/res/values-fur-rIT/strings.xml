@@ -38,7 +38,8 @@
     <string name="grant_dialog_button_dont_select_more">No sta selezionâ di plui</string>
     <string name="grant_dialog_button_deny_anyway">No sta permeti distès</string>
     <string name="grant_dialog_button_dismiss">Ignore</string>
-    <string name="current_permission_template">        <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> di
+    <string name="current_permission_template">
+        <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> di
         <xliff:g id="permission_count" example="2">%2$s</xliff:g></string>
     <string name="permission_warning_template">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di
@@ -130,7 +131,8 @@
     <string name="permission_request_title">Richieste di permès</string>
     <string name="permission_review_title_template_install">Sielç ce che
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; al pues acedi</string>
-    <string name="permission_review_title_template_update">        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; al è stât inzornât.
+    <string name="permission_review_title_template_update">
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; al è stât inzornât.
         Sielç ce che cheste aplicazion e pues acedi.</string>
     <string name="review_button_cancel">Anule</string>
     <string name="review_button_continue">Continue</string>

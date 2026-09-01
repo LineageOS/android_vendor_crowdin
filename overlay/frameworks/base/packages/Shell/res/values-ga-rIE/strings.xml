@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bugreport_notification_channel">Tuairiscí fabht</string>
+    <string name="bugreport_in_progress_title">Tá tuarascáil fabht <xliff:g id="id">#%d</xliff:g> á giniúint</string>
+    <string name="bugreport_finished_title">Tuairisc fabht <xliff:g id="id">#%d</xliff:g> gafa</string>
+    <string name="bugreport_updating_title">Ag cur sonraí leis an tuairisc fabht</string>
+    <string name="bugreport_updating_wait">Fan le do thoil\u2026</string>
+    <string name="bugreport_finished_text" product="watch">Beidh an tuairisc fabht le feiceáil ar an bhfón go luath</string>
+    <string name="bugreport_finished_text" product="tv">Roghnaigh chun do thuairisc fabht a roinnt</string>
+    <string name="bugreport_finished_text" product="default">Tapáil chun do thuairisc fabht a roinnt</string>
+    <string name="bugreport_finished_pending_screenshot_text" product="tv">Roghnaigh do thuairisc fabht a roinnt gan scáileán a thógáil nó fan go gcríochnóidh an scáileán.</string>
+    <string name="bugreport_finished_pending_screenshot_text" product="watch">Tapáil chun do thuairisc fabht a roinnt gan scáileán a thógáil nó fan go gcríochnóidh an scáileán.</string>
+    <string name="bugreport_finished_pending_screenshot_text" product="default">Tapáil chun do thuairisc fabht a roinnt gan scáileán a thógáil nó fan go gcríochnóidh an scáileán.</string>
+    <string name="bugreport_confirm">Bíonn sonraí ó chomhaid loga éagsúla an chórais i dtuairiscí fabht, agus d’fhéadfadh sonraí íogaire a bheith iontu dar leat (amhail sonraí úsáide aipeanna agus suímh). Ná roinn tuairiscí fabht ach le daoine agus aipeanna a bhfuil muinín agat astu.</string>
+    <string name="bugreport_confirm_dont_repeat">Ná taispeáin arís</string>
+    <string name="bugreport_storage_title">Tuairiscí fabht</string>
+    <string name="bugreport_unreadable_text">Níorbh fhéidir an comhad tuairisce fabht a léamh</string>
+    <string name="bugreport_add_details_to_zip_failed">Níorbh fhéidir sonraí an tuairisce fabht a chur leis an gcomhad zip</string>
+    <string name="bugreport_unnamed">gan ainm</string>
+    <string name="bugreport_info_action">Sonraí</string>
+    <string name="bugreport_screenshot_action">Seat Scáileán</string>
+    <string name="bugreport_screenshot_taken">Tógadh an scáileán go rathúil.</string>
+    <string name="bugreport_screenshot_failed">Níorbh fhéidir an seat scáileán a thógáil.</string>
+    <string name="bugreport_info_dialog_title">Sonraí faoin tuairisc fabht <xliff:g id="id">#%d</xliff:g></string>
+    <string name="bugreport_info_name">Ainm comhaid</string>
+    <string name="bugreport_info_title">Teideal an fhabht</string>
+    <string name="bugreport_info_description">Achoimre ar an bhfabht</string>
+    <string name="save">Sábháil</string>
+    <string name="bugreport_intent_chooser_title">Comhroinn tuarascáil fabht</string>
+</resources>

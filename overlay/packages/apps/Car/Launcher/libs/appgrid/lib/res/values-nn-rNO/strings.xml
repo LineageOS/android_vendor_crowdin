@@ -22,11 +22,13 @@
     <string name="app_launcher_title_all_apps">Alle appar</string>
     <string name="app_launcher_title_media_only">Media-appar</string>
     <string name="app_launcher_stop_app_cant_stop_text">Appen kan ikkje stansast.</string>
-    <string name="driving_toast_text">        Du kan ikkje bruka <xliff:g id="app_name" example="Settings">%1$s</xliff:g> medan du køyrer.
+    <string name="driving_toast_text">
+        Du kan ikkje bruka <xliff:g id="app_name" example="Settings">%1$s</xliff:g> medan du køyrer.
     </string>
     <string name="hide_debug_apps">Gøym appar for feilsøking</string>
     <string name="show_debug_apps">Vis appar for feilsøking</string>
-    <string name="user_tos_activity_intent">        intent:#Intent;action=com.android.car.SHOW_USER_TOS_ACTIVITY;B.show_value_prop=false;end
+    <string name="user_tos_activity_intent">
+        intent:#Intent;action=com.android.car.SHOW_USER_TOS_ACTIVITY;B.show_value_prop=false;end
     </string>
     <string name="banner_title_text">For å bruka appar som krev brukarvilkår, må du godta brukarvilkåra</string>
     <string name="banner_review_button_text">Sjå gjennom</string>

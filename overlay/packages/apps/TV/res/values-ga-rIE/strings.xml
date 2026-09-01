@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="play_controls_description_skip_next">Ar Aghaidh</string>
+    <string name="options_item_settings">Socruithe</string>
+    <string name="multi_audio_unknown_language">Teanga anaithnid</string>
+    <string name="closed_caption_unknown_language">Fotheidil dhúnta <xliff:g id="unknown_language_index" example="1">%1$d</xliff:g></string>
+    <string name="side_panel_title_closed_caption">Fotheidil dhúnta</string>
+    <string name="closed_caption_option_item_off">As</string>
+    <string name="closed_caption_system_settings">Saincheap an fhormáidiú</string>
+    <string name="closed_caption_system_settings_description">Socraigh roghanna uile-chórais le haghaidh fotheidil dúnta</string>
+    <string name="side_panel_title_display_mode">Mód taispeána</string>
+    <string name="side_panel_title_multi_audio">Il-fuaim</string>
+    <string name="multi_audio_channel_mono">mona</string>
+    <string name="multi_audio_channel_stereo">steirió</string>
+    <string name="multi_audio_channel_surround_6">Timpeall 5.1</string>
+    <string name="multi_audio_channel_surround_8">Timpeall 7.1</string>
+    <string name="multi_audio_channel_suffix"><xliff:g id="audio_channel_count" example="5">%d</xliff:g> cainéil</string>
+    <string name="side_panel_title_edit_channels_for_an_input">Saincheap an liosta cainéal</string>
+    <string name="edit_channels_item_select_group">Roghnaigh grúpa</string>
+    <string name="edit_channels_item_deselect_group">Díroghnaigh grúpa</string>
+    <string name="edit_channels_item_group_by">Grúpáil de réir</string>
+    <string name="edit_channels_group_by_sources">Foinse an chainéil</string>
+    <string name="edit_channels_group_by_hd_sd">HD/SD</string>
+    <string name="edit_channels_group_divider_for_hd">HD</string>
+    <string name="edit_channels_group_divider_for_sd">SD</string>
+    <string name="side_panel_title_group_by">Grúpáil de réir</string>
+    <string name="program_guide_content_locked">Tá an clár seo blocáilte</string>
+    <string name="program_guide_content_locked_unrated">Níl an clár seo rátáilte</string>
+    <string name="program_guide_content_locked_format">Tá an clár seo rátáilte <xliff:g id="rating" example="TV_MA">%1$s</xliff:g></string>
+    <string name="msg_no_setup_activity">Ní thacaíonn an t-ionchur le scanadh uathoibríoch</string>
+    <string name="msg_unable_to_start_setup_activity">Ní féidir scanadh uathoibríoch a thosú le haghaidh \'<xliff:g id="tv_input" example="Tuner Tógtha isteach">%s</xliff:g>\'</string>
+    <string name="msg_unable_to_start_system_captioning_settings">Ní féidir na roghanna córais uile-leathana le haghaidh fotheidil dhúnta a thosú.</string>
+    <string name="msg_no_channel_added">Níor cuireadh aon chainéil leis</string>
+    <string name="menu_parental_controls">Rialuithe tuismitheoirí</string>
+    <string name="option_toggle_parental_controls_on">Ar</string>
+    <string name="option_toggle_parental_controls_off">As</string>
+    <string name="option_channels_locked">Cainéil blocáilte</string>
+    <string name="option_channels_lock_all">Blocáil gach rud</string>
+    <string name="option_channels_unlock_all">Díbhlocáil gach rud</string>
+    <string name="option_channels_subheader_hidden">Bealaí i bhfolach</string>
+    <string name="option_program_restrictions">Srianta cláir</string>
+    <string name="option_change_pin">Athraigh an PIN</string>
+    <string name="option_country_rating_systems">Córais rátála</string>
+    <string name="option_ratings">Rátálacha</string>
+    <string name="option_see_all_rating_systems">Féach ar na córais rátála uile</string>
+    <string name="other_countries">Tíortha eile</string>
+    <string name="option_no_locked_channel">Dada</string>
+    <string name="option_no_enabled_rating_system">Dada</string>
+    <string name="unrated_rating_name">Gan rátáil</string>
+    <string name="option_block_unrated_programs">Blocáil cláir gan rátáil</string>
+    <string name="option_rating_none">Dada</string>
+    <string name="option_rating_high">Srianta arda</string>
+    <string name="option_rating_medium">Srianta meánacha</string>
+    <string name="option_rating_low">Srianta ísle</string>
+    <string name="option_rating_custom">Saincheaptha</string>
+    <string name="option_rating_high_description">Ábhar atá oiriúnach do leanaí</string>
+    <string name="option_rating_medium_description">Ábhar atá oiriúnach do pháistí níos sine</string>
+    <string name="option_rating_low_description">Ábhar atá oiriúnach do dhéagóirí</string>
+    <string name="option_rating_custom_description">Srianta láimhe</string>
+    <string name="side_panel_title_settings">Socruithe</string>
+    <string name="setup_input_no_channels">Níl aon chainéil ar fáil</string>
+    <string name="setup_input_new">Nua</string>
+    <string name="setup_input_setup_now">Gan socrú</string>
+    <string name="setup_store_action_title">Faigh tuilleadh foinsí</string>
+    <string name="setup_store_action_description">Brabhsáil aipeanna a thairgeann bealaí beo</string>
+    <string name="new_sources_title">Foinsí nua cainéal ar fáil</string>
+    <string name="new_sources_description">Tá bealaí le tairiscint ag foinsí nua cainéal. Socraigh iad anois, nó déan é seo níos déanaí i socruithe foinsí cainéal.</string>
+    <string name="new_sources_action_setup">Socraigh anois</string>
+    <string name="new_sources_action_skip">Ceart go leor, tuigim é.</string>
+    <string name="intro_title">@string/app_name</string>
+    <string name="intro_description"><b>Brúigh ROGHNAIGH</b> chun rochtain a fháil ar roghchlár na teilifíse.</string>
+    <string name="msg_no_input">Níor aimsíodh aon ionchur teilifíse</string>
+    <string name="msg_no_specific_input">Ní féidir ionchur an teilifíse a aimsiú</string>
+    <string name="msg_not_passthrough_input">Cineál tiúnóra neamhoiriúnach. Seoladh an aip <xliff:g id="app_name">Teilifís Bheo</xliff:g> le haghaidh ionchur teilifíse de chineál tiúnóra.</string>
+    <string name="msg_tune_failed">Theip ar an tiúnáil</string>
+    <string name="msg_missing_app">Ní bhfuarthas aon aip chun an gníomh seo a láimhseáil.</string>
+    <string name="msg_all_channels_hidden">Tá na bealaí foinseacha go léir i bhfolach.\nRoghnaigh cainéal amháin ar a laghad le féachaint air.</string>
+    <string name="msg_channel_unavailable_unknown">Tá an físeán ar fáil gan choinne</string>
+    <string name="msg_channel_unavailable_not_connected">Gan Comhartha. Seiceáil do nasc foinse le do thoil.</string>
+    <string name="msg_back_key_guide">Is é an eochair AR AIS an gléas ceangailte. Brúigh an cnaipe BAILE chun imeacht.</string>
+    <string name="msg_read_tv_listing_permission_denied">Teastaíonn cead ó <xliff:g id="app_name">Teilifís Bheo</xliff:g> chun na cláir teilifíse a léamh.</string>
+    <string name="dvr_notification_channel_name">DVR <xliff:g id="app_name">Teilifís Bheo</xliff:g></string>
+    <string name="dvr_notification_content_title">DVR <xliff:g id="app_name">Teilifís Bheo</xliff:g></string>
+    <string name="dvr_notification_content_text_recording">Tá <xliff:g id="app_name">Teilifís Bheo</xliff:g> ag taifeadadh.</string>
+    <string name="dvr_notification_content_text_loading">Tá sceidil taifeadta á nuashonrú ag <xliff:g id="app_name">Live TV</xliff:g>.</string>
+    <string name="setup_sources_text">Socraigh do fhoinsí</string>
+    <string name="channels_item_dvr">Taifeadtaí &amp; sceidil</string>
+    <string name="recording_start_dialog_10_min_duration">10 nóiméad</string>
+    <string name="recording_start_dialog_30_min_duration">30 nóiméad</string>
+    <string name="recording_start_dialog_1_hour_duration">1 uair an chloig</string>
+    <string name="recording_start_dialog_3_hours_duration">3 uair an chloig</string>
+    <string name="dvr_main_recent">Le déanaí</string>
+    <string name="dvr_main_scheduled">Sceidealaithe</string>
+    <string name="dvr_main_series">Sraith</string>
+    <string name="dvr_main_others">Eile</string>
+    <string name="dvr_msg_cannot_record_channel">Ní féidir an cainéal a thaifeadadh.</string>
+    <string name="dvr_msg_cannot_record_program">Ní féidir an clár a thaifeadadh.</string>
+    <string name="dvr_msg_program_scheduled">Tá sceideal déanta le taifeadadh a dhéanamh ar <xliff:g id="programName" example="Teoiric an Phléasca Mhóir">%1$s</xliff:g></string>
+    <string name="dvr_msg_current_program_scheduled">Ag taifeadadh <xliff:g id="programName" example="Big Bang theory">%1$s</xliff:g> ó anois go <xliff:g id="endTime" example="12:30 PM">%2$s</xliff:g></string>
+    <string name="dvr_history_card_view_title">Stair Taifeadta</string>
+    <string name="dvr_full_schedule_card_view_title">Sceideal iomlán</string>
+    <string name="dvr_recording_failed">Theip ar an taifeadadh.</string>
+    <string name="dvr_recording_failed_no_period">Theip ar an Taifeadadh</string>
+    <string name="dvr_recording_conflict">Coimhlint Taifeadta</string>
+    <string name="dvr_detail_schedule_recording">Sceideal taifeadadh</string>
+    <string name="dvr_detail_cancel_recording">Cealaigh an taifeadadh</string>
+    <string name="dvr_detail_stop_recording">Stop a thaifeadadh</string>
+    <string name="dvr_detail_watch">Faire</string>
+    <string name="dvr_detail_delete">Scrios</string>
+    <string name="dvr_priority_button_action_save">Sábháil</string>
+    <string name="dvr_action_stop">Stop</string>
+    <string name="dvr_epg_program_recordable">Intaifeadta</string>
+    <string name="dvr_epg_program_recording_scheduled">Taifeadadh sceidealaithe</string>
+    <string name="dvr_epg_program_recording_conflict">Coimhlint taifeadta</string>
+    <string name="dvr_epg_program_recording_in_progress">Taifeadadh</string>
+    <string name="dvr_epg_program_recording_failed">Theip ar an taifeadadh</string>
+    <string name="dvr_epg_channel_watch_conflict_dialog_title">Sceidil atá le teacht</string>
+    <string name="dvr_epg_channel_watch_conflict_dialog_description">Ní dhéanfar an clár a thaifeadadh má leanann tú ort ag breathnú ar an gcainéal seo. Cealaigh an taifeadadh, nó cuirfear bac ar an gcainéal reatha nuair a thosaíonn an taifeadadh.</string>
+    <string name="dvr_series_progress_message_reading_programs">Cláir léitheoireachta</string>
+    <string name="dvr_error_insufficient_space_action_view_recent_recordings">Féach ar thaifeadtaí le déanaí</string>
+    <string name="dvr_error_insufficient_space_title_one_recording">Tá taifeadadh <xliff:g id="programName" example="Friends">%1$s</xliff:g> neamhchríochnaithe.</string>
+    <string name="dvr_error_insufficient_space_title_two_recordings">Tá taifeadtaí <xliff:g id="programName_1" example="Friends">%1$s</xliff:g> agus <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> neamhiomlán.</string>
+    <string name="dvr_error_insufficient_space_title_three_or_more_recordings">Tá taifeadtaí <xliff:g id="programName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> agus <xliff:g id="programName_3" example="Friends">%3$s</xliff:g> neamhiomlán.</string>
+    <string name="dvr_error_insufficient_space_description_one_recording">Níor críochnaíodh taifeadadh <xliff:g id="programName" example="Friends">%1$s</xliff:g> mar gheall ar easpa stórála.</string>
+    <string name="dvr_error_insufficient_space_description_two_recordings">Níor críochnaíodh taifeadtaí <xliff:g id="programName_1" example="Friends">%1$s</xliff:g> agus <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> mar gheall ar easpa stórála.</string>
+    <string name="dvr_error_insufficient_space_description_three_or_more_recordings">Níor críochnaíodh taifeadtaí <xliff:g id="programName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="programName_2" example="Friends">%2$s</xliff:g> agus <xliff:g id="programName_3" example="Friends">%3$s</xliff:g> mar gheall ar easpa stórála.</string>
+    <string name="dvr_error_small_sized_storage_title">Tuilleadh stórála ag teastáil</string>
+    <string name="dvr_error_small_sized_storage_description">Beidh tú in ann cláir a thaifeadadh. Mar sin féin, níl dóthain stórála ar do ghléas chun tús a chur leis an taifeadadh. Ceangail tiomántán seachtrach atá <xliff:g id="storage_size" example="10GB">%1$d</xliff:g>GB nó níos mó agus lean na céimeanna chun é a fhormáidiú mar stóráil gléis.</string>
+    <string name="dvr_error_no_free_space_title">Gan dóthain stórála</string>
+    <string name="dvr_error_no_free_space_description">Ní dhéanfar an clár seo a thaifeadadh mar nach bhfuil dóthain stórais ann. Bain triail as roinnt taifeadtaí atá ann cheana a scriosadh.</string>
+    <string name="dvr_error_missing_storage_title">Stóráil ar iarraidh</string>
+    <string name="dvr_error_missing_storage_description">Tá cuid den stóráil a úsáidtear le haghaidh taifeadta ar iarraidh. Ceangail an tiomántán seachtrach a d\'úsáid tú roimhe seo le taifeadadh a athchumasú. Nó is féidir leat dearmad a dhéanamh ar an stóráil sna socruithe stórála, mura bhfuil sé ar fáil a thuilleadh.</string>
+    <string name="dvr_toast_recording_deleted">Níor aimsíodh an taifeadadh.</string>
+    <string name="dvr_stop_recording_dialog_title">Stop a chur leis an taifeadadh?</string>
+    <string name="dvr_stop_recording_dialog_description">Sábhálfar an t-ábhar taifeadta.</string>
+    <string name="dvr_stop_recording_dialog_description_on_conflict">Cuirfear stop le taifeadadh <xliff:g id="programName" example="Friends">%1$s</xliff:g> mar go bhfuil coimhlint ann leis an gclár seo. Sábhálfar an t-ábhar taifeadta.</string>
+    <string name="dvr_program_conflict_dialog_title">Sceidealú taifeadta ach tá coimhlintí ann</string>
+    <string name="dvr_channel_conflict_dialog_title">Tá tús curtha leis an taifeadadh ach tá coimhlintí ann</string>
+    <string name="dvr_program_conflict_dialog_description_prefix">Déanfar <xliff:g id="programName" example="Friends">%1$s</xliff:g> a thaifeadadh.</string>
+    <string name="dvr_channel_conflict_dialog_description_prefix">Tá <xliff:g id="channelName" example="KQED">%1$s</xliff:g> á thaifeadadh.</string>
+    <string name="dvr_program_conflict_dialog_description_1">Ní dhéanfar cuid de <xliff:g id="conflictProgramName" example="Friends">%1$s</xliff:g> a thaifeadadh.</string>
+    <string name="dvr_program_conflict_dialog_description_2">Ní dhéanfar cuid de <xliff:g id="conflictProgramName_1" example="Friends">%1$s</xliff:g> agus <xliff:g id="conflictProgramName_2" example="Friends">%2$s</xliff:g> a thaifeadadh.</string>
+    <string name="dvr_program_conflict_dialog_description_3">Ní dhéanfar cuid de <xliff:g id="conflictProgramName_1" example="Friends">%1$s</xliff:g>, <xliff:g id="conflictProgramName_2" example="Friends">%2$s</xliff:g> agus sceideal amháin eile a thaifeadadh.</string>
+    <string name="dvr_schedule_dialog_title">Cad ba mhaith leat a thaifeadadh?</string>
+    <string name="dvr_channel_record_duration_dialog_title">Cá fhad ar mhaith leat taifeadadh?</string>
+    <string name="dvr_already_scheduled_dialog_title">Sceidealaithe cheana féin</string>
+    <string name="dvr_already_scheduled_dialog_description">Tá an clár céanna sceidealaithe cheana féin le taifeadadh ag <xliff:g id="programStartTime" example="7:30 AM ar 27 Meitheamh.">%1$s</xliff:g>.</string>
+    <string name="dvr_already_recorded_dialog_title">Taifeadta cheana féin</string>
+    <string name="dvr_already_recorded_dialog_description">Tá an clár seo taifeadta cheana féin. Tá sé ar fáil i leabharlann an DVR.</string>
+    <string name="dvr_series_recording_dialog_title">Taifeadadh sraithe sceidealaithe</string>
+    <string name="dvr_program_not_found">Níor aimsíodh an clár taifeadta.</string>
+    <string name="dvr_playback_related_recordings">Taifeadtaí gaolmhara</string>
+    <string name="dvr_recording_till_format">Ag taifeadadh go dtí <xliff:g id="recordingEndTime" example="9:00pm">%1$s</xliff:g></string>
+    <string name="dvr_schedules_information_separator"> / </string>
+    <string name="dvr_series_schedules_stop_dialog_action_stop">Stop</string>
+    <string name="tv_iapp_on">Ar</string>
+    <string name="tv_iapp_off">As</string>
+</resources>

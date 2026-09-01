@@ -135,7 +135,8 @@ other {Du er no # steg frå å verta utviklar.}
     <string name="connected_device_fast_pair_device_see_all">Sjå alle</string>
     <string name="stylus_device_details_title">Stylus</string>
     <string name="stylus_default_notes_app">Trykk på bakknappen</string>
-    <string name="stylus_default_notes_summary_work">        <xliff:g id="app_name" example="Mail">%s</xliff:g> (Arbeidsprofil)</string>
+    <string name="stylus_default_notes_summary_work">
+        <xliff:g id="app_name" example="Mail">%s</xliff:g> (Arbeidsprofil)</string>
     <string name="stylus_textfield_handwriting">Skriv i tekstfelt</string>
     <string name="stylus_ignore_button">Sjå bort frå alle trykk på stylus-knappar</string>
     <string name="stylus_connected_devices_title">Stylus</string>
@@ -590,9 +591,12 @@ other {# fingeravtrykk er lagte til}
     <string name="private_space_setup_title">Privat område</string>
     <string name="private_space_hide_apps_summary">Gøym eller lås private appar i eit separat område. Bruk ein eigen Google-konto for ekstra tryggleik.</string>
     <string name="private_space_setup_sub_header">Set opp det private området ditt</string>
-    <string name="private_space_separate_account_text">        <b>Vel ein Google-konto for området ditt</b>\nVed å bruka ein eigen konto hindrar du at synkroniserte filer, bilete og e-postar vert viste utanfor området</string>
-    <string name="private_space_protected_lock_text">        <b>Set på ein lås</b>\nLås området ditt for å hindra at andre opnar det</string>
-    <string name="private_space_install_apps_text">        <b>Installer appar</b>\nDet private området har ein eigen Play Store, slik at det er lett å installera appar.</string>
+    <string name="private_space_separate_account_text">
+        <b>Vel ein Google-konto for området ditt</b>\nVed å bruka ein eigen konto hindrar du at synkroniserte filer, bilete og e-postar vert viste utanfor området</string>
+    <string name="private_space_protected_lock_text">
+        <b>Set på ein lås</b>\nLås området ditt for å hindra at andre opnar det</string>
+    <string name="private_space_install_apps_text">
+        <b>Installer appar</b>\nDet private området har ein eigen Play Store, slik at det er lett å installera appar.</string>
     <string name="private_space_apps_permission_text">Appar i det private området vert ikkje viste i oversiktene for løyve, personvern og andre innstillingar når området er låst.\n\nDet private området kan ikkje flyttast til ei ny eining. Du må setja opp eit nytt privat område dersom du vil bruka det på ein annan telefon.\n\nAlle som koplar telefonen til ei datamaskin eller installerer skadelege appar på telefonen, kan kanskje få tilgang til det private området ditt.</string>
     <string name="private_space_setting_up_text">Set opp privat område \u2026</string>
     <string name="private_space_notifications_hidden_title">Varslingar frå private appar vert gøymde når området er låst</string>
@@ -622,7 +626,8 @@ other {# fingeravtrykk er lagte til}
     <string name="private_space_sensitive_notifications_description">Vis sensitivt innhald når det private området er låst opp</string>
     <string name="private_space_gaia_education_title">Lag ein Google-konto for å halda dataa dine private</string>
     <string name="private_space_gaia_education_description">I det neste steget kan du logga på ein konto du vil bruka med det private området</string>
-    <string name="private_space_gaia_education_header">        <b>Lag ein eigen konto for å hindra at data vert viste utanfor det private området, som til dømes:</b>
+    <string name="private_space_gaia_education_header">
+        <b>Lag ein eigen konto for å hindra at data vert viste utanfor det private området, som til dømes:</b>
     </string>
     <string name="private_space_gaia_education_bullet1">Synkroniserte bilete, filer, e-postar, kontaktar, kalenderhendingar og andre data</string>
     <string name="private_space_gaia_education_bullet2">Nedlastingslogg for appar og tilrådingar</string>
@@ -707,10 +712,14 @@ other {# fingeravtrykk er lagte til}
     <string name="unlock_disable_frp_warning_content_unknown_face">"Vernefunksjonane på eininga fungerer ikkje utan skjermlås.<xliff:g id="empty_line">\n\n</xliff:g>Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet for å stadfesta kven du er i appar."</string>
     <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint">"Vernefunksjonane på eininga fungerer ikkje utan skjermlås.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar fingeravtrykksmodellen på eininga. Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet eller fingeravtrykk for å stadfesta kven du er i appar."</string>
     <string name="unlock_disable_frp_warning_ok">Slett</string>
-    <string name="unlock_footer_high_complexity_requested">        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår ein sterk PIN-kode eller eit sterkt passord, og fungerer kanskje ikkje som forventa utan eit slikt</string>
-    <string name="unlock_footer_medium_complexity_requested">        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår ein ny PIN-kode eller eit nytt passord, og fungerer kanskje ikkje som forventa utan eit slikt</string>
-    <string name="unlock_footer_low_complexity_requested">        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår eit nytt mønster, ein ny PIN-kode eller eit nytt passord, og fungerer kanskje ikkje som forventa utan eit slikt</string>
-    <string name="unlock_footer_none_complexity_requested">        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår ein ny skjermlås</string>
+    <string name="unlock_footer_high_complexity_requested">
+        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår ein sterk PIN-kode eller eit sterkt passord, og fungerer kanskje ikkje som forventa utan eit slikt</string>
+    <string name="unlock_footer_medium_complexity_requested">
+        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår ein ny PIN-kode eller eit nytt passord, og fungerer kanskje ikkje som forventa utan eit slikt</string>
+    <string name="unlock_footer_low_complexity_requested">
+        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår eit nytt mønster, ein ny PIN-kode eller eit nytt passord, og fungerer kanskje ikkje som forventa utan eit slikt</string>
+    <string name="unlock_footer_none_complexity_requested">
+        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår ein ny skjermlås</string>
     <string name="lock_failed_attempts_before_wipe">Prøv på nytt. Forsøk <xliff:g id="current_attempts">%1$d</xliff:g> av <xliff:g id="total_attempts">%2$d</xliff:g>.</string>
     <string name="lock_last_attempt_before_wipe_warning_title">Dataa dine vert sletta</string>
     <string name="lock_last_pattern_attempt_before_wipe_device">Dersom du teiknar feil mønster i det neste forsøket, vert alle data på eininga sletta</string>
@@ -729,7 +738,8 @@ other {Må ha minst # teikn}
     <string name="lockpassword_password_too_short_all_numeric"> {count, plural,
 =1 {Brukar du berre tal, må du ha minst 1 siffer}
 other {Brukar du berre tal, må du ha minst # siffer}
-}</string>
+}
+</string>
     <string name="lockpassword_pin_too_short">{count, plural,
 =1 {PIN-koden må ha minst # siffer}
 other {PIN-koden må ha minst # siffer}
@@ -865,14 +875,20 @@ other {# aktive tillitstenester}
     <string name="wifi_band_6ghz">6 GHz</string>
     <string name="wifi_sign_in_button_text">Logg på</string>
     <string name="wifi_venue_website_button_text">Opna nettstaden</string>
-    <string name="wifi_time_remaining">        <xliff:g id="Remaining time" example="1 day, 2 hours, 3 minutes">%1$s</xliff:g> att</string>
+    <string name="wifi_time_remaining">
+        <xliff:g id="Remaining time" example="1 day, 2 hours, 3 minutes">%1$s</xliff:g> att</string>
     <string name="wifi_expiry_time">Går ut <xliff:g id="Expiry time" example="2020/01/02 12:34PM">%1$s</xliff:g>
     </string>
-    <string name="tx_link_speed">        <xliff:g id="Transmit link speed" example="150 Mbps">%1$d</xliff:g> Mbit/s</string>
-    <string name="rx_link_speed">        <xliff:g id="Receive link speed" example="54 Mbps">%1$d</xliff:g> Mbit/s</string>
-    <string name="link_speed">        <xliff:g id="Link speed" example="54 Mbps">%1$d</xliff:g> Mbit/s</string>
-    <string name="wifi_ask_enable">        <xliff:g id="requester" example="FancyApp">%s</xliff:g> vil slå på Wi-Fi</string>
-    <string name="wifi_ask_disable">        <xliff:g id="requester" example="FancyApp">%s</xliff:g> vil slå av Wi-Fi</string>
+    <string name="tx_link_speed">
+        <xliff:g id="Transmit link speed" example="150 Mbps">%1$d</xliff:g> Mbit/s</string>
+    <string name="rx_link_speed">
+        <xliff:g id="Receive link speed" example="54 Mbps">%1$d</xliff:g> Mbit/s</string>
+    <string name="link_speed">
+        <xliff:g id="Link speed" example="54 Mbps">%1$d</xliff:g> Mbit/s</string>
+    <string name="wifi_ask_enable">
+        <xliff:g id="requester" example="FancyApp">%s</xliff:g> vil slå på Wi-Fi</string>
+    <string name="wifi_ask_disable">
+        <xliff:g id="requester" example="FancyApp">%s</xliff:g> vil slå av Wi-Fi</string>
     <string name="art_verifier_for_debuggable_title">Sjekk bytekode for feilsøkingsappar</string>
     <string name="art_verifier_for_debuggable_summary">Lat ART sjekka bytekoden for appar som kan feilsøkjast</string>
     <string name="show_refresh_rate">Vis oppdateringsfrekvens</string>
@@ -1068,7 +1084,8 @@ other {# nettverk og abonnement}
     <string name="internet_source_wifi">Wi-Fi</string>
     <string name="internet_source_mobile_data">Mobildata</string>
     <string name="internet_source_ethernet">Ethernet</string>
-    <string name="hotspot_battery_charging_summary">        <xliff:g id="battery_percentage" example="80%">%1$s</xliff:g> – ladar</string>
+    <string name="hotspot_battery_charging_summary">
+        <xliff:g id="battery_percentage" example="80%">%1$s</xliff:g> – ladar</string>
     <string name="hotspot_connection_category">Samband for Wi-Fi-sone</string>
     <string name="hotspot_connection_strength">Signalstyrke</string>
     <string name="wifi_saved_access_points_label">Lagra nettverk</string>
@@ -1410,7 +1427,8 @@ other {# nettverk og abonnement}
     <string name="storage_free_up_space_title">Frigjer plass</string>
     <string name="storage_free_up_space_summary">Gå til Filer-appen for å styra og frigjera plass</string>
     <string name="storage_other_users">Andre brukarar</string>
-    <string name="storage_size_large">        <xliff:g id="number" example="128">^1</xliff:g>
+    <string name="storage_size_large">
+        <xliff:g id="number" example="128">^1</xliff:g>
         <small>
             <small>
                 <xliff:g id="unit" example="KB">^2</xliff:g>
@@ -2296,7 +2314,8 @@ other {# nettverk og abonnement}
 <li>\u00a0Fargane endrar seg i media og bilete</li>
 <li>\u00a0Fargevending fungerer i alle appar</li>
 <li>\u00a0Du kan bruka mørkt tema i staden for mørk bakgrunn</li>
-</ol>]]></string>
+</ol>
+]]></string>
     <string name="accessibility_action_label_panel_slice">opna innstillingar</string>
     <string name="accessibility_autoclick_preference_title">Autoklikk (kviletid)</string>
     <string name="accessibility_autoclick_about_title">Om autoklikk (kviletid)</string>
@@ -2354,7 +2373,8 @@ other {# nettverk og abonnement}
     <string name="accessibility_captioning_primary_switch_title">Vis teksting</string>
     <string name="accessibility_captioning_primary_switch_summary">Berre for appar som støttar dette</string>
     <string name="captioning_appearance_title">Storleik og stil på tekstinga</string>
-    <string name="captioning_appearance_summary">        <xliff:g id="accessibility_font_size" example="Large">%1$s</xliff:g> skriftstorleik</string>
+    <string name="captioning_appearance_summary">
+        <xliff:g id="accessibility_font_size" example="Large">%1$s</xliff:g> skriftstorleik</string>
     <string name="captioning_more_options_title">Fleire val</string>
     <string name="accessibility_captioning_preference_intro">Tilpass storleiken og stilen på tekstinga for å gjera ho lettare å lesa</string>
     <string name="accessibility_captioning_preference_summary">Ikkje alle media-appar støttar desse tekstingsinnstillingane</string>
@@ -2469,9 +2489,11 @@ other {{time} sekund}
     <string name="color_yellow">Gul</string>
     <string name="color_magenta">Magenta</string>
     <string name="enable_service_title">Vil du gi <xliff:g id="service" example="TalkBack">%1$s</xliff:g> full kontroll over eininga di?</string>
-    <string name="capabilities_list_title">        <xliff:g id="service" example="TalkBack">%1$s</xliff:g> må kunna:</string>
+    <string name="capabilities_list_title">
+        <xliff:g id="service" example="TalkBack">%1$s</xliff:g> må kunna:</string>
     <string name="touch_filtered_warning">Fordi ein app dekkjer over ein førespurnad om løyve, kan ikkje Innstillingar stadfesta svaret ditt.</string>
-    <string name="accessibility_service_warning">        <xliff:g id="service" example="TalkBack">%1$s</xliff:g> ber om full kontroll over denne eininga. Tenesta kan lesa skjermen og gjera ting på vegner av brukarar med behov for tilgjengefunksjonar. Dette nivået av kontroll er ikkje høveleg for dei fleste appar.</string>
+    <string name="accessibility_service_warning">
+        <xliff:g id="service" example="TalkBack">%1$s</xliff:g> ber om full kontroll over denne eininga. Tenesta kan lesa skjermen og gjera ting på vegner av brukarar med behov for tilgjengefunksjonar. Dette nivået av kontroll er ikkje høveleg for dei fleste appar.</string>
     <string name="accessibility_service_warning_description">Full kontroll er høveleg for appar som hjelper deg med tilgjengebehov, men ikkje for dei fleste appar.</string>
     <string name="accessibility_service_screen_control_title">Sjå og styra skjermen</string>
     <string name="accessibility_service_screen_control_description">Ho kan lesa alt innhald på skjermen og visa innhald over andre appar.</string>
@@ -2527,7 +2549,8 @@ other {# utskriftsjobbar}
     <string name="print_print_job">Utskriftsjobb</string>
     <string name="print_restart">Start på nytt</string>
     <string name="print_cancel">Avbryt</string>
-    <string name="print_job_summary">        <xliff:g id="printer">%1$s</xliff:g>\n<xliff:g id="time">%2$s</xliff:g>
+    <string name="print_job_summary">
+        <xliff:g id="printer">%1$s</xliff:g>\n<xliff:g id="time">%2$s</xliff:g>
     </string>
     <string name="print_configuring_state_title_template">Set opp <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g>
     </string>
@@ -2646,7 +2669,8 @@ other {Avgrensar batteribruken for # appar}
 =1 {# app er avgrensa}
 other {# appar er avgrensa}
 }</string>
-    <string name="battery_header_title_alternate">        <xliff:g id="number" example="88">^1</xliff:g>
+    <string name="battery_header_title_alternate">
+        <xliff:g id="number" example="88">^1</xliff:g>
         <small>
             <font size="20">
                 <xliff:g id="unit" example="%">%</xliff:g>
@@ -2666,9 +2690,11 @@ other {# appar er avgrensa}
     <string name="power_phone">Talesamtalar</string>
     <string name="battery_screen_usage">Skjermbruk <xliff:g id="time">^1</xliff:g>
     </string>
-    <string name="battery_used_by">        <xliff:g id="percent">%1$s</xliff:g> brukt av <xliff:g id="app">%2$s</xliff:g>
+    <string name="battery_used_by">
+        <xliff:g id="percent">%1$s</xliff:g> brukt av <xliff:g id="app">%2$s</xliff:g>
     </string>
-    <string name="battery_overall_usage">        <xliff:g id="percent">%1$s</xliff:g> av det totale batteribruket</string>
+    <string name="battery_overall_usage">
+        <xliff:g id="percent">%1$s</xliff:g> av det totale batteribruket</string>
     <string name="battery_detail_since_full_charge">Oversikt sidan førre lading</string>
     <string name="battery_last_full_charge">Førre lading</string>
     <string name="battery_full_charge_last">Fullading varer i om lag</string>
@@ -2703,7 +2729,8 @@ other {# appar er avgrensa}
     </string>
     <string name="battery_saver_sticky_description_new">Batterisparing blir slått av når batteriet når <xliff:g id="battery_percentage" example="80%">%1$s</xliff:g>
     </string>
-    <string name="battery_saver_seekbar_title">        <xliff:g id="percent">%1$s</xliff:g>
+    <string name="battery_saver_seekbar_title">
+        <xliff:g id="percent">%1$s</xliff:g>
     </string>
     <string name="battery_saver_seekbar_title_placeholder">Slå på</string>
     <string name="battery_saver_master_switch_title">Bruk batterisparing</string>
@@ -2738,12 +2765,15 @@ other {# appar er avgrensa}
     </string>
     <string name="battery_usage_screen_footer_empty">Data om batteribruk er tilgjengeleg om nokre timar etter at eininga er fullada</string>
     <string name="battery_usage_chart_label_now">no</string>
-    <string name="battery_usage_timestamps_hyphen">        <xliff:g id="from_timestamp">%1$s</xliff:g>–<xliff:g id="to_timestamp">%2$s</xliff:g>
+    <string name="battery_usage_timestamps_hyphen">
+        <xliff:g id="from_timestamp">%1$s</xliff:g>–<xliff:g id="to_timestamp">%2$s</xliff:g>
     </string>
-    <string name="battery_usage_day_and_hour">        <xliff:g id="day">%1$s</xliff:g>
+    <string name="battery_usage_day_and_hour">
+        <xliff:g id="day">%1$s</xliff:g>
         <xliff:g id="hour">%2$s</xliff:g>
     </string>
-    <string name="battery_usage_time_info_and_battery_level">        <xliff:g id="time_info" example="Battery usage for Monday 6 AM - 8 AM">%1$s</xliff:g>
+    <string name="battery_usage_time_info_and_battery_level">
+        <xliff:g id="time_info" example="Battery usage for Monday 6 AM - 8 AM">%1$s</xliff:g>
         <xliff:g id="battery_level" example="Battery level percentage from 83% to 59%">%2$s</xliff:g>
     </string>
     <string name="battery_usage_chart">Diagram over batteribruk</string>
@@ -2765,9 +2795,11 @@ other {# appar er avgrensa}
     <string name="process_stats_summary_title">Prosess-statistikk</string>
     <string name="process_stats_summary">Avansert statistikk om prosessar som køyrer</string>
     <string name="app_memory_use">Minnebruk</string>
-    <string name="process_stats_total_duration">        <xliff:g id="usedRam">%1$s</xliff:g> av <xliff:g id="totalRam">%2$s</xliff:g> brukt dei siste <xliff:g id="timeDuration">%3$s</xliff:g>
+    <string name="process_stats_total_duration">
+        <xliff:g id="usedRam">%1$s</xliff:g> av <xliff:g id="totalRam">%2$s</xliff:g> brukt dei siste <xliff:g id="timeDuration">%3$s</xliff:g>
     </string>
-    <string name="process_stats_total_duration_percentage">        <xliff:g id="percent" example="50%">%1$s</xliff:g> av RAM brukt over <xliff:g id="timeDuration">%2$s</xliff:g>
+    <string name="process_stats_total_duration_percentage">
+        <xliff:g id="percent" example="50%">%1$s</xliff:g> av RAM brukt over <xliff:g id="timeDuration">%2$s</xliff:g>
     </string>
     <string name="process_stats_type_background">Bakgrunn</string>
     <string name="process_stats_type_foreground">Framgrunn</string>
@@ -2823,8 +2855,10 @@ other {# appar er avgrensa}
     <string name="tts_play">Spel av</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="vpn_settings_insecure_single">Ikkje trygt</string>
-    <string name="vpn_settings_single_insecure_multiple_total">        <xliff:g id="vpn_count" example="1">%d</xliff:g> er ikkje trygg</string>
-    <string name="vpn_settings_multiple_insecure_multiple_total">        <xliff:g id="vpn_count" example="1">%d</xliff:g> er ikkje trygge</string>
+    <string name="vpn_settings_single_insecure_multiple_total">
+        <xliff:g id="vpn_count" example="1">%d</xliff:g> er ikkje trygg</string>
+    <string name="vpn_settings_multiple_insecure_multiple_total">
+        <xliff:g id="vpn_count" example="1">%d</xliff:g> er ikkje trygge</string>
     <string name="adaptive_connectivity_title">Tilpassa tilkopling</string>
     <string name="adaptive_connectivity_summary">Gjev betre batteritid og yting ved å styra nettverkstilkoplingane automatisk</string>
     <string name="adaptive_connectivity_switch_on">På</string>
@@ -3008,14 +3042,16 @@ other {# varsel}
     <string name="data_usage_warning_editor_title">Still inn varsel for databruk</string>
     <string name="data_usage_limit_editor_title">Fastset grense for databruk</string>
     <string name="data_usage_limit_dialog_title">Avgrensar databruken</string>
-    <string name="data_usage_sweep_warning">        <font size="18">
+    <string name="data_usage_sweep_warning">
+        <font size="18">
             <xliff:g id="number" example="128">^1</xliff:g>
         </font>
         <font size="9">
             <xliff:g id="unit" example="KB">^2</xliff:g>
         </font>\n<font size="12">åtvaring</font>
     </string>
-    <string name="data_usage_sweep_limit">        <font size="18">
+    <string name="data_usage_sweep_limit">
+        <font size="18">
             <xliff:g id="number" example="128">^1</xliff:g>
         </font>
         <font size="9">
@@ -3197,7 +3233,8 @@ other {Sjekk sertifikata}
     <string name="nfc_payment_no_apps">Betal med telefonen i butikkar</string>
     <string name="nfc_payment_default">Standard for betaling</string>
     <string name="nfc_payment_default_not_set">Ikkje vald</string>
-    <string name="nfc_payment_app_and_desc">        <xliff:g id="app">%1$s</xliff:g> – <xliff:g id="description">%2$s</xliff:g>
+    <string name="nfc_payment_app_and_desc">
+        <xliff:g id="app">%1$s</xliff:g> – <xliff:g id="description">%2$s</xliff:g>
     </string>
     <string name="nfc_payment_use_default">Bruk standard betalings-app</string>
     <string name="nfc_payment_use_default_dialog">Bruk standard betalings-app</string>
@@ -3286,7 +3323,8 @@ other {Sjekk sertifikata}
     <string name="color_purple">Lilla</string>
     <string name="sim_status_title">SIM-status</string>
     <string name="sim_status_title_sim_slot">SIM-status (SIM-plass %1$d)</string>
-    <string name="sim_signal_strength">        <xliff:g id="dbm">%1$d</xliff:g> dBm <xliff:g id="asu">%2$d</xliff:g> asu</string>
+    <string name="sim_signal_strength">
+        <xliff:g id="dbm">%1$d</xliff:g> dBm <xliff:g id="asu">%2$d</xliff:g> asu</string>
     <string name="sim_notification_title">SIM-korta dine er endra</string>
     <string name="sim_notification_summary">Trykk for å setja opp</string>
     <string name="sim_calls_ask_first_prefs_title">Spør kvar gong</string>
@@ -3316,7 +3354,8 @@ other {Sjekk sertifikata}
     <string name="cloned_apps_dashboard_title">Klona appar</string>
     <string name="desc_cloned_apps_intro_text">Lag ein kopi av ein app så du kan bruka to kontoar samstundes.</string>
     <string name="desc_cloneable_app_list_text">Appar som kan klonast.</string>
-    <string name="cloned_apps_summary">        <xliff:g id="cloned_apps_count">%1$s</xliff:g> klona, <xliff:g id="allowed_apps_count">%2$d</xliff:g> tilgjengelege for kloning</string>
+    <string name="cloned_apps_summary">
+        <xliff:g id="cloned_apps_count">%1$s</xliff:g> klona, <xliff:g id="allowed_apps_count">%2$d</xliff:g> tilgjengelege for kloning</string>
     <string name="delete_all_app_clones">Slett alle app-klonar</string>
     <string name="delete_all_app_clones_failure">Klarte ikkje sletta alle app-klonane</string>
     <string name="cloned_app_creation_summary">Lagar …</string>
@@ -3443,7 +3482,8 @@ other {Sjekk sertifikata}
     <string name="ringer_content_description_silent_mode">Ringesignal er lydlaust</string>
     <string name="ringer_content_description_vibrate_mode">Ringing med vibrering</string>
     <string name="notification_volume_content_description_vibrate_mode">Varselvolum er dempa, varsel vil vibrera</string>
-    <string name="volume_content_description_silent_mode">        <xliff:g id="volume type" example="notification volume">%1$s</xliff:g> er dempa</string>
+    <string name="volume_content_description_silent_mode">
+        <xliff:g id="volume type" example="notification volume">%1$s</xliff:g> er dempa</string>
     <string name="notification_volume_disabled_summary">Ikkje tilgjengeleg fordi ringelyden er dempa</string>
     <string name="ringtone_title">Ringetone</string>
     <string name="notification_ringtone_title">Standard varsellyd</string>
@@ -3480,7 +3520,8 @@ other {Sjekk sertifikata}
 =0 {Ingen}
 =1 {Éin tidsplan er laga}
 other {# tidsplanar er laga}
-}</string>
+}
+</string>
     <string name="zen_mode_settings_title">Ikkje forstyrr</string>
     <string name="zen_mode_settings_summary">Berre få varsel frå viktige folk og appar</string>
     <string name="zen_mode_slice_subtitle">Avgrens forstyrringar</string>
@@ -3497,7 +3538,8 @@ other {# tidsplanar er laga}
     <string name="zen_mode_automation_suggestion_summary">Set opp reglar for «Ikkje forstyrr»</string>
     <string name="zen_mode_schedule_title">Tidsplan</string>
     <string name="zen_mode_use_automatic_rule">Bruk tidsplan</string>
-    <string name="zen_mode_summary_combination">        <xliff:g id="mode" example="Priority only">%1$s</xliff:g>: <xliff:g id="exit condition" example="Until you turn this off">%2$s</xliff:g>
+    <string name="zen_mode_summary_combination">
+        <xliff:g id="mode" example="Priority only">%1$s</xliff:g>: <xliff:g id="exit condition" example="Until you turn this off">%2$s</xliff:g>
     </string>
     <string name="zen_mode_settings_category">Tillat forstyrringar med lyd</string>
     <string name="zen_mode_visual_interruptions_settings_title">Blokker visuelle forstyrringar</string>
@@ -3546,10 +3588,12 @@ other {# tidsplanar er laga}
     <string name="zen_mode_settings_dnd_automatic_rule">«Ikkje forstyrr» vart slått på automatisk av ein tidsplan (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">«Ikkje forstyrr» vart slått på automatisk av ein app (<xliff:g id="app_name" example="Android Services">%s</xliff:g>)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">«Ikkje forstyrr» er på for <xliff:g id="rule_names" example="Sleeping and Work">%s</xliff:g> med tilpassa innstillingar.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">        <annotation id="link">Sjå tilpassa innstillingar</annotation>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link">
+        <annotation id="link">Sjå tilpassa innstillingar</annotation>
     </string>
     <string name="zen_interruption_level_priority">Berre prioriterte</string>
-    <string name="zen_mode_and_condition">        <xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g>
+    <string name="zen_mode_and_condition">
+        <xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g>
     </string>
     <string name="zen_mode_sound_summary_on_with_info">På / <xliff:g name="dnd_summary" example="No sound except alarms and media">%1$s</xliff:g>
     </string>
@@ -3559,16 +3603,19 @@ other {# tidsplanar er laga}
     <string name="zen_mode_duration_summary_time_hours"> {count, plural,
 =1 {1 time}
 other {# timar}
-}</string>
+}
+</string>
     <string name="zen_mode_duration_summary_time_minutes"> {count, plural,
 =1 {1 minutt}
 other {# minutt}
-}</string>
+}
+</string>
     <string name="zen_mode_sound_summary_off"> {count, plural,
 =0 {Av}
 =1 {Av / 1 tidsplan kan slå seg på automatisk}
 other {Av / # tidsplanar kan slå seg på automatisk}
-}</string>
+}
+</string>
     <string name="zen_category_behavior">Kva som kan avbryta «Ikkje forstyrr»</string>
     <string name="zen_category_people">Personar</string>
     <string name="zen_category_apps">Appar</string>
@@ -3718,7 +3765,8 @@ other {# prioriterte samtalar}
     <string name="allow_interruption_summary">Lat appen spela av lyd, vibrera og visa varsel på skjermen</string>
     <string name="notification_priority_title">Prioritert</string>
     <string name="notification_channel_summary_priority">Vis øvst i samtaledelen, som flytande boble og med profilbilete på låseskjermen</string>
-    <string name="convo_not_supported_summary">        <xliff:g id="app_name" example="Android Services">%1$s</xliff:g> støttar ikkje dei fleste samtalefunksjonane. Du kan ikkje setja ein samtale som prioritert, og samtalar kjem ikkje fram som flytande bobler.</string>
+    <string name="convo_not_supported_summary">
+        <xliff:g id="app_name" example="Android Services">%1$s</xliff:g> støttar ikkje dei fleste samtalefunksjonane. Du kan ikkje setja ein samtale som prioritert, og samtalar kjem ikkje fram som flytande bobler.</string>
     <string name="notification_channel_summary_min">Fald saman varsel til éi linje i varslingsgardina</string>
     <string name="notification_channel_summary_low">Korkje lyd eller vibrering</string>
     <string name="notification_conversation_summary_low">Korkje lyd eller vibrering, og vert vist lågare i samtaledelen</string>
@@ -3789,7 +3837,8 @@ other {Om lag # varsel per veke}
     <string name="vr_listeners_title">VR-hjelpetenester</string>
     <string name="no_vr_listeners">Ingen installerte appar har bede om å køyra som VR-hjelpetenester.</string>
     <string name="vr_listener_security_warning_title">Vil du gjeva <xliff:g id="service" example="VrCore">%1$s</xliff:g> tilgang til VR-tenesta?</string>
-    <string name="vr_listener_security_warning_summary">        <xliff:g id="vr_listener_name">%1$s</xliff:g> vil kunna køyra når du brukar appar i VR-modus (virtuell røynddom).</string>
+    <string name="vr_listener_security_warning_summary">
+        <xliff:g id="vr_listener_name">%1$s</xliff:g> vil kunna køyra når du brukar appar i VR-modus (virtuell røynddom).</string>
     <string name="display_vr_pref_title">Når eininga er i VR-modus</string>
     <string name="display_vr_pref_low_persistence">Minka uskarpleik (tilrådd)</string>
     <string name="display_vr_pref_off">Minka flimring</string>
@@ -3879,7 +3928,8 @@ other {# kategoriar er sletta}
     <string name="zen_mode_rule_not_found_text">Fann ikkje regelen.</string>
     <string name="zen_mode_rule_summary_enabled_combination">På / <xliff:g id="mode" example="Alarms only">%1$s</xliff:g>
     </string>
-    <string name="zen_mode_rule_summary_provider_combination">        <xliff:g id="package" example="Condition Provider App">%1$s</xliff:g>\n<xliff:g id="summary" example="On / Alarms only">%2$s</xliff:g>
+    <string name="zen_mode_rule_summary_provider_combination">
+        <xliff:g id="package" example="Condition Provider App">%1$s</xliff:g>\n<xliff:g id="summary" example="On / Alarms only">%2$s</xliff:g>
     </string>
     <string name="zen_mode_schedule_rule_days">Dagar</string>
     <string name="zen_mode_schedule_rule_days_none">Ingen</string>
@@ -3890,7 +3940,8 @@ other {# kategoriar er sletta}
     <string name="zen_mode_custom_behavior_summary">Lag tilpassa innstillingar for denne tidsplanen</string>
     <string name="zen_mode_custom_behavior_category_title">For «<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>»</string>
     <string name="summary_divider_text">, </string>
-    <string name="summary_range_symbol_combination">        <xliff:g id="start" example="Sun">%1$s</xliff:g>–<xliff:g id="end" example="Thu">%2$s</xliff:g>
+    <string name="summary_range_symbol_combination">
+        <xliff:g id="start" example="Sun">%1$s</xliff:g>–<xliff:g id="end" example="Thu">%2$s</xliff:g>
     </string>
     <string name="zen_mode_conversations_title">Samtalar</string>
     <string name="zen_mode_from_all_conversations">Alle samtalar</string>
@@ -3901,7 +3952,8 @@ other {# kategoriar er sletta}
 =0 {Ingen}
 =1 {1 samtale}
 other {# samtalar}
-}</string>
+}
+</string>
     <string name="zen_mode_people_calls_messages_section_title">Kven som kan avbryta</string>
     <string name="zen_mode_people_footer">Sjølv om meldings- eller samtaleappar ikkje kan varsla deg, kan folk du vel her framleis nå deg gjennom desse appane</string>
     <string name="zen_mode_calls_title">Samtalar</string>
@@ -3993,14 +4045,17 @@ other {# samtalar}
     <string name="zen_mode_contacts_callers">kontaktar</string>
     <string name="zen_mode_starred_callers">stjernemerka kontaktar</string>
     <string name="zen_mode_repeat_callers_list">gjentekne oppringingar</string>
-    <string name="zen_mode_calls_summary_one">        <xliff:g id="caller type" example="contacts">%1$s</xliff:g>
+    <string name="zen_mode_calls_summary_one">
+        <xliff:g id="caller type" example="contacts">%1$s</xliff:g>
     </string>
-    <string name="zen_mode_calls_summary_two">        <xliff:g id="caller type" example="starred contacts">%1$s</xliff:g> og <xliff:g id="caller type" example="repeat callers">%2$s</xliff:g>
+    <string name="zen_mode_calls_summary_two">
+        <xliff:g id="caller type" example="starred contacts">%1$s</xliff:g> og <xliff:g id="caller type" example="repeat callers">%2$s</xliff:g>
     </string>
     <string name="zen_mode_repeat_callers_summary">Om den same personen ringjer att innanfor eit tidsrom på <xliff:g id="minutes">%d</xliff:g> minutt</string>
     <string name="zen_mode_start_time">Starttid</string>
     <string name="zen_mode_end_time">Sluttid</string>
-    <string name="zen_mode_end_time_next_day_summary_format">        <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g> neste dag</string>
+    <string name="zen_mode_end_time_next_day_summary_format">
+        <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g> neste dag</string>
     <string name="zen_mode_summary_alarms_only_indefinite">Byt til berre alarmar på ubestemt tid</string>
     <string name="zen_mode_summary_alarms_only_by_minute">{count, plural,
       =1      {Byt til berre alarmar i eitt minutt, fram til {time}}
@@ -4099,14 +4154,16 @@ other {# støtta lenker}
     <string name="storage_summary_format"><xliff:g id="size" example="30.00MB">%1$s</xliff:g> brukt i <xliff:g id="storage_type" example="internal memory">%2$s</xliff:g></string>
     <string name="storage_type_internal">intern lagring</string>
     <string name="storage_type_external">ekstern lagring</string>
-    <string name="data_summary_format">        <xliff:g id="size" example="30.00MB">%1$s</xliff:g> brukt sidan <xliff:g id="date" example="Jan 12">%2$s</xliff:g>
+    <string name="data_summary_format">
+        <xliff:g id="size" example="30.00MB">%1$s</xliff:g> brukt sidan <xliff:g id="date" example="Jan 12">%2$s</xliff:g>
     </string>
     <string name="storage_used">Lagring brukt</string>
     <string name="change">Endra</string>
     <string name="change_storage">Endra lagringsstad</string>
     <string name="notifications_label">Varsel</string>
     <string name="notifications_enabled">På</string>
-    <string name="notifications_enabled_with_info">        <xliff:g id="notifications_sent" example="~6 per week">%1$s</xliff:g> / <xliff:g id="notifications_categories_off" example="3 categories turned off">%2$s</xliff:g>
+    <string name="notifications_enabled_with_info">
+        <xliff:g id="notifications_sent" example="~6 per week">%1$s</xliff:g> / <xliff:g id="notifications_categories_off" example="3 categories turned off">%2$s</xliff:g>
     </string>
     <string name="notifications_disabled">Av</string>
     <string name="notifications_categories_off">{count, plural,
@@ -4171,7 +4228,8 @@ other {# ubrukte appar}
     <string name="always_running">Køyrer alltid (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
     <string name="sometimes_running">Køyrer av og til (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
     <string name="rarely_running">Køyrer sjeldan (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
-    <string name="memory_use_running_format">        <xliff:g id="memory" example="30MB">%1$s</xliff:g> / <xliff:g id="running" example="Always running">%2$s</xliff:g>
+    <string name="memory_use_running_format">
+        <xliff:g id="memory" example="30MB">%1$s</xliff:g> / <xliff:g id="running" example="Always running">%2$s</xliff:g>
     </string>
     <string name="high_power_apps">Batterioptimalisering</string>
     <string name="high_power_filter_on">Ikkje optimalisert</string>
@@ -4180,8 +4238,10 @@ other {# ubrukte appar}
     <string name="high_power_system">Batterioptimalisering er ikkje tilgjengeleg</string>
     <string name="high_power_prompt_title">Skal appen alltid kunna køyra i bakgrunnen?</string>
     <string name="high_power_prompt_body">Om du lèt <xliff:g id="app_name" example="Settings">%1$s</xliff:g> alltid køyra i bakgrunnen, kan det minka batteritida.\n\nDu kan endra dette seinare under Innstillingar &gt; Appar.</string>
-    <string name="battery_summary">        <xliff:g id="percentage" example="2">%1$s</xliff:g> brukt sidan førre fullading</string>
-    <string name="battery_summary_24hr">        <xliff:g id="percentage" example="2">%1$s</xliff:g> brukt dei siste 24 timane</string>
+    <string name="battery_summary">
+        <xliff:g id="percentage" example="2">%1$s</xliff:g> brukt sidan førre fullading</string>
+    <string name="battery_summary_24hr">
+        <xliff:g id="percentage" example="2">%1$s</xliff:g> brukt dei siste 24 timane</string>
     <string name="no_battery_summary">Ingen batteribruk sidan førre fullading</string>
     <string name="share_remote_bugreport_dialog_title">Vil du dela feilrapporten?</string>
     <string name="share_remote_bugreport_dialog_message_finished">IT-administratoren din har bede om ein feilrapport for å hjelpa med feilsøking på denne eininga. Appar og data kan verta delte.</string>
@@ -4235,7 +4295,8 @@ other {# ubrukte appar}
     <string name="memory_usage">Minnebruk</string>
     <string name="app_list_memory_use">Appbruk</string>
     <string name="memory_details">Detaljar</string>
-    <string name="memory_use_summary">        <xliff:g id="size" example="30MB">%1$s</xliff:g> gjennomsnittleg minne brukt dei siste 3 timane</string>
+    <string name="memory_use_summary">
+        <xliff:g id="size" example="30MB">%1$s</xliff:g> gjennomsnittleg minne brukt dei siste 3 timane</string>
     <string name="no_memory_use_summary">Ikkje noko minne brukt dei siste 3 timane</string>
     <string name="sort_avg_use">Sorter etter gjennomsnittsbruk</string>
     <string name="sort_max_use">Sorter etter høgaste bruk</string>
@@ -4312,8 +4373,10 @@ other {# appar har brukt minne dei siste {time}}
     <string name="screen_zoom_make_larger_desc">Gjer større</string>
     <string name="disconnected">Ikkje tilkopla</string>
     <string name="keyboard_disconnected">Ikkje tilkopla</string>
-    <string name="apps_summary">        <xliff:g id="count" example="24">%1$d</xliff:g> appar er installerte</string>
-    <string name="storage_summary">        <xliff:g id="percentage" example="54%">%1$s</xliff:g> brukt – <xliff:g id="free_space" example="32GB">%2$s</xliff:g> ledig</string>
+    <string name="apps_summary">
+        <xliff:g id="count" example="24">%1$d</xliff:g> appar er installerte</string>
+    <string name="storage_summary">
+        <xliff:g id="percentage" example="54%">%1$s</xliff:g> brukt – <xliff:g id="free_space" example="32GB">%2$s</xliff:g> ledig</string>
     <string name="display_dashboard_summary">Mørkt tema, skriftstorleik, lysstyrke</string>
     <string name="memory_summary">I snitt er <xliff:g id="used_memory" example="1.7GB">%1$s</xliff:g> av <xliff:g id="total_memory" example="2GB">%2$s</xliff:g> minne brukt</string>
     <string name="users_summary">Logga på som <xliff:g id="user_name" example="Jason">%1$s</xliff:g>
@@ -4382,9 +4445,12 @@ other {# appar har brukt minne dei siste {time}}
     <string name="ethernet_data_usage">Ethernet-databruk</string>
     <string name="wifi">Wi-Fi</string>
     <string name="ethernet">Ethernet</string>
-    <string name="cell_data_template">        <xliff:g id="amount" example="1 GB">^1</xliff:g> mobildata</string>
-    <string name="wifi_data_template">        <xliff:g id="amount" example="1 GB">^1</xliff:g> Wi-Fi-data</string>
-    <string name="ethernet_data_template">        <xliff:g id="amount" example="1 GB">^1</xliff:g> ethernet-data</string>
+    <string name="cell_data_template">
+        <xliff:g id="amount" example="1 GB">^1</xliff:g> mobildata</string>
+    <string name="wifi_data_template">
+        <xliff:g id="amount" example="1 GB">^1</xliff:g> Wi-Fi-data</string>
+    <string name="ethernet_data_template">
+        <xliff:g id="amount" example="1 GB">^1</xliff:g> ethernet-data</string>
     <string name="billing_cycle">Varsel og grense for data</string>
     <string name="app_usage_cycle">Periode for mobildatabruk</string>
     <string name="cell_data_warning">Datavarsel ved <xliff:g name="amount" example="1 GB">^1</xliff:g>
@@ -4394,13 +4460,15 @@ other {# appar har brukt minne dei siste {time}}
     <string name="cell_data_warning_and_limit">Datavarsel ved <xliff:g name="amount" example="1 GB">^1</xliff:g> / datagrense ved <xliff:g name="amount" example="2 GB">^2</xliff:g>
     </string>
     <string name="non_carrier_data_usage_warning">Gjeld ikkje data brukt på mobilnett</string>
-    <string name="data_used_template">        <xliff:g name="amount" example="1 GB">%1$s</xliff:g> brukt</string>
+    <string name="data_used_template">
+        <xliff:g name="amount" example="1 GB">%1$s</xliff:g> brukt</string>
     <string name="set_data_warning">Slå på datavarsel</string>
     <string name="data_warning">Datavarsel</string>
     <string name="data_warning_footnote">Eininga måler datavarsel og datagrense. Dette kan vera ulikt frå det mobiloperatøren måler.</string>
     <string name="set_data_limit">Slå på datagrense</string>
     <string name="data_limit">Datagrense</string>
-    <string name="data_usage_template">        <xliff:g name="amount" example="200 MB">%1$s</xliff:g> brukt <xliff:g name="date_range" example="Jan 1 -- Feb 2">%2$s</xliff:g>
+    <string name="data_usage_template">
+        <xliff:g name="amount" example="200 MB">%1$s</xliff:g> brukt <xliff:g name="date_range" example="Jan 1 -- Feb 2">%2$s</xliff:g>
     </string>
     <string name="configure">Set opp</string>
     <string name="data_usage_other_apps">Andre appar som er med i bruken</string>
@@ -4410,10 +4478,13 @@ other {# appar har lov til å bruka uavgrensa data når datasparing er på}
 }</string>
     <string name="data_usage_title">Hovuddata</string>
     <string name="data_usage_wifi_title">Wi-Fi-data</string>
-    <string name="data_used_formatted">        <xliff:g name="value" example="500">^1</xliff:g>
+    <string name="data_used_formatted">
+        <xliff:g name="value" example="500">^1</xliff:g>
         <xliff:g name="units" example="GB">^2</xliff:g> brukt</string>
-    <string name="data_overusage">        <xliff:g name="bytes" example="2 GB">^1</xliff:g> over grensa</string>
-    <string name="data_remaining">        <xliff:g name="bytes" example="2 GB">^1</xliff:g> att</string>
+    <string name="data_overusage">
+        <xliff:g name="bytes" example="2 GB">^1</xliff:g> over grensa</string>
+    <string name="data_remaining">
+        <xliff:g name="bytes" example="2 GB">^1</xliff:g> att</string>
     <string name="data_usage_chart_brief_content_description">Graf som viser databruk mellom <xliff:g id="start_date" example="August 19">%1$s</xliff:g> og <xliff:g id="end_date" example="September 16">%2$s</xliff:g>.</string>
     <string name="data_usage_chart_no_data_content_description">Ingen data i dette tidsrommet</string>
     <string name="billing_cycle_days_left">{count, plural,
@@ -4451,12 +4522,18 @@ other {# dagar att}
     <string name="battery_hints_warning_icon_a11y">Åtvaringsikon for batteritips</string>
     <string name="battery_tips_settings_summary_brightness">Slå på automatisk lysstyrke for å få lengre batteritid</string>
     <string name="battery_tips_settings_summary_screen_timeout">Minka tidsavbrotet for skjermen for å få lengre batteritid</string>
-    <string name="battery_tips_apps_summary_always_high">        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte mykje straum</string>
-    <string name="battery_tips_apps_summary_higher_than_usual">        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri enn vanleg</string>
-    <string name="battery_tips_apps_summary_always_high_in_background">        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri i bakgrunnen</string>
-    <string name="battery_tips_apps_summary_higher_than_usual_in_background">        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri enn vanleg i bakgrunnen</string>
-    <string name="battery_tips_apps_summary_always_high_in_foreground">        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri i framgrunnen</string>
-    <string name="battery_tips_apps_summary_higher_than_usual_in_foreground">        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri enn vanleg i framgrunnen</string>
+    <string name="battery_tips_apps_summary_always_high">
+        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte mykje straum</string>
+    <string name="battery_tips_apps_summary_higher_than_usual">
+        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri enn vanleg</string>
+    <string name="battery_tips_apps_summary_always_high_in_background">
+        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri i bakgrunnen</string>
+    <string name="battery_tips_apps_summary_higher_than_usual_in_background">
+        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri enn vanleg i bakgrunnen</string>
+    <string name="battery_tips_apps_summary_always_high_in_foreground">
+        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri i framgrunnen</string>
+    <string name="battery_tips_apps_summary_higher_than_usual_in_foreground">
+        <xliff:g id="app_label" example="Pokemon Go">%1$s</xliff:g> brukte meir batteri enn vanleg i framgrunnen</string>
     <string name="battery_usage_anomaly_content_description">Unormal batteribruk</string>
     <string name="battery_app_item_hint">Høg batteribruk</string>
     <string name="battery_app_item_hint_in_bg">Høg batteribruk i bakgrunnen</string>
@@ -4579,7 +4656,8 @@ other {# dagar att}
     <string name="one_handed_mode_swipe_down_category">Sveip ned for å</string>
     <string name="one_handed_mode_use_shortcut_category">Bruk snarvegen for å</string>
     <string name="one_handed_mode_intro_text">Trekk ned den øvste halvdelen av skjermen så han er lettare å nå med éi hand</string>
-    <string name="one_handed_mode_footer_text">        <b>Slik brukar du einhandmodus</b>\n
+    <string name="one_handed_mode_footer_text">
+        <b>Slik brukar du einhandmodus</b>\n
         • Pass på at rørslenavigering er vald i innstillingane for systemnavigasjon\n
         • Sveip ned nær nederste kanten av skjermen
     </string>
@@ -4598,7 +4676,8 @@ other {# dagar att}
     <string name="emergency_gesture_category_call_for_help_title">Gje melding om hjelp</string>
     <string name="emergency_gesture_call_for_help_title">Ring etter hjelp</string>
     <string name="emergency_gesture_call_for_help_dialog_title">Nummer du skal ringja for hjelp</string>
-    <string name="emergency_gesture_call_for_help_summary">        <xliff:g id="phone_number" example="911">%1$s</xliff:g>. Trykk for å endra</string>
+    <string name="emergency_gesture_call_for_help_summary">
+        <xliff:g id="phone_number" example="911">%1$s</xliff:g>. Trykk for å endra</string>
     <string name="emergency_gesture_number_override_notes">        Om du skriv inn eit nummer som ikkje er eit naudnummer:\n
         • Må eininga vera låst opp for å bruka Naud-SOS\n
         • Kan det henda at ingen svarar på samtalen
@@ -4612,7 +4691,8 @@ other {# dagar att}
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Kopla til internett eller kontakt mobiloperatøren din</string>
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Ikkje tilgjengeleg på operatørlåste einingar</string>
     <string name="oem_lock_info_message">Start eininga på nytt for å slå på einingsbeskyttelse.</string>
-    <string name="automatic_storage_manager_freed_bytes">        <xliff:g id="size" example="3.25MB">%1$s</xliff:g> er frigjort totalt\n\nSist køyrt <xliff:g id="date" example="Jan 12">%2$s</xliff:g>
+    <string name="automatic_storage_manager_freed_bytes">
+        <xliff:g id="size" example="3.25MB">%1$s</xliff:g> er frigjort totalt\n\nSist køyrt <xliff:g id="date" example="Jan 12">%2$s</xliff:g>
     </string>
     <string name="web_action_enable_title">Lynappar</string>
     <string name="web_action_enable_summary">Opna lenker i appar, sjølv om dei ikkje er installerte</string>
@@ -4722,9 +4802,11 @@ other {# dagar att}
       =1      {Telefon-app}
       other   {Telefon-appar}
     }</string>
-    <string name="app_names_concatenation_template_2">        <xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g>
+    <string name="app_names_concatenation_template_2">
+        <xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g>
     </string>
-    <string name="app_names_concatenation_template_3">        <xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g>, <xliff:g id="third_app_name">%3$s</xliff:g>
+    <string name="app_names_concatenation_template_3">
+        <xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g>, <xliff:g id="third_app_name">%3$s</xliff:g>
     </string>
     <string name="storage_default_internal_storage">Denne eininga</string>
     <string name="storage_games">Spel</string>
@@ -4740,9 +4822,11 @@ other {# dagar att}
     <string name="storage_trash_dialog_ask_message">Det ligg <xliff:g id="total" example="520MB">%1$s</xliff:g> med filer i papirkorga. Alle elementa vert sletta for godt, og du kan ikkje gjenoppretta dei.</string>
     <string name="storage_trash_dialog_empty_message">Papirkorga er tom</string>
     <string name="storage_trash_dialog_confirm">Tøm papirkorga</string>
-    <string name="storage_usage_summary">        <xliff:g id="number" example="128">%1$s</xliff:g>
+    <string name="storage_usage_summary">
+        <xliff:g id="number" example="128">%1$s</xliff:g>
         <xliff:g id="unit" example="KB">%2$s</xliff:g> brukt</string>
-    <string name="storage_total_summary">        <xliff:g id="number" example="128">%1$s</xliff:g>
+    <string name="storage_total_summary">
+        <xliff:g id="number" example="128">%1$s</xliff:g>
         <xliff:g id="unit" example="KB">%2$s</xliff:g> totalt</string>
     <string name="clear_instant_app_data">Slett appen</string>
     <string name="clear_instant_app_confirmation">Vil du fjerna denne lynappen?</string>
@@ -4992,7 +5076,8 @@ other {# dagar att}
     <string name="keywords_satellite_setting">Satellittmeldingar</string>
     <string name="category_name_about_satellite_messaging">Om satellittmeldingar</string>
     <string name="title_about_satellite_setting">Du kan senda og ta imot tekstmeldingar via satellitt med ein <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g>-konto som støttar dette</string>
-    <string name="category_title_your_satellite_plan">        <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g>-abonnementet ditt</string>
+    <string name="category_title_your_satellite_plan">
+        <xliff:g id="carrier_name" example="T-Mobile">%1$s</xliff:g>-abonnementet ditt</string>
     <string name="title_have_satellite_plan">Satellittmeldingar er med i kontoen din</string>
     <string name="title_no_satellite_plan">Satellittmeldingar er ikkje med i kontoen din</string>
     <string name="summary_add_satellite_setting">Legg til satellittmeldingar</string>
@@ -5067,7 +5152,8 @@ other {# dagar att}
     <string name="mobile_network_sim_label_color_title">SIM-etikett og farge</string>
     <string name="sim_setup_channel_id">Nettverksaktivering</string>
     <string name="sim_switch_channel_id">Byte av mobiloperatør</string>
-    <string name="post_dsds_reboot_notification_title_with_carrier">        <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>-SIM-kortet ditt er verksamt</string>
+    <string name="post_dsds_reboot_notification_title_with_carrier">
+        <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>-SIM-kortet ditt er verksamt</string>
     <string name="post_dsds_reboot_notification_text">Trykk for å oppdatera SIM-innstillingane</string>
     <string name="switch_to_removable_notification">Bytte til <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>
     </string>
@@ -5085,7 +5171,8 @@ other {# dagar att}
     </string>
     <string name="choose_sim_could_not_activate">Klarte ikkje slå på dette SIM-kortet akkurat no</string>
     <string name="switch_sim_dialog_title">Bruk <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>?</string>
-    <string name="switch_sim_dialog_text">        <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> vert brukt til mobildata, samtalar og SMS.</string>
+    <string name="switch_sim_dialog_text">
+        <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> vert brukt til mobildata, samtalar og SMS.</string>
     <string name="switch_sim_dialog_no_switch_title">Ingen aktive SIM-kort tilgjengelege</string>
     <string name="switch_sim_dialog_no_switch_text">Gå til nettverksinnstillingane om du vil bruka mobildata, samtalar eller SMS seinare</string>
     <string name="sim_card_label">SIM</string>
@@ -5128,7 +5215,8 @@ other {# dagar att}
     <string name="low_storage_summary">Lite lagringsplass att. <xliff:g id="percentage" example="54%">%1$s</xliff:g> brukt – <xliff:g id="free_space" example="32GB">%2$s</xliff:g> ledig</string>
     <string name="contextual_card_feedback_send">Send tilbakemelding</string>
     <string name="contextual_card_feedback_confirm_message">Vil du gjeva oss ei tilbakemelding om dette framlegget?</string>
-    <string name="copyable_slice_toast">        <xliff:g id="copy_content" example="Phone number">%1$s</xliff:g> er kopiert til utklippstavla.</string>
+    <string name="copyable_slice_toast">
+        <xliff:g id="copy_content" example="Phone number">%1$s</xliff:g> er kopiert til utklippstavla.</string>
     <string name="accessibility_usage_title">Bruk av tilgjengefunksjonar</string>
     <string name="accessibility_usage_summary">{count, plural,
       =1      {1 app har full tilgang til eininga di}
@@ -5212,9 +5300,11 @@ other {# dagar att}
     <string name="lockscreen_double_line_clock_setting_toggle">Dynamisk klokke</string>
     <string name="lockscreen_quick_affordances_title">Snarvegar</string>
     <plurals name="lockscreen_quick_affordances_summary">
-        <item quantity="one">            <xliff:g id="first">%1$s</xliff:g>
+        <item quantity="one">
+            <xliff:g id="first">%1$s</xliff:g>
         </item>
-        <item quantity="other">            <xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g>
+        <item quantity="other">
+            <xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g>
         </item>
     </plurals>
     <string name="volte_5G_limited_title">Slå av VoLTE?</string>
@@ -5276,7 +5366,8 @@ other {# dagar att}
     <string name="default_active_sim_mobile_data">mobildata</string>
     <string name="wifi_scan_notify_message">For å betra opplevinga med eininga kan appar og tenester framleis søkja etter Wi-Fi-nettverk når som helst, sjølv om Wi-Fi er av. Dette kan til dømes brukast for å betre posisjonsbaserte funksjonar og tenester. Du kan endra dette i innstillingane for Wi-Fi-søking.</string>
     <string name="wifi_scan_change">Endra</string>
-    <string name="preference_summary_default_combination">        <xliff:g id="state" example="Connected">%1$s</xliff:g> / <xliff:g id="networkMode" example="LTE">%2$s</xliff:g>
+    <string name="preference_summary_default_combination">
+        <xliff:g id="state" example="Connected">%1$s</xliff:g> / <xliff:g id="networkMode" example="LTE">%2$s</xliff:g>
     </string>
     <string name="mobile_data_connection_active">Tilkopla</string>
     <string name="mobile_data_temp_connection_active">Mellombels tilkopla</string>
@@ -5333,7 +5424,8 @@ other {# dagar att}
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
     <string name="enable_2g_title">Tillat 2G</string>
     <string name="enable_2g_summary">2G er mindre trygt, men kan betra sambandet på somme stadar. For naudsamtalar er 2G alltid tillate.</string>
-    <string name="enable_2g_summary_disabled_carrier">        <xliff:g id="carrier_name_2g" example="Google Fi">%1$s</xliff:g> krev at 2G er tilgjengeleg</string>
+    <string name="enable_2g_summary_disabled_carrier">
+        <xliff:g id="carrier_name_2g" example="Google Fi">%1$s</xliff:g> krev at 2G er tilgjengeleg</string>
     <string name="require_cellular_encryption_title">Krev kryptering</string>
     <string name="require_cellular_encryption_summary">Kryptering er meir trygt, men det kan henda du ikkje får samband på alle stadar. For naudsamtalar er kryptering aldri eit krav</string>
     <string name="app_info_all_services_label">Alle tenester</string>
@@ -5362,7 +5454,8 @@ other {# dagar att}
     <string name="bluetooth_connect_access_notification_title">Bluetooth-eining tilgjengeleg</string>
     <string name="bluetooth_connect_access_notification_content">Ei eining vil kopla seg til. Trykk for meir info.</string>
     <string name="bluetooth_connect_access_dialog_title">Kopla til Bluetooth-eininga?</string>
-    <string name="bluetooth_connect_access_dialog_content">        <xliff:g id="device_name" example="My device">%1$s</xliff:g> vil kopla seg til denne telefonen.\n\nDu har ikkje vore kopla til <xliff:g id="device_name" example="My device">%2$s</xliff:g> før.</string>
+    <string name="bluetooth_connect_access_dialog_content">
+        <xliff:g id="device_name" example="My device">%1$s</xliff:g> vil kopla seg til denne telefonen.\n\nDu har ikkje vore kopla til <xliff:g id="device_name" example="My device">%2$s</xliff:g> før.</string>
     <string name="bluetooth_connect_access_dialog_negative">Ikkje kopla til</string>
     <string name="bluetooth_connect_access_dialog_positive">Kopla til</string>
     <string name="tare_settings">TARE-innstillingar</string>
@@ -5498,7 +5591,8 @@ other {# dagar att}
     <string name="user_aspect_ratio_16_9">16:9</string>
     <string name="user_aspect_ratio_3_2">3:2</string>
     <string name="user_aspect_ratio_4_3">4:3</string>
-    <string name="user_aspect_ratio_option_a11y">        <xliff:g id="numerator">%1$s</xliff:g> mot <xliff:g id="denominator">%2$s</xliff:g>
+    <string name="user_aspect_ratio_option_a11y">
+        <xliff:g id="numerator">%1$s</xliff:g> mot <xliff:g id="denominator">%2$s</xliff:g>
     </string>
     <string name="app_aspect_ratio_footer">Appen startar på nytt når du endrar storleiksforholdet. Du kan mista endringar som ikkje er lagra. Somme appar er kanskje ikkje optimaliserte for alle storleiksforhold.</string>
     <string name="aspect_ratio_experimental_title">Storleiksforhold (eksperimentelt)</string>

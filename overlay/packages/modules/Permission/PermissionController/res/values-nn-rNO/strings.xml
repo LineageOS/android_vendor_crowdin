@@ -264,7 +264,8 @@ other {Brukt av # appar}
     <string name="last_opened_category_title"> {count, plural,
 =1{Sist opna for meir enn # månad sidan}
 other{Sist opna for meir enn # månader sidan}
-}</string>
+}
+</string>
     <string name="last_opened_summary">Appen vart sist opna <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
     <string name="last_opened_summary_short">Sist opna <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
     <string name="app_permission_footer_special_file_access">Om du gjev løyve til å styra alle filer, kan denne appen få tak i, endra og sletta alle filer på lagringsplassen på denne eininga eller tilkopla einingar. Appen kan henta filer utan å spørja deg.</string>

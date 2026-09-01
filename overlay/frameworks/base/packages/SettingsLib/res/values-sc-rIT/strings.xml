@@ -206,7 +206,8 @@
     <string name="battery_info_status_not_charging">Connètidu, ma no in càrriga</string>
     <string name="battery_info_status_charging_on_hold">Sa càrriga est in pàusa</string>
     <string name="disabled">Disativadu</string>
-    <string name="wifi_tether_connected_summary">        {count, plural,
+    <string name="wifi_tether_connected_summary">
+        {count, plural,
             one {}=1    {1 dispositivu collegadu}
             other {# dispositivos collegados}
         }

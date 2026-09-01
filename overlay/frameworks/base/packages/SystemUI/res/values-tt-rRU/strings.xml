@@ -36,7 +36,6 @@
     <string name="biometric_dialog_try_again">Кабатлау</string>
     <string name="biometric_dialog_empty_space_description">Аутентификациядән баш тарту өчен басыгыз</string>
     <string name="biometric_dialog_wrong_password">Хаталы серсүз</string>
-    <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_desc_lock_screen">Бикләү экраны.</string>
     <string name="accessibility_quick_settings_dnd_none_on">тулы тынлык</string>
@@ -93,7 +92,8 @@
     <string name="preference_summary_default_combination"><xliff:g id="state" example="Connected">%1$s</xliff:g> / <xliff:g id="networkMode" example="LTE">%2$s</xliff:g></string>
     <string name="turn_on_wifi">Wi\u2011Fi</string>
     <string name="clipboard_text_hidden">Карау өчен басыгыз</string>
-    <string name="dream_overlay_weather_complication_desc">        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
+    <string name="dream_overlay_weather_complication_desc">
+        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
     </string>
     <string name="dream_time_complication_12_hr_time_format">h:mm</string>
     <string name="dream_time_complication_24_hr_time_format">kk:mm</string>

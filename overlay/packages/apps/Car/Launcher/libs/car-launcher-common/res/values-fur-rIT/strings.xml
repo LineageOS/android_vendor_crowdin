@@ -23,7 +23,8 @@
     <string name="stop_app_dialog_text">Se tu sfuarcis la interuzion di une aplicazion, e podarès
         compuartâsi in mût anomal.
     </string>
-    <string name="stop_app_success_toast_text">        La aplicazion <xliff:g id="app_name" example="Radio">%1$s</xliff:g>
+    <string name="stop_app_success_toast_text">
+        La aplicazion <xliff:g id="app_name" example="Radio">%1$s</xliff:g>
         e je stade fermade.
     </string>
 </resources>

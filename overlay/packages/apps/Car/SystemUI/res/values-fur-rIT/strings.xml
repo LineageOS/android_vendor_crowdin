@@ -28,7 +28,8 @@
     <string name="user_add_user_message_setup">Dopo che tu âs zontât un gnûf profîl, il titolâr dal account al pues personalizâlu.</string>
     <string name="user_add_user_message_update">Ducj i profîi a puedin instalâ un inzornam. di aplic., che dopo al sarà disponibil a ducj i profîi.</string>
     <string name="profile_limit_reached_title">Tocjât il limit di profîi</string>
-    <string name="profile_limit_reached_message">        {count, plural,
+    <string name="profile_limit_reached_message">
+        {count, plural,
             one {}=1    {Al è pussibil creâ dome un profîl.}
             other {Tu puedis zontâ fin a # profîi.}
         }

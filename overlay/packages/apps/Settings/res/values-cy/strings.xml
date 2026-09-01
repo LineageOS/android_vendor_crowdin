@@ -200,10 +200,12 @@
     <string name="location_settings_primary_switch_title">Defnyddio lleoliad</string>
     <string name="location_settings_summary_location_off">I ffwrdd</string>
     <string name="location_settings_loading_app_permission_stats">Yn llwytho\u2026</string>
-    <string name="location_settings_footer_general">        Gall apiau gyda chaniatâd dyfeisiau cyfagos adnabod
+    <string name="location_settings_footer_general">
+        Gall apiau gyda chaniatâd dyfeisiau cyfagos adnabod
         lleoliad dyfeisiau eraill yn berthnol â hon.
     </string>
-    <string name="location_settings_footer_location_off">        Mae mynediad at leoliad i ffwrdd ar gyfer pob ap a gwasanaeth. Gall dy ddyfais dal i
+    <string name="location_settings_footer_location_off">
+        Mae mynediad at leoliad i ffwrdd ar gyfer pob ap a gwasanaeth. Gall dy ddyfais dal i
         anfon gwybodaeth lleoliad at wasanaethau brys os fyddi\'n galw neu anfon neges brys.
     </string>
     <string name="account_settings_title">Cyfrifon</string>
@@ -946,7 +948,8 @@
     <string name="screensaver_settings_summary_sleep">Wrth wefru</string>
     <string name="screensaver_settings_summary_dock">Tra wedi\u2019i docio</string>
     <string name="screensaver_settings_summary_never">Byth</string>
-    <string name="screensaver_settings_summary_on">        Ymlaen / <xliff:g id="screen_saver" example="Art gallery">%1$s</xliff:g>
+    <string name="screensaver_settings_summary_on">
+        Ymlaen / <xliff:g id="screen_saver" example="Art gallery">%1$s</xliff:g>
     </string>
     <string name="screensaver_settings_summary_off">I ffwrdd</string>
     <string name="screensaver_settings_when_to_dream">Pa bryd i ddechrau</string>
@@ -1641,7 +1644,8 @@ Defnyddio\u2019r gwirydd sillafu hwn?</string>
     <string name="accessibility_screen_magnification_short_summary">Tapio 3 gwaith i chwyddo</string>
     <string name="accessibility_screen_magnification_navbar_short_summary">Tapia botwm i chwyddo</string>
     <string name="accessibility_screen_magnification_intro_text">Chwyddo i mewn ar y sgrin yn gyflym i wneud y cynnwys yn fwy</string>
-    <string name="accessibility_screen_magnification_summary"><![CDATA[        <b>I chwyddo i mewn:</b><br/>
+    <string name="accessibility_screen_magnification_summary"><![CDATA[
+        <b>I chwyddo i mewn:</b><br/>
         {0,number,integer}. Defnyddia\u2019r bysell brys i ddechrau chwyddo<br/>
         {1,number,integer}. Tapia\u2019r sgrin<br/>
         {2,number,integer}. Llusga dau fys i symud o amgylch y sgrin<br/>
@@ -2701,7 +2705,8 @@ wrth adael modd gwestai</string>
     <string name="spatial_summary_on_two">Ymlaen / <xliff:g id="output device" example="Phone speaker">%1$s</xliff:g> a <xliff:g id="output device" example="Wired headphones">%2$s</xliff:g></string>
     <string name="spatial_audio_footer_title">Gallwch hefyd droi Sain Gofod ymlaen ar gyfer dyfeisiau Bluetooth.</string>
     <string name="spatial_audio_footer_learn_more_text">Gosodiadau dyfeisiau wedi cysylltu</string>
-    <string name="zen_mode_settings_schedules_summary">        {count, plural,
+    <string name="zen_mode_settings_schedules_summary">
+        {count, plural,
            =0 {Dim}
             =1    {1 amserlen wedi\u2019i osod}
             other {# 1 amserlen wedi\u2019u gosod}
@@ -2777,16 +2782,19 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_sound_summary_on">Ymlaen</string>
     <string name="zen_mode_duration_summary_always_prompt">Gofyn bob tro</string>
     <string name="zen_mode_duration_summary_forever">Nes dy fod yn ei ddiffodd</string>
-    <string name="zen_mode_duration_summary_time_hours">        {count, plural,
+    <string name="zen_mode_duration_summary_time_hours">
+        {count, plural,
             zero {# oriau}
             =1    {1 awr}
             other {# awr}
         }
     </string>
-    <string name="zen_mode_duration_summary_time_minutes">        {count, plural, zero {} two {# funud} other {# munud}
+    <string name="zen_mode_duration_summary_time_minutes">
+        {count, plural, zero {} two {# funud} other {# munud}
         }
     </string>
-    <string name="zen_mode_sound_summary_off">        {count, plural,
+    <string name="zen_mode_sound_summary_off">
+        {count, plural,
             =0    {I ffwrdd}
             =1    {I ffwrdd / Gall 1 amserlen droi ymlaen yn awtomatig}
             other {I ffwrdd / Gall # amserlen troi ymlaen yn awtomatig}
@@ -2950,14 +2958,16 @@ wrth adael modd gwestai</string>
     <string name="no_notification_assistant">Dim</string>
     <string name="no_notification_listeners">Does dim apiau a osodwyd wedi gofyn am fynediad at hysbysiadau.</string>
     <string name="notification_access_detail_switch">Caniatáu mynediad at hysbysiadau</string>
-    <string name="notification_assistant_security_warning_summary">        Daeth hysbysiadau gwell yn lle Android Adaptive Notifications yn Android 12.
+    <string name="notification_assistant_security_warning_summary">
+        Daeth hysbysiadau gwell yn lle Android Adaptive Notifications yn Android 12.
         Mae\u2019r nodwedd hon yn dangos gweithredoedd ac atebion wedi\u2019u hawgrymu ac yn trefnu dy hysbysiadau.
         \n\nGall hysbysiadau gwell cael mynediad at gynnwys hysbysiadau, gan gynnwys gwybodaeth bersonol
         fel negeseuon ac enwau cysylltiadau. Gall y nodwedd hon hefyd diddymu neu ateb hysbysiadau,
         fel ateb galwadau ffôn a rheoli Dim Tarfu.
     </string>
     <string name="notification_listener_security_warning_title">Caniatáu i <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> gael mynediad at hysbysiadau?</string>
-    <string name="notification_listener_security_warning_summary">        Bydd yr ap <xliff:g id="notification_listener_name">%1$s</xliff:g> yn gallu darllen pob hysbysiad, gan gynnwys gwybodaeth bersonol,
+    <string name="notification_listener_security_warning_summary">
+        Bydd yr ap <xliff:g id="notification_listener_name">%1$s</xliff:g> yn gallu darllen pob hysbysiad, gan gynnwys gwybodaeth bersonol,
         fel enwau dy gysylltiadau, lluniau, a thestun y negeseuon rwyt yn eu derbyn.
         Bydd yr ap hwn hefyd yn gallu hepian neu ddiystyru hysbysiadau neu weithredu ar fotymau hysbysiadau, gan gynnwys ateb galwadau.
         \n\nBydd hyn hefyd yn rhoi i\u2019r ap y gallu i droi Dim Tarfu ymlaen ac i ffwrdd ac i newid gosodiadau cysylltiedig.
@@ -2968,7 +2978,8 @@ wrth adael modd gwestai</string>
     <string name="nls_feature_reply_summary">Gall ateb negeseuon a gweithredu botymau mewn hysbysiadau, gan gynnwys cysgu neu wrthod hysbysiadau ac ateb galwadau ffôn.</string>
     <string name="nls_feature_settings_title">Newid gosodiadau</string>
     <string name="nls_feature_settings_summary">Gall troi Dim Tarfu ymlaen ac i ffwrdd a newid gosodiadau cysylltiedig.</string>
-    <string name="notification_listener_disable_warning_summary">Os fyddi\'n gwrthod mynediad <xliff:g id="notification_listener_name">%1$s</xliff:g> at hysbysiadau, mae\'n bosib y bydd mynediad at Dim Tarfu hefyd yn cael ei wrthod.
+    <string name="notification_listener_disable_warning_summary">
+Os fyddi\'n gwrthod mynediad <xliff:g id="notification_listener_name">%1$s</xliff:g> at hysbysiadau, mae\'n bosib y bydd mynediad at Dim Tarfu hefyd yn cael ei wrthod.
     </string>
     <string name="notification_listener_disable_warning_confirm">Troi i ffwrdd</string>
     <string name="notification_listener_disable_warning_cancel">Diddymu</string>
@@ -2992,7 +3003,8 @@ wrth adael modd gwestai</string>
     <string name="vr_listeners_title">Gwasanaethau helpwr realiti rhithwir</string>
     <string name="no_vr_listeners">Does dim apiau wedi gwneud cais i redeg fel gwasanaethau cynorthwyo realiti rhithwir.</string>
     <string name="vr_listener_security_warning_title">Caniatáu i <xliff:g id="service" example="VrCore">%1$s</xliff:g> gael mynediad at wasanaeth VR?</string>
-    <string name="vr_listener_security_warning_summary">Bydd <xliff:g id="vr_listener_name">%1$s</xliff:g> yn medru rhedeg tra\u2019r wyt yn defnyddio apiau yn y modd realiti rhithwir.</string>
+    <string name="vr_listener_security_warning_summary">
+Bydd <xliff:g id="vr_listener_name">%1$s</xliff:g> yn medru rhedeg tra\u2019r wyt yn defnyddio apiau yn y modd realiti rhithwir.</string>
     <string name="display_vr_pref_title">Pan fo\u2019r dyfais mewn realiti rhithwir</string>
     <string name="display_vr_pref_low_persistence">Lleihau aneglurder (argymhellir)</string>
     <string name="display_vr_pref_off">Lleihau fflicio</string>
@@ -3087,7 +3099,8 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_from_important_conversations">Sgyrsiau blaenoriaeth</string>
     <string name="zen_mode_from_important_conversations_second">sgyrsiau blaenoriaeth</string>
     <string name="zen_mode_from_no_conversations">Dim</string>
-    <string name="zen_mode_conversations_count">        {count, plural, zero {}
+    <string name="zen_mode_conversations_count">
+        {count, plural, zero {}
             =0    {Dim}
             other {# sgwrs}
         }
@@ -3101,7 +3114,8 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_calls_footer">I sicrhau bod galwadau a chaniateir yn gwneud sŵn, gwiria fod dy ddyfais wedi\u2019i gosod i ganu</string>
     <string name="zen_mode_custom_calls_footer">Am \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019 caiff galwadau i mewn eu rhwystro. Gellir addasu\u2019r gosodiadau i ganiatáu dy ffrindiau, teulu a chysylltiadau eraill i gysylltu â thi.</string>
     <string name="zen_mode_starred_contacts_title">Cysylltiadau serennog</string>
-    <string name="zen_mode_starred_contacts_summary_contacts">        {count, plural, zero {} one {{contact_1}, {contact_2}, ac # arall} other {{contact_1}, {contact_2}, a # arall}
+    <string name="zen_mode_starred_contacts_summary_contacts">
+        {count, plural, zero {} one {{contact_1}, {contact_2}, ac # arall} other {{contact_1}, {contact_2}, a # arall}
         }
     </string>
     <string name="zen_mode_starred_contacts_empty_name">(Dim enw)</string>
@@ -3113,7 +3127,8 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_custom_messages_footer">Am \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019 caiff negeseuon i mewn eu rhwystro. Gellir addasu\u2019r gosodiadau i ganiatáu dy ffrindiau, teulu a chysylltiadau eraill i gysylltu â thi.</string>
     <string name="zen_mode_all_messages_summary">Gall pob neges dy gyrraedd di</string>
     <string name="zen_mode_all_calls_summary">Gall pob galwad dy gyrraedd di</string>
-    <string name="zen_mode_contacts_count">        {count, plural, zero {} one {# cyswllt} two {# gyswllt} few {# cyswllt} many {# chyswllt}
+    <string name="zen_mode_contacts_count">
+        {count, plural, zero {} one {# cyswllt} two {# gyswllt} few {# cyswllt} many {# chyswllt}
             other {# cyswllt}
         }
     </string>
@@ -3151,13 +3166,15 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_bypassing_apps_summary_all">Pob hysbysiad</string>
     <string name="zen_mode_bypassing_apps_summary_some">Rhai hysbysiadau</string>
     <string name="zen_mode_bypassing_apps_footer">Gall pobol a dewisir dal dy gyrraedd, hyd yn oed os nad wyt yn caniatáu i apiau  dorri ar draws.</string>
-    <string name="zen_mode_bypassing_apps_subtext">        {count, plural, zero {} one {Gall {app_1}, {app_2}, ac # ap arall dorri ar draws} other {Gall {app_1}, {app_2}, a # ap arall dorri ar draws}
+    <string name="zen_mode_bypassing_apps_subtext">
+        {count, plural, zero {} one {Gall {app_1}, {app_2}, ac # ap arall dorri ar draws} other {Gall {app_1}, {app_2}, a # ap arall dorri ar draws}
         }
     </string>
     <string name="zen_mode_bypassing_apps_title">Apiau</string>
     <string name="zen_mode_bypassing_app_channels_header">Hysbysiadau sy\u2019n cael torri ar draws</string>
     <string name="zen_mode_bypassing_app_channels_toggle_all">Caniatáu pob hysbysiad</string>
-    <string name="zen_mode_other_sounds_summary">        {count, plural, zero {} one {Gall {sound_category_1}, {sound_category_2}, ac # arall dorri ar draws} other {Gall {sound_category_1}, {sound_category_2}, a # arall dorri ar draws}
+    <string name="zen_mode_other_sounds_summary">
+        {count, plural, zero {} one {Gall {sound_category_1}, {sound_category_2}, ac # arall dorri ar draws} other {Gall {sound_category_1}, {sound_category_2}, a # arall dorri ar draws}
         }
     </string>
     <string name="zen_mode_sounds_none">Gall dim torri ar draws</string>
@@ -3280,7 +3297,8 @@ wrth adael modd gwestai</string>
     <string name="high_power_off">Yn optimeiddio defnydd batri</string>
     <string name="high_power_system">Dyw optimeiddiad batri ddim ar gael</string>
     <string name="high_power_prompt_title">Gadael i\u2019r ap redeg yn y cefndir o hyd?</string>
-    <string name="high_power_prompt_body">        Gall caniatáu <xliff:g id="app_name" example="Settings">%1$s</xliff:g> i redeg yn y cefndir o hyd lleihau oes batri
+    <string name="high_power_prompt_body">
+        Gall caniatáu <xliff:g id="app_name" example="Settings">%1$s</xliff:g> i redeg yn y cefndir o hyd lleihau oes batri
         \n\nGellir newid hyn yn hwyrach yn Gosodiadau &gt; Apiau.</string>
     <string name="battery_summary"><xliff:g id="percentage" example="2">%1$s</xliff:g> ers gwefru\'n llawn</string>
     <string name="battery_summary_24hr"><xliff:g id="percentage" example="2">%1$s</xliff:g> defnydd dros y 24 awr ddiwethaf</string>
@@ -3614,7 +3632,8 @@ wrth adael modd gwestai</string>
     <string name="one_handed_mode_swipe_down_category">Llusgo i lawr i</string>
     <string name="one_handed_mode_use_shortcut_category">Defnyddio\u2019r llwybr byr i</string>
     <string name="one_handed_mode_intro_text">Llusga hanner uchaf dy sgrin i lawr fel ei bod yn haws ei gyrraedd gydag un llaw</string>
-    <string name="one_handed_mode_footer_text">        <b>Sut i ddefnyddio modd un llaw</b>\n
+    <string name="one_handed_mode_footer_text">
+        <b>Sut i ddefnyddio modd un llaw</b>\n
         • Sicrha bod llywio ag ystumiau wedi\u2019i ddewis yng ngosodiadau llywio\u2019r system\n
         • Llithra i lawr ger ymyl gwaelod y sgrin
     </string>
@@ -3746,7 +3765,8 @@ wrth adael modd gwestai</string>
     <string name="credman_button_change">Newid</string>
     <string name="credman_button_open">Agor</string>
     <string name="credman_app_list_preference_none">Dim wedi\u2019u dewis</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
+    <string name="autofill_confirmation_message"><![CDATA[
+        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> yn defnyddio\'r
@@ -3985,7 +4005,8 @@ wrth adael modd gwestai</string>
     <string name="erase_sim_confirm_button">Dileu</string>
     <string name="wifi_warning_return_button">Iawn</string>
     <string name="network_connection_request_dialog_title">Cysylltu â dyfais</string>
-    <string name="network_connection_request_dialog_summary">        Mae ap <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g>
+    <string name="network_connection_request_dialog_summary">
+        Mae ap <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g>
         eisiau defnyddio rhwydwaith Wi\u2011Fi dros dro i gysylltu â dy ddyfais
     </string>
     <string name="network_connection_timeout_dialog_message">Ni chanfuwyd unrhyw ddyfeisiau. Gwiria fod dyfeisiau wedi\u2019u troi ymlaen ac ar gael i gysylltu.</string>
