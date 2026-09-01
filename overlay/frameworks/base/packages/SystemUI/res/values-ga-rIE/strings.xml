@@ -17,12 +17,43 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_low_title">An bhfuil tú ag iarraidh an spárálaí ceallraí a chasadh air?</string>
+    <string name="battery_low_percent_format"><xliff:g id="céatadán">%s</xliff:g> fágtha</string>
+    <string name="invalid_charger_title">Ní féidir é a mhuirearú trí USB</string>
+    <string name="invalid_charger_text">Bain úsáid as an luchtaire a tháinig le do ghléas</string>
+    <string name="battery_saver_confirmation_title">An bhfuil tú ag iarraidh an spárálaí ceallraí a chasadh air?</string>
+    <string name="battery_saver_confirmation_title_generic">Maidir le Sábhálaí Ceallraí</string>
+    <string name="battery_saver_dismiss_action">Ní raibh maith agat</string>
     <string name="extreme_battery_saver_text">Foircneach</string>
+    <string name="status_bar_settings_auto_rotation">Uath-rothlú an scáileáin</string>
+    <string name="usb_device_permission_prompt">Ceadaigh do <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> rochtain a fháil ar <xliff:g id="usb_device" example="Cluasáin USB">%2$s</xliff:g>?</string>
+    <string name="usb_device_permission_prompt_warn">Ceadaigh do <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> rochtain a fháil ar <xliff:g id="usb_device" example="Cluasáin USB">%2$s</xliff:g>?\nNíor tugadh cead taifeadta don aip seo ach d\'fhéadfadh sí fuaim a ghabháil tríd an ngléas USB seo.</string>
+    <string name="usb_audio_device_permission_prompt_title">Ceadaigh do <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> rochtain a fháil ar <xliff:g id="usb_device" example="Cluasáin USB">%2$s</xliff:g>?</string>
     <string name="screenshot_saving_private_profile">Scáileán a shábháil go príobháideach</string>
+    <string name="screenshot_saved_title">Seat Scáileán sábháilte</string>
+    <string name="screenshot_failed_title">Níorbh fhéidir an seat scáileán a shábháil</string>
+    <string name="screenshot_failed_to_save_user_locked_text">Ní mór an gléas a dhíghlasáil sula bhféadfar an seat scáileán a shábháil</string>
+    <string name="screenshot_failed_to_save_unknown_text">Déan iarracht an seat scáileán a thógáil arís</string>
+    <string name="screenshot_failed_to_save_text">Ní féidir an seat scáileán a shábháil</string>
+    <string name="screenshot_failed_to_capture_text">Ní cheadaíonn an aip ná d\'eagraíocht seat scáileáin a thógáil</string>
+    <string name="screenshot_edit_label">Cuir in Eagar</string>
+    <string name="screenshot_edit_description">Cuir an seat scáileán in eagar</string>
+    <string name="screenshot_share_label">Comhroinn</string>
+    <string name="screenshot_share_description">Roinn an seat scáileán</string>
+    <string name="screenshot_scroll_label">Gabh níos mó</string>
+    <string name="screenshot_dismiss_description">Ruaig an seat scáileán</string>
+    <string name="screenshot_preview_description">Réamhamharc seat scáileáin</string>
+    <string name="screenshot_top_boundary_pct">Teorainn uachtarach <xliff:g id="percent" example="50">%1$d</xliff:g> faoin gcéad</string>
+    <string name="screenshot_bottom_boundary_pct">Teorainn íochtarach <xliff:g id="percent" example="50">%1$d</xliff:g> faoin gcéad</string>
+    <string name="screenshot_left_boundary_pct">Teorainn chlé <xliff:g id="percent" example="50">%1$d</xliff:g> faoin gcéad</string>
+    <string name="screenshot_right_boundary_pct">Teorainn dheis <xliff:g id="percent" example="50">%1$d</xliff:g> faoin gcéad</string>
     <string name="screenshot_private_profile_notification">Sábháilte i <xliff:g id="app" example="Files">%1$s</xliff:g> sa phróifíl phríobháideach</string>
     <string name="backlinks_include_link">Cuir nasc san áireamh</string>
     <string name="backlinks_duplicate_label_format"><xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> <xliff:g id="frequencyCount" example="(1)">(%2$d)</xliff:g></string>
     <string name="backlinks_cross_profile_error">Ní féidir naisc ó phróifílí eile a chur leis</string>
+    <string name="screenrecord_title">Taifeadán Scáileáin</string>
+    <string name="screenrecord_background_processing_label">Taifeadadh scáileáin á phróiseáil</string>
+    <string name="screenrecord_channel_description">Fógra leanúnach le haghaidh seisiún taifeadta scáileáin</string>
     <string name="screenrecord_permission_dialog_title">Taifead do scáileán?</string>
     <string name="screenrecord_permission_dialog_option_text_single_app">Taifead aip amháin</string>
     <string name="screenrecord_permission_dialog_option_text_entire_screen">Taifead an scáileán iomlán</string>
@@ -31,6 +62,20 @@
     <string name="screenrecord_permission_dialog_warning_single_app">Nuair a bhíonn aip á thaifeadadh agat, taifeadtar aon rud a thaispeántar nó a sheinntear san aip sin. Mar sin bí cúramach le rudaí cosúil le pasfhocail, sonraí íocaíochta, teachtaireachtaí, grianghraif, agus fuaime agus físeáin.</string>
     <string name="screenrecord_permission_dialog_continue_entire_screen">Taifeadadh scáileáin</string>
     <string name="screenrecord_app_selector_title">Roghnaigh aip le taifeadadh</string>
+    <string name="screenrecord_audio_label">Taifeadadh fuaime</string>
+    <string name="screenrecord_device_audio_label">Fuaim an ghléis</string>
+    <string name="screenrecord_device_audio_description">Fuaim ó do ghléas, amhail ceol, glaonna agus clingthonna</string>
+    <string name="screenrecord_mic_label">Micreafón</string>
+    <string name="screenrecord_device_audio_and_mic_label">Fuaim agus micreafón na gléis</string>
+    <string name="screenrecord_continue">Tosaigh</string>
+    <string name="screenrecord_ongoing_screen_only">Scáileán taifeadta</string>
+    <string name="screenrecord_ongoing_screen_and_audio">Taifeadadh scáileáin agus fuaime</string>
+    <string name="screenrecord_taps_label">Taispeáin teagmhálacha ar an scáileán</string>
+    <string name="screenrecord_stop_label">Stop</string>
+    <string name="screenrecord_share_label">Comhroinn</string>
+    <string name="screenrecord_save_title">Taifeadadh scáileáin sábháilte</string>
+    <string name="screenrecord_save_text">Tapáil chun féachaint</string>
+    <string name="screenrecord_start_error">Earráid ag tosú taifeadadh scáileáin</string>
     <string name="screenrecord_stop_dialog_title">An bhfuil fonn ort an taifeadadh a stopadh?</string>
     <string name="screenrecord_stop_dialog_message">Tá do scáileán iomlán á thaifeadadh agat faoi láthair</string>
     <string name="screenrecord_stop_dialog_message_specific_app">Tá tú ag taifeadadh <xliff:g id="app_name" example="Photos App">%1$s</xliff:g> faoi láthair</string>
@@ -53,11 +98,84 @@
     <string name="cast_to_other_device_stop_dialog_message_specific_app">Tá tú ag teilgean <xliff:g id="app_being_shared_name" example="Photos App">%1$s</xliff:g> chuig gléas in aice láimhe faoi láthair</string>
     <string name="cast_to_other_device_stop_dialog_message_generic_with_device">Tá tú ag seoladh chuig <xliff:g id="device_name" example="Living Room Device">%1$s</xliff:g> faoi láthair</string>
     <string name="cast_to_other_device_stop_dialog_message_generic">Tá tú ag seoladh chuig gléas in aice láimhe faoi láthair</string>
+    <string name="close_dialog_button">Dún</string>
+    <string name="issuerecord_share_label">Comhroinn</string>
+    <string name="issuerecord_save_text">Tapáil chun féachaint</string>
     <string name="immersive_cling_description">Chun imeacht, swipeáil síos ó bharr do scáileáin</string>
+    <string name="immersive_cling_positive">Tuigim é.</string>
+    <string name="accessibility_back">Ar ais</string>
+    <string name="accessibility_home">Baile</string>
+    <string name="accessibility_menu">Roghchlár</string>
+    <string name="accessibility_accessibility_button">Inrochtaineacht</string>
+    <string name="accessibility_rotate_button">Rothlaigh an scáileán</string>
+    <string name="accessibility_recent">Forbhreathnú</string>
+    <string name="accessibility_camera_button">Ceamara</string>
+    <string name="accessibility_phone_button">Fón</string>
+    <string name="accessibility_voice_assist_button">Cúnamh Gutha</string>
+    <string name="accessibility_wallet_button">Sparán</string>
+    <string name="accessibility_lock_icon">Gléas faoi ghlas</string>
+    <string name="accessibility_scanning_face">Ag scanadh aghaidhe</string>
+    <string name="accessibility_send_smart_reply">Seol</string>
+    <string name="cancel">Cealaigh</string>
     <string name="biometric_dialog_logo">Lógó aip</string>
+    <string name="biometric_dialog_confirm">Deimhnigh</string>
     <string name="biometric_dialog_tap_confirm_with_face_sfps">Díghlasáilte ag aghaidh. Tapáil chun leanúint ar aghaidh.</string>
     <string name="biometric_dialog_content_view_more_options_button">Tuilleadh Roghanna</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Má chuireann tú patrún mícheart isteach ar an gcéad iarracht eile, scriosfar an t-úsáideoir seo.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Má chuireann tú PIN mícheart isteach an chéad iarracht eile, scriosfar an t-úsáideoir seo.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_user">Má chuireann tú pasfhocal mícheart isteach an chéad iarracht eile, scriosfar an t-úsáideoir seo.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Má chuireann tú patrún mícheart isteach ar an gcéad iarracht eile, scriosfar do phróifíl oibre agus a sonraí.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Má chuireann tú PIN mícheart isteach an chéad iarracht eile, scriosfar do phróifíl oibre agus a sonraí.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Má chuireann tú pasfhocal mícheart isteach an chéad iarracht eile, scriosfar do phróifíl oibre agus a sonraí.</string>
+    <string name="fingerprint_dialog_touch_sensor">Déan teagmháil leis an braiteoir méarloirg</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth ceangailte.</string>
+    <string name="accessibility_battery_unknown">Céatadán ceallraí anaithnid.</string>
+    <string name="accessibility_bluetooth_name">Ceangailte le <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
+    <string name="accessibility_cast_name">Ceangailte le <xliff:g id="cast" example="TV">%s</xliff:g>.</string>
+    <string name="accessibility_not_connected">Gan cheangal.</string>
+    <string name="data_connection_roaming">Fánaíocht</string>
+    <string name="cell_data_off">As</string>
+    <string name="accessibility_airplane_mode">Mód eitleáin.</string>
+    <string name="accessibility_vpn_on">VPN ar siúl.</string>
+    <string name="accessibility_battery_level">Ceallraí <xliff:g id="number">%d</xliff:g> faoin gcéad.</string>
+    <string name="accessibility_battery_level_charging">Ag muirearú ceallraí, <xliff:g id="battery_percentage">%d</xliff:g> faoin gcéad.</string>
+    <string name="accessibility_overflow_action">Féach ar na fógraí uile</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter cumasaithe.</string>
+    <string name="accessibility_ringer_vibrate">Creathadh glaonna.</string>
+    <string name="accessibility_ringer_silent">Glaoigh tost.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
+    <string name="accessibility_desc_notification_shade">Scáth fógra.</string>
+    <string name="accessibility_desc_lock_screen">Scáileán glasála</string>
+    <string name="accessibility_desc_close">Dún</string>
+    <string name="accessibility_quick_settings_dnd_alarms_on">aláraim amháin</string>
+    <string name="accessibility_quick_settings_dnd">Ná Cuir Isteach.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth ar siúl.</string>
+    <string name="accessibility_quick_settings_alarm">Socraíodh an t-aláram do <xliff:g id="time" example="Céadaoin 3:30 PM">%s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_more_time">Tuilleadh ama.</string>
+    <string name="accessibility_quick_settings_less_time">Níos lú ama.</string>
+    <string name="accessibility_casting_turned_off">Stopadh teilgean scáileáin.</string>
+    <string name="accessibility_brightness">Gile taispeána</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Tá sonraí soghluaiste ar sos</string>
+    <string name="data_usage_disabled_dialog_title">Tá sonraí ar sos</string>
+    <string name="data_usage_disabled_dialog">Tá an teorainn sonraí a shocraigh tú sroichte. Níl tú ag úsáid sonraí soghluaiste a thuilleadh.\n\nMá atosaíonn tú, d’fhéadfadh táillí a bheith i bhfeidhm as úsáid sonraí.</string>
+    <string name="data_usage_disabled_dialog_enable">Atosaigh</string>
+    <string name="accessibility_location_active">Iarratais suímh gníomhacha</string>
+    <string name="accessibility_sensors_off_active">Braiteoirí múchta gníomhach</string>
+    <string name="accessibility_clear_all">Glan gach fógra.</string>
+    <string name="notification_group_overflow_indicator">+ <xliff:g id="uimhir" sampla="3">%s</xliff:g></string>
+    <string name="accessibility_rotation_lock_on_landscape">Tá an scáileán faoi ghlas i dtreoshuíomh tírdhreacha.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Tá an scáileán faoi ghlas i dtreoshuíomh portráide.</string>
+    <string name="dessert_case">Cás Milseog</string>
+    <string name="start_dreams">Sábhálaí scáileáin</string>
+    <string name="ethernet_label">Eitirnéad</string>
+    <string name="quick_settings_dnd_label">Ná Cuir Isteach</string>
     <string name="quick_settings_modes_label">Modhanna</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Níl aon fheistí péireáilte ar fáil</string>
+    <string name="pair_new_bluetooth_devices">Péireáil gléas nua</string>
+    <string name="see_all_bluetooth_devices">Féach ar gach rud</string>
+    <string name="quick_settings_bluetooth_device_connected">Ceangailte</string>
     <string name="quick_settings_bluetooth_device_audio_sharing">Comhroinnt Fuaime</string>
     <string name="quick_settings_bluetooth_device_audio_sharing_or_switch_active">Tacaíonn sé le comhroinnt fuaime</string>
     <string name="turn_on_bluetooth_auto_tomorrow">Cuir ar siúl go huathoibríoch amárach</string>
@@ -69,7 +187,34 @@
     <string name="quick_settings_bluetooth_audio_sharing_dialog_title">Roinn do chuid fuaime</string>
     <string name="quick_settings_bluetooth_audio_sharing_dialog_subtitle"><xliff:g id="available_device_name" example="device 1">%1$s</xliff:g> agus <xliff:g id="active_device_name" example="device 2">%2$s</xliff:g></string>
     <string name="quick_settings_bluetooth_audio_sharing_dialog_switch_to_button">Athraigh go <xliff:g id="available_device_name" example="device 1">%1$s</xliff:g></string>
+    <string name="quick_settings_bluetooth_secondary_label_battery_level">ceallraí <xliff:g id="battery_level_as_percentage">%s</xliff:g></string>
+    <string name="quick_settings_bluetooth_secondary_label_audio">Fuaim</string>
+    <string name="quick_settings_bluetooth_secondary_label_headset">Cluasáin</string>
+    <string name="quick_settings_bluetooth_secondary_label_input">Ionchur</string>
+    <string name="quick_settings_bluetooth_secondary_label_transient">Ag casadh air…</string>
     <string name="quick_settings_brightness_unable_adjust_msg">Ní féidir gile a choigeartú toisc go bhfuil\n á rialú ag an aip is fearr</string>
+    <string name="quick_settings_rotation_unlocked_label">Uath-rothlú</string>
+    <string name="accessibility_quick_settings_rotation">Uath-rothlú an scáileáin</string>
+    <string name="quick_settings_location_label">Suíomh</string>
+    <string name="quick_settings_screensaver_label">Sábhálaí scáileáin</string>
+    <string name="quick_settings_camera_label">Rochtain ceamara</string>
+    <string name="quick_settings_mic_label">Rochtain micreafóin</string>
+    <string name="quick_settings_camera_mic_available">Ar fáil</string>
+    <string name="quick_settings_camera_mic_blocked">Blocáilte</string>
+    <string name="quick_settings_media_device_label">Gléas meán</string>
+    <string name="quick_settings_user_title">Úsáideoir</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_internet_label">Idirlíon</string>
+    <string name="quick_settings_networks_available">Líonraí atá ar fáil</string>
+    <string name="quick_settings_networks_unavailable">Líonraí nach bhfuil ar fáil</string>
+    <string name="quick_settings_wifi_detail_empty_text">Níl aon líonraí Wi-Fi ar fáil</string>
+    <string name="quick_settings_wifi_secondary_label_transient">Ag casadh air…</string>
+    <string name="quick_settings_done">Déanta</string>
+    <string name="quick_settings_close_user_panel">Dún</string>
+    <string name="quick_settings_screen_record_start">Tosaigh</string>
+    <string name="quick_settings_screen_record_stop">Stop</string>
+    <string name="qs_record_issue_start">Tosaigh</string>
+    <string name="qs_record_issue_stop">Stop</string>
     <string name="qs_record_issue_bug_report">Tuairisc ar fhabht</string>
     <string name="thermal">Teirmeach</string>
     <string name="custom">Saincheaptha</string>
@@ -79,13 +224,17 @@
     <string name="quick_settings_hearing_devices_connected">Gníomhach</string>
     <string name="quick_settings_hearing_devices_disconnected">Dícheangailte</string>
     <string name="quick_settings_hearing_devices_dialog_title">Gléasanna éisteachta</string>
+    <string name="quick_settings_pair_hearing_devices">Péireáil gléas nua</string>
     <string name="hearing_devices_presets_error">Níorbh fhéidir an réamhshocrú a nuashonrú</string>
     <string name="hearing_devices_preset_label">Réamhshocraithe</string>
     <string name="hearing_devices_spinner_item_selected">Roghnaithe</string>
     <string name="hearing_devices_tools_label">Uirlisí</string>
     <string name="quick_settings_notes_label">Nóta</string>
     <string name="zen_modes_dialog_title">Modhanna</string>
+    <string name="zen_modes_dialog_done">Déanta</string>
+    <string name="zen_mode_on">Ar</string>
     <string name="zen_mode_on_with_details">Ar •<xliff:g id="trigger_description" example="Mon-Fri, 23:00-7:00">%1$s</xliff:g></string>
+    <string name="zen_mode_off">As</string>
     <string name="zen_mode_set_up">Gan socraithe</string>
     <string name="zen_mode_no_manual_invocation">Bainistigh i socruithe</string>
     <string name="zen_mode_active_modes">{count, plural,
@@ -96,14 +245,19 @@
     =0 {Níl aon mhodhanna gníomhacha}
     =1 {{modh} gníomhach}
     other {# modhanna gníomhacha}
-}</string>
+}
+</string>
     <string name="accessibility_action_open_communal_hub">Giuirléidí ar an scáileán glas</string>
     <string name="accessibility_announcement_communal_widget_added"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> curtha leis an scáileán glas</string>
+    <string name="cta_tile_button_to_dismiss">Díbhe</string>
     <string name="unlock_reason_to_customize_widgets">Díghlasáil chun giuirléidí a shaincheapadh</string>
     <string name="icon_description_for_pending_widget">Deilbhín aipe le haghaidh giuirléid atá á shuiteáil</string>
+    <string name="button_to_remove_widget">Bain</string>
+    <string name="hub_mode_editing_exit_button_text">Déanta</string>
     <string name="label_for_button_in_empty_state_cta">Cuir giuirléidí leis</string>
     <string name="title_for_empty_state_cta">Faigh rochtain thapa ar na giuirléidí aipe is fearr leat gan do tháibléad a dhíghlasáil.</string>
     <string name="dialog_title_to_allow_any_widget">Ceadaigh aon ghiuirléid ar an scáileán glas?</string>
+    <string name="button_text_to_open_settings">Oscail socruithe</string>
     <string name="work_mode_off_title">An bhfuil fonn ort feidhmchláir oibre a chur ar sos?</string>
     <string name="work_mode_turn_on">Ná sos</string>
     <string name="accessibility_action_label_close_communal_hub">Dún giuirléidí ar an scáileán glas</string>
@@ -118,9 +272,11 @@
     <string name="accessibility_action_label_expand_widget">Méadú ar airde</string>
     <string name="communal_widgets_disclaimer_title">Glasáil giuirléidí scáileáin</string>
     <string name="communal_widgets_disclaimer_text">Chun aipeanna oscailt ag úsáid ghiuirléid, beidh ort a dhearbhú gurb é tú. Cuimhnigh freisin go bhfuil sé indéanta do dhuine ar bith iad a fheiceáil, fiú nuair atá do chlárlán á gcosaint. Ní b\'fhéidir go raibh roinnt ghiuirléid á bholadh le haghaidh do scáileán glas agus b\'fhéidir nach mbeadh sé sábháilte iad a chur anseo.</string>
+    <string name="communal_widgets_disclaimer_button">Tuigim é.</string>
     <string name="glanceable_hub_lockscreen_affordance_label">Giuirléidí</string>
     <string name="glanceable_hub_lockscreen_affordance_disabled_text">Chun an aicearra \"Giuirléidí\" a chur leis, cinntigh go bhfuil \"Taispeáin giuirléidí ar an scáileán glas\" cumasaithe i socruithe.</string>
     <string name="accessibility_glanceable_hub_to_dream_button">Taispeáin an cnaipe spárálaíscáileáin</string>
+    <string name="user_remove_user_remove">Bain</string>
     <string name="media_projection_entry_app_permission_dialog_title">Comhroinn do scáileán le <xliff:g id="app_seeking_permission" example="Meet">%s</xliff:g>?</string>
     <string name="screen_share_permission_dialog_option_single_app">Roinn aip amháin</string>
     <string name="media_projection_entry_app_permission_dialog_option_text_single_app">@string/screen_share_permission_dialog_option_single_app</string>
@@ -137,6 +293,9 @@
     <string name="media_projection_entry_cast_permission_dialog_warning_single_app">Nuair a bhíonn aip á déanamh agat, tá aon rud a thaispeántar nó a imrítear san aip sin le feiceáil. Mar sin bí cúramach le rudaí cosúil le pasfhocail, sonraí íocaíochta, teachtaireachtaí, grianghraif, agus fuaime agus físeáin.</string>
     <string name="media_projection_entry_cast_permission_dialog_continue_entire_screen">Scáileán a shruthú</string>
     <string name="media_projection_entry_cast_app_selector_title">Roghnaigh aip le haghaidh sruthú</string>
+    <string name="media_projection_entry_generic_permission_dialog_continue">Tosaigh</string>
+    <string name="media_projection_entry_generic_permission_dialog_continue_single_app">Ar Aghaidh</string>
+    <string name="manage_notifications_history_text">Stair</string>
     <string name="notification_settings_button_description">Socruithe fógra</string>
     <string name="notification_history_button_description">Stair fógraí</string>
     <string name="accessibility_notification_section_header_open_settings">Oscail socruithe fógraí</string>
@@ -148,20 +307,28 @@
     =1 {Fógraí curtha ar sos ag {mode}}
     =2 {Fógraí curtha ar sos ag {mode} agus mód amháin eile}
     other {Fógraí curtha ar sos ag {mode} agus # mód eile}
-}</string>
+}
+</string>
     <string name="adaptive_notification_edu_hun_title">Tá fuarú fógraí ar siúl anois</string>
     <string name="adaptive_notification_edu_hun_text">Laghdaítear toirt agus foláirimh do ghléis go huathoibríoch ar feadh suas le 2 nóiméad nuair a fhaigheann tú an iomarca fógraí ag an am céanna.</string>
     <string name="go_to_adaptive_notification_settings">Múch</string>
     <string name="kg_prompt_after_adaptive_auth_lock">Cuireadh an gléas faoi ghlas, an iomarca iarrachtaí fíordheimhnithe</string>
     <string name="keyguard_indication_after_adaptive_auth_lock">Gléas glasáilte\nNíor éirigh leis an bhfíordheimhniú</string>
+    <string name="volume_odi_captions_hint_enable">cumasaigh</string>
+    <string name="volume_odi_captions_hint_disable">Díchumasaigh</string>
+    <string name="stream_bluetooth_sco">Bluetooth</string>
     <string name="stream_alarm_unavailable">Níl sé ar fáil toisc go bhfuil Don\'t Disturb ar siúl</string>
     <string name="stream_media_unavailable">Níl sé ar fáil toisc go bhfuil Ná Cuir isteach ar siúl</string>
     <string name="stream_unavailable_by_modes">Níl sé ar fáil toisc go bhfuil <xliff:g id="mode" example="Bedtime">%s</xliff:g> ar siúl</string>
+    <string name="stream_unavailable_by_unknown">Gan a bheith ar fáil</string>
     <string name="volume_panel_spatial_audio_title">Fuaime Spásúlachta</string>
+    <string name="volume_panel_spatial_audio_off">As</string>
     <string name="volume_panel_spatial_audio_fixed">Seasta</string>
     <string name="volume_panel_spatial_audio_tracking">Rianú Ceann</string>
     <string name="volume_ringer_mode">modh fáinne</string>
     <string name="volume_ringer_drawer_closed_content_description"><xliff:g id="volume ringer status" example="Ring">%1$s</xliff:g>, tapáil chun modh an fháinne a athrú</string>
+    <string name="volume_dialog_title">%s rialuithe toirte</string>
+    <string name="volume_dialog_ringer_guidance_ring">Glaofaidh glaonna agus fógraí (<xliff:g id="volume level" example="56">%1$s</xliff:g>)</string>
     <string name="volume_panel_enter_media_output_settings">Cuir isteach socruithe aschuir</string>
     <string name="volume_panel_expanded_sliders">Sleamhnáin toirte méadaithe</string>
     <string name="volume_panel_collapsed_sliders">Thit sleamhnáin toirte</string>
@@ -169,12 +336,71 @@
     <string name="volume_panel_hint_unmute">Díbhalbhaigh %s</string>
     <string name="volume_panel_hint_muted">balbhaithe</string>
     <string name="media_output_title_ongoing_call">Ag glaoch ar</string>
+    <string name="system_ui_tuner">Tuner Chomhéadain an Chórais</string>
+    <string name="status_bar">Barra stádais</string>
+    <string name="demo_mode">Modh taispeána Chomhéadain an Chórais</string>
+    <string name="enable_demo_mode">Cumasaigh mód taispeána</string>
+    <string name="show_demo_mode">Taispeáin mód taispeána</string>
+    <string name="status_bar_ethernet">Eitirnéad</string>
+    <string name="status_bar_alarm">Aláram</string>
     <string name="active_mode_content_description"><xliff:g id="modeName" example="Do Not Disturb">%1$s</xliff:g> ar siúl</string>
+    <string name="wallet_title">Sparán</string>
+    <string name="wallet_empty_state_label">Socraigh chun ceannacháin níos tapúla agus níos sláine a dhéanamh le do ghuthán</string>
+    <string name="wallet_app_button_label">Taispeáin gach rud</string>
+    <string name="wallet_secondary_label_updating">Nuashonrú</string>
+    <string name="wallet_secondary_label_device_locked">Díghlasáil le húsáid</string>
+    <string name="wallet_error_generic">Bhí fadhb ann do chártaí a fháil, déan iarracht arís ar ball</string>
+    <string name="wallet_lockscreen_settings_label">Socruithe scáileáin ghlasála</string>
+    <string name="qr_code_scanner_updating_secondary_label">Nuashonrú</string>
     <string name="satellite_connected_carrier_text">Satailít SOS</string>
     <string name="satellite_emergency_only_carrier_text">Glaonna éigeandála nó SOS</string>
+    <string name="inline_done_button">Déanta</string>
+    <string name="inline_ok_button">Cuir isteach</string>
+    <string name="notification_alert_title">Réamhshocrú</string>
     <string name="notification_conversation_summary_low">Gan fuaim ná creathadh ach tá sé fós le feiceáil sa rannán comhrá</string>
     <string name="notification_guts_bundle_feedback">Tabhair Aiseolas Beart</string>
+    <string name="notification_conversation_unbubble">Bain boilgeoga</string>
+    <string name="notification_menu_accessibility"><xliff:g id="ainm_aipe" example="YouTube">%1$s</xliff:g> <xliff:g id="tuairisc_meánchláir" example="rialuithe fógra">%2$s</xliff:g></string>
+    <string name="notification_menu_gear_description">rialuithe fógra</string>
+    <string name="notification_menu_snooze_description">roghanna fógraí a shnaoiseadh</string>
+    <string name="notification_menu_snooze_action">Cuir i gcuimhne dom</string>
+    <string name="snooze_undo">Cealaigh</string>
+    <string name="snoozed_for_time">Ar chodladh ar feadh <xliff:g id="time_amount" example="15 nóiméad">%1$s</xliff:g></string>
+    <string name="battery_detail_switch_title">Sábhálaí Ceallraí</string>
+    <string name="keyboard_key_button_template">Cnaipe <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="keyboard_key_home">Baile</string>
+    <string name="keyboard_key_back">Ar ais</string>
+    <string name="keyboard_key_tab">Tab</string>
+    <string name="keyboard_key_space">Spás</string>
+    <string name="keyboard_key_enter">Iontráil</string>
+    <string name="keyboard_key_backspace">Cúlspás</string>
+    <string name="keyboard_key_media_play_pause">Seinn/Sos</string>
+    <string name="keyboard_key_media_stop">Stop</string>
+    <string name="keyboard_key_media_next">Ar Aghaidh</string>
+    <string name="keyboard_key_media_previous">Roimhe Seo</string>
+    <string name="keyboard_key_media_rewind">Athchasadh</string>
+    <string name="keyboard_key_media_fast_forward">Tapáil Ar Aghaidh</string>
+    <string name="keyboard_key_page_up">Leathanach Suas</string>
+    <string name="keyboard_key_page_down">Leathanach Síos</string>
+    <string name="keyboard_key_forward_del">Scrios</string>
     <string name="keyboard_key_esc">Éalú</string>
+    <string name="keyboard_key_move_home">Baile</string>
+    <string name="keyboard_key_move_end">Deireadh</string>
+    <string name="keyboard_key_insert">Cuir isteach</string>
+    <string name="keyboard_key_num_lock">Uimhreacha Glas</string>
+    <string name="keyboard_key_numpad_template">Ceap uimhreach <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="notif_inline_reply_remove_attachment_description">Bain an ceangaltán</string>
+    <string name="keyboard_shortcut_group_system">Córas</string>
+    <string name="keyboard_shortcut_group_system_home">Baile</string>
+    <string name="keyboard_shortcut_group_system_recents">Le Déanaí</string>
+    <string name="keyboard_shortcut_group_system_back">Ar ais</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">Aicearraí Méarchláir</string>
+    <string name="keyboard_shortcut_group_system_switch_input">Athraigh leagan amach an mhéarchláir</string>
+    <string name="keyboard_shortcut_search_list_title">Aicearraí Méarchláir</string>
+    <string name="keyboard_shortcut_search_category_system">Córas</string>
+    <string name="keyboard_shortcut_search_category_input">Ionchur</string>
+    <string name="group_system_access_system_settings">Oscail socruithe</string>
+    <string name="group_system_lock_screen">Scáileán glasála</string>
     <string name="keyboard_shortcut_group_system_multitasking">Iltascáil</string>
     <string name="system_multitasking_rhs">Bain úsáid as scáileán scoilte le aip ar dheis</string>
     <string name="system_multitasking_lhs">Bain úsáid as scáileán scoilte le aip ar thaobh na láimhe clé</string>
@@ -186,23 +412,189 @@
     <string name="system_desktop_mode_snap_right_window">Bog an fhuinneog ar dheis</string>
     <string name="system_desktop_mode_toggle_maximize_window">Uasmhéadaigh an fhuinneog</string>
     <string name="system_desktop_mode_minimize_window">Íoslaghdaigh an fhuinneog</string>
+    <string name="keyboard_shortcut_group_input">Ionchur</string>
+    <string name="keyboard_shortcut_group_applications">Feidhmchláir</string>
+    <string name="keyboard_shortcut_group_applications_browser">Brabhsálaí</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Teagmhálacha</string>
+    <string name="keyboard_shortcut_group_applications_email">Ríomhphost</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_music">Ceol</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Féilire</string>
+    <string name="volume_and_do_not_disturb">Ná Cuir Isteach</string>
+    <string name="volume_dnd_silent">Aicearra cnaipí toirte</string>
+    <string name="battery">Ceallraí</string>
+    <string name="headset">Gléas cinn</string>
+    <string name="accessibility_long_click_tile">Oscail socruithe</string>
+    <string name="accessibility_status_bar_headphones">Cluasáin ceangailte</string>
+    <string name="accessibility_status_bar_headset">Gléas cinn ceangailte</string>
+    <string name="data_saver">Sábhálaí Sonraí</string>
+    <string name="accessibility_data_saver_on">Tá Sábhálaí Sonraí ar siúl</string>
+    <string name="switch_bar_on">Ar</string>
+    <string name="switch_bar_off">As</string>
+    <string name="tile_unavailable">Gan a bheith ar fáil</string>
+    <string name="nav_bar">Barra nascleanúna</string>
+    <string name="nav_bar_layout">Leagan Amach</string>
+    <string name="left_nav_bar_button_type">Cineál cnaipe breise ar chlé</string>
+    <string name="right_nav_bar_button_type">Cineál cnaipe breise ar dheis</string>
+    <string-array name="nav_bar_buttons">
+        <item>Gearrthaisce</item>
+        <item>Cód Eochrach</item>
+        <item>Deimhnigh rothlú, athraitheoir méarchláir</item>
+        <item>Dada</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Gnáth</item>
+        <item>Dlúth</item>
+        <item>Claonadh ar chlé</item>
+        <item>Claonadh ar dheis</item>
+    </string-array>
+    <string name="save">Sábháil</string>
+    <string name="reset">Athshocraigh</string>
+    <string name="clipboard">Gearrthaisce</string>
+    <string name="accessibility_key">Cnaipe nascleanúna saincheaptha</string>
+    <string name="left_keycode">Eochairchód chlé</string>
+    <string name="right_keycode">Eochairchód ar dheis</string>
+    <string name="left_icon">Deilbhín ar chlé</string>
+    <string name="right_icon">Deilbhín ar dheis</string>
+    <string name="drag_to_add_tiles">Coinnigh agus tarraing chun tíleanna a chur leis</string>
+    <string name="drag_to_rearrange_tiles">Coinnigh agus tarraing chun tíleanna a athshocrú</string>
+    <string name="drag_to_remove_tiles">Tarraing anseo le baint</string>
+    <string name="drag_to_remove_disabled">Teastaíonn <xliff:g id="min_num_tiles" example="6">%1$d</xliff:g> tíleanna ar a laghad uait</string>
+    <string name="qs_edit">Cuir in Eagar</string>
+    <string name="tuner_time">Am</string>
+    <string-array name="clock_options">
+        <item>Taispeáin uaireanta, nóiméid agus soicindí</item>
+        <item>Taispeáin uaireanta agus nóiméid (réamhshocraithe)</item>
+        <item>Ná taispeáin an deilbhín seo</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Taispeáin céatadán i gcónaí</item>
+        <item>Taispeáin céatadán agus tú ag muirearú (réamhshocraithe)</item>
+        <item>Ná taispeáin an deilbhín seo</item>
+    </string-array>
+    <string name="tuner_low_priority">Taispeáin deilbhíní fógra ísealthosaíochta</string>
+    <string name="other">Eile</string>
+    <string name="accessibility_qs_edit_remove_tile_action">bain tíleanna</string>
+    <string name="accessibility_qs_edit_tile_add_action">cuir tíl leis an deireadh</string>
+    <string name="accessibility_qs_edit_tile_start_move">Bog tíl</string>
+    <string name="accessibility_qs_edit_tile_start_add">Cuir tíl leis</string>
+    <string name="accessibility_qs_edit_tile_move_to_position">Bog go <xliff:g id="position" example="5">%1$d</xliff:g></string>
+    <string name="accessibility_qs_edit_tile_add_to_position">Cuir le suíomh <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibilit_qs_edit_tile_add_move_invalid_position">Seasamh neamhbhailí</string>
     <string name="finder_active">Is féidir leat an guthán seo a aimsiú le Faigh Mo Ghléas fiú nuair atá tú as feidhm</string>
     <string name="shutdown_progress">Ag múchadh\u2026</string>
+    <string name="lockscreen_none">Dada</string>
+    <string name="privacy_type_location">suíomh</string>
+    <string name="accessibility_magnification_done">Déanta</string>
+    <string name="accessibility_floating_button_undo">Cuir ar ceal</string>
+    <string name="accessibility_floating_button_action_move_bottom_right">Bog bun ar dheis</string>
+    <string name="accessibility_floating_button_action_move_to_edge_and_hide_to_half">Bog go dtí an imeall agus folaigh</string>
+    <string name="accessibility_floating_button_action_move_out_edge_and_show">Bog amach an imeall agus taispeáin</string>
+    <string name="accessibility_floating_button_action_remove_menu">Bain</string>
+    <string name="accessibility_floating_button_action_double_tap_to_toggle">scoránaigh</string>
+    <string name="accessibility_floating_button_action_edit">Cuir in Eagar</string>
+    <string name="quick_controls_title">Rialuithe gléasanna</string>
+    <string name="controls_providers_title">Roghnaigh aip chun rialuithe a chur leis</string>
+    <string name="controls_removed">Bainte</string>
+    <string name="accessibility_control_favorite_position">Is fearr leat é, suíomh <xliff:g id="number" example="1">%d</xliff:g></string>
+    <string name="accessibility_control_move">Bog go dtí an suíomh <xliff:g id="number" example="1">%d</xliff:g></string>
+    <string name="controls_favorite_default_title">Rialuithe</string>
+    <string name="controls_favorite_rearrange">Coinnigh &amp; tarraing chun rialuithe a athshocrú</string>
+    <string name="controls_favorite_removed">Baineadh na rialuithe go léir</string>
+    <string name="controls_favorite_toast_no_changes">Níor sábháladh na hathruithe</string>
+    <string name="controls_favorite_see_other_apps">Féach ar aipeanna eile</string>
+    <string name="controls_favorite_add_controls">Cuir rialuithe leis</string>
+    <string name="controls_favorite_load_error">Níorbh fhéidir na rialuithe a luchtú. Seiceáil an aip <xliff:g id="app" example="System UI">%s</xliff:g> lena chinntiú nach bhfuil socruithe na haipe athraithe.</string>
+    <string name="controls_favorite_load_none">Rialuithe comhoiriúnacha ar fáil</string>
+    <string name="controls_favorite_other_zone_header">Eile</string>
+    <string name="controls_dialog_title">Cuir le rialuithe gléis</string>
+    <string name="controls_dialog_ok">Cuir leis</string>
+    <string name="controls_dialog_remove">Bain</string>
+    <string name="controls_dialog_message">Molta ag <xliff:g id="app" example="System UI">%s</xliff:g></string>
+    <string name="controls_tile_locked">Gléas faoi ghlas</string>
+    <string name="controls_settings_dialog_neutral_button">Ní raibh maith agat</string>
+    <string name="controls_pin_use_alphanumeric">Tá litreacha nó siombailí sa PIN</string>
+    <string name="controls_pin_verify">Fíoraigh <xliff:g id="device" example="Glas doras cúil">%s</xliff:g></string>
+    <string name="controls_pin_wrong">PIN mícheart</string>
+    <string name="controls_pin_instructions">Cuir isteach an PIN</string>
+    <string name="controls_pin_instructions_retry">Bain triail as PIN eile</string>
+    <string name="controls_confirmation_message">Deimhnigh an t-athrú le haghaidh <xliff:g id="device" example="Glas doras cúil">%s</xliff:g></string>
+    <string name="controls_structure_tooltip">Svaidhpeáil chun níos mó a fheiceáil</string>
+    <string name="controls_seeding_in_progress">Moltaí á lódáil</string>
+    <string name="controls_media_title">Meáin</string>
+    <string name="controls_media_active_session">Ní féidir an seisiún meán reatha a cheilt.</string>
+    <string name="controls_media_resume">Atosú</string>
+    <string name="controls_media_playing_item_description">Tá <xliff:g id="song_name" example="Meascán laethúil">%1$s</xliff:g> le <xliff:g id="artist_name" example="Ealaíontóirí éagsúla">%2$s</xliff:g> ag seinm ó <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
+    <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> de <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
+    <string name="controls_media_empty_title">Tá <xliff:g id="app_name" example="Foo Music App">%1$s</xliff:g> ag rith</string>
+    <string name="controls_media_button_play">Seinn</string>
+    <string name="controls_media_smartspace_rec_title">Seinn</string>
+    <string name="controls_media_smartspace_rec_description">Oscail <xliff:g id="app_label" example="Spotify">%1$s</xliff:g></string>
+    <string name="controls_media_smartspace_rec_item_description">Seinn <xliff:g id="song_name" example="Meascán laethúil">%1$s</xliff:g> le <xliff:g id="artist_name" example="Ealaíontóirí éagsúla">%2$s</xliff:g> ó <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
+    <string name="controls_media_smartspace_rec_item_no_artist_description">Seinn <xliff:g id="song_name" example="Meascán laethúil">%1$s</xliff:g> ó <xliff:g id="app_label" example="Spotify">%2$s</xliff:g></string>
+    <string name="media_transfer_undo">Cealaigh</string>
+    <string name="controls_error_timeout">Neamhghníomhach, seiceáil an aip</string>
+    <string name="controls_error_removed">Níor aimsíodh</string>
+    <string name="media_input_group_title">Ionchur</string>
     <string name="media_output_group_title">Aschur</string>
+    <string name="media_output_end_session_dialog_stop">Stop</string>
+    <string name="media_output_broadcast_dialog_save">Sábháil</string>
     <string name="copy_to_clipboard_a11y_action">cóip chuig an ngearrthaisce.</string>
+    <string name="new_notification_text_content_description">Sheol <xliff:g id="name" example="Anna">%1$s</xliff:g> teachtaireacht: <xliff:g id="notification" example="Haigh! Conas atá do lá ag dul">%2$s</xliff:g></string>
+    <string name="new_notification_image_content_description">Sheol <xliff:g id="name" example="Anna">%1$s</xliff:g> íomhá</string>
+    <string name="new_status_content_description">Tá nuashonrú stádais ag <xliff:g id="name" example="Anna">%1$s</xliff:g>: <xliff:g id="status" example="Ag éisteacht le ceol">%2$s</xliff:g></string>
+    <string name="person_available">Ar fáil</string>
+    <string name="battery_state_unknown_notification_title">Fadhb le léamh do mhéadair ceallraí</string>
+    <string name="battery_state_unknown_notification_text">Tapáil le haghaidh tuilleadh eolais</string>
+    <string name="qs_alarm_tile_no_alarm">Níl aon aláram socraithe</string>
     <string name="accessibility_side_fingerprint_indicator_label">Déan teagmháil leis an braiteoir méarloirg. Tá an cnaipe níos giorra aige ar thaobh an ghutháin</string>
+    <string name="accessibility_fingerprint_label">Braiteoir méarloirg</string>
+    <string name="accessibility_authenticate_hint">fíordheimhniú</string>
+    <string name="accessibility_enter_hint">cuir isteach gléas</string>
+    <string name="keyguard_try_fingerprint">Úsáid méarloirg le hoscailt</string>
+    <string name="accessibility_fingerprint_bouncer">Fíordheimhniú ag teastáil. Déan teagmháil leis an braiteoir méarloirg chun fíordheimhniú a dhéanamh.</string>
+    <string name="ongoing_phone_call_content_description">Glao gutháin atá ar siúl</string>
+    <string name="mobile_data_settings_title">Sonraí soghluaiste</string>
+    <string name="mobile_data_connection_active">Ceangailte</string>
+    <string name="mobile_data_off_summary">Ní cheanglóidh sonraí soghluaiste go huathoibríoch</string>
+    <string name="mobile_data_no_connection">Gan nasc</string>
+    <string name="non_carrier_network_unavailable">Níl aon líonraí eile ar fáil</string>
+    <string name="all_network_unavailable">Níl aon líonraí ar fáil</string>
+    <string name="turn_on_wifi">Wi\u2011Fi</string>
+    <string name="tap_a_network_to_connect">Tapáil líonra le ceangal</string>
+    <string name="unlock_to_view_networks">Díghlasáil chun líonraí a fheiceáil</string>
+    <string name="wifi_empty_list_wifi_on">Ag cuardach líonraí\u2026</string>
+    <string name="wifi_failed_connect_message">Theip ar cheangal leis an líonra</string>
+    <string name="wifi_wont_autoconnect_for_now">Ní bhuaigh Wi\u2011Fi uathcheangal faoi láthair</string>
+    <string name="see_all_networks">Féach ar gach rud</string>
+    <string name="to_switch_networks_disconnect_ethernet">Chun líonraí a athrú, dícheangail an ethernet</string>
+    <string name="wifi_scan_notify_message">Chun feabhas a chur ar thaithí an ghléis, is féidir le haipeanna agus seirbhísí scanadh a dhéanamh fós le haghaidh líonraí Wi-Fi ag am ar bith, fiú nuair a bhíonn Wi-Fi múchta. Is féidir leat é seo a athrú i socruithe scanadh Wi-Fi. <annotation id="link">Athraigh</annotation></string>
+    <string name="turn_off_airplane_mode">Múch mód eitleáin</string>
+    <string name="qs_tile_request_dialog_add">Cuir tíl leis</string>
+    <string name="qs_user_switch_dialog_title">Roghnaigh úsáideoir</string>
+    <string name="fgs_manager_app_item_stop_button_label">Stop</string>
+    <string name="clipboard_edit_text_done">Déanta</string>
+    <string name="clipboard_text_hidden">Tapáil chun féachaint</string>
+    <string name="clipboard_overlay_window_name">Gearrthaisce</string>
+    <string name="add">Cuir leis</string>
     <string name="dream_overlay_location_active">Suíomh gníomhach</string>
+    <string name="log_access_confirmation_learn_more">Foghlaim níos mó</string>
+    <string name="rear_display_bottom_sheet_cancel">Cealaigh</string>
     <string name="rear_display_unfolded_front_screen_on">Cuireadh an scáileán tosaigh ar siúl</string>
     <string name="stylus_battery_low_percentage">Ceallra stylus <xliff:g id="percentage" example="16%">%s</xliff:g></string>
+    <string name="call_from_work_profile_close">Cealaigh</string>
     <string name="location_active_dream_overlay_content_description">Suíomh gníomhach</string>
     <string name="priority_mode_dream_overlay_content_description">Ná cuir isteach</string>
+    <string name="dismiss_dialog">Díbhe</string>
+    <string name="privacy_dialog_done_button">Déanta</string>
     <string name="shortcut_helper_category_system_controls">Rialuithe córais</string>
     <string name="shortcut_helper_category_system_apps">Aipeanna córais</string>
     <string name="shortcut_helper_category_multitasking">Iltascáil</string>
     <string name="shortcutHelper_category_split_screen">Scáileán scoilte</string>
+    <string name="shortcut_helper_category_input">Ionchur</string>
     <string name="shortcut_helper_category_app_shortcuts">Aicearraí aip</string>
     <string name="shortcut_helper_category_current_app_shortcuts">Aip Reatha</string>
+    <string name="shortcut_helper_category_a11y">Inrochtaineacht</string>
     <string name="shortcut_helper_title">Aicearraí méarchláir</string>
     <string name="shortcut_helper_customize_mode_title">Saincheap aicearraí méarchláir</string>
     <string name="shortcut_customize_mode_remove_shortcut_dialog_title">An bhfuil fonn ort an t-aicearra a bhaint?</string>
@@ -214,13 +606,17 @@
     <string name="shortcut_helper_content_description_collapse_icon">Laghdaigh an deilbhín</string>
     <string name="shortcut_helper_content_description_meta_key">Gníomh nó deilbhín eochair Meta</string>
     <string name="shortcut_helper_content_description_plus_icon">Deilbhín móide</string>
+    <string name="shortcut_helper_reset_button_text">Athshocraigh</string>
+    <string name="shortcut_helper_done_button_text">Déanta</string>
     <string name="shortcut_helper_content_description_expand_icon">Leathnaigh an deilbhín</string>
     <string name="shortcut_helper_key_combinations_and_conjunction">móide</string>
     <string name="shortcut_helper_key_combinations_forward_slash">ar aghaidh slais</string>
     <string name="shortcut_helper_content_description_drag_handle">Tarraing láimhseáil</string>
     <string name="shortcut_helper_keyboard_settings_buttons_label">Socruithe méarchláir</string>
     <string name="shortcut_helper_customize_dialog_set_shortcut_button_label">Socraigh aicearra</string>
+    <string name="shortcut_helper_customize_dialog_remove_button_label">Bain</string>
     <string name="shortcut_helper_customize_dialog_reset_button_label">Sea, athshocrú</string>
+    <string name="shortcut_helper_customize_dialog_cancel_button_label">Cealaigh</string>
     <string name="shortcut_helper_add_shortcut_dialog_placeholder">Brúigh eochair</string>
     <string name="shortcut_customizer_key_combination_in_use_error_message">Teaglaim eochair in úsáid cheana féin. Bain triail as eochair eile.</string>
     <string name="shortcut_customizer_generic_error_message">Ní féidir aicearra a shocrú.</string>
@@ -232,6 +628,7 @@
     <string name="launch_keyboard_touchpad_tutorial_notification_title">Déan nascleanúint ag baint úsáide as do mhéarchlár agus touchpad</string>
     <string name="launch_keyboard_touchpad_tutorial_notification_content">Foghlaim gothaí touchpad, aicearraí méarchláir, agus go leor eile</string>
     <string name="touchpad_tutorial_home_gesture_button">Téigh abhaile</string>
+    <string name="touchpad_tutorial_done_button">Déanta</string>
     <string name="touchpad_back_gesture_guidance">Svaidhpeáil ar chlé nó ar dheis ag úsáid trí mhéar ar do ceap tadhaill</string>
     <string name="touchpad_back_gesture_success_title">Go deas!</string>
     <string name="touchpad_back_gesture_success_body">Chríochnaigh tú an comhartha dul siar.</string>
@@ -247,6 +644,7 @@
     <string name="tutorial_action_key_success_title">Maith thú!</string>
     <string name="tutorial_action_key_success_body">Chríochnaigh tú an t-amharc go léir aipeanna</string>
     <string name="tutorial_animation_content_description">Beochan teagaisc, cliceáil chun sos agus atosú ar an imirt.</string>
+    <string name="volume_undo_action">Cealaigh</string>
     <string name="back_edu_toast_content">Chun dul ar ais, swipe ar chlé nó ar dheis le trí mhéar ar an touchpad</string>
     <string name="home_edu_toast_content">Chun dul abhaile, sleamhnaigh suas le trí mhéár ar an dteachtphaid.</string>
     <string name="overview_edu_toast_content">Chun na haipinne déanaí a fheiceáil, sleamhnaigh suas agus coinnigh le trí mhéár ar an dteachtphaid.</string>
@@ -263,26 +661,37 @@
     <string name="all_apps_edu_notification_title">Bain úsáid as do mhéarchlár chun gach aip a fheiceáil</string>
     <string name="all_apps_edu_notification_content">Brúigh an eochair ghnímh am ar bith. Tapáil chun tuilleadh gothaí a fhoghlaim.</string>
     <string name="accessibility_deprecate_extra_dim_dialog_title">Is cuid den sleamhnán gile é Extra dim anois</string>
-    <string name="accessibility_deprecate_extra_dim_dialog_description">        Is féidir leat an scáileán a dhéanamh níos caol anois tríd an leibhéal gile a ísliú níos mó fós.\n\nÓs rud é go bhfuil an ghné seo mar chuid den sleamhnán gile anois, tá aicearraí níos lú á mbaint.
+    <string name="accessibility_deprecate_extra_dim_dialog_description">
+        Is féidir leat an scáileán a dhéanamh níos caol anois tríd an leibhéal gile a ísliú níos mó fós.\n\nÓs rud é go bhfuil an ghné seo mar chuid den sleamhnán gile anois, tá aicearraí níos lú á mbaint.
   </string>
     <string name="accessibility_deprecate_extra_dim_dialog_button">Bain aicearraí dim breise</string>
-    <string name="accessibility_deprecate_extra_dim_dialog_toast">        Baineadh aicearraí beaga breise</string>
-    <string name="qs_edit_mode_category_connectivity">        Nascacht
+    <string name="accessibility_deprecate_extra_dim_dialog_toast">
+        Baineadh aicearraí beaga breise</string>
+    <string name="qs_edit_mode_category_connectivity">
+        Nascacht
     </string>
-    <string name="qs_edit_mode_category_accessibility">        Inrochtaineacht
+    <string name="qs_edit_mode_category_accessibility">
+        Inrochtaineacht
     </string>
-    <string name="qs_edit_mode_category_utilities">        Fóntais
+    <string name="qs_edit_mode_category_utilities">
+        Fóntais
     </string>
-    <string name="qs_edit_mode_category_privacy">        Príobháideacht
+    <string name="qs_edit_mode_category_privacy">
+        Príobháideacht
     </string>
-    <string name="qs_edit_mode_category_providedByApps">        Arna chur ar fáil ag aipeanna
+    <string name="qs_edit_mode_category_providedByApps">
+        Arna chur ar fáil ag aipeanna
     </string>
-    <string name="qs_edit_mode_category_display">        Taispeáin
+    <string name="qs_edit_mode_category_display">
+        Taispeáin
     </string>
-    <string name="qs_edit_mode_category_unknown">        Anaithnid
+    <string name="qs_edit_mode_category_unknown">
+        Anaithnid
     </string>
-    <string name="qs_edit_mode_reset_dialog_title">        Athshocraigh gach tíleanna?
+    <string name="qs_edit_mode_reset_dialog_title">
+        Athshocraigh gach tíleanna?
     </string>
-    <string name="qs_edit_mode_reset_dialog_content">        Athshocróidh gach tíleanna Mear-Socruithe chuig bunshocruithe an ghléis
+    <string name="qs_edit_mode_reset_dialog_content">
+        Athshocróidh gach tíleanna Mear-Socruithe chuig bunshocruithe an ghléis
     </string>
 </resources>

@@ -15,6 +15,16 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sms_cb_sender_name_amber">@string/sms_cb_sender_name_default</string>
+    <string name="button_dismiss">Ceart go leor</string>
+    <string name="menu_preferences">Socruithe</string>
+    <string name="button_delete">Scrios</string>
+    <string name="button_cancel">Cealaigh</string>
+    <string name="enable_exercise_test_alerts_title">@string/cmas_exercise_alert</string>
+    <string name="enable_operator_defined_test_alerts_title">@string/cmas_operator_defined_alert</string>
+    <string name="cmas_response_none">Dada</string>
+    <string name="cmas_opt_out_button_yes">Tá</string>
+    <string name="cmas_opt_out_button_no">Níl</string>
+    <string name="action_delete">Scrios</string>
     <string name="notification_cb_settings_changed_title">Athraíodh do shocruithe</string>
     <string name="notification_cb_settings_changed_text">Athshocraíodh socruithe foláirimh éigeandála gan sreang toisc gur athraigh do SIM</string>
 </resources>

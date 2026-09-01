@@ -17,6 +17,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="work_folder_name">Obair</string>
     <string name="set_default_home_app">Socraigh <xliff:g id="launcher_name" example="Launcher3">%1$s</xliff:g> mar aip baile réamhshocraithe sna Socruithe</string>
     <string name="split_app_usage_settings">Socruithe úsáide do %1$s</string>
     <string name="new_window_option_taskbar">Fuinneog Nua</string>
@@ -24,13 +25,16 @@
     <string name="app_pair_not_available">Níl aip péire ar fáil</string>
     <string name="widget_picker_widget_options_button_description">Tuilleadh roghanna</string>
     <string name="widget_picker_show_all_widgets_menu_item_title">Taispeáin gach giuirléidí</string>
-    <string name="widget_preview_name_and_dims_content_description">        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> giuirléid, %2$d ar leithead faoi %3$d ar airde
+    <string name="widget_preview_name_and_dims_content_description">
+        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> giuirléid, %2$d ar leithead faoi %3$d ar airde
     </string>
     <string name="productivity_widget_recommendation_category_label">Bunúsacha</string>
     <string name="news_widget_recommendation_category_label">Nuacht &amp; irisí</string>
     <string name="entertainment_widget_recommendation_category_label">Siamsaíocht</string>
     <string name="social_widget_recommendation_category_label">Sóisialta</string>
     <string name="others_widget_recommendation_category_label">Molta duit</string>
+    <string name="widgets_full_sheet_search_bar_hint">Cuardaigh</string>
+    <string name="widgets_full_sheet_work_tab">Obair</string>
     <string name="widget_cell_tap_to_show_add_button_label">Taispeáin an cnaipe leis</string>
     <string name="widget_cell_tap_to_hide_add_button_label">Folaigh an cnaipe leis</string>
     <string name="widget_add_button_label">Cuir</string>
@@ -38,15 +42,79 @@
     <string name="widgets_list_expand_button_label">Taispeáin go léir</string>
     <string name="widgets_list_expand_button_content_description">Taispeáin gach giuirléidí</string>
     <string name="widgets_list_expanded">Gach giuirléidí á dtaispeáint</string>
+    <string name="notifications_header">Fógraí</string>
+    <string name="long_press_shortcut_to_add">Brúigh agus coinnigh síos chun aicearra a bhogadh.</string>
+    <string name="long_accessible_way_to_add_shortcut">Tapáil faoi dhó agus coinnigh síos chun aicearra a bhogadh nó gníomhartha saincheaptha a úsáid.</string>
+    <string name="hotseat_out_of_space">Níl aon spás eile sa tráidire Favorites</string>
+    <string name="all_apps_button_label">Liosta aipeanna</string>
+    <string name="all_apps_search_results">Torthaí cuardaigh</string>
+    <string name="all_apps_button_personal_label">Liosta aipeanna pearsanta</string>
+    <string name="all_apps_button_work_label">Liosta aipeanna oibre</string>
+    <string name="remove_drop_target_label">Bain</string>
+    <string name="uninstall_drop_target_label">Díshuiteáil</string>
+    <string name="app_info_drop_target_label">Eolas faoin aip</string>
     <string name="uninstall_private_system_shortcut_label">Díshuiteáil an aip</string>
+    <string name="install_drop_target_label">Suiteáil</string>
+    <string name="dismiss_prediction_label">Ná mol an aip</string>
+    <string name="pin_prediction">Tuar bioráin</string>
     <string name="bubble">Mboilgeog</string>
+    <string name="permlab_install_shortcut">suiteáil aicearraí</string>
+    <string name="permdesc_install_shortcut">Ceadaíonn sé d\'aip aicearraí a chur leis gan idirghabháil úsáideora.</string>
+    <string name="gadget_error_text">Ní féidir an giuirléid a lódáil</string>
+    <string name="gadget_setup_text">Socruithe giuirléidí</string>
+    <string name="gadget_complete_setup_text">Tapáil chun an socrú a chríochnú</string>
+    <string name="uninstall_system_app_text">Is aip chórais í seo agus ní féidir í a dhíshuiteáil.</string>
+    <string name="folder_hint_text">Cuir Ainm in Eagar</string>
+    <string name="disabled_app_label">Díchumasaithe <xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
+    <string name="default_scroll_format">Leathanach %1$d de %2$d</string>
+    <string name="workspace_scroll_format">Scáileán baile %1$d de %2$d</string>
+    <string name="workspace_new_page">Leathanach scáileáin bhaile nua</string>
+    <string name="folder_opened">Fillteán oscailte, <xliff:g id="width" example="5">%1$d</xliff:g> faoi <xliff:g id="height" example="3">%2$d</xliff:g></string>
+    <string name="folder_tap_to_close">Tapáil chun an fillteán a dhúnadh</string>
+    <string name="folder_tap_to_rename">Tapáil chun an t-ainm a shábháil</string>
+    <string name="folder_closed">Fillteán dúnta</string>
+    <string name="folder_renamed">Athainmníodh an fillteán go <xliff:g id="name" example="Cluichí">%1$s</xliff:g></string>
+    <string name="folder_name_format_exact">Fillteán: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> míreanna</string>
+    <string name="folder_name_format_overflow">Fillteán: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> nó níos mó míreanna</string>
+    <string name="styles_wallpaper_button_text">Páipéar balla &amp; stíl</string>
+    <string name="settings_button_text">Socruithe baile</string>
+    <string name="msg_disabled_by_admin">Díchumasaithe ag do riarthóir</string>
+    <string name="allow_rotation_desc">Nuair a rothlaítear an fón</string>
     <string name="landscape_mode_title">Modh tírdhreacha</string>
     <string name="landscape_mode_desc">Cuir fón isteach i mód tírdhreacha</string>
+    <string name="notification_dots_title">Poncanna fógra</string>
+    <string name="notification_dots_desc_on">Ar</string>
+    <string name="notification_dots_desc_off">As</string>
+    <string name="title_missing_notification_access">Rochtain fógraí ag teastáil</string>
+    <string name="msg_missing_notification_access">Chun Poncanna Fógra a thaispeáint, cuir fógraí aipeanna ar siúl do <xliff:g id="name" example="My App">%1$s</xliff:g></string>
+    <string name="title_change_settings">Athraigh socruithe</string>
+    <string name="notification_dots_service_title">Taispeáin poncanna fógra</string>
+    <string name="auto_add_shortcuts_description">Le haghaidh aipeanna nua</string>
+    <string name="package_state_unknown">Anaithnid</string>
+    <string name="abandoned_clean_this">Bain</string>
+    <string name="abandoned_search">Cuardaigh</string>
+    <string name="abandoned_promises_title">Níl an aip seo suiteáilte</string>
+    <string name="abandoned_promise_explanation">Níl an aip don deilbhín seo suiteáilte.
+        Is féidir leat í a bhaint, nó cuardach a dhéanamh ar an aip agus í a shuiteáil de láimh.
+    </string>
+    <string name="app_installing_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> á shuiteáil, <xliff:g id="progress" example="30%">%2$s</xliff:g> críochnaithe</string>
+    <string name="app_downloading_title">Ag íoslódáil <xliff:g id="name" example="Messenger">%1$s</xliff:g>, críochnaithe <xliff:g id="progress" example="30%">%2$s</xliff:g></string>
+    <string name="app_waiting_download_title">Tá <xliff:g id="name" example="Messenger">%1$s</xliff:g> ag fanacht le suiteáil</string>
     <string name="app_archived_title">Tá <xliff:g id="name" example="Messenger">%1$s</xliff:g> sa chartlann.</string>
     <string name="app_unarchiving_action">Íoslódáil agus a chur ar ais</string>
+    <string name="dialog_remove">Bain</string>
+    <string name="widgets_list">Liosta giuirléidí</string>
+    <string name="widgets_list_closed">Liosta giuirléidí dúnta</string>
+    <string name="action_move_here">Bog an mhír anseo</string>
+    <string name="item_added_to_workspace">Mír curtha leis an scáileán baile</string>
+    <string name="undo">Cuir ar ceal</string>
     <string name="action_deep_shortcut">Roghchlár Aicearra</string>
+    <string name="action_dismiss_notification">Díbhe</string>
+    <string name="accessibility_close">Dún</string>
+    <string name="all_apps_work_tab">Obair</string>
     <string name="work_scheduler_button_content_description">Sceideal feidhmchláir oibre</string>
     <string name="private_space_secondary_label">Tapáil chun a shocrú nó a oscailt</string>
     <string name="ps_container_unlock_button_content_description">Príobháideach, díghlasáilte.</string>
     <string name="ps_container_lock_button_content_description">Príobháideach, faoi ghlas.</string>
+    <string name="ps_add_button_label">Suiteáil</string>
 </resources>

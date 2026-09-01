@@ -34,7 +34,8 @@
     many {tuilleadh aipeanna}
     =1 {tuilleadh aip}
     other {tuilleadh aipeanna}
-}</string>
+}
+</string>
     <string name="quick_switch_desktop">Deasc</string>
     <string name="bubble_bar_bubble_fallback_description">Boilgeog</string>
     <string name="bubble_bar_overflow_description">Cur thar maoil</string>
@@ -42,7 +43,8 @@
     <string name="bubble_bar_description_multiple_bubbles"><xliff:g id="bubble_bar_bubble_description" example="some title from YouTube">%1$s</xliff:g> agus <xliff:g id="bubble_count" example="4">%2$d</xliff:g> níos mó</string>
     <string name="bubble_bar_action_move_left">Bog ar chlé</string>
     <string name="bubble_bar_action_move_right">Bog ar dheis</string>
-    <string name="bubble_bar_action_dismiss_all">Diúltaigh gach</string>
+    <string name="bubble_bar_action_dismiss_all">Diúltaigh gach
+</string>
     <string name="bubble_bar_accessibility_announce_expand">méadaigh <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
     <string name="bubble_bar_accessibility_announce_collapse">cliseadh <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
     <string name="search_gesture_feature_title">Ciorcal go Cuardach</string>

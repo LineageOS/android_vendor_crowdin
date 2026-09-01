@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="printer_jammed">Stampáilte</string>
+    <string name="printer_offline">As líne</string>
+    <string name="printer_bad_certificate">Droch-theastas</string>
+    <string name="printer_not_encrypted">Gan criptiú</string>
+    <string name="printer_check">Seiceáil printéir</string>
+    <string name="waiting_to_send">Ag fanacht le seoladh</string>
+    <string name="unreadable_input">Níorbh fhéidir an doiciméad a léamh</string>
+    <string name="media_size_l">L</string>
+    <string name="media_size_5x7in">5x7 orlach</string>
+    <string name="media_size_89x119mm">89x119 mm</string>
+    <string name="media_size_54x86mm">54x86 mm</string>
+    <string name="media_size_8x10in">8x10 orlach</string>
+    <string name="media_size_4x6in">4x6 orlach</string>
+    <string name="printer_description">%1$s – %2$s</string>
+    <string name="title_activity_add_printer">Cuir printéir leis</string>
+    <string name="add_printer_by_ip">Cuir printéir leis de réir seoladh IP</string>
+    <string name="hostname_or_ip">Ainm óstach nó seoladh IP</string>
+    <string name="ip_hint">192.168.0.4</string>
+    <string name="add">Cuir leis</string>
+    <string name="no_printer_found">Ní bhfuarthas aon phrintéir ag an seoladh seo</string>
+    <string name="printer_not_supported">Ní thacaítear leis an printéir</string>
+    <string name="wifi_direct">Wi-Fi Díreach</string>
+    <string name="find_wifi_direct">Aimsigh printéirí Wi-Fi Direct</string>
+    <string name="wifi_direct_printing">Priontáil Wi-Fi Direct</string>
+    <string name="wifi_direct_printers">Printéirí Wi-Fi Direct</string>
+    <string name="searching">Ag cuardach\u2026</string>
+    <string name="failed_printer_connection">Níorbh fhéidir ceangal leis an printéir</string>
+    <string name="saved_printers">Printéirí sábháilte</string>
+    <string name="forget">Déan dearmad</string>
+    <string name="connects_via_wifi_direct">Ceanglaíonn trí Wi-Fi Direct</string>
+    <string name="recommendation_summary">Cuireann an tSeirbhís Priontála Réamhshocraithe roghanna bunúsacha ar fáil. D’fhéadfadh roghanna eile don phrintéir seo a bheith ar fáil ó sheirbhís priontála eile.</string>
+    <string name="recommendations_heading">Seirbhísí molta</string>
+    <string name="recommendation_install_summary">Roghnaigh le suiteáil</string>
+    <string name="recommendation_enable_summary">Roghnaigh chun a chumasú</string>
+    <string name="recommendation_manage">Bainistigh seirbhísí</string>
+    <string name="security">Slándáil</string>
+    <string name="certificate_update_request">Chuir an printéir seo teastas slándála nua ar fáil, nó tá gléas eile á
+        aithris. Glac leis an teastas nua?</string>
+    <string name="not_encrypted_request">Ní ghlacann an printéir seo le poist chriptithe a thuilleadh. Leanúint ar aghaidh ag priontáil?</string>
+    <string name="accept">Glac leis</string>
+    <string name="reject">Diúltaigh</string>
+    <string name="connections">Naisc</string>
+    <string name="wifi_direct_problem">Ní féidir leis an tSeirbhís Priontála Réamhshocraithe printéirí Wi-Fi Direct a aimsiú</string>
+    <string name="disable_wifi_direct">Díchumasaigh Wi-Fi Direct</string>
+    <string name="fix">Cead athbhreithnithe</string>
+    <string name="print">Priontáil</string>
+</resources>

@@ -14,6 +14,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uid_label">Meáin</string>
+    <string name="storage_description">Stóráil áitiúil</string>
+    <string name="artist_label">Ealaíontóir</string>
+    <string name="unknown">Anaithnid</string>
+    <string name="root_images">Íomhánna</string>
+    <string name="root_videos">Físeáin</string>
+    <string name="root_audio">Fuaim</string>
+    <string name="permission_required_action">Lean ar aghaidh</string>
+    <string name="clear">Glan</string>
+    <string name="picker_videos">@string/root_videos</string>
+    <string name="picker_category_videos">@string/root_videos</string>
+    <string name="preloading_cancel_button">Cealaigh</string>
+    <string name="transcode_cancel">Cealaigh</string>
     <string name="transcode_alert_channel">Fógraí a thraschódú</string>
     <string name="transcode_progress_channel">Traschódú Dul Chun Cinn</string>
 </resources>

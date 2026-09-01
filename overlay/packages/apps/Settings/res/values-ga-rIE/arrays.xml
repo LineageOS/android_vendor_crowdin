@@ -18,10 +18,68 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="screen_timeout_entries">
+        <item>15 soicind</item>
+        <item>30 soicind</item>
+        <item>1 nóiméad</item>
+        <item>2 nóiméad</item>
+        <item>5 nóiméad</item>
+        <item>10 nóiméad</item>
+        <item>30 nóiméad</item>
+    </string-array>
+    <string-array name="dark_ui_scheduler_preference_titles">
+        <item>@string/dark_ui_auto_mode_never</item>
+        <item>@string/dark_ui_auto_mode_custom</item>
+        <item>@string/dark_ui_auto_mode_auto</item>
+    </string-array>
+    <string-array name="dark_ui_scheduler_with_bedtime_preference_titles">
+        <item>@string/dark_ui_auto_mode_never</item>
+        <item>@string/dark_ui_auto_mode_custom</item>
+        <item>@string/dark_ui_auto_mode_auto</item>
+        <item>@string/dark_ui_auto_mode_custom_bedtime</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Láithreach</item>
+        <item>5 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item/>
+        <item>Scanning\u2026</item>
+        <item>Connecting\u2026</item>
+        <item>Ag fíordheimhniú\u2026</item>
+        <item>Ag fáil seoladh IP\u2026</item>
+        <item>Ceangailte</item>
+        <item>Ar fionraí</item>
+        <item>Ag dícheangal\u2026</item>
+        <item>Dícheangailte</item>
+        <item>Níor éirigh leis</item>
+        <item>Blocáilte</item>
+        <item>Ag seachaint droch-nasc go sealadach</item>
+    </string-array>
+    <string-array name="wifi_tether_security">
+        <item>@string/wifi_security_sae</item>
+        <item>@string/wifi_security_psk_sae</item>
+        <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_none</item>
+    </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
         <item>Ná fíoraigh</item>
         <item>Iarr stádas deimhnithe</item>
         <item>A cheangal ar stádas teastais</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Ceangailte</item>
+        <item>Cuireadh</item>
+        <item>Níor éirigh leis</item>
+        <item>Ar fáil</item>
+        <item>Lasmuigh den raon</item>
     </string-array>
     <string-array name="bt_stack_log_level_entries">
         <item>Verbose</item>
@@ -30,6 +88,322 @@
         <item>Rabhadh</item>
         <item>Earráid</item>
     </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Úsáid Réamhshocrú an Chórais: <xliff:g id="default_bluetooth_max_connected_audio_devices">%1$d</xliff:g></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Bocht</item>
+        <item>Bocht</item>
+        <item>Cóir</item>
+        <item>Maith</item>
+        <item>Sármhaith</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statach</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Dada</item>
+        <item>Lámhleabhar</item>
+        <item>Cumraíocht Uathoibríoch Seachfhreastalaí</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Dada</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP nó CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Gan sonrú</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+        <item>NR</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Dada</item>
+        <item translatable="false">SPN</item>
+        <item translatable="false">IMSI</item>
+        <item translatable="false">GID</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>suíomh garbh</item>
+        <item>suíomh breá</item>
+        <item>GPS</item>
+        <item>creathadh</item>
+        <item>léigh teagmhálacha</item>
+        <item>teagmhálacha a mhodhnú</item>
+        <item>léigh log glaonna</item>
+        <item>modhnaigh log glaonna</item>
+        <item>léigh an féilire</item>
+        <item>modhnaigh féilire</item>
+        <item>scanadh wi-fi</item>
+        <item>fógra</item>
+        <item>scanadh cealla</item>
+        <item>glaoigh ar an bhfón</item>
+        <item>léigh SMS</item>
+        <item>scríobh SMS</item>
+        <item>SMS a fháil</item>
+        <item>faigh SMS éigeandála</item>
+        <item>faigh MMS</item>
+        <item>faigh brú WAP</item>
+        <item>seol SMS</item>
+        <item>léigh SMS ICC</item>
+        <item>scríobh SMS ICC</item>
+        <item>socruithe a mhodhnú</item>
+        <item>tarraing ar a bharr</item>
+        <item>fógraí rochtana</item>
+        <item>ceamara</item>
+        <item>taifead fuaime</item>
+        <item>seinn fuaim</item>
+        <item>léigh an gearrthaisce</item>
+        <item>modhnaigh an ghearrthaisce</item>
+        <item>cnaipí meán</item>
+        <item>fócas fuaime</item>
+        <item>toirt mháistir</item>
+        <item>toirt gutha</item>
+        <item>toirt fáinne</item>
+        <item>toirt meán</item>
+        <item>toirt aláraim</item>
+        <item>toirt fógra</item>
+        <item>toirt bluetooth</item>
+        <item>fan i do dhúiseacht</item>
+        <item>suíomh monatóireachta</item>
+        <item>monitor high power location</item>
+        <item>get usage stats</item>
+        <item>mute/unmute microphone</item>
+        <item>show toast</item>
+        <item>project media</item>
+        <item>activate VPN</item>
+        <item>write wallpaper</item>
+        <item>assist structure</item>
+        <item>assist screenshot</item>
+        <item>read phone state</item>
+        <item>add voicemail</item>
+        <item>use sip</item>
+        <item>process outgoing call</item>
+        <item>fingerprint</item>
+        <item>body sensors</item>
+        <item>read cell broadcasts</item>
+        <item>mock location</item>
+        <item>read storage</item>
+        <item>write storage</item>
+        <item>turn on screen</item>
+        <item>get accounts</item>
+        <item>run in background</item>
+        <item>accessibility volume</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Suíomh</item>
+        <item>Suíomh</item>
+        <item>Suíomh</item>
+        <item>Vibrate</item>
+        <item>Read contacts</item>
+        <item>Modify contacts</item>
+        <item>Read call log</item>
+        <item>Modify call log</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Suíomh</item>
+        <item>Post notification</item>
+        <item>Suíomh</item>
+        <item>Glaoigh ar an bhfón</item>
+        <item>Léigh SMS/MMS</item>
+        <item>Scríobh SMS/MMS</item>
+        <item>Faigh SMS/MMS</item>
+        <item>Faigh SMS/MMS</item>
+        <item>Faigh SMS/MMS</item>
+        <item>Faigh SMS/MMS</item>
+        <item>Seol SMS/MMS</item>
+        <item>Léigh SMS/MMS</item>
+        <item>Scríobh SMS/MMS</item>
+        <item>Socruithe a mhodhnú</item>
+        <item>Tarraing ar a bharr</item>
+        <item>Fógraí rochtana</item>
+        <item>Ceamara</item>
+        <item>Taifeadadh fuaime</item>
+        <item>Seinn fuaim</item>
+        <item>Léigh an ghearrthaisce</item>
+        <item>Athraigh an ghearrthaisce</item>
+        <item>Cnaipí meán</item>
+        <item>Fócas fuaime</item>
+        <item>Toirt mháistir</item>
+        <item>Toirt gutha</item>
+        <item>Toirt fáinne</item>
+        <item>Toirt na meán</item>
+        <item>Toirt aláraim</item>
+        <item>Toirt fógraí</item>
+        <item>Toirt Bluetooth</item>
+        <item>Fan i do dhúiseacht</item>
+        <item>Suíomh</item>
+        <item>Suíomh</item>
+        <item>Get usage stats</item>
+        <item>Mute/unmute microphone</item>
+        <item>Show toast</item>
+        <item>Project media</item>
+        <item>Activate VPN</item>
+        <item>Write wallpaper</item>
+        <item>Struchtúr cúnaimh</item>
+        <item>Scáileán cúnta</item>
+        <item>Léigh staid an ghutháin</item>
+        <item>Add voicemail</item>
+        <item>Úsáid sip</item>
+        <item>Próiseáil glao amach</item>
+        <item>Méarlorg</item>
+        <item>Braiteoirí coirp</item>
+        <item>Léigh craoltaí ceallacha</item>
+        <item>Suíomh bréige</item>
+        <item>Stóráil Léigh</item>
+        <item>Stóráil scríbhneoireachta</item>
+        <item>Cas ar an scáileán</item>
+        <item>Faigh cuntais</item>
+        <item>Rith sa chúlra</item>
+        <item>Toirt inrochtaineachta</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Short</item>
+        <item>Meánach</item>
+        <item>Fada</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_list_titles">
+        <item>Short</item>
+        <item>Meánach</item>
+        <item>Fada</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Réamhshocrú</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Aonspás Serif</item>
+        <item>Ócáideach</item>
+        <item>Cursive</item>
+        <item>Príomhchathracha beaga</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>An-bheag</item>
+        <item>Beag</item>
+        <item>Meánach</item>
+        <item>Large</item>
+        <item>An-mhór</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Réamhshocrú</item>
+        <item>Dada</item>
+        <item>Imlíne</item>
+        <item>Scáth titim</item>
+        <item>Ardaithe</item>
+        <item>Dúlagar</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Socraithe ag an aip</item>
+        <item>Bán ar dhubh</item>
+        <item>Dubh ar bhán</item>
+        <item>Buí ar dhubh</item>
+        <item>Buí ar ghorm</item>
+        <item>Saincheaptha</item>
+    </string-array>
+    <string-array name="accessibility_button_location_selector_titles">
+        <item>Ar snámh thar aipeanna eile</item>
+        <item>Barra nascleanúna</item>
+    </string-array>
+    <string-array name="accessibility_button_gesture_selector_titles">
+        <item>Cnaipe</item>
+        <item>Gotha</item>
+    </string-array>
+    <string-array name="accessibility_button_size_selector_titles">
+        <item>Beag</item>
+        <item>Mór</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Dada</item>
+        <item>Lámhleabhar</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Dícheangailte</item>
+        <item>Ag tosú\u2026</item>
+        <item>Ag ceangal\u2026</item>
+        <item>Ceangailte</item>
+        <item>Am críochnaithe</item>
+        <item>Níor éirigh leis</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Iarr</item>
+        <item>Ná lig riamh</item>
+        <item>Ceadaigh i gcónaí</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Gnáth</item>
+        <item>Measartha</item>
+        <item>Íseal</item>
+        <item>Criticiúil</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Cian</item>
+        <item>Gorm</item>
+        <item>Glas</item>
+        <item>Corcra</item>
+        <item>Bándearg</item>
+        <item>Oráiste</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Os cionn 30 lá d\'aois</item>
+        <item>Os cionn 60 lá d\'aois</item>
+        <item>Os cionn 90 lá d\'aois</item>
+    </string-array>
+    <string-array name="swipe_direction_titles">
+        <item>@string/swipe_direction_rtl</item>
+        <item>@string/swipe_direction_ltr</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Braith go huathoibríoch</item>
+        <item>Déileáil mar a bhí méadraithe</item>
+        <item>Treat as unmetered</item>
+    </string-array>
     <string-array name="wifi_privacy_entries">
         <item>Bain úsáid as MAC randamach</item>
         <item>Use device MAC</item>
@@ -37,6 +411,83 @@
     <string-array name="wifi_dhcp_entries">
         <item>Seol ainm an ghléis chuig an líonra</item>
         <item>Ná seol ainm an ghléis chuig an líonra</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>Níl</item>
+        <item>Tá</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>As</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>GSM/WCDMA is fearr</item>
+        <item>GSM amháin</item>
+        <item>WCDMA amháin</item>
+        <item>GSM/WCDMA uathoibríoch</item>
+        <item>CDMA/EvDo uathoibríoch</item>
+        <item>CDMA gan EvDo</item>
+        <item>EvDo amháin</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>TDSCDMA amháin</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA </item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>NR amháin</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>Domhanda</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="enhanced_4g_lte_mode_title_variant">
+        <item>@string/enhanced_4g_lte_mode_title</item>
+        <item>@string/enhanced_4g_lte_mode_title_advanced_calling</item>
+        <item>@string/enhanced_4g_lte_mode_title_4g_calling</item>
+    </string-array>
+    <string-array name="rtt_setting_mode">
+        <item/>
+        <item>@string/rtt_settings_no_visible</item>
+        <item>@string/rtt_settings_visible_during_call</item>
+        <item>@string/rtt_settings_always_visible</item>
+    </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="switch_to_dock_user_when_docked_timeout_entries">
+        <item>Choíche</item>
+        <item>After 1 minute</item>
+        <item>After 5 minutes</item>
+    </string-array>
+    <string-array name="ingress_rate_limit_entries">
+        <item>@string/ingress_rate_limit_no_limit_entry</item>
+        <item>128kbps</item>
+        <item>256kbps</item>
+        <item>1Mbps</item>
+        <item>5Mbps</item>
+        <item>15Mbps</item>
     </string-array>
     <string-array name="terms_of_address_unsupported_locales"/>
     <string-array name="terms_of_address_supported_languages">

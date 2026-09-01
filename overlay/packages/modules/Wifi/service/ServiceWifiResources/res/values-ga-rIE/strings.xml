@@ -14,10 +14,47 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifiResourcesAppLabel" product="default">Acmhainní Wi-Fi an Chórais</string>
+    <string name="wifi_available_title">Ceangail le líonra  Wi\u2011Fi oscailte</string>
+    <string name="wifi_available_content_failed_to_connect">Tapáil chun na líonraí go léir a fheiceáil</string>
+    <string name="wifi_available_action_connect">Ceangail</string>
+    <string name="wifi_available_action_all_networks">Gach líonra</string>
+    <string name="notification_channel_network_status">Stádas an líonra</string>
+    <string name="notification_channel_network_alerts">Foláirimh líonra</string>
+    <string name="notification_channel_network_available">Líonra ar fáil</string>
+    <string name="wifi_suggestion_content">Líonraí molta <xliff:g id="name" example="App123">%s</xliff:g>. D’fhéadfadh an gléas ceangal go huathoibríoch.</string>
+    <string name="wifi_suggestion_action_allow_app">Ceadaigh</string>
+    <string name="wifi_suggestion_action_disallow_app">Ní raibh maith agat</string>
+    <string name="wifi_suggestion_imsi_privacy_title">Ceangail le <xliff:g id="carrierName" example="xxxMobile">%s</xliff:g> Wi\u2011Fi?</string>
+    <string name="wifi_suggestion_imsi_privacy_content">Faigheann na líonraí seo ID SIM ar féidir a úsáid chun suíomh na ngléas a rianú</string>
+    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_carrier">Ceangail</string>
+    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_carrier">Ná ceangail</string>
+    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_title">Deimhnigh an nasc?</string>
+    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_content">Má nascann tú, féadfaidh líonraí Wi-Fi <xliff:g id="carrierName" example="xxxMobile">%s</xliff:g> rochtain a fháil ar aitheantas uathúil a bhaineann le do SIM nó an aitheantas sin a roinnt. D’fhéadfadh sé seo ligean do shuíomh do ghléis a rianú.</string>
+    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_confirmation">Ceangail</string>
+    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_confirmation">Ná ceangail</string>
+    <string name="wifi_wakeup_onboarding_title">Casfaidh Wi\u2011Fi air go huathoibríoch</string>
+    <string name="wifi_wakeup_onboarding_subtext">Nuair atá tú gar do líonra sábháilte ardchaighdeáin</string>
+    <string name="wifi_wakeup_onboarding_action_disable">Ná cas air arís</string>
+    <string name="wifi_watchdog_network_disabled">Níorbh fhéidir ceangal le Wi-Fi</string>
+    <string name="wifi_watchdog_network_disabled_detailed">Tá nasc idirlín lag ag \u0020.</string>
+    <string name="wifi_connect_alert_title">Ceadaigh nasc?</string>
+    <string name="wifi_connect_alert_message">Ba mhaith leis an bhfeidhmchlár %1$s ceangal le líonra Wifi %2$s</string>
+    <string name="wifi_connect_default_application">Feidhmchlár</string>
+    <string name="accept">Glac leis</string>
+    <string name="decline">Diúltú</string>
+    <string name="ok">Ceart go leor</string>
+    <string name="wifi_p2p_invitation_sent_title">Cuireadh seolta</string>
+    <string name="wifi_p2p_invitation_to_connect_title">Cuireadh chun ceangal</string>
+    <string name="wifi_p2p_from_message">Ó:</string>
+    <string name="wifi_p2p_to_message">Chuig:</string>
+    <string name="wifi_p2p_enter_pin_message">Clóscríobh an PIN atá ag teastáil:</string>
+    <string name="wifi_p2p_show_pin_message">PIN: </string>
     <string name="wifi_p2p_dialog2_sent_title">Ceangal gléas</string>
     <string name="wifi_p2p_dialog2_sent_title_display_pin">Ceangal gléas</string>
     <string name="wifi_p2p_dialog2_sent_message">Cuireadh chuig <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="wifi_p2p_dialog2_sent_message_display_pin">Cuir isteach an UAP seo ar <xliff:g id="device_name">%1$s</xliff:g> chun nascadh.</string>
+    <string name="wifi_p2p_dialog2_sent_positive_button">Ceart go leor</string>
     <string name="wifi_p2p_dialog2_received_title">Ceangal gléas</string>
     <string name="wifi_p2p_dialog2_received_title_enter_pin">Ceangal gléas</string>
     <string name="wifi_p2p_dialog2_received_title_display_pin">Ceangal gléas</string>
@@ -31,7 +68,8 @@
     many {Tá {device} ag iarraidh ceangal le do ghléas. Glac leis laistigh de {countdown} soicind.}
     =1 {Tá {device} ag iarraidh ceangal le do ghléas. Glac leis laistigh de {countdown} soicind amháin.}
     other {Tá {device} ag iarraidh ceangal le do ghléas. Glac leis laistigh de {countdown} soicind.}
-}</string>
+}
+</string>
     <string name="wifi_p2p_dialog2_received_message_enter_pin_countdown">{countdown, plural,
     one {}
     two {Iontráil an PIN a thaispeántar ar {device} laistigh de {countdown} shoicind chun ceangal.}
@@ -39,7 +77,8 @@
     many {Iontráil an PIN a thaispeántar ar {device} laistigh de {countdown} soicind chun ceangal.}
     =1 {Iontráil an PIN a thaispeántar ar {device} laistigh de {countdown} soicind amháin chun ceangal.}
     other {Iontráil an PIN a thaispeántar ar {device} laistigh de {countdown} soicind chun ceangal.}
-}</string>
+}
+</string>
     <string name="wifi_p2p_dialog2_received_message_display_pin_countdown">{countdown, plural,
     one {}
     two {Tá {device} ag iarraidh ceangal le do ghléas leis an bPIN seo a leanas. Glac leis laistigh de {countdown} shoicind.}
@@ -47,8 +86,33 @@
     many {Tá {device} ag iarraidh ceangal le do ghléas leis an bPIN seo a leanas. Glac leis laistigh de {countdown} soicind.}
     =1 {Tá {device} ag iarraidh ceangal le do ghléas leis an bPIN seo a leanas. Glac leis laistigh de {countdown} soicind amháin.}
     other {Tá {device} ag iarraidh ceangal le do ghléas leis an bPIN seo a leanas. Glac leis laistigh de {countdown} soicind.}
-}</string>
+}
+</string>
+    <string name="wifi_p2p_dialog2_received_positive_button">Ceangail</string>
     <string name="wifi_p2p_dialog2_received_negative_button">Cealaigh</string>
     <string name="wifi_p2p_dialog2_enter_pin_label">UAP</string>
     <string name="wifi_p2p_dialog2_display_pin_label">UAP</string>
+    <string name="dlg_ok">Ceart go leor</string>
+    <string name="wifi_cannot_connect_with_randomized_mac_title">Ní féidir ceangal le <xliff:g id="ssid">%1$s</xliff:g></string>
+    <string name="wifi_cannot_connect_with_randomized_mac_message">Tapáil chun socruithe príobháideachais a athrú agus déan iarracht eile</string>
+    <string name="wifi_disable_mac_randomization_dialog_title">Athraigh an socrú príobháideachais?</string>
+    <string name="wifi_disable_mac_randomization_dialog_message">Chun ceangal, ní mór do <xliff:g id="ssid">%1$s</xliff:g> seoladh MAC do ghléis, aitheantóir uathúil, a úsáid. Faoi láthair, úsáideann do shocrú príobháideachta don líonra seo aitheantóir randamach.
+       \n\nD’fhéadfadh an t-athrú seo ligean do ghléasanna in aice láimhe suíomh do ghléis a rianú. </string>
+    <string name="wifi_disable_mac_randomization_dialog_confirm_text">Athraigh an socrú</string>
+    <string name="wifi_disable_mac_randomization_dialog_success">Socrú nuashonraithe. Déan iarracht ceangal arís.</string>
+    <string name="wifi_disable_mac_randomization_dialog_failure">Ní féidir an socrú príobháideachais a athrú</string>
+    <string name="wifi_disable_mac_randomization_dialog_network_not_found">Níor aimsíodh líonra</string>
+    <string name="wifi_eap_error_message_code_32760"><xliff:g id="ssid">%1$s</xliff:g> : Earráid fíordheimhnithe EAP 32760</string>
+    <string name="wifi_eap_error_message_code_32761"><xliff:g id="ssid">%1$s</xliff:g> : Earráid fíordheimhnithe EAP 32761</string>
+    <string name="wifi_eap_error_message_code_32762"><xliff:g id="ssid">%1$s</xliff:g> : Earráid fíordheimhnithe EAP 32762</string>
+    <string name="wifi_eap_error_message_code_32763"><xliff:g id="ssid">%1$s</xliff:g> : Earráid fíordheimhnithe EAP 32763</string>
+    <string name="wifi_eap_error_message_code_32764"><xliff:g id="ssid">%1$s</xliff:g> : Earráid fíordheimhnithe EAP 32764</string>
+    <string name="wifi_eap_error_message_code_32765"><xliff:g id="ssid">%1$s</xliff:g> : Earráid fíordheimhnithe EAP 32765</string>
+    <string name="wifi_eap_error_message_code_32766"><xliff:g id="ssid">%1$s</xliff:g> : Earráid fíordheimhnithe EAP 32766</string>
+    <string name="wifi_softap_auto_shutdown_timeout_expired_title">Hotspot múchta</string>
+    <string name="wifi_softap_auto_shutdown_timeout_expired_summary">Gan aon ghléasanna ceangailte. Tapáil chun modhnú.</string>
+    <string name="wifi_sim_required_message">Chun ceangal le <xliff:g id="ssid">%1$s</xliff:g>, cuir isteach SIM <xliff:g id="carrier_name">%2$s</xliff:g></string>
+    <string name="wifi_interface_priority_approve">Ceadaigh</string>
+    <string name="wifi_tofu_invalid_cert_chain_ok_text">Ceart go leor</string>
+    <string name="wifi_enable_request_dialog_positive_button">Ceadaigh</string>
 </resources>

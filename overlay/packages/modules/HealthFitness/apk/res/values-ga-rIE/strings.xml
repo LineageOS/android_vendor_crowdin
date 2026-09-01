@@ -25,7 +25,8 @@
     many {Tá rochtain ag # aipeanna.}
     =1 {Tá rochtain ag 1 aip.}
     other {Tá rochtain ag # aipeanna.}
-}</string>
+}
+</string>
     <string name="connected_apps_connected_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens when all possible apps are connected. [ICU SYNTAX][CHAR_LIMIT=NONE]">{count, plural,
     one {}
     two {Tá rochtain ag # aip.}
@@ -33,7 +34,8 @@
     many {Tá rochtain ag # aipeanna.}
     =1 {Tá rochtain ag 1 aip.}
     other {Tá rochtain ag # aipeanna.}
-}</string>
+}
+</string>
     <string name="browse_data_subtitle" description="Description for button that allows the user to browse data [CHAR_LIMIT=NONE]">Féach ar na sonraí agus cé na haipeanna ar féidir leo rochtain a fháil orthu</string>
     <string name="manage_data_summary" description="Summary for the manage data preference. [CHAR_LIMIT=NONE]">Uath-scrios, foinsí sonraí, cúltaca agus athbhunaigh</string>
     <string name="manage_data_preferences_category_title" description="Label for the grouped preference settings for managing data. [CHAR_LIMIT=40]">Roghanna</string>
@@ -205,7 +207,8 @@
     many {An t-easpórtáil dheireanach: # nóiméad ó shin}
     =1 {An t-easpórtáil dheireanach: 1 nóiméad ó shin}
     other {An t-easpórtáil dheireanach: # nóiméad ó shin}
-}</string>
+}
+</string>
     <string name="last_export_time_hours_ago" description="Text to show if the last successful export was between 1 hour and 1 day [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural,
     one {}
     two {An t-easpórtáil dheireanach: # uair an chloig ó shin}
@@ -213,7 +216,8 @@
     many {An t-easpórtáil dheireanach: # uair an chloig ó shin}
     =1 {An t-easpórtáil dheireanach: 1 uair an chloig ó shin}
     other {An t-easpórtáil dheireanach: # uair an chloig ó shin}
-}</string>
+}
+</string>
     <string name="no_last_export_message" description="Text to show when there is no previous export after scheduling an export [CHAR_LIMIT=NONE]">Easpórtáil dheireanach: aon cheann</string>
     <string name="last_export_file_location" description="Label to indicate the file location of the last successful export. [CHAR_LIMIT=NONE]"><xliff:g example="Drive" id="export_app_name">%1$s</xliff:g> • <xliff:g example="healthconnect.zip" id="export_file_name">%2$s</xliff:g></string>
     <string name="scheduled_export" description="Menu item where users can click to configure scheduled data export. [CHAR_LIMIT=40]">Easpórtáil sceidealta</string>
@@ -288,7 +292,8 @@
     <string name="period_length" description="A user's period entry and how many days it lasted. [CHAR_LIMIT=50]">{count, plural, 
     =1 {Tréimhse (lá amháin)} 
     other {Tréimhse (# lá)}
-}</string>
+}
+</string>
     <string name="planned_exercise_session_notes_title" description="Title for notes section.">Nótaí</string>
     <string name="planned_exercise_block_repetitions" description="Repetitions of an exercise set. [ICU SYNTAX][CHAR LIMIT=50]">{count, plural,
     one {}
@@ -297,7 +302,8 @@
     many {# uair.}
     =1 {1 uair.}
     other {# uair.}
-}</string>
+}
+</string>
     <string name="active_calories_burned" description="Label for active calories burned">Gníomhach: <xliff:g example="40 Cal" id="active_calories">%1$s</xliff:g></string>
     <string name="total_calories_burned" description="Label for total calories burned">Iomlán: <xliff:g example="40 Cal" id="total_calories">%1$s</xliff:g></string>
     <string name="amrap_performance_goal" description="Label for as many reps as possible performance goal">An oiread athrá agus is féidir</string>
@@ -317,7 +323,8 @@
     many {#℃.}
     =1 {1℃.}
     other {#℃.}
-}</string>
+}
+</string>
     <string name="temperature_kelvin" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {#K.}
@@ -325,7 +332,8 @@
     many {#K.}
     =1 {1K.}
     other {#K.}
-}</string>
+}
+</string>
     <string name="temperature_fahrenheit" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {#℉.}
@@ -333,7 +341,8 @@
     many {#℉.}
     =1 {1℉.}
     other {#℉.}
-}</string>
+}
+</string>
     <string name="temperatureDelta_celsius" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {{formattedValue}℃.}
@@ -341,7 +350,8 @@
     many {{formattedValue}℃.}
     =1 {{formattedValue}℃.}
     other {{formattedValue}℃.}
-}</string>
+}
+</string>
     <string name="temperatureDelta_celsius_long" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
     one {}
     two {{formattedValue} céim Celsius.}
@@ -349,7 +359,8 @@
     many {{formattedValue} céimeanna Celsius.}
     =1 {{formattedValue} céim Celsius.}
     other {{formattedValue} céimeanna Celsius.}
-}</string>
+}
+</string>
     <string name="temperatureDelta_fahrenheit" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {{formattedValue}℉.}
@@ -357,7 +368,8 @@
     many {{formattedValue}℉.}
     =1 {{formattedValue}℉.}
     other {{formattedValue}℉.}
-}</string>
+}
+</string>
     <string name="temperatureDelta_fahrenheit_long" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
     one {}
     two {{formattedValue} céim Fahrenheit.}
@@ -365,7 +377,8 @@
     many {{formattedValue} céimeanna Fahrenheit.}
     =1 {{formattedValue} céim Fahrenheit.}
     other {{formattedValue} céimeanna Fahrenheit.}
-}</string>
+}
+</string>
     <string name="temperatureDelta_kelvin" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {{formattedValue}K.}
@@ -373,7 +386,8 @@
     many {{formattedValue}K.}
     =1 {{formattedValue}K.}
     other {{formattedValue}K.}
-}</string>
+}
+</string>
     <string name="temperatureDelta_kelvin_long" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
     one {}
     two {{formattedValue} céim Kelvin.}
@@ -381,7 +395,8 @@
     many {{formattedValue} céimeanna Kelvin.}
     =1 {{formattedValue} céim Kelvin.}
     other {{formattedValue} céimeanna Kelvin.}
-}</string>
+}
+</string>
     <string name="temperatureDelta_average_celsius" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {{formattedValue}℃ (athrú meánach).}
@@ -389,7 +404,8 @@
     many {{formattedValue}℃ (athrú meánach).}
     =1 {{formattedValue}℃ (athrú meánach).}
     other {{formattedValue}℃ (athrú meánach).}
-}</string>
+}
+</string>
     <string name="temperatureDelta_average_celsius_long" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
     one {}
     two {{formattedValue} céimeanna Celsius (athrú meánach).}
@@ -397,7 +413,8 @@
     many {{formattedValue} céimeanna Celsius (athrú meánach).}
     =1 {{formattedValue} céim Celsius (athrú meánach).}
     other {{formattedValue} céimeanna Celsius (athrú meánach).}
-}</string>
+}
+</string>
     <string name="temperatureDelta_average_fahrenheit" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {{formattedValue}℉ (athrú meánach).}
@@ -405,7 +422,8 @@
     many {{formattedValue}℉ (athrú meánach).}
     =1 {{formattedValue}℉ (athrú meánach).}
     other {{formattedValue}℉ (athrú meánach).}
-}</string>
+}
+</string>
     <string name="temperatureDelta_average_fahrenheit_long" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
     one {}
     two {{formattedValue} céimeanna Fahrenheit (athrú meánach).}
@@ -413,7 +431,8 @@
     many {{formattedValue} céimeanna Fahrenheit (athrú meánach).}
     =1 {{formattedValue} céim Fahrenheit (athrú meánach).}
     other {{formattedValue} céimeanna Fahrenheit (athrú meánach).}
-}</string>
+}
+</string>
     <string name="temperatureDelta_average_kelvin" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
     one {}
     two {{formattedValue}K (athrú meánach).}
@@ -421,7 +440,8 @@
     many {{formattedValue}K (athrú meánach).}
     =1 {{formattedValue}K (athrú meánach).}
     other {{formattedValue}K (athrú meánach).}
-}</string>
+}
+</string>
     <string name="temperatureDelta_average_kelvin_long" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
     one {}
     two {{formattedValue} kelvins (athrú meánach).}
@@ -429,7 +449,8 @@
     many {{formattedValue} kelvins (athrú meánach).}
     =1 {{formattedValue} kelvins (athrú meánach).}
     other {{formattedValue} kelvins (athrú meánach).}
-}</string>
+}
+</string>
     <string name="skin_temperature_measurement_location_title" description="Title for the location where the body temperature measurement was taken. [CHAR LIMIT=50]">Suíomh tomhais</string>
     <string name="skin_temperature_baseline_title" description="Title for the skin temperature record baseline temperature reading. [CHAR LIMIT=50]">Bunlíne</string>
     <string name="skin_temperature_delta_details_heading" description="Heading for the list of individual delta readings. [CHAR LIMIT=160]">Athrú ón mbunlíne</string>
@@ -440,7 +461,8 @@
     many {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
     =1 {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
     other {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
-}</string>
+}
+</string>
     <string name="auto_delete_confirmation_toast" description="Toast confirming that auto-delete has been set">{
     count, plural,
     one {}
@@ -449,7 +471,8 @@
     many {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí}
     =1 {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí ó shin}
     other {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí}
-}</string>
+}
+</string>
     <string name="auto_delete_off_toast" description="Toast confirming that auto-delete is off.">Tá uath-scriosadh múchta</string>
     <string name="route_permissions_label" description="Summary of the section explaining in more details what it means to give read exercise route permission access to an app.">Rochtain bealaí aclaíochta</string>
     <string name="route_permissions_summary" description="Summary of the section explaining in more details what it means to give read exercise route permission access to an app.">Ceadaigh do <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> bealaí a rochtain</string>
