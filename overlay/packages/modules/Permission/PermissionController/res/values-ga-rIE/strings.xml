@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rialaitheoir ceadanna</string>
+    <string name="ok">Ceart go leor</string>
+    <string name="permission_search_keyword">ceadanna</string>
+    <string name="cancel">Cealaigh</string>
+    <string name="back">Ar ais</string>
+    <string name="off">As</string>
+    <string name="uninstall_or_disable">Díshuiteáil nó díchumasaigh</string>
+    <string name="app_not_found_dlg_title">Níor aimsíodh an aip</string>
+    <string name="grant_dialog_button_deny">Ná ceadaigh</string>
+    <string name="grant_dialog_button_deny_and_dont_ask_again">Ná lig \u0026 ná fiafraigh arís</string>
+    <string name="grant_dialog_button_no_upgrade">Coinnigh \u201cLe linn don aip a bheith in úsáid\u201d</string>
+    <string name="grant_dialog_button_no_upgrade_one_time">Coinnigh \u201cAn uair seo amháin\u201d</string>
+    <string name="grant_dialog_button_more_info">Tuilleadh eolais</string>
+    <string name="grant_dialog_button_deny_anyway">Ná ceadaigh ar aon nós</string>
+    <string name="grant_dialog_button_dismiss">Díbhe</string>
+    <string name="allow_permission_foreground_only">Agus an aip in úsáid amháin</string>
+    <string name="allow_permission_always">I gcónaí</string>
+    <string name="deny_permission_deny_and_dont_ask_again">Ná ceadaigh agus ná fiafraigh arís</string>
+    <string name="permission_revoked_count"><xliff:g id="count" example="2">%1$d</xliff:g> díchumasaithe</string>
+    <string name="permission_revoked_all">gach duine faoi mhíchumas</string>
+    <string name="permission_revoked_none">gan aon cheann faoi mhíchumas</string>
+    <string name="grant_dialog_button_allow">Ceadaigh</string>
+    <string name="grant_dialog_button_allow_always">Lig an t-am ar fad</string>
+    <string name="grant_dialog_button_allow_foreground">Agus an aip á húsáid</string>
+    <string name="grant_dialog_button_change_to_precise_location">Athraigh go suíomh beacht</string>
+    <string name="grant_dialog_button_keey_approximate_location">Coinnigh suíomh garbh</string>
+    <string name="grant_dialog_button_allow_one_time">An uair seo amháin</string>
+    <string name="grant_dialog_button_allow_background">Lig an t-am ar fad</string>
+    <string name="grant_dialog_button_allow_all_files">Ceadaigh bainistíocht na gcomhad go léir</string>
+    <string name="grant_dialog_button_allow_media_only">Ceadaigh rochtain ar chomhaid meán</string>
+    <string name="app_permissions_breadcrumb">Aipeanna</string>
+    <string name="app_permissions">Ceadanna aipeanna</string>
+    <string name="unused_apps">Aipeanna neamhúsáidte</string>
+    <string name="no_unused_apps">Gan aon aipeanna neamhúsáidte</string>
+    <string name="zero_unused_apps">0 aip neamhúsáidte</string>
+    <string name="app_disable_dlg_positive">Díchumasaigh an aip</string>
+    <string name="app_disable_dlg_text">Má dhíchumasaíonn tú an aip seo, b\'fhéidir nach n-oibreoidh Android agus aipeanna eile mar a bhí beartaithe a thuilleadh. Coinnigh i gcuimhne nach féidir leat an aip seo a scriosadh ós rud é go raibh sí réamhshuiteáilte ar do ghléas. Trí dhíchumasú, múchann tú an aip seo agus folaíonn tú í ar do ghléas.</string>
+    <string name="app_permission_manager">Bainisteoir ceadanna</string>
+    <string name="never_ask_again">Ná fiafraigh arís</string>
+    <string name="no_permissions">Gan ceadanna</string>
+    <string name="additional_permissions">Ceadanna breise</string>
+    <string name="app_permissions_info_button_label">Oscail eolas an aip</string>
+    <string name="old_sdk_deny_warning">Dearadh an aip seo le haghaidh leagan níos sine de Android. Má dhiúltaítear cead, d’fhéadfadh sé nach n-oibreoidh sé mar a bhí beartaithe a thuilleadh.</string>
+    <string name="default_permission_description">gníomh anaithnid a dhéanamh</string>
+    <string name="app_permissions_group_summary">Ceadaítear <xliff:g id="count" example="10">%1$d</xliff:g> de <xliff:g id="count" example="10">%2$d</xliff:g> aipeanna</string>
+    <string name="app_permissions_group_summary2">Ceadaítear aipeanna <xliff:g id="count" example="10">%1$d</xliff:g>/<xliff:g id="count" example="10">%2$d</xliff:g></string>
+    <string name="menu_show_system">Taispeáin an córas</string>
+    <string name="menu_hide_system">Folaigh an córas</string>
+    <string name="manage_permission">Bainistigh cead</string>
+    <string name="no_apps">Gan aon aipeanna</string>
+    <string name="location_settings">Socruithe Suímh</string>
+    <string name="location_warning">Is soláthraí seirbhísí suímh don fheiste seo é <xliff:g id="app_name" example="Package Suiteálaí">%1$s</xliff:g>. Is féidir rochtain suímh a mhodhnú ó shocruithe suímh.</string>
+    <string name="system_warning">Mura ndiúltaíonn tú an cead seo, b’fhéidir nach bhfeidhmeoidh gnéithe bunúsacha do ghléis mar a bhí beartaithe a thuilleadh.</string>
+    <string name="cdm_profile_revoke_warning">Má dhiúltaíonn tú an cead seo, d’fhéadfadh sé nach n-oibreoidh roinnt gnéithe de do ghléas atá á mbainistiú ag an aip seo mar a bhí beartaithe a thuilleadh.</string>
+    <string name="permission_summary_enforced_by_policy">Forfheidhmithe ag polasaí</string>
+    <string name="permission_summary_disabled_by_policy_background_only">Rochtain chúlra díchumasaithe ag polasaí</string>
+    <string name="permission_summary_enabled_by_policy_background_only">Rochtain chúlra cumasaithe ag polasaí</string>
+    <string name="permission_summary_enabled_by_admin_background_only">Rochtain chúlra cumasaithe ag an riarthóir</string>
+    <string name="permission_summary_enabled_by_admin_foreground_only">Rochtain tosaigh cumasaithe ag an riarthóir</string>
+    <string name="permission_summary_enabled_system_fixed">Éilíonn an gléas an cead seo le go n-oibreoidh sé</string>
+    <string-array name="background_access_chooser_dialog_choices">
+        <item>@string/permission_access_always</item>
+        <item>@string/permission_access_only_foreground</item>
+        <item>@string/permission_access_never</item>
+    </string-array>
+    <string name="permission_access_always">Lig an t-am ar fad</string>
+    <string name="permission_access_only_foreground">Ceadaigh é seo agus an aip in úsáid agat amháin</string>
+    <string name="permission_access_never">Ná ceadaigh</string>
+    <string name="loading">Ag luchtú\u2026</string>
+    <string name="all_permissions">Gach cead</string>
+    <string name="other_permissions">Cumais eile aipeanna</string>
+    <string name="permission_request_title">Iarratas cead</string>
+    <string name="review_button_cancel">Cealaigh</string>
+    <string name="review_button_continue">Lean ar aghaidh</string>
+    <string name="new_permissions_category">Ceadanna nua</string>
+    <string name="current_permissions_category">Ceadanna reatha</string>
+    <string name="message_staging">Aip stáitseála…</string>
+    <string name="app_name_unknown">Anaithnid</string>
+    <string name="permission_usage_title">Painéal Príobháideachta</string>
+    <string name="permission_group_usage_title">Úsáid <xliff:g id="permgroup" example="Suíomh">%1$s</xliff:g></string>
+    <string name="perm_usage_adv_info_title">Féach ceadanna eile</string>
+    <string name="perm_usage_adv_info_summary_2_items"><xliff:g id="permgroup" example="Suíomh">%1$s</xliff:g>,\u0020<xliff:g id="permgroup" example="Suíomh">%2$s</xliff:g></string>
+    <string name="perm_usage_adv_info_summary_more_items"><xliff:g id="permgroup" example="Location">%1$s</xliff:g>,\u0020<xliff:g id="permgroup" example="Location">%2$s</xliff:g>, agus\u0020<xliff:g id="num" example="7">%3$s</xliff:g> eile</string>
+    <string name="permission_group_usage_subtitle_24h">Amlíne de cathain a d\'úsáid aipeanna do <xliff:g id="permgroup" example="Location">%1$s</xliff:g> le 24 uair an chloig anuas</string>
+    <string name="permission_usage_access_dialog_subtitle">Cathain a d\'úsáid an aip seo do chead <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
+    <string name="permission_usage_access_dialog_learn_more">Foghlaim níos mó</string>
+    <string name="history_preference_subtext_2"><xliff:g id="ainm_aipe" example="Gmail">%1$s</xliff:g> \u2022 <xliff:g id="am_gearrtha" example="1 uair 20 nóiméad">%2$s</xliff:g></string>
+    <string name="permission_usage_any_permission">Aon chead</string>
+    <string name="permission_usage_any_time">Am ar bith</string>
+    <string name="no_permission_usages">Gan aon úsáid ceadanna</string>
+    <string name="permission_usage_list_title_any_time">An rochtain is déanaí ag am ar bith</string>
+    <string name="permission_usage_list_title_last_7_days">An rochtain is déanaí le seacht lá anuas</string>
+    <string name="permission_usage_list_title_last_day">An rochtain is déanaí le 24 uair an chloig anuas</string>
+    <string name="permission_usage_list_title_last_hour">An rochtain is déanaí san uair dheireanach</string>
+    <string name="permission_usage_list_title_last_15_minutes">An rochtain is déanaí le 15 nóiméad anuas</string>
+    <string name="permission_usage_list_title_last_minute">An rochtain is déanaí le 1 nóiméad anuas</string>
+    <string name="permission_usage_bar_chart_title_any_time">Úsáid ceadanna ag am ar bith</string>
+    <string name="permission_usage_bar_chart_title_last_7_days">Úsáid ceadanna le seacht lá anuas</string>
+    <string name="permission_usage_bar_chart_title_last_day">Úsáid ceadanna le 24 uair an chloig anuas</string>
+    <string name="permission_usage_bar_chart_title_last_hour">Úsáid ceadanna san uair dheireanacha</string>
+    <string name="permission_usage_bar_chart_title_last_15_minutes">Úsáid ceadanna le 15 nóiméad anuas</string>
+    <string name="permission_usage_bar_chart_title_last_minute">Úsáid ceadanna sa nóiméad deireanach</string>
+    <string name="permission_usage_view_details">Féach ar fad sa Painéal Rialaithe</string>
+    <string name="app_permission_usage_filter_label">Scagtha de réir: <xliff:g id="perm" example="Suíomh">%1$s</xliff:g></string>
+    <string name="app_permission_usage_remove_filter">Bain an scagaire</string>
+    <string name="filter_by_title">Scag de réir</string>
+    <string name="filter_by_permissions">Scag de réir ceadanna</string>
+    <string name="filter_by_time">Scag de réir ama</string>
+    <string name="sort_spinner_most_permissions">An chuid is mó de na ceadanna</string>
+    <string name="sort_spinner_most_accesses">An chuid is mó de na rochtana</string>
+    <string name="sort_spinner_recent">Le déanaí</string>
+    <string name="sort_by_app">Sórtáil de réir úsáid aipeanna</string>
+    <string name="sort_by_time">Sórtáil de réir ama</string>
+    <string name="item_separator">,\u0020</string>
+    <string name="permission_usage_refresh">Athnuachan</string>
+    <string name="auto_revoked_app_summary_one">Cead bainte de <xliff:g id="permission_name" example="Location">%s</xliff:g></string>
+    <string name="auto_revoked_app_summary_two">Baineadh ceadanna <xliff:g id="permission_name" example="Camera">%1$s</xliff:g> agus <xliff:g id="permission_name" example="Contacts">%2$s</xliff:g></string>
+    <string name="auto_revoked_app_summary_many">Baineadh ceadanna eile <xliff:g id="permission_name" example="Microphone">%1$s</xliff:g> agus <xliff:g id="number" example="2">%2$s</xliff:g></string>
+    <string name="unused_apps_page_title">Aipeanna neamhúsáidte</string>
+    <string name="special_file_access_dialog">Ceadaigh don aip seo rochtain a fháil ar chomhaid ar an ngléas, nó ar aon ghléasanna stórála ceangailte, iad a mhodhnú agus a scriosadh? Féadfaidh an aip seo rochtain a fháil ar chomhaid gan iarraidh ort.</string>
+    <string name="permission_description_summary_generic">Is féidir le haipeanna leis an gcead seo <xliff:g id="description" example="record audio">%1$s</xliff:g></string>
+    <string name="permission_description_summary_activity_recognition">Is féidir le haipeanna leis an gcead seo rochtain a fháil ar do ghníomhaíocht choirp, amhail siúl, rothaíocht, tiomáint, comhaireamh céimeanna agus tuilleadh</string>
+    <string name="permission_description_summary_calendar">Is féidir le haipeanna leis an gcead seo rochtain a fháil ar do fhéilire</string>
+    <string name="permission_description_summary_call_log">Is féidir le haipeanna leis an gcead seo log glaonna teileafóin a léamh agus a scríobh</string>
+    <string name="permission_description_summary_camera">Is féidir le haipeanna leis an gcead seo pictiúir a thógáil agus físeáin a thaifeadadh</string>
+    <string name="permission_description_summary_contacts">Is féidir le haipeanna a bhfuil an cead seo acu rochtain a fháil ar do theagmhálaithe</string>
+    <string name="permission_description_summary_location">Is féidir le haipeanna a bhfuil an cead seo acu rochtain a fháil ar shuíomh an ghléis seo</string>
+    <string name="permission_description_summary_nearby_devices">Is féidir le haipeanna leis an gcead seo gléasanna in aice láimhe a aimsiú, ceangal leo agus suíomh coibhneasta na ngléasanna sin a chinneadh</string>
+    <string name="permission_description_summary_microphone">Is féidir le haipeanna leis an gcead seo fuaim a thaifeadadh</string>
+    <string name="permission_description_summary_phone">Is féidir le haipeanna leis an gcead seo glaonna gutháin a dhéanamh agus a bhainistiú</string>
+    <string name="permission_description_summary_sensors">Is féidir le haipeanna a bhfuil an cead seo acu rochtain a fháil ar shonraí braiteora faoi do chomharthaí ríthábhachtacha</string>
+    <string name="permission_description_summary_sms">Is féidir le haipeanna leis an gcead seo teachtaireachtaí SMS a sheoladh agus a fheiceáil</string>
+    <string name="permission_description_summary_storage">Is féidir le haipeanna a bhfuil an cead seo acu rochtain a fháil ar ghrianghraif, meáin agus comhaid ar do ghléas</string>
+    <string name="app_permission_most_recent_summary">Rochtain dheireanach: <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_permission_most_recent_denied_summary">Diúltaithe faoi láthair / Rochtain dheireanach: <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_permission_never_accessed_summary">Níor rochtainíodh riamh é</string>
+    <string name="app_permission_never_accessed_denied_summary">Diúltaithe / Níor rochtainíodh riamh é</string>
+    <string name="allowed_header">Ceadaithe</string>
+    <string name="allowed_always_header">Ceadaithe an t-am ar fad</string>
+    <string name="allowed_foreground_header">Ceadaithe ach amháin agus iad in úsáid</string>
+    <string name="allowed_storage_scoped">Rochtain ceadaithe ar na meáin amháin</string>
+    <string name="allowed_storage_full">Ceadaítear gach comhad a bhainistiú</string>
+    <string name="ask_header">Iarr gach uair</string>
+    <string name="denied_header">Ní cheadaítear</string>
+    <string name="permission_reminders">Meabhrúcháin ceadanna</string>
+    <string name="auto_revoke_permission_reminder_notification_title_one">1 aip neamhúsáidte</string>
+    <string name="auto_revoke_permission_reminder_notification_title_many"><xliff:g id="number_of_apps" example="4">%s</xliff:g> aipeanna neamhúsáidte</string>
+    <string name="auto_revoke_permission_reminder_notification_content">Ceadanna bainte chun do phríobháideacht a chosaint. Tapáil chun athbhreithniú a dhéanamh orthu.</string>
+    <string name="auto_revoke_permission_notification_title">Ceadanna bainte d\'aipeanna neamhúsáidte</string>
+    <string name="auto_revoke_permission_notification_content">Níor úsáideadh roinnt aipeanna le cúpla mí anuas. Tapáil chun athbhreithniú a dhéanamh.</string>
+    <string name="unused_apps_notification_content">Baineadh ceadanna agus comhaid shealadacha agus cuireadh stop le fógraí. Tapáil le hathbhreithniú a dhéanamh.</string>
+    <string name="auto_revoke_setting_subtitle">Níor úsáideadh roinnt aipeanna le cúpla mí anuas</string>
+    <string name="permissions_removed_category_title">Ceadanna bainte</string>
+    <string name="permission_removed_page_title">Ceadanna bainte</string>
+    <string name="all_unused_apps_category_title">Gach aip neamhúsáidte</string>
+    <string name="months_ago"><xliff:g id="count" example="2">%1$d</xliff:g> míonna ó shin</string>
+    <string name="auto_revoke_preference_summary">Ceadanna bainte chun do phríobháideacht a chosaint</string>
+    <string name="background_location_access_reminder_notification_title">Fuair ​​<xliff:g id="app_name" example="Gmail">%s</xliff:g> do shuíomh sa chúlra</string>
+    <string name="background_location_access_reminder_notification_content">Is féidir leis an aip seo rochtain a fháil ar do shuíomh i gcónaí. Tapáil chun athrú.</string>
+    <string name="auto_revoke_after_notification_title">Ceadanna aipeanna bainte chun príobháideacht a chosaint</string>
+    <string name="auto_revoke_after_notification_content_one">Níor úsáideadh <xliff:g id="app_name" example="Gmail">%s</xliff:g> le cúpla mí anuas. Tapáil chun athbhreithniú a dhéanamh.</string>
+    <string name="auto_revoke_after_notification_content_two">Níor úsáideadh <xliff:g id="app_name" example="Gmail">%s</xliff:g> agus aip amháin eile le cúpla mí anuas. Tapáil chun athbhreithniú a dhéanamh.</string>
+    <string name="auto_revoke_after_notification_content_many">Níor úsáideadh <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> agus <xliff:g id="number_of_apps" example="4">%2$s</xliff:g> aipeanna eile le cúpla mí anuas. Tapáil chun athbhreithniú a dhéanamh.</string>
+    <string name="auto_revoke_before_notification_title_one">Níl aon aip amháin in úsáid</string>
+    <string name="auto_revoke_before_notification_title_many">Níl aon úsáid ag baint le haipeanna <xliff:g id="number_of_apps" example="4">%s</xliff:g></string>
+    <string name="auto_revoke_before_notification_content_one">Bainfear ceadanna chun do phríobháideacht a chosaint. Tapáil chun athbhreithniú a dhéanamh.</string>
+    <string name="unused_apps_title">Aipeanna neamhúsáidte</string>
+    <string name="unused_apps_subtitle_after">Ceadanna bainte de</string>
+    <string name="unused_apps_subtitle_before">Bainfear ceadanna as</string>
+    <string name="unused_permissions_subtitle_two"><xliff:g id="perm_name" example="Suíomh">%1$s</xliff:g> agus <xliff:g id="perm_name" example="Teagmhálaithe">%2$s</xliff:g></string>
+    <string name="unused_permissions_subtitle_many"><xliff:g id="perm_name" example="Location">%1$s</xliff:g>, <xliff:g id="perm_name" example="Contacts">%2$s</xliff:g>, agus <xliff:g id="number_of_permissions" example="4">%3$s</xliff:g> eile</string>
+    <string name="unused_app_permissions_removed_summary">Chun do shonraí a chosaint, baineadh ceadanna d\'aipeanna nár úsáid tú le cúpla mí anuas.</string>
+    <string name="unused_app_permissions_removed_summary_some">Chun do shonraí a chosaint, baineadh ceadanna ó roinnt aipeanna nár úsáid tú le cúpla mí anuas.</string>
+    <string name="one_unused_app_summary">Níor úsáideadh aip amháin le cúpla mí anuas</string>
+    <string name="num_unused_apps_summary">Níor úsáideadh <xliff:g id="number_of_apps" example="4">%s</xliff:g> aip le cúpla mí anuas</string>
+    <string name="permission_subtitle_only_in_foreground">Agus an aip in úsáid amháin</string>
+    <string name="permission_subtitle_media_only">Meáin</string>
+    <string name="permission_subtitle_all_files">Gach Comhad</string>
+    <string name="permission_subtitle_background">Ceadaithe an t-am ar fad</string>
+    <string name="app_perms_24h_access">An rochtain dheireanach <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_perms_24h_access_yest">Rochtain dheireanach déanta air inné ag <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_perms_content_provider_24h">Rochtain déanta air le 24 uair an chloig anuas</string>
+    <string name="app_perms_24h_access_background">An rochtain dheireanach <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Ceadaithe an t-am ar fad</string>
+    <string name="app_perms_24h_access_yest_background">Rochtain dheireanach déanta air inné ag <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Ceadaithe an t-am ar fad</string>
+    <string name="app_perms_content_provider_24h_background">Rochtain déanta air le 24 uair an chloig anuas \u2022 Ceadaithe an t-am ar fad</string>
+    <string name="app_perms_24h_access_media_only">An rochtain dheireanach <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Meáin</string>
+    <string name="app_perms_24h_access_yest_media_only">Rochtain dheireanach déanta air inné ag <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Meáin</string>
+    <string name="app_perms_content_provider_24h_media_only">Rochtain déanta air le 24 uair an chloig anuas \u2022 Meáin</string>
+    <string name="app_perms_24h_access_all_files">An uair dheireanach a ndearnadh rochtain air <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Gach Comhad</string>
+    <string name="app_perms_24h_access_yest_all_files">Rochtain dheireanach déanta air inné ag <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Gach Comhad</string>
+    <string name="app_perms_content_provider_24h_all_files">Rochtain déanta air le 24 uair an chloig anuas \u2022 Gach Comhad</string>
+    <string name="no_permissions_allowed">Níl ceadanna ceadaithe</string>
+    <string name="no_permissions_denied">Níor diúltaíodh aon cheadanna</string>
+    <string name="no_apps_allowed">Níl aon aipeanna ceadaithe</string>
+    <string name="no_apps_allowed_full">Níl aon aipeanna ceadaithe do na comhaid go léir</string>
+    <string name="no_apps_allowed_scoped">Ní cheadaítear aipeanna ach amháin do na meáin</string>
+    <string name="no_apps_denied">Níor diúltaíodh aon aip</string>
+    <string name="car_permission_selected">Roghnaithe</string>
+    <string name="settings">Socruithe</string>
+    <string name="accessibility_service_dialog_title_single">Tá rochtain iomlán ag <xliff:g id="service_name" example="Gmail">%s</xliff:g> ar do ghléas</string>
+    <string name="accessibility_service_dialog_title_multiple">Tá rochtain iomlán ag aipeanna inrochtaineachta <xliff:g id="num_services" example="2">%s</xliff:g> ar do ghléas</string>
+    <string name="accessibility_service_dialog_bottom_text_single">Is féidir le <xliff:g id="service_name" example="Gmail">%s</xliff:g> féachaint ar do scáileán, ar do ghníomhartha agus ar d\'ionchuir, gníomhartha a dhéanamh agus an taispeáint a rialú.</string>
+    <string name="accessibility_service_dialog_bottom_text_multiple">Is féidir leis na haipeanna seo do scáileán, do ghníomhartha agus d’ionchuir a fheiceáil, gníomhartha a dhéanamh agus an taispeáint a rialú.</string>
+    <string name="role_assistant_label">Aip réamhshocraithe cúntóra digiteach</string>
+    <string name="role_assistant_short_label">Aip cúntóra digiteach</string>
+    <string name="role_assistant_description">Is féidir le haipeanna cúnaimh cabhrú leat bunaithe ar fhaisnéis ón scáileán atá á fheiceáil agat. Tacaíonn roinnt aipeanna le seirbhísí lainseálaí agus ionchuir gutha araon chun cúnamh comhtháite a thabhairt duit.</string>
+    <string name="role_browser_label">Aip brabhsálaí réamhshocraithe</string>
+    <string name="role_browser_short_label">Aip brabhsálaí</string>
+    <string name="role_browser_description">Aipeanna a thugann rochtain duit ar an idirlíon agus a thaispeánann naisc a thapálann tú orthu</string>
+    <string name="role_browser_request_title">Socraigh <xliff:g id="app_name" example="Super Browser">%1$s</xliff:g> mar d\'aip bhrabhsálaí réamhshocraithe?</string>
+    <string name="role_browser_request_description">Níl aon cheadanna ag teastáil</string>
+    <string name="role_dialer_label">Aip teileafóin réamhshocraithe</string>
+    <string name="role_dialer_short_label">Aip fóin</string>
+    <string name="role_dialer_description">Aipeanna a ligeann duit glaonna teileafóin a dhéanamh agus a fháil ar do ghléas</string>
+    <string name="role_dialer_request_title">Socraigh <xliff:g id="app_name" example="Super Phone">%1$s</xliff:g> mar d\'aip teileafóin réamhshocraithe?</string>
+    <string name="role_dialer_search_keywords">diaileoir</string>
+    <string name="role_sms_label">Aip réamhshocraithe SMS</string>
+    <string name="role_sms_short_label">Aip SMS</string>
+    <string name="role_sms_description">Aipeanna a ligeann duit d’uimhir theileafóin a úsáid chun teachtaireachtaí téacs gearra, grianghraif, físeáin agus tuilleadh a sheoladh agus a fháil</string>
+    <string name="role_sms_request_title">Socraigh <xliff:g id="app_name" example="Super SMS">%1$s</xliff:g> mar d\'aip SMS réamhshocraithe?</string>
+    <string name="role_emergency_search_keywords">oighear</string>
+    <string name="role_home_label">Aip bhaile réamhshocraithe</string>
+    <string name="role_home_short_label">Aip Baile</string>
+    <string name="role_home_description">Aipeanna, ar a dtugtar lainseálaithe go minic, a chuireann ionad na scáileáin Baile ar do ghléas Android agus a thugann rochtain duit ar ábhar agus ar ghnéithe do ghléis.</string>
+    <string name="role_home_request_title">Socraigh <xliff:g id="app_name" example="Super Home">%1$s</xliff:g> mar d\'aip bhaile réamhshocraithe?</string>
+    <string name="role_home_request_description">Níl aon cheadanna ag teastáil</string>
+    <string name="role_home_search_keywords">lainseálaí</string>
+    <string name="role_call_redirection_label">Aip atreoraithe glaonna réamhshocraithe</string>
+    <string name="role_call_redirection_short_label">Aip atreoraithe glaonna</string>
+    <string name="role_call_redirection_description">Aipeanna a ligeann duit glaonna amach a atreorú chuig uimhir theileafóin eile</string>
+    <string name="role_call_redirection_request_title">Socraigh <xliff:g id="app_name" example="Super Call Redirection">%1$s</xliff:g> mar d\'aip atreoraithe glaonna réamhshocraithe?</string>
+    <string name="role_call_redirection_request_description">Níl aon cheadanna ag teastáil</string>
+    <string name="role_call_screening_label">Aip réamhshocraithe aitheantais glaoiteora agus turscair</string>
+    <string name="role_call_screening_short_label">Aip aitheantais glaoiteora agus turscair</string>
+    <string name="role_call_screening_description">Aipeanna a ligeann duit glaonna a aithint agus turscar, glaonna róbatacha nó uimhreacha nach dteastaíonn uait a bhlocáil</string>
+    <string name="role_call_screening_request_title">Socraigh <xliff:g id="app_name" example="Super Call Screening">%1$s</xliff:g> mar d\'aip réamhshocraithe le haghaidh aitheantas glaoiteora agus turscair?</string>
+    <string name="role_call_screening_request_description">Níl aon cheadanna ag teastáil</string>
+    <string name="role_automotive_navigation_request_description">Níl aon cheadanna ag teastáil</string>
+    <string name="role_watch_description">Ceadófar do <xliff:g id="app_name" example="Wear">%1$s</xliff:g> idirghníomhú le do fhógraí agus rochtain a fháil ar cheadanna do ghutháin, SMS, Teagmhálaithe agus Féilire.</string>
+    <string name="role_wallet_request_description">Níl aon cheadanna ag teastáil</string>
+    <string name="request_role_current_default">Réamhshocrú reatha</string>
+    <string name="request_role_dont_ask_again">Ná fiafraigh arís</string>
+    <string name="request_role_set_as_default">Socraigh mar réamhshocrú</string>
+    <string name="phone_call_uses_microphone">Úsáidtear micreafón i &lt;b&gt;glao gutháin&lt;/b&gt;</string>
+    <string name="phone_call_uses_microphone_and_camera">Úsáidtear ceamara agus micreafón i &lt;b&gt;glao físe&lt;/b&gt;</string>
+    <string name="phone_call_uses_camera">Úsáidtear an ceamara i &lt;b&gt;glao físe&lt;/b&gt;</string>
+    <string name="system_uses_microphone">Rochtain déantar ar an micreafón trí sheirbhís chórais</string>
+    <string name="system_uses_microphone_and_camera">Rochtainítear an ceamara agus an micreafón trí sheirbhís an chórais</string>
+    <string name="system_uses_camera">Rochtain déantar ar an gceamara trí úsáid a bhaint as seirbhís chórais</string>
+    <string name="other_use">Úsáid eile:</string>
+    <string name="ongoing_usage_dialog_ok">Tuigim é.</string>
+    <string name="ongoing_usage_dialog_title">Úsáid le déanaí de <xliff:g id="types_list" example="camera( and location)">%s</xliff:g></string>
+    <string name="ongoing_usage_dialog_title_mic">Úsáid le déanaí den Mhicreafón</string>
+    <string name="ongoing_usage_dialog_title_camera">Úsáid le déanaí den Cheamara</string>
+    <string name="ongoing_usage_dialog_title_mic_camera">Úsáid le déanaí Micreafóin &amp; Ceamara</string>
+    <string name="ongoing_usage_dialog_separator">,\u0020</string>
+    <string name="ongoing_usage_dialog_last_separator">\u0020agus\u0020</string>
+    <string name="default_app_search_keyword">aipeanna réamhshocraithe</string>
+    <string name="permgroup_list_microphone_and_camera">Micreafón &amp; Ceamara</string>
+    <string name="settings_button">Socruithe</string>
+    <string name="default_apps">Aipeanna réamhshocraithe</string>
+    <string name="no_default_apps">Gan aon aipeanna réamhshocraithe</string>
+    <string name="default_apps_more">Tuilleadh réamhshocruithe</string>
+    <string name="default_apps_manage_domain_urls">Naisc ag oscailt</string>
+    <string name="default_apps_for_work">Réamhshocrú don obair</string>
+    <string name="default_app_none">Dada</string>
+    <string name="default_app_system_default">(Réamhshocrú an chórais)</string>
+    <string name="default_app_no_apps">Gan aon aipeanna</string>
+    <string name="car_default_app_selected">Roghnaithe</string>
+    <string name="car_default_app_selected_with_info">Roghnaithe - <xliff:g id="additional_info" example="(Réamhshocrú an chórais)">%1$s</xliff:g></string>
+    <string name="special_app_access_search_keyword">rochtain speisialta ar an aip</string>
+    <string name="special_app_access">Rochtain speisialta ar aipeanna</string>
+    <string name="adjust_user_sensitive_title">Socruithe Ardleibhéil</string>
+    <string name="menu_adjust_user_sensitive">Socruithe Ardleibhéil</string>
+    <string name="permgrouprequestdetail_camera">Ní bheidh an aip in ann pictiúir a thógáil agus físeáin a thaifeadadh ach amháin agus tú ag úsáid na haipe.</string>
+    <string name="permgroupbackgroundrequestdetail_camera">B’fhéidir go mbeadh an aip seo ag iarraidh pictiúir a thógáil agus físeáin a thaifeadadh an t-am ar fad, fiú nuair nach bhfuil tú ag úsáid na haipe. <annotation id="link">Ceadaigh sna socruithe.</annotation></string>
+    <string name="permgroupupgraderequest_camera">Athraigh rochtain ceamara do &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_camera">Ba mhaith leis an aip seo pictiúir a thógáil agus físeáin a thaifeadadh an t-am ar fad, fiú nuair nach bhfuil tú ag úsáid na haipe. <annotation id="link">Ceadaigh sna socruithe.</annotation></string>
+    <string name="auto_granted_permissions">Ceadanna rialaithe</string>
+    <string name="other_permissions_label">Ceadanna eile</string>
+    <string name="not_used_permissions_label">Cead a úsáideann an córas</string>
+    <string name="not_used_permissions_description">Ceadanna nach n-úsáideann ach feidhmchláir an chórais.</string>
+    <string name="additional_permissions_label">Ceadanna breise</string>
+    <string name="additional_permissions_description">Ceadanna arna sainmhíniú ag feidhmchláir.</string>
+    <string name="privdash_label_camera">Ceamara</string>
+    <string name="privdash_label_microphone">Micreafón</string>
+    <string name="privdash_label_location">Suíomh</string>
+    <string name="privdash_label_other">Eile</string>
+    <string name="privdash_label_none">Dada</string>
+    <string name="privdash_label_24h">24 uair an chloig caite</string>
+    <string name="safety_center_issue_card_dismiss_button">Díbhe</string>
+    <string name="safety_center_issue_card_confirm_dismiss_button">Díbhe</string>
+    <string name="safety_center_issue_card_cancel_dismiss_button">Cealaigh</string>
+    <string name="safety_center_entries_category_title">Socruithe</string>
+    <string name="media_confirm_dialog_negative_button">Ar ais</string>
+    <string name="safety_label_changes_gear_description">Socruithe</string>
+    <string name="enhanced_confirmation_dialog_learn_more">Foghlaim níos mó</string>
+    <string name="enhanced_confirmation_dialog_ok">Tuigim é.</string>
+</resources>

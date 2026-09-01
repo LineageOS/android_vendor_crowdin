@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_voicemail_button">Glórphost</string>
+    <string name="callFailed_number_unreachable">Uimhir neamhshroichte</string>
+    <string name="callFailed_invalid_credentials">Ainm úsáideora nó pasfhocal mícheart</string>
+    <string name="callFailed_out_of_network">Glao lasmuigh den líonra</string>
+    <string name="callFailed_server_error">Earráid freastalaí. Déan iarracht arís ar ball.</string>
+    <string name="callFailed_noSignal">Gan comhartha</string>
+    <string name="callFailed_limitExceeded">Teorainn ACM sáraithe</string>
+    <string name="callFailed_powerOff">Raidió múchta</string>
+    <string name="callFailed_simError">Gan aon SIM nó earráid SIM</string>
+    <string name="callFailed_outOfService">Níl líonra ceallach ar fáil</string>
+    <string name="callFailed_fdn_only">Tá srian ar ghlaonna amach ag FDN.</string>
+    <string name="callFailed_dialToUssd">Glao athraithe go hiarratas USSD</string>
+    <string name="callFailed_dialToSs">Glao athraithe go hiarratas SS</string>
+    <string name="callFailed_dialToDial">Athraithe go huimhir dhifriúil</string>
+    <string name="callFailed_dialToDialVideo">Athraithe go glao físe</string>
+    <string name="callFailed_dialVideoToSs">Glao físe athraithe go hiarratas SS</string>
+    <string name="callFailed_dialVideoToUssd">Glao físe athraithe go hiarratas USSD</string>
+    <string name="callFailed_dialVideoToDial">Athraithe go glao rialta</string>
+    <string name="callFailed_dialVideoToDialVideo">Athraithe go huimhir dhifriúil</string>
+    <string name="callFailed_cb_enabled">Ní féidir glaonna amach a dhéanamh agus bac glaonna ar siúl.</string>
+    <string name="callFailed_dsac_restricted">Glaonna srianta ag rialú rochtana.</string>
+    <string name="callFailed_dsac_restricted_emergency">Glaonna éigeandála srianta ag rialú rochtana.</string>
+    <string name="callFailed_dsac_restricted_normal">Glaonna gnáth srianta ag rialú rochtana.</string>
+    <string name="callFailed_unobtainable_number">Uimhir neamhbhailí</string>
+    <string name="incall_error_missing_voicemail_number">Uimhir glórphoist anaithnid.</string>
+    <string name="callFailed_video_call_tty_enabled">Ní féidir glaonna físe a dhéanamh nuair atá TTY cumasaithe.</string>
+    <string name="callEnded_pulled">Aistríodh an glao chuig gléas eile.</string>
+    <string name="ringtone_silent">Dada</string>
+    <string name="ringtone_unknown">Glaoch fuaime anaithnid</string>
+    <string name="callFailed_maximum_reached">Tá na línte uile atá ar fáil in úsáid. Chun glao a dhéanamh, dícheangail ceann de na glaonna ar an ngléas seo, nó ar cheann de do ghléasanna eile.</string>
+    <string name="callFailed_data_disabled">Chríochnaigh an glao mar gheall gur díchumasaíodh sonraí ceallacha.</string>
+    <string name="callFailed_data_limit_reached_description">Críochnaíodh an glao mar gheall gur sroicheadh ​​an teorainn sonraí ceallacha.</string>
+    <string name="callFailed_data_limit_reached">Teorainn sonraí sroichte. Glao críochnaithe.</string>
+</resources>

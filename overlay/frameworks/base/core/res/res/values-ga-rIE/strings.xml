@@ -18,6 +18,32 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="byteShort">B</string>
+    <string name="fileSizeSuffix"><xliff:g id="number" example="123">%1$s</xliff:g> <xliff:g id="unit" example="B">%2$s</xliff:g></string>
+    <string name="untitled">&lt;Gan Teideal&gt;</string>
+    <string name="emptyPhoneNumber">(Níl uimhir guthán)</string>
+    <string name="unknownName">Anaithnid</string>
+    <string name="defaultVoiceMailAlphaTag">Glórphost</string>
+    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
+    <string name="mmiError">Fadhb nasctha nó cód MMI neamhbhailí.</string>
+    <string name="mmiErrorNotSupported">Ní thacaítear leis an ngné.</string>
+    <string name="mmiFdnError">Tá an oibríocht teoranta d\'uimhreacha dhiailiú seasta amháin.</string>
+    <string name="mmiErrorWhileRoaming">Ní féidir socruithe seolta glaonna a athrú ó do ghuthán agus tú ag fánaíocht.</string>
+    <string name="serviceEnabled">Cumasaíodh an seirbhís.</string>
+    <string name="serviceEnabledFor">Cumasaíodh an seirbhís do:</string>
+    <string name="serviceDisabled">Díchumasaíodh an seirbhís. </string>
+    <string name="serviceRegistered">D\'éirigh leis an gclárú.</string>
+    <string name="serviceErased">D\'éirigh leis an scriosadh.</string>
+    <string name="passwordIncorrect">Pasfhocal mícheart.</string>
+    <string name="mmiComplete">MMI críochnaithe.</string>
+    <string name="badPin">Níl an sean-PIN a chlóscríobh tú ceart.</string>
+    <string name="badPuk">Níl an PUK a chlóscríobh tú ceart.</string>
+    <string name="mismatchPin">Ní mheaitseálann na PINanna a chlóscríobh tú.</string>
+    <string name="invalidPin">Clóscríobh PIN atá 4 go 8 uimhir.</string>
+    <string name="invalidPuk">Clóscríobh PUK atá 8 n-uimhir nó níos faide.</string>
+    <string name="needPuk">Tá do SIM faoi ghlas PUK. Clóscríobh an cód PUK chun é a dhíghlasáil.</string>
+    <string name="needPuk2">Clóscríobh PUK2 chun an SIM a dhíbhlocáil.</string>
+    <string name="enablePin">Níor éirigh leis, cumasaigh Glas SIM/RUIM.</string>
     <plurals name="pinpuk_attempts">
         <item quantity="one">Tá <xliff:g id="number">%d</xliff:g> iarracht fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
         <item quantity="two">Tá <xliff:g id="number">%d</xliff:g> iarrachtaí fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
@@ -25,8 +51,123 @@
         <item quantity="many">Tá <xliff:g id="number">%d</xliff:g> iarrachtaí fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
         <item quantity="other">Tá <xliff:g id="number">%d</xliff:g> iarrachtaí fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
     </plurals>
+    <string name="imei">IMEI</string>
+    <string name="meid">MID</string>
+    <string name="ClipMmi">ID Glaoitheora Isteach</string>
+    <string name="ClirMmi">Folaigh ID Glaoitheora Aisceach</string>
+    <string name="ColpMmi">ID Líne Ceangailte</string>
+    <string name="ColrMmi">Srianadh ID Líne Ceangailte</string>
+    <string name="CfMmi">Seoladh glaonna</string>
+    <string name="CwMmi">Glaonna ag fanacht</string>
+    <string name="BaMmi">Cosc glaonna</string>
+    <string name="PwdMmi">Athrú pasfhocal</string>
+    <string name="PinMmi">Athrú PIN</string>
+    <string name="CnipMmi">Uimhir ghlaonna i láthair</string>
+    <string name="CnirMmi">Uimhir ghlaonna teoranta</string>
+    <string name="ThreeWCMmi">Glaoch trí bhealach</string>
+    <string name="RuacMmi">Diúltú glaonna neamh-inmhianaithe</string>
+    <string name="CndMmi">Seachadadh uimhir ghlao</string>
+    <string name="DndMmi">Ná cuir isteach</string>
+    <string name="CLIRDefaultOnNextCallOn">Réamhshocraíonn ID Glaoiteora go srianta. An chéad ghlao eile: Srianta</string>
+    <string name="CLIRDefaultOnNextCallOff">Réamhshocraíonn ID Glaoiteora go srianta. An chéad ghlao eile: Níl sé srianta</string>
+    <string name="CLIRDefaultOffNextCallOn">Ní dhéanann sé srian ar ID Glaoitheora réamhshocraithe. An chéad ghlao eile: Srianta</string>
+    <string name="CLIRDefaultOffNextCallOff">Ní dhéanann sé srian ar ID Glaoitheora réamhshocraithe. An chéad ghlao eile: Níl sé srianta</string>
+    <string name="serviceNotProvisioned">Seirbhís nach soláthraítear.</string>
+    <string name="CLIRPermanent">Ní féidir leat an socrú ID glaoiteora a athrú.</string>
+    <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>Fadhb ag clárú glaonna Wi-Fi le d\'iompróir: <xliff:g id="code" example="REG09 - Uimh. Seoladh 911">%1$s</xliff:g></item>
+    </string-array>
+    <string name="wfcSpnFormat_spn_wifi_calling"><xliff:g id="spn" example="Oibreoir">%s</xliff:g> Glaonna Wi-Fi</string>
+    <string name="wfcSpnFormat_spn_wifi_calling_vo_hyphen"><xliff:g id="spn" example="Oibreoir">%s</xliff:g> Glaonna WiFi</string>
+    <string name="wfcSpnFormat_spn_wlan_call">Glao WLAN <xliff:g id="spn" example="Oibreoir">%s</xliff:g></string>
+    <string name="crossSimFormat_spn_cross_sim_calling"><xliff:g id="spn" example="Oibreoir">%s</xliff:g> Glao Cúltaca</string>
+    <string name="cfTemplateNotForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: Níor cuireadh ar aghaidh é</string>
+    <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> i ndiaidh <xliff:g id="time_delay">{2}</xliff:g> soicind</string>
+    <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: Níor cuireadh ar aghaidh é</string>
+    <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: Níor cuireadh ar aghaidh é</string>
+    <string name="notification_title">Earráid logála isteach le haghaidh <xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g></string>
+    <string name="contentServiceTooManyDeletesNotificationDesc">Rinneadh iarracht an iomarca <xliff:g id="content_type">%s</xliff:g> a scriosadh.</string>
+    <string name="printing_disabled_by">Priontáil díchumasaithe ag <xliff:g id="owner_app">%s</xliff:g>.</string>
+    <string name="personal_apps_suspension_soon_text">
+       Cuirfear bac ar aipeanna pearsanta ar <xliff:g id="date" example="29 Bealtaine">%1$s</xliff:g> ag
+        <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. Ní cheadaíonn do
+        riarthóir TF do phróifíl oibre a bheith múchta ar feadh níos mó ná <xliff:g id="number" example="3">%3$d</xliff:g> lá.
+        </string>
+    <string name="foreground_service_app_in_background">Tá <xliff:g id="app_name">%1$s</xliff:g>
+        ag úsáid ceallraí</string>
+    <string name="foreground_service_apps_in_background">Tá aipeanna <xliff:g id="number">%1$d</xliff:g>
+        ag úsáid ceallraí</string>
     <string-array name="fingerprint_acquired_vendor"/>
+    <string name="fingerprint_name_template">Méar <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string-array name="fingerprint_error_vendor"/>
+    <string name="face_acquired_dark_glasses_detected">@string/face_acquired_dark_glasses_detected_alt</string>
+    <string name="face_acquired_mouth_covering_detected">@string/face_acquired_mouth_covering_detected_alt</string>
     <string-array name="face_acquired_vendor"/>
     <string-array name="face_error_vendor"/>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">
+        Tá do phatrún díghlasála tarraingthe go mícheart agat <xliff:g id="number">%1$d</xliff:g> uair.
+        \n\nDéan iarracht arís i gceann <xliff:g id="number">%2$d</xliff:g> soicind.
+    </string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">
+        Tá do phasfhocal clóscríofa go mícheart agat <xliff:g id="number">%1$d</xliff:g> uair.
+        \n\nDéan iarracht arís i gceann <xliff:g id="number">%2$d</xliff:g> soicind.
+    </string>
+    <string name="lockscreen_too_many_failed_attempts_countdown">Déan iarracht eile i gceann <xliff:g id="number">%d</xliff:g> soicind.</string>
+    <string name="keyguard_accessibility_widget">Giuirléid <xliff:g id="widget_index">%1$s</xliff:g>.</string>
+    <string name="keyguard_accessibility_widget_deleted">Scriosadh an giuirléid <xliff:g id="widget_index">%1$s</xliff:g>.</string>
+    <string name="js_dialog_title">Deir an leathanach ag \"<xliff:g id="title">%s</xliff:g>\":</string>
+    <string name="autofill_window_title">Líon isteach go huathoibríoch le <xliff:g id="serviceName" example="MyPass">%1$s</xliff:g></string>
+    <string name="pasted_from_clipboard"><xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g> greamaithe ó do ghearrthaisce</string>
+    <string name="preposition_for_time">ag <xliff:g id="am" example="2:33 am">%s</xliff:g></string>
+    <string name="relative_time">"<xliff:g id="dáta" sampla="4 uair an chloig ó shin">%1$s</xliff:g>, <xliff:g id="am" sampla="11:00 am">%2$s</xliff:g>"</string>
+    <string name="elapsed_time_short_format_mm_ss"><xliff:g id="nóiméid" sampla="1">%1$02d</xliff:g>:<xliff:g id="soicindí" sampla="23">%2$02d</xliff:g></string>
+    <string name="elapsed_time_short_format_h_mm_ss"><xliff:g id="uaireanna" sampla="1">%1$d</xliff:g>:<xliff:g id="nóiméid" sampla="43">%2$02d</xliff:g>:<xliff:g id="soicindí" sampla="33">%3$02d</xliff:g></string>
+    <string name="whichOpenHostLinksWith">Oscail naisc <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> le</string>
+    <string name="whichOpenLinksWithApp">Oscail naisc le <xliff:g id="application" example="Chrome">%1$s</xliff:g></string>
+    <string name="whichOpenHostLinksWithApp">Oscail naisc <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> le <xliff:g id="application" example="Chrome">%2$s</xliff:g></string>
+    <string name="aerr_application">Tá <xliff:g id="application">%1$s</xliff:g> stoptha</string>
+    <string name="aerr_application_repeated">Tá <xliff:g id="application">%1$s</xliff:g> ag stopadh i gcónaí</string>
+    <string name="aerr_process_repeated">Tá <xliff:g id="process">%1$s</xliff:g> ag stopadh i gcónaí</string>
+    <string name="anr_activity_application">Níl <xliff:g id="application">%2$s</xliff:g> ag freagairt</string>
+    <string name="anr_activity_process">Níl <xliff:g id="activity">%1$s</xliff:g> ag freagairt</string>
+    <string name="anr_application_process">Níl <xliff:g id="application">%1$s</xliff:g> ag freagairt</string>
+    <string name="anr_process">Níl an próiseas <xliff:g id="process">%1$s</xliff:g> ag freagairt</string>
+    <string name="launch_warning_replace">Tá <xliff:g id="app_name">%1$s</xliff:g> ag rith anois.</string>
+    <string name="storage_usb_drive_label">Tiomántán USB <xliff:g id="monaróir" example="Seagate">%s</xliff:g></string>
+    <string name="data_usage_limit_snoozed_body">Tá tú imithe thar an teorainn atá socraithe agat <xliff:g id="size" example="3.8GB">%s</xliff:g></string>
+    <string name="data_usage_rapid_app_body">Tá níos mó sonraí úsáidte ag <xliff:g id="app" example="Áireamhán">%s</xliff:g> ná mar is gnách</string>
+    <string name="display_manager_overlay_display_name">Forleagan #<xliff:g id="id">%1$d</xliff:g></string>
+    <string name="display_manager_overlay_display_title"><xliff:g id="ainm">%1$s</xliff:g>: <xliff:g id="leithead">%2$d</xliff:g>x<xliff:g id="airde">%3$d</xliff:g>, <xliff:g id="dpi">%4$d</xliff:g> dpi</string>
+    <string name="accessibility_shortcut_multiple_service_warning">Má choinnítear an dá eochair toirte síos ar feadh cúpla soicind, cuirtear gnéithe inrochtaineachta ar siúl. D’fhéadfadh sé seo athrú a dhéanamh ar an gcaoi a n-oibríonn do ghléas.\n\nGnéithe reatha:\n<xliff:g id="service" example="TalkBack">%1$s</xliff:g>\nIs féidir leat gnéithe roghnaithe a athrú i Socruithe &gt; Inrochtaineacht.</string>
+    <string name="accessibility_shortcut_multiple_service_list">\u0020• <xliff:g id="seirbhís" sampla="TalkBack">%1$s</xliff:g>\n</string>
+    <string name="accessibility_shortcut_single_service_warning_title">An bhfuil tú ag iarraidh an aicearra <xliff:g id="service" example="TalkBack">%1$s</xliff:g> a chasadh air?</string>
+    <string name="accessibility_shortcut_enabling_service">Coinníodh na heochracha toirte síos. Tá <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> casta air.</string>
+    <string name="accessibility_shortcut_disabling_service">Coinníodh na heochracha toirte síos. Múchadh <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>.</string>
+    <string name="user_switching_message">Ag aistriú go <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
+    <string name="user_logging_out_message">Ag logáil amach <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
+    <string name="print_service_installed_title">Seirbhís <xliff:g id="name" example="Cloud Print">%s</xliff:g> suiteáilte</string>
+    <string name="deleted_key">Scriosadh <xliff:g id="key" example="4">%1$s</xliff:g></string>
+    <string name="zen_mode_alarm">Go dtí <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (an chéad aláram eile)</string>
+    <string name="zen_mode_rule_name_combination"><xliff:g id="first" example="Oícheanta na Seachtaine">%1$s</xliff:g> / <xliff:g id="rest" example="Cruinnithe">%2$s</xliff:g></string>
+    <string name="muted_by">Tá <xliff:g id="third_party">%1$s</xliff:g> ag múchadh roinnt fuaimeanna</string>
+    <string name="notification_messaging_title_template"><xliff:g id="conversation_title" example="Foireann na mBianna Blasta">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g></string>
+    <string name="user_creation_account_exists">Ceadaigh do <xliff:g id="app" example="Gmail">%1$s</xliff:g> Úsáideoir nua a chruthú le <xliff:g id="account" example="foobar@gmail.com">%2$s</xliff:g> (tá Úsáideoir leis an gcuntas seo ann cheana féin)?</string>
+    <string name="user_creation_adding">Ceadaigh do <xliff:g id="app" example="Gmail">%1$s</xliff:g> Úsáideoir nua a chruthú le <xliff:g id="account" example="foobar@gmail.com">%2$s</xliff:g>?</string>
+    <string name="unpin_specific_target">Díphionáil <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
+    <string name="negative_duration">\u2212<xliff:g id="am" sampla="1:14">%1$s</xliff:g></string>
+    <string name="suspended_widget_accessibility">Díchumasaithe <xliff:g id="label" example="Féilire">%1$s</xliff:g></string>
+    <string name="autofill_save_title">Sábháil chuig <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
+    <string name="autofill_save_title_with_type">Sábháil <xliff:g id="type" example="Credit Card">%1$s</xliff:g> chuig <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
+    <string name="autofill_save_title_with_2types">Sábháil <xliff:g id="type" example="Password">%1$s</xliff:g> agus <xliff:g id="type" example="Credit Card">%2$s</xliff:g> chuig <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
+    <string name="autofill_save_title_with_3types">Sábháil <xliff:g id="type" example="Ainm úsáideora">%1$s</xliff:g>, <xliff:g id="type" example="Focal faire">%2$s</xliff:g>, agus <xliff:g id="type" example="Cárta creidmheasa">%3$s</xliff:g> chuig <b><xliff:g id="label" example="MyPass">%4$s</xliff:g></b>?</string>
+    <string name="autofill_update_title">Nuashonrú i <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
+    <string name="autofill_update_title_with_type">Nuashonraigh <xliff:g id="type" example="Credit Card">%1$s</xliff:g> i <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
+    <string name="autofill_update_title_with_2types">Nuashonraigh <xliff:g id="type" example="Password">%1$s</xliff:g> agus <xliff:g id="type" example="Credit Card">%2$s</xliff:g> i <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
+    <string name="mmcc_authentication_reject_msim_template">Ní cheadaítear SIM <xliff:g id="simNumber" example="1">%d</xliff:g></string>
+    <string name="mmcc_illegal_ms_msim_template">Ní cheadaítear SIM <xliff:g id="simNumber" example="1">%d</xliff:g></string>
+    <string name="mmcc_illegal_me_msim_template">Ní cheadaítear SIM <xliff:g id="simNumber" example="1">%d</xliff:g></string>
+    <string name="slices_permission_request">Tá <xliff:g id="app" example="Aip Shamplach">%1$s</xliff:g> ag iarraidh slisní <xliff:g id="app_2" example="Aip Shamplach Eile">%2$s</xliff:g> a thaispeáint</string>
+    <string name="mime_type_generic_ext">comhad <xliff:g id="extension" example="PDF">%1$s</xliff:g></string>
+    <string name="mime_type_audio_ext">Fuaim <xliff:g id="extension" example="PDF">%1$s</xliff:g></string>
+    <string name="mime_type_video_ext">físeán <xliff:g id="extension" example="PDF">%1$s</xliff:g></string>
 </resources>

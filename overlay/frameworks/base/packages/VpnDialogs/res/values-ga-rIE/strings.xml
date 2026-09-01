@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="prompt">Iarratas ceangail</string>
+    <string name="legacy_title">Tá VPN ceangailte</string>
+    <string name="session">Seisiún:</string>
+    <string name="duration">Fad:</string>
+    <string name="data_transmitted">Seolta:</string>
+    <string name="data_received">Faighte:</string>
+    <string name="always_on_disconnected_title">Ní féidir ceangal le VPN atá ar siúl i gcónaí</string>
+    <string name="always_on_disconnected_message_settings_link">Athraigh socruithe VPN</string>
+    <string name="configure">Cumraigh</string>
+    <string name="disconnect">Dícheangail</string>
+    <string name="open_app">Oscail an aip</string>
+    <string name="dismiss">Díbhe</string>
+</resources>

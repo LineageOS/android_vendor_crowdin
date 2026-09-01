@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_use_network">Úsáid an líonra seo mar atá</string>
+    <string name="action_do_not_use_network">Ná húsáid an líonra seo</string>
+    <string name="action_bar_label">Sínigh isteach sa líonra</string>
+    <string name="action_bar_title">Sínigh isteach i %1$s</string>
+    <string name="ssl_error_warning">Tá fadhbanna slándála ag baint leis an líonra atá tú ag iarraidh dul isteach ann.</string>
+    <string name="ssl_error_example">Mar shampla, b’fhéidir nach leis an eagraíocht a thaispeántar an leathanach logála isteach.</string>
+    <string name="no_bypass_error_vpnwarning">Ina theannta sin, ní féidir an earráid seo a sheachaint mar go bhfuil VPN á rith ag an bhfeiste faoi láthair.</string>
+    <string name="error_continue_via_browser">Lean ar aghaidh ar aon nós tríd an mbrabhsálaí</string>
+    <string name="ssl_error_untrusted">Ní ó údarás iontaofa a thagann an deimhniú seo.</string>
+    <string name="ssl_error_mismatch">Ní hionann ainm an tsuímh agus an t-ainm atá ar an deimhniú.</string>
+    <string name="ssl_error_expired">Tá an deimhniú seo imithe in éag.</string>
+    <string name="ssl_error_not_yet_valid">Níl an deimhniú seo bailí fós.</string>
+    <string name="ssl_error_date_invalid">Tá dáta neamhbhailí ar an deimhniú seo.</string>
+    <string name="ssl_error_invalid">Tá an deimhniú seo neamhbhailí.</string>
+    <string name="ssl_error_unknown">Earráid anaithnid teastais.</string>
+    <string name="ok">Ceart go leor</string>
+    <string name="page_info_address">Seoladh:</string>
+    <string name="page_info">Eolas leathanaigh</string>
+    <string name="downloading_paramfile">Ag íoslódáil %1$s</string>
+    <string name="download_completed">Íoslódáil críochnaithe</string>
+    <string name="error_downloading_paramfile">Níorbh fhéidir %1$s a íoslódáil</string>
+    <string name="channel_name_downloads">Íoslódálacha</string>
+    <string name="channel_description_downloads">Fógraí a thaispeánann íoslódálacha críochnaithe nó curtha ar ceal</string>
+    <string name="channel_name_download_progress">Dul chun cinn íoslódála</string>
+    <string name="channel_description_download_progress">Fógraí a thaispeánann dul chun cinn íoslódálacha comhad</string>
+</resources>
