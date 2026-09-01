@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_screen_preferences">Roghanna</string>
+    <string name="settings_screen_accounts">Cuntais &amp; Príobháideacht</string>
+    <string name="settings_screen_appearance">Dealramh &amp; Leagan Amach</string>
+    <string name="settings_screen_gesture">Clóscríobh Gothaí</string>
+    <string name="settings_screen_correction">Ceartú téacs</string>
+    <string name="settings_screen_advanced">Ardleibhéil</string>
+    <string name="settings_screen_theme">Téama</string>
+    <string name="enable_split_keyboard">Cumasaigh méarchlár scoilte</string>
+    <string name="cloud_sync_title">Sioncrónú Méarchláir Google</string>
+    <string name="cloud_sync_summary">Tá sioncrónú casta air</string>
+    <string name="cloud_sync_summary_disabled">Sioncrónaigh do fhoclóir pearsanta trasna gléasanna</string>
+    <string name="sync_now_title">Sioncrónaigh anois</string>
+    <string name="clear_sync_data_title">Scrios sonraí scamall</string>
+    <string name="clear_sync_data_summary">Scriosann sé do shonraí sioncronaithe ó Google</string>
+    <string name="clear_sync_data_confirmation">Scriosfar do shonraí sioncronaithe ón scamall. An bhfuil tú cinnte?</string>
+    <string name="clear_sync_data_ok">Scrios</string>
+    <string name="cloud_sync_cancel">Cealaigh</string>
+    <string name="include_other_imes_in_language_switch_list">Athraigh go modhanna ionchuir eile</string>
+    <string name="include_other_imes_in_language_switch_list_summary">Clúdaíonn an eochair athraithe teanga modhanna ionchuir eile freisin</string>
+    <string name="show_language_switch_key">Eochair athraithe teanga</string>
+    <string name="show_language_switch_key_summary">Taispeáin nuair a bhíonn il-theangacha ionchuir cumasaithe</string>
+    <string name="key_preview_popup_dismiss_delay">Moill ar dhíbhe eochrach aníos</string>
+    <string name="key_preview_popup_dismiss_no_delay">Gan aon mhoill</string>
+    <string name="key_preview_popup_dismiss_default_delay">Réamhshocrú</string>
+    <string name="abbreviation_unit_milliseconds"><xliff:g id="MILLISECONDS">%s</xliff:g>ms</string>
+    <string name="settings_system_default">Réamhshocrú an chórais</string>
+    <string name="use_contacts_dict">Mol ainmneacha teagmhála</string>
+    <string name="use_contacts_dict_summary">Úsáid ainmneacha ó Theagmhálaithe le haghaidh moltaí agus ceartúcháin</string>
+    <string name="use_personalized_dicts">Moltaí pearsantaithe</string>
+    <string name="enable_metrics_logging">"Feabhas a chur ar <xliff:g id="APPLICATION_NAME" example="Méarchláir Android">%s</xliff:g>"</string>
+    <string name="use_double_space_period">Ponc spás dúbailte</string>
+    <string name="use_double_space_period_summary">Cuireann tapáil faoi dhó ar an spásbharra ponc agus spás ina dhiaidh.</string>
+    <string name="auto_cap">Uath-chaipitliú</string>
+    <string name="auto_cap_summary">Cuir an chéad fhocal de gach abairt le príomhlitir</string>
+    <string name="edit_personal_dictionary">Foclóir pearsanta</string>
+    <string name="configure_dictionaries_title">Foclóirí breiseáin</string>
+    <string name="main_dictionary">Príomhfhoclóir</string>
+    <string name="prefs_show_suggestions">Taispeáin moltaí ceartúcháin</string>
+    <string name="prefs_show_suggestions_summary">Taispeáin focail mholta agus tú ag clóscríobh</string>
+    <string name="prefs_block_potentially_offensive_title">Blocáil focail mhaslacha</string>
+    <string name="prefs_block_potentially_offensive_summary">Ná mol focail a d\'fhéadfadh a bheith maslach</string>
+    <string name="auto_correction">Uathcheartú</string>
+    <string name="auto_correction_summary">Ceartaíonn an spásbharra agus an poncaíocht focail mhíchlóscríofa go huathoibríoch</string>
+    <string name="auto_correction_threshold_mode_off">As</string>
+    <string name="auto_correction_threshold_mode_modest">Measartha</string>
+    <string name="auto_correction_threshold_mode_aggressive">Ionsaitheach</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">An-ionsaitheach</string>
+    <string name="bigram_prediction">Moltaí don chéad fhocal eile</string>
+    <string name="bigram_prediction_summary">Úsáid an focal roimhe seo agus moltaí á ndéanamh agat</string>
+    <string name="gesture_input">Cumasaigh clóscríobh gothaí</string>
+    <string name="gesture_input_summary">Cuir focal isteach trí shleamhnú trí na litreacha</string>
+    <string name="gesture_preview_trail">Taispeáin rian gothaí</string>
+    <string name="gesture_floating_preview_text">Réamhamharc snámhach dinimiciúil</string>
+    <string name="gesture_floating_preview_text_summary">Féach an focal molta agus tú ag déanamh gotha</string>
+    <string name="gesture_space_aware">Gotha frása</string>
+    <string name="gesture_space_aware_summary">Spásanna ionchuir le linn gothaí trí shleamhnú go dtí an eochair spáis</string>
+    <string name="voice_input">Eochair ionchuir gutha</string>
+    <string name="voice_input_disabled_summary">Níl aon mhodhanna ionchuir gutha cumasaithe. Seiceáil socruithe Teangacha agus ionchuir.</string>
+    <string name="configure_input_method">Cumraigh modhanna ionchuir</string>
+    <string name="language_selection_title">Teangacha</string>
+    <string name="help_and_feedback">Cabhair &amp; aiseolas</string>
+    <string name="select_language">Teangacha</string>
+    <string name="hint_add_to_dictionary">Tapáil arís le sábháil</string>
+    <string name="hint_add_to_dictionary_without_word">Beartaigh anseo le sábháil</string>
+    <string name="has_dictionary">Foclóir ar fáil</string>
+    <string name="keyboard_layout">Téama méarchláir</string>
+    <string name="switch_accounts">Athraigh cuntais</string>
+    <string name="no_accounts_selected">Níl aon chuntais roghnaithe</string>
+    <string name="account_selected">Ag úsáid <xliff:g id="EMAIL_ADDRESS" example="someone@example.com">%1$s</xliff:g> faoi láthair</string>
+    <string name="account_select_ok">Ceart go leor</string>
+    <string name="account_select_cancel">Cealaigh</string>
+    <string name="account_select_sign_out">Sínigh amach</string>
+    <string name="account_select_title">Roghnaigh cuntas le húsáid</string>
+    <string name="subtype_en_GB">Béarla (RA)</string>
+    <string name="subtype_en_US">Béarla (SAM)</string>
+    <string name="subtype_es_US">Spáinnis (SAM)</string>
+    <string name="subtype_hi_ZZ">Hinglish</string>
+    <string name="subtype_sr_ZZ">Seirbis (Laidin)</string>
+    <string name="subtype_with_layout_en_GB">Béarla (RA) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_en_US">Béarla (SAM) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_es_US">Spáinnis (SAM) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_hi_ZZ">Hinglish (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_sr_ZZ">Seirbis (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_generic_traditional"><xliff:g id="LANGUAGE_NAME" example="Neipeálais">%s</xliff:g> (Traidisiúnta)</string>
+    <string name="subtype_generic_compact"><xliff:g id="LANGUAGE_NAME" shampla="Hiondúis"> %s</xliff:g> (Dlúth)</string>
+    <string name="subtype_no_language">Gan teanga (Aibítir)</string>
+    <string name="subtype_no_language_qwerty">Aibítir (QWERTY)</string>
+    <string name="subtype_no_language_qwertz">Aibítir (QWERTZ)</string>
+    <string name="subtype_no_language_azerty">Aibítir (AZERTY)</string>
+    <string name="subtype_no_language_dvorak">Aibítir (Dvorak)</string>
+    <string name="subtype_no_language_colemak">Aibítir (Colemak)</string>
+    <string name="subtype_no_language_pcqwerty">Aibítir (PC)</string>
+    <string name="subtype_emoji">Emoji</string>
+    <string name="keyboard_theme">Téama méarchláir</string>
+    <string name="custom_input_styles_title">Stíleanna ionchuir saincheaptha</string>
+    <string name="add_style">Cuir stíl leis</string>
+    <string name="add">Cuir leis</string>
+    <string name="remove">Bain</string>
+    <string name="save">Sábháil</string>
+    <string name="subtype_locale">Teanga</string>
+    <string name="keyboard_layout_set">Leagan Amach</string>
+    <string name="custom_input_style_note_message">"Ní mór do stíl ionchuir saincheaptha a chumasú sula dtosaíonn tú á úsáid. Ar mhaith leat é a chumasú anois?"</string>
+    <string name="enable">Cumasaigh</string>
+    <string name="not_now">Ní anois</string>
+    <string name="custom_input_style_already_exists">"Tá an stíl ionchuir chéanna ann cheana féin: <xliff:g id="INPUT_STYLE_NAME" example="Béarla (Dvorak)">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings">Fad an chreathadh eochairbhrúite</string>
+    <string name="prefs_keypress_sound_volume_settings">Toirt fuaime eochairbhrú</string>
+    <string name="prefs_key_longpress_timeout_settings">Moill fhada brúigh eochrach</string>
+    <string name="prefs_enable_emoji_alt_physical_key">Emoji don mhéarchlár fisiceach</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary">Taispeánann an eochair Alt fhisiciúil pailéad emoji</string>
+    <string name="button_default">Réamhshocrú</string>
+    <string name="setup_welcome_title">"Fáilte go <xliff:g id="APPLICATION_NAME" example="Méarchláir Android">%s</xliff:g>"</string>
+    <string name="setup_welcome_additional_description">le Clóscríobh Gothaí</string>
+    <string name="setup_start_action">Tosaigh</string>
+    <string name="setup_next_action">An chéad chéim eile</string>
+    <string name="setup_steps_title">"Ag socrú <xliff:g id="APPLICATION_NAME" example="Méarchláir Android">%s</xliff:g>"</string>
+    <string name="setup_step1_title">"Cumasaigh <xliff:g id="APPLICATION_NAME" example="Méarchláir Android">%s</xliff:g>"</string>
+    <string name="setup_step1_instruction">"Seiceáil \"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>\" i do shocruithe ionchuir Teangacha. Údaróidh sé seo é chun rith ar do ghléas."</string>
+    <string name="setup_step1_finished_instruction">"Tá <xliff:g id="APPLICATION_NAME" example="Méarchláir Android">%s</xliff:g> cumasaithe cheana féin i do shocruithe Teangacha &amp; ionchuir, mar sin tá an chéim seo déanta. Ar aghaidh go dtí an chéad cheann eile!"</string>
+    <string name="setup_step1_action">Cumasaigh sna Socruithe</string>
+    <string name="setup_step2_title">"Athraigh go <xliff:g id="APPLICATION_NAME" example="Méarchláir Android">%s</xliff:g>"</string>
+    <string name="setup_step2_instruction">"Ansin, roghnaigh \"<xliff:g id="APPLICATION_NAME" example="Méarchláir Android">%s</xliff:g>\" mar do mhodh ionchuir téacs gníomhach."</string>
+    <string name="setup_step2_action">Athraigh modhanna ionchuir</string>
+    <string name="setup_step3_title">"Comhghairdeas, tá gach rud réidh agat!"</string>
+    <string name="setup_step3_instruction">Anois is féidir leat clóscríobh i do chuid aipeanna is fearr leat le <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>.</string>
+    <string name="setup_step3_action">Cumraigh teangacha breise</string>
+    <string name="setup_finish_action">Críochnaithe</string>
+    <string name="show_setup_wizard_icon">Taispeáin deilbhín an aip</string>
+    <string name="show_setup_wizard_icon_summary">Taispeáin deilbhín an fheidhmchláir sa lainseálaí</string>
+    <string name="app_name">Soláthraí Foclóir</string>
+    <string name="dictionary_provider_name">Soláthraí Foclóir</string>
+    <string name="dictionary_service_name">Seirbhís Foclóra</string>
+    <string name="download_description">Faisnéis faoi nuashonrú an fhoclóra</string>
+    <string name="dictionary_settings_title">Foclóirí breiseáin</string>
+    <string name="dictionary_install_over_metered_network_prompt">Foclóir ar fáil</string>
+    <string name="dictionary_settings_summary">Socruithe le haghaidh foclóirí</string>
+    <string name="user_dictionaries">Foclóirí úsáideora</string>
+    <string name="default_user_dict_pref_name">Foclóir úsáideora</string>
+    <string name="dictionary_available">Foclóir ar fáil</string>
+    <string name="dictionary_downloading">Ag íoslódáil faoi láthair</string>
+    <string name="dictionary_installed">Suiteáilte</string>
+    <string name="dictionary_disabled">Suiteáilte, díchumasaithe</string>
+    <string name="cannot_connect_to_dict_service">Fadhb ag ceangal leis an tseirbhís foclóra</string>
+    <string name="no_dictionaries_available">Níl aon fhoclóirí ar fáil</string>
+    <string name="check_for_updates_now">Athnuachan</string>
+    <string name="last_update">Nuashonraithe go deireanach</string>
+    <string name="message_updating">Ag seiceáil le haghaidh nuashonruithe</string>
+    <string name="message_loading">Ag luchtú…</string>
+    <string name="main_dict_description">Príomhfhoclóir</string>
+    <string name="cancel">Cealaigh</string>
+    <string name="go_to_settings">Socruithe</string>
+    <string name="install_dict">Suiteáil</string>
+    <string name="cancel_download_dict">Cealaigh</string>
+    <string name="delete_dict">Scrios</string>
+    <string name="download_over_metered">Íoslódáil anois (<xliff:g id="SIZE_IN_MEGABYTES" example="0.7">%1$.1f</xliff:g>MB)</string>
+    <string name="do_not_download_over_metered">Íoslódáil thar Wi-Fi</string>
+    <string name="dict_available_notification_title">Tá foclóir ar fáil do <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g></string>
+    <string name="dict_available_notification_description">Brúigh chun athbhreithniú a dhéanamh agus a íoslódáil</string>
+    <string name="toast_downloading_suggestions">Ag íoslódáil: beidh moltaí le haghaidh <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> réidh go luath.</string>
+    <string name="version_text">Leagan <xliff:g id="VERSION_NUMBER" example="1.0.1864.643521">%1$s</xliff:g></string>
+    <string name="user_dict_settings_add_menu_title">Cuir leis</string>
+    <string name="user_dict_settings_add_dialog_title">Cuir leis an bhfoclóir</string>
+    <string name="user_dict_settings_add_screen_title">Frása</string>
+    <string name="user_dict_settings_add_dialog_more_options">Tuilleadh roghanna</string>
+    <string name="user_dict_settings_add_dialog_less_options">Níos lú roghanna</string>
+    <string name="user_dict_settings_add_dialog_confirm">Ceart go leor</string>
+    <string name="user_dict_settings_add_word_option_name">Focal:</string>
+    <string name="user_dict_settings_add_shortcut_option_name">Aicearra:</string>
+    <string name="user_dict_settings_add_locale_option_name">Teanga:</string>
+    <string name="user_dict_settings_add_word_hint">Clóscríobh focal</string>
+    <string name="user_dict_settings_add_shortcut_hint">Aicearra roghnach</string>
+    <string name="user_dict_settings_edit_dialog_title">Cuir focal in eagar</string>
+    <string name="user_dict_settings_context_menu_edit_title">Cuir in Eagar</string>
+    <string name="user_dict_settings_context_menu_delete_title">Scrios</string>
+    <string name="user_dict_settings_empty_text">Níl aon fhocail agat i bhfoclóir an úsáideora. Chun focal a chur leis, tapáil an cnaipe Cuir leis (+).</string>
+    <string name="user_dict_settings_all_languages">Do gach teanga</string>
+    <string name="user_dict_settings_more_languages">Tuilleadh teangacha…</string>
+    <string name="user_dict_settings_delete">Scrios</string>
+    <string name="user_dict_fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

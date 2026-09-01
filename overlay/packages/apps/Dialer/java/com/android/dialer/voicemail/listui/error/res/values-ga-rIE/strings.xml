@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="voicemail_error_activating_title">Glórphost amhairc á ghníomhachtú</string>
+  <string name="voicemail_error_activating_message">B’fhéidir nach bhfaighidh tú fógraí glórphoist go dtí go mbeidh glórphost amhairc gníomhachtaithe go hiomlán. Cuir glaoch ar ghlóphost chun teachtaireachtaí nua a aisghabháil go dtí go mbeidh glórphost gníomhachtaithe go hiomlán.</string>
+  <string name="voicemail_error_not_activate_no_signal_title">Ní féidir glórphost amhairc a ghníomhachtú</string>
+  <string name="voicemail_error_not_activate_no_signal_message">Cinntigh go bhfuil nasc líonra soghluaiste ag do ghuthán agus déan iarracht eile.</string>
+  <string name="voicemail_error_not_activate_no_signal_airplane_mode_message">Múch mód eitleáin agus déan iarracht arís.</string>
+  <string name="voicemail_error_no_signal_title">Gan nasc</string>
+  <string name="voicemail_error_no_signal_message">Ní chuirfear ar an eolas thú faoi ghuthphoist nua. Má tá tú ar Wi\u2011Fi, is féidir leat seiceáil le haghaidh guthphoist trí shioncronú anois.</string>
+  <string name="voicemail_error_no_signal_airplane_mode_message">Ní chuirfear ar an eolas thú faoi theachtaireachtaí gutha nua. Múch mód eitleáin chun do theachtaireachtaí gutha a shioncronú.</string>
+  <string name="voicemail_action_set_pin">Socraigh PIN</string>
+  <string name="vvm3_error_vms_dns_failure_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_vmg_dns_failure_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_spg_dns_failure_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_spg_no_cellular_message">Tá brón orainn, ach tá deacracht againn ceangal le do bhosca poist gutha. Má tá tú i gceantar le neart comhartha lag, fan go dtí go mbeidh comhartha láidir agat agus déan iarracht arís. Má tá fadhb ann fós, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9006 an cód earráide.</string>
+  <string name="vvm3_error_vms_timeout_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_vms_timeout_message">Tá brón orainn, tháinig fadhb chun cinn. Déan iarracht arís ar ball. Má tá fadhb ann fós, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9007 an cód earráide.</string>
+  <string name="vvm3_error_vmg_timeout_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_vmg_timeout_message">Tá brón orainn, tháinig fadhb chun cinn. Déan iarracht arís ar ball. Má tá fadhb ann fós, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9008 an cód earráide.</string>
+  <string name="vvm3_error_status_sms_timeout_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_status_sms_timeout_message">Tá brón orainn, ach tá deacracht againn do sheirbhís a chur ar bun. Déan iarracht arís ar ball. Má tá fadhb ann fós, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9009 an cód earráide.</string>
+  <string name="vvm3_error_subscriber_blocked_title">Ní féidir ceangal le do bhosca gutha</string>
+  <string name="vvm3_error_subscriber_blocked_message">Tá brón orainn, ní féidir linn ceangal le do bhosca gutha faoi láthair. Déan iarracht arís ar ball. Má tá fadhb ann fós, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9990 an cód earráide.</string>
+  <string name="vvm3_error_unknown_user_title">Socraigh Glórphost</string>
+  <string name="vvm3_error_unknown_user_message">Níl glórphost socraithe ar do chuntas. Téigh i dteagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9991 an cód earráide.</string>
+  <string name="vvm3_error_unknown_device_title">Glórphost</string>
+  <string name="vvm3_error_unknown_device_message">Ní féidir glórphost amhairc a úsáid ar an ngléas seo. Téigh i dteagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9992 an cód earráide.</string>
+  <string name="vvm3_error_invalid_password_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_invalid_password_message">Téigh i dteagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9993 an cód earráide.</string>
+  <string name="vvm3_error_mailbox_not_initialized_title">Glórphost amhairc</string>
+  <string name="vvm3_error_mailbox_not_initialized_message">Chun socrú glórphoist amhairc a chríochnú, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9994 an cód earráide.</string>
+  <string name="vvm3_error_service_not_provisioned_title">Glórphost amhairc</string>
+  <string name="vvm3_error_service_not_provisioned_message">Chun socrú glórphoist amhairc a chríochnú, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9995 an cód earráide.</string>
+  <string name="vvm3_error_service_not_activated_title">Glórphost amhairc</string>
+  <string name="vvm3_error_service_not_activated_message">Chun glórphost amhairc a ghníomhachtú, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9996 an cód earráide.</string>
+  <string name="vvm3_error_user_blocked_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_user_blocked_message">Chun socrú glórphoist amhairc a chríochnú, déan teagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> agus inis dóibh gurb é 9998 an cód earráide.</string>
+  <string name="vvm3_error_subscriber_unknown_title">Tá glórphost amhairc díchumasaithe</string>
+  <string name="vvm3_error_subscriber_unknown_message">Téigh i dteagmháil le Seirbhís do Chustaiméirí ag <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> chun glórphost amhairc a ghníomhachtú.</string>
+  <string name="vvm3_error_imap_getquota_error_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_imap_select_error_title">Chuaigh rud éigin mícheart</string>
+  <string name="vvm3_error_imap_error_title">Chuaigh rud éigin mícheart</string>
+  <string name="dialer_terms_and_conditions_title">Cuir glórphost amhairc ar siúl</string>
+  <string name="dialer_terms_and_conditions_existing_user_title">Nua! Léigh do ghlórphost</string>
+  <string name="dialer_terms_and_conditions_message"><xliff:g>%s</xliff:g></string>
+  <string name="dialer_terms_and_conditions_1.0">
+  Féach ar do theachtaireachtaí agus éist leo, gan glaoch ar an nguthphost. Cuireann seirbhís trascríobh saor in aisce Google trascríbhinní de do ghuthphost ar fáil. Is féidir leat ceachtar acu a mhúchadh i Socruithe am ar bith. <xliff:g>%s</xliff:g>
+  </string>
+  <string name="dialer_terms_and_conditions_learn_more">Foghlaim níos mó</string>
+  <string name="dialer_terms_and_conditions_existing_user_ack">Ceart go leor, tuigim é.</string>
+  <string name="dialer_terms_and_conditions_existing_user_decline">Ní raibh maith agat</string>
+  <string name="terms_and_conditions_decline_dialog_title">Díchumasaigh glórphost amhairc?</string>
+  <string name="verizon_terms_and_conditions_decline_dialog_message">Díchumasófar glórphost amhairc má dhiúltaítear do na téarmaí agus coinníollacha.</string>
+  <string name="verizon_terms_and_conditions_decline_dialog_downgrade">Díchumasaigh</string>
+  <string name="dialer_terms_and_conditions_decline_dialog_message">Díchumasófar glórphost amhairc má mhúchann tú glórphost amhairc.</string>
+  <string name="dialer_terms_and_conditions_decline_dialog_downgrade">Díchumasaigh</string>
+  <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message">Ní bheidh rochtain ar ghuthphost ach trí ghlaoch ar *86. Socraigh PIN nua guthphoist le dul ar aghaidh.</string>
+  <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin">Socraigh PIN</string>
+</resources>

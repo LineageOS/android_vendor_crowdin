@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Roghnóir Balla Beo</string>
+    <string name="live_wallpaper_picker_title">Roghnaigh páipéar balla beo</string>
+    <string name="live_wallpaper_picker_label">Páipéir Bheo</string>
+    <string name="live_wallpaper_preview_title">Réamhamharc ar an bpáipéar balla beo</string>
+    <string name="configure_wallpaper">Socruithe…</string>
+    <string name="delete_live_wallpaper">Scrios</string>
+    <string name="preview">Réamhamharc</string>
+    <string name="wallpaper_instructions">Socraigh páipéar balla</string>
+    <string name="live_wallpaper_empty">Gan aon pháipéir balla beo.</string>
+    <string name="set_live_wallpaper">Socraigh páipéar balla</string>
+    <string name="wallpaper_title_and_author"><xliff:g id="title" example="Galaxy">%1$s</xliff:g> le <xliff:g id="author" example="Google">%2$s</xliff:g></string>
+    <string name="live_wallpaper_loading">Ag lódáil páipéar balla beo…</string>
+    <string name="which_wallpaper_option_home_screen">Scáileán baile</string>
+    <string name="which_wallpaper_option_home_screen_and_lock_screen">Scáileán baile agus scáileán glasála</string>
+    <string name="explore_further">Taiscéal</string>
+    <string name="tab_info">Eolas</string>
+    <string name="tab_customize">Saincheap</string>
+    <string name="delete_wallpaper_confirmation">Scrios an páipéar balla seo ó do ghuthán?</string>
+    <string name="collapse_attribution_panel">Painéal eolais an pháipéir balla a laghdú</string>
+    <string name="expand_attribution_panel">Leathnaigh painéal eolais an pháipéir balla</string>
+</resources>
