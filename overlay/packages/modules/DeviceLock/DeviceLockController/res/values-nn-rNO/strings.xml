@@ -25,7 +25,8 @@
     <string name="setup_failed_reset_device_timer_text"> {count, plural,
 =1 {Nullstill denne eininga, og prøv å setja henne opp på nytt. Ho vert nullstilt automatisk om 1 sekund.}
 other {Nullstill denne eininga, og prøv å setja henne opp på nytt. Ho vert nullstilt automatisk om # sekund.}
-}</string>
+}
+</string>
     <string name="setup_progress_title_text">Installerer <xliff:g id="creditor_app">%1$s</xliff:g>-appen <xliff:g id="ellipsis">\u2026</xliff:g></string>
     <string name="setup_finish_title_text">Opnar <xliff:g id="creditor_app">%1$s</xliff:g>-appen <xliff:g id="ellipsis">\u2026</xliff:g></string>
     <string name="setup_error_title_text">Klarte ikkje opna <xliff:g id="creditor_app">%1$s</xliff:g>-appen</string>
@@ -128,7 +129,8 @@ other {Nullstill denne eininga, og prøv å setja henne opp på nytt. Ho vert nu
     <string name="device_reset_in_days_notification_title"> {count, plural,
 =1 {Eininga vert nullstilt om 1 dag}
 other {Eininga vert nullstilt om # dagar}
-}</string>
+}
+</string>
     <string name="device_reset_timer_notification_title">Eininga vert nullstilt om <xliff:g id="timer">%s</xliff:g></string>
     <string name="device_reset_notification_content">Alle data på eininga vert sletta. Ta kontakt med <xliff:g id="provider name">%1$s</xliff:g> for å få hjelp med innmeldinga.</string>
     <string name="provisioning_failed">Klargjeringa av finansiering mislukkast</string>

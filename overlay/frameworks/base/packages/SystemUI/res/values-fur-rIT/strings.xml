@@ -247,7 +247,6 @@
     <string name="fingerprint_dialog_touch_sensor">Tocje il sensôr di impronts digjitâi</string>
     <string name="fingerprint_dialog_authenticated_confirmation">Frache la icone Sbloche par continuâ</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Muse no ricognossude. Dopre l\'impront.</string>
-    <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="keyguard_face_failed">Muse no ricognossude</string>
     <string name="keyguard_suggest_fingerprint">Dopre l\'impront</string>
     <string name="keyguard_face_unlock_unavailable">Sbloc cu la muse no disponibil</string>
@@ -442,40 +441,55 @@
     <string name="sensor_privacy_start_use_mic_blocked_dialog_title">Il microfon al è blocât</string>
     <string name="sensor_privacy_start_use_camera_blocked_dialog_title">La fotocjamare e je blocade</string>
     <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_title">Il microfon e la fotocjamare a son blocâts</string>
-    <string name="sensor_privacy_start_use_mic_blocked_dialog_content">        Par sblocâ e consintî l\'acès, sposte l\'interutôr de riservatece dal dispositîf su la posizion
+    <string name="sensor_privacy_start_use_mic_blocked_dialog_content">
+        Par sblocâ e consintî l\'acès, sposte l\'interutôr de riservatece dal dispositîf su la posizion
          dal microfon atîf. Fâs riferiment al manuâl dal dispositîf par cjatâ l\'interutôr de riservatece sul to dispositîf.
     </string>
-    <string name="sensor_privacy_start_use_camera_blocked_dialog_content">        Par sblocâ e consintî l\'acès, sposte l\'interutôr de riservatece dal dispositîf su la posizion
+    <string name="sensor_privacy_start_use_camera_blocked_dialog_content">
+        Par sblocâ e consintî l\'acès, sposte l\'interutôr de riservatece dal dispositîf su la posizion
          de fotocjamare ative. Fâs riferiment al manuâl dal dispositîf par cjatâ l\'interutôr de riservatece sul to dispositîf.
     </string>
-    <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_content">        Par sblocâju e consintî l\'acès, sposte l\'interutôr de riservatece dal dispositîf su la posizion
+    <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_content">
+        Par sblocâju e consintî l\'acès, sposte l\'interutôr de riservatece dal dispositîf su la posizion
          di sbloc. Fâs riferiment al manuâl dal dispositîf par cjatâ l\'interutôr de riservatece sul to dispositîf.
     </string>
-    <string name="sensor_privacy_mic_unblocked_toast_content">        Microfon disponibil
+    <string name="sensor_privacy_mic_unblocked_toast_content">
+        Microfon disponibil
     </string>
-    <string name="sensor_privacy_camera_unblocked_toast_content">        Fotocjamare disponibile
+    <string name="sensor_privacy_camera_unblocked_toast_content">
+        Fotocjamare disponibile
     </string>
-    <string name="sensor_privacy_mic_camera_unblocked_toast_content">        Disponibii microfon e fotocjamare
+    <string name="sensor_privacy_mic_camera_unblocked_toast_content">
+        Disponibii microfon e fotocjamare
     </string>
-    <string name="sensor_privacy_mic_turned_on_dialog_title">        Microfon ativât
+    <string name="sensor_privacy_mic_turned_on_dialog_title">
+        Microfon ativât
     </string>
-    <string name="sensor_privacy_mic_turned_off_dialog_title">        Microfon disativât
+    <string name="sensor_privacy_mic_turned_off_dialog_title">
+        Microfon disativât
     </string>
-    <string name="sensor_privacy_mic_unblocked_dialog_content">        Il microfon al è ativât par dutis lis aplicazions e i servizis.
+    <string name="sensor_privacy_mic_unblocked_dialog_content">
+        Il microfon al è ativât par dutis lis aplicazions e i servizis.
     </string>
-    <string name="sensor_privacy_mic_blocked_no_exception_dialog_content">        L\'acès al microfon al è disativât par dutis lis aplicazions e i servizis.
+    <string name="sensor_privacy_mic_blocked_no_exception_dialog_content">
+        L\'acès al microfon al è disativât par dutis lis aplicazions e i servizis.
         Tu puedis ativâ l\'acès al microfon in Impostazions &gt; Riservatece &gt; Microfon.
     </string>
-    <string name="sensor_privacy_mic_blocked_with_exception_dialog_content">        L\'acès al microfon al è disativât par dutis lis aplicazions e i servizis.
+    <string name="sensor_privacy_mic_blocked_with_exception_dialog_content">
+        L\'acès al microfon al è disativât par dutis lis aplicazions e i servizis.
         Tu puedis cambiâ cheste configurazion in Impostazions &gt; Riservatece &gt; Microfon.
     </string>
-    <string name="sensor_privacy_camera_turned_on_dialog_title">        Fotocjamare ativade
+    <string name="sensor_privacy_camera_turned_on_dialog_title">
+        Fotocjamare ativade
     </string>
-    <string name="sensor_privacy_camera_turned_off_dialog_title">        Fotocjamare disativade
+    <string name="sensor_privacy_camera_turned_off_dialog_title">
+        Fotocjamare disativade
     </string>
-    <string name="sensor_privacy_camera_unblocked_dialog_content">        La fotocjamare e je ativade par dutis lis aplicazions e i servizis.
+    <string name="sensor_privacy_camera_unblocked_dialog_content">
+        La fotocjamare e je ativade par dutis lis aplicazions e i servizis.
     </string>
-    <string name="sensor_privacy_camera_blocked_dialog_content">        La fotocjamare e je ativade par dutis lis aplicazions e i servizis.
+    <string name="sensor_privacy_camera_blocked_dialog_content">
+        La fotocjamare e je ativade par dutis lis aplicazions e i servizis.
     </string>
     <string name="sensor_privacy_htt_blocked_dialog_content">Par doprâ il boton dal microfon, ative l\'acès al microfon in Impostazions.</string>
     <string name="sensor_privacy_dialog_open_settings">Vierç Impostazions</string>
@@ -489,7 +503,8 @@
     <string name="zen_mode_off">Off</string>
     <string name="zen_mode_set_up">No configurade</string>
     <string name="zen_mode_no_manual_invocation">Gjestìs in impostazions</string>
-    <string name="zen_mode_active_modes">        {count, plural,
+    <string name="zen_mode_active_modes">
+        {count, plural,
             one {}=0 {Nissune modalitât ative}
             =1 {La modalitât {mode} e je ative}
             other {A son ativis # modalitâts}
@@ -630,7 +645,8 @@
     <string name="notification_section_header_conversations">Conversazions</string>
     <string name="accessibility_notification_section_header_gentle_clear_all">Nete dutis lis notifichis cuietis</string>
     <string name="accessibility_notification_section_header_open_settings">Vierç lis impostazions des notifichis</string>
-    <string name="modes_suppressing_shade_text">        {count, plural, offset:1
+    <string name="modes_suppressing_shade_text">
+        {count, plural, offset:1
             one {}=0 {Nissune notifiche}
             =1 {Notifichis metudis in pause di {mode}}
             =2 {Notifichis metudis in pause di {mode} e une altre modalitât}
@@ -1372,7 +1388,8 @@
     one {}=1 {# notifiche}
     other {# notifichis}
     }</string>
-    <string name="dream_overlay_weather_complication_desc">        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
+    <string name="dream_overlay_weather_complication_desc">
+        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
     </string>
     <string name="note_task_button_label">Cjape notis</string>
     <string name="note_task_shortcut_long_label">Cjape notis, <xliff:g id="note_taking_app" example="Note-taking App">%1$s</xliff:g></string>
@@ -1533,24 +1550,33 @@
     <string name="all_apps_edu_notification_title">Dopre la tastiere par viodi dutis lis aplicazions</string>
     <string name="all_apps_edu_notification_content">Frache il tast di azion in ogni moment. Tocje par imparâ altris mots.</string>
     <string name="accessibility_deprecate_extra_dim_dialog_title">La atenuazion extra cumò e je part dal cursôr pe luminositât</string>
-    <string name="accessibility_deprecate_extra_dim_dialog_description">        Cumò tu puedis rindi ancjemò plui scûr il schermi sbassant ancjemò di plui il nivel di luminositât.\n\nViodût che cheste funzionalitât cumò e fâs part dal cursôr de luminositât, lis scurtis pe atenuazion extra a vegnin gjavadis.
+    <string name="accessibility_deprecate_extra_dim_dialog_description">
+        Cumò tu puedis rindi ancjemò plui scûr il schermi sbassant ancjemò di plui il nivel di luminositât.\n\nViodût che cheste funzionalitât cumò e fâs part dal cursôr de luminositât, lis scurtis pe atenuazion extra a vegnin gjavadis.
     </string>
     <string name="accessibility_deprecate_extra_dim_dialog_button">Gjave scurtis di atenuazion extra</string>
-    <string name="accessibility_deprecate_extra_dim_dialog_toast">        Scurtis di atenuazion extra gjavadis</string>
-    <string name="qs_edit_mode_category_connectivity">        Conetivitât
+    <string name="accessibility_deprecate_extra_dim_dialog_toast">
+        Scurtis di atenuazion extra gjavadis</string>
+    <string name="qs_edit_mode_category_connectivity">
+        Conetivitât
     </string>
-    <string name="qs_edit_mode_category_accessibility">        Acès facilitât
+    <string name="qs_edit_mode_category_accessibility">
+        Acès facilitât
     </string>
-    <string name="qs_edit_mode_category_utilities">        Utilitâts
+    <string name="qs_edit_mode_category_utilities">
+        Utilitâts
     </string>
-    <string name="qs_edit_mode_category_privacy">        Riservatece
+    <string name="qs_edit_mode_category_privacy">
+        Riservatece
     </string>
-    <string name="qs_edit_mode_category_display">        Schermi
+    <string name="qs_edit_mode_category_display">
+        Schermi
     </string>
-    <string name="qs_edit_mode_category_unknown">        No cognossût
+    <string name="qs_edit_mode_category_unknown">
+        No cognossût
     </string>
     <string name="qs_edit_mode_reset_dialog_title">Ripristinâ ducj i ricuadris?</string>
-    <string name="qs_edit_mode_reset_dialog_content">        Ducj i ricuadris des impostazions rapidis a vignaran ripristinâts aes impostazions origjinâls dal dispositîf
+    <string name="qs_edit_mode_reset_dialog_content">
+        Ducj i ricuadris des impostazions rapidis a vignaran ripristinâts aes impostazions origjinâls dal dispositîf
     </string>
     <string name="underlay_close_button_content_description">Siere</string>
     <string name="back_button_on_bouncer">Indaûr</string>

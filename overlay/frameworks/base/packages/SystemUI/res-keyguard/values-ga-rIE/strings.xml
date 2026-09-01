@@ -18,6 +18,19 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_enter_your_pin">Cuir isteach do PIN</string>
+    <string name="keyguard_enter_your_pattern">Cuir isteach do phatrún</string>
+    <string name="keyguard_enter_your_password">Cuir isteach do phasfhocal</string>
+    <string name="keyguard_sim_error_message_short">Cárta Neamhbhailí.</string>
+    <string name="keyguard_charged">Gearrtha</string>
+    <string name="keyguard_plugged_in_wireless"><xliff:g id="percentage" example="20%">%s</xliff:g> • Ag muirearú gan sreang</string>
+    <string name="keyguard_plugged_in"><xliff:g id="céatadán">%s</xliff:g> • Ag muirearú</string>
+    <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • Ag muirearú go tapa</string>
+    <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • Ag muirearú go mall</string>
+    <string name="keyguard_network_locked_message">Líonra faoi ghlas</string>
+    <string name="keyguard_accessibility_pin_area">Limistéar PIN</string>
+    <string name="keyguard_accessibility_password">Pasfhocal gléis</string>
+    <string name="keyboardview_keycode_delete">Scrios</string>
     <string name="kg_prompt_title_after_secure_lock_device">Fíorú 2-chéim</string>
     <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_fingerprint">Úsáid Díghlasáil Méarloirg</string>
     <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_face">Úsáid Díghlasáil Aghaidhe</string>
@@ -25,4 +38,5 @@
     <string name="kg_prompt_added_security_pin">PIN ag teastáil le haghaidh slándála breise</string>
     <string name="kg_prompt_added_security_pattern">Patrún ag teastáil le haghaidh slándála breise</string>
     <string name="kg_prompt_added_security_password">Pasfhocal ag teastáil le haghaidh slándála breise</string>
+    <string name="clock_title_default">Réamhshocrú</string>
 </resources>

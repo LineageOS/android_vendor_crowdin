@@ -493,7 +493,8 @@
     <string name="daltonizer_mode_protanomaly">Protanomalie (ros-vert)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomalie (blu-zâl)</string>
     <string name="accessibility_display_daltonizer_preference_title">Corezion dai colôrs</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[        La corezion dai colôrs e pues jessi utile cuant che tu desideris:<br/>
+    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[
+        La corezion dai colôrs e pues jessi utile cuant che tu desideris:<br/>
         <ol>
             <li>&nbsp;Viodi i colôrs in maniere plui precise</li>
             <li>&nbsp;Gjavâ colôrs par judâti te concentrazion</li>
@@ -580,7 +581,8 @@
     <string name="ims_reg_status_not_registered">"No regjistrât"</string>
     <string name="status_unavailable">No disponibil</string>
     <string name="wifi_status_mac_randomized">La direzion MAC e je casuâl</string>
-    <string name="wifi_tether_connected_summary">        {count, plural,
+    <string name="wifi_tether_connected_summary">
+        {count, plural,
             one {}=1    {1 dispositîf conetût}
             other {# dispositîfs conetûts}
         }
@@ -596,7 +598,8 @@
     <string name="alarms_and_reminders_label">Sveis e pro memoria</string>
     <string name="alarms_and_reminders_switch_title">Permet di configurâ sveis e pro memoria</string>
     <string name="alarms_and_reminders_title">Sveis e pro memoria</string>
-    <string name="alarms_and_reminders_footer_title">        Permet a cheste aplicazion di pontâ sveis e programâ azions par oraris specifics.
+    <string name="alarms_and_reminders_footer_title">
+        Permet a cheste aplicazion di pontâ sveis e programâ azions par oraris specifics.
         La aplicazion e podarà zirâ in sotfont ma e consumarà plui batarie.\n\nSe chest permès
         al ven disativât, lis sveis esistentis e i events a oraris specifics programâts di cheste aplicazion no funzionaran.
     </string>

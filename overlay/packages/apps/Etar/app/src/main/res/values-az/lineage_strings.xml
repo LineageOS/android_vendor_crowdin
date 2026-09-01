@@ -4,6 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="user_rejected_calendar_write_permission_lineage">Təqvim, normal işləməsi üçün oxuma və yazma icazəsi tələb edir. Lütfən yenidən sınayın.</string>
+    <string name="user_rejected_calendar_write_permission_lineage">Təqvim, normal işləməsi üçün oxuma və yazma izinlərini tələb edir. Lütfən yenidən sınayın.</string>
     <string name="preferences_menu_about_lineage">Təqvim Haqqında</string>
 </resources>

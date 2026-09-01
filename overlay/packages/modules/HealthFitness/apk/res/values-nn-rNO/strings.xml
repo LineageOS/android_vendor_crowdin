@@ -829,7 +829,8 @@
     <string name="mindfulness_type_music" description="Mindfulness session type: Music. [CHAR LIMIT=20]">Musikk</string>
     <string name="mindfulness_type_other" description="Mindfulness session type: Other. [CHAR LIMIT=20]">Anna symjing</string>
     <string name="mindfulness_type_unguided" description="Mindfulness session type: Unguided. [CHAR LIMIT=20]">Utan rettleiing</string>
-    <string name="mindfulness_a11y_text" description="Mindfulness text for the aggregation A11y value [CHAR LIMIT=NONE]">        Samla tid for hugro (mindfulness): <xliff:g example="12 hours 3 minutes" id="duration">%1$s</xliff:g>
+    <string name="mindfulness_a11y_text" description="Mindfulness text for the aggregation A11y value [CHAR LIMIT=NONE]">
+        Samla tid for hugro (mindfulness): <xliff:g example="12 hours 3 minutes" id="duration">%1$s</xliff:g>
     </string>
     <string name="activity_intensity_type_moderate" description="Activity intensity type: Moderate. [CHAR LIMIT=20]">Moderat</string>
     <string name="activity_intensity_type_vigorous" description="Activity intensity type: Vigorous. [CHAR LIMIT=20]">Høg</string>
@@ -841,7 +842,8 @@
     <string name="minute_duration" translation_description="minute duration representation. When translating, do not add a space if it is not required. If a space is required, use a no break space   [CHAR LIMIT=8]"><xliff:g example="1" id="minute">%1$s</xliff:g> m</string>
     <string name="hour_minute_duration_short" translation_description="Hour and minute time duration representation. When translating, do not add a space if it is not required. If a space is required, use a no break space   [CHAR LIMIT=8]"><xliff:g example="1" id="hour">%1$s</xliff:g>t <xliff:g example="31" id="min">%2$s</xliff:g>m</string>
     <string name="hour_duration" translation_description="hour duration representation. When translating, do not add a space if it is not required. If a space is required, use a no break space   [CHAR LIMIT=8]"><xliff:g example="1" id="hour">%1$s</xliff:g> t</string>
-    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> og <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g></string>
+    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">
+  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> og <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g></string>
     <string name="hour_duration_accessibility" translation_description="Hour time duration representation used by accessibility. [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural, =1 {1 time} other {# timar}}</string>
     <string name="minute_duration_accessibility" translation_description="minute duration representation used by accessibility. [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural, =1 {1 minutt} other {# minutt}}</string>
     <string name="day_duration" translation_description="Days duration representation [CHAR LIMIT=8]"><xliff:g example="2 days" id="days">%1$s</xliff:g></string>

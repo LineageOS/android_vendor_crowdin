@@ -295,7 +295,8 @@
     <string name="limited_sim_function_with_phone_num_notification_message">Gall fod galwadau a gwasanaethau data <xliff:g id="carrier_name">%1$s</xliff:g> yn cael eu rhwystro wrth ddefnyddio <xliff:g id="phone_number">%2$s</xliff:g>.</string>
     <string name="limited_sim_function_notification_message">Gall fod galwadau a gwasanaethau data <xliff:g id="carrier_name">%1$s</xliff:g> yn cael eu rhwystro wrth ddefnyddio SIM arall.</string>
     <string name="sip_accounts_removed_notification_title">Wedi canfod a thynnu hen gyfrifon SIP</string>
-    <string name="sip_accounts_removed_notification_message">        Nid yw Android bellach yn cefnogi galwadau SIP.\nMae dy gyfrifon SIP <xliff:g id="removed_sip_accounts">%s</xliff:g> wedi cael eu tynnu.\nCadarnha dy osodiad galwadau rhagosodedig.
+    <string name="sip_accounts_removed_notification_message">
+        Nid yw Android bellach yn cefnogi galwadau SIP.\nMae dy gyfrifon SIP <xliff:g id="removed_sip_accounts">%s</xliff:g> wedi cael eu tynnu.\nCadarnha dy osodiad galwadau rhagosodedig.
     </string>
     <string name="sip_accounts_removed_notification_action">Mynd i\u2019r gosodiadau</string>
     <string name="data_usage_title">Defnydd data apiau</string>
@@ -597,7 +598,8 @@
     <string name="hac_mode_summary">Troi cytunedd cymorth clyw ymlaen</string>
     <string name="rtt_mode_title">Galwad testun ar y pryd (RTT)</string>
     <string name="rtt_mode_summary">Caniatáu negesu o fewn galwad llais</string>
-    <string name="rtt_mode_more_information">       Mae RTT yn cynorthwyo galwyr sy\u2019n fyddar, â nam ar eu clyw, neu gydag anhawster llefaru.&lt;br&gt;
+    <string name="rtt_mode_more_information">
+       Mae RTT yn cynorthwyo galwyr sy\u2019n fyddar, â nam ar eu clyw, neu gydag anhawster llefaru.&lt;br&gt;
        &lt;a href=\"<xliff:g example="http://www.google.com" id="url">http://support.google.com/mobile?p=telephony_rtt</xliff:g>\"&gt;Dysgu mwy&lt;/a&gt;
        &lt;br&gt;&lt;br&gt; - Mae galwadau RTT yn cael eu cadw fel trawsgrifiadau negeseuon
        &lt;br&gt; - Dyw RTT ddim ar gael ar gyfer galwadau fideo</string>
@@ -670,7 +672,8 @@
     <string name="call_settings_title_font_family">sans-serif-light</string>
     <string name="pstn_connection_service_label">Cardiau SIM sy\u2019n rhan o\u2019r ddyfais</string>
     <string name="enable_video_calling_title">Galluogi galwadau fideo</string>
-    <string name="enable_video_calling_dialog_msg">Er mwyn galluogi galwadau fideo, rhaid galluogi Modd 4G LTE Gwell yn y gosodiadau rhwydwaith.    </string>
+    <string name="enable_video_calling_dialog_msg">
+Er mwyn galluogi galwadau fideo, rhaid galluogi Modd 4G LTE Gwell yn y gosodiadau rhwydwaith.    </string>
     <string name="enable_video_calling_dialog_settings">Gosodiadau rhwydwaith</string>
     <string name="enable_video_calling_dialog_close">Cau</string>
     <string name="sim_label_emergency_calls">Galwadau brys</string>
@@ -684,11 +687,15 @@
     <string name="tty_mode_key">button_tty_mode_key</string>
     <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="message_decode_error">Roedd gwall wrth ddadgodio\u2019r neges.</string>
-    <string name="callFailed_cdma_activation">Mae cerdyn SIM wedi actifadu dy wasanaeth a diweddaru gallu dy ffôn i grwydro tramor.    </string>
-    <string name="callFailed_cdma_call_limit">Mae gormod o alwadau ar eu canol. Diwedda neu cyfuno rhai o\u2019r galwadau cyfredol cyn gwneud galwad newydd.
+    <string name="callFailed_cdma_activation">
+Mae cerdyn SIM wedi actifadu dy wasanaeth a diweddaru gallu dy ffôn i grwydro tramor.    </string>
+    <string name="callFailed_cdma_call_limit">
+Mae gormod o alwadau ar eu canol. Diwedda neu cyfuno rhai o\u2019r galwadau cyfredol cyn gwneud galwad newydd.
     </string>
-    <string name="callFailed_imei_not_accepted">Methu â chysylltu. Rho gerdyn SIM dilys, plîs.    </string>
-    <string name="callFailed_wifi_lost">        Collwyd y cysylltiad Wi-Fi. Galwad ar ben.
+    <string name="callFailed_imei_not_accepted">
+Methu â chysylltu. Rho gerdyn SIM dilys, plîs.    </string>
+    <string name="callFailed_wifi_lost">
+        Collwyd y cysylltiad Wi-Fi. Galwad ar ben.
     </string>
     <string name="dialFailed_low_battery">Ni ellir gwneud yr alwad fideo am nad os digon o bŵer yn y batri.</string>
     <string name="callFailed_low_battery">Daeth yr alwad fideo i ben oherwydd batri isel.</string>
@@ -933,7 +940,8 @@
     <string name="phone_info_label" product="default">Gwybodaeth y ffôn</string>
     <string name="carrier_provisioning">Gwybodaeth Darpariaeth Darparwr</string>
     <string name="trigger_carrier_provisioning">Sbarduno Darpariaeth Darparwr</string>
-    <string name="call_quality_notification_bluetooth_details">        Mae dy signal Bluetooth yn wan. Rho gynnig ar y darseinydd.</string>
+    <string name="call_quality_notification_bluetooth_details">
+        Mae dy signal Bluetooth yn wan. Rho gynnig ar y darseinydd.</string>
     <string name="call_quality_notification_name">Hysbysiad Ansawdd Galwad</string>
     <string name="notification_channel_sip_account">Hen gyfrifon SIP</string>
     <string name="send_from_work_profile_title">Methu anfon negeseuon o ap personol</string>

@@ -102,11 +102,14 @@
   <string name="dialer_terms_and_conditions_title">Troi lleisbost gweledol ymlaen</string>
   <string name="dialer_terms_and_conditions_existing_user_title">Newydd! Darllena dy leisbost</string>
   <string name="dialer_terms_and_conditions_message"><xliff:g>%s</xliff:g></string>
-  <string name="dialer_terms_and_conditions_1.0">  Gweld a gwrando ar dy negeseuon, heb orfod galw lleisbost. Daw trawsgrifiadau o dy leisbost gan wasanaeth trawsgrifio am ddim Google. Gellir diffodd y naill unrhyw bryd yn Gosodiadau. <xliff:g>%s</xliff:g>
+  <string name="dialer_terms_and_conditions_1.0">
+  Gweld a gwrando ar dy negeseuon, heb orfod galw lleisbost. Daw trawsgrifiadau o dy leisbost gan wasanaeth trawsgrifio am ddim Google. Gellir diffodd y naill unrhyw bryd yn Gosodiadau. <xliff:g>%s</xliff:g>
   </string>
-  <string name="dialer_terms_and_conditions_existing_user">  Daw trawsgrifiadau o dy leisbost nawr gan wasanaeth trawsgrifio am ddim Google. Gellir diffodd hyn unrhyw bryd yn Gosodiadau. %s
+  <string name="dialer_terms_and_conditions_existing_user">
+  Daw trawsgrifiadau o dy leisbost nawr gan wasanaeth trawsgrifio am ddim Google. Gellir diffodd hyn unrhyw bryd yn Gosodiadau. %s
   </string>
-  <string name="dialer_terms_and_conditions_for_verizon_1.0">  Gweld a gwrando ar dy negeseuon, heb orfod galw\'r lleisbost.
+  <string name="dialer_terms_and_conditions_for_verizon_1.0">
+  Gweld a gwrando ar dy negeseuon, heb orfod galw\'r lleisbost.
   </string>
   <string name="dialer_terms_and_conditions_learn_more">Dysgu mwy</string>
   <string name="dialer_terms_and_conditions_existing_user_ack">Iawn, deall yn iawn.</string>

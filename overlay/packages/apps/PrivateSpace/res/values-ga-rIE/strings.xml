@@ -23,11 +23,14 @@
     <string name="move_files_dialog_button_label_move">Bog</string>
     <string name="move_files_dialog_button_label_copy">Cóipeáil</string>
     <string name="move_files_dialog_button_label_cancel">Cealaigh</string>
-    <string name="filetransfer_notification_copy_progress_title">{count, plural, one {} two {Ag cóipeáil # chomhad} few {Ag cóipeáil # chomhad} many {Ag cóipeáil # gcomhad}=1 {Ag cóipeáil # comhad} other {Ag cóipeáil # comhad}}</string>
-    <string name="filetransfer_notification_move_progress_title">{count, plural, one {} two {Ag bogadh # chomhad} few {Ag bogadh # chomhad} many {Ag bogadh # gcomhad}=1 {Ag bogadh # comhad} other {Ag bogadh # comhad}}</string>
+    <string name="filetransfer_notification_copy_progress_title">{count, plural, one {} two {Ag cóipeáil # chomhad} few {Ag cóipeáil # chomhad} many {Ag cóipeáil # gcomhad}=1 {Ag cóipeáil # comhad} other {Ag cóipeáil # comhad}}
+</string>
+    <string name="filetransfer_notification_move_progress_title">{count, plural, one {} two {Ag bogadh # chomhad} few {Ag bogadh # chomhad} many {Ag bogadh # gcomhad}=1 {Ag bogadh # comhad} other {Ag bogadh # comhad}}
+</string>
     <string name="filetransfer_notification_copy_complete_title">        {count, plural, one {} two {Cóipeáladh # chomhad} few {Cóipeáladh # chomhad} many {Cóipeáladh # gcomhad}=1 {Cóipeáladh # comhad} other {Cóipeáladh # comhad}}
     </string>
-    <string name="filetransfer_notification_move_complete_title">        {count, plural, one {} two {Bogadh # chomhad} few {Bogadh # chomhad} many {Bogadh # gcomhad}=1 {Bogadh # comhad} other {Bogadh # comhad}}
+    <string name="filetransfer_notification_move_complete_title">
+        {count, plural, one {} two {Bogadh # chomhad} few {Bogadh # chomhad} many {Bogadh # gcomhad}=1 {Bogadh # comhad} other {Bogadh # comhad}}
     </string>
     <string name="filetransfer_notification_copy_progress_text">{count, plural,
         =1 {Tá an comhad roghnaithe á chóipeáil chuig do spás príobháideach}
@@ -53,7 +56,8 @@
         other {Cóipeáladh na comhaid roghnaithe chuig do spás príobháideach}
         }
     </string>
-    <string name="filetransfer_notification_move_complete_text">        {count, plural,
+    <string name="filetransfer_notification_move_complete_text">
+        {count, plural,
         =1 {Bogadh an comhad a roghnaigh tú chuig do spás príobháideach}
         two {Bogadh an comhaid a roghnaigh tú chuig do spás príobháideach}
         few {Bogadh an comhaid a roghnaigh tú chuig do spás príobháideach}
@@ -61,7 +65,8 @@
         other {Bogadh an comhaid a roghnaigh tú chuig do spás príobháideach}
         }
     </string>
-    <string name="filetransfer_notification_action_label">        {count, plural,
+    <string name="filetransfer_notification_action_label">
+        {count, plural,
        =1 {Taispeáin an comhad}
         two {Taispeáin an comhaid}
         few {Taispeáin an comhaid}

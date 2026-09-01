@@ -42,8 +42,10 @@
     <string name="clear_sync_data_ok">Dileu</string>
     <string name="cloud_sync_cancel">Diddymu</string>
     <string name="cloud_sync_opt_in_text">Caiff dy eiriadur personol ei gydweddu a bydd copi wrth gefn yn cael ei gadw ar weinyddwyr Google. Gall gwybodaeth ystadegol defnydd geiriau gael ei gasglu i helpu gwella cynnyrch. Bydd y casglu a\u2019r defnydd o\u2019r wybodaeth yn cydymffurfio â <a href="https://www.google.com/policies/privacy">Polisi Preifatrwydd Google</a>.</string>
-    <string name="add_account_to_enable_sync">Ychwanega gyfrif Google i\u2019r ddyfais hon er mwyn galluogi\u2019r nodwedd hon.    </string>
-    <string name="cloud_sync_summary_disabled_work_profile">Dyw cydweddu ddim yn bosib ar ddyfeisiau gyda chyfrifon Google Apps ar gyfer Busnes.    </string>
+    <string name="add_account_to_enable_sync">
+Ychwanega gyfrif Google i\u2019r ddyfais hon er mwyn galluogi\u2019r nodwedd hon.    </string>
+    <string name="cloud_sync_summary_disabled_work_profile">
+Dyw cydweddu ddim yn bosib ar ddyfeisiau gyda chyfrifon Google Apps ar gyfer Busnes.    </string>
     <string name="include_other_imes_in_language_switch_list">Newid i ddulliau mewnbwn eraill</string>
     <string name="include_other_imes_in_language_switch_list_summary">Mae\u2019r fysell newid iaith yn rheoli dulliau mewnbwn eraill hefyd</string>
     <string name="show_language_switch_key">Bysell newid iaith</string>

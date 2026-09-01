@@ -39,13 +39,63 @@
         <item>8 hours</item>
         <item>Never</item>
     </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Réamhshocrú</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Very small</item>
+        <item>Beag</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Dada</item>
+        <item>Outline</item>
+        <item>Drop shadow</item>
+        <item>Raised</item>
+        <item>Depressed</item>
+    </string-array>
+    <string-array name="font_scale_entries">
+        <item>Beag</item>
+        <item>Réamhshocrú</item>
+        <item>Large</item>
+        <item>Largest</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Dada</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Dada</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="a11y_timeout_entries">
+        <item>Réamhshocrú</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+    </string-array>
     <string-array name="a11y_delay_before_repeat_entries">
-        <item>Default</item>
+        <item>Réamhshocrú</item>
         <item>3 soicind</item>
         <item>5 soicind</item>
     </string-array>
     <string-array name="a11y_repeat_rate_entries">
-        <item>Default</item>
+        <item>Réamhshocrú</item>
         <item>Mall</item>
         <item>Tapa</item>
     </string-array>

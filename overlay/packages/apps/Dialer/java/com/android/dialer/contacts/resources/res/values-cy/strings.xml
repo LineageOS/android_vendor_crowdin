@@ -142,17 +142,23 @@
     <string name="old_call_subject_type_and_number"><xliff:g example="Mobile" id="type">%1$s</xliff:g> <xliff:g example="(650) 555-1212" id="number">%2$s</xliff:g></string>
     <string name="tab_title">tab <xliff:g id="title">%1$s</xliff:g>.</string>
     <plurals name="tab_title_with_unread_items">
-        <item quantity="zero">            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitemau heb eu darllen
+        <item quantity="zero">
+            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitemau heb eu darllen
         </item>
-        <item quantity="one">            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb ei darllen.
+        <item quantity="one">
+            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb ei darllen.
         </item>
-        <item quantity="two">            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
+        <item quantity="two">
+            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
         </item>
-        <item quantity="few">            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
+        <item quantity="few">
+            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
         </item>
-        <item quantity="many">            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
+        <item quantity="many">
+            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
         </item>
-        <item quantity="other">            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
+        <item quantity="other">
+            Tab <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
         </item>
     </plurals>
     <string name="description_search_video_call">Galwad fideo</string>

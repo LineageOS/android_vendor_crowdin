@@ -220,8 +220,10 @@
         scancelât.\n\nSe tu âs domandis, contate l\'aministradôr de to organizazion.</string>
     <string name="printing_disabled_by">Stampe disabilitade di <xliff:g id="owner_app">%s</xliff:g>.</string>
     <string name="personal_apps_suspension_title">Ative il to profîl di lavôr</string>
-    <string name="personal_apps_suspension_text">        Lis tôs aplicazions personâls a son blocadis fintremai che no tu ativis il to profîl di lavôr</string>
-    <string name="personal_apps_suspension_soon_text">        Lis aplicazions personâls a vignaran blocadis dal dì <xliff:g id="date" example="May 29">%1$s</xliff:g> aes oris
+    <string name="personal_apps_suspension_text">
+        Lis tôs aplicazions personâls a son blocadis fintremai che no tu ativis il to profîl di lavôr</string>
+    <string name="personal_apps_suspension_soon_text">
+        Lis aplicazions personâls a vignaran blocadis dal dì <xliff:g id="date" example="May 29">%1$s</xliff:g> aes oris
         <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. Il to aministradôr di IT nol permet al to
         profîl di lavôr di restâ disativât par plui di <xliff:g id="number" example="3">%3$d</xliff:g> dîs.
     </string>
@@ -1190,51 +1192,63 @@
     <string name="lockscreen_sim_puk_locked_instructions">Viôt la vuide utent o contate il servizi clients.</string>
     <string name="lockscreen_sim_locked_message">La SIM e je blocade.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Daûr a sblocâ la SIM\u2026</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">        Tu âs sbaliât di scrivi la tô password <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">
+        Tu âs sbaliât di scrivi la tô password <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">        Tu âs sbaliât di inserî il to PIN <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">
+        Tu âs sbaliât di inserî il to PIN <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e
        ti vignarà domandât di sblocâ il to tablet doprant lis tôs credenziâls par Google.\n\n
        Torne prove chi di <xliff:g id="number">%3$d</xliff:g> seconts.
     </string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="tv">        Tu âs dissegnât mâl <xliff:g id="number">%1$d</xliff:g> voltis la tô cumbinazion di sbloc.
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tv">
+        Tu âs dissegnât mâl <xliff:g id="number">%1$d</xliff:g> voltis la tô cumbinazion di sbloc.
        Dopo altris <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts,
        ti vignarà domandât di sblocâ il t dispositîf Android TV doprant lis credenziâls di Google.\n\n
        Torne prove ca di <xliff:g id="number">%3$d</xliff:g> seconts.
     </string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="default">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e
        ti vignarà domandât di sblocâ il to telefon doprant lis tôs credenziâls par Google.\n\n
        Torne prove chi di <xliff:g id="number">%3$d</xliff:g> seconts.
     </string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e il tablet
        al vignarà ripristinât ai valôrs predefinîts di fabriche e ducj i dâts dal utent a
        laran pierdûts.
     </string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tv">       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tv">
+       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%1$d</xliff:g> voltis.
        Dopo altris <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts, il to dispositîf
        Android TV al vignarà ripristinât ai valôrs predefinidis di fabriche e ducj i dâts dal utent a laran pierdûts.
     </string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e il telefon
        al vignarà ripristinât ai valôrs predefinîts di fabriche e ducj i dâts dal utent a
        laran pierdûts.
     </string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Il tablet cumò al vignarà ripristinât ai valôrs predefinîts di fabriche.
     </string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="tv">       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%d</xliff:g> voltis.
+    <string name="lockscreen_failed_attempts_now_wiping" product="tv">
+       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%d</xliff:g> voltis.
        Il to dispositîf Android TV al vignarà ripristinât ai valôrs predefinîts di fabriche.
     </string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="lockscreen_failed_attempts_now_wiping" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Il telefon cumò al vignarà ripristinât ai valôrs predefinîts di fabriche.
     </string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Torne prove chi di <xliff:g id="number">%d</xliff:g> seconts.</string>
@@ -1254,7 +1268,8 @@
     <string name="lockscreen_access_pattern_start">Cumbinazion scomençade</string>
     <string name="lockscreen_access_pattern_cleared">Cumbinazion netade</string>
     <string name="lockscreen_access_pattern_cell_added">Cele zontade</string>
-    <string name="lockscreen_access_pattern_cell_added_verbose">            Cele <xliff:g id="cell_index" example="3">%1$s</xliff:g> zontade</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">
+            Cele <xliff:g id="cell_index" example="3">%1$s</xliff:g> zontade</string>
     <string name="lockscreen_access_pattern_detected">Cumbinazion completade</string>
     <string name="lockscreen_access_pattern_area" msgid="">Aree de cumbinazion.</string>
     <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d di %3$d.</string>
@@ -1327,10 +1342,12 @@
     <string name="searchview_description_submit">Invie la richieste</string>
     <string name="searchview_description_voice">Ricercje vocâl</string>
     <string name="enable_explore_by_touch_warning_title">Ativâ la esplorazion tatile?</string>
-    <string name="enable_explore_by_touch_warning_message" product="tablet">        <xliff:g id="accessibility_service_name">%1$s</xliff:g> al vûl to ativâ la esplorazion tatile.
+    <string name="enable_explore_by_touch_warning_message" product="tablet">
+        <xliff:g id="accessibility_service_name">%1$s</xliff:g> al vûl to ativâ la esplorazion tatile.
         Se e ven ativade la esplorazion tatile, tu puedis scoltâ o viodi descrizions di ce che
         al sta sot dal to dêt o dai mots fats par interagjî cul tablet.</string>
-    <string name="enable_explore_by_touch_warning_message" product="default">        <xliff:g id="accessibility_service_name">%1$s</xliff:g> al vûl to ativâ la esplorazion tatile.
+    <string name="enable_explore_by_touch_warning_message" product="default">
+        <xliff:g id="accessibility_service_name">%1$s</xliff:g> al vûl to ativâ la esplorazion tatile.
        Se e ven ativade la esplorazion tatile, tu puedis scoltâ o viodi descrizions di ce che
        al sta sot dal to dêt o dai mots fats par interagjî cul telefon.</string>
     <string name="oneMonthDurationPast">1 mês indaûr</string>
@@ -1357,25 +1374,35 @@
     <string name="year">an</string>
     <string name="years">agns</string>
     <string name="now_string_shortest">cumò</string>
-    <string name="duration_minutes_shortest">        <xliff:g id="count">%d</xliff:g> m
+    <string name="duration_minutes_shortest">
+        <xliff:g id="count">%d</xliff:g> m
     </string>
-    <string name="duration_hours_shortest">        <xliff:g id="count">%d</xliff:g> h
+    <string name="duration_hours_shortest">
+        <xliff:g id="count">%d</xliff:g> h
     </string>
-    <string name="duration_days_shortest">       <xliff:g id="count">%d</xliff:g> d
+    <string name="duration_days_shortest">
+       <xliff:g id="count">%d</xliff:g> d
     </string>
-    <string name="duration_years_shortest">        <xliff:g id="count">%d</xliff:g> a
+    <string name="duration_years_shortest">
+        <xliff:g id="count">%d</xliff:g> a
     </string>
-    <string name="duration_minutes_shortest_future">        in <xliff:g id="count">%d</xliff:g> m
+    <string name="duration_minutes_shortest_future">
+        in <xliff:g id="count">%d</xliff:g> m
     </string>
-    <string name="duration_hours_shortest_future">        ca di <xliff:g id="count">%d</xliff:g> h
+    <string name="duration_hours_shortest_future">
+        ca di <xliff:g id="count">%d</xliff:g> h
     </string>
-    <string name="duration_days_shortest_future">        ca di <xliff:g example="1" id="count">%d</xliff:g> d
+    <string name="duration_days_shortest_future">
+        ca di <xliff:g example="1" id="count">%d</xliff:g> d
     </string>
-    <string name="duration_years_shortest_future">        ca di <xliff:g id="count">%d</xliff:g> a
+    <string name="duration_years_shortest_future">
+        ca di <xliff:g id="count">%d</xliff:g> a
     </string>
-    <string name="duration_minutes_medium">        <xliff:g id="count">%d</xliff:g>min
+    <string name="duration_minutes_medium">
+        <xliff:g id="count">%d</xliff:g>min
     </string>
-    <string name="duration_hours_medium">        <xliff:g id="count">%d</xliff:g>or
+    <string name="duration_hours_medium">
+        <xliff:g id="count">%d</xliff:g>or
     </string>
     <string name="duration_minutes_relative">{count, plural,
         one {}=1 {# minût indaûr}
@@ -1573,7 +1600,8 @@
         cence salvâ</string>
     <string name="dump_heap_notification"><xliff:g id="proc">%1$s</xliff:g> al à superât il limit de
         memorie</string>
-    <string name="dump_heap_ready_notification">        <xliff:g id="proc" example="com.android.example">%1$s</xliff:g> scaric dal heap pront</string>
+    <string name="dump_heap_ready_notification">
+        <xliff:g id="proc" example="com.android.example">%1$s</xliff:g> scaric dal heap pront</string>
     <string name="dump_heap_notification_detail">Scaric dal heap tirât dongje. Tocje par condividi.</string>
     <string name="dump_heap_title">Condividi il scaric dal heap?</string>
     <string name="dump_heap_text">Il procès
@@ -1989,63 +2017,79 @@
     <string name="kg_login_invalid_input">Il non utent o la password no son valits.</string>
     <string name="kg_login_account_recovery_hint">Âstu dismenteât il to non utent o la password?\nVisite <b>google.com/accounts/recovery</b>.</string>
     <string name="kg_login_checking_password">Daûr a controlâ l\'account\u2026</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">        Tu âs sbaliât di inserî il to PIN <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">
+        Tu âs sbaliât di inserî il to PIN <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">        Tu âs sbaliât di scrivi la tô password <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_too_many_failed_password_attempts_dialog_message">
+        Tu âs sbaliât di scrivi la tô password <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e il tablet
        al vignarà ripristinât ai valôrs predefinîts di fabriche e ducj i dâts dal utent a
        laran pierdûts.
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tv">       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_failed_attempts_almost_at_wipe" product="tv">
+       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%1$d</xliff:g> voltis.
        Dopo altris <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts, il to dispositîf
        Android TV al vignarà ripristinât ai valôrs predefinidis di fabriche e ducj i dâts dal utent a laran pierdûts.
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e il telefon
        al vignarà ripristinât ai valôrs predefinîts di fabriche e ducj i dâts dal utent a
        laran pierdûts.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_wiping" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Il tablet cumò al vignarà ripristinât ai valôrs predefinîts di fabriche.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="tv">       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%d</xliff:g> voltis.
+    <string name="kg_failed_attempts_now_wiping" product="tv">
+       Tu âs cirût e sbaliât di sblocâ il to dispositîf Android TV <xliff:g id="number">%d</xliff:g> voltis.
        Il to dispositîf Android TV al vignarà ripristinât ai valôrs predefinîts di fabriche.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_wiping" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Il telefon cumò al vignarà ripristinât ai valôrs predefinîts di fabriche.
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="tablet">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e
        ti vignarà domandât di sblocâ il to tablet doprant un account di e-mail.\n\n
        Torne prove chi di <xliff:g id="number">%3$d</xliff:g> seconts.
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="tv">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_failed_attempts_almost_at_login" product="tv">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e
        ti vignarà domandât di sblocâ il to dispositîf Android TV doprant un account di e-mail.\n\n
        Torne prove chi di <xliff:g id="number">%3$d</xliff:g> seconts.
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="default">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_failed_attempts_almost_at_login" product="default">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e
        ti vignarà domandât di sblocâ il to telefon doprant un account di e-mail.\n\n
        Torne prove chi di <xliff:g id="number">%3$d</xliff:g> seconts.
     </string>
     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
     <string name="kg_reordering_delete_drop_target_text">Gjave</string>
-    <string name="safe_media_volume_warning" product="default">       \"Alçâ il volum parsore dai nivei racomandâts?\n\nScoltâ a volums alts par periodis luncs al podarès fâ dam ae uldide.\"
+    <string name="safe_media_volume_warning" product="default">
+       \"Alçâ il volum parsore dai nivei racomandâts?\n\nScoltâ a volums alts par periodis luncs al podarès fâ dam ae uldide.\"
     </string>
-    <string name="csd_dose_reached_warning" product="default">        \"Continuâ a scoltâ a volum alt?\n\nIl volum des scufis al è stât alt par plui timp di ce che al è conseât, chest al pues fâ mâl ae uldide\"
+    <string name="csd_dose_reached_warning" product="default">
+        \"Continuâ a scoltâ a volum alt?\n\nIl volum des scufis al è stât alt par plui timp di ce che al è conseât, chest al pues fâ mâl ae uldide\"
     </string>
-    <string name="csd_momentary_exposure_warning" product="default">        \"Sun fuart rilevât\n\nIl volum des scufis al è stât plui alt di ce che al è conseât, chest al pues fâ mâl ae tô uldide\"
+    <string name="csd_momentary_exposure_warning" product="default">
+        \"Sun fuart rilevât\n\nIl volum des scufis al è stât plui alt di ce che al è conseât, chest al pues fâ mâl ae tô uldide\"
     </string>
     <string name="accessibility_shortcut_warning_dialog_title">Doprâ la scurte al acès facilitât?</string>
-    <string name="accessibility_shortcut_toogle_warning">        Cuant che la scurte e je ative, la pression di ducj i doi i botons dal volum par 3 seconts e inviarà une
+    <string name="accessibility_shortcut_toogle_warning">
+        Cuant che la scurte e je ative, la pression di ducj i doi i botons dal volum par 3 seconts e inviarà une
         funzion di acès facilitât.
     </string>
     <string name="accessibility_shortcut_multiple_service_warning_title">Ativâ la scurte pes funzions di acès facilitât?</string>
@@ -2082,7 +2126,8 @@
     <string name="accessibility_edit_shortcut_menu_volume_title">Sielç lis funzions di doprâ cu lis
         scurtis dai tascj volum
     </string>
-    <string name="accessibility_uncheck_legacy_item_warning">        <xliff:g id="service_name" example="TalkBack">%s</xliff:g> al è stât disativât</string>
+    <string name="accessibility_uncheck_legacy_item_warning">
+        <xliff:g id="service_name" example="TalkBack">%s</xliff:g> al è stât disativât</string>
     <string name="edit_accessibility_shortcut_menu_button">Modifiche scurtis</string>
     <string name="done_accessibility_shortcut_menu_button">Fat</string>
     <string name="disable_accessibility_shortcut">Disative la scurte</string>
@@ -2377,7 +2422,8 @@
     <string name="region_picker_section_all">Dutis lis regjons</string>
     <string name="locale_search_menu">Cîr</string>
     <string name="app_suspended_title">La aplicazion no je disponibile</string>
-    <string name="app_suspended_default_message">        In chest moment la aplicazion <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> no je disponibile. Cheste e je gjestide di <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
+    <string name="app_suspended_default_message">
+        In chest moment la aplicazion <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> no je disponibile. Cheste e je gjestide di <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
     </string>
     <string name="app_suspended_more_details">Plui informazions</string>
     <string name="app_suspended_unsuspend_message">Torne ative la aplicazion</string>
@@ -2389,7 +2435,8 @@
     <string name="private_space_set_up_screen_lock_message">Par doprâil to spazi privât, stabilìs un bloc dal schermi par chest dispositîf</string>
     <string name="private_space_set_up_screen_lock_for_reset">Par eliminâ il spazi privât, stabilìs un bloc schermi par chest dispositîf</string>
     <string name="app_blocked_title">La aplicazion no je disponibile</string>
-    <string name="app_blocked_message">        In chest moment <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> nol è disponibil.
+    <string name="app_blocked_message">
+        In chest moment <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> nol è disponibil.
     </string>
     <string name="app_streaming_blocked_title"><xliff:g id="activity" example="Permission dialog">%1$s</xliff:g> no disponibil</string>
     <string name="app_streaming_blocked_title_for_permission_dialog">Richieste di permès soprimude</string>
@@ -2589,7 +2636,8 @@
     <string name="accessibility_system_action_dpad_right_label">D-pad - Diestre</string>
     <string name="accessibility_system_action_dpad_center_label">D-pad - Centri</string>
     <string name="accessibility_autoclick_pause">Pause</string>
-    <string name="as_app_forced_to_restricted_bucket">        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> al è stât metût tal seglot LIMITÂTS (RESTRICTED)</string>
+    <string name="as_app_forced_to_restricted_bucket">
+        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> al è stât metût tal seglot LIMITÂTS (RESTRICTED)</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">al/e à mandât une imagjin</string>
     <string name="conversation_title_fallback_one_to_one">Conversazion</string>
@@ -2747,9 +2795,11 @@
     <string name="notification_channel_abusive_bg_apps">Ativitât in sotfont</string>
     <string name="notification_title_abusive_bg_apps">Une aplicazion e sta consumant la batarie</string>
     <string name="notification_title_long_running_fgs">Une aplicazion e je ancjemò ative</string>
-    <string name="notification_content_abusive_bg_apps">        <xliff:g id="app" example="Gmail">%1$s</xliff:g> e sta zirant in sotfont. Tocje par gjestî la utilizazion de batarie.
+    <string name="notification_content_abusive_bg_apps">
+        <xliff:g id="app" example="Gmail">%1$s</xliff:g> e sta zirant in sotfont. Tocje par gjestî la utilizazion de batarie.
     </string>
-    <string name="notification_content_long_running_fgs">        <xliff:g id="app" example="Gmail">%1$s</xliff:g> al podarès lâ a tocjâ la durade de batarie. Tocje par controlâ lis aplicazions ativis.
+    <string name="notification_content_long_running_fgs">
+        <xliff:g id="app" example="Gmail">%1$s</xliff:g> al podarès lâ a tocjâ la durade de batarie. Tocje par controlâ lis aplicazions ativis.
     </string>
     <string name="notification_action_check_bg_apps">Controle lis aplicazions ativis</string>
     <string name="vdm_camera_access_denied" product="default">Dal to <xliff:g id="device" example="Chromebook">%1$s</xliff:g> nol è pussibil acedi ae fotocjamare dal telefon</string>

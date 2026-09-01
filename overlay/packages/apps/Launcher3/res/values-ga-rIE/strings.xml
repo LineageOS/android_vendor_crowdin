@@ -65,7 +65,8 @@
     many {# giuirléidí}
     =1   {# giuirléid}
     other {# giuirléidí}
-}</string>
+}
+</string>
     <string name="shortcuts_count">{count, plural,
     one {# aicearra}
     two {# aicearra}
@@ -73,7 +74,8 @@
     many {# aicearraí}
     =1   {# aicearra}
     other {# aicearraí}
-}</string>
+}
+</string>
     <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
     <string name="widget_button_text">Giuirléidí</string>
     <string name="widgets_full_sheet_search_bar_hint">Cuardaigh</string>
@@ -144,7 +146,8 @@
     many {{app_name} tá # fógraí aige}
     =1   {{app_name} tá # fógra aige}
     other {{app_name} tá # fógraí aige}
-}</string>
+}
+</string>
     <string name="hotseat_prediction_content_description">Aip réamh-mheasta: <xliff:g id="title" example="Chrome">%1$s</xliff:g></string>
     <string name="default_scroll_format">Leathanach %1$d de %2$d</string>
     <string name="workspace_scroll_format">Scáileán baile %1$d de %2$d</string>

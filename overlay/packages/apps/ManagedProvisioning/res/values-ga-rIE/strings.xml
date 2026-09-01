@@ -17,7 +17,132 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:keep="@color/sud_system_*">
+  <string name="app_label">Socrú Oibre</string>
+  <string name="provisioning_error_title">Úps!</string>
+  <string name="setup_work_profile">Socraigh próifíl oibre</string>
+  <string name="company_controls_workspace">Rialaíonn d\'eagraíocht an phróifíl seo agus coinníonn sí slán í. Rialaíonn tú gach rud eile ar do ghléas.</string>
+  <string name="company_controls_device">Rialóidh d\'eagraíocht an gléas seo agus coinneoidh sí slán í.</string>
+  <string name="the_following_is_your_mdm">Beidh ar an aip seo a leanas rochtain a fháil ar an bpróifíl seo:</string>
+  <string name="the_following_is_your_mdm_for_device">Déanfaidh an aip seo a leanas do ghléas a bhainistiú:</string>
+  <string name="next">Ar Aghaidh</string>
+  <string name="setting_up_workspace">Ag bunú próifíl oibre\u2026</string>
+  <string name="theft_protection_disabled_warning">Chun gnéithe cosanta goid a úsáid, ní mór glas scáileáin atá cosanta ag pasfhocal a bheith agat ar do ghléas.</string>
+  <string name="contact_your_admin_for_more_info">Téigh i dteagmháil le do riarthóir TF le haghaidh tuilleadh eolais, lena n-áirítear beartais phríobháideachais d’eagraíochta.</string>
+  <string name="learn_more_link">Foghlaim níos mó</string>
+  <string name="cancel_setup">Cealaigh</string>
+  <string name="ok_setup">Ceart go leor</string>
+  <string name="user_consent_msg">Toilím</string>
+  <string name="url_error">Ní féidir an nasc seo a thaispeáint.</string>
+  <string name="navigation_button_description">Nascleanúint suas</string>
+  <string name="terms">Téarmaí</string>
+  <string name="work_profile_info">Eolas próifíle oibre</string>
+  <string name="managed_device_info">Eolas faoi ghléasanna bainistithe</string>
+  <string name="default_managed_profile_name">Próifíl oibre</string>
+  <string name="delete_profile_title">Scrios an phróifíl atá ann cheana?</string>
+  <string name="opening_paragraph_delete_profile">Tá próifíl oibre agat cheana féin. Déantar í a bhainistiú ag baint úsáide as an aip seo a leanas:</string>
+  <string name="read_more_delete_profile">Sula leanann tú ar aghaidh, <a href="#read_this_link">léigh seo</a>.</string>
+  <string name="sure_you_want_to_delete_profile">Má leanann tú ar aghaidh, scriosfar na haipeanna agus na sonraí go léir sa phróifíl seo.</string>
+  <string name="delete_profile">Scrios</string>
+  <string name="cancel_delete_profile">Cealaigh</string>
+  <string name="encrypt_this_device_question">An bhfuil tú ag iarraidh an gléas seo a chriptiú?</string>
+  <string name="encrypt">Criptigh</string>
+  <string name="continue_provisioning_notify_title">Criptiú críochnaithe</string>
+  <string name="continue_provisioning_notify_text">Tapáil chun leanúint ar aghaidh ag socrú do phróifíl oibre</string>
+  <string name="managed_provisioning_error_text">Níorbh fhéidir do phróifíl oibre a shocrú. Téigh i dteagmháil le do roinn TF nó déan iarracht arís ar ball.</string>
+  <string name="cant_add_work_profile">Ní féidir próifíl oibre a chur leis</string>
+  <string name="cant_replace_or_remove_work_profile">Ní féidir próifíl oibre a athsholáthar ná a bhaint</string>
+  <string name="change_device_launcher">Athraigh lainseálaí gléis</string>
+  <string name="launcher_app_cant_be_used_by_work_profile">Ní féidir le do phróifíl oibre an aip lainseálaí seo a úsáid</string>
+  <string name="cancel_provisioning">Cealaigh</string>
+  <string name="pick_launcher">Ceart go leor</string>
+  <string name="user_setup_incomplete">Socrú Úsáideora Neamhchríochnaithe</string>
+  <string name="default_owned_device_username">Úsáideoir gléas oibre</string>
+  <string name="setup_work_device">Gléas oibre á chur ar bun\u2026</string>
+  <string name="device_owner_cancel_message">An bhfuil tú ag iarraidh deireadh a chur leis an socrú agus sonraí do ghléis a scriosadh?</string>
+  <string name="device_owner_cancel_cancel">Cealaigh</string>
+  <string name="device_owner_error_ok">Ceart go leor</string>
+  <string name="reset">Athshocraigh</string>
+  <string name="something_went_wrong">Chuaigh rud éigin mícheart</string>
+  <string name="profile_owner_cancel_cancel">Níl</string>
+  <string name="profile_owner_cancel_ok">Tá</string>
+  <string name="continue_button">Lean ar aghaidh</string>
+  <string name="work_profile_setup_stop">Stop</string>
+  <string name="dismiss">Díbhe</string>
+  <string name="profile_owner_info_with_terms_headers_comp">Cruthófar próifíl do d’aipeanna oibre. Déanfaidh d’eagraíocht an phróifíl seo agus an chuid eile de do ghléas a bhainistiú agus a mhonatóiriú. Beidh téarmaí ó <xliff:g id="terms_headers" example="EMM Partner A, Company B and Google">%1$s</xliff:g> i bhfeidhm.</string>
+  <string name="device_owner_info">Déanfaidh <xliff:g id="your organization" example="your organization">%1$s</xliff:g> an gléas seo a bhainistiú, a mhonatóiriú agus a choinneáil slán. Beidh téarmaí i bhfeidhm. <xliff:g id="view_terms" example="Féach ar Théarmaí">%2$s</xliff:g></string>
+  <string name="device_owner_info_with_terms_headers">Déanfaidh <xliff:g id="your organization" example="your organization">%1$s</xliff:g> an gléas seo a bhainistiú, a mhonatóiriú agus a choinneáil slán. Beidh téarmaí ó <xliff:g id="terms_headers" example="Comhpháirtí EMM A, Cuideachta B agus Google">%2$s</xliff:g> i bhfeidhm. <xliff:g id="view_terms" example="Féach ar Théarmaí">%3$s</xliff:g></string>
+  <string name="link_isnt_secure_and_cant_be_opened_until_device_setup_finished">Níl an nasc seo slán agus ní féidir é a oscailt go dtí go mbeidh socrú an ghléis críochnaithe: <xliff:g id="link_raw_test" example="http://insecure-http-link.com/?p1=v1&amp;p2=v2">%1$s</xliff:g></string>
+  <string name="contact_device_provider">Chun tuilleadh eolais a fháil, déan teagmháil le do <xliff:g id="it_admin" example="it_admin">%1$s</xliff:g>.</string>
+  <string name="if_questions_contact_admin">Má tá ceisteanna agat, déan teagmháil le do riarthóir TF</string>
+  <string name="setup_isnt_finished_contact_admin">Níl an socrú críochnaithe. Le haghaidh cabhrach, déan teagmháil le do riarthóir TF.</string>
+  <string name="for_help_contact_admin">Le haghaidh cabhrach, déan teagmháil le do riarthóir TF</string>
+  <string name="organization_admin">Riarthóir TF</string>
+  <string name="your_org_app_used">Déanfaidh <xliff:g id="D\'eagraíocht" example="D\'eagraíocht">%1$s</xliff:g> an gléas seo a bhainistiú agus a mhonatóiriú ag baint úsáide as an aip seo a leanas:</string>
+  <string name="your_organization_beginning">D\'eagraíocht</string>
+  <string name="your_organization_middle">d\'eagraíocht</string>
+  <string name="view_terms">Féach téarmaí</string>
+  <string name="accept_and_continue">Glac leis &amp; lean ar aghaidh</string>
+  <string name="back">Ar ais</string>
+  <string name="set_up_your_device">Socraigh do ghléas</string>
+  <string name="info_anim_title_0">Athraigh an chaoi a n-oibríonn tú</string>
+  <string name="info_anim_title_1">Obair a scaradh ó obair phearsanta</string>
+  <string name="one_place_for_work_apps">Áit amháin d\'aipeanna oibre</string>
+  <string name="info_anim_title_2">Múch an obair nuair a bheidh tú críochnaithe</string>
+  <string name="provisioning">Soláthar</string>
+  <string name="copying_certs">Teastais ÚD a bhunú</string>
+  <string name="setup_profile">Socraigh do phróifíl</string>
+  <string name="profile_benefits_description">Trí phróifíl oibre a úsáid, is féidir leat sonraí oibre a dheighilt ó shonraí pearsanta</string>
+  <string name="comp_profile_benefits_description">Trí phróifíl oibre a úsáid, is féidir leat d’aipeanna oibre a choinneáil in aon áit amháin</string>
+  <string name="setup_profile_encryption">Socraigh do phróifíl. Criptiú</string>
+  <string name="setup_profile_progress">Socraigh do phróifíl. Ag taispeáint dul chun cinn.</string>
+  <string name="learn_more_label">Cnaipe Foghlaim níos mó</string>
+  <string name="mdm_icon_label">Deilbhín <xliff:g id="icon_label" example="Aip Tástála">%1$s</xliff:g></string>
+  <string name="section_heading">Ceannteideal na rannóige <xliff:g id="section_heading" example="Luath-Athbheochan">%1$s</xliff:g>.</string>
+  <string name="section_content"><xliff:g id="section_heading" example="Luath-Athbheochan">%1$s</xliff:g> ábhar na rannóige: <xliff:g id="section_content" example="Fadó fadó [...]">%2$s</xliff:g></string>
+  <string name="expand">Leathnaigh</string>
+  <string name="collapse">Laghdaigh</string>
   <string name="expanded">Leathnaithe</string>
   <string name="collapsed">Tite</string>
+  <string name="access_list_of_links">Rochtain ar liosta naisc</string>
+  <string name="access_links">Naisc rochtana</string>
+  <string name="access_terms">Téarmaí rochtana</string>
+  <string name="read_terms">Léigh téarmaí</string>
+  <string name="close_list">Dún an liosta</string>
+  <string name="cancel_setup_and_factory_reset_dialog_title">Deireadh a chur leis an socrú agus athshocrú monarchan?</string>
+  <string name="cancel_setup_and_factory_reset_dialog_msg">Má chríochnaíonn tú an socrú seo, déanfar athshocrú monarchan ar do ghléas agus tabharfar ar ais chuig an gcéad scáileán thú.</string>
+  <string name="cancel_setup_and_factory_reset_dialog_cancel">Cealaigh</string>
+  <string name="cancel_setup_and_factory_reset_dialog_ok">Athshocraigh an gléas</string>
+  <string name="join_two_items"><xliff:g id="first_item">%1$s</xliff:g> agus <xliff:g id="second_item">%2$s</xliff:g></string>
+  <string name="join_many_items_last"><xliff:g id="all_but_last_item">%1$s</xliff:g>, agus <xliff:g id="last_item">%2$s</xliff:g></string>
+  <string name="join_many_items_first"><xliff:g id="first_item">%1$s</xliff:g>, <xliff:g id="all_but_first_and_last_item">%2$s</xliff:g></string>
+  <string name="join_many_items_middle"><xliff:g id="mír_curtha_leis">%1$s</xliff:g>, <xliff:g id="an chuid_de_mhíreanna">%2$s</xliff:g></string>
+  <string name="take_a_few_minutes">D’fhéadfadh sé seo cúpla nóiméad a thógáil</string>
+  <string name="work_profile_description">Coinneofar d’aipeanna oibre sa phróifíl seo agus bainisteoidh d’eagraíocht iad</string>
+  <string name="device_owner_description">Coinneofar an gléas seo slán agus bainisteoidh d\'eagraíocht é</string>
+  <string name="setup_provisioning_header">Ag ullmhú chun gléas oibre a shocrú\u2026</string>
+  <string name="setup_provisioning_header_description">Ag bunú aip riarthóra</string>
   <string name="brand_screen_header">Is le d\'eagraíocht an <xliff:g id="device_name" example="Pixel">%1$s</xliff:g> seo</string>
+  <string name="brand_screen_subheader">Úsáidfear an aip seo a leanas chun an fón seo a bhainistiú agus a mhonatóiriú</string>
+  <string name="account_management_disclaimer_header">Tá do chuntas á bhainistiú</string>
+  <string name="downloading_administrator_header">Ag ullmhú le haghaidh socrú oibre\u2026</string>
+  <string name="work_profile_provisioning_accept_header_post_suw">Socraímis do phróifíl oibre</string>
+  <string name="work_profile_provisioning_step_1_header">Coinnítear aipeanna oibre i do phróifíl oibre</string>
+  <string name="work_profile_provisioning_step_2_header">Cuir aipeanna oibre ar sos nuair a bheidh tú críochnaithe don lá</string>
+  <string name="work_profile_provisioning_step_3_header">Tá sonraí i do phróifíl oibre le feiceáil ag do riarthóir TF</string>
+  <string name="work_profile_provisioning_progress_label">Ag socrú do phróifíl oibre\u2026</string>
+  <string name="work_profile_provisioning_summary">Coinnítear aipeanna oibre i do phróifíl oibre. Is féidir leat d’aipeanna oibre a chur ar sos nuair a bheidh tú críochnaithe don lá. Tá na sonraí i do phróifíl oibre le feiceáil ag do riarthóir TF.</string>
+  <string name="fully_managed_device_provisioning_accept_header">Socraímis do ghléas oibre</string>
+  <string name="fully_managed_device_provisioning_step_1_header">Coinnigh d’aipeanna oibre ar fáil duit</string>
+  <string name="fully_managed_device_provisioning_permissions_header">Do ghníomhaíocht agus do shonraí</string>
+  <string name="fully_managed_device_provisioning_permissions_secondary_header">Ceadanna aipeanna</string>
+  <string name="fully_managed_device_provisioning_progress_label">Ag socrú do ghléis\u2026</string>
+  <string name="fully_managed_device_provisioning_return_device_title">Tabhair an gléas seo ar ais chuig do riarthóir TF</string>
+  <string name="fully_managed_device_provisioning_return_device_subheader">Téigh ar ais go dtí an scáileán roimhe seo, nó athshocraigh an gléas seo agus tabhair ar ais chuig do riarthóir TF é.</string>
+  <string name="fully_managed_device_cancel_setup_button">Cealaigh an socrú</string>
+  <string name="fully_managed_device_reset_and_return_button">Athshocraigh &amp; tabhair ar ais an gléas</string>
+  <string name="cope_provisioning_step_1_header">Coinnítear aipeanna oibre i do phróifíl oibre agus bainistíonn do riarthóir TF iad</string>
+  <string name="cope_provisioning_step_2_header">Tá aipeanna pearsanta ar leithligh &amp; i bhfolach ó aipeanna oibre</string>
+  <string name="cope_provisioning_step_3_header">Is féidir le do riarthóir TF an gléas seo a rialú agus aipeanna áirithe a bhlocáil</string>
+  <string name="just_a_sec">Soicind amháin\u2026</string>
+  <string name="fully_managed_device_provisioning_privacy_title">Meabhrúchán príobháideachta</string>
 </resources>

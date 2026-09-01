@@ -18,11 +18,84 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_fail_to_scan">Ní féidir líonraí a scanadh</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_eap_wpa">WPA-EAP</string>
+    <string name="wifi_security_short_eap_wpa2_wpa3">RSN-EAP</string>
+    <string name="wifi_security_short_sae">WPA3</string>
+    <string name="wifi_security_short_psk_sae">WPA2/WPA3</string>
+    <string name="wifi_security_short_none_owe">Dada/OWE</string>
+    <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_eap_suiteb">Suite-B-192</string>
+    <string name="wifi_security_none">Dada</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2-Pearsanta</string>
+    <string name="wifi_security_eap">WPA/WPA2/WPA3-Fiontar</string>
+    <string name="wifi_security_eap_wpa">WPA-Fiontar</string>
+    <string name="wifi_security_eap_wpa_wpa2">WPA/WPA2-Fiontar</string>
+    <string name="wifi_security_eap_wpa2_wpa3">WPA2/WPA3-Fiontar</string>
+    <string name="wifi_security_eap_wpa3">WPA3-Fiontar</string>
+    <string name="wifi_security_passpoint">Pasphointe</string>
+    <string name="wifi_security_sae">WPA3-Pearsanta</string>
+    <string name="wifi_security_psk_sae">WPA2/WPA3-Pearsanta</string>
+    <string name="wifi_security_none_owe">Gan aon cheann/Oscailte Feabhsaithe</string>
+    <string name="wifi_security_owe">Oscailt Feabhsaithe</string>
+    <string name="wifi_security_eap_suiteb">WPA3-Fiontar 192-giotán</string>
+    <string name="wifi_remembered">Sábháilte</string>
+    <string name="wifi_disconnected">Dícheangailte</string>
+    <string name="wifi_disabled_generic">Míchumasaithe</string>
+    <string name="wifi_disabled_network_failure">Teip Cumraíochta IP</string>
+    <string name="wifi_disabled_password_failure">Fadhb fíordheimhnithe</string>
+    <string name="wifi_cant_connect">Ní féidir ceangal</string>
+    <string name="wifi_cant_connect_to_ap">Ní féidir ceangal le \'<xliff:g id="ap_name">%1$s</xliff:g>\'</string>
+    <string name="wifi_check_password_try_again">Seiceáil an focal faire agus déan iarracht arís</string>
+    <string name="wifi_not_in_range">Ní laistigh den raon</string>
+    <string name="wifi_no_internet_no_reconnect">Ní cheanglóidh sé go huathoibríoch</string>
+    <string name="wifi_no_internet">Gan rochtain idirlín</string>
+    <string name="saved_network">Sábháilte ag <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="connected_via_network_scorer">Ceangailte go huathoibríoch trí %1$s</string>
+    <string name="connected_via_network_scorer_default">Ceangailte go huathoibríoch trí sholáthraí rátála líonra</string>
+    <string name="connected_via_app">Ceangailte trí <xliff:g id="name" example="Wifi App">%1$s</xliff:g></string>
+    <string name="tap_to_sign_up">Tapáil chun clárú</string>
+    <string name="wifi_connected_no_internet">Gan idirlíon</string>
+    <string name="private_dns_broken">Ní féidir rochtain a fháil ar fhreastalaí DNS príobháideach</string>
+    <string name="wifi_limited_connection">Nasc teoranta</string>
+    <string name="wifi_status_no_internet">Gan idirlíon</string>
+    <string name="wifi_status_sign_in_required">Síniú isteach ag teastáil</string>
+    <string name="wifi_ap_unable_to_handle_new_sta">Pointe rochtana lán go sealadach</string>
+    <string name="osu_opening_provider">Ag oscailt <xliff:g id="passpointProvider" example="Passpoint Provider">%1$s</xliff:g></string>
+    <string name="osu_connect_failed">Níorbh fhéidir ceangal</string>
+    <string name="osu_completing_sign_up">Ag críochnú an chláraithe\u2026</string>
+    <string name="osu_sign_up_failed">Níorbh fhéidir an clárú a chríochnú. Tapáil chun iarracht eile a dhéanamh.</string>
+    <string name="osu_sign_up_complete">Clárú críochnaithe. Ag ceangal\u2026</string>
+    <string name="speed_label_slow">Mall</string>
+    <string name="speed_label_okay">Ceart go leor</string>
+    <string name="speed_label_fast">Tapa</string>
+    <string name="speed_label_very_fast">An-tapa</string>
+    <string name="wifi_passpoint_expired">Imithe in éag</string>
+    <string name="preference_summary_default_combination"><xliff:g id="state" example="ON">%1$s</xliff:g> / <xliff:g id="description" example="Mód ardchruinnis">%2$s</xliff:g></string>
+    <string name="bluetooth_disconnected">Dícheangailte</string>
+    <string name="bluetooth_disconnecting">Ag dícheangal\u2026</string>
+    <string name="bluetooth_connecting">Ag ceangal\u2026</string>
+    <string name="bluetooth_connected">Ceangailte<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_pairing">Ag péireáil\u2026</string>
     <string name="bluetooth_pairing_failure">Ní féidir péireáil</string>
+    <string name="bluetooth_connection_failure">Ní féidir ceangal</string>
+    <string name="bluetooth_connected_no_headset">Ceangailte (gan fón)<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_connected_no_a2dp">Ceangailte (gan aon mheáin)<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Ceangailte (gan fón ná meáin)<xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_connected_battery_level">Ceangailte, ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_connected_no_headset_battery_level">Ceangailte (gan fón), ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_connected_no_a2dp_battery_level">Ceangailte (gan aon mheáin), ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Ceangailte (gan fón ná meáin), ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_active_battery_level">Gníomhach. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_active_battery_level_untethered">Gníomhach. L:<xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>&gt; ceallraí.</string>
     <string name="bluetooth_active_battery_level_untethered_left">Gníomhach. L:<xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_active_battery_level_untethered_right">Gníomhach. R: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí.</string>
+    <string name="bluetooth_battery_level">ceallraí <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
     <string name="bluetooth_battery_level_untethered">L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí.</string>
     <string name="bluetooth_battery_level_untethered_left">Ar chlé: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí</string>
     <string name="bluetooth_battery_level_untethered_right">Ar dheis: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> ceallraí</string>
@@ -31,6 +104,8 @@
     <string name="bluetooth_battery_level_untethered_right_case">Ar dheis: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Cás: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí</string>
     <string name="bluetooth_battery_level_untethered_left_right">Ar chlé: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, Ar dheis: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> ceallraí</string>
     <string name="bluetooth_battery_level_untethered_left_case_right">L: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, C: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g>, R: <xliff:g id="battery_level_as_percentage" example="25%">%3$s</xliff:g> ceallraí</string>
+    <string name="bluetooth_active_no_battery_level">Gníomhach</string>
+    <string name="bluetooth_saved_device">Sábháilte</string>
     <string name="bluetooth_hearing_aid_left_active">Gníomhach (ar chlé amháin)</string>
     <string name="bluetooth_hearing_aid_right_active">Gníomhach (ar dheis amháin)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Gníomhach (ar chlé agus ar dheis)</string>
@@ -59,13 +134,257 @@
     <string name="bluetooth_hearing_aid_media_only_left_active">Gníomhach (na meáin amháin), fágtha amháin</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Gníomhach (meán amháin), dheis amháin</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Gníomhach (meáin amháin), ar chlé agus ar dheis</string>
+    <string name="bluetooth_profile_a2dp">Fuaim na meán</string>
+    <string name="bluetooth_profile_headset">Glaonna gutháin</string>
+    <string name="bluetooth_profile_opp">Aistriú comhad</string>
+    <string name="bluetooth_profile_hid">Gléas ionchuir</string>
+    <string name="bluetooth_profile_pan">Rochtain Idirlín</string>
+    <string name="bluetooth_profile_pan_nap">Comhroinnt nasc idirlín</string>
+    <string name="bluetooth_profile_map">Teachtaireachtaí Téacs</string>
+    <string name="bluetooth_profile_sap">Rochtain SIM</string>
+    <string name="bluetooth_profile_a2dp_high_quality">Fuaim ardghléine: <xliff:g id="codec_name">%1$s</xliff:g></string>
+    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Fuaim HD</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">Ceangailte le fuaim na meán</string>
+    <string name="bluetooth_headset_profile_summary_connected">Ceangailte le fuaim an ghutháin</string>
+    <string name="bluetooth_opp_profile_summary_connected">Ceangailte le freastalaí aistrithe comhad</string>
+    <string name="bluetooth_map_profile_summary_connected">Ceangailte leis an léarscáil</string>
+    <string name="bluetooth_sap_profile_summary_connected">Ceangailte le SAP</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Gan ceangal leis an bhfreastalaí aistrithe comhad</string>
+    <string name="bluetooth_hid_profile_summary_connected">Ceangailte le gléas ionchuir</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">Ceangailte le gléas le haghaidh rochtain idirlín</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">Nasc idirlín áitiúil a roinnt le gléas</string>
+    <string name="bluetooth_pan_profile_summary_use_for">Úsáid le haghaidh rochtain idirlín</string>
+    <string name="bluetooth_map_profile_summary_use_for">Úsáid le haghaidh léarscáile</string>
+    <string name="bluetooth_sap_profile_summary_use_for">Úsáid le haghaidh rochtain SIM</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">Úsáid le haghaidh fuaime meán</string>
+    <string name="bluetooth_headset_profile_summary_use_for">Úsáid le haghaidh fuaime gutháin</string>
+    <string name="bluetooth_opp_profile_summary_use_for">Úsáid le haghaidh aistriú comhad</string>
+    <string name="bluetooth_hid_profile_summary_use_for">Úsáid le haghaidh ionchuir</string>
+    <string name="bluetooth_pairing_accept">Péire</string>
+    <string name="bluetooth_pairing_accept_all_caps">PÉIRE</string>
+    <string name="bluetooth_pairing_decline">Cealaigh</string>
+    <string name="bluetooth_pairing_will_share_phonebook">Tugann péireáil rochtain ar do theagmhálaithe agus ar do stair glaonna nuair a bhíonn tú ceangailte.</string>
+    <string name="bluetooth_pairing_error_message">Níorbh fhéidir péireáil le <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_pairing_pin_error_message">Níorbh fhéidir péireáil le <xliff:g id="device_name">%1$s</xliff:g> mar gheall ar PIN nó eochair faire mícheart.</string>
+    <string name="bluetooth_pairing_device_down_error_message">Ní féidir cumarsáid a dhéanamh le <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_pairing_rejected_error_message">Diúltaíodh don phéireáil ag <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_talkback_computer">Ríomhaire</string>
+    <string name="bluetooth_talkback_headset">Cluasáin</string>
+    <string name="bluetooth_talkback_phone">Fón</string>
+    <string name="bluetooth_talkback_imaging">Íomháú</string>
+    <string name="bluetooth_talkback_headphone">Cluasáin</string>
+    <string name="bluetooth_talkback_input_peripheral">Forimeallach Ionchuir</string>
+    <string name="bluetooth_talkback_hearing_aids">Gléasanna Éisteachta</string>
+    <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
+    <string name="accessibility_wifi_off">Wifi múchta.</string>
+    <string name="accessibility_no_wifi">Wifi dícheangailte.</string>
+    <string name="accessibility_wifi_one_bar">Wifi barra amháin.</string>
+    <string name="accessibility_wifi_two_bars">Wifi dhá bharra.</string>
+    <string name="accessibility_wifi_three_bars">Wifi trí bharra</string>
+    <string name="accessibility_wifi_signal_full">Comhartha Wifi lán.</string>
+    <string name="accessibility_wifi_security_type_none">Líonra oscailte</string>
+    <string name="accessibility_wifi_security_type_secured">Líonra slán</string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="data_usage_uninstalled_apps">Aipeanna bainte</string>
+    <string name="data_usage_uninstalled_apps_users">Aipeanna agus úsáideoirí bainte</string>
+    <string name="data_usage_ota">Nuashonruithe córais</string>
+    <string name="tether_settings_title_usb">Tethering USB</string>
+    <string name="tether_settings_title_wifi">Hotspot iniompartha</string>
+    <string name="tether_settings_title_bluetooth">Tethering Bluetooth</string>
+    <string name="tether_settings_title_usb_bluetooth">Tethering</string>
+    <string name="tether_settings_title_all">Tethering &amp; hotspot iniompartha</string>
+    <string name="managed_user_title">Gach aip oibre</string>
+    <string name="unknown">Anaithnid</string>
+    <string name="running_process_item_user_label">Úsáideoir: <xliff:g id="ainm_úsáideora">%1$s</xliff:g></string>
+    <string name="launch_defaults_some">Socraíodh roinnt réamhshocruithe</string>
+    <string name="launch_defaults_none">Níl aon réamhshocruithe socraithe</string>
+    <string name="tts_settings">Socruithe téacs-go-hurlabhra</string>
+    <string name="tts_settings_title">Aschur téacs-go-hurlabhra</string>
+    <string name="tts_default_rate_title">Ráta cainte</string>
+    <string name="tts_default_rate_summary">An luas ag a labhraítear an téacs</string>
+    <string name="tts_default_pitch_title">Páirc</string>
+    <string name="tts_default_pitch_summary">Bíonn tionchar aige ar thón na cainte sintéisithe</string>
+    <string name="tts_default_lang_title">Teanga</string>
+    <string name="tts_lang_use_system">Úsáid teanga an chórais</string>
+    <string name="tts_lang_not_selected">Níor roghnaíodh teanga</string>
+    <string name="tts_default_lang_summary">Socraíonn sé an guth teanga-shonrach don téacs labhartha</string>
+    <string name="tts_play_example_title">Éist le sampla</string>
+    <string name="tts_play_example_summary">Seinn taispeántas gearr de shintéis cainte</string>
+    <string name="tts_install_data_title">Suiteáil sonraí gutha</string>
+    <string name="tts_install_data_summary">Suiteáil na sonraí gutha atá riachtanach le haghaidh sintéis cainte</string>
+    <string name="tts_engine_network_required">Éilíonn an teanga seo nasc líonra atá ag obair le haghaidh aschur téacs-go-hurlabhra.</string>
+    <string name="tts_default_sample_string">Seo sampla de shintéis cainte</string>
+    <string name="tts_status_title">Stádas teanga réamhshocraithe</string>
+    <string name="tts_status_ok">Tá tacaíocht iomlán ag <xliff:g id="locale" example="Béarla (Stáit Aontaithe Mheiriceá)">%1$s</xliff:g></string>
+    <string name="tts_status_requires_network">Éilíonn <xliff:g id="locale" example="Béarla (Stáit Aontaithe Mheiriceá)">%1$s</xliff:g> nasc líonra</string>
+    <string name="tts_status_not_supported">Ní thacaítear le <xliff:g id="locale" example="Béarla (Stáit Aontaithe Mheiriceá)">%1$s</xliff:g></string>
+    <string name="tts_status_checking">Ag seiceáil…</string>
+    <string name="tts_engine_settings_title">Socruithe le haghaidh <xliff:g id="tts_engine_name">%s</xliff:g></string>
+    <string name="tts_engine_settings_button">Socruithe innill lainseála</string>
+    <string name="tts_engine_preference_section_title">Inneall is fearr leat</string>
+    <string name="tts_general_section_title">Ginearálta</string>
+    <string name="tts_reset_speech_pitch_title">Athshocraigh airde na cainte</string>
+    <string name="tts_reset_speech_pitch_summary">Athshocraigh an airde ag a labhraítear an téacs go dtí an airde réamhshocraithe.</string>
+    <string-array name="tts_rate_entries">
+        <item>60%</item>
+        <item>80%</item>
+        <item>100%</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>250%</item>
+        <item>300%</item>
+        <item>350%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string name="choose_profile">Roghnaigh próifíl</string>
+    <string name="category_personal">Pearsanta</string>
+    <string name="category_work">Obair</string>
+    <string name="development_settings_title">Roghanna forbróirí</string>
+    <string name="development_settings_enable">Cumasaigh roghanna forbróra</string>
+    <string name="development_settings_summary">Socraigh roghanna le haghaidh forbairt aipeanna</string>
+    <string name="development_settings_not_available">Níl roghanna forbróra ar fáil don úsáideoir seo</string>
+    <string name="vpn_settings_not_available">Níl socruithe VPN ar fáil don úsáideoir seo</string>
+    <string name="tethering_settings_not_available">Níl socruithe tethering ar fáil don úsáideoir seo</string>
+    <string name="apn_settings_not_available">Níl socruithe Ainm Pointe Rochtana ar fáil don úsáideoir seo</string>
+    <string name="enable_adb">Dífhabhtú USB</string>
+    <string name="enable_adb_summary">Mód dífhabhtaithe nuair a bhíonn USB ceangailte</string>
+    <string name="clear_adb_keys">Údaruithe dífhabhtaithe USB a chúlghairm</string>
+    <string name="enable_adb_wireless">Dífhabhtú gan sreang</string>
+    <string name="enable_adb_wireless_summary">Mód dífhabhtaithe nuair a bhíonn Wi-Fi ceangailte</string>
+    <string name="adb_wireless_error">Earráid</string>
+    <string name="adb_wireless_settings">Dífhabhtú gan sreang</string>
+    <string name="adb_wireless_list_empty_off">Chun gléasanna atá ar fáil a fheiceáil agus a úsáid, cuir dífhabhtú gan sreang ar siúl</string>
+    <string name="adb_pair_method_qrcode_title">Péireáil gléas le cód QR</string>
+    <string name="adb_pair_method_qrcode_summary">Péireáil gléasanna nua ag baint úsáide as scanóir cód QR</string>
+    <string name="adb_pair_method_code_title">Gléas péireála le cód péireála</string>
+    <string name="adb_pair_method_code_summary">Péireáil gléasanna nua ag baint úsáide as cód sé dhigit</string>
+    <string name="adb_paired_devices_title">Gléasanna péireáilte</string>
+    <string name="adb_wireless_device_connected_summary">Ceangailte faoi láthair</string>
+    <string name="adb_wireless_device_details_title">Sonraí an ghléis</string>
+    <string name="adb_device_forget">Déan dearmad</string>
+    <string name="adb_device_fingerprint_title_format">Méarlorg an ghléis: <xliff:g id="fingerprint_param" example="a1:b2:c3:d4:e5:f6">%1$s</xliff:g></string>
+    <string name="adb_wireless_connection_failed_title">Theip ar an nasc</string>
+    <string name="adb_wireless_connection_failed_message">Cinntigh go bhfuil <xliff:g id="device_name" example="Bob\'s Macbook">%1$s</xliff:g> ceangailte leis an líonra ceart</string>
+    <string name="adb_pairing_device_dialog_title">Péireáil le gléas</string>
+    <string name="adb_pairing_device_dialog_pairing_code_label">Cód péireála Wi\u2011Fi</string>
+    <string name="adb_pairing_device_dialog_failed_title">Theip ar an bpéireáil</string>
+    <string name="adb_pairing_device_dialog_failed_msg">Cinntigh go bhfuil an gléas ceangailte leis an líonra céanna.</string>
+    <string name="adb_wireless_qrcode_summary">Péireáil gléas thar  Wi\u2011Fi trí chód QR a scanadh</string>
+    <string name="adb_wireless_verifying_qrcode_text">Gléas péireála\u2026</string>
+    <string name="bluetooth_select_avrcp_version_dialog_title">Roghnaigh Leagan Bluetooth AVRCP</string>
+    <string name="bluetooth_select_map_version_string">Leagan MAP Bluetooth</string>
+    <string name="bluetooth_select_map_version_dialog_title">Roghnaigh Leagan MAP Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_type">Códac Fuaime Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Rogha Códc Fuaime Bluetooth a Spreagadh</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate">Ráta Samplála Fuaime Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Códc Fuaime Bluetooth a Spreagadh\u000ASelection: Ráta Samplála</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample">Giotáin Fuaime Bluetooth In aghaidh an tSampla</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Códc Fuaime Bluetooth a Spreagadh\Selection: Giotáin in aghaidh an tSampla</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode">Mód Cainéal Fuaime Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Códc Fuaime Bluetooth a Spreagadh\u000ASelection: Mód Cainéal</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Códc LDAC Fuaime Bluetooth: Cáilíocht Athsheinm</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Rogha LDAC\ACodec Fuaime Bluetooth a Spreagadh: Cáilíocht Athsheinm</string>
+    <string name="bluetooth_select_a2dp_codec_streaming_label">Sruthú: <xliff:g id="streaming_parameter">%1$s</xliff:g></string>
+    <string name="select_private_dns_configuration_title">DNS Príobháideach</string>
+    <string name="select_private_dns_configuration_dialog_title">Roghnaigh Mód DNS Príobháideach</string>
+    <string name="private_dns_mode_off">As</string>
+    <string name="private_dns_mode_opportunistic">Uathoibríoch</string>
+    <string name="private_dns_mode_provider">Ainm óstach soláthraí DNS príobháideach</string>
+    <string name="private_dns_mode_provider_hostname_hint">Cuir isteach ainm óstach an tsoláthraí DNS</string>
+    <string name="private_dns_mode_provider_failure">Níorbh fhéidir ceangal</string>
+    <string name="wifi_display_certification_summary">Taispeáin roghanna le haghaidh deimhniú taispeána gan sreang</string>
+    <string name="wifi_verbose_logging_summary">Méadaigh leibhéal logála Wi-Fi, taispeáin RSSI de réir SSID i Roghnóir Wi-Fi</string>
+    <string name="wifi_scan_throttling_summary">Laghdaíonn sé draenáil na ceallraí &amp; feabhsaíonn sé feidhmíocht an líonra</string>
+    <string name="wifi_non_persistent_mac_randomization_summary">Nuair a bhíonn an mód seo cumasaithe, féadfaidh seoladh MAC an ghléis seo athrú gach uair a nascann sé le líonra a bhfuil randamú MAC cumasaithe ann.</string>
+    <string name="wifi_metered_label">Méadraithe</string>
+    <string name="wifi_unmetered_label">Gan mhéadar</string>
     <string name="select_logd_size_title">Méid maoláin logálaí</string>
+    <string name="select_logd_size_dialog_title">Roghnaigh méideanna logálaí in aghaidh an mhaoláin loga</string>
+    <string name="dev_logpersist_clear_warning_title">Glan stóráil bhuan an logálaí?</string>
+    <string name="dev_logpersist_clear_warning_message">Nuair nach mbíonn muid ag déanamh monatóireachta a thuilleadh leis an logálaí buan, ní mór dúinn na sonraí logálaí atá ar do ghléas a scriosadh.</string>
+    <string name="select_logpersist_title">Stóráil sonraí logálaí go buan ar an ngléas</string>
+    <string name="select_logpersist_dialog_title">Roghnaigh maoláin loga le stóráil go buan ar an ngléas</string>
+    <string name="select_usb_configuration_title">Roghnaigh Cumraíocht USB</string>
+    <string name="select_usb_configuration_dialog_title">Roghnaigh Cumraíocht USB</string>
+    <string name="allow_mock_location">Ceadaigh suíomhanna bréige</string>
+    <string name="allow_mock_location_summary">Ceadaigh suíomhanna bréige</string>
+    <string name="debug_view_attributes">Cumasaigh iniúchadh tréithe radhairc</string>
+    <string name="mobile_data_always_on_summary">Coinnigh sonraí soghluaiste gníomhach i gcónaí, fiú nuair a bhíonn Wi-Fi gníomhach (le haghaidh aistriú tapa líonra).</string>
+    <string name="tethering_hardware_offload_summary">Úsáid luasghéarú crua-earraí tethering más féidir</string>
+    <string name="adb_warning_title">Ceadaigh dífhabhtú USB?</string>
+    <string name="adb_warning_message">Chun críocha forbartha amháin atá dífhabhtú USB beartaithe. Bain úsáid as chun sonraí a chóipeáil idir do ríomhaire agus do ghléas, aipeanna a shuiteáil ar do ghléas gan fógra, agus sonraí loga a léamh.</string>
+    <string name="adbwifi_warning_title">Ceadaigh dífhabhtú gan sreang?</string>
+    <string name="adbwifi_warning_message">Chun críocha forbartha amháin atá dífhabhtú gan sreang beartaithe. Bain úsáid as chun sonraí a chóipeáil idir do ríomhaire agus do ghléas, aipeanna a shuiteáil ar do ghléas gan fógra, agus sonraí loga a léamh.</string>
+    <string name="adb_keys_warning_message">An bhfuil tú ag iarraidh rochtain ar dhífhabhtú USB a chúlghairm ó gach ríomhaire a d\'údaraigh tú roimhe seo?</string>
+    <string name="dev_settings_warning_title">Ceadaigh socruithe forbartha?</string>
+    <string name="dev_settings_warning_message">Tá na socruithe seo beartaithe le haghaidh úsáide forbartha amháin. Is féidir leo a bheith ina gcúis le do ghléas agus na feidhmchláir air briseadh nó mí-iompar.</string>
+    <string name="verify_apps_over_usb_title">Fíoraigh aipeanna thar USB</string>
+    <string name="verify_apps_over_usb_summary">Seiceáil aipeanna atá suiteáilte trí ADB/ADT le haghaidh iompraíochta díobhálaí.</string>
+    <string name="bluetooth_show_devices_without_names_summary">Taispeánfar gléasanna Bluetooth gan ainmneacha (seoltaí MAC amháin)</string>
+    <string name="bluetooth_disable_absolute_volume_summary">Díchumasaíonn sé gné toirte absalóideach Bluetooth i gcás fadhbanna toirte le gléasanna cianda amhail toirt ró-ard nó easpa rialaithe.</string>
+    <string name="bluetooth_enable_gabeldorsche_summary">Cumasaíonn sé cruach gnéithe Bluetooth Gabeldorsche.</string>
+    <string name="enhanced_connectivity_summary">Cumasaíonn sé an ghné Nascachta Feabhsaithe.</string>
+    <string name="enable_terminal_title">Teirminéal áitiúil</string>
+    <string name="enable_terminal_summary">Cumasaigh aip críochfoirt a thairgeann rochtain áitiúil ar an sliogán</string>
     <string name="enable_linux_terminal_title">Timpeallacht forbartha linux</string>
     <string name="enable_linux_terminal_summary">(Turgnamhach) Rith teirminéal Linux ar Android</string>
     <string name="disable_linux_terminal_disclaimer">Má dhíchumasaítear tú, déanfar sonraí teirminéil Linux a ghlanadh</string>
+    <string name="hdcp_checking_title">Seiceáil HDCP</string>
+    <string name="hdcp_checking_dialog_title">Socraigh iompar seiceála HDCP</string>
+    <string name="debug_debugging_category">Dífhabhtú</string>
+    <string name="debug_app">Roghnaigh aip dífhabhtaithe</string>
+    <string name="debug_app_not_set">Níl aon fheidhmchlár dífhabhtaithe socraithe</string>
+    <string name="debug_app_set">Feidhmchlár dífhabhtaithe: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="select_application">Roghnaigh feidhmchlár</string>
+    <string name="no_application">Ní rud ar bith</string>
+    <string name="wait_for_debugger">Fan le haghaidh dífhabhtóra</string>
+    <string name="debug_input_category">Ionchur</string>
+    <string name="debug_drawing_category">Líníocht</string>
+    <string name="debug_hw_drawing_category">Rindreáil luasghéaraithe crua-earraí</string>
+    <string name="media_category">Meáin</string>
+    <string name="debug_monitoring_category">Monatóireacht</string>
     <string name="window_management_category">Bainistíocht Fuinneog</string>
+    <string name="strict_mode">Mód dian cumasaithe</string>
+    <string name="pointer_location">Suíomh pointeora</string>
+    <string name="pointer_location_summary">Forleagan scáileáin a thaispeánann sonraí tadhaill reatha</string>
+    <string name="show_touches">Taispeáin sconnaí</string>
+    <string name="show_touches_summary">Taispeáin aiseolas amhairc le haghaidh sconnaí</string>
     <string name="touchpad_visualizer">Taispeáin ionchur touchpad</string>
     <string name="touchpad_visualizer_summary">Forleagan scáileáin a thaispeánann sonraí ionchuir touchpad agus gothaí aitheanta</string>
+    <string name="show_screen_updates">Taispeáin nuashonruithe dromchla</string>
+    <string name="show_screen_updates_summary">Splanc dromchlaí fuinneoige ar fad nuair a dhéantar iad a nuashonrú</string>
+    <string name="show_hw_screen_updates">Taispeáin nuashonruithe amhairc</string>
+    <string name="show_hw_screen_updates_summary">Splanc radhairc taobh istigh de fhuinneoga nuair a tharraingítear iad</string>
+    <string name="show_hw_layers_updates">Taispeáin nuashonruithe ar shraitheanna crua-earraí</string>
+    <string name="show_hw_layers_updates_summary">Splancaigh sraitheanna crua-earraí glas nuair a dhéantar iad a nuashonrú</string>
+    <string name="debug_hw_overdraw">Dífhabhtaigh rótharraingt GPU</string>
+    <string name="disable_overlays">Díchumasaigh forleagan crua-earraí</string>
+    <string name="disable_overlays_summary">Bain úsáid as an GPU i gcónaí le haghaidh comhdhéanamh scáileáin</string>
+    <string name="simulate_color_space">Insamhladh spás datha</string>
+    <string name="enable_opengl_traces_title">Cumasaigh rianta OpenGL</string>
+    <string name="usb_audio_disable_routing">Díchumasaigh ródaireacht fuaime USB</string>
+    <string name="usb_audio_disable_routing_summary">Díchumasaigh ródaíocht uathoibríoch chuig forimeallaigh fuaime USB</string>
+    <string name="debug_layout">Taispeáin teorainneacha an leagan amach</string>
+    <string name="debug_layout_summary">Taispeáin teorainneacha, imill, srl. na gearrthóga.</string>
+    <string name="force_rtl_layout_all_locales">Fórsaigh treo leagan amach RTL</string>
+    <string name="force_rtl_layout_all_locales_summary">Éirigh treo leagan amach scáileáin go RTL do gach logán</string>
+    <string name="window_blurs">Ceadaigh doiléirithe ar leibhéal na fuinneoige</string>
+    <string name="force_msaa">Fórsa 4x MSAA</string>
+    <string name="force_msaa_summary">Cumasaigh 4x MSAA in aipeanna OpenGL ES 2.0</string>
+    <string name="show_non_rect_clip">Dífhabhtaigh oibríochtaí gearrthóg neamh-dhronuilleogacha</string>
+    <string name="track_frame_time">Rindreáil HWUI Próifíle</string>
+    <string name="enable_gpu_debug_layers">Cumasaigh sraitheanna dífhabhtaithe GPU</string>
     <string name="enable_verbose_vendor_logging_checkbox">Díchumasaigh tar éis lá amháin</string>
     <string name="verbose_vendor_logging_notification_title">Tá deireadh le logáil díoltóirí briathra</string>
     <string name="verbose_vendor_logging_notification_summary">Cumasaithe ar feadh lá amháin</string>
@@ -73,37 +392,252 @@
     <string name="verbose_vendor_logging_preference_summary_will_disable">Díchumasaithe tar éis lá amháin</string>
     <string name="verbose_vendor_logging_preference_summary_on">Cumasaithe ar feadh tréimhse éiginnte</string>
     <string name="shade_display_awareness_title">Suíomh taispeána scátha</string>
+    <string name="force_allow_on_external">Ceadaigh aipeanna i bhfeidhm ar sheachtracha</string>
+    <string name="force_allow_on_external_summary">Déanann sé aon aip incháilithe le scríobh chuig stóras seachtrach, beag beann ar luachanna manifíse</string>
+    <string name="force_resizable_activities">Éirigh le hathmhéadú a dhéanamh ar ghníomhaíochtaí</string>
+    <string name="force_resizable_activities_summary">Déan gach gníomhaíocht in-athraithe i méid le haghaidh ilfhuinneog, beag beann ar luachanna manifíse.</string>
+    <string name="enable_freeform_support">Cumasaigh fuinneoga saorfhoirme</string>
+    <string name="local_backup_password_title">Pasfhocal cúltaca deisce</string>
+    <string name="local_backup_password_summary_none">Níl cúltacaí iomlána deisce cosanta faoi láthair</string>
+    <string name="local_backup_password_summary_change">Tapáil chun an focal faire a athrú nó a bhaint le haghaidh cúltacaí iomlána deisce</string>
+    <string name="local_backup_password_toast_success">Socraíodh pasfhocal cúltaca nua</string>
+    <string name="local_backup_password_toast_confirmation_mismatch">Ní hionann an focal faire nua agus an dearbhú</string>
+    <string name="local_backup_password_toast_validation_failure">Theip ar phasfhocal cúltaca a shocrú</string>
+    <string name="loading_injected_setting_summary">Ag luchtú\u2026</string>
+    <string-array name="color_mode_names">
+        <item>Beoga (réamhshocraithe)</item>
+        <item>Nádúrtha</item>
+        <item>Caighdeánach</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Dathanna feabhsaithe</item>
+        <item>Dathanna nádúrtha mar a fheictear leis an tsúil iad</item>
+        <item>Dathanna atá optamaithe le haghaidh ábhar digiteach</item>
+    </string-array>
+    <string name="inactive_apps_title">Aipeanna fuireachais</string>
+    <string name="inactive_app_inactive_summary">Neamhghníomhach. Tapáil chun athrú.</string>
+    <string name="inactive_app_active_summary">Gníomhach. Tapáil chun athrú.</string>
+    <string name="transcode_settings_title">Socruithe traschódaithe meán</string>
+    <string name="transcode_user_control">Sáraigh réamhshocruithe traschódaithe</string>
+    <string name="transcode_enable_all">Cumasaigh traschódú</string>
+    <string name="transcode_default">Glac leis go dtacaíonn aipeanna le formáidí nua-aimseartha</string>
+    <string name="transcode_notification">Taispeáin fógraí traschódaithe</string>
+    <string name="transcode_disable_cache">Díchumasaigh taisce traschódaithe</string>
+    <string name="runningservices_settings_title">Seirbhísí reatha</string>
+    <string name="runningservices_settings_summary">Féach ar sheirbhísí atá ag rith faoi láthair agus rialaigh iad</string>
+    <string name="select_webview_provider_title">Cur i bhfeidhm WebView</string>
+    <string name="select_webview_provider_dialog_title">Socraigh cur i bhfeidhm WebView</string>
+    <string name="select_webview_provider_toast_text">Níl an rogha seo bailí a thuilleadh. Bain triail eile as.</string>
     <string name="webview_launch_devtools_title">Uirlisí Forbróra WebView</string>
     <string name="webview_launch_devtools_no_package">Níor aimsíodh pacáiste WebView.</string>
     <string name="webview_launch_devtools_no_activity">Níorbh fhéidir DevTools a sheoladh.</string>
+    <string name="picture_color_mode">Mód datha pictiúr</string>
+    <string name="picture_color_mode_desc">Úsáid sRGB</string>
+    <string name="daltonizer_mode_disabled">Míchumasaithe</string>
+    <string name="daltonizer_mode_monochromacy">Monacrómatacht</string>
+    <string name="daltonizer_mode_deuteranomaly">Deuteranómalacht (dearg-uaine)</string>
+    <string name="daltonizer_mode_protanomaly">Prótanómalacht (dearg-uaine)</string>
+    <string name="daltonizer_mode_tritanomaly">Trítanómalacht (gorm-bhuí)</string>
+    <string name="accessibility_display_daltonizer_preference_title">Ceartú datha</string>
+    <string name="daltonizer_type_overridden">Sáraithe ag <xliff:g id="title" example="Insamhladh spás datha">%1$s</xliff:g></string>
+    <string name="power_remaining_settings_home_page"><xliff:g id="céatadán" example="10%">%1$s</xliff:g> - <xliff:g id="time_string" example="1 uair an chloig fágtha bunaithe ar d\'úsáid">%2$s</xliff:g></string>
+    <string name="power_remaining_duration_only">Thart ar <xliff:g id="time_remaining">%1$s</xliff:g> fágtha</string>
+    <string name="power_discharging_duration">Thart ar <xliff:g id="time_remaining">%1$s</xliff:g> fágtha (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_duration_only_enhanced">Thart ar <xliff:g id="time_remaining">%1$s</xliff:g> atá fágtha bunaithe ar d\'úsáid</string>
+    <string name="power_discharging_duration_enhanced">Maidir le <xliff:g id="time_remaining">%1$s</xliff:g> atá fágtha bunaithe ar d\'úsáid (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_duration_only_short"><xliff:g id="am_atá_fágtha">%1$s</xliff:g></string>
+    <string name="power_discharge_by_enhanced">Ba chóir go mairfeadh sé go dtí thart ar <xliff:g id="time">%1$s</xliff:g> bunaithe ar d\'úsáid (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_discharge_by_only_enhanced">Ba chóir go mairfeadh sé go dtí thart ar <xliff:g id="time">%1$s</xliff:g> bunaithe ar d\'úsáid</string>
+    <string name="power_discharge_by">Ba chóir go mairfeadh sé go dtí thart ar <xliff:g id="time">%1$s</xliff:g> (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_discharge_by_only">Ba chóir go mairfeadh sé go dtí thart ar <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_discharge_by_only_short">Go dtí <xliff:g id="time" example="12 PM">%1$s</xliff:g></string>
+    <string name="power_suggestion_battery_run_out">D’fhéadfadh an ceallraí rith amach faoi <xliff:g id="time" example="12 PM">%1$s</xliff:g></string>
+    <string name="power_remaining_less_than_duration_only">Níos lú ná <xliff:g id="threshold">%1$s</xliff:g> fágtha</string>
+    <string name="power_remaining_less_than_duration">Níos lú ná <xliff:g id="threshold">%1$s</xliff:g> fágtha (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_more_than_subtext">Níos mó ná <xliff:g id="time_remaining">%1$s</xliff:g> fágtha (<xliff:g id="level">%2$s</xliff:g>)</string>
+    <string name="power_remaining_only_more_than_subtext">Níos mó ná <xliff:g id="time_remaining">%1$s</xliff:g> fágtha</string>
+    <string name="power_charging"><xliff:g id="leibhéal">%1$s</xliff:g> - <xliff:g id="stát">%2$s</xliff:g></string>
+    <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> fágtha go dtí go mbeidh sé lán</string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> fágtha go dtí go mbeidh sé lán</string>
     <string name="power_fast_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="status">%2$s</xliff:g> - Iomlán faoi <xliff:g id="time">%3$s</xliff:g></string>
     <string name="power_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - Muirear go hiomlán ag <xliff:g id="time">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only_v2">Muirear go hiomlán ag <xliff:g id="time">%1$s</xliff:g></string>
     <string name="power_remaining_fast_charging_duration_only_v2">Iomlán faoi <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="battery_info_status_unknown">Anaithnid</string>
+    <string name="battery_info_status_charging">Muirearú</string>
+    <string name="battery_info_status_charging_fast">Muirearú go tapa</string>
+    <string name="battery_info_status_charging_slow">Muirearú go mall</string>
+    <string name="battery_info_status_charging_wireless">Ag muirearú gan sreang</string>
+    <string name="battery_info_status_charging_dock">Muirearú</string>
+    <string name="battery_info_status_discharging">Gan muirearú</string>
+    <string name="battery_info_status_full">Gearrtha</string>
+    <string name="battery_info_status_charging_v2">Muirearú</string>
     <string name="battery_info_status_charging_fast_v2">Muirearú tapa</string>
+    <string name="disabled_by_admin_summary_text">Rialaithe ag an riarthóir</string>
     <string name="disabled_in_phone_call_text">Gan a bheith ar fáil le linn glaonna</string>
+    <string name="disabled">Míchumasaithe</string>
+    <string name="enabled">Cumasaithe</string>
+    <string name="external_source_trusted">Ceadaithe</string>
+    <string name="external_source_untrusted">Ní cheadaítear</string>
+    <string name="install_other_apps">Suiteáil aipeanna anaithnide</string>
+    <string name="home">Socruithe Baile</string>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string name="charge_length_format"><xliff:g name="time" example="3 uair an chloig">%1$s</xliff:g> ó shin</string>
+    <string name="remaining_length_format"><xliff:g name="time" example="3 uair an chloig">%1$s</xliff:g> fágtha</string>
     <string name="screen_zoom_summary_smallest">Is lú</string>
     <string name="screen_zoom_summary_smaller">Níos lú</string>
+    <string name="screen_zoom_summary_small">Beag</string>
+    <string name="screen_zoom_summary_default">Réamhshocrú</string>
+    <string name="screen_zoom_summary_large">Mór</string>
+    <string name="screen_zoom_summary_larger">Níos mó</string>
     <string name="screen_zoom_summary_very_large">An-mhór</string>
     <string name="screen_zoom_summary_extra_large">An-mhór</string>
+    <string name="screen_zoom_summary_largest">Is mó</string>
+    <string name="screen_zoom_summary_custom">Saincheaptha (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
+    <string name="content_description_menu_button">Roghchlár</string>
+    <string name="retail_demo_reset_message">Cuir isteach an focal faire chun athshocrú monarchan a dhéanamh sa mhodh taispeána</string>
+    <string name="retail_demo_reset_next">Ar Aghaidh</string>
+    <string name="retail_demo_reset_title">Pasfhocal ag teastáil</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="active_input_method_subtypes">Modhanna ionchuir gníomhacha</string>
+    <string name="use_system_language_to_select_input_method_subtypes">Úsáid teangacha an chórais</string>
+    <string name="failed_to_open_app_settings_toast">Theip ar oscailt socruithe do <xliff:g id="spell_application_name">%1$s</xliff:g></string>
+    <string name="direct_boot_unaware_dialog_message">Nóta: Tar éis atosaithe, ní féidir an aip seo a thosú go dtí go ndíghlasálfaidh tú do ghuthán</string>
+    <string name="ims_reg_title">"Stát clárúcháin IMS"</string>
+    <string name="ims_reg_status_registered">"Cláraithe"</string>
+    <string name="ims_reg_status_not_registered">"Gan chlárú"</string>
+    <string name="status_unavailable">Gan a bheith ar fáil</string>
+    <string name="wifi_status_mac_randomized">Déantar MAC a randamú</string>
+    <string name="accessibility_manual_zen_more_time">Tuilleadh ama.</string>
+    <string name="accessibility_manual_zen_less_time">Níos lú ama.</string>
     <string name="accessibility_screen_magnification_title">Formhéadú</string>
+    <string name="cancel">Cealaigh</string>
+    <string name="next">Ar Aghaidh</string>
+    <string name="okay">Ceart go leor</string>
+    <string name="alarms_and_reminders_label">Aláraim agus meabhrúcháin</string>
+    <string name="alarms_and_reminders_switch_title">Ceadaigh aláraim agus meabhrúcháin a shocrú</string>
+    <string name="alarms_and_reminders_title">Aláraim &amp; meabhrúcháin</string>
+    <string name="keywords_alarms_and_reminders">sceideal, aláram, meabhrúchán, clog</string>
     <string name="zen_mode_do_not_disturb_name">Ná Cuir isteach</string>
     <string name="zen_mode_settings_title">Ná Cuir isteach</string>
+    <string name="zen_mode_enable_dialog_turn_on">Cas air</string>
+    <string name="zen_mode_settings_turn_on_dialog_title">Cas ar Ná Cuir Isteach</string>
+    <string name="zen_mode_settings_summary_off">Choíche</string>
+    <string name="zen_interruption_level_priority">Tosaíocht amháin</string>
+    <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Cur isteach tosaíochta amháin">%1$s</xliff:g>. <xliff:g id="exit_condition" example="Ar feadh uair an chloig">%2$s</xliff:g></string>
+    <string name="zen_alarm_warning_indef">Ní chloisfidh tú d\'aláram eile <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> mura múchfaidh tú é seo roimhe sin.</string>
+    <string name="zen_alarm_warning">Ní chloisfidh tú d\'aláram eile <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g></string>
+    <string name="alarm_template">ag <xliff:g id="nuair" example="7:00 AM">%1$s</xliff:g></string>
+    <string name="alarm_template_far">ar <xliff:g id="nuair" example="Aoine 7:00 AM">%1$s</xliff:g></string>
+    <string name="zen_mode_duration_settings_title">Fad</string>
+    <string name="zen_mode_duration_always_prompt_title">Iarr gach uair</string>
+    <string name="zen_mode_forever">Go dtí go múchfaidh tú</string>
     <string name="zen_mode_starred_contacts_empty_name">(Gan ainm)</string>
+    <string name="time_unit_just_now">Díreach anois</string>
+    <string name="media_transfer_this_device_name">An fón seo</string>
     <string name="media_transfer_this_device_name_desktop">an ríomhaire seo (inmheánach)</string>
     <string name="media_transfer_this_device_name_tv">An teilifís seo</string>
+    <string name="media_transfer_this_phone">An fón seo</string>
     <string name="media_transfer_digital_line_name">S/PDIF</string>
     <string name="media_transfer_analog_line_name">Analógach</string>
     <string name="media_transfer_aux_line_name">AUX</string>
     <string name="tv_media_transfer_internal_speakers">Cainteoir ionsuite</string>
     <string name="tv_media_transfer_hdmi_title">Fuaime Teilifíse</string>
+    <string name="profile_connect_timeout_subtext">Fadhb ag ceangal. Múch an gléas agus cuir ar siúl é arís.</string>
     <string name="bluetooth_key_missing_subtext">Ní féidir ceangal</string>
+    <string name="media_transfer_wired_device_name">Gléas fuaime sreangaithe</string>
+    <string name="help_label">Cabhair &amp; aiseolas</string>
+    <string name="storage_category">Stóráil</string>
+    <string name="shared_data_title">Sonraí comhroinnte</string>
+    <string name="shared_data_summary">Féach ar shonraí comhroinnte agus iad a mhodhnú</string>
+    <string name="shared_data_no_blobs_text">Níl aon sonraí comhroinnte don úsáideoir seo.</string>
+    <string name="shared_data_query_failure_text">Tharla earráid agus sonraí comhroinnte á n-aisghabháil. Déan iarracht eile.</string>
+    <string name="blob_id_text">ID sonraí comhroinnte: <xliff:g id="blob_id" example="100">%d</xliff:g></string>
+    <string name="blob_expires_text">Rachaidh sé in éag ag <xliff:g id="date" example="20 Márta, 2020 11:59:59 GMT">%s</xliff:g></string>
+    <string name="shared_data_delete_failure_text">Tharla earráid agus na sonraí comhroinnte á scriosadh.</string>
+    <string name="shared_data_no_accessors_dialog_text">Níl aon léasanna faighte don sonraí comhroinnte seo. Ar mhaith leat iad a scriosadh?</string>
+    <string name="accessor_info_title">Aipeanna a roinneann sonraí</string>
+    <string name="accessor_no_description_text">Níor chuir an aip aon chur síos ar fáil.</string>
+    <string name="accessor_expires_text">Rachaidh an léas in éag ag <xliff:g id="date" example="20 Márta, 2020 11:59:59 GMT">%s</xliff:g></string>
+    <string name="delete_blob_text">Scrios sonraí comhroinnte</string>
+    <string name="delete_blob_confirmation_text">An bhfuil tú cinnte gur mian leat na sonraí comhroinnte seo a scriosadh?</string>
+    <string name="user_add_user_item_summary">Tá a gcuid aipeanna agus ábhar féin ag úsáideoirí</string>
+    <string name="user_add_profile_item_summary">Is féidir leat rochtain ar aipeanna agus ábhar ó do chuntas a shrianadh</string>
+    <string name="user_add_user_item_title">Úsáideoir</string>
+    <string name="user_add_profile_item_title">Próifíl shrianta</string>
+    <string name="user_add_user_title">Úsáideoir nua a chur leis?</string>
+    <string name="user_add_user_message_long">Is féidir leat an gléas seo a roinnt le daoine eile trí úsáideoirí breise a chruthú. Tá a spás féin ag gach úsáideoir, agus is féidir leo é a shaincheapadh le haipeanna, páipéar balla, agus araile. Is féidir le húsáideoirí socruithe gléis cosúil le Wi-Fi a choigeartú freisin a mbíonn tionchar acu ar gach duine. Nuair a chuireann tú úsáideoir nua leis, ní mór don duine sin a spás féin a shocrú. Is féidir le haon úsáideoir aipeanna a nuashonrú do gach úsáideoir eile. B’fhéidir nach n-aistreofar socruithe agus seirbhísí inrochtaineachta chuig an úsáideoir nua.</string>
+    <string name="user_add_user_message_short">Nuair a chuireann tú úsáideoir nua leis, ní mór don duine sin a spás féin a shocrú.\n\nIs féidir le haon úsáideoir aipeanna a nuashonrú do gach úsáideoir eile.</string>
+    <string name="user_setup_dialog_title">An bhfuil tú ag iarraidh úsáideoir a shocrú anois?</string>
+    <string name="user_setup_dialog_message">Cinntigh go bhfuil an duine ar fáil chun an gléas a thógáil agus a spás a shocrú</string>
+    <string name="user_setup_profile_dialog_message">An bhfuil tú ag iarraidh próifíl a shocrú anois?</string>
+    <string name="user_setup_button_setup_now">Socraigh anois</string>
+    <string name="user_setup_button_setup_later">Ní anois</string>
+    <string name="user_add_user_type_title">Cuir leis</string>
+    <string name="user_new_user_name">Úsáideoir nua</string>
+    <string name="user_new_profile_name">Próifíl nua</string>
+    <string name="user_info_settings_title">Eolas úsáideora</string>
+    <string name="profile_info_settings_title">Eolas próifíle</string>
+    <string name="user_need_lock_message">Sula bhféadfaidh tú próifíl shrianta a chruthú, beidh ort glas scáileáin a shocrú chun d’aipeanna agus do shonraí pearsanta a chosaint.</string>
+    <string name="user_set_lock_button">Socraigh glas</string>
+    <string name="user_switch_to_user">Athraigh go <xliff:g id="ainm_úsáideora" example="John Doe">%s</xliff:g></string>
+    <string name="creating_new_user_dialog_message">Úsáideoir nua á chruthú…</string>
+    <string name="add_user_failed">Theip ar úsáideoir nua a chruthú</string>
+    <string name="user_nickname">Leasainm</string>
     <string name="edit_user_info_message">Beidh an t-ainm agus an pictiúr a roghnaíonn tú le feiceáil ag aon duine a úsáideann an gléas seo.</string>
+    <string name="guest_new_guest">Cuir aoi leis</string>
+    <string name="guest_exit_guest">Bain an t-aoi</string>
+    <string name="guest_reset_guest">Athshocraigh aoi</string>
+    <string name="guest_reset_guest_dialog_title">Athshocraigh an t-aoi?</string>
+    <string name="guest_reset_guest_confirm_button">Athshocraigh</string>
+    <string name="guest_resetting">Ag athshocrú aoi\u2026</string>
+    <string name="user_image_photo_selector">Roghnaigh grianghraf</string>
+    <string name="cached_apps_freezer_device_default">Réamhshocrú gléis</string>
+    <string name="cached_apps_freezer_disabled">Míchumasaithe</string>
+    <string name="cached_apps_freezer_enabled">Cumasaithe</string>
+    <string name="cached_apps_freezer_reboot_dialog_text">Ní mór do ghléas a atosú le go gcuirfear an t-athrú seo i bhfeidhm. Atosaigh anois nó cealaigh.</string>
+    <string name="media_transfer_wired_headphone_name">Cluasáin sreangaithe</string>
     <string name="media_transfer_headphone_name">Fuaime sreangaithe</string>
     <string name="media_transfer_usb_audio_name">Fuaime USB</string>
     <string name="media_transfer_wired_device_mic_name">Micreafón sreangaithe</string>
     <string name="media_transfer_usb_device_mic_name">Micreafón USB</string>
     <string name="media_transfer_bt_device_mic_name">Micreafón BT</string>
+    <string name="wifi_hotspot_switch_on_text">Ar</string>
+    <string name="wifi_hotspot_switch_off_text">As</string>
+    <string name="carrier_network_change_mode">Líonra iompróra ag athrú</string>
+    <string name="data_connection_3g">3G</string>
+    <string name="data_connection_edge">EDGE</string>
+    <string name="data_connection_cdma">1X</string>
+    <string name="data_connection_gprs">GPRS</string>
+    <string name="data_connection_3_5g">H
+</string>
+    <string name="data_connection_3_5g_plus">H+</string>
+    <string name="data_connection_4g">4G</string>
+    <string name="data_connection_4g_plus">4G+</string>
+    <string name="data_connection_lte">LTE</string>
+    <string name="data_connection_lte_plus">LTE+</string>
+    <string name="data_connection_5ge_html" translate="false"> &lt;i&gt;5G &lt;small&gt;E&lt;/small&gt;&lt;/i&gt; </string>
+    <string name="data_connection_carrier_wifi">W+</string>
+    <string name="cell_data_off_content_description">Sonraí soghluaiste múchta</string>
+    <string name="not_default_data_content_description">Níl sé socraithe chun sonraí a úsáid</string>
+    <string name="accessibility_no_phone">Gan fón.</string>
+    <string name="accessibility_phone_one_bar">Fón barra amháin</string>
+    <string name="accessibility_phone_two_bars">Fón dhá bharra.</string>
+    <string name="accessibility_phone_three_bars">Fón trí bharra.</string>
+    <string name="accessibility_phone_signal_full">Comhartha gutháin lán.</string>
+    <string name="accessibility_no_data">Gan aon sonraí.</string>
+    <string name="accessibility_data_one_bar">Sonraí barra amháin.</string>
+    <string name="accessibility_data_two_bars">Sonraí dhá bharra.</string>
+    <string name="accessibility_data_three_bars">Sonraí trí bharra.</string>
+    <string name="accessibility_data_signal_full">Comhartha sonraí lán.</string>
+    <string name="accessibility_ethernet_disconnected">Eitirnéad. dícheangailte.</string>
+    <string name="accessibility_ethernet_connected">Eitirnéad.</string>
+    <string name="accessibility_no_calling">Gan glaonna.</string>
+    <string name="keyboard_layout_default_label">Réamhshocrú</string>
     <string name="turn_screen_on_title">Rialú cas-ar an scáileáin</string>
     <string name="system_update_settings_list_item_title">Nuashonruithe Córais</string>
 </resources>

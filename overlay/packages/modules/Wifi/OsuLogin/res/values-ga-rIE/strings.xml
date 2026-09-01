@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Logáil Isteach Osu</string>
+    <string name="action_bar_label">Clárú Ar Líne</string>
+    <string name="sign_up_failed">Theip ar an gclárú</string>
+</resources>

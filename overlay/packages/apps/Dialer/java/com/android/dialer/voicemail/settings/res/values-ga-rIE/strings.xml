@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="voicemail_settings_title">Glórphost</string>
+  <string name="current_voicemail_greeting_recording_title">Mo bheannacht glórphoist</string>
+  <string name="change_greeting_text">Tapáil le Taifeadadh</string>
+  <string name="save_button_text">Sábháil</string>
+  <string name="redo_button_text">Bain Triail Arís</string>
+  <string name="voicemail_advanced_settings_title">Socruithe Ardleibhéil</string>
+  <string name="voicemail_visual_voicemail_switch_title">Glórphost amhairc</string>
+  <string name="voicemail_visual_voicemail_auto_archive_switch_title">Cúltaca agus stóráil bhreise</string>
+  <string name="voicemail_set_pin_preference_title">Socraigh PIN</string>
+  <string name="voicemail_change_pin_preference_summary_disable">Ní mór glórphost amhairc a chumasú chun an PIN a athrú</string>
+  <string name="voicemail_change_pin_preference_summary_not_activated">Níl glórphost amhairc gníomhachtaithe fós, déan iarracht arís ar ball</string>
+  <string name="vm_change_pin_progress_message">Fan le do thoil.</string>
+  <string name="vm_change_pin_error_too_short">Tá an PIN nua ró-ghearr.</string>
+  <string name="vm_change_pin_error_too_long">Tá an PIN nua rófhada.</string>
+  <string name="vm_change_pin_error_too_weak">Tá an PIN nua ró-lag. Níor cheart go mbeadh seicheamh leanúnach ná digití athdhéanta i bpasfhocal láidir.</string>
+  <string name="vm_change_pin_error_mismatch">Ní hionann an sean-PIN.</string>
+  <string name="vm_change_pin_error_invalid">Tá carachtair neamhbhailí sa PIN nua.</string>
+  <string name="vm_change_pin_error_system_error">Ní féidir an PIN a athrú</string>
+  <string name="change_pin_title">Athraigh PIN an Glórphoist</string>
+  <string name="change_pin_continue_label">Lean ar aghaidh</string>
+  <string name="change_pin_enter_old_pin_header">Deimhnigh do shean-PIN</string>
+  <string name="change_pin_enter_old_pin_hint">Cuir isteach do PIN glórphoist le leanúint ar aghaidh.</string>
+  <string name="change_pin_enter_new_pin_header">Socraigh PIN nua</string>
+  <string name="change_pin_enter_new_pin_hint">Ní mór don PIN a bheith ina <xliff:g example="4" id="min">%1$d</xliff:g>-<xliff:g example="7" id="max">%2$d</xliff:g> dhigit.</string>
+  <string name="change_pin_confirm_pin_header">Deimhnigh do PIN</string>
+  <string name="change_pin_confirm_pins_dont_match">Ní hionann na PINanna</string>
+  <string name="change_pin_succeeded">Nuashonraíodh PIN glórphoist</string>
+  <string name="change_pin_system_error">Ní féidir an PIN a shocrú</string>
+  <string name="voicemail_activating_summary_info">Glórphost á ghníomhachtú</string>
+  <string name="confirm_disable_voicemail_dialog_title">Múch glórphost amhairc</string>
+  <string name="confirm_disable_voicemail_dialog_message">Scriosfaidh sé seo aon ghlórphost agus trascríbhinní Google atá stóráilte san aip seo. Féadfaidh d’iompróir a chóipeanna féin a choinneáil.</string>
+  <string name="confirm_disable_voicemail_accept_dialog_label">Múch</string>
+</resources>

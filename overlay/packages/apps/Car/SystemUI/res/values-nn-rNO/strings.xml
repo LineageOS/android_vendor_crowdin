@@ -116,7 +116,8 @@
     <string name="passenger_keyguard_wrong_pattern">Feil mønster</string>
     <string name="passenger_keyguard_wrong_pin">Feil PIN-kode</string>
     <string name="passenger_keyguard_wrong_password">Feil passord</string>
-    <string name="passenger_keyguard_too_many_failed_attempts">        {count, plural,
+    <string name="passenger_keyguard_too_many_failed_attempts">
+        {count, plural,
         =1    {For mange feilforsøk. Prøv att om # sekund.}
         other {For mange feilforsøk. Prøv att om # sekund.}
         }

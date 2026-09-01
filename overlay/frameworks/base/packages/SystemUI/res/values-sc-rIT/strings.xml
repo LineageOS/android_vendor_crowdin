@@ -243,7 +243,8 @@
     <string name="zen_mode_on_with_details">Ativadu • <xliff:g id="trigger_description" example="Mon-Fri, 23:00-7:00">%1$s</xliff:g></string>
     <string name="zen_mode_set_up">Non cunfiguradu</string>
     <string name="zen_mode_no_manual_invocation">Gesti dae is cunfiguratziones</string>
-    <string name="zen_mode_active_modes">        {count, plural,
+    <string name="zen_mode_active_modes">
+        {count, plural,
             =0 {Nissuna modalidade ativa}
             =1 {Sa modalidade {mode} est ativa}
             other {# modalidades sunt ativas}
@@ -327,7 +328,8 @@
     <string name="notification_section_header_alerting">Notìficas</string>
     <string name="notification_section_header_conversations">Arresonos</string>
     <string name="accessibility_notification_section_header_open_settings">Aberi is cunfiguratziones de is notìficas</string>
-    <string name="modes_suppressing_shade_text">        {count, plural, offset:1
+    <string name="modes_suppressing_shade_text">
+        {count, plural, offset:1
             =0 {Nissuna notìfica}
             =1 {Notìficas postas in pàusa dae {mode}}
             =2 {Notìficas postas in pàusa dae {mode} e dae un\'àtera modalidade}
@@ -580,21 +582,27 @@
     <string name="all_apps_edu_notification_title">Imprea su tecladu pro bìdere totu is aplicatziones</string>
     <string name="all_apps_edu_notification_content">Incarca sa tecla de atzione in cale si siat momentu. Toca pro àteros gestos.</string>
     <string name="accessibility_deprecate_extra_dim_dialog_title">S\'iscuridade additzionale como est parte de su trisinadore de luminosidade</string>
-    <string name="accessibility_deprecate_extra_dim_dialog_description">        Como podes fàghere s\'ischermu iscuru meda abbassende su livellu de luminosidade.\n\nDa chi custa impostatzione como est parte de su trisinadore de luminosidade, is collegamentos curtzos ant a èssere bogados.
+    <string name="accessibility_deprecate_extra_dim_dialog_description">
+        Como podes fàghere s\'ischermu iscuru meda abbassende su livellu de luminosidade.\n\nDa chi custa impostatzione como est parte de su trisinadore de luminosidade, is collegamentos curtzos ant a èssere bogados.
     </string>
     <string name="accessibility_deprecate_extra_dim_dialog_button">Boga is curtzadòrgios de iscuridade additzionale</string>
     <string name="accessibility_deprecate_extra_dim_dialog_toast">        Curtzadòrgios de iscuridade additzionale bogados</string>
     <string name="qs_edit_mode_category_connectivity">        Connetividade
     </string>
-    <string name="qs_edit_mode_category_accessibility">        Atzessibilidade
+    <string name="qs_edit_mode_category_accessibility">
+        Atzessibilidade
     </string>
-    <string name="qs_edit_mode_category_utilities">        Utilidades
+    <string name="qs_edit_mode_category_utilities">
+        Utilidades
     </string>
-    <string name="qs_edit_mode_category_privacy">        Riservadesa
+    <string name="qs_edit_mode_category_privacy">
+        Riservadesa
     </string>
-    <string name="qs_edit_mode_category_display">        Ischermu
+    <string name="qs_edit_mode_category_display">
+        Ischermu
     </string>
-    <string name="qs_edit_mode_category_unknown">        Disconnotu
+    <string name="qs_edit_mode_category_unknown">
+        Disconnotu
     </string>
     <string name="qs_edit_mode_reset_dialog_title">        Boles ripristinare totu is cuadros?
     </string>

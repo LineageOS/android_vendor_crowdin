@@ -16,10 +16,12 @@
   -->
 <resources>
     <string name="broadcast_sender_permission_label">Mitent trasmission de sbare des aplicazions</string>
-    <string name="broadcast_sender_permission_desc">        Permès necessari al pachet par trasmeti events ae sbare des aplicazions.
+    <string name="broadcast_sender_permission_desc">
+        Permès necessari al pachet par trasmeti events ae sbare des aplicazions.
     </string>
     <string name="broadcast_receiver_permission_label">Ricevent trasmission de sbare des aplicazions</string>
-    <string name="broadcast_receiver_permission_desc">        Permès necessari al pachet par scoltâ events trasmetûts pe sbare des aplicazions.
+    <string name="broadcast_receiver_permission_desc">
+        Permès necessari al pachet par scoltâ events trasmetûts pe sbare des aplicazions.
     </string>
     <string name="pin_failed_no_spots">No\'nd è puest disponibil par fissâ</string>
 </resources>

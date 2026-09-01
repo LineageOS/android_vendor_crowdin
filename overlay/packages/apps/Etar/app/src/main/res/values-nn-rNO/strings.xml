@@ -306,6 +306,7 @@
     <string name="error_generating_ics">Noko gjekk gale då hendinga skulle delast</string>
     <string name="cal_share_intent_title">Send hendinga til:</string>
     <string name="cal_export_event_title">Eksporter hending</string>
+    <string name="cal_export_success">Hendinga vart eksportert</string>
     <string name="cal_export_error">Klarte ikkje å eksportera hending</string>
     <string name="cal_export_succ_msg">Hendinga vart eksportert</string>
     <string name="cal_import_menu_title">Importer hending</string>
@@ -343,7 +344,7 @@
     <string name="preferences_list_add_remote_etesync">Legg til EteSync-kalender</string>
     <string name="preferences_list_add_offline">Legg til fråkopla kalender</string>
     <string name="preferences_list_add_offline_title">Legg til fråkopla kalender</string>
-    <string name="preferences_list_add_offline_error_empty">Skriv inn eit kalendarnamn!</string>
+    <string name="preferences_list_add_offline_error_empty">Skriv eit kalendarnamn!</string>
     <string name="preferences_list_add_offline_message">Fråkopla kalenderar vert IKKJE synkroniserte med ei skytenteeste, og er berre tilgjengelege på telefonen din.</string>
     <string name="preferences_list_add_offline_button">Legg til kalender</string>
     <string name="preferences_list_add_offline_name">Namn</string>

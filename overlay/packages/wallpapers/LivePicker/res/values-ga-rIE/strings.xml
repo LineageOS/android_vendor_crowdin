@@ -17,5 +17,25 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Roghnóir Balla Beo</string>
+    <string name="live_wallpaper_picker_title">Roghnaigh páipéar balla beo</string>
+    <string name="live_wallpaper_picker_label">Páipéir Bheo</string>
+    <string name="live_wallpaper_preview_title">Réamhamharc ar an bpáipéar balla beo</string>
+    <string name="configure_wallpaper">Socruithe…</string>
+    <string name="delete_live_wallpaper">Scrios</string>
+    <string name="preview">Réamhamharc</string>
+    <string name="wallpaper_instructions">Socraigh páipéar balla</string>
+    <string name="live_wallpaper_empty">Gan aon pháipéir balla beo.</string>
+    <string name="set_live_wallpaper">Socraigh páipéar balla</string>
+    <string name="wallpaper_title_and_author"><xliff:g id="title" example="Galaxy">%1$s</xliff:g> le <xliff:g id="author" example="Google">%2$s</xliff:g></string>
+    <string name="live_wallpaper_loading">Ag lódáil páipéar balla beo…</string>
+    <string name="which_wallpaper_option_home_screen">Scáileán baile</string>
     <string name="which_wallpaper_option_lock_screen">Scáileán glasála</string>
+    <string name="which_wallpaper_option_home_screen_and_lock_screen">Scáileán baile agus scáileán glasála</string>
+    <string name="explore_further">Taiscéal</string>
+    <string name="tab_info">Eolas</string>
+    <string name="tab_customize">Saincheap</string>
+    <string name="delete_wallpaper_confirmation">Scrios an páipéar balla seo ó do ghuthán?</string>
+    <string name="collapse_attribution_panel">Painéal eolais an pháipéir balla a laghdú</string>
+    <string name="expand_attribution_panel">Leathnaigh painéal eolais an pháipéir balla</string>
 </resources>

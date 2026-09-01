@@ -25,7 +25,8 @@
     <string name="condition_night_display_title">Mae\u2019r Golau Nos ymlaen</string>
     <string name="network_and_internet">Rhwydwaith a\u2019r rhyngrwyd</string>
     <string name="mobile_network_settings">Rhwydwaith symudol</string>
-    <string name="mobile_network_summary_count">        {count, plural,
+    <string name="mobile_network_summary_count">
+        {count, plural,
             =1    {# SIM}
             other {# SIM}
         }
@@ -42,9 +43,11 @@
     <string name="mobile_network_state_off">I ffwrdd</string>
     <string name="confirm_mobile_data_disable">Diffodd data symudol?</string>
     <string name="sim_selection_required_pref">Rhaid dewis</string>
-    <string name="sim_change_data_title">        Defnyddio <xliff:g id="carrier" example="Google Fi">%1$s</xliff:g> ar gyfer data symudol?
+    <string name="sim_change_data_title">
+        Defnyddio <xliff:g id="carrier" example="Google Fi">%1$s</xliff:g> ar gyfer data symudol?
     </string>
-    <string name="sim_change_data_message">        Rwyt yn defnyddio  <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> ar gyfer data symudol
+    <string name="sim_change_data_message">
+        Rwyt yn defnyddio  <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> ar gyfer data symudol
         Os fyddi\'n newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>,
         ni ddefnyddir <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> ar gyfer data symudol.
     </string>
@@ -59,7 +62,8 @@
     <string name="cell_data_warning">Rhybudd data <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
     <string name="cell_data_limit">Cyfyngiad data <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
     <string name="cell_data_warning_and_limit">Rhybudd data <xliff:g name="amount" example="1 GB">^1</xliff:g> / Terfyn data <xliff:g name="amount" example="2 GB">^2</xliff:g></string>
-    <string name="billing_cycle_days_left">        {count, plural,
+    <string name="billing_cycle_days_left">
+        {count, plural,
             zero {}
             two {# ddiwrnod yn weddill}
 =1    {# diwrnod yn weddill}
@@ -338,7 +342,8 @@
     <string name="force_stop">Stopio\u2019r ap</string>
     <string name="force_stop_dialog_title">Stopio\u2019r ap?</string>
     <string name="force_stop_dialog_text">Os wyt yn gorfodi ap i stopio, mae\'n bosib iddo ymddwyn yn anarferol.</string>
-    <string name="force_stop_success_toast_text">        Cafodd <xliff:g id="app_name" example="Radio">%1$s</xliff:g> ei stopio.
+    <string name="force_stop_success_toast_text">
+        Cafodd <xliff:g id="app_name" example="Radio">%1$s</xliff:g> ei stopio.
     </string>
     <string name="prioritize_app_performance_dialog_title">Blaenoriaethu perfformiad ap?</string>
     <string name="prioritize_app_performance_dialog_text">Gall hyn achosi ansefydlogrwydd system neu effeithio ar galedwedd yn yr hirdymor. Wyt ti am barhau?</string>
@@ -359,7 +364,8 @@
     <string name="runtime_permissions_summary_no_permissions_granted">Dim caniatâd wedi\u2019i roi</string>
     <string name="runtime_permissions_summary_no_permissions_requested">Heb ofyn am unrhyw ganiatâd</string>
     <string name="unused_apps">Apiau heb eu defnyddio</string>
-    <string name="unused_apps_summary">        {count, plural,
+    <string name="unused_apps_summary">
+        {count, plural,
             zero {}
             =1    {# ap heb ei ddefnyddio}
             other {# ap heb eu defnyddio}
@@ -392,7 +398,8 @@
     <string name="app_data_usage_restrict_data_title">Cyfyngu data</string>
     <string name="app_data_usage_background_data_summary">Defnyddio data symudol dim ond tra bod yr ap ar y blaen</string>
     <string name="computing_size">Yn cyfrifo\u2026</string>
-    <string name="runtime_permissions_additional_count">        {count, plural,
+    <string name="runtime_permissions_additional_count">
+        {count, plural,
             zero {}
 =1    {# caniatâd ychwanegol}
             other {# caniatâd ychwanegol}
@@ -410,7 +417,8 @@
     <string name="app_list_preference_none">Dim</string>
     <string name="default_app_selected_app">Wedi\'u dewis</string>
     <string name="assistant_security_warning">Bydd y cynorthwyydd yn medru darllen gwybodaeth am yr apiau mewn defnydd ar dy system, gan gynnwys gwybodaeth sy\u2019n weledol ar dy sgrin neu ar gael o fewn yr apiau.</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
+    <string name="autofill_confirmation_message"><![CDATA[
+        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> yn defnyddio\'r
@@ -434,7 +442,8 @@
     <string name="app_link_open_never">Peidio ag agor yn yr ap hwn</string>
     <string name="app_launch_supported_domain_urls_title">Dolenni a gefnogir</string>
     <string name="opening_links_verified_links_title">Dolenni wedi\u2019u dilysu</string>
-    <string name="opening_links_verified_links_summary">        {count, plural,
+    <string name="opening_links_verified_links_summary">
+        {count, plural,
         zero {}
         one {# dolen wedi ei dilysu}
         two {# ddolen wedi eu dilysu}
@@ -445,7 +454,8 @@
         }
     </string>
     <string name="opening_links_supported_links_title">Dolenni a gefnogir</string>
-    <string name="opening_links_supported_links_summary">        {count, plural,
+    <string name="opening_links_supported_links_summary">
+        {count, plural,
         zero {}
         one {# dolen a gefnogir}
         two {# ddolen a gefnogir}
@@ -462,7 +472,8 @@
     <string name="apps_view_all_apps_title">Gweld pob ap %1$d</string>
     <string name="apps_permission_manager_title">Rheolydd caniatâd</string>
     <string name="apps_permission_manager_summary">Rheoli mynediad yr ap at dy ddata</string>
-    <string name="performance_impacting_apps_summary">        {count, plural,
+    <string name="performance_impacting_apps_summary">
+        {count, plural,
             zero {}
             one {# ap yn amharu perfformiad}
             two {# ap yn amharu perfformiad}
@@ -493,28 +504,36 @@
     <string name="wifi_control_description">Mae rheolaeth Wi-Fi yn caniatáu i ap droi Wi-Fi ymlaen ac i ffwrdd, sganio am a chysylltu â rhwydweithiau Wi-Fi, tynnu neu ychwanegu rhwydweithiau neu dechrau llecyn Wi-Fi.</string>
     <string name="more_special_access_title">Rhagor</string>
     <string name="location_settings_title">Lleoliad</string>
-    <string name="location_toggle_summary">        Defnyddia lleoliad dy gar gydag unrhyw ap rwyt yn ei ddewis.
+    <string name="location_toggle_summary">
+        Defnyddia lleoliad dy gar gydag unrhyw ap rwyt yn ei ddewis.
     </string>
     <string name="location_infotainment_apps_toggle_title">Apiau gwybodloniant</string>
     <string name="location_infotainment_apps_toggle_summary">Caniatáu i apiau gael mynediad at dy leoliad</string>
     <string name="location_toggle_off_warning">Os fydd hwn i ffwrdd, mi fydd yn tynnu mynediad at leoliad oddi wrth pob ap ag eithro\u2019r rhai sydd ei angen ar gyfer cymorth gyrrwr</string>
-    <string name="adas_location_toggle_off_warning">        Os fydd hwn i ffwrdd, caiff apiau cymorth gyrrwr sy\u2019n dibynnu ar wybodaeth lleoliad eu hanalluogi.
+    <string name="adas_location_toggle_off_warning">
+        Os fydd hwn i ffwrdd, caiff apiau cymorth gyrrwr sy\u2019n dibynnu ar wybodaeth lleoliad eu hanalluogi.
     </string>
-    <string name="adas_location_toggle_popup_summary">        Ni ellir newid y gosodiad hwn ac mae wedi cael ei analluogi gan wneuthurwr dy gar.
+    <string name="adas_location_toggle_popup_summary">
+        Ni ellir newid y gosodiad hwn ac mae wedi cael ei analluogi gan wneuthurwr dy gar.
     </string>
-    <string name="adas_location_toggle_title">        Nodweddion sy\u2019n dy helpu i yrru
+    <string name="adas_location_toggle_title">
+        Nodweddion sy\u2019n dy helpu i yrru
     </string>
-    <string name="adas_location_toggle_summary">        Caniatáu nodweddion o fewn iddo, wedi eu cymeradwyo gan wneuthurwr dy gar, i gael mynediad at leoliad dy gar.
+    <string name="adas_location_toggle_summary">
+        Caniatáu nodweddion o fewn iddo, wedi eu cymeradwyo gan wneuthurwr dy gar, i gael mynediad at leoliad dy gar.
     </string>
     <string name="location_no_recent_access">Dim apiau diweddar</string>
-    <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Cymorth Gyrrwr \u2022
+    <string name="driver_assistance_label">
+        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Cymorth Gyrrwr \u2022
         Angen mynediad
     </string>
-    <string name="location_adas_apps_list_title">        Nodweddion sy\u2019n dy helpu i yrru
+    <string name="location_adas_apps_list_title">
+        Nodweddion sy\u2019n dy helpu i yrru
     </string>
     <string name="location_driver_assistance_privacy_policy_button_text">Polisi</string>
     <string name="location_settings_app_permissions_title">Caniatâd lefel apiau</string>
-    <string name="location_settings_app_permissions_summary">        Rheoli caniatâd apiau unigol
+    <string name="location_settings_app_permissions_summary">
+        Rheoli caniatâd apiau unigol
     </string>
     <string name="location_settings_services_title">Gwasanaethau Lleoliad</string>
     <string name="location_access_settings_title">Mynediad at leoliad</string>
@@ -525,7 +544,8 @@
     <string name="microphone_manage_permissions">Rheoli caniatâd meicroffon</string>
     <string name="microphone_no_recent_access">Dim apiau diweddar</string>
     <string name="microphone_app_permission_summary_microphone_off">Does gan dim apiau fynediad</string>
-    <string name="microphone_app_permission_summary_microphone_on">        {count, plural,
+    <string name="microphone_app_permission_summary_microphone_on">
+        {count, plural,
 =1    {Mae gan # o {total_count} ap fynediad}
             other {Mae gan # o {total_count} ap fynediad}
         }
@@ -568,7 +588,8 @@
     <string name="settings_license_activity_title">Trwyddedau trydydd parti</string>
     <string name="settings_license_activity_unavailable">Mae yna broblem wrth lwytho\u2019r trwyddedau.</string>
     <string name="settings_license_activity_loading">Yn llwytho\u2026</string>
-    <string name="show_dev_countdown">        {count, plural,
+    <string name="show_dev_countdown">
+        {count, plural,
 =1    {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
 other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
         }
@@ -632,7 +653,8 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="user_add_user_menu">Ychwanegu proffil</string>
     <string name="user_new_user_name">Proffil newydd</string>
     <string name="user_add_user_title">"Ychwanegu proffil newydd?"</string>
-    <string name="user_limit_reached_message">        {count, plural,
+    <string name="user_limit_reached_message">
+        {count, plural,
             zero {}
           =1    {Gellir ond creu un proffil.}
             two {Gellir ond creu hyd at # broffil.}
@@ -807,21 +829,24 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="lockpassword_password_requires_alpha">Rhaid cynnwys o leiaf un llythyren</string>
     <string name="lockpassword_password_requires_digit">Rhaid cynnwys o leiaf un digid</string>
     <string name="lockpassword_password_requires_symbol">Rhaid cynnwys o leiaf un symbol</string>
-    <string name="lockpassword_password_requires_letters">        {count, plural,
+    <string name="lockpassword_password_requires_letters">
+        {count, plural,
         zero {}
         two {Rhaid cynnwys o leiaf # lythyren}
 =1    {Rhaid cynnwys o leiaf # llythyren}
         other {Rhaid cynnwys o leiaf # llythyren}
         }
     </string>
-    <string name="lockpassword_password_requires_lowercase">        {count, plural,
+    <string name="lockpassword_password_requires_lowercase">
+        {count, plural,
         zero {}
         two {Rhaid cynnwys o leiaf # lythyren fach}
 =1    {Rhaid cynnwys o leiaf # llythyren fach}
         other {Rhaid cynnwys o leiaf # llythyren fach}
         }
     </string>
-    <string name="lockpassword_password_requires_uppercase">        {count, plural,
+    <string name="lockpassword_password_requires_uppercase">
+        {count, plural,
         zero {}
         two {Rhaid cynnwys o leiaf # briflythyren}        
         few {Rhaid cynnwys o leiaf # phriflythyren}
@@ -830,46 +855,54 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
         other {Rhaid cynnwys o leiaf # priflythyren}
         }
     </string>
-    <string name="lockpassword_password_requires_numeric">        {count, plural,
+    <string name="lockpassword_password_requires_numeric">
+        {count, plural,
         zero {}
         two {Rhaid cynnwys o leiaf # ddigid rhifol}
 =1    {Rhaid cynnwys o leiaf # digid rhifol}
         other {Rhaid cynnwys o leiaf # digid rhifol}
         }
     </string>
-    <string name="lockpassword_password_requires_symbols">        {count, plural,
+    <string name="lockpassword_password_requires_symbols">
+        {count, plural,
         zero {}
 =1    {Rhaid cynnwys o leiaf # symbol arbennig}
         other {Rhaid cynnwys o leiaf # symbol arbennig}
         }
     </string>
-    <string name="lockpassword_password_requires_nonletter">        {count, plural,
+    <string name="lockpassword_password_requires_nonletter">
+        {count, plural,
 =1    {Rhaid cynnwys o leiaf # nod na sy\u2019n llythyren}
         other {Rhaid cynnwys o leiaf # nod na sy\u2019n llythyren}
         }
     </string>
-    <string name="lockpassword_password_requires_nonnumerical">        {count, plural,
+    <string name="lockpassword_password_requires_nonnumerical">
+        {count, plural,
         =1    {Rhaid cynnwys o leiaf # nod na sy\u2019n rhif}
         other {Rhaid cynnwys o leiaf # nod na sy\u2019n rhif}
         }
     </string>
-    <string name="lockpassword_password_too_short">        {count, plural,
+    <string name="lockpassword_password_too_short">
+        {count, plural,
 =1    {Rhaid cynnwys o leiaf # nod}
         other {Rhaid cynnwys o leiaf # nod}
         }
     </string>
-    <string name="lockpassword_pin_too_short">        {count, plural,
+    <string name="lockpassword_pin_too_short">
+        {count, plural,
         two {Rhaid cynnwys o leiaf # ddigid}
 =1    {Rhaid cynnwys o leiaf # digid}
         other {Rhaid cynnwys o leiaf # digid}
         }
     </string>
-    <string name="lockpassword_password_too_long">        {count, plural,
+    <string name="lockpassword_password_too_long">
+        {count, plural,
         =1    {Rhaid bod yn llai na # nod}
         other {Rhaid bod yn llai na # nod}
         }
     </string>
-    <string name="lockpassword_pin_too_long">        {count, plural,
+    <string name="lockpassword_pin_too_long">
+        {count, plural,
         two {Rhaid bod yn llai na # ddigid}
 =1    {Rhaid bod yn llai na # digid}
         other {Rhaid bod yn llai na # digid}
@@ -929,7 +962,8 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="add_device_admin">Actifadu\u2019r ap gwybodloniant system hwn</string>
     <string name="deactivate_and_uninstall_device_admin">Dadactifadu a dadosod</string>
     <string name="remove_device_admin">Dadactifadu\u2019r ap gwybodloniant system hwn</string>
-    <string name="number_of_device_admins">        {count, plural,
+    <string name="number_of_device_admins">
+        {count, plural,
         zero {}
         =1    {# ap yn weithredol}
         other {# ap yn weithredol}
@@ -966,7 +1000,8 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="camera_toggle_summary">Caniatáu pob ap i gael mynediad i\u2019r camera</string>
     <string name="camera_manage_permissions">Rheoli caniatâd camera</string>
     <string name="camera_no_recent_access">Dim apiau diweddar</string>
-    <string name="camera_app_permission_summary_camera_on">        {count, plural,
+    <string name="camera_app_permission_summary_camera_on">
+        {count, plural,
 =1    {Mae gan # o {total_count} ap fynediad}
             other {Mae gan # o {total_count} ap fynediad}
         }

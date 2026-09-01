@@ -192,6 +192,7 @@
     <string name="default_start_last">نمای قبلا استفاده شده</string>
     <string name="preferences_week_start_day_title">شروع هفته از</string>
     <string name="preferences_week_start_day_dialog">شروع هفته از</string>
+    <string name="week_start_locale_default">پیش فرض محلی</string>
     <string name="preferences_days_per_week_title">تعداد روزها در هفته</string>
     <string name="preferences_days_per_week_dialog">تعداد روزها در هفته</string>
     <string name="preferences_default_event_duration_title">مدت زمان پیش‌فرض رویداد</string>
@@ -304,6 +305,10 @@
     <string name="two_hours">۲ ساعت</string>
     <string name="error_generating_ics">هنگام اشتراک‌گذاری رویداد مشکلی پیش آمد</string>
     <string name="cal_share_intent_title">ارسال رویداد به:</string>
+    <string name="cal_export_event_title">وارد‌کردن رویداد</string>
+    <string name="cal_export_success">رویداد با موفقیت صادر شد</string>
+    <string name="cal_export_error">خطا در صادر‌کردن رویداد</string>
+    <string name="cal_export_succ_msg">رویداد با موفقیت صادر شد</string>
     <string name="cal_import_menu_title">وارد کردن رویداد</string>
     <string name="cal_nothing_to_import">چیزی برای وارد کردن وجود ندارد</string>
     <string name="cal_import_error_msg">واردسازی به تقویم ناموفق بود</string>

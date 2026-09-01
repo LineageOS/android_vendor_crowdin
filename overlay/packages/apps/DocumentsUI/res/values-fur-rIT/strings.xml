@@ -91,9 +91,11 @@
     <string name="query_error">Impussibil cjariâ il contignût in chest moment</string>
     <string name="quiet_mode_error_title">Lis aplicazions di lavôr a son in pause</string>
     <string name="quiet_mode_button">Ative aplicazions di lavôr</string>
-    <string name="profile_quiet_mode_error_title">        Lis aplicazions dal profîl <xliff:g id="profile" example="Work">%1$s</xliff:g> a son in pause
+    <string name="profile_quiet_mode_error_title">
+        Lis aplicazions dal profîl <xliff:g id="profile" example="Work">%1$s</xliff:g> a son in pause
     </string>
-    <string name="profile_quiet_mode_button">        Ative lis aplicazions dal profîl <xliff:g id="profile" example="work">%1$s</xliff:g>
+    <string name="profile_quiet_mode_button">
+        Ative lis aplicazions dal profîl <xliff:g id="profile" example="work">%1$s</xliff:g>
     </string>
     <string name="cant_select_work_files_error_title">Impussibil selezionâ i files di lavôr</string>
     <string name="cant_select_work_files_error_message">Il ti aministradôr IT no ti permet di acedi ai

@@ -260,7 +260,8 @@
     <string name="disabled_in_phone_call_text">No a disponimentu cando ses in mutida</string>
     <string name="disabled">Disativadu</string>
     <string name="enabled">Abilitadu</string>
-    <string name="wifi_tether_connected_summary">        {count, plural,
+    <string name="wifi_tether_connected_summary">
+        {count, plural,
             one {}=1    {1 dispositivu collegadu}
             other {# dispositivos collegados}
         }

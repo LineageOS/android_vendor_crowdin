@@ -296,7 +296,8 @@
     <string name="limited_sim_function_with_phone_num_notification_message">Lis clamadis e i servizis dâts di <xliff:g id="carrier_name">%1$s</xliff:g> a podaressin jessi blocâts intant che tu dopris il numar <xliff:g id="phone_number">%2$s</xliff:g>.</string>
     <string name="limited_sim_function_notification_message">Lis clamadis e i servizis dâts di <xliff:g id="carrier_name">%1$s</xliff:g> a podaressin jessi blocâts intant che tu dopris une altre SIM.</string>
     <string name="sip_accounts_removed_notification_title">Cjatâts e gjavâts accounts SIP deplorâts</string>
-    <string name="sip_accounts_removed_notification_message">        Lis clamadis SIP no son plui supuartadis de plateforme Android.\nI tiei accounts SIP esistents <xliff:g id="removed_sip_accounts">%s</xliff:g> a son stâts gjavâts.\nPar plasê conferme la impostazion dal account predefinît par clamâ.
+    <string name="sip_accounts_removed_notification_message">
+        Lis clamadis SIP no son plui supuartadis de plateforme Android.\nI tiei accounts SIP esistents <xliff:g id="removed_sip_accounts">%s</xliff:g> a son stâts gjavâts.\nPar plasê conferme la impostazion dal account predefinît par clamâ.
     </string>
     <string name="sip_accounts_removed_notification_action">Va tes impostazions</string>
     <string name="data_usage_title">Utilizazion dâts des aplicazions</string>
@@ -601,7 +602,8 @@
     <string name="hac_mode_summary">Ative la compatibilitât cui aparâts acustics</string>
     <string name="rtt_mode_title">Clamade test in timp reâl (RTT)</string>
     <string name="rtt_mode_summary">Permet di mandâ messaçs dentri di une clamade vocâl</string>
-    <string name="rtt_mode_more_information">       RTT (test in timp reâl) al jude i interlocutôrs sorts, che a fasin fadie a sintî,
+    <string name="rtt_mode_more_information">
+       RTT (test in timp reâl) al jude i interlocutôrs sorts, che a fasin fadie a sintî,
        che a àn mancjancis tal fevelâ o che a àn bisugne di alc in plui rispiet ae sole
        vôs.&lt;br&gt;
        &lt;a href=\"<xliff:g example="http://www.google.com" id="url">http://support.google.com/mobile?p=telephony_rtt</xliff:g>\"&gt;Scuvierç di plui&lt;/a&gt;
@@ -682,7 +684,8 @@
     <string name="call_settings_title_font_family">sans-serif-light</string>
     <string name="pstn_connection_service_label">Schedis SIM integradis</string>
     <string name="enable_video_calling_title">Ative videoclamade</string>
-    <string name="enable_video_calling_dialog_msg">        Par ativâ la videoclamade, tu scugnis ativâ la modalitât 4G LTE miorade tes impostazions di rêt.
+    <string name="enable_video_calling_dialog_msg">
+        Par ativâ la videoclamade, tu scugnis ativâ la modalitât 4G LTE miorade tes impostazions di rêt.
     </string>
     <string name="enable_video_calling_dialog_settings">Impostazions di rêt</string>
     <string name="enable_video_calling_dialog_close">Siere</string>
@@ -697,13 +700,17 @@
     <string name="tty_mode_key">button_tty_mode_key</string>
     <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="message_decode_error">Al è capitât un erôr intant che il messaç al vignive decodificât.</string>
-    <string name="callFailed_cdma_activation">        Une schede SIM e à ativât il servizi e e à inzornât lis funzionalitâts di roaming dal telefon.
+    <string name="callFailed_cdma_activation">
+        Une schede SIM e à ativât il servizi e e à inzornât lis funzionalitâts di roaming dal telefon.
     </string>
-    <string name="callFailed_cdma_call_limit">        A son masse clamadis ativis. Bute jù o unìs lis clamadis esistentis prime di fânt une gnove.
+    <string name="callFailed_cdma_call_limit">
+        A son masse clamadis ativis. Bute jù o unìs lis clamadis esistentis prime di fânt une gnove.
     </string>
-    <string name="callFailed_imei_not_accepted">        Impussibil conetisi, inserìs une schede SIM valide.
+    <string name="callFailed_imei_not_accepted">
+        Impussibil conetisi, inserìs une schede SIM valide.
     </string>
-    <string name="callFailed_wifi_lost">        Conession Wi-Fi pierdude.  Clamade terminade.
+    <string name="callFailed_wifi_lost">
+        Conession Wi-Fi pierdude.  Clamade terminade.
     </string>
     <string name="dialFailed_low_battery">Nol è pussibil fâ la tô videoclamade par vie de batarie in esauriment.</string>
     <string name="callFailed_low_battery">Videoclamade butade jù par vie de batarie in esauriment.</string>
@@ -954,7 +961,8 @@
     <string name="phone_info_label" product="default">Informazions telefon</string>
     <string name="carrier_provisioning">Informazions su la provision dal operadôr</string>
     <string name="trigger_carrier_provisioning">Ative provision operadôr</string>
-    <string name="call_quality_notification_bluetooth_details">        Il segnâl bluetooth al è debil.  Prove a passâ al amplificadôr pe casse dal telefon.</string>
+    <string name="call_quality_notification_bluetooth_details">
+        Il segnâl bluetooth al è debil.  Prove a passâ al amplificadôr pe casse dal telefon.</string>
     <string name="call_quality_notification_name">Notifiche su la cualitât de clamade</string>
     <string name="notification_channel_sip_account">Accounts SIP deplorâts</string>
     <string name="send_from_work_profile_title">Impussibil mandâ messaçs di une aplicazion personâl</string>

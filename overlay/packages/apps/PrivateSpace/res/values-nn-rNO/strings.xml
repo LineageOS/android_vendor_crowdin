@@ -23,35 +23,44 @@
     <string name="move_files_dialog_button_label_move">Flytt</string>
     <string name="move_files_dialog_button_label_copy">Kopier</string>
     <string name="move_files_dialog_button_label_cancel">Avbryt</string>
-    <string name="filetransfer_notification_copy_progress_title">        {count, plural, =1 {Kopierer # fil} other {Kopierer # filer}}
+    <string name="filetransfer_notification_copy_progress_title">
+        {count, plural, =1 {Kopierer # fil} other {Kopierer # filer}}
     </string>
-    <string name="filetransfer_notification_move_progress_title">        {count, plural, =1 {Flyttar # fil} other {Flyttar # filer}}
+    <string name="filetransfer_notification_move_progress_title">
+        {count, plural, =1 {Flyttar # fil} other {Flyttar # filer}}
     </string>
-    <string name="filetransfer_notification_copy_complete_title">        {count, plural, =1 {# fil kopiert} other {# filer kopierte}}
+    <string name="filetransfer_notification_copy_complete_title">
+        {count, plural, =1 {# fil kopiert} other {# filer kopierte}}
     </string>
-    <string name="filetransfer_notification_move_complete_title">        {count, plural, =1 {# fil flytta} other {# filer flytta}}
+    <string name="filetransfer_notification_move_complete_title">
+        {count, plural, =1 {# fil flytta} other {# filer flytta}}
     </string>
-    <string name="filetransfer_notification_copy_progress_text">        {count, plural,
+    <string name="filetransfer_notification_copy_progress_text">
+        {count, plural,
         =1 {Fila du valde vert kopiert til det private området}
         other {Filene du valde vert kopierte til det private området}
         }
     </string>
-    <string name="filetransfer_notification_move_progress_text">        {count, plural,
+    <string name="filetransfer_notification_move_progress_text">
+        {count, plural,
         =1 {Fila du valde vert flytta til det private området}
         other {Filene du valde vert flytta til det private området}
         }
     </string>
-    <string name="filetransfer_notification_copy_complete_text">        {count, plural,
+    <string name="filetransfer_notification_copy_complete_text">
+        {count, plural,
         =1 {Fila du valde vart kopiert til det private området}
         other {Filene du valde vart kopierte til det private området}
         }
     </string>
-    <string name="filetransfer_notification_move_complete_text">        {count, plural,
+    <string name="filetransfer_notification_move_complete_text">
+        {count, plural,
         =1 {Fila du valde vart flytta til det private området}
         other {Filene du valde vart flytta til det private området}
         }
     </string>
-    <string name="filetransfer_notification_action_label">        {count, plural,
+    <string name="filetransfer_notification_action_label">
+        {count, plural,
         =1 {Vis fil}
         other {Vis filer}
         }

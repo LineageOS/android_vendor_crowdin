@@ -16,10 +16,12 @@
   -->
 <resources>
     <string name="broadcast_sender_permission_label">Sendar for dokk-kringkasting</string>
-    <string name="broadcast_sender_permission_desc">        Løyve som trengst for at pakken skal kunna kringkasta hendingar til dokken.
+    <string name="broadcast_sender_permission_desc">
+        Løyve som trengst for at pakken skal kunna kringkasta hendingar til dokken.
     </string>
     <string name="broadcast_receiver_permission_label">Mottakar for dokk-kringkasting</string>
-    <string name="broadcast_receiver_permission_desc">        Løyve som trengst for at pakken skal kunna lytta til kringkastingshendingar for dokken.
+    <string name="broadcast_receiver_permission_desc">
+        Løyve som trengst for at pakken skal kunna lytta til kringkastingshendingar for dokken.
     </string>
     <string name="pin_failed_no_spots">Ingen ledige plassar for å festa</string>
 </resources>

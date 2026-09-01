@@ -24,54 +24,68 @@
     <string name="keyguard_missing_sim_message" product="tablet">Nissune SIM tal tablet.</string>
     <string name="keyguard_missing_sim_message" product="default">Nissune SIM tal telefon.</string>
     <string name="kg_invalid_confirm_pin_hint" product="default">I codiçs PIN no corispuindin</string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e chest tablet
        al vignarà ripristinât e a vignaran eliminâts ducj i siei dâts.
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e chest telefon
        al vignarà ripristinât e a vignaran eliminâts ducj i siei dâts.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_wiping" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Chest tablet al vignarà ripristinât e a vignaran eliminâts ducj i siei dâts.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_wiping" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Chest telefon al vignarà ripristinât e a vignaran eliminâts ducj i siei dâts.
     </string>
-    <string name="kg_failed_attempts_almost_at_erase_user" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_erase_user" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e chest utent
        al vignarà gjavât e a vignaran eliminâts ducj i dâts dal utent.
     </string>
-    <string name="kg_failed_attempts_almost_at_erase_user" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_erase_user" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e chest utent
        al vignarà gjavât e a vignaran eliminâts ducj i dâts dal utent.
     </string>
-    <string name="kg_failed_attempts_now_erasing_user" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_erasing_user" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Chest utent al vignarà gjavât e a vignaran eliminâts ducj i dâts dal utent.
     </string>
-    <string name="kg_failed_attempts_now_erasing_user" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_erasing_user" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Chest utent al vignarà gjavât e a vignaran eliminâts ducj i dâts dal utent.
     </string>
-    <string name="kg_failed_attempts_almost_at_erase_profile" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e il profîl di lavôr
        al vignarà gjavât e a vignaran eliminâts ducj i dâts dal profîl.
     </string>
-    <string name="kg_failed_attempts_almost_at_erase_profile" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%1$d</xliff:g> tentatîfs sbaliâts.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e il profîl di lavôr
        al vignarà gjavât e a vignaran eliminâts ducj i dâts dal profîl.
     </string>
-    <string name="kg_failed_attempts_now_erasing_profile" product="tablet">       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_erasing_profile" product="tablet">
+       Tu âs cirût di sblocâ il tablet cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Il profîl di lavôr al vignarà gjavât e a vignaran eliminâts ducj i dâts dal profîl.
     </string>
-    <string name="kg_failed_attempts_now_erasing_profile" product="default">       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
+    <string name="kg_failed_attempts_now_erasing_profile" product="default">
+       Tu âs cirût di sblocâ il telefon cun <xliff:g id="number">%d</xliff:g> tentatîfs sbaliâts.
        Il profîl di lavôr al vignarà gjavât e a vignaran eliminâts ducj i dâts dal profîl.
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="tablet">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e
        ti vignarà domandât di sblocâ il to tablet doprant un account di e-mail.\n\n
        Torne prove chi di <xliff:g id="number">%3$d</xliff:g> seconts.
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="default">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_failed_attempts_almost_at_login" product="default">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
        Ancjemò <xliff:g id="number">%2$d</xliff:g> tentatîfs sbaliâts e
        ti vignarà domandât di sblocâ il to telefon doprant un account di e-mail.\n\n
        Torne prove chi di <xliff:g id="number">%3$d</xliff:g> seconts.

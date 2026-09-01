@@ -220,7 +220,8 @@
     <string name="printing_disabled_by">Imprenta disativada dae <xliff:g id="owner_app">%s</xliff:g>.</string>
     <string name="personal_apps_suspension_title">Ativa su profilu de traballu </string>
     <string name="personal_apps_suspension_text">Is aplicatziones personales sunt blocadas finas a cando no ativas su profilu de traballu</string>
-    <string name="personal_apps_suspension_soon_text">        Is aplicatziones personales ant a èssere blocadas su <xliff:g id="date" example="May 29">%1$s</xliff:g> a is
+    <string name="personal_apps_suspension_soon_text">
+        Is aplicatziones personales ant a èssere blocadas su <xliff:g id="date" example="May 29">%1$s</xliff:g> a is
         <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. S\'amministratzione IT tua 
         no at a permìtere a
         su profilu de traballu de abarrare disativadu pro prus de 
@@ -540,11 +541,13 @@ Custu podet inclùdere contos creados dae is aplicatziones chi as installadu.
 Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is aplicatziones malas diant pòdere cumpartzire is datos sena chi tue dd\'iscas.</string>
     <string name="permlab_writeContacts">modificare is cuntatos tuos</string>
     <string name="permdesc_writeContacts" product="tablet">Permite a s\'aplicatzione de modificare is datos de is cuntatos tuos archiviados in su tablet. 
-      Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.</string>
+      Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.
+</string>
     <string name="permdesc_writeContacts" product="tv">Permitit a s\'aplicatzione de modificare is datos de is cuntatos tuos archiviados in custu dispositivu Android TV.
       Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.</string>
     <string name="permdesc_writeContacts" product="default">Permite a s\'aplicatzione de modificare is datos de is cuntatos tuos archiviados in su telèfonu. 
-      Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.</string>
+      Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.
+</string>
     <string name="permlab_readCallLog">lèghere su registru de mutidas</string>
     <string name="permdesc_readCallLog">Custa aplicatzione podet lèghere sa cronologia de mutidas.</string>
     <string name="permlab_writeCallLog">iscrìere su registru de mutidas</string>
@@ -737,7 +740,8 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
         longària e genia de blocu de ischermu. S\'aplicatzione podet puru sugerire atualizatziones de
         su blocu de ischermu a unu tzertu livellu, ma is utentes podent innoriare e sighire a navigare. Càstia chi
         su blocu de s\'ischermu no est archiviadu in testu sèmplitze, in manera chi s\'aplicatzione no connoscat sa crae curreta.
-    </string>
+    
+</string>
     <string name="permlab_postNotification">ammustrare notìficas</string>
     <string name="permdesc_postNotification">Permitit chi s\'aplicatzione mustret notìficas</string>
     <string name="permlab_turnScreenOn">ativatzione de s\'ischermu</string>
@@ -753,7 +757,8 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="permlab_videoWrite">modìfica sa regorta de vìdeu</string>
     <string name="permdesc_videoWrite">Permite a s\'aplicatzione de modificare sa regorta de vìdeo.</string>
     <string name="permlab_imagesWrite">modìficare sa regorta de fotografias</string>
-    <string name="permdesc_imagesWrite">Permitit a s\'aplicatzione de modificare sa regorta de fotografias.</string>
+    <string name="permdesc_imagesWrite">Permitit a s\'aplicatzione de modificare sa regorta de fotografias.
+</string>
     <string name="permlab_mediaLocation">lèghere is positziones dae sa regorta de mùsica</string>
     <string name="permdesc_mediaLocation">Permitit a s\'aplicatzione de lèghere is positziones dae sa regorta multimediale.</string>
     <string name="biometric_app_setting_name">Imprea sa biometria</string>
@@ -1294,25 +1299,35 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="year">annu</string>
     <string name="years">annos</string>
     <string name="now_string_shortest">immoe</string>
-    <string name="duration_minutes_shortest">        <xliff:g id="count">%d</xliff:g>m
+    <string name="duration_minutes_shortest">
+        <xliff:g id="count">%d</xliff:g>m
     </string>
-    <string name="duration_hours_shortest">        <xliff:g id="count">%d</xliff:g>h
+    <string name="duration_hours_shortest">
+        <xliff:g id="count">%d</xliff:g>h
     </string>
-    <string name="duration_days_shortest">       <xliff:g id="count">%d</xliff:g>d
+    <string name="duration_days_shortest">
+       <xliff:g id="count">%d</xliff:g>d
     </string>
-    <string name="duration_years_shortest">        <xliff:g id="count">%d</xliff:g>a
+    <string name="duration_years_shortest">
+        <xliff:g id="count">%d</xliff:g>a
     </string>
-    <string name="duration_minutes_shortest_future">        de immoe a <xliff:g id="count">%d</xliff:g>m
+    <string name="duration_minutes_shortest_future">
+        de immoe a <xliff:g id="count">%d</xliff:g>m
     </string>
-    <string name="duration_hours_shortest_future">        de immoe a <xliff:g id="count">%d</xliff:g>h
+    <string name="duration_hours_shortest_future">
+        de immoe a <xliff:g id="count">%d</xliff:g>h
     </string>
-    <string name="duration_days_shortest_future">        de immoe a <xliff:g example="1" id="count">%d</xliff:g>d
+    <string name="duration_days_shortest_future">
+        de immoe a <xliff:g example="1" id="count">%d</xliff:g>d
     </string>
-    <string name="duration_years_shortest_future">        de immoe a <xliff:g id="count">%d</xliff:g>a
+    <string name="duration_years_shortest_future">
+        de immoe a <xliff:g id="count">%d</xliff:g>a
     </string>
-    <string name="duration_minutes_medium">        <xliff:g id="count">%d</xliff:g> min
+    <string name="duration_minutes_medium">
+        <xliff:g id="count">%d</xliff:g> min
     </string>
-    <string name="duration_hours_medium">        <xliff:g id="count">%d</xliff:g> h
+    <string name="duration_hours_medium">
+        <xliff:g id="count">%d</xliff:g> h
     </string>
     <string name="duration_minutes_relative">{count, plural,
         =1 {# minutu a immoe}
@@ -1923,9 +1938,11 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="kg_reordering_delete_drop_target_text">Boga</string>
     <string name="safe_media_volume_warning" product="default">       \"Crèschere su volùmene prus in artu de su livellu cussigiadu?\n\nAscurtare a volùmene artu pro tempus longos ti podet fàghere dannu a is origras.\"
     </string>
-    <string name="csd_dose_reached_warning" product="default">        \"Boles sighire a ascurtare a unu volùmene artu?\n\nSu volùmene de is cùfias est istadu artu pro prus tempus de su cussigiadu, e custu ti podet fàghere dannu a s\'oidu\"
+    <string name="csd_dose_reached_warning" product="default">
+        \"Boles sighire a ascurtare a unu volùmene artu?\n\nSu volùmene de is cùfias est istadu artu pro prus tempus de su cussigiadu, e custu ti podet fàghere dannu a s\'oidu\"
     </string>
-    <string name="csd_momentary_exposure_warning" product="default">        \"Volùmene de àudio artu rilevadu\n\n\Su volùmene de is cùfias est istadu prus artu de su chi est cussigiadu, e custu ti podet fàghere dannu a s\'oidu\"
+    <string name="csd_momentary_exposure_warning" product="default">
+        \"Volùmene de àudio artu rilevadu\n\n\Su volùmene de is cùfias est istadu prus artu de su chi est cussigiadu, e custu ti podet fàghere dannu a s\'oidu\"
     </string>
     <string name="accessibility_shortcut_warning_dialog_title">Boles impreare su curtzadòrgiu de atzessibilidade?</string>
     <string name="accessibility_shortcut_on">Ativa</string>
@@ -1938,7 +1955,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
         de permissu, e duncas sa risposta tua non podet èssere averguada.</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Sèbera is funtziones de impreare cun
         su curtzadòrgiu de su butone de su volùmene
-    </string>
+    
+</string>
     <string name="done_accessibility_shortcut_menu_button">Fatu</string>
     <string name="disable_accessibility_shortcut">Disativa su curtziadòrgiu</string>
     <string name="leave_accessibility_shortcut_on">Imprea su curtziadòrgiu</string>
@@ -2210,7 +2228,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="region_picker_section_all">Totu is regiones</string>
     <string name="locale_search_menu">Chirca</string>
     <string name="app_suspended_title">S\'aplicatzione no est a disponimentu</string>
-    <string name="app_suspended_default_message">        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> no est a disponimentu immoe. Custu ddu gestit <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
+    <string name="app_suspended_default_message">
+        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> no est a disponimentu immoe. Custu ddu gestit <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
     </string>
     <string name="app_suspended_more_details">Àteras informatziones</string>
     <string name="app_suspended_unsuspend_message">Torra a ativare s\'aplicatzione</string>
@@ -2374,7 +2393,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="accessibility_autoclick_scroll">Iscurre</string>
     <string name="accessibility_autoclick_pause">Pàusa</string>
     <string name="accessibility_autoclick_scroll_panel_title">Pannellu de iscurrimentu</string>
-    <string name="as_app_forced_to_restricted_bucket">        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> est istadu postu in s\'àliga LIMITADA</string>
+    <string name="as_app_forced_to_restricted_bucket">
+        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> est istadu postu in s\'àliga LIMITADA</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">at imbiadu un\'immàgine</string>
     <string name="conversation_title_fallback_one_to_one">Resonada</string>
@@ -2436,7 +2456,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_ERROR">Errore in sa rechesta de isblocu de PLMN SP Home ecuivalente.</string>
     <string name="PERSOSUBSTATE_SIM_ICCID_ERROR">Errore in sa rechesta de s\'isblocu de su ICCID.</string>
     <string name="PERSOSUBSTATE_SIM_IMPI_ERROR">Errore in sa rechesta de s\'isblocu de sa IMPI.</string>
-    <string name="PERSOSUBSTATE_SIM_NS_SP_ERROR">Errore in sa rechesta de isblocu de sa frunidura de servìtzios de su sutagrupu de rete.</string>
+    <string name="PERSOSUBSTATE_SIM_NS_SP_ERROR">Errore in sa rechesta de isblocu de sa frunidura de servìtzios de su sutagrupu de rete.
+</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUCCESS">Rete SIM isblocada.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_SUCCESS">Sutagrupu de rete SIM isblocadu.</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_SUCCESS">Frunidore de servìtzios SIM iblocadu.</string>

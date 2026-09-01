@@ -41,18 +41,21 @@
     <string name="app_open_by_default_title">Aberi comente predefinida\"</string>
     <string name="app_open_by_default_summary">Permite chi s\'aplicatzione abèrgiat ligòngios cumpatìbiles</string>
     <string name="opening_links_verified_links_title">Ligòngios averguados</string>
-    <string name="opening_links_verified_links_summary">        {count, plural,
+    <string name="opening_links_verified_links_summary">
+        {count, plural,
         =1    {# ligòngiu averguadu}
         other {# ligòngios averguados}
         }
     </string>
-    <string name="opening_links_supported_links_summary">        {count, plural,
+    <string name="opening_links_supported_links_summary">
+        {count, plural,
         =1    {# ligòngiu cumpatìbile}
         other {# ligòngios cumpatìbiles}
         }
     </string>
     <string name="opening_links_add_links_title">Agiunghe ligòngios</string>
-    <string name="opening_links_add_links_summary">        {count, plural,
+    <string name="opening_links_add_links_summary">
+        {count, plural,
         =1    {# ligòngiu non gestidu}
         other {# ligòngios non gestidos}
         }
@@ -64,10 +67,12 @@
     <string name="usage_access_title">Datos de impreu de s\'aplicatzione</string>
     <string name="usage_access_description">S\'atzessu a totu is datos de impreu de is aplicatziones permitit a is aplicatziones de monitorare cales aplicatziones sunt impreende e cantu a s\'ispissu, e fintzas chie siat s\'operadore telefònicu tuo, is cunfiguratziones de sa limba e àteros detàllios.</string>
     <string name="location_infotainment_apps_toggle_title">Aplicatziones de infotenimentu</string>
-    <string name="location_infotainment_apps_toggle_summary">        Permite chi is aplicatziones potzant atzèdere a sa positzione tua
+    <string name="location_infotainment_apps_toggle_summary">
+        Permite chi is aplicatziones potzant atzèdere a sa positzione tua
     </string>
     <string name="date_time_set_time">Cunfigura su rellògiu</string>
-    <string name="auto_local_time_disclaimer_summary">        Podet èssere chi sa data e s\'ora automàticas impreent mitzas comente sa positzione e is retes mòbiles pro determinare sa data, s\'ora e su fusu oràriu.
+    <string name="auto_local_time_disclaimer_summary">
+        Podet èssere chi sa data e s\'ora automàticas impreent mitzas comente sa positzione e is retes mòbiles pro determinare sa data, s\'ora e su fusu oràriu.
     </string>
     <string name="auto_local_time_toggle_summary">Imprea sa positzione de sa vetura tua pro cunfigurare in automàticu sa data e s\'ora. Custa optzione funtzionat isceti si sa positzione est ativada.</string>
     <string name="auto_local_time_dialog_positive_button_text">Modifica in sa cunfiguratzione</string>
@@ -76,9 +81,11 @@
     <string name="microphone_access_settings_summary">Sèbera si is aplicatziones podent atzèdere a is micròfonos de sa vetura</string>
     <string name="microphone_infotainment_apps_toggle_title">Aplicatziones de infotenimentu</string>
     <string name="microphone_infotainment_apps_toggle_summary">Permite chi is aplicatziones de infotenimentu registrent àudio</string>
-    <string name="required_apps_group_summary">        Aplicatziones chi su produtore de sa vetura rechedet pro t\'agiudare a sa ghia
+    <string name="required_apps_group_summary">
+        Aplicatziones chi su produtore de sa vetura rechedet pro t\'agiudare a sa ghia
     </string>
-    <string name="camera_access_disclaimer_summary">        Podet èssere chi su produtore de sa vetura tèngiat ancora atzessu a sa càmera de sa vetura
+    <string name="camera_access_disclaimer_summary">
+        Podet èssere chi su produtore de sa vetura tèngiat ancora atzessu a sa càmera de sa vetura
     </string>
     <string name="camera_infotainment_apps_toggle_title">Aplicatziones de infotenimentu</string>
     <string name="camera_infotainment_apps_toggle_summary">Permite chi is aplicatziones de infotenimentu fatzant fotografias e registrent vìdeos</string>

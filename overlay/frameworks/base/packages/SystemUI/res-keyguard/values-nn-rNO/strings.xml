@@ -88,7 +88,8 @@
     <string name="kg_too_many_failed_attempts_countdown">{count, plural,
 =1 {Prøv på nytt om # sekund.}
 other {Prøv på nytt om # sekund.}
-}</string>
+}
+</string>
     <string name="kg_sim_pin_instructions">Skriv inn PIN-kode for SIM-kortet.</string>
     <string name="kg_sim_pin_instructions_multi">Skriv inn PIN-kode for SIM-kortet til «<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>».</string>
     <string name="kg_sim_lock_esim_instructions"><xliff:g id="previous_msg" example="Enter SIM PIN.">%1$s</xliff:g> Slå av eSIM for å bruka eininga utan mobilsamband.</string>
@@ -100,11 +101,14 @@ other {Prøv på nytt om # sekund.}
     <string name="kg_invalid_sim_pin_hint">Skriv inn ein PIN-kode med 4 til 8 siffer.</string>
     <string name="kg_invalid_sim_puk_hint">PUK-koden skal ha minst 8 siffer.</string>
     <string name="kg_too_many_failed_pin_attempts_dialog_message"> Du har skrive inn feil PIN-kode <xliff:g id="number">%1$d</xliff:g> gongar.
-\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.</string>
+\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.
+</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message"> Du har skrive inn feil passord <xliff:g id="number">%1$d</xliff:g> gongar.
-\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.</string>
+\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.
+</string>
     <string name="kg_too_many_failed_pattern_attempts_dialog_message"> Du har teikna feil mønster <xliff:g id="number">%1$d</xliff:g> gongar.
-\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.</string>
+\n\nPrøv på nytt om <xliff:g id="number">%2$d</xliff:g> sekund.
+</string>
     <string name="kg_password_wrong_pin_code_pukked">Feil PIN-kode for SIM-kortet. Du må kontakta mobiloperatøren for å låsa opp eininga.</string>
     <string name="kg_password_wrong_pin_code"> {count, plural,
 =1 {Feil PIN-kode for SIM-kortet. Du har # forsøk att før du må kontakta mobiloperatøren for å låsa opp eininga.}

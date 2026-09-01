@@ -148,7 +148,8 @@
     <string name="match_content_frame_rate_never">Byth</string>
     <string name="font_scale_settings_title">Graddio testun</string>
     <string name="font_scale_sample_text_title">Testun enghreifftiol</string>
-    <string name="font_scale_preview_text_subtitle">        Ail Gainc y Mabinogi</string>
+    <string name="font_scale_preview_text_subtitle">
+        Ail Gainc y Mabinogi</string>
     <string name="hdr_format_selection_auto_title">Awtomatig</string>
     <string name="hdr_format_selection_manual_title">Â llaw</string>
     <string name="hdr_format_hdr10">HDR10</string>
@@ -433,7 +434,8 @@ dy gynorthwyydd llais o bell tra bod y Balet i fwrdd.</string>
     <string name="wifi_connect">Cysylltu</string>
     <string name="wifi_forget_network">Anghofio</string>
     <string name="wifi_forget_network_description">Mae hyn yn clirio\u2019r wybodaeth a ddefnyddir i gysylltu â\u2019r rhwydwaith hwn, gan gynnwys cyfrinair wedi\u2019i chadw</string>
-    <string name="wifi_scan_qr_code_description">        Ymuna â Wi\u2011Fi gan sganio\u2019r cod QR o ffôn symudol a dilyn y cyfarwyddiadau.\n
+    <string name="wifi_scan_qr_code_description">
+        Ymuna â Wi\u2011Fi gan sganio\u2019r cod QR o ffôn symudol a dilyn y cyfarwyddiadau.\n
         \n
         O <b>Ffôn Android</b> cer i Gosodiadau -&gt; Rhwydwaith a\u2019r rhyngrwyd -&gt; Wi-Fi -&gt; Dewis Wi-Fi -&gt; Uwch -&gt; Ychwanegu ddyfais, ac yna sganio\u2019r cod QR.
     </string>
@@ -813,7 +815,8 @@ Bydd posib siarad gyda dy gynorthwyydd wrth bwyso\u2019r botwm cynorthwyydd yn d
     <string name="title_current_autofill_service">Gwasanaeth Awto-lenwi Cyfredol</string>
     <string name="title_select_autofill_service">Dewis Gwasanaeth Awto-lenwi</string>
     <string name="autofill_none">Dim</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn.</b>
+    <string name="autofill_confirmation_message"><![CDATA[
+        <b>Sicrha dy fod yn ymddiried yn yr ap hwn.</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Password service">%1$s</xliff:g> yn defnyddio\'r hyn sydd ar dy sgrin i benderfynu pa bethau sy\'n bosib eu awto-lenwi.
@@ -996,7 +999,8 @@ Bydd posib siarad gyda dy gynorthwyydd wrth bwyso\u2019r botwm cynorthwyydd yn d
     <string name="high_power_system">Optimeiddiad pŵer ddim ar gael</string>
     <string name="manage_notification_access_title">Mynediad at hysbysiadau</string>
     <string name="no_notification_listeners">Does dim apiau a osodwyd wedi gofyn am fynediad at hysbysiadau.</string>
-    <string name="notification_listener_security_warning_summary">Mi fydd yn bosib i\u2019r apiau hyn darllen pob hysbysiad, gan gynnwys gwybodaeth bersonol fel enwau cyswllt a chynnwys negeseuon rwyt yn eu derbyn. Mi fyddan hefyd yn gallu diystyru hysbysiadau neu dewis gweithredu\u2019r botymau maen nhw\'n eu cynnwys.    </string>
+    <string name="notification_listener_security_warning_summary">
+Mi fydd yn bosib i\u2019r apiau hyn darllen pob hysbysiad, gan gynnwys gwybodaeth bersonol fel enwau cyswllt a chynnwys negeseuon rwyt yn eu derbyn. Mi fyddan hefyd yn gallu diystyru hysbysiadau neu dewis gweithredu\u2019r botymau maen nhw\'n eu cynnwys.    </string>
     <string name="directory_access">Mynediad at gyfeiriadur</string>
     <string name="directory_access_description">Mae gan yr apiau hyn ganiatâd i edrych yn rhai cyfeiriaduron.</string>
     <string name="directory_on_volume"><xliff:g id="volume" example="SD Card">%1$s</xliff:g> (<xliff:g id="directory" example="Movies">%2$s</xliff:g>)</string>

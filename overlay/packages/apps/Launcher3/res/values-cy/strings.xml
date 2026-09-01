@@ -45,7 +45,8 @@
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
     <string name="widget_accessible_dims_format">%1$d o led, %2$d o uchder</string>
     <string name="widget_preview_context_description">Teclyn <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
-    <string name="widget_preview_name_and_dims_content_description">        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> teclyn, %2$d o led, %3$d o uchder
+    <string name="widget_preview_name_and_dims_content_description">
+        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> teclyn, %2$d o led, %3$d o uchder
     </string>
     <string name="add_item_request_drag_hint">Cyffyrdda a dal dy gyffwrdd ar y teclyn i\'w symud o gwmpas y sgrin gartref</string>
     <string name="add_to_home_screen">Ychwanegu at y sgrin gartref</string>

@@ -25,7 +25,8 @@
     <string name="passenger_keyguard_wrong_pattern">Secuèntzia isballiada</string>
     <string name="passenger_keyguard_wrong_pin">PIN isballiadu</string>
     <string name="passenger_keyguard_wrong_password">Crae isballiada</string>
-    <string name="passenger_keyguard_too_many_failed_attempts">        {count, plural,
+    <string name="passenger_keyguard_too_many_failed_attempts">
+        {count, plural,
         =1    {Tropu tentativos isballiados. Torra a proare de immoe a 1 segundu.}
         other {Tropu tentativos isballiados. Torra a proare de immoe a # segundos.}
         }

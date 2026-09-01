@@ -438,19 +438,22 @@
     <string name="app_link_open_never">Ikkje opna i denne appen</string>
     <string name="app_launch_supported_domain_urls_title">Støtta lenker</string>
     <string name="opening_links_verified_links_title">Stadfesta lenker</string>
-    <string name="opening_links_verified_links_summary">        {count, plural,
+    <string name="opening_links_verified_links_summary">
+        {count, plural,
         =1    {# stadfesta lenke}
         other {# stadfesta lenker}
         }
     </string>
     <string name="opening_links_supported_links_title">Støtta lenker</string>
-    <string name="opening_links_supported_links_summary">        {count, plural,
+    <string name="opening_links_supported_links_summary">
+        {count, plural,
         =1    {# støtta lenke}
         other {# støtta lenker}
         }
     </string>
     <string name="opening_links_add_links_title">Legg til lenker</string>
-    <string name="opening_links_add_links_summary">        {count, plural,
+    <string name="opening_links_add_links_summary">
+        {count, plural,
         =1    {# uhandsama lenke}
         other {# uhandsama lenker}
         }
@@ -639,9 +642,11 @@
     <string name="zone_list_menu_sort_by_timezone">Sorter etter tidssone</string>
     <string name="date_picker_title">Dato</string>
     <string name="time_picker_title">Tid</string>
-    <string name="auto_local_time_disclaimer_summary">        Automatisk dato og tid kan bruka kjelder, som posisjon og mobilnett, for å finna fram til dato, tid og tidssone.
+    <string name="auto_local_time_disclaimer_summary">
+        Automatisk dato og tid kan bruka kjelder, som posisjon og mobilnett, for å finna fram til dato, tid og tidssone.
     </string>
-    <string name="auto_local_time_toggle_summary">        Bruk plasseringa til bilen for å stilla dato og tid automatisk. Dette fungerer berre dersom posisjon er på.
+    <string name="auto_local_time_toggle_summary">
+        Bruk plasseringa til bilen for å stilla dato og tid automatisk. Dette fungerer berre dersom posisjon er på.
     </string>
     <string name="auto_local_time_dialog_negative_button_text">Hald fram</string>
     <string name="auto_local_time_dialog_positive_button_text">Endra i innstillingar</string>
@@ -761,10 +766,12 @@
     <string name="camera_access_settings_title">Kameratilgang</string>
     <string name="camera_access_settings_summary">Vel om appar skal ha tilgang til kameraa i bilen</string>
     <string name="required_apps_group_title">Naudsynte appar</string>
-    <string name="required_apps_group_summary">        Appar som bilprodusenten krev for å hjelpa deg med køyringa
+    <string name="required_apps_group_summary">
+        Appar som bilprodusenten krev for å hjelpa deg med køyringa
     </string>
     <string name="required_apps_privacy_policy_button_text">Retningslinjer</string>
-    <string name="camera_access_disclaimer_summary">        Bilprodusenten kan framleis ha tilgang til kameraet i bilen
+    <string name="camera_access_disclaimer_summary">
+        Bilprodusenten kan framleis ha tilgang til kameraet i bilen
     </string>
     <string name="app_function_access_settings_title">Agentstyring av andre appar</string>
     <string name="app_function_access_settings_summary">Utfør gjeremål på eininga di og i andre appar</string>

@@ -14,6 +14,57 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="done">Déanta</string>
+    <string name="cancel">Cealaigh</string>
     <string name="more_details">Tuilleadh sonraí</string>
     <string name="dont_install">Ná suiteáil</string>
+    <string name="install_confirm_question_update">Ar mhaith leat an aip seo a nuashonrú?</string>
+    <string name="install_failed_blocked">Cuireadh bac ar an bpacáiste a shuiteáil.</string>
+    <string name="install_failed_conflict">Níl an aip suiteáilte mar go bhfuil coimhlint idir an pacáiste agus pacáiste atá ann cheana féin.</string>
+    <string name="install_failed_invalid_apk">Níl an aip suiteáilte mar is cosúil go bhfuil an pacáiste neamhbhailí.</string>
+    <string name="install_failed_msg" product="tablet">Níorbh fhéidir <xliff:g id="app_name">%1$s</xliff:g> a shuiteáil ar do tháibléad.</string>
+    <string name="install_failed_msg" product="tv">Níorbh fhéidir <xliff:g id="app_name">%1$s</xliff:g> a shuiteáil ar do theilifís.</string>
+    <string name="install_failed_msg" product="default">Níorbh fhéidir <xliff:g id="app_name">%1$s</xliff:g> a shuiteáil ar do ghuthán.</string>
+    <string name="launch">Oscail</string>
+    <string name="install_apps_user_restriction_dlg_text">Níl cead ag an úsáideoir seo aipeanna a shuiteáil</string>
+    <string name="ok">Ceart go leor</string>
+    <string name="manage_applications">Bainistigh aipeanna</string>
+    <string name="out_of_space_dlg_title">As spás</string>
+    <string name="out_of_space_dlg_text">Níorbh fhéidir <xliff:g id="app_name">%1$s</xliff:g> a shuiteáil. Scaoil roinnt spáis agus déan iarracht arís.</string>
+    <string name="app_not_found_dlg_title">Níor aimsíodh an aip</string>
+    <string name="app_not_found_dlg_text"> Ní bhfuarthas an aip i liosta na n-aipeanna suiteáilte.</string>
+    <string name="user_is_not_allowed_dlg_title">Ní cheadaítear</string>
+    <string name="user_is_not_allowed_dlg_text">Níl cead ag an úsáideoir reatha an díshuiteáil seo a dhéanamh.</string>
+    <string name="generic_error_dlg_title">Earráid</string>
+    <string name="generic_error_dlg_text">Níorbh fhéidir an aip a dhíshuiteáil.</string>
+    <string name="uninstall_application_title">Díshuiteáil aip</string>
+    <string name="uninstall_update_title">Díshuiteáil an nuashonrú</string>
+    <string name="uninstall_activity_text">Is cuid den aip seo a leanas é <xliff:g id="activity_name">%1$s</xliff:g>:</string>
+    <string name="uninstall_application_text">Ar mhaith leat an aip seo a dhíshuiteáil?</string>
+    <string name="uninstall_application_text_all_users">Ar mhaith leat an aip seo a dhíshuiteáil do <b>gach</b> úsáideoir? Bainfear an aip agus a shonraí de <b>gach</b> úsáideoir ar an ngléas.</string>
+    <string name="uninstall_application_text_user">Ar mhaith leat an aip seo a dhíshuiteáil don úsáideoir <xliff:g id="username">%1$s</xliff:g>?</string>
+    <string name="uninstall_update_text">An bhfuil tú ag iarraidh an aip seo a athsholáthar leis an leagan monarchan? Bainfear na sonraí go léir.</string>
+    <string name="uninstall_update_text_multiuser">An bhfuil tú ag iarraidh an aip seo a athsholáthar leis an leagan monarchan? Bainfear na sonraí go léir. Bíonn tionchar aige seo ar gach úsáideoir den ghléas seo, lena n-áirítear iad siúd a bhfuil próifílí oibre acu.</string>
+    <string name="uninstall_keep_data">Coinnigh <xliff:g id="size" example="1.5MB">%1$s</xliff:g> de shonraí an aip.</string>
+    <string name="uninstalling_notification_channel">Díshuiteálacha á reáchtáil</string>
+    <string name="uninstall_failure_notification_channel">Díshuiteálacha nár éirigh leo</string>
+    <string name="uninstalling">Ag díshuiteáil\u2026</string>
+    <string name="uninstalling_app">Ag díshuiteáil <xliff:g id="package_label">%1$s</xliff:g>\u2026</string>
+    <string name="uninstall_done">Díshuiteáil críochnaithe.</string>
+    <string name="uninstall_done_app">Díshuiteáladh <xliff:g id="package_label">%1$s</xliff:g></string>
+    <string name="uninstall_failed">Theip ar an díshuiteáil.</string>
+    <string name="uninstall_failed_app">Níor éirigh le <xliff:g id="package_label">%1$s</xliff:g> a dhíshuiteáil.</string>
+    <string name="manage_device_administrators">Bainistigh aipeanna riarthóra gléis</string>
+    <string name="manage_users">Bainistigh úsáideoirí</string>
+    <string name="uninstall_failed_msg">Níorbh fhéidir <xliff:g id="app_name">%1$s</xliff:g> a dhíshuiteáil.</string>
+    <string name="Parse_error_dlg_text">Bhí fadhb ann agus an pacáiste á pharsáil.</string>
+    <string name="message_staging">Aip stáitseála…</string>
+    <string name="anonymous_source_continue">Lean ar aghaidh</string>
+    <string name="external_sources_settings">Socruithe</string>
+    <string name="wear_app_channel">Suiteáil/díshuiteáil aipeanna caitheamh</string>
+    <string name="app_installed_notification_channel_description">Fógra suiteáilte aip</string>
+    <string name="notification_installation_success_message">Suiteáilte go rathúil</string>
+    <string name="notification_installation_success_status">Suiteáladh go rathúil \u201c<xliff:g id="appname" example="Package Suiteálaí">%1$s</xliff:g>\u201d</string>
+    <string name="unarchive_action_required_continue">Lean ar aghaidh</string>
+    <string name="unarchive_settings_button">Socruithe</string>
 </resources>

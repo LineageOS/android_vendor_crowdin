@@ -50,7 +50,8 @@
     <string name="accounts_category_summary"> {count, plural,
 =1 {# konto}
 other {# kontoar}
-}</string>
+}
+</string>
     <string name="accounts_slice_summary">Medietenester, Assistent, Betalingar</string>
     <string name="connectivity_network_category_title">Nettverk og internett</string>
     <string name="sound_category_title">Lyd</string>
@@ -94,10 +95,12 @@ other {# kontoar}
     <string name="wifi_setting_thread_network">Thread-nettverk</string>
     <string name="wifi_setting_thread_network_context">Thread-nettverk koplar saman Thread-støtta smarteiningar lokalt. Dette gjer dei meir effektive og aukar ytinga.\n\nNår funksjonen er på, vil denne eininga oppretta eller kopla seg til Thread-nettverket ditt. Påloggingsinformasjon vert lasta opp privat til skya så det vert lettare å setja opp framtidige smarteiningar.\n\nSlår du av funksjonen, kan ikkje denne eininga lenger tala med andre einingar i Thread-nettverket ditt. Somme smarteiningar og tenester vil då kanskje ikkje fungera som venta.\n\nFinn ut meir på g.co/tv/thread</string>
     <string name="share_thread_network">Del påloggingsinfo for Thread-nettverk</string>
-    <string name="share_thread_network_description">        Del påloggingsinfo for Thread-nettverk med andre einingar for å gjera oppsettet av Thread-nettverket på <xliff:g id="device" example="Google TV Streamer">%1$s</xliff:g> enklare.
+    <string name="share_thread_network_description">
+        Del påloggingsinfo for Thread-nettverk med andre einingar for å gjera oppsettet av Thread-nettverket på <xliff:g id="device" example="Google TV Streamer">%1$s</xliff:g> enklare.
     </string>
     <string name="thread_network_share_again">Del på nytt</string>
-    <string name="share_thread_network_countdown">        Koden går ut om
+    <string name="share_thread_network_countdown">
+        Koden går ut om
         <xliff:g id="minutes" example="02">%1$02d</xliff:g> m
         <xliff:g id="seconds" example="32">%2$02d</xliff:g> s
     </string>
@@ -109,7 +112,8 @@ other {# kontoar}
     <string name="wifi_settings_thread_network_energy_title">Endra straummodus for å slå på Thread</string>
     <string name="wifi_settings_thread_network_energy_message">For at denne TV-en skal kunna laga eller kopla seg til Thread-nettverket ditt og handtera smarthuseiningane dine effektivt, treng han modusen for auka straumbruk.</string>
     <string name="wifi_settings_thread_network_confirmation_button_confirm">Slå av</string>
-    <string name="wifi_settings_thread_network_button_change_energy_mode">        Bytt til modus for auka straumbruk
+    <string name="wifi_settings_thread_network_button_change_energy_mode">
+        Bytt til modus for auka straumbruk
     </string>
     <string name="wifi_setting_enable_wifi">Wi-Fi</string>
     <string name="connectivity_hint_message">Kopla til nettverk</string>
@@ -359,7 +363,8 @@ Alle såg glade og nøgde ut.</string>
     <string name="enterprise_privacy_number_packages_lower_bound"> {count, plural,
 =1 {Minst # app}
 other {Minst # appar}
-}</string>
+}
+</string>
     <string name="enterprise_privacy_location_access">Posisjonsløyve</string>
     <string name="enterprise_privacy_microphone_access">Mikrofonløyve</string>
     <string name="enterprise_privacy_camera_access">Kameraløyve</string>
@@ -367,7 +372,8 @@ other {Minst # appar}
     <string name="enterprise_privacy_number_packages"> {count, plural,
 =1 {# app}
 other {# appar}
-}</string>
+}
+</string>
     <string name="enterprise_privacy_input_method">Standardtastatur</string>
     <string name="enterprise_privacy_input_method_name">Sett til <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
     <string name="enterprise_privacy_always_on_vpn_device">VPN som alltid er på, er slått på</string>
@@ -380,7 +386,8 @@ other {# appar}
     <string name="enterprise_privacy_number_ca_certs"> {count, plural,
 =1 {# CA-sertifikat}
 other {# CA-sertifikat}
-}</string>
+}
+</string>
     <string name="enterprise_privacy_lock_device">Administratoren kan låsa eininga og nullstilla passordet</string>
     <string name="enterprise_privacy_wipe_device">Administratoren kan sletta alle data på eininga</string>
     <string name="enterprise_privacy_failed_password_wipe_device">Feilslåtte passordforsøk før alle data på eininga vert sletta</string>
@@ -388,7 +395,8 @@ other {# CA-sertifikat}
     <string name="enterprise_privacy_number_failed_password_wipe"> {count, plural,
 =1 {# forsøk}
 other {# forsøk}
-}</string>
+}
+</string>
     <string name="do_disclosure_generic">Organisasjonen din styrer denne eininga.</string>
     <string name="do_disclosure_with_name"><xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g> styrer denne eininga.</string>
     <string name="hdr_capability">- %1$s</string>
@@ -396,18 +404,21 @@ other {# forsøk}
     <string name="default_camera_app_title"> {count, plural,
 =1 {Kamera-app}
 other {Kamera-appar}
-}</string>
+}
+</string>
     <string name="default_calendar_app_title">Kalender-app</string>
     <string name="default_contacts_app_title">Kontakt-app</string>
     <string name="default_email_app_title"> {count, plural,
 =1 {E-post-app}
 other {E-post-appar}
-}</string>
+}
+</string>
     <string name="default_map_app_title">Kart-app</string>
     <string name="default_phone_app_title"> {count, plural,
 =1 {Telefon-app}
 other {Telefon-appar}
-}</string>
+}
+</string>
     <string name="default_browser_title">Nettlesar-app</string>
     <string name="app_names_concatenation_template_2"><xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g></string>
     <string name="app_names_concatenation_template_3"><xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g>, <xliff:g id="third_app_name">%3$s</xliff:g></string>
@@ -431,7 +442,8 @@ other {Telefon-appar}
     <string name="show_dev_countdown"> {count, plural,
 =1 {Du er no # steg att frå å verta ein utviklar}
 other {Du er no # steg att frå å verta ein utviklar}
-}</string>
+}
+</string>
     <string name="about_ads">Annonsar</string>
     <string name="ads_description">Her kan du styra annonseinnstillingane dine, som til dømes å nullstilla annonse-ID-en din.</string>
     <string name="ads_content_description">Annonsar. Her kan du styra annonseinnstillingane dine, som til dømes å nullstilla annonse-ID-en din.</string>
@@ -448,7 +460,8 @@ other {Du er no # steg att frå å verta ein utviklar}
     <string name="sl_ca_cert_dialog_title"> {count, plural,
 =1 {Stol på eller fjern sertifikat}
 other {Stol på eller fjern sertifikat}
-}</string>
+}
+</string>
     <string name="device_status">Status</string>
     <string name="device_status_summary">Nettverk, serienummer og annan informasjon</string>
     <string name="manual">Handbok</string>
@@ -549,7 +562,8 @@ other {Stol på eller fjern sertifikat}
     <string name="wifi_scan_qr_code_description">Kopla til eit Wi-Fi ved å skanna QR-koden frå ein mobiltelefon og fylg instruksjonane.\n\nFrå ein <b>Android-telefon</b> går du til Innstillingar -&gt; Nettverk og internett -&gt; Wi-Fi -&gt; Vel eit Wi-Fi -&gt; Avansert -&gt; Legg til eining og skann QR-koden.</string>
     <string name="wifi_scan_qr_code_back_description">Trykk på tilbakeknappen for å avbryta</string>
     <string name="share_thread_title">Bruk Thread-info for å setja opp ei eining</string>
-    <string name="share_thread_description">        For å leggja til ei eining i Thread-nettverket ditt, skann denne QR-koden i appen til eininga. Av tryggleiksomsyn går koden ut om <xliff:g id="minutes" example="3">%1$s</xliff:g> minutt.</string>
+    <string name="share_thread_description">
+        For å leggja til ei eining i Thread-nettverket ditt, skann denne QR-koden i appen til eininga. Av tryggleiksomsyn går koden ut om <xliff:g id="minutes" example="3">%1$s</xliff:g> minutt.</string>
     <string name="wifi_action_ok">OK</string>
     <string name="wifi_setup_action_dont_change_network">Hald fram</string>
     <string name="wifi_setup_action_change_network">Byt nettverk</string>
@@ -990,15 +1004,18 @@ other {Stol på eller fjern sertifikat}
     <string name="inputs_header_connected_input"> {count, plural,
 =1 {Tilkopla inngang}
 other {Tilkopla inngangar}
-}</string>
+}
+</string>
     <string name="inputs_header_standby_input"> {count, plural,
 =1 {Inngang i kvilemodus}
 other {Inngangar i kvilemodus}
-}</string>
+}
+</string>
     <string name="inputs_header_disconnected_input"> {count, plural,
 =1 {Inngang som ikkje er tilkopla}
 other {Inngangar som ikkje er tilkopla}
-}</string>
+}
+</string>
     <string name="user_add_profile_item_summary">Avgrens tilgangen til appar og anna innhald på kontoen din</string>
     <string name="user_new_profile_name">Avgrensa profil</string>
     <string name="user_restrictions_controlled_by">Styrast av <xliff:g id="app">%1$s</xliff:g></string>

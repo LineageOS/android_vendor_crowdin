@@ -31,7 +31,8 @@
     <string name="grant_dialog_button_more_info">Rhagor o wybodaeth</string>
     <string name="grant_dialog_button_deny_anyway">Peidio ei ganiatáu beth bynnag</string>
     <string name="grant_dialog_button_dismiss">Diystyru</string>
-    <string name="current_permission_template">        <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> o
+    <string name="current_permission_template">
+        <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> o
         <xliff:g id="permission_count" example="2">%2$s</xliff:g></string>
     <string name="permission_warning_template">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; <xliff:g id="action" example="do something">%2$s</xliff:g>?</string>
     <string name="permission_add_background_warning_template">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; <xliff:g id="action" example="do something">%2$s</xliff:g> o hyd?</string>
@@ -119,7 +120,8 @@
     <string name="other_permissions">Galluoedd eraill yr ap</string>
     <string name="permission_request_title">Cais am ganiatâd</string>
     <string name="permission_review_title_template_install">Dewisa pa bethau mae &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; yn cael mynediad iddynt</string>
-    <string name="permission_review_title_template_update">Cafodd &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ei ddiweddaru.
+    <string name="permission_review_title_template_update">
+Cafodd &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ei ddiweddaru.
 Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="review_button_cancel">Diddymu</string>
     <string name="review_button_continue">Parhau</string>

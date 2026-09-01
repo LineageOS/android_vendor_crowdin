@@ -270,8 +270,10 @@
         sletta.\n\nKontakt administratoren i organisasjonen din om du lurer på noko.</string>
     <string name="printing_disabled_by">Utskrift er slått av av <xliff:g id="owner_app">%s</xliff:g>.</string>
     <string name="personal_apps_suspension_title">Slå på arbeidsprofilen din</string>
-    <string name="personal_apps_suspension_text">        Dei personlege appane dine er sperra til du slår på arbeidsprofilen din</string>
-    <string name="personal_apps_suspension_soon_text">        Personlege apparvert sperra den <xliff:g id="date" example="May 29">%1$s</xliff:g> klokka
+    <string name="personal_apps_suspension_text">
+        Dei personlege appane dine er sperra til du slår på arbeidsprofilen din</string>
+    <string name="personal_apps_suspension_soon_text">
+        Personlege apparvert sperra den <xliff:g id="date" example="May 29">%1$s</xliff:g> klokka
         <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. Administratoren din tillet ikkje 
         arbeidsprofilen din å vera av i meir enn <xliff:g id="number" example="3">%3$d</xliff:g> dagar.
     </string>

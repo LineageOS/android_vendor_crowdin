@@ -157,10 +157,12 @@
       other   {Ativu / # aplicatziones tenent atzessu a sa positzione}
     }</string>
     <string name="location_settings_loading_app_permission_stats">Carrighende\u2026</string>
-    <string name="location_settings_footer_general">        Is aplicatziones cun is permissos de dispositivos a curtzu podent determinare sa
+    <string name="location_settings_footer_general">
+        Is aplicatziones cun is permissos de dispositivos a curtzu podent determinare sa
         positzione relativa de is dispositivos connètidos.
     </string>
-    <string name="location_settings_tooltip_text_for_chrome">        Pro cambiare, bae a Cunfiguratziones de ChromeOS &gt; Riservadesa e seguresa &gt; Controllos de riservadesa &gt; Atzessu a sa positzione
+    <string name="location_settings_tooltip_text_for_chrome">
+        Pro cambiare, bae a Cunfiguratziones de ChromeOS &gt; Riservadesa e seguresa &gt; Controllos de riservadesa &gt; Atzessu a sa positzione
     </string>
     <string name="account_settings_title">Contos</string>
     <string name="security_settings_title">Seguresa</string>
@@ -299,7 +301,8 @@
       =1      {Depet cuntènnere a su mancu 1 caràtere}
       other   {Depet cuntènnere a su mancu # caràteres}
     }</string>
-    <string name="lockpassword_password_too_short_all_numeric">        {count, plural,
+    <string name="lockpassword_password_too_short_all_numeric">
+        {count, plural,
         =1    {Si impreat isceti nùmeros, depet tènnere a su mancu una tzifra}
         other {Si impreat isceti nùmeros, depet tènnere a su mancu # tzifras}
         }
@@ -786,7 +789,8 @@
     <string name="accessibility_magnification_one_finger_panning_summary_on">Move s\'àrea de ingrandimentu cun su trìsinu de unu pòddighe.</string>
     <string name="accessibility_magnification_one_finger_panning_summary_off">Move s\'àrea de ingrandimentu cun su trìsinu de duos pòddighes.</string>
     <string name="accessibility_magnification_one_finger_panning_summary_unavailable">No est a disponimentu cando ses ismanniende isceti una parte de s\'ischermu</string>
-    <string name="accessibility_screen_magnification_summary_one_finger_panning_off"><![CDATA[        <b>Pro ismanniare:</b><br/>
+    <string name="accessibility_screen_magnification_summary_one_finger_panning_off"><![CDATA[
+        <b>Pro ismanniare:</b><br/>
         {0,number,integer}. Imprea su curtzadòrgiu pro incumintzare a ismanniare<br/>
         {1,number,integer}. Toca s\'ischermu<br/>
         {2,number,integer}. Traga 2 pòddighes pro ti mòvere in s\'ischermu<br/>
@@ -794,7 +798,8 @@
         {4,number,integer}. Imprea su curtzadòrgiu pro firmare s\'ismanniamentu<br/><br/>
         Podes puru ismanniare pro unu pagu e àteras optziones.
         ]]></string>
-    <string name="accessibility_screen_magnification_summary_one_finger_panning_on"><![CDATA[        <b>Pro ismanniare:</b><br/>
+    <string name="accessibility_screen_magnification_summary_one_finger_panning_on"><![CDATA[
+        <b>Pro ismanniare:</b><br/>
         {0,number,integer}. Imprea su curtzadòrgiu pro incumintzare a ismanniare<br/>
         {1,number,integer}. Toca s\'ischermu<br/>
         {2,number,integer}. Trìsina 1 o 2 pòddighes pro ti mòvere in s\'ischermu<br/>
@@ -1039,7 +1044,8 @@
     <string name="sound_audio_category_title">Àudio</string>
     <string name="spatial_audio_multi_toggle_on">Fissu</string>
     <string name="spatial_audio_multi_toggle_head_tracking_on">Rilev. movim. conca</string>
-    <string name="zen_mode_settings_schedules_summary">        {count, plural,
+    <string name="zen_mode_settings_schedules_summary">
+        {count, plural,
         =0    {Nissuna}
         =1    {1 pianificatzione cunfigurada}
         other {# pianificatziones cunfiguradas}
@@ -1080,7 +1086,8 @@
     <string name="zen_mode_set_schedule_title">Programmatzione orària</string>
     <string name="zen_mode_schedule_duration"><xliff:g example="10" id="hours">%1$d</xliff:g> h, <xliff:g example="20" id="minutes">%2$d</xliff:g> min</string>
     <string name="mode_interruption_filter_title">Filtros de notìficas</string>
-    <string name="modes_sound_summary_off">        {count, plural,
+    <string name="modes_sound_summary_off">
+        {count, plural,
         =0    {Disativadu}
         =1    {Disativadu / Una modalidade si podet ativare in automàticu}
         other {Disativadu / # modalidades si podent ativare in automàticu}
@@ -1099,7 +1106,8 @@
     <string name="mode_dark_theme_title">Ativa su tema iscuru</string>
     <string name="mode_dark_theme_title_secondary_list">ativa su tema iscuru</string>
     <string name="mode_dark_theme_summary">Muda su tema de su dispositivu pro impreare un\'isfundu iscuru, chi faghet istracare prus pagu is ogros</string>
-    <string name="mode_display_settings_summary">        {count, plural, offset:2
+    <string name="mode_display_settings_summary">
+        {count, plural, offset:2
         =0    {Nissuna modìfica a s\'ischermu}
         =1    {{effect_1}}
         =2    {{effect_1} e {effect_2}}
@@ -1202,7 +1210,8 @@
     <string name="zen_mode_calls_title">Mutidas</string>
     <string name="zen_mode_calls">Mutidas</string>
     <string name="zen_mode_custom_calls_footer">Pro \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019 is mutidas in intrada sunt blocadas. Podes regulare is impostatziones pro permìtere a cuntatos de amistade, famìllia e àteru de ti cuntatare.</string>
-    <string name="zen_mode_starred_contacts_summary_contacts">        {count, plural, offset:2
+    <string name="zen_mode_starred_contacts_summary_contacts">
+        {count, plural, offset:2
         =0    {Nissunu}
         =1    {{contact_1}}
         =2    {{contact_1} e {contact_2}}
@@ -1210,7 +1219,8 @@
         other {{contact_1}, {contact_2}, e àteros #}
         }
     </string>
-    <string name="zen_mode_contacts_count">        {count, plural,
+    <string name="zen_mode_contacts_count">
+        {count, plural,
         =0    {Nissunu}
         =1    {Unu cuntatu}
         other {# cuntatos}
@@ -1225,7 +1235,8 @@
     <string name="zen_mode_media_list_first">Cuntenutos multimediales</string>
     <string name="zen_mode_apps_priority_apps">Aplicatziones seletzionadas</string>
     <string name="zen_mode_apps_none_apps">Perunu</string>
-    <string name="zen_mode_apps_subtext">        {count, plural, offset:2
+    <string name="zen_mode_apps_subtext">
+        {count, plural, offset:2
         =0    {Nissuna aplicatzione podet interrùmpere}
         =1    {{app_1} podet interrùmpere}
         =2    {{app_1} e {app_2} podent interrùmpere}
@@ -1236,7 +1247,8 @@
     <string name="zen_mode_apps_work_app"><xliff:g id="app_label" example="Chrome">%s</xliff:g> (Traballu)</string>
     <string name="zen_mode_apps_priority_apps_settings">Cunfiguratziones de is aplicatziones</string>
     <string name="zen_mode_plus_n_items">+<xliff:g id="number" example="42">%d</xliff:g></string>
-    <string name="zen_mode_bypassing_apps_subtext">        {count, plural, offset:2
+    <string name="zen_mode_bypassing_apps_subtext">
+        {count, plural, offset:2
         =0    {Nissuna aplicatzione podet interrùmpere}
         =1    {{app_1} podet interrùmpere}
         =2    {{app_1} e {app_2} podent interrùmpere}
@@ -1245,7 +1257,8 @@
         }
     </string>
     <string name="zen_mode_bypassing_apps_title">Aplicatziones</string>
-    <string name="zen_mode_other_sounds_summary">        {count, plural, offset:2
+    <string name="zen_mode_other_sounds_summary">
+        {count, plural, offset:2
         =0    {Nudda podet interrùmpere}
         =1    {{sound_category_1} podet interrùmpere}
         =2    {{sound_category_1} e {sound_category_2} podent interrùmpere}
@@ -1327,7 +1340,8 @@
     <string name="usage_access">Datos impreu de s\'aplicatzione</string>
     <string name="permit_usage_access">Permite s\'atzessu a is datos de impreu de is aplicatziones</string>
     <string name="usage_access_description">Is datos de impreu de is aplicatziones permitent is aplicatziones de monitorare cales aplicatziones est impreende e cantu a s\'ispissu, e fintzas chie siat s\'operadore telefònicu tuo, is cunfiguratziones de sa limba e àteros detàllios.</string>
-    <string name="high_power_prompt_body">        Su de permìtere chi <xliff:g id="app_name" example="Settings">%1$s</xliff:g> s\'aviet semper in segundu pranu diat pòdere minimare sa durada de sa bateria.
+    <string name="high_power_prompt_body">
+        Su de permìtere chi <xliff:g id="app_name" example="Settings">%1$s</xliff:g> s\'aviet semper in segundu pranu diat pòdere minimare sa durada de sa bateria.
         \n\nDdu podes modificare prus a tardu dae is Cunfiguratziones -&gt; Aplicatziones.</string>
     <string name="usb_use_tethering">Ancoràgiu web USB</string>
     <string name="usb_pref">USB</string>

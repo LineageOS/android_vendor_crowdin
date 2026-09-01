@@ -57,9 +57,11 @@
     <string name="social_widget_recommendation_category_label">Sotziale</string>
     <string name="others_widget_recommendation_category_label">Cussigiadu pro tie</string>
     <string name="widget_picker_right_pane_accessibility_title"><xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> trastos a dereta, chirca e optziones a manca</string>
-    <string name="widgets_count">        {count, plural, =1{# trastu} other{# trastos}}
+    <string name="widgets_count">
+        {count, plural, =1{# trastu} other{# trastos}}
     </string>
-    <string name="shortcuts_count">        {count, plural, =1{# curtzadòrgiu} other{# curtzadòrgios}}
+    <string name="shortcuts_count">
+        {count, plural, =1{# curtzadòrgiu} other{# curtzadòrgios}}
     </string>
     <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
     <string name="widget_button_text">Trastos</string>
@@ -119,7 +121,8 @@
     <string name="uninstall_system_app_text">Custa aplicatzione est de su sistema e non podet èssere disinstallada.</string>
     <string name="folder_hint_text">Modifica su nòmine</string>
     <string name="disabled_app_label"><xliff:g id="app_name" example="Messenger">%1$s</xliff:g> disativadu</string>
-    <string name="dotted_app_label">        {count, plural,
+    <string name="dotted_app_label">
+        {count, plural,
             =1      {{app_name} tenet una notìfica}
             other   {{app_name} tenet # notìficas}
         }

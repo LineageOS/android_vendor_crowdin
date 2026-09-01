@@ -80,7 +80,8 @@
     <string name="passenger_keyguard_wrong_pattern">Patrwm anghywir</string>
     <string name="passenger_keyguard_wrong_pin">PIN anghywir</string>
     <string name="passenger_keyguard_wrong_password">Cyfrinair anghywir</string>
-    <string name="passenger_keyguard_too_many_failed_attempts">        {count, plural,
+    <string name="passenger_keyguard_too_many_failed_attempts">
+        {count, plural,
         zero {}
         one {Gormod o ymdrechion anghywir. Ceisia eto ymhen # eiliad.}
         two {Gormod o ymdrechion anghywir. Ceisia eto ymhen # eiliad.}

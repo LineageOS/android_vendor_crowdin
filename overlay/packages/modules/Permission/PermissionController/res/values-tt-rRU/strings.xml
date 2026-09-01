@@ -14,7 +14,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="current_permission_template">        <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> /
+    <string name="current_permission_template">
+        <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> /
         <xliff:g id="permission_count" example="2">%2$s</xliff:g></string>
     <string-array name="background_access_chooser_dialog_choices">
         <item>@string/permission_access_always</item>

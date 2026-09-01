@@ -296,7 +296,6 @@
     <string name="fingerprint_dialog_touch_sensor">Rør ved fingeravtrykkssensoren</string>
     <string name="fingerprint_dialog_authenticated_confirmation">Trykk på hengelåsen for å halda fram</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Klarte ikkje kjenna att andletet. Bruk fingeravtrykk i staden.</string>
-    <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="keyguard_face_failed">Klarte ikkje kjenna att andletet</string>
     <string name="keyguard_suggest_fingerprint">Bruk fingeravtrykk i staden</string>
     <string name="keyguard_face_unlock_unavailable">Andletslås er ikkje tilgjengeleg</string>
@@ -1546,7 +1545,8 @@
     =1 {# varsel}
     other {# varsel}
     }</string>
-    <string name="dream_overlay_weather_complication_desc">        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
+    <string name="dream_overlay_weather_complication_desc">
+        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
     </string>
     <string name="note_task_button_label">Notatskriving</string>
     <string name="note_task_shortcut_long_label">Notatskriving, <xliff:g id="note_taking_app" example="Note-taking App">%1$s</xliff:g></string>

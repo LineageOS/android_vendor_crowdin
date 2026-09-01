@@ -23,10 +23,12 @@
     <string name="stop_app_dialog_text">Om du tvangsstoppar ein app, kan det henda
         han ikkje fungerer som han skal.
     </string>
-    <string name="stop_app_success_toast_text">        <xliff:g id="app_name" example="Radio">%1$s</xliff:g>
+    <string name="stop_app_success_toast_text">
+        <xliff:g id="app_name" example="Radio">%1$s</xliff:g>
         er stansa.
     </string>
-    <string name="ndo_launch_fail_toast_text">        <xliff:g id="app_name" example="Settings">%1$s</xliff:g>
+    <string name="ndo_launch_fail_toast_text">
+        <xliff:g id="app_name" example="Settings">%1$s</xliff:g>
         kan ikkje brukast under køyring.
     </string>
 </resources>
