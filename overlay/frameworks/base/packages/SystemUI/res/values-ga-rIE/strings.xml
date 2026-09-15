@@ -168,6 +168,7 @@
     <string name="media_projection_entry_app_permission_dialog_continue">Tosaigh</string>
     <string name="media_projection_entry_generic_permission_dialog_continue">Tosaigh</string>
     <string name="manage_notifications_history_text">Stair</string>
+    <string name="volume_odi_captions_tip">Uathoibríoch</string>
     <string name="volume_odi_captions_hint_enable">cumasaigh</string>
     <string name="volume_odi_captions_hint_disable">Díchumasaigh</string>
     <string name="stream_bluetooth_sco">Bluetooth</string>
@@ -191,6 +192,7 @@
     <string name="inline_done_button">Déanta</string>
     <string name="inline_ok_button">Cuir isteach</string>
     <string name="notification_alert_title">Réamhshocrú</string>
+    <string name="notification_automatic_title">Uathoibríoch</string>
     <string name="notification_conversation_unbubble">Bain boilgeoga</string>
     <string name="notification_menu_accessibility"><xliff:g id="ainm_aipe" example="YouTube">%1$s</xliff:g> <xliff:g id="tuairisc_meánchláir" example="rialuithe fógra">%2$s</xliff:g></string>
     <string name="notification_menu_gear_description">rialuithe fógra</string>

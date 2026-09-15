@@ -17,6 +17,32 @@
     <string name="device">gléas</string>
     <string name="connecting_peripheral">Ag ceangal <xliff:g id="device_name">%1$s</xliff:g></string>
     <string name="connected_peripheral">Ceangailte <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="failed_to_enable_bt">Níorbh fhéidir Bluetooth a chumasú</string>
+    <string name="confirm_pairing">An bhfuil tú cinnte gur mhaith leat an gléas Bluetooth <xliff:g id="device_name">%1$s</xliff:g> a phéireáil?</string>
     <string name="pair_yes">Tá</string>
     <string name="pair_no">Níl</string>
+    <string name="tap_again_to_pay">Tapáil arís chun íoc le <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="tap_again_to_complete">Tapáil arís chun críochnú le <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="transaction_failure">Níorbh fhéidir an t-idirbheart seo a chur i gcrích le <xliff:g id="app">%1$s</xliff:g>.</string>
+    <string name="could_not_use_app">Níorbh fhéidir <xliff:g id="app">%1$s</xliff:g> a úsáid.</string>
+    <string name="pay_with">Íoc le</string>
+    <string name="complete_with">Agus é feistithe le</string>
+    <string name="default_pay_app_removed">Baineadh an tseirbhís is fearr leat le haghaidh íocaíocht gan tadhall. Roghnaigh ceann eile?</string>
+    <string name="ask_nfc_tap">Beartaigh ar ghléas eile chun an próiseas a chríochnú.</string>
+    <string name="wifi_connect">Ceangail</string>
+    <string name="status_unable_to_connect">Ní féidir ceangal leis an líonra</string>
+    <string name="status_wifi_connected">Ceangailte</string>
+    <string name="title_connect_to_network">Ceangail leis an líonra</string>
+    <string name="prompt_connect_to_network">Ceangail leis an líonra <xliff:g is="network ssid">%1$s</xliff:g>?</string>
+    <string name="beam_requires_nfc_enabled">Teastaíonn NFC cumasaithe le haghaidh Android Beam. Ar mhaith leat é a chumasú?</string>
+    <string name="android_beam">Android Beam</string>
+    <string name="beam_requires_external_storage_permission">Níl cead stórála seachtraí ag an bhfeidhmchlár. Tá sé seo riachtanach chun an comhad seo a sheoladh trí Beam.</string>
+    <string name="title_confirm_url_open">Oscail an nasc?</string>
+    <string name="summary_confirm_url_open">Fuair ​​do ghuthán nasc trí NFC:</string>
+    <string name="summary_confirm_url_open_tablet">Fuair ​​do tháibléad nasc trí NFC:</string>
+    <string name="action_confirm_url_open">Oscail an nasc</string>
+    <string name="tag_read_error">Earráid léite NFC. Bain triail as arís.</string>
+    <string name="tag_dispatch_failed">Níl aon fheidhmchlár tacaithe ann don chlib NFC seo.</string>
+    <string name="nfc_blocking_alert_title">D’fhéadfadh go bhfuil NFC blocáilte.</string>
+    <string name="nfc_blocking_alert_message">Tapáil chun foghlaim conas é a dheisiú.</string>
 </resources>
