@@ -4,6 +4,28 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <string name="app_name">Áireamhán</string>
+    <string name="dec_point">.</string>
+    <string name="mode_deg">céim</string>
+    <string name="mode_rad">rad</string>
+    <string name="cleared">glanta</string>
+    <string name="desc_const_e">Uimhir Euler</string>
+    <string name="desc_const_pi">pi</string>
+    <string name="desc_dec_point">pointe</string>
+    <string name="desc_lparen">lúibín clé</string>
+    <string name="desc_rparen">lúibín deas</string>
+    <string name="desc_fun_cos">comhshíneas</string>
+    <string name="desc_fun_ln">logartam nádúrtha</string>
+    <string name="desc_fun_log">logartam</string>
+    <string name="desc_fun_sin">sine</string>
+    <string name="desc_fun_tan">tadhlaí</string>
+    <string name="desc_fun_arccos">cósín inbhéartach</string>
+    <string name="desc_fun_arcsin">sín inbhéartach</string>
+    <string name="desc_fun_arctan">tangant inbhéartach</string>
+    <string name="desc_fun_10pow">a deich a ardú go dtí an chumhacht</string>
+    <string name="desc_fun_exp">feidhm easpónantúil</string>
+    <string name="desc_op_sqr">cearnaithe</string>
+    <string name="desc_op_add">móide</string>
     <string name="desc_op_div">roinn</string>
     <string name="desc_op_fact">fachtóir</string>
     <string name="desc_op_mul">iolrú</string>
@@ -40,6 +62,7 @@
     <string name="menu_history">Stair</string>
     <string name="menu_clear_history">Glan</string>
     <string name="title_history">Stair</string>
+    <string name="desc_navigate_up">Nascleanúint suas</string>
     <string name="dialog_timeout">Am críochnaithe</string>
     <string name="dialog_clear">Stair agus cuimhne a ghlanadh?</string>
     <string name="title_current_expression">Slonn Reatha</string>
