@@ -22,7 +22,8 @@
         <img src="vpn_icon" />
         ]]> viser øvst på skjermen når VPN er aktiv.
     </string>
-    <string name="warning" product="tv">      <xliff:g id="app">%s</xliff:g> vil setja opp eit VPN-samband som lèt han overvaka nettverkstrafikken. Godta berre om du stolar på kjelda.
+    <string name="warning" product="tv">
+      <xliff:g id="app">%s</xliff:g> vil setja opp eit VPN-samband som lèt han overvaka nettverkstrafikken. Godta berre om du stolar på kjelda.
         <![CDATA[
         <br />
         <br />
@@ -34,23 +35,28 @@
     <string name="duration">Varer:</string>
     <string name="data_transmitted">Sendt:</string>
     <string name="data_received">Motteke:</string>
-    <string name="data_value_format">        <xliff:g id="number">%1$s</xliff:g> byte /
+    <string name="data_value_format">
+        <xliff:g id="number">%1$s</xliff:g> byte /
         <xliff:g id="number">%2$s</xliff:g> pakkar
     </string>
     <string name="always_on_disconnected_title">Klarer ikkje kopla til alltid-på-VPN</string>
-    <string name="always_on_disconnected_message">        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> er sett opp til å vera tilkopla støtt, men klarer ikkje kopla til akkurat no. Telefonen din kjem til å bruka eit ope nettverk til han kan kopla til <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> att.
+    <string name="always_on_disconnected_message">
+        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> er sett opp til å vera tilkopla støtt, men klarer ikkje kopla til akkurat no. Telefonen din kjem til å bruka eit ope nettverk til han kan kopla til <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> att.
     </string>
-    <string name="always_on_disconnected_message_lockdown">        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> er sett opp til å vera tilkopla støtt, men klarer ikkje kopla til akkurat no. Du har ikkje noko samband før VPN-et kan kopla til att.
+    <string name="always_on_disconnected_message_lockdown">
+        <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g> er sett opp til å vera tilkopla støtt, men klarer ikkje kopla til akkurat no. Du har ikkje noko samband før VPN-et kan kopla til att.
     </string>
     <string name="always_on_disconnected_message_settings_link">Endra VPN-innstillingar</string>
     <string name="configure">Set opp</string>
     <string name="disconnect">Kopla frå</string>
     <string name="open_app">Opna appen</string>
     <string name="dismiss">Avvis</string>
-    <string name="sanitized_vpn_label_with_ellipsis">        <xliff:g id="sanitized_vpn_label_with_ellipsis" example="My VPN app">%1$s</xliff:g>… (
+    <string name="sanitized_vpn_label_with_ellipsis">
+        <xliff:g id="sanitized_vpn_label_with_ellipsis" example="My VPN app">%1$s</xliff:g>… (
         <xliff:g id="sanitized_vpn_label_with_ellipsis" example="com.my.vpn.app">%2$s</xliff:g>)
     </string>
-    <string name="sanitized_vpn_label">        <xliff:g id="sanitized_vpn_label" example="My VPN app">%1$s</xliff:g> (
+    <string name="sanitized_vpn_label">
+        <xliff:g id="sanitized_vpn_label" example="My VPN app">%1$s</xliff:g> (
         <xliff:g id="sanitized_vpn_label" example="com.my.vpn.app">%2$s</xliff:g>)
     </string>
 </resources>

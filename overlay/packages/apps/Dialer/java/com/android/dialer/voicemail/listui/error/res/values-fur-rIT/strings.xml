@@ -102,11 +102,14 @@
   <string name="dialer_terms_and_conditions_title">Ative la segretarie visive</string>
   <string name="dialer_terms_and_conditions_existing_user_title">Gnove! Lei la tô segretarie</string>
   <string name="dialer_terms_and_conditions_message"><xliff:g>%s</xliff:g></string>
-  <string name="dialer_terms_and_conditions_1.0">  Viôt e scolte i tiei messaçs, cence vê di clamâ la segretarie. Lis trascrizions de tô segretarie a son furnidis dal servizi di trascrizion gratuit di Google. Tu puedis decidi di disativâ in cualsisei moment tes Impostazions. <xliff:g>%s</xliff:g>
+  <string name="dialer_terms_and_conditions_1.0">
+  Viôt e scolte i tiei messaçs, cence vê di clamâ la segretarie. Lis trascrizions de tô segretarie a son furnidis dal servizi di trascrizion gratuit di Google. Tu puedis decidi di disativâ in cualsisei moment tes Impostazions. <xliff:g>%s</xliff:g>
   </string>
-  <string name="dialer_terms_and_conditions_existing_user">  Lis trascrizions de tô segretarie a son furnidis dal servizi d trascrizion gratuit di Google. In cualsisei moment tu puedis decidi di disativâlis tes Impostazions. %s
+  <string name="dialer_terms_and_conditions_existing_user">
+  Lis trascrizions de tô segretarie a son furnidis dal servizi d trascrizion gratuit di Google. In cualsisei moment tu puedis decidi di disativâlis tes Impostazions. %s
   </string>
-  <string name="dialer_terms_and_conditions_for_verizon_1.0">  Viôt e scole i tiei messaçs, cence vê di clamâ la segretarie.
+  <string name="dialer_terms_and_conditions_for_verizon_1.0">
+  Viôt e scole i tiei messaçs, cence vê di clamâ la segretarie.
   </string>
   <string name="dialer_terms_and_conditions_learn_more">Par savênt di plui</string>
   <string name="dialer_terms_and_conditions_existing_user_ack">Va ben, capît</string>

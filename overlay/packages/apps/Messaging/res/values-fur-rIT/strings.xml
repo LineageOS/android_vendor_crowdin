@@ -96,7 +96,8 @@
         <item quantity="other"><xliff:g id="messages">%d</xliff:g> messaçs in <xliff:g id="conversations">%d</xliff:g> conversazions</item>
     </plurals>
     <string name="notification_emergency_send_failure_line1">Il messaç a <xliff:g id="number">%1$s</xliff:g> nol è stât inviât</string>
-    <string name="notification_emergency_send_failure_line2">        Par plasê fâs une clamade vocâl ai servizis di emergjence. In chest moment
+    <string name="notification_emergency_send_failure_line2">
+        Par plasê fâs une clamade vocâl ai servizis di emergjence. In chest moment
         nol è stât  pussibil spedî il to messaç di test a <xliff:g id="number">%1$s</xliff:g>.
     </string>
     <plurals name="notification_new_messages">

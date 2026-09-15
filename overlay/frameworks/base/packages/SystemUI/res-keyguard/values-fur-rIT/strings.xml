@@ -96,13 +96,16 @@
     <string name="kg_sim_unlock_progress_dialog_message">Daûr a sblocâ la SIM\u2026</string>
     <string name="kg_invalid_sim_pin_hint">Scrîf un PIN che al vedi di 4 a 8 numars.</string>
     <string name="kg_invalid_sim_puk_hint">Il codiç PUK al à di vê 8 numars o plui.</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">        Tu âs sbaliât di inserî il to PIN <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">
+        Tu âs sbaliât di inserî il to PIN <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">        Tu âs sbaliât di scrivi la tô password <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_too_many_failed_password_attempts_dialog_message">
+        Tu âs sbaliât di scrivi la tô password <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">
+        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
     <string name="kg_password_wrong_pin_code_pukked">Codiç PIN de SIM sbaliât, cumò tu âs di contatâ il to operadôr par sblocâ il to dispositîf.</string>

@@ -17,6 +17,6 @@
     <string-array name="automatic_storage_management_days">
         <item>Os cionn 30 lá d\'aois</item>
         <item>Os cionn 60 lá d\'aois</item>
-        <item>Over 90 days old</item>
+        <item>Os cionn 90 lá d\'aois</item>
     </string-array>
 </resources>

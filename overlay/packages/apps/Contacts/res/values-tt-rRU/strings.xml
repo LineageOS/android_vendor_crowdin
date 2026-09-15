@@ -82,11 +82,13 @@
     <string name="take_new_photo">Яңадан фотога төшерү</string>
     <string name="pick_new_photo">Яңа фото сайлау</string>
     <string name="menu_help">Ярдәм &amp; кайтаваз</string>
-    <string name="organization_entry_two_field">        <xliff:g id="first" example="Google">%1$s</xliff:g>
+    <string name="organization_entry_two_field">
+        <xliff:g id="first" example="Google">%1$s</xliff:g>
          •
          <xliff:g id="second" example="Developer">%2$s</xliff:g>
     </string>
-    <string name="organization_entry_all_field">        <xliff:g id="company" example="Google">%1$s</xliff:g>
+    <string name="organization_entry_all_field">
+        <xliff:g id="company" example="Google">%1$s</xliff:g>
          •
          <xliff:g id="department" example="People">%2$s</xliff:g>
          •

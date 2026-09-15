@@ -314,6 +314,7 @@
     <string name="go_to_adaptive_notification_settings">Múch</string>
     <string name="kg_prompt_after_adaptive_auth_lock">Cuireadh an gléas faoi ghlas, an iomarca iarrachtaí fíordheimhnithe</string>
     <string name="keyguard_indication_after_adaptive_auth_lock">Gléas glasáilte\nNíor éirigh leis an bhfíordheimhniú</string>
+    <string name="volume_odi_captions_tip">Uathoibríoch</string>
     <string name="volume_odi_captions_hint_enable">cumasaigh</string>
     <string name="volume_odi_captions_hint_disable">Díchumasaigh</string>
     <string name="stream_bluetooth_sco">Bluetooth</string>
@@ -357,6 +358,7 @@
     <string name="inline_done_button">Déanta</string>
     <string name="inline_ok_button">Cuir isteach</string>
     <string name="notification_alert_title">Réamhshocrú</string>
+    <string name="notification_automatic_title">Uathoibríoch</string>
     <string name="notification_conversation_summary_low">Gan fuaim ná creathadh ach tá sé fós le feiceáil sa rannán comhrá</string>
     <string name="notification_guts_bundle_feedback">Tabhair Aiseolas Beart</string>
     <string name="notification_conversation_unbubble">Bain boilgeoga</string>

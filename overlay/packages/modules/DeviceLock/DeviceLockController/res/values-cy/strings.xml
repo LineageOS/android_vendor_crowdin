@@ -21,7 +21,8 @@
     <string name="setup_info_title_text">Sut y gall <xliff:g id="creditor_app">%1$s</xliff:g> reoli\u2019r ddyfais hon</string>
     <string name="setup_failed_title_text">Methu gosod ap <xliff:g id="creditor_app">%1$s</xliff:g></string>
     <string name="setup_failed_reset_device_text">Yn ailosod y ddyfais i geisio eto.</string>
-    <string name="setup_failed_reset_device_timer_text">        {count, plural,
+    <string name="setup_failed_reset_device_timer_text">
+        {count, plural,
             zero {}
             one {Ail-osoda\u2019r ddyfais, yna ceisio ei gosod eto. Caiff ei ail-osod yn awgomatig ymhen # eiliad.}
             two {Ail-osoda\u2019r ddyfais, yna ceisio ei gosod eto. Caiff ei ail-osod yn awgomatig ymhen # eiliad.}

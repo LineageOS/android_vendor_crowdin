@@ -54,17 +54,20 @@
         dae s\'amministradore de su dispositivu tuo e non faghet a dda disinstallare.</string>
     <string name="untrusted_external_source_warning" product="watch">Pro sa seguresa tua, su rellògiu non tenet permissu pro installare aplicatziones disconnotas dae custa mitza. Podes modificare custu cumportamentu dae is Cunfiguratziones.</string>
     <string name="untrusted_external_source_warning" product="default">Pro sa seguresa tua, su telèfonu non tenet permissu pro installare aplicatziones disconnotas dae custa mitza. Podes modificare custu cumportamentu dae is Cunfiguratziones.</string>
-    <string name="anonymous_source_warning" product="default">        Su telèfonu e is datos personales tuos sunt prus espostos a
+    <string name="anonymous_source_warning" product="default">
+        Su telèfonu e is datos personales tuos sunt prus espostos a
         atacos de aplicatziones disconnotas. Installende custa aplicatzione
         atzetas de èssere responsàbile de cale si siat dannu
         a su telèfonu tuo o de sa pèrdida de datos chi diat pòdere causare.
     </string>
-    <string name="anonymous_source_warning" product="tablet">        Sa tauledda e is datos personale sunt prus espostos
+    <string name="anonymous_source_warning" product="tablet">
+        Sa tauledda e is datos personale sunt prus espostos
         a atacos de aplicatziones disconnotas. Installende custa aplicatzione
         atzetas de èssere responsàbile de cale si siat dannu
         a su telèfonu tuo o de sa pèrdida de datos chi diat pòdere causare.
     </string>
-    <string name="anonymous_source_warning" product="tv">        Su televisore e is datos personale sunt prus espostos
+    <string name="anonymous_source_warning" product="tv">
+        Su televisore e is datos personale sunt prus espostos
         a atacos de aplicatziones disconnotas. Installende custa aplicatzione
         atzetas de èssere responsàbile de cale si siat dannu
         a su telèfonu tuo o de sa pèrdida de datos chi diat pòdere causare.
@@ -81,13 +84,15 @@
     <string name="unarchive_body_text">S\'at a aviare s\'iscarrigamentu de custa aplicatzione in segundu pranu</string>
     <string name="restore">Riprìstina</string>
     <string name="unarchive_error_offline_title">Ses foras de lìnia</string>
-    <string name="unarchive_error_offline_body">        Pro ripristinare custa aplicatzione, controlla sa connessione a internet e torra·nce a proare
+    <string name="unarchive_error_offline_body">
+        Pro ripristinare custa aplicatzione, controlla sa connessione a internet e torra·nce a proare
     </string>
     <string name="unarchive_error_generic_title">Calicuna cosa est andada male</string>
     <string name="unarchive_error_generic_body">        Errore provende a ripristinare custa aplicatzione
     </string>
     <string name="unarchive_error_storage_title">Non nc\'at logu in s\'archiviatzione</string>
-    <string name="unarchive_error_storage_body">        Pro ripristinare custa aplicatzione, podes fàghere logu in custu dispositivu.
+    <string name="unarchive_error_storage_body">
+        Pro ripristinare custa aplicatzione, podes fàghere logu in custu dispositivu.
         Memòria netzessària: <xliff:g id="bytes" example="100 MB">%1$s</xliff:g>
     
     </string>

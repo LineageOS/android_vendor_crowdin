@@ -19,7 +19,8 @@
     <string name="emergency_action_title">Naud-SOS</string>
     <string name="emergency_action_subtitle">Førebur å ringja til <xliff:g id="emergency_number" example="911">%1$s</xliff:g></string>
     <string name="count_down_unit">s</string>
-    <string name="countdown_text_content_description">        {seconds_left, plural,
+    <string name="countdown_text_content_description">
+        {seconds_left, plural,
         one {}=1    {1 sekund}
         other {# sekund}
         }

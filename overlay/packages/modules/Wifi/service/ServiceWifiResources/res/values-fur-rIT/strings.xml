@@ -53,7 +53,8 @@
     <string name="ok">Va ben</string>
     <string name="wifi_p2p_invitation_sent_title">Invît mandât</string>
     <string name="wifi_p2p_invitation_to_connect_title">Invît ae conession</string>
-    <string name="wifi_p2p_invitation_seconds_remaining">        {0, plural,
+    <string name="wifi_p2p_invitation_seconds_remaining">
+        {0, plural,
             one {}=1 {Acete dentri di # secont.}
             other {Acete dentri di # seconts.}
         }

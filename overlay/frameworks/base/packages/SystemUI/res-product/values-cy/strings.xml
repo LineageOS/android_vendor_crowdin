@@ -24,34 +24,48 @@
     <string name="keyguard_missing_sim_message" product="tablet">Dim SIM yn y llechen.</string>
     <string name="keyguard_missing_sim_message" product="default">Dim SIM yn y ffôn.</string>
     <string name="kg_invalid_confirm_pin_hint" product="default">Dyw\'r codau PIN ddim yr un fath</string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">
+Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y llechen ei ail-osod a bydd ei holl ddata yn cael ei ddileu.    </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="default">Rwyt wedi ceisio a methu datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">
+Rwyt wedi ceisio a methu datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y ffôn ei ail-osod a bydd ei holl ddata yn cael ei ddileu.    </string>
-    <string name="kg_failed_attempts_now_wiping" product="tablet">Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r llechen. 
+    <string name="kg_failed_attempts_now_wiping" product="tablet">
+Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r llechen. 
 Caiff y llechen ei ailosod, gan ddileu ei holl ddata.    </string>
-    <string name="kg_failed_attempts_now_wiping" product="default">Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r ffôn. 
+    <string name="kg_failed_attempts_now_wiping" product="default">
+Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r ffôn. 
 Caiff y ffôn ei ailosod, gan ddileu ei holl ddata.    </string>
-    <string name="kg_failed_attempts_almost_at_erase_user" product="tablet">Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_erase_user" product="tablet">
+Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y defnyddiwr ei dynnu a bydd holl ddata\u2019r defnyddiwr yn cael ei dileu.    </string>
-    <string name="kg_failed_attempts_almost_at_erase_user" product="default">Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_erase_user" product="default">
+Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y defnyddiwr ei dynnu a bydd holl ddata\u2019r defnyddiwr yn cael ei dileu.    </string>
-    <string name="kg_failed_attempts_now_erasing_user" product="tablet">Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r llechen. 
+    <string name="kg_failed_attempts_now_erasing_user" product="tablet">
+Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r llechen. 
 Caiff y defnyddiwr ei dynnu, gan ddileu ei holl ddata.    </string>
-    <string name="kg_failed_attempts_now_erasing_user" product="default">Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r ffôn. 
+    <string name="kg_failed_attempts_now_erasing_user" product="default">
+Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r ffôn. 
 Caiff y defnyddiwr ei dynnu, gan ddileu ei holl ddata.    </string>
-    <string name="kg_failed_attempts_almost_at_erase_profile" product="tablet">Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="tablet">
+Rwyt wedi ceisio a methu â datgloi\u2019r llechen <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y proffil gwaith ei dynnu a bydd holl ddata\u2019r proffil yn cael ei dileu.    </string>
-    <string name="kg_failed_attempts_almost_at_erase_profile" product="default">Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="default">
+Rwyt wedi ceisio a methu â datgloi\u2019r ffôn <xliff:g id="number">%1$d</xliff:g> tro.
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, caiff y proffil gwaith ei dynnu a bydd holl ddata\u2019r proffil yn cael ei dileu.    </string>
-    <string name="kg_failed_attempts_now_erasing_profile" product="tablet">Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r llechen. 
+    <string name="kg_failed_attempts_now_erasing_profile" product="tablet">
+Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r llechen. 
 Caiff y proffil gwaith ei dynnu, gan ddileu holl ddata\u2019r proffil.    </string>
-    <string name="kg_failed_attempts_now_erasing_profile" product="default">Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r ffôn. 
+    <string name="kg_failed_attempts_now_erasing_profile" product="default">
+Rwyt wedi gwneud <xliff:g id="number">%d</xliff:g> ymdrech i ddatgloi\u2019r ffôn. 
 Caiff y proffil gwaith ei dynnu, gan ddileu holl ddata\u2019r proffil.    </string>
-    <string name="kg_failed_attempts_almost_at_login" product="tablet">Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">
+Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi\u2019r llechen gan ddefnyddio cyfrif e-bost.\n\n
 Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </string>
-    <string name="kg_failed_attempts_almost_at_login" product="default">Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
+    <string name="kg_failed_attempts_almost_at_login" product="default">
+Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.\n
 Ar ôl <xliff:g id="number">%2$d</xliff:g> cynnig aflwyddiannus arall, mi fydd gofyn iti ddatgloi\u2019r ffôn gan ddefnyddio cyfrif e-bost.\n\n
 Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </string>
     <string name="thermal_shutdown_title" product="default">Trodd y ffôn i ffwrdd oherwydd gwres</string>

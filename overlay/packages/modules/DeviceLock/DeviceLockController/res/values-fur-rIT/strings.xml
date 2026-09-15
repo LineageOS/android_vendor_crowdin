@@ -22,7 +22,8 @@
     <string name="setup_info_title_text">Cemût che <xliff:g id="creditor_app">%1$s</xliff:g> al pues gjestî chest dispositîf</string>
     <string name="setup_failed_title_text">Impussibil instalâ la aplicazion <xliff:g id="creditor_app">%1$s</xliff:g></string>
     <string name="setup_failed_reset_device_text">Daûr a ripristinâ il dispositîf par tornâ a provâ.</string>
-    <string name="setup_failed_reset_device_timer_text">        {count, plural,
+    <string name="setup_failed_reset_device_timer_text">
+        {count, plural,
             one {}=1    {Ripristine chest dispositîf, dopo prove a configurâlu di gnûf. Si ripristinarà in automatic ca di 1 secont.}
             other {Ripristine chest dispositîf, dopo prove a configurâlu di gnûf. Si ripristinarà in automatic ca di # seconts.}
         }
@@ -123,7 +124,8 @@
     <string name="settings_contact_provider"><xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>Contate <xliff:g id="provider name">%1$s</xliff:g><xliff:g id="support_link_end">&lt;/a&gt;</xliff:g></string>
     <string name="settings_contact_provider_preference_key">settings_contact_provider_preference_key</string>
     <string name="provision_notification_channel_name">Furnidure</string>
-    <string name="device_reset_in_days_notification_title">        {count, plural,
+    <string name="device_reset_in_days_notification_title">
+        {count, plural,
             one {}=1    {Il dispositîf si azerarà ca di 1 dì}
             other {Il dispositîf si azerarà ca di # dîs}
         }

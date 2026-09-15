@@ -17,24 +17,46 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Tosaitheoir3</string>
     <string name="work_folder_name">Obair</string>
+    <string name="activity_not_found">Níl an aip suiteáilte.</string>
+    <string name="activity_not_available">Níl an aip ar fáil</string>
+    <string name="safemode_shortcut_error">Aip íoslódáilte díchumasaithe i mód sábháilte</string>
+    <string name="safemode_widget_error">Giuirléidí díchumasaithe i mód sábháilte</string>
+    <string name="shortcut_not_available">Níl aicearra ar fáil</string>
+    <string name="home_screen">Baile</string>
     <string name="set_default_home_app">Socraigh <xliff:g id="launcher_name" example="Launcher3">%1$s</xliff:g> mar aip baile réamhshocraithe sna Socruithe</string>
+    <string name="recent_task_option_split_screen">Scáileán scoilte</string>
+    <string name="split_app_info_accessibility">Eolas faoin aip le haghaidh %1$s</string>
     <string name="split_app_usage_settings">Socruithe úsáide do %1$s</string>
     <string name="new_window_option_taskbar">Fuinneog Nua</string>
     <string name="manage_windows_option_taskbar">Bainistigh Windows</string>
     <string name="app_pair_not_available">Níl aip péire ar fáil</string>
+    <string name="long_press_widget_to_add">Brúigh agus coinnigh síos chun giuirléid a bhogadh.</string>
+    <string name="long_accessible_way_to_add">Tapáil faoi dhó &amp; coinnigh chun giuirléid a bhogadh nó gníomhartha saincheaptha a úsáid.</string>
     <string name="widget_picker_widget_options_button_description">Tuilleadh roghanna</string>
     <string name="widget_picker_show_all_widgets_menu_item_title">Taispeáin gach giuirléidí</string>
+    <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
+    <string name="widget_accessible_dims_format">%1$d ar leithead faoi %2$d ar airde</string>
+    <string name="widget_preview_context_description">giuirléid <xliff:g id="ainm_an_ghiuirléide" example="Radharc míosa féilire">%1$s</xliff:g></string>
     <string name="widget_preview_name_and_dims_content_description">
         <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> giuirléid, %2$d ar leithead faoi %3$d ar airde
     </string>
+    <string name="added_to_home_screen_accessibility_text">Cuireadh giuirléid <xliff:g id="widget_name" example="Radharc míosa féilire">%1$s</xliff:g> leis an scáileán baile</string>
     <string name="productivity_widget_recommendation_category_label">Bunúsacha</string>
     <string name="news_widget_recommendation_category_label">Nuacht &amp; irisí</string>
     <string name="entertainment_widget_recommendation_category_label">Siamsaíocht</string>
     <string name="social_widget_recommendation_category_label">Sóisialta</string>
     <string name="others_widget_recommendation_category_label">Molta duit</string>
+    <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 giuirléid">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 aicearra">%2$s</xliff:g></string>
+    <string name="widget_button_text">Giuirléidí</string>
     <string name="widgets_full_sheet_search_bar_hint">Cuardaigh</string>
+    <string name="widgets_full_sheet_cancel_button_description">Glan téacs ón mbosca cuardaigh</string>
+    <string name="no_widgets_available">Níl giuirléidí agus aicearraí ar fáil</string>
+    <string name="no_search_results">Níor aimsíodh aon ghiuirléidí ná aicearraí</string>
+    <string name="widgets_full_sheet_personal_tab">Pearsanta</string>
     <string name="widgets_full_sheet_work_tab">Obair</string>
+    <string name="widget_category_conversations">Comhráite</string>
     <string name="widget_cell_tap_to_show_add_button_label">Taispeáin an cnaipe leis</string>
     <string name="widget_cell_tap_to_hide_add_button_label">Folaigh an cnaipe leis</string>
     <string name="widget_add_button_label">Cuir</string>
@@ -42,6 +64,13 @@
     <string name="widgets_list_expand_button_label">Taispeáin go léir</string>
     <string name="widgets_list_expand_button_content_description">Taispeáin gach giuirléidí</string>
     <string name="widgets_list_expanded">Gach giuirléidí á dtaispeáint</string>
+    <string name="reconfigurable_widget_education_tip">Tapáil chun socruithe giuirléidí a athrú</string>
+    <string name="widget_reconfigure_button_content_description">Athraigh socruithe giuirléidí</string>
+    <string name="all_apps_search_bar_hint">Cuardaigh aipeanna</string>
+    <string name="all_apps_loading_message">Ag luchtú aipeanna</string>
+    <string name="all_apps_no_search_results">Níor aimsíodh aon aip a mheaitseálann \"<xliff:g id="query" example="Android">%1$s</xliff:g>\"</string>
+    <string name="label_application">Aip</string>
+    <string name="all_apps_label">Gach aip</string>
     <string name="notifications_header">Fógraí</string>
     <string name="long_press_shortcut_to_add">Brúigh agus coinnigh síos chun aicearra a bhogadh.</string>
     <string name="long_accessible_way_to_add_shortcut">Tapáil faoi dhó agus coinnigh síos chun aicearra a bhogadh nó gníomhartha saincheaptha a úsáid.</string>
@@ -107,11 +136,35 @@
     <string name="widgets_list_closed">Liosta giuirléidí dúnta</string>
     <string name="action_move_here">Bog an mhír anseo</string>
     <string name="item_added_to_workspace">Mír curtha leis an scáileán baile</string>
+    <string name="item_removed">Mír bainte</string>
     <string name="undo">Cuir ar ceal</string>
+    <string name="action_move">Bog mír</string>
+    <string name="move_to_position">Bog go dtí an suíomh <xliff:g id="number" example="1">%1$s</xliff:g></string>
+    <string name="move_to_hotseat_position">Bog go dtí an suíomh is fearr leat <xliff:g id="number" example="1">%1$s</xliff:g></string>
+    <string name="item_moved">Mír bhogtha</string>
+    <string name="add_to_folder">Cuir leis an bhfillteán: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="add_to_folder_with_app">Cuir le fillteán le <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+    <string name="added_to_folder">Mír curtha leis an bhfillteán</string>
+    <string name="create_folder_with">Cruthaigh fillteán le: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+    <string name="folder_created">Cruthaíodh fillteán</string>
+    <string name="action_resize">Athraigh méid</string>
+    <string name="action_increase_width">Méadaigh an leithead</string>
+    <string name="action_increase_height">Méadaigh airde</string>
+    <string name="action_decrease_width">Laghdaigh an leithead</string>
+    <string name="action_decrease_height">Laghdaigh airde</string>
+    <string name="widget_resized">Athraíodh méid an ghiuirléid go leithead <xliff:g id="number" example="2">%1$s</xliff:g> airde <xliff:g id="number" example="1">%2$s</xliff:g></string>
     <string name="action_deep_shortcut">Roghchlár Aicearra</string>
     <string name="action_dismiss_notification">Díbhe</string>
     <string name="accessibility_close">Dún</string>
+    <string name="all_apps_personal_tab">Pearsanta</string>
     <string name="all_apps_work_tab">Obair</string>
+    <string name="work_profile_toggle_label">Próifíl oibre</string>
+    <string name="work_profile_edu_work_apps">Tá suaitheantas ar aipeanna oibre agus tá siad le feiceáil ag do riarthóir TF</string>
+    <string name="work_profile_edu_accept">Tuigim é.</string>
+    <string name="work_apps_paused_title">Tá aipeanna oibre ar sos</string>
+    <string name="work_apps_paused_body">Ní féidir le d’aipeanna oibre fógraí a sheoladh chugat, do cheallraí a úsáid, ná rochtain a fháil ar do shuíomh.</string>
+    <string name="work_apps_paused_edu_banner">Tá suaitheantas ar aipeanna oibre agus tá siad le feiceáil ag do riarthóir TF</string>
+    <string name="work_apps_paused_edu_accept">Tuigim é.</string>
     <string name="work_scheduler_button_content_description">Sceideal feidhmchláir oibre</string>
     <string name="private_space_secondary_label">Tapáil chun a shocrú nó a oscailt</string>
     <string name="ps_container_unlock_button_content_description">Príobháideach, díghlasáilte.</string>

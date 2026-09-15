@@ -43,7 +43,8 @@
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
     <string name="widget_accessible_dims_format">%1$d di largjece par %2$d di altece</string>
     <string name="widget_preview_context_description">Widget <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
-    <string name="widget_preview_name_and_dims_content_description">        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget, %2$d di largjece par %3$d di altece
+    <string name="widget_preview_name_and_dims_content_description">
+        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget, %2$d di largjece par %3$d di altece
     </string>
     <string name="add_item_request_drag_hint">Tocje e ten fracât il widget par spostâlu ator te schermade iniziâl</string>
     <string name="add_to_home_screen">Zonte ae schermade di inizi</string>
@@ -55,9 +56,11 @@
     <string name="social_widget_recommendation_category_label">Social</string>
     <string name="others_widget_recommendation_category_label">Conseâts par te</string>
     <string name="widget_picker_right_pane_accessibility_title">I widgets <xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> a diestre, ricercje e opzions a çampe</string>
-    <string name="widgets_count">        {count, plural, one {}=1{# widget} other{# widgets}}
+    <string name="widgets_count">
+        {count, plural, one {}=1{# widget} other{# widgets}}
     </string>
-    <string name="shortcuts_count">        {count, plural, one {}=1{# scurte} other{# scurtis}}
+    <string name="shortcuts_count">
+        {count, plural, one {}=1{# scurte} other{# scurtis}}
     </string>
     <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
     <string name="widget_button_text">Widgets</string>
@@ -116,7 +119,8 @@
     <string name="uninstall_system_app_text">Cheste e je une aplicazion di sisteme e nol è pussibil disinstalâle.</string>
     <string name="folder_hint_text">Modifiche non</string>
     <string name="disabled_app_label"><xliff:g id="app_name" example="Messenger">%1$s</xliff:g> disativât</string>
-    <string name="dotted_app_label">        {count, plural,
+    <string name="dotted_app_label">
+        {count, plural,
             one {}=1      {{app_name} al à # notifiche}
             other   {{app_name} al à # notifichis}
         }

@@ -43,7 +43,8 @@
     <string name="ip_hint">192.168.0.4</string>
     <string name="add">Legg til</string>
     <string name="add_named">Legg til
-<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g></string>
+<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g>
+</string>
     <string name="no_printer_found">Fann ingen skrivar på denne adressa</string>
     <string name="printer_not_supported">Skrivaren er ikkje støtta</string>
     <string name="wifi_direct">Wi-Fi Direct</string>
@@ -53,15 +54,18 @@
     <string name="searching">Søkjer \u2026</string>
     <string name="connect_hint_text">Du må kanskje godkjenna tilkoplinga på panelet til skrivaren</string>
     <string name="connecting_to">Koplar til
-<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g> </string>
+<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g> 
+</string>
     <string name="failed_printer_connection">Klarte ikkje kopla til skrivaren</string>
     <string name="failed_connection">Klarte ikkje kopla til
-<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g></string>
+<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g>
+</string>
     <string name="saved_printers">Lagra skrivarar</string>
     <string name="forget">Gløym</string>
     <string name="connects_via_wifi_direct">Koplar til via Wi-Fi Direct</string>
     <string name="connects_via_network">Koplar til via det noverande nettverket på
-<xliff:g example="192.168.0.101" id="ip_address">%1$s</xliff:g></string>
+<xliff:g example="192.168.0.101" id="ip_address">%1$s</xliff:g>
+</string>
     <string name="recommendation_summary">Standard utskriftsteneste gjev deg dei enkle vala. Andre funksjonar kan vera tilgjengelege gjennom andre utskriftstenester.</string>
     <string name="recommendations_heading">Tilrådde tenester</string>
     <string name="recommendation_install_summary">Trykk for å installera</string>

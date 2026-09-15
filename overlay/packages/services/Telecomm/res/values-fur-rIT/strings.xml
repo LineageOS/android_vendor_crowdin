@@ -26,15 +26,19 @@
     <string name="notification_missedCall_message">Messaç</string>
     <string name="notification_disconnectedCall_title">Clamade disconetude</string>
     <string name="notification_disconnectedCall_body">La clamade a <xliff:g id="caller">%s</xliff:g> e je stade disconetude par dâ prioritât a une clamade di emergjence.</string>
-    <string name="notification_disconnectedCall_generic_body">        La tô clamade e je stade disconetude par dâ prioritât a une clamade di emergjence.
+    <string name="notification_disconnectedCall_generic_body">
+        La tô clamade e je stade disconetude par dâ prioritât a une clamade di emergjence.
     </string>
     <string name="notification_audioProcessing_title">Clamade in sotfont</string>
-    <string name="notification_audioProcessing_body">        <xliff:g id="audio_processing_app_name">%s</xliff:g> al sta elaborant une clamade in
+    <string name="notification_audioProcessing_body">
+        <xliff:g id="audio_processing_app_name">%s</xliff:g> al sta elaborant une clamade in
         sotfont. Cheste aplicazion e podarès acedi e riprodusi audio parsore de clamade.
     </string>
-    <string name="notification_incallservice_not_responding_title">        <xliff:g id="in_call_service_app_name">%s</xliff:g> nol rispuint plui
+    <string name="notification_incallservice_not_responding_title">
+        <xliff:g id="in_call_service_app_name">%s</xliff:g> nol rispuint plui
     </string>
-    <string name="notification_incallservice_not_responding_body">        Pe tô clamade e je stade doprade la aplicazion par telefonâ che e rive integrade cul to dispositîf
+    <string name="notification_incallservice_not_responding_body">
+        Pe tô clamade e je stade doprade la aplicazion par telefonâ che e rive integrade cul to dispositîf
     </string>
     <string name="accessibility_call_muted">Clamade cidinade.</string>
     <string name="accessibility_speakerphone_enabled">Amplificadôr de casse ativât.</string>

@@ -107,17 +107,20 @@
     <string name="untrusted_external_source_warning" product="tv">Pe tô sigurece, pal moment la tô TV no à i permès par instalâ aplicazions no cognossudis di cheste origjin. Tu puedis cambiâ cheste opzion tes Impostazions.</string>
     <string name="untrusted_external_source_warning" product="watch">Pe tô sigurece, pal moment il to orloi nol à i permès par instalâ aplicazions no cognossudis di cheste origjin. Tu puedis cambiâ cheste opzion tes Impostazions.</string>
     <string name="untrusted_external_source_warning" product="default">Pe tô sigurece, pal moment il to telefon nol à i permès par instalâ aplicazions no cognossudis di cheste origjin. Tu puedis cambiâ cheste opzion tes Impostazions.</string>
-    <string name="anonymous_source_warning" product="default">        Il to telefon e i tiei dâts personâi a son plui vulnerabii
+    <string name="anonymous_source_warning" product="default">
+        Il to telefon e i tiei dâts personâi a son plui vulnerabii
         ai atacs di aplicazions no cognossudis. Se tu instalis cheste
         aplicazion tu acetis di jessi responsabil di eventuâi dams
         al to telefon o de eventuâl pierdite di dâts dovude al lôr ûs.
     </string>
-    <string name="anonymous_source_warning" product="tablet">        Il to tablet e i tiei dâts personâi a son plui vulnerabii
+    <string name="anonymous_source_warning" product="tablet">
+        Il to tablet e i tiei dâts personâi a son plui vulnerabii
         ai atacs di aplicazions no cognossudis. Se tu instalis cheste
         aplicazion tu acetis di jessi responsabil di eventuâi dams
         al to tablet o de eventuâl pierdite di dâts dovude al lôr ûs.
     </string>
-    <string name="anonymous_source_warning" product="tv">        La tô TV e i tiei dâts personâi a son plui vulnerabii
+    <string name="anonymous_source_warning" product="tv">
+        La tô TV e i tiei dâts personâi a son plui vulnerabii
         ai atacs di aplicazions no cognossudis. Se tu instalis cheste
         aplicazion tu acetis di jessi responsabil di eventuâi dams
         ae tô TV o de eventuâl pierdite di dâts dovude al lôr ûs.
@@ -134,26 +137,34 @@
     <string name="unarchive_body_text">Cheste aplicazion e scomençarà a discjariâsi in sotfont</string>
     <string name="restore">Ripristine</string>
     <string name="unarchive_error_offline_title">Tu sês fûr rêt</string>
-    <string name="unarchive_error_offline_body">        Par ripristinâ cheste aplicazion, controle la tô conession a internet e torne prove
+    <string name="unarchive_error_offline_body">
+        Par ripristinâ cheste aplicazion, controle la tô conession a internet e torne prove
     </string>
     <string name="unarchive_error_generic_title">Alc al è lât strucj</string>
-    <string name="unarchive_error_generic_body">        Al è vignût fûr un probleme tal cirî di ripristinâ cheste aplicazion
+    <string name="unarchive_error_generic_body">
+        Al è vignût fûr un probleme tal cirî di ripristinâ cheste aplicazion
     </string>
     <string name="unarchive_error_storage_title">No vonde memorie di archivazion</string>
-    <string name="unarchive_error_storage_body">        Par ripristinâ cheste aplicazion, tu puedis liberâ spazi su chest dispositîf. Memorie
+    <string name="unarchive_error_storage_body">
+        Par ripristinâ cheste aplicazion, tu puedis liberâ spazi su chest dispositîf. Memorie
         necessarie: <xliff:g id="bytes" example="100 MB">%1$s</xliff:g>
     </string>
     <string name="unarchive_action_required_title">Azion necessarie</string>
-    <string name="unarchive_action_required_body">        Va daûr dai prossims passaçs par ripristinâ cheste aplicazion
+    <string name="unarchive_action_required_body">
+        Va daûr dai prossims passaçs par ripristinâ cheste aplicazion
     </string>
-    <string name="unarchive_error_installer_disabled_title">        <xliff:g id="installername" example="App Store">%1$s</xliff:g> al è disativât
+    <string name="unarchive_error_installer_disabled_title">
+        <xliff:g id="installername" example="App Store">%1$s</xliff:g> al è disativât
     </string>
-    <string name="unarchive_error_installer_disabled_body">        Par ripristinâ cheste aplicazion, ative
+    <string name="unarchive_error_installer_disabled_body">
+        Par ripristinâ cheste aplicazion, ative
         <xliff:g id="installername" example="App Store">%1$s</xliff:g> tes Impostazions
     </string>
-    <string name="unarchive_error_installer_uninstalled_title">        <xliff:g id="installername" example="App Store">%1$s</xliff:g> al è disinstalât
+    <string name="unarchive_error_installer_uninstalled_title">
+        <xliff:g id="installername" example="App Store">%1$s</xliff:g> al è disinstalât
     </string>
-    <string name="unarchive_error_installer_uninstalled_body">        Par ripristinâ cheste aplicazion, tu varâs di instalâ
+    <string name="unarchive_error_installer_uninstalled_body">
+        Par ripristinâ cheste aplicazion, tu varâs di instalâ
         <xliff:g id="installername" example="App Store">%1$s</xliff:g>
     </string>
     <string name="unarchive_action_required_continue">Continue</string>

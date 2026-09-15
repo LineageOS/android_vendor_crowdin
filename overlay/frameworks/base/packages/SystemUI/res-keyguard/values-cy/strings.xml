@@ -96,13 +96,16 @@
     <string name="kg_sim_unlock_progress_dialog_message">Yn datgloi\u2019r SIM\u2026</string>
     <string name="kg_invalid_sim_pin_hint">Rho rif PIN rhwng 4 ac 8 digid.</string>
     <string name="kg_invalid_sim_puk_hint">Rhaid i\u2019r cod PUK fod yn o leiaf 8 digid.</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">        Rwyt wedi rhoi PIN anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">
+        Rwyt wedi rhoi PIN anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">        Rwyt wedi rhoi cyfrinair anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_too_many_failed_password_attempts_dialog_message">
+        Rwyt wedi rhoi cyfrinair anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">        Rwyt wedi rhoi patrwm anghywir <xliff:g id="number">%1$d</xliff:g> tro.
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">
+        Rwyt wedi rhoi patrwm anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
     <string name="kg_password_wrong_pin_code_pukked">Rhoddwyd PIN SIM anghywir a rhaid nawr cysylltu â dy ddarparwr gwasanaeth er mwyn datgloi dy ddyfais.</string>

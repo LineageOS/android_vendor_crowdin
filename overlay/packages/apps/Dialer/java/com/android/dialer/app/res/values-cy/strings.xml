@@ -35,20 +35,25 @@
   <string name="notification_voicemail_text_format">Deialu <xliff:g id="voicemail_number">%s</xliff:g></string>
   <string name="notification_voicemail_no_vm_number">Dim yn gwybod y rhif lleisbost</string>
   <plurals name="notification_voicemail_title">
-    <item quantity="zero">            <xliff:g id="count">%1$d</xliff:g>
+    <item quantity="zero">
+            <xliff:g id="count">%1$d</xliff:g>
             negeseuon lleisbost
         </item>
     <item quantity="one">Lleisbost</item>
-    <item quantity="two">            <xliff:g id="count">%1$d</xliff:g>
+    <item quantity="two">
+            <xliff:g id="count">%1$d</xliff:g>
             neges lleisbost
         </item>
-    <item quantity="few">            <xliff:g id="count">%1$d</xliff:g>
+    <item quantity="few">
+            <xliff:g id="count">%1$d</xliff:g>
             neges lleisbost
         </item>
-    <item quantity="many">            <xliff:g id="count">%1$d</xliff:g>
+    <item quantity="many">
+            <xliff:g id="count">%1$d</xliff:g>
             neges lleisbost
         </item>
-    <item quantity="other">            <xliff:g id="count">%1$d</xliff:g>
+    <item quantity="other">
+            <xliff:g id="count">%1$d</xliff:g>
             neges lleisbost
         </item>
   </plurals>
@@ -112,7 +117,8 @@
   <string name="call_log_action_send_message">Anfon neges</string>
   <string name="call_log_action_details">Manylion galwad</string>
   <string name="call_log_action_share_voicemail">Anfon at …</string>
-  <string name="call_log_action_call">        Galw <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="call_log_action_call">
+        Galw <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
   <string name="description_incoming_missed_call">Wedi methu galwad oddi wrth <xliff:g example="John Smith" id="nameOrNumber">^ 1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^ 2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^ 3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^ 4</xliff:g>.</string>
   <string name="description_incoming_answered_call">Wedi ateb galwad oddi wrth <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
@@ -121,16 +127,22 @@
   <string name="description_outgoing_call">Galwad i <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
   <string name="call_log_via_number">trwy <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g></string>
   <string name="call_log_via_number_phone_account"><xliff:g example="SIM 1" id="phoneAccount">%1$s</xliff:g> trwy <xliff:g example="(555) 555-5555" id="number">%2$s</xliff:g></string>
-  <string name="description_call_action">        Galw <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="description_call_action">
+        Galw <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
-  <string name="description_video_call_action">        Galwad fideo <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>.
+  <string name="description_video_call_action">
+        Galwad fideo <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>.
     </string>
-  <string name="description_voicemail_action">        Gwrando ar neges leisbost oddi wrth <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="description_voicemail_action">
+        Gwrando ar neges leisbost oddi wrth <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
-  <string name="description_create_new_contact_action">Creu cyswllt ar gyfer <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>    </string>
-  <string name="description_add_to_existing_contact_action">        Ychwanegu <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g> i gyswllt sy\u2019n bodoli eisoes
+  <string name="description_create_new_contact_action">
+Creu cyswllt ar gyfer <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>    </string>
+  <string name="description_add_to_existing_contact_action">
+        Ychwanegu <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g> i gyswllt sy\u2019n bodoli eisoes
     </string>
-  <string name="description_details_action">        Manylion galw ar gyfer <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="description_details_action">
+        Manylion galw ar gyfer <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
   <string name="call_log_header_today">Heddiw</string>
   <string name="call_log_header_yesterday">Ddoe</string>

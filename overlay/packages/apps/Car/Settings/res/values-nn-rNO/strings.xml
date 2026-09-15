@@ -608,9 +608,11 @@
     <string name="zone_list_menu_sort_by_timezone">Sorter etter tidssone</string>
     <string name="date_picker_title">Dato</string>
     <string name="time_picker_title">Tid</string>
-    <string name="auto_local_time_disclaimer_summary">        Automatisk dato og tid kan bruka kjelder, som posisjon og mobilnett, for å finna fram til dato, tid og tidssone.
+    <string name="auto_local_time_disclaimer_summary">
+        Automatisk dato og tid kan bruka kjelder, som posisjon og mobilnett, for å finna fram til dato, tid og tidssone.
     </string>
-    <string name="auto_local_time_toggle_summary">        Bruk plasseringa til bilen for å stilla dato og tid automatisk. Dette fungerer berre dersom posisjon er på.
+    <string name="auto_local_time_toggle_summary">
+        Bruk plasseringa til bilen for å stilla dato og tid automatisk. Dette fungerer berre dersom posisjon er på.
     </string>
     <string name="auto_local_time_dialog_negative_button_text">Hald fram</string>
     <string name="auto_local_time_dialog_positive_button_text">Endra i innstillingar</string>
@@ -729,10 +731,12 @@
     <string name="camera_access_settings_title">Kameratilgang</string>
     <string name="camera_access_settings_summary">Vel om appar skal ha tilgang til kameraa i bilen</string>
     <string name="required_apps_group_title">Naudsynte appar</string>
-    <string name="required_apps_group_summary">        Appar som bilprodusenten krev for å hjelpa deg med køyringa
+    <string name="required_apps_group_summary">
+        Appar som bilprodusenten krev for å hjelpa deg med køyringa
     </string>
     <string name="required_apps_privacy_policy_button_text">Retningslinjer</string>
-    <string name="camera_access_disclaimer_summary">        Bilprodusenten kan framleis ha tilgang til kameraet i bilen
+    <string name="camera_access_disclaimer_summary">
+        Bilprodusenten kan framleis ha tilgang til kameraet i bilen
     </string>
     <string name="camera_infotainment_apps_toggle_title">Infotainment-appar</string>
     <string name="camera_infotainment_apps_toggle_summary">Gje infotainment-appar løyve til å ta bilete og ta opp video</string>

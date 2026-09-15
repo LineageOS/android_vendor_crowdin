@@ -90,7 +90,8 @@
     <string name="query_error">Methu â llwytho cynnwys ar hyn o bryd</string>
     <string name="quiet_mode_error_title">Mae apiau gwaith ar saib</string>
     <string name="quiet_mode_button">Troi apiau gwaith ymlaen</string>
-    <string name="profile_quiet_mode_error_title">        <xliff:g id="profile" example="Work">%1$s</xliff:g> ap ar seibiant
+    <string name="profile_quiet_mode_error_title">
+        <xliff:g id="profile" example="Work">%1$s</xliff:g> ap ar seibiant
     </string>
     <string name="profile_quiet_mode_button">Troi apiau <xliff:g id="profile" example="work">%1$s</xliff:g> ymlaen</string>
     <string name="cant_select_work_files_error_title">Ni ellir dewis ffeiliau gwaith</string>

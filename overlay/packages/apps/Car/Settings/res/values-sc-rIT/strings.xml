@@ -38,10 +38,12 @@
     <string name="alarms_and_reminders_title">Isvèllias e apuntos</string>
     <string name="premium_sms_access_title">SMS prèmium</string>
     <string name="location_infotainment_apps_toggle_title">Aplicatziones de infotenimentu</string>
-    <string name="location_infotainment_apps_toggle_summary">        Permite chi is aplicatziones potzant atzèdere a sa positzione tua
+    <string name="location_infotainment_apps_toggle_summary">
+        Permite chi is aplicatziones potzant atzèdere a sa positzione tua
     </string>
     <string name="date_time_set_time">Cunfigura su rellògiu</string>
-    <string name="auto_local_time_disclaimer_summary">        Podet èssere chi sa data e s\'ora automàticas impreent mitzas comente sa positzione e is retes mòbiles pro determinare sa data, s\'ora e su fusu oràriu.
+    <string name="auto_local_time_disclaimer_summary">
+        Podet èssere chi sa data e s\'ora automàticas impreent mitzas comente sa positzione e is retes mòbiles pro determinare sa data, s\'ora e su fusu oràriu.
     </string>
     <string name="auto_local_time_toggle_summary">Imprea sa positzione de sa vetura tua pro cunfigurare in automàticu sa data e s\'ora. Custa optzione funtzionat isceti si sa positzione est ativada.</string>
     <string name="auto_local_time_dialog_positive_button_text">Modifica in sa cunfiguratzione</string>
@@ -50,9 +52,11 @@
     <string name="microphone_access_settings_summary">Sèbera si is aplicatziones podent atzèdere a is micròfonos de sa vetura</string>
     <string name="microphone_infotainment_apps_toggle_title">Aplicatziones de infotenimentu</string>
     <string name="microphone_infotainment_apps_toggle_summary">Permite chi is aplicatziones de infotenimentu registrent àudio</string>
-    <string name="required_apps_group_summary">        Aplicatziones chi su produtore de sa vetura rechedet pro t\'agiudare a sa ghia
+    <string name="required_apps_group_summary">
+        Aplicatziones chi su produtore de sa vetura rechedet pro t\'agiudare a sa ghia
     </string>
-    <string name="camera_access_disclaimer_summary">        Podet èssere chi su produtore de sa vetura tèngiat ancora atzessu a sa càmera de sa vetura
+    <string name="camera_access_disclaimer_summary">
+        Podet èssere chi su produtore de sa vetura tèngiat ancora atzessu a sa càmera de sa vetura
     </string>
     <string name="camera_infotainment_apps_toggle_title">Aplicatziones de infotenimentu</string>
     <string name="camera_infotainment_apps_toggle_summary">Permite chi is aplicatziones de infotenimentu fatzant fotografias e registrent vìdeos</string>

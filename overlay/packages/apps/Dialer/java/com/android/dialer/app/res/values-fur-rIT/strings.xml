@@ -36,7 +36,8 @@
   <string name="notification_voicemail_no_vm_number">Numar de segretarie no cognossût</string>
   <plurals name="notification_voicemail_title">
     <item quantity="one">Messaç in segretarie</item>
-    <item quantity="other">            <xliff:g id="count">%1$d</xliff:g>
+    <item quantity="other">
+            <xliff:g id="count">%1$d</xliff:g>
             Messaçs in segretarie
         </item>
   </plurals>
@@ -97,7 +98,8 @@
   <string name="call_log_action_send_message">Mande un messaç</string>
   <string name="call_log_action_details">Detais de clamade</string>
   <string name="call_log_action_share_voicemail">Invie a …</string>
-  <string name="call_log_action_call">        Clame <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="call_log_action_call">
+        Clame <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
   <string name="description_incoming_missed_call">Clamade pierdude di <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
   <string name="description_incoming_answered_call">Clamade rispuindude di <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
@@ -106,17 +108,23 @@
   <string name="description_outgoing_call">Clamade a <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
   <string name="call_log_via_number">midiant <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g></string>
   <string name="call_log_via_number_phone_account"><xliff:g example="SIM 1" id="phoneAccount">%1$s</xliff:g> midiant <xliff:g example="(555) 555-5555" id="number">%2$s</xliff:g></string>
-  <string name="description_call_action">        Clame <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="description_call_action">
+        Clame <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
-  <string name="description_video_call_action">        Video-clame <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>.
+  <string name="description_video_call_action">
+        Video-clame <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>.
     </string>
-  <string name="description_voicemail_action">        Scolte messaç in segretarie di <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="description_voicemail_action">
+        Scolte messaç in segretarie di <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
-  <string name="description_create_new_contact_action">        Cree contat par <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="description_create_new_contact_action">
+        Cree contat par <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
-  <string name="description_add_to_existing_contact_action">        Zonte <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g> a un contat esistent
+  <string name="description_add_to_existing_contact_action">
+        Zonte <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g> a un contat esistent
     </string>
-  <string name="description_details_action">        Detais des clamadis par <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+  <string name="description_details_action">
+        Detais des clamadis par <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
     </string>
   <string name="call_log_header_today">Vuê</string>
   <string name="call_log_header_yesterday">Îr</string>

@@ -25,35 +25,49 @@
     <string name="keyguard_missing_sim_message" product="default">Ingen SIM-kort i telefonen.</string>
     <string name="kg_invalid_confirm_pin_hint" product="default">PIN-kodane er ikkje like</string>
     <string name="kg_failed_attempts_almost_at_wipe" product="tablet"> Du har prøvd å låsa opp nettbrettet feil <xliff:g id="number">%1$d</xliff:g> gongar.
-Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert nettbrettet nullstilt, og alle data vert sletta.</string>
+Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert nettbrettet nullstilt, og alle data vert sletta.
+</string>
     <string name="kg_failed_attempts_almost_at_wipe" product="default"> Du har prøvd å låsa opp telefonen feil <xliff:g id="number">%1$d</xliff:g> gongar.
-Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert telefonen nullstilt, og alle data vert sletta.</string>
+Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert telefonen nullstilt, og alle data vert sletta.
+</string>
     <string name="kg_failed_attempts_now_wiping" product="tablet"> Du har prøvd å låsa opp nettbrettet feil <xliff:g id="number">%d</xliff:g> gongar.
-Nettbrettet vert no nullstilt, og alle data vert sletta.</string>
+Nettbrettet vert no nullstilt, og alle data vert sletta.
+</string>
     <string name="kg_failed_attempts_now_wiping" product="default"> Du har prøvd å låsa opp telefonen feil <xliff:g id="number">%d</xliff:g> gongar.
-Telefonen vert no nullstilt, og alle data vert sletta.</string>
+Telefonen vert no nullstilt, og alle data vert sletta.
+</string>
     <string name="kg_failed_attempts_almost_at_erase_user" product="tablet"> Du har prøvd å låsa opp nettbrettet feil <xliff:g id="number">%1$d</xliff:g> gongar.
-Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert denne brukaren fjerna, og alle brukardata vert sletta.</string>
+Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert denne brukaren fjerna, og alle brukardata vert sletta.
+</string>
     <string name="kg_failed_attempts_almost_at_erase_user" product="default"> Du har prøvd å låsa opp telefonen feil <xliff:g id="number">%1$d</xliff:g> gongar.
-Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert denne brukaren fjerna, og alle brukardata vert sletta.</string>
+Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert denne brukaren fjerna, og alle brukardata vert sletta.
+</string>
     <string name="kg_failed_attempts_now_erasing_user" product="tablet"> Du har prøvd å låsa opp nettbrettet feil <xliff:g id="number">%d</xliff:g> gongar.
-Denne brukaren vert no fjerna, og alle brukardata vert sletta.</string>
+Denne brukaren vert no fjerna, og alle brukardata vert sletta.
+</string>
     <string name="kg_failed_attempts_now_erasing_user" product="default"> Du har prøvd å låsa opp telefonen feil <xliff:g id="number">%d</xliff:g> gongar.
-Denne brukaren vert no fjerna, og alle brukardata vert sletta.</string>
+Denne brukaren vert no fjerna, og alle brukardata vert sletta.
+</string>
     <string name="kg_failed_attempts_almost_at_erase_profile" product="tablet"> Du har prøvd å låsa opp nettbrettet feil <xliff:g id="number">%1$d</xliff:g> gongar.
-Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert arbeidsprofilen fjerna, og alle profildata vert sletta.</string>
+Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert arbeidsprofilen fjerna, og alle profildata vert sletta.
+</string>
     <string name="kg_failed_attempts_almost_at_erase_profile" product="default"> Du har prøvd å låsa opp telefonen feil <xliff:g id="number">%1$d</xliff:g> gongar.
-Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert arbeidsprofilen fjerna, og alle profildata vert sletta.</string>
+Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til vert arbeidsprofilen fjerna, og alle profildata vert sletta.
+</string>
     <string name="kg_failed_attempts_now_erasing_profile" product="tablet"> Du har prøvd å låsa opp nettbrettet feil <xliff:g id="number">%d</xliff:g> gongar.
-Arbeidsprofilen vert no fjerna, og alle profildata vert sletta.</string>
+Arbeidsprofilen vert no fjerna, og alle profildata vert sletta.
+</string>
     <string name="kg_failed_attempts_now_erasing_profile" product="default"> Du har prøvd å låsa opp telefonen feil <xliff:g id="number">%d</xliff:g> gongar.
-Arbeidsprofilen vert no fjerna, og alle profildata vert sletta.</string>
+Arbeidsprofilen vert no fjerna, og alle profildata vert sletta.
+</string>
     <string name="kg_failed_attempts_almost_at_login" product="tablet"> Du har teikna feil opplåsingsmønster <xliff:g id="number">%1$d</xliff:g> gongar.
 Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til må du låsa opp nettbrettet med ein e-postkonto.\n\n
-Prøv på nytt om <xliff:g id="number">%3$d</xliff:g> sekund.</string>
+Prøv på nytt om <xliff:g id="number">%3$d</xliff:g> sekund.
+</string>
     <string name="kg_failed_attempts_almost_at_login" product="default"> Du har teikna feil opplåsingsmønster <xliff:g id="number">%1$d</xliff:g> gongar.
 Etter <xliff:g id="number">%2$d</xliff:g> mislukka forsøk til må du låsa opp telefonen med ein e-postkonto.\n\n
-Prøv på nytt om <xliff:g id="number">%3$d</xliff:g> sekund.</string>
+Prøv på nytt om <xliff:g id="number">%3$d</xliff:g> sekund.
+</string>
     <string name="thermal_shutdown_title" product="default">Telefonen vart slått av på grunn av varme</string>
     <string name="thermal_shutdown_title" product="device">Eininga vart slått av på grunn av varme</string>
     <string name="thermal_shutdown_title" product="tablet">Nettbrettet vart slått av på grunn av varme</string>
