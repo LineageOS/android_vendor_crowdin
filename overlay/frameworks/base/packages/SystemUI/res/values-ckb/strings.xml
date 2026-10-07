@@ -20,7 +20,6 @@
     <string name="battery_low_description">تەنها <xliff:g id="percentage" example="20%">%s</xliff:g> ی باتری ماوە. پاشەکەوتکاری باتری ڕوکاری تاریک چالاک دەکات، چالاکیی پاشبنەما سنووردار دەکات و ئاگادارکردنەوەکان دوا دەخات.</string>
     <string name="battery_low_intro">پاشەکەوتکاری باتری ڕوکاری تاریک چالاک دەکات، چالاکیی پاشبنەما سنووردار دەکات و ئاگادارکردنەوەکان دوا دەخات.</string>
     <string name="add_network_button_text">زیادکردنی تۆڕ</string>
-    <string name="change_connected_wifi_text">دوای چوونەژوورەوە دەتوانیت ئەم ڕێکخستنە بگۆڕیت</string>
     <string name="screenrecord_permission_dialog_option_text_entire_screen">تۆمارکردنی ئەم ڕوونما کاتییە</string>
     <string name="screenrecord_permission_dialog_option_text_entire_screen_for_display">تۆمارکردنی <xliff:g id="display_name">%s</xliff:g></string>
     <string name="screen_record_single_app">یەک بەرنامە</string>
@@ -31,9 +30,10 @@
     <string name="screen_record_should_show_camera_label">پیشاندانی کامێرای سێڵفی</string>
     <string name="screen_record_should_show_touches_label">پیشاندانی دەستلێدانەکان</string>
     <string name="screen_record_capture_target_choose_app">بەرنامەیەک بۆ تۆمارکردن هەڵبژێرە</string>
+    <string name="screen_record_accessibility_label_show_next">پیشاندانی داهاتوو</string>
+    <string name="screen_record_accessibility_label_show_previous">پیشاندانی پێشوو</string>
     <string name="screen_record_video_saved">ڤیدیۆ پاشەکەوت کرا</string>
     <string name="screen_record_video_deleted">ڤیدیۆ سڕدرایەوە</string>
-    <string name="screen_record_retake">تۆمارکردنەوە</string>
     <string name="screen_record_delete_dialog_title">ئەم تۆمارە بسڕدرێتەوە؟</string>
     <string name="screen_record_delete_dialog_content">سڕینەوەی ئەم تۆمارە دەبێتە هۆی سڕینەوەی هەمیشەیی فایلی ڤیدیۆکە لە ئامێرەکەت.</string>
     <string name="screen_record_unmute">لادانی بێدەنگی</string>
@@ -41,8 +41,6 @@
     <string name="screen_capture_region_selection_button">گرتنی وێنەی ناوچەی دیاریکراو</string>
     <string name="screen_capture_record_region_selection_button">تۆمارکردنی ناوچەی دیاریکراو</string>
     <string name="screen_capture_toolbar_record_button">تۆمارکردن</string>
-    <string name="screen_share_no_select_app_thumbnail">بەرنامەیەک بۆ هاوبەشیکردن هەڵبژێرە</string>
-    <string name="screen_share_app_audio_sharing">هاوبەشیکردنی دەنگی پەنجەرەکە</string>
     <string name="screen_capture_toolbar_app_window_button_screenshot_a11y">گرتنی وێنەی پەنجەرە</string>
     <string name="screen_capture_toolbar_app_window_button_record_a11y">تۆمارکردنی پەنجەرە</string>
     <string name="screen_capture_toolbar_region_button_screenshot_a11y">گرتنی وێنەی ناوچەی دیاریکراو</string>
@@ -54,7 +52,6 @@
     <string name="screen_capture_region_dimensions"><xliff:g example="210" id="width">%1$d</xliff:g> x <xliff:g example="129" id="height">%2$d</xliff:g></string>
     <string name="share_to_app_stop_dialog_message_with_host_app">تۆ لە ئێستادا هاوبەشیکردن ئەنجام دەدەیت لەگەڵ <xliff:g id="host_app_name" example="Screen Recorder App">%1$s</xliff:g></string>
     <string name="accessibility_confirm_biometric_auth_to_unlock">پشتڕاستکردنەوە و قوفڵکردنەوەی ئامێرەکە</string>
-    <string name="accessibility_retry_face_auth">دووبارە هەوڵدانەوەی قوفڵکردنەوە بە دەموچاو</string>
     <string name="biometric_dialog_fallback_title">پشکنین بە ڕێگەیەکی تر</string>
     <string name="biometric_dialog_fallback_button">پشکنین بە ڕێگەیەکی تر</string>
     <string name="biometric_dialog_manage_identity_check">بەڕێوەبردنی پشکنینی ناسنامە</string>
@@ -73,8 +70,6 @@
     <string name="accessibility_bluetooth_device_settings_see_all">بینینی تەواوی ئامێرەکان</string>
     <string name="accessibility_expand_group">کشانەوەی کۆمەڵە.</string>
     <string name="accessibility_collapse_group">کۆکردنەوەی کۆمەڵە.</string>
-    <string name="accessibility_add_device_to_group">زیادکردنی ئامێر بۆ کۆمەڵە.</string>
-    <string name="accessibility_remove_device_from_group">لادانی ئامێر لە کۆمەڵە.</string>
     <string name="accessibility_add_device_to_group_with_name">زیادکردنی <xliff:g id="device_name">%s</xliff:g> بۆ کۆمەڵە.</string>
     <string name="accessibility_remove_device_from_group_with_name">لادانی <xliff:g id="device_name">%s</xliff:g> لە کۆمەڵە.</string>
     <string name="accessibility_open_application">کردنەوەی بەرنامە.</string>
@@ -82,7 +77,6 @@
     <string name="accessibility_desc_customize_lock_screen">ڕوونمای قوفڵکردن، بۆ تایبەتکردنی ڕوونمای قوفڵکردن دووجار لێ بدە و ڕایبگرە.</string>
     <string name="accessibility_microphone_in_use">مایکرۆفۆن لە بەکارهێناندایە</string>
     <string name="accessibility_camera_and_microphone_in_use">کامێرا و مایکرۆفۆن لە بەکارهێناندایە</string>
-    <string name="quick_settings_brightness_unable_adjust_msg">ناتوانرێت ڕووناکی ڕێک بخرێت چونکە لە لایەن بەرنامەی سەرەکییەوە کۆنتڕۆڵ کراوە</string>
     <string name="quick_settings_cast_disconnect">پچڕاندنی پەیوەندی</string>
     <string name="quick_settings_scanning_for_wifi">پشکنین بەدوای تۆڕی بێتەل دەکرێت</string>
     <string name="flashlight_dialog_title">هێزی فلاشی کامێرا</string>
@@ -105,7 +99,6 @@
     <string name="media_suggestion_disconnected_text">لێدان لەسەر <xliff:g id="device_name" example="Living room speaker">%s</xliff:g></string>
     <string name="media_suggestion_failure_text">ناتوانرێت پەیوەست بێت. سەرلەنوێ هەوڵ بدەرەوە.</string>
     <string name="zen_modes_multiple_on_title"><xliff:g id="number" example="3">%d</xliff:g> دۆخ</string>
-    <string name="keyguard_face_successful_unlock_confirm_button">بە دەموچاو قوفڵی کرایەوە. بۆ بەردەوامبوون لەسەر پشتڕاستکردنەوە لێ بدە.</string>
     <string name="title_for_empty_state_cta">دەستپێڕاگەیشتنی خێرا بە بەرنامۆچکە دڵخوازەکانی بەرنامەکەت بەدەست بهێنە بێ قوفڵکردنەوەی ئامێرەکەت.</string>
     <string name="communal_widget_picker_description">هەر کەسێک دەتوانێت بەرنامۆچکەکان لەسەر ڕوونمای قوفڵکردنت ببینێت، تەنانەت ئەگەر ئامێرەکەشم قوفڵ بێت.</string>
     <string name="accessibility_action_label_umo_show_next">پیشاندانی داهاتوو</string>
@@ -185,22 +178,16 @@
     <string name="accessibility_qs_edit_place_tile_action">جێگیرکردنی چوارگۆشە</string>
     <string name="accessibility_qs_edit_toggle_placement_mode">گۆڕینی دۆخی جێگیرکردن</string>
     <string name="accessibility_qs_edit_toggle_selection">گۆڕینی دیاریکردن</string>
-    <string name="accessibility_qs_edit_tile_add_action">زیادکردنی چوارگۆشە بۆ دوایین پێگەی</string>
     <string name="accessibility_qs_edit_named_tile_add_action">زیادکردنی <xliff:g id="name" example="Internet">%1$s</xliff:g> بۆ دوایین پێگەی</string>
-    <string name="accessibility_qs_edit_tile_start_add">زیادکردنی چوارگۆشە بۆ پێگەی دڵخواز</string>
     <string name="accessibility_qs_edit_tile_already_added">چوارگۆشەکە پێشتر زیاد کراوە</string>
     <string name="accessibility_quick_settings_edit">دەستکاریکردنی ڕیزبەندیی ڕێکخستنە خێراکان.</string>
     <string name="accessibility_key_gesture_dialog_title">چالاککردنی <xliff:g id="feature_name" example="Magnification">%1$s</xliff:g>؟</string>
-    <string name="accessibility_key_gesture_dialog_content">دوگمەی کردار <annotation id="action_key_icon">icon</annotation> + <xliff:g id="secondary_key" example="Alt">^1</xliff:g> + <xliff:g id="key_code" example="M">^2</xliff:g> قەدبڕی تەختەکلیلە بۆ بەکارهێنانی <xliff:g id="feature_name" example="TalkBack">^3</xliff:g>. <xliff:g id="feature_intro" example="TalkBack intro">^4</xliff:g></string>
-    <string name="accessibility_key_gesture_dialog_talkback_intro"><xliff:g id="feature_name" example="TalkBack">%1$s</xliff:g> خوێنەرەوەیەکی ڕوونما کە ڕێگەت پێدەدات گوێت لە خوێندنەوەی دەنگیی بابەتەکان بێت. ئەمە دەکرێت یارمەتیدەر بێت بۆ ئەو کەسانەی کێشەی بینینی ڕوونمایان هەیە.</string>
     <string name="accessibility_key_gesture_shortcut_not_yet_enabled_dialog_title">قەدبڕی تەختەکلیلی بەرنامەی <xliff:g id="feature_name" example="Voice Access">%1$s</xliff:g> چالاک بکرێت؟</string>
     <string name="accessibility_key_gesture_shortcut_not_yet_enabled_negative_button_text">چالاکی مەکە</string>
     <string name="accessibility_key_gesture_shortcut_not_yet_enabled_positive_button_text">چالاککردنی قەدبڕ</string>
     <string name="accessibility_key_gesture_magnification_dialog_title">قەدبڕی تەختەکلیلی <xliff:g id="feature_name" example="Magnification">%1$s</xliff:g> چالاک کرا</string>
-    <string name="accessibility_key_gesture_magnification_dialog_content">دوگمەی کردار <annotation id="action_key_icon">icon</annotation> + <xliff:g id="secondary_key" example="Alt">^1</xliff:g> + <xliff:g id="key_code" example="M">^2</xliff:g> قەدبڕی تەختەکلیلە بۆ بەکارهێنانی <xliff:g id="feature_name" example="Magnification">^3</xliff:g>، کە تایبەتمەندییەکی ئاسانکاریی دەستڕاگەیشتنە. ئەمە ڕێگەت پێدەدات بە خێرایی لەسەر ڕوونما نزیک ببیتەوە بۆ گەورەکردنی ناوەڕۆک. کاتێک گەورەکردن چالاک بوو، دوگمەی کردار <annotation id="action_key_icon">icon</annotation> + <xliff:g id="secondary_key" example="Alt">^1</xliff:g> و \"+\" یان \"-\" داگرە بۆ ڕێکخستنی نزیککردنەوە.</string>
     <string name="accessibility_key_gesture_magnification_dialog_negative_button_text">ناچالاککردنی قەدبڕ</string>
     <string name="accessibility_key_gesture_magnification_dialog_positive_button_text">بهێڵەرەوە</string>
-    <string name="accessibility_key_gesture_voice_access_dialog_content">داگرتنی دوگمەی کردار <annotation id="action_key_icon">icon</annotation> + <xliff:g id="secondary_key" example="Alt">^1</xliff:g> + <xliff:g id="key_code" example="M">^2</xliff:g> بەرنامەی <xliff:g id="feature_name" example="Voice Access">^3</xliff:g> چالاک دەکات، کە تایبەتمەندییەکی ئاسانکاریی دەستڕاگەیشتنە. ئەمە ڕێگەت پێدەدات بە بێ بەکارهێنانی دەست ئامێرەکەت کۆنتڕۆڵ بکەیت.</string>
     <string name="mobile_data_enable_title">داتای مۆبایل پێ بکرێت؟</string>
     <string name="mobile_data_enable_message">بەکارهێنانی داتای مۆبایل لەوانەیە تێچووی لێ بکەوێتەوە لەسەر بنەمای پلانی هێڵەکەت.</string>
     <string name="ongoing_privacy_chip_content_multiple_apps"><xliff:g id="types_list" example="camera, location">%s</xliff:g> لە بەکارهێنداندایە.</string>
@@ -220,7 +207,7 @@
     <string name="remember_choice">دووبارە داوا مەکە</string>
     <string name="start_desktop_mode">سەرکۆمپیوتەر</string>
     <string name="start_mirroring">هاوشێوە</string>
-    <string name="connected_display_extended_mode_text">پەیوەستە بە ڕوونمای دەرەکییەوە</string>
+    <string name="connected_display_connection_text">پەیوەستە بە ڕوونمای دەرەکییەوە</string>
     <string name="privacy_dialog_title">مایکرۆفۆن، کامێرا و شوێن</string>
     <string name="shortcut_helper_customize_mode_title">تایبەتکردنی قەدبڕەکان</string>
     <string name="shortcut_customize_mode_add_shortcut_description">بۆ دروستکردنی ئەم قەدبڕە، دوگمەی کردار (Action) و یەک یان چەند دوگمەیەکی تر پێکەوە دابگرە</string>
@@ -233,7 +220,6 @@
     <string name="launch_keyboard_tutorial_notification_content">فێربوونی قەدبڕەکانی تەختەکلیل</string>
     <string name="launch_keyboard_touchpad_tutorial_notification_content">فێربوونی ئاماژەکانی تابلۆی دەستلێدان، قەدبڕەکانی تەختەکلیل، و زیاتر</string>
     <string name="touchpad_tutorial_switch_apps_gesture_button">گۆڕینی بەرنامەکان</string>
-    <string name="gesture_error_title">دووبارە هەوڵ بدەرەوە!</string>
     <string name="touchpad_back_gesture_error_body">بۆ گەڕانەوە لە ڕێگەی تابلۆی دەستلێدانەکەتەوە، بە سێ پەنجە بەرەو چەپ یان ڕاست ڕایکێشە</string>
     <string name="touchpad_home_gesture_error_body">بۆ چوون بۆ ڕوونمای سەرەکی، بە سێ پەنجە لەسەر تابلۆی دەستلێدانەکەت بەرەو سەرەوە ڕایکێشە</string>
     <string name="touchpad_recent_gesture_error_body">بۆ بینینی بەرنامەکانی دوایی، بە سێ پەنجە لەسەر تابلۆی دەستلێدانەکەت بەرەو سەرەوە ڕایکێشە و ڕایبگرە</string>

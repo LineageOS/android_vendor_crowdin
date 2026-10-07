@@ -17,11 +17,6 @@
     <string name="hotwording_summary">هەموو کاتێک لەگەڵ یاریدەدەری دەنگیدا بدوێ</string>
     <string name="privacy_assistant_settings_title">یاریدەدەری دەنگی</string>
     <string name="share_thread_network">هاوبەشیکردنی زانیارییەکانی تۆڕی Thread</string>
-    <string name="share_thread_network_description">هاوبەشیکردنی زانیارییەکانی تۆڕی Thread لەگەڵ ئامێرەکانی تر بۆ ئاسانکردنی ڕێکخستن لەسەر تۆڕی Threadـەکەت <xliff:g id="device" example="Google TV Streamer">%1$s</xliff:g></string>
-    <string name="thread_network_share_again">هاوبەشیکردنەوە</string>
-    <string name="share_thread_network_countdown">کۆدەکە بەسەردەچێت لە\n<xliff:g id="minutes" example="02">%1$02d</xliff:g> خولەک\n<xliff:g id="seconds" example="32">%2$02d</xliff:g> چرکە</string>
-    <string name="thread_network_sharing_failed">ناتوانرێت تۆڕی Thread هاوبەشی بکرێت</string>
-    <string name="thread_network_sharing_success">تۆڕی Thread بە سەرکەوتوویی هاوبەش کرا</string>
     <string name="thread_network_sharing_timeout">کۆدەکە بەسەرچوو پێش ئەوەی هیچ ئامێرێک بۆ تۆڕی Thread زیاد بکرێت</string>
     <string name="wifi_settings_thread_network_energy_title">گۆڕینی دۆخی وزە بۆ چالاککردنی Thread</string>
     <string name="wifi_settings_thread_network_energy_message">بۆ ڕێگەدان بەم تەلەفزیۆنە تا تۆڕی Threadـەکەت دروست بکات یان بەشداری تێدا بکات و بە کارایی ئامێرەکانی ماڵی زیرەکت ببەستێتەوە، پێویستی بە دۆخی وزەی بەرزکراوە هەیە.</string>
@@ -32,8 +27,6 @@
          لە ڕێگەی کۆنترۆڵەکەتەوە دەستت بە یاریدەدەری دەنگی بگات کاتێک بلوتووس ناچالاکە. </string>
     <string name="manage_device_admin">بەڕێوەبەری ئامێر</string>
     <string name="wifi_forget_network_dialog_title"><xliff:g id="ssid">%1$s</xliff:g> بیربچێتەوە؟</string>
-    <string name="share_thread_title">بەکارهێنانی زانیارییەکانی Thread بۆ ڕێکخستنی ئامێر</string>
-    <string name="share_thread_description">بۆ زیادکردنی ئامێرێک بۆ تۆڕی Threadـەکەت، ئەم کۆدی QRـە لە بەرنامەی ئامێرەکەدا سکان بکە. بۆ پاراستن، کۆدەکە بەسەردەچێت لە <xliff:g id="minutes" example="3">%1$s</xliff:g> خولەکدا.</string>
     <string name="no_recent_camera_accesses">هیچ بەرنامە یان خزمەتگوزارییەک لەم دواییانەدا دەستی بە کامێرا نەگەیشتووە</string>
     <string name="no_recent_microphone_accesses">هیچ بەرنامە یان خزمەتگوزارییەک لەم دواییانەدا دەستی بە مایکرۆفۆن نەگەیشتووە</string>
     <string name="mic_toggle_info_content">کاتێک چالاک کراوە، هەموو بەرنامە و خزمەتگوزارییەکان کە ڕێپێدانی بەکارهێنانی مایکرۆفۆنیان هەیە، دەتوانن دەستیان پێی بگات.\n\nکاتێک ناچالاک کراوە، هیچ بەرنامە یان خزمەتگوزارییەک ناتوانێت دەستی بە مایکرۆفۆن بگات. بەڵام لەوانەیە هێشتا بتوانیت لەگەڵ یاریدەدەری دەنگیدا بدوێیت بە داگرتنی دوگمەی یاریدەدەر لەسەر کۆنترۆڵەکەت.\n\nئامێرە دەنگییەکان کە پرۆتۆکۆڵی تایبەت بەکاردەهێنن بۆ پەیوەندیکردن لەگەڵ تەلەفزیۆنەکە، لەوانەیە کاریگەرییان لەسەر نەبێت.</string>

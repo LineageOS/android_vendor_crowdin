@@ -33,12 +33,6 @@
     <string name="time_left_for_app"><xliff:g id="time" example="7 minutes">%1$s</xliff:g>ی بۆ ئەمڕۆ ماوە</string>
     <string name="title_app_suggestions">پێشنیارەکانی بەرنامە</string>
     <string name="all_apps_prediction_tip">بەرنامە پێشبینیکراوەکانت</string>
-    <string name="hotseat_edu_title_migrate">بەدەستهێنانی پێشنیاری بەرنامەکان لە ڕیزەی خوارەوەی ڕوونمای سەرەکی</string>
-    <string name="hotseat_edu_title_migrate_landscape">بەدەستهێنانی پێشنیاری بەرنامەکان لە ڕیزەی دڵخوازەکانی ڕوونمای سەرەکی</string>
-    <string name="hotseat_edu_message_migrate">بە ئاسانی دەستت بە زۆرترین بەکارهێنراوی بەرنامەکانت بگات لە ڕوونمای سەرەکی. پێشنیارەکان بەپێی ڕۆتینەکەت دەگۆڕێن. بەرنامەکانی ڕیزەی خوارەوە دەگوێزرێنەوە بۆ ڕوونمای سەرەکی.</string>
-    <string name="hotseat_edu_message_migrate_landscape">بە ئاسانی دەستت بە زۆرترین بەکارهێنراوی بەرنامەکانت بگات لە ڕوونمای سەرەکی. پێشنیارەکان بەپێی ڕۆتینەکەت دەگۆڕێن. بەرنامەکانی ڕیزەی دڵخوازەکان دەگوێزرێنەوە بۆ ڕوونمای سەرەکی.</string>
-    <string name="hotseat_edu_accept">بەدەستهێنانی پێشنیاری بەرنامەکان</string>
-    <string name="hotseat_edu_dismiss">نەخێر سوپاس</string>
     <string name="hotseat_prediction_settings">ڕێکخستنەکان</string>
     <string name="hotseat_auto_enrolled">بەرنامە زۆر بەکارهێنراوەکان لێرە دەردەکەون و بەپێی ڕۆتینەکان دەگۆڕێن</string>
     <string name="hotseat_tip_no_empty_slots">بەرنامەکان لە ڕیزەی خوارەوە ڕابکێشە بۆ دەرەوە بۆ بەدەستهێنانی پێشنیاری بەرنامەکان</string>
@@ -121,7 +115,6 @@
     <string name="taskbar_edu_suggested_search_animation_description">ئەنیمەیشنێک کە نیشانی دەدات چۆن بۆ شتێک لەسەر ڕوونماکە بگەڕێیت، بە دەستلێدان و ڕاگرتنی دوگمەی کردار و دیاریکردنی ئەو ناوچەیەی کە شتەکەی تێدایە</string>
     <string name="taskbar_edu_a11y_title">فێرکاریی Taskbar</string>
     <string name="taskbar_edu_splitscreen">بەرنامەیەک بۆ تەنیشت ڕابکێشە بۆ بەکارهێنانی 2 بەرنامە لە یەک کاتدا</string>
-    <string name="taskbar_edu_stashing">بۆ پیشاندانی Taskbar بە هێواشی بۆ سەرەوە ڕابکێشە</string>
     <string name="taskbar_edu_suggestions">بەپێی ڕۆتینەکەت پێشنیاری بەرنامەکان وەربگرە</string>
     <string name="taskbar_edu_pinning">بۆ پینکردنی Taskbar لەسەر دابەشکارەکە (divider) دەست لێ بدە و ڕای بگرە</string>
     <string name="taskbar_edu_features">کاری زیاتر لەگەڵ Taskbar ئەنجام بدە</string>
@@ -143,9 +136,7 @@
     <string name="always_show_taskbar">هەمیشە پیشاندانی Taskbar</string>
     <string name="change_navigation_mode">گۆڕینی شێوازی گەڕان</string>
     <string name="taskbar_divider_a11y_title">دابەشکاری Taskbar</string>
-    <string name="taskbar_overflow_a11y_title">بەرنامەکانی تری ئەم دواییانە</string>
-    <string name="app_added_to_taskbar">بەرنامە بۆ Taskbar زیاد کرا</string>
-    <string name="app_removed_from_taskbar">بەرنامە لە Taskbar لابرا</string>
+    <string name="taskbar_recents_overflow_a11y_title">بەرنامەکانی تری ئەم دواییانە</string>
     <string name="move_drop_target_top_or_left">گواستنەوە بۆ سەرەوە/چەپ</string>
     <string name="move_drop_target_bottom_or_right">گواستنەوە بۆ خوارەوە/ڕاست</string>
     <string name="open_app_as_a_bubble">کردنەوەی بەرنامە وەک بڵق (Bubble)</string>
@@ -157,22 +148,17 @@
         }</string>
     <string name="quick_switch_desktop">پێشخان (Desktop)</string>
     <string name="quick_switch_split_task"><xliff:g id="app_name_1" example="Chrome">%1$s</xliff:g> و <xliff:g id="app_name_2" example="Gmail">%2$s</xliff:g></string>
-    <string name="quick_switch_task_with_position_in_parent"><xliff:g id="task_description" example="Chrome">%1$s</xliff:g>، تەن <xliff:g id="index_in_parent" example="1">%2$d</xliff:g> لە <xliff:g id="total_tasks" example="5">%3$d</xliff:g></string>
     <string name="quick_switch_scroll_arrow_left">خلیسکاندن بۆ چەپ</string>
     <string name="quick_switch_scroll_arrow_right">خلیسکاندن بۆ ڕاست</string>
     <string name="bubble_bar_bubble_fallback_description">بڵق (Bubble)</string>
     <string name="bubble_bar_overflow_description">زیادەکان (Overflow)</string>
-    <string name="bubble_bar_bubble_description"><xliff:g id="notification_title" example="some title">%1$s</xliff:g> لە <xliff:g id="app_name" example="YouTube">%2$s</xliff:g>ەوە</string>
     <string name="bubble_bar_description_multiple_bubbles"><xliff:g id="bubble_bar_bubble_description" example="some title from YouTube">%1$s</xliff:g> و <xliff:g id="bubble_count" example="4">%2$d</xliff:g> تریش</string>
     <string name="bubble_bar_action_move_left">گواستنەوە بۆ چەپ</string>
     <string name="bubble_bar_action_move_right">گواستنەوە بۆ ڕاست</string>
     <string name="bubble_bar_action_dismiss_all">لادانی هەموو</string>
-    <string name="bubble_bar_accessibility_announce_expand">کردنەوەی <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
-    <string name="bubble_bar_accessibility_announce_collapse">کۆکردنەوەی <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
     <string name="search_gesture_feature_title">بازنە بکێشە بۆ گەڕان</string>
     <string name="header_app_icon_description">وێنۆچکەی بەرنامە</string>
     <string name="header_default_app_title">ناوی بەرنامە</string>
-    <string name="header_close_icon_description">دوگمەی داخستن</string>
     <string name="nudge_a11y_title">هاندەر (Nudge)</string>
     <string name="nudge_a11y_close">داخستن</string>
     <string name="nudge_a11y_image">وێنەی هاندەر</string>

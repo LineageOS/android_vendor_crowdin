@@ -36,5 +36,5 @@
     <string name="lock_screen_notifications_section_description">بەڕێوەبردنی شێوازی دەرکەوتنی ئاگادارییەکان و ئەوەی چی پیشان بدرێت</string>
     <string name="more_settings_section_title">ڕێکخستنی زیاتری ڕوونمای قوفڵ</string>
     <string name="clock_face_width">پانیی ڕوخساری کاتژمێر</string>
-    <string name="slider_state_description_template">%1$d، مەودای نێوان %2$d بۆ %3$d</string>
+    <string name="enabled_slider_state_description_template">%1$d، مەودای نێوان %2$d بۆ %3$d</string>
 </resources>

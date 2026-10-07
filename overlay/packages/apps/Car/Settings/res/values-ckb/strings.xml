@@ -31,18 +31,21 @@
     <string name="app_open_by_default_title">کردنەوە بە بنەڕەتی\"</string>
     <string name="app_open_by_default_summary">ڕێگەدان بە بەرنامەکە بۆ کردنەوەی لینکە پاڵپشتیکراوەکان</string>
     <string name="opening_links_verified_links_title">لینکە پشتڕاستکراوەکان</string>
-    <string name="opening_links_verified_links_summary">        {count, plural,
+    <string name="opening_links_verified_links_summary">
+        {count, plural,
         one {}=1    {# بەستەری پشتڕاستکراو}
         other {# بەستەری پشتڕاستکراو}
         }
     </string>
-    <string name="opening_links_supported_links_summary">        {count, plural,
+    <string name="opening_links_supported_links_summary">
+        {count, plural,
         one {}=1    {# بەستەری پاڵپشتیکراو}
         other {# بەستەری پاڵپشتیکراو}
         }
     </string>
     <string name="opening_links_add_links_title">زیادکردنی لینک</string>
-    <string name="opening_links_add_links_summary">        {count, plural,
+    <string name="opening_links_add_links_summary">
+        {count, plural,
         one {}=1    {# بەستەری یەکلایینەکراوە}
         other {# بەستەری یەکلایینەکراوە}
         }
@@ -54,8 +57,8 @@
     <string name="storage_total_label">کۆی گشتی %s</string>
     <string name="app_function_access_settings_title">کۆنتڕۆڵی بریکار لەسەر بەرنامەکانی تر</string>
     <string name="app_function_access_settings_summary">ئەنجامدانی کردار لەسەر ئامێرەکەت و لە ناو بەرنامەکانی تردا</string>
+    <string name="dialog_close_button_text">داخستن</string>
+    <string name="dialog_apply_button_text">جێبەجێکردن</string>
     <string name="aspect_ratio_dialog_title">ڕێکخستنەکانی ڕێژەی ڕوونما (Aspect Ratio)</string>
     <string name="aspect_ratio_dialog_message">بەرنامەکە لە کاتی گۆڕینی ڕێژەی ڕوونما دووبارە دادەگیرسێتەوە. لەوانەیە داتا پاشەکەوت نەکراوەکانت لەدەست بدەیت. هەندێک بەرنامە لەوانەیە بۆ هەندێک ڕێژەی ڕوونما نەگونجاو بن.</string>
-    <string name="aspect_ratio_dialog_close_button_text">داخستن</string>
-    <string name="aspect_ratio_dialog_apply_button_text">جێبەجێکردن</string>
 </resources>

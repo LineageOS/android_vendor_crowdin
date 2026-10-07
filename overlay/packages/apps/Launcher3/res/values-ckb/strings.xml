@@ -63,8 +63,6 @@
     </string>
     <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>، <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
     <string name="widget_button_text">بەرنامۆچکەکان (Widgets)</string>
-    <string name="widgets_full_sheet_search_bar_hint">گەڕان</string>
-    <string name="widgets_full_sheet_cancel_button_description">پاککردنەوەی دەق لە سندووقی گەڕان</string>
     <string name="no_widgets_available">بەرنامۆچکەکان و قەدبڕەکان بەردەست نین</string>
     <string name="no_search_results">هیچ بوکەڵە یان قەدبڕێک نەدۆزرایەوە</string>
     <string name="widgets_full_sheet_personal_tab">کەسی</string>
@@ -105,8 +103,7 @@
     <string name="pin_prediction">پینکردنی پێشبینی</string>
     <string name="bubble">بڵق (Bubble)</string>
     <string name="widget_settings">ڕێکخستنەکان</string>
-    <string name="pin_to_taskbar">پینکردن بۆ Taskbar</string>
-    <string name="unpin_from_taskbar">لادان لە Taskbar</string>
+    <string name="remove_system_shortcut_label">لابردن</string>
     <string name="permlab_install_shortcut">دامەزراندنی قەدبڕەکان</string>
     <string name="permdesc_install_shortcut">ڕێگە بە بەرنامەیەک بدە بۆ زیادکردنی قەدبڕەکان بەبێ دەستێوەردانی بەکارهێنەر.</string>
     <string name="permlab_read_settings">خوێندنەوەی ڕێکخستنەکان و قەدبڕەکانی ماڵەوە</string>
@@ -137,17 +134,12 @@
     <string name="folder_tap_to_rename">لێ بدە بۆ پاشەکەوتکردنی ناوە نوێکە</string>
     <string name="folder_closed">بوخچەکە داخرا</string>
     <string name="folder_renamed">ناوی بوخچەکە گۆڕدرا بۆ <xliff:g id="name" example="Games">%1$s</xliff:g></string>
-    <string name="folder_name_format_exact">بوخچە: <xliff:g id="name" example="Games">%1$s</xliff:g>، <xliff:g id="size" example="2">%2$d</xliff:g> تەن</string>
-    <string name="folder_name_format_exact_with_dot">بوخچە: <xliff:g id="name" example="Games">%1$s</xliff:g>، <xliff:g id="size" example="2">%2$d</xliff:g> تەن، خاوەنی ئاگادارییە</string>
-    <string name="folder_name_format_overflow">بوخچە: <xliff:g id="name" example="Games">%1$s</xliff:g>، <xliff:g id="size" example="2">%2$d</xliff:g> تەن یان زیاتر</string>
-    <string name="folder_name_format_overflow_with_dot">بوخچە: <xliff:g id="name" example="Games">%1$s</xliff:g>، <xliff:g id="size" example="2">%2$d</xliff:g> تەن یان زیاتر، خاوەنی ئاگادارییە</string>
     <string name="unnamed_folder">بوخچەی بێ ناو</string>
     <string name="app_pair_name_format">جووتە-بەرنامە: <xliff:g id="app1" example="Chrome">%1$s</xliff:g> و <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
     <string name="styles_wallpaper_button_text">پاشبنەما و شێواز</string>
     <string name="edit_home_screen">دەستکاریکردنی ڕوونمای ماڵەوە</string>
     <string name="settings_button_text">ڕێکخستنەکانی ماڵەوە</string>
     <string name="msg_disabled_by_admin">لە لایەن سەرپەرشتیارەکەتەوە ناچالاک کراوە</string>
-    <string name="allow_rotation_title">ڕێگەدان بە سووڕاندنی ڕوونمای ماڵەوە</string>
     <string name="allow_rotation_desc">کاتێک مۆبایلەکە دەسووڕێتەوە</string>
     <string name="landscape_mode_title">دۆخی ئاسۆیی (Landscape)</string>
     <string name="landscape_mode_desc">خستنەسەر دۆخی ئاسۆیی ڕوونمای ماڵەوە</string>

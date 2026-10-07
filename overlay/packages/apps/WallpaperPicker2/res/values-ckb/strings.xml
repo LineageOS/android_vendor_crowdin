@@ -25,7 +25,6 @@
     <string name="suggestion_chip_close_button_description">داخستنی ڕاگەیاندنی پاکێجی بابەتەکان</string>
     <string name="wallpaper_preview_card_content_description_editable">%1$s پێشبینینی ڕوونما %2$s، دوو جار لێ بدە بۆ دەستکاریکردنی وێنەکەت</string>
     <string name="wallpaper_preview_card_content_description_non_editable">%1$s پێشبینینی ڕوونما %2$s</string>
-    <string name="view_all_wallpapers">&gt;\nبینینی هەموو</string>
     <string name="discard_changes_dialog_message">گۆڕانکارییەکان بسڕدرێنەوە؟</string>
     <string name="discard_changes_dialog_button_keep_editing">بەردەوامبوون لە دەستکاریکردن</string>
     <string name="discard_changes_dialog_button_discard">سڕینەوە</string>

@@ -37,12 +37,8 @@
     <string name="symptom_cough_lowercase_label" description="Lowercase label used to show user's cough symptom data [CHAR_LIMIT=50]">کۆکە</string>
     <string name="symptom_cough_read_content_description" description="Content description for switch that enables permissions for reading user's cough symptom data [CHAR_LIMIT=NONE]">خوێندنەوەی نیشانەکان</string>
     <string name="symptom_cough_write_content_description" description="Content description for switch that enables permissions for writing user's cough symptom data [CHAR_LIMIT=NONE]">نووسینی نیشانەکان</string>
-    <string name="matchmaking_screen_title" description="Title for match making screen to add missing data">هاوبەشیکردنی داتا لە نێوان بەرنامەکاندا</string>
-    <string name="matchmaking_screen_data_from_app" description="Title for category that holds list of matching apps">داتا لە <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g></string>
-    <string name="matchmaking_screen_summary" description="Summary on match making screen to allow the given app to read data from other apps using Health Connect">ڕێگە بە بەرنامەی <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> بدە داتا لە بەرنامەکانی ترەوە بخوێنێتەوە لەسەر ئەم ئامێرە بە بەکارهێنانی Health Connect</string>
     <string name="matchmaking_screen_apps_category_title" description="Title for category that holds list of matching apps">ئەو بەرنامانەی دەتوانن ئەم داتایە هەماهەنگ بکەن</string>
     <string name="app_privacy_policy_footer" description="Footer with a link to the app's privacy policy."> فێر بە چۆن <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> داتاکانت بەکاردەهێنێت لە <a href="%2$s">سیاسەتی تایبەتێتییاندا</a>.</string>
-    <string name="matchmaking_screen_footer" descriptio="Summary on match making screen explaining how Health Connect share health and fitness data between multiple apps">Health Connect ڕێگەت پێ دەدات داتای تەندروستی و لەشجوانییەکەت لە نێوان چەند بەرنامەیەکدا هاوبەشی بکەیت. ئەمە یارمەتیت دەدات تێگەیشتن و ئەزموونی نوێ بەدەست بهێنیت لە کاتێکدا داتاکانت بە سەلامەتی دەمێنێتەوە.</string>
     <string name="more_about_health_connect" description="Title for link to learn more about Health Connect">زیاتر دەربارەی Health Connect</string>
     <string name="unkwown_resource" description="Label shown when a medical data cannot be identified [CHAR_LIMIT=NONE]">(بێ ناونیشان)</string>
     <string name="pretty_fhir_header_view_source_data" description="Clickable label that redirects to the raw FHIR screen">بینینی داتای سەرچاوە</string>
@@ -55,7 +51,8 @@
     <string name="segment_rpe_format_long" description="Label for the rate of perceived exertion for an exercise segment">ڕێژەی ماندووبوونی هەستپێکراو: <xliff:g example="5.5" id="rpe">%1$s</xliff:g></string>
     <string name="session_rpe_header" description="Header for a session rate of perceived exertion value">RPE</string>
     <string name="session_rpe_header_long" description="Header for a session rate of perceived exertion value">ڕێژەی ماندووبوونی هەستپێکراو</string>
-    <string name="mindfulness_a11y_text" description="Mindfulness text for the aggregation A11y value [CHAR LIMIT=NONE]">        کۆی کاتی هۆشیاریی (mindfulness) بریتییە لە <xliff:g example="12 hours 3 minutes" id="duration">%1$s</xliff:g>
+    <string name="mindfulness_a11y_text" description="Mindfulness text for the aggregation A11y value [CHAR LIMIT=NONE]">
+        کۆی کاتی هۆشیاریی (mindfulness) بریتییە لە <xliff:g example="12 hours 3 minutes" id="duration">%1$s</xliff:g>
     </string>
     <string name="nicotine_intake_title" description="Nicotine intake value with unit. [CHAR LIMIT=50]"><xliff:g example="1 cigarette" id="quantity">%1$s</xliff:g> • <xliff:g example="500 mg" id="intake">%2$s</xliff:g></string>
     <string name="nicotine_intake_title_long" description="Nicotine intake value with unit. [CHAR LIMIT=160]"><xliff:g example="1 cigarette" id="quantity">%1$s</xliff:g> • <xliff:g example="500 milligrams" id="intake">%2$s</xliff:g></string>
@@ -63,7 +60,8 @@
     <string name="nicotine_intake_type_cigarette" description="Nicotine intake type: Cigarette [CHAR LIMIT=20]">{quantity, plural, =1 {{quantity} جگەرە} other {{quantity} جگەرە}}</string>
     <string name="nicotine_intake_type_unknown" description="Nicotine intake type: Unknown [CHAR LIMIT=20]">{quantity, number} نەناسراو</string>
     <string name="hour_minute_duration_short" translation_description="Hour and minute time duration representation. When translating, do not add a space if it is not required. If a space is required, use a no break space   [CHAR LIMIT=8]"><xliff:g example="1" id="hour">%1$s</xliff:g>ک <xliff:g example="31" id="min">%2$s</xliff:g>خ</string>
-    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g></string>
+    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">
+  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g></string>
     <string name="see_actions_button_content_description" description="Content description of a button that is used to show the potential actions the user can take: remove selected app, move up or down an app in the priority list [CHAR LIMIT=NONE]">دوگمەیەک بۆ ڕیزکردنەوە یان لابردنی <xliff:g example="Test app" id="selected_app">%s</xliff:g> لە لیستی سەرچاوەکانی بەرنامە</string>
     <string name="priority_list_item_content_description" description="Content description of an app in the priority list, and the position in the list [CHAR LIMIT=NONE]"> <xliff:g example="1st" id="position">%1$s</xliff:g> لە لیستەکەدا <xliff:g example="Test app" id="selected_app">%2$s</xliff:g></string>
     <string name="migration_update_needed_header" description="Description of screen shown when migration is pending an update [CHAR_LIMIT=NONE]">Health Connect لەگەڵ سیستمی ئەندرۆید یەکدەخرێت بۆ ئەوەی بتوانیت ڕاستەوخۆ لە ڕێکخستنەکانتەوە دەستت پێی بگات.\n\n<xliff:g example="Before continuing, do this action" id="migration_action">%1$s</xliff:g></string>
@@ -117,17 +115,14 @@
     <string name="devices_current_device" description="Preference summary text that indicates that the specified device is the current device (phone) rather than a peripheral device such as a watch. [CHAR_LIMIT=40]">ئامێری ئێستا</string>
     <string name="devices_unknown_device" description="Fallback string for a device that isn't recognised or has no name. [CHAR_LIMIT=40]">ئامێری نەناسراو</string>
     <string name="device_management_screen_title" description="Title for the device management screen. [CHAR_LIMIT=40]">زانیاریی ئامێر</string>
-    <string name="device_management_screen_footer" description="Footer text that explains the consequences of enabling tracking of device data. [CHAR_LIMIT=NONE]">ئەو داتایەی لەلایەن ئەم ئامێرەوە کۆ دەکرێتەوە لە Health Connect پاشەکەوت دەکرێت، کە بەرنامە پەیوەستکراوەکان دەستیان پێی دەگات</string>
-    <string name="device_management_screen_no_step_sensor_footer" description="Footer text that explains that this device does not have a steps sensor but still has data stored. [CHAR_LIMIT=NONE]">ئەم ئامێرە پاڵپشتیی هەژمارکردنی هەنگاو ناکات، بەڵام هێشتا داتای لە Health Connect پاشەکەوت کراوە</string>
     <string name="device_management_screen_no_step_sensor_header" description="Header to display when the device does not have a steps sensor. [CHAR_LIMIT=100]">ئەم ئامێرە هەنگاوەکان هەژمار ناکات</string>
     <string name="device_data_screen_title" description="Title for the device data screen. [CHAR_LIMIT=40]">داتای ئامێر</string>
     <string name="device_data_label" description="Label for the device settings category. [CHAR_LIMIT=40]">بەڕێوەبردنی ئامێر</string>
     <string name="device_data_button" description="Button for taking users to device data screen. [CHAR_LIMIT=40]">بینینی داتای ئامێر</string>
-    <string name="native_steps_banner_title" description="Title of banner for native step tracking in Health Connect. [CHAR_LIMIT=100]">ئەو هەنگاوانەی لەسەر مۆبایلەکەت هەژمار کراون لە Health Connect دەردەکەون</string>
-    <string name="native_steps_banner_summary" description="Description of banner for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">ئەو هەنگاوانەی لەلایەن ئەم ئامێرەوە هەژمار کراون ئێستا لە Health Connect پاشەکەوت کراون تا بەرنامە پەیوەستکراوەکان دەستیان پێی بگات</string>
     <string name="native_steps_banner_dismiss_button" description="Button to dismiss the banner for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">لابردن</string>
     <string name="native_steps_banner_review_button" description="Button of banner to take users to a page where they can review device access to Health Connect. [CHAR_LIMIT=NONE]">پێداچوونەوە</string>
-    <string name="native_steps_notification_title" description="Title of notification for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">هەنگاوەکان ئێستا لە Health Connectـدان</string>
-    <string name="native_steps_notification_content" description="Description of notification for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">ئەو هەنگاوانەی لەلایەن ئەم ئامێرەوە هەژمار کراون ئێستا لە Health Connect پاشەکەوت کراون تا بەرنامە پەیوەستکراوەکان دەستیان پێی بگات</string>
+    <string name="home_screen_footer_link" description="Link for footer of home screen that explains the use of Health Connect. [CHAR_LIMIT=NONE]">زیاتر دەربارەی Health Connect</string>
     <string name="banner_default_dismiss_button" description="Default button to dismiss a banner in Health Connect [CHAR_LIMIT=NONE]">نەک ئێستا</string>
+    <string name="cough_uppercase_label" description="[CHAR_LIMIT=50]">کۆکە</string>
+    <string name="cough_lowercase_label" description="[CHAR_LIMIT=50]">کۆکە</string>
 </resources>

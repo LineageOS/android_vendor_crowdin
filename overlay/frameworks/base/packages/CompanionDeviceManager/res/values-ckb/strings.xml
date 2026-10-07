@@ -37,7 +37,6 @@
     <string name="permission_add_trusted_display">پەخشکردنی بەرنامەکان</string>
     <string name="permission_schedule_exact_alarm">ڕێکخستنی زەنگەکان و بیرخەرەوەکان</string>
     <string name="permission_bypass_dnd">تێپەڕاندنی ڕێکخستنەکانی دۆخی مەمشێوێنە</string>
-    <string name="permission_notifications_summary">\u2022 خوێندنەوەی تەواوی ئاگادارکردنەوەکان، لەوانەش زانیاری وەک ناو و نیشانەکان، نامەکان، و وێنەکان &lt;br/&gt;\u2022 ناردنی ئاگادارکردنەوەکان بۆ تۆ &lt;br/&gt;&lt;br/&gt; دەتوانیت توانای ئەم بەرنامەیە بۆ خوێندنەوە و ناردنی ئاگادارکردنەوەکان لە هەر کاتێکدا لە ڕێکخستنەکان و ئاگادارکردنەوەکان بەڕێوە ببەیت.</string>
     <string name="permission_post_notifications_summary">ناردنی ئاگادارکردنەوەکان بۆ تۆ</string>
     <string name="permission_create_virtual_device_summary">پەخشکردنی مایکرۆفۆن، کامێرا و داتای هەستەوەرەکانی تری سەر <strong><xliff:g id="device_name" example="Chromebook">%3$s</xliff:g></strong> بۆ <xliff:g id="device_type" example="phone">%2$s</xliff:g>ەکەت.</string>
     <string name="permission_add_mirror_display_summary">تۆمارکردن، پەخشکردن یان هاوبەشیکردنی ڕوونمای <xliff:g id="device_type" example="phone">%2$s</xliff:g>ەکەت بۆ <strong><xliff:g id="device_name" example="Chromebook">%3$s</xliff:g></strong>.<br/><br/>بەرنامەی <xliff:g id="app_name" example="Exo">%1$s</xliff:g> دەستی بە هەر شتێک ڕادەگات کە لەسەر <xliff:g id="device_type" example="phone">%2$s</xliff:g>ەکەت دیار بێت یان لێ بدرێت، لەوانەش دەنگ، وێنەکان، زانیاریی پارەدان، تێپەڕەوشەکان و نامەکان.</string>

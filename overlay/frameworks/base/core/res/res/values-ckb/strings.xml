@@ -732,33 +732,32 @@
     <string name="fingerprint_icon_content_description">وێنۆچکەی پەنجەمۆر</string>
     <string name="device_unlock_notification_name">قوفڵکردنەوەی ئامێر</string>
     <string name="alternative_unlock_setup_notification_title">ڕێگەیەکی تر بۆ قوفڵکردنەوە تاقیکەرەوە</string>
-    <string name="alternative_face_setup_notification_content">کردنەوەی قوفڵ بە دەموچاو بەکاربهێنە کاتێک پەنجەمۆرەکەت ناناسرێتەوە، وەک کاتێک پەنجەکانت تەڕن</string>
+    <string name="alternative_face_setup_notification_content" product="default">کردنەوەی قوفڵ بە دەموچاو بەکاربهێنە کاتێک پەنجەمۆرەکەت ناناسرێتەوە، وەک کاتێک پەنجەکانت تەڕن</string>
     <string name="alternative_fp_setup_notification_content">کردنەوەی قوفڵ بە پەنجەمۆر بەکاربهێنە کاتێک دەموچاوت ناناسرێتەوە، وەک کاتێک ڕووناکی پێویست نییە</string>
-    <string name="face_recalibrate_notification_name">کردنەوەی قوفڵ بە دەموچاو</string>
-    <string name="face_recalibrate_notification_title">کێشە لە کردنەوەی قوفڵ بە دەموچاو</string>
+    <string name="face_recalibrate_notification_name" product="default">کردنەوەی قوفڵ بە دەموچاو</string>
+    <string name="face_recalibrate_notification_title" product="default">کێشە لە کردنەوەی قوفڵ بە دەموچاو</string>
     <string name="face_recalibrate_notification_content">دایبگرە بۆ سڕینەوەی مۆدێلی دەموچاوت، پاشان دووبارە دەموچاوت زیاد بکەرەوە</string>
-    <string name="face_sensor_privacy_enabled">بۆ بەکارهێنانی کردنەوەی قوفڵ بە دەموچاو، <b>دەستگەیشتن بە کامێرا</b> چالاک بکە لە ڕێکخستنەکان &gt; تایبەتمەندێتی</string>
+    <string name="face_sensor_privacy_enabled" product="default">بۆ بەکارهێنانی کردنەوەی قوفڵ بە دەموچاو، <b>دەستگەیشتن بە کامێرا</b> چالاک بکە لە ڕێکخستنەکان &gt; تایبەتمەندێتی</string>
     <string name="fingerprint_recalibrate_notification_name">کردنەوەی قوفڵ بە پەنجەمۆر</string>
     <string name="fingerprint_recalibrate_notification_title">ناتوانرێت هەستەوەری پەنجەمۆر بەکاربهێنرێت</string>
     <string name="fingerprint_recalibrate_notification_content">سەردانی دابینکەرێکی چاککردنەوە بکە.</string>
     <string name="face_acquired_insufficient">ناتوانرێت مۆدێلی دەموچاوت دروست بکرێت. دووبارە هەوڵ بدەرەوە.</string>
     <string name="face_acquired_too_bright">زۆر ڕووناکە. ڕووناکییەکی نەرمتر تاقیکەرەوە.</string>
     <string name="face_acquired_too_dark">ڕووناکی پێویست نییە</string>
-    <string name="face_acquired_too_close">مۆبایلەکە زیاتر دوور بخەرەوە</string>
-    <string name="face_acquired_too_far">مۆبایلەکە نزیکتر بکەرەوە</string>
-    <string name="face_acquired_too_high">مۆبایلەکە بەرزتر بکەرەوە</string>
-    <string name="face_acquired_too_low">مۆبایلەکە نزمتر بکەرەوە</string>
-    <string name="face_acquired_too_right">مۆبایلەکە ببە بۆ لای چەپت</string>
-    <string name="face_acquired_too_left">مۆبایلەکە ببە بۆ لای ڕاستت</string>
-    <string name="face_acquired_poor_gaze">تکایە زیاتر بە ڕاستەوخۆیی سەیری ئامێرەکەت بکە.</string>
-    <string name="face_acquired_not_detected">دەموچاوت نابینرێت. مۆبایلەکەت لە ئاستی چاودا ڕاگرە.</string>
-    <string name="face_acquired_too_much_motion">جێگۆڕکێی زۆرە. مۆبایلەکە بە جێگیری ڕاگرە.</string>
+    <string name="face_acquired_too_close" product="default">مۆبایلەکە زیاتر دوور بخەرەوە</string>
+    <string name="face_acquired_too_far" product="default">مۆبایلەکە نزیکتر بکەرەوە</string>
+    <string name="face_acquired_too_high" product="default">مۆبایلەکە بەرزتر بکەرەوە</string>
+    <string name="face_acquired_too_low" product="default">مۆبایلەکە نزمتر بکەرەوە</string>
+    <string name="face_acquired_too_right" product="default">مۆبایلەکە ببە بۆ لای چەپت</string>
+    <string name="face_acquired_too_left" product="default">مۆبایلەکە ببە بۆ لای ڕاستت</string>
+    <string name="face_acquired_not_detected" product="default">دەموچاوت نابینرێت. مۆبایلەکەت لە ئاستی چاودا ڕاگرە.</string>
+    <string name="face_acquired_too_much_motion" product="default">جێگۆڕکێی زۆرە. مۆبایلەکە بە جێگیری ڕاگرە.</string>
     <string name="face_acquired_recalibrate">تکایە دووبارە دەموچاوتی تێدا تۆمار بکەرەوە.</string>
     <string name="face_acquired_too_different">دەموچاو ناناسرێتەوە. دووبارە هەوڵ بدەرەوە.</string>
     <string name="face_acquired_too_similar">پێگەی سەرت کەمێک بگۆڕە</string>
-    <string name="face_acquired_pan_too_extreme">زیاتر بە ڕاستەوخۆیی سەیری مۆبایلەکەت بکە</string>
-    <string name="face_acquired_tilt_too_extreme">زیاتر بە ڕاستەوخۆیی سەیری مۆبایلەکەت بکە</string>
-    <string name="face_acquired_roll_too_extreme">زیاتر بە ڕاستەوخۆیی سەیری مۆبایلەکەت بکە</string>
+    <string name="face_acquired_pan_too_extreme" product="default">زیاتر بە ڕاستەوخۆیی سەیری مۆبایلەکەت بکە</string>
+    <string name="face_acquired_tilt_too_extreme" product="default">زیاتر بە ڕاستەوخۆیی سەیری مۆبایلەکەت بکە</string>
+    <string name="face_acquired_roll_too_extreme" product="default">زیاتر بە ڕاستەوخۆیی سەیری مۆبایلەکەت بکە</string>
     <string name="face_acquired_obscured">هەر شتێک کە دەموچاوت دەشارێتەوە لایببە.</string>
     <string name="face_acquired_sensor_dirty">بەشی سەرەوەی ڕوونمایەکە پاک بکەرەوە، لەوانەش شریتی ڕەشەکە</string>
     <string name="face_acquired_dark_glasses_detected">@string/face_acquired_dark_glasses_detected_alt</string>
@@ -767,19 +766,19 @@
     <string name="face_acquired_dark_glasses_detected_alt">چاویلکەی تاریک دۆزرایەوە. پێویستە دەموچاوت بە تەواوی دیار بێت.</string>
     <string name="face_acquired_mouth_covering_detected_alt">داپۆشەری دەموچاو دۆزرایەوە. پێویستە دەموچاوت بە تەواوی دیار بێت.</string>
     <string name="face_error_hw_not_available">ناتوانرێت دەموچاو پشتڕاست بکرێتەوە. ڕەقەکاڵا بەردەست نییە.</string>
-    <string name="face_error_timeout">دووبارە کردنەوەی قوفڵ بە دەموچاو تاقیکەرەوە</string>
+    <string name="face_error_timeout" product="default">دووبارە کردنەوەی قوفڵ بە دەموچاو تاقیکەرەوە</string>
     <string name="face_error_no_space">ناتوانرێت داتای دەموچاوی نوێ پاشەکەوت بکرێت. سەرەتا دانەیەکی کۆن بسڕەوە.</string>
     <string name="face_error_canceled">کرداری دەموچاو هەڵوەشێنرایەوە.</string>
-    <string name="face_error_user_canceled">کردنەوەی قوفڵ بە دەموچاو لەلایەن بەکارهێنەرەوە هەڵوەشێنرایەوە</string>
+    <string name="face_error_user_canceled" product="default">کردنەوەی قوفڵ بە دەموچاو لەلایەن بەکارهێنەرەوە هەڵوەشێنرایەوە</string>
     <string name="face_error_lockout">هەوڵدانی زۆر. دواتر هەوڵ بدەرەوە.</string>
-    <string name="face_error_lockout_permanent">هەوڵدانی زۆر. کردنەوەی قوفڵ بە دەموچاو بەردەست نییە.</string>
+    <string name="face_error_lockout_permanent" product="default">هەوڵدانی زۆر. کردنەوەی قوفڵ بە دەموچاو بەردەست نییە.</string>
     <string name="face_error_lockout_screen_lock">هەوڵدانی زۆر. لەبری ئەوە قوفڵی ڕوونما بەکاربهێنە.</string>
     <string name="face_error_unable_to_process">ناتوانرێت دەموچاو پشتڕاست بکرێتەوە. دووبارە هەوڵ بدەرەوە.</string>
-    <string name="face_error_not_enrolled">تۆ کردنەوەی قوفڵ بە دەموچاوت ڕێکنەخستووە</string>
-    <string name="face_error_hw_not_present">کردنەوەی قوفڵ بە دەموچاو لەسەر ئەم ئامێرە پاڵپشتی ناکرێت</string>
+    <string name="face_error_not_enrolled" product="default">تۆ کردنەوەی قوفڵ بە دەموچاوت ڕێکنەخستووە</string>
+    <string name="face_error_hw_not_present" product="default">کردنەوەی قوفڵ بە دەموچاو لەسەر ئەم ئامێرە پاڵپشتی ناکرێت</string>
     <string name="face_error_security_update_required">هەستەوەرەکە بە شێوەیەکی کاتی ناچالاک کراوە.</string>
     <string name="face_name_template">دەموچاوی <xliff:g id="faceId" example="1">%d</xliff:g></string>
-    <string name="face_app_setting_name">بەکارهێنانی کردنەوەی قوفڵ بە دەموچاو</string>
+    <string name="face_app_setting_name" product="default">بەکارهێنانی کردنەوەی قوفڵ بە دەموچاو</string>
     <string name="face_or_screen_lock_app_setting_name">بەکارهێنانی دەموچاو یان قوفڵکردنی ڕوونما</string>
     <string name="face_dialog_default_subtitle">دەموچاوی خۆت بەکاربهێنە بۆ بەردەوامبوون</string>
     <string name="face_or_screen_lock_dialog_default_subtitle">دەموچاو یان قوفڵی ڕوونمای خۆت بەکاربهێنە بۆ بەردەوامبوون</string>
@@ -1033,7 +1032,7 @@
     <string name="lockscreen_pattern_wrong">دووبارە هەوڵ بدەرەوە</string>
     <string name="lockscreen_password_wrong">دووبارە هەوڵ بدەرەوە</string>
     <string name="lockscreen_storage_locked">قوفڵەکە بکەرەوە بۆ بینینی هەموو زانیارییەکان</string>
-    <string name="faceunlock_multiple_failures">گەیشتیتە ئەوپەڕی هەوڵەکان بۆ کردنەوەی قوفڵ بە دەموچاو</string>
+    <string name="faceunlock_multiple_failures" product="default">گەیشتیتە ئەوپەڕی هەوڵەکان بۆ کردنەوەی قوفڵ بە دەموچاو</string>
     <string name="lockscreen_missing_sim_message_short">سیمکارت نییە</string>
     <string name="lockscreen_missing_sim_message" product="tablet">هیچ سیمکارتێک لە تابلێتەکەدا نییە.</string>
     <string name="lockscreen_missing_sim_message" product="tv">هیچ سیمکارتێک لە ئامێری Android TVەکەتدا نییە.</string>
@@ -1103,7 +1102,7 @@
     <string name="keyguard_accessibility_expand_lock_area">کشاندنی ناوچەی قوفڵکردنەوە.</string>
     <string name="keyguard_accessibility_slide_unlock">خلیسکاندن بۆ کردنەوەی قوفڵ.</string>
     <string name="keyguard_accessibility_pattern_unlock">کردنەوەی قوفڵ بە نەخش.</string>
-    <string name="keyguard_accessibility_face_unlock">کردنەوەی قوفڵ بە دەموچاو.</string>
+    <string name="keyguard_accessibility_face_unlock" product="default">کردنەوەی قوفڵ بە دەموچاو.</string>
     <string name="keyguard_accessibility_pin_unlock">کردنەوەی قوفڵ بە Pin.</string>
     <string name="keyguard_accessibility_sim_pin_unlock">کردنەوەی قوفڵ بە سیمکارت Pin.</string>
     <string name="keyguard_accessibility_sim_puk_unlock">کردنەوەی قوفڵ بە سیمکارت Puk.</string>
@@ -1625,6 +1624,7 @@
     <string name="gpsNotifMessage">داواکراوە لەلایەن <xliff:g id="name">%1$s</xliff:g> (<xliff:g id="service" example="SUPL-service">%2$s</xliff:g>)</string>
     <string name="gpsVerifYes">بەڵێ</string>
     <string name="gpsVerifNo">نەخێر</string>
+    <string name="emergency_location_notification_learn_more">زیاتر بزانە</string>
     <string name="sync_too_many_deletes">لە سنووری سڕینەوە تێپەڕی</string>
     <string name="sync_too_many_deletes_desc">بڕی <xliff:g id="number_of_deleted_items">%1$d</xliff:g> بڕگەی سڕدراوە هەیە بۆ <xliff:g id="type_of_sync">%2$s</xliff:g>، ئەژماری <xliff:g id="account_name">%3$s</xliff:g>. دەتەوێت چی بکەیت؟</string>
     <string name="sync_really_delete">سڕینەوەی بڕگەکان</string>
@@ -1840,7 +1840,6 @@
     <string name="hearing_device_notification_switch_button">گۆڕین</string>
     <string name="hearing_device_notification_settings_button">ڕێکخستنەکان</string>
     <string name="user_switching_message">گۆڕین بۆ <xliff:g id="name" example="Bob">%1$s</xliff:g>...</string>
-    <string name="user_logging_out_message">چوونەدەرەوەی <xliff:g id="name" example="Bob">%1$s</xliff:g>...</string>
     <string name="owner_name" msgid="3879126011135546571">خاوەن</string>
     <string name="guest_name">میوان</string>
     <string name="headless_system_user_name">بەکارهێنەری سیستم</string>
@@ -2077,7 +2076,6 @@
     <string name="floating_toolbar_close_overflow_description">داخستنی پێڕستەکە</string>
     <string name="maximize_button_text">گەورەکردن بۆ تەواوی ڕوونما</string>
     <string name="close_button_text">داخستن</string>
-    <string name="notification_inbox_ellipsis">...</string>
     <string name="notification_messaging_title_template"><xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g></string>
     <string name="notification_metric_label_unit"><xliff:g id="metric_label" example="Speed">%1$s</xliff:g> (<xliff:g id="metric_unit" example="km/h">%2$s</xliff:g>)</string>
     <string name="notification_metric_label_unit_separator"><xliff:g id="metric_label" example="Speed">%1$s</xliff:g> (<xliff:g id="metric_unit" example="km/h">%2$s</xliff:g>):</string>
@@ -2189,7 +2187,8 @@
     <string name="autofill_picker_some_suggestions">{count, plural,
     =1    {یەک پێشنیاری پڕکردنەوەی خۆکار}
     other {# پێشنیاری پڕکردنەوەی خۆکار}
-}</string>
+}
+</string>
     <string name="autofill_save_title">پاشەکەوت بکرێت لە <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>؟</string>
     <string name="autofill_save_title_with_type">پاشەکەوتکردنی <xliff:g id="type" example="Credit Card">%1$s</xliff:g> لە <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>؟</string>
     <string name="autofill_save_title_with_2types">پاشەکەوتکردنی <xliff:g id="type" example="Password">%1$s</xliff:g> و <xliff:g id="type" example="Credit Card">%2$s</xliff:g> لە <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>؟</string>
@@ -2388,8 +2387,6 @@
     <string name="PERSOSUBSTATE_SIM_IMPI_ENTRY">کۆدی PINـی قوفڵکردنەوەی IMPI</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_ENTRY">کۆدی PINـی قوفڵکردنەوەی دابینکەری خزمەتگوزاریی بەشە تۆڕ</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_IN_PROGRESS">داواکاریی قوفڵکردنەوەی تۆڕی سیمکارت دەکرێت\u2026</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_IN_PROGRESS">داواکاریی قوفڵکردنەوەی بەشە تۆڕی سیمکارت دەکرێت\u2026</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_IN_PROGRESS">داواکاریی قوفڵکردنەوەی دابینکەری خزمەتگوزاریی سیمکارت دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_IN_PROGRESS">داواکاریی قوفڵکردنەوەی سیمکارتی کۆمپانیا دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_IN_PROGRESS">داواکاریی قوفڵکردنەوەی PUK دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_IN_PROGRESS">داواکاریی قوفڵکردنەوەی PUK دەکرێت\u2026</string>
@@ -2400,7 +2397,6 @@
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_IN_PROGRESS">داواکاریی قوفڵکردنەوەی تۆڕی RUIM 1 دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_IN_PROGRESS">داواکاریی قوفڵکردنەوەی تۆڕی RUIM 2 دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_IN_PROGRESS">داواکاریی قوفڵکردنەوەی RUIM HRPD دەکرێت\u2026</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_IN_PROGRESS">داواکاریی قوفڵکردنەوەی دابینکەری خزمەتگوزاریی RUIM دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">داواکاریی قوفڵکردنەوەی RUIMی کۆمپانیا دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_SIM_SPN_IN_PROGRESS">داواکاریی قوفڵکردنەوەی SPN دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_IN_PROGRESS">داواکاریی قوفڵکردنەوەی SP Equivalent Home PLMN دەکرێت\u2026</string>
@@ -2415,15 +2411,12 @@
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">داواکاریی قوفڵکردنەوەی PUK دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_IN_PROGRESS">داواکاریی قوفڵکردنەوەی PUK دەکرێت\u2026</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ERROR">داواکاریی قوفڵکردنەوەی تۆڕی سیمکارت سەرکەوتوو نەبوو.</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_ERROR">داواکاریی قوفڵکردنەوەی بەشە تۆڕی سیمکارت سەرکەوتوو نەبوو.</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_ERROR">داواکاریی قوفڵکردنەوەی دابینکەری خزمەتگوزاریی سیمکارت سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_ERROR">داواکاریی قوفڵکردنەوەی سیمکارتی کۆمپانیا سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_SIM_SIM_ERROR">داواکاریی قوفڵکردنەوەی سیمکارت سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_ERROR">داواکاریی قوفڵکردنەوەی تۆڕی RUIM 1 سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_ERROR">داواکاریی قوفڵکردنەوەی تۆڕی RUIM 2 سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_ERROR">داواکاریی قوفڵکردنەوەی RUIM Hrpd سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">داواکاریی قوفڵکردنەوەی RUIMی کۆمپانیا سەرکەوتوو نەبوو.</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_ERROR">داواکاریی قوفڵکردنەوەی دابینکەری خزمەتگوزاریی RUIM سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_ERROR">داواکاریی قوفڵکردنەوەی RUIM سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_ERROR">قوفڵکردنەوەی PUK سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_ERROR">قوفڵکردنەوەی PUK سەرکەوتوو نەبوو.</string>
@@ -2443,13 +2436,11 @@
     <string name="PERSOSUBSTATE_SIM_NS_SP_ERROR">داواکاریی قوفڵکردنەوەی دابینکەری خزمەتگوزاریی بەشە تۆڕ سەرکەوتوو نەبوو.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUCCESS">تۆڕی سیمکارت بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_SUCCESS">بەشە تۆڕی سیمکارت بە سەرکەوتوویی قوفڵی کرایەوە.</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_SUCCESS">دابینکەری خزمەتگوزاریی سیمکارت بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_SUCCESS">سیمکارتی کۆمپانیا بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_SIM_SIM_SUCCESS">سیمکارت بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_SUCCESS">تۆڕی RUIM 1 بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_SUCCESS">تۆڕی RUIM 2 بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_SUCCESS">RUIM Hrpd بە سەرکەوتوویی قوفڵی کرایەوە.</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_SUCCESS">دابینکەری خزمەتگوزاریی RUIM بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_SUCCESS">RUIMی کۆمپانیا بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_SUCCESS">RUIM بە سەرکەوتوویی قوفڵی کرایەوە.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_SUCCESS">قوفڵکردنەوەی PUK سەرکەوتوو بوو.</string>
@@ -2535,6 +2526,7 @@
     <string name="accessibility_label_managed_profile">پڕۆفایلی کار</string>
     <string name="accessibility_label_clone_profile">کۆپیکراو (Clone)</string>
     <string name="accessibility_label_communal_profile">گشتی (کۆمۆناڵ)</string>
+    <string name="app_locked_new_notification">ئاگادارکردنەوەی نوێ</string>
     <string name="satellite_notification_title">بۆ خۆکار بە مانگی دەستکردەوە بەستراوەتەوە</string>
     <string name="satellite_notification_summary">دەتوانیت نامەکان بنێریت و وەربگریت بەبێ بوونی تۆڕی مۆبایل یان Wi-Fi</string>
     <string name="satellite_notification_summary_with_data">دەتوانیت نامەکان بنێریت و وەربگریت و بەرنامە دەستنیشانکراوەکان لە ڕێگەی مانگی دەستکردەوە بەکاربهێنیت</string>
@@ -2563,7 +2555,6 @@
     <string name="fingerprint_frr_notification_msg">بۆ پێداچوونەوەی ڕێنمایییەکانی باشترکردنی ئەزموونی کردنەوەی قوفڵ لێ بدە</string>
     <string name="no_blink_accessibility_text_cursor_blink_label">ترووکە نەکات</string>
     <string name="long_press_power_to_turn_off_tv_toast">بۆ کوژاندنەوەی تەلەفزیۆنەکە، دوگمەی وزە بە درێژایی دابگرە</string>
-    <string name="tv_watchdog_notification_channel_name">ئاگادارکردنەوەکانی سەرچاوەی سیستم</string>
-    <string name="tv_watchdog_notification_title">بەکارهێنانی لەڕادەبەدەری سەرچاوەکان</string>
-    <string name="tv_watchdog_notification_content">"بەرنامەی «<xliff:g id="app_name">%1$s</xliff:g>» سەرچاوەیەکی یەکجار زۆر بەکاردەهێنێت."</string>
+    <string name="airplane_mode_sync_notification_title">دۆخی فڕۆکە</string>
+    <string name="do_not_disturb_sync_notification_title">بێزارم مەکە</string>
 </resources>
