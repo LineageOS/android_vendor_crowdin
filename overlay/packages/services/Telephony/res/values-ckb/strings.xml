@@ -321,7 +321,10 @@
     <string name="throttle_time_frame">ماوەی بەکارهێنانی داتا</string>
     <string name="throttle_rate">سیاسەتی خێراییی داتا</string>
     <string name="throttle_help">زیاتر بزانە</string>
+    <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%%) لە زۆرترینی ماوەی <xliff:g id="used">%3$s</xliff:g>\nماوەی دواتر دەست پێدەکات لە <xliff:g id="used">%4$d</xliff:g> ڕۆژ (<xliff:g id="used">%5$s</xliff:g>)</string>
+    <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%%) لە زۆرترینی ماوەی <xliff:g id="used">%3$s</xliff:g></string>
     <string name="throttle_data_rate_reduced_subtext">زۆرترینی <xliff:g id="used">%1$s</xliff:g> تێپەڕێنرا\nخێراییی داتا کەمکرایەوە بۆ <xliff:g id="used">%2$d</xliff:g> کیلۆبیت/چرکە</string>
+    <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>%% لە خولەکە تەواو بوو\nماوەی دواتر دەست پێدەکات لە <xliff:g id="used">%2$d</xliff:g> ڕۆژ (<xliff:g id="used">%3$s</xliff:g>)</string>
     <string name="throttle_rate_subtext">خێراییی داتا کەمدەکرێتەوە بۆ <xliff:g id="used">%1$d</xliff:g> کیلۆبیت/چرکە ئەگەر سنووری بەکارهێنانی داتا تێپەڕێنرێت</string>
     <string name="throttle_help_subtext">زانیاریی زیاتر دەربارەی سیاسەتی بەکارهێنانی داتای تۆڕی مۆبایلی هێڵەکەت</string>
     <string name="cell_broadcast_sms">پەخشی کورتەپەیامی ناوچەیی</string>
