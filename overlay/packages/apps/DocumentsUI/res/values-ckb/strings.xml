@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="missing_rename_error">پێویستە ناوی ئەمە بگۆڕیت</string>
+    <string name="add_folder_name_error">پێویستە ناوی بوخچەیەک دابنێیت</string>
+    <string name="files_label">پەڕگەکان</string>
+    <string name="downloads_label">داگیراوەکان</string>
+    <string name="app_label">@string/files_label</string>
+    <string name="launcher_label">@string/files_label</string>
+    <string name="title_open">کردنەوە لە</string>
+    <string name="title_save">پاشەکەوتکردن لە</string>
+    <string name="menu_create_dir">بوخچەی نوێ</string>
+    <string name="menu_grid">پیشاندانی تۆڕی</string>
+    <string name="menu_list">پیشاندانی پێڕستی</string>
+    <string name="menu_search">گەڕان</string>
+    <string name="menu_settings">ڕێکخستنەکانی بیرگە</string>
+    <string name="menu_open">کردنەوە</string>
+    <string name="menu_open_with">کردنەوە لە ڕێگەی</string>
+    <string name="menu_open_in_new_window">کردنەوە لە پەنجەرەی نوێدا</string>
+    <string name="menu_save">پاشەکەوتکردن</string>
+    <string name="menu_share">هاوبەشکردن</string>
+    <string name="menu_delete">سڕینەوە</string>
+    <string name="menu_select_all">دیاریکردنی هەموو</string>
+    <string name="menu_deselect_all">لابردنی دیاریکردنی هەمووی</string>
+    <string name="menu_select">دیاریکردن</string>
+    <string name="menu_sort">ڕیزکردن بەپێی...</string>
+    <string name="menu_copy">لەبەرگرتنەوە بۆ…</string>
+    <string name="menu_move">گواستنەوە بۆ…</string>
+    <string name="menu_compress">پەستاندن</string>
+    <string name="menu_extract">دەرهێنان بۆ…</string>
+    <string name="menu_rename">ناولێنانەوە</string>
+    <string name="menu_inspect">زانیاری وەرگرە</string>
+    <string name="menu_show_hidden_files">پشاندانی پەڕگە شاردراوەکان</string>
+    <string name="menu_hide_hidden_files">پەڕگە شاردراوەکان مەپشێنە</string>
+    <string name="menu_view_in_owner">بینین لە <xliff:g id="source" example="Google Drive">%1$s</xliff:g></string>
+    <string name="menu_new_window">پەنجەرەی نوێ</string>
+    <string name="menu_cut_to_clipboard">بڕین</string>
+    <string name="menu_copy_to_clipboard">کۆپی</string>
+    <string name="menu_paste_from_clipboard">لکاندن</string>
+    <string name="menu_paste_into_folder">لکاندن لەناو بوخچەدا</string>
+    <string name="menu_advanced_show">پشاندانی بیرگەی ناوەکی</string>
+    <string name="menu_advanced_hide">شاردنەوەی بیرگەی ناوەکی</string>
+    <string name="button_select">دیاریکردن</string>
+    <string name="button_copy">کۆپی</string>
+    <string name="button_compress">پەستاندن</string>
+    <string name="button_extract">دەرهێنان</string>
+    <string name="button_move">جوڵاندن</string>
+    <string name="button_dismiss">بێدەنگکردن</string>
+    <string name="button_retry">دووبارە تاقی بکەرەوە</string>
+    <string name="button_clear">پاککردنەوە</string>
+    <string name="button_show_provider">پشاندان لە دابینکەردا</string>
+    <string name="button_back">گەڕانەوە</string>
+    <string name="not_sorted">ڕیز نەکراوە</string>
+    <string name="sort_dimension_name">ناو</string>
+    <string name="sort_dimension_summary">پوختە</string>
+    <string name="sort_dimension_file_type">جۆر</string>
+    <string name="sort_dimension_size">قەبارە</string>
+    <string name="sort_dimension_date">دەستکاریکراو</string>
+    <string name="sort_dimension_name_ascending">ناوی پەڕگە (A بۆ Z)</string>
+    <string name="sort_dimension_file_type_ascending">جۆر (A بۆ Z)</string>
+    <string name="sort_dimension_size_ascending">قەبارە (بچووکترین لە پێشدا)</string>
+    <string name="sort_dimension_date_ascending">دەستکاریکراو (کۆنترین لە پێشدا)</string>
+    <string name="sort_dimension_name_descending">ناوی پەڕگە (Z بۆ A)</string>
+    <string name="sort_dimension_file_type_descending">جۆر (Z بۆ A)</string>
+    <string name="sort_dimension_size_descending">قەبارە (گەورەترین لە پێشدا)</string>
+    <string name="sort_dimension_date_descending">دەستکاریکراو (نوێترین لە پێشدا)</string>
+    <string name="sort_dimension_dialog_title">ڕیزکردن بەپێی</string>
+    <string name="sort_dimension_button_title">ڕیزکراوە بەپێی <xliff:g id="label" example="File name (A to Z)">%s</xliff:g></string>
+    <string name="directory_items">ژمارەی بڕگەکان</string>
+    <string name="sort_direction_ascending">سەرکەوتوو</string>
+    <string name="sort_direction_descending">داکەوتوو</string>
+    <string name="open_external_app">کردنەوەی <xliff:g id="appName" example="Drive">%1$s</xliff:g></string>
+    <string name="drawer_open">پشاندانی ڕەگەکان</string>
+    <string name="drawer_close">شاردنەوەی ڕەگەکان</string>
+    <string name="save_error">پاشەکەوتکردنی بەڵگەنامە سەرکەوتوو نەبوو</string>
+    <string name="create_error">دروستکردنی بوخچە سەرکەوتوو نەبوو</string>
+    <string name="query_error">لە ئێستادا ناوەڕۆک بار ناکرێت</string>
+    <string name="quiet_mode_error_title">بەرنامەکانی کار بە کاتی ڕاگیراون</string>
+    <string name="quiet_mode_button">چالاککردنی ئەپەکانی کار</string>
+    <string name="profile_quiet_mode_error_title">ئەپەکانی <xliff:g id="profile" example="Work">%1$s</xliff:g> ڕاگیراون</string>
+    <string name="profile_quiet_mode_button">چالاککردنی ئەپەکانی <xliff:g id="profile" example="work">%1$s</xliff:g></string>
+    <string name="cant_select_work_files_error_title">پەڕگەکانی کار دیاری ناکرێن</string>
+    <string name="cant_select_work_files_error_message">بەڕێوەبەری ITـی تۆ ڕێگەت پێ نادات لە ئەپێکی کەسییەوە دەستت بە پەڕگەکانی کار بگات</string>
+    <string name="cant_select_personal_files_error_title">پەڕگە کەسییەکان دیاری ناکرێن</string>
+    <string name="cant_select_personal_files_error_message">بەڕێوەبەری ITـی تۆ ڕێگەت پێ نادات لە ئەپێکی کارەوە دەستت بە پەڕگە کەسییەکان بگات</string>
+    <string name="cant_select_cross_profile_files_error_title">پەڕگەکانی <xliff:g id="profile" example="work">%1$s</xliff:g> دیاری ناکرێن</string>
+    <string name="cant_select_cross_profile_files_error_message">بەڕێوەبەری ITـی تۆ ڕێگەت پێ نادات لە ئەپێکی <xliff:g id="profile" example="personal">%2$s</xliff:g> دەستت بە پەڕگەکانی <xliff:g id="profile" example="work">%1$s</xliff:g> بگات</string>
+    <string name="cant_save_to_work_error_title">لە پرۆفایلی کاردا پاشەکەوت ناکرێت</string>
+    <string name="cant_save_to_work_error_message">بەڕێوەبەری ITـی تۆ ڕێگەت پێ نادات پەڕگە کەسییەکان لە پرۆفایلی کاری خۆتدا پاشەکەوت بکەیت</string>
+    <string name="cant_save_to_personal_error_title">لە پرۆفایلی کەسیدا پاشەکەوت ناکرێت</string>
+    <string name="cant_save_to_personal_error_message">بەڕێوەبەری ITـی تۆ ڕێگەت پێ نادات پەڕگەکانی کار لە پرۆفایلی کەسیی خۆتدا پاشەکەوت بکەیت</string>
+    <string name="cant_save_to_cross_profile_error_title">لە پرۆفایلی <xliff:g id="profile" example="work">%1$s</xliff:g>دا پاشەکەوت ناکرێت</string>
+    <string name="cant_save_to_cross_profile_error_message">بەڕێوەبەری ITـی تۆ ڕێگەت پێ نادات پەڕگەکانی <xliff:g id="profile" example="personal">%1$s</xliff:g> لە پرۆفایلی <xliff:g id="profile" example="work">%2$s</xliff:g>ی خۆتدا پاشەکەوت بکەیت</string>
+    <string name="cross_profile_action_not_allowed_title">ئەم کردارە ڕێگەپێدراو نییە</string>
+    <string name="cross_profile_action_not_allowed_message">بۆ زانیاریی زیاتر، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە</string>
+    <string name="root_recent">دواهەمینەکان</string>
+    <string name="root_available_bytes"><xliff:g id="size" example="3GB">%1$s</xliff:g> بەردەستە</string>
+    <string name="root_type_service">خزمەتگوزارییەکانی بیرگە</string>
+    <string name="root_type_shortcut">قەدبڕەکان</string>
+    <string name="root_type_device">ئامێرەکان</string>
+    <string name="root_type_apps">ئەپی زیاتر</string>
+    <string name="empty">هیچ بڕگەیەک نییە</string>
+    <string name="no_results">هیچ هاوتایەک لە %1$sدا نییە</string>
+    <string name="toast_no_application">پەڕگە ناکرێتەوە</string>
+    <string name="toast_view_in_archives_unsupported">پەڕگەکانی ناو ئەرشیڤ ناکرێنەوە</string>
+    <string name="toast_failed_delete">سڕینەوەی هەندێک بەڵگەنامە سەرکەوتوو نەبوو</string>
+    <string name="toast_share_over_limit">ناتوانرێت زیاتر لە <xliff:g id="count" example="1">%1$d</xliff:g> پەڕگە هاوبەش بکرێت</string>
+    <string name="toast_action_not_allowed">کردارەکە ڕێگەپێدراو نییە</string>
+    <string name="share_via">هاوبەشکردن لەڕێگەی</string>
+    <string name="copy_notification_title">لەبەرگرتنەوەی پەڕگەکان</string>
+    <string name="compress_notification_title">پەستاندنی پەڕگەکان</string>
+    <string name="extract_notification_title">دەرهێنانی پەڕگەکان</string>
+    <string name="move_notification_title">گواستنەوەی پەڕگەکان</string>
+    <string name="delete_notification_title">سڕینەوەی پەڕگەکان</string>
+    <string name="copy_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> ماوە</string>
+    <plurals name="copy_begin">
+        <item quantity="one">لەبەرگرتنەوەی <xliff:g id="count" example="1">%1$d</xliff:g> بڕگە.</item>
+        <item quantity="other">لەبەرگرتنەوەی <xliff:g id="count" example="3">%1$d</xliff:g> بڕگە.</item>
+    </plurals>
+    <plurals name="compress_begin">
+        <item quantity="one">پەستاندنی <xliff:g id="count" example="1">%1$d</xliff:g> پەڕگە.</item>
+        <item quantity="other">پەستاندنی <xliff:g id="count" example="3">%1$d</xliff:g> پەڕگە.</item>
+    </plurals>
+    <plurals name="extract_begin">
+        <item quantity="one">دەرهێنانی <xliff:g id="count" example="1">%1$d</xliff:g> پەڕگە.</item>
+        <item quantity="other">دەرهێنانی <xliff:g id="count" example="3">%1$d</xliff:g> پەڕگە.</item>
+    </plurals>
+    <plurals name="move_begin">
+        <item quantity="one">گواستنەوەی <xliff:g id="count" example="1">%1$d</xliff:g> بڕگە.</item>
+        <item quantity="other">گواستنەوەی <xliff:g id="count" example="3">%1$d</xliff:g> بڕگە.</item>
+    </plurals>
+    <plurals name="deleting">
+        <item quantity="one">سڕینەوەی <xliff:g id="count" example="1">%1$d</xliff:g> بڕگە.</item>
+        <item quantity="other">سڕینەوەی <xliff:g id="count" example="3">%1$d</xliff:g> بڕگە.</item>
+    </plurals>
+    <string name="undo">پاشگەزبوونەوە</string>
+    <string name="copy_preparing">ئامادەکردن…</string>
+    <string name="compress_preparing">ئامادەکردن…</string>
+    <string name="extract_preparing">ئامادەکردن…</string>
+    <string name="move_preparing">ئامادەکردن…</string>
+    <string name="delete_preparing">ئامادەکردن…</string>
+    <string name="delete_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
+    <plurals name="copy_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> بڕگە لەبەرنەگیرایەوە</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> بڕگە لەبەرنەگیرانەوە</item>
+    </plurals>
+    <plurals name="compress_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> پەڕگە نەپەستێنرا</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> پەڕگە نەپەستێنران</item>
+    </plurals>
+    <plurals name="move_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> بڕگە نەگوێزرایەوە</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> بڕگە نەگوێزرانەوە</item>
+    </plurals>
+    <plurals name="delete_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> بڕگە نەسڕدرایەوە</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> بڕگە نەسڕدرانەوە</item>
+    </plurals>
+    <string name="notification_touch_for_details">دابگرە بۆ بینینی وردەکارییەکان</string>
+    <string name="close">داخستن</string>
+    <plurals name="copy_failure_alert_content">
+        <item quantity="one">ئەم پەڕگەیە لەبەرنەگیرایەوە: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
+        <item quantity="other">ئەم پەڕگانە لەبەرنەگیرانەوە: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
+    </plurals>
+    <plurals name="compress_failure_alert_content">
+        <item quantity="one">ئەم پەڕگەیە نەپەستێنرا: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
+        <item quantity="other">ئەم پەڕگانە نەپەستێنران: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
+    </plurals>
+    <plurals name="extract_failure_alert_content">
+        <item quantity="one">ئەم پەڕگەیە دەرنەهێنرا: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
+        <item quantity="other">ئەم پەڕگانە دەرنەهێنران: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
+    </plurals>
+    <plurals name="move_failure_alert_content">
+        <item quantity="one">ئەم پەڕگەیە نەگوێزرایەوە: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
+        <item quantity="other">ئەم پەڕگانە نەگوێزرانەوە: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
+    </plurals>
+    <plurals name="delete_failure_alert_content">
+        <item quantity="one">ئەم پەڕگەیە نەسڕدرایەوە: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
+        <item quantity="other">ئەم پەڕگانە نەسڕدرانەوە: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
+    </plurals>
+    <plurals name="copy_converted_warning_content">
+        <item quantity="one">ئەم پەڕگەیە گۆڕدرا بۆ فۆرماتێکی تر: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
+        <item quantity="other">ئەم پەڕگانە گۆڕدران بۆ فۆرماتێکی تر: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
+    </plurals>
+    <plurals name="clipboard_files_clipped">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> بڕگە لەبەرگیرایەوە بۆ تەختەی لەبەرگرتنەوە.</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> بڕگە لەبەرگیرانەوە بۆ تەختەی لەبەرگرتنەوە.</item>
+    </plurals>
+    <string name="file_operation_rejected">کرداری پەڕگە پاڵپشتی نەکراوە.</string>
+    <string name="file_operation_error">کرداری پەڕگە سەرکەوتوو نەبوو.</string>
+    <string name="rename_error">گۆڕینی ناوی بەڵگەنامە سەرکەوتوو نەبوو</string>
+    <string name="menu_eject_root">دەرهێنان</string>
+    <string name="notification_copy_files_converted_title">هەندێک پەڕگە گۆڕدران</string>
+    <string name="open_external_dialog_request">ڕێگە بە <xliff:g id="appName" example="System Settings"><b>^1</b></xliff:g> بدرێت دەستی بگات بە بوخچەی <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g> لەسەر <xliff:g id="storage" example="SD Card"><i>^3</i></xliff:g>؟</string>
+    <string name="open_external_dialog_request_primary_volume">ڕێگە بە <xliff:g id="appName" example="System Settings"><b>^1</b></xliff:g> بدرێت دەستی بگات بە بوخچەی <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g>؟</string>
+    <string name="open_external_dialog_root_request">ڕێگە بە <xliff:g id="appName" example="System Settings"><b>^1</b></xliff:g> بدرێت دەستی بگات بە دراوەکانت، لەوانەش وێنە و ڤیدیۆکان لەسەر <xliff:g id="storage" example="SD Card"><i>^2</i></xliff:g>؟</string>
+    <string name="allow">ڕێگەدان</string>
+    <string name="deny">ڕەتکردنەوە</string>
+    <plurals name="elements_selected">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> دیاریکرا</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> دیاریکرا</item>
+    </plurals>
+    <plurals name="elements_dragged">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> بڕگە</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> بڕگە</item>
+    </plurals>
+    <string name="delete_filename_confirmation_message">سڕینەوەی \"<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>\"؟</string>
+    <string name="delete_foldername_confirmation_message">سڕینەوەی بوخچەی \"<xliff:g id="name" example="Photos">%1$s</xliff:g>\" و ناوەڕۆکەکەی؟</string>
+    <plurals name="delete_files_confirmation_message">
+        <item quantity="one">سڕینەوەی <xliff:g id="count" example="1">%1$d</xliff:g> پەڕگە؟</item>
+        <item quantity="other">سڕینەوەی <xliff:g id="count" example="3">%1$d</xliff:g> پەڕگە؟</item>
+    </plurals>
+    <plurals name="delete_folders_confirmation_message">
+        <item quantity="one">سڕینەوەی <xliff:g id="count" example="1">%1$d</xliff:g> بوخچە و ناوەڕۆکەکەی؟</item>
+        <item quantity="other">سڕینەوەی <xliff:g id="count" example="3">%1$d</xliff:g> بوخچە و ناوەڕۆکەکانیان؟</item>
+    </plurals>
+    <plurals name="delete_items_confirmation_message">
+        <item quantity="one">سڕینەوەی <xliff:g id="count" example="1">%1$d</xliff:g> بڕگە؟</item>
+        <item quantity="other">سڕینەوەی <xliff:g id="count" example="3">%1$d</xliff:g> بڕگە؟</item>
+    </plurals>
+    <string name="images_shortcut_label">وێنەکان</string>
+    <string name="archive_loading_failed">ئەرشیڤەکە بۆ گەڕان ناکرێتەوە. پەڕگەکە یان تێکچووە، یاخود فۆرماتێکی پاڵپشتینەکراوە.</string>
+    <string name="name_conflict">پەڕگەیەک بەم ناوە پێشتر بوونی هەیە.</string>
+    <string name="authentication_required">بۆ بینینی ئەم پێڕستە، بچۆ ژوورەوە بۆ <xliff:g id="name" example="Cloud Storage">%1$s</xliff:g></string>
+    <string name="cant_display_content">ناوەڕۆک پێشان نادرێت</string>
+    <string name="sign_in">چوونەژوورەوە</string>
+    <string name="new_archive_file_name">archive<xliff:g id="extension" example=".zip">%s</xliff:g></string>
+    <string name="overwrite_file_confirmation_message">لەسەرنووسینەوەی <xliff:g id="name" example="foobar.txt">%1$s</xliff:g>؟</string>
+    <string name="continue_in_background">بەردەوامبوون لە پاشبنەمادا</string>
+    <plurals name="selected_count">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> دیاریکرا</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> دیاریکرا</item>
+    </plurals>
+    <string name="root_info_header_recent">پەڕگە نوێیەکان</string>
+    <string name="root_info_header_global_search">پەڕگەکان</string>
+    <string name="root_info_header_downloads">پەڕگەکان لە داگیراوەکاندا</string>
+    <string name="root_info_header_storage">پەڕگەکان لەسەر <xliff:g id="device" example="Pixel">%1$s</xliff:g></string>
+    <string name="root_info_header_folder">پەڕگەکان لە <xliff:g id="folder" example="DCIM">%1$s</xliff:g>دا</string>
+    <string name="root_info_header_app">پەڕگەکان لە <xliff:g id="label" example="Drive">%1$s</xliff:g>ـەوە</string>
+    <string name="root_info_header_app_with_summary">پەڕگەکان لە <xliff:g id="label" example="Drive">%1$s</xliff:g> / <xliff:g id="summary" example="example@com">%2$s</xliff:g>ـەوە</string>
+    <string name="root_info_header_image_recent">وێنە نوێیەکان</string>
+    <string name="root_info_header_image_global_search">وێنەکان</string>
+    <string name="root_info_header_image_downloads">وێنەکان لە داگیراوەکاندا</string>
+    <string name="root_info_header_image_storage">وێنەکان لەسەر <xliff:g id="device" example="Pixel">%1$s</xliff:g></string>
+    <string name="root_info_header_image_folder">وێنەکان لە <xliff:g id="folder" example="DCIM">%1$s</xliff:g>دا</string>
+    <string name="root_info_header_image_app">وێنەکان لە <xliff:g id="label" example="Drive">%1$s</xliff:g>ـەوە</string>
+    <string name="root_info_header_image_app_with_summary">وێنەکان لە <xliff:g id="label" example="Drive">%1$s</xliff:g> / <xliff:g id="summary" example="example@com">%2$s</xliff:g>ـەوە</string>
+    <string name="chip_title_images">وێنەکان</string>
+    <string name="chip_title_audio">دەنگ</string>
+    <string name="chip_title_videos">ڤیدیۆکان</string>
+    <string name="chip_title_documents">بەڵگەنامەکان</string>
+    <string name="chip_title_large_files">پەڕگە گەورەکان</string>
+    <string name="chip_title_from_this_week">ئەم هەفتەیە</string>
+    <string name="input_hint_new_folder">ناوی بوخچە</string>
+    <string name="input_hint_rename">ناوی نوێ</string>
+    <string name="preview_file">پێشبینینی پەڕگەی <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
+    <string name="preview_work_file">پێشبینینی پەڕگەی کاری <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
+    <string name="preview_cross_profile_file">پێشبینینی پەڕگەی <xliff:g id="profile" example="work">%1$s</xliff:g> بە ناوی <xliff:g id="fileName" example="example.jpg">%2$s</xliff:g></string>
+    <string name="apps_row_title">گەڕان بەدوای پەڕگەکان لە ئەپەکانی تردا</string>
+    <string name="anonymous_application">نەناسراو</string>
+    <string name="open_tree_button">بەکارهێنانی ئەم بوخچەیە</string>
+    <string name="open_tree_dialog_title">ڕێگە بە <xliff:g id="appName" example="Drive">%1$s</xliff:g> بدرێت دەستی بگات بە پەڕگەکانی ناو <xliff:g id="directory" example="DCIM">%2$s</xliff:g>؟</string>
+    <string name="open_tree_dialog_message">ئەمە ڕێگە دەدات \"<xliff:g id="appName" example="Drive">%1$s</xliff:g>\" دەستی بە ناوەڕۆکی ئێستا و داهاتوو بگات کە لە <xliff:g id="directory" example="DCIM">%2$s</xliff:g> پاشەکەوت کراوە.</string>
+    <string name="directory_blocked_header_title">ئەم بوخچەیە بەکارناهێنرێت</string>
+    <string name="directory_blocked_header_subtitle">بۆ پاراستنی تایبەتمەندیت، بوخچەیەکی تر هەڵبژێرە</string>
+    <string name="create_new_folder_button">دروستکردنی بوخچەی نوێ</string>
+    <string name="search_bar_hint">گەڕان لەم ئامێرەدا</string>
+    <string name="delete_search_history">سڕینەوەی مێژووی گەڕانی <xliff:g id="text" example="image">%1$s</xliff:g></string>
+    <string name="personal_tab">کەسی</string>
+    <string name="work_tab">کار</string>
+    <string name="a11y_work">کار</string>
+    <string name="drag_from_another_app">ناتوانیت پەڕگەکان لە ئەپێکی ترەوە بگوازیتەوە.</string>
+    <string name="grid_mode_showing">پشاندان لە دۆخی تۆڕیدا.</string>
+    <string name="list_mode_showing">پشاندان لە دۆخی پێڕستیدا.</string>
+</resources>

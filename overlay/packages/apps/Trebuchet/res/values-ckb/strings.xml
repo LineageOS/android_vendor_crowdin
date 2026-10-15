@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Launcher3</string>
+    <string name="work_folder_name">کار</string>
+    <string name="activity_not_found">بەرنامە دانەمەزراوە.</string>
+    <string name="activity_not_available">بەرنامە بەردەست نییە</string>
+    <string name="safemode_shortcut_error">بەرنامەی دابەزێنراو لە دۆخی پارێزراودا ناچالاک کراوە</string>
+    <string name="safemode_widget_error">ویجێتەکان لە دۆخی پارێزراودا ناچالاک کراون</string>
+    <string name="shortcut_not_available">قەدبڕ بەردەست نییە</string>
+    <string name="home_screen">ماڵەوە</string>
+    <string name="recent_task_option_split_screen">دووبەشکردنی ڕوونما</string>
+    <string name="split_app_info_accessibility">زانیاریی بەرنامە بۆ %1$s</string>
+    <string name="save_app_pair">پاشەکەوتکردنی جووتە بەرنامە</string>
+    <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
+    <string name="app_pair_unlaunchable_at_screen_size">ئەم جووتە بەرنامەیە لەسەر ئەم ئامێرە پشتگیری ناکرێت</string>
+    <string name="app_pair_needs_unfold">ئامێرەکە بکەرەوە بۆ بەکارهێنانی ئەم جووتە بەرنامەیە</string>
+    <string name="long_press_widget_to_add">دەستی لێ بدە و ڕایبگرە بۆ جووڵاندنی ویجێت.</string>
+    <string name="long_accessible_way_to_add">دووجار لێ بدە و ڕایبگرە بۆ جووڵاندنی ویجێت یان بەکارهێنانی کرداری دڵخواز.</string>
+    <string name="widget_dims_format">%1$d × %2$d</string>
+    <string name="widget_accessible_dims_format">%1$d پان بە %2$d بەرز</string>
+    <string name="widget_preview_context_description">ویجێتی <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
+    <string name="add_item_request_drag_hint">دەست لە ویجێتەکە بدە و ڕایبگرە بۆ جووڵاندنی بە دەوری ڕوونمای سەرەکیدا</string>
+    <string name="add_to_home_screen">زیادکردن بۆ ڕوونمای سەرەکی</string>
+    <string name="added_to_home_screen_accessibility_text">ویجێتی <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> بۆ ڕوونمای سەرەکی زیادکرا</string>
+    <string name="suggested_widgets_header_title">پێشنیارەکان</string>
+    <string name="productivity_widget_recommendation_category_label">پێداویستییە ڕۆژانەییەکانت</string>
+    <string name="news_widget_recommendation_category_label">هەواڵەکان بۆ تۆ</string>
+    <string name="social_and_entertainment_widget_recommendation_category_label">ناوچەی حەوانەوەت</string>
+    <string name="fitness_widget_recommendation_category_label">گەیشتن بە ئامانجەکانی لەشجوانیت</string>
+    <string name="weather_widget_recommendation_category_label">ئاگاداری کەشوهەوا بە</string>
+    <string name="others_widget_recommendation_category_label">لەوانەیە ئەمەش بە دڵت بێت</string>
+    <string name="widget_picker_right_pane_accessibility_title">ویجێتەکانی <xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> لە لای ڕاست، گەڕان و هەڵبژاردنەکان لە لای چەپ</string>
+    <string name="widgets_count">
+        {count, plural, =1{# ویجێت} other{# ویجێت}}
+    </string>
+    <string name="shortcuts_count">
+        {count, plural, =1{# قەدبڕ} other{# قەدبڕ}}
+    </string>
+    <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>، <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
+    <string name="widget_button_text">ویجێتەکان</string>
+    <string name="widgets_full_sheet_search_bar_hint">گەڕان</string>
+    <string name="widgets_full_sheet_cancel_button_description">پاککردنەوەی دەق لە چوارچێوەی گەڕان</string>
+    <string name="no_widgets_available">ویجێت و قەدبڕەکان بەردەست نین</string>
+    <string name="no_search_results">هیچ ویجێت یان قەدبڕێک نەدۆزرایەوە</string>
+    <string name="widgets_full_sheet_personal_tab">کەسی</string>
+    <string name="widgets_full_sheet_work_tab">کار</string>
+    <string name="widget_category_conversations">گفتوگۆکان</string>
+    <string name="widget_category_note_taking">تێبینی نووسین</string>
+    <string name="widget_education_header">زانیاریی بەسوود لەژێر دەستتدا</string>
+    <string name="widget_education_content">بۆ بەدەستهێنانی زانیاری بەبێ کردنەوەی ئەپەکان، دەتوانیت ویجێتەکان بۆ ڕوونمای سەرەکیت زیاد بکەیت</string>
+    <string name="reconfigurable_widget_education_tip">پەنجە بنێ بۆ گۆڕینی ڕێکخستنەکانی ویجێت</string>
+    <string name="widget_education_close_button">تێگەیشتم</string>
+    <string name="widget_reconfigure_button_content_description">گۆڕینی ڕێکخستنەکانی ویجێت</string>
+    <string name="all_apps_search_bar_hint">گەڕان لە بەرنامەکان</string>
+    <string name="all_apps_loading_message">ئەپەکان باردەکرێن…</string>
+    <string name="all_apps_no_search_results">هیچ ئەپێک نەدۆزرایەوە کە لەگەڵ \"<xliff:g id="query" example="Android">%1$s</xliff:g>\"دا بێتەوە</string>
+    <string name="label_application">ئەپ</string>
+    <string name="all_apps_label">هەموو بەرنامەکان</string>
+    <string name="notifications_header">ئاگادارییەکان</string>
+    <string name="long_press_shortcut_to_add">دەستی لێ بدە و ڕایبگرە بۆ جووڵاندنی قەدبڕێک.</string>
+    <string name="long_accessible_way_to_add_shortcut">دووجار لێ بدە و ڕایبگرە بۆ جووڵاندنی قەدبڕ یان بەکارهێنانی کرداری دڵخواز.</string>
+    <string name="out_of_space">شوێن نییە لەسەر ئەم ڕوونمای سەرەکییە</string>
+    <string name="hotseat_out_of_space">چیتر شوێن نییە لە چەکمەجەی دڵخوازەکاندا</string>
+    <string name="all_apps_button_label">لیستی بەرنامەکان</string>
+    <string name="all_apps_search_results">ئەنجامەکانی گەڕان</string>
+    <string name="all_apps_button_personal_label">لیستی ئەپە کەسییەکان</string>
+    <string name="all_apps_button_work_label">لیستی ئەپەکانی کار</string>
+    <string name="remove_drop_target_label">سڕینەوە</string>
+    <string name="uninstall_drop_target_label">سڕینەوە</string>
+    <string name="app_info_drop_target_label">زانیاریی بەرنامە</string>
+    <string name="install_private_system_shortcut_label">دامەزراندن لە شوێنی تایبەتدا</string>
+    <string name="install_drop_target_label">دامەزراندن</string>
+    <string name="dismiss_prediction_label">ئەپ پێشنیاز مەکە</string>
+    <string name="pin_prediction">پێشبینیی چەسپاندن</string>
+    <string name="permlab_install_shortcut">دامەزراندنی قەدبڕەکان</string>
+    <string name="permdesc_install_shortcut">ڕێگە بە ئەپێک دەدات قەدبڕەکان زیاد بکات بەبێ دەستێوەردانی بەکارهێنەر.</string>
+    <string name="permlab_read_settings">خوێندنەوەی ڕێکخستنەکانی سەرەکی و قەدبڕەکان</string>
+    <string name="permdesc_read_settings">ڕێگە بە ئەپەکە دەدات ڕێکخستنەکان و قەدبڕەکانی ڕوونمای سەرەکی بخوێنێتەوە.</string>
+    <string name="permlab_write_settings">نووسینی ڕێکخستنەکانی سەرەکی و قەدبڕەکان</string>
+    <string name="permdesc_write_settings">ڕێگە بە ئەپەکە دەدات ڕێکخستنەکان و قەدبڕەکانی ڕوونمای سەرەکی بگۆڕێت.</string>
+    <string name="gadget_error_text">ویجێتەکە بارناکرێت</string>
+    <string name="gadget_setup_text">ڕێکخستنەکانی ویجێت</string>
+    <string name="gadget_complete_setup_text">پەنجە بنێ بۆ تەواوکردنی ڕێکخستن</string>
+    <string name="uninstall_system_app_text">ئەمە ئەپێکی سیستمە و ناکرێت بسڕدرێتەوە.</string>
+    <string name="folder_hint_text">دەستکاریکردنی ناو</string>
+    <string name="disabled_app_label"><xliff:g id="app_name" example="Messenger">%1$s</xliff:g> ناچالاک کراوە</string>
+    <string name="dotted_app_label">
+        {count, plural,
+            =1      {{app_name} # ئاگاداریی هەیە}
+            other   {{app_name} # ئاگاداریی هەیە}
+        }
+    </string>
+    <string name="default_scroll_format">پەڕەی %1$d لە %2$d</string>
+    <string name="workspace_scroll_format">ڕوونمای سەرەکیی %1$d لە %2$d</string>
+    <string name="workspace_new_page">پەڕەی نوێی ڕوونمای سەرەکی</string>
+    <string name="folder_opened">بوخچە کرایەوە، <xliff:g id="width" example="5">%1$d</xliff:g> بە <xliff:g id="height" example="3">%2$d</xliff:g></string>
+    <string name="folder_tap_to_close">پەنجە بنێ بۆ داخستنی بوخچە</string>
+    <string name="folder_tap_to_rename">پەنجە بنێ بۆ پاشەکەوتکردنی ناوی نوێ</string>
+    <string name="folder_closed">بوخچە داخرا</string>
+    <string name="folder_renamed">ناوی بوخچە گۆڕدرا بۆ <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="folder_name_format_exact">بوخچە: <xliff:g id="name" example="Games">%1$s</xliff:g>، <xliff:g id="size" example="2">%2$d</xliff:g> بڕگە</string>
+    <string name="folder_name_format_overflow">بوخچە: <xliff:g id="name" example="Games">%1$s</xliff:g>، <xliff:g id="size" example="2">%2$d</xliff:g> بڕگە یان زیاتر</string>
+    <string name="app_pair_name_format">جووتی ئەپ: <xliff:g id="app1" example="Chrome">%1$s</xliff:g> و <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
+    <string name="styles_wallpaper_button_text">وێنەی پاشبنەما و شێواز</string>
+    <string name="edit_home_screen">دەستکاریکردنی ڕوونمای سەرەکی</string>
+    <string name="settings_button_text">ڕێکخستنەکانی سەرەکی</string>
+    <string name="msg_disabled_by_admin">لە لایەن سەرپەرشتیارەکەتەوە ناچالاک کراوە</string>
+    <string name="allow_rotation_title">ڕێگەدان بە سووڕانەوەی ڕوونمای سەرەکی</string>
+    <string name="allow_rotation_desc">کاتێک تەلەفۆن دەسووڕێنرێتەوە</string>
+    <string name="notification_dots_title">خاڵەکانی ئاگادارکردنەوە</string>
+    <string name="notification_dots_desc_on">چالاک</string>
+    <string name="notification_dots_desc_off">ناچالاک</string>
+    <string name="title_missing_notification_access">دەستپێڕاگەیشتن بە ئاگادارکردنەوە پێویستە</string>
+    <string name="msg_missing_notification_access">بۆ پیشاندانی خاڵەکانی ئاگادارکردنەوە، ئاگادارییەکانی ئەپ بۆ <xliff:g id="name" example="My App">%1$s</xliff:g> هەڵبکە</string>
+    <string name="title_change_settings">گۆڕینی ڕێکخستنەکان</string>
+    <string name="notification_dots_service_title">پیشاندانی خاڵەکانی ئاگادارکردنەوە</string>
+    <string name="developer_options_title">هەڵبژاردنەکانی گەشەپێدەر</string>
+    <string name="auto_add_shortcuts_label">زیادکردنی وێنۆچکەی ئەپ بۆ ڕوونمای سەرەکی</string>
+    <string name="auto_add_shortcuts_description">بۆ ئەپە نوێیەکان</string>
+    <string name="package_state_unknown">نادیار</string>
+    <string name="abandoned_clean_this">سڕینەوە</string>
+    <string name="abandoned_search">گەڕان</string>
+    <string name="abandoned_promises_title">ئەم ئەپە دانەمەزراوە</string>
+    <string name="abandoned_promise_explanation">ئەپی ئەم وێنۆچکەیە دانەمەزراوە.
+        دەتوانیت لایببەیت، یان بەدوای ئەپەکەدا بگەڕێیت و خۆت دایبمەزرێنیت.
+    </string>
+    <string name="app_installing_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> دادەمەزرێت، <xliff:g id="progress" example="30%">%2$s</xliff:g> تەواو بوو</string>
+    <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> دادەگیرێت، <xliff:g id="progress" example="30%">%2$s</xliff:g> تەواو بوو</string>
+    <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> چاوەڕوانی دامەزراندنە</string>
+    <string name="app_archived_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> ئەرشیڤ کراوە. پەنجە بنێ بۆ داگرتن.</string>
+    <string name="dialog_update_title">نوێکردنەوەی ئەپ پێویستە</string>
+    <string name="dialog_update_message">ئەپی ئەم وێنۆچکەیە نوێ نەکراوەتەوە. دەتوانیت خۆت نوێی بکەیتەوە بۆ دووبارە چالاککردنەوەی ئەم قەدبڕە، یان وێنۆچکەکە لابدەیت.</string>
+    <string name="dialog_update">نوێکردنەوە</string>
+    <string name="dialog_remove">سڕینەوە</string>
+    <string name="widgets_list">لیستی ویجێتەکان</string>
+    <string name="widgets_list_closed">لیستی ویجێتەکان داخرا</string>
+    <string name="action_add_to_workspace">زیادکردن بۆ ڕوونمای سەرەکی</string>
+    <string name="action_move_here">بڕگەکە بهێنە بۆ ئێرە</string>
+    <string name="item_added_to_workspace">بڕگە بۆ ڕوونمای سەرەکی زیادکرا</string>
+    <string name="item_removed">بڕگە سڕایەوە</string>
+    <string name="undo">پاشگەزبوونەوە</string>
+    <string name="action_move">جووڵاندنی بڕگە</string>
+    <string name="move_to_empty_cell_description">جووڵاندن بۆ ڕیزی <xliff:g id="number" example="1">%1$s</xliff:g> ستوونی <xliff:g id="number" example="1">%2$s</xliff:g> لە <xliff:g id="string" example="Home screen 2 of 4">%3$s</xliff:g></string>
+    <string name="move_to_position">جووڵاندن بۆ شوێنی <xliff:g id="number" example="1">%1$s</xliff:g></string>
+    <string name="move_to_hotseat_position">جووڵاندن بۆ شوێنی دڵخوازەکانی <xliff:g id="number" example="1">%1$s</xliff:g></string>
+    <string name="item_moved">بڕگە جووڵێنرا</string>
+    <string name="add_to_folder">زیادکردن بۆ بوخچەی: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="add_to_folder_with_app">زیادکردن بۆ بوخچە لەگەڵ <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+    <string name="added_to_folder">بڕگە بۆ بوخچە زیادکرا</string>
+    <string name="create_folder_with">دروستکردنی بوخچە لەگەڵ: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+    <string name="folder_created">بوخچە دروستکرا</string>
+    <string name="action_move_to_workspace">جووڵاندن بۆ ڕوونمای سەرەکی</string>
+    <string name="action_resize">گۆڕینی قەبارە</string>
+    <string name="action_increase_width">زیادکردنی پانی</string>
+    <string name="action_increase_height">زیادکردنی بەرزی</string>
+    <string name="action_decrease_width">کەمکردنەوەی پانی</string>
+    <string name="action_decrease_height">کەمکردنەوەی بەرزی</string>
+    <string name="widget_resized">قەبارەی ویجێت گۆڕدرا بۆ پانیی <xliff:g id="number" example="2">%1$s</xliff:g> و بەرزیی <xliff:g id="number" example="1">%2$s</xliff:g></string>
+    <string name="action_deep_shortcut">قەدبڕەکان</string>
+    <string name="action_dismiss_notification">بێدەنگکردن</string>
+    <string name="accessibility_close">داخستن</string>
+    <string name="all_apps_personal_tab">کەسی</string>
+    <string name="all_apps_work_tab">کار</string>
+    <string name="work_profile_toggle_label">پڕۆفایلی کار</string>
+    <string name="work_profile_edu_work_apps">ئەپەکانی کار نیشانەکراون و بۆ بەڕێوەبەری ITـیەکەت دیارن</string>
+    <string name="work_profile_edu_accept">تێگەیشتم</string>
+    <string name="work_apps_paused_title">بەرنامەکانی کار بە کاتی ڕاگیراون</string>
+    <string name="work_apps_paused_info_body">ئاگاداری لە ئەپەکانی کارەکەتەوە پێناگات</string>
+    <string name="work_apps_paused_body">ئەپەکانی کار ناتوانن ئاگاداریت بۆ بنێرن، باتریت بەکاربهێنن، یان دەستیان بە شوێنەکەت بگات</string>
+    <string name="work_apps_paused_telephony_unavailable_body">پەیوەندیی تەلەفۆنی، نامەی دەقی، یان ئاگاداری لە ئەپەکانی کارەکەتەوە پێناگات</string>
+    <string name="work_apps_paused_edu_banner">ئەپەکانی کار نیشانەکراون و بۆ بەڕێوەبەری ITـیەکەت دیارن</string>
+    <string name="work_apps_paused_edu_accept">تێگەیشتم</string>
+    <string name="work_apps_pause_btn_text">ڕاگرتنی ئەپەکانی کار</string>
+    <string name="work_apps_enable_btn_text">لادان لە وەستان</string>
+    <string name="developer_options_filter_hint">پاڵێوەر</string>
+    <string name="remote_action_failed">شکستی هێنا: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
+    <string name="private_space_label">بۆشایی تایبەتی</string>
+    <string name="private_space_secondary_label">بەرنامە تایبەتییەکان بە قوفڵکراوی و شاراوەیی بهێڵەرەوە</string>
+    <string name="ps_container_title">تایبەت</string>
+    <string name="ps_container_settings">ڕێکخستنەکانی شوێنی تایبەت</string>
+    <string name="ps_container_lock_unlock_button">قفڵکردن/کردنەوەی شوێنی تایبەت</string>
+    <string name="ps_container_lock_title">قفڵکردن</string>
+    <string name="ps_container_transition">شوێنی تایبەت دەگوازرێتەوە</string>
+    <string name="ps_add_button_label">دامەزراندنی ئەپەکان</string>
+    <string name="ps_add_button_content_description">دامەزراندنی ئەپەکان بۆ شوێنی تایبەت</string>
+    <string name="bubble_bar_overflow_description">زیاتر</string>
+</resources>
