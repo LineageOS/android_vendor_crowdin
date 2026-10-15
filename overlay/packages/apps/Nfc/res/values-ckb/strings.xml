@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">خزمەتگوزاریی NFC</string>
+    <string name="nfcUserLabel">NFC</string>
+    <string name="accessibility_nfc_enabled">NFC چالاک کرا.</string>
+    <string name="tap_to_beam">پەنجە بنێ بۆ ناردن</string>
+    <string name="beam_progress">ناردنی هاتوو...</string>
+    <string name="beam_outgoing">دەنێردرێت...</string>
+    <string name="beam_complete">ناردن تەواو بوو</string>
+    <string name="beam_failed">ناردن تەواو نەبوو</string>
+    <string name="beam_canceled">ناردن هەڵوەشێنرایەوە</string>
+    <string name="cancel">پاشگەزبوونەوە</string>
+    <string name="beam_tap_to_view">پەنجە بنێ بۆ بینین</string>
+    <string name="beam_handover_not_supported">ئامێری وەرگر پشتگیریی گواستنەوەی فایلی گەورە لە ڕێگەی beam ناکات.</string>
+    <string name="beam_try_again">ئامێرەکان دووبارە لە یەکتر نزیک بکەوە</string>
+    <string name="beam_busy">Beam لە ئێستادا سەرقاڵە. دووبارە هەوڵ بدەوە کاتێک گواستنەوەی پێشوو تەواو دەبێت.</string>
+    <string name="device">ئامێر</string>
+    <string name="connecting_peripheral">پەیوەست دەبێت بە <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="connected_peripheral">پەیوەست بوو بە <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="connect_peripheral_failed">نەتوانرا پەیوەست بێت بە <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="disconnecting_peripheral">پەیوەندی دەپچڕێت لەگەڵ <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="disconnected_peripheral">پەیوەندی پچڕا لەگەڵ <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="pairing_peripheral">جووت دەکرێت لەگەڵ <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="pairing_peripheral_failed">نەتوانرا جووت بکرێت لەگەڵ <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="failed_to_enable_bt">نەتوانرا بلوتووس چالاک بکرێت</string>
+    <string name="confirm_pairing">دڵنیایت دەتەوێت ئامێری بلوتووسی <xliff:g id="device_name">%1$s</xliff:g> جووت بکەیت؟</string>
+    <string name="pair_yes">بەڵێ</string>
+    <string name="pair_no">نەخێر</string>
+    <string name="tap_again_to_pay">دووبارە پەنجە بنێ بۆ پارەدان بە <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="tap_again_to_complete">دووبارە پەنجە بنێ بۆ تەواوکردن بە <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="tap_again_description">بیگرە بەرامبەر خوێنەرەوەکە</string>
+    <string name="appchooser_description">ئەپێک هەڵبژێرە بۆ سکانکردن</string>
+    <string name="transaction_failure">ئەم مامەڵەیە نەتوانرا بە <xliff:g id="app">%1$s</xliff:g> تەواو بکرێت.</string>
+    <string name="could_not_use_app">نەتوانرا <xliff:g id="app">%1$s</xliff:g> بەکاربهێنرێت.</string>
+    <string name="pay_with">پارەدان بە</string>
+    <string name="complete_with">تەواوکردن بە</string>
+    <string name="default_pay_app_removed">خزمەتگوزاریی دڵخوازت بۆ لێدان و پارەدان سڕایەوە. دانەیەکی تر هەڵدەبژێریت؟</string>
+    <string name="ask_nfc_tap">لە ئامێرێکی تر بدە بۆ تەواوکردن</string>
+    <string name="wifi_connect">پەیوەستبوون</string>
+    <string name="status_unable_to_connect">نەتوانرا پەیوەست بێت بە تۆڕ</string>
+    <string name="status_wifi_connected">پەیوەستە</string>
+    <string name="title_connect_to_network">پەیوەستبوون بە تۆڕ</string>
+    <string name="prompt_connect_to_network">پەیوەست بیت بە تۆڕی <xliff:g id="network_ssid">%1$s</xliff:g>؟</string>
+    <string name="beam_requires_nfc_enabled">Android Beam پێویستی بە چالاککردنی NFC هەیە. دەتەوێت چالاکی بکەیت؟</string>
+    <string name="android_beam">Android Beam</string>
+    <string name="beam_requires_external_storage_permission">بەرنامەکە مۆڵەتی بیرگەی دەرەکیی نییە. ئەمە پێویستە بۆ ناردنی ئەم فایلە</string>
+    <string name="title_confirm_url_open">بەستەر بکرێتەوە؟</string>
+    <string name="summary_confirm_url_open">تەلەفۆنەکەت بەستەرێکی لە ڕێگەی NFCـیەوە پێگەیشت:</string>
+    <string name="summary_confirm_url_open_tablet">تابلێتەکەت بەستەرێکی لە ڕێگەی NFCـیەوە پێگەیشت:</string>
+    <string name="action_confirm_url_open">کردنەوەی بەستەر</string>
+    <string name="tag_read_error">هەڵەی خوێندنەوەی NFC. دووبارە هەوڵ بدەوە.</string>
+    <string name="tag_dispatch_failed">هیچ بەرنامەیەکی پاڵپشتیکراو بۆ ئەم تاگەی NFC نییە</string>
+    <string name="nfc_blocking_alert_title">لەوانەیە NFC بلۆک کرابێت</string>
+    <string name="nfc_blocking_alert_message">پەنجە بنێ بۆ فێربوونی چۆنیەتیی چارەسەرکردن.</string>
+    <string name="nfc_logging_alert_title">داتای NFC تۆمار دەکرێت</string>
+    <string name="nfc_logging_alert_message">پەنجە بنێ بۆ وەستاندنی تۆمارکردن.</string>
+</resources>
