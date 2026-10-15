@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_vpn_connected">VPN پەیوەستە</string>
+    <string name="notification_vpn_disconnected">VPN پچڕاوە</string>
+    <string name="notification_disclosure_vpn_text">لەڕێگەی <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g></string>
+    <string name="notification_panel_title">ئاگادارییەکان</string>
+    <string name="notification_panel_no_notifications">هیچ ئاگادارکردنەوەیەک نییە</string>
+    <string name="mic_recording_announcement">مایکرۆفۆن تۆمار دەکات</string>
+    <string name="camera_recording_announcement">کامێرا تۆمار دەکات</string>
+    <string name="mic_and_camera_recording_announcement">کامێرا و مایکرۆفۆن تۆمار دەکەن</string>
+    <string name="mic_stopped_recording_announcement">مایکرۆفۆن تۆمارکردنی وەستاند</string>
+    <string name="camera_stopped_recording_announcement">کامێرا تۆمارکردنی وەستاند</string>
+    <string name="mic_camera_stopped_recording_announcement">کامێرا و مایکرۆفۆن تۆمارکردنیان وەستاند</string>
+    <string name="screen_recording_announcement">تۆمارکردنی ڕوونما دەستی پێکرد</string>
+    <string name="screen_stopped_recording_announcement">تۆمارکردنی ڕوونما وەستا</string>
+    <string name="media_output_dialog_title">دەرچەی دەنگ</string>
+    <string name="media_output_dialog_other_devices">ئامێرەکانی تر</string>
+    <string name="media_output_dialog_pairing_new">پەیوەستکردنی ئامێرێکی تر</string>
+</resources>
