@@ -212,8 +212,8 @@
     <string name="work_profile_deleted_description_dpm_wipe">پرۆفایلی کارەکەت چیتر لەسەر ئەم ئامێرە بەردەست نییە</string>
     <string name="work_profile_deleted_reason_maximum_password_failure">هەوڵدانی زۆر بۆ تێپەڕەوشە</string>
     <string name="device_ownership_relinquished">سەرپەرشتیار ئامێرەکەی بۆ بەکارهێنانی کەسی ڕادەست کرد</string>
-    <string name="private_space_deleted_by_admin">بۆشاییی تایبەت لادرا</string>
-    <string name="private_space_deleted_by_admin_details">ڕێکخراوەکەت ڕێگە بە بۆشاییی تایبەت لەسەر ئەم ئامێرە بەڕێوەبراوە نادات.</string>
+    <string name="private_space_deleted_by_admin">بۆشایی تایبەت لادرا</string>
+    <string name="private_space_deleted_by_admin_details">ڕێکخراوەکەت ڕێگە بە بۆشایی تایبەت لەسەر ئەم ئامێرە بەڕێوەبراوە نادات.</string>
     <string name="network_logging_notification_title">ئامێرەکە بەڕێوەدەبرێت</string>
     <string name="network_logging_notification_text">ڕێکخراوەکەت ئەم ئامێرە بەڕێوەدەبات و ڕەنگە چاودێریی هاتوچۆی تۆڕەکە بکات. دایبگرە بۆ وردەکاری.</string>
     <string name="location_changed_notification_title">بەرنامەکان دەتوانن دەستیان بە شوێنەکەت بگات</string>
@@ -384,8 +384,8 @@
     <string name="permdesc_statusBarService">ڕێگە بە بەرنامەکە دەدات ببێتە شریتی دۆخ.</string>
     <string name="permlab_expandStatusBar">کشاندنی/کۆکردنەوەی شریتی دۆخ</string>
     <string name="permdesc_expandStatusBar">ڕێگە بە بەرنامەکە دەدات شریتی دۆخ بکشێنێت یان کۆی بکاتەوە.</string>
-    <string name="permlab_fullScreenIntent">پیشاندانی ئاگادارکردنەوەکان وەک چالاکیی تەواوی ڕوونما لەسەر ئامێری قوفڵکراو</string>
-    <string name="permdesc_fullScreenIntent">ڕێگە بە بەرنامەکە دەدات ئاگادارکردنەوەکان وەک چالاکیی تەواوی ڕوونما لەسەر ئامێری قوفڵکراو پیشان بدات</string>
+    <string name="permlab_fullScreenIntent">پیشاندانی ئاگادارکردنەوەکان وەک چالاکیی تەواو ڕوونما لەسەر ئامێری قوفڵکراو</string>
+    <string name="permdesc_fullScreenIntent">ڕێگە بە بەرنامەکە دەدات ئاگادارکردنەوەکان وەک چالاکیی تەواو ڕوونما لەسەر ئامێری قوفڵکراو پیشان بدات</string>
     <string name="permlab_install_shortcut">دامەزراندنی قەدبڕەکان</string>
     <string name="permdesc_install_shortcut">ڕێگە بە بەرنامەیەک دەدات قەدبڕەکانی پەڕەی سەرەکی زیاد بکات بەبێ دەستوەردانی بەکارهێنەر.</string>
     <string name="permlab_uninstall_shortcut">سڕینەوە قەدبڕەکان</string>
@@ -1469,7 +1469,7 @@
     <string name="test_harness_mode_notification_title">دۆخی ڕاهێنانی تاقیکاری چالاکە</string>
     <string name="test_harness_mode_notification_message">گەڕاندنەوەی ڕێکخستنەکانی کارگە ئەنجام بدە بۆ ناچالاککردنی دۆخی ڕاهێنانی تاقیکاری.</string>
     <string name="wrong_hsum_configuration_notification_title">شێوازپێدانی دروستکردنی نادروستی HSUM</string>
-    <string name="wrong_hsum_configuration_notification_message">دۆخی شێوازی بەکارهێنەری سیستەمی بێ سەر لەسەر ئەم ئامێرە جیاوازە لە شێوازپێدانی دروستکردنەکەی. تکایە ئامێرەکە بگەڕێنەوە بۆ دۆخی کارگە.</string>
+    <string name="wrong_hsum_configuration_notification_message">دۆخی شێوازی بەکارهێنەری سیستمی بێ سەر لەسەر ئەم ئامێرە جیاوازە لە شێوازپێدانی دروستکردنەکەی. تکایە ئامێرەکە بگەڕێنەوە بۆ دۆخی کارگە.</string>
     <string name="console_running_notification_title">کۆنسۆڵی زنجیرەیی (Serial console) چالاکە</string>
     <string name="console_running_notification_message">کاریگەری لەسەر کارایی دروست بووە. بۆ ناچالاککردنی، Bootloader بپشکنە.</string>
     <string name="mte_override_notification_title">دۆخی تاقیکاریی MTE چالاکە</string>
@@ -2116,7 +2116,7 @@
     <string name="set_up_screen_lock_title">قوفڵی ڕوونما دابنێ</string>
     <string name="set_up_screen_lock_action_label">دانانی قوفڵی ڕوونما</string>
     <string name="private_space_set_up_screen_lock_message">بۆ بەکارهێنانی فەزای تایبەتی خۆت، قوفڵێکی ڕوونما لەسەر ئەم ئامێرە دابنێ</string>
-    <string name="private_space_set_up_screen_lock_for_reset">بۆ سڕینەوەی بۆشاییی تایبەت، قوفڵی ڕوونما لەسەر ئەم ئامێرە دابنێ</string>
+    <string name="private_space_set_up_screen_lock_for_reset">بۆ سڕینەوەی بۆشایی تایبەت، قوفڵی ڕوونما لەسەر ئەم ئامێرە دابنێ</string>
     <string name="app_blocked_title">بەرنامەکە بەردەست نییە</string>
     <string name="app_blocked_message"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> لە ئێستادا بەردەست نییە.</string>
     <string name="app_streaming_blocked_title"><xliff:g id="activity" example="Permission dialog">%1$s</xliff:g> بەردەست نییە</string>
