@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="recent_task_option_pin">جێگیرکردن</string>
     <string name="recent_task_option_freeform">شێوازی ئازاد</string>
-    <string name="recents_empty_message">هیچ بڕگەیەکی ئەم دوایییە نییە</string>
+    <string name="recents_empty_message">هیچ بەرنامەیەک کراوە نییە</string>
     <string name="accessibility_app_usage_settings">ڕێکخستنەکانی بەکارهێنانی ئەپ</string>
     <string name="recents_clear_all">سڕینەوەی هەمووی</string>
     <string name="accessibility_recent_apps">بەرنامەکانی ئەم دواییە</string>
@@ -79,7 +79,7 @@
     <string name="overview_gesture_tutorial_subtitle">لە خوارەوەی ڕوونماتەوە بۆ سەرەوە بخلیسکێنە، ڕایبگرە، پاشان بەری بدە</string>
     <string name="overview_gesture_tutorial_success">دەستت خۆش بێت!</string>
     <string name="gesture_tutorial_confirm_title">هەمووی ئامادەیە</string>
-    <string name="gesture_tutorial_action_button_label">کراو</string>
+    <string name="gesture_tutorial_action_button_label">تەواو</string>
     <string name="gesture_tutorial_action_button_label_settings">ڕێکخستنەکان</string>
     <string name="gesture_tutorial_try_again">دووبارە هەوڵ بدەرەوە</string>
     <string name="gesture_tutorial_nice">نایابە!</string>
@@ -114,7 +114,7 @@
     <string name="taskbar_edu_pinning_title">هەمیشە شریتی ئەرکەکان پیشان بدە</string>
     <string name="taskbar_edu_pinning_standalone">بۆ ئەوەی هەمیشە شریتی ئەرکەکان لە خوارەوەی ڕوونمات پیشان بدرێت، دەست لەسەر جیاکەرەوەکە دابنێ و ڕایبگرە</string>
     <string name="taskbar_edu_close">داخستن</string>
-    <string name="taskbar_edu_done">کراو</string>
+    <string name="taskbar_edu_done">تەواو</string>
     <string name="taskbar_button_home">ماڵەوە</string>
     <string name="taskbar_button_a11y">دەستپێڕاگەیشتن</string>
     <string name="taskbar_button_back">گەڕانەوە</string>

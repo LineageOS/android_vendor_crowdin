@@ -37,8 +37,8 @@
     <string name="privacy_chip_settings">ڕێکخستنەکانی تایبەتمەندی</string>
     <string name="privacy_chip_app_using_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> <xliff:g id="sensor" example="microphone">%2$s</xliff:g> بەکاردەهێنێت</string>
     <string name="mic_privacy_chip_apps_using_mic_suffix"><xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g> مایکرۆفۆن بەکاردەهێنن</string>
-    <string name="privacy_chip_app_recently_used_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> لەم دوایییەدا <xliff:g id="sensor" example="microphone">%2$s</xliff:g>ـی بەکارهێنا</string>
-    <string name="privacy_chip_apps_recently_used_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> و <xliff:g id="additional_app_count" example="2">%2$d</xliff:g>ـی تر لەم دوایییەدا <xliff:g id="sensor" example="microphone">%3$s</xliff:g>ـیان بەکارهێنا</string>
+    <string name="privacy_chip_app_recently_used_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> لەم دواییەدا <xliff:g id="sensor" example="microphone">%2$s</xliff:g>ـی بەکارهێنا</string>
+    <string name="privacy_chip_apps_recently_used_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> و <xliff:g id="additional_app_count" example="2">%2$d</xliff:g>ـی تر لەم دواییەدا <xliff:g id="sensor" example="microphone">%3$s</xliff:g>ـیان بەکارهێنا</string>
     <string name="mic_privacy_chip_on_toast">مایکرۆفۆن داگیرسێنرا</string>
     <string name="mic_privacy_chip_off_toast">مایکرۆفۆن کوژێنرایەوە</string>
     <string name="mic_privacy_chip_dialog_ok">باشە</string>
@@ -46,8 +46,8 @@
     <string name="sensor_privacy_start_use_mic_dialog_content">بۆ بەردەوامبوون، مایکرۆفۆنی سیستمی ڕاگەیاندن و کات بەسەربردن دابگیرسێنە. ئەمە مایکرۆفۆنەکە بۆ هەموو ئەو بەرنامانە داگیرسێنێت کە مۆڵەتیان هەیە.</string>
     <string name="camera_privacy_chip_app_using_camera_suffix"><xliff:g id="app" example="Assistant">%s</xliff:g> کامێرا بەکاردەهێنێت</string>
     <string name="camera_privacy_chip_apps_using_camera_suffix"><xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g> کامێرا بەکاردەهێنن</string>
-    <string name="camera_privacy_chip_app_recently_used_camera_suffix"><xliff:g id="app" example="Assistant">%s</xliff:g> لەم دوایییەدا کامێرای بەکارهێنا</string>
-    <string name="camera_privacy_chip_apps_recently_used_camera_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> و <xliff:g id="additional_app_count" example="2">%2$d</xliff:g>ـی تر لەم دوایییەدا کامێرایان بەکارهێنا</string>
+    <string name="camera_privacy_chip_app_recently_used_camera_suffix"><xliff:g id="app" example="Assistant">%s</xliff:g> لەم دواییەدا کامێرای بەکارهێنا</string>
+    <string name="camera_privacy_chip_apps_recently_used_camera_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> و <xliff:g id="additional_app_count" example="2">%2$d</xliff:g>ـی تر لەم دواییەدا کامێرایان بەکارهێنا</string>
     <string name="camera_privacy_chip_on_toast">کامێرا داگیرسێنرا</string>
     <string name="camera_privacy_chip_off_toast">کامێرا کوژێنرایەوە</string>
     <string name="camera_privacy_chip_dialog_ok">باشە</string>

@@ -366,8 +366,8 @@
     <string name="permdesc_statusBarService">ڕێگە بە بەرنامەکە دەدات ببێتە شریتی دۆخ.</string>
     <string name="permlab_expandStatusBar">کشاندنی/کۆکردنەوەی شریتی دۆخ</string>
     <string name="permdesc_expandStatusBar">ڕێگە بە بەرنامەکە دەدات شریتی دۆخ بکشێنێت یان کۆی بکاتەوە.</string>
-    <string name="permlab_fullScreenIntent">پیشاندانی ئاگادارکردنەوەکان وەک چالاکیی تەواوی ڕوونما لەسەر ئامێری قوفڵکراو</string>
-    <string name="permdesc_fullScreenIntent">ڕێگە بە بەرنامەکە دەدات ئاگادارکردنەوەکان وەک چالاکیی تەواوی ڕوونما لەسەر ئامێری قوفڵکراو پیشان بدات</string>
+    <string name="permlab_fullScreenIntent">پیشاندانی ئاگادارکردنەوەکان وەک چالاکیی تەواو ڕوونما لەسەر ئامێری قوفڵکراو</string>
+    <string name="permdesc_fullScreenIntent">ڕێگە بە بەرنامەکە دەدات ئاگادارکردنەوەکان وەک چالاکیی تەواو ڕوونما لەسەر ئامێری قوفڵکراو پیشان بدات</string>
     <string name="permlab_install_shortcut">دامەزراندنی قەدبڕەکان</string>
     <string name="permdesc_install_shortcut">ڕێگە بە بەرنامەیەک دەدات قەدبڕەکانی پەڕەی سەرەکی زیاد بکات بەبێ دەستوەردانی بەکارهێنەر.</string>
     <string name="permlab_uninstall_shortcut">سڕینەوە قەدبڕەکان</string>

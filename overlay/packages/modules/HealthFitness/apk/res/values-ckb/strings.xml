@@ -30,12 +30,12 @@
     <string name="connected_apps_one_app_connected_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens with one app connected. [CHAR_LIMIT=NONE]"><xliff:g example="1" id="num_apps_connected">%1$s</xliff:g> ئەپ دەستپێڕاگەیشتنی هەیە</string>
     <string name="connected_apps_button_no_permissions_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens, when no apps are connected. [CHAR_LIMIT=NONE]">هیچ</string>
     <string name="entry_details_title" description="Label for a screen that list an entry details. [CHAR_LIMIT=40]">وردەکارییەکانی تۆمار</string>
-    <string name="backup_title" description="Label for a button that takes the user to backup settings. [CHAR_LIMIT=40]">پشتیوانیکردن</string>
+    <string name="backup_title" description="Label for a button that takes the user to backup settings. [CHAR_LIMIT=40]">یەدەگگرتن</string>
     <string name="data_sources_and_priority_title" description="Label for a button that takes the user to app priority settings. [CHAR_LIMIT=40]">سەرچاوەکانی داتا و لەپێشینەبوون</string>
     <string name="set_units_title" description="Label for a button that takes the user to unit settings. [CHAR_LIMIT=40]">دیاریکردنی یەکەکان</string>
     <string name="recent_access_header" description="Header for section showing apps that have recently accessed health data [CHAR_LIMIT=NONE]">دەستپێڕاگەیشتنەکانی ئەم دواییە</string>
-    <string name="no_recent_access" description="Header for section showing apps that have recently accessed health data [CHAR_LIMIT=NONE]">لەم دوایییەدا هیچ ئەپێک دەستی بە Health Connect نەگەیشتووە</string>
-    <string name="show_recent_access_entries_button_title" description="Label on a button leading to another screen showing all the writes and reads performed by connected apps in the last 24 hours. [CHAR LIMIT=50]">بینینی هەموو دەستپێڕاگەیشتنەکانی ئەم دوایییە</string>
+    <string name="no_recent_access" description="Header for section showing apps that have recently accessed health data [CHAR_LIMIT=NONE]">لەم دواییەدا هیچ ئەپێک دەستی بە Health Connect نەگەیشتووە</string>
+    <string name="show_recent_access_entries_button_title" description="Label on a button leading to another screen showing all the writes and reads performed by connected apps in the last 24 hours. [CHAR LIMIT=50]">بینینی هەموو دەستپێڕاگەیشتنەکانی ئەم دواییە</string>
     <string name="recent_access_screen_description" description="Description of Recent access screen, placed at the top. [CHAR LIMIT=NONE]">ببینە لە 24 کاتژمێری ڕابردوودا کام ئەپانە دەستیان بە داتاکەت گەیشتووە</string>
     <string name="today_header" description="Header in the list of data access entries to differentiate between entries from today and yesterday. [CHAR LIMIT=50]">ئەمڕۆ</string>
     <string name="yesterday_header" description="Header in the list of data access entries to differentiate between entries from today and yesterday. [CHAR LIMIT=50]">دوێنێ</string>
@@ -363,7 +363,7 @@
     <string name="confirming_question_message_menstruation" description="Description of what menstruation entries this action will delete [CHAR_LIMIT=NONE]">ئەمە هەموو تۆمارەکانی سووڕی مانگانە لە <xliff:g example="22 January 2022" id="start_date">%1$s</xliff:g> تا <xliff:g example="22 January 2022" id="end_date">%2$s</xliff:g> دەسڕێتەوە.</string>
     <string name="confirming_question_delete_button" description="Label of a button that deletes data. [CHAR_LIMIT=50]">سڕینەوە</string>
     <string name="confirming_question_go_back_button" description="Label of a button that goes back to the previous dialog. [CHAR_LIMIT=50]">بڕۆ دواوە</string>
-    <string name="delete_dialog_success_got_it_button" description="Label of a button that dismisses the pop-up window. [CHAR_LIMIT=50]">کراو</string>
+    <string name="delete_dialog_success_got_it_button" description="Label of a button that dismisses the pop-up window. [CHAR_LIMIT=50]">تەواو</string>
     <string name="delete_dialog_failure_close_button" description="Label of a button that closes the window. [CHAR_LIMIT=50]">داخستن</string>
     <string name="delete_dialog_success_title" description="Title of the confirmation window of successful data deletion. [CHAR_LIMIT=50]">داتاکە سڕایەوە</string>
     <string name="delete_dialog_success_message" description="A message that confirms successful data deletion. [CHAR_LIMIT=NONE]">ئەم داتایە چیتر لە Health Connect پاشەکەوت نەکراوە.</string>
@@ -736,7 +736,7 @@
     other{Health Connect هەموو ئەو داتایانە دەسڕێتەوە کە لە # مانگ کۆنترن. لەوانەیە ڕۆژێکی پێ بچێت تا ئەم گۆڕانکارییانە لە ئەپە بەستراوەکانتدا دەربکەون.}
   }</string>
     <string name="deletion_started_category_list_section" description="Title of a section that lists those categories where data will be deleted from. [CHAR_LIMIT=NONE]">داتاکان لەمانە دەسڕدرێنەوە</string>
-    <string name="deletion_started_done_button" description="Button that closes the dialog. [CHAR_LIMIT=40]">کراو</string>
+    <string name="deletion_started_done_button" description="Button that closes the dialog. [CHAR_LIMIT=40]">تەواو</string>
     <string name="priority_dialog_title" description="Window title where user can set the priority order of apps. [CHAR_LIMIT=50]">دانانی لەپێشینەبوونی ئەپ</string>
     <string name="priority_dialog_message" description="Description of the dar-and-drop list of apps that is modifiable by the user. [CHAR_LIMIT=NONE]">ئەگەر زیاتر لە یەک ئەپ داتای <xliff:g example="heart rate" id="data_type">%s</xliff:g> زیاد بکات، Health Connect لەپێشینەیی دەدات بە بەرزترین ئەپ لەم لیستەدا. ئەپەکان ڕابکێشە بۆ دووبارە ڕیزکردنەوەیان.</string>
     <string name="priority_dialog_positive_button" description="Label of the button that saves modifications made by the user. [CHAR_LIMIT=50]">پاشەکەوتکردن</string>
@@ -780,40 +780,40 @@
     <string name="back_button" description="Label on the back button. [CHAR_LIMIT=20]">گەڕانەوە</string>
     <string name="loading" description="Label shown when loading data. [CHAR_LIMIT=40]">باردەکرێت…</string>
     <string name="migration_in_progress_screen_title" description="Title of screen shown when migration is in progress">تێکەڵکردن لە جێبەجێکردندایە</string>
-    <string name="migration_in_progress_screen_integration_details" description="Detail information shown when migration is in progress">Health Connect لەگەڵ سیستەمی ئەندرۆیدا تێکەڵ دەکرێت.
+    <string name="migration_in_progress_screen_integration_details" description="Detail information shown when migration is in progress">Health Connect لەگەڵ سیستمی ئەندرۆیدا تێکەڵ دەکرێت.
 
 لەوانەیە هەندێک کاتی پێ بچێت لە کاتی گواستنەوەی داتاکان و مۆڵەتەکانتدا.</string>
     <string name="migration_in_progress_screen_integration_dont_close" description="Instruction to not close application shown when migration is in progress">ئەپەکە دامەخە تا ئەو کاتەی ئاگادارکردنەوەیەکت پێ دەگات کە پرۆسەکە تەواو بووە.</string>
     <string name="migration_in_progress_notification_title" description="Title of notification sent when migration is in progress">تێکەڵکردنی Health Connect لە جێبەجێکردندایە</string>
     <string name="migration_update_needed_screen_title" description="Title of screen shown when migration is pending and an update is needed.">نوێکردنەوە پێویستە</string>
-    <string name="migration_update_needed_screen_details" description="Detail information shown when migration is pending and an update is needed.">Health Connect لەگەڵ سیستەمی ئەندرۆیدا تێکەڵ دەکرێت بۆ ئەوەی بتوانیت ڕاستەوخۆ لە ڕێکخستنەکانتەوە دەستت پێی بگات.</string>
+    <string name="migration_update_needed_screen_details" description="Detail information shown when migration is pending and an update is needed.">Health Connect لەگەڵ سیستمی ئەندرۆیدا تێکەڵ دەکرێت بۆ ئەوەی بتوانیت ڕاستەوخۆ لە ڕێکخستنەکانتەوە دەستت پێی بگات.</string>
     <string name="update_button" description="Text of a button prompting the user to update an app or their phone system [CHAR_LIMIT=40]">نوێکردنەوە</string>
-    <string name="migration_update_needed_notification_content" description="Content of notification sent when migration is pending and an app or module update is needed.">ئەم نوێکردنەوەیە دەست پێ بکە بۆ ئەوەی Health Connect بتوانێت بەردەوام بێت لە تێکەڵبوون لەگەڵ ڕێکخستنەکانی سیستەمەکەتدا</string>
+    <string name="migration_update_needed_notification_content" description="Content of notification sent when migration is pending and an app or module update is needed.">ئەم نوێکردنەوەیە دەست پێ بکە بۆ ئەوەی Health Connect بتوانێت بەردەوام بێت لە تێکەڵبوون لەگەڵ ڕێکخستنەکانی سیستمەکەتدا</string>
     <string name="migration_update_needed_notification_action" description="Action of notification sent when migration is pending and an app or module update is needed.">ئێستا نوێی بکەوە</string>
-    <string name="migration_module_update_needed_notification_title" description="Title of notification sent when migration is pending and an app or module update is needed.">نوێکردنەوەی سیستەم پێویستە</string>
-    <string name="migration_module_update_needed_action" description="Action information shown when migration is pending and a system update is needed.">پێش بەردەوامبوون، سیستەمی تەلەفۆنەکەت نوێ بکەوە.</string>
-    <string name="migration_module_update_needed_restart" description="Detail information shown when migration is pending and one update is needed.">ئەگەر پێشتر سیستەمی تەلەفۆنەکەت نوێ کردووەتەوە، تەلەفۆنەکەت پێ بکەرەوە بۆ بەردەوامبوون لە تێکەڵکردن</string>
+    <string name="migration_module_update_needed_notification_title" description="Title of notification sent when migration is pending and an app or module update is needed.">نوێکردنەوەی سیستم پێویستە</string>
+    <string name="migration_module_update_needed_action" description="Action information shown when migration is pending and a system update is needed.">پێش بەردەوامبوون، سیستمی تەلەفۆنەکەت نوێ بکەوە.</string>
+    <string name="migration_module_update_needed_restart" description="Detail information shown when migration is pending and one update is needed.">ئەگەر پێشتر سیستمی تەلەفۆنەکەت نوێ کردووەتەوە، تەلەفۆنەکەت پێ بکەرەوە بۆ بەردەوامبوون لە تێکەڵکردن</string>
     <string name="migration_app_update_needed_notification_title" description="Title of notification sent when migration is pending and an app or module update is needed.">نوێکردنەوەی Health Connect پێویستە</string>
     <string name="migration_app_update_needed_action" description="Action information shown when migration is pending and an app update is needed.">پێش بەردەوامبوون، ئەپی Health Connect بۆ نوێترین وەشان نوێ بکەوە.</string>
-    <string name="migration_more_space_needed_screen_title" description="Title of screen shown when migration is pending and more space is needed.">بۆشاییی زیاتر پێویستە</string>
-    <string name="migration_more_space_needed_screen_details" description="Detail information shown when migration is pending and more space is needed.">Health Connect پێویستی بە <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> بۆشاییی کۆگا هەیە لەسەر تەلەفۆنەکەت بۆ ئەوەی تێکەڵکردن بەردەوام بێت.
+    <string name="migration_more_space_needed_screen_title" description="Title of screen shown when migration is pending and more space is needed.">بۆشایی زیاتر پێویستە</string>
+    <string name="migration_more_space_needed_screen_details" description="Detail information shown when migration is pending and more space is needed.">Health Connect پێویستی بە <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> بۆشایی کۆگا هەیە لەسەر تەلەفۆنەکەت بۆ ئەوەی تێکەڵکردن بەردەوام بێت.
 
 هەندێک بۆشایی لەسەر تەلەفۆنەکەت چۆڵ بکە و دووبارە هەوڵ بدەوە.</string>
     <string name="try_again_button" description="Text of a button prompting the user to try looking at the space again [CHAR_LIMIT=40]">دووبارە هەوڵ بدەرەوە</string>
     <string name="free_up_space_button" description="Text of a button leading the user to their system storage so they can free up space. [CHAR_LIMIT=40]">بەتاڵکردنی شوێن</string>
-    <string name="migration_more_space_needed_notification_title" description="Title of notification sent when migration is pending and more space is needed.">بۆشاییی زیاتر پێویستە</string>
-    <string name="migration_more_space_needed_notification_content" description="Content of notification sent when migration is pending and more space is needed.">Health Connect پێویستی بە <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> بۆشاییی کۆگا هەیە لەسەر تەلەفۆنەکەت تا بەردەوام بێت لە تێکەڵبوون.</string>
+    <string name="migration_more_space_needed_notification_title" description="Title of notification sent when migration is pending and more space is needed.">بۆشایی زیاتر پێویستە</string>
+    <string name="migration_more_space_needed_notification_content" description="Content of notification sent when migration is pending and more space is needed.">Health Connect پێویستی بە <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> بۆشایی کۆگا هەیە لەسەر تەلەفۆنەکەت تا بەردەوام بێت لە تێکەڵبوون.</string>
     <string name="migration_paused_screen_title" description="Title of screen shown when migration has been paused.">تێکەڵکردن وەستێندرا</string>
-    <string name="migration_paused_screen_details" description="Detail information shown when migration has been paused.">ئەپی Health Connect داخرابوو لە کاتێکدا کە لەگەڵ سیستەمی ئەندرۆیددا تێکەڵ دەکرا.
+    <string name="migration_paused_screen_details" description="Detail information shown when migration has been paused.">ئەپی Health Connect داخرابوو لە کاتێکدا کە لەگەڵ سیستمی ئەندرۆیددا تێکەڵ دەکرا.
 
 کرتە لە دەستپێکردنەوە بکە بۆ دووبارە کردنەوەی ئەپەکە و بەردەوامبوون لە گواستنەوەی داتاکان و مۆڵەتەکانت.</string>
     <string name="migration_paused_screen_details_timeout" description="Detail information about migration timeout shown when migration has been paused.">بۆ هێشتنەوەی داتای Health Connectـت، ئەمە لە ماوەی <xliff:g example="1 day" id="time_needed">%1$s</xliff:g>دا تەواو بکە</string>
     <string name="resume_button" description="Text of a button prompting the user resume migration [CHAR_LIMIT=40]">دەستپێکردنەوە</string>
     <string name="migration_paused_notification_title" description="Title of notification sent when migration has been paused.">تێکەڵکردن وەستێندرا</string>
-    <string name="migration_paused_notification_content" description="Content of notification sent when migration has been paused.">Health Connect لەگەڵ سیستەمی ئەندرۆیدا تێکەڵ دەکرێت. پەنجە بنێ بۆ بەردەوامبوون</string>
+    <string name="migration_paused_notification_content" description="Content of notification sent when migration has been paused.">Health Connect لەگەڵ سیستمی ئەندرۆیدا تێکەڵ دەکرێت. پەنجە بنێ بۆ بەردەوامبوون</string>
     <string name="resume_migration_banner_title" description="Title of banner prompting the user to resume actions needed for migration">دەستپێکردنەوەی تێکەڵکردن</string>
-    <string name="resume_migration_banner_description" description="Description of banner prompting the user to resume actions needed for migration">پەنجە بنێ بۆ بەردەوامبوون لە تێکەڵکردنی Health Connect لەگەڵ سیستەمی ئەندرۆید. بۆ هێشتنەوەی داتاکەت، ئەمە لە ماوەی <xliff:g example="1 day" id="time_needed">%1$s</xliff:g>دا تەواو بکە</string>
-    <string name="resume_migration_banner_description_fallback" description="Fallback description of banner prompting the user to resume actions needed for migration">پەنجە بنێ بۆ بەردەوامبوون لە تێکەڵکردنی Health Connect لەگەڵ سیستەمی ئەندرۆید.</string>
+    <string name="resume_migration_banner_description" description="Description of banner prompting the user to resume actions needed for migration">پەنجە بنێ بۆ بەردەوامبوون لە تێکەڵکردنی Health Connect لەگەڵ سیستمی ئەندرۆید. بۆ هێشتنەوەی داتاکەت، ئەمە لە ماوەی <xliff:g example="1 day" id="time_needed">%1$s</xliff:g>دا تەواو بکە</string>
+    <string name="resume_migration_banner_description_fallback" description="Fallback description of banner prompting the user to resume actions needed for migration">پەنجە بنێ بۆ بەردەوامبوون لە تێکەڵکردنی Health Connect لەگەڵ سیستمی ئەندرۆید.</string>
     <string name="resume_migration_banner_button" description="Button of banner prompting the user to resume actions needed for migration">بەردەوامبوون</string>
     <string name="resume_migration_notification_title" description="Title of notification prompting the user to resume actions needed for migration">دەستپێکردنەوەی تێکەڵکردنی Health Connect</string>
     <string name="resume_migration_notification_content" description="Content of notification prompting the user to resume actions needed for migration">بۆ هێشتنەوەی داتاکەت، ئەمە لە ماوەی <xliff:g example="1 day" id="time_needed">%1$s</xliff:g>دا تەواو بکە</string>
@@ -823,15 +823,15 @@
     <string name="app_update_needed_banner_button" description="Button of banner prompting the user to update an app which is not currently working on this Android version.">پشکنین بۆ نوێکارییەکان</string>
     <string name="app_update_needed_banner_learn_more_button" description="Button of banner prompting the user to update an app which is not currently working on this Android version.">زیاتر بزانە</string>
     <string name="migration_pending_permissions_dialog_title" description="Title of dialog shown to the user when migration is pending and an app is requesting permissions.">تێکەڵکردنی Health Connect</string>
-    <string name="migration_pending_permissions_dialog_content" description="Content of dialog shown to the user when migration is pending and an app is requesting permissions.">Health Connect ئامادەیە بۆ ئەوەی لەگەڵ سیستەمی ئەندرۆیدەکەتدا تێکەڵ بکرێت. ئەگەر ئێستا دەستپێڕاگەیشتن بدەیت بە <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g>، لەوانەیە هەندێک تایبەتمەندی کار نەکەن تا ئەو کاتەی تێکەڵکردن تەواو دەبێت.</string>
-    <string name="migration_pending_permissions_dialog_content_apps" description="Content of dialog shown to the user when migration is pending and the user is viewing health permissions.">Health Connect ئامادەیە بۆ ئەوەی لەگەڵ سیستەمی ئەندرۆیدەکەتدا تێکەڵ بکرێت. ئەگەر ئێستا دەستپێڕاگەیشتن بدەیت بە ئەپەکان، لەوانەیە هەندێک تایبەتمەندی کار نەکەن تا ئەو کاتەی تێکەڵکردن تەواو دەبێت.</string>
+    <string name="migration_pending_permissions_dialog_content" description="Content of dialog shown to the user when migration is pending and an app is requesting permissions.">Health Connect ئامادەیە بۆ ئەوەی لەگەڵ سیستمی ئەندرۆیدەکەتدا تێکەڵ بکرێت. ئەگەر ئێستا دەستپێڕاگەیشتن بدەیت بە <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g>، لەوانەیە هەندێک تایبەتمەندی کار نەکەن تا ئەو کاتەی تێکەڵکردن تەواو دەبێت.</string>
+    <string name="migration_pending_permissions_dialog_content_apps" description="Content of dialog shown to the user when migration is pending and the user is viewing health permissions.">Health Connect ئامادەیە بۆ ئەوەی لەگەڵ سیستمی ئەندرۆیدەکەتدا تێکەڵ بکرێت. ئەگەر ئێستا دەستپێڕاگەیشتن بدەیت بە ئەپەکان، لەوانەیە هەندێک تایبەتمەندی کار نەکەن تا ئەو کاتەی تێکەڵکردن تەواو دەبێت.</string>
     <string name="migration_pending_permissions_dialog_button_continue" description="Button of dialog shown to the user when migration is pending and an app is requesting permissions.">بەردەوامبوون</string>
     <string name="migration_pending_permissions_dialog_button_start_integration" description="Button of dialog shown to the user when migration is pending and an app is requesting permissions.">دەستپێکردنی تێکەڵکردن</string>
     <string name="migration_in_progress_permissions_dialog_title" description="Title of dialog shown to the user when migration is in progress and an app is requesting permissions.">تێکەڵکردنی Health Connect لە جێبەجێکردندایە</string>
-    <string name="migration_in_progress_permissions_dialog_content" description="Content of dialog shown to the user when migration is in progress and an app is requesting permissions.">Health Connect لەگەڵ سیستەمی ئەندرۆیدا تێکەڵ دەکرێت.
+    <string name="migration_in_progress_permissions_dialog_content" description="Content of dialog shown to the user when migration is in progress and an app is requesting permissions.">Health Connect لەگەڵ سیستمی ئەندرۆیدا تێکەڵ دەکرێت.
 
 کاتێک پرۆسەکە تەواو بوو ئاگادارکردنەوەیەکت پێ دەگات و دەتوانیت <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> لەگەڵ Health Connect بەکاربهێنیت.</string>
-    <string name="migration_in_progress_permissions_dialog_content_apps" description="Content of dialog shown to the user when migration is in progress and the user is viewing health permissions.">Health Connect لەگەڵ سیستەمی ئەندرۆیدا تێکەڵ دەکرێت.
+    <string name="migration_in_progress_permissions_dialog_content_apps" description="Content of dialog shown to the user when migration is in progress and the user is viewing health permissions.">Health Connect لەگەڵ سیستمی ئەندرۆیدا تێکەڵ دەکرێت.
 
 کاتێک پرۆسەکە تەواو بوو ئاگادارکردنەوەیەکت پێ دەگات و دەتوانیت Health Connect بەکاربهێنیت.</string>
     <string name="migration_in_progress_permissions_dialog_button_got_it" description="Button of dialog shown to the user when migration is in progress and an app is requesting permissions.">تێگەیشتم</string>
@@ -843,14 +843,14 @@
     <string name="migration_complete_notification_title" description="Title of notification shown to the user when migration is complete">تێکەڵکردنی Health Connect تەواو بوو</string>
     <string name="migration_complete_notification_action" description="Action of notification shown to the user when migration is complete">کردنەوە</string>
     <string name="migration_whats_new_dialog_title" description="Title of dialog shown to the user after migration is done, informing them how to access the Health Connect module.">چی نوێیە</string>
-    <string name="migration_whats_new_dialog_content" description="Content of dialog shown to the user after migration is done, informing them how to access the Health Connect module.">ئێستا دەتوانیت ڕاستەوخۆ لە ڕێکخستنەکانتەوە دەستت بگات بە Health Connect. لە هەر کاتێکدا ئەپی Health Connect بسڕەوە بۆ چۆڵکردنی بۆشاییی کۆگا.</string>
+    <string name="migration_whats_new_dialog_content" description="Content of dialog shown to the user after migration is done, informing them how to access the Health Connect module.">ئێستا دەتوانیت ڕاستەوخۆ لە ڕێکخستنەکانتەوە دەستت بگات بە Health Connect. لە هەر کاتێکدا ئەپی Health Connect بسڕەوە بۆ چۆڵکردنی بۆشایی کۆگا.</string>
     <string name="migration_whats_new_dialog_button" description="Button of dialog shown to the user after migration is done, informing them how to access the Health Connect module.">تێگەیشتم</string>
     <string name="data_restore_in_progress_screen_title" description="Title of screen shown when data restore is in progress">گەڕاندنەوە لە جێبەجێکردندایە</string>
     <string name="data_restore_in_progress_content" description="Detail information shown when migration is in progress">Health Connect داتاکان و مۆڵەتەکان دەگەڕێنێتەوە. لەوانەیە هەندێک کاتی پێ بچێت تا تەواو دەبێت.</string>
     <string name="data_restore_in_progress_dialog_title" description="Title of dialog shown when data restore is in progress">گەڕاندنەوەی Health Connect لە جێبەجێکردندایە</string>
     <string name="data_restore_in_progress_dialog_button" description="Button of dialog shown when data restore is in progress">تێگەیشتم</string>
     <string name="data_restore_pending_banner_title" description="Title of banner shown when data restore is pending">نوێکردنەوە پێویستە</string>
-    <string name="data_restore_pending_banner_content" description="Content of banner shown when data restore is pending">پێش بەردەوامبوون لە گەڕاندنەوەی داتاکەت، سیستەمی تەلەفۆنەکەت نوێ بکەوە.</string>
+    <string name="data_restore_pending_banner_content" description="Content of banner shown when data restore is pending">پێش بەردەوامبوون لە گەڕاندنەوەی داتاکەت، سیستمی تەلەفۆنەکەت نوێ بکەوە.</string>
     <string name="data_restore_pending_banner_button" description="Button for banner shown when data restore is pending">ئێستا نوێی بکەوە</string>
     <string name="data_totals_header" description="Header for section showing cards with data type totals [CHAR_LIMIT=70]">کۆی گشتیی داتاکان</string>
     <string name="app_sources_header" description="Header for section showing apps contributing to the shown totals [CHAR_LIMIT=70]">سەرچاوەکانی ئەپ</string>

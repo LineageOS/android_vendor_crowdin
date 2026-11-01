@@ -17,7 +17,7 @@
     <string name="app_name">دابەزێنەری پاکێج</string>
     <string name="install">دامەزراندن</string>
     <string name="update">نوێکردنەوە</string>
-    <string name="done">کراو</string>
+    <string name="done">تەواو</string>
     <string name="cancel">پاشگەزبوونەوە</string>
     <string name="installing">دابەزاندن…</string>
     <string name="installing_app">دابەزاندنی <xliff:g id="package_label">%1$s</xliff:g>…</string>
