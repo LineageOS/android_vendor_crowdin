@@ -165,4 +165,15 @@
     <string name="top_intro_roaming_text">کاتێک لە دۆخی گەڕاندایت یان کارتی SIMـی چالاکت نییە، لەوانەیە هەندێک هۆشداریت پێ بگات کە لەم ڕێکخستنانەدا نەبن</string>
     <string name="notification_cb_settings_changed_title">ڕێکخستنەکانت گۆڕران</string>
     <string name="notification_cb_settings_changed_text">ڕێکخستنەکانی ئاگادارکردنەوەی بێتەلی لەناکاو گەڕێندرانەوە بۆ سەرەتا چونکە سیمکارتەکەت گۆڕدرا</string>
+    <string name="button_translate">وەرگێڕان</string>
+    <string name="translation_failed_toast">وەرگێڕان بەردەست نییە</string>
+    <string name="translation_consent_title">وەرگێڕان چالاک بکرێت؟</string>
+    <string name="translation_consent_message">وەرگێڕانەکان خۆکارانەن و لەوانەیە هەڵەیان تێدابێت</string>
+    <string name="translation_consent_positive_button">چالاککردن</string>
+    <string name="translation_consent_negative_button">نەخێر، سوپاس</string>
+    <string name="download_language_title">داگرتن پێویستە</string>
+    <string name="download_language_message">بۆ وەرگێڕانی پەیامەکان بەبێ هێڵی ئینتەرنێت، پێویستە لە ڕێکخستنەکان گورزەی زمانێکی زیاتر دابگریت</string>
+    <string name="download_language_positive_button">ڕێکخستنەکان</string>
+    <string name="download_language_negative_button">ئێستا نا</string>
+    <string name="button_map">نەخشە</string>
 </resources>
