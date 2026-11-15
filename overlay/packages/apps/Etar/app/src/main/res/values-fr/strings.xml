@@ -216,6 +216,8 @@
     <string name="snooze_delay_dialog_title">Régler le délai de répétition</string>
     <string name="preferences_default_snooze_delay_title">Délai de mise en veille par défaut</string>
     <string name="preferences_default_snooze_delay_dialog">Délai de mise en veille par défaut</string>
+    <string name="preferences_staggered_display_title">Affichage superposé</string>
+    <string name="preferences_staggered_display_summary">Afficher les événements qui se chevauchent de façon superposée</string>
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Le projet Etar. Parties \u00a9 2005-<xliff:g>%1$s</xliff:g>  The Android Open Source Project.</string>
     <string name="authors">Auteurs</string>
     <string name="changelog">Historique des modifications</string>
